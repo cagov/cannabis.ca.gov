@@ -1,0 +1,54 @@
+.highlight, .highlight-lightblue {
+  box-shadow: 0 0 5px 2px rgb(0 0 0 / 14%);
+}
+
+.highlight {
+  border-bottom: 8px solid #ff8000;
+  padding: 32px 40px 40px;
+  background-color: #fff;
+}
+.mt-5 {
+  margin-top: 3rem!important;
+}
+
+.button-lightblue {
+  display: inline-block;
+  font-family: Montserrat,sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 0 transparent;
+  padding: .625rem 1.5rem;
+  line-height: 1.5;
+  border-radius: 50px;
+  text-decoration: none!important;
+  transition: all .3s ease;
+  background-color: #92c5de;
+  color: #1f2574!important;
+}
+
+@media (min-width: 768px) {
+  .order-md-1 {
+    order: 1!important;
+  }
+}
+@media (min-width: 768px) {
+  .order-md-last {
+    order: 6!important;
+  }
+}
+.order-last {
+  order: 6!important;
+}
+.text-center {
+  text-align: center!important;
+}
+
+.mw-900 {
+  max-width: 900px;
+}
+.m-auto {
+  margin: 0 auto;
+}

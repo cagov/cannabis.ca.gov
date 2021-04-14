@@ -1,0 +1,125 @@
+/* beginnings of normalize */
+*, :after, :before {
+  box-sizing: border-box;
+  background-color: inherit;
+  font-family: inherit;
+  color: inherit;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+}
+
+/* my universal styles */
+body {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+nav, main, footer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+/* my utility classes */
+.p-2 {
+  padding: 2rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.border {
+  border: solid 1px;
+}
+.cluster .sp-bt {
+  justify-content: space-between;
+}
+.fb-500 {
+  flex-basis: 500px !important;
+}
+
+/* css var values */
+:root {
+  --s1: 0px; /* this needs to have px value or the calcs using it break */
+}
+
+/* every-layout.dev layout classes */
+.stack * + * {
+  margin-top: 1.5rem;
+}
+
+.cluster {
+  --space: 1rem;
+  overflow: hidden;
+}
+.cluster > * {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: calc(var(--space) / 2 * -1);
+}
+.cluster > * > * {
+  margin: calc(var(--space) / 2);
+}
+
+.with-sidebar {
+  overflow: hidden;
+}
+.with-sidebar > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.with-sidebar > * > * {
+  margin: 0;
+  flex-grow: 1;
+}
+.with-sidebar-left > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+.with-sidebar-right > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - 0px);
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+}
+@supports (width: min(250px, 100%)) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  }
+}
+
+/* homepage specific rules */
+.featured-sidebar {
+  max-width: 400px;
+}
+.featured-section {
+  max-height: 360px;
+}
+.featured-image {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+.card {
+  border: 1px solid;
+  padding: 1rem;
+  border-bottom: 3px solid green;
+  min-width: 250px;
+  min-height: 50px;
+  margin-top: 0;
+}
+nav {
+  margin-top: 2rem;
+}
+footer {
+  margin-bottom: 3rem;
+}
