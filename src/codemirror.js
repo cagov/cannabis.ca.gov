@@ -29,7 +29,7 @@ let footerEditor = new EditorView({
 
 let highlightEditor = new EditorView({
   state: EditorState.create({
-    doc: document.querySelector('.highlight-sample').outerHTML,
+    doc: document.querySelector('.highlight-sample').innerHTML,
     extensions: [basicSetup, html()]
   }),
   parent: document.querySelector('.highlight-code')
