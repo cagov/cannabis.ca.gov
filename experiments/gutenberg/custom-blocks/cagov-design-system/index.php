@@ -19,6 +19,6 @@ License: MIT
 Text Domain: www.ca.gov
  
 */
-
+include 'card/alert.php';
 include 'card/index.php';
 include 'card-grid/index.php';

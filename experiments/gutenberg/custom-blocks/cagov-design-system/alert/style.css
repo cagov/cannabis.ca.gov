@@ -1,0 +1,68 @@
+.cagov-stack * + * {
+  margin-top: 1.5rem;
+}
+
+.alignfull, .full-max-width, .full-bleed {
+  max-width:100% !important;
+  width: 100vw !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.cagov-alert {
+  padding: 1.5rem;
+  background-color: #1E1569;
+  min-height: 50px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  color: #fff !important;
+}
+.cagov-alert h3, .cagov-alert p {
+  color: #fff !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 1rem;
+  margin: 0 auto;
+}
+
+.cagov-alert .container {
+  border-left: 5px solid #FEC02F;
+}
+
+.cagov-alert .alert-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.cagov-alert .alert-text {
+  margin-top: .725rem !important;
+}
+
+.cagov-alert .button-white {
+  margin-top: 2rem !important;
+}
+
+.cagov-alert .button-white a {
+  color: #1E1569 !important;
+  padding: .725rem !important;
+  background-color: #fff;
+  border-radius: 4px !important;
+  transition: all .3s ease;
+  text-decoration: none;
+  position: relative;
+  top: -.4rem;
+}
+
+.cagov-alert .button-white a:hover {
+  color: #1E1569 !important;
+  padding: .725rem !important;
+  background-color:#FEC02F !important;
+  border-radius: 4px;
+}
+
+.cagov-alert .button-white a:focus {
+  outline: 2px solid #FEC02F;
+}
