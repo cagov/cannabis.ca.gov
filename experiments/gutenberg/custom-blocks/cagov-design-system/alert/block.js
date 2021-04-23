@@ -19,7 +19,7 @@
 			title: {
 				type: 'array',
 				source: 'children',
-				selector: 'h3',
+				selector: 'p',
 			},
 			body: {
 				type: 'array',
