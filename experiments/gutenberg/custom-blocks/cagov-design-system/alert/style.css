@@ -43,6 +43,7 @@
 
 .cagov-alert .button-white {
   margin-top: 2rem !important;
+  display: block;
 }
 
 .cagov-alert .button-white a {

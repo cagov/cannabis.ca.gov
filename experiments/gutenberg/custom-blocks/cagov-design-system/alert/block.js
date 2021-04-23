@@ -19,7 +19,7 @@
 			title: {
 				type: 'array',
 				source: 'children',
-				selector: 'p',
+				selector: 'h3',
 			},
 			body: {
 				type: 'array',
@@ -29,7 +29,7 @@
 			button: {
 				type: 'array',
 				source: 'children',
-				selector: 'p',
+				selector: 'span',
 			},
 		},
 		example: {
@@ -49,7 +49,7 @@
 					'div',
 					{ className: 'container' },
 				el( RichText, {
-					tagName: 'p',
+					tagName: 'h3',
 					className: 'alert-title',
 					inline: true,
 					placeholder: __(
@@ -75,7 +75,7 @@
 					},
 				} ),
 				el( RichText, {
-					tagName: 'p',
+					tagName: 'span',
 					className: 'button-white',
 					inline: true,
 					placeholder: __(
@@ -99,7 +99,7 @@
 					'div',
 					{ className: 'container' },
 				el( RichText.Content, {
-					tagName: 'p',
+					tagName: 'h3',
 					className: 'alert-title',
 					value: attributes.title,
 				} ),
@@ -109,7 +109,7 @@
 					value: attributes.body,
 				} ),
 				el( RichText.Content, {
-					tagName: 'p',
+					tagName: 'span',
 					className: 'button-white',
 					value: attributes.button,
 				} ),
