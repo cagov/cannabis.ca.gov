@@ -1,0 +1,28 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-cgb-block-chart-drawer {
+  border: solid 1px #ccc; }
+
+button.card-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: left;
+      justify-content: left;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 1rem .75rem;
+  background-clip: border-box;
+  background-color: #fff;
+  border: none;
+  border-radius: 0 !important;
+  margin-top: -1px; }
