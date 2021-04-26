@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ca.gov Design System - Gutenberg Blocks
  * Plugin URI: TBD
- * Description: 
+ * Description: TBD
  * Author: 
  * Author URI: 
  * Version: 1.0.0
