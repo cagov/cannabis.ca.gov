@@ -1,0 +1,17 @@
+.cagov-stack * + * {
+  margin-top: 1.5rem;
+}
+
+
+.cagov-card {
+  border: 1px solid;
+  padding: 1rem;
+  border-bottom: 0.3rem solid #33705B;
+  border-radius: 0.3rem;
+  min-width: 250px;
+  min-height: 50px;
+  margin-top: 0;
+}
+.cagov-card h3 {
+  color: #33705B !important;
+}
