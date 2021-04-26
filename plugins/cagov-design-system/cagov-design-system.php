@@ -8,8 +8,7 @@
  * Version: 1.0.0
  * License: TBD
  * License URI: TBD
- * Text Domain: california-design-system
- * GitHub Plugin URI: https://github.com/cagov/cannabis.ca.gov/
+ * Text Domain: cagov-design-system
  * @package cagov-design-system
  */
 if (!defined('ABSPATH')) {
