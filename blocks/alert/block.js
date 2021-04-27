@@ -7,7 +7,7 @@
 	var RichText = editor.RichText;
 
 	blocks.registerBlockType( 'cagov/alert', {
-		title: __( 'CAGov: Card', 'cagov-design-system' ),
+		title: __( 'CAGov: Alert', 'cagov-design-system' ),
 		icon: 'universal-access-alt',
 		category: 'layout',
 		attributes: {
@@ -49,7 +49,7 @@
 					inline: true,
 					placeholder: __(
 						'Write alert title…',
-						'gutenberg-examples'
+						'cagov-design-system'
 					),
 					value: attributes.title,
 					onChange: function( value ) {
@@ -62,7 +62,7 @@
 					inline: true,
 					placeholder: __(
 						'Write alert body',
-						'gutenberg-examples'
+						'cagov-design-system'
 					),
 					value: attributes.body,
 					onChange: function( value ) {
@@ -75,7 +75,7 @@
 					inline: true,
 					placeholder: __(
 						'Write alert button text',
-						'gutenberg-examples'
+						'cagov-design-system'
 					),
 					value: attributes.button,
 					onChange: function( value ) {
