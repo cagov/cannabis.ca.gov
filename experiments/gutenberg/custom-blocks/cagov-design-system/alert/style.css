@@ -3,11 +3,8 @@
 }
 
 .alignfull, .full-max-width, .full-bleed {
-  max-width:100% !important;
   width: 100vw !important;
   margin-left: calc(50% - 50vw) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 .cagov-alert {
@@ -22,11 +19,12 @@
   color: #fff !important;
 }
 
-.container {
+.cagov-alert .container {
   width: 100%;
   max-width: 1200px;
   padding-left: 1rem;
   margin: 0 auto;
+  padding-bottom: 0.5rem;
 }
 
 .cagov-alert .container {
@@ -36,6 +34,8 @@
 .cagov-alert .alert-title {
   font-size: 1.125rem;
   font-weight: 700;
+  padding-top:0;
+  margin: 0;
 }
 .cagov-alert .alert-text {
   margin-top: .725rem !important;
