@@ -1,64 +1,56 @@
 <?php
+
 /**
- * Functions to register client-side assets (scripts and stylesheets) for the
- * Gutenberg block.
- *
- * @package california-design-system
+ * Plugin Name: News Block
+ * Plugin URI: TBD
+ * Description: TBD
+ * Version: 1.1.0
+ * Author: California Office of Digital Innovation
+ * @package cagov-design-system
  */
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Load all translations for our plugin from the MO file.
+ */
+add_action( 'init', 'cagov_design_system_gutenberg_block_news_block' );
+
+function cagov_design_system_gutenberg_block_news_block() {
+	load_plugin_textdomain( 'cagov-design-system', false, basename( __DIR__ ) . '/languages' );
+}
 
 /**
  * Registers all block assets so that they can be enqueued through Gutenberg in
  * the corresponding context.
  *
- * @see https://wordpress.org/gutenberg/handbook/designers-developers/developers/tutorials/block-tutorial/applying-styles-with-stylesheets/
+ * Passes translations to JavaScript.
  */
-function news_block_init() {
-	// Skip block registration if Gutenberg is not enabled/merged.
+function cagov_design_system_register_news_block() {
+
 	if ( ! function_exists( 'register_block_type' ) ) {
+		// Gutenberg is not active.
 		return;
 	}
-	$dir = dirname( __FILE__ );
 
-	$index_js = 'news/index.js';
 	wp_register_script(
-		'news-block-editor',
-		plugins_url( $index_js, __FILE__ ),
-		array(
-			'wp-blocks',
-			'wp-i18n',
-			'wp-element',
-		),
-		filemtime( "$dir/$index_js" )
+		'california-design-system-news-block',
+		plugins_url( 'block.js', __FILE__ ),
+		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor', 'underscore' ),
+		filemtime( plugin_dir_path( __FILE__ ) . 'block.js' )
 	);
 
-	$editor_css = 'news/editor.css';
 	wp_register_style(
-		'news-block-editor',
-		plugins_url( $editor_css, __FILE__ ),
-		array(),
-		filemtime( "$dir/$editor_css" )
+		'cagov-news-block',
+		plugins_url( 'style.css', __FILE__ ),
+		array( ),
+		filemtime( plugin_dir_path( __FILE__ ) . 'style.css' )
 	);
 
-	$style_css = 'news/style.css';
-	wp_register_style(
-		'news-block',
-		plugins_url( $style_css, __FILE__ ),
-		array(),
-		filemtime( "$dir/$style_css" )
-	);
-
-  $frontend_js = 'news/frontend.js';
-  wp_enqueue_script(
-    'california-design-system-news-frontend',
-    plugins_url($frontend_js, __FILE__),
-    array( "wp-editor"),
-    true
-  );
-
-	register_block_type( 'california-design-system/news', array(
-		'editor_script' => 'news-block-editor',
-		'editor_style'  => 'news-block-editor',
-		'style'         => 'news-block',
+	register_block_type( 'cagov/news-block', array(
+		'style' => 'cagov-news-block',
+		'editor_script' => 'california-design-system-news-block',
 	) );
+
 }
-add_action( 'init', 'news_block_init' );
+add_action( 'init', 'cagov_design_system_register_news_block' );

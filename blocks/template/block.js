@@ -1,17 +1,13 @@
 /**
- * CAGov card
+ * CAGov BLOCK TEMPLATE
  *
- * Simple block, renders and saves the same content without interactivity.
- *
- * Using inline styles - no external stylesheet needed.  Not recommended
- * because all of these styles will appear in `post_content`.
  */
  ( function( blocks, editor, i18n, element, components, _ ) {
 	var __ = i18n.__;
 	var el = element.createElement;
 	var RichText = editor.RichText;
 
-	blocks.registerBlockType( 'cagov/card', {
+	blocks.registerBlockType( 'cagov/template', {
 		title: __( 'CAGov: Card', 'cagov-design-system' ),
 		icon: 'universal-access-alt',
 		category: 'layout',
@@ -38,12 +34,12 @@
 
 			return el(
 				'div',
-				{ className: 'cagov-card cagov-stack' },
+				{ className: 'cagov-template cagov-stack' },
 				el( RichText, {
 					tagName: 'h3',
 					inline: true,
 					placeholder: __(
-						'Write card title…',
+						'Write template title…',
 						'cagov-design-system'
 					),
 					value: attributes.title,
@@ -55,7 +51,7 @@
 					tagName: 'p',
 					inline: true,
 					placeholder: __(
-						'Write card body',
+						'Write template body',
 						'cagov-design-system'
 					),
 					value: attributes.body,
@@ -69,7 +65,7 @@
 			var attributes = props.attributes;
 			return el(
 				'div',
-				{ className: 'cagov-card cagov-stack' },
+				{ className: 'cagov-template cagov-stack' },
 				el( RichText.Content, {
 					tagName: 'h3',
 					value: attributes.title,

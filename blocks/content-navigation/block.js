@@ -1,10 +1,5 @@
 /**
- * CAGov card
- *
- * Simple block, renders and saves the same content without interactivity.
- *
- * Using inline styles - no external stylesheet needed.  Not recommended
- * because all of these styles will appear in `post_content`.
+ * CAGov Content Navigation
  */
  ( function( blocks, editor, i18n, element, components, _ ) {
 	var __ = i18n.__;
@@ -44,7 +39,7 @@
 					inline: true,
 					placeholder: __(
 						'Write card title…',
-						'cagov-design-system'
+						'gutenberg-examples'
 					),
 					value: attributes.title,
 					onChange: function( value ) {

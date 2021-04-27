@@ -1,18 +1,14 @@
 /**
- * CAGov card
+ * CAGov Card Grid
  *
- * Simple block, renders and saves the same content without interactivity.
- *
- * Using inline styles - no external stylesheet needed.  Not recommended
- * because all of these styles will appear in `post_content`.
  */
  ( function( blocks, editor, i18n, element, components, _ ) {
 	var __ = i18n.__;
 	var el = element.createElement;
 	var RichText = editor.RichText;
 
-	blocks.registerBlockType( 'cagov/card', {
-		title: __( 'CAGov: Card', 'cagov-design-system' ),
+	blocks.registerBlockType( 'cagov/card-grid', {
+		title: __( 'CAGov: Card Grid', 'cagov-design-system' ),
 		icon: 'universal-access-alt',
 		category: 'layout',
 		attributes: {
@@ -29,8 +25,8 @@
 		},
 		example: {
 			attributes: {
-				title: __( 'Card title', 'cagov-design-system' ),
-				body: __( 'Card body', 'cagov-design-system' )
+				title: __( 'Card Grid title', 'cagov-design-system' ),
+				body: __( 'Card Grid body', 'cagov-design-system' )
 			}
 		},
 		edit: function( props ) {
@@ -38,7 +34,7 @@
 
 			return el(
 				'div',
-				{ className: 'cagov-card cagov-stack' },
+				{ className: 'cagov-card-grid cagov-stack' },
 				el( RichText, {
 					tagName: 'h3',
 					inline: true,

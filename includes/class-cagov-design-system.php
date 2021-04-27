@@ -26,12 +26,11 @@ class CAGOVDesignSystem {
         // Note for Design System developers:
         // ROADMAP: Eventually, when there are more dependencies and installers would like to control which blocks are enabled, we can alter this function & create an admin page that will let administrators enable and disable blocks.
         // For now, all of the blocks will load.
-        // News blocks should be registered alphabetically.
+        // New blocks should be registered alphabetically.
 
-        // require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/alert/plugin.php';
         require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/card/plugin.php';
-        // require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/card-grid/plugin.php';
-        // require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/content-navigation/plugin.php';
-        // require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/news/plugin.php';
+        require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/card-grid/plugin.php';
+        require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/content-navigation/plugin.php';
+        require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/news/plugin.php';
     }
 }
