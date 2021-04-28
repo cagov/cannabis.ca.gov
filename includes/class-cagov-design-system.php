@@ -32,5 +32,6 @@ class CAGOVDesignSystem {
         require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/card-grid/plugin.php';
         require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/content-navigation/plugin.php';
         require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/news/plugin.php';
+        require_once CAGOV_DESIGN_SYSTEM_BLOCKS_DIR_PATH . '/blocks/hero/plugin.php';
     }
 }
