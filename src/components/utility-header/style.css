@@ -1,0 +1,54 @@
+/*official*/
+	.official-header {
+		background-color: #f9f9fa;
+		padding: 5px 0 5px 0;
+		width: 100%;
+	}
+	.official-header .container {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		box-sizing: border-box;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 10px 0 10px;
+	}
+	.official-header svg {
+		padding: 0px 20px 0 0;
+	}
+	.official-header svg .ca {
+		fill: #fec02f;
+	}
+	.official-header svg .gov {
+		fill: #0f1e6b;
+	}
+	.official-tag {
+		margin: 0;
+	}
+	@media (min-width:768px) {
+		.official-languages {
+			margin-left: auto;
+		}
+	}
+	.official-languages a {
+		color: #000;
+		padding: 0 .5rem 0 .5rem;
+	}
+	.official-languages a:hover {
+		color:#1E1569;
+	}
+	.official-languages button.offcial-more {
+		padding-right: 0;
+		border: none;
+		text-decoration: underline;
+		background-color: #fff;
+	}
+	.official-languages button.offcial-more:hover {
+		color:#1E1569;
+	}
+	.official-languages .caret-down svg {
+		padding: 0 0 0 0;
+		width: 20px;
+		height: 18px;
+		overflow: visible;
+	}

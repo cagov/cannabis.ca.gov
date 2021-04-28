@@ -1,0 +1,65 @@
+
+/* branding */
+.branding {
+	box-sizing: border-box;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5px 10px 5px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.branding a {color: black; text-decoration: none;}
+.branding .logo-text {padding-left: 5px; display:inline-block}
+.branding .logo-text .logo-state {
+	font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    line-height: 1.2em;
+    transition: all .3s;
+    display: block;
+}
+.branding .logo-text .logo-dept {
+	font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    line-height: 1.2em;
+    transition: all .3s;
+    display: block;
+}
+
+.mobile-search {margin-left: auto;}
+
+.mobile-search button.search-btn, .mobile-menu button.menu-btn {
+	border:none; 
+	background: transparent;
+	overflow: visible;
+	padding: 10px 10px;
+	margin-right: 10px;
+	color:#004ABC;
+}
+.mobile-search button.search-btn:hover, .mobile-menu button.menu-btn:hover {
+	color: #1E1569;
+}
+.mobile-search button.search-btn:focus, .mobile-menu button.menu-btn:focus {
+	color: #1E1569;
+	outline: 2px solid #fec02f;;
+}
+.mobile-search button.search-btn svg, .mobile-menu button.menu-btn svg {
+	position: relative;
+    top: 3px;
+}
+.mobile-search button.search-btn svg, .mobile-menu button.menu-btn svg 
+	{margin-right: 5px;}
+.mobile-search button.search-btn .blue, .mobile-menu button.menu-btn .blue {
+	fill:#004ABC;}
+	.mobile-search button.search-btn:hover .blue, .mobile-menu button.menu-btn:hover .blue {
+		fill:#1E1569;}
+
+@media (min-width:768px) {
+	.mobile-search {display: none;}
+	.mobile-menu {display: none;}
+}
