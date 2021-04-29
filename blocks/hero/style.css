@@ -1,0 +1,69 @@
+.stack * + * {
+  margin-top: 1.5rem;
+}
+.cagov-p-2 {
+  padding: 2rem;
+}
+.cagov-border {
+  border: solid 1px;
+}
+
+/* homepage specific rules */
+.cagov-featured-sidebar {
+  max-width: 360px;
+}
+.cagov-featured-section {
+  max-height: 360px;
+}
+.cagov-featured-image {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+/* editor overrides */
+.editor-styles-wrapper img.cagov-featured-image, .block-editor__container img.cagov-featured-image {
+  height: 100%;
+}
+.editor-styles-wrapper .wp-block a.cagov-action-link {
+  color: #fff;
+}
+.cagov-featured-section .components-button.image-button {
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a.cagov-action-link {
+  background-color: #33705B;
+  color: white;
+  padding: 1rem;
+  border-radius: .3rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* sidebar layout */
+.cagov-with-sidebar {
+  overflow: hidden;
+}
+.cagov-with-sidebar > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.cagov-with-sidebar > * > * {
+  margin: 0;
+  flex-grow: 1;
+}
+.cagov-with-sidebar-left > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(30% - var(0px));
+}
+.cagov-with-sidebar-right > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(30% - 0px);
+}
