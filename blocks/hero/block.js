@@ -10,6 +10,7 @@
 	var __ = i18n.__;
 	var el = element.createElement;
 	var RichText = editor.RichText;
+	var PlainText = editor.PlainText;
 	var MediaUpload = editor.MediaUpload;
 
 	blocks.registerBlockType( 'cagov/hero', {
@@ -30,6 +31,11 @@
 				type: 'array',
 				source: 'children',
 				selector: 'a',
+			},
+			buttonurl: {
+				type: 'array',
+				source: 'children',
+				selector: 'button'
 			},
 			mediaID: {
 				type: 'number',
@@ -72,31 +78,43 @@
 								props.setAttributes( { title: value } );
 							},
 						} ),
-						el( RichText, {
-							tagName: 'p',
-							inline: true,
-							placeholder: __(
-								'Write hero body',
-								'cagov-design-system'
-							),
-							value: attributes.body,
-							onChange: function( value ) {
-								props.setAttributes( { body: value } );
-							},
-						} ),
-						el( RichText, {
-							tagName: 'a',
-							className: 'cagov-action-link',
-							inline: true,
-							placeholder: __(
-								'Write button text',
-								'cagov-design-system'
-							),
-							value: attributes.buttontext,
-							onChange: function( value ) {
-								props.setAttributes( { buttontext: value } );
-							},
-						} )
+						// el( RichText, {
+						// 	tagName: 'p',
+						// 	inline: true,
+						// 	placeholder: __(
+						// 		'Write hero body',
+						// 		'cagov-design-system'
+						// 	),
+						// 	value: attributes.body,
+						// 	onChange: function( value ) {
+						// 		props.setAttributes( { body: value } );
+						// 	},
+						// } ),
+						el(
+							'div',
+							{ className: 'cagov-hero-body-content' },
+							el( editor.InnerBlocks,
+								{
+									allowedBlocks: ['core/paragraph', 'core/button' ],
+									onChange: function( value ) {
+										console.log(value)
+									}
+								}
+							)
+						)
+						// el( RichText, {
+						// 	tagName: 'a',
+						// 	className: 'cagov-action-link',
+						// 	inline: true,
+						// 	placeholder: __(
+						// 		'Write button text',
+						// 		'cagov-design-system'
+						// 	),
+						// 	value: attributes.buttontext,
+						// 	onChange: function( value ) {
+						// 		props.setAttributes( { buttontext: value } );
+						// 	},
+						// } )
 					),
 					el('div', {  },
 						el( MediaUpload, {
@@ -118,8 +136,6 @@
 								);
 							},
 						} )
-						/*el('img', { className: 'cagov-featured-image', src: 'http://www.fillmurray.com/720/240' },
-						),*/
 					),
 				),
 			);
@@ -134,15 +150,9 @@
 							tagName: 'h3',
 							value: attributes.title,
 						} ),
-						el( RichText.Content, {
-							tagName: 'p',
-							value: attributes.body,
-						} ),
-						el( RichText.Content, {
-							tagName: 'a',
-							className: 'cagov-action-link',
-							value: attributes.buttontext,
-						} )
+						el('div', { className: 'cagov-hero-body-content' },
+							el( editor.InnerBlocks.Content )
+						),
 					),
 					attributes.mediaURL && el('div', {  },
 						el('img', { className: 'cagov-featured-image', src: attributes.mediaURL  },
@@ -154,7 +164,7 @@
 	} );
 } )(
 	window.wp.blocks,
-	window.wp.editor,
+	window.wp.blockEditor,
 	window.wp.i18n,
 	window.wp.element,
 	window.wp.components,
