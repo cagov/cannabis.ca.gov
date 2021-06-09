@@ -110,6 +110,9 @@ div.goog-te-gadget {
   .first-level-btn {
     padding: 15px 5px 12px 5px;
   }
+  .first-level-link:hover {
+    background: none !important;
+  }
   .main-navigation .first-level-link .ca-gov-icon-logo,
   .main-navigation .first-level-btn .ca-gov-icon-logo {
     display: none !important;
