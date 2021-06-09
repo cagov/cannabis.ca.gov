@@ -56,7 +56,13 @@ div.goog-te-gadget {
 color:black !important;
 border:none !important;
 background:none !important;
+display:none;
 }
+
+/* END -- Utility Header custom styles */
+
+
+/* START -- Main Content */
 
 /* override card grid so they stack at theme breakpoint that slims main content */
 @media (max-width: 991px) {
@@ -70,4 +76,4 @@ background:none !important;
   text-decoration: none;
 }
 
-/* END -- Utility Header custom styles */
+/* END -- Main Content */
