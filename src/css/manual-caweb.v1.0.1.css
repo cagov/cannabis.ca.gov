@@ -66,7 +66,7 @@ background:none !important;
 }
 
 /* link underline not used in cannabis designs */
-.main-content a:not(.btn) {
+.main-content a.cagov-card {
   text-decoration: none;
 }
 
