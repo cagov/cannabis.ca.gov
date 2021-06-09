@@ -3,7 +3,7 @@
  @media (min-width: 1280px) {
   .main-navigation, .mobile-controls, .container, .main-content > .section,
   .two-column .main-content > .section, .branding, .non_divi_builder .main-content, #main-content .entry-content .et_builder_inner_content>.et_pb_section>.et_pb_row, #main-content .entry-content .et_builder_inner_content>#et-fb-app .et-fb-post-content>.et_pb_section>.et_pb_row, #main-content .entry-content>.et_pb_section>.et_pb_row, .et_pb_module.et_pb_fullwidth_menu .et_pb_row {
-    max-width: 1176px;
+    max-width: 1176px !important;
   }
 }
 
