@@ -1,72 +1,128 @@
 /* GLOBAL */
- /* Changing site's global max width */
- @media (min-width: 1280px) {
-  .main-navigation, .mobile-controls, .container, .main-content > .section,
-  .two-column .main-content > .section, .branding, .non_divi_builder .main-content, #main-content .entry-content .et_builder_inner_content>.et_pb_section>.et_pb_row, #main-content .entry-content .et_builder_inner_content>#et-fb-app .et-fb-post-content>.et_pb_section>.et_pb_row, #main-content .entry-content>.et_pb_section>.et_pb_row, .et_pb_module.et_pb_fullwidth_menu .et_pb_row {
+/* Changing site's global max width */
+@media (min-width: 1280px) {
+  .main-navigation,
+  .mobile-controls,
+  .container,
+  .main-content > .section,
+  .two-column .main-content > .section,
+  .branding,
+  .non_divi_builder .main-content,
+  #main-content .entry-content .et_builder_inner_content > .et_pb_section > .et_pb_row,
+  #main-content .entry-content .et_builder_inner_content > #et-fb-app .et-fb-post-content > .et_pb_section > .et_pb_row,
+  #main-content .entry-content > .et_pb_section > .et_pb_row,
+  .et_pb_module.et_pb_fullwidth_menu .et_pb_row {
     max-width: 1176px !important;
   }
 }
 
 /* Colorscheme root variables */
 :root {
-  --primary-color:#064E66;
-  --standout-color:#2F4C2C;
-  --secondary-color:#CF5D28;
-  --highlight-color:#FDB81E;
+  --primary-color: #064e66;
+  --standout-color: #2f4c2c;
+  --secondary-color: #cf5d28;
+  --highlight-color: #fdb81e;
 }
 
+.global-header {
+  border-bottom: 1px solid #ededef;
+  box-shadow: none;
+}
 
 /*START -  utility header custom styles  */
-.utility-header {background-color: #f9f9fa !important;}
+.utility-header {
+  background-color: #f9f9fa !important;
+}
 
 /*add different ca.gov logo */
-.header-cagov-logo {background-image: url("https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg");background-repeat: no-repeat;background-position: 0px 3px;}
-.header-cagov-logo a {width:45px; height:34px}
-.header-cagov-logo img {display:none;}
+.header-cagov-logo {
+  background-image: url("https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+}
+.header-cagov-logo a {
+  width: 45px;
+  height: 34px;
+}
+.header-cagov-logo img {
+  display: none;
+}
 
 /* replace home icon with state of california text */
 .social-media-links .ca-gov-icon-home:before {
- content: "State of California" !important;
-font-family: "Public Sans", sans-ferif !important;
-font-size:.95rem;
+  content: "State of California" !important;
+  font-family: "Public Sans", sans-ferif !important;
+  font-size: 0.95rem;
 }
 
 /* in case you want to use custom translate link to stand alone page */
 #caweb-gtrans-custom:after {
- content: "Translate";
+  content: "Translate";
 }
 
 /*  remove google name and logo from 'select language' in utility header */
-.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
-    display: none;
+.goog-logo-link,
+.goog-logo-link:link,
+.goog-logo-link:visited,
+.goog-logo-link:hover,
+.goog-logo-link:active {
+  display: none;
 }
 div.goog-te-gadget {
-    color: transparent !important;
-    margin-left: 15px;
-    margin-bottom: -10px;
+  color: transparent !important;
+  margin-left: 15px;
+  margin-bottom: -10px;
 }
 
 #google_translate_element.standard-translate {
-    margin-bottom: -6px;
+  margin-bottom: -6px;
 }
 /* end - remove google name and logo from 'select language' in utility header */
 
 /* modify settings button */
 .utility-header .flex-row .settings-links button.btn-primary {
-color:black !important;
-border:none !important;
-background:none !important;
-display:none;
+  color: black !important;
+  border: none !important;
+  background: none !important;
+  display: none;
 }
 
 /* END -- Utility Header custom styles */
 
+/* START -- Navigation */
+@media (min-width: 992px) {
+  .navigation-search {
+    border-top: 1px solid #ededef;
+  }
+  .main-navigation {
+    margin-top: 0;
+    padding-left: 0px;
+    min-height: 55px;
+  }
+
+  .top-level-nav {
+    min-height: 55px;
+  }
+  .top-level-nav .nav-item {
+    flex: unset !important;
+  }
+  .first-level-link,
+  .first-level-btn {
+    padding: 15px 5px 12px 5px;
+  }
+  .main-navigation .first-level-link .ca-gov-icon-logo,
+  .main-navigation .first-level-btn .ca-gov-icon-logo {
+    display: none !important;
+  }
+}
+/* END -- Navigation */
 
 /* START -- Main Content */
 
 /* override card grid so they stack at theme breakpoint that slims main content */
 @media (max-width: 991px) {
-  .cagov-grid, .cagov-grid .block-editor-block-list__layout {
+  .cagov-grid,
+  .cagov-grid .block-editor-block-list__layout {
     grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
   }
 }
@@ -76,8 +132,14 @@ display:none;
   text-decoration: none;
 }
 
-.cagov-stack h1, .cagov-stack h2, .cagov-stack h3, .cagov-stack h4, .cagov-card h31, .cagov-card h2, .cagov-card h3, .cagov-card h4 {
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
   margin: 0;
 }
-/* END -- Utility Header custom styles */
 /* END -- Main Content */
