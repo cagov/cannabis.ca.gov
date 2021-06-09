@@ -40,4 +40,16 @@ border:none !important;
 background:none !important;
 }
 
+/* override card grid so they stack at theme breakpoint that slims main content */
+@media (max-width: 1199px) {
+  .cagov-featured-sidebar {
+    grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+  }
+}
+
+/* link underline not used in cannabis designs */
+.main-content a:not(.btn) {
+  text-decoration: none;
+}
+
 /* END -- Utility Header custom styles */
