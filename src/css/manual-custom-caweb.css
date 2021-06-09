@@ -1,0 +1,43 @@
+/*START -  utility header custom styles  */
+.utility-header {background-color: #f9f9fa !important;}
+
+/*add different ca.gov logo */
+.header-cagov-logo {background-image: url("https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg");background-repeat: no-repeat;background-position: 0px 3px;}
+.header-cagov-logo a {width:45px; height:34px}
+.header-cagov-logo img {display:none;}
+
+/* replace home icon with state of california text */
+.social-media-links .ca-gov-icon-home:before {
+ content: "State of California" !important;
+font-family: "Public Sans", sans-ferif !important;
+font-size:.95rem;
+}
+
+/* in case you want to use custom translate link to stand alone page */
+#caweb-gtrans-custom:after {
+ content: "Translate";
+}
+
+/*  remove google name and logo from 'select language' in utility header */
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+    display: none;
+}
+div.goog-te-gadget {
+    color: transparent !important;
+    margin-left: 15px;
+    margin-bottom: -10px;
+}
+
+#google_translate_element.standard-translate {
+    margin-bottom: -6px;
+}
+/* end - remove google name and logo from 'select language' in utility header */
+
+/* modify settings button */
+.utility-header .flex-row .settings-links button.btn-primary {
+color:black !important;
+border:none !important;
+background:none !important;
+}
+
+/* END -- Utility Header custom styles */
