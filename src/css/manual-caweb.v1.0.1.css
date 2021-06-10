@@ -86,7 +86,6 @@ div.goog-te-gadget {
   background: none !important;
   display: none;
 }
-.settings-links {display: none !important;}
 
 /* END -- Utility Header custom styles */
 
@@ -100,16 +99,25 @@ div.goog-te-gadget {
     padding-left: 0px;
     min-height: 55px;
   }
-
   .top-level-nav {
     min-height: 55px;
   }
   .top-level-nav .nav-item {
     flex: unset !important;
   }
+  .top-level-nav .nav-item:hover,
+  .top-level-nav .nav-item:focus {
+    background: none !important;
+  }
+  .top-level-nav .nav-item:hover .first-level-link,
+  .top-level-nav .nav-item:hover .first-level-btn {
+    color: #064e66 !important;
+    text-decoration: underline;
+  }
   .first-level-link,
   .first-level-btn {
     padding: 15px 5px 12px 5px;
+    color: #064e66 !important;
   }
   .first-level-link:hover {
     background: none !important;
@@ -117,6 +125,10 @@ div.goog-te-gadget {
   .main-navigation .first-level-link .ca-gov-icon-logo,
   .main-navigation .first-level-btn .ca-gov-icon-logo {
     display: none !important;
+  }
+  /*remove search button*/
+  #nav-item-search {
+    display: none;
   }
 }
 /* END -- Navigation */
