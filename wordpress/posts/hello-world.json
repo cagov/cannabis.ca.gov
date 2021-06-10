@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "created_date": "2021-06-08T22:29:26",
+    "updated_date": "2021-06-08T22:29:26",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1,
+    "slug": "hello-world",
+    "title": "Hello world!",
+    "author": "chach.sikes",
+    "date": "2021-06-08T22:29:26",
+    "modified": "2021-06-08T22:29:26",
+    "date_gmt": "2021-06-08T22:29:26",
+    "modified_gmt": "2021-06-08T22:29:26",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/06/08/hello-world/",
+    "file_path_html": "posts/hello-world.html",
+    "file_path_json": "posts/hello-world.json",
+    "excerpt": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+    "categories": [
+      "All"
+    ],
+    "tags": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-09T20:33:56",
+    "updated_date": "2021-06-09T22:20:05",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 703,
+    "slug": "grants",
+    "title": "Grants",
+    "author": "Department of Cannabis Control",
+    "date": "2021-06-09T20:33:56",
+    "modified": "2021-06-09T22:20:05",
+    "date_gmt": "2021-06-09T20:33:56",
+    "modified_gmt": "2021-06-09T22:20:05",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/grants/",
+    "file_path_html": "pages/grants.html",
+    "file_path_json": "pages/grants.json",
+    "excerpt": "",
+    "parent": 707,
+    "menu_order": 0
+  }
+}

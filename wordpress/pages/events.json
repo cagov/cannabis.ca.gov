@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-09T20:33:58",
+    "updated_date": "2021-06-09T22:20:21",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 702,
+    "slug": "events",
+    "title": "Events",
+    "author": "Department of Cannabis Control",
+    "date": "2021-06-09T20:33:58",
+    "modified": "2021-06-09T22:20:21",
+    "date_gmt": "2021-06-09T20:33:58",
+    "modified_gmt": "2021-06-09T22:20:21",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/events/",
+    "file_path_html": "pages/events.html",
+    "file_path_json": "pages/events.json",
+    "excerpt": "",
+    "parent": 758,
+    "menu_order": 0
+  }
+}

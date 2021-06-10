@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-09T22:17:52",
+    "updated_date": "2021-06-09T22:21:40",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 781,
+    "slug": "test-new-page-saving",
+    "title": "Test new page saving",
+    "author": "chach.sikes",
+    "date": "2021-06-09T22:17:52",
+    "modified": "2021-06-09T22:21:40",
+    "date_gmt": "2021-06-09T22:17:52",
+    "modified_gmt": "2021-06-09T22:21:40",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/sample-page/test-new-page-saving/",
+    "file_path_html": "pages/test-new-page-saving.html",
+    "file_path_json": "pages/test-new-page-saving.json",
+    "excerpt": "<p>Test page</p>\n",
+    "parent": 2,
+    "menu_order": 0
+  }
+}

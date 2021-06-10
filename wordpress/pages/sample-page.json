@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-08T22:29:26",
+    "updated_date": "2021-06-09T23:10:18",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 2,
+    "slug": "sample-page",
+    "title": "Home page",
+    "author": "chach.sikes",
+    "date": "2021-06-08T22:29:26",
+    "modified": "2021-06-09T23:10:18",
+    "date_gmt": "2021-06-08T22:29:26",
+    "modified_gmt": "2021-06-09T23:10:18",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/",
+    "file_path_html": "pages/sample-page.html",
+    "file_path_json": "pages/sample-page.json",
+    "excerpt": "<p>Get started</p>\n",
+    "parent": 0,
+    "menu_order": 0
+  }
+}
