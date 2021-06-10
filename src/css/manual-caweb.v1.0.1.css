@@ -86,7 +86,7 @@ div.goog-te-gadget {
   background: none !important;
   display: none;
 }
-.settings-links {display: none;}
+.settings-links {display: none !important;}
 
 /* END -- Utility Header custom styles */
 
