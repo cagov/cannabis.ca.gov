@@ -141,9 +141,11 @@ div.goog-te-gadget {
 
 /*START -- Google Search */
 @media (min-width: 992px) {
+  .full-width-nav .featured-search {
+    width: 33%;
+  }
   .search-container #site-search {
     position: relative;
-    width: 33%;
   }
 }
 
