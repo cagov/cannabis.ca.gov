@@ -110,6 +110,7 @@ div.goog-te-gadget {
   }
   .top-level-nav .nav-item {
     flex: unset !important;
+    padding: 0 !important;
   }
   .top-level-nav .nav-item:hover,
   .top-level-nav .nav-item:focus {
@@ -122,8 +123,11 @@ div.goog-te-gadget {
   }
   .first-level-link,
   .first-level-btn {
-    padding: 15px 5px 12px 5px;
+    padding: 15px 15px 12px 15px;
     color: #064e66 !important;
+  }
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn {
+    padding-right:25px;
   }
   .first-level-link:hover {
     background: none !important;
@@ -136,7 +140,52 @@ div.goog-te-gadget {
   #nav-item-search {
     display: none;
   }
+  /*Sub navigation styles */
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
+    box-shadow: 2px 0px 5px -1px rgba(0,0,0,0.3);
+  }
+  .nav-item .sub-nav.open {
+    margin-top: -1px;
+    z-index: 9;
+    box-shadow: 1px 3px 5px -1px rgba(0,0,0,0.3);
+  }
+ 
+  a.second-level-link:hover, a.second-level-link:focus {
+    background: none !important;
+    text-decoration: underline!important;
+  }
+  .nav-item .first-level-link.has-sub .carrot, .first-level-btn .carrot {
+    font-size: 1.4rem;
+    bottom: 11px !important;
+    color: var(--primary-color);
+  }
 }
+
+/*Navigation mobile*/
+@media (max-width: 991px) {
+  .first-level-btn>span[class^=ca-gov-icon]:not(.carrot), .first-level-link>span[class^=ca-gov-icon]:not(.carrot) {
+    display: none !important;
+  }
+  .has-sub .rotate, .first-level-btn, .first-level-link {
+    color: var(--primary-color) !important;
+  }
+}
+
+.main-navigation.dropdown .second-level-nav {
+  border: none !important;
+}
+.main-navigation.dropdown .sub-nav ul li {
+  background-color: #ffffff;
+  padding-left: 7px;
+}
+.second-level-nav>li:focus, .second-level-nav>li:hover {
+  background-color: #ffffff;
+}
+.main-navigation .ca-gov-icon-triangle-down:before {
+  content: "\33" !important;
+}
+.top-level-nav .nav-item {font-size: 1.125rem;}
+
 /* END -- Navigation */
 
 /*START -- Google Search */
