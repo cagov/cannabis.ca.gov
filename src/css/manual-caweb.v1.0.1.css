@@ -86,8 +86,10 @@ div.goog-te-gadget {
   background: none !important;
   display: none;
 }
-.utility-header .flex-row .settings-links {
-  display: none;
+@media (max-width: 991px) {
+  .utility-header .flex-row .settings-links {
+    display: none;
+  }
 }
 
 /* END -- Utility Header custom styles */
