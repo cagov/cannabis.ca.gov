@@ -143,6 +143,7 @@ div.goog-te-gadget {
 @media (min-width: 992px) {
   .search-container #site-search {
     position: relative;
+    width: 33%;
   }
 }
 
