@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T22:29:00",
-    "updated_date": "2021-06-12T07:26:20",
+    "updated_date": "2021-06-14T19:17:20",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,16 +17,16 @@
     "title": "Migrant workers are making thousands trimming marijuana in California",
     "author": "Department of Cannabis Control",
     "date": "2017-04-20T22:29:00",
-    "modified": "2021-06-12T07:26:20",
+    "modified": "2021-06-14T19:17:20",
     "date_gmt": "2017-04-20T22:29:00",
-    "modified_gmt": "2021-06-12T07:26:20",
+    "modified_gmt": "2021-06-14T19:17:20",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/migrant-workers-are-making-thousands-trimming-marijuana-in-california/",
     "file_path_html": "posts/migrant-workers-are-making-thousands-trimming-marijuana-in-california.html",
     "file_path_json": "posts/migrant-workers-are-making-thousands-trimming-marijuana-in-california.json",
-    "excerpt": "<p>They sit for hours at a time, hunched over tables with scissors in one hand and marijuana in the other. The work is tedious, but it pays well — for now. This once mostly black market trade is slowly becoming more regulated, hindering the flow of quick under-the-table cash. Hours meld, the sound of snipping [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
-    "tags": []
+    "tags": [],
+    "excerpt": "<p>They sit for hours at a time, hunched over tables with scissors in one hand and marijuana in the other.</p>\n"
   }
 }

@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/requirements-cannabis-goods/",
     "file_path_html": "pages/requirements-cannabis-goods.html",
     "file_path_json": "pages/requirements-cannabis-goods.json",
-    "excerpt": "",
     "parent": 758,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-10-31T15:25:00",
-    "updated_date": "2021-06-12T07:26:12",
+    "updated_date": "2021-06-14T19:17:05",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
     "author": "Department of Cannabis Control",
     "date": "2017-10-31T15:25:00",
-    "modified": "2021-06-12T07:26:12",
+    "modified": "2021-06-14T19:17:05",
     "date_gmt": "2017-10-31T15:25:00",
-    "modified_gmt": "2021-06-12T07:26:12",
+    "modified_gmt": "2021-06-14T19:17:05",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/31/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
     "file_path_html": "posts/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers.html",
     "file_path_json": "posts/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers.json",
-    "excerpt": "<p>UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California. Researchers will initially develop talking points for law enforcement and physicians, who are often in a position to educate people about [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,6 +32,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.</p>\n"
   }
 }

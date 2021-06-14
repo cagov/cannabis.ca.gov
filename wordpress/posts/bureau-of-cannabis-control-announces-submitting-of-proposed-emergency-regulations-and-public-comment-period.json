@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-11-28T19:31:00",
-    "updated_date": "2021-06-12T07:27:25",
+    "updated_date": "2021-06-14T19:17:02",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control Announces Submitting of Proposed Emergency Regulations and Public Comment Period",
     "author": "Department of Cannabis Control",
     "date": "2017-11-28T19:31:00",
-    "modified": "2021-06-12T07:27:25",
+    "modified": "2021-06-14T19:17:02",
     "date_gmt": "2017-11-28T19:31:00",
-    "modified_gmt": "2021-06-12T07:27:25",
+    "modified_gmt": "2021-06-14T19:17:02",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/28/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL). Those who wish to comment on this proposed adoption of these emergency regulations must submit their comment directly to OAL within five business days [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -34,6 +33,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T23:04:00",
-    "updated_date": "2021-06-12T07:26:20",
+    "updated_date": "2021-06-14T19:17:21",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "California Cannabis Farmers Insist on Driving Their Own Trucks; Here’s Why",
     "author": "Department of Cannabis Control",
     "date": "2017-04-20T23:04:00",
-    "modified": "2021-06-12T07:26:20",
+    "modified": "2021-06-14T19:17:21",
     "date_gmt": "2017-04-20T23:04:00",
-    "modified_gmt": "2021-06-12T07:26:20",
+    "modified_gmt": "2021-06-14T19:17:21",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why/",
     "file_path_html": "posts/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why.html",
     "file_path_json": "posts/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why.json",
-    "excerpt": "<p>The California craft beer industry is worth upwards of $7 billion, and with approximately 750 breweries, the state is home to more brew operations than any other in the country. Now, the Golden State’s cannabis contingent is hoping to follow suit, with many industry leaders emphasizing the importance–and frankly, rights to–self-distribution. “For California to grow [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,6 +32,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The California craft beer industry is worth upwards of $7 billion, and with approximately 750 breweries, the state is home to more brew operations than any other in the country.</p>\n"
   }
 }

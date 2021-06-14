@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-12-18T20:17:00",
-    "updated_date": "2021-06-12T07:26:11",
+    "updated_date": "2021-06-14T19:16:58",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
     "author": "Department of Cannabis Control",
     "date": "2017-12-18T20:17:00",
-    "modified": "2021-06-12T07:26:11",
+    "modified": "2021-06-14T19:16:58",
     "date_gmt": "2017-12-18T20:17:00",
-    "modified_gmt": "2021-06-12T07:26:11",
+    "modified_gmt": "2021-06-14T19:16:58",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
     "file_path_html": "posts/cdfa-now-accepting-temporary-cannabis-licensing-applications.html",
     "file_path_json": "posts/cdfa-now-accepting-temporary-cannabis-licensing-applications.json",
-    "excerpt": "<p>The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors. The link to the online licensing system can be accessed here. The online system allows applicants to easily apply for a temporary commercial cannabis [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,6 +34,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.</p>\n"
   }
 }

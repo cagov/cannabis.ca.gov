@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-24T17:14:00",
-    "updated_date": "2021-06-12T07:26:20",
+    "updated_date": "2021-06-14T19:17:22",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "This Landmark Cannabis Bill Is Great News for Marijuana Stocks",
     "author": "Department of Cannabis Control",
     "date": "2017-04-24T17:14:00",
-    "modified": "2021-06-12T07:26:20",
+    "modified": "2021-06-14T19:17:22",
     "date_gmt": "2017-04-24T17:14:00",
-    "modified_gmt": "2021-06-12T07:26:20",
+    "modified_gmt": "2021-06-14T19:17:22",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/24/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks/",
     "file_path_html": "posts/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks.html",
     "file_path_json": "posts/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks.json",
-    "excerpt": "<p>Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana. Last year alone, according to cannabis research firm ArcView, North American legal pot sales jumped 34% to $6.9 billion. ArcView estimates that legal sales could top $22 billion by 2021, with investment firm Cowen &amp; [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,6 +31,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana.</p>\n"
   }
 }

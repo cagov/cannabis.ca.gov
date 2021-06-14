@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-02-18T21:04:00",
-    "updated_date": "2021-06-12T07:27:06",
+    "updated_date": "2021-06-14T19:15:39",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "California Officially Joins National Cannabis Regulators Association",
     "author": "Department of Cannabis Control",
     "date": "2021-02-18T21:04:00",
-    "modified": "2021-06-12T07:27:06",
+    "modified": "2021-06-14T19:15:39",
     "date_gmt": "2021-02-18T21:04:00",
-    "modified_gmt": "2021-06-12T07:27:06",
+    "modified_gmt": "2021-06-14T19:15:39",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/02/18/california-officially-joins-national-cannabis-regulators-association/",
     "file_path_html": "posts/california-officially-joins-national-cannabis-regulators-association.html",
     "file_path_json": "posts/california-officially-joins-national-cannabis-regulators-association.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -34,6 +33,7 @@
       "California cannabis",
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or are weighing the legalization of cannabis.</p>\n"
   }
 }

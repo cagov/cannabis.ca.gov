@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/whats-legal/",
     "file_path_html": "pages/whats-legal.html",
     "file_path_json": "pages/whats-legal.json",
-    "excerpt": "",
     "parent": 757,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

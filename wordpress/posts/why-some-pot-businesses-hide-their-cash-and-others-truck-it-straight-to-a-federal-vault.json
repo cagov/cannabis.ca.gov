@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-07-10T20:38:00",
-    "updated_date": "2021-06-12T07:26:16",
+    "updated_date": "2021-06-14T19:17:14",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,19 +17,19 @@
     "title": "Why Some Pot Businesses Hide Their Cash &#8211; And Others Truck It Straight To A Federal Vault",
     "author": "Department of Cannabis Control",
     "date": "2017-07-10T20:38:00",
-    "modified": "2021-06-12T07:26:16",
+    "modified": "2021-06-14T19:17:14",
     "date_gmt": "2017-07-10T20:38:00",
-    "modified_gmt": "2021-06-12T07:26:16",
+    "modified_gmt": "2021-06-14T19:17:14",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
     "file_path_html": "posts/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault.html",
     "file_path_json": "posts/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault.json",
-    "excerpt": "<p>Slip a fresh $20 bill under the bulletproof teller window of Donnie Anderson’s Medex marijuana dispensary on Century Boulevard — perhaps for a gram of cannabis or some THC-infused toffees — and the legal tender is transformed into something else: drug money. Though the transaction is legal in California, under federal law that bill is [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
     "tags": [
       "Banking",
       null
-    ]
+    ],
+    "excerpt": "<p>Slip a fresh $20 bill under the bulletproof teller window of Donnie Anderson’s Medex marijuana dispensary on Century Boulevard — perhaps for a gram of cannabis or some THC-infused toffees — and the legal tender is transformed into something else: drug money.</p>\n"
   }
 }

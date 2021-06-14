@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-08-21T18:58:00",
-    "updated_date": "2021-06-12T07:27:20",
+    "updated_date": "2021-06-14T19:16:31",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control to Hold Public Hearing on Proposed Cannabis Regulations in Sacramento",
     "author": "Department of Cannabis Control",
     "date": "2018-08-21T18:58:00",
-    "modified": "2021-06-12T07:27:20",
+    "modified": "2021-06-14T19:16:31",
     "date_gmt": "2018-08-21T18:58:00",
-    "modified_gmt": "2021-06-12T07:27:20",
+    "modified_gmt": "2021-06-14T19:16:31",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/21/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-sacramento/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-sacramento.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-sacramento.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the final hearing of the 45-day public comment period for our proposed non-emergency cannabis regulations will be held on Monday, August 27 in Sacramento. The hearing is intended to provide the public with an opportunity to voice their opinions on the rulemaking process. During [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -40,6 +39,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the final hearing of the 45-day public comment period for our proposed non-emergency cannabis regulations will be held on Monday, August 27 in Sacramento.</p>\n"
   }
 }

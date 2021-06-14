@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-09-17T19:53:00",
-    "updated_date": "2021-06-12T07:27:08",
+    "updated_date": "2021-06-14T19:15:43",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
     "author": "Department of Cannabis Control",
     "date": "2020-09-17T19:53:00",
-    "modified": "2021-06-12T07:27:08",
+    "modified": "2021-06-14T19:15:43",
     "date_gmt": "2020-09-17T19:53:00",
-    "modified_gmt": "2021-06-12T07:27:08",
+    "modified_gmt": "2021-06-14T19:15:43",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
     "file_path_html": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.html",
     "file_path_json": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today a Request for Proposals (RFP) for university research grants for public universities in California. The Bureau has $30 million to be disbursed for research projects related to the implementation and effect of Proposition 64. Research proposals must fall within one of the several specified categories, [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -35,6 +34,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today a Request for Proposals (RFP) for university research grants for public universities in California.</p>\n"
   }
 }

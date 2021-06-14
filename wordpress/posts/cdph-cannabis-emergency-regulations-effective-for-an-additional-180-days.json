@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-06-07T17:42:00",
-    "updated_date": "2021-06-12T07:26:05",
+    "updated_date": "2021-06-14T19:16:39",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CDPH&#8217;s Manufactured Cannabis Safety Branch Announces Formal Re-Adoption of Emergency Regulations",
     "author": "Department of Cannabis Control",
     "date": "2018-06-07T17:42:00",
-    "modified": "2021-06-12T07:26:05",
+    "modified": "2021-06-14T19:16:39",
     "date_gmt": "2018-06-07T17:42:00",
-    "modified_gmt": "2021-06-12T07:26:05",
+    "modified_gmt": "2021-06-14T19:16:39",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/07/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
     "file_path_html": "posts/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days.html",
     "file_path_json": "posts/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days.json",
-    "excerpt": "<p>The re-adoption of emergency regulations for cannabis manufacturers, issued by the California Department of Public Health (CDPH), has been approved. The effective period for these regulations and those issued by the Bureau of Cannabis Control and California Department of Food &amp; Agriculture has been extended 180 days while the state licensing authorities finalize permanent regulations. [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,6 +35,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The re-adoption of emergency regulations for cannabis manufacturers, issued by the California Department of Public Health (CDPH), has been approved.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-28T22:02:00",
-    "updated_date": "2021-06-12T07:26:18",
+    "updated_date": "2021-06-14T19:17:19",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "California Department of Food and Ag Releases Draft Regulations on California&#8217;s Medical Cannabis Cultivation Program",
     "author": "Department of Cannabis Control",
     "date": "2017-04-28T22:02:00",
-    "modified": "2021-06-12T07:26:18",
+    "modified": "2021-06-14T19:17:19",
     "date_gmt": "2017-04-28T22:02:00",
-    "modified_gmt": "2021-06-12T07:26:18",
+    "modified_gmt": "2021-06-14T19:17:19",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/28/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program/",
     "file_path_html": "posts/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program.html",
     "file_path_json": "posts/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program.json",
-    "excerpt": "<p>The California Department of Food and Agriculture (CDFA) today released proposed regulations for the state medical cannabis cultivation and licensing program. Release of the draft regulations marks the official start of a 45-day public comment period provided under California law. All interested parties are encouraged to submit comments about the proposed regulations to CalCannabis, the [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,6 +31,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The California Department of Food and Agriculture (CDFA) today released proposed regulations for the state medical cannabis cultivation and licensing program.</p>\n"
   }
 }

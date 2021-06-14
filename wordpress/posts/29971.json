@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-12-07T23:59:00",
-    "updated_date": "2021-06-12T07:25:59",
+    "updated_date": "2021-06-14T19:16:21",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "State Cannabis Licensing Authorities Release Proposed Cannabis Regulations Submitted to OAL",
     "author": "Department of Cannabis Control",
     "date": "2018-12-07T23:59:00",
-    "modified": "2021-06-12T07:25:59",
+    "modified": "2021-06-14T19:16:21",
     "date_gmt": "2018-12-07T23:59:00",
-    "modified_gmt": "2021-06-12T07:25:59",
+    "modified_gmt": "2021-06-14T19:16:21",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/07/29971/",
     "file_path_html": "posts/29971.html",
     "file_path_json": "posts/29971.json",
-    "excerpt": "<p>California’s three state cannabis licensing authorities recently announced the release of the proposed cannabis regulations currently under review by the California Office of Administrative Law (OAL). The rulemaking action regarding these regulations, initially noticed on July 13, 2018, was submitted to OAL for review on December 3, 2018. An archive of licensing authority&#8217;s regulations and [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,6 +32,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>California’s three state cannabis licensing authorities recently announced the release of the proposed cannabis regulations currently under review by the California Office of Administrative Law (OAL).</p>\n"
   }
 }

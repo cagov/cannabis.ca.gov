@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-03-21T18:03:00",
-    "updated_date": "2021-06-12T07:27:10",
+    "updated_date": "2021-06-14T19:15:47",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
     "author": "Department of Cannabis Control",
     "date": "2020-03-21T18:03:00",
-    "modified": "2021-06-12T07:27:10",
+    "modified": "2021-06-14T19:15:47",
     "date_gmt": "2020-03-21T18:03:00",
-    "modified_gmt": "2021-06-12T07:27:10",
+    "modified_gmt": "2021-06-14T19:15:47",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/03/21/notice-regarding-covid-19-and-commercial-cannabis-businesses/",
     "file_path_html": "posts/notice-regarding-covid-19-and-commercial-cannabis-businesses.html",
     "file_path_json": "posts/notice-regarding-covid-19-and-commercial-cannabis-businesses.json",
-    "excerpt": "<p>SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19. This order went into effect on Thursday, March 19, 2020, and is in place until [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,6 +35,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19.</p>\n"
   }
 }

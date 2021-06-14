@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-11-27T22:17:00",
-    "updated_date": "2021-06-12T07:27:11",
+    "updated_date": "2021-06-14T19:15:53",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Cannabis Advisory Committee to Hold Upcoming December Meetings in Sacramento",
     "author": "Department of Cannabis Control",
     "date": "2019-11-27T22:17:00",
-    "modified": "2021-06-12T07:27:11",
+    "modified": "2021-06-14T19:15:53",
     "date_gmt": "2019-11-27T22:17:00",
-    "modified_gmt": "2021-06-12T07:27:11",
+    "modified_gmt": "2021-06-14T19:15:53",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/27/cannabis-advisory-committee-to-hold-upcoming-december-meetings-in-burlingame/",
     "file_path_html": "posts/cannabis-advisory-committee-to-hold-upcoming-december-meetings-in-burlingame.html",
     "file_path_json": "posts/cannabis-advisory-committee-to-hold-upcoming-december-meetings-in-burlingame.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a subcommittee meeting on Tuesday, December 10 and a full committee meeting on Wednesday, December 11 at the Hilton Sacramento Arden West. Meeting Notices and Agendas for these meetings have been posted to the Bureau’s website and may [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -35,6 +34,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a subcommittee meeting on Tuesday, December 10 and a full committee meeting on Wednesday, December 11 at the Hilton Sacramento Arden West.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-06-21T16:20:00",
-    "updated_date": "2021-06-12T07:25:53",
+    "updated_date": "2021-06-14T19:16:03",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
     "author": "Department of Cannabis Control",
     "date": "2019-06-21T16:20:00",
-    "modified": "2021-06-12T07:25:53",
+    "modified": "2021-06-14T19:16:03",
     "date_gmt": "2019-06-21T16:20:00",
-    "modified_gmt": "2021-06-12T07:25:53",
+    "modified_gmt": "2021-06-14T19:16:03",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/21/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers.json",
-    "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California. On Wednesday, June 19, 2019, DOI-CEU served search warrants on “Long Lodge Tribal Enterprises” and “Costa Mesa Church of Mien Tao”, two illegal retailers respectively located [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -41,6 +40,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California.</p>\n"
   }
 }

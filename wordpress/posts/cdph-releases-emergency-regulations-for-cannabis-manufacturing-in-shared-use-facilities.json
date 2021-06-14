@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-03-23T18:19:00",
-    "updated_date": "2021-06-12T07:26:09",
+    "updated_date": "2021-06-14T19:16:47",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
     "author": "Department of Cannabis Control",
     "date": "2018-03-23T18:19:00",
-    "modified": "2021-06-12T07:26:09",
+    "modified": "2021-06-14T19:16:47",
     "date_gmt": "2018-03-23T18:19:00",
-    "modified_gmt": "2021-06-12T07:26:09",
+    "modified_gmt": "2021-06-14T19:16:47",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
     "file_path_html": "posts/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities.html",
     "file_path_json": "posts/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities.json",
-    "excerpt": "<p>The California Department of Public Health (CDPH) released today proposed emergency regulations that would allow cannabis manufacturers to utilize shared-use facilities. The proposed emergency regulations will be filed with the Office of Administrative Law (OAL) on April 3, 2018, and undergo a five-day public comment period, from April 3 until April 8, 2018. The regulations, [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,6 +32,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The California Department of Public Health (CDPH) released today proposed emergency regulations that would allow cannabis manufacturers to utilize shared-use facilities.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-11-22T23:53:00",
-    "updated_date": "2021-06-12T07:26:12",
+    "updated_date": "2021-06-14T19:17:03",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,16 +17,16 @@
     "title": "Manufactured Cannabis Licensing Training Sessions",
     "author": "Department of Cannabis Control",
     "date": "2017-11-22T23:53:00",
-    "modified": "2021-06-12T07:26:12",
+    "modified": "2021-06-14T19:17:03",
     "date_gmt": "2017-11-22T23:53:00",
-    "modified_gmt": "2021-06-12T07:26:12",
+    "modified_gmt": "2021-06-14T19:17:03",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/22/manufactured-cannabis-licensing-training-sessions/",
     "file_path_html": "posts/manufactured-cannabis-licensing-training-sessions.html",
     "file_path_json": "posts/manufactured-cannabis-licensing-training-sessions.json",
-    "excerpt": "<p>The California Department of Public Health’s Manufactured Cannabis Safety Branch (MCSB) will host 10 licensing training sessions throughout the state in November and December 2017. These trainings will assist licensees in better understanding the regulatory requirements, license application process, and commonly asked questions. Two separate sessions will be held in each location, and all sessions [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
-    "tags": []
+    "tags": [],
+    "excerpt": "<p>The California Department of Public Health’s Manufactured Cannabis Safety Branch (MCSB) will host 10 licensing training sessions throughout the state in November and December 2017.</p>\n"
   }
 }

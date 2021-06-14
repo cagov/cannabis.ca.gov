@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/business-filings-trademarks/",
     "file_path_html": "pages/business-filings-trademarks.html",
     "file_path_json": "pages/business-filings-trademarks.json",
-    "excerpt": "",
     "parent": 759,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-12-16T23:31:00",
-    "updated_date": "2021-06-12T07:27:07",
+    "updated_date": "2021-06-14T19:15:41",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
     "author": "Department of Cannabis Control",
     "date": "2020-12-16T23:31:00",
-    "modified": "2021-06-12T07:27:07",
+    "modified": "2021-06-14T19:15:41",
     "date_gmt": "2020-12-16T23:31:00",
-    "modified_gmt": "2021-06-12T07:27:07",
+    "modified_gmt": "2021-06-14T19:15:41",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program.json",
-    "excerpt": "<p>Sacramento, CA – The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development (GO-Biz), is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available. The Grant Solicitation, link to the Online Application Portal, an Application User [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,6 +35,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Sacramento, CA – The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development (GO-Biz), is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.</p>\n"
   }
 }

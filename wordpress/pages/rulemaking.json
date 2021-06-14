@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/rulemaking/",
     "file_path_html": "pages/rulemaking.html",
     "file_path_json": "pages/rulemaking.json",
-    "excerpt": "",
     "parent": 759,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

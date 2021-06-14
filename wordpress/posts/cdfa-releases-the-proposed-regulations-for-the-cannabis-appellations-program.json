@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-02-20T23:16:00",
-    "updated_date": "2021-06-12T07:25:50",
+    "updated_date": "2021-06-14T19:15:47",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CDFA Releases the Proposed Regulations for the Cannabis Appellations Program",
     "author": "Department of Cannabis Control",
     "date": "2020-02-20T23:16:00",
-    "modified": "2021-06-12T07:25:50",
+    "modified": "2021-06-14T19:15:47",
     "date_gmt": "2020-02-20T23:16:00",
-    "modified_gmt": "2021-06-12T07:25:50",
+    "modified_gmt": "2021-06-14T19:15:47",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
     "file_path_html": "posts/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program.html",
     "file_path_json": "posts/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program.json",
-    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders: The California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis. The release of these regulations marks the official start of a 45-day public comment period provided under California law. All interested parties are encouraged to submit comments about the proposed [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -38,6 +37,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-10-23T18:34:00",
-    "updated_date": "2021-06-12T07:26:12",
+    "updated_date": "2021-06-14T19:17:06",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
     "author": "Department of Cannabis Control",
     "date": "2017-10-23T18:34:00",
-    "modified": "2021-06-12T07:26:12",
+    "modified": "2021-06-14T19:17:06",
     "date_gmt": "2017-10-23T18:34:00",
-    "modified_gmt": "2021-06-12T07:26:12",
+    "modified_gmt": "2021-06-14T19:17:06",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
     "file_path_html": "posts/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help.html",
     "file_path_json": "posts/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help.json",
-    "excerpt": "<p>It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January. That’s when growing cannabis for non-medical purposes becomes legal in California, though cities and counties retain some control. Sacramento city officials have moved quickly to welcome the [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,6 +31,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.</p>\n"
   }
 }

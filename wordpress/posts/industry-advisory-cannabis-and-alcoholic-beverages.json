@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-07-25T21:23:00",
-    "updated_date": "2021-06-12T07:26:03",
+    "updated_date": "2021-06-14T19:16:33",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Industry Advisory: Cannabis and Alcoholic Beverages",
     "author": "Department of Cannabis Control",
     "date": "2018-07-25T21:23:00",
-    "modified": "2021-06-12T07:26:03",
+    "modified": "2021-06-14T19:16:33",
     "date_gmt": "2018-07-25T21:23:00",
-    "modified_gmt": "2021-06-12T07:26:03",
+    "modified_gmt": "2021-06-14T19:16:33",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/25/industry-advisory-cannabis-and-alcoholic-beverages/",
     "file_path_html": "posts/industry-advisory-cannabis-and-alcoholic-beverages.html",
     "file_path_json": "posts/industry-advisory-cannabis-and-alcoholic-beverages.json",
-    "excerpt": "<p>This page&#8217;s content has recently been updated. Please click here for the latest information.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -41,6 +40,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>This page&#8217;s content has recently been updated. Please click here for the latest information.</p>\n"
   }
 }

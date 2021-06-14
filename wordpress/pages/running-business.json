@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/running-business/",
     "file_path_html": "pages/running-business.html",
     "file_path_json": "pages/running-business.json",
-    "excerpt": "",
     "parent": 759,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

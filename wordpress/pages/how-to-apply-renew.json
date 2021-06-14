@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/how-to-apply-renew/",
     "file_path_html": "pages/how-to-apply-renew.html",
     "file_path_json": "pages/how-to-apply-renew.json",
-    "excerpt": "<p>Learn the steps needed to apply for or renew a cannabis license.</p>\n",
     "parent": 756,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": "<p>Learn the steps needed to apply for or renew a cannabis license.</p>\n"
   }
 }

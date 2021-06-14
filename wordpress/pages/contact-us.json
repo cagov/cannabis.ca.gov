@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/contact-us/",
     "file_path_html": "pages/contact-us.html",
     "file_path_json": "pages/contact-us.json",
-    "excerpt": "",
     "parent": 707,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

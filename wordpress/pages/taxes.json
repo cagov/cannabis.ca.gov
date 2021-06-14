@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/taxes/",
     "file_path_html": "pages/taxes.html",
     "file_path_json": "pages/taxes.json",
-    "excerpt": "",
     "parent": 759,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

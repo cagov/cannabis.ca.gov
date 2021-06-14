@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/file-complaint/",
     "file_path_html": "pages/file-complaint.html",
     "file_path_json": "pages/file-complaint.json",
-    "excerpt": "",
     "parent": 759,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

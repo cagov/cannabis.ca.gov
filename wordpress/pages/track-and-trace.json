@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/track-and-trace/",
     "file_path_html": "pages/track-and-trace.html",
     "file_path_json": "pages/track-and-trace.json",
-    "excerpt": "<p>Licensees must use the California Cannabis Track and Trace system to track the movement of cannabis and cannabis products through the supply chain.</p>\n",
     "parent": 758,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": "<p>Licensees must use the California Cannabis Track and Trace system to track the movement of cannabis and cannabis products through the supply chain.</p>\n"
   }
 }

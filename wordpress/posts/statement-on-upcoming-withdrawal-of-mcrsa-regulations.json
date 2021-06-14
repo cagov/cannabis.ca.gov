@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-07-26T21:00:00",
-    "updated_date": "2021-06-12T07:26:15",
+    "updated_date": "2021-06-14T19:17:13",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Statement on Upcoming Withdrawal of MCRSA Regulations",
     "author": "Department of Cannabis Control",
     "date": "2017-07-26T21:00:00",
-    "modified": "2021-06-12T07:26:15",
+    "modified": "2021-06-14T19:17:13",
     "date_gmt": "2017-07-26T21:00:00",
-    "modified_gmt": "2021-06-12T07:26:15",
+    "modified_gmt": "2021-06-14T19:17:13",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/26/statement-on-upcoming-withdrawal-of-mcrsa-regulations/",
     "file_path_html": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.html",
     "file_path_json": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.json",
-    "excerpt": "<p>Earlier this spring, the Department of Consumer Affairs’ Bureau of Cannabis Control, Department of Public Health and Department of Food and Agriculture released proposed regulations for the Medical Cannabis Regulation and Safety Act. These licensing authorities held public hearings and accepted written comments regarding the proposed regulations. However, in late June, the Legislature passed and [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,6 +30,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Earlier this spring, the Department of Consumer Affairs’ Bureau of Cannabis Control, Department of Public Health and Department of Food and Agriculture released proposed regulations for the Medical Cannabis Regulation and Safety Act.</p>\n"
   }
 }

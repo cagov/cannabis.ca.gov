@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-11-05T20:38:00",
-    "updated_date": "2021-06-12T07:25:51",
+    "updated_date": "2021-06-14T19:15:55",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "New Labeling System for All State Cannabis Cultivation Licenses",
     "author": "Department of Cannabis Control",
     "date": "2019-11-05T20:38:00",
-    "modified": "2021-06-12T07:25:51",
+    "modified": "2021-06-14T19:15:55",
     "date_gmt": "2019-11-05T20:38:00",
-    "modified_gmt": "2021-06-12T07:25:51",
+    "modified_gmt": "2021-06-14T19:15:55",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/05/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
     "file_path_html": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.html",
     "file_path_json": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.json",
-    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders: On October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers. What Is Changing? Currently, annual and provisional cannabis cultivation licenses are issued with one of the following [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -38,6 +37,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.</p>\n"
   }
 }

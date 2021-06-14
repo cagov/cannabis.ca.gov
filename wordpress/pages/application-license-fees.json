@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/application-license-fees/",
     "file_path_html": "pages/application-license-fees.html",
     "file_path_json": "pages/application-license-fees.json",
-    "excerpt": "<p>Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.</p>\n",
     "parent": 756,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": "<p>Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.</p>\n"
   }
 }

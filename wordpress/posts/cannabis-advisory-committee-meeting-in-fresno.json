@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-11-01T20:07:00",
-    "updated_date": "2021-06-12T07:27:18",
+    "updated_date": "2021-06-14T19:16:24",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Cannabis Advisory Committee Meeting in Fresno",
     "author": "Department of Cannabis Control",
     "date": "2018-11-01T20:07:00",
-    "modified": "2021-06-12T07:27:18",
+    "modified": "2021-06-14T19:16:24",
     "date_gmt": "2018-11-01T20:07:00",
-    "modified_gmt": "2021-06-12T07:27:18",
+    "modified_gmt": "2021-06-14T19:16:24",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/01/cannabis-advisory-committee-meeting-in-fresno/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-fresno.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-fresno.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) recently announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, November 8 in Fresno. The Meeting Notice and Agenda has been posted to the Bureau’s website and may be found here: http://bcc.ca.gov/about_us/committee_meetings.html. CANNABIS ADVISORY COMMITTEE MEETING: WHERE: Radisson Hotel Fresno Conference Center – [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -44,6 +43,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) recently announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, November 8 in Fresno.</p>\n"
   }
 }

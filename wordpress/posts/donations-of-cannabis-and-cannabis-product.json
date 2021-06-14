@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-02-29T01:08:00",
-    "updated_date": "2021-06-12T07:25:50",
+    "updated_date": "2021-06-14T19:15:47",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Donations of Cannabis and Cannabis Product",
     "author": "Department of Cannabis Control",
     "date": "2020-02-29T01:08:00",
-    "modified": "2021-06-12T07:25:50",
+    "modified": "2021-06-14T19:15:47",
     "date_gmt": "2020-02-29T01:08:00",
-    "modified_gmt": "2021-06-12T07:25:50",
+    "modified_gmt": "2021-06-14T19:15:47",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/02/29/donations-of-cannabis-and-cannabis-product/",
     "file_path_html": "posts/donations-of-cannabis-and-cannabis-product.html",
     "file_path_json": "posts/donations-of-cannabis-and-cannabis-product.json",
-    "excerpt": "<p>Beginning March 1, 2020, cannabis retailers may provide free cannabis or cannabis products to qualified medicinal patients or their primary caregivers. This change is due to the adoption of Senate Bill 34, which also exempts these donated items from excise, sales and use, and cultivation taxes. Licensed cultivators, manufacturers, distributors, retailers or microbusinesses may designate [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -46,6 +45,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Beginning March 1, 2020, cannabis retailers may provide free cannabis or cannabis products to qualified medicinal patients or their primary caregivers.</p>\n"
   }
 }

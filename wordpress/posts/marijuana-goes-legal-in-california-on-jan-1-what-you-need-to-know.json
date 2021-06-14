@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-12-01T20:06:00",
-    "updated_date": "2021-06-12T07:26:11",
+    "updated_date": "2021-06-14T19:17:02",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
     "author": "Department of Cannabis Control",
     "date": "2017-12-01T20:06:00",
-    "modified": "2021-06-12T07:26:11",
+    "modified": "2021-06-14T19:17:02",
     "date_gmt": "2017-12-01T20:06:00",
-    "modified_gmt": "2021-06-12T07:26:11",
+    "modified_gmt": "2021-06-14T19:17:02",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/01/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
     "file_path_html": "posts/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know.html",
     "file_path_json": "posts/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know.json",
-    "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018. It’s a date that dispensaries and&nbsp;marijuana consumers&nbsp;have had in their sights ever since Proposition 64 designated it as the official opening of the adult-use market in California. After a year of anticipation, the big switch is a month away. Even state regulators are pumped. [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -34,6 +33,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.</p>\n"
   }
 }

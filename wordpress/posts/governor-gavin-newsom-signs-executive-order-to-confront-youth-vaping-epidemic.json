@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-09-18T19:51:00",
-    "updated_date": "2021-06-12T07:27:12",
+    "updated_date": "2021-06-14T19:15:58",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
     "author": "Department of Cannabis Control",
     "date": "2019-09-18T19:51:00",
-    "modified": "2021-06-12T07:27:12",
+    "modified": "2021-06-14T19:15:58",
     "date_gmt": "2019-09-18T19:51:00",
-    "modified_gmt": "2021-06-12T07:27:12",
+    "modified_gmt": "2021-06-14T19:15:58",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/18/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
     "file_path_html": "posts/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic.html",
     "file_path_json": "posts/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic.json",
-    "excerpt": "<p>SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping. The executive order directs the Department of Public Health (CDPH) to launch a $20 million statewide digital and social media public awareness campaign to educate youth, young adults and parents about the health risks [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -42,6 +41,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.</p>\n"
   }
 }

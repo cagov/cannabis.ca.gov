@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-02-19T22:31:00",
-    "updated_date": "2021-06-12T07:27:16",
+    "updated_date": "2021-06-14T19:16:14",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
     "author": "Department of Cannabis Control",
     "date": "2019-02-19T22:31:00",
-    "modified": "2021-06-12T07:27:16",
+    "modified": "2021-06-14T19:16:14",
     "date_gmt": "2019-02-19T22:31:00",
-    "modified_gmt": "2021-06-12T07:27:16",
+    "modified_gmt": "2021-06-14T19:16:14",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
     "file_path_html": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018.html",
     "file_path_json": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018.json",
-    "excerpt": "<p>Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018. Tax revenue reported by the cannabis industry totaled $103.3 million for 4th quarter returns due by January 31, 2019, which includes state cultivation, excise, and sales taxes. It does not include tax [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,6 +38,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018.</p>\n"
   }
 }

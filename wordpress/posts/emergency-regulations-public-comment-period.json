@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-11-27T21:34:00",
-    "updated_date": "2021-06-12T07:26:12",
+    "updated_date": "2021-06-14T19:17:03",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CDPH Emergency Regulations &#8211; Public Comment Period",
     "author": "Department of Cannabis Control",
     "date": "2017-11-27T21:34:00",
-    "modified": "2021-06-12T07:26:12",
+    "modified": "2021-06-14T19:17:03",
     "date_gmt": "2017-11-27T21:34:00",
-    "modified_gmt": "2021-06-12T07:26:12",
+    "modified_gmt": "2021-06-14T19:17:03",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/27/emergency-regulations-public-comment-period/",
     "file_path_html": "posts/emergency-regulations-public-comment-period.html",
     "file_path_json": "posts/emergency-regulations-public-comment-period.json",
-    "excerpt": "<p>The California Department of Public Health (CDPH) has submitted its proposed emergency regulations for commercial cannabis manufacturing to the California Office of Administrative Law (OAL). Public comments will be accepted for five business days, until Monday, December 4, 2017. To submit a comment on the proposed adoption of the emergency regulations: Email the comment to [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,6 +32,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The California Department of Public Health (CDPH) has submitted its proposed emergency regulations for commercial cannabis manufacturing to the California Office of Administrative Law (OAL).</p>\n"
   }
 }

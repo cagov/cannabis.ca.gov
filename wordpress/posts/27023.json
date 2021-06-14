@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-05-05T19:48:00",
-    "updated_date": "2021-06-12T07:26:18",
+    "updated_date": "2021-06-14T19:17:18",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Medical Cannabis Regulation Releases Proposed Regulations for Medical Cannabis Testing Laboratories",
     "author": "Department of Cannabis Control",
     "date": "2017-05-05T19:48:00",
-    "modified": "2021-06-12T07:26:18",
+    "modified": "2021-06-14T19:17:18",
     "date_gmt": "2017-05-05T19:48:00",
-    "modified_gmt": "2021-06-12T07:26:18",
+    "modified_gmt": "2021-06-14T19:17:18",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/05/05/27023/",
     "file_path_html": "posts/27023.html",
     "file_path_json": "posts/27023.json",
-    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed testing laboratories regulations for medical cannabis have been posted and the 45-day public comment period is now underway. “These proposed testing laboratories regulations for medical cannabis follow the same process as those regulations announced last week,” BMCR Chief Lori Ajax said. “We continue [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,6 +31,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed testing laboratories regulations for medical cannabis have been posted and the 45-day public comment period is now underway.</p>\n"
   }
 }

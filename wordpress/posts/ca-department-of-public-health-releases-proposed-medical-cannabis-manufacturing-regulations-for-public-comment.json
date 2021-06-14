@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-28T21:03:00",
-    "updated_date": "2021-06-12T07:26:18",
+    "updated_date": "2021-06-14T19:17:19",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CA Department of Public Health Releases Proposed Medical Cannabis Manufacturing Regulations for Public Comment",
     "author": "Department of Cannabis Control",
     "date": "2017-04-28T21:03:00",
-    "modified": "2021-06-12T07:26:18",
+    "modified": "2021-06-14T19:17:19",
     "date_gmt": "2017-04-28T21:03:00",
-    "modified_gmt": "2021-06-12T07:26:18",
+    "modified_gmt": "2021-06-14T19:17:19",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/28/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment/",
     "file_path_html": "posts/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment.html",
     "file_path_json": "posts/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment.json",
-    "excerpt": "<p>The California Department of Public Health today issued a number of documents, including and related to its proposed regulations for medical cannabis. The documents include all of the following related to manufacturing: Summary of Regulations Proposed Regulation Text Notice of Proposed Action (NOPA) Initial Statement of Reasons (ISOR) Standard Regulatory Impact Assessment (SRIA) &nbsp; &nbsp; [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,6 +30,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The California Department of Public Health today issued a number of documents, including and related to its proposed regulations for medical cannabis.</p>\n"
   }
 }

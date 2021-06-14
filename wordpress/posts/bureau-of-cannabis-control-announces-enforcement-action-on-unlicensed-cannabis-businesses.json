@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-04-26T21:08:00",
-    "updated_date": "2021-06-12T07:27:15",
+    "updated_date": "2021-06-14T19:16:07",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Businesses",
     "author": "Department of Cannabis Control",
     "date": "2019-04-26T21:08:00",
-    "modified": "2021-06-12T07:27:15",
+    "modified": "2021-06-14T19:16:07",
     "date_gmt": "2019-04-26T21:08:00",
-    "modified_gmt": "2021-06-12T07:27:15",
+    "modified_gmt": "2021-06-14T19:16:07",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/26/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-businesses/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-businesses.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-businesses.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on two unlicensed cannabis businesses operating out of locations in Los Angeles. On Wednesday, April 24, 2019, DOI-CEU, with the assistance of the Los Angeles Police Department (LAPD), served search warrants [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,6 +38,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on two unlicensed cannabis businesses operating out of locations in Los Angeles.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-07-08T01:58:00",
-    "updated_date": "2021-06-12T07:26:16",
+    "updated_date": "2021-06-14T19:17:15",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,19 +17,19 @@
     "title": "A Major Problem For The Cannabis Business: Banks Keep Staying Away",
     "author": "Department of Cannabis Control",
     "date": "2017-07-08T01:58:00",
-    "modified": "2021-06-12T07:26:16",
+    "modified": "2021-06-14T19:17:15",
     "date_gmt": "2017-07-08T01:58:00",
-    "modified_gmt": "2021-06-12T07:26:16",
+    "modified_gmt": "2021-06-14T19:17:15",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/08/a-major-problem-for-the-cannabis-business-banks-keep-staying-away/",
     "file_path_html": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.html",
     "file_path_json": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.json",
-    "excerpt": "<p>Starting a business is difficult, even under the best of circumstances. But starting a business without access to banking services puts even the most well-funded start-up in a real bind. That’s the situation facing many in the cannabis industry, even though California voters passed Proposition 64 — legalizing recreational use of marijuana for those 21 [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
     "tags": [
       "Banking",
       null
-    ]
+    ],
+    "excerpt": "<p>Starting a business is difficult, even under the best of circumstances.</p>\n"
   }
 }

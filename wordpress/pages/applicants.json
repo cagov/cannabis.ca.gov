@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/",
     "file_path_html": "pages/applicants.html",
     "file_path_json": "pages/applicants.json",
-    "excerpt": "",
     "parent": 0,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

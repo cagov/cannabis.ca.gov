@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-02-04T20:02:00",
-    "updated_date": "2021-06-12T07:25:57",
+    "updated_date": "2021-06-14T19:16:16",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "State Water Board: Public Hearing, Responses to Comments, and Final Draft of Proposed Updates to Cannabis Policy",
     "author": "Department of Cannabis Control",
     "date": "2019-02-04T20:02:00",
-    "modified": "2021-06-12T07:25:57",
+    "modified": "2021-06-14T19:16:16",
     "date_gmt": "2019-02-04T20:02:00",
-    "modified_gmt": "2021-06-12T07:25:57",
+    "modified_gmt": "2021-06-14T19:16:16",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/04/notice-of-opportunity-for-public-comment-and-public-hearing/",
     "file_path_html": "posts/notice-of-opportunity-for-public-comment-and-public-hearing.html",
     "file_path_json": "posts/notice-of-opportunity-for-public-comment-and-public-hearing.json",
-    "excerpt": "<p>The State Water Resources Control Board (State Water Board) is holding a Board Meeting on February 5, 2019.  Item 5 on the Board agenda is a hearing and consideration of Proposed Update to the Cannabis Cultivation Policy – Principles and Guidelines for Cannabis Cultivation (Cannabis Policy).  The time and location of the Board Meeting is [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,6 +32,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The State Water Resources Control Board (State Water Board) is holding a Board Meeting on February 5, 2019. </p>\n"
   }
 }

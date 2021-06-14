@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-10-23T18:32:00",
-    "updated_date": "2021-06-12T07:26:13",
+    "updated_date": "2021-06-14T19:17:06",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Media: Want to Start a Cannabis Business in California? Tips from a Recent Workshop",
     "author": "Department of Cannabis Control",
     "date": "2017-10-23T18:32:00",
-    "modified": "2021-06-12T07:26:13",
+    "modified": "2021-06-14T19:17:06",
     "date_gmt": "2017-10-23T18:32:00",
-    "modified_gmt": "2021-06-12T07:26:13",
+    "modified_gmt": "2021-06-14T19:17:06",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/23/want-to-start-a-cannabis-business-in-california-tips-from-a-recent-workshop/",
     "file_path_html": "posts/want-to-start-a-cannabis-business-in-california-tips-from-a-recent-workshop.html",
     "file_path_json": "posts/want-to-start-a-cannabis-business-in-california-tips-from-a-recent-workshop.json",
-    "excerpt": "<p>An hour after the start of Friday’s workshop on how to get a state license to run a cannabis business, some 200 people were still queued up in the parking lot of the Riverside County Administrative Offices trying to get inside. County staff scrambled to set up portable speakers so the crowd on the sidewalk [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -34,6 +33,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>An hour after the start of Friday’s workshop on how to get a state license to run a cannabis business, some 200 people were still queued up in the parking lot of the Riverside County Administrative Offices trying to get inside.</p>\n"
   }
 }

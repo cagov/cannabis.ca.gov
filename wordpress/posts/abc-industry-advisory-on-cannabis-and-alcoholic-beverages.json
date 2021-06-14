@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-05-21T20:00:00",
-    "updated_date": "2021-06-12T07:25:54",
+    "updated_date": "2021-06-14T19:16:05",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "ABC: Industry Advisory on Cannabis and Alcoholic Beverages",
     "author": "Department of Cannabis Control",
     "date": "2019-05-21T20:00:00",
-    "modified": "2021-06-12T07:25:54",
+    "modified": "2021-06-14T19:16:05",
     "date_gmt": "2019-05-21T20:00:00",
-    "modified_gmt": "2021-06-12T07:25:54",
+    "modified_gmt": "2021-06-14T19:16:05",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/21/abc-industry-advisory-on-cannabis-and-alcoholic-beverages/",
     "file_path_html": "posts/abc-industry-advisory-on-cannabis-and-alcoholic-beverages.html",
     "file_path_json": "posts/abc-industry-advisory-on-cannabis-and-alcoholic-beverages.json",
-    "excerpt": "<p>With the legalization of commercial recreational use of cannabis and cannabis products commencing in 2018, along with the licensed manufacture and sale, a number of questions have arisen about what activities are permissible on or in premises licensed by the Department of Alcoholic Beverage Control to manufacture or sell alcoholic beverages. The following frequently asked [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -41,6 +40,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>With the legalization of commercial recreational use of cannabis and cannabis products commencing in 2018, along with the licensed manufacture and sale, a number of questions have arisen about what activities are permissible on or in premises licensed by the <a href=\"https://www.abc.ca.gov/\" target=\"_blank\" rel=\"noopener\">Department of Alcoholic Beverage Control</a> to manufacture or sell alcoholic beverages.</p>\n"
   }
 }

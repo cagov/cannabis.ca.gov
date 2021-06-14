@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-10-19T20:48:00",
-    "updated_date": "2021-06-12T07:27:18",
+    "updated_date": "2021-06-14T19:16:26",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "State Cannabis Licensing Authorities Announce Changes to Proposed Cannabis Regulations",
     "author": "Department of Cannabis Control",
     "date": "2018-10-19T20:48:00",
-    "modified": "2021-06-12T07:27:18",
+    "modified": "2021-06-14T19:16:26",
     "date_gmt": "2018-10-19T20:48:00",
-    "modified_gmt": "2021-06-12T07:27:18",
+    "modified_gmt": "2021-06-14T19:16:26",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
     "file_path_html": "posts/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations.html",
     "file_path_json": "posts/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations.json",
-    "excerpt": "<p> SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018. These proposed changes mark the next step in the formal rulemaking process toward adopting non-emergency regulations and the beginning of a 15-day public comment period related to the [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,6 +38,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.</p>\n"
   }
 }

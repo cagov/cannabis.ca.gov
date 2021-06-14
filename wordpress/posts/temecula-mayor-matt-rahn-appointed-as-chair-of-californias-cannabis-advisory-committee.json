@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-02-07T22:54:00",
-    "updated_date": "2021-06-12T07:27:23",
+    "updated_date": "2021-06-14T19:16:53",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Temecula Mayor Matt Rahn appointed as chair of California’s Cannabis Advisory Committee",
     "author": "Department of Cannabis Control",
     "date": "2018-02-07T22:54:00",
-    "modified": "2021-06-12T07:27:23",
+    "modified": "2021-06-14T19:16:53",
     "date_gmt": "2018-02-07T22:54:00",
-    "modified_gmt": "2021-06-12T07:27:23",
+    "modified_gmt": "2021-06-14T19:16:53",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/07/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee/",
     "file_path_html": "posts/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee.html",
     "file_path_json": "posts/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee.json",
-    "excerpt": "<p>TEMECULA – During its first meeting of 2018, the California Department of Consumer Affairs’ newly created committee, the Cannabis Advisory Committee, under the Bureau of Cannabis Control, appointed Temecula Mayor Matt Rahn as its chair. “Cannabis is an important topic among many communities in California, and it is important that we continue to include the [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -37,6 +36,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>TEMECULA – During its first meeting of 2018, the California Department of Consumer Affairs’ newly created committee, the Cannabis Advisory Committee, under the Bureau of Cannabis Control, appointed Temecula Mayor Matt Rahn as its chair.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-09-28T19:29:00",
-    "updated_date": "2021-06-12T07:27:19",
+    "updated_date": "2021-06-14T19:16:27",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Controls Revokes Temporary Testing Laboratory License",
     "author": "Department of Cannabis Control",
     "date": "2018-09-28T19:29:00",
-    "modified": "2021-06-12T07:27:19",
+    "modified": "2021-06-14T19:16:27",
     "date_gmt": "2018-09-28T19:29:00",
-    "modified_gmt": "2021-06-12T07:27:19",
+    "modified_gmt": "2021-06-14T19:16:27",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/28/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license/",
     "file_path_html": "posts/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license.html",
     "file_path_json": "posts/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has revoked a temporary testing laboratory license previously issued to PharmLabs, LLC operating in San Diego. The laboratory failed to meet the testing standards and procedures required by the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA) and the Bureau’s regulations. “The Bureau [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -37,6 +36,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has revoked a temporary testing laboratory license previously issued to PharmLabs, LLC operating in San Diego.</p>\n"
   }
 }

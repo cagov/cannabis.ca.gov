@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/search-for-licensed-business/",
     "file_path_html": "pages/search-for-licensed-business.html",
     "file_path_json": "pages/search-for-licensed-business.json",
-    "excerpt": "<p>Search for a business licensed by the Department of Cannabis Control.</p>\n",
     "parent": 759,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": "<p>Search for a business licensed by the Department of Cannabis Control.</p>\n"
   }
 }

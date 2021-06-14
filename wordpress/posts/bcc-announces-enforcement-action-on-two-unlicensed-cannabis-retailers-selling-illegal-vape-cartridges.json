@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-09-13T23:21:00",
-    "updated_date": "2021-06-12T07:27:13",
+    "updated_date": "2021-06-14T19:15:58",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers Selling Illegal Vape Cartridges",
     "author": "Department of Cannabis Control",
     "date": "2019-09-13T23:21:00",
-    "modified": "2021-06-12T07:27:13",
+    "modified": "2021-06-14T19:15:58",
     "date_gmt": "2019-09-13T23:21:00",
-    "modified_gmt": "2021-06-12T07:27:13",
+    "modified_gmt": "2021-06-14T19:15:58",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
     "file_path_html": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges.html",
     "file_path_json": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action against two unlicensed cannabis retailers in Southern California selling illegal vape cartridges. On Wednesday, September 11, 2019, DOI-CEU served a search warrant on “Made In Cali”, an unlicensed cannabis retailer located at 6212 [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -35,6 +34,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action against two unlicensed cannabis retailers in Southern California selling illegal vape cartridges.</p>\n"
   }
 }

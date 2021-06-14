@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-10-04T22:52:00",
-    "updated_date": "2021-06-12T07:26:13",
+    "updated_date": "2021-06-14T19:17:07",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
     "author": "Department of Cannabis Control",
     "date": "2017-10-04T22:52:00",
-    "modified": "2021-06-12T07:26:13",
+    "modified": "2021-06-14T19:17:07",
     "date_gmt": "2017-10-04T22:52:00",
-    "modified_gmt": "2021-06-12T07:26:13",
+    "modified_gmt": "2021-06-14T19:17:07",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
     "file_path_html": "posts/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee.html",
     "file_path_json": "posts/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee.json",
-    "excerpt": "<p>SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC). The committee will advise BCC and the other licensing authorities – the California Department of Food and Agriculture and the California Department of Public Health – on the development of [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,6 +31,7 @@
       "Bureau of Cannabis Control",
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).</p>\n"
   }
 }

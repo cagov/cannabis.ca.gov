@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-08-13T14:52:00",
-    "updated_date": "2021-06-12T07:27:20",
+    "updated_date": "2021-06-14T19:16:32",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control to Hold Public Hearing on Proposed Cannabis Regulations in Los Angeles",
     "author": "Department of Cannabis Control",
     "date": "2018-08-13T14:52:00",
-    "modified": "2021-06-12T07:27:20",
+    "modified": "2021-06-14T19:16:32",
     "date_gmt": "2018-08-13T14:52:00",
-    "modified_gmt": "2021-06-12T07:27:20",
+    "modified_gmt": "2021-06-14T19:16:32",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/13/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the second of three public hearings for our proposed non-emergency cannabis regulations will be held on Tuesday, August 14 in Los Angeles. The hearing is intended to provide the public with an opportunity to voice their opinions on the rulemaking process. During the hearing, [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -37,6 +36,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the second of three public hearings for our proposed non-emergency cannabis regulations will be held on Tuesday, August 14 in Los Angeles.</p>\n"
   }
 }

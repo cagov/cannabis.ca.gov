@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-24T23:48:00",
-    "updated_date": "2021-06-12T07:28:05",
+    "updated_date": "2021-06-14T19:16:54",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Franchise Tax Board Interested Parties Meeting: &#8220;Cannabis Business Income Taxes &amp; You&#8221;",
     "author": "Department of Cannabis Control",
     "date": "2018-01-24T23:48:00",
-    "modified": "2021-06-12T07:28:05",
+    "modified": "2021-06-14T19:16:54",
     "date_gmt": "2018-01-24T23:48:00",
-    "modified_gmt": "2021-06-12T07:28:05",
+    "modified_gmt": "2021-06-14T19:16:54",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/24/franchise-tax-board-interested-parties-meeting-cannabis-business-income-taxes-you/",
     "file_path_html": "posts/franchise-tax-board-interested-parties-meeting-cannabis-business-income-taxes-you.html",
     "file_path_json": "posts/franchise-tax-board-interested-parties-meeting-cannabis-business-income-taxes-you.json",
-    "excerpt": "<p>Franchise Tax Board (FTB) will hold an Interested Parties Meeting on January 29 in Los Angeles: “Cannabis Business Income Taxes &amp; You.” FTB is interested in understanding the challenges faced by the cannabis industry and welcomes your participation.&nbsp;Attendees are encouraged to arrive early since seating is limited. FTB held their first interested parties meeting (IPM) [&hellip;]</p>\n",
     "categories": [
       "Events"
     ],
@@ -36,6 +35,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Franchise Tax Board (FTB) will hold an Interested Parties Meeting on January 29 in Los Angeles: “Cannabis Business Income Taxes &amp; You.” FTB is interested in understanding the challenges faced by the cannabis industry and welcomes your participation.&nbsp;Attendees are encouraged to arrive early since seating is limited.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-16T23:15:00",
-    "updated_date": "2021-06-12T07:27:23",
+    "updated_date": "2021-06-14T19:16:55",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control To Hold Public Licensing Workshop in Monterey",
     "author": "Department of Cannabis Control",
     "date": "2018-01-16T23:15:00",
-    "modified": "2021-06-12T07:27:23",
+    "modified": "2021-06-14T19:16:55",
     "date_gmt": "2018-01-16T23:15:00",
-    "modified_gmt": "2021-06-12T07:27:23",
+    "modified_gmt": "2021-06-14T19:16:55",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/16/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-monterey/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-monterey.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-monterey.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Monterey on January 22. The workshop will focus on what licensing information is needed and what resources are available for people planning to apply for state commercial cannabis licenses. The Bureau will be joined by other state and local agencies [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -37,6 +36,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Monterey on January 22.</p>\n"
   }
 }

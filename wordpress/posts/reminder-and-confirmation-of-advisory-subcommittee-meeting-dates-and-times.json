@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-02-09T00:37:00",
-    "updated_date": "2021-06-12T07:27:22",
+    "updated_date": "2021-06-14T19:16:52",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,16 +17,16 @@
     "title": "REMINDER AND CONFIRMATION OF ADVISORY SUBCOMMITTEE MEETING DATES AND TIMES",
     "author": "Department of Cannabis Control",
     "date": "2018-02-09T00:37:00",
-    "modified": "2021-06-12T07:27:22",
+    "modified": "2021-06-14T19:16:52",
     "date_gmt": "2018-02-09T00:37:00",
-    "modified_gmt": "2021-06-12T07:27:22",
+    "modified_gmt": "2021-06-14T19:16:52",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
     "file_path_html": "posts/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times.html",
     "file_path_json": "posts/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times.json",
-    "excerpt": "<p>The Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento. Ten Subcommittees will meet to discuss and develop recommendations to the state cannabis licensing authorities’ formal rulemaking packages. The agenda and meeting materials for each Subcommittee Meeting can be found here. All Subcommittee Meetings are open to [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
-    "tags": []
+    "tags": [],
+    "excerpt": "<p>The Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.</p>\n"
   }
 }

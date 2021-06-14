@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-10-19T20:38:00",
-    "updated_date": "2021-06-12T07:26:00",
+    "updated_date": "2021-06-14T19:16:26",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Cannabis Control Appeals Panel 15-Day Notice of Modification to Text of Proposed Regulations",
     "author": "Department of Cannabis Control",
     "date": "2018-10-19T20:38:00",
-    "modified": "2021-06-12T07:26:00",
+    "modified": "2021-06-14T19:16:26",
     "date_gmt": "2018-10-19T20:38:00",
-    "modified_gmt": "2021-06-12T07:26:00",
+    "modified_gmt": "2021-06-14T19:16:26",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/10/19/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations/",
     "file_path_html": "posts/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations.json",
-    "excerpt": "<p>The Cannabis Control Appeals Panel today announced changes to the proposed regulations published to the California Regulatory Notice Register on August 31, 2018. These proposed changes mark the next step in the formal rulemaking process toward adopting regulations and the beginning of a 15-day public comment period related to the proposed changes. The changes to [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,6 +34,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The Cannabis Control Appeals Panel today announced changes to the proposed regulations published to the California Regulatory Notice Register on August 31, 2018.</p>\n"
   }
 }

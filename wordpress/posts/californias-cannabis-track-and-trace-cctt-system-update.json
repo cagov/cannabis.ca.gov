@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-01T20:10:00",
-    "updated_date": "2021-06-12T07:26:11",
+    "updated_date": "2021-06-14T19:16:58",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
     "author": "Department of Cannabis Control",
     "date": "2018-01-01T20:10:00",
-    "modified": "2021-06-12T07:26:11",
+    "modified": "2021-06-14T19:16:58",
     "date_gmt": "2018-01-01T20:10:00",
-    "modified_gmt": "2021-06-12T07:26:11",
+    "modified_gmt": "2021-06-14T19:16:58",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
     "file_path_html": "posts/californias-cannabis-track-and-trace-cctt-system-update.html",
     "file_path_json": "posts/californias-cannabis-track-and-trace-cctt-system-update.json",
-    "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system? Do you want help preparing required documentation for transfers of cannabis and cannabis products between temporary licensees? If so, visit the&nbsp;CalCannabis website&nbsp;or click on the links provided below. California&#8217;s Cannabis Track-and-Trace (CCTT) System – Frequently Asked Questions. As the mandated state-agency system administrator [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -34,6 +33,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.</p>\n"
   }
 }

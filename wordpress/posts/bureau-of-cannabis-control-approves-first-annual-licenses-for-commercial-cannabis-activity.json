@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-11-02T21:59:00",
-    "updated_date": "2021-06-12T07:27:18",
+    "updated_date": "2021-06-14T19:16:23",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
     "author": "Department of Cannabis Control",
     "date": "2018-11-02T21:59:00",
-    "modified": "2021-06-12T07:27:18",
+    "modified": "2021-06-14T19:16:23",
     "date_gmt": "2018-11-02T21:59:00",
-    "modified_gmt": "2021-06-12T07:27:18",
+    "modified_gmt": "2021-06-14T19:16:23",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
     "file_path_html": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.html",
     "file_path_json": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California. The businesses must first pay their licensing fee before their annual license will be issued and active. Annual licenses issued by the Bureau are effective for 12 months. Businesses approved [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -38,6 +37,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.</p>\n"
   }
 }

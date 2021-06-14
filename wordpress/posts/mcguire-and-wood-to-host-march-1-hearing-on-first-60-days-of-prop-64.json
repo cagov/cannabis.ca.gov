@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-02-23T22:00:00",
-    "updated_date": "2021-06-12T07:27:22",
+    "updated_date": "2021-06-14T19:16:50",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
     "author": "Department of Cannabis Control",
     "date": "2018-02-23T22:00:00",
-    "modified": "2021-06-12T07:27:22",
+    "modified": "2021-06-14T19:16:50",
     "date_gmt": "2018-02-23T22:00:00",
-    "modified_gmt": "2021-06-12T07:27:22",
+    "modified_gmt": "2021-06-14T19:16:50",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
     "file_path_html": "posts/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64.html",
     "file_path_json": "posts/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64.json",
-    "excerpt": "<p>NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis. California residents are now seeing the migration of North America’s largest cannabis market into the light of a regulated and legal system estimated to be worth an approximate $7 billion annually. State Sen. Mike McGuire and Assemblyman Jim Wood will [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -40,6 +39,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.</p>\n"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-07-31T20:06:00",
-    "updated_date": "2021-06-12T07:27:13",
+    "updated_date": "2021-06-14T19:15:59",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Bureau of Cannabis Control Now Accepting Applications for Local Equity Grant Funding",
     "author": "Department of Cannabis Control",
     "date": "2019-07-31T20:06:00",
-    "modified": "2021-06-12T07:27:13",
+    "modified": "2021-06-14T19:15:59",
     "date_gmt": "2019-07-31T20:06:00",
-    "modified_gmt": "2021-06-12T07:27:13",
+    "modified_gmt": "2021-06-14T19:15:59",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/07/31/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding/",
     "file_path_html": "posts/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding.html",
     "file_path_json": "posts/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 (Equity Act), established by Senate Bill 1294. The Bureau was appropriated $10 million to award to cities and counties assisting equity applicants and licensees through their local equity [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -40,6 +39,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 (Equity Act), established by Senate Bill 1294.</p>\n"
   }
 }

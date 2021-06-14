@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/access-license-portals/",
     "file_path_html": "pages/access-license-portals.html",
     "file_path_json": "pages/access-license-portals.json",
-    "excerpt": "<p>Use the online licensing systems to apply for, renew or change a license</p>\n",
     "parent": 756,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": "<p>Use the online licensing systems to apply for, renew or change a license</p>\n"
   }
 }

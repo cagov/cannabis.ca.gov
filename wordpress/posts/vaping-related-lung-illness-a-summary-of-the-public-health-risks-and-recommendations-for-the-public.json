@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-09-26T19:43:00",
-    "updated_date": "2021-06-12T07:25:52",
+    "updated_date": "2021-06-14T19:15:57",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Vaping Related Lung Illness: A Summary of the Public Health Risks and Recommendations for the Public",
     "author": "Department of Cannabis Control",
     "date": "2019-09-26T19:43:00",
-    "modified": "2021-06-12T07:25:52",
+    "modified": "2021-06-14T19:15:57",
     "date_gmt": "2019-09-26T19:43:00",
-    "modified_gmt": "2021-06-12T07:25:52",
+    "modified_gmt": "2021-06-14T19:15:57",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/26/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public/",
     "file_path_html": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.html",
     "file_path_json": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.json",
-    "excerpt": "<p>This health advisory seeks to inform the public about the imminent public health risks posed by vaping any product, including the use of electronic cigarettes (e‐cigarettes), as vaping has recently been linked to severe breathing problems, lung damage, and even death. Vaping is inhaling aerosol from an e-cigarette or other vaping device that heats a [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -41,6 +40,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>This health advisory seeks to inform the public about the imminent public health risks posed by vaping any product, including the use of electronic cigarettes (e‐cigarettes), as vaping has recently been linked to severe breathing problems, lung damage, and even death.</p>\n"
   }
 }

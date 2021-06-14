@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-11-18T00:34:00",
-    "updated_date": "2021-06-12T07:27:26",
+    "updated_date": "2021-06-14T19:17:03",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
     "author": "Department of Cannabis Control",
     "date": "2017-11-18T00:34:00",
-    "modified": "2021-06-12T07:27:26",
+    "modified": "2021-06-14T19:17:03",
     "date_gmt": "2017-11-18T00:34:00",
-    "modified_gmt": "2021-06-12T07:27:26",
+    "modified_gmt": "2021-06-14T19:17:03",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
     "file_path_html": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.html",
     "file_path_json": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.json",
-    "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full. ON NOVEMBER 30, 2017, THERE WILL BE A STEP-BY-STEP APPLICATION TRAINING VIDEO POSTED ON THE CALCANNABIS CULTIVATION LICENSING WEBSITE AT calcannabis.cdfa.ca.gov. SACRAMENTO – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division is announcing a series of 10 workshops in late November and December for training [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -35,6 +34,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n"
   }
 }

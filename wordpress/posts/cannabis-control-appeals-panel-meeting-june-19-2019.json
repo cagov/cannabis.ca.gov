@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-06-17T22:35:00",
-    "updated_date": "2021-06-12T07:28:03",
+    "updated_date": "2021-06-14T19:16:04",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Cannabis Control Appeals Panel Meeting &#8211; June 19, 2019",
     "author": "Department of Cannabis Control",
     "date": "2019-06-17T22:35:00",
-    "modified": "2021-06-12T07:28:03",
+    "modified": "2021-06-14T19:16:04",
     "date_gmt": "2019-06-17T22:35:00",
-    "modified_gmt": "2021-06-12T07:28:03",
+    "modified_gmt": "2021-06-14T19:16:04",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/17/cannabis-control-appeals-panel-meeting-june-19-2019/",
     "file_path_html": "posts/cannabis-control-appeals-panel-meeting-june-19-2019.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-meeting-june-19-2019.json",
-    "excerpt": "<p>The Cannabis Control Appeals Panel will hold a meeting at the State Personal Board Building on Wednesday, June 19 at 10:00 a.m. The meeting agenda can be found here.  The public may provide appropriate comment on any issue before the panel at the time the item is discussed. If public comment is not specifically requested, [&hellip;]</p>\n",
     "categories": [
       "Events"
     ],
@@ -36,6 +35,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The Cannabis Control Appeals Panel will hold a meeting at the State Personal Board Building on Wednesday, June 19 at 10:00 a.m. The meeting agenda <a href=\"https://www.ccap.ca.gov/about/meetings/agendas/20190619.pdf\" target=\"_blank\" rel=\"noopener\">can be found here</a>.</p>\n"
   }
 }

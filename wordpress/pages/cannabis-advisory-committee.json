@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/cannabis-advisory-committee/",
     "file_path_html": "pages/cannabis-advisory-committee.html",
     "file_path_json": "pages/cannabis-advisory-committee.json",
-    "excerpt": "",
     "parent": 707,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

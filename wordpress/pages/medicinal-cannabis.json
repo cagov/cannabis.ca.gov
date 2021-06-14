@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/medicinal-cannabis/",
     "file_path_html": "pages/medicinal-cannabis.html",
     "file_path_json": "pages/medicinal-cannabis.json",
-    "excerpt": "",
     "parent": 757,
-    "menu_order": 0
+    "menu_order": 0,
+    "excerpt": ""
   }
 }

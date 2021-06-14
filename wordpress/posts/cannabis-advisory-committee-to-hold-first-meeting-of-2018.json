@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-09T00:24:00",
-    "updated_date": "2021-06-12T07:27:24",
+    "updated_date": "2021-06-14T19:16:57",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Cannabis Advisory Committee To Hold First Meeting of 2018",
     "author": "Department of Cannabis Control",
     "date": "2018-01-09T00:24:00",
-    "modified": "2021-06-12T07:27:24",
+    "modified": "2021-06-14T19:16:57",
     "date_gmt": "2018-01-09T00:24:00",
-    "modified_gmt": "2021-06-12T07:27:24",
+    "modified_gmt": "2021-06-14T19:16:57",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/09/cannabis-advisory-committee-to-hold-first-meeting-of-2018/",
     "file_path_html": "posts/cannabis-advisory-committee-to-hold-first-meeting-of-2018.html",
     "file_path_json": "posts/cannabis-advisory-committee-to-hold-first-meeting-of-2018.json",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its first meeting of the year on Thursday, January 18, in Sacramento. The Meeting Notice and Agenda can be found here: http://bcc.ca.gov/about_us/committee. Meeting materials will also be posted on the Bureau&#8217;s website as they become available. CANNABIS ADVISORY [&hellip;]</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,6 +35,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its first meeting of the year on Thursday, January 18, in Sacramento.</p>\n"
   }
 }

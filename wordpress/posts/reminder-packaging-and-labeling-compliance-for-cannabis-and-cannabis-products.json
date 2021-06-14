@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-06-20T19:39:00",
-    "updated_date": "2021-06-12T07:25:53",
+    "updated_date": "2021-06-14T19:16:03",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,13 +17,12 @@
     "title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
     "author": "Department of Cannabis Control",
     "date": "2019-06-20T19:39:00",
-    "modified": "2021-06-12T07:25:53",
+    "modified": "2021-06-14T19:16:03",
     "date_gmt": "2019-06-20T19:39:00",
-    "modified_gmt": "2021-06-12T07:25:53",
+    "modified_gmt": "2021-06-14T19:16:03",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
     "file_path_html": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.html",
     "file_path_json": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.json",
-    "excerpt": "<p>The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year. Key deadlines for compliance with packaging and labeling requirements: Cannabis and cannabis product packaging that was compliant under the emergency regulations [&hellip;]</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -42,6 +41,7 @@
       null,
       null,
       null
-    ]
+    ],
+    "excerpt": "<p>The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.</p>\n"
   }
 }
