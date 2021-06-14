@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2019-02-04T20:11:00",
+    "updated_date": "2021-06-12T07:28:04",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6325,
+    "slug": "cdtfa-business-taxes-committee-material-proposed-amendments-to-cannabis-tax-regulation-3700",
+    "title": "CDTFA &#8211; Business Taxes Committee Material &#8211; Proposed Amendments to Cannabis Tax Regulation 3700",
+    "author": "Department of Cannabis Control",
+    "date": "2019-02-04T20:11:00",
+    "modified": "2021-06-12T07:28:04",
+    "date_gmt": "2019-02-04T20:11:00",
+    "modified_gmt": "2021-06-12T07:28:04",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/04/cdtfa-business-taxes-committee-material-proposed-amendments-to-cannabis-tax-regulation-3700/",
+    "file_path_html": "posts/cdtfa-business-taxes-committee-material-proposed-amendments-to-cannabis-tax-regulation-3700.html",
+    "file_path_json": "posts/cdtfa-business-taxes-committee-material-proposed-amendments-to-cannabis-tax-regulation-3700.json",
+    "excerpt": "<p>Enclosed is the Second Discussion Paper on proposed amendments to Regulation 3700, Cannabis Excise and Cultivation Taxes. Staff would like to invite you to discuss the issue and present any additional suggestions or comments. Accordingly, an interested parties meeting is scheduled as follows: February 5, 2019Room 122 at 10:00 a.m.450 N Street, Sacramento, CA If [&hellip;]</p>\n",
+    "categories": [
+      "Events"
+    ],
+    "tags": [
+      "California department of tax and fee administration",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

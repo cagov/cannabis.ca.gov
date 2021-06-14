@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created_date": "2019-02-19T18:48:00",
+    "updated_date": "2021-06-12T07:25:57",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6213,
+    "slug": "31947",
+    "title": "California Community Reinvestment Grants Program &#8211; Draft Grant Solicitation &#038; Public Comment Period",
+    "author": "Department of Cannabis Control",
+    "date": "2019-02-19T18:48:00",
+    "modified": "2021-06-12T07:25:57",
+    "date_gmt": "2019-02-19T18:48:00",
+    "modified_gmt": "2021-06-12T07:25:57",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/31947/",
+    "file_path_html": "posts/31947.html",
+    "file_path_json": "posts/31947.json",
+    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties, The Governor’s Office of Business and Economic Development (GO-Biz) is pleased to announce the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment. The Draft Grant Solicitation consists of two sections: 1. The Guidance and Overview section provides an [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "CalCRG",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "created_date": "2020-09-24T21:58:00",
+    "updated_date": "2021-06-12T07:27:08",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5974,
+    "slug": "cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity",
+    "title": "Cannabis Licensing Authorities File Civil Action Against Vertical Bliss (Kushy Punch) For Unlicensed Activity",
+    "author": "Department of Cannabis Control",
+    "date": "2020-09-24T21:58:00",
+    "modified": "2021-06-12T07:27:08",
+    "date_gmt": "2020-09-24T21:58:00",
+    "modified_gmt": "2021-06-12T07:27:08",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/24/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
+    "file_path_html": "posts/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity.html",
+    "file_path_json": "posts/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc. also known as Kushy Punch and related people for unlicensed commercial cannabis activity. The complaint was filed on September 23, 2020 by the California Office of [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2018-04-18T17:00:00",
+    "updated_date": "2021-06-12T07:26:07",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6254,
+    "slug": "applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available",
+    "title": "Applications for Shared-Use Cannabis Manufacturing Facilities Are Now Available",
+    "author": "Department of Cannabis Control",
+    "date": "2018-04-18T17:00:00",
+    "modified": "2021-06-12T07:26:07",
+    "date_gmt": "2018-04-18T17:00:00",
+    "modified_gmt": "2021-06-12T07:26:07",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/18/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available/",
+    "file_path_html": "posts/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available.html",
+    "file_path_json": "posts/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available.json",
+    "excerpt": "<p>Emergency regulations for shared-use cannabis manufacturing facilities, released by the California Department of Public Health (CDPH), have been approved and are now in effect. CDPH is now accepting shared-use facility registrations from state-licensed cannabis manufacturers. LICENSING PROCESS: 1. Cannabis Manufacturing License The facility owner or operator (“Primary Licensee”) submits an application for a Type 7, [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Applications",
+      "California Department of Public Health",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created_date": "2018-01-01T20:31:00",
+    "updated_date": "2021-06-12T07:27:24",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6052,
+    "slug": "more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity",
+    "title": "More Than 400 State-Licensed Cannabis Businesses Operating On California&#8217;s First Day of Legal Commercial Cannabis Activity",
+    "author": "Department of Cannabis Control",
+    "date": "2018-01-01T20:31:00",
+    "modified": "2021-06-12T07:27:24",
+    "date_gmt": "2018-01-01T20:31:00",
+    "modified_gmt": "2021-06-12T07:27:24",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/01/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity/",
+    "file_path_html": "posts/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity.html",
+    "file_path_json": "posts/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity.json",
+    "excerpt": "<p>SACRAMENTO – Temporary licenses issued by the Bureau of Cannabis Control for retailers, distributors, microbusinesses, testing laboratories, and event organizers are now in effect and businesses can begin operating in California’s newly-legal commercial cannabis market. More than 400 Cannabis operators, from Shasta Lake to the City of San Diego, now hold state licenses in the [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "Business",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

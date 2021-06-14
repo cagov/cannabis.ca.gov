@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_date": "2018-08-13T14:48:00",
+    "updated_date": "2021-06-12T07:26:02",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6237,
+    "slug": "cannabis-cultivation-permitting-workshops",
+    "title": "Cannabis Cultivation Permitting Workshops",
+    "author": "Department of Cannabis Control",
+    "date": "2018-08-13T14:48:00",
+    "modified": "2021-06-12T07:26:02",
+    "date_gmt": "2018-08-13T14:48:00",
+    "modified_gmt": "2021-06-12T07:26:02",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/13/cannabis-cultivation-permitting-workshops/",
+    "file_path_html": "posts/cannabis-cultivation-permitting-workshops.html",
+    "file_path_json": "posts/cannabis-cultivation-permitting-workshops.json",
+    "excerpt": "<p>The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing. State Water Board and CDFW staff will be onsite to answer your project-specific questions. They will also have computers onsite to help setup your [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "California department of fish and wildlife",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

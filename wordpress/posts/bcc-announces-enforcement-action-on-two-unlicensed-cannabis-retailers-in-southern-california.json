@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "created_date": "2020-01-31T01:16:00",
+    "updated_date": "2021-06-12T07:27:10",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5984,
+    "slug": "bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california",
+    "title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers in Southern California",
+    "author": "Department of Cannabis Control",
+    "date": "2020-01-31T01:16:00",
+    "modified": "2021-06-12T07:27:10",
+    "date_gmt": "2020-01-31T01:16:00",
+    "modified_gmt": "2021-06-12T07:27:10",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/31/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california/",
+    "file_path_html": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california.html",
+    "file_path_json": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on two unlicensed cannabis retailers operating in Southern California. On Tuesday, January 28, DOI-CEU served a search warrant on an illegal cannabis business, “Garden of Faith”, located at 24400 Muirlands Blvd., [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

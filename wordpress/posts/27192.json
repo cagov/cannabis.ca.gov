@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2017-08-25T22:52:00",
+    "updated_date": "2021-06-12T07:27:28",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6075,
+    "slug": "27192",
+    "title": "Governor Brown Announces Appointments",
+    "author": "Department of Cannabis Control",
+    "date": "2017-08-25T22:52:00",
+    "modified": "2021-06-12T07:27:28",
+    "date_gmt": "2017-08-25T22:52:00",
+    "modified_gmt": "2021-06-12T07:27:28",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/25/27192/",
+    "file_path_html": "posts/27192.html",
+    "file_path_json": "posts/27192.json",
+    "excerpt": "<p>SACRAMENTO – Governor Edmund G. Brown Jr. today announced the following appointments: Melanie V. Ramil, 35, of Sacramento, has been appointed deputy chief of the Bureau of Cannabis Control at the California Department of Consumer Affairs. Ramil has been deputy state director in the Office of U.S. Senator Kamala D. Harris since January 2017. She was [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "Andre Jones",
+      "Appointment",
+      "Assistant",
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created_date": "2019-04-29T21:00:00",
+    "updated_date": "2021-06-12T07:25:54",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6202,
+    "slug": "registering-cannabis-related-trademarks-in-california",
+    "title": "Registering Cannabis-Related Trademarks in California",
+    "author": "Department of Cannabis Control",
+    "date": "2019-04-29T21:00:00",
+    "modified": "2021-06-12T07:25:54",
+    "date_gmt": "2019-04-29T21:00:00",
+    "modified_gmt": "2021-06-12T07:25:54",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/29/registering-cannabis-related-trademarks-in-california/",
+    "file_path_html": "posts/registering-cannabis-related-trademarks-in-california.html",
+    "file_path_json": "posts/registering-cannabis-related-trademarks-in-california.json",
+    "excerpt": "<p>The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California. The contents of this document has been posted to the California Cannabis Portal&#8217;s Business Resources page. A text-only version has also been posted below: What is a Trademark or Service Mark? “Trademark” means any word, name, symbol, [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Brochure",
+      "Business",
+      "California cannabis",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

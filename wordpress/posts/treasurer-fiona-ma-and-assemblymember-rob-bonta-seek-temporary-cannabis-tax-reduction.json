@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_date": "2019-01-28T20:53:00",
+    "updated_date": "2021-06-12T07:27:17",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6017,
+    "slug": "treasurer-fiona-ma-and-assemblymember-rob-bonta-seek-temporary-cannabis-tax-reduction",
+    "title": "Treasurer Fiona Ma and Assemblymember Rob Bonta Seek Temporary Cannabis Tax Reduction",
+    "author": "Department of Cannabis Control",
+    "date": "2019-01-28T20:53:00",
+    "modified": "2021-06-12T07:27:17",
+    "date_gmt": "2019-01-28T20:53:00",
+    "modified_gmt": "2021-06-12T07:27:17",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/01/28/treasurer-fiona-ma-and-assemblymember-rob-bonta-seek-temporary-cannabis-tax-reduction/",
+    "file_path_html": "posts/treasurer-fiona-ma-and-assemblymember-rob-bonta-seek-temporary-cannabis-tax-reduction.html",
+    "file_path_json": "posts/treasurer-fiona-ma-and-assemblymember-rob-bonta-seek-temporary-cannabis-tax-reduction.json",
+    "excerpt": "<p>SACRAMENTO &#8211; State Treasurer Fiona Ma, CPA and Assemblymember Rob Bonta (D – Alameda) announced today that their Temporary Cannabis Tax Reduction bill is one step closer to becoming a reality as Assembly Bill 286 (AB 286) was introduced in the State Capitol. The bill would temporarily reduce California’s cannabis excise tax from 15 percent [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "AB 286",
+      "Assembly bill 286",
+      "Bonta",
+      "California",
+      "California cannabis",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

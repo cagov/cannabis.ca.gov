@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2018-03-26T18:24:00",
+    "updated_date": "2021-06-12T07:26:09",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6262,
+    "slug": "information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales",
+    "title": "Information for Cannabis Retailers &#8211; How to Collect the Cannabis Excise Tax from your Customers on Retail Sales",
+    "author": "Department of Cannabis Control",
+    "date": "2018-03-26T18:24:00",
+    "modified": "2021-06-12T07:26:09",
+    "date_gmt": "2018-03-26T18:24:00",
+    "modified_gmt": "2021-06-12T07:26:09",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/26/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales/",
+    "file_path_html": "posts/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales.html",
+    "file_path_json": "posts/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales.json",
+    "excerpt": "<p>Beginning January 1, 2018, cannabis distributors are required to calculate and collect the cannabis excise tax from you on cannabis or cannabis products that they sell or transfer to you. In an arm’s length transaction, your distributor calculates the cannabis excise tax based on the “average market price,” which is computed by applying the CDTFA’s [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "California",
+      "California department of tax and fee administration",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

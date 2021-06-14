@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "created_date": "2018-11-06T00:19:00",
+    "updated_date": "2021-06-12T07:26:00",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6227,
+    "slug": "cannabis-cultivation-informational-workshop-and-permitting-event",
+    "title": "Cannabis Cultivation Informational Workshop and Permitting Event",
+    "author": "Department of Cannabis Control",
+    "date": "2018-11-06T00:19:00",
+    "modified": "2021-06-12T07:26:00",
+    "date_gmt": "2018-11-06T00:19:00",
+    "modified_gmt": "2021-06-12T07:26:00",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
+    "file_path_html": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.html",
+    "file_path_json": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.json",
+    "excerpt": "<p>State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m. to 6:00 p.m. at the River Lodge Conference Center in Fortuna, CA. There will be a presentation on the proposed updates and an opportunity [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

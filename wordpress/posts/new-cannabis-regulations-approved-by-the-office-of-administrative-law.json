@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2019-01-17T01:32:00",
+    "updated_date": "2021-06-12T07:27:17",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6018,
+    "slug": "new-cannabis-regulations-approved-by-the-office-of-administrative-law",
+    "title": "New Cannabis Regulations Approved by the Office of Administrative Law",
+    "author": "Department of Cannabis Control",
+    "date": "2019-01-17T01:32:00",
+    "modified": "2021-06-12T07:27:17",
+    "date_gmt": "2019-01-17T01:32:00",
+    "modified_gmt": "2021-06-12T07:27:17",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
+    "file_path_html": "posts/new-cannabis-regulations-approved-by-the-office-of-administrative-law.html",
+    "file_path_json": "posts/new-cannabis-regulations-approved-by-the-office-of-administrative-law.json",
+    "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced that the Office of Administrative Law (OAL) has officially approved state regulations for cannabis businesses across the supply chain from cultivation to retail. These new regulations take effect immediately. The previous emergency regulations, adopted by the Bureau of Cannabis Control, California Department of Public Health [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "Approved",
+      "BCC",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

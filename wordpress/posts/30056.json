@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2018-12-11T00:52:00",
+    "updated_date": "2021-06-12T07:25:59",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6222,
+    "slug": "30056",
+    "title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
+    "author": "Department of Cannabis Control",
+    "date": "2018-12-11T00:52:00",
+    "modified": "2021-06-12T07:25:59",
+    "date_gmt": "2018-12-11T00:52:00",
+    "modified_gmt": "2021-06-12T07:25:59",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/11/30056/",
+    "file_path_html": "posts/30056.html",
+    "file_path_json": "posts/30056.json",
+    "excerpt": "<p>The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations. All cannabis harvested on or after December 31, 2018, and all cannabis products manufactured on or after December 31, 2018, are subject to phase three testing. Any cannabis goods [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

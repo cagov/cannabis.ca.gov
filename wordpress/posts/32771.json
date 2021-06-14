@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2019-04-22T22:09:00",
+    "updated_date": "2021-06-12T07:25:55",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6204,
+    "slug": "32771",
+    "title": "Cannabis Control Appeals Panel Announces Teleconference Call Meeting",
+    "author": "Department of Cannabis Control",
+    "date": "2019-04-22T22:09:00",
+    "modified": "2021-06-12T07:25:55",
+    "date_gmt": "2019-04-22T22:09:00",
+    "modified_gmt": "2021-06-12T07:25:55",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/32771/",
+    "file_path_html": "posts/32771.html",
+    "file_path_json": "posts/32771.json",
+    "excerpt": "<p>The Cannabis Control Appeals Panel (CCAP) will conduct a panel meeting via teleconference on Monday, April 29th at 1:30 p.m. Please see the link below for the agenda and teleconference locations. https://www.ccap.ca.gov/about/meetings/agendas/20190429.pdf If you have any questions, you can call the CCAP&#8217;s main phone number at 916-322-6870, or email at info@ccap.ca.gov. Notice to the Public: The public [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Agenda",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

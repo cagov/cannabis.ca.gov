@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_date": "2018-06-05T19:23:00",
+    "updated_date": "2021-06-12T07:26:06",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6249,
+    "slug": "cannabis-companies-now-have-access-to-property-liability-insurance-in-california",
+    "title": "Cannabis companies now have access to property, liability insurance in California",
+    "author": "Department of Cannabis Control",
+    "date": "2018-06-05T19:23:00",
+    "modified": "2021-06-12T07:26:06",
+    "date_gmt": "2018-06-05T19:23:00",
+    "modified_gmt": "2021-06-12T07:26:06",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
+    "file_path_html": "posts/cannabis-companies-now-have-access-to-property-liability-insurance-in-california.html",
+    "file_path_json": "posts/cannabis-companies-now-have-access-to-property-liability-insurance-in-california.json",
+    "excerpt": "<p>When you’re running a marijuana business in California, getting insurance can be a challenge. Nearly all of the insurers that offer coverage are smaller carriers that aren’t regulated by the state and often are reluctant to enter the industry. California Insurance Commissioner Dave Jones plans to change that. Jones announced Monday he has approved a program [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2018-01-30T19:34:00",
+    "updated_date": "2021-06-12T07:27:23",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6046,
+    "slug": "bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey",
+    "title": "Bureau of Cannabis Control Announces Subcommittee Meetings and Input Survey",
+    "author": "Department of Cannabis Control",
+    "date": "2018-01-30T19:34:00",
+    "modified": "2021-06-12T07:27:23",
+    "date_gmt": "2018-01-30T19:34:00",
+    "modified_gmt": "2021-06-12T07:27:23",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/30/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey/",
+    "file_path_html": "posts/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento. Ten Subcommittees will meet to discuss and develop recommendations to the state cannabis licensing authorities’ formal rulemaking packages. SUBCOMMITTEE INPUT SURVEY: The Bureau invites you to [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "Advisory",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

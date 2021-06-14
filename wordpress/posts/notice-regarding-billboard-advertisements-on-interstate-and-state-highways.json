@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "created_date": "2021-01-22T19:01:00",
+    "updated_date": "2021-06-12T07:27:06",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5966,
+    "slug": "notice-regarding-billboard-advertisements-on-interstate-and-state-highways",
+    "title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
+    "author": "Department of Cannabis Control",
+    "date": "2021-01-22T19:01:00",
+    "modified": "2021-06-12T07:27:06",
+    "date_gmt": "2021-01-22T19:01:00",
+    "modified_gmt": "2021-06-12T07:27:06",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
+    "file_path_html": "posts/notice-regarding-billboard-advertisements-on-interstate-and-state-highways.html",
+    "file_path_json": "posts/notice-regarding-billboard-advertisements-on-interstate-and-state-highways.json",
+    "excerpt": "<p>SACRAMENTO – On January 11, 2021, in the case of Farmer v. Bureau of Cannabis Control (Bureau) &amp; Lori Ajax, the San Luis Obispo County Superior Court entered a formal judgement ruling that Section 5040(b)(3) of the Bureau’s regulations is invalid. This means that Section 5040(b)(3), which only prohibited billboard advertising within a 15-mile radius [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau",
+      "Bureau of Cannabis Control",
+      "California"
+    ]
+  }
+}

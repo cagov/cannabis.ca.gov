@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "created_date": "2017-04-21T21:09:00",
+    "updated_date": "2021-06-12T07:26:20",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6297,
+    "slug": "marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver",
+    "title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
+    "author": "Department of Cannabis Control",
+    "date": "2017-04-21T21:09:00",
+    "modified": "2021-06-12T07:26:20",
+    "date_gmt": "2017-04-21T21:09:00",
+    "modified_gmt": "2021-06-12T07:26:20",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
+    "file_path_html": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.html",
+    "file_path_json": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.json",
+    "excerpt": "<p>For the International Church of Cannabis in Denver, there were three reasons to celebrate on Thursday. First, it was opening day. The church, a more than century-old building recently adorned with brightly colored paintings by the artists Kenny Scharf and Okuda San Miguel, welcomed the public early in the afternoon, at which time no cannabis [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

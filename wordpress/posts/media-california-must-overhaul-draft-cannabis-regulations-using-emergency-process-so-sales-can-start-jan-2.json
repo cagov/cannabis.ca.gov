@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "created_date": "2017-08-02T23:16:00",
+    "updated_date": "2021-06-12T07:26:15",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6282,
+    "slug": "media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2",
+    "title": "Media: California Must Overhaul Draft Cannabis Regulations Using ‘Emergency’ Process So Sales Can Start Jan. 2",
+    "author": "Department of Cannabis Control",
+    "date": "2017-08-02T23:16:00",
+    "modified": "2021-06-12T07:26:15",
+    "date_gmt": "2017-08-02T23:16:00",
+    "modified_gmt": "2021-06-12T07:26:15",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/02/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2/",
+    "file_path_html": "posts/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2.html",
+    "file_path_json": "posts/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2.json",
+    "excerpt": "<p>Three state agencies spent more than a year drafting 211 pages of regulations for California’s medical marijuana market. And they’ve collected thousands of public comments on those proposed rules since they were released in the spring. But state officials announced late Wednesday that they must go back to the drawing board, crafting new rules under [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

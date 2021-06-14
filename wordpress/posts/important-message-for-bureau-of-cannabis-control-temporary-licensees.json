@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_date": "2018-04-09T20:16:00",
+    "updated_date": "2021-06-12T07:26:08",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6258,
+    "slug": "important-message-for-bureau-of-cannabis-control-temporary-licensees",
+    "title": "Important Message for Bureau of Cannabis Control Temporary Licensees",
+    "author": "Department of Cannabis Control",
+    "date": "2018-04-09T20:16:00",
+    "modified": "2021-06-12T07:26:08",
+    "date_gmt": "2018-04-09T20:16:00",
+    "modified_gmt": "2021-06-12T07:26:08",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/09/important-message-for-bureau-of-cannabis-control-temporary-licensees/",
+    "file_path_html": "posts/important-message-for-bureau-of-cannabis-control-temporary-licensees.html",
+    "file_path_json": "posts/important-message-for-bureau-of-cannabis-control-temporary-licensees.json",
+    "excerpt": "<p>Temporary License Extensions: Temporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018. Temporary licenses may be extended for 90-day periods if the licensee submits a complete annual license application before the expiration date. To submit [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Annual",
+      "Annual application",
+      "Annual licensing",
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

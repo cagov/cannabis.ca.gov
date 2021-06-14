@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "created_date": "2021-02-16T21:44:00",
+    "updated_date": "2021-06-12T07:27:06",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5965,
+    "slug": "cannabis-advisory-committee-to-hold-virtual-meeting-3",
+    "title": "Cannabis Advisory Committee To Hold Virtual Meeting",
+    "author": "Department of Cannabis Control",
+    "date": "2021-02-16T21:44:00",
+    "modified": "2021-06-12T07:27:06",
+    "date_gmt": "2021-02-16T21:44:00",
+    "modified_gmt": "2021-06-12T07:27:06",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/02/16/cannabis-advisory-committee-to-hold-virtual-meeting-3/",
+    "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-3.html",
+    "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-3.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a virtual meeting on Wednesday, February 17, 2021. The agenda for the meeting can be found on to the Bureau’s website at the following link: https://bcc.ca.gov/about_us/meetings/agendas/20210217_cac.pdf To participate in the WebEx Events meeting on February 17, 2021, please [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau of Cannabis Control",
+      null,
+      null
+    ]
+  }
+}

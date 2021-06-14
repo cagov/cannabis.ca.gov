@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2018-06-26T15:51:00",
+    "updated_date": "2021-06-12T07:26:04",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6242,
+    "slug": "information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds",
+    "title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
+    "author": "Department of Cannabis Control",
+    "date": "2018-06-26T15:51:00",
+    "modified": "2021-06-12T07:26:04",
+    "date_gmt": "2018-06-26T15:51:00",
+    "modified_gmt": "2021-06-12T07:26:04",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
+    "file_path_html": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.html",
+    "file_path_json": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.json",
+    "excerpt": "<p>Cultivation Tax The cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds. The cultivation tax is imposed on cultivators for harvested cannabis that enters the commercial market; however, the definition of &#8220;enters the commercial market&#8221; specifically excludes immature plants and seeds. Excise Tax Immature plants, clones, and [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "California department of tax and fee administration",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

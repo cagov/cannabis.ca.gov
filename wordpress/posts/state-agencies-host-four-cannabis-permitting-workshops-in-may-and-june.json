@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "created_date": "2019-04-12T22:24:00",
+    "updated_date": "2021-06-12T07:25:56",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6207,
+    "slug": "state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june",
+    "title": "State Agencies Host Four Cannabis Permitting Workshops in May and June",
+    "author": "Department of Cannabis Control",
+    "date": "2019-04-12T22:24:00",
+    "modified": "2021-06-12T07:25:56",
+    "date_gmt": "2019-04-12T22:24:00",
+    "modified_gmt": "2021-06-12T07:25:56",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/12/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june/",
+    "file_path_html": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.html",
+    "file_path_json": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.json",
+    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting several cannabis permitting workshops in May and June. “These free events are designed to help cultivators through the state licensing process,” said James Rosauer, CDFW Cannabis Program Supervisor. “Participants [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "California",
+      "California cannabis",
+      "California department of fish and wildlife",
+      "California Department of Food and Agriculture",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2018-01-04T23:17:00",
+    "updated_date": "2021-06-12T07:26:10",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6268,
+    "slug": "statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo",
+    "title": "Statement from BCC Chief Lori Ajax regarding federal government plans to rescind the Cole Memo",
+    "author": "Department of Cannabis Control",
+    "date": "2018-01-04T23:17:00",
+    "modified": "2021-06-12T07:26:10",
+    "date_gmt": "2018-01-04T23:17:00",
+    "modified_gmt": "2021-06-12T07:26:10",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/04/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo/",
+    "file_path_html": "posts/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo.html",
+    "file_path_json": "posts/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo.json",
+    "excerpt": "<p>&#8220;The administration is conferring with the California Attorney General and other states in response to this action. We expect the federal government to respect the rights of states and the votes of millions of people across America and if they won&#8217;t, Congress should act. Regardless, we’ll continue to move forward with the state&#8217;s regulatory processes [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Adult-use",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

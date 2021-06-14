@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created_date": "2019-06-21T16:38:00",
+    "updated_date": "2021-06-12T07:27:14",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6004,
+    "slug": "bcc-launches-get-weedwise-campaign-focusing-on-consumer-education-and-unlicensed-cannabis-businesses",
+    "title": "BCC Launches Get #Weedwise Campaign Focusing on Consumer Education and Unlicensed Cannabis Businesses",
+    "author": "Department of Cannabis Control",
+    "date": "2019-06-21T16:38:00",
+    "modified": "2021-06-12T07:27:14",
+    "date_gmt": "2019-06-21T16:38:00",
+    "modified_gmt": "2021-06-12T07:27:14",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/21/bcc-launches-get-weedwise-campaign-focusing-on-consumer-education-and-unlicensed-cannabis-businesses/",
+    "file_path_html": "posts/bcc-launches-get-weedwise-campaign-focusing-on-consumer-education-and-unlicensed-cannabis-businesses.html",
+    "file_path_json": "posts/bcc-launches-get-weedwise-campaign-focusing-on-consumer-education-and-unlicensed-cannabis-businesses.json",
+    "excerpt": "<p>SACRAMENTO, CA – The Bureau of Cannabis Control (Bureau) announced today the launch of a statewide public information program, “Get #weedwise”, encouraging consumers to only purchase cannabis from licensed businesses and warning unlicensed businesses to become licensed. The “Get #weedwise” campaign includes extensive outreach educating consumers about the risks associated with cannabis purchased from unlicensed [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "#weedwise #get licensed",
+      "Bureau of Cannabis Control",
+      "California cannabis",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

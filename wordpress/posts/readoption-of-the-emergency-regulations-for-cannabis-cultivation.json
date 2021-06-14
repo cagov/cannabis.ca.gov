@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2018-06-07T17:48:00",
+    "updated_date": "2021-06-12T07:26:05",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6246,
+    "slug": "readoption-of-the-emergency-regulations-for-cannabis-cultivation",
+    "title": "Readoption of the Emergency Regulations for Cannabis Cultivation",
+    "author": "Department of Cannabis Control",
+    "date": "2018-06-07T17:48:00",
+    "modified": "2021-06-12T07:26:05",
+    "date_gmt": "2018-06-07T17:48:00",
+    "modified_gmt": "2021-06-12T07:26:05",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/07/readoption-of-the-emergency-regulations-for-cannabis-cultivation/",
+    "file_path_html": "posts/readoption-of-the-emergency-regulations-for-cannabis-cultivation.html",
+    "file_path_json": "posts/readoption-of-the-emergency-regulations-for-cannabis-cultivation.json",
+    "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture, has readopted the emergency regulations for commercial medicinal and adult-use cannabis cultivation. This readoption of the regulations features several amendments, which are outlined here. Effective June 6, 2018, all applicants seeking temporary licensure must submit the following attachments with every temporary cannabis [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "CalCannabis Cultivation Licensing",
+      "California Department of Food and Agriculture",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created_date": "2017-08-21T19:03:00",
+    "updated_date": "2021-06-12T07:27:28",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6076,
+    "slug": "media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels",
+    "title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
+    "author": "Department of Cannabis Control",
+    "date": "2017-08-21T19:03:00",
+    "modified": "2021-06-12T07:27:28",
+    "date_gmt": "2017-08-21T19:03:00",
+    "modified_gmt": "2021-06-12T07:27:28",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
+    "file_path_html": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.html",
+    "file_path_json": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.json",
+    "excerpt": "<p>HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California. They will begin licensing businesses in January. The Bureau of Cannabis Control is taking the lead, and between now and the end of the year, it plans to hire another 80 employees. A spokesperson says part of their work [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "ABC",
+      "Adult",
+      "Bureau",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

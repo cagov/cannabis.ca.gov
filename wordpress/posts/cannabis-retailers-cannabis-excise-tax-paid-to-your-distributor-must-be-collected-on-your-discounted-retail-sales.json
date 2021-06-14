@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2018-06-19T19:50:00",
+    "updated_date": "2021-06-12T07:26:04",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6243,
+    "slug": "cannabis-retailers-cannabis-excise-tax-paid-to-your-distributor-must-be-collected-on-your-discounted-retail-sales",
+    "title": "Cannabis Retailers: Cannabis Excise Tax Paid to Your Distributor Must be Collected on Your Discounted Retail Sales",
+    "author": "Department of Cannabis Control",
+    "date": "2018-06-19T19:50:00",
+    "modified": "2021-06-12T07:26:04",
+    "date_gmt": "2018-06-19T19:50:00",
+    "modified_gmt": "2021-06-12T07:26:04",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/19/cannabis-retailers-cannabis-excise-tax-paid-to-your-distributor-must-be-collected-on-your-discounted-retail-sales/",
+    "file_path_html": "posts/cannabis-retailers-cannabis-excise-tax-paid-to-your-distributor-must-be-collected-on-your-discounted-retail-sales.html",
+    "file_path_json": "posts/cannabis-retailers-cannabis-excise-tax-paid-to-your-distributor-must-be-collected-on-your-discounted-retail-sales.json",
+    "excerpt": "<p>As a retailer, when you sell cannabis or cannabis products, the law requires the purchaser to pay the excise tax at the time of the sale. Therefore, you must collect from your customer the same amount of cannabis excise tax that you paid to your distributor. Discounted cannabis &#8211; arm&#8217;s length transaction For example, you [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "California department of tax and fee administration",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

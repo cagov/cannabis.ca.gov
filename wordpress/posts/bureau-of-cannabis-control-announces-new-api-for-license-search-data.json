@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "created_date": "2020-11-17T18:20:00",
+    "updated_date": "2021-06-12T07:27:08",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5971,
+    "slug": "bureau-of-cannabis-control-announces-new-api-for-license-search-data",
+    "title": "Bureau Of Cannabis Control Announces New API For License Search Data",
+    "author": "Department of Cannabis Control",
+    "date": "2020-11-17T18:20:00",
+    "modified": "2021-06-12T07:27:08",
+    "date_gmt": "2020-11-17T18:20:00",
+    "modified_gmt": "2021-06-12T07:27:08",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
+    "file_path_html": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API). The API allows stakeholders to obtain license data that can be integrated into their own software. Users may use the API to obtain information for a single license, a list of licenses, or the entire license [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "API",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null
+    ]
+  }
+}

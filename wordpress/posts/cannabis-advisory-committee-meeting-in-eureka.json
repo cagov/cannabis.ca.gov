@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_date": "2018-09-11T16:57:00",
+    "updated_date": "2021-06-12T07:27:19",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6026,
+    "slug": "cannabis-advisory-committee-meeting-in-eureka",
+    "title": "Cannabis Advisory Committee Meeting in Eureka",
+    "author": "Department of Cannabis Control",
+    "date": "2018-09-11T16:57:00",
+    "modified": "2021-06-12T07:27:19",
+    "date_gmt": "2018-09-11T16:57:00",
+    "modified_gmt": "2021-06-12T07:27:19",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/11/cannabis-advisory-committee-meeting-in-eureka/",
+    "file_path_html": "posts/cannabis-advisory-committee-meeting-in-eureka.html",
+    "file_path_json": "posts/cannabis-advisory-committee-meeting-in-eureka.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, September 20 in Eureka. The Meeting Notices and Agendas have been posted to the Bureau’s website and can be found here: http://bcc.ca.gov/about_us/committee_meetings.html. CANNABIS ADVISORY COMMITTEE MEETING: WHERE: Adorni Center – 1011 Waterfront Drive, [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      "Advisory",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

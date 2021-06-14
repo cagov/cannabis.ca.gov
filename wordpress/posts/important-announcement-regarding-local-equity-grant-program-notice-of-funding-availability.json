@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created_date": "2019-03-30T22:08:00",
+    "updated_date": "2021-06-12T07:25:56",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6209,
+    "slug": "important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability",
+    "title": "Important Announcement Regarding Local Equity Grant Program &#8211; Notice of Funding Availability",
+    "author": "Department of Cannabis Control",
+    "date": "2019-03-30T22:08:00",
+    "modified": "2021-06-12T07:25:56",
+    "date_gmt": "2019-03-30T22:08:00",
+    "modified_gmt": "2021-06-12T07:25:56",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/30/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability/",
+    "file_path_html": "posts/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability.html",
+    "file_path_json": "posts/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability.json",
+    "excerpt": "<p>On March 1, 2019, the Bureau of Cannabis Control (Bureau), released a Local Equity Grant Program Notice of Funding Availability (NOFA) and opened the application period for grants pursuant to the California Cannabis Equity Act of 2018. Effective immediately, the Bureau cancels the NOFA and will no longer be proceeding with the application period. The [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau",
+      "Bureau of Cannabis Control",
+      "California",
+      "California cannabis",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

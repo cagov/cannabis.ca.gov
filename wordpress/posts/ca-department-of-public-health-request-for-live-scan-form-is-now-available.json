@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2018-07-09T18:39:00",
+    "updated_date": "2021-06-12T07:26:04",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6240,
+    "slug": "ca-department-of-public-health-request-for-live-scan-form-is-now-available",
+    "title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
+    "author": "Department of Cannabis Control",
+    "date": "2018-07-09T18:39:00",
+    "modified": "2021-06-12T07:26:04",
+    "date_gmt": "2018-07-09T18:39:00",
+    "modified_gmt": "2021-06-12T07:26:04",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
+    "file_path_html": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.html",
+    "file_path_json": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.json",
+    "excerpt": "<p>The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing. The ‘Request for Live Scan’ form, which is required for this process, can be downloaded from the CDPH website: www.cdph.ca.gov/mcsb/apply. Steps to complete the background check: Fill out the form – Download the [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Annual license applicants",
+      "Annual license applications",
+      "CA Department of Public Health",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

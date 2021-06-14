@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "created_date": "2018-08-28T23:50:00",
+    "updated_date": "2021-06-12T07:27:19",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6027,
+    "slug": "bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento",
+    "title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Delivery Service in Sacramento",
+    "author": "Department of Cannabis Control",
+    "date": "2018-08-28T23:50:00",
+    "modified": "2021-06-12T07:27:19",
+    "date_gmt": "2018-08-28T23:50:00",
+    "modified_gmt": "2021-06-12T07:27:19",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/28/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento/",
+    "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on an unlicensed cannabis business operating in Sacramento. On Wednesday, August 22, 2018, DOI-CEU served a search warrant on an unlicensed cannabis home delivery business, The Cannaisseur Club, located off Power [&hellip;]</p>\n",
+    "categories": [
+      "Press Release"
+    ],
+    "tags": [
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_date": "2019-12-30T20:23:00",
+    "updated_date": "2021-06-12T07:25:50",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6185,
+    "slug": "important-announcement-regarding-external-transfers-for-metrc-users",
+    "title": "Important Announcement Regarding External Transfers for Metrc Users",
+    "author": "Department of Cannabis Control",
+    "date": "2019-12-30T20:23:00",
+    "modified": "2021-06-12T07:25:50",
+    "date_gmt": "2019-12-30T20:23:00",
+    "modified_gmt": "2021-06-12T07:25:50",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
+    "file_path_html": "posts/important-announcement-regarding-external-transfers-for-metrc-users.html",
+    "file_path_json": "posts/important-announcement-regarding-external-transfers-for-metrc-users.json",
+    "excerpt": "<p>To All Interested Parties, Metrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers. Effective January 15, 2020, external transfers can no longer be used in California to ship or receive cannabis and cannabis products. Licensees should refer to the Metrc bulletin for details on how this [&hellip;]</p>\n",
+    "categories": [
+      "Announcement"
+    ],
+    "tags": [
+      "Announcement",
+      "California Cannabis Track-and-Trace",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}
