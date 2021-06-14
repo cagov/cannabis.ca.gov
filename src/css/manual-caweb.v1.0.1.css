@@ -192,6 +192,7 @@ div.goog-te-gadget {
 @media (min-width: 992px) {
   .full-width-nav .featured-search {
     width: 33%;
+    transition: none;
   }
   .search-container #site-search {
     position: relative;
