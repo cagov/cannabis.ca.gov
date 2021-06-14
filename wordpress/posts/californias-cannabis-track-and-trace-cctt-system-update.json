@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
     "file_path_html": "posts/californias-cannabis-track-and-trace-cctt-system-update.html",
     "file_path_json": "posts/californias-cannabis-track-and-trace-cctt-system-update.json",
+    "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,7 +34,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.</p>\n"
+    ]
   }
 }

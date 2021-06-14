@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/17/notice-regarding-temporary-cannabis-events/",
     "file_path_html": "posts/notice-regarding-temporary-cannabis-events.html",
     "file_path_json": "posts/notice-regarding-temporary-cannabis-events.json",
+    "excerpt": "<p>Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.</p>\n"
+    ]
   }
 }

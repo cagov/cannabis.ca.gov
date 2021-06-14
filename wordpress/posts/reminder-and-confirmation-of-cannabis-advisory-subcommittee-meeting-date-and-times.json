@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/26/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times/",
     "file_path_html": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.html",
     "file_path_json": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.json",
+    "excerpt": "<p>The Cannabis Advisory Committee will be holding a series of subcommittee meetings on Thursday, March 1 in Sacramento.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -42,7 +43,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Cannabis Advisory Committee will be holding a series of subcommittee meetings on Thursday, March 1 in Sacramento.</p>\n"
+    ]
   }
 }

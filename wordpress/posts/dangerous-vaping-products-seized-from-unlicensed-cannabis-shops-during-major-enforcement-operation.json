@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
     "file_path_html": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.html",
     "file_path_json": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.json",
+    "excerpt": "<p>SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -48,7 +49,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.</p>\n"
+    ]
   }
 }

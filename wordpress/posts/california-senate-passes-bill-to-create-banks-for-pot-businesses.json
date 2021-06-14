@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/31/california-senate-passes-bill-to-create-banks-for-pot-businesses/",
     "file_path_html": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.html",
     "file_path_json": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.json",
+    "excerpt": "<p>The state Senate passed a bill this week to create a state charter for banks to serve California cannabis businesses, which would allow licensed merchants to write checks to pay taxes, fees and vendors — rather than use large amounts of cash, as they currently do.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The state Senate passed a bill this week to create a state charter for banks to serve California cannabis businesses, which would allow licensed merchants to write checks to pay taxes, fees and vendors — rather than use large amounts of cash, as they currently do.</p>\n"
+    ]
   }
 }

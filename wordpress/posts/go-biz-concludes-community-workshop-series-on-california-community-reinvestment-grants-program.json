@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
     "file_path_html": "posts/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program.html",
     "file_path_json": "posts/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program.json",
+    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties,<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties,<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).</p>\n"
+    ]
   }
 }

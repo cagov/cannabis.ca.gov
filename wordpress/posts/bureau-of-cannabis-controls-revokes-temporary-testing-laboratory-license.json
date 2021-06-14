@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/28/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license/",
     "file_path_html": "posts/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license.html",
     "file_path_json": "posts/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has revoked a temporary testing laboratory license previously issued to PharmLabs, LLC operating in San Diego.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has revoked a temporary testing laboratory license previously issued to PharmLabs, LLC operating in San Diego.</p>\n"
+    ]
   }
 }

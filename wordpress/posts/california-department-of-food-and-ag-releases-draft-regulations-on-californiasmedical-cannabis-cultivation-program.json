@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/28/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program/",
     "file_path_html": "posts/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program.html",
     "file_path_json": "posts/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program.json",
+    "excerpt": "<p>The California Department of Food and Agriculture (CDFA) today released proposed regulations for the state medical cannabis cultivation and licensing program.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Food and Agriculture (CDFA) today released proposed regulations for the state medical cannabis cultivation and licensing program.</p>\n"
+    ]
   }
 }

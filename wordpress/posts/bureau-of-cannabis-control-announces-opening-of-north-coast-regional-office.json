@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/28/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (BCC) today announced the upcoming opening of its North Coast Regional Office in Eureka.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (BCC) today announced the upcoming opening of its North Coast Regional Office in Eureka.</p>\n"
+    ]
   }
 }

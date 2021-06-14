@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
     "file_path_html": "posts/cdph-launches-cannabis-public-education-campaign.html",
     "file_path_json": "posts/cdph-launches-cannabis-public-education-campaign.json",
+    "excerpt": "<p>SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -34,7 +35,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.</p>\n"
+    ]
   }
 }

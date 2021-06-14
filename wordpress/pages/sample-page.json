@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/",
     "file_path_html": "pages/sample-page.html",
     "file_path_json": "pages/sample-page.json",
+    "excerpt": "<p>Get started Tweets by BCCInfo_dca</p>\n",
     "parent": 0,
-    "menu_order": 0,
-    "excerpt": "<p>Get started Tweets by BCCInfo_dca</p>\n"
+    "menu_order": 0
   }
 }

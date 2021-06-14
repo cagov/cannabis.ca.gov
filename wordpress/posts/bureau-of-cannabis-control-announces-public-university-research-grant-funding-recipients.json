@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded $29,950,494 in public university research grant funding to universities across California.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -31,7 +32,6 @@
       "Bureau of Cannabis Control",
       "California",
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded $29,950,494 in public university research grant funding to universities across California.</p>\n"
+    ]
   }
 }

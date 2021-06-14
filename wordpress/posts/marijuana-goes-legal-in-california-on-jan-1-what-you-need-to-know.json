@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/01/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
     "file_path_html": "posts/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know.html",
     "file_path_json": "posts/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know.json",
+    "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,7 +34,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
     "file_path_html": "posts/cannabis-control-appeals-panel-notice-of-proposed-rulemaking.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-notice-of-proposed-rulemaking.json",
+    "excerpt": "<p>The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.</p>\n"
+    ]
   }
 }

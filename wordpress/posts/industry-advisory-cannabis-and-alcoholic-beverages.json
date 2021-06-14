@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/25/industry-advisory-cannabis-and-alcoholic-beverages/",
     "file_path_html": "posts/industry-advisory-cannabis-and-alcoholic-beverages.html",
     "file_path_json": "posts/industry-advisory-cannabis-and-alcoholic-beverages.json",
+    "excerpt": "<p>This page&#8217;s content has recently been updated. Please click here for the latest information.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>This page&#8217;s content has recently been updated. Please click here for the latest information.</p>\n"
+    ]
   }
 }

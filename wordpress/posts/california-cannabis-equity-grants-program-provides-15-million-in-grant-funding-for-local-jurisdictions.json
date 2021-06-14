@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
     "file_path_html": "posts/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions.html",
     "file_path_json": "posts/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions.json",
+    "excerpt": "<p>Funding advances economic justice for communities disproportionately impacted by cannabis prohibition.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,7 +34,6 @@
       "California Cannabis Equity Grants Program",
       "California Governor's Office of Business and Economic Development (GO-Biz)",
       null
-    ],
-    "excerpt": "<p>Funding advances economic justice for communities disproportionately impacted by cannabis prohibition.</p>\n"
+    ]
   }
 }

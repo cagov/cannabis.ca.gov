@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/laws-and-regulations/",
     "file_path_html": "pages/laws-and-regulations.html",
     "file_path_json": "pages/laws-and-regulations.json",
+    "excerpt": "<p>Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.</p>\n",
     "parent": 759,
-    "menu_order": 0,
-    "excerpt": "<p>Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.</p>\n"
+    "menu_order": 0
   }
 }

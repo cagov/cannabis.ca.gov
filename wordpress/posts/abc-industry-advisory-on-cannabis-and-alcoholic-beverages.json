@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/21/abc-industry-advisory-on-cannabis-and-alcoholic-beverages/",
     "file_path_html": "posts/abc-industry-advisory-on-cannabis-and-alcoholic-beverages.html",
     "file_path_json": "posts/abc-industry-advisory-on-cannabis-and-alcoholic-beverages.json",
+    "excerpt": "<p>With the legalization of commercial recreational use of cannabis and cannabis products commencing in 2018, along with the licensed manufacture and sale, a number of questions have arisen about what activities are permissible on or in premises licensed by the <a href=\"https://www.abc.ca.gov/\" target=\"_blank\" rel=\"noopener\">Department of Alcoholic Beverage Control</a> to manufacture or sell alcoholic beverages.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>With the legalization of commercial recreational use of cannabis and cannabis products commencing in 2018, along with the licensed manufacture and sale, a number of questions have arisen about what activities are permissible on or in premises licensed by the <a href=\"https://www.abc.ca.gov/\" target=\"_blank\" rel=\"noopener\">Department of Alcoholic Beverage Control</a> to manufacture or sell alcoholic beverages.</p>\n"
+    ]
   }
 }

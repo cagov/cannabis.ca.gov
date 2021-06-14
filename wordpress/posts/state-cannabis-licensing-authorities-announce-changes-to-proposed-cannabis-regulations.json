@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
     "file_path_html": "posts/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations.html",
     "file_path_json": "posts/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations.json",
+    "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -38,7 +39,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.</p>\n"
+    ]
   }
 }

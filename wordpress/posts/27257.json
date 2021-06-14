@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/06/27257/",
     "file_path_html": "posts/27257.html",
     "file_path_json": "posts/27257.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control released its California Environmental Quality Act (CEQA) Proposed Program study to the public today.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -31,7 +32,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control released its California Environmental Quality Act (CEQA) Proposed Program study to the public today.</p>\n"
+    ]
   }
 }

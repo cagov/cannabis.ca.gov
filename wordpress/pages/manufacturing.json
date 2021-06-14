@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/manufacturing/",
     "file_path_html": "pages/manufacturing.html",
     "file_path_json": "pages/manufacturing.json",
+    "excerpt": "<p>Manufacturers extract cannabinoids from cannabis plants and make products out of the extract.</p>\n",
     "parent": 758,
-    "menu_order": 0,
-    "excerpt": "<p>Manufacturers extract cannabinoids from cannabis plants and make products out of the extract.</p>\n"
+    "menu_order": 0
   }
 }

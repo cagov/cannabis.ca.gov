@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
     "file_path_html": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.html",
     "file_path_json": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.json",
+    "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -34,7 +35,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n"
+    ]
   }
 }

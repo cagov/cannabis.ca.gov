@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/27/emergency-regulations-public-comment-period/",
     "file_path_html": "posts/emergency-regulations-public-comment-period.html",
     "file_path_json": "posts/emergency-regulations-public-comment-period.json",
+    "excerpt": "<p>The California Department of Public Health (CDPH) has submitted its proposed emergency regulations for commercial cannabis manufacturing to the California Office of Administrative Law (OAL).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,7 +33,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Public Health (CDPH) has submitted its proposed emergency regulations for commercial cannabis manufacturing to the California Office of Administrative Law (OAL).</p>\n"
+    ]
   }
 }

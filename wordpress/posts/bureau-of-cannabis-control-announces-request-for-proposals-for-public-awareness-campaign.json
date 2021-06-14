@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
     "file_path_html": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.html",
     "file_path_json": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.json",
+    "excerpt": "<p>As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.</p>\n"
+    ]
   }
 }

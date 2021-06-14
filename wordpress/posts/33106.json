@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/33106/",
     "file_path_html": "posts/33106.html",
     "file_path_json": "posts/33106.json",
+    "excerpt": "<p>Interested Parties,<br />\nThe Cannabis Fees Stakeholders meeting on Friday May 10th has been cancelled. The meeting will be rescheduled at a later date.</p>\n",
     "categories": [
       "Events"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Interested Parties,<br />\nThe Cannabis Fees Stakeholders meeting on Friday May 10th has been cancelled. The meeting will be rescheduled at a later date.</p>\n"
+    ]
   }
 }

@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/events/",
     "file_path_html": "pages/events.html",
     "file_path_json": "pages/events.json",
+    "excerpt": "",
     "parent": 758,
-    "menu_order": 0,
-    "excerpt": ""
+    "menu_order": 0
   }
 }

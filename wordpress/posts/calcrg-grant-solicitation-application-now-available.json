@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/calcrg-grant-solicitation-application-now-available/",
     "file_path_html": "posts/calcrg-grant-solicitation-application-now-available.html",
     "file_path_json": "posts/calcrg-grant-solicitation-application-now-available.json",
+    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!</p>\n"
+    ]
   }
 }

@@ -23,10 +23,10 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/19/header-image-all-pages-except-home/",
     "file_path_html": "posts/header-image-all-pages-except-home.html",
     "file_path_json": "posts/header-image-all-pages-except-home.json",
+    "excerpt": "",
     "categories": [
       "Announcement"
     ],
-    "tags": [],
-    "excerpt": ""
+    "tags": []
   }
 }

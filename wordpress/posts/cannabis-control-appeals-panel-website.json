@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/21/cannabis-control-appeals-panel-website/",
     "file_path_html": "posts/cannabis-control-appeals-panel-website.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-website.json",
+    "excerpt": "<p>The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.</p>\n"
+    ]
   }
 }

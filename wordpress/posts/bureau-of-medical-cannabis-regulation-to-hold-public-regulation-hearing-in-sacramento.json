@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/06/06/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento/",
     "file_path_html": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.html",
     "file_path_json": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.json",
+    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (Bureau) will hold its third public regulation hearing in Sacramento to receive comments regarding the recent release of the bureau’s proposed medical cannabis regulations.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,7 +33,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (Bureau) will hold its third public regulation hearing in Sacramento to receive comments regarding the recent release of the bureau’s proposed medical cannabis regulations.</p>\n"
+    ]
   }
 }

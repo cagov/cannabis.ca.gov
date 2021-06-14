@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/",
     "file_path_html": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.html",
     "file_path_json": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.json",
+    "excerpt": "<p>The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/10/29/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
     "file_path_html": "posts/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs.html",
     "file_path_json": "posts/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs.json",
+    "excerpt": "<p>SACRAMENTO – Today, Governor Gavin Newsom announced the launch of a new state website with tools and resources for Californians who have been impacted by wildfires and utility-directed power shutoffs.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -41,7 +42,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – Today, Governor Gavin Newsom announced the launch of a new state website with tools and resources for Californians who have been impacted by wildfires and utility-directed power shutoffs.</p>\n"
+    ]
   }
 }

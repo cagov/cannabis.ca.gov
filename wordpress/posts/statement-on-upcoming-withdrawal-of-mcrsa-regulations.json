@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/26/statement-on-upcoming-withdrawal-of-mcrsa-regulations/",
     "file_path_html": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.html",
     "file_path_json": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.json",
+    "excerpt": "<p>Earlier this spring, the Department of Consumer Affairs’ Bureau of Cannabis Control, Department of Public Health and Department of Food and Agriculture released proposed regulations for the Medical Cannabis Regulation and Safety Act.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -30,7 +31,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Earlier this spring, the Department of Consumer Affairs’ Bureau of Cannabis Control, Department of Public Health and Department of Food and Agriculture released proposed regulations for the Medical Cannabis Regulation and Safety Act.</p>\n"
+    ]
   }
 }

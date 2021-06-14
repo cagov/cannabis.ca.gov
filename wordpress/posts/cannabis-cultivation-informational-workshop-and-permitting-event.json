@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
     "file_path_html": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.html",
     "file_path_json": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.json",
+    "excerpt": "<p>State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -34,7 +35,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.</p>\n"
+    ]
   }
 }

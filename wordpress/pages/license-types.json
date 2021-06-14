@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/license-types/",
     "file_path_html": "pages/license-types.html",
     "file_path_json": "pages/license-types.json",
+    "excerpt": "<p>Licenses are based on the type of cannabis activity that your business will perform.</p>\n",
     "parent": 756,
-    "menu_order": 0,
-    "excerpt": "<p>Licenses are based on the type of cannabis activity that your business will perform.</p>\n"
+    "menu_order": 0
   }
 }

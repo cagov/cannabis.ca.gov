@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/05/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer/",
     "file_path_html": "posts/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer.html",
     "file_path_json": "posts/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on an unlicensed cannabis retailer operating out of Los Angeles.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,7 +40,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced enforcement action on an unlicensed cannabis retailer operating out of Los Angeles.</p>\n"
+    ]
   }
 }

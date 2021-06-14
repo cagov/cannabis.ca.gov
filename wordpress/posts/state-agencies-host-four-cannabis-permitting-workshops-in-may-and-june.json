@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/12/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june/",
     "file_path_html": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.html",
     "file_path_json": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.json",
+    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting several cannabis permitting workshops in May and June.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -44,7 +45,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting several cannabis permitting workshops in May and June.</p>\n"
+    ]
   }
 }

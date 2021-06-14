@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/public-outreach-campaigns/",
     "file_path_html": "pages/public-outreach-campaigns.html",
     "file_path_json": "pages/public-outreach-campaigns.json",
+    "excerpt": "",
     "parent": 707,
-    "menu_order": 0,
-    "excerpt": ""
+    "menu_order": 0
   }
 }

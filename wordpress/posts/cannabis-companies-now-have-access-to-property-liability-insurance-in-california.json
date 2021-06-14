@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
     "file_path_html": "posts/cannabis-companies-now-have-access-to-property-liability-insurance-in-california.html",
     "file_path_json": "posts/cannabis-companies-now-have-access-to-property-liability-insurance-in-california.json",
+    "excerpt": "<p>When you’re running a marijuana business in California, getting insurance can be a challenge.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>When you’re running a marijuana business in California, getting insurance can be a challenge.</p>\n"
+    ]
   }
 }

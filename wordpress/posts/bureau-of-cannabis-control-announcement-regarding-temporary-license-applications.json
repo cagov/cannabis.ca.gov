@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/30/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
     "file_path_html": "posts/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications.json",
+    "excerpt": "<p>While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control (Bureau), the Bureau cannot issue temporary licenses after December 31, 2018.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control (Bureau), the Bureau cannot issue temporary licenses after December 31, 2018.</p>\n"
+    ]
   }
 }

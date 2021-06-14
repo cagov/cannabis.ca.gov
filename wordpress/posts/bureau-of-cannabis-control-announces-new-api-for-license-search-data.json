@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -33,7 +34,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).</p>\n"
+    ]
   }
 }

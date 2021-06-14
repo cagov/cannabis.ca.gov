@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/07/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations.json",
+    "excerpt": "<p>The Bureau of Cannabis Control’s (Bureau) emergency cannabis regulations were officially readopted on June 4, 2018, and are now in effect as of June 6, 2018.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,7 +34,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau of Cannabis Control’s (Bureau) emergency cannabis regulations were officially readopted on June 4, 2018, and are now in effect as of June 6, 2018.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
     "file_path_html": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.html",
     "file_path_json": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.</p>\n"
+    ]
   }
 }

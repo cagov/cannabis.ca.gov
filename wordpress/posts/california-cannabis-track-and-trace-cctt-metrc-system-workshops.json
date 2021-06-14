@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/10/01/california-cannabis-track-and-trace-cctt-metrc-system-workshops/",
     "file_path_html": "posts/california-cannabis-track-and-trace-cctt-metrc-system-workshops.html",
     "file_path_json": "posts/california-cannabis-track-and-trace-cctt-metrc-system-workshops.json",
+    "excerpt": "<p>We invite you to join us at one of our upcoming <a href=\"https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH%20Document%20Library/CCTTWorkshopFlyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">California Cannabis Track-and-Trace (CCTT-METRC) System workshops</a> for an advanced overview of the CCTT-METRC system being used statewide to record inventory and movement of cannabis and cannabis products throughout the commercial cannabis supply chain–from cultivation to sale.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -50,7 +51,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>We invite you to join us at one of our upcoming <a href=\"https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH%20Document%20Library/CCTTWorkshopFlyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">California Cannabis Track-and-Trace (CCTT-METRC) System workshops</a> for an advanced overview of the CCTT-METRC system being used statewide to record inventory and movement of cannabis and cannabis products throughout the commercial cannabis supply chain–from cultivation to sale.</p>\n"
+    ]
   }
 }

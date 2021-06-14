@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/10/09/cannabis-control-appeals-panel-meeting/",
     "file_path_html": "posts/cannabis-control-appeals-panel-meeting.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-meeting.json",
+    "excerpt": "<p>The Cannabis Control Appeals Panel will have a public meeting on Wednesday, October 17, 2018 from 9:00 AM – 12:00 PM in Sacramento.</p>\n",
     "categories": [
       "Events"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Cannabis Control Appeals Panel will have a public meeting on Wednesday, October 17, 2018 from 9:00 AM – 12:00 PM in Sacramento.</p>\n"
+    ]
   }
 }

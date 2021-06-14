@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
     "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meetings.html",
     "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meetings.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -31,7 +32,6 @@
       "Bureau of Cannabis Control",
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.</p>\n"
+    ]
   }
 }

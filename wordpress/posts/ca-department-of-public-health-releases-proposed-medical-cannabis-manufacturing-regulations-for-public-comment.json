@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/28/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment/",
     "file_path_html": "posts/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment.html",
     "file_path_json": "posts/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment.json",
+    "excerpt": "<p>The California Department of Public Health today issued a number of documents, including and related to its proposed regulations for medical cannabis.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -30,7 +31,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Public Health today issued a number of documents, including and related to its proposed regulations for medical cannabis.</p>\n"
+    ]
   }
 }

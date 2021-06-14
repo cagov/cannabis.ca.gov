@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/05/05/27023/",
     "file_path_html": "posts/27023.html",
     "file_path_json": "posts/27023.json",
+    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed testing laboratories regulations for medical cannabis have been posted and the 45-day public comment period is now underway.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed testing laboratories regulations for medical cannabis have been posted and the 45-day public comment period is now underway.</p>\n"
+    ]
   }
 }

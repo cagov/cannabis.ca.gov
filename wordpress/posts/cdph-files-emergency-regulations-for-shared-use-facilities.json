@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/03/cdph-files-emergency-regulations-for-shared-use-facilities/",
     "file_path_html": "posts/cdph-files-emergency-regulations-for-shared-use-facilities.html",
     "file_path_json": "posts/cdph-files-emergency-regulations-for-shared-use-facilities.json",
+    "excerpt": "<p>The California Department of Public Health (CDPH) has filed the proposed emergency regulations for shared-use facilities with the Office of Administrative Law (OAL).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,7 +34,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Public Health (CDPH) has filed the proposed emergency regulations for shared-use facilities with the Office of Administrative Law (OAL).</p>\n"
+    ]
   }
 }

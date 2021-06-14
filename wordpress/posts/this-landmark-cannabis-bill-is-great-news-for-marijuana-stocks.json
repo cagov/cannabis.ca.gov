@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/24/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks/",
     "file_path_html": "posts/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks.html",
     "file_path_json": "posts/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks.json",
+    "excerpt": "<p>Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana.</p>\n"
+    ]
   }
 }

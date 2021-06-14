@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/cultivation/",
     "file_path_html": "pages/cultivation.html",
     "file_path_json": "pages/cultivation.json",
+    "excerpt": "<p>Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products.</p>\n",
     "parent": 758,
-    "menu_order": 0,
-    "excerpt": "<p>Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products.</p>\n"
+    "menu_order": 0
   }
 }

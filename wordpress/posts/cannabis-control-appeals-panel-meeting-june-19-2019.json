@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/17/cannabis-control-appeals-panel-meeting-june-19-2019/",
     "file_path_html": "posts/cannabis-control-appeals-panel-meeting-june-19-2019.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-meeting-june-19-2019.json",
+    "excerpt": "<p>The Cannabis Control Appeals Panel will hold a meeting at the State Personal Board Building on Wednesday, June 19 at 10:00 a.m. The meeting agenda <a href=\"https://www.ccap.ca.gov/about/meetings/agendas/20190619.pdf\" target=\"_blank\" rel=\"noopener\">can be found here</a>.</p>\n",
     "categories": [
       "Events"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Cannabis Control Appeals Panel will hold a meeting at the State Personal Board Building on Wednesday, June 19 at 10:00 a.m. The meeting agenda <a href=\"https://www.ccap.ca.gov/about/meetings/agendas/20190619.pdf\" target=\"_blank\" rel=\"noopener\">can be found here</a>.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/04/notice-of-opportunity-for-public-comment-and-public-hearing/",
     "file_path_html": "posts/notice-of-opportunity-for-public-comment-and-public-hearing.html",
     "file_path_json": "posts/notice-of-opportunity-for-public-comment-and-public-hearing.json",
+    "excerpt": "<p>The State Water Resources Control Board (State Water Board) is holding a Board Meeting on February 5, 2019. </p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,7 +33,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The State Water Resources Control Board (State Water Board) is holding a Board Meeting on February 5, 2019. </p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/29/cdph-files-proposed-re-adoption-of-emergency-regulations/",
     "file_path_html": "posts/cdph-files-proposed-re-adoption-of-emergency-regulations.html",
     "file_path_json": "posts/cdph-files-proposed-re-adoption-of-emergency-regulations.json",
+    "excerpt": "<p>The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL).</p>\n"
+    ]
   }
 }

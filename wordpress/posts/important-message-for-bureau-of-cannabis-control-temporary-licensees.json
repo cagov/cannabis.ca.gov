@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/09/important-message-for-bureau-of-cannabis-control-temporary-licensees/",
     "file_path_html": "posts/important-message-for-bureau-of-cannabis-control-temporary-licensees.html",
     "file_path_json": "posts/important-message-for-bureau-of-cannabis-control-temporary-licensees.json",
+    "excerpt": "<p>Temporary License Extensions:<br />\nTemporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Temporary License Extensions:<br />\nTemporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018.</p>\n"
+    ]
   }
 }

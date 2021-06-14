@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/15/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018/",
     "file_path_html": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018.html",
     "file_path_json": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018.json",
+    "excerpt": "<p>Sacramento &#8211; The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales for the 2nd quarter of 2018.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Sacramento &#8211; The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales for the 2nd quarter of 2018.</p>\n"
+    ]
   }
 }

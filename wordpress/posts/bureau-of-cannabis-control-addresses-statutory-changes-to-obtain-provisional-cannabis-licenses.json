@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/07/03/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses/",
     "file_path_html": "posts/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses.html",
     "file_path_json": "posts/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses.json",
+    "excerpt": "<p>SACRAMENTO – With the passage of Assembly Bill 97 and Senate Bill 97, the requirements to obtain a provisional commercial cannabis license in California have changed.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -43,7 +44,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – With the passage of Assembly Bill 97 and Senate Bill 97, the requirements to obtain a provisional commercial cannabis license in California have changed.</p>\n"
+    ]
   }
 }

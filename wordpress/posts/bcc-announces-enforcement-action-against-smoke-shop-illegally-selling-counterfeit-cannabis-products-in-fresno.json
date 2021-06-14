@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/27/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno/",
     "file_path_html": "posts/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno.html",
     "file_path_json": "posts/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno.json",
+    "excerpt": "<p>ENFORCEMENT UPDATE: The Bureau of Cannabis Control (BCC) and DCA’s Cannabis Enforcement Unit (CEU) received a tip yesterday from the California Department of Tax and Fee Administration concerning a smoke shop illegally selling counterfeit cannabis products in Fresno.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -44,7 +45,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>ENFORCEMENT UPDATE: The Bureau of Cannabis Control (BCC) and DCA’s Cannabis Enforcement Unit (CEU) received a tip yesterday from the California Department of Tax and Fee Administration concerning a smoke shop illegally selling counterfeit cannabis products in Fresno.</p>\n"
+    ]
   }
 }

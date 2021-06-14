@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/19/california-cannabis-experience-survey/",
     "file_path_html": "posts/california-cannabis-experience-survey.html",
     "file_path_json": "posts/california-cannabis-experience-survey.json",
+    "excerpt": "<p>Nearly three years ago, Proposition 64 marked the beginning of California’s three state cannabis licensing authorities: The Bureau of Cannabis Control, the California Department of Food and Agriculture and the California Department of Public Health.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -42,7 +43,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Nearly three years ago, Proposition 64 marked the beginning of California’s three state cannabis licensing authorities: The Bureau of Cannabis Control, the California Department of Food and Agriculture and the California Department of Public Health.</p>\n"
+    ]
   }
 }

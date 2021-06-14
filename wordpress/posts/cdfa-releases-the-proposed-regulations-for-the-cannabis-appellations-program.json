@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
     "file_path_html": "posts/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program.html",
     "file_path_json": "posts/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program.json",
+    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.</p>\n"
+    ]
   }
 }

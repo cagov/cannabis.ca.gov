@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/testing-laboratories/",
     "file_path_html": "pages/testing-laboratories.html",
     "file_path_json": "pages/testing-laboratories.json",
+    "excerpt": "",
     "parent": 758,
-    "menu_order": 0,
-    "excerpt": ""
+    "menu_order": 0
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
     "file_path_html": "posts/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis.html",
     "file_path_json": "posts/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis.json",
+    "excerpt": "<p>Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       "Bureau of Cannabis Control",
       "CalCannabis",
       null
-    ],
-    "excerpt": "<p>Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.</p>\n"
+    ]
   }
 }

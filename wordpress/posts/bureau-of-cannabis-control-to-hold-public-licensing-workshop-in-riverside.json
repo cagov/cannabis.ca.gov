@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Riverside on October 13.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -33,7 +34,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Riverside on October 13.</p>\n"
+    ]
   }
 }

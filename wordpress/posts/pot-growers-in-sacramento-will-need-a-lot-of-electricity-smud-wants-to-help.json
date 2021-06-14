@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
     "file_path_html": "posts/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help.html",
     "file_path_json": "posts/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help.json",
+    "excerpt": "<p>It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.</p>\n"
+    ]
   }
 }

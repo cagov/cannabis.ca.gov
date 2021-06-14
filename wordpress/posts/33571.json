@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/07/33571/",
     "file_path_html": "posts/33571.html",
     "file_path_json": "posts/33571.json",
+    "excerpt": "<p>You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -43,7 +44,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.</p>\n"
+    ]
   }
 }

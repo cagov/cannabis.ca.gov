@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/05/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
     "file_path_html": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.html",
     "file_path_json": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.json",
+    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/29/registering-cannabis-related-trademarks-in-california/",
     "file_path_html": "posts/registering-cannabis-related-trademarks-in-california.html",
     "file_path_json": "posts/registering-cannabis-related-trademarks-in-california.json",
+    "excerpt": "<p>The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -39,7 +40,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.</p>\n"
+    ]
   }
 }

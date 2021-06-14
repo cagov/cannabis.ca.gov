@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/scientific-research/",
     "file_path_html": "pages/scientific-research.html",
     "file_path_json": "pages/scientific-research.json",
+    "excerpt": "",
     "parent": 707,
-    "menu_order": 0,
-    "excerpt": ""
+    "menu_order": 0
   }
 }

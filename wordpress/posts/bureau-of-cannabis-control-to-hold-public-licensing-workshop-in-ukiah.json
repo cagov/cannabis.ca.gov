@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/22/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,7 +40,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.</p>\n"
+    ]
   }
 }

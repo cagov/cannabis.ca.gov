@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/29/bureau-of-cannabis-control-announces-four-upcoming-public-licensing-workshops/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-four-upcoming-public-licensing-workshops.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-four-upcoming-public-licensing-workshops.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host five public licensing workshops.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host five public licensing workshops.</p>\n"
+    ]
   }
 }

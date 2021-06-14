@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/23/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host public licensing workshops in Irvine on January 25 and in San Diego on January 26.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -40,7 +41,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host public licensing workshops in Irvine on January 25 and in San Diego on January 26.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
     "file_path_html": "posts/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee.html",
     "file_path_json": "posts/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee.json",
+    "excerpt": "<p>SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       "Bureau of Cannabis Control",
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).</p>\n"
+    ]
   }
 }

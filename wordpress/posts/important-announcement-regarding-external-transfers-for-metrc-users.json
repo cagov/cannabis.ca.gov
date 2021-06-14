@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
     "file_path_html": "posts/important-announcement-regarding-external-transfers-for-metrc-users.html",
     "file_path_json": "posts/important-announcement-regarding-external-transfers-for-metrc-users.json",
+    "excerpt": "<p>To All Interested Parties,<br />\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>To All Interested Parties,<br />\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.</p>\n"
+    ]
   }
 }

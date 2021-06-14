@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/13/cannabis-advisory-committee-meeting-in-sacramento/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-sacramento.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-sacramento.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Monday, August 20 in Sacramento.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,7 +40,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Monday, August 20 in Sacramento.</p>\n"
+    ]
   }
 }

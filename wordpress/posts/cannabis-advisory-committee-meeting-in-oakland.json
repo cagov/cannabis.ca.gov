@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/07/cannabis-advisory-committee-meeting-in-oakland/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-oakland.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-oakland.json",
+    "excerpt": "<p>The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, May 17, in Oakland.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -42,7 +43,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, May 17, in Oakland.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/07/31/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding/",
     "file_path_html": "posts/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding.html",
     "file_path_json": "posts/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 (Equity Act), established by Senate Bill 1294.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -39,7 +40,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 (Equity Act), established by Senate Bill 1294.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/13/cannabis-cultivation-permitting-workshops/",
     "file_path_html": "posts/cannabis-cultivation-permitting-workshops.html",
     "file_path_json": "posts/cannabis-cultivation-permitting-workshops.json",
+    "excerpt": "<p>The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing.</p>\n"
+    ]
   }
 }

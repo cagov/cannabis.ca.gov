@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/13/28429/",
     "file_path_html": "posts/28429.html",
     "file_path_json": "posts/28429.json",
+    "excerpt": "<p>We would like to remind all state-licensed cannabis cultivators that the Compliance and Enforcement branch of CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is now conducting inspections across the state.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>We would like to remind all state-licensed cannabis cultivators that the Compliance and Enforcement branch of CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is now conducting inspections across the state.</p>\n"
+    ]
   }
 }

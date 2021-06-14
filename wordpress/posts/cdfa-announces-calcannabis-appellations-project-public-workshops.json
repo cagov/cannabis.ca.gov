@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/05/cdfa-announces-calcannabis-appellations-project-public-workshops/",
     "file_path_html": "posts/cdfa-announces-calcannabis-appellations-project-public-workshops.html",
     "file_path_json": "posts/cdfa-announces-calcannabis-appellations-project-public-workshops.json",
+    "excerpt": "<p>The California Department of Food and Agriculture’s (CDFA) CalCannabis Cultivation Licensing Division will hold six public workshops throughout California in September to solicit input on establishing a framework for the CalCannabis Appellations Project.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Food and Agriculture’s (CDFA) CalCannabis Cultivation Licensing Division will hold six public workshops throughout California in September to solicit input on establishing a framework for the CalCannabis Appellations Project.</p>\n"
+    ]
   }
 }

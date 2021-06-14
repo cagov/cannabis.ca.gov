@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/26/california-department-of-food-and-agriculture-announces-public-review-and-comment-period-for-the-draft-program-environmental-impact-report-peir-for-cannabis-cultivation/",
     "file_path_html": "posts/california-department-of-food-and-agriculture-announces-public-review-and-comment-period-for-the-draft-program-environmental-impact-report-peir-for-cannabis-cultivation.html",
     "file_path_json": "posts/california-department-of-food-and-agriculture-announces-public-review-and-comment-period-for-the-draft-program-environmental-impact-report-peir-for-cannabis-cultivation.json",
+    "excerpt": "<p>The California Department of Food and Agriculture (CDFA) has prepared a Draft Program Environmental Impact Report (PEIR) outlining potential environmental effects associated with the adoption and implementation of statewide cannabis cultivation regulations.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,7 +33,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Food and Agriculture (CDFA) has prepared a Draft Program Environmental Impact Report (PEIR) outlining potential environmental effects associated with the adoption and implementation of statewide cannabis cultivation regulations.</p>\n"
+    ]
   }
 }

@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/30/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -38,7 +39,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.</p>\n"
+    ]
   }
 }

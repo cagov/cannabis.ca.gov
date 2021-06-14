@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/07/readoption-of-the-emergency-regulations-for-cannabis-cultivation/",
     "file_path_html": "posts/readoption-of-the-emergency-regulations-for-cannabis-cultivation.html",
     "file_path_json": "posts/readoption-of-the-emergency-regulations-for-cannabis-cultivation.json",
+    "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture, has readopted the emergency regulations for commercial medicinal and adult-use cannabis cultivation.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture, has readopted the emergency regulations for commercial medicinal and adult-use cannabis cultivation.</p>\n"
+    ]
   }
 }

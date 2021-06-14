@@ -23,8 +23,8 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/talking-youth-about-cannabis/",
     "file_path_html": "pages/talking-youth-about-cannabis.html",
     "file_path_json": "pages/talking-youth-about-cannabis.json",
+    "excerpt": "",
     "parent": 757,
-    "menu_order": 0,
-    "excerpt": ""
+    "menu_order": 0
   }
 }

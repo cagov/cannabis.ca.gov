@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/13/28332/",
     "file_path_html": "posts/28332.html",
     "file_path_json": "posts/28332.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, March 15, in Los Angeles.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -36,7 +37,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, March 15, in Los Angeles.</p>\n"
+    ]
   }
 }

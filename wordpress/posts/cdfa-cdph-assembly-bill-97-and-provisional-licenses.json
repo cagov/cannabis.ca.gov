@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
     "file_path_html": "posts/cdfa-cdph-assembly-bill-97-and-provisional-licenses.html",
     "file_path_json": "posts/cdfa-cdph-assembly-bill-97-and-provisional-licenses.json",
+    "excerpt": "<p>Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA).</p>\n"
+    ]
   }
 }

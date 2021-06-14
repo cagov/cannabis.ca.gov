@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
     "file_path_html": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.html",
     "file_path_json": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.json",
+    "excerpt": "<p>Agencies Also Post Summary of Public Comments to Cannabis Web Portal.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Agencies Also Post Summary of Public Comments to Cannabis Web Portal.</p>\n"
+    ]
   }
 }

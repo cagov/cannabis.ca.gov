@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
     "file_path_html": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.html",
     "file_path_json": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.json",
+    "excerpt": "<p>The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -41,7 +42,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.</p>\n"
+    ]
   }
 }

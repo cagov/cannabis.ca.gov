@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/29/28179/",
     "file_path_html": "posts/28179.html",
     "file_path_json": "posts/28179.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Oakland on February 1.</p>\n",
     "categories": [
       "Events"
     ],
@@ -38,7 +39,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Oakland on February 1.</p>\n"
+    ]
   }
 }

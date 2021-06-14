@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
     "file_path_html": "posts/california-community-reinvestment-grants-program-application-due-date-reminder.html",
     "file_path_json": "posts/california-community-reinvestment-grants-program-application-due-date-reminder.json",
+    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -31,7 +32,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.</p>\n"
+    ]
   }
 }

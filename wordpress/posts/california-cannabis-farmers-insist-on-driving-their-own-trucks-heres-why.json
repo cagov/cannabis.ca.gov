@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why/",
     "file_path_html": "posts/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why.html",
     "file_path_json": "posts/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why.json",
+    "excerpt": "<p>The California craft beer industry is worth upwards of $7 billion, and with approximately 750 breweries, the state is home to more brew operations than any other in the country.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -32,7 +33,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California craft beer industry is worth upwards of $7 billion, and with approximately 750 breweries, the state is home to more brew operations than any other in the country.</p>\n"
+    ]
   }
 }

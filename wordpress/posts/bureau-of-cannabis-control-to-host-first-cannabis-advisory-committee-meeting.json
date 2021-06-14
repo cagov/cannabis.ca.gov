@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/06/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that it will host the first public Cannabis Advisory Committee meeting on Thursday, November 16 in Sacramento.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -31,7 +32,6 @@
       "Bureau of Cannabis Control",
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that it will host the first public Cannabis Advisory Committee meeting on Thursday, November 16 in Sacramento.</p>\n"
+    ]
   }
 }

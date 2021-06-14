@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
     "file_path_html": "posts/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives.html",
     "file_path_json": "posts/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives.json",
+    "excerpt": "<p>Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -34,7 +35,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act.</p>\n"
+    ]
   }
 }

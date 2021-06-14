@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
     "file_path_html": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.html",
     "file_path_json": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.json",
+    "excerpt": "<p>Cultivation Tax<br />\nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>Cultivation Tax<br />\nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.</p>\n"
+    ]
   }
 }

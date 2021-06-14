@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/17/employment-training-panel-approves-cannabis-industry-application-procedures/",
     "file_path_html": "posts/employment-training-panel-approves-cannabis-industry-application-procedures.html",
     "file_path_json": "posts/employment-training-panel-approves-cannabis-industry-application-procedures.json",
+    "excerpt": "<p>SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -37,7 +38,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses.</p>\n"
+    ]
   }
 }

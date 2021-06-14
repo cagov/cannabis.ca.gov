@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/29/state-cannabis-licensing-authorities-provide-provisional-licensing-update/",
     "file_path_html": "posts/state-cannabis-licensing-authorities-provide-provisional-licensing-update.html",
     "file_path_json": "posts/state-cannabis-licensing-authorities-provide-provisional-licensing-update.json",
+    "excerpt": "<p>The Bureau of Cannabis Control, California Department of Public Health, and California Department of Food and Agriculture are taking steps to prevent gaps in licensure when active temporary commercial cannabis licenses expire.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -39,7 +40,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau of Cannabis Control, California Department of Public Health, and California Department of Food and Agriculture are taking steps to prevent gaps in licensure when active temporary commercial cannabis licenses expire.</p>\n"
+    ]
   }
 }

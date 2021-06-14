@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/11/30056/",
     "file_path_html": "posts/30056.html",
     "file_path_json": "posts/30056.json",
+    "excerpt": "<p>The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -38,7 +39,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.</p>\n"
+    ]
   }
 }

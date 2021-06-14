@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/13/important-information-for-cannabis-distributors/",
     "file_path_html": "posts/important-information-for-cannabis-distributors.html",
     "file_path_json": "posts/important-information-for-cannabis-distributors.json",
+    "excerpt": "<p>As a cannabis distributor, you must electronically file your cannabis tax returns and pay the cultivation tax and cannabis excise tax due to the California Department of Tax and Fee Administration (CDTFA).</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>As a cannabis distributor, you must electronically file your cannabis tax returns and pay the cultivation tax and cannabis excise tax due to the California Department of Tax and Fee Administration (CDTFA).</p>\n"
+    ]
   }
 }

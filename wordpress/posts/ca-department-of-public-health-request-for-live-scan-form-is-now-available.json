@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
     "file_path_html": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.html",
     "file_path_json": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.json",
+    "excerpt": "<p>The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -38,7 +39,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.</p>\n"
+    ]
   }
 }

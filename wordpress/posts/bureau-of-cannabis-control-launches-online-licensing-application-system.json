@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/08/bureau-of-cannabis-control-launches-online-licensing-application-system/",
     "file_path_html": "posts/bureau-of-cannabis-control-launches-online-licensing-application-system.html",
     "file_path_json": "posts/bureau-of-cannabis-control-launches-online-licensing-application-system.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events.</p>\n",
     "categories": [
       "Press Release"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events.</p>\n"
+    ]
   }
 }

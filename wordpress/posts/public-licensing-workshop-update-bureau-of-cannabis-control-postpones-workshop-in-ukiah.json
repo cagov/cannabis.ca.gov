@@ -23,6 +23,7 @@
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/31/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/",
     "file_path_html": "posts/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah.html",
     "file_path_json": "posts/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah.json",
+    "excerpt": "<p>The Bureau of Cannabis Control (Bureau) today announced that its public licensing workshop previously scheduled for Tuesday, February 6 in Ukiah has been postponed.</p>\n",
     "categories": [
       "Announcement"
     ],
@@ -35,7 +36,6 @@
       null,
       null,
       null
-    ],
-    "excerpt": "<p>The Bureau of Cannabis Control (Bureau) today announced that its public licensing workshop previously scheduled for Tuesday, February 6 in Ukiah has been postponed.</p>\n"
+    ]
   }
 }
