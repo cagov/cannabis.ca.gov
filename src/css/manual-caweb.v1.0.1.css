@@ -1,4 +1,7 @@
 /* GLOBAL */
+a:focus, button:focus {
+  outline: solid 2px #fdb81e;
+}
 /* Changing site's global max width */
 @media (min-width: 1280px) {
   .main-navigation,
@@ -21,10 +24,9 @@
   --primary-color: #064e66;
   --primary-hover-color: #043747;
   --standout-color: #2f4c2c;
-  --standout-hover-color: #21351F;
+  --standout-hover-color: #21351f;
   --secondary-color: #cf5d28;
   --highlight-color: #fdb81e;
-
 }
 
 .global-header {
@@ -130,7 +132,7 @@ div.goog-te-gadget {
     color: #064e66 !important;
   }
   .full-width-nav .main-navigation .top-level-nav .first-level-btn {
-    padding-right:25px;
+    padding-right: 25px;
     padding-top: 17px !important;
   }
   .first-level-link:hover {
@@ -146,7 +148,7 @@ div.goog-te-gadget {
   }
   /*Sub navigation styles */
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
-    outline: 1px solid #EFEFEF;
+    outline: 1px solid #efefef;
   }
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]::after {
     content: "";
@@ -155,19 +157,20 @@ div.goog-te-gadget {
     border-bottom: 4px solid white;
     bottom: -2px;
     left: 1px;
-
   }
   .nav-item .sub-nav.open {
-    outline: 1px solid #EFEFEF;
+    outline: 1px solid #efefef;
     box-shadow: none;
     z-index: -1;
   }
- 
-  a.second-level-link:hover, a.second-level-link:focus {
+
+  a.second-level-link:hover,
+  a.second-level-link:focus {
     background: none !important;
-    text-decoration: underline!important;
+    text-decoration: underline !important;
   }
-  .nav-item .first-level-link.has-sub .carrot, .first-level-btn .carrot {
+  .nav-item .first-level-link.has-sub .carrot,
+  .first-level-btn .carrot {
     font-size: 1.4rem;
     bottom: 11px !important;
     color: var(--primary-color);
@@ -176,14 +179,80 @@ div.goog-te-gadget {
 
 /*Navigation mobile*/
 @media (max-width: 991px) {
-  .first-level-btn>span[class^=ca-gov-icon]:not(.carrot), .first-level-link>span[class^=ca-gov-icon]:not(.carrot) {
+  .first-level-btn > span[class^="ca-gov-icon"]:not(.carrot),
+  .first-level-link > span[class^="ca-gov-icon"]:not(.carrot) {
     display: none !important;
   }
-  .has-sub .rotate, .first-level-btn, .first-level-link {
+  .has-sub .rotate,
+  .first-level-btn,
+  .first-level-link {
     color: var(--primary-color) !important;
   }
-}
+  /*mobile control buttons (search and menu) */
+  .branding .header-organization-banner {
+    padding-right: 0;
+    position: relative;
+  }
+  .mobile-controls {
+    min-height: unset !important;
+  }
+  .main-nav-icons {
+    height: unset !important;
+  }
+  .mobile-controls .toggle-search {
+    width: unset !important;
+    height: unset !important;
+    font-size: 1rem;
+  }
 
+  .toggle-search:after {
+    content: "Search";
+    font-size: 1rem;
+  }
+
+  .toggle-search .ca-gov-icon-search:before {
+    content: "\55" !important;
+    font-size: 1.25rem;
+    position: relative;
+    top: 2px;
+  }
+  .mobile-controls .toggle-menu {
+    height: unset !important;
+    width: unset !important;
+    margin-left: 0.75rem;
+  }
+  .mobile-controls .toggle-menu:focus {
+    outline: 2px solid #fdb81e;
+  }
+  .mobile-controls .toggle-menu:after {
+    content: "Menu";
+    font-size: 1rem;
+    font-family: "Public Sans";
+    display: block;
+    color: #064e66 !important;
+    margin-left: 35px;
+  }
+
+  .toggle-menu span {
+    margin-left: 0;
+    margin-right: 0;
+    height: 2px;
+    width: 20px;
+    left: 10px;
+  }
+  .toggle-menu span:nth-child(1) {
+    top: 1px;
+  }
+  .toggle-menu span:nth-child(2),
+  .toggle-menu span:nth-child(3) {
+    top: 9px;
+  }
+  .toggle-menu span:nth-child(4) {
+    top: 17px;
+  }
+}
+/* end mobile navigation */
+/* navigation dropdown */
 .main-navigation.dropdown .second-level-nav {
   border: none !important;
 }
@@ -191,13 +260,16 @@ div.goog-te-gadget {
   background-color: #ffffff;
   padding-left: 7px;
 }
-.second-level-nav>li:focus, .second-level-nav>li:hover {
+.second-level-nav > li:focus,
+.second-level-nav > li:hover {
   background-color: #ffffff;
 }
 .main-navigation .ca-gov-icon-triangle-down:before {
   content: "\33" !important;
 }
-.top-level-nav .nav-item {font-size: 1.125rem;}
+.top-level-nav .nav-item {
+  font-size: 1.125rem;
+}
 
 /* END -- Navigation */
 
@@ -271,8 +343,8 @@ div.goog-te-gadget {
   }
 }
 /* End -- Google Search
-
-/* START -- Main Content */
+  
+  /* START -- Main Content */
 
 /* override card grid so they stack at theme breakpoint that slims main content */
 @media (max-width: 991px) {
