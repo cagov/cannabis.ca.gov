@@ -142,12 +142,21 @@ div.goog-te-gadget {
   }
   /*Sub navigation styles */
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
-    box-shadow: 2px 0px 5px -1px rgba(0,0,0,0.3);
+    outline: 1px solid #EFEFEF;
+  }
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 4px solid white;
+    bottom: -2px;
+    left: 1px;
+
   }
   .nav-item .sub-nav.open {
-    margin-top: -1px;
-    z-index: 9;
-    box-shadow: 1px 3px 5px -1px rgba(0,0,0,0.3);
+    outline: 1px solid #EFEFEF;
+    box-shadow: none;
+    z-index: -1;
   }
  
   a.second-level-link:hover, a.second-level-link:focus {
