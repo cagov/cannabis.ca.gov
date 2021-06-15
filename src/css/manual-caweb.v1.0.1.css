@@ -131,6 +131,7 @@ div.goog-te-gadget {
   }
   .full-width-nav .main-navigation .top-level-nav .first-level-btn {
     padding-right:25px;
+    padding-top: 17px !important;
   }
   .first-level-link:hover {
     background: none !important;
