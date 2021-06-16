@@ -1,5 +1,6 @@
 /* GLOBAL */
-a:focus, button:focus {
+a:focus,
+button:focus {
   outline: solid 2px #fdb81e;
 }
 /* Changing site's global max width */
@@ -282,6 +283,10 @@ div.goog-te-gadget {
   .search-container #site-search {
     position: relative;
   }
+  /* for fixed nav */
+  .full-width-nav #head-search.fixed-hide:not(.active) .search-textfield {
+    height: 41px !important;
+  }
 }
 
 .full-width-nav .featured-search input.search-textfield {
@@ -370,3 +375,64 @@ div.goog-te-gadget {
   margin: 0;
 }
 /* END -- Main Content */
+
+/* START -- Footer */
+.global-footer {
+  background: #f9f9fa !important;
+  padding-top: 20px;
+  font-size: 1rem !important;
+}
+.global-footer .copyright {
+  background: #f9f9fa;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.global-footer a:not(.btn) {
+  color: #000;
+  text-decoration: underline;
+}
+.global-footer .footer-links a:hover {
+  color: #000;
+  text-decoration: none !important;
+}
+/* remove back to top link */
+.footer-links li:first-child {
+  display: none;
+}
+/* add ca.gov лого to the first link in the footer navigtion */
+.footer-links li:nth-child(2) {
+  background-image: url(https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 8px;
+  width: 45px;
+  height: 40px;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+}
+.footer-links li:nth-child(2) a {
+  width: 50px;
+  display: block;
+  height: 40px;
+  margin-top: 10px;
+}
+/* footer mobile */
+@media (max-width: 767px) {
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 !important;
+  }
+  .global-footer .footer-links li {
+    width: 100%;
+  }
+  .footer-links li:nth-child(2) {
+    margin-bottom: 20px;
+    margin-left: 1px;
+    background-position: 0px 0px;
+  }
+  .footer-links li:nth-child(2) a {
+    margin-top: 0;
+  }
+}
+/* END -- Footer */
