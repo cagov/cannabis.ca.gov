@@ -491,5 +491,9 @@ div.goog-te-gadget {
 .caweb-alert-close:hover span {
   color: #fec02f;
 }
-
+@media (max-width: 767px) {
+  .alert-banner {
+    padding-left: 15px;
+  }
+}
 /* END -- Alert Banner */
