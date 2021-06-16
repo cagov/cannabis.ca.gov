@@ -435,6 +435,10 @@ div.goog-te-gadget {
     margin-top: 0;
   }
 }
+/* remove CAWeb credits */
+.global-footer .copyright span.pull-right {
+  display: none;
+}
 /* END -- Footer */
 
 /* START -- Alert banner */
