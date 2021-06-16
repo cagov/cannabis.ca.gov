@@ -435,6 +435,10 @@ div.goog-te-gadget {
     margin-top: 0;
   }
 }
+/* remove CAWeb credits */
+.global-footer .copyright span.pull-right {
+  display: none;
+}
 /* END -- Footer */
 
 /* START -- Alert banner */
@@ -491,5 +495,9 @@ div.goog-te-gadget {
 .caweb-alert-close:hover span {
   color: #fec02f;
 }
-
+@media (max-width: 767px) {
+  .alert-banner {
+    padding-left: 15px;
+  }
+}
 /* END -- Alert Banner */
