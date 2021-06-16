@@ -436,3 +436,60 @@ div.goog-te-gadget {
   }
 }
 /* END -- Footer */
+
+/* START -- Alert banner */
+.alert-banner {
+  background-color: #064e66 !important;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 45px;
+}
+.alert-banner .container {
+  border-left: 5px solid #fec02f;
+}
+
+.alert-link {
+  float: none !important;
+  border: none;
+  color: #064e66 !important;
+  padding: 0.725rem !important;
+  background-color: #fff !important;
+  border-radius: 4px !important;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+}
+.alert-link:hover {
+  background-color: #fec02f !important;
+}
+.alert-text {
+  display: block;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.alert-level {
+  display: block;
+  margin-bottom: 0.5rem !important;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-top: 0;
+  padding: 0;
+  margin: 0;
+}
+.alert-level [class^="ca-gov-icon-"] {
+  display: none !important;
+}
+
+.caweb-alert-close span {
+  content: "\4d";
+  font-family: "CaGov";
+  color: #fff;
+  font-size: 2.5rem;
+  opacity: 1 !important;
+}
+.caweb-alert-close:hover span {
+  color: #fec02f;
+}
+
+/* END -- Alert Banner */

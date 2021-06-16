@@ -5,4 +5,7 @@ $( document ).ready(function() {
 
 // Move mobile icons before brandin
 $(".mobile-controls").insertBefore(".branding");
+
+// place alert button after alert text
+$(".alert-link").insertAfter(".alert-text");
 });
