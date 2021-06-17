@@ -38,13 +38,16 @@ button:focus {
 /*START -  utility header custom styles  */
 .utility-header {
   background-color: #f9f9fa !important;
+  min-height: 44px;
+  border-bottom: 1px solid #ededef;
 }
 
 /*add different ca.gov logo */
 .header-cagov-logo {
   background-image: url("https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg");
   background-repeat: no-repeat;
-  background-position: 0px 3px;
+  background-position: 0px 7px;
+  width: 40px;
 }
 .header-cagov-logo a {
   width: 45px;
@@ -56,7 +59,7 @@ button:focus {
 
 /* replace home icon with state of california text */
 .social-media-links .ca-gov-icon-home:before {
-  content: "State of California" !important;
+  content: "Official website of the State of California" !important;
   font-family: "Public Sans", sans-ferif !important;
   font-size: 0.95rem;
 }
@@ -100,10 +103,24 @@ div.goog-te-gadget {
 
 /* END -- Utility Header custom styles */
 
+/* START -- BRANDING */
+.branding {
+  position: unset;
+}
+.branding:after {
+  content: "";
+  border-bottom: 1px solid #ededef;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 50px;
+}
+/* END --  branding */
+
 /* START -- Navigation */
 @media (min-width: 992px) {
   .navigation-search {
-    border-top: 1px solid #ededef;
+    padding-left: 0px !important;
   }
   .main-navigation {
     margin-top: 0;
@@ -117,6 +134,7 @@ div.goog-te-gadget {
   .top-level-nav .nav-item {
     flex: unset !important;
     padding: 0 !important;
+    margin-right: 5%;
   }
   .top-level-nav .nav-item:hover,
   .top-level-nav .nav-item:focus {
@@ -129,7 +147,9 @@ div.goog-te-gadget {
   }
   .first-level-link,
   .first-level-btn {
-    padding: 15px 15px 12px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 16px !important;
     color: #064e66 !important;
   }
   .full-width-nav .main-navigation .top-level-nav .first-level-btn {
@@ -277,7 +297,7 @@ div.goog-te-gadget {
 /*START -- Google Search */
 @media (min-width: 992px) {
   .full-width-nav .featured-search {
-    width: 33%;
+    width: 32%;
     transition: none;
   }
   .search-container #site-search {
