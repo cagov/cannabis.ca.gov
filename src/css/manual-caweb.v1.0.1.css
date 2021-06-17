@@ -394,6 +394,9 @@ div.goog-te-gadget {
 .cagov-card h4 {
   margin: 0;
 }
+.non_divi_builder.title_not_displayed .main-primary {
+  padding-top: 16px;
+}
 /* END -- Main Content */
 
 /* START -- Footer */
