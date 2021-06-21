@@ -646,3 +646,12 @@ cagov-accordion .cagov-accordion-card {
 .cagov-featured-sidebar h2 {
   margin-top: 0 !important;
 }
+
+/* START -- page footer */
+@media (min-width: 768px) {
+  .content-menu-links, .social-links-container {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+}
+/* END -- page footer */
