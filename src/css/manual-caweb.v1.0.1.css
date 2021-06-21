@@ -249,7 +249,8 @@ div.goog-te-gadget {
 
 /*Navigation mobile*/
 @media (max-width: 991px) {
-  .first-level-btn, .first-level-link {
+  .first-level-btn,
+  .first-level-link {
     border-bottom: none !important;
     border-top: 1px solid #ededef;
   }
@@ -292,7 +293,9 @@ div.goog-te-gadget {
     position: relative;
     top: 2px;
   }
-  #nav-item-search {display: none;}
+  #nav-item-search {
+    display: none;
+  }
   .mobile-controls .toggle-menu {
     height: unset !important;
     width: unset !important;
@@ -601,11 +604,39 @@ div.goog-te-gadget {
 }
 /* END -- Alert Banner */
 
+/* START -- back to top */
+.return-top.is-visible {
+  background-color: #fff;
+  color: #064e66;
+  border: 1px solid #064e66;
+  border-radius: 5px;
+}
+.return-top:after {
+  content: "Back to Top";
+  font-family: "Public Sans";
+  font-size: 1rem;
+  position: relative;
+  top: -5px;
+}
+.return-top:before {
+  font-size: 1.2rem;
+  position: relative;
+  top: -4px;
+}
 
+.return-top.is-visible:hover:after,
+.return-top.is-visible:hover:before {
+  color: #043747;
+}
+.return-top.is-visible:hover {
+  border-color: #043747;
+  background-color: #f9f9fa;
+}
+/* END -- back to top */
 
 /* temporary accordion override */
 cagov-accordion .cagov-accordion-card {
-  border: solid 1px #EDEDEF !important;
+  border: solid 1px #ededef !important;
 }
 /* temp homepage spacing fix */
 .cagov-stack.cagov-featured-sidebar {
