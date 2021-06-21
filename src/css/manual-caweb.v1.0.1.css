@@ -600,3 +600,18 @@ div.goog-te-gadget {
   }
 }
 /* END -- Alert Banner */
+
+
+
+/* temporary accordion override */
+cagov-accordion .cagov-accordion-card {
+  border: solid 1px #EDEDEF !important;
+}
+/* temp homepage spacing fix */
+.cagov-stack.cagov-featured-sidebar {
+  margin-top: 0;
+}
+/* check with Konstantin why important is on header spacing now, requiring this override */
+.cagov-featured-sidebar h2 {
+  margin-top: 0 !important;
+}
