@@ -503,11 +503,11 @@ div.goog-te-gadget {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0px 8px;
-  width: 45px;
+  width: 40px;
   height: 40px;
-  margin-left: 10px;
+  margin-left: 5px;
   position: relative;
-  top: 4px;
+  top: 10px;
 }
 .footer-links li:nth-child(2) a {
   width: 50px;
