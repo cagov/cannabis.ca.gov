@@ -44,10 +44,11 @@ button:focus {
 
 /*add different ca.gov logo */
 .header-cagov-logo {
-  background-image: url("https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg");
+  background-image: url("https://california.azureedge.net/cdt/CAgovPortal/images/ca-gov-logo.svg");
   background-repeat: no-repeat;
   background-position: 0px 7px;
   width: 40px;
+  background-size: contain;
 }
 .header-cagov-logo a {
   width: 45px;
@@ -95,26 +96,74 @@ div.goog-te-gadget {
   background: none !important;
   display: none;
 }
+/* Utility header in mobile */
 @media (max-width: 991px) {
+  .utility-header {
+    padding-bottom: 8px;
+  }
   .utility-header .flex-row .settings-links {
     display: none;
+  }
+
+  .social-media-links .ca-gov-icon-home:before {
+    content: "State of California" !important;
   }
 }
 
 /* END -- Utility Header custom styles */
 
 /* START -- BRANDING */
-.branding {
-  position: unset;
+.header-organization-banner {
+  background-image: url("https://california.azureedge.net/cdt/CAgovPortal/images/cannabis-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  width: 230px;
+  background-size: contain;
 }
+.header-organization-banner img {
+  display: none;
+}
+.header-organization-banner a {
+  width: 240px;
+  height: 80px;
+}
+
 .branding:after {
   content: "";
   border-bottom: 1px solid #ededef;
   position: absolute;
   width: 100%;
   left: 0px;
-  bottom: 50px;
+  bottom: -5px;
 }
+@media (min-width: 992px) {
+  .branding {
+    position: unset;
+  }
+  .branding:after {
+    content: "";
+    border-bottom: 1px solid #ededef;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 50px;
+  }
+  .fixed.compact .header-organization-banner {
+    max-height: 55px;
+    width: 160px;
+  }
+  .fixed.compact .header-organization-banner a {
+    height: 60px;
+  }
+}
+@media (max-width: 991px) {
+  .header-organization-banner {
+    height: 90px;
+    width: 250px;
+    background-position: 0px 3px;
+  }
+}
+
 /* END --  branding */
 
 /* START -- Navigation */
@@ -200,6 +249,10 @@ div.goog-te-gadget {
 
 /*Navigation mobile*/
 @media (max-width: 991px) {
+  .first-level-btn, .first-level-link {
+    border-bottom: none !important;
+    border-top: 1px solid #ededef;
+  }
   .first-level-btn > span[class^="ca-gov-icon"]:not(.carrot),
   .first-level-link > span[class^="ca-gov-icon"]:not(.carrot) {
     display: none !important;
@@ -216,6 +269,8 @@ div.goog-te-gadget {
   }
   .mobile-controls {
     min-height: unset !important;
+    padding-top: 16px;
+    padding-bottom: 10px;
   }
   .main-nav-icons {
     height: unset !important;
@@ -237,6 +292,7 @@ div.goog-te-gadget {
     position: relative;
     top: 2px;
   }
+  #nav-item-search {display: none;}
   .mobile-controls .toggle-menu {
     height: unset !important;
     width: unset !important;
@@ -262,14 +318,24 @@ div.goog-te-gadget {
     left: 10px;
   }
   .toggle-menu span:nth-child(1) {
-    top: 1px;
+    top: 2px;
   }
   .toggle-menu span:nth-child(2),
   .toggle-menu span:nth-child(3) {
     top: 9px;
   }
   .toggle-menu span:nth-child(4) {
-    top: 17px;
+    top: 16px;
+  }
+  /* second level mobile */
+  .first-level-btn[aria-expanded="true"] {
+    border-bottom: none;
+  }
+  .second-level-nav > li {
+    border-bottom: none !important;
+  }
+  a.second-level-link {
+    padding: 10px 15px 10px 10px !important;
   }
 }
 /* end mobile navigation */
@@ -297,6 +363,7 @@ div.goog-te-gadget {
 /*START -- Google Search */
 @media (min-width: 992px) {
   .full-width-nav .featured-search {
+    top: -60px !important;
     width: 32%;
     transition: none;
   }
@@ -305,14 +372,19 @@ div.goog-te-gadget {
   }
   /* for fixed nav */
   .full-width-nav #head-search.fixed-hide:not(.active) .search-textfield {
-    height: 41px !important;
+    height: 40px !important;
+  }
+  .full-width-nav #head-search.fixed-hide:not(.active) .gsc-search-button {
+    height: 40px !important;
+    top: 0 !important;
   }
 }
 
 .full-width-nav .featured-search input.search-textfield {
   border: 1px solid !important;
   border-color: #2f4c2c !important;
-  height: 45px !important;
+  height: 40px !important;
+  border-radius: 5px;
 }
 
 .container #Search .gsc-search-button {
@@ -323,14 +395,15 @@ div.goog-te-gadget {
   border: 1px solid #2f4c2c !important;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  padding: 0px 14px 0px 14px;
-  height: 45px !important;
+  padding: 0px 17px 0px 17px;
+  height: 40px !important;
+  width: 55px !important;
 }
 .gsc-search-button .ca-gov-icon-search:before {
   content: "\55" !important;
   color: white !important;
   position: relative;
-  top: -8px;
+  top: -10px;
   right: 4px;
   font-size: 25px;
 }
@@ -342,6 +415,8 @@ div.goog-te-gadget {
   .search-container.featured-search.active {
     background: #f9f9fa !important;
     padding-top: 20px;
+    border-top: 1px solid #e1e0e3;
+    border-bottom: 1px solid #e1e0e3;
   }
   #head-search .container {
     max-width: 100% !important;
@@ -424,8 +499,9 @@ div.goog-te-gadget {
 }
 /* add ca.gov лого to the first link in the footer navigtion */
 .footer-links li:nth-child(2) {
-  background-image: url(https://california.azureedge.net/cdt/statetemplate/5.5.22/images/Ca-Gov-Logo-Blue.svg);
+  background-image: url("https://california.azureedge.net/cdt/CAgovPortal/images/ca-gov-logo.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 0px 8px;
   width: 45px;
   height: 40px;
@@ -524,3 +600,18 @@ div.goog-te-gadget {
   }
 }
 /* END -- Alert Banner */
+
+
+
+/* temporary accordion override */
+cagov-accordion .cagov-accordion-card {
+  border: solid 1px #EDEDEF !important;
+}
+/* temp homepage spacing fix */
+.cagov-stack.cagov-featured-sidebar {
+  margin-top: 0;
+}
+/* check with Konstantin why important is on header spacing now, requiring this override */
+.cagov-featured-sidebar h2 {
+  margin-top: 0 !important;
+}
