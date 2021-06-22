@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-19T15:07:31",
+    "updated_date": "2021-06-19T15:26:47",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 756,
+    "slug": "applicants",
+    "title": "Applicants",
+    "author": "Department of Cannabis Control",
+    "date": "2021-06-19T15:07:31",
+    "modified": "2021-06-19T15:26:47",
+    "date_gmt": "2021-06-19T15:07:31",
+    "modified_gmt": "2021-06-19T15:26:47",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/",
+    "file_path_html": "pages/applicants.html",
+    "file_path_json": "pages/applicants.json",
+    "excerpt": "",
+    "parent": 0,
+    "menu_order": 1
+  }
+}

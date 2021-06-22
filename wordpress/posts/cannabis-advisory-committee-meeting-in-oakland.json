@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "created_date": "2018-05-07T22:18:00",
+    "updated_date": "2021-06-14T19:16:43",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6328,
+    "slug": "cannabis-advisory-committee-meeting-in-oakland",
+    "title": "Cannabis Advisory Committee Meeting in Oakland",
+    "author": "Department of Cannabis Control",
+    "date": "2018-05-07T22:18:00",
+    "modified": "2021-06-14T19:16:43",
+    "date_gmt": "2018-05-07T22:18:00",
+    "modified_gmt": "2021-06-14T19:16:43",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/07/cannabis-advisory-committee-meeting-in-oakland/",
+    "file_path_html": "posts/cannabis-advisory-committee-meeting-in-oakland.html",
+    "file_path_json": "posts/cannabis-advisory-committee-meeting-in-oakland.json",
+    "excerpt": "<p>The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold its next meeting on Thursday, May 17, in Oakland.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "California Department of Food and Agriculture",
+      "California Department of Public Health",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "created_date": "2017-04-28T19:16:00",
+    "updated_date": "2021-06-14T19:17:19",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6293,
+    "slug": "bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis",
+    "title": "Bureau of Medical Cannabis Regulation Releases Proposed Regulations for Medical Cannabis",
+    "author": "Department of Cannabis Control",
+    "date": "2017-04-28T19:16:00",
+    "modified": "2021-06-14T19:17:19",
+    "date_gmt": "2017-04-28T19:16:00",
+    "modified_gmt": "2021-06-14T19:17:19",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/28/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis/",
+    "file_path_html": "posts/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis.html",
+    "file_path_json": "posts/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis.json",
+    "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed licensing regulations for medical cannabis have been posted and the 45-day public comment period is now underway.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      null,
+      null
+    ]
+  }
+}

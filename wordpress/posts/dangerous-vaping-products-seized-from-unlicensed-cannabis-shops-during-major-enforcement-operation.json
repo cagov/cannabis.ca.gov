@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "created_date": "2020-01-27T18:54:00",
+    "updated_date": "2021-06-14T19:15:48",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5985,
+    "slug": "dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation",
+    "title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
+    "author": "Department of Cannabis Control",
+    "date": "2020-01-27T18:54:00",
+    "modified": "2021-06-14T19:15:48",
+    "date_gmt": "2020-01-27T18:54:00",
+    "modified_gmt": "2021-06-14T19:15:48",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
+    "file_path_html": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.html",
+    "file_path_json": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.json",
+    "excerpt": "<p>SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "California Department of Public Health",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

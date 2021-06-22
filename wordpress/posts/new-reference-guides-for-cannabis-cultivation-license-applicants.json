@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2018-05-02T18:01:00",
+    "updated_date": "2021-06-14T19:16:44",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6253,
+    "slug": "new-reference-guides-for-cannabis-cultivation-license-applicants",
+    "title": "New Reference Guides for Cannabis Cultivation License Applicants",
+    "author": "Department of Cannabis Control",
+    "date": "2018-05-02T18:01:00",
+    "modified": "2021-06-14T19:16:44",
+    "date_gmt": "2018-05-02T18:01:00",
+    "modified_gmt": "2021-06-14T19:16:44",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/02/new-reference-guides-for-cannabis-cultivation-license-applicants/",
+    "file_path_html": "posts/new-reference-guides-for-cannabis-cultivation-license-applicants.html",
+    "file_path_json": "posts/new-reference-guides-for-cannabis-cultivation-license-applicants.json",
+    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nTo assist those of you who are applying for an annual commercial cannabis cultivation license, we have created a couple of new reference guides to help explain what’s required for the cultivation plan and some of the other required application attachments.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Annual",
+      "Annual license",
+      "CalCannabis",
+      "CalCannabis Cultivation Licensing",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

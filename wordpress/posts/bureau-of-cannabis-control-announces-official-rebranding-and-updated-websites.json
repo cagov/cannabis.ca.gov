@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2017-09-28T15:55:00",
+    "updated_date": "2021-06-14T19:17:09",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6069,
+    "slug": "bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites",
+    "title": "Bureau of Cannabis Control Announces Official Rebranding and Updated Websites",
+    "author": "Department of Cannabis Control",
+    "date": "2017-09-28T15:55:00",
+    "modified": "2021-06-14T19:17:09",
+    "date_gmt": "2017-09-28T15:55:00",
+    "modified_gmt": "2021-06-14T19:17:09",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/28/bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites/",
+    "file_path_html": "posts/bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced the official completion of its rebranding effort.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

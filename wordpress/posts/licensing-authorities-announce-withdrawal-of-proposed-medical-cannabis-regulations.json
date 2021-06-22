@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2017-09-29T20:42:00",
+    "updated_date": "2021-06-14T19:17:08",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6068,
+    "slug": "licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations",
+    "title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
+    "author": "Department of Cannabis Control",
+    "date": "2017-09-29T20:42:00",
+    "modified": "2021-06-14T19:17:08",
+    "date_gmt": "2017-09-29T20:42:00",
+    "modified_gmt": "2021-06-14T19:17:08",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
+    "file_path_html": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.html",
+    "file_path_json": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.json",
+    "excerpt": "<p>Agencies Also Post Summary of Public Comments to Cannabis Web Portal.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-15T21:40:52",
+    "updated_date": "2021-06-19T15:28:03",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 7429,
+    "slug": "announcements",
+    "title": "Announcements",
+    "author": "chach.sikes",
+    "date": "2021-06-15T21:40:52",
+    "modified": "2021-06-19T15:28:03",
+    "date_gmt": "2021-06-15T21:40:52",
+    "modified_gmt": "2021-06-19T15:28:03",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/announcements/",
+    "file_path_html": "pages/announcements.html",
+    "file_path_json": "pages/announcements.json",
+    "excerpt": "",
+    "parent": 856,
+    "menu_order": 0
+  }
+}
