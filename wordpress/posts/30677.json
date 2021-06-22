@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2019-01-09T22:16:00",
     "updated_date": "2021-06-14T19:16:19",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/01/09/30677/",
-    "file_path_html": "posts/30677.html",
-    "file_path_json": "posts/30677.json",
     "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) recently adopted emergency Regulation 3702, California Cannabis Track-and-Trace, which requires distributors and retailers to enter the wholesale cost and the retail selling price of cannabis or cannabis products into the California Cannabis Track-and-Trace (CCTT) system.</p>\n",
     "categories": [
       "Announcements"

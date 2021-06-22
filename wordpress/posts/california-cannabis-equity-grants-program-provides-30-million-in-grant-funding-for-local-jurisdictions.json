@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2020-04-22T16:06:00",
     "updated_date": "2021-06-14T19:15:46",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/04/22/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions/",
-    "file_path_html": "posts/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions.html",
-    "file_path_json": "posts/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions.json",
     "excerpt": "<p>Sacramento, CA &#8211; Today, the Governor&#8217;s Office of Business and Economic Development (GO-Biz), in partnership with the Bureau of Cannabis Control, announced $30 million in grant funding through the Cannabis Equity Grants Program for Local Jurisdictions.</p>\n",
     "categories": [
       "Press Releases"

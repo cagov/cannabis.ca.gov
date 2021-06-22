@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2020-01-23T19:25:00",
     "updated_date": "2021-06-14T19:15:49",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/23/california-notices-emergency-cannabis-regulations-requiring-qr-code-certificate/",
-    "file_path_html": "posts/california-notices-emergency-cannabis-regulations-requiring-qr-code-certificate.html",
-    "file_path_json": "posts/california-notices-emergency-cannabis-regulations-requiring-qr-code-certificate.json",
     "excerpt": "<p>SACRAMENTO – Today, the California Bureau of Cannabis Control (Bureau) provided notice to the public of proposed emergency cannabis regulations that would make it mandatory for cannabis businesses to post their unique Quick Response Code (QR Code) certificate in storefront windows and carry it with them while transporting or delivering cannabis.</p>\n",
     "categories": [
       "Press Releases"

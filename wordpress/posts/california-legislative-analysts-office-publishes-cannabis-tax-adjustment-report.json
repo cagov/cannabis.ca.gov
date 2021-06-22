@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2019-12-18T23:15:00",
     "updated_date": "2021-06-14T19:15:52",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/",
-    "file_path_html": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.html",
-    "file_path_json": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.json",
     "excerpt": "<p>The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.</p>\n",
     "categories": [
       "Announcements"

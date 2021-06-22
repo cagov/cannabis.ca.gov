@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2017-12-18T20:17:00",
     "updated_date": "2021-06-14T19:16:58",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
-    "file_path_html": "posts/cdfa-now-accepting-temporary-cannabis-licensing-applications.html",
-    "file_path_json": "posts/cdfa-now-accepting-temporary-cannabis-licensing-applications.json",
     "excerpt": "<p>The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.</p>\n",
     "categories": [
       "Announcements"

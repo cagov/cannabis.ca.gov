@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2017-08-21T19:03:00",
     "updated_date": "2021-06-14T19:17:12",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
-    "file_path_html": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.html",
-    "file_path_json": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.json",
     "excerpt": "<p>HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.</p>\n",
     "categories": [
       "Press Releases"

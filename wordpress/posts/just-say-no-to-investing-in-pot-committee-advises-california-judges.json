@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2017-04-20T22:46:00",
     "updated_date": "2021-06-14T19:17:23",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
-    "file_path_html": "posts/just-say-no-to-investing-in-pot-committee-advises-california-judges.html",
-    "file_path_json": "posts/just-say-no-to-investing-in-pot-committee-advises-california-judges.json",
     "excerpt": "<p>A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.</p>\n",
     "categories": [
       "Announcements"

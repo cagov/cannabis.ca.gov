@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2020-12-05T00:00:00",
     "updated_date": "2021-06-14T19:15:41",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
-    "file_path_html": "posts/notice-regarding-state-stay-at-home-order-issued-december-3-2020.html",
-    "file_path_json": "posts/notice-regarding-state-stay-at-home-order-issued-december-3-2020.json",
     "excerpt": "<p>On Thursday, December 3, 2020, Governor Gavin Newsom issued a new Stay-at-Home Order to protect the health and well-being of all Californians and to continue facilitating a consistent approach across the state to slow the spread of COVID-19.</p>\n",
     "categories": [
       "Announcements"

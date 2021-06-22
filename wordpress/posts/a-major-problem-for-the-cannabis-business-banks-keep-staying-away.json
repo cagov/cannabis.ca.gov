@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2017-07-08T01:58:00",
     "updated_date": "2021-06-14T19:17:15",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/08/a-major-problem-for-the-cannabis-business-banks-keep-staying-away/",
-    "file_path_html": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.html",
-    "file_path_json": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.json",
     "excerpt": "<p>Starting a business is difficult, even under the best of circumstances.</p>\n",
     "categories": [
       "Announcements"

@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2018-05-31T21:36:00",
     "updated_date": "2021-06-14T19:16:40",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/31/california-senate-passes-bill-to-create-banks-for-pot-businesses/",
-    "file_path_html": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.html",
-    "file_path_json": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.json",
     "excerpt": "<p>The state Senate passed a bill this week to create a state charter for banks to serve California cannabis businesses, which would allow licensed merchants to write checks to pay taxes, fees and vendors — rather than use large amounts of cash, as they currently do.</p>\n",
     "categories": [
       "Announcements"

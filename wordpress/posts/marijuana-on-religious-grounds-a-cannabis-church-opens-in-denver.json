@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2017-04-21T21:09:00",
     "updated_date": "2021-06-14T19:17:21",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
-    "file_path_html": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.html",
-    "file_path_json": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.json",
     "excerpt": "<p>For the International Church of Cannabis in Denver, there were three reasons to celebrate on Thursday.</p>\n",
     "categories": [
       "Announcements"

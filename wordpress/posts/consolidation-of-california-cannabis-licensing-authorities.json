@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2020-01-10T20:58:00",
     "updated_date": "2021-06-14T19:15:50",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/10/consolidation-of-california-cannabis-licensing-authorities/",
-    "file_path_html": "posts/consolidation-of-california-cannabis-licensing-authorities.html",
-    "file_path_json": "posts/consolidation-of-california-cannabis-licensing-authorities.json",
     "excerpt": "<p>To All Interested Parties,<br />\nWe are proud to share Governor Newsom’s budget proposal for cannabis industry regulation and taxation, announced by the Governor today.</p>\n",
     "categories": [
       "Announcements"

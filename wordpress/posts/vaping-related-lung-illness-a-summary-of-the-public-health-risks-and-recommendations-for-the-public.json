@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2019-09-26T19:43:00",
     "updated_date": "2021-06-14T19:15:57",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/26/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public/",
-    "file_path_html": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.html",
-    "file_path_json": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.json",
     "excerpt": "<p>This health advisory seeks to inform the public about the imminent public health risks posed by vaping any product, including the use of electronic cigarettes (e‐cigarettes), as vaping has recently been linked to severe breathing problems, lung damage, and even death.</p>\n",
     "categories": [
       "Announcements"

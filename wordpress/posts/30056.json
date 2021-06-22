@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2018-12-11T00:52:00",
     "updated_date": "2021-06-14T19:16:21",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/11/30056/",
-    "file_path_html": "posts/30056.html",
-    "file_path_json": "posts/30056.json",
     "excerpt": "<p>The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.</p>\n",
     "categories": [
       "Announcements"

@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2020-09-17T19:53:00",
     "updated_date": "2021-06-14T19:15:43",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
-    "file_path_html": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.html",
-    "file_path_json": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.json",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today a Request for Proposals (RFP) for university research grants for public universities in California.</p>\n",
     "categories": [
       "Press Releases"

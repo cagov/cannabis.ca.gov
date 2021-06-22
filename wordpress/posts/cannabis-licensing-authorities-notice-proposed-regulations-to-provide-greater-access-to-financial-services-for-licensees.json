@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2021-01-15T16:54:00",
     "updated_date": "2021-06-14T19:15:40",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/01/15/cannabis-licensing-authorities-notice-proposed-regulations-to-provide-greater-access-to-financial-services-for-licensees/",
-    "file_path_html": "posts/cannabis-licensing-authorities-notice-proposed-regulations-to-provide-greater-access-to-financial-services-for-licensees.html",
-    "file_path_json": "posts/cannabis-licensing-authorities-notice-proposed-regulations-to-provide-greater-access-to-financial-services-for-licensees.json",
     "excerpt": "<p>SACRAMENTO – Today, the California state cannabis licensing authorities – the Bureau of Cannabis Control, California Department of Food and Agriculture and California Department of Public Health – provided notice to the public of proposed emergency regulations to implement the provisions of Assembly Bill 1525 (Jones-Sawyer, 2020).</p>\n",
     "categories": [
       "Press Releases"

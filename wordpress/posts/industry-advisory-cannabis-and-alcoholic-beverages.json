@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2018-07-25T21:23:00",
     "updated_date": "2021-06-14T19:16:33",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/25/industry-advisory-cannabis-and-alcoholic-beverages/",
-    "file_path_html": "posts/industry-advisory-cannabis-and-alcoholic-beverages.html",
-    "file_path_json": "posts/industry-advisory-cannabis-and-alcoholic-beverages.json",
     "excerpt": "<p>This page&#8217;s content has recently been updated. Please click here for the latest information.</p>\n",
     "categories": [
       "Announcements"

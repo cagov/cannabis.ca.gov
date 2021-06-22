@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2019-07-16T22:48:00",
     "updated_date": "2021-06-14T19:16:00",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/07/16/cdfa-meeting-notice-comparable-to-organic-working-group-meeting-on-july-24/",
-    "file_path_html": "posts/cdfa-meeting-notice-comparable-to-organic-working-group-meeting-on-july-24.html",
-    "file_path_json": "posts/cdfa-meeting-notice-comparable-to-organic-working-group-meeting-on-july-24.json",
     "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nThe California Department of Food and Agriculture (CDFA) is creating a cannabis program that will be comparable to the National Organic Program, the federal regulatory program that develops and enforces uniform national standards for organically produced agricultural products sold in the United States.</p>\n",
     "categories": [
       "Events"

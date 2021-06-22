@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2018-02-26T17:49:00",
     "updated_date": "2021-06-14T19:16:50",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/26/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times/",
-    "file_path_html": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.html",
-    "file_path_json": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.json",
     "excerpt": "<p>The Cannabis Advisory Committee will be holding a series of subcommittee meetings on Thursday, March 1 in Sacramento.</p>\n",
     "categories": [
       "Announcements"

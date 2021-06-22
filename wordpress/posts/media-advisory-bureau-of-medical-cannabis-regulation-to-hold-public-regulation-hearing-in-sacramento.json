@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2017-06-16T17:49:00",
     "updated_date": "2021-06-12T07:28:05",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/06/16/media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento/",
-    "file_path_html": "posts/media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.html",
-    "file_path_json": "posts/media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.json",
     "excerpt": "<p>The Bureau of Medical Cannabis Regulation (Bureau) will hold its final public regulation hearing in Sacramento to receive comments regarding the recent release of the bureau’s proposed regulations for testing laboratories. All members of the public are invited and encouraged to participate. WHERE: CA Department of Consumer Affairs Hearing Room, 1625 North Market Blvd, Sacramento, [&hellip;]</p>\n",
     "categories": [
       "Events"

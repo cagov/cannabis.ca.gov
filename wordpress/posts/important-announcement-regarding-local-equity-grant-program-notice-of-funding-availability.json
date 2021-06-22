@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2019-03-30T22:08:00",
     "updated_date": "2021-06-14T19:16:11",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/30/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability/",
-    "file_path_html": "posts/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability.html",
-    "file_path_json": "posts/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability.json",
     "excerpt": "<p>On March 1, 2019, the Bureau of Cannabis Control (Bureau), released a Local Equity Grant Program Notice of Funding Availability (NOFA) and opened the application period for grants pursuant to the California Cannabis Equity Act of 2018.</p>\n",
     "categories": [
       "Announcements"

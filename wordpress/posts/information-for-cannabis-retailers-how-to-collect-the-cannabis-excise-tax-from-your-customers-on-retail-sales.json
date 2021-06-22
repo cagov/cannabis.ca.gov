@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2018-03-26T18:24:00",
     "updated_date": "2021-06-14T19:16:47",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/26/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales/",
-    "file_path_html": "posts/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales.html",
-    "file_path_json": "posts/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales.json",
     "excerpt": "<p>Beginning January 1, 2018, cannabis distributors are required to calculate and collect the cannabis excise tax from you on cannabis or cannabis products that they sell or transfer to you.</p>\n",
     "categories": [
       "Announcements"

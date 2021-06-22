@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2019-04-12T23:28:00",
     "updated_date": "2021-06-14T19:16:10",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/12/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location/",
-    "file_path_html": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location.html",
-    "file_path_json": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location.json",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that its North Coast Regional Office will open in its new location on Tuesday, April 16, 2019.</p>\n",
     "categories": [
       "Press Releases"

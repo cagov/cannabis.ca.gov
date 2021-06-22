@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2018-04-13T19:12:00",
     "updated_date": "2021-06-14T19:16:45",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/13/28429/",
-    "file_path_html": "posts/28429.html",
-    "file_path_json": "posts/28429.json",
     "excerpt": "<p>We would like to remind all state-licensed cannabis cultivators that the Compliance and Enforcement branch of CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is now conducting inspections across the state.</p>\n",
     "categories": [
       "Announcements"
