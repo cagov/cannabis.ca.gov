@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2021-06-22T14:33:23",
     "updated_date": "2021-06-22T14:34:06",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -26,8 +27,6 @@
       "_et_gb_content_width": ""
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/test-blocks-page/",
-    "file_path_html": "pages/test-blocks-page.html",
-    "file_path_json": "pages/test-blocks-page.json",
     "parent": 0,
     "menu_order": 0
   }

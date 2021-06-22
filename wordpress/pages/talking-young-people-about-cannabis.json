@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2021-06-19T15:07:40",
     "updated_date": "2021-06-19T15:26:50",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/talking-young-people-about-cannabis/",
-    "file_path_html": "pages/talking-young-people-about-cannabis.html",
-    "file_path_json": "pages/talking-young-people-about-cannabis.json",
     "excerpt": "<p>Get tips for cannabis conversations, including details on how cannabis affects young people.</p>\n",
     "parent": 757,
     "menu_order": 5

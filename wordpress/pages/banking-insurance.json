@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2021-06-19T15:07:31",
     "updated_date": "2021-06-19T15:26:47",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/banking-insurance/",
-    "file_path_html": "pages/banking-insurance.html",
-    "file_path_json": "pages/banking-insurance.json",
     "excerpt": "<p>You can authorize the Department of Cannabis Control to share information with financial institutions to get access to banking and insurance services.</p>\n",
     "parent": 759,
     "menu_order": 0

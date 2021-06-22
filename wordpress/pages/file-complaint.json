@@ -2,12 +2,13 @@
   "meta": {
     "created_date": "2021-06-19T15:07:40",
     "updated_date": "2021-06-19T15:28:03",
+    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
       "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -27,8 +28,6 @@
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/file-complaint/",
-    "file_path_html": "pages/file-complaint.html",
-    "file_path_json": "pages/file-complaint.json",
     "excerpt": "<p>File an anonymous complaints against licensed or unlicensed cannabis businesses.</p>\n",
     "parent": 759,
     "menu_order": 4
