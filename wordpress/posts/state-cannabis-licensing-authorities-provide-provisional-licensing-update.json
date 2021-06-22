@@ -14,12 +14,18 @@
   "data": {
     "id": 6210,
     "slug": "state-cannabis-licensing-authorities-provide-provisional-licensing-update",
-    "title": "State Cannabis Licensing Authorities Provide Provisional Licensing Update",
-    "author": "Department of Cannabis Control",
     "date": "2019-03-29T19:08:00",
     "modified": "2021-06-14T19:16:11",
     "date_gmt": "2019-03-29T19:08:00",
     "modified_gmt": "2021-06-14T19:16:11",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "State Cannabis Licensing Authorities Provide Provisional Licensing Update",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/29/state-cannabis-licensing-authorities-provide-provisional-licensing-update/",
     "file_path_html": "posts/state-cannabis-licensing-authorities-provide-provisional-licensing-update.html",
     "file_path_json": "posts/state-cannabis-licensing-authorities-provide-provisional-licensing-update.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 6268,
     "slug": "statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo",
-    "title": "Statement from BCC Chief Lori Ajax regarding federal government plans to rescind the Cole Memo",
-    "author": "Department of Cannabis Control",
     "date": "2018-01-04T23:17:00",
     "modified": "2021-06-14T19:16:57",
     "date_gmt": "2018-01-04T23:17:00",
     "modified_gmt": "2021-06-14T19:16:57",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Statement from BCC Chief Lori Ajax regarding federal government plans to rescind the Cole Memo",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/04/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo/",
     "file_path_html": "posts/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo.html",
     "file_path_json": "posts/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo.json",

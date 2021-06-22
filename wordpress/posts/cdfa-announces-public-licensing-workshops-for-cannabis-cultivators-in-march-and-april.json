@@ -14,12 +14,18 @@
   "data": {
     "id": 6039,
     "slug": "cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april",
-    "title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
-    "author": "Department of Cannabis Control",
     "date": "2018-03-16T17:55:00",
     "modified": "2021-06-14T19:16:47",
     "date_gmt": "2018-03-16T17:55:00",
     "modified_gmt": "2021-06-14T19:16:47",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
     "file_path_html": "posts/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april.html",
     "file_path_json": "posts/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april.json",

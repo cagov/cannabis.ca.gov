@@ -14,12 +14,18 @@
   "data": {
     "id": 6198,
     "slug": "33571",
-    "title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
-    "author": "Department of Cannabis Control",
     "date": "2019-06-07T17:02:00",
     "modified": "2021-06-14T19:16:04",
     "date_gmt": "2019-06-07T17:02:00",
     "modified_gmt": "2021-06-14T19:16:04",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/07/33571/",
     "file_path_html": "posts/33571.html",
     "file_path_json": "posts/33571.json",

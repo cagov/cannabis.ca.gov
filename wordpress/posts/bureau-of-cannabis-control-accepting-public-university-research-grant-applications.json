@@ -14,12 +14,18 @@
   "data": {
     "id": 5975,
     "slug": "bureau-of-cannabis-control-accepting-public-university-research-grant-applications",
-    "title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
-    "author": "Department of Cannabis Control",
     "date": "2020-09-17T19:53:00",
     "modified": "2021-06-14T19:15:43",
     "date_gmt": "2020-09-17T19:53:00",
     "modified_gmt": "2021-06-14T19:15:43",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
     "file_path_html": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.html",
     "file_path_json": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.json",

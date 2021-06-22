@@ -14,12 +14,18 @@
   "data": {
     "id": 6271,
     "slug": "state-applications-for-cannabis-manufacturing-are-now-available",
-    "title": "State Applications for Cannabis Manufacturing are Now Available",
-    "author": "Department of Cannabis Control",
     "date": "2017-12-08T16:00:00",
     "modified": "2021-06-14T19:17:01",
     "date_gmt": "2017-12-08T16:00:00",
     "modified_gmt": "2021-06-14T19:17:01",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "State Applications for Cannabis Manufacturing are Now Available",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
     "file_path_html": "posts/state-applications-for-cannabis-manufacturing-are-now-available.html",
     "file_path_json": "posts/state-applications-for-cannabis-manufacturing-are-now-available.json",

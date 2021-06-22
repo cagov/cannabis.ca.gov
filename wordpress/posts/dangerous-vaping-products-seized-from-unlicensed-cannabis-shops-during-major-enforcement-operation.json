@@ -14,12 +14,18 @@
   "data": {
     "id": 5985,
     "slug": "dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation",
-    "title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
-    "author": "Department of Cannabis Control",
     "date": "2020-01-27T18:54:00",
     "modified": "2021-06-14T19:15:48",
     "date_gmt": "2020-01-27T18:54:00",
     "modified_gmt": "2021-06-14T19:15:48",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
     "file_path_html": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.html",
     "file_path_json": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 6237,
     "slug": "cannabis-cultivation-permitting-workshops",
-    "title": "Cannabis Cultivation Permitting Workshops",
-    "author": "Department of Cannabis Control",
     "date": "2018-08-13T14:48:00",
     "modified": "2021-06-14T19:16:32",
     "date_gmt": "2018-08-13T14:48:00",
     "modified_gmt": "2021-06-14T19:16:32",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Cannabis Cultivation Permitting Workshops",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/13/cannabis-cultivation-permitting-workshops/",
     "file_path_html": "posts/cannabis-cultivation-permitting-workshops.html",
     "file_path_json": "posts/cannabis-cultivation-permitting-workshops.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 6227,
     "slug": "cannabis-cultivation-informational-workshop-and-permitting-event",
-    "title": "Cannabis Cultivation Informational Workshop and Permitting Event",
-    "author": "Department of Cannabis Control",
     "date": "2018-11-06T00:19:00",
     "modified": "2021-06-14T19:16:23",
     "date_gmt": "2018-11-06T00:19:00",
     "modified_gmt": "2021-06-14T19:16:23",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Cannabis Cultivation Informational Workshop and Permitting Event",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
     "file_path_html": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.html",
     "file_path_json": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.json",

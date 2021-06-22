@@ -14,12 +14,18 @@
   "data": {
     "id": 692,
     "slug": "testing-laboratories",
-    "title": "Testing laboratories",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:52",
     "modified": "2021-06-19T15:26:50",
     "date_gmt": "2021-06-19T15:07:52",
     "modified_gmt": "2021-06-19T15:26:50",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "title": "Testing laboratories",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/testing-laboratories/",
     "file_path_html": "pages/testing-laboratories.html",
     "file_path_json": "pages/testing-laboratories.json",

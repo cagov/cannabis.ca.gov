@@ -14,12 +14,18 @@
   "data": {
     "id": 6201,
     "slug": "california-community-reinvestment-grants-program-application-due-date-reminder",
-    "title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
-    "author": "Department of Cannabis Control",
     "date": "2019-05-13T23:59:00",
     "modified": "2021-06-14T19:16:06",
     "date_gmt": "2019-05-13T23:59:00",
     "modified_gmt": "2021-06-14T19:16:06",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
     "file_path_html": "posts/california-community-reinvestment-grants-program-application-due-date-reminder.html",
     "file_path_json": "posts/california-community-reinvestment-grants-program-application-due-date-reminder.json",

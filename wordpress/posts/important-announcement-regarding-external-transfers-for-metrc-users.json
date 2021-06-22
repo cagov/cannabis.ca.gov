@@ -14,12 +14,18 @@
   "data": {
     "id": 6185,
     "slug": "important-announcement-regarding-external-transfers-for-metrc-users",
-    "title": "Important Announcement Regarding External Transfers for Metrc Users",
-    "author": "Department of Cannabis Control",
     "date": "2019-12-30T20:23:00",
     "modified": "2021-06-14T19:15:51",
     "date_gmt": "2019-12-30T20:23:00",
     "modified_gmt": "2021-06-14T19:15:51",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Important Announcement Regarding External Transfers for Metrc Users",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
     "file_path_html": "posts/important-announcement-regarding-external-transfers-for-metrc-users.html",
     "file_path_json": "posts/important-announcement-regarding-external-transfers-for-metrc-users.json",

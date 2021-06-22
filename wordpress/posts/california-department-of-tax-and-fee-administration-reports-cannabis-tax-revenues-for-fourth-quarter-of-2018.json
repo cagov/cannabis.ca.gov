@@ -14,12 +14,18 @@
   "data": {
     "id": 6015,
     "slug": "california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018",
-    "title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
-    "author": "Department of Cannabis Control",
     "date": "2019-02-19T22:31:00",
     "modified": "2021-06-14T19:16:14",
     "date_gmt": "2019-02-19T22:31:00",
     "modified_gmt": "2021-06-14T19:16:14",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
     "file_path_html": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018.html",
     "file_path_json": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018.json",

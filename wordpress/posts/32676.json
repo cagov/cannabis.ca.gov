@@ -14,12 +14,18 @@
   "data": {
     "id": 6205,
     "slug": "32676",
-    "title": "SWRCB: Updates to the Cannabis Cultivation Policy Effective as of April 16, 2019",
-    "author": "Department of Cannabis Control",
     "date": "2019-04-19T22:00:00",
     "modified": "2021-06-14T19:16:08",
     "date_gmt": "2019-04-19T22:00:00",
     "modified_gmt": "2021-06-14T19:16:08",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "SWRCB: Updates to the Cannabis Cultivation Policy Effective as of April 16, 2019",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/19/32676/",
     "file_path_html": "posts/32676.html",
     "file_path_json": "posts/32676.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 6206,
     "slug": "cdtfa-samples-of-cannabis-how-does-tax-apply",
-    "title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
-    "author": "Department of Cannabis Control",
     "date": "2019-04-18T23:46:00",
     "modified": "2021-06-14T19:16:09",
     "date_gmt": "2019-04-18T23:46:00",
     "modified_gmt": "2021-06-14T19:16:09",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
     "file_path_html": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.html",
     "file_path_json": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.json",

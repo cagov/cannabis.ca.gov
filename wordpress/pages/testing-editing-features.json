@@ -14,12 +14,17 @@
   "data": {
     "id": 8128,
     "slug": "testing-editing-features",
-    "title": "Testing Editing Features",
-    "author": "chach.sikes",
     "date": "2021-06-21T16:45:33",
     "modified": "2021-06-21T16:45:34",
     "date_gmt": "2021-06-21T16:45:33",
     "modified_gmt": "2021-06-21T16:45:34",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "title": "Testing Editing Features",
+    "author": "chach.sikes",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/testing-editing-features/",
     "file_path_html": "pages/testing-editing-features.html",
     "file_path_json": "pages/testing-editing-features.json",

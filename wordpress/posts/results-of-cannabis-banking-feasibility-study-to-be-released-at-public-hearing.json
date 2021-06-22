@@ -14,12 +14,18 @@
   "data": {
     "id": 6220,
     "slug": "results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing",
-    "title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
-    "author": "Department of Cannabis Control",
     "date": "2018-12-26T21:22:00",
     "modified": "2021-06-14T19:16:20",
     "date_gmt": "2018-12-26T21:22:00",
     "modified_gmt": "2021-06-14T19:16:20",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/26/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
     "file_path_html": "posts/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing.html",
     "file_path_json": "posts/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing.json",

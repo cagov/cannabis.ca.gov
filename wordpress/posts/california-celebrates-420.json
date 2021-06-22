@@ -14,12 +14,18 @@
   "data": {
     "id": 6303,
     "slug": "california-celebrates-420",
-    "title": "California Celebrates 4/20",
-    "author": "Department of Cannabis Control",
     "date": "2017-04-20T21:40:00",
     "modified": "2021-06-14T19:17:22",
     "date_gmt": "2017-04-20T21:40:00",
     "modified_gmt": "2021-06-14T19:17:22",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "California Celebrates 4/20",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/california-celebrates-420/",
     "file_path_html": "posts/california-celebrates-420.html",
     "file_path_json": "posts/california-celebrates-420.json",

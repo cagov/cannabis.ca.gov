@@ -14,12 +14,18 @@
   "data": {
     "id": 6265,
     "slug": "california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses",
-    "title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
-    "author": "Department of Cannabis Control",
     "date": "2018-03-13T16:10:00",
     "modified": "2021-06-14T19:16:50",
     "date_gmt": "2018-03-13T16:10:00",
     "modified_gmt": "2021-06-14T19:16:50",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
     "file_path_html": "posts/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses.html",
     "file_path_json": "posts/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses.json",

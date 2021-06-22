@@ -14,12 +14,18 @@
   "data": {
     "id": 6045,
     "slug": "temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee",
-    "title": "Temecula Mayor Matt Rahn appointed as chair of California’s Cannabis Advisory Committee",
-    "author": "Department of Cannabis Control",
     "date": "2018-02-07T22:54:00",
     "modified": "2021-06-14T19:16:53",
     "date_gmt": "2018-02-07T22:54:00",
     "modified_gmt": "2021-06-14T19:16:53",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Temecula Mayor Matt Rahn appointed as chair of California’s Cannabis Advisory Committee",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/07/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee/",
     "file_path_html": "posts/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee.html",
     "file_path_json": "posts/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee.json",

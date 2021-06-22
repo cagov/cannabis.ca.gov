@@ -14,12 +14,18 @@
   "data": {
     "id": 6329,
     "slug": "reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times",
-    "title": "REMINDER AND CONFIRMATION OF CANNABIS ADVISORY SUBCOMMITTEE MEETING DATE AND TIMES",
-    "author": "Department of Cannabis Control",
     "date": "2018-02-26T17:49:00",
     "modified": "2021-06-14T19:16:50",
     "date_gmt": "2018-02-26T17:49:00",
     "modified_gmt": "2021-06-14T19:16:50",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "REMINDER AND CONFIRMATION OF CANNABIS ADVISORY SUBCOMMITTEE MEETING DATE AND TIMES",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/26/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times/",
     "file_path_html": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.html",
     "file_path_json": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.json",

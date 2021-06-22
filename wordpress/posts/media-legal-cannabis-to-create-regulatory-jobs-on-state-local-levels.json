@@ -14,12 +14,18 @@
   "data": {
     "id": 6076,
     "slug": "media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels",
-    "title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
-    "author": "Department of Cannabis Control",
     "date": "2017-08-21T19:03:00",
     "modified": "2021-06-14T19:17:12",
     "date_gmt": "2017-08-21T19:03:00",
     "modified_gmt": "2021-06-14T19:17:12",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
     "file_path_html": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.html",
     "file_path_json": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.json",

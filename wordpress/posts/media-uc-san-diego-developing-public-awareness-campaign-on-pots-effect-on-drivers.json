@@ -14,12 +14,18 @@
   "data": {
     "id": 6276,
     "slug": "media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers",
-    "title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
-    "author": "Department of Cannabis Control",
     "date": "2017-10-31T15:25:00",
     "modified": "2021-06-14T19:17:05",
     "date_gmt": "2017-10-31T15:25:00",
     "modified_gmt": "2021-06-14T19:17:05",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/31/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
     "file_path_html": "posts/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers.html",
     "file_path_json": "posts/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers.json",

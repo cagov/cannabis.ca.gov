@@ -14,12 +14,18 @@
   "data": {
     "id": 6194,
     "slug": "vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public",
-    "title": "Vaping Related Lung Illness: A Summary of the Public Health Risks and Recommendations for the Public",
-    "author": "Department of Cannabis Control",
     "date": "2019-09-26T19:43:00",
     "modified": "2021-06-14T19:15:57",
     "date_gmt": "2019-09-26T19:43:00",
     "modified_gmt": "2021-06-14T19:15:57",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Vaping Related Lung Illness: A Summary of the Public Health Risks and Recommendations for the Public",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/26/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public/",
     "file_path_html": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.html",
     "file_path_json": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.json",

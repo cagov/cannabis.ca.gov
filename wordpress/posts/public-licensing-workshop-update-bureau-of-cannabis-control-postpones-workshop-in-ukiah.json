@@ -14,12 +14,18 @@
   "data": {
     "id": 6266,
     "slug": "public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah",
-    "title": "PUBLIC LICENSING WORKSHOP UPDATE: Bureau of Cannabis Control Postpones Workshop in Ukiah",
-    "author": "Department of Cannabis Control",
     "date": "2018-01-31T00:14:00",
     "modified": "2021-06-14T19:16:53",
     "date_gmt": "2018-01-31T00:14:00",
     "modified_gmt": "2021-06-14T19:16:53",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "PUBLIC LICENSING WORKSHOP UPDATE: Bureau of Cannabis Control Postpones Workshop in Ukiah",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/31/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/",
     "file_path_html": "posts/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah.html",
     "file_path_json": "posts/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah.json",

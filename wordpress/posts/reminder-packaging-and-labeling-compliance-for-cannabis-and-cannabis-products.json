@@ -14,12 +14,18 @@
   "data": {
     "id": 6197,
     "slug": "reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products",
-    "title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
-    "author": "Department of Cannabis Control",
     "date": "2019-06-20T19:39:00",
     "modified": "2021-06-14T19:16:03",
     "date_gmt": "2019-06-20T19:39:00",
     "modified_gmt": "2021-06-14T19:16:03",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
     "file_path_html": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.html",
     "file_path_json": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 856,
     "slug": "about-us",
-    "title": "About us",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:31",
     "modified": "2021-06-19T15:26:47",
     "date_gmt": "2021-06-19T15:07:31",
     "modified_gmt": "2021-06-19T15:26:47",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "title": "About us",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/",
     "file_path_html": "pages/about-us.html",
     "file_path_json": "pages/about-us.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 7818,
     "slug": "serp",
-    "title": "Search",
-    "author": "chach.sikes",
     "date": "2021-06-20T19:09:01",
     "modified": "2021-06-20T21:36:50",
     "date_gmt": "2021-06-20T19:09:01",
     "modified_gmt": "2021-06-20T21:36:50",
+    "meta": {
+      "_et_pb_use_builder": "on",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "page-templates/searchpage.php",
+    "title": "Search",
+    "author": "chach.sikes",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/serp/",
     "file_path_html": "pages/serp.html",
     "file_path_json": "pages/serp.json",

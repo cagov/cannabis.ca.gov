@@ -14,12 +14,18 @@
   "data": {
     "id": 6267,
     "slug": "notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives",
-    "title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
-    "author": "Department of Cannabis Control",
     "date": "2018-01-09T23:50:00",
     "modified": "2021-06-14T19:16:56",
     "date_gmt": "2018-01-09T23:50:00",
     "modified_gmt": "2021-06-14T19:16:56",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
     "file_path_html": "posts/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives.html",
     "file_path_json": "posts/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives.json",

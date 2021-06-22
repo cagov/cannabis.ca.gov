@@ -14,12 +14,18 @@
   "data": {
     "id": 6199,
     "slug": "edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars",
-    "title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
-    "author": "Department of Cannabis Control",
     "date": "2019-05-22T00:12:00",
     "modified": "2021-06-14T19:17:24",
     "date_gmt": "2019-05-22T00:12:00",
     "modified_gmt": "2021-06-14T19:17:24",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/22/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/",
     "file_path_html": "posts/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars.html",
     "file_path_json": "posts/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars.json",

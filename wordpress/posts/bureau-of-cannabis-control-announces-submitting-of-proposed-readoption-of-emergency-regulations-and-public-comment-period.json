@@ -14,12 +14,18 @@
   "data": {
     "id": 6035,
     "slug": "bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period",
-    "title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
-    "author": "Department of Cannabis Control",
     "date": "2018-05-25T17:37:00",
     "modified": "2021-06-14T19:16:40",
     "date_gmt": "2018-05-25T17:37:00",
     "modified_gmt": "2021-06-14T19:16:40",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/25/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period.json",

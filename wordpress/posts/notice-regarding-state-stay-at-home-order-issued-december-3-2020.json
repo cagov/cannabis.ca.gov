@@ -14,12 +14,18 @@
   "data": {
     "id": 6179,
     "slug": "notice-regarding-state-stay-at-home-order-issued-december-3-2020",
-    "title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
-    "author": "Department of Cannabis Control",
     "date": "2020-12-05T00:00:00",
     "modified": "2021-06-14T19:15:41",
     "date_gmt": "2020-12-05T00:00:00",
     "modified_gmt": "2021-06-14T19:15:41",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
     "file_path_html": "posts/notice-regarding-state-stay-at-home-order-issued-december-3-2020.html",
     "file_path_json": "posts/notice-regarding-state-stay-at-home-order-issued-december-3-2020.json",

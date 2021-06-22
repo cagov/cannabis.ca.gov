@@ -14,12 +14,18 @@
   "data": {
     "id": 6181,
     "slug": "donations-of-cannabis-and-cannabis-product",
-    "title": "Donations of Cannabis and Cannabis Product",
-    "author": "Department of Cannabis Control",
     "date": "2020-02-29T01:08:00",
     "modified": "2021-06-14T19:15:47",
     "date_gmt": "2020-02-29T01:08:00",
     "modified_gmt": "2021-06-14T19:15:47",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Donations of Cannabis and Cannabis Product",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/02/29/donations-of-cannabis-and-cannabis-product/",
     "file_path_html": "posts/donations-of-cannabis-and-cannabis-product.html",
     "file_path_json": "posts/donations-of-cannabis-and-cannabis-product.json",

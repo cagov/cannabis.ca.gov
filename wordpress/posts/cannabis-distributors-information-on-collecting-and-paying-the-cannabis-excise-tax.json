@@ -14,12 +14,18 @@
   "data": {
     "id": 6211,
     "slug": "cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax",
-    "title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
-    "author": "Department of Cannabis Control",
     "date": "2019-03-13T23:01:00",
     "modified": "2021-06-14T19:16:12",
     "date_gmt": "2019-03-13T23:01:00",
     "modified_gmt": "2021-06-14T19:16:12",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
     "file_path_html": "posts/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax.html",
     "file_path_json": "posts/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax.json",

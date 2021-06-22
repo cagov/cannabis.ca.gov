@@ -14,12 +14,18 @@
   "data": {
     "id": 6289,
     "slug": "californias-pot-chief-vows-state-will-meet-compliance-deadline",
-    "title": "California&#8217;s Pot Chief Vows State Will Meet Compliance Deadline",
-    "author": "Department of Cannabis Control",
     "date": "2017-05-19T21:29:00",
     "modified": "2021-06-14T19:17:18",
     "date_gmt": "2017-05-19T21:29:00",
     "modified_gmt": "2021-06-14T19:17:18",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "California&#8217;s Pot Chief Vows State Will Meet Compliance Deadline",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/05/19/californias-pot-chief-vows-state-will-meet-compliance-deadline/",
     "file_path_html": "posts/californias-pot-chief-vows-state-will-meet-compliance-deadline.html",
     "file_path_json": "posts/californias-pot-chief-vows-state-will-meet-compliance-deadline.json",

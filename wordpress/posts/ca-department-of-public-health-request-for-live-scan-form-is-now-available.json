@@ -14,12 +14,18 @@
   "data": {
     "id": 6240,
     "slug": "ca-department-of-public-health-request-for-live-scan-form-is-now-available",
-    "title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
-    "author": "Department of Cannabis Control",
     "date": "2018-07-09T18:39:00",
     "modified": "2021-06-14T19:16:35",
     "date_gmt": "2018-07-09T18:39:00",
     "modified_gmt": "2021-06-14T19:16:35",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
     "file_path_html": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.html",
     "file_path_json": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.json",

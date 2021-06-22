@@ -14,12 +14,18 @@
   "data": {
     "id": 5966,
     "slug": "notice-regarding-billboard-advertisements-on-interstate-and-state-highways",
-    "title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
-    "author": "Department of Cannabis Control",
     "date": "2021-01-22T19:01:00",
     "modified": "2021-06-14T19:15:40",
     "date_gmt": "2021-01-22T19:01:00",
     "modified_gmt": "2021-06-14T19:15:40",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
     "file_path_html": "posts/notice-regarding-billboard-advertisements-on-interstate-and-state-highways.html",
     "file_path_json": "posts/notice-regarding-billboard-advertisements-on-interstate-and-state-highways.json",

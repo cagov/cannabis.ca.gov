@@ -14,12 +14,18 @@
   "data": {
     "id": 6064,
     "slug": "bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside",
-    "title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
-    "author": "Department of Cannabis Control",
     "date": "2017-10-09T18:56:00",
     "modified": "2021-06-14T19:17:06",
     "date_gmt": "2017-10-09T18:56:00",
     "modified_gmt": "2021-06-14T19:17:06",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
     "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside.html",
     "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside.json",

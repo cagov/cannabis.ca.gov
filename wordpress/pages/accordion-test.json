@@ -14,12 +14,17 @@
   "data": {
     "id": 7821,
     "slug": "accordion-test",
-    "title": "Accordion Test",
-    "author": "chach.sikes",
     "date": "2021-06-20T21:08:10",
     "modified": "2021-06-20T21:08:11",
     "date_gmt": "2021-06-20T21:08:10",
     "modified_gmt": "2021-06-20T21:08:11",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "title": "Accordion Test",
+    "author": "chach.sikes",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/accordion-test/",
     "file_path_html": "pages/accordion-test.html",
     "file_path_json": "pages/accordion-test.json",

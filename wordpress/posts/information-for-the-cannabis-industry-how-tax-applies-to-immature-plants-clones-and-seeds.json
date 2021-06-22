@@ -14,12 +14,18 @@
   "data": {
     "id": 6242,
     "slug": "information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds",
-    "title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
-    "author": "Department of Cannabis Control",
     "date": "2018-06-26T15:51:00",
     "modified": "2021-06-14T19:16:36",
     "date_gmt": "2018-06-26T15:51:00",
     "modified_gmt": "2021-06-14T19:16:36",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
     "file_path_html": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.html",
     "file_path_json": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.json",

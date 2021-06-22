@@ -14,12 +14,18 @@
   "data": {
     "id": 6026,
     "slug": "cannabis-advisory-committee-meeting-in-eureka",
-    "title": "Cannabis Advisory Committee Meeting in Eureka",
-    "author": "Department of Cannabis Control",
     "date": "2018-09-11T16:57:00",
     "modified": "2021-06-14T19:16:29",
     "date_gmt": "2018-09-11T16:57:00",
     "modified_gmt": "2021-06-14T19:16:29",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Cannabis Advisory Committee Meeting in Eureka",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/11/cannabis-advisory-committee-meeting-in-eureka/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-eureka.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-eureka.json",

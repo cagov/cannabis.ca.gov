@@ -14,12 +14,18 @@
   "data": {
     "id": 6075,
     "slug": "27192",
-    "title": "Governor Brown Announces Appointments",
-    "author": "Department of Cannabis Control",
     "date": "2017-08-25T22:52:00",
     "modified": "2021-06-14T19:17:12",
     "date_gmt": "2017-08-25T22:52:00",
     "modified_gmt": "2021-06-14T19:17:12",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "Governor Brown Announces Appointments",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/25/27192/",
     "file_path_html": "posts/27192.html",
     "file_path_json": "posts/27192.json",

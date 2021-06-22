@@ -14,12 +14,18 @@
   "data": {
     "id": 6018,
     "slug": "new-cannabis-regulations-approved-by-the-office-of-administrative-law",
-    "title": "New Cannabis Regulations Approved by the Office of Administrative Law",
-    "author": "Department of Cannabis Control",
     "date": "2019-01-17T01:32:00",
     "modified": "2021-06-14T19:16:18",
     "date_gmt": "2019-01-17T01:32:00",
     "modified_gmt": "2021-06-14T19:16:18",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "New Cannabis Regulations Approved by the Office of Administrative Law",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
     "file_path_html": "posts/new-cannabis-regulations-approved-by-the-office-of-administrative-law.html",
     "file_path_json": "posts/new-cannabis-regulations-approved-by-the-office-of-administrative-law.json",

@@ -14,12 +14,18 @@
   "data": {
     "id": 5981,
     "slug": "california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions",
-    "title": "California Cannabis Equity Grants Program Provides $30 Million in Grant Funding for Local Jurisdictions",
-    "author": "Department of Cannabis Control",
     "date": "2020-04-22T16:06:00",
     "modified": "2021-06-14T19:15:46",
     "date_gmt": "2020-04-22T16:06:00",
     "modified_gmt": "2021-06-14T19:15:46",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "title": "California Cannabis Equity Grants Program Provides $30 Million in Grant Funding for Local Jurisdictions",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/04/22/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions/",
     "file_path_html": "posts/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions.html",
     "file_path_json": "posts/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions.json",

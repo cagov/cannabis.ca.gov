@@ -14,12 +14,18 @@
   "data": {
     "id": 6299,
     "slug": "just-say-no-to-investing-in-pot-committee-advises-california-judges",
-    "title": "Just say no to investing in pot, committee advises California judges",
-    "author": "Department of Cannabis Control",
     "date": "2017-04-20T22:46:00",
     "modified": "2021-06-14T19:17:23",
     "date_gmt": "2017-04-20T22:46:00",
     "modified_gmt": "2021-06-14T19:17:23",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "title": "Just say no to investing in pot, committee advises California judges",
+    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
     "file_path_html": "posts/just-say-no-to-investing-in-pot-committee-advises-california-judges.html",
     "file_path_json": "posts/just-say-no-to-investing-in-pot-committee-advises-california-judges.json",
