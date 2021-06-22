@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-05-14T22:07:00",
-    "updated_date": "2021-06-14T19:15:38",
+    "updated_date": "2021-06-21T02:37:31",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,15 +17,15 @@
     "title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
     "author": "Department of Cannabis Control",
     "date": "2021-05-14T22:07:00",
-    "modified": "2021-06-14T19:15:38",
+    "modified": "2021-06-21T02:37:31",
     "date_gmt": "2021-05-14T22:07:00",
-    "modified_gmt": "2021-06-14T19:15:38",
+    "modified_gmt": "2021-06-21T02:37:31",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
     "file_path_html": "posts/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis.html",
     "file_path_json": "posts/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis.json",
     "excerpt": "<p>Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.</p>\n",
     "categories": [
-      "Announcement"
+      "Announcements"
     ],
     "tags": [
       "BCC",

@@ -12,55 +12,68 @@
   "data": {
     "pages": [
       {
-        "id": 856,
-        "slug": "about-the-department-of-cannabis-control",
+        "id": 707,
+        "slug": "about-dcc",
         "title": "About the Department of Cannabis Control",
-        "author": "chach.sikes",
-        "date": "2021-06-11T18:39:59",
-        "date_gmt": "2021-06-11T18:39:59",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/about-the-department-of-cannabis-control/",
-        "file_path_html": "pages/about-the-department-of-cannabis-control.html",
-        "file_path_json": "pages/about-the-department-of-cannabis-control.json",
-        "parent": 707,
-        "menu_order": 0
+        "author": "Department of Cannabis Control",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/about-dcc/",
+        "file_path_html": "pages/about-dcc.html",
+        "file_path_json": "pages/about-dcc.json",
+        "parent": 856,
+        "menu_order": 1
       },
       {
-        "id": 707,
+        "id": 856,
         "slug": "about-us",
         "title": "About us",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/",
         "file_path_html": "pages/about-us.html",
         "file_path_json": "pages/about-us.json",
         "parent": 0,
-        "menu_order": 0
+        "menu_order": 2
       },
       {
         "id": 715,
         "slug": "access-license-portals",
         "title": "Access the license portals",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/access-license-portals/",
         "file_path_html": "pages/access-license-portals.html",
         "file_path_json": "pages/access-license-portals.json",
         "parent": 756,
+        "menu_order": 6
+      },
+      {
+        "id": 7821,
+        "slug": "accordion-test",
+        "title": "Accordion Test",
+        "author": "chach.sikes",
+        "date": "2021-06-20T21:08:10",
+        "date_gmt": "2021-06-20T21:08:10",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/accordion-test/",
+        "file_path_html": "pages/accordion-test.html",
+        "file_path_json": "pages/accordion-test.json",
+        "parent": 0,
         "menu_order": 0
       },
       {
-        "id": 693,
+        "id": 7429,
         "slug": "announcements",
         "title": "Announcements",
-        "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "author": "chach.sikes",
+        "date": "2021-06-15T21:40:52",
+        "date_gmt": "2021-06-15T21:40:52",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/announcements/",
         "file_path_html": "pages/announcements.html",
         "file_path_json": "pages/announcements.json",
-        "parent": 707,
+        "parent": 856,
         "menu_order": 0
       },
       {
@@ -68,34 +81,34 @@
         "slug": "applicants",
         "title": "Applicants",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/",
         "file_path_html": "pages/applicants.html",
         "file_path_json": "pages/applicants.json",
         "parent": 0,
-        "menu_order": 0
+        "menu_order": 1
       },
       {
         "id": 721,
         "slug": "application-license-fees",
         "title": "Application and license fees",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/application-license-fees/",
         "file_path_html": "pages/application-license-fees.html",
         "file_path_json": "pages/application-license-fees.json",
         "parent": 756,
-        "menu_order": 0
+        "menu_order": 4
       },
       {
         "id": 709,
         "slug": "banking-insurance",
         "title": "Banking and insurance",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/banking-insurance/",
         "file_path_html": "pages/banking-insurance.html",
         "file_path_json": "pages/banking-insurance.json",
@@ -107,8 +120,8 @@
         "slug": "business-filings-trademarks",
         "title": "Business filings and trademarks",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/business-filings-trademarks/",
         "file_path_html": "pages/business-filings-trademarks.html",
         "file_path_json": "pages/business-filings-trademarks.json",
@@ -120,12 +133,25 @@
         "slug": "cannabis-advisory-committee",
         "title": "Cannabis Advisory Committee",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/cannabis-advisory-committee/",
         "file_path_html": "pages/cannabis-advisory-committee.html",
         "file_path_json": "pages/cannabis-advisory-committee.json",
-        "parent": 707,
+        "parent": 856,
+        "menu_order": 0
+      },
+      {
+        "id": 708,
+        "slug": "consolidation",
+        "title": "State cannabis consolidation",
+        "author": "Department of Cannabis Control",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/consolidation/",
+        "file_path_html": "pages/consolidation.html",
+        "file_path_json": "pages/consolidation.json",
+        "parent": 856,
         "menu_order": 0
       },
       {
@@ -133,154 +159,193 @@
         "slug": "consumers",
         "title": "Consumers",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/",
         "file_path_html": "pages/consumers.html",
         "file_path_json": "pages/consumers.json",
         "parent": 0,
-        "menu_order": 0
+        "menu_order": 1
       },
       {
         "id": 689,
         "slug": "contact-us",
         "title": "Contact us",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/contact-us/",
         "file_path_html": "pages/contact-us.html",
         "file_path_json": "pages/contact-us.json",
-        "parent": 707,
-        "menu_order": 0
+        "parent": 856,
+        "menu_order": 8
       },
       {
         "id": 718,
         "slug": "cultivation",
         "title": "Cultivation",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/cultivation/",
         "file_path_html": "pages/cultivation.html",
         "file_path_json": "pages/cultivation.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 2
+      },
+      {
+        "id": 7799,
+        "slug": "dcc-events",
+        "title": "Department of Cannabis Control events",
+        "author": "Department of Cannabis Control",
+        "date": "2021-06-19T15:12:14",
+        "date_gmt": "2021-06-19T15:12:14",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
+        "file_path_html": "pages/dcc-events.html",
+        "file_path_json": "pages/dcc-events.json",
+        "parent": 856,
+        "menu_order": 4
       },
       {
         "id": 690,
         "slug": "disaster-relief-programs",
         "title": "Disaster relief programs",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/disaster-relief-programs/",
         "file_path_html": "pages/disaster-relief-programs.html",
         "file_path_json": "pages/disaster-relief-programs.json",
         "parent": 759,
-        "menu_order": 0
+        "menu_order": 5
       },
       {
         "id": 699,
         "slug": "distribution",
         "title": "Distributon",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/distribution/",
         "file_path_html": "pages/distribution.html",
         "file_path_json": "pages/distribution.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 4
       },
       {
         "id": 702,
         "slug": "events",
         "title": "Events",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/events/",
         "file_path_html": "pages/events.html",
         "file_path_json": "pages/events.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 7
       },
       {
         "id": 712,
         "slug": "file-complaint",
         "title": "File a complaint",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/file-complaint/",
         "file_path_html": "pages/file-complaint.html",
         "file_path_json": "pages/file-complaint.json",
         "parent": 759,
-        "menu_order": 0
+        "menu_order": 4
       },
       {
         "id": 703,
         "slug": "grants",
         "title": "Grants",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/grants/",
         "file_path_html": "pages/grants.html",
         "file_path_json": "pages/grants.json",
-        "parent": 707,
+        "parent": 856,
+        "menu_order": 7
+      },
+      {
+        "id": 2,
+        "slug": "homepage",
+        "title": "Department of Cannabis Control",
+        "author": "Department of Cannabis Control",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/",
+        "file_path_html": "pages/homepage.html",
+        "file_path_json": "pages/homepage.json",
+        "parent": 0,
         "menu_order": 0
       },
       {
-        "id": 720,
+        "id": 7783,
         "slug": "how-to-apply-renew",
-        "title": "How to apply or renew",
+        "title": "How to apply for or renew a license",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/how-to-apply-renew/",
         "file_path_html": "pages/how-to-apply-renew.html",
         "file_path_json": "pages/how-to-apply-renew.json",
         "parent": 756,
-        "menu_order": 0
+        "menu_order": 2
       },
       {
         "id": 713,
         "slug": "laws-and-regulations",
         "title": "Laws and regulations",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/laws-and-regulations/",
         "file_path_html": "pages/laws-and-regulations.html",
         "file_path_json": "pages/laws-and-regulations.json",
         "parent": 759,
-        "menu_order": 0
+        "menu_order": 3
       },
       {
         "id": 719,
         "slug": "license-types",
         "title": "License types",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/license-types/",
         "file_path_html": "pages/license-types.html",
         "file_path_json": "pages/license-types.json",
         "parent": 756,
-        "menu_order": 0
+        "menu_order": 3
       },
       {
         "id": 758,
         "slug": "licensees",
         "title": "Licensees",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/",
         "file_path_html": "pages/licensees.html",
         "file_path_json": "pages/licensees.json",
+        "parent": 0,
+        "menu_order": 1
+      },
+      {
+        "id": 7798,
+        "slug": "mailing-list",
+        "title": "Sign up for email list",
+        "author": "Department of Cannabis Control",
+        "date": "2021-06-19T15:12:14",
+        "date_gmt": "2021-06-19T15:12:14",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
+        "file_path_html": "pages/mailing-list.html",
+        "file_path_json": "pages/mailing-list.json",
         "parent": 0,
         "menu_order": 0
       },
@@ -289,112 +354,112 @@
         "slug": "manufacturing",
         "title": "Manufacturing",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/manufacturing/",
         "file_path_html": "pages/manufacturing.html",
         "file_path_json": "pages/manufacturing.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 3
       },
       {
         "id": 695,
         "slug": "medicinal-cannabis",
         "title": "Medicinal cannabis",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/medicinal-cannabis/",
         "file_path_html": "pages/medicinal-cannabis.html",
         "file_path_json": "pages/medicinal-cannabis.json",
         "parent": 757,
-        "menu_order": 0
+        "menu_order": 3
       },
       {
         "id": 700,
-        "slug": "public-outreach-campaigns",
-        "title": "Public outreach campaigns",
+        "slug": "public-awareness-campaigns",
+        "title": "Public awareness campaigns",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/public-outreach-campaigns/",
-        "file_path_html": "pages/public-outreach-campaigns.html",
-        "file_path_json": "pages/public-outreach-campaigns.json",
-        "parent": 707,
-        "menu_order": 0
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/public-awareness-campaigns/",
+        "file_path_html": "pages/public-awareness-campaigns.html",
+        "file_path_json": "pages/public-awareness-campaigns.json",
+        "parent": 856,
+        "menu_order": 5
       },
       {
         "id": 706,
         "slug": "requirements-cannabis-goods",
         "title": "Requirements for cannabis goods",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/requirements-cannabis-goods/",
         "file_path_html": "pages/requirements-cannabis-goods.html",
         "file_path_json": "pages/requirements-cannabis-goods.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 9
       },
       {
         "id": 698,
         "slug": "resources",
         "title": "Application resources",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/resources/",
         "file_path_html": "pages/resources.html",
         "file_path_json": "pages/resources.json",
         "parent": 756,
-        "menu_order": 0
+        "menu_order": 5
       },
       {
         "id": 759,
         "slug": "resources",
         "title": "Resources",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:31",
+        "date_gmt": "2021-06-19T15:07:31",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/",
         "file_path_html": "pages/resources.html",
         "file_path_json": "pages/resources.json",
         "parent": 0,
-        "menu_order": 0
+        "menu_order": 1
       },
       {
         "id": 705,
         "slug": "responsible-cannabis-use",
         "title": "Responsible cannabis use",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/responsible-cannabis-use/",
         "file_path_html": "pages/responsible-cannabis-use.html",
         "file_path_json": "pages/responsible-cannabis-use.json",
         "parent": 757,
-        "menu_order": 0
+        "menu_order": 4
       },
       {
         "id": 711,
         "slug": "retail",
         "title": "Retail",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/retail/",
         "file_path_html": "pages/retail.html",
         "file_path_json": "pages/retail.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 6
       },
       {
         "id": 710,
         "slug": "rulemaking",
         "title": "Rulemaking",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/rulemaking/",
         "file_path_html": "pages/rulemaking.html",
         "file_path_json": "pages/rulemaking.json",
@@ -406,86 +471,73 @@
         "slug": "running-business",
         "title": "Running a business in California",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/running-business/",
         "file_path_html": "pages/running-business.html",
         "file_path_json": "pages/running-business.json",
         "parent": 759,
-        "menu_order": 0
-      },
-      {
-        "id": 2,
-        "slug": "sample-page",
-        "title": "Home page",
-        "author": "chach.sikes",
-        "date": "2021-06-08T22:29:26",
-        "date_gmt": "2021-06-08T22:29:26",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/",
-        "file_path_html": "pages/sample-page.html",
-        "file_path_json": "pages/sample-page.json",
-        "parent": 0,
-        "menu_order": 0
+        "menu_order": 2
       },
       {
         "id": 694,
         "slug": "scientific-research",
         "title": "Scientific research",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/scientific-research/",
         "file_path_html": "pages/scientific-research.html",
         "file_path_json": "pages/scientific-research.json",
-        "parent": 707,
-        "menu_order": 0
+        "parent": 856,
+        "menu_order": 6
       },
       {
         "id": 714,
         "slug": "search-for-licensed-business",
         "title": "Search for a licensed business",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/search-for-licensed-business/",
         "file_path_html": "pages/search-for-licensed-business.html",
         "file_path_json": "pages/search-for-licensed-business.json",
         "parent": 759,
-        "menu_order": 0
+        "menu_order": 6
       },
       {
-        "id": 708,
-        "slug": "state-cannabis-consolidation",
-        "title": "State cannabis consolidation",
-        "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/state-cannabis-consolidation/",
-        "file_path_html": "pages/state-cannabis-consolidation.html",
-        "file_path_json": "pages/state-cannabis-consolidation.json",
-        "parent": 707,
+        "id": 7818,
+        "slug": "serp",
+        "title": "Search",
+        "author": "chach.sikes",
+        "date": "2021-06-20T19:09:01",
+        "date_gmt": "2021-06-20T19:09:01",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/serp/",
+        "file_path_html": "pages/serp.html",
+        "file_path_json": "pages/serp.json",
+        "parent": 0,
         "menu_order": 0
       },
       {
         "id": 697,
-        "slug": "talking-youth-about-cannabis",
-        "title": "Talking to youth about cannabis",
+        "slug": "talking-young-people-about-cannabis",
+        "title": "Talking to young people about cannabis",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/talking-youth-about-cannabis/",
-        "file_path_html": "pages/talking-youth-about-cannabis.html",
-        "file_path_json": "pages/talking-youth-about-cannabis.json",
+        "date": "2021-06-19T15:07:40",
+        "date_gmt": "2021-06-19T15:07:40",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/talking-young-people-about-cannabis/",
+        "file_path_html": "pages/talking-young-people-about-cannabis.html",
+        "file_path_json": "pages/talking-young-people-about-cannabis.json",
         "parent": 757,
-        "menu_order": 0
+        "menu_order": 5
       },
       {
         "id": 696,
         "slug": "taxes",
         "title": "Taxes",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:52",
+        "date_gmt": "2021-06-19T15:07:52",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/taxes/",
         "file_path_html": "pages/taxes.html",
         "file_path_json": "pages/taxes.json",
@@ -493,43 +545,69 @@
         "menu_order": 0
       },
       {
+        "id": 8132,
+        "slug": "test-blocks-page",
+        "title": "Test Blocks Page",
+        "author": "chach.sikes",
+        "date": "2021-06-22T14:33:23",
+        "date_gmt": "2021-06-22T14:33:23",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/test-blocks-page/",
+        "file_path_html": "pages/test-blocks-page.html",
+        "file_path_json": "pages/test-blocks-page.json",
+        "parent": 0,
+        "menu_order": 0
+      },
+      {
+        "id": 8128,
+        "slug": "testing-editing-features",
+        "title": "Testing Editing Features",
+        "author": "chach.sikes",
+        "date": "2021-06-21T16:45:33",
+        "date_gmt": "2021-06-21T16:45:33",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/testing-editing-features/",
+        "file_path_html": "pages/testing-editing-features.html",
+        "file_path_json": "pages/testing-editing-features.json",
+        "parent": 0,
+        "menu_order": 0
+      },
+      {
         "id": 692,
         "slug": "testing-laboratories",
         "title": "Testing laboratories",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:52",
+        "date_gmt": "2021-06-19T15:07:52",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/testing-laboratories/",
         "file_path_html": "pages/testing-laboratories.html",
         "file_path_json": "pages/testing-laboratories.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 5
       },
       {
         "id": 716,
         "slug": "track-and-trace",
         "title": "Track and Trace",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:58",
-        "date_gmt": "2021-06-09T20:33:58",
+        "date": "2021-06-19T15:07:52",
+        "date_gmt": "2021-06-19T15:07:52",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/track-and-trace/",
         "file_path_html": "pages/track-and-trace.html",
         "file_path_json": "pages/track-and-trace.json",
         "parent": 758,
-        "menu_order": 0
+        "menu_order": 8
       },
       {
         "id": 704,
         "slug": "whats-legal",
         "title": "What&#8217;s legal",
         "author": "Department of Cannabis Control",
-        "date": "2021-06-09T20:33:56",
-        "date_gmt": "2021-06-09T20:33:56",
+        "date": "2021-06-19T15:07:52",
+        "date_gmt": "2021-06-19T15:07:52",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/whats-legal/",
         "file_path_html": "pages/whats-legal.html",
         "file_path_json": "pages/whats-legal.json",
         "parent": 757,
-        "menu_order": 0
+        "menu_order": 2
       }
     ],
     "posts": [
@@ -544,7 +622,7 @@
         "file_path_html": "posts/26449.html",
         "file_path_json": "posts/26449.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -559,7 +637,7 @@
         "file_path_html": "posts/27023.html",
         "file_path_json": "posts/27023.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BMCR",
@@ -579,7 +657,7 @@
         "file_path_html": "posts/27192.html",
         "file_path_json": "posts/27192.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Andre Jones",
@@ -606,7 +684,7 @@
         "file_path_html": "posts/27257.html",
         "file_path_json": "posts/27257.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -626,7 +704,7 @@
         "file_path_html": "posts/27711.html",
         "file_path_json": "posts/27711.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": []
       },
@@ -668,7 +746,7 @@
         "file_path_html": "posts/28332.html",
         "file_path_json": "posts/28332.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -693,7 +771,7 @@
         "file_path_html": "posts/28429.html",
         "file_path_json": "posts/28429.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis Cultivation Licensing",
@@ -719,7 +797,7 @@
         "file_path_html": "posts/28499.html",
         "file_path_json": "posts/28499.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": []
       },
@@ -734,7 +812,7 @@
         "file_path_html": "posts/28617.html",
         "file_path_json": "posts/28617.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -760,7 +838,7 @@
         "file_path_html": "posts/29971.html",
         "file_path_json": "posts/29971.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -781,7 +859,7 @@
         "file_path_html": "posts/30056.html",
         "file_path_json": "posts/30056.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -808,7 +886,7 @@
         "file_path_html": "posts/30677.html",
         "file_path_json": "posts/30677.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis",
@@ -835,7 +913,7 @@
         "file_path_html": "posts/31947.html",
         "file_path_json": "posts/31947.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCRG",
@@ -863,7 +941,7 @@
         "file_path_html": "posts/32152.html",
         "file_path_json": "posts/32152.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -889,7 +967,7 @@
         "file_path_html": "posts/32676.html",
         "file_path_json": "posts/32676.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Application",
@@ -919,7 +997,7 @@
         "file_path_html": "posts/32771.html",
         "file_path_json": "posts/32771.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Agenda",
@@ -967,7 +1045,7 @@
         "file_path_html": "posts/33571.html",
         "file_path_json": "posts/33571.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Answers",
@@ -999,7 +1077,7 @@
         "file_path_html": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.html",
         "file_path_json": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Banking",
@@ -1017,7 +1095,7 @@
         "file_path_html": "posts/a-message-for-cannabis-manufacturers.html",
         "file_path_json": "posts/a-message-for-cannabis-manufacturers.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual application",
@@ -1040,7 +1118,7 @@
         "file_path_html": "posts/abc-industry-advisory-on-cannabis-and-alcoholic-beverages.html",
         "file_path_json": "posts/abc-industry-advisory-on-cannabis-and-alcoholic-beverages.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "ABC",
@@ -1069,7 +1147,7 @@
         "file_path_html": "posts/alameda-county-announces-winter-cannabis-summit.html",
         "file_path_json": "posts/alameda-county-announces-winter-cannabis-summit.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Alameda",
@@ -1096,7 +1174,7 @@
         "file_path_html": "posts/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available.html",
         "file_path_json": "posts/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Applications",
@@ -1122,7 +1200,7 @@
         "file_path_html": "posts/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno.html",
         "file_path_json": "posts/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1155,7 +1233,7 @@
         "file_path_html": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california.html",
         "file_path_json": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -1187,7 +1265,7 @@
         "file_path_html": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges.html",
         "file_path_json": "posts/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Action",
@@ -1210,7 +1288,7 @@
         "file_path_html": "posts/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer.html",
         "file_path_json": "posts/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -1238,7 +1316,7 @@
         "file_path_html": "posts/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca.html",
         "file_path_json": "posts/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1263,7 +1341,7 @@
         "file_path_html": "posts/bcc-announces-enforcement-action-on-unlicensed-delivery-service.html",
         "file_path_json": "posts/bcc-announces-enforcement-action-on-unlicensed-delivery-service.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -1287,7 +1365,7 @@
         "file_path_html": "posts/bcc-launches-get-weedwise-campaign-focusing-on-consumer-education-and-unlicensed-cannabis-businesses.html",
         "file_path_json": "posts/bcc-launches-get-weedwise-campaign-focusing-on-consumer-education-and-unlicensed-cannabis-businesses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "#weedwise #get licensed",
@@ -1315,7 +1393,7 @@
         "file_path_html": "posts/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers.html",
         "file_path_json": "posts/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1345,7 +1423,7 @@
         "file_path_html": "posts/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses.html",
         "file_path_json": "posts/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -1375,7 +1453,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-accepting-equity-grant-applications.html",
         "file_path_json": "posts/bureau-of-cannabis-control-accepting-equity-grant-applications.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -1403,7 +1481,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.html",
         "file_path_json": "posts/bureau-of-cannabis-control-accepting-public-university-research-grant-applications.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Application",
@@ -1426,7 +1504,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses.html",
         "file_path_json": "posts/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Annual application",
@@ -1458,7 +1536,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements.html",
         "file_path_json": "posts/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advertising",
@@ -1486,7 +1564,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Announcement temporary",
@@ -1512,7 +1590,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1541,7 +1619,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-illegal-cannabis-businesses.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-illegal-cannabis-businesses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "California cannabis",
@@ -1565,7 +1643,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -1594,7 +1672,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-businesses.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-businesses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Action",
@@ -1621,7 +1699,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1648,7 +1726,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-retailer.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-retailer.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Action",
@@ -1675,7 +1753,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           null,
@@ -1694,7 +1772,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-four-upcoming-public-licensing-workshops.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-four-upcoming-public-licensing-workshops.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1719,7 +1797,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1743,7 +1821,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "$10 million",
@@ -1770,7 +1848,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1803,7 +1881,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "API",
@@ -1825,7 +1903,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1852,7 +1930,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Appointments",
@@ -1877,7 +1955,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Appointments",
@@ -1907,7 +1985,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -1927,7 +2005,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1949,7 +2027,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -1978,7 +2056,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-subcommittee-meetings-and-input-survey.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory",
@@ -2005,7 +2083,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2027,7 +2105,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2057,7 +2135,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2080,7 +2158,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-announces-weekly-reports.html",
         "file_path_json": "posts/bureau-of-cannabis-control-announces-weekly-reports.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC Weekly Report",
@@ -2110,7 +2188,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.html",
         "file_path_json": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "12 months",
@@ -2136,7 +2214,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form.html",
         "file_path_json": "posts/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual state license application",
@@ -2160,7 +2238,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients.html",
         "file_path_json": "posts/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Application",
@@ -2181,7 +2259,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity.html",
         "file_path_json": "posts/bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Activity",
@@ -2206,7 +2284,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-launches-online-licensing-application-system.html",
         "file_path_json": "posts/bureau-of-cannabis-control-launches-online-licensing-application-system.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Application",
@@ -2230,7 +2308,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding.html",
         "file_path_json": "posts/bureau-of-cannabis-control-now-accepting-applications-for-local-equity-grant-funding.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "$10 million",
@@ -2258,7 +2336,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-submits-proposed-emergency-regulations-requiring-qr-code-certificate.html",
         "file_path_json": "posts/bureau-of-cannabis-control-submits-proposed-emergency-regulations-requiring-qr-code-certificate.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -2286,7 +2364,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-fresno.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-fresno.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2307,7 +2385,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2328,7 +2406,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-final-ceqa-hearing-study-results-workshop-in-sacramento.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-final-ceqa-hearing-study-results-workshop-in-sacramento.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2349,7 +2427,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "August",
@@ -2374,7 +2452,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-sacramento.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-sacramento.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2402,7 +2480,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2423,7 +2501,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-monterey.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-monterey.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2448,7 +2526,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2470,7 +2548,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2498,7 +2576,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2527,7 +2605,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory Committee",
@@ -2547,7 +2625,7 @@
         "file_path_html": "posts/bureau-of-cannabis-control-to-host-public-licensing-workshop-in-sacramento.html",
         "file_path_json": "posts/bureau-of-cannabis-control-to-host-public-licensing-workshop-in-sacramento.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2568,7 +2646,7 @@
         "file_path_html": "posts/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license.html",
         "file_path_json": "posts/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Annual",
@@ -2593,7 +2671,7 @@
         "file_path_html": "posts/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee.html",
         "file_path_json": "posts/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Advisory Committee",
@@ -2611,7 +2689,7 @@
         "file_path_html": "posts/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis.html",
         "file_path_json": "posts/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -2629,7 +2707,7 @@
         "file_path_html": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-eureka.html",
         "file_path_json": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-eureka.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BMCR",
@@ -2650,7 +2728,7 @@
         "file_path_html": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-los-angeles.html",
         "file_path_json": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-los-angeles.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BMCR",
@@ -2671,7 +2749,7 @@
         "file_path_html": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.html",
         "file_path_json": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau",
@@ -2692,7 +2770,7 @@
         "file_path_html": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-san-jose.html",
         "file_path_json": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-san-jose.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BMCR",
@@ -2714,7 +2792,7 @@
         "file_path_html": "posts/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment.html",
         "file_path_json": "posts/ca-department-of-public-health-releases-proposed-medical-cannabis-manufacturing-regulations-for-public-comment.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -2733,7 +2811,7 @@
         "file_path_html": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.html",
         "file_path_json": "posts/ca-department-of-public-health-request-for-live-scan-form-is-now-available.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual license applicants",
@@ -2760,7 +2838,7 @@
         "file_path_html": "posts/calcannabis-cultivation-licensing-public-comment-period-deadline.html",
         "file_path_json": "posts/calcannabis-cultivation-licensing-public-comment-period-deadline.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis",
@@ -2784,7 +2862,7 @@
         "file_path_html": "posts/calcrg-grant-solicitation-application-now-available.html",
         "file_path_json": "posts/calcrg-grant-solicitation-application-now-available.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Application",
@@ -2809,7 +2887,7 @@
         "file_path_html": "posts/california-cannabis-advisory-committee-publishes-2018-annual-report.html",
         "file_path_json": "posts/california-cannabis-advisory-committee-publishes-2018-annual-report.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -2824,7 +2902,7 @@
         "file_path_html": "posts/california-cannabis-czar-lori-ajax-announced-as-keynote-speaker-for-california-cannabis-business-conference.html",
         "file_path_json": "posts/california-cannabis-czar-lori-ajax-announced-as-keynote-speaker-for-california-cannabis-business-conference.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -2842,7 +2920,7 @@
         "file_path_html": "posts/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions.html",
         "file_path_json": "posts/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -2864,7 +2942,7 @@
         "file_path_html": "posts/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions.html",
         "file_path_json": "posts/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2890,7 +2968,7 @@
         "file_path_html": "posts/california-cannabis-experience-survey.html",
         "file_path_json": "posts/california-cannabis-experience-survey.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -2921,7 +2999,7 @@
         "file_path_html": "posts/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why.html",
         "file_path_json": "posts/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -2942,7 +3020,7 @@
         "file_path_html": "posts/california-cannabis-track-and-trace-cctt-metrc-system-workshops.html",
         "file_path_json": "posts/california-cannabis-track-and-trace-cctt-metrc-system-workshops.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -2981,7 +3059,7 @@
         "file_path_html": "posts/california-celebrates-420.html",
         "file_path_json": "posts/california-celebrates-420.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -2996,7 +3074,7 @@
         "file_path_html": "posts/california-community-reinvestment-grants-program.html",
         "file_path_json": "posts/california-community-reinvestment-grants-program.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Adult-use",
@@ -3022,7 +3100,7 @@
         "file_path_html": "posts/california-community-reinvestment-grants-program-application-due-date-reminder.html",
         "file_path_json": "posts/california-community-reinvestment-grants-program-application-due-date-reminder.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California community reinvestment grants program",
@@ -3042,7 +3120,7 @@
         "file_path_html": "posts/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program.html",
         "file_path_json": "posts/california-department-of-food-and-ag-releases-draft-regulations-on-californiasmedical-cannabis-cultivation-program.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -3062,7 +3140,7 @@
         "file_path_html": "posts/california-department-of-food-and-agriculture-announces-public-review-and-comment-period-for-the-draft-program-environmental-impact-report-peir-for-cannabis-cultivation.html",
         "file_path_json": "posts/california-department-of-food-and-agriculture-announces-public-review-and-comment-period-for-the-draft-program-environmental-impact-report-peir-for-cannabis-cultivation.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis",
@@ -3083,7 +3161,7 @@
         "file_path_html": "posts/california-department-of-justice-releases-new-medicinal-cannabis-guidelines.html",
         "file_path_json": "posts/california-department-of-justice-releases-new-medicinal-cannabis-guidelines.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "California department of justice",
@@ -3105,7 +3183,7 @@
         "file_path_html": "posts/california-department-of-public-health-sunset-of-temporary-licenses.html",
         "file_path_json": "posts/california-department-of-public-health-sunset-of-temporary-licenses.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual",
@@ -3130,7 +3208,7 @@
         "file_path_html": "posts/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702.html",
         "file_path_json": "posts/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -3160,7 +3238,7 @@
         "file_path_html": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019.html",
         "file_path_json": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "2019",
@@ -3186,7 +3264,7 @@
         "file_path_html": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018.html",
         "file_path_json": "posts/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "California department of tax and fee administration",
@@ -3213,7 +3291,7 @@
         "file_path_html": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.html",
         "file_path_json": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Adjustment",
@@ -3237,7 +3315,7 @@
         "file_path_html": "posts/california-notices-emergency-cannabis-regulations-requiring-qr-code-certificate.html",
         "file_path_json": "posts/california-notices-emergency-cannabis-regulations-requiring-qr-code-certificate.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3261,7 +3339,7 @@
         "file_path_html": "posts/california-officially-joins-national-cannabis-regulators-association.html",
         "file_path_json": "posts/california-officially-joins-national-cannabis-regulators-association.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3283,7 +3361,7 @@
         "file_path_html": "posts/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses.html",
         "file_path_json": "posts/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Advertising",
@@ -3306,7 +3384,7 @@
         "file_path_html": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.html",
         "file_path_json": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Assembly",
@@ -3330,7 +3408,7 @@
         "file_path_html": "posts/californias-cannabis-track-and-trace-cctt-system-update.html",
         "file_path_json": "posts/californias-cannabis-track-and-trace-cctt-system-update.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis",
@@ -3352,7 +3430,7 @@
         "file_path_html": "posts/californias-pot-chief-vows-state-will-meet-compliance-deadline.html",
         "file_path_json": "posts/californias-pot-chief-vows-state-will-meet-compliance-deadline.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BMCR",
@@ -3370,7 +3448,7 @@
         "file_path_html": "posts/californias-weed-nuns-on-a-mission-to-heal-with-cannabis.html",
         "file_path_json": "posts/californias-weed-nuns-on-a-mission-to-heal-with-cannabis.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -3385,7 +3463,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-meeting-in-eureka.html",
         "file_path_json": "posts/cannabis-advisory-committee-meeting-in-eureka.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory",
@@ -3414,7 +3492,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-meeting-in-fresno.html",
         "file_path_json": "posts/cannabis-advisory-committee-meeting-in-fresno.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3446,7 +3524,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-meeting-in-oakland.html",
         "file_path_json": "posts/cannabis-advisory-committee-meeting-in-oakland.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -3477,7 +3555,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-meeting-in-sacramento.html",
         "file_path_json": "posts/cannabis-advisory-committee-meeting-in-sacramento.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory",
@@ -3505,7 +3583,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-meeting-in-sacramento-2.html",
         "file_path_json": "posts/cannabis-advisory-committee-meeting-in-sacramento-2.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory Committee",
@@ -3565,7 +3643,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-first-meeting-of-2018.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-first-meeting-of-2018.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory",
@@ -3589,7 +3667,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-upcoming-december-meetings-in-burlingame.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-upcoming-december-meetings-in-burlingame.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3612,7 +3690,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Advisory",
@@ -3643,7 +3721,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Burlingame",
@@ -3670,7 +3748,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3691,7 +3769,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-2.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-2.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3714,7 +3792,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-3.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-3.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3734,7 +3812,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-in-september.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-in-september.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3758,7 +3836,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-next-week.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-next-week.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3781,7 +3859,7 @@
         "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meetings.html",
         "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meetings.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -3801,7 +3879,7 @@
         "file_path_html": "posts/cannabis-and-hemp-conference-held-in-fresno.html",
         "file_path_json": "posts/cannabis-and-hemp-conference-held-in-fresno.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -3819,7 +3897,7 @@
         "file_path_html": "posts/cannabis-companies-now-have-access-to-property-liability-insurance-in-california.html",
         "file_path_json": "posts/cannabis-companies-now-have-access-to-property-liability-insurance-in-california.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -3844,7 +3922,7 @@
         "file_path_html": "posts/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations.html",
         "file_path_json": "posts/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "15-day notice",
@@ -3942,7 +4020,7 @@
         "file_path_html": "posts/cannabis-control-appeals-panel-notice-of-proposed-rulemaking.html",
         "file_path_json": "posts/cannabis-control-appeals-panel-notice-of-proposed-rulemaking.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Applicants",
@@ -3967,7 +4045,7 @@
         "file_path_html": "posts/cannabis-control-appeals-panel-website.html",
         "file_path_json": "posts/cannabis-control-appeals-panel-website.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Appeals",
@@ -3991,7 +4069,7 @@
         "file_path_html": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.html",
         "file_path_json": "posts/cannabis-cultivation-informational-workshop-and-permitting-event.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -4014,7 +4092,7 @@
         "file_path_html": "posts/cannabis-cultivation-permitting-workshops.html",
         "file_path_json": "posts/cannabis-cultivation-permitting-workshops.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of fish and wildlife",
@@ -4039,7 +4117,7 @@
         "file_path_html": "posts/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax.html",
         "file_path_json": "posts/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -4096,7 +4174,7 @@
         "file_path_html": "posts/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget.html",
         "file_path_json": "posts/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -4119,7 +4197,7 @@
         "file_path_html": "posts/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity.html",
         "file_path_json": "posts/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -4142,7 +4220,7 @@
         "file_path_html": "posts/cannabis-licensing-authorities-notice-proposed-regulations-to-provide-greater-access-to-financial-services-for-licensees.html",
         "file_path_json": "posts/cannabis-licensing-authorities-notice-proposed-regulations-to-provide-greater-access-to-financial-services-for-licensees.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -4166,7 +4244,7 @@
         "file_path_html": "posts/cannabis-licensing-authorities-unveil-new-unified-license-search-tool.html",
         "file_path_json": "posts/cannabis-licensing-authorities-unveil-new-unified-license-search-tool.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -4186,7 +4264,7 @@
         "file_path_html": "posts/cannabis-retailers-cannabis-excise-tax-paid-to-your-distributor-must-be-collected-on-your-discounted-retail-sales.html",
         "file_path_json": "posts/cannabis-retailers-cannabis-excise-tax-paid-to-your-distributor-must-be-collected-on-your-discounted-retail-sales.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of tax and fee administration",
@@ -4210,7 +4288,7 @@
         "file_path_html": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018.html",
         "file_path_json": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "2018",
@@ -4239,7 +4317,7 @@
         "file_path_html": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018-rise-shows-compliance-trend-growing.html",
         "file_path_json": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018-rise-shows-compliance-trend-growing.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "California",
@@ -4265,7 +4343,7 @@
         "file_path_html": "posts/career-opportunities-in-cannabis-regulation.html",
         "file_path_json": "posts/career-opportunities-in-cannabis-regulation.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau",
@@ -4296,7 +4374,7 @@
         "file_path_html": "posts/cdfa-and-cdph-temporary-license-extension-update.html",
         "file_path_json": "posts/cdfa-and-cdph-temporary-license-extension-update.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis Cultivation Licensing",
@@ -4321,7 +4399,7 @@
         "file_path_html": "posts/cdfa-announces-calcannabis-appellations-project-public-workshops.html",
         "file_path_json": "posts/cdfa-announces-calcannabis-appellations-project-public-workshops.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Announces",
@@ -4347,7 +4425,7 @@
         "file_path_html": "posts/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april.html",
         "file_path_json": "posts/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "April",
@@ -4373,7 +4451,7 @@
         "file_path_html": "posts/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system.html",
         "file_path_json": "posts/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -4403,7 +4481,7 @@
         "file_path_html": "posts/cdfa-cdph-assembly-bill-97-and-provisional-licenses.html",
         "file_path_json": "posts/cdfa-cdph-assembly-bill-97-and-provisional-licenses.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "AB 97",
@@ -4452,7 +4530,7 @@
         "file_path_html": "posts/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses.html",
         "file_path_json": "posts/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Annual",
@@ -4479,7 +4557,7 @@
         "file_path_html": "posts/cdfa-now-accepting-temporary-cannabis-licensing-applications.html",
         "file_path_json": "posts/cdfa-now-accepting-temporary-cannabis-licensing-applications.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Application",
@@ -4502,7 +4580,7 @@
         "file_path_html": "posts/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program.html",
         "file_path_json": "posts/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Appellations",
@@ -4528,7 +4606,7 @@
         "file_path_html": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.html",
         "file_path_json": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Application",
@@ -4551,7 +4629,7 @@
         "file_path_html": "posts/cdfas-calcannabis-appellations-program-survey.html",
         "file_path_json": "posts/cdfas-calcannabis-appellations-program-survey.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "August",
@@ -4575,7 +4653,7 @@
         "file_path_html": "posts/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days.html",
         "file_path_json": "posts/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "180 days",
@@ -4599,7 +4677,7 @@
         "file_path_html": "posts/cdph-files-emergency-regulations-for-shared-use-facilities.html",
         "file_path_json": "posts/cdph-files-emergency-regulations-for-shared-use-facilities.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -4621,7 +4699,7 @@
         "file_path_html": "posts/cdph-files-proposed-re-adoption-of-emergency-regulations.html",
         "file_path_json": "posts/cdph-files-proposed-re-adoption-of-emergency-regulations.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -4646,7 +4724,7 @@
         "file_path_html": "posts/cdph-launches-cannabis-public-education-campaign.html",
         "file_path_json": "posts/cdph-launches-cannabis-public-education-campaign.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           null,
@@ -4669,7 +4747,7 @@
         "file_path_html": "posts/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities.html",
         "file_path_json": "posts/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -4714,7 +4792,7 @@
         "file_path_html": "posts/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter.html",
         "file_path_json": "posts/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           null,
@@ -4735,7 +4813,7 @@
         "file_path_html": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.html",
         "file_path_json": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of tax and fee administration",
@@ -4764,7 +4842,7 @@
         "file_path_html": "posts/changes-to-cannabis-excise-and-cultivation-taxes-regulation.html",
         "file_path_json": "posts/changes-to-cannabis-excise-and-cultivation-taxes-regulation.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of tax and fee administration",
@@ -4791,7 +4869,7 @@
         "file_path_html": "posts/consolidation-of-california-cannabis-licensing-authorities.html",
         "file_path_json": "posts/consolidation-of-california-cannabis-licensing-authorities.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Budget",
@@ -4820,7 +4898,7 @@
         "file_path_html": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.html",
         "file_path_json": "posts/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -4857,7 +4935,7 @@
         "file_path_html": "posts/deadline-for-temporary-cannabis-cultivation-license-applications.html",
         "file_path_json": "posts/deadline-for-temporary-cannabis-cultivation-license-applications.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Application",
@@ -4881,7 +4959,7 @@
         "file_path_html": "posts/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee.html",
         "file_path_json": "posts/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Advisory Committee",
@@ -4901,7 +4979,7 @@
         "file_path_html": "posts/donations-of-cannabis-and-cannabis-product.html",
         "file_path_json": "posts/donations-of-cannabis-and-cannabis-product.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -4935,7 +5013,7 @@
         "file_path_html": "posts/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program.html",
         "file_path_json": "posts/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -4962,7 +5040,7 @@
         "file_path_html": "posts/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars.html",
         "file_path_json": "posts/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California cannabis",
@@ -4989,7 +5067,7 @@
         "file_path_html": "posts/emergency-regulations-public-comment-period.html",
         "file_path_json": "posts/emergency-regulations-public-comment-period.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -5010,7 +5088,7 @@
         "file_path_html": "posts/employment-training-panel-approves-cannabis-industry-application-procedures.html",
         "file_path_json": "posts/employment-training-panel-approves-cannabis-industry-application-procedures.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           null,
@@ -5060,7 +5138,7 @@
         "file_path_html": "posts/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program.html",
         "file_path_json": "posts/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -5086,7 +5164,7 @@
         "file_path_html": "posts/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic.html",
         "file_path_json": "posts/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "$20 million",
@@ -5116,7 +5194,7 @@
         "file_path_html": "posts/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs.html",
         "file_path_json": "posts/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "CalFire",
@@ -5146,7 +5224,7 @@
         "file_path_html": "posts/header-image-all-pages-except-home.html",
         "file_path_json": "posts/header-image-all-pages-except-home.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -5161,7 +5239,7 @@
         "file_path_html": "posts/important-announcement-regarding-external-transfers-for-metrc-users.html",
         "file_path_json": "posts/important-announcement-regarding-external-transfers-for-metrc-users.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Announcement",
@@ -5186,7 +5264,7 @@
         "file_path_html": "posts/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability.html",
         "file_path_json": "posts/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -5214,7 +5292,7 @@
         "file_path_html": "posts/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors.html",
         "file_path_json": "posts/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of tax and fee administration",
@@ -5241,7 +5319,7 @@
         "file_path_html": "posts/important-information-for-cannabis-distributors.html",
         "file_path_json": "posts/important-information-for-cannabis-distributors.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -5265,7 +5343,7 @@
         "file_path_html": "posts/important-message-for-bureau-of-cannabis-control-temporary-licensees.html",
         "file_path_json": "posts/important-message-for-bureau-of-cannabis-control-temporary-licensees.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual",
@@ -5294,7 +5372,7 @@
         "file_path_html": "posts/industry-advisory-cannabis-and-alcoholic-beverages.html",
         "file_path_json": "posts/industry-advisory-cannabis-and-alcoholic-beverages.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "ABC",
@@ -5323,7 +5401,7 @@
         "file_path_html": "posts/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales.html",
         "file_path_json": "posts/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -5347,7 +5425,7 @@
         "file_path_html": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.html",
         "file_path_json": "posts/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of tax and fee administration",
@@ -5373,7 +5451,7 @@
         "file_path_html": "posts/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs.html",
         "file_path_json": "posts/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "CalCRG program",
@@ -5403,7 +5481,7 @@
         "file_path_html": "posts/just-say-no-to-investing-in-pot-committee-advises-california-judges.html",
         "file_path_json": "posts/just-say-no-to-investing-in-pot-committee-advises-california-judges.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -5418,7 +5496,7 @@
         "file_path_html": "posts/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements.html",
         "file_path_json": "posts/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "AB 1529",
@@ -5450,7 +5528,7 @@
         "file_path_html": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.html",
         "file_path_json": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -5474,7 +5552,7 @@
         "file_path_html": "posts/licensing-authorities-release-emergency-medicinal-and-adult-use-cannabis-regulations.html",
         "file_path_json": "posts/licensing-authorities-release-emergency-medicinal-and-adult-use-cannabis-regulations.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -5499,7 +5577,7 @@
         "file_path_html": "posts/manufactured-cannabis-licensing-training-sessions.html",
         "file_path_json": "posts/manufactured-cannabis-licensing-training-sessions.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -5514,7 +5592,7 @@
         "file_path_html": "posts/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know.html",
         "file_path_json": "posts/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -5536,7 +5614,7 @@
         "file_path_html": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.html",
         "file_path_json": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -5556,7 +5634,7 @@
         "file_path_html": "posts/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64.html",
         "file_path_json": "posts/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Assemblyman",
@@ -5606,7 +5684,7 @@
         "file_path_html": "posts/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2.html",
         "file_path_json": "posts/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -5626,7 +5704,7 @@
         "file_path_html": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.html",
         "file_path_json": "posts/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "ABC",
@@ -5654,7 +5732,7 @@
         "file_path_html": "posts/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles.html",
         "file_path_json": "posts/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -5674,7 +5752,7 @@
         "file_path_html": "posts/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers.html",
         "file_path_json": "posts/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Alcohol",
@@ -5695,7 +5773,7 @@
         "file_path_html": "posts/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions.html",
         "file_path_json": "posts/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Calculate",
@@ -5723,7 +5801,7 @@
         "file_path_html": "posts/migrant-workers-are-making-thousands-trimming-marijuana-in-california.html",
         "file_path_json": "posts/migrant-workers-are-making-thousands-trimming-marijuana-in-california.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": []
       },
@@ -5738,7 +5816,7 @@
         "file_path_html": "posts/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity.html",
         "file_path_json": "posts/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Business",
@@ -5766,7 +5844,7 @@
         "file_path_html": "posts/new-cannabis-regulations-approved-by-the-office-of-administrative-law.html",
         "file_path_json": "posts/new-cannabis-regulations-approved-by-the-office-of-administrative-law.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Approved",
@@ -5802,7 +5880,7 @@
         "file_path_html": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.html",
         "file_path_json": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis",
@@ -5828,7 +5906,7 @@
         "file_path_html": "posts/new-packaging-and-labeling-resources-available.html",
         "file_path_json": "posts/new-packaging-and-labeling-resources-available.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -5853,7 +5931,7 @@
         "file_path_html": "posts/new-reference-guides-for-cannabis-cultivation-license-applicants.html",
         "file_path_json": "posts/new-reference-guides-for-cannabis-cultivation-license-applicants.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual",
@@ -5879,7 +5957,7 @@
         "file_path_html": "posts/new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products.html",
         "file_path_json": "posts/new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California Department of Public Health",
@@ -5904,7 +5982,7 @@
         "file_path_html": "posts/notice-of-opportunity-for-public-comment-and-public-hearing.html",
         "file_path_json": "posts/notice-of-opportunity-for-public-comment-and-public-hearing.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -5925,7 +6003,7 @@
         "file_path_html": "posts/notice-regarding-billboard-advertisements-on-interstate-and-state-highways.html",
         "file_path_json": "posts/notice-regarding-billboard-advertisements-on-interstate-and-state-highways.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -5945,7 +6023,7 @@
         "file_path_html": "posts/notice-regarding-covid-19-and-commercial-cannabis-businesses.html",
         "file_path_json": "posts/notice-regarding-covid-19-and-commercial-cannabis-businesses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -5969,7 +6047,7 @@
         "file_path_html": "posts/notice-regarding-state-stay-at-home-order-issued-december-3-2020.html",
         "file_path_json": "posts/notice-regarding-state-stay-at-home-order-issued-december-3-2020.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -5993,7 +6071,7 @@
         "file_path_html": "posts/notice-regarding-temporary-cannabis-cultivation-license-applications.html",
         "file_path_json": "posts/notice-regarding-temporary-cannabis-cultivation-license-applications.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Annual",
@@ -6020,7 +6098,7 @@
         "file_path_html": "posts/notice-regarding-temporary-cannabis-events.html",
         "file_path_json": "posts/notice-regarding-temporary-cannabis-events.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6045,7 +6123,7 @@
         "file_path_html": "posts/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system.html",
         "file_path_json": "posts/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Adult-use",
@@ -6069,7 +6147,7 @@
         "file_path_html": "posts/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives.html",
         "file_path_json": "posts/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6092,7 +6170,7 @@
         "file_path_html": "posts/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help.html",
         "file_path_json": "posts/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -6112,7 +6190,7 @@
         "file_path_html": "posts/public-comment-period-for-emergency-rulemaking-action-related-to-cannabis-cultivation-licensing.html",
         "file_path_json": "posts/public-comment-period-for-emergency-rulemaking-action-related-to-cannabis-cultivation-licensing.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis",
@@ -6133,7 +6211,7 @@
         "file_path_html": "posts/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah.html",
         "file_path_json": "posts/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6157,7 +6235,7 @@
         "file_path_html": "posts/readoption-of-the-emergency-regulations-for-cannabis-cultivation.html",
         "file_path_json": "posts/readoption-of-the-emergency-regulations-for-cannabis-cultivation.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis Cultivation Licensing",
@@ -6181,7 +6259,7 @@
         "file_path_html": "posts/registering-cannabis-related-trademarks-in-california.html",
         "file_path_json": "posts/registering-cannabis-related-trademarks-in-california.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Brochure",
@@ -6209,7 +6287,7 @@
         "file_path_html": "posts/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times.html",
         "file_path_json": "posts/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": []
       },
@@ -6224,7 +6302,7 @@
         "file_path_html": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.html",
         "file_path_json": "posts/reminder-and-confirmation-of-cannabis-advisory-subcommittee-meeting-date-and-times.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6255,7 +6333,7 @@
         "file_path_html": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.html",
         "file_path_json": "posts/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6285,7 +6363,7 @@
         "file_path_html": "posts/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing.html",
         "file_path_json": "posts/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Announcement",
@@ -6310,7 +6388,7 @@
         "file_path_html": "posts/secretary-of-state-alex-padilla-announces-llcs-can-now-be-formed-online-launches-new-business-chatbot.html",
         "file_path_json": "posts/secretary-of-state-alex-padilla-announces-llcs-can-now-be-formed-online-launches-new-business-chatbot.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bixfile california",
@@ -6333,7 +6411,7 @@
         "file_path_html": "posts/secretary-of-state-alex-padilla-launches-cannabizfile-online-cannabis-business-portal.html",
         "file_path_json": "posts/secretary-of-state-alex-padilla-launches-cannabizfile-online-cannabis-business-portal.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": []
       },
@@ -6348,7 +6426,7 @@
         "file_path_html": "posts/six-key-updates-in-californias-latest-marijuana-regulatory-proposal.html",
         "file_path_json": "posts/six-key-updates-in-californias-latest-marijuana-regulatory-proposal.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -6367,7 +6445,7 @@
         "file_path_html": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.html",
         "file_path_json": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California",
@@ -6400,7 +6478,7 @@
         "file_path_html": "posts/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops.html",
         "file_path_json": "posts/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCannabis Cultivation Licensing",
@@ -6429,7 +6507,7 @@
         "file_path_html": "posts/state-applications-for-cannabis-manufacturing-are-now-available.html",
         "file_path_json": "posts/state-applications-for-cannabis-manufacturing-are-now-available.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Apply",
@@ -6452,7 +6530,7 @@
         "file_path_html": "posts/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis.html",
         "file_path_json": "posts/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -6472,7 +6550,7 @@
         "file_path_html": "posts/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers.html",
         "file_path_json": "posts/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -6502,7 +6580,7 @@
         "file_path_html": "posts/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations.html",
         "file_path_json": "posts/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "15-day comment",
@@ -6529,7 +6607,7 @@
         "file_path_html": "posts/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals.html",
         "file_path_json": "posts/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -6553,7 +6631,7 @@
         "file_path_html": "posts/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees.html",
         "file_path_json": "posts/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "BCC",
@@ -6579,7 +6657,7 @@
         "file_path_html": "posts/state-cannabis-licensing-authorities-provide-provisional-licensing-update.html",
         "file_path_json": "posts/state-cannabis-licensing-authorities-provide-provisional-licensing-update.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -6607,7 +6685,7 @@
         "file_path_html": "posts/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses.html",
         "file_path_json": "posts/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6634,7 +6712,7 @@
         "file_path_html": "posts/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo.html",
         "file_path_json": "posts/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Adult-use",
@@ -6660,7 +6738,7 @@
         "file_path_html": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.html",
         "file_path_json": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -6679,7 +6757,7 @@
         "file_path_html": "posts/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee.html",
         "file_path_json": "posts/temecula-mayor-matt-rahn-appointed-as-chair-of-californias-cannabis-advisory-committee.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "Bureau of Cannabis Control",
@@ -6704,7 +6782,7 @@
         "file_path_html": "posts/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks.html",
         "file_path_json": "posts/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Business",
@@ -6724,7 +6802,7 @@
         "file_path_html": "posts/transition-period-requirements.html",
         "file_path_json": "posts/transition-period-requirements.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "BCC",
@@ -6751,7 +6829,7 @@
         "file_path_html": "posts/treasurer-fiona-ma-and-assemblymember-rob-bonta-seek-temporary-cannabis-tax-reduction.html",
         "file_path_json": "posts/treasurer-fiona-ma-and-assemblymember-rob-bonta-seek-temporary-cannabis-tax-reduction.json",
         "categories": [
-          "Press Release"
+          "Press Releases"
         ],
         "tags": [
           "AB 286",
@@ -6780,7 +6858,7 @@
         "file_path_html": "posts/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network.html",
         "file_path_json": "posts/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           null,
@@ -6800,7 +6878,7 @@
         "file_path_html": "posts/updated-timeline-for-the-california-community-reinvestment-grants-program.html",
         "file_path_json": "posts/updated-timeline-for-the-california-community-reinvestment-grants-program.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "CalCRG",
@@ -6827,7 +6905,7 @@
         "file_path_html": "posts/using-marijuana-legally-new-california-law-gives-you-some-privacy.html",
         "file_path_json": "posts/using-marijuana-legally-new-california-law-gives-you-some-privacy.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Adult-use",
@@ -6860,7 +6938,7 @@
         "file_path_html": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.html",
         "file_path_json": "posts/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California Department of Public Health",
@@ -6889,7 +6967,7 @@
         "file_path_html": "posts/want-to-start-a-cannabis-business-in-california-tips-from-a-recent-workshop.html",
         "file_path_json": "posts/want-to-start-a-cannabis-business-in-california-tips-from-a-recent-workshop.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Bureau",
@@ -6911,7 +6989,7 @@
         "file_path_html": "posts/water-boards-cannabis-cultivation-enrollment-workshop.html",
         "file_path_json": "posts/water-boards-cannabis-cultivation-enrollment-workshop.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "California department of fish and wildlife",
@@ -6941,7 +7019,7 @@
         "file_path_json": "posts/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts.json",
         "categories": [
           "Content Types",
-          "Event Material"
+          "Event Materials"
         ],
         "tags": [
           null,
@@ -6964,7 +7042,7 @@
         "file_path_html": "posts/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault.html",
         "file_path_json": "posts/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault.json",
         "categories": [
-          "Announcement"
+          "Announcements"
         ],
         "tags": [
           "Banking",

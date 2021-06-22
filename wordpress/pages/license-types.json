@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-06-09T20:33:58",
-    "updated_date": "2021-06-12T17:02:36",
+    "created_date": "2021-06-19T15:07:40",
+    "updated_date": "2021-06-19T15:26:48",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -16,15 +16,15 @@
     "slug": "license-types",
     "title": "License types",
     "author": "Department of Cannabis Control",
-    "date": "2021-06-09T20:33:58",
-    "modified": "2021-06-12T17:02:36",
-    "date_gmt": "2021-06-09T20:33:58",
-    "modified_gmt": "2021-06-12T17:02:36",
+    "date": "2021-06-19T15:07:40",
+    "modified": "2021-06-19T15:26:48",
+    "date_gmt": "2021-06-19T15:07:40",
+    "modified_gmt": "2021-06-19T15:26:48",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/license-types/",
     "file_path_html": "pages/license-types.html",
     "file_path_json": "pages/license-types.json",
     "excerpt": "<p>Licenses are based on the type of cannabis activity that your business will perform.</p>\n",
     "parent": 756,
-    "menu_order": 0
+    "menu_order": 3
   }
 }
