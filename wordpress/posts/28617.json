@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2018-07-13T17:08:00",
+    "updated_date": "2021-06-14T19:16:35",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6033,
+    "slug": "28617",
+    "title": "State Cannabis Licensing Authorities Publish Proposed Regulations",
+    "author": "Department of Cannabis Control",
+    "date": "2018-07-13T17:08:00",
+    "modified": "2021-06-14T19:16:35",
+    "date_gmt": "2018-07-13T17:08:00",
+    "modified_gmt": "2021-06-14T19:16:35",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/13/28617/",
+    "file_path_html": "posts/28617.html",
+    "file_path_json": "posts/28617.json",
+    "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced the publication of proposed regulations in the California Regulatory Notice Register, the first step toward adopting non-emergency regulations.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "CalCannabis Cultivation Licensing",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

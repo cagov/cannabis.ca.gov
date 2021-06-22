@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_date": "2018-08-15T21:41:00",
+    "updated_date": "2021-06-14T19:16:31",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6030,
+    "slug": "cannabis-tax-revenue-increases-in-2nd-quarter-of-2018",
+    "title": "Cannabis Tax Revenue Increases In 2nd Quarter of 2018 Rise Shows Compliance Trend Growing",
+    "author": "Department of Cannabis Control",
+    "date": "2018-08-15T21:41:00",
+    "modified": "2021-06-14T19:16:31",
+    "date_gmt": "2018-08-15T21:41:00",
+    "modified_gmt": "2021-06-14T19:16:31",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/15/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018/",
+    "file_path_html": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018.html",
+    "file_path_json": "posts/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018.json",
+    "excerpt": "<p>Sacramento &#8211; The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales for the 2nd quarter of 2018.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "2018",
+      "California",
+      "California department of tax and fee administration",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

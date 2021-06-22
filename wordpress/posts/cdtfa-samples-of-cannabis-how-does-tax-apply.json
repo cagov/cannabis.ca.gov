@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_date": "2019-04-18T23:46:00",
+    "updated_date": "2021-06-14T19:16:09",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6206,
+    "slug": "cdtfa-samples-of-cannabis-how-does-tax-apply",
+    "title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
+    "author": "Department of Cannabis Control",
+    "date": "2019-04-18T23:46:00",
+    "modified": "2021-06-14T19:16:09",
+    "date_gmt": "2019-04-18T23:46:00",
+    "modified_gmt": "2021-06-14T19:16:09",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
+    "file_path_html": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.html",
+    "file_path_json": "posts/cdtfa-samples-of-cannabis-how-does-tax-apply.json",
+    "excerpt": "<p>As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "California department of tax and fee administration",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "created_date": "2017-11-06T18:01:00",
+    "updated_date": "2021-06-14T19:17:05",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6062,
+    "slug": "bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting",
+    "title": "Bureau of Cannabis Control to Host First Cannabis Advisory Committee Meeting",
+    "author": "Department of Cannabis Control",
+    "date": "2017-11-06T18:01:00",
+    "modified": "2021-06-14T19:17:05",
+    "date_gmt": "2017-11-06T18:01:00",
+    "modified_gmt": "2021-06-14T19:17:05",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/06/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting/",
+    "file_path_html": "posts/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that it will host the first public Cannabis Advisory Committee meeting on Thursday, November 16 in Sacramento.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Advisory Committee",
+      "Bureau of Cannabis Control",
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_date": "2019-04-22T23:15:00",
+    "updated_date": "2021-06-14T19:16:07",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6203,
+    "slug": "calcrg-grant-solicitation-application-now-available",
+    "title": "CalCRG Grant Solicitation &#038; Application Now Available!",
+    "author": "Department of Cannabis Control",
+    "date": "2019-04-22T23:15:00",
+    "modified": "2021-06-14T19:16:07",
+    "date_gmt": "2019-04-22T23:15:00",
+    "modified_gmt": "2021-06-14T19:16:07",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/calcrg-grant-solicitation-application-now-available/",
+    "file_path_html": "posts/calcrg-grant-solicitation-application-now-available.html",
+    "file_path_json": "posts/calcrg-grant-solicitation-application-now-available.json",
+    "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Application",
+      "Application portal",
+      "California community reinvestment grants program",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

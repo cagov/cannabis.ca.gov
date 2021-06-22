@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2019-06-04T23:37:00",
+    "updated_date": "2021-06-14T19:16:05",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6371,
+    "slug": "water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts",
+    "title": "Water Quality and Water Rights Fees Stakeholder Meetings on June 11, 2019",
+    "author": "Department of Cannabis Control",
+    "date": "2019-06-04T23:37:00",
+    "modified": "2021-06-14T19:16:05",
+    "date_gmt": "2019-06-04T23:37:00",
+    "modified_gmt": "2021-06-14T19:16:05",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/04/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/",
+    "file_path_html": "posts/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts.html",
+    "file_path_json": "posts/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts.json",
+    "excerpt": "<p>Interested Parties:<br />\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/).</p>\n",
+    "categories": [
+      "Content Types",
+      "Event Materials"
+    ],
+    "tags": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

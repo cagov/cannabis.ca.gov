@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "created_date": "2019-09-26T21:30:00",
+    "updated_date": "2021-06-14T19:15:57",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5995,
+    "slug": "investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs",
+    "title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+    "author": "Department of Cannabis Control",
+    "date": "2019-09-26T21:30:00",
+    "modified": "2021-06-14T19:15:57",
+    "date_gmt": "2019-09-26T21:30:00",
+    "modified_gmt": "2021-06-14T19:15:57",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/26/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+    "file_path_html": "posts/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs.html",
+    "file_path_json": "posts/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs.json",
+    "excerpt": "<p>Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "CalCRG program",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

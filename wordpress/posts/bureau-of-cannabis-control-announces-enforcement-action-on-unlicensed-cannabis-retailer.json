@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2018-10-26T20:46:00",
+    "updated_date": "2021-06-14T19:16:24",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6023,
+    "slug": "bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-retailer",
+    "title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Retailer",
+    "author": "Department of Cannabis Control",
+    "date": "2018-10-26T20:46:00",
+    "modified": "2021-06-14T19:16:24",
+    "date_gmt": "2018-10-26T20:46:00",
+    "modified_gmt": "2021-06-14T19:16:24",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/10/26/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-retailer/",
+    "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-retailer.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-retailer.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit (DOI-CEU), in coordination with the Los Angeles Police Department (LAPD), today announced enforcement action on an unlicensed cannabis retailer operating within the city of Los Angeles.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Action",
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2019-12-24T20:47:00",
+    "updated_date": "2021-06-14T19:15:51",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6186,
+    "slug": "draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program",
+    "title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
+    "author": "Department of Cannabis Control",
+    "date": "2019-12-24T20:47:00",
+    "modified": "2021-06-14T19:15:51",
+    "date_gmt": "2019-12-24T20:47:00",
+    "modified_gmt": "2021-06-14T19:15:51",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
+    "file_path_html": "posts/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program.html",
+    "file_path_json": "posts/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program.json",
+    "excerpt": "<p>The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

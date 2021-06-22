@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-06-19T15:12:14",
+    "updated_date": "2021-06-20T21:50:52",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 7799,
+    "slug": "dcc-events",
+    "title": "Department of Cannabis Control events",
+    "author": "Department of Cannabis Control",
+    "date": "2021-06-19T15:12:14",
+    "modified": "2021-06-20T21:50:52",
+    "date_gmt": "2021-06-19T15:12:14",
+    "modified_gmt": "2021-06-20T21:50:52",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
+    "file_path_html": "pages/dcc-events.html",
+    "file_path_json": "pages/dcc-events.json",
+    "excerpt": "<p>Find out about upcoming Department of Cannabis Control events.</p>\n",
+    "parent": 856,
+    "menu_order": 4
+  }
+}

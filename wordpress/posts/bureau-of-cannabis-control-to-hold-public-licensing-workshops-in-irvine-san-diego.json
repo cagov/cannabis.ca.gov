@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_date": "2018-01-23T18:24:00",
+    "updated_date": "2021-06-14T19:16:55",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6047,
+    "slug": "bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego",
+    "title": "Bureau of Cannabis Control to Hold Public Licensing Workshops in Irvine &amp; San Diego",
+    "author": "Department of Cannabis Control",
+    "date": "2018-01-23T18:24:00",
+    "modified": "2021-06-14T19:16:55",
+    "date_gmt": "2018-01-23T18:24:00",
+    "modified_gmt": "2021-06-14T19:16:55",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/23/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego/",
+    "file_path_html": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego.html",
+    "file_path_json": "posts/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host public licensing workshops in Irvine on January 25 and in San Diego on January 26.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "CalCannabis Cultivation Licensing",
+      "California",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

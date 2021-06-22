@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2020-09-11T16:11:00",
+    "updated_date": "2021-06-14T19:15:58",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5977,
+    "slug": "cannabis-advisory-committee-to-hold-virtual-meeting-in-september",
+    "title": "Cannabis Advisory Committee To Hold Virtual Meeting In September",
+    "author": "Department of Cannabis Control",
+    "date": "2020-09-11T16:11:00",
+    "modified": "2021-06-14T19:15:58",
+    "date_gmt": "2020-09-11T16:11:00",
+    "modified_gmt": "2021-06-14T19:15:58",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/11/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
+    "file_path_html": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-in-september.html",
+    "file_path_json": "posts/cannabis-advisory-committee-to-hold-virtual-meeting-in-september.json",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, September 24 and Friday, September 25, 2020.</p>\n",
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau",
+      "Bureau of Cannabis Control",
+      "California",
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

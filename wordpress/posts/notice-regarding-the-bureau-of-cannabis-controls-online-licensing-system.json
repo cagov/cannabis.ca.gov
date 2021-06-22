@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "created_date": "2018-06-11T22:21:00",
+    "updated_date": "2021-06-14T19:16:37",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6244,
+    "slug": "notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system",
+    "title": "Notice Regarding the Bureau of Cannabis Control&#8217;s Online Licensing System",
+    "author": "Department of Cannabis Control",
+    "date": "2018-06-11T22:21:00",
+    "modified": "2021-06-14T19:16:37",
+    "date_gmt": "2018-06-11T22:21:00",
+    "modified_gmt": "2021-06-14T19:16:37",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
+    "file_path_html": "posts/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system.html",
+    "file_path_json": "posts/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system.json",
+    "excerpt": "<p>Beginning at 8:00 AM on Saturday, June 9, 2018, you will not be able the access the Bureau’s online licensing system while it undergoes maintenance necessary to implement the new emergency regulations.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Adult-use",
+      "Announcement",
+      "Bureau of Cannabis Control",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

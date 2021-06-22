@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "created_date": "2019-01-08T18:38:00",
+    "updated_date": "2021-06-14T19:16:20",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6219,
+    "slug": "notice-regarding-temporary-cannabis-cultivation-license-applications",
+    "title": "Notice Regarding Temporary Cannabis Cultivation License Applications",
+    "author": "Department of Cannabis Control",
+    "date": "2019-01-08T18:38:00",
+    "modified": "2021-06-14T19:16:20",
+    "date_gmt": "2019-01-08T18:38:00",
+    "modified_gmt": "2021-06-14T19:16:20",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/01/08/notice-regarding-temporary-cannabis-cultivation-license-applications/",
+    "file_path_html": "posts/notice-regarding-temporary-cannabis-cultivation-license-applications.html",
+    "file_path_json": "posts/notice-regarding-temporary-cannabis-cultivation-license-applications.json",
+    "excerpt": "<p>Attention CalCannabis Cultivation Licensing Stakeholders: On December 31, 2018, the authority for the California Department of Food and Agriculture (CDFA) to issue temporary cannabis cultivation licenses expired.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Annual",
+      "Annual license",
+      "CalCannabis",
+      "CalCannabis Cultivation Licensing",
+      "California Department of Food and Agriculture",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

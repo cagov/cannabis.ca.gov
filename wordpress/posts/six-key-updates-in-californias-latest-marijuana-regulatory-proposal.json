@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "created_date": "2017-06-16T21:37:00",
+    "updated_date": "2021-06-14T19:17:15",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main/wordpress"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6288,
+    "slug": "six-key-updates-in-californias-latest-marijuana-regulatory-proposal",
+    "title": "Six Key Updates in California&#8217;s Latest Marijuana Regulatory Proposal",
+    "author": "Department of Cannabis Control",
+    "date": "2017-06-16T21:37:00",
+    "modified": "2021-06-14T19:17:15",
+    "date_gmt": "2017-06-16T21:37:00",
+    "modified_gmt": "2021-06-14T19:17:15",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/06/16/six-key-updates-in-californias-latest-marijuana-regulatory-proposal/",
+    "file_path_html": "posts/six-key-updates-in-californias-latest-marijuana-regulatory-proposal.html",
+    "file_path_json": "posts/six-key-updates-in-californias-latest-marijuana-regulatory-proposal.json",
+    "excerpt": "<p>State lawmakers on Monday unveiled compromise marijuana regulation legislation that attempts to meld rules for recreational and medical growing, sales and use.</p>\n",
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      null,
+      null,
+      null
+    ]
+  }
+}
