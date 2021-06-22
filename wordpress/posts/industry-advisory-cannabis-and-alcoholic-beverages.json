@@ -14,6 +14,8 @@
   "data": {
     "id": 6239,
     "slug": "industry-advisory-cannabis-and-alcoholic-beverages",
+    "title": "Industry Advisory: Cannabis and Alcoholic Beverages",
+    "author": "Department of Cannabis Control",
     "date": "2018-07-25T21:23:00",
     "modified": "2021-06-14T19:16:33",
     "date_gmt": "2018-07-25T21:23:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Industry Advisory: Cannabis and Alcoholic Beverages",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/25/industry-advisory-cannabis-and-alcoholic-beverages/",
     "file_path_html": "posts/industry-advisory-cannabis-and-alcoholic-beverages.html",
     "file_path_json": "posts/industry-advisory-cannabis-and-alcoholic-beverages.json",

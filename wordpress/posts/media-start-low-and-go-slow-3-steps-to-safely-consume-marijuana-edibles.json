@@ -14,6 +14,8 @@
   "data": {
     "id": 6281,
     "slug": "media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles",
+    "title": "Media: ‘Start Low and Go Slow’ – 3 Steps to Safely Consume Marijuana Edibles",
+    "author": "Department of Cannabis Control",
     "date": "2017-08-09T19:04:00",
     "modified": "2021-06-14T19:17:13",
     "date_gmt": "2017-08-09T19:04:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Media: ‘Start Low and Go Slow’ – 3 Steps to Safely Consume Marijuana Edibles",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/08/09/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles/",
     "file_path_html": "posts/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles.html",
     "file_path_json": "posts/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles.json",

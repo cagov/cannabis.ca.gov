@@ -14,6 +14,8 @@
   "data": {
     "id": 6188,
     "slug": "california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report",
+    "title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
+    "author": "Department of Cannabis Control",
     "date": "2019-12-18T23:15:00",
     "modified": "2021-06-14T19:15:52",
     "date_gmt": "2019-12-18T23:15:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/",
     "file_path_html": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.html",
     "file_path_json": "posts/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report.json",

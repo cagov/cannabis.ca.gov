@@ -14,6 +14,8 @@
   "data": {
     "id": 6059,
     "slug": "cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing",
+    "title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
+    "author": "Department of Cannabis Control",
     "date": "2017-11-18T00:34:00",
     "modified": "2021-06-14T19:17:03",
     "date_gmt": "2017-11-18T00:34:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
     "file_path_html": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.html",
     "file_path_json": "posts/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing.json",

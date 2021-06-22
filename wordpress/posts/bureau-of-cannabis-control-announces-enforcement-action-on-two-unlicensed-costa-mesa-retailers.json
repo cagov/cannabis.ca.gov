@@ -14,6 +14,8 @@
   "data": {
     "id": 6196,
     "slug": "bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers",
+    "title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
+    "author": "Department of Cannabis Control",
     "date": "2019-06-21T16:20:00",
     "modified": "2021-06-14T19:16:03",
     "date_gmt": "2019-06-21T16:20:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/21/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers.json",

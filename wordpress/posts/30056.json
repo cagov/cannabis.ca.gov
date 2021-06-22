@@ -14,6 +14,8 @@
   "data": {
     "id": 6222,
     "slug": "30056",
+    "title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
+    "author": "Department of Cannabis Control",
     "date": "2018-12-11T00:52:00",
     "modified": "2021-06-14T19:16:21",
     "date_gmt": "2018-12-11T00:52:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/11/30056/",
     "file_path_html": "posts/30056.html",
     "file_path_json": "posts/30056.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 5980,
     "slug": "state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals",
+    "title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
+    "author": "Department of Cannabis Control",
     "date": "2020-05-14T17:37:00",
     "modified": "2021-06-14T19:15:46",
     "date_gmt": "2020-05-14T17:37:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
     "file_path_html": "posts/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals.html",
     "file_path_json": "posts/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals.json",

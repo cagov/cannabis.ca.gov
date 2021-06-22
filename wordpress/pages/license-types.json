@@ -14,6 +14,8 @@
   "data": {
     "id": 719,
     "slug": "license-types",
+    "title": "License types",
+    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:40",
     "modified": "2021-06-19T15:26:48",
     "date_gmt": "2021-06-19T15:07:40",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "title": "License types",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/license-types/",
     "file_path_html": "pages/license-types.html",
     "file_path_json": "pages/license-types.json",

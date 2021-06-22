@@ -14,6 +14,8 @@
   "data": {
     "id": 6287,
     "slug": "a-major-problem-for-the-cannabis-business-banks-keep-staying-away",
+    "title": "A Major Problem For The Cannabis Business: Banks Keep Staying Away",
+    "author": "Department of Cannabis Control",
     "date": "2017-07-08T01:58:00",
     "modified": "2021-06-14T19:17:15",
     "date_gmt": "2017-07-08T01:58:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "A Major Problem For The Cannabis Business: Banks Keep Staying Away",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/08/a-major-problem-for-the-cannabis-business-banks-keep-staying-away/",
     "file_path_html": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.html",
     "file_path_json": "posts/a-major-problem-for-the-cannabis-business-banks-keep-staying-away.json",

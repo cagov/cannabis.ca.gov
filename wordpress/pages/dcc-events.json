@@ -14,6 +14,8 @@
   "data": {
     "id": 7799,
     "slug": "dcc-events",
+    "title": "Department of Cannabis Control events",
+    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:12:14",
     "modified": "2021-06-20T21:50:52",
     "date_gmt": "2021-06-19T15:12:14",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "title": "Department of Cannabis Control events",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
     "file_path_html": "pages/dcc-events.html",
     "file_path_json": "pages/dcc-events.json",

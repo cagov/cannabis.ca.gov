@@ -14,6 +14,8 @@
   "data": {
     "id": 716,
     "slug": "track-and-trace",
+    "title": "Track and Trace",
+    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:52",
     "modified": "2021-06-19T15:26:50",
     "date_gmt": "2021-06-19T15:07:52",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "title": "Track and Trace",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/track-and-trace/",
     "file_path_html": "pages/track-and-trace.html",
     "file_path_json": "pages/track-and-trace.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 6253,
     "slug": "new-reference-guides-for-cannabis-cultivation-license-applicants",
+    "title": "New Reference Guides for Cannabis Cultivation License Applicants",
+    "author": "Department of Cannabis Control",
     "date": "2018-05-02T18:01:00",
     "modified": "2021-06-14T19:16:44",
     "date_gmt": "2018-05-02T18:01:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "New Reference Guides for Cannabis Cultivation License Applicants",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/02/new-reference-guides-for-cannabis-cultivation-license-applicants/",
     "file_path_html": "posts/new-reference-guides-for-cannabis-cultivation-license-applicants.html",
     "file_path_json": "posts/new-reference-guides-for-cannabis-cultivation-license-applicants.json",

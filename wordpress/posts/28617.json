@@ -14,6 +14,8 @@
   "data": {
     "id": 6033,
     "slug": "28617",
+    "title": "State Cannabis Licensing Authorities Publish Proposed Regulations",
+    "author": "Department of Cannabis Control",
     "date": "2018-07-13T17:08:00",
     "modified": "2021-06-14T19:16:35",
     "date_gmt": "2018-07-13T17:08:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "State Cannabis Licensing Authorities Publish Proposed Regulations",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/13/28617/",
     "file_path_html": "posts/28617.html",
     "file_path_json": "posts/28617.json",

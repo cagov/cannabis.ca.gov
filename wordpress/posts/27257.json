@@ -14,6 +14,8 @@
   "data": {
     "id": 6074,
     "slug": "27257",
+    "title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
+    "author": "Department of Cannabis Control",
     "date": "2017-09-06T19:55:00",
     "modified": "2021-06-14T19:17:11",
     "date_gmt": "2017-09-06T19:55:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/06/27257/",
     "file_path_html": "posts/27257.html",
     "file_path_json": "posts/27257.json",

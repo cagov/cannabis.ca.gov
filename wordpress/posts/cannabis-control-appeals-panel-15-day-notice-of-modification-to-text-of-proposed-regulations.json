@@ -14,6 +14,8 @@
   "data": {
     "id": 6230,
     "slug": "cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations",
+    "title": "Cannabis Control Appeals Panel 15-Day Notice of Modification to Text of Proposed Regulations",
+    "author": "Department of Cannabis Control",
     "date": "2018-10-19T20:38:00",
     "modified": "2021-06-14T19:16:26",
     "date_gmt": "2018-10-19T20:38:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Cannabis Control Appeals Panel 15-Day Notice of Modification to Text of Proposed Regulations",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/10/19/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations/",
     "file_path_html": "posts/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations.json",

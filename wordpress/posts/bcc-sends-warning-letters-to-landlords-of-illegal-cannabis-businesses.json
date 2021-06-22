@@ -14,6 +14,8 @@
   "data": {
     "id": 5990,
     "slug": "bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses",
+    "title": "BCC Sends Warning Letters To Landlords of Illegal Cannabis Businesses",
+    "author": "Department of Cannabis Control",
     "date": "2019-11-26T21:40:00",
     "modified": "2021-06-14T19:15:53",
     "date_gmt": "2019-11-26T21:40:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "BCC Sends Warning Letters To Landlords of Illegal Cannabis Businesses",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/26/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses/",
     "file_path_html": "posts/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses.html",
     "file_path_json": "posts/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses.json",

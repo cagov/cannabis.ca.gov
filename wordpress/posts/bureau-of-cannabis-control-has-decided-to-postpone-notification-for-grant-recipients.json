@@ -14,6 +14,8 @@
   "data": {
     "id": 6180,
     "slug": "bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients",
+    "title": "Bureau of Cannabis Control has decided to postpone notification for grant recipients",
+    "author": "Department of Cannabis Control",
     "date": "2020-11-06T20:41:00",
     "modified": "2021-06-14T19:15:42",
     "date_gmt": "2020-11-06T20:41:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Bureau of Cannabis Control has decided to postpone notification for grant recipients",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/11/06/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients/",
     "file_path_html": "posts/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients.html",
     "file_path_json": "posts/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients.json",

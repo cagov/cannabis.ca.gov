@@ -14,6 +14,8 @@
   "data": {
     "id": 6332,
     "slug": "media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento",
+    "title": "Bureau of Medical Cannabis Regulation to Hold Public Regulation Hearing in Sacramento",
+    "author": "Department of Cannabis Control",
     "date": "2017-06-16T17:49:00",
     "modified": "2021-06-12T07:28:05",
     "date_gmt": "2017-06-16T17:49:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
-    "title": "Bureau of Medical Cannabis Regulation to Hold Public Regulation Hearing in Sacramento",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/06/16/media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento/",
     "file_path_html": "posts/media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.html",
     "file_path_json": "posts/media-advisory-bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-sacramento.json",

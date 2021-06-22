@@ -14,6 +14,8 @@
   "data": {
     "id": 6003,
     "slug": "bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses",
+    "title": "Bureau of Cannabis Control Addresses Statutory Changes to Obtain Provisional Cannabis Licenses",
+    "author": "Department of Cannabis Control",
     "date": "2019-07-03T21:59:00",
     "modified": "2021-06-14T19:16:02",
     "date_gmt": "2019-07-03T21:59:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Bureau of Cannabis Control Addresses Statutory Changes to Obtain Provisional Cannabis Licenses",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/07/03/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses/",
     "file_path_html": "posts/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses.html",
     "file_path_json": "posts/bureau-of-cannabis-control-addresses-statutory-changes-to-obtain-provisional-cannabis-licenses.json",

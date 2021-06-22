@@ -14,6 +14,8 @@
   "data": {
     "id": 5994,
     "slug": "bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients",
+    "title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
+    "author": "Department of Cannabis Control",
     "date": "2019-10-09T19:37:00",
     "modified": "2021-06-14T19:15:56",
     "date_gmt": "2019-10-09T19:37:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients.json",

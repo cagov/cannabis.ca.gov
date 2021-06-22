@@ -14,6 +14,8 @@
   "data": {
     "id": 6327,
     "slug": "cannabis-advisory-committee-meeting-in-san-diego",
+    "title": "Cannabis Advisory Committee Meeting in San Diego",
+    "author": "Department of Cannabis Control",
     "date": "2018-07-09T18:22:00",
     "modified": "2021-06-14T19:16:35",
     "date_gmt": "2018-07-09T18:22:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
-    "title": "Cannabis Advisory Committee Meeting in San Diego",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/cannabis-advisory-committee-meeting-in-san-diego/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-san-diego.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-san-diego.json",

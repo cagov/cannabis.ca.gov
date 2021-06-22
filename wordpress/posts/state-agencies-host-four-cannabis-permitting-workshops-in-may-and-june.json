@@ -14,6 +14,8 @@
   "data": {
     "id": 6207,
     "slug": "state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june",
+    "title": "State Agencies Host Four Cannabis Permitting Workshops in May and June",
+    "author": "Department of Cannabis Control",
     "date": "2019-04-12T22:24:00",
     "modified": "2021-06-14T19:16:10",
     "date_gmt": "2019-04-12T22:24:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "State Agencies Host Four Cannabis Permitting Workshops in May and June",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/12/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june/",
     "file_path_html": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.html",
     "file_path_json": "posts/state-agencies-host-four-cannabis-permitting-workshops-in-may-and-june.json",

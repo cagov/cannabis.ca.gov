@@ -14,6 +14,8 @@
   "data": {
     "id": 6250,
     "slug": "california-senate-passes-bill-to-create-banks-for-pot-businesses",
+    "title": "California Senate passes bill to create banks for pot businesses",
+    "author": "Department of Cannabis Control",
     "date": "2018-05-31T21:36:00",
     "modified": "2021-06-14T19:16:40",
     "date_gmt": "2018-05-31T21:36:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "California Senate passes bill to create banks for pot businesses",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/31/california-senate-passes-bill-to-create-banks-for-pot-businesses/",
     "file_path_html": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.html",
     "file_path_json": "posts/california-senate-passes-bill-to-create-banks-for-pot-businesses.json",

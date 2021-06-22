@@ -14,6 +14,8 @@
   "data": {
     "id": 6186,
     "slug": "draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program",
+    "title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
+    "author": "Department of Cannabis Control",
     "date": "2019-12-24T20:47:00",
     "modified": "2021-06-14T19:15:51",
     "date_gmt": "2019-12-24T20:47:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
     "file_path_html": "posts/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program.html",
     "file_path_json": "posts/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program.json",

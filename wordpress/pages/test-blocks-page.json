@@ -14,6 +14,8 @@
   "data": {
     "id": 8132,
     "slug": "test-blocks-page",
+    "title": "Test Blocks Page",
+    "author": "chach.sikes",
     "date": "2021-06-22T14:33:23",
     "modified": "2021-06-22T14:34:06",
     "date_gmt": "2021-06-22T14:33:23",
@@ -23,12 +25,9 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "title": "Test Blocks Page",
-    "author": "chach.sikes",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/test-blocks-page/",
     "file_path_html": "pages/test-blocks-page.html",
     "file_path_json": "pages/test-blocks-page.json",
-    "excerpt": "",
     "parent": 0,
     "menu_order": 0
   }

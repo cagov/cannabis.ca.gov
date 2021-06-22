@@ -14,6 +14,8 @@
   "data": {
     "id": 5996,
     "slug": "governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic",
+    "title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+    "author": "Department of Cannabis Control",
     "date": "2019-09-18T19:51:00",
     "modified": "2021-06-14T19:15:58",
     "date_gmt": "2019-09-18T19:51:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/18/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
     "file_path_html": "posts/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic.html",
     "file_path_json": "posts/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic.json",

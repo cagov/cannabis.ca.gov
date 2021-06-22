@@ -14,6 +14,8 @@
   "data": {
     "id": 6021,
     "slug": "bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity",
+    "title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
+    "author": "Department of Cannabis Control",
     "date": "2018-11-02T21:59:00",
     "modified": "2021-06-14T19:16:23",
     "date_gmt": "2018-11-02T21:59:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
     "file_path_html": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.html",
     "file_path_json": "posts/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 6264,
     "slug": "important-information-for-cannabis-distributors",
+    "title": "Important Information for Cannabis Distributors",
+    "author": "Department of Cannabis Control",
     "date": "2018-03-13T17:45:00",
     "modified": "2021-06-14T19:16:49",
     "date_gmt": "2018-03-13T17:45:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Important Information for Cannabis Distributors",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/13/important-information-for-cannabis-distributors/",
     "file_path_html": "posts/important-information-for-cannabis-distributors.html",
     "file_path_json": "posts/important-information-for-cannabis-distributors.json",

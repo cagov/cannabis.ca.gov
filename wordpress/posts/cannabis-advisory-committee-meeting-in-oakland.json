@@ -14,6 +14,8 @@
   "data": {
     "id": 6328,
     "slug": "cannabis-advisory-committee-meeting-in-oakland",
+    "title": "Cannabis Advisory Committee Meeting in Oakland",
+    "author": "Department of Cannabis Control",
     "date": "2018-05-07T22:18:00",
     "modified": "2021-06-14T19:16:43",
     "date_gmt": "2018-05-07T22:18:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Cannabis Advisory Committee Meeting in Oakland",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/07/cannabis-advisory-committee-meeting-in-oakland/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-oakland.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-oakland.json",

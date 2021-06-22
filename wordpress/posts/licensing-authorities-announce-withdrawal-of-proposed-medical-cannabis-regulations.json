@@ -14,6 +14,8 @@
   "data": {
     "id": 6068,
     "slug": "licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations",
+    "title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
+    "author": "Department of Cannabis Control",
     "date": "2017-09-29T20:42:00",
     "modified": "2021-06-14T19:17:08",
     "date_gmt": "2017-09-29T20:42:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
     "file_path_html": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.html",
     "file_path_json": "posts/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations.json",

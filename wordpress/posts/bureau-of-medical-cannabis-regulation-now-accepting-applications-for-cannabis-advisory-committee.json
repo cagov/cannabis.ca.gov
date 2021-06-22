@@ -14,6 +14,8 @@
   "data": {
     "id": 6294,
     "slug": "bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee",
+    "title": "Bureau of Medical Cannabis Regulation Now Accepting Applications for Cannabis Advisory Committee",
+    "author": "Department of Cannabis Control",
     "date": "2017-04-27T21:13:00",
     "modified": "2021-06-14T19:17:22",
     "date_gmt": "2017-04-27T21:13:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Bureau of Medical Cannabis Regulation Now Accepting Applications for Cannabis Advisory Committee",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/27/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee/",
     "file_path_html": "posts/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee.html",
     "file_path_json": "posts/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee.json",

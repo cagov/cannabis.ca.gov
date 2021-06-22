@@ -14,6 +14,8 @@
   "data": {
     "id": 6297,
     "slug": "marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver",
+    "title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
+    "author": "Department of Cannabis Control",
     "date": "2017-04-21T21:09:00",
     "modified": "2021-06-14T19:17:21",
     "date_gmt": "2017-04-21T21:09:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
     "file_path_html": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.html",
     "file_path_json": "posts/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver.json",

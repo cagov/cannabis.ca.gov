@@ -14,6 +14,8 @@
   "data": {
     "id": 6212,
     "slug": "new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products",
+    "title": "New Resources for Packaging and Labeling of Cannabis and Cannabis Products",
+    "author": "Department of Cannabis Control",
     "date": "2019-03-08T00:15:00",
     "modified": "2021-06-14T19:16:12",
     "date_gmt": "2019-03-08T00:15:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "New Resources for Packaging and Labeling of Cannabis and Cannabis Products",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/08/new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products/",
     "file_path_html": "posts/new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products.html",
     "file_path_json": "posts/new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products.json",

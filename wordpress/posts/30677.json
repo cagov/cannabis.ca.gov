@@ -14,6 +14,8 @@
   "data": {
     "id": 6217,
     "slug": "30677",
+    "title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
+    "author": "Department of Cannabis Control",
     "date": "2019-01-09T22:16:00",
     "modified": "2021-06-14T19:16:19",
     "date_gmt": "2019-01-09T22:16:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/01/09/30677/",
     "file_path_html": "posts/30677.html",
     "file_path_json": "posts/30677.json",

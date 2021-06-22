@@ -14,6 +14,8 @@
   "data": {
     "id": 6022,
     "slug": "cannabis-advisory-committee-meeting-in-fresno",
+    "title": "Cannabis Advisory Committee Meeting in Fresno",
+    "author": "Department of Cannabis Control",
     "date": "2018-11-01T20:07:00",
     "modified": "2021-06-14T19:16:24",
     "date_gmt": "2018-11-01T20:07:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Cannabis Advisory Committee Meeting in Fresno",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/01/cannabis-advisory-committee-meeting-in-fresno/",
     "file_path_html": "posts/cannabis-advisory-committee-meeting-in-fresno.html",
     "file_path_json": "posts/cannabis-advisory-committee-meeting-in-fresno.json",

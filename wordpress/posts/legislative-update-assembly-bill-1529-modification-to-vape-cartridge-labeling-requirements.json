@@ -14,6 +14,8 @@
   "data": {
     "id": 6191,
     "slug": "legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements",
+    "title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
+    "author": "Department of Cannabis Control",
     "date": "2019-10-29T22:48:00",
     "modified": "2021-06-14T19:15:55",
     "date_gmt": "2019-10-29T22:48:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/10/29/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/",
     "file_path_html": "posts/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements.html",
     "file_path_json": "posts/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements.json",

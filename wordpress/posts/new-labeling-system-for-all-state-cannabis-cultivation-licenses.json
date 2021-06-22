@@ -14,6 +14,8 @@
   "data": {
     "id": 6190,
     "slug": "new-labeling-system-for-all-state-cannabis-cultivation-licenses",
+    "title": "New Labeling System for All State Cannabis Cultivation Licenses",
+    "author": "Department of Cannabis Control",
     "date": "2019-11-05T20:38:00",
     "modified": "2021-06-14T19:15:55",
     "date_gmt": "2019-11-05T20:38:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "New Labeling System for All State Cannabis Cultivation Licenses",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/05/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
     "file_path_html": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.html",
     "file_path_json": "posts/new-labeling-system-for-all-state-cannabis-cultivation-licenses.json",

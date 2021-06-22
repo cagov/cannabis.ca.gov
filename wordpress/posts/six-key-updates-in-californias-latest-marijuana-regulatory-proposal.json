@@ -14,6 +14,8 @@
   "data": {
     "id": 6288,
     "slug": "six-key-updates-in-californias-latest-marijuana-regulatory-proposal",
+    "title": "Six Key Updates in California&#8217;s Latest Marijuana Regulatory Proposal",
+    "author": "Department of Cannabis Control",
     "date": "2017-06-16T21:37:00",
     "modified": "2021-06-14T19:17:15",
     "date_gmt": "2017-06-16T21:37:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Six Key Updates in California&#8217;s Latest Marijuana Regulatory Proposal",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/06/16/six-key-updates-in-californias-latest-marijuana-regulatory-proposal/",
     "file_path_html": "posts/six-key-updates-in-californias-latest-marijuana-regulatory-proposal.html",
     "file_path_json": "posts/six-key-updates-in-californias-latest-marijuana-regulatory-proposal.json",

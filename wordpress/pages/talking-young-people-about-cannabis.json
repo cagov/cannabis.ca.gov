@@ -14,6 +14,8 @@
   "data": {
     "id": 697,
     "slug": "talking-young-people-about-cannabis",
+    "title": "Talking to young people about cannabis",
+    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:40",
     "modified": "2021-06-19T15:26:50",
     "date_gmt": "2021-06-19T15:07:40",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "title": "Talking to young people about cannabis",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/talking-young-people-about-cannabis/",
     "file_path_html": "pages/talking-young-people-about-cannabis.html",
     "file_path_json": "pages/talking-young-people-about-cannabis.json",

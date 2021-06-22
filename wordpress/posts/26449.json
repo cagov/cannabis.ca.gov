@@ -14,6 +14,8 @@
   "data": {
     "id": 6302,
     "slug": "26449",
+    "title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
+    "author": "Department of Cannabis Control",
     "date": "2017-04-20T21:59:00",
     "modified": "2021-06-14T19:17:21",
     "date_gmt": "2017-04-20T21:59:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/26449/",
     "file_path_html": "posts/26449.html",
     "file_path_json": "posts/26449.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 7429,
     "slug": "announcements",
+    "title": "Announcements",
+    "author": "chach.sikes",
     "date": "2021-06-15T21:40:52",
     "modified": "2021-06-19T15:28:03",
     "date_gmt": "2021-06-15T21:40:52",
@@ -24,12 +26,9 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
-    "title": "Announcements",
-    "author": "chach.sikes",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/announcements/",
     "file_path_html": "pages/announcements.html",
     "file_path_json": "pages/announcements.json",
-    "excerpt": "",
     "parent": 856,
     "menu_order": 0
   }

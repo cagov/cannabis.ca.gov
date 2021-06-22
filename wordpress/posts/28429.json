@@ -14,6 +14,8 @@
   "data": {
     "id": 6257,
     "slug": "28429",
+    "title": "Cannabis Cultivation Licensees: Compliance &#038; Enforcement Inspections Are In Progress",
+    "author": "Department of Cannabis Control",
     "date": "2018-04-13T19:12:00",
     "modified": "2021-06-14T19:16:45",
     "date_gmt": "2018-04-13T19:12:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Cannabis Cultivation Licensees: Compliance &#038; Enforcement Inspections Are In Progress",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/13/28429/",
     "file_path_html": "posts/28429.html",
     "file_path_json": "posts/28429.json",

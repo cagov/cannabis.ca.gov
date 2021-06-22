@@ -14,6 +14,8 @@
   "data": {
     "id": 6263,
     "slug": "cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities",
+    "title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
+    "author": "Department of Cannabis Control",
     "date": "2018-03-23T18:19:00",
     "modified": "2021-06-14T19:16:47",
     "date_gmt": "2018-03-23T18:19:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
     "file_path_html": "posts/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities.html",
     "file_path_json": "posts/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities.json",

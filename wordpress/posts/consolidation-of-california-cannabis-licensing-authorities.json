@@ -14,6 +14,8 @@
   "data": {
     "id": 6184,
     "slug": "consolidation-of-california-cannabis-licensing-authorities",
+    "title": "Consolidation of California Cannabis Licensing Authorities",
+    "author": "Department of Cannabis Control",
     "date": "2020-01-10T20:58:00",
     "modified": "2021-06-14T19:15:50",
     "date_gmt": "2020-01-10T20:58:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Consolidation of California Cannabis Licensing Authorities",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/10/consolidation-of-california-cannabis-licensing-authorities/",
     "file_path_html": "posts/consolidation-of-california-cannabis-licensing-authorities.html",
     "file_path_json": "posts/consolidation-of-california-cannabis-licensing-authorities.json",

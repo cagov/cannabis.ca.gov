@@ -14,6 +14,8 @@
   "data": {
     "id": 6279,
     "slug": "upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network",
+    "title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
+    "author": "Department of Cannabis Control",
     "date": "2017-09-25T16:18:00",
     "modified": "2021-06-14T19:17:10",
     "date_gmt": "2017-09-25T16:18:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/25/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
     "file_path_html": "posts/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network.html",
     "file_path_json": "posts/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 6322,
     "slug": "cannabis-control-appeals-panel-meeting-june-19-2019",
+    "title": "Cannabis Control Appeals Panel Meeting &#8211; June 19, 2019",
+    "author": "Department of Cannabis Control",
     "date": "2019-06-17T22:35:00",
     "modified": "2021-06-14T19:16:04",
     "date_gmt": "2019-06-17T22:35:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
-    "title": "Cannabis Control Appeals Panel Meeting &#8211; June 19, 2019",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/17/cannabis-control-appeals-panel-meeting-june-19-2019/",
     "file_path_html": "posts/cannabis-control-appeals-panel-meeting-june-19-2019.html",
     "file_path_json": "posts/cannabis-control-appeals-panel-meeting-june-19-2019.json",

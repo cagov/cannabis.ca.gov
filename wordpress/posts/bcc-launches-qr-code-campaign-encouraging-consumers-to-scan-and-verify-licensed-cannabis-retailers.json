@@ -14,6 +14,8 @@
   "data": {
     "id": 5987,
     "slug": "bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers",
+    "title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
+    "author": "Department of Cannabis Control",
     "date": "2019-12-19T21:13:00",
     "modified": "2021-06-14T19:15:51",
     "date_gmt": "2019-12-19T21:13:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
     "file_path_html": "posts/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers.html",
     "file_path_json": "posts/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers.json",

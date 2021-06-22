@@ -14,6 +14,8 @@
   "data": {
     "id": 6000,
     "slug": "california-department-of-justice-releases-new-medicinal-cannabis-guidelines",
+    "title": "California Department of Justice Releases New Medicinal Cannabis Guidelines",
+    "author": "Department of Cannabis Control",
     "date": "2019-08-07T19:14:00",
     "modified": "2021-06-14T19:15:59",
     "date_gmt": "2019-08-07T19:14:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "California Department of Justice Releases New Medicinal Cannabis Guidelines",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/08/07/california-department-of-justice-releases-new-medicinal-cannabis-guidelines/",
     "file_path_html": "posts/california-department-of-justice-releases-new-medicinal-cannabis-guidelines.html",
     "file_path_json": "posts/california-department-of-justice-releases-new-medicinal-cannabis-guidelines.json",

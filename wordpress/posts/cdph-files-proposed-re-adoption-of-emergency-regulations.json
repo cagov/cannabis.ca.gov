@@ -14,6 +14,8 @@
   "data": {
     "id": 6251,
     "slug": "cdph-files-proposed-re-adoption-of-emergency-regulations",
+    "title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
+    "author": "Department of Cannabis Control",
     "date": "2018-05-29T16:12:00",
     "modified": "2021-06-14T19:16:40",
     "date_gmt": "2018-05-29T16:12:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/29/cdph-files-proposed-re-adoption-of-emergency-regulations/",
     "file_path_html": "posts/cdph-files-proposed-re-adoption-of-emergency-regulations.html",
     "file_path_json": "posts/cdph-files-proposed-re-adoption-of-emergency-regulations.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 6335,
     "slug": "bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-los-angeles",
+    "title": "Bureau of Medical Cannabis Regulation to Hold Public Regulation Hearing in Los Angeles",
+    "author": "Department of Cannabis Control",
     "date": "2017-06-05T19:13:00",
     "modified": "2021-06-14T19:17:17",
     "date_gmt": "2017-06-05T19:13:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Bureau of Medical Cannabis Regulation to Hold Public Regulation Hearing in Los Angeles",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/06/05/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-los-angeles/",
     "file_path_html": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-los-angeles.html",
     "file_path_json": "posts/bureau-of-medical-cannabis-regulation-to-hold-public-regulation-hearing-in-los-angeles.json",

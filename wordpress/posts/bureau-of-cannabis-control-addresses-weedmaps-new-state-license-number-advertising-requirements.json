@@ -14,6 +14,8 @@
   "data": {
     "id": 5999,
     "slug": "bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements",
+    "title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
+    "author": "Department of Cannabis Control",
     "date": "2019-08-22T22:44:00",
     "modified": "2021-06-14T19:16:00",
     "date_gmt": "2019-08-22T22:44:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
     "file_path_html": "posts/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements.html",
     "file_path_json": "posts/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements.json",

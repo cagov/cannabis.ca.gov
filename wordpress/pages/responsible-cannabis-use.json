@@ -14,6 +14,8 @@
   "data": {
     "id": 705,
     "slug": "responsible-cannabis-use",
+    "title": "Responsible cannabis use",
+    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:40",
     "modified": "2021-06-19T15:26:49",
     "date_gmt": "2021-06-19T15:07:40",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "title": "Responsible cannabis use",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/responsible-cannabis-use/",
     "file_path_html": "pages/responsible-cannabis-use.html",
     "file_path_json": "pages/responsible-cannabis-use.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 5995,
     "slug": "investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs",
+    "title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+    "author": "Department of Cannabis Control",
     "date": "2019-09-26T21:30:00",
     "modified": "2021-06-14T19:15:57",
     "date_gmt": "2019-09-26T21:30:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/26/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
     "file_path_html": "posts/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs.html",
     "file_path_json": "posts/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs.json",

@@ -14,6 +14,8 @@
   "data": {
     "id": 5971,
     "slug": "bureau-of-cannabis-control-announces-new-api-for-license-search-data",
+    "title": "Bureau Of Cannabis Control Announces New API For License Search Data",
+    "author": "Department of Cannabis Control",
     "date": "2020-11-17T18:20:00",
     "modified": "2021-06-14T19:15:42",
     "date_gmt": "2020-11-17T18:20:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "title": "Bureau Of Cannabis Control Announces New API For License Search Data",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
     "file_path_html": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.html",
     "file_path_json": "posts/bureau-of-cannabis-control-announces-new-api-for-license-search-data.json",

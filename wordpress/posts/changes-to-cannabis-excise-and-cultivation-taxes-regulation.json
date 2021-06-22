@@ -14,6 +14,8 @@
   "data": {
     "id": 6189,
     "slug": "changes-to-cannabis-excise-and-cultivation-taxes-regulation",
+    "title": "Changes to Cannabis Excise and Cultivation Taxes Regulation",
+    "author": "Department of Cannabis Control",
     "date": "2019-11-19T01:03:00",
     "modified": "2021-06-14T19:15:55",
     "date_gmt": "2019-11-19T01:03:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Changes to Cannabis Excise and Cultivation Taxes Regulation",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/",
     "file_path_html": "posts/changes-to-cannabis-excise-and-cultivation-taxes-regulation.html",
     "file_path_json": "posts/changes-to-cannabis-excise-and-cultivation-taxes-regulation.json",

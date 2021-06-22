@@ -14,6 +14,8 @@
   "data": {
     "id": 6300,
     "slug": "migrant-workers-are-making-thousands-trimming-marijuana-in-california",
+    "title": "Migrant workers are making thousands trimming marijuana in California",
+    "author": "Department of Cannabis Control",
     "date": "2017-04-20T22:29:00",
     "modified": "2021-06-14T19:17:20",
     "date_gmt": "2017-04-20T22:29:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Migrant workers are making thousands trimming marijuana in California",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/migrant-workers-are-making-thousands-trimming-marijuana-in-california/",
     "file_path_html": "posts/migrant-workers-are-making-thousands-trimming-marijuana-in-california.html",
     "file_path_json": "posts/migrant-workers-are-making-thousands-trimming-marijuana-in-california.json",

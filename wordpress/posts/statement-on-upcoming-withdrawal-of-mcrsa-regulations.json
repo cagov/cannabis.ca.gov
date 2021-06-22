@@ -14,6 +14,8 @@
   "data": {
     "id": 6283,
     "slug": "statement-on-upcoming-withdrawal-of-mcrsa-regulations",
+    "title": "Statement on Upcoming Withdrawal of MCRSA Regulations",
+    "author": "Department of Cannabis Control",
     "date": "2017-07-26T21:00:00",
     "modified": "2021-06-14T19:17:13",
     "date_gmt": "2017-07-26T21:00:00",
@@ -24,8 +26,6 @@
       "_et_gb_content_width": ""
     },
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "title": "Statement on Upcoming Withdrawal of MCRSA Regulations",
-    "author": "Department of Cannabis Control",
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/07/26/statement-on-upcoming-withdrawal-of-mcrsa-regulations/",
     "file_path_html": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.html",
     "file_path_json": "posts/statement-on-upcoming-withdrawal-of-mcrsa-regulations.json",
