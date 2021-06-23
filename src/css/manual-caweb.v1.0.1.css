@@ -445,6 +445,19 @@ div.goog-te-gadget {
     margin-right: 30px;
   }
 }
+/* serp page search */
+.search-container.active {
+  background: none;
+}
+.search-container.active .search-textfield {
+  border: 1px solid !important;
+  border-color: #2f4c2c !important;
+  height: 40px !important;
+  border-radius: 5px;
+}
+#main-content .container:before {
+  background: none !important;
+}
 /* End -- Google Search
   
   /* START -- Main Content */
