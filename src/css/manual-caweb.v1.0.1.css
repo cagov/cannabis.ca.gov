@@ -515,39 +515,49 @@ ol.steps li:first-child:before {
 }
 ol.steps li:nth-child(2):before {
   content: "2";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(3):before {
   content: "3";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(4):before {
   content: "4";
+  margin-left: 3px;
 }
 ol.steps li:nth-child(5):before {
   content: "5";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(6):before {
   content: "6";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(7):before {
   content: "7";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(8):before {
   content: "8";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(9):before {
   content: "9";
+  margin-left: -1px;
 }
 ol.steps li:nth-child(10):before {
   content: "10";
-  padding: 6px 10px 8px 10px;
+  padding: 8px 7px 8px 7px;
+  margin-left: -1px;
 }
 ol.steps li:nth-child(11):before {
   content: "11";
-  padding: 6px 12px 8px 12px;
+  padding: 8px 10px 8px 10px;
 }
 ol.steps li:nth-child(12):before {
   content: "12";
-  padding: 8px 7px 8px 7px;
+  padding: 8px 8px 8px 8px;
+  margin-left: -1px;
 }
 ol.steps li:nth-child(13):before {
   content: "13";
@@ -559,7 +569,8 @@ ol.steps li:nth-child(14):before {
 }
 ol.steps li:nth-child(15):before {
   content: "15";
-  padding: 8px 7px 8px 7px;
+  padding: 8px 7px 8px 8px;
+    margin-left: 3px;
 }
 ol.steps li:nth-child(16):before {
   content: "16";
