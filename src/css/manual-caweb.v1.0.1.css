@@ -146,7 +146,7 @@ div.goog-te-gadget {
     position: absolute;
     width: 100%;
     left: 0px;
-    bottom: 50px;
+    bottom: 55px;
   }
   .fixed.compact .header-organization-banner {
     max-height: 55px;
@@ -171,8 +171,8 @@ div.goog-te-gadget {
   .navigation-search {
     padding-left: 0px !important;
   }
-  .main-navigation {
-    margin-top: 0;
+  .full-width-nav .main-navigation {
+    margin-top: 5px;
     padding-left: 0px;
     min-height: 55px;
   }
@@ -220,6 +220,11 @@ div.goog-te-gadget {
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
     outline: 1px solid #efefef;
   }
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn:focus {
+    outline: 2px solid #fdb81e !important;
+    outline-offset: -2px;
+  }
+
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]::after {
     content: "";
     position: absolute;
@@ -275,11 +280,13 @@ div.goog-te-gadget {
   }
   .main-nav-icons {
     height: unset !important;
+    justify-content: flex-start;
   }
   .mobile-controls .toggle-search {
     width: unset !important;
     height: unset !important;
     font-size: 1rem;
+    margin-left: 0;
   }
 
   .toggle-search:after {
@@ -338,7 +345,7 @@ div.goog-te-gadget {
     border-bottom: none !important;
   }
   a.second-level-link {
-    padding: 10px 15px 10px 10px !important;
+    padding: 10px 15px 10px 15px !important;
   }
 }
 /* end mobile navigation */
@@ -348,7 +355,8 @@ div.goog-te-gadget {
 }
 .main-navigation.dropdown .sub-nav ul li {
   background-color: #ffffff;
-  padding-left: 7px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .second-level-nav > li:focus,
 .second-level-nav > li:hover {
@@ -359,6 +367,11 @@ div.goog-te-gadget {
 }
 .top-level-nav .nav-item {
   font-size: 1.125rem;
+}
+a.second-level-link {padding-left: 15px;}
+a.second-level-link:focus {
+  outline: 2px solid #fdb81e;
+    outline-offset: -2px;
 }
 
 /* END -- Navigation */
@@ -619,7 +632,6 @@ ol.steps li:last-child {
   border-left: none;
 }
 
-
 /* END -- Main Content */
 
 /* START -- Footer */
@@ -777,6 +789,10 @@ ol.steps li:last-child {
   border-color: #043747;
   background-color: #f9f9fa;
 }
+/* enable back-to-top in mobile */
+@media (max-width: 767px) {
+.return-top.is-visible {display: block !important;} 
+}
 /* END -- back to top */
 
 /* temporary accordion override */
@@ -801,3 +817,5 @@ cagov-accordion .cagov-accordion-card {
   }
 }
 /* END -- page footer */
+
+
