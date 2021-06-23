@@ -4,14 +4,18 @@
   "description": "cannabis.ca.gov client side scripts bundle containing CA design system web components",
   "main": "index.js",
   "scripts": {
-    "bundle": "rollup --config rollup.config.js"
+    "bundle:all": "rollup --config rollup.config.js",
+    "bundle:accordion": "rollup --config rollup.accordion.config.js",
+    "bundle": "npm run bundle:accordion && npm run bundle:all"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.0",
+    "@cagov/ds-feedback": "^1.0.0",
     "@cagov/ds-minus": "^1.0.0",
+    "@cagov/ds-pagination": "^1.0.0",
     "@cagov/ds-plus": "^1.0.0"
   },
   "devDependencies": {
