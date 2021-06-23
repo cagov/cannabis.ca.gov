@@ -818,4 +818,5 @@ cagov-accordion .cagov-accordion-card {
 }
 /* END -- page footer */
 
-
+/* Some manual style? Who added it? */
+.cagov-card svg { max-height: 25px; }
