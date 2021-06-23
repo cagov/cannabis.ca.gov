@@ -220,10 +220,6 @@ div.goog-te-gadget {
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
     outline: 1px solid #efefef;
   }
-  .full-width-nav .main-navigation .top-level-nav .first-level-btn:focus {
-    outline: 2px solid #fdb81e !important;
-    outline-offset: -2px;
-  }
 
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]::after {
     content: "";
@@ -818,4 +814,5 @@ cagov-accordion .cagov-accordion-card {
 }
 /* END -- page footer */
 
-
+/* Some manual style? Who added it? */
+.cagov-card svg { max-height: 25px; }
