@@ -478,27 +478,29 @@ div.goog-te-gadget {
 /* step list */
 ol.steps {
   padding-left: 0 !important;
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 ol.steps li {
   list-style: none;
   border-left: 5px solid #fec02f;
   font-size: 1.75rem;
   font-weight: 700;
+  position: relative;
+  padding-left: 45px;
 }
 ol.steps li:before {
   content: "";
   font-family: "Public Sans";
   font-size: 1.75rem;
   font-weight: 700;
-  margin-right: -10px;
-  padding: 6px 15px 8px 15px;
+  padding: 8px 13px 8px 13px;
   border: 5px solid #fec02f;
   background-color: #fff;
   border-radius: 50px;
   text-align: center;
-  position: relative;
-  right: 31px;
+  position: absolute;
+  left: -29px;
+  top: -10px;
 }
 ol.steps li span.has-black-color {
   margin-top: 1rem;
@@ -506,11 +508,10 @@ ol.steps li span.has-black-color {
   font-size: 1.125rem;
   font-weight: 500;
   display: block;
-  margin-left: 50px;
 }
 ol.steps li:first-child:before {
   content: "1";
-  padding: 6px 18px 8px 18px;
+  padding: 6px 15px 8px 15px;
 }
 ol.steps li:nth-child(2):before {
   content: "2";
@@ -546,55 +547,55 @@ ol.steps li:nth-child(11):before {
 }
 ol.steps li:nth-child(12):before {
   content: "12";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(13):before {
   content: "13";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(14):before {
   content: "14";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(15):before {
   content: "15";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(16):before {
   content: "16";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(17):before {
   content: "17";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(18):before {
   content: "18";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(19):before {
   content: "19";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 7px 8px 7px;
 }
 ol.steps li:nth-child(20):before {
   content: "20";
-  padding: 6px 7px 8px 7px;
+  padding: 6px 5px 8px 5px;
 }
 ol.steps li:nth-child(21):before {
   content: "21";
-  padding: 6px 9px 8px 9px;
+  padding: 8px 6px 8px 6px;
 }
 ol.steps li:nth-child(22):before {
   content: "22";
-  padding: 6px 7px 8px 7px;
+  padding: 6px 5px 8px 5px;
 }
 ol.steps li:nth-child(23):before {
   content: "23";
-  padding: 6px 7px 8px 7px;
+  padding: 6px 5px 8px 5px;
 }
 ol.steps li:nth-child(24):before {
   content: "24";
-  padding: 6px 7px 8px 7px;
+  padding: 6px 5px 8px 5px;
 }
 ol.steps li:last-child {
   border-left: none;
