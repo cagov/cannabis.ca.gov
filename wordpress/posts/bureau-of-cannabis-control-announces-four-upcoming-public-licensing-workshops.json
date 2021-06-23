@@ -2,7 +2,6 @@
   "meta": {
     "created_date": "2017-12-29T20:03:00",
     "updated_date": "2021-06-14T19:16:58",
-    "foo": 1,
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
