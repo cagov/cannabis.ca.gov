@@ -40,3 +40,8 @@ $returnTop.on('click', function () {
     });
     return;
 });
+
+// Adding ethnio script
+let newScript2 = document.createElement("script");
+newScript2.src = "https://ethn.io/17561.js";
+document.querySelector('head').appendChild(newScript2);
