@@ -1,7 +1,7 @@
 /* GLOBAL */
 a:focus,
 button:focus {
-  outline: solid 2px #fdb81e;
+  outline: solid 2px #fdb81e !important;
 }
 /* Changing site's global max width */
 @media (min-width: 1280px) {
