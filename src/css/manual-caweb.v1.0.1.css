@@ -251,6 +251,12 @@ div.goog-te-gadget {
 
 /*Navigation mobile*/
 @media (max-width: 991px) {
+  .nav-item:focus, .nav-item:hover, nav-item-search:focus, nav-item-search:hover {
+    background-color: #fff;
+  }
+  .main-navigation.dropdown .sub-nav {
+    max-width: 100%;
+  }
   .first-level-btn,
   .first-level-link {
     border-bottom: none !important;
