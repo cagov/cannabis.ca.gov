@@ -221,6 +221,7 @@ div.goog-te-gadget {
     outline: 1px solid #efefef;
   }
 
+
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]::after {
     content: "";
     position: absolute;
@@ -626,6 +627,14 @@ ol.steps li:nth-child(24):before {
 }
 ol.steps li:last-child {
   border-left: none;
+}
+/* border styles */
+.wp-block-table {
+  background: none !important;
+  border:none !important
+}
+.wp-block-table table, .wp-block-table table th, .wp-block-table table td {
+  border:1px solid #ededef !important;
 }
 
 /* END -- Main Content */
