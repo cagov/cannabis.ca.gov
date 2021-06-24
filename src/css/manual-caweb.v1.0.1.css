@@ -687,6 +687,10 @@ ol.steps li:last-child {
   height: 40px;
   margin-top: 10px;
 }
+.footer-links a:focus {
+  outline: solid 2px #fdb81e !important;
+  color: #000 !important;
+}
 /* footer mobile */
 @media (max-width: 767px) {
   .footer-links {
