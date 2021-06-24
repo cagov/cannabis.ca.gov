@@ -5,6 +5,8 @@ $(document).ready(function () {
 
 // Move mobile icons before brandin
 $(".mobile-controls").insertBefore(".branding");
+// menu toggle button switch places with search toggle button in mobile
+$(".toggle-menu").insertBefore(".toggle-search");
 // place alert button after alert text
 $(".alert-link").insertAfter(".alert-text");
 });
@@ -40,3 +42,8 @@ $returnTop.on('click', function () {
     });
     return;
 });
+
+// Adding ethnio script
+let newScript2 = document.createElement("script");
+newScript2.src = "https://ethn.io/17561.js";
+document.querySelector('head').appendChild(newScript2);
