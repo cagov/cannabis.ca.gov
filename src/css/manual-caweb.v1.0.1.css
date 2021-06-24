@@ -222,6 +222,9 @@ div.goog-te-gadget {
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
     outline: 1px solid #efefef;
   }
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]:focus {
+    outline: 1px solid #efefef !important;
+  }
 
 
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]::after {
