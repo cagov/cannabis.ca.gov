@@ -283,7 +283,7 @@ div.goog-te-gadget {
     width: unset !important;
     height: unset !important;
     font-size: 1rem;
-    margin-left: 0;
+    margin-left: 25px;
   }
 
   .toggle-search:after {
@@ -303,7 +303,8 @@ div.goog-te-gadget {
   .mobile-controls .toggle-menu {
     height: unset !important;
     width: unset !important;
-    margin-left: 0.75rem;
+    margin-left: -10px;
+    margin-top: -2px;
   }
   .mobile-controls .toggle-menu:focus {
     outline: 2px solid #fdb81e;
