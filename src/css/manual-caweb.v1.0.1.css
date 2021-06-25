@@ -1,3 +1,5 @@
+#ethnio-campaign-theme {left: 45px !important;}
+
 /* GLOBAL */
 a:focus,
 button:focus {
@@ -219,6 +221,9 @@ div.goog-te-gadget {
   /*Sub navigation styles */
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
     outline: 1px solid #efefef;
+  }
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]:focus {
+    outline: 1px solid #efefef !important;
   }
 
 
