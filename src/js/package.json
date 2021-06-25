@@ -13,9 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.3",
-    "@cagov/ds-feedback": "^1.0.1",
+    "@cagov/ds-feedback": "^1.0.2",
     "@cagov/ds-minus": "^1.0.0",
-    "@cagov/ds-pagination": "^1.0.0",
+    "@cagov/ds-pagination": "^1.0.1",
     "@cagov/ds-plus": "^1.0.0"
   },
   "devDependencies": {
