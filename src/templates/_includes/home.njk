@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Cannabis.ca.gov</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+</head>
+<body>
+
+  {% include "../../components/utility-header/utility-header.html" %}
+  {% include "../../components/branding/branding.html" %}
+  {% include "../../components/navigation/navigation.html" %}
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  {% include "../../components/site-footer/site-footer.html" %}
+  {% include "../../components/footer/footer.html" %}
+
+</body>
+</html>

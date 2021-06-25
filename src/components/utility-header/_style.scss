@@ -1,0 +1,129 @@
+/*official*/
+
+.official-header {
+	background-color: $gray-100;
+	padding: 5px 0 5px 0;
+	width: 100%;
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		box-sizing: border-box;
+		max-width: $w-lg;
+		margin: 0 auto;
+		padding: 0 10px 0 10px;
+	}
+
+	.ofiicial-logo {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+
+		.cagov-logo {
+			margin:0 10px;
+		}
+	}
+
+	svg {
+		padding: 0;
+		.ca {
+			fill: $secondary;
+		}
+		.gov {
+			fill: $primary-dark;
+		}
+	}
+
+	.official-tag {
+		margin: 0 10px;
+	}
+
+	.official-languages a {
+		color: $black;
+		padding: 0 0.5rem 0 0.5rem;
+
+		&:hover {
+			color: $primary-dark;
+		}
+	}
+
+	.official-languages {
+		display: flex;
+		flex-wrap: wrap;
+		.dropdown {position: relative;}
+		// languages button
+		button.offcial-more {
+			padding-right: 0;
+			border: none;
+			text-decoration: underline;
+			background-color: $white;
+			transition: transform .3s;
+
+			&:hover {
+				color: $primary-dark;
+			}
+			&[aria-expanded="false"] {
+				.caret-down {
+					transition: all .3s;
+					svg {
+						padding: 0 0 0 0;
+						width: 20px;
+						height: 18px;
+						overflow: visible;
+						position: relative;
+						right: 5px;
+					}
+				}
+				
+				
+			}
+			&[aria-expanded="true"] {
+				.caret-down {
+					transition: transform .3s;
+					svg {
+						padding: 0 0 0 0;
+						width: 20px;
+						height: 18px;
+						position: relative;
+						top: 8px;
+						left: 4px;
+						overflow: visible;
+						transform: rotate(180deg);
+					}
+				}
+			}
+		}
+
+		.dropdown-content {
+			background-clip: padding-box;
+			background-color: $white;
+			border: 1px solid $primary;
+			border-radius: 0.25rem;
+			padding: 15px;
+			position: absolute;
+			right: 0px;
+			top: 100%;
+			text-align: left;
+			z-index: 1000;
+			min-width: 150px;
+			display: none;
+			&.show {
+				display: flex;
+				flex-direction:column;
+			}
+		}
+	}
+}
+
+
+/* sticky header */
+@media (min-width: 768px) {
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 99;
+	  }
+}
+
