@@ -1,0 +1,632 @@
+/**
+ CA Design System Page CSS
+ This style inherits from updates to the CA State Template (an HTML based style template.)
+ https://github.com/Office-of-Digital-Innovation/California-State-Template/blob/cannabis/source/scss/cagov/type.scss
+
+ The css variables and properties are set in a custom theme css file and added to WordPress (with CAWeb theme installed under CA Web Options Custom CSS, as a file and a manual override. 
+ Currently in: https://github.com/cagov/cannabis.ca.gov/tree/main/src/css
+ * colorscheme-cannabis.v1.0.7.min.css (or latest increment) - sets css variables and main page typography.
+ * manual-caweb.v1.0.1.css
+
+ The manual override contains style overrides for the Site Header and Footer elements.
+ This file applies global layout styles for the page container, main content region.
+
+ Additionally Custom Gutenberg blocks may have additional styles.
+ Any imported Web components may also be bundled with their CSS.
+
+Editor styles: in editor.css. 
+Typography and styles are re-implemented for the editor. Editor css needs to target specific block editor classes.
+
+*/
+
+/* PAGE CONTAINER */
+/* Design system page container */
+
+/* First Block has a top margin */
+#main-content {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.page-container-ds {
+  max-width: 1147px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-content-ds {
+  margin-top: 32px;
+  max-width: 100%;
+}
+
+/* Single column layout */
+.single-column {
+  max-width: 1147px;
+  margin: 0 auto;
+}
+
+/* SIDEBAR */
+/* Based on EveryLayout sidebar: https://every-layout.dev/layouts/sidebar/. 
+ Intention: We are keeping a clean and clear page-container so that we can do more css for design prototypes without requiring full integration with Wordpress Theme until user testing and research has concluding and layouts and templates are finalized.
+ We are interested to use more of these kinds of layouts. 
+ Talk to Koji for more information.
+ See also: https://shop.smashingmagazine.com/products/inclusive-design-patterns
+
+ Integration with CAWeb theme. For any main page elements that need to also render in the default template, the suffix is -default for layouts in the main theme, and -ds for layouts that are tied to templates provided by the design system WP code.
+*/
+
+.sidebar-container {
+  display: block;
+  width: 276px;
+  max-width: 276px;
+}
+
+.with-sidebar .main-content-default,
+.with-sidebar .ds-content-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.with-sidebar.has-sidebar-left .main-content-default>*,
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout>.everylayout {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 267px;
+  flex-grow: 1;
+}
+
+.with-sidebar.has-sidebar-left .main-content-default> :last-child,
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout>.everylayout:last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+.with-sidebar.has-sidebar-right .main-content-default,
+.with-sidebar.has-sidebar-right .main-content-ds .ds-content-layout>.everylayout {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+.with-sidebar.has-sidebar-right .main-content-default>*> :last-child,
+.with-sidebar.has-sidebar-right .main-content-ds .ds-content-layout> :last-child {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 267px;
+  flex-grow: 1;
+}
+
+.with-sidebar.page-container-ds.has-sidebar-left main {
+  margin-left: 64px;
+  margin-right: 20px;
+}
+
+.with-sidebar.page-container-ds.has-sidebar-right main {
+  margin-right: 64px;
+  margin-left: 20px;
+}
+
+/* BREADCRUMB */
+
+.with-sidebar .main-container-ds {
+  max-width: 877px;
+}
+/* 
+.with-sidebar.page-container-default .breadcrumb {
+  margin-bottom: 0px;
+} */
+/* 
+.with-sidebar.page-container-ds .breadcrumb {
+  margin-bottom: 64px;
+} */
+
+.breadcrumb {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 64px;
+  background-color: #F9F9FA;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.breadcrumb a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  text-underline-position: under;
+}
+
+.breadcrumb span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* .page-container-default {
+  margin-top: 210px;
+  margin-bottom: -170px;
+} */
+
+/* Category label */
+.page-container-ds main category-label ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+.page-container-ds main category-label ul {
+  margin: 0;
+  text-indent: 0;
+  padding: 0;
+}
+
+category-label {
+  color: #000;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+category-label a {
+  color: #000;
+  font-weight: 700;
+}
+
+time {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+category-label a {
+  color: #000;
+  font-weight: 700;
+}
+
+/* CONTENT NAVIGATION */
+sidebar cagov-content-navigation .label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.2px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+sidebar cagov-content-navigation ul,
+sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+  margin: 0;
+  text-indent: 0;
+  padding: 0;
+}
+
+sidebar cagov-content-navigation ul li {
+  padding-top: 16px;
+  /* padding-bottom: 16px; */
+  /* margin-bottom: 16px; */
+  margin-top: 16px;
+  border-top: 1px solid #EDEDEF;
+  line-height: 28.2px;
+}
+
+sidebar cagov-content-navigation ul li:first-child {
+  margin-top: 0px;
+}
+
+/* CONTENT FOOTER */
+
+.per-page-feedback-container {}
+
+.content-footer-container {
+  border-bottom: 1px solid #EDEDEF;
+  border-top: 1px solid #EDEDEF;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.content-footer {
+  max-width: 1176px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content-footer .menu-section.menu-section-social {
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+.menu-section {
+  margin-right: 24px;
+}
+
+.menu-section ul,
+.menu-section ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.menu-section ul li {
+  margin-right: 24px;
+}
+
+.menu-section .content-menu-links a {
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #064E66;
+  text-underline-offset: 2px;
+}
+
+.content-menu-links,
+.social-links-container {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.content-footer .logo-small {
+  width: 45px;
+  height: 45px;
+}
+
+/* PAGE BEHAVIORS */
+
+/* Hide Mobile title, lives outside flex aligned elements and before content navigation, desktop page title is inside main. */
+.narrow-page-title {
+  display: none;
+}
+
+/* Gutenberg Block alignment */
+
+/* Class applied to most external element of a gutenberg block component. Controls spacing between blocks. */
+.cagov-stack {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Apply same spacing mechanism as cagov-stack, but overriding default gutenberg block element classes */
+.wp-block-columns {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* TYPOGRAPHY */
+h1.page-title {
+  margin: 0 0 0 0;
+  padding: 0 0 24px 0;
+}
+
+/* Override cagov 50px left spacing */
+.page-container-ds main ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+  padding: 0 0 0 20px;
+}
+
+/* Update position list element */
+main ul li {
+  list-style-position: outside;
+}
+
+/* link underline not used in cannabis designs */
+.main-content a.cagov-card {
+  text-decoration: none;
+}
+
+/* Remove any margins from tags in Gutenberg blocks */
+
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
+  margin: 0;
+}
+
+/* Fix issue with default theme that has a style we are not using */
+.non_divi_builder.title_not_displayed .main-primary {
+  padding-top: 32px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .with-sidebar .main-content-default,
+  .with-sidebar .ds-content-layout {
+      display: block;
+  }
+
+
+  article {
+      display: block;
+  }
+
+  /* BREADCRUMB */
+  .breadcrumb a.crumb,
+  .breadcrumb span.crumb {
+      display: none;
+  }
+
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18.8px;
+      color: #064E66;
+  }
+
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+      padding: 0;
+  }
+
+  .breadcrumb {
+      display: block;
+      margin-top: 48px;
+      margin-bottom: 16px;
+      background-color: transparent;
+      padding: 0;
+  }
+
+  .with-sidebar.page-container-ds .breadcrumb {
+      margin-bottom: 0px;
+  }
+
+  #main-content {
+      margin-top: 16px;
+  }
+
+  .with-sidebar.page-container-ds #main-content.main-content-ds,
+  .with-sidebar.page-container-ds #main-content.main-content-ds main {
+      margin-top: 0;
+      margin-left: 0;
+  }
+
+  .with-sidebar.page-container-ds main {
+      margin-left: inherit;
+      margin-top: 32px;
+  }
+
+  /* Responsive page title */
+  .wide-page-title {
+      display: none;
+  }
+
+  .narrow-page-title {
+      display: block;
+      margin-bottom: 16px;
+      margin-top: 16px;
+  }
+
+  /* Content Navigation */
+  cagov-content-navigation .label {
+      display: none;
+  }
+
+  sidebar cagov-content-navigation ul li:last-child {
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #EDEDEF;
+  }
+
+  cagov-content-navigation ul li a {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
+  /* Typography */
+
+  h2:first-child {
+      margin-top: 16px;
+  }
+
+  /* Content Menu */
+  .content-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .content-footer .logo-small {
+      margin-bottom: 16px;
+  }
+
+  .content-footer .menu-section.menu-section-social {
+      margin-left: 0;
+      align-items: flex-start;
+  }
+
+  .menu-section ul.content-menu-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0 !important;
+  }
+
+  .content-menu-links,
+  .social-links-container {
+      margin-bottom: 0;
+      margin-top: 5px;
+  }
+
+  .menu-section ul.social-links-container {
+      padding: 0 !important;
+  }
+
+  .menu-section ul.content-menu-links li {
+      margin-bottom: 16px;
+  }
+
+  .menu-section ul.content-menu-links li {
+      margin-bottom: 16px;
+      margin-right: 0px;
+  }
+}
+
+
+/* link underline not used in cannabis designs */
+.main-content a.cagov-card {
+  text-decoration: none;
+}
+
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
+  margin: 0;
+}
+.non_divi_builder.title_not_displayed .main-primary {
+  padding-top: 32px;
+}
+/* step list */
+ol.steps {
+  padding-left: 0 !important;
+  margin-left: 30px !important;
+}
+ol.steps li {
+  list-style: none;
+  border-left: 5px solid #fec02f;
+  font-size: 1.75rem;
+  font-weight: 700;
+  position: relative;
+  padding-left: 45px;
+  line-height: 1.5;
+}
+ol.steps li:before {
+  content: "";
+  font-family: "Public Sans";
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding: 0 13px 0 13px;
+  border: 5px solid #fec02f;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  position: absolute;
+  left: -29px;
+  top: -5px;
+  margin-left: -1px;
+}
+ol.steps li span.has-black-color {
+  margin-top: 1rem;
+  padding-bottom: 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  display: block;
+}
+ol.steps li:first-child:before {
+  content: "1";
+  padding: 0 16px 0 16px;
+}
+ol.steps li:nth-child(2):before {
+  content: "2";
+}
+ol.steps li:nth-child(3):before {
+  content: "3";
+}
+ol.steps li:nth-child(4):before {
+  content: "4";
+}
+ol.steps li:nth-child(5):before {
+  content: "5";
+}
+ol.steps li:nth-child(6):before {
+  content: "6";
+}
+ol.steps li:nth-child(7):before {
+  content: "7";
+}
+ol.steps li:nth-child(8):before {
+  content: "8";
+}
+ol.steps li:nth-child(9):before {
+  content: "9";
+}
+ol.steps li:nth-child(10):before {
+  content: "10";
+  padding: 0 7px 0 7px;
+  margin-left: -1px;
+}
+ol.steps li:nth-child(11):before {
+  content: "11";
+  padding: 0 10px 0 10px;
+}
+ol.steps li:nth-child(12):before {
+  content: "12";
+  padding: 0 8px 0 8px;
+  margin-left: -1px;
+}
+ol.steps li:nth-child(13):before {
+  content: "13";
+  padding: 0 7px 0 7px;
+}
+ol.steps li:nth-child(14):before {
+  content: "14";
+  padding: 0 7px 0 7px;
+}
+ol.steps li:nth-child(15):before {
+  content: "15";
+  padding: 0 7px 0 8px;
+    margin-left: 3px;
+}
+ol.steps li:nth-child(16):before {
+  content: "16";
+  padding: 0 7px 0 7px;
+}
+ol.steps li:nth-child(17):before {
+  content: "17";
+  padding: 0 7px 0 7px;
+}
+ol.steps li:nth-child(18):before {
+  content: "18";
+  padding: 0 7px 0 7px;
+}
+ol.steps li:nth-child(19):before {
+  content: "19";
+  padding: 0 7px 0 7px;
+}
+ol.steps li:nth-child(20):before {
+  content: "20";
+  padding: 0 5px 0 5px;
+}
+ol.steps li:nth-child(21):before {
+  content: "21";
+  padding: 0 6px 0 6px;
+}
+ol.steps li:nth-child(22):before {
+  content: "22";
+  padding: 0 5px 0 5px;
+}
+ol.steps li:nth-child(23):before {
+  content: "23";
+  padding: 0 5px 0 5px;
+}
+ol.steps li:nth-child(24):before {
+  content: "24";
+  padding: 0 5px 0 5px;
+}
+ol.steps li:last-child {
+  border-left: none;
+}
+/* border styles */
+.wp-block-table {
+  background: none !important;
+  border:none !important
+}
+.wp-block-table table, .wp-block-table table th, .wp-block-table table td {
+  border:1px solid #ededef !important;
+}
+
+
+
+/* TEMPORARY WORKING OVERRIDES, if any */

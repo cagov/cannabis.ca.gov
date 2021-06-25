@@ -5,14 +5,14 @@
   "main": "index.html",
   "scripts": {
     "build-sample": "node_modules/.bin/rollup src/codemirror.js -f iife -o src/codemirror.bundle.js -p @rollup/plugin-node-resolve",
-    "build-task:scss-compile": "node-sass-chokidar --source-map true src/css/ -o pages/css/",
-    "build-task:autoprefixer": "postcss pages/css/*.css --use autoprefixer -d dist/css",
+    "build-task:scss-compile": "node-sass-chokidar --source-map true src/css/sass/ -o src/css/",
+    "regen": "npx @11ty/eleventy",
     "sass:build": "npm-run-all -p build-task:* regen",
     "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build'",
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run rollup && npm run regen'",
-    "start": "npx @11ty/eleventy --serve --input=./src/templates --output=_site",
-    "build:watch": "npx @11ty/eleventy --watch --input=./src/templates --output=_site",
-    "dev": "npm-run-all -p sass:build sass:watch build:watch js:watch serve"
+    "start": "npx @11ty/eleventy --serve",
+    "build:watch": "npx @11ty/eleventy --watch",
+    "dev": "npm-run-all -p sass:build sass:watch build:watch js:watch start"
   },
   "keywords": [],
   "author": "",
