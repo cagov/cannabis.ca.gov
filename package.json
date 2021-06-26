@@ -18,7 +18,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "node-fetch": "^2.6.1"
   },
   "dependencies": {
     "@codemirror/basic-setup": "^0.18.0",
