@@ -20,8 +20,16 @@ module.exports = function () {
               .then(e => e.json())
           )
         ).then(data => {
-          resolve(data.flat());
+          resolve(reformat(data));
         });
       });
   });
 };
+
+function reformat(data) {
+  let outputObj = {};
+  data.forEach(d => {
+    outputObj[d.slug] = d;
+  })
+  return outputObj;
+}

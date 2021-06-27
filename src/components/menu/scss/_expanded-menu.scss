@@ -1,0 +1,231 @@
+cagov-navoverlay {
+  a.expanded-menu-section-header-link {
+    /* jbum - this is to override the inherited text-decoration from .interior_page a */
+    text-decoration: none;
+  }
+
+  .expanded-menu {
+    &-grid {
+      margin: 0 auto;
+      @include tablet {
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: stretch;
+      }
+    }
+    &-col {
+      margin: 0;
+      text-align: left;
+      @include tablet {
+        padding: 0.5rem;
+      }
+    }
+    &-section {
+      text-align: left;
+      padding: 1rem 1rem;
+      @include tablet {
+        padding: 0;
+        margin-bottom: 1rem;
+        position: relative;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+      &.mobile-only {
+        @include tablet {
+          display: none;
+        }
+      }
+      @include tablet {
+        .expanded-menu-dropdown {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: auto;
+          min-width: 27rem;
+          background: #fff;
+          padding: 0;
+          border: none;
+        }
+      }
+      &.expanded {
+        @include phone {
+          .expanded-menu-dropdown {
+            max-height: 100rem;
+          }
+        }
+        @include tablet {
+          .expanded-menu-dropdown {
+            max-height: none;
+            top: 2.2rem;
+            padding: 1rem;
+            border: solid 1px #ccc;
+          }
+          .expanded-menu-section-header {
+            border: solid 1px #ccc;
+            border-bottom: none;
+          }
+        }
+        .expanded-menu-section-header-arrow-svg {
+          transform: rotate(180deg);
+        }
+      }
+      &-header {
+        display: block;
+        position: relative;
+        @include tablet {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0rem;
+          background: #fff;
+          z-index: 9;
+        }
+        &-link {
+          font-weight: normal;
+          width: 100%;
+          text-transform: none;
+          display: block;
+          text-align: left;
+          transition: $basic;
+          background: transparent;
+          border: none;
+          padding: 0.25rem 0; 
+          padding-right: .5rem; /* arrow clearence for long text */
+          border-radius: 1.2rem;
+          &:active {
+            background: transparent;
+          }
+          
+          @include tablet {
+            cursor: default;
+            width: auto;
+          }
+        }
+        &-arrow {
+          @include size(1rem, 1rem);
+          position: absolute;
+          top: 50%;
+          right: 0.5rem;
+          transform: translateY(-50%);
+          display: block;
+          transition: $slow;
+          @include tablet {
+            position: relative;
+            top: auto;
+            right: auto;
+            transform: none;
+          }
+          &-svg {
+            width: 100%;
+            display: block;
+            transition: $bounce;
+            margin-top: .3rem;
+          }
+        }
+      }
+    }
+    &-dropdown {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 0.5s $slow-curve;
+
+      &-link {
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: .5rem 0.25rem;
+        margin: 0.15rem 0 0.15rem 2px;;
+        display: table;
+        transition: color 0.3s $slow-curve;
+        border-radius: 1rem;
+        &:first-child {
+          margin-top: 0.7em;
+        }
+        @include tablet {
+          padding: 0rem 0;
+          margin: .85rem 0 0 2px;
+          line-height: 1.3rem;
+        }
+        @include desktop {
+          padding: 0rem 0;
+          line-height: 1.3rem;
+        }
+        @include phone {
+          /* padding: 0.35rem 0; */
+        }
+      }
+    }
+    &-grouping {
+      &:not(:first-child) {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  .mobile-menu-close {
+    @include size(100%, 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba($black, 0.7);
+    display: block;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: $slow;
+  }
+}
+cagov-navoverlay.display-menu {
+  overflow: hidden;
+  .expanded-menu {
+    transform: translateX(0);
+    visibility: visible;
+    @include tablet {
+      @include size(100vw, 100vh);
+      opacity: 1;
+      visibility: visible;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &.reveal-items {
+    .expanded-menu {
+      &-col,
+      &-search {
+        @include tablet {
+          transition: all 0.6s $bounce-curve;
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      &-col {
+        @include tablet {
+          &.section-get-help {
+            transition-delay: 0.15s !important;
+          }
+          &.section-health-info {
+            transition-delay: 0.3s !important;
+          }
+          &.section-working-living-safely {
+            transition-delay: 0.45s !important;
+          }
+          &.section-you-help {
+            transition-delay: 0.6s !important;
+          }
+        }
+      }
+    }
+  }
+  .mobile-menu-close {
+    opacity: 0.6;
+    visibility: visible;
+  }
+}
+cagov-navoverlay {
+  .expanded-menu-close-mobile {
+    &-svg {
+      width: 1rem;
+      transform: rotate(180deg);
+    }
+  }
+}

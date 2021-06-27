@@ -1,0 +1,20 @@
+<footer id="footer" class="global-footer hidden-print">
+  <div class="container footer-menu">
+    <div class="group">
+      <div class="full-width">
+        <ul class="footer-links">
+          {%-set univFooterLinks = menus['content-menu'].items -%}
+          {% for menu in univFooterLinks %}
+          <a href="{{ menu.url }}">{{ menu.title }}</a>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div><!-- Copyright Statement -->
+  <div class="copyright">
+    <div class="container">
+      <p class="d-inline">Copyright <span aria-hidden="true">©</span> 2021 State of California</p><span
+        class="pull-right">Powered by: CAWeb Publishing Service</span>
+    </div>
+  </div>
+</footer>

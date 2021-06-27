@@ -10,17 +10,11 @@
       </div>
     </div>
     <div class="menu-section">
-      <ul class="content-menu-links" %3$s="">
-        <li class="" title="" rel="">
-          <a href="https://staginginye.prod3.sites.ca.gov/about-us/about-dcc/" target="_blank">About us</a>
-        </li>
-        <li class="" title="" rel="">
-          <a href="https://staginginye.prod3.sites.ca.gov/about-us/contact-us/" target="_blank">Contact us</a>
-        </li>
-        <li class="" title="" rel="">
-          <a href="https://lp.constantcontactpages.com/su/RVR4SI1/CACannabisDept" target="_blank">Sign up for email
-            list</a>
-        </li>
+      <ul class="content-menu-links">
+        {%-set siteFooterMenu = menus['footer-menu'].items -%}
+        {% for menu in siteFooterMenu %}
+          <li><a href="{{ menu.url | safe }}">{{ menu.title | safe }}</a></li>
+        {% endfor %}
       </ul>
     </div>
     <div class="menu-section menu-section-social footer-social-links">

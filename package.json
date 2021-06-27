@@ -12,7 +12,9 @@
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run rollup && npm run regen'",
     "start": "npx @11ty/eleventy --serve",
     "build:watch": "npx @11ty/eleventy --watch",
-    "dev": "npm-run-all -p sass:build sass:watch build:watch js:watch start"
+    "dev": "npm-run-all -p sass:build sass:watch build:watch js:watch start",
+    "bundle:headless": "rollup --config rollup.config.js"
+  
   },
   "keywords": [],
   "author": "",
@@ -22,8 +24,11 @@
     "node-fetch": "^2.6.1"
   },
   "dependencies": {
-    "@codemirror/basic-setup": "^0.18.0",
-    "@codemirror/lang-html": "^0.18.0",
+    "@cagov/ds-accordion": "^1.0.3",
+    "@cagov/ds-feedback": "^1.0.1",
+    "@cagov/ds-minus": "^1.0.0",
+    "@cagov/ds-pagination": "^1.0.0",
+    "@cagov/ds-plus": "^1.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "autoprefixer": "^10.2.5",

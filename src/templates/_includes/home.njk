@@ -46,14 +46,20 @@
 
   {% include "../../components/utility-header/utility-header.html" %}
   {% include "../../components/branding/branding.html" %}
-  {% include "../../components/navigation/navigation.html" %}
+  {% include "nav-component.njk" %}
 
   <main>
     {{ content | safe }}
   </main>
 
   {% include "footer.njk" %}
-  {% include "../../components/footer/footer.html" %}
+  {% include "footer-universal.njk" %}
 
+  {% set js %}
+    {% include "../../../docs/js/built.js" %}
+  {% endset %}
+  <script type="module">
+    {{ js | safe }}
+  </script>
 </body>
 </html>
