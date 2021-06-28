@@ -1,21 +1,17 @@
 <div class="content-footer mb-3">
   <cagov-feedback data-endpoint-url="https://fa-go-feedback-001.azurewebsites.net/sendfeedback"></cagov-feedback>
 </div>
-<div class="content-footer-container">
-  <div class="content-footer">
-    <div class="menu-section">
-      <div class="logo-small" style="background-color: rgb(255, 255, 255);"><img
-          src="https://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/06/logo_square.png"
-          alt="Department of Cannabis Control Icon">
-      </div>
+<section aria-label="site footer" class="site-footer">
+  <div class="container">
+    <div class="footer-logo">
+      <a href="/"><img src="https://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/06/logo_square.png"
+          alt="Department of Cannabis Control Icon"></a>
     </div>
-    <div class="menu-section">
-      <ul class="content-menu-links">
-        {%-set siteFooterMenu = menus['footer-menu'].items -%}
-        {% for menu in siteFooterMenu %}
-          <li><a href="{{ menu.url | safe }}">{{ menu.title | safe }}</a></li>
-        {% endfor %}
-      </ul>
+    <div class="footer-secondary-links">
+      {%-set siteFooterMenu = menus['footer-menu'].items -%}
+      {% for menu in siteFooterMenu %}
+      <a href="{{ menu.url | safe }}">{{ menu.title | safe }}</a>
+      {% endfor %}
     </div>
     <div class="menu-section menu-section-social footer-social-links">
       <a href="https://www.facebook.com/CACannabisDept" title="Share via Facebook" target="_self">
@@ -59,4 +55,4 @@
       </a>
     </div>
   </div>
-</div>
+</section>
