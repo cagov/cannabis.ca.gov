@@ -4,7 +4,62 @@ cagov-navoverlay {
     text-decoration: none;
   }
 
+  &.display-menu {
+    .expanded-menu {
+      display: block;
+    }
+  }
+
+  .mobile-icons {
+    display: block;
+    margin-left: auto;
+    display: flex;
+  
+    .search-btn {
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: .5rem;
+      }
+    }
+    .search-btn,
+    .menu-btn {
+      border: none;
+      background: transparent;
+      overflow: visible;
+      padding: 10px 10px;
+      margin-right: 10px;
+  
+      &:hover {
+        color: $primary-dark;
+  
+        .blue {
+          fill: $primary-dark;
+        }
+      }
+      &:focus {
+        color: $primary-dark;
+        outline: 2px solid $secondary;
+      }
+  
+      svg {
+        position: relative;
+        top: 1px;
+      }  
+    }
+  }
+  @include tablet {
+    display: block;
+    .mobile-icons {
+      display: none;
+    }
+  }
+
   .expanded-menu {
+    display: none;
+    @include tablet {
+      display: block;
+    }
     &-grid {
       margin: 0 auto;
       @include tablet {
@@ -17,9 +72,6 @@ cagov-navoverlay {
     &-col {
       margin: 0;
       text-align: left;
-      @include tablet {
-        padding: 0.5rem;
-      }
     }
     &-section {
       text-align: left;
@@ -43,10 +95,15 @@ cagov-navoverlay {
           top: 0;
           left: 0;
           width: auto;
-          min-width: 27rem;
+          min-width: 20rem;
           background: #fff;
           padding: 0;
           border: none;
+        }
+      }
+      @include tablet {
+        .expanded-menu-section-header {
+          padding: .5rem .5rem 0 .5rem;
         }
       }
       &.expanded {
@@ -58,13 +115,14 @@ cagov-navoverlay {
         @include tablet {
           .expanded-menu-dropdown {
             max-height: none;
-            top: 2.2rem;
-            padding: 1rem;
+            top: 2.6rem;
+            padding: .5rem 1rem 1rem 1rem;
             border: solid 1px #ccc;
           }
           .expanded-menu-section-header {
             border: solid 1px #ccc;
             border-bottom: none;
+            margin-top: -1px;
           }
         }
         .expanded-menu-section-header-arrow-svg {
@@ -144,7 +202,7 @@ cagov-navoverlay {
         @include tablet {
           padding: 0rem 0;
           margin: .85rem 0 0 2px;
-          line-height: 1.3rem;
+          line-height: 1.75rem;
         }
         @include desktop {
           padding: 0rem 0;
@@ -160,18 +218,6 @@ cagov-navoverlay {
         margin-top: 0.5rem;
       }
     }
-  }
-  .mobile-menu-close {
-    @include size(100%, 100%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba($black, 0.7);
-    display: block;
-    z-index: 999;
-    opacity: 0;
-    visibility: hidden;
-    transition: $slow;
   }
 }
 cagov-navoverlay.display-menu {
@@ -215,10 +261,6 @@ cagov-navoverlay.display-menu {
         }
       }
     }
-  }
-  .mobile-menu-close {
-    opacity: 0.6;
-    visibility: visible;
   }
 }
 cagov-navoverlay {

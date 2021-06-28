@@ -9,6 +9,10 @@ cagov-navoverlay {
     display: inline-block;
     cursor: pointer;
     position: relative;
+
+    display: flex;
+    align-items: center;
+
     .is-fixed {
       position: fixed;
     }
@@ -48,6 +52,7 @@ cagov-navoverlay {
     transition: $basic;
     vertical-align: middle;
     z-index: 10000;
+    margin-right: .5rem;
     &-box {
       width: 20px;
       height: 20px;

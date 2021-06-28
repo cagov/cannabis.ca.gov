@@ -10,6 +10,18 @@ nav, main, footer {
   margin: 0 auto;
 }
 
+/* shouldn't need this section */
+.cagov-stack.cagov-featured-sidebar {
+  margin-top: 0;
+}
+.cagov-page-alert .body {
+  background: none;
+}
+
+.dashicons-star-filled:before {
+  background-image: url(../svg/star.svg);
+}
+
 /* my utility classes */
 .p-2 {
   padding: 2rem;
