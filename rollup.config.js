@@ -7,5 +7,5 @@ export default {
     file: 'docs/js/built.js',
     format: 'esm'
   },
-  plugins: [resolve(), terser()]
+  plugins: [resolve()] // , terser()]
 };

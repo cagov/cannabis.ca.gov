@@ -33,6 +33,23 @@ class CAGOVOverlayNav extends window.HTMLElement {
     menLabel.innerHTML =  menLabel.getAttribute('data-openlabel');
   }
 
+  closeAllMenus() {
+    const allMenus = this.querySelectorAll('.js-expandable-mobile');
+    allMenus.forEach(menu => {
+      let expandedEl = menu.closest('.expanded-menu-section');
+      expandedEl.classList.remove('expanded');
+      menu.closest('.expanded-menu-col').setAttribute('aria-expanded', 'false');
+      let closestDropDown = menu.closest('.expanded-menu-section').querySelector('.expanded-menu-dropdown');
+      if (closestDropDown) {
+        closestDropDown.setAttribute('aria-hidden', 'true');
+        let allLinks = closestDropDown.querySelectorAll("a");
+        for (var i = 0; i < allLinks.length; i++) {
+          allLinks[i].setAttribute('tabindex', '-1'); // set tabindex to -1 so you cannot tab through these hidden links
+        }
+      }
+    });
+  }
+
   expansionListeners () {
     const allMenus = this.querySelectorAll('.js-expandable-mobile');
     allMenus.forEach(menu => {
@@ -44,13 +61,27 @@ class CAGOVOverlayNav extends window.HTMLElement {
           menu.closest('.expanded-menu-col').setAttribute('aria-expanded', 'false');
         }
       }
+      let menuComponent = this;
       menu.addEventListener('click', function (event) {
         event.preventDefault();
-        this.closest('.expanded-menu-section').classList.toggle('expanded');
-        this.closest('.expanded-menu-col').setAttribute('aria-expanded', 'true');
-        const closestDropDown = this.closest('.expanded-menu-section').querySelector('.expanded-menu-dropdown');
-        if (closestDropDown) {
-          closestDropDown.setAttribute('aria-hidden', 'false');
+        let expandedEl = this.closest('.expanded-menu-section');
+        if(expandedEl) {
+          if(expandedEl.classList.contains('expanded')) {
+            // closing an open menu
+            menuComponent.closeAllMenus();
+          } else {
+            menuComponent.closeAllMenus();
+            expandedEl.classList.add('expanded');
+            this.closest('.expanded-menu-col').setAttribute('aria-expanded', 'true');
+            let closestDropDown = this.closest('.expanded-menu-section').querySelector('.expanded-menu-dropdown');
+            if (closestDropDown) {
+              closestDropDown.setAttribute('aria-hidden', 'false');
+              let allLinks = closestDropDown.querySelectorAll("a");
+              for (var i = 0; i < allLinks.length; i++) {
+                allLinks[i].removeAttribute("tabindex"); // remove tabindex from all the links
+              }
+            }
+          }
         }
       });
     });
