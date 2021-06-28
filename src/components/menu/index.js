@@ -1,10 +1,7 @@
-console.log('wtf');
-
 class CAGOVOverlayNav extends window.HTMLElement {
   connectedCallback () {
     this.menuContentFile = this.dataset.json;
     this.querySelector('.open-menu').addEventListener('click', this.toggleMainMenu.bind(this));
-    console.log('expansion listeners call')
     this.expansionListeners(); // everything is expanded by default on big screens
   }
 
