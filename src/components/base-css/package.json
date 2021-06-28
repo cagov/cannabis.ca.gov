@@ -1,14 +1,16 @@
 {
-	"name": "@cagov/starter-sass-fork-kq11c81b",
-	"version": "0.0.0",
-	"description": "",
-	"license": "ISC",
-	"type": "module",
-	"homepage": "{{ homepage }}",
-	"scripts": {
-		"serve": "dsd-cli serve eFLUQfY0zrR6dOuX5llT --open"
-	},
-	"devDependencies": {
-		"dsd-cli": "latest"
-	}
+  "name": "base-css",
+  "version": "1.0.0",
+  "description": "This component contains the baseline CSS for the design system.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass-chokidar --source-map true src/ -o dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar-cli": "^2.1.0",
+    "node-sass-chokidar": "^1.5.0"
+  }
 }
