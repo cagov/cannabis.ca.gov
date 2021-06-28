@@ -9,8 +9,6 @@ $(".mobile-controls").insertBefore(".branding");
 $(".toggle-menu").insertBefore(".toggle-search");
 // place alert button after alert text
 $(".alert-link").insertAfter(".alert-text");
-// close search button tabindex fix 
-$(".gsc-clear-button").removeAttr("tab-index").attr("tabindex", "-1");
 });
 // Insert web component bundle for client side web components like accordion
 // Compiled here: https://github.com/cagov/cannabis.ca.gov/blob/main/src/js/index.js
