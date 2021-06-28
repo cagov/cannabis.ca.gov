@@ -7,5 +7,5 @@ export default {
     file: 'index.min.js',
     format: 'esm'
   },
-  plugins: [nodeResolve(), terser()]
+  plugins: [nodeResolve()]
 };
