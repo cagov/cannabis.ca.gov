@@ -1,0 +1,25 @@
+:root {
+  --sass-color-background-body: #fff;
+  --sass-color-background: #efefef;
+  --sass-color-background-alt: #f7f7f7;
+  --sass-color-selection: #9e9e9e;
+  --sass-color-text-main: #363636;
+  --sass-color-text-bright: #000;
+  --sass-color-text-muted: #70777f;
+  --sass-color-links: #0076d1;
+  --sass-color-focus: #0096bfab;
+  --sass-color-border: #dbdbdb;
+  --sass-color-code: #000;
+  --sass-transition-duration: 0.1s;
+  --sass-color-button-hover: #ddd;
+  --sass-color-scrollbar-thumb: color-mod(
+    var(--sass-color-button-hover) lightness(-3%)
+  );
+  --sass-color-scrollbar-thumb-hover: color-mod(
+    var(--sass-color-button-hover) lightness(-10%)
+  );
+  --sass-color-form-placeholder: #949494;
+  --sass-color-form-text: #000;
+  --sass-color-variable: #39a33c;
+  --sass-color-highlight: #ff0;
+}

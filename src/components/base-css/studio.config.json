@@ -1,0 +1,34 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      "introduction",
+      [
+        "parts",
+        [
+          "base",
+          "code",
+          "forms",
+          "links",
+          "misc",
+          "print",
+          "range",
+          "typography"
+        ]
+      ],
+      [
+        "tokens",
+        [
+          "dark",
+          "light"
+        ]
+      ],
+      [
+        "infrastructure",
+        [
+          "main"
+        ]
+      ]
+    ]
+  }
+}
