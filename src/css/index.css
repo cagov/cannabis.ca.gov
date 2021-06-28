@@ -1411,6 +1411,8 @@ cagov-navoverlay .expanded-menu {
           z-index: 9; } }
       cagov-navoverlay .expanded-menu-section-header-link {
         font-weight: normal;
+        font-size: 1.2rem;
+        cursor: pointer;
         width: 100%;
         text-transform: none;
         display: block;
@@ -1426,7 +1428,6 @@ cagov-navoverlay .expanded-menu {
           background: transparent; }
         @media (min-width: 768px) {
           cagov-navoverlay .expanded-menu-section-header-link {
-            cursor: default;
             width: auto; } }
       cagov-navoverlay .expanded-menu-section-header-arrow {
         width: 1rem;

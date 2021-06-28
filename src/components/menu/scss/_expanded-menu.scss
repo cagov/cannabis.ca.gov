@@ -141,6 +141,8 @@ cagov-navoverlay {
         }
         &-link {
           font-weight: normal;
+          font-size: 1.2rem;
+          cursor: pointer;
           width: 100%;
           text-transform: none;
           display: block;
@@ -156,7 +158,6 @@ cagov-navoverlay {
           }
           
           @include tablet {
-            cursor: default;
             width: auto;
           }
         }
