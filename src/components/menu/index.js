@@ -2,7 +2,9 @@ class CAGOVOverlayNav extends window.HTMLElement {
   connectedCallback () {
     this.menuContentFile = this.dataset.json;
     this.querySelector('.open-menu').addEventListener('click', this.toggleMainMenu.bind(this));
-    this.expansionListeners(); // everything is expanded by default on big screens
+    this.expansionListeners();
+    document.addEventListener('keydown', this.escapeMainMenu.bind(this));
+    document.body.addEventListener('click',this.bodyClick.bind(this))
   }
 
   toggleMainMenu () {
@@ -30,8 +32,20 @@ class CAGOVOverlayNav extends window.HTMLElement {
     menLabel.innerHTML =  menLabel.getAttribute('data-openlabel');
   }
 
+  escapeMainMenu (event) {
+    // Close menus if user presses escape key.
+    if (event.keyCode === 27) { this.closeAllMenus(); }
+  }
+
+  bodyClick (event) {
+    if(!event.target.closest('cagov-navoverlay')) {
+      // click was made outside the menu, so close all menus
+      this.closeAllMenus();
+    }
+  }
+
   closeAllMenus() {
-    const allMenus = this.querySelectorAll('.js-expandable-mobile');
+    const allMenus = this.querySelectorAll('.js-cagov-navoverlay-expandable');
     allMenus.forEach(menu => {
       let expandedEl = menu.closest('.expanded-menu-section');
       expandedEl.classList.remove('expanded');
@@ -48,7 +62,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   }
 
   expansionListeners () {
-    const allMenus = this.querySelectorAll('.js-expandable-mobile');
+    const allMenus = this.querySelectorAll('.js-cagov-navoverlay-expandable');
     allMenus.forEach(menu => {
       const nearestMenu = menu.closest('.expanded-menu-section');
       if (nearestMenu) {
