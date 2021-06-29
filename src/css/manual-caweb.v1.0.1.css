@@ -787,7 +787,10 @@ ol.steps li:last-child {
   background-color: #fff;
   color: #064e66;
   border: 1px solid #064e66;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  bottom: 90px;
+  right:-2px;
 }
 .return-top:after {
   content: "Back to Top";
