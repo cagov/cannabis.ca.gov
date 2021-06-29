@@ -813,6 +813,7 @@ ol.steps li:last-child {
 /* enable back-to-top in mobile */
 @media (max-width: 767px) {
 .return-top.is-visible {display: block !important;} 
+.return-top:after {content: "";}
 }
 /* END -- back to top */
 
