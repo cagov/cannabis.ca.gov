@@ -46,4 +46,5 @@ $returnTop.on('click', function () {
 // Adding ethnio script
 let newScript2 = document.createElement("script");
 newScript2.src = "https://ethn.io/17561.js";
+newScript2.async = "true";
 document.querySelector('head').appendChild(newScript2);
