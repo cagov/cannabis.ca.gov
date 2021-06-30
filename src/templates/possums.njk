@@ -1,0 +1,13 @@
+---
+pagination:
+    data: wordpress
+    size: 1
+    alias: wordpress
+permalink: "{{ wordpress.dataset.data.wordpress_url }}/"
+layout: "{{ wordpress.dataset.data.title }}"
+title: "{{ wordpress.dataset.data.title }}"
+---
+
+{{ wordpress.dataset.data.template }}
+
+{{ wordpress.content | safe }}

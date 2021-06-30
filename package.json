@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build-sample": "node_modules/.bin/rollup src/codemirror.js -f iife -o src/codemirror.bundle.js -p @rollup/plugin-node-resolve",
     "build-task:scss-compile": "node-sass-chokidar --source-map true src/css/sass/ -o src/css/",
     "regen": "npx @11ty/eleventy",
     "sass:build": "npm-run-all -p build-task:* regen",
     "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build'",
-    "js:watch": "chokidar 'src/**/*.js' -c 'npm run rollup && npm run regen'",
+    "js:watch": "chokidar 'src/**/*.js' -c 'npm run bundle:headless && npm run regen'",
     "start": "npx @11ty/eleventy --serve",
     "build:watch": "npx @11ty/eleventy --watch",
     "dev": "npm-run-all -p sass:build sass:watch build:watch js:watch start",

@@ -4,13 +4,13 @@
   <title>Cannabis.ca.gov</title>
   <meta content="width=device-width,initial-scale=1" name="viewport">
   {% set css %}
-    {% include "../../css/index.css" %}
+    {% include "../../../css/index.css" %}
   {% endset %}
   {% set css2 %}
-    {% include "../../css/colorscheme-cannabis.v1.0.7.min.css" %}
+    {% include "../../../css/colorscheme-cannabis.v1.0.7.min.css" %}
   {% endset %}
   {% set css3 %}
-    {% include "../../css/manual-caweb.v1.0.1.css" %}
+    {% include "../../../css/manual-caweb.v1.0.1.css" %}
   {% endset %}
   <!-- above is messing up header branding section -->
   <style>
@@ -44,19 +44,19 @@
 </head>
 <body>
 
-  {% include "../../components/utility-header/utility-header.html" %}
-  {% include "../../components/branding/branding.html" %}
+  {% include "../../../components/utility-header/utility-header.html" %}
+  {% include "../../../components/branding/branding.html" %}
   {% include "nav-component.njk" %}
 
   <main>
     {{ content | safe }}
   </main>
 
-  {% include "footer.njk" %}
-  {% include "footer-universal.njk" %}
+  {% include "../footer.njk" %}
+  {% include "../footer-universal.njk" %}
 
   {% set js %}
-    {% include "../../../docs/js/built.js" %}
+    {% include "../../../../docs/js/built.js" %}
   {% endset %}
   <script type="module">
     {{ js | safe }}

@@ -29,7 +29,7 @@
           </strong>
           <div class="expanded-menu-dropdown">
             {% for sublink in menu['child_items'] %}
-              <a class="expanded-menu-dropdown-link js-event-hm-menu" href="{{ sublink.url | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
+              <a class="expanded-menu-dropdown-link js-event-hm-menu" href="/{{ sublink.url.replace('https://staginginye.prod3.sites.ca.gov/','') | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
             {% endfor %}
           </div>
         </div>
