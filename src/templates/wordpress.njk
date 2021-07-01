@@ -7,8 +7,7 @@ pagination:
     alias: wordpress
     addAllPagesToCollections: true
 permalink: "{{ wordpress.dataset.data.wordpress_url }}/"
-layout: "layouts/home.njk"
+layout: "layouts/index.njk"
 ---
-
 
 {{ wordpress.content | safe }}

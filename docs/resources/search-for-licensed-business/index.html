@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>The License Search Tool&nbsp;is updated daily and contains information about all of the businesses licensed&nbsp;by the Department&nbsp;of Cannabis Control.&nbsp;It can be used to:</p>
 
 <ul><li>Verify if a cannabis business is licensed</li><li>Find a cannabis retailer near you</li><li>Search for licensed cannabis businesses</li><li>File a complaint about a cannabis business</li></ul>
@@ -1066,7 +1065,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1100,11 +1099,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

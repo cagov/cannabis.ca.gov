@@ -9,11 +9,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("manualcontent", function(collection) {
     let output = [];
     collection.getAll().forEach(item => {
-      item.data.title = 'Hi'; //item.data.wordpress.dataset.data.title;
-      // item.data.layout = "layouts/page.njk";
       if(item.data.wordpress.dataset) {
         item.data.title = item.data.wordpress.dataset.data.title;
-        // item.data.layout = 'layouts/dood.njk'; //item.data.wordpress.dataset.data.layout;
       }
       output.push(item);
     });

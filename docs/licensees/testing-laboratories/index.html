@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>Testing laboratories make sure cannabis goods are safe for consumption. The Department of Cannabis Control (DCC) requires all batches of cannabis goods to be tested before they can be sold. Testing labs test cannabis goods to make sure they’re:</p>
 
 <ul><li>Free of contaminants</li><li>Labeled with accurate amounts of cannabinoids and terpenes</li></ul>
@@ -1102,7 +1101,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1136,11 +1135,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

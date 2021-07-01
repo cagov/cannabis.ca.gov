@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses. DCC regulates:</p>
 
 <ul><li>Growing of cannabis plants</li><li>Manufacture of cannabis products </li><li>Transportation and tracking of cannabis goods throughout the state </li><li>Sale of cannabis goods </li><li>Events where cannabis is sold or used </li><li>Labeling of goods sold at retail </li></ul>
@@ -1104,7 +1103,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1138,11 +1137,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

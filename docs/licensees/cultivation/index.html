@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products. Their operations look just like other agricultural operations in California. Cannabis cultivation is a multi-step process that includes:</p>
 
 <ul><li>Preparing the land</li><li>Planting seeds or clones</li><li>Irrigating and fertilizing</li><li>Using integrated pest management techniques</li><li>Harvesting plants</li><li>Drying, curing and trimming plants</li></ul>
@@ -1106,7 +1105,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1140,11 +1139,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

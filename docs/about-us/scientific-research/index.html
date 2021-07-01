@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>Cannabis is a Schedule I drug, which means there are strict rules for studying it in the United States. As a result, we do not know as much as we would like about cannabis’s effects on the body.</p>
 
 <p>Some of the revenue collected from cannabis taxes funds grants. This helps expand our knowledge about cannabis.</p>
@@ -1072,7 +1071,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1106,11 +1105,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

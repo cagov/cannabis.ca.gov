@@ -38,9 +38,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   }
 
   bodyClick (event) {
-    console.log(event.target)
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
       this.closeAllMenus();
     }
   }
@@ -74,11 +72,10 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to')
-      console.log(menu)
       menu.addEventListener('click', function (event) {
-        console.log('clicked')
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

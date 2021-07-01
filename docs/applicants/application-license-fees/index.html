@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>There are two types of fees for cannabis licenses:</p>
 
 <ul><li>Application fees &#8211; due when you submit your application. Your application is reviewed after the Department of Cannabis Control (DCC) receives your application fee.</li><li>License fees &#8211; due when your application is approved. DCC issues your license after you pay the license fee. The license fee is also due each year, when you renew the license.</li></ul>
@@ -1116,7 +1115,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1150,11 +1149,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

@@ -371,7 +371,6 @@
 
   <main>
     
-
 <p>Adults have an impact on if kids experiment with cannabis. You can help prevent underage use by:</p>
 
 <ul><li>Starting the conversation about cannabis early</li><li>Talking openly and sharing the risks of using cannabis</li><li>Listening to the questions and thoughts they have</li><li>Setting shared expectations for healthy behaviors</li></ul>
@@ -1102,7 +1101,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   bodyClick (event) {
     console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      // click was made outside the menu, so close all menus
+      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -1136,11 +1135,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
         }
       }
       let menuComponent = this;
-      console.log('adding to');
-      console.log(menu);
       menu.addEventListener('click', function (event) {
         console.log('clicked');
-        event.preventDefault();
+        if(event.target.nodeName !== 'A') {
+          event.preventDefault();
+        }
         let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {

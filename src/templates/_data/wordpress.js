@@ -1,6 +1,3 @@
-// read all the files in the wordpress directory
-// combine them into an array
-// the contents of each named file is combined into an object with the html as the content value
 const fs = require('fs');
 
 module.exports = function() {
@@ -19,7 +16,6 @@ module.exports = function() {
           let fileData = JSON.parse(fs.readFileSync('wordpress/pages/'+file,'utf8'));
           newObj.dataset = fileData;
           newObj.dataset.data.wordpress_url = cleanUrl(fileData.data.wordpress_url);
-          newObj.dataset.data.layout = chooseLayout(fileData.data.template);
           wordPressArray.push(newObj);
         }
       });
@@ -31,10 +27,4 @@ module.exports = function() {
 function cleanUrl (url) {
   let pageUrl =  url.replace('https://dev-cagov-dcc.pantheonsite.io','').replace('https://staginginye.prod3.sites.ca.gov/','');
   return pageUrl;
-}
-function chooseLayout(templateLoc) {
-  if(templateLoc && templateLoc.indexOf('/includes/templates/template-page.php') > -1) {
-    return 'layouts/page.njk'
-  }
-  return 'layouts/home.njk'
 }
