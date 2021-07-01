@@ -1362,10 +1362,17 @@ cagov-navoverlay .expanded-menu {
     text-align: left;
     padding: 1rem 1rem; }
     @media (min-width: 768px) {
+      cagov-navoverlay .expanded-menu-section.expanded {
+        z-index: 3; } }
+    cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-dropdown {
+      max-height: none;
+      top: 2.35rem; }
+    @media (min-width: 768px) {
       cagov-navoverlay .expanded-menu-section {
         padding: 0;
         margin-bottom: 1rem;
-        position: relative; }
+        position: relative;
+        z-index: -1; }
         cagov-navoverlay .expanded-menu-section:last-of-type {
           margin-bottom: 0; } }
     @media (min-width: 768px) {

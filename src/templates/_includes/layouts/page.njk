@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Cannabis.ca.gov</title>
+  {% block title %} 
+    <title>{{ title | safe }}</title>
+  {% endblock %}
   <meta content="width=device-width,initial-scale=1" name="viewport">
   {% set css %}
     {% include "../../../css/index.css" %}

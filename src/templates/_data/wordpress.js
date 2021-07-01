@@ -19,8 +19,7 @@ module.exports = function() {
           let fileData = JSON.parse(fs.readFileSync('wordpress/pages/'+file,'utf8'));
           newObj.dataset = fileData;
           newObj.dataset.data.wordpress_url = cleanUrl(fileData.data.wordpress_url);
-          newObj.dataset.data.template = chooseLayout(fileData.data.template);
-          console.log('hi '+ newObj.dataset.data.template);
+          newObj.dataset.data.layout = chooseLayout(fileData.data.template);
           wordPressArray.push(newObj);
         }
       });

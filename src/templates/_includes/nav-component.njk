@@ -9,17 +9,17 @@
       </div>
       {%-set headerLinks = menus['header-menu'].items -%}
       {% for menu in headerLinks %}
-      <div class="expanded-menu-col">
+      <div class="expanded-menu-col js-cagov-navoverlay-expandable">
         <div class="expanded-menu-section">
           <strong class="expanded-menu-section-header">
             {% if menu['child_items'] %}
-              <button class="expanded-menu-section-header-link js-cagov-navoverlay-expandable js-event-hm-menu">{{
+              <button class="expanded-menu-section-header-link js-event-hm-menu">{{
                 menu.title | safe }}</button>
             {% else %}
-              <a class="expanded-menu-section-header-link js-cagov-navoverlay-expandable js-event-hm-menu" href="{{ menu.url | safe }}">{{
+              <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url | safe }}">{{
                 menu.title | safe }}</a>
             {% endif %}
-            <span class="expanded-menu-section-header-arrow js-cagov-navoverlay-expandable"><svg width="11" height="7"
+            <span class="expanded-menu-section-header-arrow"><svg width="11" height="7"
                 class="expanded-menu-section-header-arrow-svg" viewBox="0 0 11 7" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"

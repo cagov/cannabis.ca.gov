@@ -11,7 +11,7 @@
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run bundle:headless && npm run regen'",
     "start": "npx @11ty/eleventy --serve",
     "build:watch": "npx @11ty/eleventy --watch",
-    "dev": "npm-run-all -p sass:build sass:watch build:watch js:watch start",
+    "dev": "npm-run-all -p sass:build bundle:headless sass:watch js:watch build:watch start",
     "bundle:headless": "rollup --config rollup.config.js"
   
   },

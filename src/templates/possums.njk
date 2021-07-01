@@ -1,13 +1,14 @@
 ---
+tags:
+  - wpPageCollection
 pagination:
     data: wordpress
     size: 1
     alias: wordpress
+    addAllPagesToCollections: true
 permalink: "{{ wordpress.dataset.data.wordpress_url }}/"
-layout: "{{ wordpress.dataset.data.title }}"
-title: "{{ wordpress.dataset.data.title }}"
+layout: "layouts/home.njk"
 ---
 
-{{ wordpress.dataset.data.template }}
 
 {{ wordpress.content | safe }}

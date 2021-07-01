@@ -76,10 +76,21 @@ cagov-navoverlay {
     &-section {
       text-align: left;
       padding: 1rem 1rem;
+
+      &.expanded {
+        @include tablet {
+          z-index: 3;
+        }
+        .expanded-menu-dropdown {
+          max-height: none;
+          top: 2.35rem;
+        }
+      }
       @include tablet {
         padding: 0;
         margin-bottom: 1rem;
         position: relative;
+        z-index: -1;
         &:last-of-type {
           margin-bottom: 0;
         }

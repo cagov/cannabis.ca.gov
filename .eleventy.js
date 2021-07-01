@@ -1,15 +1,24 @@
-// const pluginRss = require("@11ty/eleventy-plugin-rss");
 const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
 
-  // read all files in wordpress
-  // do this in _data
-  // the use possums data generated page example as a template
-  // assign template based on json instead of front mater
-
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
+  });
+  
+  eleventyConfig.addCollection("manualcontent", function(collection) {
+    let output = [];
+    collection.getAll().forEach(item => {
+      item.data.title = 'Hi'; //item.data.wordpress.dataset.data.title;
+      // item.data.layout = "layouts/page.njk";
+      if(item.data.wordpress.dataset) {
+        item.data.title = item.data.wordpress.dataset.data.title;
+        // item.data.layout = 'layouts/dood.njk'; //item.data.wordpress.dataset.data.layout;
+      }
+      output.push(item);
+    });
+
+    return output;
   });
 
   return {

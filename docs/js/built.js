@@ -553,6 +553,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   }
 
   bodyClick (event) {
+    console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
       // click was made outside the menu, so close all menus
       this.closeAllMenus();
@@ -562,10 +563,10 @@ class CAGOVOverlayNav extends window.HTMLElement {
   closeAllMenus() {
     const allMenus = this.querySelectorAll('.js-cagov-navoverlay-expandable');
     allMenus.forEach(menu => {
-      let expandedEl = menu.closest('.expanded-menu-section');
+      let expandedEl = menu.querySelector('.expanded-menu-section');
       expandedEl.classList.remove('expanded');
-      menu.closest('.expanded-menu-col').setAttribute('aria-expanded', 'false');
-      let closestDropDown = menu.closest('.expanded-menu-section').querySelector('.expanded-menu-dropdown');
+      menu.setAttribute('aria-expanded', 'false');
+      let closestDropDown = menu.querySelector('.expanded-menu-dropdown');
       if (closestDropDown) {
         closestDropDown.setAttribute('aria-hidden', 'true');
         let allLinks = closestDropDown.querySelectorAll("a");
@@ -579,18 +580,21 @@ class CAGOVOverlayNav extends window.HTMLElement {
   expansionListeners () {
     const allMenus = this.querySelectorAll('.js-cagov-navoverlay-expandable');
     allMenus.forEach(menu => {
-      const nearestMenu = menu.closest('.expanded-menu-section');
+      const nearestMenu = menu.querySelector('.expanded-menu-section');
       if (nearestMenu) {
         const nearestMenuDropDown = nearestMenu.querySelector('.expanded-menu-dropdown');
         if (nearestMenuDropDown) {
           nearestMenuDropDown.setAttribute('aria-hidden', 'true');
-          menu.closest('.expanded-menu-col').setAttribute('aria-expanded', 'false');
+          menu.setAttribute('aria-expanded', 'false');
         }
       }
       let menuComponent = this;
+      console.log('adding to');
+      console.log(menu);
       menu.addEventListener('click', function (event) {
+        console.log('clicked');
         event.preventDefault();
-        let expandedEl = this.closest('.expanded-menu-section');
+        let expandedEl = this.querySelector('.expanded-menu-section');
         if(expandedEl) {
           if(expandedEl.classList.contains('expanded')) {
             // closing an open menu
@@ -598,8 +602,8 @@ class CAGOVOverlayNav extends window.HTMLElement {
           } else {
             menuComponent.closeAllMenus();
             expandedEl.classList.add('expanded');
-            this.closest('.expanded-menu-col').setAttribute('aria-expanded', 'true');
-            let closestDropDown = this.closest('.expanded-menu-section').querySelector('.expanded-menu-dropdown');
+            this.setAttribute('aria-expanded', 'true');
+            let closestDropDown = this.querySelector('.expanded-menu-dropdown');
             if (closestDropDown) {
               closestDropDown.setAttribute('aria-hidden', 'false');
               let allLinks = closestDropDown.querySelectorAll("a");
