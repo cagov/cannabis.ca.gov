@@ -1,22 +1,5 @@
-// Design System Variables
-//colors
-$primary: #004abc;
-$primary-dark: #1e1569;
-$primary-light: #ccdbf2;
-$secondary: #fec02f;
-$secondary-dark: #ff8000;
-$secondary-light: #fff2d5;
-$gray-100: #f9f9fa;
-$gray-200: #ededef;
-$gray-300: #e1e0e3;
-$gray-400: #d3d2d6;
-$gray-500: #c4c3c8;
-$gray-600: #b3b2b8;
-$gray-700: #a09fa7;
-$gray-800: #6c6b77;
-$gray-900: #3f3e4d;
-$black: #000;
-$white: #fff;
+// Site Colors
+@import './colorschemes/cannabis.scss';
 
 //fonts sizes
 $body-text: 1.125rem;
@@ -40,3 +23,22 @@ $w-lg: 1140px;
 $w-md: 960px;
 $w-sm: 720px;
 $w-xs: 540px;
+
+// basic colors
+$gray-100: #f9f9fa;
+$gray-200: #ededef;
+$gray-300: #e1e0e3;
+$gray-400: #d3d2d6;
+$gray-500: #c4c3c8;
+$gray-600: #b3b2b8;
+$gray-700: #a09fa7;
+$gray-800: #6c6b77;
+$gray-900: #3f3e4d;
+$black: #000;
+$white: #fff;
+
+// Font 
+$site-font: "Public Sans",sans-serif;
+$bold: 700;
+$regular: 400;
+$light: 300;

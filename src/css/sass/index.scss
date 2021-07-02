@@ -1,6 +1,15 @@
-@import './_variables';
-@import './_normalize';
-@import './_todo'; /* need to get rid of this */
+/* GLOBAL */
+@import './_fonts'; /* website global fonts */
+@import './_variables'; /* theme colors, spasing, margin and padding values */
+@import './_base'; /* html, body, main and all the website level base styes */
+@import './_buttons'; /* buttons generic styles */
+@import './_code'; /* pre, code, var generic styles */
+@import './_forms'; /* input, textarea, select generic styles */
+@import './_links'; /* a, a:hover, a:focus */
+@import './_typography'; /* headings, p, blockqute, font styles */
+@import './_utility-classes'; /* all utility css classes that can be used (shortcodes) */
+
+/* COMPONENTS/BLOCKS */
 @import './_page-alert'; /* copied from block */
 @import './_hero'; /* copied from block */
 @import './_cards'; /* copied from blocks */

@@ -10,3 +10,9 @@
   border: 0 solid;
 }
 
+body {
+  font-family: $site-font;
+  font-size: $body-text;
+  line-height: 1.5;
+  color: $black;
+}

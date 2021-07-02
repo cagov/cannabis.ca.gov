@@ -6,41 +6,11 @@
   {% set css %}
     {% include "../../../css/index.css" %}
   {% endset %}
-  {% set css2 %}
-    {% include "../../../css/colorscheme-cannabis.v1.0.7.min.css" %}
-  {% endset %}
-  {% set css3 %}
-    {% include "../../../css/manual-caweb.v1.0.1.css" %}
-  {% endset %}
   <!-- above is messing up header branding section -->
   <style>
     {{ css | cssmin | safe }}
-    {{ css2 | cssmin | safe }}
   </style>
-  <style>
-  @supports (width: min(250px, 100%)) {
-    .cagov-grid, .cagov-grid .block-editor-block-list__layout {
-      grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
-    }
-  }
-  /* override card grid so they stack at theme breakpoint that slims main content */
-  @media (max-width: 991px) {
-    .cagov-grid,
-    .cagov-grid .block-editor-block-list__layout {
-        grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
-    }
-  }
-
-  /* New from manual CSS */
-
-  /* override card grid so they stack at theme breakpoint that slims main content */
-  @media (max-width: 991px) {
-    .cagov-grid,
-    .cagov-grid .block-editor-block-list__layout {
-      grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
-    }
-  }
-  </style>
+  
 </head>
 <body>
 

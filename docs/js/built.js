@@ -553,9 +553,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   }
 
   bodyClick (event) {
-    console.log(event.target);
     if(!event.target.closest('cagov-navoverlay')) {
-      console.log('click was made outside the menu, so close all menus');
       this.closeAllMenus();
     }
   }
@@ -590,7 +588,6 @@ class CAGOVOverlayNav extends window.HTMLElement {
       }
       let menuComponent = this;
       menu.addEventListener('click', function (event) {
-        console.log('clicked');
         if(event.target.nodeName !== 'A') {
           event.preventDefault();
         }
@@ -618,3 +615,21 @@ class CAGOVOverlayNav extends window.HTMLElement {
   }
 }
 window.customElements.define('cagov-navoverlay', CAGOVOverlayNav);
+
+var btnlang = document.querySelector('button#languages-btn');
+var droplang = document.querySelector('.dropdown-content');
+var expandattr = btnlang.getAttribute('aria-expanded');
+
+btnlang.addEventListener('click', event => {
+
+    if (expandattr == "true") {
+        expandattr = "false";
+        droplang.classList.remove("show");
+    }
+    else {
+        expandattr = "true";
+        droplang.classList.add("show");
+    }
+    btnlang.setAttribute("aria-expanded", expandattr);
+
+});
