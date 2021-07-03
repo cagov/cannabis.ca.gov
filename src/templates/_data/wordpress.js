@@ -16,6 +16,8 @@ module.exports = function() {
           let fileData = JSON.parse(fs.readFileSync('wordpress/pages/'+file,'utf8'));
           newObj.dataset = fileData;
           newObj.dataset.data.wordpress_url = cleanUrl(fileData.data.wordpress_url);
+
+          newObj.dataset.data.template = chooseTemplate(fileData.data.template);
           wordPressArray.push(newObj);
         }
       });
@@ -27,4 +29,11 @@ module.exports = function() {
 function cleanUrl (url) {
   let pageUrl =  url.replace('https://dev-cagov-dcc.pantheonsite.io','').replace('https://staginginye.prod3.sites.ca.gov/','');
   return pageUrl;
+}
+
+function chooseTemplate(template) {
+  if(template && template.indexOf('template-page-landing.php') > -1) {
+    return 'home';
+  }
+  return 'page'
 }

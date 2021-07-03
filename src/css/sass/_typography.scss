@@ -1,1 +1,26 @@
 /* Typography global styles */
+/* TYPOGRAPHY */
+h1.page-title {
+  margin: 0 0 0 0;
+  padding: 0 0 24px 0;
+}
+
+/* Remove any margins from tags in Gutenberg blocks */
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 992px) {
+  /* Typography */
+  h2:first-child {
+    margin-top: 16px;
+  }
+}

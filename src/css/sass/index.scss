@@ -1,6 +1,10 @@
 /* GLOBAL */
+// Site Colors
+@import './colorschemes/cannabis.scss'; /* theme colors */
+@import './_variables'; /* spasing, margin and padding values */
+
+/* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 @import './_fonts'; /* website global fonts */
-@import './_variables'; /* theme colors, spasing, margin and padding values */
 @import './_base'; /* html, body, main and all the website level base styes */
 @import './_buttons'; /* buttons generic styles */
 @import './_code'; /* pre, code, var generic styles */
@@ -11,20 +15,21 @@
 /* all of the above will become part of base-css component */
 
 /* COMPONENTS/BLOCKS */
-@import './_page-alert'; /* copied from block */
-@import './_hero'; /* copied from block */
-@import './_cards'; /* copied from blocks */
-/* these styles that are copied from blocks should come from an package for each design system component even if they don't have any javascript. Then the block and the cannabis style build can install that component package to get the styles from a single place. The block will also include some editor override styles */
-@import './_layouts'; /* copied from blocks repo page css file */
-@import '../../components/breadcrumb/index.scss';
-@import '../../components/content-navigation/index.scss';
-@import '../../components/step-list/index.scss';
+@import '../../components/page-alert/index'; /* copied from gutenberg custom block */
+@import '../../components/hero/index'; /* copied from block */
+@import '../../components/cards/index'; /* copied from blocks */
+@import '../../components/breadcrumb/index'; /* copied from blocks */
+@import '../../components/content-navigation/index'; /* copied from blocks */
+@import '../../components/step-list/index';
 @import './_announcement-list'; /* copied from block */
 @import '../../components/branding/_style';
 @import '../../components/utility-header/_style';
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 @import '../../components/navigation/_style';
+@import '../../components/menu/scss/_index';
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 
-@import '../../components/menu/scss/_index';
+/* page layout styles, not sure where this should go, in base-css too eventually? */
+@import './_layouts-main'; 
+@import './_layouts-sidebar'; 

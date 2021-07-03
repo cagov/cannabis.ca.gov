@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
     collection.getAll().forEach(item => {
       if(item.data.wordpress.dataset) {
         item.data.title = item.data.wordpress.dataset.data.title;
+        item.data.templatestring = item.data.wordpress.dataset.data.template;
       }
       output.push(item);
     });

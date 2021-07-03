@@ -4,35 +4,61 @@
   <title>Cannabis.ca.gov</title>
   <meta content="width=device-width,initial-scale=1" name="viewport">
   {% set css %}
-    {% include "../../../css/index.css" %}
+  {% include "../../../css/index.css" %}
   {% endset %}
   <!-- the inlined hardcoded grid css below is there because it was breaking sass compilation -->
   <style>
     {{ css | cssmin | safe }}
-    .cagov-grid, .cagov-grid .block-editor-block-list__layout {
+    .cagov-grid {
       grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     }
   </style>
-  
 </head>
+
 <body>
 
   {% include "../../../components/utility-header/utility-header.html" %}
   {% include "../../../components/branding/branding.html" %}
   {% include "nav-component.njk" %}
 
-  <main class="page-container-ds">
-    {{ content | safe }}
-  </main>
+  {%- if templatestring == 'home' -%}
+    <main class="page-container-ds">
+      {{ content | safe }}
+    </main>
+  {% else %}
+  <div id="page-container" class="with-sidebar has-sidebar-left page-container-ds">
+    <div id="main-content" class="main-content-ds">
+      <div class="breadcrumb" aria-label="Breadcrumb" role="region"></div>
+      <div class="narrow-page-title">
+        <h1 class="page-title">Cultivation</h1>
+      </div>
+      <div class="ds-content-layout">
+        <div class="sidebar-container everylayout" style="z-index: 1;">
+          <sidebar space="0" side="left">
+            <cagov-content-navigation data-selector="main" data-type="wordpress" data-label="On this page">
+            </cagov-content-navigation>
+          </sidebar>
+        </div>
+
+        <div class="everylayout">
+          <main class="main-primary">
+            {{ content | safe }}
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- endif -%}
 
   {% include "../footer.njk" %}
   {% include "../footer-universal.njk" %}
 
   {% set js %}
-    {% include "../../../../docs/js/built.js" %}
+  {% include "../../../../docs/js/built.js" %}
   {% endset %}
   <script type="module">
     {{ js | safe }}
   </script>
 </body>
+
 </html>

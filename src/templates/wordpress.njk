@@ -8,6 +8,9 @@ pagination:
     addAllPagesToCollections: true
 permalink: "{{ wordpress.dataset.data.wordpress_url }}/"
 layout: "layouts/index.njk"
+renderData:
+  title: Tagged
+  templatestring: "{{ wordpress.dataset.data.template }}/"
 ---
 
 {{ wordpress.content | safe }}
