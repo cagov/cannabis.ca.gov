@@ -1,0 +1,351 @@
+/**
+ CA Design System Page layout CSS
+*/
+
+/* PAGE CONTAINER */
+/* Design system page container */
+
+/* First Block has a top margin */
+#main-content {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.page-container-ds {
+  max-width: 1147px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-content-ds {
+  margin-top: 32px;
+  max-width: 100%;
+}
+
+/* Single column layout */
+.single-column {
+  max-width: 1147px;
+  margin: 0 auto;
+}
+
+cagov-navoverlay {
+  max-width: 1147px;
+  margin: 0 auto;
+}
+
+/* SIDEBAR */
+/* Based on EveryLayout sidebar: https://every-layout.dev/layouts/sidebar/. 
+ Intention: We are keeping a clean and clear page-container so that we can do more css for design prototypes without requiring full integration with Wordpress Theme until user testing and research has concluding and layouts and templates are finalized.
+ We are interested to use more of these kinds of layouts. 
+ Talk to Koji for more information.
+ See also: https://shop.smashingmagazine.com/products/inclusive-design-patterns
+
+ Integration with CAWeb theme. For any main page elements that need to also render in the default template, the suffix is -default for layouts in the main theme, and -ds for layouts that are tied to templates provided by the design system WP code.
+*/
+
+.sidebar-container {
+  display: block;
+  width: 276px;
+  max-width: 276px;
+}
+
+.with-sidebar .main-content-default,
+.with-sidebar .ds-content-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.with-sidebar.has-sidebar-left .main-content-default > *,
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout > .everylayout {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 267px;
+  flex-grow: 1;
+}
+
+.with-sidebar.has-sidebar-left .main-content-default > :last-child,
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout > .everylayout:last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+.with-sidebar.has-sidebar-right .main-content-default,
+.with-sidebar.has-sidebar-right .main-content-ds .ds-content-layout > .everylayout {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+.with-sidebar.has-sidebar-right .main-content-default > * > :last-child,
+.with-sidebar.has-sidebar-right .main-content-ds .ds-content-layout > :last-child {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 267px;
+  flex-grow: 1;
+}
+
+.with-sidebar.page-container-ds.has-sidebar-left main {
+  margin-left: 64px;
+  margin-right: 20px;
+}
+
+.with-sidebar.page-container-ds.has-sidebar-right main {
+  margin-right: 64px;
+  margin-left: 20px;
+}
+
+.with-sidebar .main-container-ds {
+  max-width: 877px;
+}
+
+/* Category label */
+.page-container-ds main category-label ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+.page-container-ds main category-label ul {
+  margin: 0;
+  text-indent: 0;
+  padding: 0;
+}
+
+category-label {
+  color: #000;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+category-label a {
+  color: #000;
+  font-weight: 700;
+}
+
+time {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+category-label a {
+  color: #000;
+  font-weight: 700;
+}
+
+/* CONTENT FOOTER */
+
+.content-footer-container {
+  border-bottom: 1px solid #ededef;
+  border-top: 1px solid #ededef;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.content-footer {
+  max-width: 1176px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* PAGE BEHAVIORS */
+
+/* Hide Mobile title, lives outside flex aligned elements and before content navigation, desktop page title is inside main. */
+.narrow-page-title {
+  display: none;
+}
+
+/* Gutenberg Block alignment */
+
+/* Class applied to most external element of a gutenberg block component. Controls spacing between blocks. */
+.cagov-stack {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Apply same spacing mechanism as cagov-stack, but overriding default gutenberg block element classes */
+.wp-block-columns {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* TYPOGRAPHY */
+h1.page-title {
+  margin: 0 0 0 0;
+  padding: 0 0 24px 0;
+}
+
+/* Update position list element */
+main ul li {
+  list-style-position: outside;
+}
+
+/* Remove any margins from tags in Gutenberg blocks */
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .with-sidebar .main-content-default,
+  .with-sidebar .ds-content-layout {
+    display: block;
+  }
+
+  article {
+    display: block;
+  }
+
+  /* BREADCRUMB */
+  .breadcrumb a.crumb,
+  .breadcrumb span.crumb {
+    display: none;
+  }
+
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.8px;
+    color: #064e66;
+  }
+
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+    padding: 0;
+  }
+
+  .breadcrumb {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .with-sidebar.page-container-ds .breadcrumb {
+    margin-bottom: 0px;
+  }
+
+  #main-content {
+    margin-top: 16px;
+  }
+
+  .with-sidebar.page-container-ds #main-content.main-content-ds,
+  .with-sidebar.page-container-ds #main-content.main-content-ds main {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .with-sidebar.page-container-ds main {
+    margin-left: inherit;
+    margin-top: 32px;
+  }
+
+  /* Responsive page title */
+  .wide-page-title {
+    display: none;
+  }
+
+  .narrow-page-title {
+    display: block;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+  /* Content Navigation */
+  cagov-content-navigation .label {
+    display: none;
+  }
+
+  sidebar cagov-content-navigation ul li:last-child {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ededef;
+  }
+
+  cagov-content-navigation ul li a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Typography */
+
+  h2:first-child {
+    margin-top: 16px;
+  }
+
+  /* Content Menu */
+  .content-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .content-footer .logo-small {
+    margin-bottom: 16px;
+  }
+
+  .content-footer .menu-section.menu-section-social {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+
+  .menu-section ul.content-menu-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 !important;
+  }
+
+  .content-menu-links,
+  .social-links-container {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .menu-section ul.social-links-container {
+    padding: 0 !important;
+  }
+
+  .menu-section ul.content-menu-links li {
+    margin-bottom: 16px;
+  }
+
+  .menu-section ul.content-menu-links li {
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+}
+
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
+  margin: 0;
+}
+
+/* border styles */
+.wp-block-table {
+  background: none !important;
+  border: none !important;
+}
+.wp-block-table table,
+.wp-block-table table th,
+.wp-block-table table td {
+  border: 1px solid #ededef !important;
+}

@@ -1,0 +1,30 @@
+/* CONTENT NAVIGATION */
+sidebar cagov-content-navigation .label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.2px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+sidebar cagov-content-navigation ul,
+sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+  margin: 0;
+  text-indent: 0;
+  padding: 0;
+}
+
+sidebar cagov-content-navigation ul li {
+  padding-top: 16px;
+  /* padding-bottom: 16px; */
+  /* margin-bottom: 16px; */
+  margin-top: 16px;
+  border-top: 1px solid #EDEDEF;
+  line-height: 28.2px;
+}
+
+sidebar cagov-content-navigation ul li:first-child {
+  margin-top: 0px;
+}

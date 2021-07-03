@@ -72,6 +72,7 @@ pre > code {
   margin-top: 1.5rem; }
 
 /* all utility css classes that can be used (shortcodes) */
+/* all of the above will become part of base-css component */
 /* COMPONENTS/BLOCKS */
 .icon-select {
   height: 48px;
@@ -262,24 +263,7 @@ pre > code {
 /* copied from blocks */
 /* these styles that are copied from blocks should come from an package for each design system component even if they don't have any javascript. Then the block and the cannabis style build can install that component package to get the styles from a single place. The block will also include some editor override styles */
 /**
- CA Design System Page CSS
- This style inherits from updates to the CA State Template (an HTML based style template.)
- https://github.com/Office-of-Digital-Innovation/California-State-Template/blob/cannabis/source/scss/cagov/type.scss
-
- The css variables and properties are set in a custom theme css file and added to WordPress (with CAWeb theme installed under CA Web Options Custom CSS, as a file and a manual override. 
- Currently in: https://github.com/cagov/cannabis.ca.gov/tree/main/src/css
- * colorscheme-cannabis.v1.0.7.min.css (or latest increment) - sets css variables and main page typography.
- * manual-caweb.v1.0.1.css
-
- The manual override contains style overrides for the Site Header and Footer elements.
- This file applies global layout styles for the page container, main content region.
-
- Additionally Custom Gutenberg blocks may have additional styles.
- Any imported Web components may also be bundled with their CSS.
-
-Editor styles: in editor.css. 
-Typography and styles are re-implemented for the editor. Editor css needs to target specific block editor classes.
-
+ CA Design System Page layout CSS
 */
 /* PAGE CONTAINER */
 /* Design system page container */
@@ -300,6 +284,10 @@ Typography and styles are re-implemented for the editor. Editor css needs to tar
 
 /* Single column layout */
 .single-column {
+  max-width: 1147px;
+  margin: 0 auto; }
+
+cagov-navoverlay {
   max-width: 1147px;
   margin: 0 auto; }
 
@@ -355,42 +343,9 @@ Typography and styles are re-implemented for the editor. Editor css needs to tar
   margin-right: 64px;
   margin-left: 20px; }
 
-/* BREADCRUMB */
 .with-sidebar .main-container-ds {
   max-width: 877px; }
 
-/* 
-.with-sidebar.page-container-default .breadcrumb {
-  margin-bottom: 0px;
-} */
-/* 
-.with-sidebar.page-container-ds .breadcrumb {
-  margin-bottom: 64px;
-} */
-.breadcrumb {
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 64px;
-  background-color: #F9F9FA;
-  padding: 8px 16px;
-  font-size: 16px; }
-
-.breadcrumb a {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  margin-left: 5px;
-  margin-right: 5px;
-  display: inline-block;
-  text-underline-position: under; }
-
-.breadcrumb span {
-  padding-left: 5px;
-  padding-right: 5px; }
-
-/* .page-container-default {
-  margin-top: 210px;
-  margin-bottom: -170px;
-} */
 /* Category label */
 .page-container-ds main category-label ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
 .page-container-ds main category-label ul {
@@ -417,37 +372,10 @@ category-label a {
   color: #000;
   font-weight: 700; }
 
-/* CONTENT NAVIGATION */
-sidebar cagov-content-navigation .label {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.2px;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 16px; }
-
-sidebar cagov-content-navigation ul,
-sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
-sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
-  margin: 0;
-  text-indent: 0;
-  padding: 0; }
-
-sidebar cagov-content-navigation ul li {
-  padding-top: 16px;
-  /* padding-bottom: 16px; */
-  /* margin-bottom: 16px; */
-  margin-top: 16px;
-  border-top: 1px solid #EDEDEF;
-  line-height: 28.2px; }
-
-sidebar cagov-content-navigation ul li:first-child {
-  margin-top: 0px; }
-
 /* CONTENT FOOTER */
 .content-footer-container {
-  border-bottom: 1px solid #EDEDEF;
-  border-top: 1px solid #EDEDEF;
+  border-bottom: 1px solid #ededef;
+  border-top: 1px solid #ededef;
   padding-top: 23px;
   padding-bottom: 23px; }
 
@@ -461,39 +389,6 @@ sidebar cagov-content-navigation ul li:first-child {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start; }
-
-.content-footer .menu-section.menu-section-social {
-  margin-left: auto;
-  align-items: flex-end; }
-
-.menu-section {
-  margin-right: 24px; }
-
-.menu-section ul,
-.menu-section ol {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start; }
-
-.menu-section ul li {
-  margin-right: 24px; }
-
-.menu-section .content-menu-links a {
-  font-size: 18px;
-  line-height: 30px;
-  text-decoration: underline;
-  color: #064E66;
-  text-underline-offset: 2px; }
-
-.content-menu-links,
-.social-links-container {
-  margin-bottom: 0;
-  margin-top: 5px; }
-
-.content-footer .logo-small {
-  width: 45px;
-  height: 45px; }
 
 /* PAGE BEHAVIORS */
 /* Hide Mobile title, lives outside flex aligned elements and before content navigation, desktop page title is inside main. */
@@ -516,17 +411,9 @@ h1.page-title {
   margin: 0 0 0 0;
   padding: 0 0 24px 0; }
 
-/* Override cagov 50px left spacing */
-.page-container-ds main ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
-  padding: 0 0 0 20px; }
-
 /* Update position list element */
 main ul li {
   list-style-position: outside; }
-
-/* link underline not used in cannabis designs */
-.main-content a.cagov-card {
-  text-decoration: none; }
 
 /* Remove any margins from tags in Gutenberg blocks */
 .cagov-stack h1,
@@ -538,10 +425,6 @@ main ul li {
 .cagov-card h3,
 .cagov-card h4 {
   margin: 0; }
-
-/* Fix issue with default theme that has a style we are not using */
-.non_divi_builder.title_not_displayed .main-primary {
-  padding-top: 32px; }
 
 @media only screen and (max-width: 992px) {
   .with-sidebar .main-content-default,
@@ -558,7 +441,7 @@ main ul li {
     font-weight: 700;
     font-size: 16px;
     line-height: 18.8px;
-    color: #064E66; }
+    color: #064e66; }
   .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
     padding: 0; }
   .breadcrumb {
@@ -591,7 +474,7 @@ main ul li {
   sidebar cagov-content-navigation ul li:last-child {
     padding-bottom: 16px;
     margin-bottom: 16px;
-    border-bottom: 1px solid #EDEDEF; }
+    border-bottom: 1px solid #ededef; }
   cagov-content-navigation ul li a {
     font-size: 16px;
     line-height: 24px; }
@@ -627,10 +510,6 @@ main ul li {
     margin-bottom: 16px;
     margin-right: 0px; } }
 
-/* link underline not used in cannabis designs */
-.main-content a.cagov-card {
-  text-decoration: none; }
-
 .cagov-stack h1,
 .cagov-stack h2,
 .cagov-stack h3,
@@ -641,8 +520,63 @@ main ul li {
 .cagov-card h4 {
   margin: 0; }
 
-.non_divi_builder.title_not_displayed .main-primary {
-  padding-top: 32px; }
+/* border styles */
+.wp-block-table {
+  background: none !important;
+  border: none !important; }
+
+.wp-block-table table,
+.wp-block-table table th,
+.wp-block-table table td {
+  border: 1px solid #ededef !important; }
+
+/* copied from blocks repo page css file */
+.breadcrumb {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 64px;
+  background-color: #F9F9FA;
+  padding: 8px 16px;
+  font-size: 16px; }
+
+.breadcrumb a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  text-underline-position: under; }
+
+.breadcrumb span {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+/* CONTENT NAVIGATION */
+sidebar cagov-content-navigation .label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.2px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px; }
+
+sidebar cagov-content-navigation ul,
+sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+  margin: 0;
+  text-indent: 0;
+  padding: 0; }
+
+sidebar cagov-content-navigation ul li {
+  padding-top: 16px;
+  /* padding-bottom: 16px; */
+  /* margin-bottom: 16px; */
+  margin-top: 16px;
+  border-top: 1px solid #EDEDEF;
+  line-height: 28.2px; }
+
+sidebar cagov-content-navigation ul li:first-child {
+  margin-top: 0px; }
 
 /* step list */
 ol.steps {
@@ -774,16 +708,6 @@ ol.steps li:nth-child(24):before {
 ol.steps li:last-child {
   border-left: none; }
 
-/* border styles */
-.wp-block-table {
-  background: none !important;
-  border: none !important; }
-
-.wp-block-table table, .wp-block-table table th, .wp-block-table table td {
-  border: 1px solid #ededef !important; }
-
-/* TEMPORARY WORKING OVERRIDES, if any */
-/* copied from blocks repo page css file */
 /* @TODO These px values need to be converted to relative values */
 /* @TODO Align with typography & styles: Font, px spacing, colors */
 /* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
@@ -1222,7 +1146,7 @@ footer .copyright {
   .navigation {
     display: block !important; } }
 
-/* these component should also be published and installed so they aren't duplicated here and in design-system */
+/* these component should all be published and installed so they aren't duplicated here and in design-system */
 cagov-navoverlay {
   order: 3; }
   cagov-navoverlay .menu-trigger {

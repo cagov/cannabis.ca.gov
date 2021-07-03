@@ -8,19 +8,23 @@
 @import './_links'; /* a, a:hover, a:focus */
 @import './_typography'; /* headings, p, blockqute, font styles */
 @import './_utility-classes'; /* all utility css classes that can be used (shortcodes) */
+/* all of the above will become part of base-css component */
 
 /* COMPONENTS/BLOCKS */
 @import './_page-alert'; /* copied from block */
 @import './_hero'; /* copied from block */
 @import './_cards'; /* copied from blocks */
 /* these styles that are copied from blocks should come from an package for each design system component even if they don't have any javascript. Then the block and the cannabis style build can install that component package to get the styles from a single place. The block will also include some editor override styles */
-@import './_page'; /* copied from blocks repo page css file */
+@import './_layouts'; /* copied from blocks repo page css file */
+@import '../../components/breadcrumb/index.scss';
+@import '../../components/content-navigation/index.scss';
+@import '../../components/step-list/index.scss';
 @import './_announcement-list'; /* copied from block */
 @import '../../components/branding/_style';
 @import '../../components/utility-header/_style';
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 @import '../../components/navigation/_style';
-/* these component should also be published and installed so they aren't duplicated here and in design-system */
+/* these component should all be published and installed so they aren't duplicated here and in design-system */
 
 @import '../../components/menu/scss/_index';
