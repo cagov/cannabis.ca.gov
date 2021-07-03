@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2017-04-20T22:46:00",
-    "updated_date": "2021-06-14T19:17:23",
+    "updated_date": "2021-07-01T17:52:37",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://staginginye.prod3.sites.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,16 +17,16 @@
     "title": "Just say no to investing in pot, committee advises California judges",
     "author": "Department of Cannabis Control",
     "date": "2017-04-20T22:46:00",
-    "modified": "2021-06-14T19:17:23",
+    "modified": "2021-07-01T10:52:37",
     "date_gmt": "2017-04-20T22:46:00",
-    "modified_gmt": "2021-06-14T19:17:23",
+    "modified_gmt": "2021-07-01T17:52:37",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/04/20/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/04/20/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
     "excerpt": "<p>A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.</p>\n",
     "categories": [
       "Announcements"
