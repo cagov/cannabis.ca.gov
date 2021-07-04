@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2020-11-06T20:41:00",
-    "updated_date": "2021-06-14T19:15:42",
+    "updated_date": "2021-07-01T17:52:23",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://staginginye.prod3.sites.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,16 +17,16 @@
     "title": "Bureau of Cannabis Control has decided to postpone notification for grant recipients",
     "author": "Department of Cannabis Control",
     "date": "2020-11-06T20:41:00",
-    "modified": "2021-06-14T19:15:42",
+    "modified": "2021-07-01T10:52:23",
     "date_gmt": "2020-11-06T20:41:00",
-    "modified_gmt": "2021-06-14T19:15:42",
+    "modified_gmt": "2021-07-01T17:52:23",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/11/06/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients/",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/11/06/bureau-of-cannabis-control-has-decided-to-postpone-notification-for-grant-recipients/",
     "excerpt": "<p>On September 17, the Bureau of Cannabis Control (Bureau) announced a Request for Proposals for university research grants for public universities in California.</p>\n",
     "categories": [
       "Announcements"

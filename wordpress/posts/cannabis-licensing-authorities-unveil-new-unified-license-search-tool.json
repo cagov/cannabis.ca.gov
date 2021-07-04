@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2020-09-16T18:16:00",
-    "updated_date": "2021-06-14T19:15:44",
+    "updated_date": "2021-06-19T15:50:47",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://staginginye.prod3.sites.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,16 +17,16 @@
     "title": "Cannabis Licensing Authorities Unveil New Unified License Search Tool",
     "author": "Department of Cannabis Control",
     "date": "2020-09-16T18:16:00",
-    "modified": "2021-06-14T19:15:44",
+    "modified": "2021-06-19T08:50:47",
     "date_gmt": "2020-09-16T18:16:00",
-    "modified_gmt": "2021-06-14T19:15:44",
+    "modified_gmt": "2021-06-19T15:50:47",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/16/cannabis-licensing-authorities-unveil-new-unified-license-search-tool/",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/09/16/cannabis-licensing-authorities-unveil-new-unified-license-search-tool/",
     "excerpt": "<p>SACRAMENTO – California’s three cannabis licensing authorities – BCC, CDFA and CDPH announced today the launch of a unified licensing search platform, the culmination of a collaboration between the California Department of Technology, the California Health and Human Services Agency Office of Innovation, the Governor’s Office of Business and Economic Development (GO-Biz), and the licensing authorities.</p>\n",
     "categories": [
       "Press Releases"
