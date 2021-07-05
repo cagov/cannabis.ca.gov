@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/test-for-seo-editor/",
     "excerpt": "<p>Page content test heading</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

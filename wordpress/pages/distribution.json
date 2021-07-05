@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/licensees/distribution/",
     "excerpt": "<p>Distributors transport cannabis and cannabis products in California.</p>\n",
+    "type": "page",
     "parent": 758,
     "menu_order": 4
   }

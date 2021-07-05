@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/about-us/public-awareness-campaigns/",
     "excerpt": "<p>The Department of Cannabis Control&#8217;s public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market.</p>\n",
+    "type": "page",
     "parent": 856,
     "menu_order": 5
   }

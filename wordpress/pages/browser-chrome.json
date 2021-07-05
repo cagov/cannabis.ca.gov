@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/browser-chrome/",
     "excerpt": "<p>&nbsp;Keyboard Shortcuts for Chrome Windows and Linux Tab and window shortcuts To do this Press this Opens a new window. Ctrl+N Opens a new tab. Ctrl+T Opens a new window in incognito mode. Ctrl+Shift+N Opens a file from your computer in Google Chrome. Press Ctrl+O, then select file Opens the link in a new tab [&hellip;]</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

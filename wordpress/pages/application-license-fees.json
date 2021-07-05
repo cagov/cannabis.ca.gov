@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/applicants/application-license-fees/",
     "excerpt": "<p>Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.</p>\n",
+    "type": "page",
     "parent": 756,
     "menu_order": 4
   }

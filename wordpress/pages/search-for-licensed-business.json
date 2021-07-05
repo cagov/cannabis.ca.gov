@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/resources/search-for-licensed-business/",
     "excerpt": "<p>Search for a business licensed by the Department of Cannabis Control.</p>\n",
+    "type": "page",
     "parent": 759,
     "menu_order": 6
   }

@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/accessibility/",
     "excerpt": "<p>The State of California’s @50 Million web site has been developed in compliance with Section D of the California Government Code 11135. Code 11135 requires that all electronic and information technology developed or purchased by the State of California Government is accessible to people with disabilities. There are various types of physical disabilities that impact [&hellip;]</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

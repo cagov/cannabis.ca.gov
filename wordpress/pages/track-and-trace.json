@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/licensees/track-and-trace/",
     "excerpt": "<p>Licensees must use the California Cannabis Track and Trace system to track the movement of cannabis and cannabis products through the supply chain.</p>\n",
+    "type": "page",
     "parent": 758,
     "menu_order": 8
   }

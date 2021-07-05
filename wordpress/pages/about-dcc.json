@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/about-us/about-dcc/",
     "excerpt": "<p>The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses.</p>\n",
+    "type": "page",
     "parent": 856,
     "menu_order": 1
   }

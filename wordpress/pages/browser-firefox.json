@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/browser-firefox/",
     "excerpt": "<p>Keyboard Shortcuts for Firefox Windows Navigation To do this Press this Back Alt + ← BackspaceAlt + ← Ctrl + [ Forward Alt + → Shift + BackspaceAlt + → Ctrl + ] Home Alt + Home Open File Ctrl + O Reload F5 Ctrl + R Reload (override cache) Ctrl + F5 Ctrl + [&hellip;]</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

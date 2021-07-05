@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/applicants/application-resources/",
     "excerpt": "<p>The Department of Cannabis Control created resources to help you apply for a license and technical guides for the licensing systems.</p>\n",
+    "type": "page",
     "parent": 756,
     "menu_order": 5
   }

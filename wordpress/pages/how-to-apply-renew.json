@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/applicants/how-to-apply-renew/",
     "excerpt": "<p>Learn the steps needed to apply for or renew a cannabis license.</p>\n",
+    "type": "page",
     "parent": 756,
     "menu_order": 2
   }

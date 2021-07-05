@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/",
     "excerpt": "<p>Learn about California cannabis laws and licenses</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

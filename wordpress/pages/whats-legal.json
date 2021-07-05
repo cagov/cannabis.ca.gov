@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/consumers/whats-legal/",
     "excerpt": "<p>While cannabis is legal in California, it is still subject to rules.</p>\n",
+    "type": "page",
     "parent": 757,
     "menu_order": 2
   }

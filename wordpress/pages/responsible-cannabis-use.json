@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/consumers/responsible-cannabis-use/",
     "excerpt": "<p>If you&#8217;re going to take cannabis, there are ways to keep yourself and others safe.</p>\n",
+    "type": "page",
     "parent": 757,
     "menu_order": 4
   }

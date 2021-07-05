@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/about-us/consolidation/",
     "excerpt": "<p>The creation of the Department of Cannabis Control is a first step in simplifying California&#8217;s approach to cannabis.</p>\n",
+    "type": "page",
     "parent": 856,
     "menu_order": 0
   }

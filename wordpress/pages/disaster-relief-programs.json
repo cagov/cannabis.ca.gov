@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/resources/disaster-relief-programs/",
     "excerpt": "<p>If you cannot meet a licensing requirement due to a declared disaster, you can request relief from a regulatory requirement.</p>\n",
+    "type": "page",
     "parent": 759,
     "menu_order": 5
   }

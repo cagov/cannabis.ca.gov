@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/resources/laws-and-regulations/",
     "excerpt": "<p>Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.</p>\n",
+    "type": "page",
     "parent": 759,
     "menu_order": 3
   }

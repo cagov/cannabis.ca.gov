@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/about-us/announcements/",
     "excerpt": "<p>Sign up to receive emails from the Department of Cannabis Control when we share news and information.   Recent announcements</p>\n",
+    "type": "page",
     "parent": 856,
     "menu_order": 0
   }

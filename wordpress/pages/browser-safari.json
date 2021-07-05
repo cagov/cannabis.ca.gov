@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/browser-safari/",
     "excerpt": "<p>&nbsp;Keyboard Shortcuts for Safari To do this Press this Scroll up, down, left, or right Press the arrow keys. Scroll in larger increments Press Option while you press an arrow key. Scroll down a screen Page Down Space bar Scroll up a screen Page Up Shift-Space bar Scroll to the top-left or bottom-left corner of [&hellip;]</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

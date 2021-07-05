@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/browser-ie/",
     "excerpt": "<p>Keyboard Shortcuts for Internet Explorer Viewing and exploring webpages The following table describes shortcuts used to view and explore webpages. To do this Press this Display Help F1 Toggle between full-screen and regular views of the browser window F11 Move forward through the items on a webpage, the Address bar, or the Favorites bar Tab [&hellip;]</p>\n",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

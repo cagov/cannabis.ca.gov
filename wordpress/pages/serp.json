@@ -27,6 +27,7 @@
     },
     "template": "page-templates/searchpage.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/serp/",
+    "type": "page",
     "parent": 0,
     "menu_order": 0
   }

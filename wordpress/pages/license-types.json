@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/applicants/license-types/",
     "excerpt": "<p>Licenses are based on the type of cannabis activity that your business will perform.</p>\n",
+    "type": "page",
     "parent": 756,
     "menu_order": 3
   }

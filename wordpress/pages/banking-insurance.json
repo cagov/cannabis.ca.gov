@@ -28,6 +28,7 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/resources/banking-insurance/",
     "excerpt": "<p>You can authorize the Department of Cannabis Control to share information with financial institutions to get access to banking and insurance services.</p>\n",
+    "type": "page",
     "parent": 759,
     "menu_order": 0
   }
