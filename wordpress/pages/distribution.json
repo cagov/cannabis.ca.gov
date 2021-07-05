@@ -29,6 +29,11 @@
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/licensees/distribution/",
     "excerpt": "<p>Distributors transport cannabis and cannabis products in California.</p>\n",
     "type": "page",
+    "content": {
+      "rendered": "\n<p>You need a <a href=\"https://staginginye.prod3.sites.ca.gov/applicants/license-types/#distribution-licenses\" data-type=\"page\">distribution license</a> to transport cannabis and cannabis products in California. Distributors can transport:</p>\n\n\n\n<ul><li>Goods they cultivated or manufactured</li><li>Goods for other businesses</li></ul>\n\n\n\n<h2>Distribution licenses</h2>\n\n\n\n<p>The type and cost of <a href=\"https://staginginye.prod3.sites.ca.gov/applicants/license-types/#distribution-licenses\" data-type=\"page\">distribution license</a> depends on whether you:</p>\n\n\n\n<ul><li>Transport cannabis goods to retail</li><li>Store cannabis goods</li><li>Transport for other businesses</li></ul>\n\n\n\n<h2>Role in testing and quality assurance</h2>\n\n\n\n<p>Type 11 distributors make sure a licensed testing laboratory tests all batches of cannabis goods before they are sold. The distributor:</p>\n\n\n\n<ul><li>Arranges for a testing laboratory to take a sample of cannabis</li><li>Holds the cannabis goods while the laboratory runs the required tests</li><li>Makes sure the date on the corresponding Certificate of Analysis is less than 12 months old</li></ul>\n\n\n\n<p>Distributors can only transport cannabis goods to a retailer for sale if they pass testing. Goods that fail testing are destroyed or sent to a manufacturer for remediation.</p>\n\n\n\n<p>Before transporting goods to a retailer, type 11 distributors also conduct a quality assurance review to make sure:</p>\n\n\n\n<ul><li>Required information is on the label</li><li>The packaging protects the product from contamination</li><li>It’s not a prohibited product</li><li>The amount of THC in the product is within the limits</li></ul>\n",
+      "protected": false
+    },
+    "headless": true,
     "parent": 758,
     "menu_order": 4
   }

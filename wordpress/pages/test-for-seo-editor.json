@@ -29,6 +29,11 @@
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/test-for-seo-editor/",
     "excerpt": "<p>Page content test heading</p>\n",
     "type": "page",
+    "content": {
+      "rendered": "\n<p>Page content</p>\n\n\n\n<p></p>\n\n\n\n<h2>test heading</h2>\n",
+      "protected": false
+    },
+    "headless": true,
     "parent": 0,
     "menu_order": 0
   }

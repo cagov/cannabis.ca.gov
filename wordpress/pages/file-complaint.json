@@ -29,6 +29,11 @@
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/resources/file-complaint/",
     "excerpt": "<p>File an anonymous complaints against licensed or unlicensed cannabis businesses.</p>\n",
     "type": "page",
+    "content": {
+      "rendered": "\n<p>You can file an anonymous complaint against licensed or unlicensed cannabis businesses. Provide as much detail as you can.</p>\n\n\n\n<div class=\"wp-block-buttons\">\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" href=\"https://search.cannabis.ca.gov/complaints/unlicensed\">File a complaint</a></div>\n</div>\n\n\n\n<h2>Inspections and enforcement</h2>\n\n\n\n<p>The Department of Cannabis Control (DCC) partners with cities, counties, law enforcement and other state agencies to uphold California’s commercial cannabis laws and regulations. We support the integrity of the legal cannabis market through:</p>\n\n\n\n<ul><li>Regular inspections</li><li>Careful investigations</li><li>Coordinated enforcement actions</li></ul>\n\n\n\n<p>DCC’s Compliance and Enforcement Divisions works with law enforcement and other state agencies to enforce the law. Officers:</p>\n\n\n\n<ul><li>Investigate complaints of unlicensed or illegal cannabis activity</li><li>Stop the sale of cannabis to minors</li><li>Prevent unsafe products from entering the cannabis market</li></ul>\n",
+      "protected": false
+    },
+    "headless": true,
     "parent": 759,
     "menu_order": 4
   }
