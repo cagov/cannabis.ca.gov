@@ -33,6 +33,11 @@
     "design_system_fields": {
       "display_title": false
     },
+    "content": {
+      "rendered": "<p>One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California. The Bureau has released a form for the “Commercial Cannabis Licensee Bond,” which is now available on our website: <a href=\"http://www.bcc.ca.gov/clear/licensee_bond.pdf\">http://www.bcc.ca.gov/clear/licensee_bond.pdf</a></p>\n<p>Please note that a proof of a surety bond is required for each license application.</p>\n<p>For additional resources on how to apply for an annual license, please click the links below:</p>\n<ul>\n<li><a href=\"http://bcc.ca.gov/clear/videos/temp_to_annual.html\">http://bcc.ca.gov/clear/videos/temp_to_annual.html</a> (Video)</li>\n<li><a href=\"http://bcc.ca.gov/clear/qrg_applying.pdf\">http://bcc.ca.gov/clear/qrg_applying.pdf</a>  (PDF)</li>\n</ul>\n<p>For questions about the licensing application, please email <a href=\"mailto:bcc@dca.ca.gov\">bcc@dca.ca.gov</a>.</p>\n",
+      "protected": false
+    },
+    "headless": true,
     "categories": [
       "Announcements"
     ],
