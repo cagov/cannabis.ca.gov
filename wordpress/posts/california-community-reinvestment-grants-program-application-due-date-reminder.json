@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

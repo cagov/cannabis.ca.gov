@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/11/06/bureau-of-cannabis-control-to-host-first-cannabis-advisory-committee-meeting/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that it will host the first public Cannabis Advisory Committee meeting on Thursday, November 16 in Sacramento.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

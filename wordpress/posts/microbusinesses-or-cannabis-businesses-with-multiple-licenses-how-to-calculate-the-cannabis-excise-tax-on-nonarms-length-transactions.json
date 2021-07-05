@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
     "excerpt": "<p>Distributors or microbusinesses authorized to operate as distributors are required to calculate and collect the 15 percent cannabis excise tax from cannabis retailers on the sale or transfer of cannabis or cannabis products (cannabis) based on the average market price of the cannabis.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

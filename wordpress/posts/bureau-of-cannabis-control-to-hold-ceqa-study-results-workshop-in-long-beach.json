@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
     "excerpt": "<p>SACRAMENTO &#8211; The Bureau of Cannabis Control (Bureau) will hold a public workshop in Long Beach to receive comments regarding the recent release of its California Environmental Quality Act (CEQA) Initial Study and Proposed Negative Declaration (IS/ND) for its regulatory licensing and enforcement program (Proposed Program) for commercial cannabis distributors, retailers, testing laboratories and microbusinesses.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

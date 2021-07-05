@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/06/29/new-packaging-and-labeling-resources-available/",
     "excerpt": "<p>The California Department of Public Health (CDPH) has released new resources to assist cannabis manufacturers and other businesses in understanding and evaluating compliance with packaging and labeling requirements.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

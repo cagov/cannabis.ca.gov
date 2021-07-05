@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/10/28/cannabis-advisory-committee-to-hold-virtual-meeting/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a virtual meeting on Friday, October 30, 2020. The focal point of the meeting will be to discuss and provide recommendations for consolidating the three licensing authorities’ regulations into one comprehensive set of regulations applicable to California’s cannabis [&hellip;]</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

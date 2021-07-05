@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/03/29/state-cannabis-licensing-authorities-provide-provisional-licensing-update/",
     "excerpt": "<p>The Bureau of Cannabis Control, California Department of Public Health, and California Department of Food and Agriculture are taking steps to prevent gaps in licensure when active temporary commercial cannabis licenses expire.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

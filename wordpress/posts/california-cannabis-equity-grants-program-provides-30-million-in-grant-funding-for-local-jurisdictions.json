@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/04/22/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions/",
     "excerpt": "<p>Sacramento, CA &#8211; Today, the Governor&#8217;s Office of Business and Economic Development (GO-Biz), in partnership with the Bureau of Cannabis Control, announced $30 million in grant funding through the Cannabis Equity Grants Program for Local Jurisdictions.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

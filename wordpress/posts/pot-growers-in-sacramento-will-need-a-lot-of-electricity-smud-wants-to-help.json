@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
     "excerpt": "<p>It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

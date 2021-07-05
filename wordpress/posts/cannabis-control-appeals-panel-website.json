@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/08/21/cannabis-control-appeals-panel-website/",
     "excerpt": "<p>The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

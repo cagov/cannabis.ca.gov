@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/05/21/abc-industry-advisory-on-cannabis-and-alcoholic-beverages/",
     "excerpt": "<p>With the legalization of commercial recreational use of cannabis and cannabis products commencing in 2018, along with the licensed manufacture and sale, a number of questions have arisen about what activities are permissible on or in premises licensed by the Department of Alcoholic Beverage Control to manufacture or sell alcoholic beverages.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

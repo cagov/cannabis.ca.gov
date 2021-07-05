@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/10/29/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
     "excerpt": "<p>SACRAMENTO – Today, Governor Gavin Newsom announced the launch of a new state website with tools and resources for Californians who have been impacted by wildfires and utility-directed power shutoffs.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

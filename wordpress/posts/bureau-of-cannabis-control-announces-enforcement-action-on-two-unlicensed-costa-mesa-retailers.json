@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/06/21/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers/",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

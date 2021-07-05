@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
     "excerpt": "<p>The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/12/08/bureau-of-cannabis-control-launches-online-licensing-application-system/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

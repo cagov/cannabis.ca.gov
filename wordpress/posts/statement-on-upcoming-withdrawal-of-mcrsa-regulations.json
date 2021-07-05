@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/07/26/statement-on-upcoming-withdrawal-of-mcrsa-regulations/",
     "excerpt": "<p>Earlier this spring, the Department of Consumer Affairs’ Bureau of Cannabis Control, Department of Public Health and Department of Food and Agriculture released proposed regulations for the Medical Cannabis Regulation and Safety Act.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

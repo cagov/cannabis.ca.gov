@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/01/08/notice-regarding-temporary-cannabis-cultivation-license-applications/",
     "excerpt": "<p>Attention CalCannabis Cultivation Licensing Stakeholders: On December 31, 2018, the authority for the California Department of Food and Agriculture (CDFA) to issue temporary cannabis cultivation licenses expired.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

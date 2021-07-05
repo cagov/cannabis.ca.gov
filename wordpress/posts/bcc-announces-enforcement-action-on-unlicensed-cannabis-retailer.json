@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/06/05/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer/",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on an unlicensed cannabis retailer operating out of Los Angeles.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

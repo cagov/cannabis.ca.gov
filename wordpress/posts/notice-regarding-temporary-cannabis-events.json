@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/04/17/notice-regarding-temporary-cannabis-events/",
     "excerpt": "<p>Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

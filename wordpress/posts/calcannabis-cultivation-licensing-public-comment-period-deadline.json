@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/05/29/calcannabis-cultivation-licensing-public-comment-period-deadline/",
     "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nToday the California Department of Food and Agriculture CalCannabis (CalCannabis) Licensing Division submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

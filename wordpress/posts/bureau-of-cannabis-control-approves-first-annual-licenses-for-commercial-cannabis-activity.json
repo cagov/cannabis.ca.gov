@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

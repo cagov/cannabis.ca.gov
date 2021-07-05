@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/",
     "excerpt": "<p>The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

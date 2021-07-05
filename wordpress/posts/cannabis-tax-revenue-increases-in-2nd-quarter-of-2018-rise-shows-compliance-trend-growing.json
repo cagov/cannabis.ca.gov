@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/11/14/cannabis-tax-revenue-increases-in-2nd-quarter-of-2018-rise-shows-compliance-trend-growing/",
     "excerpt": "<p>Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported increased revenue numbers today for cannabis sales for the 3rd quarter of 2018.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

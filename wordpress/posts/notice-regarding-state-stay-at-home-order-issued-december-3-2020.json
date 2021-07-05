@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
     "excerpt": "<p>On Thursday, December 3, 2020, Governor Gavin Newsom issued a new Stay-at-Home Order to protect the health and well-being of all Californians and to continue facilitating a consistent approach across the state to slow the spread of COVID-19.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

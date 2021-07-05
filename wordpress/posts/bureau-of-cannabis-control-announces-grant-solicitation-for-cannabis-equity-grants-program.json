@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
     "excerpt": "<p>The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

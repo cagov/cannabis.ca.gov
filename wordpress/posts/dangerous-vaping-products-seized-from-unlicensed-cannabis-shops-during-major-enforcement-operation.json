@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
     "excerpt": "<p>SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

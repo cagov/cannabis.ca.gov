@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/03/08/new-resources-for-packaging-and-labeling-of-cannabis-and-cannabis-products/",
     "excerpt": "<p>The California Department of Public Health (CDPH) regulations for cannabis, approved and adopted on January 16, 2019, clarified and updated the packaging and labeling requirements for all cannabis and cannabis products sold within California (§40400-40417).&nbsp;&nbsp;<br />\nIn an effort to assist with this transition and to clarify requirements, resources are available to help cannabis businesses achieve compliance with these new requirements.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

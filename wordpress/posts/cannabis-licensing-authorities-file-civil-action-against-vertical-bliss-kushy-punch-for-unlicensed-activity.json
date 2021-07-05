@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/09/24/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

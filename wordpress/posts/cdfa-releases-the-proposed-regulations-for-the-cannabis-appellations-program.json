@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
     "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

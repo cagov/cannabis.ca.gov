@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

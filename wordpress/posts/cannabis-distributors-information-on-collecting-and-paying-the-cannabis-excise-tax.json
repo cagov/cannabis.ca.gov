@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
     "excerpt": "<p>As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

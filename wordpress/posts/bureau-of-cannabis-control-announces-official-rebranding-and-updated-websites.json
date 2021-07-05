@@ -28,6 +28,11 @@
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/09/28/bureau-of-cannabis-control-announces-official-rebranding-and-updated-websites/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced the official completion of its rebranding effort.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

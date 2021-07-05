@@ -28,6 +28,11 @@
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
     "excerpt": "<p>SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/08/02/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2/",
     "excerpt": "<p>Three state agencies spent more than a year drafting 211 pages of regulations for California’s medical marijuana market.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

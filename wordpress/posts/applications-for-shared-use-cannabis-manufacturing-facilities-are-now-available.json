@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/04/18/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available/",
     "excerpt": "<p>Emergency regulations for shared-use cannabis manufacturing facilities, released by the California Department of Public Health, have been approved and are now in effect.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

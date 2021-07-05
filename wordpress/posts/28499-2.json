@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/05/18/28499-2/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control, California Department of Public Health and California Department of Food and Agriculture have proposed to readopt their emergency regulations that are currently in effect, extending the time those regulations are in effect for another 180-day period.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

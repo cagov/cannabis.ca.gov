@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/04/29/registering-cannabis-related-trademarks-in-california/",
     "excerpt": "<p>The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

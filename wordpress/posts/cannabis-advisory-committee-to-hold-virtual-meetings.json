@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
     "excerpt": "<p>The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

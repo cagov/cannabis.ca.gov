@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/04/20/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
     "excerpt": "<p>A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

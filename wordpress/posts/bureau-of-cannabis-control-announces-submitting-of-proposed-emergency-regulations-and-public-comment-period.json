@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/11/28/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

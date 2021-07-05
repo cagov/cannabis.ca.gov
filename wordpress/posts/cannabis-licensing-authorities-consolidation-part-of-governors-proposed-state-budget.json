@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2021/01/08/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/",
     "excerpt": "<p>Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

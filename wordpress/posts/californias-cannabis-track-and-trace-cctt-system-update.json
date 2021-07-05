@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
     "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

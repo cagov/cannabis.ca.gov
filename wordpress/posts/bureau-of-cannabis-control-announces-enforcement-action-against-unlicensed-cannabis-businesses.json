@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/03/04/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

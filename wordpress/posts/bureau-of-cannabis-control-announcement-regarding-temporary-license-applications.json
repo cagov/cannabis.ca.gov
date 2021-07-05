@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/11/30/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
     "excerpt": "<p>While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control, the Bureau cannot issue temporary licenses after December 31, 2018.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

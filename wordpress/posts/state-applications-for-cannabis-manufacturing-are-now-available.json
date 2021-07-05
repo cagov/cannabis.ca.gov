@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
     "excerpt": "<p>The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

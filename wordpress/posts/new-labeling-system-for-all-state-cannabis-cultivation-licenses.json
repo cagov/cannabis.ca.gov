@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/11/05/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
     "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

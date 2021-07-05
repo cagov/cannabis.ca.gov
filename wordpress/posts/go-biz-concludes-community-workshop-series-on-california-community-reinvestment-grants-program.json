@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties,<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

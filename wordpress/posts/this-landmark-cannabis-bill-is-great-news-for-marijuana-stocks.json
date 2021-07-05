@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/04/24/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks/",
     "excerpt": "<p>Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

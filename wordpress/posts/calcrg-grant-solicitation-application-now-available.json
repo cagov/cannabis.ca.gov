@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/04/22/calcrg-grant-solicitation-application-now-available/",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/05/19/californias-pot-chief-vows-state-will-meet-compliance-deadline/",
     "excerpt": "<p>California’s chief marijuana regulator on Thursday told a gathering of growers, government officials and would-be entrepreneurs that the state will have a regulatory structure in place to oversee a developing multibillion-dollar cannabis market by Jan.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
     "excerpt": "<p>The Bureau of Cannabis Control announced today a Request for Proposals for university research grants for public universities in California.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

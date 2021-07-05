@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/04/13/28429-2/",
     "excerpt": "<p>We would like to remind all state-licensed cannabis cultivators that the Compliance and Enforcement branch of CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is now conducting inspections across the state.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

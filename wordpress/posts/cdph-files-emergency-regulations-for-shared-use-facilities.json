@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/04/03/cdph-files-emergency-regulations-for-shared-use-facilities/",
     "excerpt": "<p>The California Department of Public Health (CDPH) has filed the proposed emergency regulations for shared-use facilities with the Office of Administrative Law (OAL).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

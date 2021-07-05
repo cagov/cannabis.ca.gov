@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/10/31/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
     "excerpt": "<p>UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

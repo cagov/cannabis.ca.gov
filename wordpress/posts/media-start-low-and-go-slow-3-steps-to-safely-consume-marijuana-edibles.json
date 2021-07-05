@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/08/09/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles/",
     "excerpt": "<p>As California continues to emerge from marijuana prohibition, consumers will have a glut of new options beyond traditional flower to achieve the optimal high.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

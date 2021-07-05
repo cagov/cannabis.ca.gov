@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
     "excerpt": "<p>One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

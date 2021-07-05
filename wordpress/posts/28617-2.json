@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/07/13/28617-2/",
     "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced the publication of proposed regulations in the California Regulatory Notice Register, the first step toward adopting non-emergency regulations.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

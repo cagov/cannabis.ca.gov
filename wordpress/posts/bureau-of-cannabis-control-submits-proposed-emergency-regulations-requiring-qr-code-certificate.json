@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/02/04/bureau-of-cannabis-control-submits-proposed-emergency-regulations-requiring-qr-code-certificate/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted <a href=\"https://bcc.ca.gov/law_regs/cannabis_regs.html\" target=\"_blank\" rel=\"noopener noreferrer\">proposed emergency cannabis regulations</a> to the Office of Administrative Law (OAL).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

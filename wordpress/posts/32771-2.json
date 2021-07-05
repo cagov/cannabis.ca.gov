@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/04/22/32771-2/",
     "excerpt": "<p>The Cannabis Control Appeals Panel (CCAP) will conduct a panel meeting via teleconference on Monday, April 29th at 1:30 p.m.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

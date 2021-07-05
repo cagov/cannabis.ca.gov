@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2021/01/15/cannabis-licensing-authorities-notice-proposed-regulations-to-provide-greater-access-to-financial-services-for-licensees/",
     "excerpt": "<p>Today, the California state cannabis licensing authorities – the Bureau of Cannabis Control, California Department of Food and Agriculture and California Department of Public Health – provided notice to the public of proposed emergency regulations to implement the provisions of Assembly Bill 1525 (Jones-Sawyer, 2020).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

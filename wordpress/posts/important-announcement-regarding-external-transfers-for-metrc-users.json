@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
     "excerpt": "<p>To All Interested Parties,<br />\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

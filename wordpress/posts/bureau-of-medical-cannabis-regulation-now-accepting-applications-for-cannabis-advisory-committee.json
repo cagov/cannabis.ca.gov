@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/04/27/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee/",
     "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that it is now accepting applications for the Cannabis Advisory Committee to advise the bureau on matters relating to both medical and adult recreational use of cannabis.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

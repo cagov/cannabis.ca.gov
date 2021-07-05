@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/12/07/29971-2/",
     "excerpt": "<p>California’s three state cannabis licensing authorities recently announced the release of the proposed cannabis regulations currently under review by the California Office of Administrative Law (OAL).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

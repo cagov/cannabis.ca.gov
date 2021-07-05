@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
     "excerpt": "<p>NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

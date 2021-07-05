@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/06/07/33571-2/",
     "excerpt": "<p>You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

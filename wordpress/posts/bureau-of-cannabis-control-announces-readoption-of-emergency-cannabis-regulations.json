@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/06/07/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations/",
     "excerpt": "<p>The Bureau of Cannabis Control’s (Bureau) emergency cannabis regulations were officially readopted on June 4, 2018, and are now in effect as of June 6, 2018.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

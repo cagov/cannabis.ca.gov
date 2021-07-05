@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/09/05/cdfa-announces-calcannabis-appellations-project-public-workshops/",
     "excerpt": "<p>The California Department of Food and Agriculture’s (CDFA) CalCannabis Cultivation Licensing Division will hold six public workshops throughout California in September to solicit input on establishing a framework for the CalCannabis Appellations Project.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

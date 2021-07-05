@@ -27,6 +27,11 @@
     },
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/09/06/27257-2/",
     "excerpt": "<p>The Bureau of Cannabis Control released its California Environmental Quality Act Proposed Program study to the public today.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

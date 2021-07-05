@@ -27,6 +27,11 @@
     },
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/06/04/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/",
     "excerpt": "<p>Interested Parties:<br />\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Content Types",
       "Event Materials"

@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/11/22/manufactured-cannabis-licensing-training-sessions/",
     "excerpt": "<p>The California Department of Public Health’s Manufactured Cannabis Safety Branch (MCSB) will host 10 licensing training sessions throughout the state in November and December 2017.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

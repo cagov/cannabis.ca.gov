@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
     "excerpt": "<p>The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

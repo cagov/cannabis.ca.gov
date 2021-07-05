@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/01/09/30677-2/",
     "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) recently adopted emergency Regulation 3702, California Cannabis Track-and-Trace, which requires distributors and retailers to enter the wholesale cost and the retail selling price of cannabis or cannabis products into the California Cannabis Track-and-Trace (CCTT) system.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

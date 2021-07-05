@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/11/16/licensing-authorities-release-emergency-medicinal-and-adult-use-cannabis-regulations/",
     "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities announced today that proposed emergency licensing regulations for commercial medicinal and adult-use cannabis have been posted online and are available to the public for review.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

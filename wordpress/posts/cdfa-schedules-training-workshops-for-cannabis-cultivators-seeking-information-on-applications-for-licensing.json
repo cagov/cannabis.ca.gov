@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
     "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/09/26/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public/",
     "excerpt": "<p>This health advisory seeks to inform the public about the imminent public health risks posed by vaping any product, including the use of electronic cigarettes (e‐cigarettes), as vaping has recently been linked to severe breathing problems, lung damage, and even death.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

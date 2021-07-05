@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/01/08/california-cannabis-advisory-committee-publishes-2018-annual-report/",
     "excerpt": "<p>California’s Cannabis Advisory Committee (CAC) recently published their full 2018 Annual Report to the Bureau of Cannabis Control’s website.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

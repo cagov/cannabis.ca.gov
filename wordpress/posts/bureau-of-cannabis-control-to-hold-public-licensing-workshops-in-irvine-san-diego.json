@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/01/23/bureau-of-cannabis-control-to-hold-public-licensing-workshops-in-irvine-san-diego/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host public licensing workshops in Irvine on January 25 and in San Diego on January 26.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

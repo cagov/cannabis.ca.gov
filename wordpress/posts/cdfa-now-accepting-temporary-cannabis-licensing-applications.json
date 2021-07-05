@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
     "excerpt": "<p>The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

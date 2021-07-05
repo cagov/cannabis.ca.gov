@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/10/25/deadline-for-temporary-cannabis-cultivation-license-applications/",
     "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders, Due to the large number of applications being submitted for temporary cannabis cultivation licenses, the California Department of Food and Agriculture (CDFA) hereby notifies prospective applicants that any application for a temporary license received after December 1, 2018, may NOT be processed in time for us to issue a temporary license before January 1, 2019.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

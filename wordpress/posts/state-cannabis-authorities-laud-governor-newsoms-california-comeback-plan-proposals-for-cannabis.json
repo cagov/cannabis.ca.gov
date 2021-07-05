@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
     "excerpt": "<p>Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

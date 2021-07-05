@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/07/12/california-cannabis-czar-lori-ajax-announced-as-keynote-speaker-for-california-cannabis-business-conference/",
     "excerpt": "<p>The California Cannabis Industry Association (CCIA), California&#8217;s leading cannabis industry association, and the National Cannabis Industry Association (NCIA), the only national trade association representing the legal marijuana industry, announce Lori Ajax, the first-ever appointed Chief of the Bureau of Cannabis Control in California (informally known as the &#8220;Cannabis Czar&#8221;) as the keynote speaker for the associations&#8217; newly launched California Cannabis Business Conference, taking place at the Anaheim Marriott in Anaheim, CA, September 21-22, 2017.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

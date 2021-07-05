@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/10/11/bureau-of-cannabis-control-announces-weekly-reports/",
     "excerpt": "<p>To All BCC Interested Parties:<br />\nThe Bureau of Cannabis Control has announced the addition of a new weekly report listing licensee information. This report reflects recently issued licenses, denied applications, and cannabis batch testing results.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

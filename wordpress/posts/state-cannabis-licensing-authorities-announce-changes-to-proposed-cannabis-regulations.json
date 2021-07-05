@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
     "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

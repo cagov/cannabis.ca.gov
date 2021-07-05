@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/12/01/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
     "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

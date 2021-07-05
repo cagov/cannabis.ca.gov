@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/12/11/30056-2/",
     "excerpt": "<p>The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

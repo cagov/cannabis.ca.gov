@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
     "excerpt": "<p>SACRAMENTO, March 15, 2018 — The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division will host seven public workshops throughout California starting on March 27.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

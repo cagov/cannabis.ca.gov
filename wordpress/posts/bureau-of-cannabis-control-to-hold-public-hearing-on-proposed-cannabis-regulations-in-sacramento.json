@@ -28,6 +28,11 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/08/21/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-sacramento/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the final hearing of the 45-day public comment period for our proposed non-emergency cannabis regulations will be held on Monday, August 27 in Sacramento.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],
