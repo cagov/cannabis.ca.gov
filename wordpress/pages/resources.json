@@ -28,11 +28,6 @@
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/resources/",
     "type": "page",
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "headless": true,
     "parent": 0,
     "menu_order": 1
   }

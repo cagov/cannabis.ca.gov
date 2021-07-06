@@ -29,11 +29,6 @@
     "wordpress_url": "https://staginginye.prod3.sites.ca.gov/about-us/announcements/",
     "excerpt": "<p>Sign up to receive emails from the Department of Cannabis Control when we share news and information.   Recent announcements</p>\n",
     "type": "page",
-    "content": {
-      "rendered": "\n<p><a rel=\"noreferrer noopener\" href=\"https://lp.constantcontactpages.com/su/RVR4SI1/CACannabisDept\" target=\"_blank\">Sign up to receive emails</a> from the Department of Cannabis Control when we share news and information.  </p>\n\n\n\n<h2>Recent announcements</h2>\n\n\n<div class=\"wp-block-ca-design-system-post-list cagov-post-list cagov-stack\">\n    <div>\n    \n        <h3>Recent Posts</h3>\n        <cagov-post-list \n            class=\"post-list\" \n            data-category=\"announcements,press-releases\"\n            data-count=\"10\"\n            data-order=\"desc\"\n            data-endpoint=\"https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2\"\n            data-show-excerpt=\"true\"\n            data-show-published-date=\"true\"\n            data-no-results=\"No posts found\"\n            data-show-pagination=\"true\"\n            data-read-more=\"\"\n            data-filter=\"none\"\n        >\n        </cagov-post-list>\n    </div>\n</div>",
-      "protected": false
-    },
-    "headless": true,
     "parent": 856,
     "menu_order": 0
   }
