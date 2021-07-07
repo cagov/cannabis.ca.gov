@@ -9,6 +9,8 @@ $(".mobile-controls").insertBefore(".branding");
 $(".toggle-menu").insertBefore(".toggle-search");
 // place alert button after alert text
 $(".alert-link").insertAfter(".alert-text");
+// Adding aria-label to the site logo	
+$(".header-organization-banner a").attr("aria-label", "Department of Cannabis home");
 // Fix aria hidden a11y issue in search on desktop
 if (!mobileView()) {
     $("#SearchInput").removeAttr('aria-hidden');
@@ -22,7 +24,7 @@ if (!mobileView()) {
 let newScript = document.createElement("script");
 
 newScript.type = "module";
-newScript.src = "https://files.covid19.ca.gov/js/components/bundle/index.min.js";
+newScript.src = "https://files.covid19.ca.gov/js/components/bundle/v1/index.min.js";
 document.querySelector('head').appendChild(newScript);
 // Temporary logo replacement until moved to code option.
 $(".logo-small").prepend('<img src="https://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/06/logo_square.png" alt="Department of Cannabis Control Icon" />').css('background-color', '#FFF');
@@ -52,4 +54,5 @@ $returnTop.on('click', function () {
 // Adding ethnio script
 let newScript2 = document.createElement("script");
 newScript2.src = "https://ethn.io/17561.js";
+newScript2.async = "true";
 document.querySelector('head').appendChild(newScript2);
