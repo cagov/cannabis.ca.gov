@@ -9,6 +9,8 @@ $(".mobile-controls").insertBefore(".branding");
 $(".toggle-menu").insertBefore(".toggle-search");
 // place alert button after alert text
 $(".alert-link").insertAfter(".alert-text");
+// Adding aria-label to the site logo	
+$(".header-organization-banner a").attr("aria-label", "Department of Cannabis home");
 // Fix aria hidden a11y issue in search on desktop
 if (!mobileView()) {
     $("#SearchInput").removeAttr('aria-hidden');
