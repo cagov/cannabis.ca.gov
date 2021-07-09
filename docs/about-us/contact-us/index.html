@@ -378,17 +378,17 @@
 
 <h3>Contacts for other stakeholders</h3>
 
-<ul><li><a href="mailto:locals@cannabis.ca.gov" target="_blank" rel="noreferrer noopener">Local governments</a></li><li><a href="mailto:press@cannabis.ca.gov" target="_blank" rel="noreferrer noopener">News media</a></li><li><a href="mailto:enforcement@cannabis.ca.gov" target="_blank" rel="noreferrer noopener">Law enforcement and other state agencies</a> </li><li><a href="mailto:grants@@cannabis.ca.gov" target="_blank" rel="noreferrer noopener">Grant recipients</a> </li></ul>
+<ul><li><a rel="noreferrer noopener" href="mailto:locals@cannabis.ca.gov" target="_blank">Local governments</a></li><li><a rel="noreferrer noopener" href="mailto:press@cannabis.ca.gov" target="_blank">News media</a></li><li><a rel="noreferrer noopener" href="mailto:enforcement@cannabis.ca.gov" target="_blank">Law enforcement and other state agencies</a> </li><li><a href="mailto:grants@cannabis.ca.gov" target="_blank" rel="noreferrer noopener">Grant recipients</a> </li></ul>
 
 <h2>Submit a complaint</h2>
 
-<p>You can <a href="https://search.cannabis.ca.gov/complaints/unlicensed" target="_blank" rel="noreferrer noopener">submit a complaint</a> about:</p>
+<p>You can <a href="https://online.bcc.ca.gov/bcc/Cap/CapApplyDisclaimer.aspx?CAPType=Enforcement/Cannabis/Complaint/General%20Complaint&amp;Module=Enforcement" target="_blank" rel="noreferrer noopener">submit a complaint</a> about:</p>
 
 <ul><li>A cannabis business operating without a license  </li><li>A licensed cannabis business  </li><li>Cannabis goods, including their packaging and labeling</li><li>Cannabis goods that made you sick </li></ul>
 
 <h2>Call us</h2>
 
-<p>The best way to reach us is by email. If you’d prefer to talk to us by phone, call <a href="tel:18446122322">1-844-61-CA-DCC</a> (1-844-612-2322).</p>
+<p>The best way to reach us is by email. If you’d prefer to talk to us by phone, call <a href="tel:18446122322">1‑844‑61‑CA‑DCC</a> (1‑844‑612‑2322).</p>
 
 <h2>Visit our office</h2>
 
@@ -398,7 +398,7 @@
 
 <p>Our offices are open Monday through Friday, 8:00 a.m. to 5:00 p.m.</p>
 
-<p>You must make an appointment for fee payments. For appointments, <a rel="noreferrer noopener" href="mailto:payments@cannabis.ca.gov" target="_blank">email us</a> or call <a href="tel:18446122322">1-844-61-CA-DCC</a> (1-844-612-2322).</p>
+<p>You must make an appointment for fee payments. For appointments, <a rel="noreferrer noopener" href="mailto:payments@cannabis.ca.gov" target="_blank">email us</a> or call <a href="tel:18446122322">1‑844‑61‑CA‑DCC</a> (1‑844‑612‑2322).</p>
 
 <h3>Sacramento office</h3>
 
@@ -406,17 +406,17 @@
 
 <h3>North Coast regional office</h3>
 
-<p>930 Sixth Street, Eureka, CA 95501</p>
+<p>930 Sixth Street<br>Eureka, CA 95501</p>
 
 <h2>Request a speaker</h2>
 
-<p>You can request Department of Cannabis Control (DCC) staff to participate in your upcoming event.</p>
+<p>You can request Department of Cannabis Control (DCC) staff to <a href="https://staginginye.prod3.sites.ca.gov/about-us/dcc-events/" data-type="page" data-id="7800">participate in your upcoming event</a>.</p>
 
 <h2>Submit a Public Records Act (PRA) request</h2>
 
 <p>You can submit a PRA request for documents that DCC has on file.</p>
 
-<p>Before you submit a request, <strong>check our </strong><strong>license search</strong><strong> [link to License Search page] to see if the information </strong><strong>is already available online</strong>.</p>
+<p>Before you submit a request, <strong>check our <a href="https://staginginye.prod3.sites.ca.gov/resources/search-for-licensed-business/">license search</a> to see if the information is already available online.</strong></p>
 
 <p>Submit your PRA request by:</p>
 
@@ -424,7 +424,7 @@
 
 <p>Provide details about the records you want. This helps us identify relevant documents.</p>
 
-<p>We may charge a fee for documents that we provide. This fee compensates us for the staff time required to compile documents.</p>
+<p>We may charge a fee for documents that we provide.</p>
 
 <h3>What we cannot provide</h3>
 
@@ -436,9 +436,9 @@
 
 <h3>What happens after you send a request</h3>
 
-<p>We will contact you within 10 days to let you know if we can provide the documents you requested. If we can, we’ll  tell you how long it will take to produce them.</p>
+<p>We will contact you within 10 days to let you know if we can provide the documents you requested or if we need more time to determine if the documents can be disclosed. If we can provide documents, we’ll tell you about how long it will take to produce them.</p>
 
-<p>Many documents can be provided in 14 days. It takes us longer if you request a large amount or a lot of redactions are needed.</p>
+<p>It takes us longer to provide documents if you request a large amount or a lot of redactions are needed.</p>
 
 <h2>Send us mail</h2>
 
@@ -696,11 +696,12 @@ document.querySelector('head').appendChild(style$2);
 
 function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, thanksComments, submit) {
   return `
+  <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <label class="feedback-form-label" id="feedback-rating">${question}</label>
-      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes" aria-labelledby="feedback-rating">${yes}</button>
-      <button class="feedback-form-button js-feedback-no" id="feedback-no" aria-labelledby="feedback-rating">${no}</button>
+      <h2 class="feedback-form-label" id="feedback-rating">${question}</h2>
+      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
+      <button class="feedback-form-button js-feedback-no" id="feedback-no">${no}</button>
     </div>
           
     <div class="feedback-form-thanks js-feedback-thanks" role="alert">${thanksFeedback}</div>
@@ -714,10 +715,11 @@ function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, than
     </div>
 
     <div class="feedback-form-thanks feedback-thanks-add" role="alert">${thanksComments}</div>
-  </div>`
+  </div>
+  </section>`
 }
 
-var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
+var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  font-size: 1.125rem;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
 
 /**
  * Page feedback web component that asks if you found what you were looking for, then prompts for comments

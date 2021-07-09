@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2019-11-19T01:03:00",
-    "updated_date": "2021-06-14T19:15:55",
+    "updated_date": "2021-07-01T17:52:24",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://staginginye.prod3.sites.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,17 +17,22 @@
     "title": "Changes to Cannabis Excise and Cultivation Taxes Regulation",
     "author": "Department of Cannabis Control",
     "date": "2019-11-19T01:03:00",
-    "modified": "2021-06-14T19:15:55",
+    "modified": "2021-07-01T10:52:24",
     "date_gmt": "2019-11-19T01:03:00",
-    "modified_gmt": "2021-06-14T19:15:55",
+    "modified_gmt": "2021-07-01T17:52:24",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/",
     "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) recently adopted Regulation 3700, <em>Cannabis Excise and Cultivation Taxes</em>, which addresses and clarifies the Cannabis Tax Law regarding the administration of the cannabis excise and cultivation taxes.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

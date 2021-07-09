@@ -1,7 +1,9 @@
+#ethnio-campaign-theme {left: 45px !important;}
+
 /* GLOBAL */
 a:focus,
 button:focus {
-  outline: solid 2px #fdb81e;
+  outline: solid 2px #fdb81e !important;
 }
 /* Changing site's global max width */
 @media (min-width: 1280px) {
@@ -219,6 +221,9 @@ div.goog-te-gadget {
   /*Sub navigation styles */
   .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"] {
     outline: 1px solid #efefef;
+  }
+  .full-width-nav .main-navigation .top-level-nav .first-level-btn[aria-expanded="true"]:focus {
+    outline: 1px solid #efefef !important;
   }
 
 
@@ -782,7 +787,10 @@ ol.steps li:last-child {
   background-color: #fff;
   color: #064e66;
   border: 1px solid #064e66;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  bottom: 90px;
+  right:-2px;
 }
 .return-top:after {
   content: "Back to Top";
@@ -808,6 +816,7 @@ ol.steps li:last-child {
 /* enable back-to-top in mobile */
 @media (max-width: 767px) {
 .return-top.is-visible {display: block !important;} 
+.return-top:after {content: "";}
 }
 /* END -- back to top */
 

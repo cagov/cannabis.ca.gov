@@ -362,25 +362,25 @@
         <div class="everylayout">
           <main class="main-primary">
             
-<p>You need a distribution license to transport cannabis and cannabis products in California. Distributors can transport:</p>
+<p>You need a <a href="https://staginginye.prod3.sites.ca.gov/applicants/license-types/#distribution-licenses" data-type="page">distribution license</a> to transport cannabis and cannabis products in California. Distributors can transport:</p>
 
 <ul><li>Goods they cultivated or manufactured</li><li>Goods for other businesses</li></ul>
 
 <h2>Distribution licenses</h2>
 
-<p>The type and cost of distribution license depends on whether you:</p>
+<p>The type and cost of <a href="https://staginginye.prod3.sites.ca.gov/applicants/license-types/#distribution-licenses" data-type="page">distribution license</a> depends on whether you:</p>
 
 <ul><li>Transport cannabis goods to retail</li><li>Store cannabis goods</li><li>Transport for other businesses</li></ul>
 
 <h2>Role in testing and quality assurance</h2>
 
-<p>Distributors make sure a licensed testing laboratory tests all batches of cannabis goods before they are sold. The distributor:</p>
+<p>Type 11 distributors make sure a licensed testing laboratory tests all batches of cannabis goods before they are sold. The distributor:</p>
 
-<ul><li>Arranges for a testing laboratory to take a sample of cannabis</li><li>Holds the cannabis goods while the laboratory runs the required tests</li></ul>
+<ul><li>Arranges for a testing laboratory to take a sample of cannabis</li><li>Holds the cannabis goods while the laboratory runs the required tests</li><li>Makes sure the date on the corresponding Certificate of Analysis is less than 12 months old</li></ul>
 
 <p>Distributors can only transport cannabis goods to a retailer for sale if they pass testing. Goods that fail testing are destroyed or sent to a manufacturer for remediation.</p>
 
-<p>Before transporting goods to a retailer, distributors also conduct a quality assurance review to make sure:</p>
+<p>Before transporting goods to a retailer, type 11 distributors also conduct a quality assurance review to make sure:</p>
 
 <ul><li>Required information is on the label</li><li>The packaging protects the product from contamination</li><li>It’s not a prohibited product</li><li>The amount of THC in the product is within the limits</li></ul>
 
@@ -634,11 +634,12 @@ document.querySelector('head').appendChild(style$2);
 
 function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, thanksComments, submit) {
   return `
+  <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <label class="feedback-form-label" id="feedback-rating">${question}</label>
-      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes" aria-labelledby="feedback-rating">${yes}</button>
-      <button class="feedback-form-button js-feedback-no" id="feedback-no" aria-labelledby="feedback-rating">${no}</button>
+      <h2 class="feedback-form-label" id="feedback-rating">${question}</h2>
+      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
+      <button class="feedback-form-button js-feedback-no" id="feedback-no">${no}</button>
     </div>
           
     <div class="feedback-form-thanks js-feedback-thanks" role="alert">${thanksFeedback}</div>
@@ -652,10 +653,11 @@ function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, than
     </div>
 
     <div class="feedback-form-thanks feedback-thanks-add" role="alert">${thanksComments}</div>
-  </div>`
+  </div>
+  </section>`
 }
 
-var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
+var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  font-size: 1.125rem;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
 
 /**
  * Page feedback web component that asks if you found what you were looking for, then prompts for comments

@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2019-03-13T23:01:00",
-    "updated_date": "2021-06-14T19:16:12",
+    "updated_date": "2021-07-01T17:52:27",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://staginginye.prod3.sites.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,17 +17,22 @@
     "title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
     "author": "Department of Cannabis Control",
     "date": "2019-03-13T23:01:00",
-    "modified": "2021-06-14T19:16:12",
+    "modified": "2021-07-01T10:52:27",
     "date_gmt": "2019-03-13T23:01:00",
-    "modified_gmt": "2021-06-14T19:16:12",
+    "modified_gmt": "2021-07-01T17:52:27",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
     "excerpt": "<p>As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

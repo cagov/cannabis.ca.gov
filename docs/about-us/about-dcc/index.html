@@ -362,25 +362,27 @@
         <div class="everylayout">
           <main class="main-primary">
             
-<p>The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses. DCC regulates:</p>
+<p>The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses. DCC regulates the:</p>
 
 <ul><li>Growing of cannabis plants</li><li>Manufacture of cannabis products </li><li>Transportation and tracking of cannabis goods throughout the state </li><li>Sale of cannabis goods </li><li>Events where cannabis is sold or used </li><li>Labeling of goods sold at retail </li></ul>
 
-<p>The Cannabis Advisory Committee [Link to Cannabis Advisory Committee page] makes recommendations to DCC about regulations and licensing.</p>
+<p>The <a href="https://staginginye.prod3.sites.ca.gov/about-us/cannabis-advisory-committee/" data-type="page" data-id="701">Cannabis Advisory Committee</a> makes recommendations to DCC about regulations and licensing.</p>
 
 <h2>DCC leadership team</h2>
 
 <p>The director and chief deputy director lead DCC and its 10 deputy directors. Each deputy director is responsible for a different area of DCC’s work.</p>
 
-<p>[Name], Director<br>[Name], Chief Deputy Director<br>[Name], Deputy Director of Administration<br>[Name], Deputy Director of Compliance<br>[Name], Deputy Director of Enforcement<br>[Name], Deputy Director of Governmental Affairs<br>[Name], Deputy Director of Information Technology<br>[Name], Deputy Director of Laboratory Services<br>[Name], Deputy Director of Legal Affairs<br>[Name], Deputy Director of Licensing<br>[Name], Deputy Director of External Affairs<br>[Name], Deputy Director of Equity &amp; Inclusion</p>
+<p>The leadership team will be announced soon and will include a:</p>
+
+<ul><li>Director</li><li>Chief Deputy Director</li><li>Deputy Director of Administration</li><li>Deputy Director of Compliance</li><li>Deputy Director of Enforcement</li><li>Deputy Director of Equity &amp; Inclusion</li><li>Deputy Director of External Affairs</li><li>Deputy Director of Governmental Affairs</li><li>Deputy Director of Information Technology</li><li>Deputy Director of Laboratory Services</li><li>Deputy Director of Legal Affairs</li><li>Deputy Director of Licensing</li></ul>
 
 <h2>How DCC was formed</h2>
 
 <p>DCC was created on July 1, 2021, by consolidating the three former state cannabis authorities:</p>
 
-<ul><li>Bureau of Cannabis Control</li><li>CalCannabis Licensing Division (California Department of Food and Agriculture)</li><li>Manufactured Cannabis Safety Branch (California Department of Public Health)</li></ul>
+<ul><li>Bureau of Cannabis Control (Department of Consumer Affairs)</li><li>CalCannabis Cultivation Licensing Division (California Department of Food and Agriculture)</li><li>Manufactured Cannabis Safety Branch (California Department of Public Health)</li></ul>
 
-<p>Learn more about the state cannabis consolidation [link to State Cannabis Consolidation].</p>
+<p>Learn more about the <a href="https://staginginye.prod3.sites.ca.gov/about-us/consolidation/" data-type="page" data-id="708">state cannabis consolidation</a>.</p>
 
 <h2>Jobs at DCC</h2>
 
@@ -388,21 +390,7 @@
 
 <h3>How to apply for a job at DCC</h3>
 
-<ol><li><strong>Search for a job</strong><strong> on the </strong><a href="https://www.calcareers.ca.gov/" target="_blank" rel="noreferrer noopener"><strong>CalCareers</strong></a><strong> </strong><strong>website</strong></li></ol>
-
-<p>To see jobs available at DCC, type <strong>Department of Cannabis Control</strong> into the search bar. To see all cannabis jobs at the state, type <strong>cannabis</strong> into the search bar. Read the duty statement for each job to learn what the position does.</p>
-
-<ol start="2"><li><strong>Create a CalCareers account </strong></li></ol>
-
-<p>Enter your information and upload supporting documents. You can use one job application to apply for multiple positions.</p>
-
-<ol start="3"><li><strong>Complete </strong><strong>an assessment</strong></li></ol>
-
-<p>When you find a job you want, you’ll need to take an assessment to show you qualify for that position. Assessments differ by job classification. They can be an interview or exam.</p>
-
-<ol start="4"><li><strong>Apply </strong></li></ol>
-
-<p>Submit your application for the job you’re interested in. If you qualify and among the top candidates, we’ll call you for an interview.</p>
+<ol class="steps"><li><strong>Search for a job on the </strong><a rel="noreferrer noopener" href="https://www.calcareers.ca.gov/" target="_blank"><strong>CalCareers</strong></a><strong> website</strong><br><span class="has-inline-color has-black-color">To see jobs available at DCC, type <strong>Department of Cannabis Control</strong> into the search bar. To see all cannabis jobs at the state, type <strong>cannabis</strong> into the search bar. Read the duty statement for each job to learn what the position does.</span></li><li><strong>Create a CalCareers account</strong><br><span class="has-inline-color has-black-color">Enter your information and upload supporting documents. You can use one job application to apply for multiple positions.</span></li><li><strong>Complete an assessment</strong><br><span class="has-inline-color has-black-color">When you find a job you want, you’ll need to take an assessment to show you qualify for that position. Assessments differ by job classification. They can be an interview or exam.</span></li><li><strong>Apply</strong><br><span class="has-inline-color has-black-color">Submit your application for the job you’re interested in. If you qualify and among the top candidates, we’ll call you for an interview.<br></span></li></ol>
 
 <p>If you’re new to state service, CalHR has videos to help you learn about the hiring process:</p>
 
@@ -664,11 +652,12 @@ document.querySelector('head').appendChild(style$2);
 
 function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, thanksComments, submit) {
   return `
+  <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <label class="feedback-form-label" id="feedback-rating">${question}</label>
-      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes" aria-labelledby="feedback-rating">${yes}</button>
-      <button class="feedback-form-button js-feedback-no" id="feedback-no" aria-labelledby="feedback-rating">${no}</button>
+      <h2 class="feedback-form-label" id="feedback-rating">${question}</h2>
+      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
+      <button class="feedback-form-button js-feedback-no" id="feedback-no">${no}</button>
     </div>
           
     <div class="feedback-form-thanks js-feedback-thanks" role="alert">${thanksFeedback}</div>
@@ -682,10 +671,11 @@ function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, than
     </div>
 
     <div class="feedback-form-thanks feedback-thanks-add" role="alert">${thanksComments}</div>
-  </div>`
+  </div>
+  </section>`
 }
 
-var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
+var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  font-size: 1.125rem;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
 
 /**
  * Page feedback web component that asks if you found what you were looking for, then prompts for comments

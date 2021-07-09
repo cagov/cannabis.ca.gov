@@ -362,11 +362,27 @@
         <div class="everylayout">
           <main class="main-primary">
             
-<p>Regulations are made through a process called rulemaking. It gives the public the opportunity to take part in the creation of regulations proposed by California state agencies.</p>
+<h2>Department of Cannabis Control (DCC) regulations</h2>
+
+<p>Regulations are state laws with specific rules for how businesses and others must operate.  </p>
+
+<h3>Current regulations</h3>
+
+<p>The&nbsp;three former cannabis programs’ regulations are still in effect.&nbsp;&nbsp;</p>
+
+<p>View the regulations&nbsp;for:&nbsp;</p>
+
+<ul><li><a href="https://static.cdfa.ca.gov/MCCP/document/CDFA%20Final%20Regulation%20Text_01162019_Clean.pdf">Cultivators</a></li><li><a href="https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH%20Document%20Library/DPH17010_FinalClean.pdf">Manufacturers</a></li><li><a href="https://bcc.ca.gov/law_regs/cannabis_order_of_adoption.pdf">Other license types</a></li></ul>
+
+<h3>How we anticipate changing the regulations</h3>
+
+<p>DCC’s regulations were created by the&nbsp;<a href="https://staginginye.prod3.sites.ca.gov/about-us/consolidation/" data-type="page" data-id="708">three former state cannabis programs</a>. We anticipate publishing changes to the rules to combine those three sets of regulations into one.&nbsp;</p>
 
 <h2>How regulations are made</h2>
 
-<p>The Office of Administrative Law (OAL) oversees rulemaking process. OAL makes sure that state agencies follow California’s laws when they adopt new regulations.</p>
+<p>Regulations are made through a process called rulemaking. It gives the public the opportunity to take part in the creation of regulations proposed by California state agencies.</p>
+
+<p>The Office of Administrative Law (OAL) oversees the rulemaking process. OAL makes sure that state agencies follow California’s laws when they adopt new regulations.</p>
 
 <p>There are two types of rulemaking procedures: regular and emergency.</p>
 
@@ -384,9 +400,9 @@
 
 <h2>Pending rulemaking actions</h2>
 
-<h3>Section 100 – Submitted to OAL on July 1, 2021</h3>
+<h3>Section 100</h3>
 
-<p>This rulemaking action moves the existing cannabis regulations out of Titles 3, 16, and 17 in the California Code of Regulations and into Title 4. This change would place all DCC regulations in Title 4, Division 19.</p>
+<p>We anticipate filing a Section 100 soon. This rulemaking action will move the existing cannabis regulations out of Titles 3, 16, and 17 in the California Code of Regulations and into Title 4. This change would place all DCC regulations in Title 4, Division 19.</p>
 
 <h2>Previously-approved rulemaking actions</h2>
 
@@ -396,9 +412,9 @@
 
 <ul><li>The California Department of Food and Agriculture (CDFA) &#8211; cultivators</li><li>The California Department of Public Health (CDPH) &#8211; manufacturers</li><li>The Bureau of Cannabis Control (BCC) &#8211; all other license types</li></ul>
 
-<p>The CDFA, CDPH and BCC regulations are no longer in effect. For copies of previous rulemaking files, contact:</p>
+<p>Email <a href="mailto:regulations@cannabis.ca.gov">regulations@cannabis.ca.gov</a> for copies of previous rulemaking files. You can also view them online:</p>
 
-<ul><li><a href="mailto:CDFA.legaloffice@cdfa.ca.gov" target="_blank" rel="noreferrer noopener">CDFA Legal Office</a></li><li><a href="mailto:regulations@cdph.ca.gov" target="_blank" rel="noreferrer noopener">CDPH Office of Regulations</a></li><li><a href="mailto:regulations@cannabis.ca.gov" target="_blank" rel="noreferrer noopener">BCC</a></li></ul>
+<ul><li><a href="https://bcc.ca.gov/law_regs/" target="_blank" rel="noreferrer noopener">BCC&nbsp;rulemaking files</a>&nbsp;</li><li><a href="https://www.cdfa.ca.gov/calcannabis/regulations.html" target="_blank" rel="noreferrer noopener">CDFA rulemaking files</a></li><li><a href="https://www.cdph.ca.gov/Programs/OLS/Pages/DPH-17-010E-Emergency-Cannabis-Regulations.aspx" target="_blank" rel="noreferrer noopener">CDPH rulemaking files</a></li></ul>
 
           </main>
         </div>
@@ -650,11 +666,12 @@ document.querySelector('head').appendChild(style$2);
 
 function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, thanksComments, submit) {
   return `
+  <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <label class="feedback-form-label" id="feedback-rating">${question}</label>
-      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes" aria-labelledby="feedback-rating">${yes}</button>
-      <button class="feedback-form-button js-feedback-no" id="feedback-no" aria-labelledby="feedback-rating">${no}</button>
+      <h2 class="feedback-form-label" id="feedback-rating">${question}</h2>
+      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
+      <button class="feedback-form-button js-feedback-no" id="feedback-no">${no}</button>
     </div>
           
     <div class="feedback-form-thanks js-feedback-thanks" role="alert">${thanksFeedback}</div>
@@ -668,10 +685,11 @@ function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, than
     </div>
 
     <div class="feedback-form-thanks feedback-thanks-add" role="alert">${thanksComments}</div>
-  </div>`
+  </div>
+  </section>`
 }
 
-var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
+var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  font-size: 1.125rem;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
 
 /**
  * Page feedback web component that asks if you found what you were looking for, then prompts for comments

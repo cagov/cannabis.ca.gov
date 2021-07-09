@@ -362,7 +362,7 @@
         <div class="everylayout">
           <main class="main-primary">
             
-<p>Manufacturers extract cannabinoids from cannabis plants and make products out of the extract. The types of products they make vary widely and include:</p>
+<p>Manufacturers extract cannabinoids and terpenes from cannabis plants and make products out of the extract. The types of products they make vary widely and include:</p>
 
 <ul><li>Food and beverages</li><li>Vape cartridges</li><li>Lotions and balms</li><li>Lozenges and sublingual sprays</li><li>Pills and tablets</li><li>Dab, shatter and wax</li></ul>
 
@@ -372,7 +372,7 @@
 
 <h2>Manufacturing licenses</h2>
 
-<p>You need a manufacturing license [link to License Types page] to make and sell cannabis products in California. The type of manufacturing license you need depends on:</p>
+<p>You need a <a href="https://staginginye.prod3.sites.ca.gov/applicants/license-types/#manufacturing-license-types" data-type="page">manufacturing license</a> to make cannabis products in California. The type of manufacturing license you need depends on:</p>
 
 <ul><li>What activities you do</li><li>Whether you do extraction and post processing</li><li>What types of chemicals you use (if any)</li></ul>
 
@@ -380,7 +380,7 @@
 
 <h2>Good manufacturing practices</h2>
 
-<p>DCC regulations require manufacturers to follow good manufacturing practices (GMPs) when making products. GMPs help ensure products are: </p>
+<p>The Department of Cannabis Control’s regulations require manufacturers to follow good manufacturing practices (GMPs) when making products. GMPs help ensure products are: </p>
 
 <ul><li>Free of contaminants and safe for consumers</li><li>Produced consistently every time</li><li>Labeled correctly</li></ul>
 
@@ -404,13 +404,13 @@
 
 <p>Master manufacturing protocols are step-by-step instructions for creating your product. They are the “recipe” that staff follow to ensure they make the products the same way each time. You must have a master manufacturing protocol for each formulation.</p>
 
-<p>Use the master manufacturing protocol checklist [link to guidance doc to come] to make sure your protocols include the required information.</p>
+<p>Use the <a href="https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH Document Library/Checklist_MasterManufacturingProtocol.pdf">master manufacturing protocol checklist</a> to make sure your protocols include the required information.</p>
 
 <h3>Batch production records</h3>
 
 <p>Batch production records document all the steps you take to create your product. Most manufacturers create a template that their staff can fill out when they complete each step.</p>
 
-<p>Use the batch production records checklist [link to guidance doc to come] to make sure your templates include the required information.</p>
+<p>Use the <a href="https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH Document Library/Checklist_BatchProductionRecords.pdf">batch production records checklist</a> to make sure your templates include the required information.</p>
 
 <h2>Packaging and labeling</h2>
 
@@ -422,9 +422,9 @@
 
 <p>Packaging must be:</p>
 
-<ul><li>Child-resistant</li><li>Tamper evident</li><li>Resealable (if it contains multiple servings)</li><li>Opaque (if it is an edible)</li></ul>
+<ul><li>Child resistant</li><li>Tamper evident</li><li>Resealable (if it contains multiple servings)</li><li>Opaque (if it is an edible)</li></ul>
 
-<p>Use the packaging checklist [link to guidance document to come] to make sure your product is properly packaged.</p>
+<p>Use the <a href="https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH Document Library/PackagingChecklist.pdf">packaging checklist</a> to make sure your product is properly packaged.</p>
 
 <h3>Labeling</h3>
 
@@ -432,7 +432,7 @@
 
 <ul><li>Primary panel – the part of the label displayed to the consumer at retail; typically found on the front or the top of the package</li><li>Informational panel – any other part of the label that is not the primary panel</li></ul>
 
-<p>You must list certain information on each part of the label. Use the labeling checklist [link to guidance document to come] to make sure your product has the required information.</p>
+<p>You must list certain information on each part of the label. Use the <a href="https://www.cdph.ca.gov/Programs/CEH/DFDCS/MCSB/CDPH Document Library/LabelingChecklist-Products.pdf">labeling checklist</a> to make sure your product has the required information.</p>
 
           </main>
         </div>
@@ -684,11 +684,12 @@ document.querySelector('head').appendChild(style$2);
 
 function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, thanksComments, submit) {
   return `
+  <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <label class="feedback-form-label" id="feedback-rating">${question}</label>
-      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes" aria-labelledby="feedback-rating">${yes}</button>
-      <button class="feedback-form-button js-feedback-no" id="feedback-no" aria-labelledby="feedback-rating">${no}</button>
+      <h2 class="feedback-form-label" id="feedback-rating">${question}</h2>
+      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
+      <button class="feedback-form-button js-feedback-no" id="feedback-no">${no}</button>
     </div>
           
     <div class="feedback-form-thanks js-feedback-thanks" role="alert">${thanksFeedback}</div>
@@ -702,10 +703,11 @@ function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, than
     </div>
 
     <div class="feedback-form-thanks feedback-thanks-add" role="alert">${thanksComments}</div>
-  </div>`
+  </div>
+  </section>`
 }
 
-var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
+var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  font-size: 1.125rem;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
 
 /**
  * Page feedback web component that asks if you found what you were looking for, then prompts for comments

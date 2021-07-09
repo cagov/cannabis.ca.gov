@@ -366,13 +366,13 @@
 
 <ul><li>Buy cannabis products with more THC</li><li>Buy more cannabis at a time, if needed for your medical condition</li><li>Possess more cannabis</li><li>Grow more plants at home, if needed for your medical condition</li><li>Get a medical marijuana ID card</li></ul>
 
-<p>Even with a physician’s recommendation, you must follow laws about where you can use cannabis.</p>
+<p>Even with a physician’s recommendation, you must follow laws about <a href="https://staginginye.prod3.sites.ca.gov/consumers/whats-legal/" data-type="page" data-id="704">where you can use cannabis</a>.</p>
 
 <h2>Eligible medical conditions</h2>
 
 <p>Your primary care physician can recommend cannabis to help you manage any of these medical conditions:</p>
 
-<ul><li>Acquired immune deficiency syndrome (AIDS)</li><li>Anorexia</li><li>Arthritis</li><li>Cachexia (wasting syndrome)</li><li>Cancer</li><li>Chronic paint</li><li>Glaucoma</li><li>Migraine</li><li>Severe nausea</li><li>Persistent muscle spasms (for example, spasms caused by multiple sclerosis)</li><li>Seizures (for example, epileptic seizures)</li></ul>
+<ul><li>Acquired immune deficiency syndrome (AIDS)</li><li>Anorexia</li><li>Arthritis</li><li>Cachexia (wasting syndrome)</li><li>Cancer</li><li>Chronic pain</li><li>Glaucoma</li><li>Migraine</li><li>Severe nausea</li><li>Persistent muscle spasms (for example, spasms caused by multiple sclerosis)</li><li>Seizures (for example, epileptic seizures)</li></ul>
 
 <p>Your physician can also recommend cannabis to help with chronic or persistent medical symptoms that either:</p>
 
@@ -386,31 +386,7 @@
 
 <h3>How to get a medical marijuana ID card</h3>
 
-<ol><li><strong>Fill out the application</strong></li></ol>
-
-<p>Download and complete the <a rel="noreferrer noopener" href="https://www.cdph.ca.gov/Programs/CHSI/Pages/MMICP-Forms-and-Appeals.aspx" target="_blank">medical marijuana ID card application</a> form.</p>
-
-<ol start="2"><li><strong>Gather your supporting documents</strong></li></ol>
-
-<p>When you apply, you’ll need the following documents:</p>
-
-<ul><li>A copy of your medical recommendation</li><li>Proof of identity (driver’s license or other government-issued ID)</li><li>Proof of residency that shows your name and current address, such as:<ul><li>Rent or mortgage agreement</li><li>Utility bill</li><li>California motor vehicle registration</li></ul></li></ul>
-
-<ol start="3"><li><strong>Make an appointment with your county health department</strong></li></ol>
-
-<p>You must submit your application in person. Contact the <a rel="noreferrer noopener" href="https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Program-and-Hours.aspx" target="_blank">health department</a> for the county you live in for an appointment.</p>
-
-<ol start="4"><li><strong>Go to your appointment</strong></li></ol>
-
-<p>You’ll pay an application fee and have your photo taken for your ID card. Application fees vary by county, but they are not more than $100.</p>
-
-<p>If you’re applying as a primary caregiver, the patient will need to come to your appointment with you.</p>
-
-<p>If you receive healthcare through Medi-Cal, your application fee is reduced by 50%. If you receive healthcare through a medically-indigent service program, your application fee is waived.</p>
-
-<ol start="5"><li><strong>Wait for approval</strong></li></ol>
-
-<p>It can take up to 35 days for the county health department to issue your medical marijuana ID card.</p>
+<ol class="steps"><li><strong>Fill out the application</strong><br><span class="has-inline-color has-black-color">Download and complete the <a rel="noreferrer noopener" href="https://www.cdph.ca.gov/Programs/CHSI/Pages/MMICP-Forms-and-Appeals.aspx" target="_blank">medical marijuana ID card application</a> form.</span></li><li><strong>Gather your supporting documents</strong><br><span class="has-inline-color has-black-color">When you apply, you’ll need a copy of your medical recommendation, proof of identity (driver’s license or other government-issued ID), proof of residency that shows your name and current address (like a rent or mortgage agreement, utility bill, or California motor vehicle registration)</span></li><li><strong>Make an appointment with your county health department</strong><br><span class="has-inline-color has-black-color">You must submit your application in person. Contact the <a rel="noreferrer noopener" href="https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Program-and-Hours.aspx" target="_blank">health department</a> for the county you live in for an appointment.</span></li><li><strong>Go to your appointment</strong><br><span class="has-inline-color has-black-color">You’ll pay an application fee and have your photo taken for your ID card. Application fees vary by county, but they are not more than $100. If you’re applying as a primary caregiver, the patient will need to come to your appointment with you. If you receive healthcare through Medi-Cal, your application fee is reduced by 50%. If you receive healthcare through a medically-indigent service program, your application fee is waived.</span></li><li><strong>Wait for approval</strong><br><span class="has-inline-color has-black-color">It can take up to 35 days for the county health department to issue your medical marijuana ID card.</span></li></ol>
 
 <h3>What to do if your application is denied</h3>
 
@@ -676,11 +652,12 @@ document.querySelector('head').appendChild(style$2);
 
 function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, thanksComments, submit) {
   return `
+  <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <label class="feedback-form-label" id="feedback-rating">${question}</label>
-      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes" aria-labelledby="feedback-rating">${yes}</button>
-      <button class="feedback-form-button js-feedback-no" id="feedback-no" aria-labelledby="feedback-rating">${no}</button>
+      <h2 class="feedback-form-label" id="feedback-rating">${question}</h2>
+      <button class="feedback-form-button js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
+      <button class="feedback-form-button js-feedback-no" id="feedback-no">${no}</button>
     </div>
           
     <div class="feedback-form-thanks js-feedback-thanks" role="alert">${thanksFeedback}</div>
@@ -694,10 +671,11 @@ function ratingsTemplate (question, yes, no, commentPrompt, thanksFeedback, than
     </div>
 
     <div class="feedback-form-thanks feedback-thanks-add" role="alert">${thanksComments}</div>
-  </div>`
+  </div>
+  </section>`
 }
 
-var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
+var styles$1 = "cagov-feedback {\n  width: 100%;\n}\ncagov-feedback .feedback-form {\n  background: var(--standout-color, #2F4C2C);\n  padding: 1rem;\n  border-radius: 0.3125rem;\n}\ncagov-feedback .feedback-form-question {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n}\ncagov-feedback .feedback-form-label {\n  color: #fff;\n  font-size: 1.125rem;\n  display: block;\n  margin-right: 1rem;\n  transition: 0.3s color cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  line-height: 3rem;\n  width: 100%;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-label {\n    width: auto;\n  }\n}\ncagov-feedback .feedback-form-button {\n  padding: 1rem;\n  color: var(--standout-color, #2F4C2C);\n  border: none;\n  border-radius: 0.3rem;\n  transition: 0.3s background cubic-bezier(0.57, 0.2, 0.21, 0.89);\n  cursor: pointer;\n  margin: 0 0.5rem 0 0;\n  display: inline !important;\n  /* defensive overrides */\n  position: relative;\n  text-transform: none;\n  top: auto;\n  right: auto;\n  background: #fff;\n}\ncagov-feedback .feedback-form-button:hover {\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);\n  text-decoration: underline;\n}\ncagov-feedback .feedback-form-button:focus {\n  box-shadow: 0 0 0 2px #fff;\n}\ncagov-feedback .feedback-form-button .feedback-yes {\n  margin-right: 1rem;\n}\ncagov-feedback .feedback-form-add {\n  padding-top: 2rem;\n  display: none;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add {\n    text-align: left;\n    padding-top: 0;\n  }\n}\ncagov-feedback .feedback-form-add-grid {\n  position: relative;\n  margin-top: 1rem;\n}\n@media (min-width: 48rem) {\n  cagov-feedback .feedback-form-add-grid {\n    display: inline-flex;\n    flex-flow: column;\n    align-items: flex-start;\n  }\n}\ncagov-feedback .feedback-form-textarea {\n  width: 100%;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  font-family: \"Roboto\", sans-serif;\n  color: darkblue;\n  max-width: 90%;\n  height: 127px;\n  width: 600px;\n}\ncagov-feedback .feedback-form-thanks {\n  display: none;\n  color: #fff;\n}\ncagov-feedback .feedback-form-error {\n  position: relative;\n  top: 100%;\n  left: 0;\n  display: none;\n  font-weight: 300;\n  text-align: left;\n}\n\n/*# sourceMappingURL=index.css.map */\n";
 
 /**
  * Page feedback web component that asks if you found what you were looking for, then prompts for comments

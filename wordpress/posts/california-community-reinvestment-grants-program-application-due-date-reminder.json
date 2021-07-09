@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2019-05-13T23:59:00",
-    "updated_date": "2021-06-14T19:16:06",
+    "updated_date": "2021-07-01T17:52:25",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://staginginye.prod3.sites.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,17 +17,22 @@
     "title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
     "author": "Department of Cannabis Control",
     "date": "2019-05-13T23:59:00",
-    "modified": "2021-06-14T19:16:06",
+    "modified": "2021-07-01T10:52:25",
     "date_gmt": "2019-05-13T23:59:00",
-    "modified_gmt": "2021-06-14T19:16:06",
+    "modified_gmt": "2021-07-01T17:52:25",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],
