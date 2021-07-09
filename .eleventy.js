@@ -1,11 +1,38 @@
 const CleanCSS = require("clean-css");
+let pressList = require('./src/templates/_includes/layouts/templates/press-list.js');
+let last3Posts = require('./src/templates/_data/last3.js');
 
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
+
+  eleventyConfig.addCollection("press", function(collection) {
+    let output = [];
+    collection.getAll().forEach(item => {
+      if(item.data.wordpress.dataset) {
+        if(item.data.type == "post") {
+          output.push(item);
+        }
+      }
+    });
+    return output.sort((a,b) => {
+      return a.data.date > b.data.date;
+    });
+  });
   
+  eleventyConfig.addFilter("postlist", function(html) {
+    let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
+    let myArray = myRe.exec(html);
+    let lastPosts = last3Posts();
+    let postHTML = pressList(lastPosts);
+    if(myArray) {
+      return html.replace(myArray[0],postHTML);
+    }
+    return html;    
+  });
+
   eleventyConfig.addCollection("manualcontent", function(collection) {
     let output = [];
     collection.getAll().forEach(item => {

@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "covid.css",
+	"sources": [
+		"../../src/css/sass/colorschemes/covid.scss"
+	],
+	"names": [],
+	"mappings": ""
+}
