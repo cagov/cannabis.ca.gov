@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-06-30T19:01:18",
+    "updated_date": "2021-07-12T15:33:20",
     "api_version": "v2",
     "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "State cannabis consolidation",
     "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:40",
-    "modified": "2021-06-30T12:01:18",
+    "modified": "2021-07-12T08:33:20",
     "date_gmt": "2021-06-19T15:07:40",
-    "modified_gmt": "2021-06-30T19:01:18",
+    "modified_gmt": "2021-07-12T15:33:20",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
