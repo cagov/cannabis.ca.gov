@@ -18,7 +18,7 @@ layout: "layouts/press.njk"
         <div class="excerpt"><p></p>
         <p>{{ item.dataset.data.excerpt | safe }}</p>
         <p></p></div>
-        <div class="date">{{ item.dataset.data.date }}</div>
+        <div class="date">{{ item.dataset.data.date.toLocaleString() }}</div>
       </div>
     {% endfor -%}
   </div>

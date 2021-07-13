@@ -1,7 +1,7 @@
 // fetch header, footer and content menus
 
 const fetch = require('node-fetch')
-let urlBase = 'https://staginginye.prod3.sites.ca.gov/wp-json/menus/v1/menus';
+let urlBase = 'https://cannabis.ca.gov/wp-json/menus/v1/menus';
 module.exports = function () {
   return new Promise((resolve, reject) => {
     fetch(urlBase)

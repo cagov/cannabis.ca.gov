@@ -68,8 +68,8 @@ function cleanUrl(url) {
   if (url.indexOf(".pantheonsite.io/") > -1) {
     return url.split(".pantheonsite.io/")[1];
   }
-  if(url.indexOf('staginginye.prod3.sites.ca.gov') > -1) {
-    return url.split('staginginye.prod3.sites.ca.gov')[1]
+  if(url.indexOf('cannabis.ca.gov') > -1) {
+    return url.split('cannabis.ca.gov')[1]
   }
   return url;
 }
@@ -84,7 +84,7 @@ function chooseTemplate(data) {
   if(data.design_system_fields) {
     template = data.design_system_fields.template;
   }
-  if(data.wordpress_url === 'https://staginginye.prod3.sites.ca.gov/') {
+  if(data.wordpress_url === 'https://cannabis.ca.gov/') {
     return "landing"
   }
 
