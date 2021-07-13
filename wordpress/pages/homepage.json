@@ -30,20 +30,6 @@
     "excerpt": "<p>Learn about California cannabis laws and licenses</p>\n",
     "type": "page",
     "parent": 0,
-    "menu_order": 0,
-    "media": [
-      {
-        "id": 8179,
-        "type": "large",
-        "path": "sites/2/2021/06/cannabis-buds-hero-1024x683.jpg",
-        "file": "cannabis-buds-hero-1024x683.jpg",
-        "width": 1024,
-        "height": 683,
-        "mime_type": "image/jpeg",
-        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1024x683.jpg",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "menu_order": 0
   }
 }
