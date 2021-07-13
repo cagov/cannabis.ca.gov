@@ -1,0 +1,31 @@
+name: Eleventy Build Main
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@master
+      - name: Use Node.js 14.17.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.17.0
+      - name: Build 11ty
+        run: |
+          mkdir dist
+          npm install
+          npm run build
+
+      # deploy built files to separate branch that contains only built files that github pages uses to serve site
+      - name: Deploy to github pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: deploy_production
+          
