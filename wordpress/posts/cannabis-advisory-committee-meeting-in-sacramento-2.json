@@ -3,10 +3,10 @@
     "created_date": "2019-03-15T20:07:00",
     "updated_date": "2021-06-19T15:50:52",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,7 +26,7 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/03/15/cannabis-advisory-committee-meeting-in-sacramento-2/",
+    "wordpress_url": "https://cannabis.ca.gov/2019/03/15/cannabis-advisory-committee-meeting-in-sacramento-2/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee (CAC) will hold its first meeting of the year on Wednesday, March 27 in Sacramento. The Meeting Notice and Agenda has been posted to the Bureau’s website and can be found here – http://bcc.ca.gov/about_us/committee_meetings.html. CANNABIS ADVISORY COMMITTEE MEETING: WHERE: Hilton [&hellip;]</p>\n",
     "format": "standard",
     "type": "post",

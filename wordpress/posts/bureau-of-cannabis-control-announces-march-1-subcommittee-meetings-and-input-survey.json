@@ -3,10 +3,10 @@
     "created_date": "2018-02-15T18:28:00",
     "updated_date": "2021-06-19T15:50:56",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,7 +26,7 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
+    "wordpress_url": "https://cannabis.ca.gov/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a second series of subcommittee meetings on Thursday, March 1 in Sacramento.</p>\n",
     "format": "standard",
     "type": "post",

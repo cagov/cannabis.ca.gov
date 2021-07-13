@@ -3,10 +3,10 @@
     "created_date": "2019-10-29T18:10:00",
     "updated_date": "2021-06-19T15:50:49",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,7 +26,7 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/10/29/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
+    "wordpress_url": "https://cannabis.ca.gov/2019/10/29/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
     "excerpt": "<p>SACRAMENTO – Today, Governor Gavin Newsom announced the launch of a new state website with tools and resources for Californians who have been impacted by wildfires and utility-directed power shutoffs.</p>\n",
     "format": "standard",
     "type": "post",

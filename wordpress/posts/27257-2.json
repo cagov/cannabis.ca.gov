@@ -3,10 +3,10 @@
     "created_date": "2017-09-06T19:55:00",
     "updated_date": "2021-07-01T00:57:28",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -25,7 +25,7 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2017/09/06/27257-2/",
+    "wordpress_url": "https://cannabis.ca.gov/2017/09/06/27257-2/",
     "excerpt": "<p>The Bureau of Cannabis Control released its California Environmental Quality Act Proposed Program study to the public today.</p>\n",
     "format": "standard",
     "type": "post",

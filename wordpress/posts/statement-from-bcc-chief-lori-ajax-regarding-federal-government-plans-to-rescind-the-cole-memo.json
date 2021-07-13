@@ -3,10 +3,10 @@
     "created_date": "2018-01-04T23:17:00",
     "updated_date": "2021-07-01T17:52:33",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,7 +26,7 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/01/04/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo/",
+    "wordpress_url": "https://cannabis.ca.gov/2018/01/04/statement-from-bcc-chief-lori-ajax-regarding-federal-government-plans-to-rescind-the-cole-memo/",
     "excerpt": "<p>&#8220;The administration is conferring with the California Attorney General and other states in response to this action.</p>\n",
     "format": "standard",
     "type": "post",
