@@ -9,15 +9,15 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("press", function(collection) {
-    let output = [];
+    let pressPosts = [];
     collection.getAll().forEach(item => {
       if(item.data.wordpress.dataset) {
-        if(item.data.type == "post") {
-          output.push(item);
+        if(item.data.wordpress.dataset.data.type === "post") {
+          pressPosts.push(item);
         }
       }
     });
-    return output.sort((a,b) => {
+    return pressPosts.sort((a,b) => {
       return a.data.date > b.data.date;
     });
   });
@@ -31,6 +31,12 @@ module.exports = function(eleventyConfig) {
       return html.replace(myArray[0],postHTML);
     }
     return html;    
+  });
+
+  eleventyConfig.addFilter("dateFormat", function(dateString) {
+    return dateString;
+    console.log(dateString)
+    return new Date(dateString).toLocaleString().split(',')[0];
   });
 
   eleventyConfig.addCollection("manualcontent", function(collection) {

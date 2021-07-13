@@ -1,8 +1,6 @@
 ---
-tags:
-  - press
 pagination:
-    data: wordpress
+    data: collections.press
     size: 10
     alias: wordpress
 layout: "layouts/press.njk"
@@ -12,13 +10,15 @@ layout: "layouts/press.njk"
   <div class="post-list-items">
     {%- for item in pagination.items %}
       <div class="post-list-item">
-        <div class="link-title"><a href="{{ item.dataset.data.wordpress_url }}">
-          {{ item.dataset.data.title | safe }}
-        </a></div>
+        <div class="link-title">
+          <a href="{{ item.data.wordpress.dataset.data.wordpress_url }}">
+            {{ item.data.title | safe }}
+          </a>
+          </div>
         <div class="excerpt"><p></p>
-        <p>{{ item.dataset.data.excerpt | safe }}</p>
+        <p>{{ item.data.wordpress.dataset.data.excerpt | safe }}</p>
         <p></p></div>
-        <div class="date">{{ item.dataset.data.date.toLocaleString() }}</div>
+        <div class="date">{{ item.data.wordpress.dataset.data.date | dateFormat }}</div>
       </div>
     {% endfor -%}
   </div>

@@ -19,15 +19,12 @@
     this.type = this.dataset.type || "wordpress";
     this.currentPage = 1;
     this.categoryMap = {};
-    console.log('hi')
     if (this.type === "wordpress") {
-      console.log('get posts')
       this.getWordpressPosts();
     }
   }
 
   getWordpressPosts() {
-    console.log('fetching')
     window.fetch(`/press/${this.currentPage}`)
     .then((response) => response.text())
     .then(

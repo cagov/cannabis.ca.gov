@@ -7,7 +7,10 @@ module.exports = function () {
   files.forEach((file) => {
     if(file.indexOf('.json') > -1) {
       let loc = "wordpress/posts/" + file;
-      wordPressArray.push(JSON.parse(fs.readFileSync(loc, "utf8")))  
+      let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
+      if(parsedInfo.data.type==="post") {
+        wordPressArray.push(parsedInfo)  
+      }
     }
   });
   return wordPressArray.sort((a,b) => {
