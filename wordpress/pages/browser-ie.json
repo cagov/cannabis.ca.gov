@@ -3,10 +3,10 @@
     "created_date": "2021-06-30T18:37:32",
     "updated_date": "2021-06-30T18:46:13",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,7 +26,7 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/browser-ie/",
+    "wordpress_url": "https://cannabis.ca.gov/browser-ie/",
     "excerpt": "<p>Keyboard Shortcuts for Internet Explorer Viewing and exploring webpages The following table describes shortcuts used to view and explore webpages. To do this Press this Display Help F1 Toggle between full-screen and regular views of the browser window F11 Move forward through the items on a webpage, the Address bar, or the Favorites bar Tab [&hellip;]</p>\n",
     "type": "page",
     "parent": 0,
