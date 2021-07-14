@@ -3,10 +3,10 @@
     "created_date": "2020-12-16T23:31:00",
     "updated_date": "2021-07-01T01:17:46",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,8 +26,13 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
+    "wordpress_url": "https://cannabis.ca.gov/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
     "excerpt": "<p>The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

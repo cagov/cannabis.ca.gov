@@ -1,12 +1,12 @@
 {
   "meta": {
     "created_date": "2021-06-15T21:40:52",
-    "updated_date": "2021-06-21T21:16:24",
+    "updated_date": "2021-07-07T23:51:13",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,17 +17,18 @@
     "title": "Announcements",
     "author": "Department of Cannabis Control",
     "date": "2021-06-15T21:40:52",
-    "modified": "2021-06-21T14:16:24",
+    "modified": "2021-07-07T16:51:13",
     "date_gmt": "2021-06-15T21:40:52",
-    "modified_gmt": "2021-06-21T21:16:24",
+    "modified_gmt": "2021-07-07T23:51:13",
     "meta": {
       "_et_pb_use_builder": "off",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/about-us/announcements/",
-    "excerpt": "<p>Sign up to receive emails from the Department of Cannabis Control when we share news and information.   Recent announcements</p>\n",
+    "wordpress_url": "https://cannabis.ca.gov/about-us/announcements/",
+    "excerpt": "<p>Sign up to receive emails&nbsp;from the Department of Cannabis Control&nbsp;when&nbsp;we share news and information.&nbsp;&nbsp;</p>\n",
+    "type": "page",
     "parent": 856,
     "menu_order": 0
   }

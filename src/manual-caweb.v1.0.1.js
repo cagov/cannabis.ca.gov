@@ -9,6 +9,14 @@ $(".mobile-controls").insertBefore(".branding");
 $(".toggle-menu").insertBefore(".toggle-search");
 // place alert button after alert text
 $(".alert-link").insertAfter(".alert-text");
+// Adding aria-label to the site logo	
+$(".header-organization-banner a").attr("aria-label", "Department of Cannabis home");
+// Fix aria hidden a11y issue in search on desktop
+if (!mobileView()) {
+    $("#SearchInput").removeAttr('aria-hidden');
+    $("#head-search #Search .search-textfield").removeAttr('aria-hidden');
+    $("#head-search #Search .gsc-search-button").removeAttr('aria-hidden');
+    }
 });
 // Insert web component bundle for client side web components like accordion
 // Compiled here: https://github.com/cagov/cannabis.ca.gov/blob/main/src/js/index.js

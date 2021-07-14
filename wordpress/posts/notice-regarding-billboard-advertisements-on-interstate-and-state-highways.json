@@ -3,10 +3,10 @@
     "created_date": "2021-01-22T19:01:00",
     "updated_date": "2021-07-01T01:16:51",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,8 +26,13 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
+    "wordpress_url": "https://cannabis.ca.gov/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
     "excerpt": "<p>On January 11, 2021, in the case of Farmer v. Bureau of Cannabis Control &#038; Lori Ajax, the San Luis Obispo County Superior Court entered a formal judgement ruling that Section 5040(b)(3) of the Bureau’s regulations is invalid.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],

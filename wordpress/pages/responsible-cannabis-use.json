@@ -3,10 +3,10 @@
     "created_date": "2021-06-19T15:07:40",
     "updated_date": "2021-06-30T20:35:32",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,8 +26,9 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/consumers/responsible-cannabis-use/",
+    "wordpress_url": "https://cannabis.ca.gov/consumers/responsible-cannabis-use/",
     "excerpt": "<p>If you&#8217;re going to take cannabis, there are ways to keep yourself and others safe.</p>\n",
+    "type": "page",
     "parent": 757,
     "menu_order": 4
   }

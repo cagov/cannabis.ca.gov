@@ -3,10 +3,10 @@
     "created_date": "2018-03-26T18:24:00",
     "updated_date": "2021-07-01T17:52:32",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,8 +26,13 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2018/03/26/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales/",
+    "wordpress_url": "https://cannabis.ca.gov/2018/03/26/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales/",
     "excerpt": "<p>Beginning January 1, 2018, cannabis distributors are required to calculate and collect the cannabis excise tax from you on cannabis or cannabis products that they sell or transfer to you.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Announcements"
     ],

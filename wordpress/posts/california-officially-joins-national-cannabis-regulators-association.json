@@ -3,10 +3,10 @@
     "created_date": "2021-02-18T21:04:00",
     "updated_date": "2021-07-01T01:15:55",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,8 +26,13 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2021/02/18/california-officially-joins-national-cannabis-regulators-association/",
+    "wordpress_url": "https://cannabis.ca.gov/2021/02/18/california-officially-joins-national-cannabis-regulators-association/",
     "excerpt": "<p>The Bureau of Cannabis Control announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or are weighing the legalization of cannabis.</p>\n",
+    "format": "standard",
+    "type": "post",
+    "design_system_fields": {
+      "display_title": false
+    },
     "categories": [
       "Press Releases"
     ],
