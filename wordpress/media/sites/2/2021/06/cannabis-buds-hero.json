@@ -153,6 +153,124 @@
     "post": null,
     "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero.jpg",
     "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero.jpg",
-    "path": "sites/2/2021/06/cannabis-buds-hero.jpg"
+    "sizes": [
+      {
+        "type": "full",
+        "path": "sites/2/2021/06/cannabis-buds-hero.jpg",
+        "file": "cannabis-buds-hero.jpg",
+        "width": 1212,
+        "height": 808,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image-fullwidth",
+        "path": "sites/2/2021/06/cannabis-buds-hero-1080x675.jpg",
+        "file": "cannabis-buds-hero-1080x675.jpg",
+        "width": 1080,
+        "height": 675,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1080x675.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image-single",
+        "path": "sites/2/2021/06/cannabis-buds-hero-1080x720.jpg",
+        "file": "cannabis-buds-hero-1080x720.jpg",
+        "width": 1080,
+        "height": 720,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1080x720.jpg"
+      },
+      {
+        "type": "large",
+        "path": "sites/2/2021/06/cannabis-buds-hero-1024x683.jpg",
+        "file": "cannabis-buds-hero-1024x683.jpg",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1024x683.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--tablet",
+        "path": "sites/2/2021/06/cannabis-buds-hero-980x653.jpg",
+        "file": "cannabis-buds-hero-980x653.jpg",
+        "width": 980,
+        "height": 653,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-980x653.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "sites/2/2021/06/cannabis-buds-hero-768x512.jpg",
+        "file": "cannabis-buds-hero-768x512.jpg",
+        "width": 768,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-768x512.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "sites/2/2021/06/cannabis-buds-hero-510x382.jpg",
+        "file": "cannabis-buds-hero-510x382.jpg",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-510x382.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "sites/2/2021/06/cannabis-buds-hero-480x320.jpg",
+        "file": "cannabis-buds-hero-480x320.jpg",
+        "width": 480,
+        "height": 320,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-480x320.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "sites/2/2021/06/cannabis-buds-hero-400x250.jpg",
+        "file": "cannabis-buds-hero-400x250.jpg",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-400x250.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "sites/2/2021/06/cannabis-buds-hero-400x284.jpg",
+        "file": "cannabis-buds-hero-400x284.jpg",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-400x284.jpg"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "sites/2/2021/06/cannabis-buds-hero-400x516.jpg",
+        "file": "cannabis-buds-hero-400x516.jpg",
+        "width": 400,
+        "height": 516,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-400x516.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "sites/2/2021/06/cannabis-buds-hero-300x200.jpg",
+        "file": "cannabis-buds-hero-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-300x200.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "sites/2/2021/06/cannabis-buds-hero-150x150.jpg",
+        "file": "cannabis-buds-hero-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-150x150.jpg"
+      }
+    ]
   }
 }
