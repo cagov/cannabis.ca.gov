@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-06-19T15:07:31",
     "updated_date": "2021-06-21T21:34:59",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,22 +14,29 @@
   },
   "data": {
     "id": 759,
-    "slug": "resources",
-    "title": "Resources",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:31",
-    "modified": "2021-06-21T14:34:59",
     "date_gmt": "2021-06-19T15:07:31",
+    "guid": "http://wordpress.test:8888/index-5/",
+    "modified": "2021-06-21T14:34:59",
     "modified_gmt": "2021-06-21T21:34:59",
+    "slug": "resources",
+    "status": "publish",
+    "type": "page",
+    "link": "https://cannabis.ca.gov/resources/",
+    "title": "Resources",
+    "excerpt": "",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 1,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/resources/",
-    "type": "page",
-    "parent": 0,
-    "menu_order": 1
+    "wordpress_url": "https://cannabis.ca.gov/resources/"
   }
 }

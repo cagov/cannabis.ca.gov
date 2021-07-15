@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-06-30T18:36:14",
     "updated_date": "2021-06-30T18:46:23",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,23 +14,29 @@
   },
   "data": {
     "id": 8333,
-    "slug": "browser-chrome",
-    "title": "Keyboard Shortcuts for Chrome",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-30T11:36:14",
-    "modified": "2021-06-30T11:46:23",
     "date_gmt": "2021-06-30T18:36:14",
+    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8333",
+    "modified": "2021-06-30T11:46:23",
     "modified_gmt": "2021-06-30T18:46:23",
+    "slug": "browser-chrome",
+    "status": "publish",
+    "type": "page",
+    "link": "https://cannabis.ca.gov/browser-chrome/",
+    "title": "Keyboard Shortcuts for Chrome",
+    "excerpt": "<p>&nbsp;Keyboard Shortcuts for Chrome Windows and Linux Tab and window shortcuts To do this Press this Opens a new window. Ctrl+N Opens a new tab. Ctrl+T Opens a new window in incognito mode. Ctrl+Shift+N Opens a file from your computer in Google Chrome. Press Ctrl+O, then select file Opens the link in a new tab [&hellip;]</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "off",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/browser-chrome/",
-    "excerpt": "<p>&nbsp;Keyboard Shortcuts for Chrome Windows and Linux Tab and window shortcuts To do this Press this Opens a new window. Ctrl+N Opens a new tab. Ctrl+T Opens a new window in incognito mode. Ctrl+Shift+N Opens a file from your computer in Google Chrome. Press Ctrl+O, then select file Opens the link in a new tab [&hellip;]</p>\n",
-    "type": "page",
-    "parent": 0,
-    "menu_order": 0
+    "wordpress_url": "https://cannabis.ca.gov/browser-chrome/"
   }
 }
