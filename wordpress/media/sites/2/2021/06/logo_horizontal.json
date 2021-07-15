@@ -122,7 +122,6 @@
       {
         "type": "full",
         "path": "sites/2/2021/06/logo_horizontal.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal.png",
         "file": "logo_horizontal.png",
         "width": 600,
         "height": 170,
@@ -132,7 +131,6 @@
       {
         "type": "et-pb-portfolio-module-image",
         "path": "sites/2/2021/06/logo_horizontal-510x170.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-510x170.png",
         "file": "logo_horizontal-510x170.png",
         "width": 510,
         "height": 170,
@@ -142,7 +140,6 @@
       {
         "type": "et-pb-image--responsive--phone",
         "path": "sites/2/2021/06/logo_horizontal-480x136.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-480x136.png",
         "file": "logo_horizontal-480x136.png",
         "width": 480,
         "height": 136,
@@ -152,7 +149,6 @@
       {
         "type": "et-pb-post-main-image",
         "path": "sites/2/2021/06/logo_horizontal-400x170.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-400x170.png",
         "file": "logo_horizontal-400x170.png",
         "width": 400,
         "height": 170,
@@ -162,7 +158,6 @@
       {
         "type": "et-pb-portfolio-image",
         "path": "sites/2/2021/06/logo_horizontal-400x170.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-400x170.png",
         "file": "logo_horizontal-400x170.png",
         "width": 400,
         "height": 170,
@@ -172,7 +167,6 @@
       {
         "type": "et-pb-gallery-module-image-portrait",
         "path": "sites/2/2021/06/logo_horizontal-400x170.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-400x170.png",
         "file": "logo_horizontal-400x170.png",
         "width": 400,
         "height": 170,
@@ -182,7 +176,6 @@
       {
         "type": "medium",
         "path": "sites/2/2021/06/logo_horizontal-300x85.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-300x85.png",
         "file": "logo_horizontal-300x85.png",
         "width": 300,
         "height": 85,
@@ -192,7 +185,6 @@
       {
         "type": "thumbnail",
         "path": "sites/2/2021/06/logo_horizontal-150x150.png",
-        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal-150x150.png",
         "file": "logo_horizontal-150x150.png",
         "width": 150,
         "height": 150,
