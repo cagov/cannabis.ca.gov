@@ -45,13 +45,13 @@
       "CalCannabis Cultivation Licensing",
       "California Cannabis Track-and-Trace",
       "California department of tax and fee administration",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis distributors",
+      "Cannabis retailers",
+      "CDTFA",
+      "Emergency regulation",
+      "Retailers",
+      "Tax"
     ],
     "design_system_fields": {
       "display_title": false

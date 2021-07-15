@@ -46,12 +46,12 @@
       "Applications",
       "CalCannabis Cultivation Licensing",
       "California Department of Food and Agriculture",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Licenses",
+      "Licensing",
+      "Nurseries",
+      "Processors",
+      "Temporary"
     ],
     "design_system_fields": {
       "display_title": false

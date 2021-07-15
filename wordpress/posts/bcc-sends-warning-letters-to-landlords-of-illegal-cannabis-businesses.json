@@ -44,17 +44,17 @@
       "BCC",
       "Bureau",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Commercial cannabis",
+      "Enforcement",
+      "Fines",
+      "Illegal",
+      "Illegal cannabis activity",
+      "Landlords",
+      "Letters",
+      "Lori Ajax",
+      "Penalty",
+      "Unlicensed"
     ],
     "design_system_fields": {
       "display_title": false

@@ -43,11 +43,11 @@
     "tags": [
       "Application",
       "CalCannabis",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cultivation",
+      "Licensing",
+      "Online",
+      "System",
+      "Temporary"
     ],
     "design_system_fields": {
       "display_title": false

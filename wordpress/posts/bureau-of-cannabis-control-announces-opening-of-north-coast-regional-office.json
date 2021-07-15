@@ -45,11 +45,11 @@
       "Bureau of Cannabis Control",
       "CA Department of Food and Agriculture",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Eureka",
+      "Humboldt",
+      "Licensees",
+      "North coast regional office"
     ],
     "design_system_fields": {
       "display_title": false

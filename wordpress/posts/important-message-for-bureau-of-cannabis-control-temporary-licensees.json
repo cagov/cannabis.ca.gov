@@ -45,15 +45,15 @@
       "Annual application",
       "Annual licensing",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis event organizers",
+      "Distributors",
+      "Extension",
+      "Live scan",
+      "Microbusinesses",
+      "Retailers",
+      "Temporary license",
+      "Testing laboratories"
     ],
     "design_system_fields": {
       "display_title": false

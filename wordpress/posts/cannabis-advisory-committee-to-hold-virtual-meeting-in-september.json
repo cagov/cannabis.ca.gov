@@ -45,10 +45,10 @@
       "Bureau",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis advisory committee",
+      "Meeting",
+      "Sacramento"
     ],
     "design_system_fields": {
       "display_title": false

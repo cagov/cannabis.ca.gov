@@ -44,14 +44,14 @@
       "Action",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis enforcement unit",
+      "DCA",
+      "Dispensary",
+      "Enforcement",
+      "Licensed",
+      "Retailer",
+      "Unlicensed"
     ],
     "design_system_fields": {
       "display_title": false

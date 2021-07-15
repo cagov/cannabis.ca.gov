@@ -44,17 +44,17 @@
       "Appointments",
       "BCC",
       "CalCannabis Cultivation Licensing",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cashiering",
+      "CDFA",
+      "CDPH",
+      "Eureka",
+      "Licensing",
+      "Manufactured Cannabis Safety Branch",
+      "New office",
+      "SCWCB",
+      "State Water Board",
+      "Water board"
     ],
     "design_system_fields": {
       "display_title": false

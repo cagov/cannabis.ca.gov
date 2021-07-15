@@ -44,10 +44,10 @@
       "Action",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CEU",
+      "DOI",
+      "Enforcement"
     ],
     "design_system_fields": {
       "display_title": false

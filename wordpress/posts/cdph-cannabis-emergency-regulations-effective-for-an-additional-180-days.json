@@ -44,11 +44,11 @@
       "180 days",
       "Approved",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDPH",
+      "Emergency regs",
+      "Emergency regulations",
+      "Readopt"
     ],
     "design_system_fields": {
       "display_title": false

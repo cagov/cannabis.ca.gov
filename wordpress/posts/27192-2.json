@@ -45,13 +45,13 @@
       "Appointment",
       "Assistant",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Chief",
+      "Deputy",
+      "Governor",
+      "Jerry Brown",
+      "Melanie V. Ramil",
+      "Ricardo V. DeLaCruz"
     ],
     "design_system_fields": {
       "display_title": false

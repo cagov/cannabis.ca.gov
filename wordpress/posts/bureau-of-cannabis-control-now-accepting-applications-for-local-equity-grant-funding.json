@@ -44,15 +44,15 @@
       "$10 million",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis news",
+      "Cities and counties",
+      "Equity",
+      "Funding",
+      "Grant program",
+      "Grants",
+      "Local equity",
+      "Local jurisdiction"
     ],
     "design_system_fields": {
       "display_title": false

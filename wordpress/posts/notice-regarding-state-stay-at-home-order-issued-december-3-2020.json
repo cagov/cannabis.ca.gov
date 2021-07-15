@@ -45,10 +45,10 @@
       "Bureau of Cannabis Control",
       "CalCannabis",
       "California",
-      null,
-      null,
-      null,
-      null
+      "CDFA",
+      "CDPH",
+      "CDTFA",
+      "COVID-19"
     ],
     "design_system_fields": {
       "display_title": false

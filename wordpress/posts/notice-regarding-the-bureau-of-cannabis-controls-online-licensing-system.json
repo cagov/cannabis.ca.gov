@@ -44,11 +44,11 @@
       "Adult-use",
       "Announcement",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Licensing system",
+      "Medicinal",
+      "Notice",
+      "Online licensing system"
     ],
     "design_system_fields": {
       "display_title": false

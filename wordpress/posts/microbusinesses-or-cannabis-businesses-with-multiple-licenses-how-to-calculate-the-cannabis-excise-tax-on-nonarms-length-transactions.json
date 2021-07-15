@@ -44,15 +44,15 @@
       "Calculate",
       "California",
       "California department of tax and fee administration",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis business",
+      "Cannabis excise tax",
+      "Cannabis taxes",
+      "Excise tax",
+      "Microbusinesses",
+      "Nonarms's length",
+      "Taxes",
+      "Transactions"
     ],
     "design_system_fields": {
       "display_title": false

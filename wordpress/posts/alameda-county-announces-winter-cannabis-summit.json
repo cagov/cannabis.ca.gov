@@ -44,14 +44,14 @@
       "Alameda",
       "Bureau of Cannabis Control",
       "CalCannabis",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDFA",
+      "CDPH",
+      "County",
+      "Event",
+      "Manufactured Cannabis Safety Branch",
+      "Summit",
+      "Winter"
     ],
     "design_system_fields": {
       "display_title": false

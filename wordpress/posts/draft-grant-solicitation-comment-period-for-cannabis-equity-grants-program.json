@@ -44,14 +44,14 @@
       "BCC",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Equity",
+      "Feedback",
+      "GO-BIZ",
+      "Governor's office",
+      "Grants",
+      "Local jurisdictions",
+      "Public comment"
     ],
     "design_system_fields": {
       "display_title": false

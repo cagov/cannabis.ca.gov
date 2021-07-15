@@ -45,13 +45,13 @@
       "Bureau of Cannabis Control",
       "California Department of Food and Agriculture",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDFA",
+      "CDPH",
+      "Labeling",
+      "Packaging",
+      "Requirements",
+      "Transition period"
     ],
     "design_system_fields": {
       "display_title": false

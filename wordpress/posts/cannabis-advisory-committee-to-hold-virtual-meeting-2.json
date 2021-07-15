@@ -44,10 +44,10 @@
       "BCC",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis advisory committee",
+      "CDFA",
+      "CDPH"
     ],
     "design_system_fields": {
       "display_title": false

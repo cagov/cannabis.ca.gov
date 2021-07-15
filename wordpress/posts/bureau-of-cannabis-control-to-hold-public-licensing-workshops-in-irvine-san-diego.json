@@ -44,16 +44,16 @@
       "Bureau of Cannabis Control",
       "CalCannabis Cultivation Licensing",
       "California",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDFA",
+      "CDPH",
+      "CDTFA",
+      "Irvine",
+      "Licensing",
+      "Manufactured Cannabis Safety Branch",
+      "Public",
+      "San Diego",
+      "Workshop"
     ],
     "design_system_fields": {
       "display_title": false

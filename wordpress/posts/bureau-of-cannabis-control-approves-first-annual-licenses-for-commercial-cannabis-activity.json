@@ -45,12 +45,12 @@
       "Annual license",
       "Bureau of Cannabis Control",
       "Businesses",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis businesses",
+      "Distributor",
+      "Event organizer",
+      "License search",
+      "Retailer"
     ],
     "design_system_fields": {
       "display_title": false

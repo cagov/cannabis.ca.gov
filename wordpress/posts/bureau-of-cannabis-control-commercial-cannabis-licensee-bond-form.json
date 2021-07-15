@@ -45,10 +45,10 @@
       "Bond",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Commercial cannabis",
+      "Licensee bond form",
+      "Surety"
     ],
     "design_system_fields": {
       "display_title": false

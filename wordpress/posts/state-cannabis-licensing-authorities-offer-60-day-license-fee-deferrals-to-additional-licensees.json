@@ -47,10 +47,10 @@
       "California cannabis",
       "California Department of Food and Agriculture",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDFA",
+      "CDPH",
+      "Licensing"
     ],
     "design_system_fields": {
       "display_title": false

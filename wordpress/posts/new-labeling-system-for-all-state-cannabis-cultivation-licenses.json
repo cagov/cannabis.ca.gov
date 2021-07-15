@@ -44,13 +44,13 @@
       "CalCannabis",
       "CalCannabis Cultivation Licensing",
       "California Cannabis Track-and-Trace",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CCTT",
+      "CDFA",
+      "Cultivation",
+      "Email",
+      "License",
+      "METRC"
     ],
     "design_system_fields": {
       "display_title": false

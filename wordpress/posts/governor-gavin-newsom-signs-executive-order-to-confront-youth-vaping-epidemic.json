@@ -44,17 +44,17 @@
       "$20 million",
       "California Department of Public Health",
       "California department of tax and fee administration",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDPH",
+      "CDTFA",
+      "Executive order",
+      "Governor Newsom",
+      "SB-39",
+      "Statewide campaign",
+      "Teens",
+      "Vape cartridge",
+      "Vape pen",
+      "Vaping"
     ],
     "design_system_fields": {
       "display_title": false

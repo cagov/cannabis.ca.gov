@@ -44,13 +44,13 @@
       "Announcement temporary",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Commercial cannabis",
+      "Deadline",
+      "Expire",
+      "License",
+      "Temporary cannabis license",
+      "Temporary licenses"
     ],
     "design_system_fields": {
       "display_title": false

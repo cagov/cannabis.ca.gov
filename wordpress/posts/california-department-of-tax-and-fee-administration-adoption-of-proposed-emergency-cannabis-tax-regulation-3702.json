@@ -44,17 +44,17 @@
       "California",
       "California Cannabis Track-and-Trace",
       "California department of tax and fee administration",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis tax",
+      "CCTT",
+      "CDTFA",
+      "Emergency regulations",
+      "OAL",
+      "Office of Administrative Law",
+      "Price",
+      "Proposed emergency regulations",
+      "Regulations",
+      "Taxes"
     ],
     "design_system_fields": {
       "display_title": false

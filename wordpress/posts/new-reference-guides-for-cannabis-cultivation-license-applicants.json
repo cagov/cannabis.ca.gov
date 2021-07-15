@@ -45,12 +45,12 @@
       "Annual license",
       "CalCannabis",
       "CalCannabis Cultivation Licensing",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cultivation",
+      "Cultivation plan",
+      "Guide",
+      "Reference",
+      "Temporary license"
     ],
     "design_system_fields": {
       "display_title": false

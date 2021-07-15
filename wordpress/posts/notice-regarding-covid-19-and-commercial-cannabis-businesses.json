@@ -45,10 +45,10 @@
       "CalCannabis",
       "California",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null
+      "Coronavirus",
+      "COVID-19",
+      "covid19",
+      "Sacramento"
     ],
     "design_system_fields": {
       "display_title": false

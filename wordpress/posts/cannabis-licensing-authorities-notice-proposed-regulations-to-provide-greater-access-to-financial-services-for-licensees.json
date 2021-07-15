@@ -44,11 +44,11 @@
       "BCC",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null,
-      null,
-      null
+      "CDFA",
+      "CDPH",
+      "Licensing",
+      "OAL",
+      "Public comment"
     ],
     "design_system_fields": {
       "display_title": false

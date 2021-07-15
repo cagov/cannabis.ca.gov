@@ -44,14 +44,14 @@
       "Annual license applicants",
       "Annual license applications",
       "CA Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis manufacturing",
+      "CDPH",
+      "Emergency regulations",
+      "Fingerprint",
+      "Livescan",
+      "MAUCRSA",
+      "Temporary licenses"
     ],
     "design_system_fields": {
       "display_title": false

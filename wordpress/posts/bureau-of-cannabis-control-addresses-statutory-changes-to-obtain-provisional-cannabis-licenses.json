@@ -47,16 +47,16 @@
       "Assembly bill 97",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis application",
+      "Cannabis license",
+      "Online licensing system",
+      "Provisional",
+      "Provisional license",
+      "Requirements",
+      "Senate bill 97",
+      "State license",
+      "Submit"
     ],
     "design_system_fields": {
       "display_title": false

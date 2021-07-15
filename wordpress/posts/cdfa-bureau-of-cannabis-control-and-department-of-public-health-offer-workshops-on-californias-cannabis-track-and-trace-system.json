@@ -45,16 +45,16 @@
       "CalCannabis",
       "California Department of Food and Agriculture",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Humboldt",
+      "Kern",
+      "Los Angeles",
+      "Riverside",
+      "Sacramento",
+      "San Diego",
+      "San Francisco",
+      "Track-and-trace",
+      "Workshop"
     ],
     "design_system_fields": {
       "display_title": false

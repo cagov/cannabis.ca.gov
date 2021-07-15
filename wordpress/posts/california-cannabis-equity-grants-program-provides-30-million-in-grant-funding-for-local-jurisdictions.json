@@ -45,12 +45,12 @@
       "CalCannabis",
       "CalCannabis Cultivation Licensing",
       "California",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Funding",
+      "GO-BIZ",
+      "Governor's Office of Business and Economic Development",
+      "Grant",
+      "Sacramento"
     ],
     "design_system_fields": {
       "display_title": false

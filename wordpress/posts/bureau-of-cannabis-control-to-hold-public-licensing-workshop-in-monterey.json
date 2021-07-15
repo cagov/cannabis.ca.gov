@@ -45,11 +45,11 @@
       "California",
       "California Department of Food and Agriculture",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Licensing",
+      "Monterey",
+      "Public",
+      "Workshop"
     ],
     "design_system_fields": {
       "display_title": false

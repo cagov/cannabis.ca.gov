@@ -44,10 +44,10 @@
       "Advertising",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Dispensaries",
+      "Retailers",
+      "Weedmaps"
     ],
     "design_system_fields": {
       "display_title": false

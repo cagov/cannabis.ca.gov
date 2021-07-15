@@ -45,11 +45,11 @@
       "CalCannabis",
       "California",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Emergency",
+      "Proposed",
+      "Regulation",
+      "Release"
     ],
     "design_system_fields": {
       "display_title": false

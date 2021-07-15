@@ -44,15 +44,15 @@
       "Advertising",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Dispensary",
+      "Legal",
+      "Licensed",
+      "Lori Ajax",
+      "Quote",
+      "Retail",
+      "Retailer",
+      "Weedmaps"
     ],
     "design_system_fields": {
       "display_title": false

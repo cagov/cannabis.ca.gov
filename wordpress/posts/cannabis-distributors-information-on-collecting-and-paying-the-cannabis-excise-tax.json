@@ -44,16 +44,16 @@
       "BCC",
       "Bureau",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDTFA",
+      "Cultivator",
+      "Distributors",
+      "Excise",
+      "Invoice",
+      "Licensed",
+      "Manufacturer",
+      "Retailer",
+      "Tax"
     ],
     "design_system_fields": {
       "display_title": false

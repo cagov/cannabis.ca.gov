@@ -44,9 +44,9 @@
       "API",
       "Bureau of Cannabis Control",
       "California",
-      null,
-      null,
-      null
+      "Department of Consumer Affairs",
+      "License search",
+      "Search"
     ],
     "design_system_fields": {
       "display_title": false

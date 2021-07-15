@@ -44,12 +44,12 @@
       "Announcement",
       "Banking",
       "California",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis Banking Feasibility Study",
+      "Meeting",
+      "Public hearing",
+      "Treasurer banking working group",
+      "Treasurer's office"
     ],
     "design_system_fields": {
       "display_title": false

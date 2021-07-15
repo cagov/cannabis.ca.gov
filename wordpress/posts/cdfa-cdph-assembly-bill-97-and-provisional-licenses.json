@@ -44,11 +44,11 @@
       "AB 97",
       "Applicants",
       "Assembly bill 97",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "CDFA",
+      "CDPH",
+      "Provisional license",
+      "Provisional licenses"
     ],
     "design_system_fields": {
       "display_title": false

@@ -45,14 +45,14 @@
       "Adult",
       "Bureau",
       "California",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Control",
+      "Jobs",
+      "Media",
+      "Medical",
+      "News",
+      "Recreational",
+      "Regulation"
     ],
     "design_system_fields": {
       "display_title": false

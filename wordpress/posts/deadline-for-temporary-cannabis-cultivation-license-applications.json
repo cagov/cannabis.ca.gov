@@ -44,11 +44,11 @@
       "Application",
       "CalCannabis",
       "CalCannabis Cultivation Licensing",
-      null,
-      null,
-      null,
-      null,
-      null
+      "Deadline",
+      "License",
+      "Licensing",
+      "Temporary",
+      "Temporary license"
     ],
     "design_system_fields": {
       "display_title": false

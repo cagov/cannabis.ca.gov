@@ -45,15 +45,15 @@
       "Alcohol",
       "Alcoholic Beverage Control",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cannabis",
+      "Cannabis pairting events",
+      "CBD",
+      "Drinks",
+      "Food",
+      "Hemp",
+      "License",
+      "MAUCRSA",
+      "Wine"
     ],
     "design_system_fields": {
       "display_title": false
