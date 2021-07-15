@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="Author" content="State of California" />
+	<meta name="Description" content="State of California" />
+	<meta name="Keywords" content="California, government" />
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+
+	<!-- for Blackberry, AvantGo -->
+	<meta name="MobileOptimized" content="320">
+
+	<!-- for Windows mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+	<!-- Google Meta-->
+	<meta name="google-site-verification" content="001779225245372747843:o_16poin-0q" />
+
+	
+	
+	<link rel="apple-touch-icon-precomposed" sizes="100x100" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-192x192.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-180x180.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" href="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/apple-touch-icon.png">
+
+
+	<script>var et_site_url='https://cannabis.ca.gov';var et_post_id='0';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><title>404 &#x2d; Department of Cannabis Control</title>
+<style>/**
+ CA Design System Page CSS
+*/
+
+.page-container-ds {
+    max-width: 1147px;
+}
+
+.main-content-ds {
+    max-width: 100%;
+}
+
+/* Single column layout */
+.single-column {
+    max-width: 1147px;
+}
+
+/* SIDEBAR */
+/* (see README.md) */
+
+.sidebar-container {
+    display: block;
+    width: 276px;
+    max-width: 276px;
+}
+
+.with-sidebar .main-content-default,
+.with-sidebar .ds-content-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--s1) / 2 * -1);
+}
+
+.with-sidebar.has-sidebar-left .main-content-default>*,
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout>.everylayout {
+    margin: calc(var(--s1) / 2);
+    flex-basis: 267px;
+    flex-grow: 1;
+}
+
+.with-sidebar.has-sidebar-left .main-content-default> :last-child,
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout>.everylayout:last-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: calc(50% - var(--s1));
+}
+
+.with-sidebar.has-sidebar-right .main-content-default,
+.with-sidebar.has-sidebar-right .main-content-ds .ds-content-layout>.everylayout {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: calc(50% - var(--s1));
+}
+
+.with-sidebar.has-sidebar-right .main-content-default>*> :last-child,
+.with-sidebar.has-sidebar-right .main-content-ds .ds-content-layout> :last-child {
+    margin: calc(var(--s1) / 2);
+    flex-basis: 267px;
+    flex-grow: 1;
+}
+
+.with-sidebar.page-container-ds.has-sidebar-left main {
+    margin-left: 64px;
+    margin-right: 20px;
+}
+
+.with-sidebar.page-container-ds.has-sidebar-right main {
+    margin-right: 64px;
+    margin-left: 20px;
+}
+
+
+/* For custom css -- conflicts are back, these overrides set them right, but need to be re-integrated with main markup. */
+
+/* Fixing all block spacing */
+
+.page-container-ds {
+    margin: 0 auto;
+}
+
+.single-column {
+    margin: 0 auto;
+}
+
+/* First Block has a top margin */
+#main-content {
+    margin-top: 0px; /* Navigation has extra 32px */
+    margin-bottom: 64px;
+}
+
+#main-content.landing {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.cagov-block {
+    margin-bottom: 64px;
+}
+
+/* Reset wp block columns spacing */
+.wp-block-columns {
+    margin-top: 0px;
+    margin-bottom: 0px !important; /* Conflict with WP styles & load order */
+}
+
+.wp-block-column {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#main-content.landing .wp-block-columns .cagov-block {
+    margin-bottom: 32px; 
+}
+
+@media (min-width: 992px) {
+    #main-content.main-content-ds.landing .breadcrumb {
+        margin-top: 0px;
+        margin-bottom: 64px !important; /* conflict with divi breadcrumb class*/
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    #main-content.main-content-ds.single-column .breadcrumb,
+    .with-sidebar.has-sidebar-left.page-container-ds #main-content.main-content-ds .breadcrumb {
+        margin-top: 32px;
+        margin-bottom: 64px !important;  /* conflict with divi breadcrumb class*/
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+.cagov-block h2,
+.cagov-block h3,
+.cagov-block h4,
+.cagov-block h6,
+.cagov-block h6 {
+    margin-bottom: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-bottom: 0 !important;
+}
+
+.wp-block-column h2 {
+    margin-top: 0;
+}
+
+
+
+
+/* BREADCRUMB */
+
+.with-sidebar .main-container-ds {
+    max-width: 877px;
+}
+
+.breadcrumb {
+    display: block;
+    background-color: #F9F9FA;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.breadcrumb a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    text-underline-position: under;
+}
+
+.breadcrumb span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Category label */
+.page-container-ds main category-label ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+.page-container-ds main category-label ul {
+    margin: 0;
+    text-indent: 0;
+    padding: 0;
+}
+
+category-label {
+    color: #000;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+category-label a {
+    color: #000;
+    font-weight: 700;
+}
+
+time {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+category-label a {
+    color: #000;
+    font-weight: 700;
+}
+
+/* CONTENT NAVIGATION */
+sidebar cagov-content-navigation .label {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.2px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+sidebar cagov-content-navigation ul,
+sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+    margin: 0;
+    text-indent: 0;
+    padding: 0;
+}
+
+sidebar cagov-content-navigation ul li {
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 1px solid #EDEDEF;
+    line-height: 28.2px;
+}
+
+sidebar cagov-content-navigation ul li:first-child {
+    margin-top: 0px;
+}
+
+cagov-content-navigation a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
+/* CONTENT FOOTER */
+
+.content-footer-container {
+    border-bottom: 1px solid #EDEDEF;
+    border-top: 1px solid #EDEDEF;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.per-page-feedback-container {
+    max-width: 1176px !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+}
+
+.content-footer {
+    max-width: 1176px !important;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-footer .menu-section.menu-section-social {
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.menu-section {
+    margin-right: 24px;
+}
+
+.menu-section:last-child {
+    margin-right: 0px;
+}
+
+.menu-section ul,
+.menu-section ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.menu-section ul li {
+    margin-right: 24px;
+}
+
+.menu-section .content-menu-links a {
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #064E66;
+    text-underline-offset: 2px;
+}
+
+.content-menu-links,
+.social-links-container {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.content-footer .logo-small {
+    width: 45px;
+    height: 45px;
+}
+
+/* PAGE BEHAVIORS */
+
+/* Hide Mobile title, lives outside flex aligned elements and before content navigation, desktop page title is inside main. */
+.narrow-page-title {
+    display: none;
+}
+
+.landing .page-title {
+    display: none;
+}
+
+/* Gutenberg Block alignment */
+
+/* TYPOGRAPHY */
+h1.page-title {
+    margin: 0 0 0 0;
+    padding: 0 0 24px 0;
+}
+
+/* Override cagov 50px left spacing */
+.page-container-ds main ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+    padding: 0 0 0 20px;
+}
+
+/* Update position list element */
+main ul li {
+    list-style-position: outside;
+}
+
+/* link underline not used in cannabis designs */
+.main-content a.cagov-card {
+    text-decoration: none;
+}
+
+
+/* Fix issue with default theme that has a style we are not using */
+.non_divi_builder.title_not_displayed .main-primary {
+    padding-top: 32px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .with-sidebar .main-content-default,
+    .with-sidebar .ds-content-layout {
+        display: block;
+    }
+
+    .page-container-ds {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    article {
+        display: block;
+    }
+
+
+    /* First Block has a top margin */
+
+
+    .cagov-block {
+        margin-bottom: 48px;
+    }
+
+    .wp-block-column .cagov-block {
+        margin-bottom: 48px;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb a.crumb,
+    .breadcrumb span.crumb {
+        display: none;
+    }
+
+    .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.8px;
+        color: #064E66;
+    }
+
+    .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+        padding: 0;
+    }
+
+    .breadcrumb {
+        display: block;
+        margin-top: 48px;
+        margin-bottom: 16px;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .with-sidebar.page-container-ds .breadcrumb {
+        margin-bottom: 0px;
+    }
+
+    #main-content {
+        margin-top: 16px;
+    }
+
+    .with-sidebar.page-container-ds #main-content.main-content-ds,
+    .with-sidebar.page-container-ds #main-content.main-content-ds main {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .with-sidebar.page-container-ds.has-sidebar-left main {
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    
+    .with-sidebar.page-container-ds.has-sidebar-right main {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .with-sidebar.page-container-ds main {
+        margin-left: inherit;
+        margin-top: 32px;
+    }
+
+    /* Responsive page title */
+    article .wide-page-title,
+    article h1.page-title {
+        display: none;
+    }
+
+    .narrow-page-title {
+        display: block;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .landing .narrow-page-title {
+        display: none;
+    }
+
+    /* Content Navigation */
+    cagov-content-navigation .label {
+        display: none;
+    }
+
+    .sidebar-container {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    sidebar cagov-content-navigation ul li:last-child {
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #EDEDEF;
+    }
+
+    cagov-content-navigation ul li a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* Typography */
+
+    h2:first-child {
+        margin-top: 16px;
+    }
+
+    /* Content Menu */
+
+    .per-page-feedback-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-footer-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .content-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+
+    .content-footer .logo-small {
+        margin-bottom: 16px;
+    }
+
+    .content-footer .menu-section.menu-section-social {
+        margin-left: 0;
+        align-items: flex-start;
+    }
+
+    .menu-section ul.content-menu-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 !important;
+    }
+
+    .content-menu-links,
+    .social-links-container {
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .menu-section ul.social-links-container {
+        padding: 0 !important;
+    }
+
+    .menu-section ul.content-menu-links li {
+        margin-bottom: 16px;
+    }
+
+    .menu-section ul.content-menu-links li {
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+}
+
+/* override card grid so they stack at theme breakpoint that slims main content */
+@media (max-width: 991px) {
+
+    .cagov-grid,
+    .cagov-grid .block-editor-block-list__layout {
+        grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+    }
+}
+
+/* New from manual CSS */
+
+/* override card grid so they stack at theme breakpoint that slims main content */
+@media (max-width: 991px) {
+
+    .cagov-grid,
+    .cagov-grid .block-editor-block-list__layout {
+        grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+    }
+}
+
+/* link underline not used in cannabis designs */
+.main-content a.cagov-card {
+    text-decoration: none;
+}
+
+.non_divi_builder.title_not_displayed .main-primary {
+    padding-top: 32px;
+}
+
+/* step list */
+ol.steps {
+    padding-left: 0 !important;
+    margin-left: 30px !important;
+}
+
+ol.steps li {
+    list-style: none;
+    border-left: 5px solid #fec02f;
+    font-size: 1.75rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 45px;
+    line-height: 1.5;
+}
+
+ol.steps li:before {
+    content: "";
+    font-family: "Public Sans";
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding: 0 13px 0 13px;
+    border: 5px solid #fec02f;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: -29px;
+    top: -5px;
+    margin-left: -1px;
+}
+
+ol.steps li span.has-black-color {
+    margin-top: 1rem;
+    padding-bottom: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: block;
+}
+
+ol.steps li:first-child:before {
+    content: "1";
+    padding: 0 16px 0 16px;
+}
+
+ol.steps li:nth-child(2):before {
+    content: "2";
+}
+
+ol.steps li:nth-child(3):before {
+    content: "3";
+}
+
+ol.steps li:nth-child(4):before {
+    content: "4";
+}
+
+ol.steps li:nth-child(5):before {
+    content: "5";
+}
+
+ol.steps li:nth-child(6):before {
+    content: "6";
+}
+
+ol.steps li:nth-child(7):before {
+    content: "7";
+}
+
+ol.steps li:nth-child(8):before {
+    content: "8";
+}
+
+ol.steps li:nth-child(9):before {
+    content: "9";
+}
+
+ol.steps li:nth-child(10):before {
+    content: "10";
+    padding: 0 7px 0 7px;
+    margin-left: -1px;
+}
+
+ol.steps li:nth-child(11):before {
+    content: "11";
+    padding: 0 10px 0 10px;
+}
+
+ol.steps li:nth-child(12):before {
+    content: "12";
+    padding: 0 8px 0 8px;
+    margin-left: -1px;
+}
+
+ol.steps li:nth-child(13):before {
+    content: "13";
+    padding: 0 7px 0 7px;
+}
+
+ol.steps li:nth-child(14):before {
+    content: "14";
+    padding: 0 7px 0 7px;
+}
+
+ol.steps li:nth-child(15):before {
+    content: "15";
+    padding: 0 7px 0 8px;
+    margin-left: 3px;
+}
+
+ol.steps li:nth-child(16):before {
+    content: "16";
+    padding: 0 7px 0 7px;
+}
+
+ol.steps li:nth-child(17):before {
+    content: "17";
+    padding: 0 7px 0 7px;
+}
+
+ol.steps li:nth-child(18):before {
+    content: "18";
+    padding: 0 7px 0 7px;
+}
+
+ol.steps li:nth-child(19):before {
+    content: "19";
+    padding: 0 7px 0 7px;
+}
+
+ol.steps li:nth-child(20):before {
+    content: "20";
+    padding: 0 5px 0 5px;
+}
+
+ol.steps li:nth-child(21):before {
+    content: "21";
+    padding: 0 6px 0 6px;
+}
+
+ol.steps li:nth-child(22):before {
+    content: "22";
+    padding: 0 5px 0 5px;
+}
+
+ol.steps li:nth-child(23):before {
+    content: "23";
+    padding: 0 5px 0 5px;
+}
+
+ol.steps li:nth-child(24):before {
+    content: "24";
+    padding: 0 5px 0 5px;
+}
+
+ol.steps li:last-child {
+    border-left: none;
+}
+
+/* border styles */
+.wp-block-table {
+    background: none !important;
+    border: none !important
+}
+
+.wp-block-table table,
+.wp-block-table table th,
+.wp-block-table table td {
+    border: 1px solid #ededef !important;
+}
+
+.return-top:after {
+    padding-right: 4px;
+}
+
+/* Link underlining */
+.top-level-nav .nav-item:hover .first-level-link,
+.top-level-nav .nav-item:hover .first-level-btn {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
+li.current_page_item {
+    font-weight: 700;
+}
+
+a.second-level-link:hover,
+a.second-level-link:focus {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
+.color-primary--hover:hover,
+.text-accent-p2,
+article a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
+</style><meta name='robots' content='max-image-preview:large' />
+
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="noindex" />
+<!-- / The SEO Framework by Sybre Waaijer | 0.13ms meta | 0.23ms boot -->
+
+<link rel='dns-prefetch' href='//cannabis.ca.gov' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Department of Cannabis Control &raquo; Feed" href="https://cannabis.ca.gov/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cannabis.ca.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<meta content="CAWeb v.1.5.5b" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css'  href='https://cannabis.ca.gov/wp-includes/css/dashicons.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://cannabis.ca.gov/wp-includes/js/thickbox/thickbox.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://cannabis.ca.gov/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<style id='ca-design-system-announcement-list-style-inline-css' type='text/css'>
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+
+.cagov-announcement-list h3 {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 24px !important;
+}
+
+.cagov-announcement-list .read-more a {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #000;
+}
+
+.cagov-post-list .link-title a {
+    color: #064E66;
+    font-weight: normal;
+    text-decoration: underline;
+    line-height: 32.9px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+cagov-announcement-list .post-list-item {
+    margin: 0;
+    padding: 0;
+}
+
+cagov-announcement-list .post-list-item {
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.cagov-announcement-list .post-list-item .date {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    color: #000;
+}
+
+
+</style>
+<style id='ca-design-system-event-list-style-inline-css' type='text/css'>
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+
+.cagov-announcement-list h3 {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 24px !important;
+}
+
+.cagov-announcement-list .read-more a {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #000;
+}
+
+.cagov-post-list .link-title a {
+    color: #064E66;
+    font-weight: normal;
+    text-decoration: underline;
+    line-height: 32.9px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+cagov-announcement-list .post-list-item {
+    margin: 0;
+    padding: 0;
+}
+
+cagov-announcement-list .post-list-item {
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.cagov-announcement-list .post-list-item .date {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    color: #000;
+}
+
+
+</style>
+<style id='ca-design-system-post-list-style-inline-css' type='text/css'>
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+
+.cagov-post-list .post-list-title {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 24px;
+}
+
+.cagov-post-list .read-more a {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+}
+
+.cagov-post-list .link-title a {
+    color: #064E66;
+    font-weight: 700;
+    line-height: 32.9px;
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.cagov-post-list .excerpt,
+.cagov-post-list .excerpt p {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+cagov-post-list .post-list-item {
+    margin: 0;
+    padding: 0;
+}
+
+cagov-post-list .post-list-item {
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.cagov-post-list .post-list-item .date {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    color: #000;
+}
+
+@media only screen and (max-width: 580px) {
+
+    .cagov-post-list h3 {
+        /* font-family: Public Sans; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 24px;
+    }
+    
+    .cagov-post-list .read-more a {
+        /* font-family: Public Sans; */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000;
+    }
+    
+    .cagov-post-list .link-title a {
+        color: #064E66;
+        font-weight: 700;
+        line-height: 28.2px;
+        font-size: 24px;
+        margin-bottom: 8px;
+        text-decoration: none;
+    }
+    
+    .cagov-post-list .excerpt,
+    .cagov-post-list .excerpt p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    
+    cagov-post-list .post-list-item {
+        margin: 0;
+        padding: 0;
+    }
+    
+    cagov-post-list .post-list-item {
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
+    
+    .cagov-post-list .post-list-item .date {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0px;
+        color: #000;
+    }
+
+}
+</style>
+<style id='ca-design-system-page-alert-style-inline-css' type='text/css'>
+.icon-select {
+    height: 48px;
+    padding: 0 0px 0 16px;
+}
+
+.editor-styles-wrapper .message-body {
+    padding: 0 32px;
+}
+
+.editor-styles-wrapper .cagov-page-alert {
+    min-height: 64px;
+    height: auto;
+}
+
+.cagov-page-alert {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    
+    width: 100%;
+    min-height: 46px;
+    height: auto;
+    
+    background: rgba(254, 192, 47, 0.2);
+    border: 1px solid #FEC02F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.cagov-block .cagov-stack.cagov-page-alert  {
+    margin-top: 32px;
+    /* margin-bottom: 64px; */
+}
+
+.cagov-page-alert .icon {
+    line-height: 1.5rem;
+}
+
+.cagov-page-alert .body {
+    line-height: 1.5rem;
+    padding: 0 16px;
+}
+
+.cagov-page-alert .close-button {
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 580px) {
+    .cagov-page-alert {
+        min-height: 46px;
+        height: auto;
+    }
+    .cagov-page-alert .body {
+        padding: 0 8px;
+    }
+}
+</style>
+<style id='ca-design-system-card-style-inline-css' type='text/css'>
+.no-deco {
+  text-decoration: none;
+}
+
+.cagov-card {
+  border: 1px solid #ededef;
+  padding: 1rem;
+  border-bottom: 0.3rem solid #33705B;
+  border-bottom: 0.3rem solid var(--primary-color, #33705B);
+  border-radius: 0.3rem;
+  min-width: 250px;
+  min-height: 50px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cagov-card .card-text {
+  color: #33705B;
+  /* defined here for when css vars are not supported */
+  color: var(--primary-color, #33705B) !important;
+  /* variable used with fallback in case it is not defined */
+  /* color: #33705B !important; */
+  font-size: 1.75rem;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.cagov-card svg {
+  fill: #33705B;
+  fill: var(--primary-color, #33705B);
+  width: 1rem;
+  margin-top: .2rem;
+  margin-left: 1rem;
+  max-height: 25px;
+}
+
+.cagov-card:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+</style>
+<style id='ca-design-system-card-grid-style-inline-css' type='text/css'>
+.cagov-grid, .cagov-grid .block-editor-block-list__layout {
+  display: grid;
+  grid-gap: 1.5rem;
+}
+/* editor override */
+.cagov-grid .block-editor-block-list__block {
+  margin: 0;
+}
+@supports (width: min(250px, 100%)) {
+  .cagov-grid, .cagov-grid .block-editor-block-list__layout {
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  }
+}
+</style>
+<style id='ca-design-system-hero-style-inline-css' type='text/css'>
+
+.cagov-stack h2 { padding-bottom: 0; }
+
+.cagov-p-2 {
+  padding: 1rem;
+}
+.cagov-bkgrd-gry {
+  background-color: #F9F9FA;
+}
+
+.cagov-featured-sidebar {
+  max-width: 400px;
+  margin-top: 0;
+}
+
+.cagov-featured-section {
+  margin: 0 0 3rem 0;
+}
+.cagov-featured-section .components-button.image-button {
+  display: block;
+  height: 100%;
+  margin: 0 0 3rem 0;
+  padding: 0;
+}
+.cagov-featured-image {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  height: 100%;
+  min-width: 18rem;
+  min-height: 20rem;
+  max-height: 420px;
+}
+
+/* call to action */
+/* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
+.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {  
+  background-color: #33705B;
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-color, #33705B);
+  /* variable used with fallback in case it is not defined */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+}
+.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
+  background-color: #33705B;
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-color, #33705B);
+  /* variable used with fallback in case it is not defined */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  text-decoration: underline;
+}
+
+.cagov-hero-body-content .wp-block-button__link {
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
+/* sidebar layout */
+.cagov-with-sidebar {
+  overflow: hidden;
+}
+.cagov-with-sidebar > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.cagov-with-sidebar > * > * {
+  margin: 0;
+  flex-grow: 1;
+}
+.cagov-with-sidebar-left > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(30% - var(0px));
+}
+.cagov-with-sidebar-right > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(30% - 0px);
+}
+
+/* hero sidebar swap image on left to go on top when it wraps */
+@media (max-width: 719px) {
+  .cagov-with-sidebar > * {
+    flex-direction: column-reverse;
+  }
+} 
+
+@media (min-width: 1200px) {
+  .cagov-featured-sidebar {
+    max-width: 34%;
+  }
+
+  .cagov-with-sidebar-left > * > :last-child {
+    /* min-width: calc(34% - 0px); */
+    max-width: calc(66% - 0px);
+  }
+  
+  .cagov-with-sidebar-right > * > :first-child {
+    /* min-width: calc(34% - 0px); */
+    max-width: calc(66% - 0px);
+  }
+}
+</style>
+<style id='ca-design-system-event-detail-style-inline-css' type='text/css'>
+.cagov-event-detail {
+
+}
+
+</style>
+<style id='ca-design-system-event-materials-style-inline-css' type='text/css'>
+.cagov-event-materials {
+
+}
+
+</style>
+<link rel='stylesheet' id='ce_responsive-css'  href='https://cannabis.ca.gov/wp-content/plugins/simple-embed-code/css/video-container.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://cannabis.ca.gov/wp-content/themes/Divi/style.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='https://cannabis.ca.gov/wp-content/themes/CAWeb/style.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='caweb-module-extension-styles-css'  href='https://cannabis.ca.gov/wp-content/themes/CAWeb/divi/extension/styles/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://cannabis.ca.gov/wp-content/plugins/tablepress/css/default.min.css?ver=1.13' type='text/css' media='all' />
+<link rel='stylesheet' id='caweb-core-style-css'  href='https://cannabis.ca.gov/wp-content/themes/CAWeb/css/cagov-v5.5-oceanside.min.css?ver=1.5.5b' type='text/css' media='all' />
+<link rel='stylesheet' id='cagov-google-font-style-css'  href='https://fonts.googleapis.com/css?family=Asap+Condensed%3A400%2C600%7CSource+Sans+Pro%3A400%2C700&#038;ver=1.5.5b' type='text/css' media='all' />
+<link rel='stylesheet' id='caweb-external-custom-1-css'  href='https://cannabis.ca.gov/wp-content/caweb-ext/css/2/colorscheme-cannabis.v1.0.7.min.css?ver=1.5.5b-60f07111827ac1.37888437' type='text/css' media='all' />
+<link rel='stylesheet' id='caweb-custom-css-styles-css'  href='https://cannabis.ca.gov/wp-content/caweb-ext/css/2/caweb-custom.css?ver=1.5.5b-60f07111827be5.58047740' type='text/css' media='all' />
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/plugins/ca-design-system-gutenberg-blocks/blocks/page-alert/web-component.js?ver=1625156104' id='ca-design-system-page-alert-web-component-js'></script>
+<script type='text/javascript' defer src='https://cannabis.ca.gov/wp-content/themes/CAWeb/js/libs/modernizr-3.6.0.min.js?ver=1.5.5b' id='cagov-modernizr-script-js'></script>
+<link rel="https://api.w.org/" href="https://cannabis.ca.gov/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cannabis.ca.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cannabis.ca.gov/wp-includes/wlwmanifest.xml" /> 
+
+<link title="Fav Icon" rel="icon" href="https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cannabis_favicon_16x16.png">
+<link rel="shortcut icon" href="https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cannabis_favicon_16x16.png">
+
+	<link rel="preload" href="https://cannabis.ca.gov/wp-content/themes/Divi/core/admin/fonts/modules.ttf" as="font" crossorigin="anonymous"><link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://cannabis.ca.gov/wp-content/et-cache/1/2/global/et-divi-customizer-global-16261916406273.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
+
+<header id="header" class="global-header fixed">
+	<div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+	<!-- Utility Header -->
+<div class="utility-header hidden-print">
+	<div class="container">
+		<div class="group flex-row">
+			<div class="social-media-links">
+				<div class="header-cagov-logo">
+					<a href="https://www.ca.gov/" title="CA.gov website">
+						<span class="sr-only">CA.gov</span>
+						<img style="height: 31px;" src="https://cannabis.ca.gov/wp-content/themes/CAWeb/images/system/logo.svg" class="pos-rel" alt="CA.gov website" aria-hidden="true" />
+					</a>
+				</div>
+
+									<a href="/" title="Home" class="utility-home-icon ca-gov-icon-home"><span class="sr-only">Home</span></a>
+								</div>
+			<div class="settings-links">
+				
+								
+												<div class="quarter standard-translate" id="google_translate_element"></div>
+								<button class="btn btn-xs btn-primary collapsed" data-toggle="collapse" data-target="#siteSettings" aria-controls="siteSettings">
+					<span class="ca-gov-icon-gear" aria-hidden="true"></span> Settings</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="site-settings section section-standout collapse collapsed" aria-atomic="true" role="alert" id="siteSettings">
+	<div class="container  p-y">
+		<div class="btn-group btn-group-justified-sm" role="group" aria-label="contrastMode">
+			<div class="btn-group"><button type="button" class="btn btn-standout disableHighContrastMode">Default</button></div>
+			<div class="btn-group"><button type="button" class="btn btn-standout enableHighContrastMode">High Contrast</button></div>
+		</div>
+
+		<div class="btn-group" role="group" aria-label="textSizeMode">
+			<div class="btn-group"><button type="button" class="btn btn-standout resetTextSize">Reset</button></div>
+			<div class="btn-group"><button type="button" class="btn btn-standout increaseTextSize"><span class="hidden-xs">Increase Font Size</span><span class="visible-xs">Font <span class="sr-only">Increase</span><span class="ca-gov-icon-plus-line font-size-sm" aria-hidden="true"></span></span></button></div>
+			<div class="btn-group"><button type="button" class="btn btn-standout decreaseTextSize"><span class="hidden-xs">Decrease Font Size</span><span class="visible-xs">Font <span class="sr-only">Decrease</span><span class="ca-gov-icon-minus-line font-size-sm" aria-hidden="true"></span></span></button></div>
+		</div>
+		<button type="button" class="close" data-toggle="collapse" data-target="#siteSettings" aria-expanded="false" aria-controls="siteSettings" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	</div>
+</div>
+<!-- Branding -->
+<div class="branding">
+	<div class="header-organization-banner">
+		<a href="/">
+			<img alt="Department of Cannabis Control Logo" src="https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_horizontal.png" alt="Department of Cannabis logo" />
+		</a>
+	</div>
+</div>
+<!-- mobile navigation controls -->
+<div class="mobile-controls">
+    <span class="mobile-control-group mobile-header-icons">
+        <!-- Add more mobile controls here. These will be on the right side of the mobile page header section -->
+    </span>
+    <div class="mobile-control-group main-nav-icons">
+                <button class="mobile-control toggle-search">
+            <span class="ca-gov-icon-search hidden-print" aria-hidden="true"></span><span class="sr-only">Search</span>
+        </button>
+                <button id="nav-icon3" class="mobile-control toggle-menu" aria-expanded="false" aria-controls="navigation" data-toggle="collapse" data-target="#navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Menu</span>
+        </button>
+
+    </div>
+</div>
+
+	<div class="navigation-search">
+
+		<!-- Include Navigation -->
+		<nav id="navigation" class="main-navigation dropdown hidden-print nav">
+                                <ul id="nav_list" class="top-level-nav"><li class="nav-item  menu-item menu-item-type-post_type menu-item-object-page  " title=""><a href="https://cannabis.ca.gov/applicants/" class="first-level-link"><span class="ca-gov-icon-logo invisible"></span><span class="link-title">Applicants<span class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span></a><div class="sub-nav"><div><ul class="second-level-nav"><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/applicants/how-to-apply-renew/" class="second-level-link" tabindex="-1">How to apply for or renew a license</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/applicants/license-types/" class="second-level-link" tabindex="-1">License types</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/applicants/application-license-fees/" class="second-level-link" tabindex="-1">Application and license fees</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/applicants/application-resources/" class="second-level-link" tabindex="-1">Application resources</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/applicants/access-license-portals/" class="second-level-link" tabindex="-1">Access the license portals</a></li></ul></div></div></li><li class="nav-item  menu-item menu-item-type-post_type menu-item-object-page  " title=""><a href="https://cannabis.ca.gov/licensees/" class="first-level-link"><span class="ca-gov-icon-logo invisible"></span><span class="link-title">Licensees<span class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span></a><div class="sub-nav"><div><ul class="second-level-nav"><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/cultivation/" class="second-level-link" tabindex="-1">Cultivation</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/manufacturing/" class="second-level-link" tabindex="-1">Manufacturing</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/distribution/" class="second-level-link" tabindex="-1">Distribution</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/testing-laboratories/" class="second-level-link" tabindex="-1">Testing laboratories</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/retail/" class="second-level-link" tabindex="-1">Retail</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/events/" class="second-level-link" tabindex="-1">Events</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/track-and-trace/" class="second-level-link" tabindex="-1">Track and Trace</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/licensees/requirements-cannabis-goods/" class="second-level-link" tabindex="-1">Requirements for cannabis goods</a></li></ul></div></div></li><li class="nav-item  menu-item menu-item-type-post_type menu-item-object-page  " title=""><a href="https://cannabis.ca.gov/consumers/" class="first-level-link"><span class="ca-gov-icon-logo invisible"></span><span class="link-title">Consumers<span class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span></a><div class="sub-nav"><div><ul class="second-level-nav"><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/consumers/whats-legal/" class="second-level-link" tabindex="-1">What’s legal</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/consumers/medicinal-cannabis/" class="second-level-link" tabindex="-1">Medicinal cannabis</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/consumers/responsible-cannabis-use/" class="second-level-link" tabindex="-1">Responsible cannabis use</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/consumers/talking-young-people-about-cannabis/" class="second-level-link" tabindex="-1">Talking to young people about cannabis</a></li></ul></div></div></li><li class="nav-item  menu-item menu-item-type-post_type menu-item-object-page  " title=""><a href="https://cannabis.ca.gov/resources/" class="first-level-link"><span class="ca-gov-icon-logo invisible"></span><span class="link-title">Resources<span class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span></a><div class="sub-nav"><div><ul class="second-level-nav"><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/resources/running-business/" class="second-level-link" tabindex="-1">Running a business in California</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/resources/laws-and-regulations/" class="second-level-link" tabindex="-1">Laws and regulations</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/resources/file-complaint/" class="second-level-link" tabindex="-1">File a complaint</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/resources/disaster-relief-programs/" class="second-level-link" tabindex="-1">Disaster relief programs</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/resources/search-for-licensed-business/" class="second-level-link" tabindex="-1">Search for a licensed business</a></li></ul></div></div></li><li class="nav-item  menu-item menu-item-type-post_type menu-item-object-page  " title=""><a href="https://cannabis.ca.gov/about-us/" class="first-level-link"><span class="ca-gov-icon-logo invisible"></span><span class="link-title">About us<span class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span></a><div class="sub-nav"><div><ul class="second-level-nav"><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/about-dcc/" class="second-level-link" tabindex="-1">About DCC</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/announcements/" class="second-level-link" tabindex="-1">Announcements</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/dcc-events/" class="second-level-link" tabindex="-1">DCC events</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/public-awareness-campaigns/" class="second-level-link" tabindex="-1">Public awareness campaigns</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/scientific-research/" class="second-level-link" tabindex="-1">Scientific research</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/grant-funding/" class="second-level-link" tabindex="-1">Grant funding</a></li><li  class="unit1  menu-item menu-item-type-post_type menu-item-object-page"  title="" ><a href="https://cannabis.ca.gov/about-us/contact-us/" class="second-level-link" tabindex="-1">Contact us</a></li></ul></div></div></li><li class="nav-item" id="nav-item-search" ><button class="first-level-link h-auto"><span class="ca-gov-icon-search" aria-hidden="true"></span> Search</button></li></ul></nav>		<div id="head-search" class="search-container hidden-print" role="region" aria-label="Search Expanded">
+			<div class="container">
+	<form id="Search" class="pos-rel" action="https://cannabis.ca.gov/serp">
+		<span class="sr-only" id="SearchInput">Custom Google Search</span>
+		<input type="text" id="q" name="q" value="" aria-labelledby="SearchInput" placeholder="Search" class="search-textfield height-50 border-0 p-x-sm w-100" />
+		<button type="submit" class="pos-abs gsc-search-button top-0 width-50 height-50 border-0 bg-transparent">
+			<span class="ca-gov-icon-search font-size-30 color-gray" aria-hidden="true" ></span>
+			<span class="sr-only">Submit</span>
+		</button>
+		<div class="width-50 height-50 close-search-btn">
+			<!-- Some Google styles add an 'x' background image when button has 'gsc-clear-button' in the class -->
+			<button class="close-search gsc-clear-button width-50 height-50 border-0 bg-transparent pos-rel" type="reset" tabindex="-1">
+				<span class="sr-only">Close Search</span>
+				<span class="ca-gov-icon-close-mark" aria-hidden="true"></span>
+			</button>
+		</div>
+	</form> 
+</div>
+		</div>
+	</div>
+</header>
+
+<body class="error404 primary et_pb_button_helper_class et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_divi_theme et-db et_minified_js et_minified_css v5.5 sticky_nav non_divi_builder">
+	
+
+	<div id="main-content" class="main-content">
+		<div class="section">
+			<main class="main-primary">
+
+				<article id="post-0" class="et_pb_post not_found">
+					<div class="entry-content">
+						<!-- Page Title-->
+						<h1>Page Not Found</h1>
+						<div class="description">The page you requested was not found.</div>
+					</div>
+				</article> <!-- .et_pb_post -->
+
+			</main>
+		</div>
+	</div> <!-- #main-content -->
+
+	<footer id="footer" class="global-footer hidden-print"><div class="container footer-menu"><div class="group"><div class="full-width"><ul class="footer-links" ><li><a href="#skip-to-content">Back to Top</a></li><li class="" title=""><a href="https://ca.gov"><span class="sr-only">ca.gov</span></a></li><li class="" title=""><a href="https://www.ca.gov/use/">Conditions of Use</a></li><li class="" title=""><a href="https://www.ca.gov/privacy-policy/">Privacy Policy</a></li><li class="" title=""><a href="https://www.ca.gov/accessibility/">Accessibility</a></li><li class="" title=""><a href="https://www.cdph.ca.gov/Pages/contact_us.aspx">Contact Us</a></li></ul></div></div></div><!-- Copyright Statement --><div class="copyright"><div class="container"><p class="d-inline">Copyright <span aria-hidden="true">&copy;</span> 2021 State of California</p><span class="pull-right">Powered by: CAWeb Publishing Service</span></div></div></footer><script type='text/javascript' id='thickbox-js-extra'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/cannabis.ca.gov\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer src='https://cannabis.ca.gov/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script type='text/javascript' id='divi-custom-script-js-extra'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/cannabis.ca.gov\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/cannabis.ca.gov\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/cannabis.ca.gov\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"de5981bf43","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"803950ef82","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"","unique_test_id":"","ab_bounce_rate":"","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/themes/Divi/js/custom.unified.js?ver=4.9.7' id='divi-custom-script-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/themes/CAWeb/divi/extension/scripts/frontend-bundle.min.js?ver=1.0.0' id='caweb-module-extension-frontend-bundle-js'></script>
+<script type='text/javascript' id='cagov-caweb-script-js-extra'>
+/* <![CDATA[ */
+var args = {"ca_site_version":"5.5","ca_frontpage_search_enabled":"","ca_google_search_id":"001779225245372747843:o_16poin-0q","caweb_multi_ga":"","ca_google_trans_enabled":"1","ajaxurl":"https:\/\/cannabis.ca.gov\/wp-admin\/admin-post.php","ca_google_analytic_id":"UA-31125811-39"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/themes/CAWeb/js/caweb-v5.5.min.js?ver=1.5.5b' id='cagov-caweb-script-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/themes/Divi/core/admin/js/common.js?ver=4.9.7' id='et-core-common-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/caweb-ext/js/2/caweb-custom.js?ver=1.5.5b-60f07111a18e66.08684248' id='caweb-custom-js-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=1.5.5b' id='twitter-timeline-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-includes/js/dist/vendor/moment.min.js?ver=2.26.0' id='moment-js'></script>
+<script type='text/javascript' id='moment-js-after'>
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":0},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/plugins/ca-design-system-gutenberg-blocks/blocks/post-list/web-component.js?ver=1625156104' id='ca-design-system-post-list-web-component-js'></script>
+<script type='text/javascript' src='https://cannabis.ca.gov/wp-content/plugins/ca-design-system-gutenberg-blocks/blocks/content-navigation/web-component.js?ver=1625156104' id='ca-design-system-content-navigation-web-component-js'></script>
+		<script>
+		$ = jQuery.noConflict();
+
+		var media_carousels = $('div[class*="et_pb_ca_fullwidth_section_carousel_"]:not(".item")');
+
+		media_carousels.each(function(index, carousel) {
+			if( $(carousel).hasClass('media') || $(carousel).hasClass('panel') ){
+				$(carousel).find('.carousel-media').owlCarousel({
+					responsive : true,
+					responsive: {
+						0: {
+							items: 1,
+							nav: true
+						},
+						400: {
+							items: 1,
+							nav: true
+						},
+						768: {
+							items: undefined === carousel.slide_amount ? 4 : carousel.slide_amount,
+							nav: true
+						},
+					},
+					margin : 10,
+					nav : true,
+					dots : false,
+					navText: [
+						'<span class="ca-gov-icon-arrow-prev" aria-hidden="true"></span>',
+						'<span class="ca-gov-icon-arrow-next" aria-hidden="true"></span>'
+					],
+				});
+			}
+		})
+		</script>
+				<script>
+		$ = jQuery.noConflict();
+
+		var media_carousels = $('div[class*="et_pb_ca_section_carousel_"]:not(".item")');
+
+		media_carousels.each(function(index, carousel) {
+			if( $(carousel).hasClass('media') || $(carousel).hasClass('panel') ){
+				$(carousel).find('.carousel-media').owlCarousel({
+					responsive : true,
+					responsive: {
+						0: {
+							items: 1,
+							nav: true
+						},
+						400: {
+							items: 1,
+							nav: true
+						},
+						768: {
+							items: undefined === carousel.slide_amount ? 4 : carousel.slide_amount,
+							nav: true
+						},
+					},
+					margin : 10,
+					nav : true,
+					dots : false,
+					navText: [
+						'<span class="ca-gov-icon-arrow-prev" aria-hidden="true"></span>',
+						'<span class="ca-gov-icon-arrow-next" aria-hidden="true"></span>'
+					],
+				});
+			}
+		})
+		</script>
+		</body>
+
+</html>
