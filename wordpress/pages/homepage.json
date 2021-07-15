@@ -37,6 +37,20 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "wordpress_url": "https://cannabis.ca.gov/"
+    "wordpress_url": "https://cannabis.ca.gov/",
+    "media": [
+      {
+        "id": 8179,
+        "type": "large",
+        "path": "sites/2/2021/06/cannabis-buds-hero-1024x683.jpg",
+        "file": "cannabis-buds-hero-1024x683.jpg",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1024x683.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
