@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-05-13T23:55:00",
     "updated_date": "2021-07-01T00:53:57",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6008,
-    "slug": "bcc-announces-enforcement-action-on-unlicensed-delivery-service",
-    "title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
-    "author": "Department of Cannabis Control",
     "date": "2019-05-13T23:55:00",
-    "modified": "2021-06-30T17:53:57",
     "date_gmt": "2019-05-13T23:55:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
+    "modified": "2021-06-30T17:53:57",
     "modified_gmt": "2021-07-01T00:53:57",
+    "slug": "bcc-announces-enforcement-action-on-unlicensed-delivery-service",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
+    "title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
+    "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs&#8217; Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
-    "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs&#8217; Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
@@ -45,6 +49,10 @@
       null,
       null,
       null
-    ]
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/"
   }
 }

@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2017-11-18T00:34:00",
     "updated_date": "2021-06-19T15:50:58",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6059,
-    "slug": "cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing",
-    "title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
-    "author": "Department of Cannabis Control",
     "date": "2017-11-18T00:34:00",
-    "modified": "2021-06-19T08:50:58",
     "date_gmt": "2017-11-18T00:34:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
+    "modified": "2021-06-19T08:50:58",
     "modified_gmt": "2021-06-19T15:50:58",
+    "slug": "cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
+    "title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
+    "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
-    "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
@@ -44,6 +48,10 @@
       null,
       null,
       null
-    ]
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2017/11/18/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/"
   }
 }

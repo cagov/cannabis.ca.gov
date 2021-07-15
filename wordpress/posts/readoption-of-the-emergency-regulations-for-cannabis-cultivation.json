@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2018-06-07T17:48:00",
     "updated_date": "2021-07-01T17:52:31",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6246,
-    "slug": "readoption-of-the-emergency-regulations-for-cannabis-cultivation",
-    "title": "Readoption of the Emergency Regulations for Cannabis Cultivation",
-    "author": "Department of Cannabis Control",
     "date": "2018-06-07T17:48:00",
-    "modified": "2021-07-01T10:52:31",
     "date_gmt": "2018-06-07T17:48:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/readoption-of-the-emergency-regulations-for-cannabis-cultivation/",
+    "modified": "2021-07-01T10:52:31",
     "modified_gmt": "2021-07-01T17:52:31",
+    "slug": "readoption-of-the-emergency-regulations-for-cannabis-cultivation",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2018/06/07/readoption-of-the-emergency-regulations-for-cannabis-cultivation/",
+    "title": "Readoption of the Emergency Regulations for Cannabis Cultivation",
+    "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture, has readopted the emergency regulations for commercial medicinal and adult-use cannabis cultivation.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2018/06/07/readoption-of-the-emergency-regulations-for-cannabis-cultivation/",
-    "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture, has readopted the emergency regulations for commercial medicinal and adult-use cannabis cultivation.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
@@ -45,6 +49,10 @@
       null,
       null,
       null
-    ]
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2018/06/07/readoption-of-the-emergency-regulations-for-cannabis-cultivation/"
   }
 }

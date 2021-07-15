@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-10-29T22:48:00",
     "updated_date": "2021-07-01T17:52:24",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6191,
-    "slug": "legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements",
-    "title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
-    "author": "Department of Cannabis Control",
     "date": "2019-10-29T22:48:00",
-    "modified": "2021-07-01T10:52:24",
     "date_gmt": "2019-10-29T22:48:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/",
+    "modified": "2021-07-01T10:52:24",
     "modified_gmt": "2021-07-01T17:52:24",
+    "slug": "legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/10/29/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/",
+    "title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
+    "excerpt": "<p>Assembly Bill (AB) 1529 was recently signed into law and modifies the labeling requirements for cannabis vaping products.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/10/29/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/",
-    "excerpt": "<p>Assembly Bill (AB) 1529 was recently signed into law and modifies the labeling requirements for cannabis vaping products.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
@@ -53,6 +57,10 @@
       null,
       null,
       null
-    ]
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/10/29/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/"
   }
 }

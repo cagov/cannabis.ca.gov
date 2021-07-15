@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2018-02-23T22:00:00",
     "updated_date": "2021-06-19T15:50:55",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6041,
-    "slug": "mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64",
-    "title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
-    "author": "Department of Cannabis Control",
     "date": "2018-02-23T22:00:00",
-    "modified": "2021-06-19T08:50:55",
     "date_gmt": "2018-02-23T22:00:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
+    "modified": "2021-06-19T08:50:55",
     "modified_gmt": "2021-06-19T15:50:55",
+    "slug": "mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
+    "title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
+    "excerpt": "<p>NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
-    "excerpt": "<p>NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
@@ -49,6 +53,10 @@
       null,
       null,
       null
-    ]
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/"
   }
 }

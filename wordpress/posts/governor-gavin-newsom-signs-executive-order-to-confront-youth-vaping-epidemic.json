@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-09-18T19:51:00",
     "updated_date": "2021-06-19T15:50:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 5996,
-    "slug": "governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic",
-    "title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
-    "author": "Department of Cannabis Control",
     "date": "2019-09-18T19:51:00",
-    "modified": "2021-06-19T08:50:50",
     "date_gmt": "2019-09-18T19:51:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
+    "modified": "2021-06-19T08:50:50",
     "modified_gmt": "2021-06-19T15:50:50",
+    "slug": "governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/09/18/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
+    "title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+    "excerpt": "<p>SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/09/18/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
-    "excerpt": "<p>SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
@@ -51,6 +55,10 @@
       null,
       null,
       null
-    ]
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/09/18/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/"
   }
 }
