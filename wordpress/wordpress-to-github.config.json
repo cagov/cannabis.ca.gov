@@ -10,7 +10,7 @@
       "PostPath": "wordpress/posts",
       "PagePath": "wordpress/pages",
       "SyncMedia": true,
-      "MediaPath": "wordpress/media"
+      "MediaPath": "wordpress/media",
       "ExcludeProperties": [
         "content",
         "_links"
