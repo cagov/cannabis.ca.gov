@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-16T07:33:23",
-    "updated_date": "2021-07-16T07:33:23",
+    "created_date": "2021-07-16T07:43:44",
+    "updated_date": "2021-07-16T07:43:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -13,12 +13,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 8541,
-    "date": "2021-07-16T00:33:23",
-    "date_gmt": "2021-07-16T07:33:23",
+    "id": 8547,
+    "date": "2021-07-16T00:43:44",
+    "date_gmt": "2021-07-16T07:43:44",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/Regulations_Section100_2021-0615-04N.pdf",
-    "modified": "2021-07-16T00:33:23",
-    "modified_gmt": "2021-07-16T07:33:23",
+    "modified": "2021-07-16T00:43:44",
+    "modified_gmt": "2021-07-16T07:43:44",
     "slug": "regulations_section100_2021-0615-04n",
     "status": "inherit",
     "type": "attachment",
