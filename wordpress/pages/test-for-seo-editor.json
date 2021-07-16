@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-06-24T17:30:20",
     "updated_date": "2021-06-24T17:31:17",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,23 +14,29 @@
   },
   "data": {
     "id": 8181,
-    "slug": "test-for-seo-editor",
-    "title": "Test for SEO editor",
-    "author": "Michael Sullivan",
     "date": "2021-06-24T10:30:20",
-    "modified": "2021-06-24T10:31:17",
     "date_gmt": "2021-06-24T17:30:20",
+    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8181",
+    "modified": "2021-06-24T10:31:17",
     "modified_gmt": "2021-06-24T17:31:17",
+    "slug": "test-for-seo-editor",
+    "status": "publish",
+    "type": "page",
+    "link": "https://cannabis.ca.gov/test-for-seo-editor/",
+    "title": "Test for SEO editor",
+    "excerpt": "<p>Page content test heading</p>\n",
+    "author": "Michael Sullivan",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/test-for-seo-editor/",
-    "excerpt": "<p>Page content test heading</p>\n",
-    "type": "page",
-    "parent": 0,
-    "menu_order": 0
+    "wordpress_url": "https://cannabis.ca.gov/test-for-seo-editor/"
   }
 }

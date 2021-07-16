@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-06-19T15:07:40",
     "updated_date": "2021-06-30T20:32:39",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,23 +14,29 @@
   },
   "data": {
     "id": 719,
-    "slug": "license-types",
-    "title": "License types",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:40",
-    "modified": "2021-06-30T13:32:39",
     "date_gmt": "2021-06-19T15:07:40",
+    "guid": "http://wordpress.test:8888/license-types/",
+    "modified": "2021-06-30T13:32:39",
     "modified_gmt": "2021-06-30T20:32:39",
+    "slug": "license-types",
+    "status": "publish",
+    "type": "page",
+    "link": "https://cannabis.ca.gov/applicants/license-types/",
+    "title": "License types",
+    "excerpt": "<p>Licenses are based on the type of cannabis activity that your business will perform.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 756,
+    "menu_order": 3,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/applicants/license-types/",
-    "excerpt": "<p>Licenses are based on the type of cannabis activity that your business will perform.</p>\n",
-    "type": "page",
-    "parent": 756,
-    "menu_order": 3
+    "wordpress_url": "https://cannabis.ca.gov/applicants/license-types/"
   }
 }

@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-09-27T00:13:00",
     "updated_date": "2021-07-01T17:52:24",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,47 +14,54 @@
   },
   "data": {
     "id": 6193,
-    "slug": "bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno",
-    "title": "BCC Announces Enforcement Action Against Smoke Shop Illegally Selling Counterfeit Cannabis Products in Fresno",
-    "author": "Department of Cannabis Control",
     "date": "2019-09-27T00:13:00",
-    "modified": "2021-07-01T10:52:24",
     "date_gmt": "2019-09-27T00:13:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno/",
+    "modified": "2021-07-01T10:52:24",
     "modified_gmt": "2021-07-01T17:52:24",
+    "slug": "bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/09/27/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno/",
+    "title": "BCC Announces Enforcement Action Against Smoke Shop Illegally Selling Counterfeit Cannabis Products in Fresno",
+    "excerpt": "<p>The Bureau of Cannabis Control and DCA’s Cannabis Enforcement Unit received a tip yesterday from the California Department of Tax and Fee Administration concerning a smoke shop illegally selling counterfeit cannabis products in Fresno.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/09/27/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno/",
-    "excerpt": "<p>The Bureau of Cannabis Control and DCA’s Cannabis Enforcement Unit received a tip yesterday from the California Department of Tax and Fee Administration concerning a smoke shop illegally selling counterfeit cannabis products in Fresno.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
     ],
     "tags": [
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Cannabis enforcement",
+      "Cannabis enforcement unit",
+      "Cannabis products",
+      "Cartridges",
+      "CDTFA",
+      "Consumer",
+      "Counterfeit cannabis",
+      "Counterfeit product",
+      "Enforcement",
+      "Health",
+      "Illegal",
+      "Safety",
+      "Tip",
+      "Vape",
+      "Vape cartridges"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/09/27/bcc-announces-enforcement-action-against-smoke-shop-illegally-selling-counterfeit-cannabis-products-in-fresno/"
   }
 }

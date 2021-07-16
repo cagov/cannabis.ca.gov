@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-11-19T01:03:00",
     "updated_date": "2021-07-01T17:52:24",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,41 +14,48 @@
   },
   "data": {
     "id": 6189,
-    "slug": "changes-to-cannabis-excise-and-cultivation-taxes-regulation",
-    "title": "Changes to Cannabis Excise and Cultivation Taxes Regulation",
-    "author": "Department of Cannabis Control",
     "date": "2019-11-19T01:03:00",
-    "modified": "2021-07-01T10:52:24",
     "date_gmt": "2019-11-19T01:03:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/changes-to-cannabis-excise-and-cultivation-taxes-regulation/",
+    "modified": "2021-07-01T10:52:24",
     "modified_gmt": "2021-07-01T17:52:24",
+    "slug": "changes-to-cannabis-excise-and-cultivation-taxes-regulation",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/",
+    "title": "Changes to Cannabis Excise and Cultivation Taxes Regulation",
+    "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) recently adopted Regulation 3700, <em>Cannabis Excise and Cultivation Taxes</em>, which addresses and clarifies the Cannabis Tax Law regarding the administration of the cannabis excise and cultivation taxes.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/",
-    "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) recently adopted Regulation 3700, <em>Cannabis Excise and Cultivation Taxes</em>, which addresses and clarifies the Cannabis Tax Law regarding the administration of the cannabis excise and cultivation taxes.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
     ],
     "tags": [
       "California department of tax and fee administration",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Cannabis accessories",
+      "Cannabis excise",
+      "Cannabis taxes",
+      "CDTFA",
+      "Cultivation",
+      "Cultivation taxes",
+      "Regulation",
+      "Taxes",
+      "Wholesale"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/"
   }
 }

@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-08-22T22:44:00",
     "updated_date": "2021-07-01T00:56:58",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 5999,
-    "slug": "bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements",
-    "title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
-    "author": "Department of Cannabis Control",
     "date": "2019-08-22T22:44:00",
-    "modified": "2021-06-30T17:56:58",
     "date_gmt": "2019-08-22T22:44:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
+    "modified": "2021-06-30T17:56:58",
     "modified_gmt": "2021-07-01T00:56:58",
+    "slug": "bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
+    "title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
+    "excerpt": "<p>The Bureau of Cannabis Control today issued the following statement from Bureau Chief Lori Ajax regarding Weedmaps’ announcement that it would no longer advertise illegal cannabis businesses.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
-    "excerpt": "<p>The Bureau of Cannabis Control today issued the following statement from Bureau Chief Lori Ajax regarding Weedmaps’ announcement that it would no longer advertise illegal cannabis businesses.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
@@ -40,15 +44,19 @@
       "Advertising",
       "BCC",
       "Bureau of Cannabis Control",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Dispensary",
+      "Legal",
+      "Licensed",
+      "Lori Ajax",
+      "Quote",
+      "Retail",
+      "Retailer",
+      "Weedmaps"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/"
   }
 }
