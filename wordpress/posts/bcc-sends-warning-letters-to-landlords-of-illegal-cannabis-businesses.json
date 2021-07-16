@@ -3,10 +3,10 @@
     "created_date": "2019-11-26T21:40:00",
     "updated_date": "2021-07-01T00:54:57",
     "api_version": "v2",
-    "api_url": "https://staginginye.prod3.sites.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://staginginye.prod3.sites.ca.gov",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -26,7 +26,7 @@
       "_et_gb_content_width": ""
     },
     "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://staginginye.prod3.sites.ca.gov/2019/11/26/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses/",
+    "wordpress_url": "https://cannabis.ca.gov/2019/11/26/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses/",
     "excerpt": "<p>In its continuing effort to combat the state’s illegal cannabis market, the Bureau of Cannabis Control recently sent hundreds of letters notifying landlords that the Bureau has information their property is being used for illegal cannabis activity.</p>\n",
     "format": "standard",
     "type": "post",
