@@ -84,7 +84,7 @@ function chooseTemplate(data) {
   if(data.design_system_fields) {
     template = data.design_system_fields.template;
   }
-  if(data.wordpress_url === 'https://staginginye.prod3.sites.ca.gov/') {
+  if(data.wordpress_url === 'https://cannabis.ca.gov/') {
     return "landing"
   }
 
