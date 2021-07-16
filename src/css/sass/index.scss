@@ -28,7 +28,8 @@
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 @import '../../components/navigation/_style';
-@import '../../components/menu/scss/_index';
+@import '../../components/menu/_style';
+// @import '../../components/menu-cbhd/scss/_index';
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 
 /* page layout styles, not sure where this should go, in base-css too eventually? */
