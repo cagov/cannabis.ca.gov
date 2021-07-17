@@ -1,1 +1,14 @@
 /* Links global styles */
+a {
+  color: $primary;
+  &:hover {
+    color: $primary-dark;
+    text-decoration: none;
+  }
+  &:focus {
+    outline: 2px solid $secondary;
+  }
+
+  @include text-underline;
+
+}

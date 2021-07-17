@@ -1,1 +1,11 @@
 /* Forms generic styles*/
+
+textarea, input {
+  background-color: $white;
+  color: $black !important;
+  font-size: $body-text;
+  font-weight: $regular;
+  &:focus {
+      outline: 2px solid $secondary;
+  }
+}

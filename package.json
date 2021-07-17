@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "sass:compile": "node-sass --source-map true src/css/sass/ -o dist/",
-    "sass:build": "npm run sass:compile && npm run build:regen",
-    "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build'",
+    "sass:build": "npm run sass:compile",
+    "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build && npm run build:regen'",
     "build:regen": "npx @11ty/eleventy --quiet",
     "build:watch": "npx @11ty/eleventy --quiet --watch",
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run js:bundle && npm run build:regen'",
