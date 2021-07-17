@@ -2,10 +2,14 @@
 // Site Colors
 @import './colorschemes/cannabis.scss'; /* theme colors */
 @import './_variables'; /* spasing, margin and padding values */
+@import './_mixins'; /* mixins */
 
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 @import './_fonts'; /* website global fonts */
-@import './_base'; /* html, body, main and all the website level base styes */
+@import './_cagov-font'; /* website global fonts */
+@import './_normalize'; /* html, body, main and all the website level base styes */
+@import './_page'; /* html, body, main and all the website level base styes */
+@import './_wordpress'; /* a, a:hover, a:focus */
 @import './_buttons'; /* buttons generic styles */
 @import './_code'; /* pre, code, var generic styles */
 @import './_forms'; /* input, textarea, select generic styles */
@@ -15,22 +19,30 @@
 /* all of the above will become part of base-css component */
 
 /* COMPONENTS/BLOCKS */
-@import '../../components/page-alert/index'; /* copied from gutenberg custom block */
-@import '../../components/hero/index'; /* copied from block */
-@import '../../components/cards/index'; /* copied from blocks */
-@import '../../components/breadcrumb/index'; /* copied from blocks */
-@import '../../components/content-navigation/index'; /* copied from blocks */
-@import '../../components/step-list/index';
+/* COMPONENTS/BLOCKS */
+@import '../../components/accordion/_style';  /* custom css overrides for default accordion styles */
 @import './_announcement-list'; /* copied from block */
+@import '../../components/breadcrumb/index'; /* copied from blocks */
 @import '../../components/branding/_style';
-@import '../../components/utility-header/_style';
+@import '../../components/cards/index'; /* copied from blocks */
+@import '../../components/content-navigation/index'; /* copied from blocks */
+@import '../../components/hero/index'; /* copied from block */
+@import '../../components/page-alert/index'; /* copied from gutenberg custom block */
 @import '../../components/post-list-headless/_style';
+// @import '../../components/post-list/_style'; /* copied from block */
+@import '../../components/step-list/index';
+/* NAVIGATION ELEMENTS */
+@import '../../components/utility-header/_style';
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
-@import '../../components/navigation/_style';
-@import '../../components/menu/scss/_index';
+@import '../../components/menu/_style';
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 
-/* page layout styles, not sure where this should go, in base-css too eventually? */
-@import './_layouts-main'; 
-@import './_layouts-sidebar'; 
+// @import '../../components/menu-cbhd/scss/_index';
+
+// I think these are in wordpress now
+// @import './_layouts-main'; 
+// @import './_layouts-sidebar'; 
+
+
+

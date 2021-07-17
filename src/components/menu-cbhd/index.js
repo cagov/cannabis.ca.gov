@@ -73,27 +73,24 @@ class CAGOVOverlayNav extends window.HTMLElement {
       }
       let menuComponent = this;
       menu.addEventListener('click', function (event) {
-        let menuLinkEl = this.querySelector('.expanded-menu-section-header-link');
-        if(menuLinkEl.nodeName === 'A') {
-          window.location = menuLinkEl.href;
-        } else {
+        if(event.target.nodeName !== 'A') {
           event.preventDefault();
-          let expandedEl = this.querySelector('.expanded-menu-section');
-          if(expandedEl) {
-            if(expandedEl.classList.contains('expanded')) {
-              // closing an open menu
-              menuComponent.closeAllMenus();
-            } else {
-              menuComponent.closeAllMenus();
-              expandedEl.classList.add('expanded');
-              this.setAttribute('aria-expanded', 'true');
-              let closestDropDown = this.querySelector('.expanded-menu-dropdown');
-              if (closestDropDown) {
-                closestDropDown.setAttribute('aria-hidden', 'false');
-                let allLinks = closestDropDown.querySelectorAll("a");
-                for (var i = 0; i < allLinks.length; i++) {
-                  allLinks[i].removeAttribute("tabindex"); // remove tabindex from all the links
-                }
+        }
+        let expandedEl = this.querySelector('.expanded-menu-section');
+        if(expandedEl) {
+          if(expandedEl.classList.contains('expanded')) {
+            // closing an open menu
+            menuComponent.closeAllMenus();
+          } else {
+            menuComponent.closeAllMenus();
+            expandedEl.classList.add('expanded');
+            this.setAttribute('aria-expanded', 'true');
+            let closestDropDown = this.querySelector('.expanded-menu-dropdown');
+            if (closestDropDown) {
+              closestDropDown.setAttribute('aria-hidden', 'false');
+              let allLinks = closestDropDown.querySelectorAll("a");
+              for (var i = 0; i < allLinks.length; i++) {
+                allLinks[i].removeAttribute("tabindex"); // remove tabindex from all the links
               }
             }
           }

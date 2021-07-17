@@ -3,7 +3,11 @@ let pressList = require('./src/templates/_includes/layouts/templates/press-list.
 let last3Posts = require('./src/templates/_data/last3.js');
 
 module.exports = function(eleventyConfig) {
-
+  eleventyConfig.setBrowserSyncConfig({
+    watch:true,
+    notify:true,
+ });
+ 
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });

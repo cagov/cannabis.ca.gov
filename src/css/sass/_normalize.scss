@@ -1,5 +1,7 @@
 /* beginnings of normalize */
-*, :after, :before {
+*,
+:after,
+:before {
   box-sizing: border-box;
   background-color: inherit;
   font-family: inherit;
@@ -11,8 +13,9 @@
 }
 
 body {
-  font-family: $site-font;
-  font-size: $body-text;
-  line-height: 1.5;
-  color: $black;
-}
+    font-family: $site-font;
+    font-size: $body-text;
+    line-height: 1.5;
+    color: $black;
+  }
+  
