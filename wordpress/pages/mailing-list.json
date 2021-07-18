@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-06-19T15:12:14",
     "updated_date": "2021-06-19T15:34:20",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,22 +14,29 @@
   },
   "data": {
     "id": 7799,
-    "slug": "mailing-list",
-    "title": "Sign up for email list",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:12:14",
-    "modified": "2021-06-19T08:34:20",
     "date_gmt": "2021-06-19T15:12:14",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
+    "modified": "2021-06-19T08:34:20",
     "modified_gmt": "2021-06-19T15:34:20",
+    "slug": "mailing-list",
+    "status": "publish",
+    "type": "page",
+    "link": "https://cannabis.ca.gov/mailing-list/",
+    "title": "Sign up for email list",
+    "excerpt": "",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/mailing-list/",
-    "type": "page",
-    "parent": 0,
-    "menu_order": 0
+    "wordpress_url": "https://cannabis.ca.gov/mailing-list/"
   }
 }

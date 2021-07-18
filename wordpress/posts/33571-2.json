@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-06-07T17:02:00",
     "updated_date": "2021-07-01T17:52:25",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6198,
-    "slug": "33571-2",
-    "title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
-    "author": "Department of Cannabis Control",
     "date": "2019-06-07T17:02:00",
-    "modified": "2021-07-01T10:52:25",
     "date_gmt": "2019-06-07T17:02:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/33571/",
+    "modified": "2021-07-01T10:52:25",
     "modified_gmt": "2021-07-01T17:52:25",
+    "slug": "33571-2",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/06/07/33571-2/",
+    "title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+    "excerpt": "<p>You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/06/07/33571-2/",
-    "excerpt": "<p>You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
@@ -42,17 +46,21 @@
       "Archive",
       "Bureau of Cannabis Control",
       "Bureau of Cannabis Control questions",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "CBD",
+      "Database",
+      "Document",
+      "FAQ",
+      "Industrial hemp",
+      "Licensing",
+      "Ownership",
+      "Questions",
+      "Regulations",
+      "Searchable"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/06/07/33571-2/"
   }
 }

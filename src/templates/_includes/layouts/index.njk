@@ -54,9 +54,11 @@
 
 <body>
 
-  {% include "../../../components/utility-header/utility-header.html" %}
-  {% include "../../../components/branding/branding.html" %}
-  {% include "nav-component.njk" %}
+  <div class="header-container">
+    {% include "../../../components/utility-header/utility-header.html" %}
+    {% include "../../../components/branding/branding.html" %}
+    {% include "nav-component.njk" %}
+  </div>
 
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
   {%- if templatestring == 'landing' -%}

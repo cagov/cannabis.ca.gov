@@ -25,9 +25,10 @@ module.exports = function(eleventyConfig) {
         }
       }
     });
-    return pressPosts.sort((a,b) => {
+    pressPosts.sort((a,b) => {
       return new Date(b.data.wordpress.dataset.data.date).getTime() - new Date(a.data.wordpress.dataset.data.date).getTime();
     });
+    return pressPosts;
   });
   
   eleventyConfig.addFilter("postlist", function(html) {

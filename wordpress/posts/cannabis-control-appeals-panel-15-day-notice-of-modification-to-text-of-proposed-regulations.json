@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2018-10-19T20:38:00",
     "updated_date": "2021-07-01T17:52:29",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,25 +14,28 @@
   },
   "data": {
     "id": 6230,
-    "slug": "cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations",
-    "title": "Cannabis Control Appeals Panel 15-Day Notice of Modification to Text of Proposed Regulations",
-    "author": "Department of Cannabis Control",
     "date": "2018-10-19T20:38:00",
-    "modified": "2021-07-01T10:52:29",
     "date_gmt": "2018-10-19T20:38:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations/",
+    "modified": "2021-07-01T10:52:29",
     "modified_gmt": "2021-07-01T17:52:29",
+    "slug": "cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2018/10/19/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations/",
+    "title": "Cannabis Control Appeals Panel 15-Day Notice of Modification to Text of Proposed Regulations",
+    "excerpt": "<p>The Cannabis Control Appeals Panel today announced changes to the proposed regulations published to the California Regulatory Notice Register on August 31, 2018.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2018/10/19/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations/",
-    "excerpt": "<p>The Cannabis Control Appeals Panel today announced changes to the proposed regulations published to the California Regulatory Notice Register on August 31, 2018.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
@@ -39,11 +43,15 @@
     "tags": [
       "15-day notice",
       "Appeals",
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Cannabis control appeals panel",
+      "Modification",
+      "Panel",
+      "Text of proposed regulations"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2018/10/19/cannabis-control-appeals-panel-15-day-notice-of-modification-to-text-of-proposed-regulations/"
   }
 }

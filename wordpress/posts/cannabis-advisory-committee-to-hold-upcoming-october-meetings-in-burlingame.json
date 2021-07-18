@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-10-16T23:56:00",
     "updated_date": "2021-06-19T15:50:49",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,41 +14,48 @@
   },
   "data": {
     "id": 5993,
-    "slug": "cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame",
-    "title": "Cannabis Advisory Committee to Hold Upcoming October Meetings in Burlingame",
-    "author": "Department of Cannabis Control",
     "date": "2019-10-16T23:56:00",
-    "modified": "2021-06-19T08:50:49",
     "date_gmt": "2019-10-16T23:56:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/",
+    "modified": "2021-06-19T08:50:49",
     "modified_gmt": "2021-06-19T15:50:49",
+    "slug": "cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/10/16/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/",
+    "title": "Cannabis Advisory Committee to Hold Upcoming October Meetings in Burlingame",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold two subcommittee meetings on Tuesday, October 22 and a full committee meeting on Wednesday, October 23 at the Hyatt Regency San Francisco Airport in Burlingame.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/10/16/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/",
-    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold two subcommittee meetings on Tuesday, October 22 and a full committee meeting on Wednesday, October 23 at the Hyatt Regency San Francisco Airport in Burlingame.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
     ],
     "tags": [
       "Burlingame",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Cannabis advisory committee",
+      "Committee meeting",
+      "Cultivation",
+      "October meetings",
+      "Public health",
+      "Regulations",
+      "San Francisco",
+      "Subcommittee",
+      "Youth"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/10/16/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/"
   }
 }

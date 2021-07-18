@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-06-19T15:07:40",
     "updated_date": "2021-06-28T20:54:20",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,23 +14,29 @@
   },
   "data": {
     "id": 700,
-    "slug": "public-awareness-campaigns",
-    "title": "Public awareness campaigns",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:40",
-    "modified": "2021-06-28T13:54:20",
     "date_gmt": "2021-06-19T15:07:40",
+    "guid": "http://wordpress.test:8888/public-outreach-campaigns/",
+    "modified": "2021-06-28T13:54:20",
     "modified_gmt": "2021-06-28T20:54:20",
+    "slug": "public-awareness-campaigns",
+    "status": "publish",
+    "type": "page",
+    "link": "https://cannabis.ca.gov/about-us/public-awareness-campaigns/",
+    "title": "Public awareness campaigns",
+    "excerpt": "<p>The Department of Cannabis Control&#8217;s public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 856,
+    "menu_order": 5,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/about-us/public-awareness-campaigns/",
-    "excerpt": "<p>The Department of Cannabis Control&#8217;s public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market.</p>\n",
-    "type": "page",
-    "parent": 856,
-    "menu_order": 5
+    "wordpress_url": "https://cannabis.ca.gov/about-us/public-awareness-campaigns/"
   }
 }

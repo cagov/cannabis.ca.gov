@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2019-08-07T19:14:00",
     "updated_date": "2021-06-19T15:50:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,36 +14,43 @@
   },
   "data": {
     "id": 6000,
-    "slug": "california-department-of-justice-releases-new-medicinal-cannabis-guidelines",
-    "title": "California Department of Justice Releases New Medicinal Cannabis Guidelines",
-    "author": "Department of Cannabis Control",
     "date": "2019-08-07T19:14:00",
-    "modified": "2021-06-19T08:50:50",
     "date_gmt": "2019-08-07T19:14:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/california-department-of-justice-releases-new-medicinal-cannabis-guidelines/",
+    "modified": "2021-06-19T08:50:50",
     "modified_gmt": "2021-06-19T15:50:50",
+    "slug": "california-department-of-justice-releases-new-medicinal-cannabis-guidelines",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2019/08/07/california-department-of-justice-releases-new-medicinal-cannabis-guidelines/",
+    "title": "California Department of Justice Releases New Medicinal Cannabis Guidelines",
+    "excerpt": "<p>SACRAMENTO – Today, the California Department of Justice released the “Guidelines for the Security and Non-Diversion of Cannabis Grown for Medicinal Use” to clarify the state’s laws governing medicinal cannabis, specifically those related to the enforcement, transportation, and use of medicinal cannabis.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2019/08/07/california-department-of-justice-releases-new-medicinal-cannabis-guidelines/",
-    "excerpt": "<p>SACRAMENTO – Today, the California Department of Justice released the “Guidelines for the Security and Non-Diversion of Cannabis Grown for Medicinal Use” to clarify the state’s laws governing medicinal cannabis, specifically those related to the enforcement, transportation, and use of medicinal cannabis.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
     ],
     "tags": [
       "California department of justice",
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Department of Justice",
+      "DOJ",
+      "Guidelines",
+      "Medicinal cannabis"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2019/08/07/california-department-of-justice-releases-new-medicinal-cannabis-guidelines/"
   }
 }

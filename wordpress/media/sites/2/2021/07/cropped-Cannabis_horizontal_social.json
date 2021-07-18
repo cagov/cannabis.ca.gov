@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-07-01T14:31:20",
     "updated_date": "2021-07-13T13:51:58",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
@@ -13,26 +14,150 @@
   },
   "data": {
     "id": 8430,
+    "date": "2021-07-01T07:31:20",
+    "date_gmt": "2021-07-01T14:31:20",
+    "guid": "http://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png",
+    "modified": "2021-07-13T06:51:58",
+    "modified_gmt": "2021-07-13T13:51:58",
     "slug": "cropped-cannabis_horizontal_social-png",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://cannabis.ca.gov/cropped-cannabis_horizontal_social-png/",
     "title": "cropped-Cannabis_horizontal_social.png",
     "author": "Department of Cannabis Control",
-    "date": "2021-07-01T07:31:20",
-    "modified": "2021-07-13T06:51:58",
-    "date_gmt": "2021-07-01T14:31:20",
-    "modified_gmt": "2021-07-13T13:51:58",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "description": "<p class=\"attachment\"><a href='https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png'><img width=\"300\" height=\"158\" src=\"https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-300x158.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>http://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png</p>\n",
+    "caption": "<p>http://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png</p>\n",
+    "alt_text": "",
     "media_type": "image",
     "mime_type": "image/png",
+    "media_details": {
+      "width": 1200,
+      "height": 630,
+      "file": "2021/07/cropped-Cannabis_horizontal_social.png",
+      "sizes": {
+        "medium": {
+          "file": "cropped-Cannabis_horizontal_social-300x158.png",
+          "width": 300,
+          "height": 158,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-300x158.png"
+        },
+        "large": {
+          "file": "cropped-Cannabis_horizontal_social-1024x538.png",
+          "width": 1024,
+          "height": 538,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1024x538.png"
+        },
+        "thumbnail": {
+          "file": "cropped-Cannabis_horizontal_social-150x150.png",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-150x150.png"
+        },
+        "medium_large": {
+          "file": "cropped-Cannabis_horizontal_social-768x403.png",
+          "width": 768,
+          "height": 403,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-768x403.png"
+        },
+        "et-pb-post-main-image": {
+          "file": "cropped-Cannabis_horizontal_social-400x250.png",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-400x250.png"
+        },
+        "et-pb-post-main-image-fullwidth": {
+          "file": "cropped-Cannabis_horizontal_social-1080x630.png",
+          "width": 1080,
+          "height": 630,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1080x630.png"
+        },
+        "et-pb-portfolio-image": {
+          "file": "cropped-Cannabis_horizontal_social-400x284.png",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-400x284.png"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "cropped-Cannabis_horizontal_social-510x382.png",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-510x382.png"
+        },
+        "et-pb-portfolio-image-single": {
+          "file": "cropped-Cannabis_horizontal_social-1080x567.png",
+          "width": 1080,
+          "height": 567,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1080x567.png"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "cropped-Cannabis_horizontal_social-400x516.png",
+          "width": 400,
+          "height": 516,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-400x516.png"
+        },
+        "et-pb-image--responsive--tablet": {
+          "file": "cropped-Cannabis_horizontal_social-980x515.png",
+          "width": 980,
+          "height": 515,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-980x515.png"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "cropped-Cannabis_horizontal_social-480x252.png",
+          "width": 480,
+          "height": 252,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-480x252.png"
+        },
+        "full": {
+          "file": "cropped-Cannabis_horizontal_social.png",
+          "width": 1200,
+          "height": 630,
+          "mime_type": "image/png",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png",
     "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png",
-    "type": "attachment",
     "sizes": [
       {
         "type": "full",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png",
         "file": "cropped-Cannabis_horizontal_social.png",
         "width": 1200,
         "height": 630,
@@ -42,6 +167,7 @@
       {
         "type": "et-pb-post-main-image-fullwidth",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-1080x630.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1080x630.png",
         "file": "cropped-Cannabis_horizontal_social-1080x630.png",
         "width": 1080,
         "height": 630,
@@ -51,6 +177,7 @@
       {
         "type": "et-pb-portfolio-image-single",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-1080x567.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1080x567.png",
         "file": "cropped-Cannabis_horizontal_social-1080x567.png",
         "width": 1080,
         "height": 567,
@@ -60,6 +187,7 @@
       {
         "type": "large",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-1024x538.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1024x538.png",
         "file": "cropped-Cannabis_horizontal_social-1024x538.png",
         "width": 1024,
         "height": 538,
@@ -69,6 +197,7 @@
       {
         "type": "et-pb-image--responsive--tablet",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-980x515.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-980x515.png",
         "file": "cropped-Cannabis_horizontal_social-980x515.png",
         "width": 980,
         "height": 515,
@@ -78,6 +207,7 @@
       {
         "type": "medium_large",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-768x403.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-768x403.png",
         "file": "cropped-Cannabis_horizontal_social-768x403.png",
         "width": 768,
         "height": 403,
@@ -87,6 +217,7 @@
       {
         "type": "et-pb-portfolio-module-image",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-510x382.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-510x382.png",
         "file": "cropped-Cannabis_horizontal_social-510x382.png",
         "width": 510,
         "height": 382,
@@ -96,6 +227,7 @@
       {
         "type": "et-pb-image--responsive--phone",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-480x252.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-480x252.png",
         "file": "cropped-Cannabis_horizontal_social-480x252.png",
         "width": 480,
         "height": 252,
@@ -105,6 +237,7 @@
       {
         "type": "et-pb-post-main-image",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-400x250.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-400x250.png",
         "file": "cropped-Cannabis_horizontal_social-400x250.png",
         "width": 400,
         "height": 250,
@@ -114,6 +247,7 @@
       {
         "type": "et-pb-portfolio-image",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-400x284.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-400x284.png",
         "file": "cropped-Cannabis_horizontal_social-400x284.png",
         "width": 400,
         "height": 284,
@@ -123,6 +257,7 @@
       {
         "type": "et-pb-gallery-module-image-portrait",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-400x516.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-400x516.png",
         "file": "cropped-Cannabis_horizontal_social-400x516.png",
         "width": 400,
         "height": 516,
@@ -132,6 +267,7 @@
       {
         "type": "medium",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-300x158.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-300x158.png",
         "file": "cropped-Cannabis_horizontal_social-300x158.png",
         "width": 300,
         "height": 158,
@@ -141,6 +277,7 @@
       {
         "type": "thumbnail",
         "path": "sites/2/2021/07/cropped-Cannabis_horizontal_social-150x150.png",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-150x150.png",
         "file": "cropped-Cannabis_horizontal_social-150x150.png",
         "width": 150,
         "height": 150,
