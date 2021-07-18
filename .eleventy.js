@@ -1,6 +1,6 @@
 const CleanCSS = require("clean-css");
 let pressList = require('./src/templates/_includes/layouts/templates/press-list.js');
-let last3Posts = require('./src/templates/_data/last3.js');
+let lastFewPosts = require('./src/templates/_data/last-few-posts.js');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("postlist", function(html) {
     let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
     let myArray = myRe.exec(html);
-    let lastPosts = last3Posts();
+    let lastPosts = lastFewPosts();
     let postHTML = pressList(lastPosts);
     if(myArray) {
       return html.replace(myArray[0],postHTML);

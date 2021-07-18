@@ -1908,7 +1908,7 @@ textarea, input {
 /* input, textarea, select generic styles */
 /* Links global styles */
 a {
-  color: #2f4c2c;
+  color: #064E66;
   text-decoration: underline; }
   a:hover {
     color: #064e66;
@@ -2254,8 +2254,8 @@ cagov-announcement-list .post-list-item {
         border-bottom-right-radius: 4px;
         padding: 7px 14px 4px 14px; }
         .branding .search-container #site-search .search-submit:hover {
-          background-color: #2f4c2c;
-          border-color: #2f4c2c; }
+          background-color: #064E66;
+          border-color: #064E66; }
         .branding .search-container #site-search .search-submit:focus {
           outline: 2px solid #fec02f; }
         .branding .search-container #site-search .search-submit svg path {
@@ -2267,7 +2267,7 @@ cagov-announcement-list .post-list-item {
         background-color: #f9f9fa;
         padding: 0 15px 0 15px; }
         .branding .search-container #site-search .search-close:hover {
-          color: #2f4c2c;
+          color: #064E66;
           text-decoration: none; }
         .branding .search-container #site-search .search-close:focus {
           outline: 2px solid #fec02f; }
@@ -2286,7 +2286,7 @@ cagov-announcement-list .post-list-item {
     position: absolute;
     height: 2px;
     width: 20px;
-    background: #2f4c2c;
+    background: #064E66;
     border-radius: 5px;
     opacity: 1;
     left: 10px;
@@ -2564,7 +2564,7 @@ sidebar cagov-content-navigation ul li:first-child {
       content: " — "; }
 
 .cagov-post-list .link-title a {
-  color: #2f4c2c;
+  color: #064E66;
   font-weight: normal;
   text-decoration: underline;
   font-size: 18px;
@@ -2609,7 +2609,7 @@ sidebar cagov-content-navigation ul li:first-child {
   color: #000; }
 
 .cagov-post-list .link-title a {
-  color: #2f4c2c;
+  color: #064E66;
   font-weight: 700;
   line-height: 30px;
   font-size: 28px;
@@ -2657,7 +2657,7 @@ sidebar cagov-content-navigation ul li:first-child {
     line-height: 30px;
     color: #000; }
   .cagov-post-list .link-title a {
-    color: #2f4c2c;
+    color: #064E66;
     font-weight: 700;
     line-height: 30px;
     font-size: 24px;
@@ -2899,7 +2899,7 @@ ol.steps li:last-child {
     .official-header .official-languages .dropdown-content {
       background-clip: padding-box;
       background-color: #fff;
-      border: 1px solid #2f4c2c;
+      border: 1px solid #064E66;
       border-radius: 0.25rem;
       padding: 15px;
       position: absolute;
@@ -2931,7 +2931,7 @@ section.site-footer .container {
   padding: 1rem; }
 
 section.site-footer a {
-  color: #2f4c2c; }
+  color: #064E66; }
   section.site-footer a:hover {
     color: #cf5d28; }
   section.site-footer a:focus {
@@ -2961,7 +2961,7 @@ section.site-footer .footer-social-links {
     padding-left: .3rem;
     transition: all 0.3s ease; }
     section.site-footer .footer-social-links a svg path {
-      fill: #2f4c2c; }
+      fill: #064E66; }
     section.site-footer .footer-social-links a:hover svg path {
       fill: #064e66; }
 
@@ -3219,7 +3219,7 @@ cagov-navoverlay {
           top: 0;
           left: 0;
           width: auto;
-          min-width: 20rem;
+          min-width: 17rem;
           background: #fff;
           padding: 0;
           border: none; } }
@@ -3232,13 +3232,14 @@ cagov-navoverlay {
       @media (min-width: 768px) {
         cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-dropdown {
           max-height: none;
-          top: 2.6rem;
+          top: 3.4rem;
           padding: 0.5rem 1rem 1rem 1rem;
           border: solid 1px #ccc; }
         cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-section-header {
           border: solid 1px #ccc;
           border-bottom: none;
-          margin-top: -1px; } }
+          margin-top: -1px;
+          padding-right: .5rem; } }
       cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-section-header-arrow-svg {
         transform: rotate(180deg); }
       cagov-navoverlay .expanded-menu-section-header {
@@ -3264,12 +3265,14 @@ cagov-navoverlay {
           padding-top: 1rem;
           padding-bottom: 1rem;
           padding-right: 0.5rem;
-          /* arrow clearence for long text */ }
+          /* arrow clearence for long text */
+          padding-left: 1rem;
+          color: var(--primary-color, red); }
           cagov-navoverlay .expanded-menu-section-header-link:active {
             background: transparent; }
           cagov-navoverlay .expanded-menu-section-header-link:hover {
             text-decoration: underline;
-            color: #111c10; }
+            color: #02171e; }
           @media (min-width: 768px) {
             cagov-navoverlay .expanded-menu-section-header-link {
               width: auto; } }
@@ -3311,11 +3314,11 @@ cagov-navoverlay {
           cagov-navoverlay .expanded-menu-dropdown-link {
             padding: 0rem 0;
             margin: 0.85rem 0 0 2px;
-            line-height: 1.75rem; } }
+            line-height: 2rem; } }
         @media (min-width: 1176px) {
           cagov-navoverlay .expanded-menu-dropdown-link {
             padding: 0rem 0;
-            line-height: 1.3rem; } }
+            line-height: 2rem; } }
         @media (max-width: 767px) {
           cagov-navoverlay .expanded-menu-dropdown-link {
             /* padding: 0.35rem 0; */ } }

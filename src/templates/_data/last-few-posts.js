@@ -21,5 +21,5 @@ module.exports = function () {
       return 1;
     }
     return 0;
-  }).slice(Math.max(wordPressArray.length - 3, 0));
+  }).slice(Math.max(wordPressArray.length - 5, 0));
 };

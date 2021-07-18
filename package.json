@@ -8,11 +8,10 @@
     "sass:build": "npm run sass:compile",
     "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build && npm run build:regen'",
     "build:regen": "npx @11ty/eleventy --quiet",
-    "build:watch": "npx @11ty/eleventy --quiet --watch",
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run js:bundle && npm run build:regen'",
     "js:bundle": "rollup --config rollup.config.js",
     "start": "npx @11ty/eleventy --quiet --serve",
-    "dev": "npm-run-all -p sass:build js:bundle sass:watch js:watch build:watch start",
+    "dev": "npm-run-all -p sass:build js:bundle sass:watch js:watch start",
     "build": "npm-run-all -s js:bundle sass:build build:regen"
   },
   "keywords": [],
