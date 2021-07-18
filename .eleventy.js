@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
       }
     });
     return pressPosts.sort((a,b) => {
-      return a.data.date > b.data.date;
+      return new Date(b.data.wordpress.dataset.data.date).getTime() - new Date(a.data.wordpress.dataset.data.date).getTime();
     });
   });
   

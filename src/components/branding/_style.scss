@@ -98,8 +98,8 @@
 				position: relative;
 				right: 5px;
 				outline-offset: -2px;
-				background-color: $primary-dark;
-				border: 1px solid $primary-dark;
+				background-color: var(--standout-color, $primary-dark);
+				border: 1px solid var(--standout-color, $primary-dark);
 				border-top-right-radius: 4px;
 				border-bottom-right-radius: 4px;
 				padding: 7px 14px 4px 14px;

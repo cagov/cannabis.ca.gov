@@ -38,7 +38,43 @@
         </div>
 
 
-
+<div class="quarter standard-translate" id="google_translate_element"></div>
+<script type="text/javascript">	
+  {	
+    function googleTranslateElementInit() {	
+      new google.translate.TranslateElement({	
+          pageLanguage:"en",
+            gaTrack:!0,
+            autoDisplay:!1,
+          layout: google.translate.TranslateElement.InlineLayout.VERTICAL	
+         },	
+        'google_translate_element'	
+      );	
+    }	
+    const JS= document.createElement('script');	
+    JS.type='text/javascript';	
+    JS.defer='defer';	
+    JS.src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';	
+    document.body.appendChild(JS);	
+  }({});	
+  </script>
+<style>
+.goog-te-combo {
+    color: #4e4e4e;
+    background-color: #fff;
+    padding: .25rem;
+}
+.goog-logo-link { display: none; }
+#google_translate_element .skiptranslate.goog-te-gadget, .skiptranslate.goog-te-gadget a {
+  color: white;
+}
+.goog-te-gadget {
+  margin-bottom: -10px;
+  font-size: 11px;
+  color: #666;
+  white-space: nowrap;
+}
+</style>
         <div class="official-languages" style="display:none;">
             <a href="#">English</a>
             <a href="#" lang="es" hreflang="es">Espańol</a>

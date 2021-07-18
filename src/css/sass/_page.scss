@@ -131,7 +131,7 @@ article {
     flex-grow: 1;
   }
 
-  .page-container-ds.has-sidebar-left main {
+  &.page-container-ds.has-sidebar-left main {
     margin-left: 64px;
     margin-right: 20px;
   }
