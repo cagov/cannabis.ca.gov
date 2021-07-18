@@ -52,6 +52,10 @@ module.exports = function(eleventyConfig) {
       if(item.data.wordpress.dataset) {
         item.data.title = item.data.wordpress.dataset.data.title;
         item.data.templatestring = item.data.wordpress.dataset.data.template;
+        item.data.page_meta = item.data.wordpress.dataset.data.page_meta;
+        item.data.category = item.data.wordpress.dataset.data.category;
+        item.data.id = item.data.wordpress.dataset.data.id;
+        item.data.parentid = item.data.wordpress.dataset.data.parent;
       }
       output.push(item);
     });

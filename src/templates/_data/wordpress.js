@@ -60,6 +60,7 @@ function getPageMeta(data) {
   page_meta.image = getHeadTags(data, "image");
   page_meta.twitter_title = getHeadTags(data, "twitter_title");
   page_meta.og_meta = getOGMetatags(data);
+  page_meta.parent_title = 'hello world';
   // console.log("page_meta", page_meta);
   return page_meta;
 }
