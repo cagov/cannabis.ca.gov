@@ -90,6 +90,10 @@ function chooseTemplate(data) {
   if(data.wordpress_url === 'https://cannabis.ca.gov/serp/') {
     return "search"
   }
+  if(data.template?.indexOf('template-page-single-column') > -1) {
+    return "template-page-single-column"
+  }
+  
 
   // Handle errors
   if (template === undefined || template === null) {

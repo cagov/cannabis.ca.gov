@@ -1,6 +1,7 @@
 const CleanCSS = require("clean-css");
 let pressList = require('./src/templates/_includes/layouts/templates/press-list.js');
 let lastFewPosts = require('./src/templates/_data/last-few-posts.js');
+const monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 module.exports = function(eleventyConfig) {
 
@@ -33,7 +34,7 @@ module.exports = function(eleventyConfig) {
     let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
     let myArray = myRe.exec(html);
     let lastPosts = lastFewPosts();
-    let postHTML = pressList(lastPosts);
+    let postHTML = pressList(lastPosts, monthStrings);
     if(myArray) {
       return html.replace(myArray[0],postHTML);
     }
@@ -41,9 +42,8 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("dateFormat", function(dateString) {
-    return dateString;
-    console.log(dateString)
-    return new Date(dateString).toLocaleString().split(',')[0];
+    let d = new Date(dateString);
+    return `${monthStrings[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
   });
 
   eleventyConfig.addCollection("manualcontent", function(collection) {
