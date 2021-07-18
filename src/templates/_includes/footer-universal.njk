@@ -34,9 +34,9 @@
       </a>
 
       <div class="footer-secondary-links">
-        {%-set univFooterLinks = menus['content-menu'].items -%}
+        {%-set univFooterLinks = menus['footer-menu'].items -%}
         {% for menu in univFooterLinks %}
-        <a href="{{ menu.url }}">{{ menu.title }}</a>
+        <a href="{{ menu.url | safe }}">{{ menu.title | safe  }}</a>
         {% endfor %}
       </div>
 

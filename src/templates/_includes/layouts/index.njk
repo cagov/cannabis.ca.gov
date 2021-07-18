@@ -47,7 +47,7 @@
   <style>
     {{ css | cssmin | safe }}
     .cagov-grid {
-      grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(376px, 100%), 1fr));
     }
   </style>
 </head>
@@ -61,6 +61,9 @@
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
   {%- if templatestring == 'landing' -%}
     {% include "../layouts/templates/landing.njk" %}
+  {# Search results #}
+  {%- elif templatestring == 'search' -%}
+    {% include "../layouts/templates/search.njk" %}  
   {# Pages that don't have content navigation #}
   {%- elif templatestring == 'template-page-single-column' -%}
     {% include "../layouts/templates/single-column.njk" %}  

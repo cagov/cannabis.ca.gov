@@ -3,6 +3,9 @@ let pressList = require('./src/templates/_includes/layouts/templates/press-list.
 let lastFewPosts = require('./src/templates/_data/last-few-posts.js');
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
+
   eleventyConfig.setBrowserSyncConfig({
     watch:true,
     notify:true,

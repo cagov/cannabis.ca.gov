@@ -278,7 +278,7 @@ cagov-navoverlay {
         @include tablet {
           .expanded-menu-dropdown {
             max-height: none;
-            top: 3.4rem;
+            top: 59px;
             padding: 0.5rem 1rem 1rem 1rem;
             border: solid 1px #ccc;
           }
@@ -317,7 +317,7 @@ cagov-navoverlay {
           padding-bottom: 1rem;
           padding-right: 0.5rem; /* arrow clearence for long text */
           padding-left: 1rem;
-          color: var(--primary-color, red);
+          color: var(--primary-color, #064E66);
           &:active {
             background: transparent;
           }
