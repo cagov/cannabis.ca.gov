@@ -2,6 +2,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
   connectedCallback () {
     this.menuContentFile = this.dataset.json;
     this.querySelector('.open-menu').addEventListener('click', this.toggleMainMenu.bind(this));
+    this.querySelector('.mobile-search .search-btn').addEventListener('click', this.toggleMobileSearch.bind(this));
     this.expansionListeners();
     document.addEventListener('keydown', this.escapeMainMenu.bind(this));
     document.body.addEventListener('click',this.bodyClick.bind(this))
@@ -13,6 +14,11 @@ class CAGOVOverlayNav extends window.HTMLElement {
     } else {
       this.openMainMenu();
     }
+  }
+
+  toggleMobileSearch () {
+    document.querySelector('.search-container--small').classList.toggle('hidden-search');
+    document.querySelector('.search-container--small .site-search input').focus();
   }
 
   openMainMenu () {

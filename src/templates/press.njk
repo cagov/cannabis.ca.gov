@@ -3,7 +3,6 @@ pagination:
     data: collections.press
     size: 5
 layout: "layouts/press.njk"
-permalink: "press/{{ pagination.pageNumber }}/"
 ---
 
 <div class="post-list-results">
@@ -24,4 +23,4 @@ permalink: "press/{{ pagination.pageNumber }}/"
   </div>
 </div>
 
-<cagov-pagination data-current-page="{{ pagination.pageNumber }}" data-total-pages="{{ pagination.pages.length }}"></cagov-pagination>
+<cagov-pagination data-current-page="{{ pagination.pageNumber + 1 }}" data-total-pages="{{ pagination.pages.length }}"></cagov-pagination>

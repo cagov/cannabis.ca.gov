@@ -80,8 +80,11 @@
 			border-top: 1px solid $gray-300;
 			border-bottom: 1px solid $gray-300;
 		}
-
-		#site-search {
+	}
+}
+.branding, cagov-navoverlay {
+	.search-container {
+		.site-search {
 			display: flex;
 			position: relative;
 			// submit input
@@ -130,6 +133,9 @@
 				}
 			}
 		}
+	}
+	.search-container--small.hidden-search {
+		display: none;
 	}
 }
 
@@ -213,7 +219,7 @@
 	.search-close {
 		display: none !important;
 	}
-	.search-container {
-		display: block !important;
+	.branding .search-container {
+		display: block;
 	}
 }
