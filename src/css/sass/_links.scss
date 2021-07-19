@@ -1,6 +1,8 @@
 /* Links global styles */
 a {
   color: $primary;
+  text-underline-offset: 2px;
+  
   &:hover {
     color: $primary-dark;
     text-decoration: none;
