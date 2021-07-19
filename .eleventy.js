@@ -6,6 +6,7 @@ const monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'J
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
+  eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
 
   eleventyConfig.setBrowserSyncConfig({
     watch:true,
