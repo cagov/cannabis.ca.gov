@@ -24,10 +24,10 @@ if (!mobileView()) {
 let newScript = document.createElement("script");
 
 newScript.type = "module";
-newScript.src = "https://files.covid19.ca.gov/js/components/bundle/v1/index.min.js";
+newScript.src = "https://files.covid19.ca.gov/js/components/bundle/v2/index.min.js";
 document.querySelector('head').appendChild(newScript);
 // Temporary logo replacement until moved to code option.
-$(".logo-small").prepend('<img src="https://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/06/logo_square.png" alt="Department of Cannabis Control Icon" />').css('background-color', '#FFF');
+$(".logo-small").prepend('<a href="/"><img src="https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/logo_square.png" alt="Department of Cannabis Control Icon" /></a>').css('background-color', '#FFF');
 
 // Adding return to top
 var $returnTop = $('<span class="return-top"/>').appendTo('.main-content-ds');
