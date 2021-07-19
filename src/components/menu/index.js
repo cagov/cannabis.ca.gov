@@ -24,9 +24,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
 
   highlightCurrentPage() {
     document.querySelectorAll('a.expanded-menu-dropdown-link').forEach(link => {
-      console.log(link.href + ":" + window.location.href)
       if(link.href === window.location.href) {
-        console.log('match')
         link.classList.add('current-page-highlight')
       }
     })
