@@ -6,6 +6,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
     this.expansionListeners();
     document.addEventListener('keydown', this.escapeMainMenu.bind(this));
     document.body.addEventListener('click',this.bodyClick.bind(this))
+    this.highlightCurrentPage();
   }
 
   toggleMainMenu () {
@@ -19,6 +20,16 @@ class CAGOVOverlayNav extends window.HTMLElement {
   toggleMobileSearch () {
     document.querySelector('.search-container--small').classList.toggle('hidden-search');
     document.querySelector('.search-container--small .site-search input').focus();
+  }
+
+  highlightCurrentPage() {
+    document.querySelectorAll('a.expanded-menu-dropdown-link').forEach(link => {
+      console.log(link.href + ":" + window.location.href)
+      if(link.href === window.location.href) {
+        console.log('match')
+        link.classList.add('current-page-highlight')
+      }
+    })
   }
 
   openMainMenu () {

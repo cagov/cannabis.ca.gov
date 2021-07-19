@@ -271,8 +271,10 @@ cagov-navoverlay {
       @include tablet {
         .expanded-menu-section-header {
           padding: 0;
+          padding-right: .5rem;
         }
       }
+
       &.expanded {
         @include phone {
           .expanded-menu-dropdown {
@@ -290,7 +292,6 @@ cagov-navoverlay {
             border: solid 1px #ccc;
             border-bottom: none;
             margin-top: -1px;
-            padding-right: .5rem;
           }
         }
         .expanded-menu-section-header-arrow-svg {
@@ -372,6 +373,9 @@ cagov-navoverlay {
         border-radius: 1rem;
         &:first-child {
           margin-top: 0.7em;
+        }
+        &.current-page-highlight {
+          font-weight: bold;
         }
         @include tablet {
           padding: 0rem 0;
