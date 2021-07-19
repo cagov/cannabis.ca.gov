@@ -7,7 +7,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
-
+  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
+  
   eleventyConfig.setBrowserSyncConfig({
     watch:true,
     notify:true,

@@ -371,6 +371,10 @@ cagov-navoverlay {
         display: table;
         transition: color 0.3s $slow-curve;
         border-radius: 1rem;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
         &:first-child {
           margin-top: 0.7em;
         }
