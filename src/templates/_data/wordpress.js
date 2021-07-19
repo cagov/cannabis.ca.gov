@@ -182,7 +182,6 @@ function getHeadTags(data, field) {
   }
   if (field === "image") {
     try {
-        // @TODO get default social media image
         return {
           url: data.og_meta._social_image_url,
           width: 1200, // Need to expose variable from API
@@ -191,7 +190,11 @@ function getHeadTags(data, field) {
     } catch (error) {
       // console.error("No social image found.")
     }
-    return "Department of Cannabis Control";
+    return {
+      url: 'https://headless.cannabis.ca.gov/media/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png',
+      width: 1200, // Need to expose variable from API
+      height: 630 // Need to expose variable from API
+    };
   }
   return false;
 }

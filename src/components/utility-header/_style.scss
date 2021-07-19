@@ -13,7 +13,7 @@
 		justify-content: space-between;
 		box-sizing: border-box;
 		max-width: $w-lg;
-		height: 40px;
+		min-height: 40px;
 		margin: 0 auto;
 		padding: 0 10px 0 10px;
 	}
@@ -124,7 +124,7 @@
 
 	/* google translate */
 	.goog-te-gadget {
-		max-height: 36px;
+		max-height: 42px;
 		overflow: hidden;
 
 		.goog-te-combo {
