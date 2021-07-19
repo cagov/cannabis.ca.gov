@@ -14,12 +14,6 @@ module.exports = function () {
     }
   });
   return wordPressArray.sort((a,b) => {
-    if (a.data.date < b.data.date) {
-      return -1;
-    }
-    if (a.data.date > b.data.date) {
-      return 1;
-    }
-    return 0;
-  }).slice(Math.max(wordPressArray.length - 5, 0));
+    return new Date(a.data.date).getTime() - new Date(b.data.date).getTime();
+  }).slice(Math.max(wordPressArray.length - 5, 0)).reverse();
 };
