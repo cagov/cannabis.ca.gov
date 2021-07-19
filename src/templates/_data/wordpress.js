@@ -171,6 +171,7 @@ function getHeadTags(data, field) {
     } catch (error) {
       // console.error("No site, page or post description found.")
     }
+    return "";
   }
   if (field === "canonical_url") {
     let site_url = "https://cannabis.ca.gov";

@@ -1,6 +1,7 @@
 .icon-select {
   height: 48px;
   padding: 0 0px 0 16px;
+  background: transparent;
 }
 
 .editor-styles-wrapper .message-body {
@@ -30,7 +31,11 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 32px 0px;
+  margin: 32px 0;
+
+  .icon {
+    background: transparent;
+  }
 }
 
 .cagov-page-alert .icon {
@@ -40,11 +45,25 @@
 .cagov-page-alert .body {
   line-height: 1.5rem;
   padding: 0 16px;
+  background: transparent;
 }
 
-@media only screen and (max-width: 600px) {
+.cagov-block .cagov-stack.cagov-page-alert  {
+  margin-top: 32px;
+  /* margin-bottom: 64px; */
+}
+
+.cagov-page-alert .close-button {
+  margin-left: auto;
+  background: transparent;
+}
+
+@media only screen and (max-width: 580px) {
   .cagov-page-alert {
       min-height: 46px;
       height: auto;
+  }
+  .cagov-page-alert .body {
+      padding: 0 8px;
   }
 }
