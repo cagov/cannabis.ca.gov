@@ -1,5 +1,7 @@
 /* Forms generic styles*/
-
+body {
+  font-weight: $regular;
+}
 textarea, input {
   background-color: $white;
   color: $black !important;
