@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-22T15:50:14",
-    "updated_date": "2021-07-13T13:51:58",
+    "updated_date": "2021-07-19T16:46:13",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-22T08:50:14",
     "date_gmt": "2021-06-22T15:50:14",
     "guid": "http://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero.jpg",
-    "modified": "2021-07-13T06:51:58",
-    "modified_gmt": "2021-07-13T13:51:58",
+    "modified": "2021-07-19T09:46:13",
+    "modified_gmt": "2021-07-19T16:46:13",
     "slug": "cannabis-buds-hero",
     "status": "inherit",
     "type": "attachment",
