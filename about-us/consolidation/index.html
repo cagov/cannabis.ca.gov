@@ -36,7 +36,6 @@
   <link title="Fav Icon" rel="icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
   <link rel="shortcut icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
 
-  <link rel="shortcut icon" href="/assets/img/cagov_favicon.ico">
   <!-- Google Analytics performance -->
   <link rel="preconnect" href="https://www.google-analytics.com/">
   <!-- CSS -->
@@ -253,7 +252,7 @@
     <div class="search-container search-container--small hidden-search">
       <form class="site-search" action="/serp/">
         <span class="sr-only" id="SearchInput">Custom Google Search</span>
-        <input type="text" id="q" name="q" aria-labelledby="SearchInput" placeholder="Search this website"
+        <input type="text" name="q" aria-labelledby="SearchInput" placeholder="Search this website"
           class="search-textfield">
         <button type="submit" class="search-submit">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -1243,9 +1242,7 @@ class CAGOVOverlayNav extends window.HTMLElement {
 
   highlightCurrentPage() {
     document.querySelectorAll('a.expanded-menu-dropdown-link').forEach(link => {
-      console.log(link.href + ":" + window.location.href);
       if(link.href === window.location.href) {
-        console.log('match');
         link.classList.add('current-page-highlight');
       }
     });
