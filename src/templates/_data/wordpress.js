@@ -130,7 +130,7 @@ function getHeadTags(data, field) {
     } catch (error) {
       // console.error("No site, page or post title found.")
     }
-    return "California drought action";
+    return "Department of Cannabis Control";
   }
   if (field === "twitter_title") {
     try {
@@ -142,7 +142,7 @@ function getHeadTags(data, field) {
     } catch (error) {
       // console.error("No twitter title found.")
     }
-    return "California drought action";
+    return "Department of Cannabis Control";
   }
   if (field === "site_title") {
     try {
@@ -150,7 +150,7 @@ function getHeadTags(data, field) {
     } catch (error) {
       // console.error("No site, page or post title found.")
     }
-    return "California drought action";
+    return "Department of Cannabis Control";
   }
   if (field === "page_description") {
     try {
@@ -173,7 +173,7 @@ function getHeadTags(data, field) {
     }
   }
   if (field === "canonical_url") {
-    let site_url = "https://drought.ca.gov";
+    let site_url = "https://cannabis.ca.gov";
     let url_path = cleanUrl(
       data.wordpress_url
     );
@@ -191,7 +191,7 @@ function getHeadTags(data, field) {
     } catch (error) {
       // console.error("No social image found.")
     }
-    return "California drought action";
+    return "Department of Cannabis Control";
   }
   return false;
 }
