@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-06-30T20:20:05",
+    "updated_date": "2021-07-20T00:36:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "http://wordpress.test:8888/resources/",
-    "modified": "2021-06-30T13:20:05",
-    "modified_gmt": "2021-06-30T20:20:05",
+    "modified": "2021-07-19T17:36:55",
+    "modified_gmt": "2021-07-20T00:36:55",
     "slug": "application-resources",
     "status": "publish",
     "type": "page",
