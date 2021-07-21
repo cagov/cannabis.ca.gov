@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-03-15T18:04:00",
-    "updated_date": "2021-07-09T16:13:54",
+    "created_date": "2021-03-16T01:04:00",
+    "updated_date": "2021-07-21T15:50:42",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -15,10 +15,10 @@
   "data": {
     "id": 6178,
     "date": "2021-03-15T18:04:00",
-    "date_gmt": "2021-03-15T18:04:00",
+    "date_gmt": "2021-03-16T01:04:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
-    "modified": "2021-07-09T09:13:54",
-    "modified_gmt": "2021-07-09T16:13:54",
+    "modified": "2021-07-21T08:50:42",
+    "modified_gmt": "2021-07-21T15:50:42",
     "slug": "california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions",
     "status": "publish",
     "type": "post",
@@ -38,7 +38,7 @@
       "_et_gb_content_width": ""
     },
     "categories": [
-      "Announcements"
+      "Press Releases"
     ],
     "tags": [
       "BCC",
