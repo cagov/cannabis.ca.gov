@@ -328,7 +328,8 @@ cagov-navoverlay {
           }
           &:hover {
             @include text-underline;
-            color: darken($color: $primary, $amount: 15%);
+            //color: darken($color: $primary, $amount: 30%); /* Does this work correctly?*/
+            color: #043747;
           }
 
           @include tablet {
