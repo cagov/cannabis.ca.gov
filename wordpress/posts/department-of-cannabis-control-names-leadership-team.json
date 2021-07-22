@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "created_date": "2021-07-20T22:24:00",
+    "updated_date": "2021-07-22T23:04:51",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8602,
+    "date": "2021-07-20T15:24:00",
+    "date_gmt": "2021-07-20T22:24:00",
+    "guid": "https://cannabis.ca.gov/?p=8602",
+    "modified": "2021-07-22T16:04:51",
+    "modified_gmt": "2021-07-22T23:04:51",
+    "slug": "department-of-cannabis-control-names-leadership-team",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2021/07/20/department-of-cannabis-control-names-leadership-team/",
+    "title": "Department of Cannabis Control Names Leadership Team",
+    "excerpt": "<p>The Department of Cannabis Control announced permanent and acting members of its leadership team.</p>\n",
+    "author": "Christina Dempsey",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Nicole Elliott"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2021/07/20/department-of-cannabis-control-names-leadership-team/"
+  }
+}
