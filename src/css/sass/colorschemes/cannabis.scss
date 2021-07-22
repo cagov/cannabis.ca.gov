@@ -1,0 +1,106 @@
+/* CA branding */
+$cagov-branding-primary: #FEC02F;
+$cagov-branding-secondary: #0F1E6B;
+
+/* Cannabis color scheme */ 
+
+/* Theme colors */
+$primary: #064E66;
+$primary-dark: #064e66;
+$primary-light: #ccdbf2;
+
+$primary-lightest: #B48C84;
+$primary-hover-color: #4A1106;
+// $primary-active-color: #4A1106;
+// $primary-focused-color: #4A1106;
+// $primary-disabled-color: #4A1106;
+
+$secondary: #fec02f;
+$secondary-dark: #cf5d28;
+$secondary-light: #fff2d5;
+$secondary-lightest: #D6D6D6;
+$secondary-hover-color: #222222;
+  // $secondary-active-color: #4A1106;
+  // $secondary-focused-color: #4A1106;
+  // $secondary-disabled-color: #4A1106;
+$highight-color: #FBAD23;
+$highlight-300: #FFF2D5;
+
+/* Status colors */
+$status-success: #008542;
+$status-danger: #B71234;
+$status-warning: #FFD700;
+$status-info: #000080;
+$status-success-200: #CCE7D9;
+$status-danger-200: #F8E7EB;
+$status-warning-200: #FFFBE6; // OR FFF2D5
+$status-info-200: #E6E6F2;
+
+/* Gray scale values */
+$gray-100: #f9f9fa;
+$gray-200: #ededef;
+$gray-300: #e1e0e3;
+$gray-400: #d3d2d6;
+$gray-500: #c4c3c8;
+$gray-600: #b3b2b8;
+$gray-700: #a09fa7;
+$gray-800: #6c6b77;
+$gray-900: #3f3e4d;
+$black: #000;
+$white: #fff;
+
+/* Colorscheme root variables */
+:root {
+  /* CAGOV brandings */
+  --cagov-branding-primary: #FEC02F;
+  --cagov-branding-secondary: #0F1E6B;
+  
+  /* Theme colors */
+  --primary-color: #064e66;
+  --primary-dark-color: #4A1106;
+  --primary-light-color: #965D52;
+  --primary-lightest-color: #B48C84;
+  --primary-hover-color: #043747;
+  // --primary-active-color: #4A1106;
+  // --primary-focused-color: #4A1106;
+  // --primary-disabled-color: #4A1106;
+  --secondary-color: #cf5d28;
+  --secondary-dark-color: #222222;
+  --secondary-light-color: #6F6F6F;
+  --secondary-lightest-color: #D6D6D6;
+  --secondary-hover-color: #222222;
+  // --secondary-active-color: #4A1106;
+  // --secondary-focused-color: #4A1106;
+  // --secondary-disabled-color: #4A1106;
+  --highlight-color: #fdb81e;
+  --highlight-color-300: #FFF2D5;
+
+  --standout-color: #2f4c2c;
+  --standout-hover-color: #21351f;
+  
+  /* Status colors */
+  --status-success-color: #008542;
+  --status-danger-color: #B71234;
+  --status-warning-color: #FFD700;
+  --status-info-color: #000080;
+  --status-success-color-200: #CCE7D9;
+  --status-danger-color-200: #F8E7EB;
+  --status-warning-color-200: #FFFBE6; // OR FFF2D5
+  --status-info-color-200: #E6E6F2;
+  
+  /* Gray scale values */
+  --gray-100: #f9f9fa;
+  --gray-200: #ededef;
+  --gray-300: #e1e0e3;
+  --gray-400: #d3d2d6;
+  --gray-500: #c4c3c8;
+  --gray-600: #b3b2b8;
+  --gray-700: #a09fa7;
+  --gray-800: #6c6b77;
+  --gray-900: #3f3e4d;
+  --black: #000;
+  --white: #fff;
+
+  --secondary-color: #313131;
+  --highlight-color: #FBAD23;
+}

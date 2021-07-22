@@ -1,0 +1,18 @@
+/* Links global styles */
+a {
+  color: $primary;
+  text-underline-position: under;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    color: $primary-dark;
+    text-decoration: none;
+  }
+  &:focus {
+    outline: 2px solid $secondary;
+  }
+
+  @include text-underline;
+
+}

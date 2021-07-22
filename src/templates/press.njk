@@ -1,0 +1,25 @@
+---
+pagination:
+    data: collections.press
+    size: 5
+---
+
+<div class="post-list-results">
+  <div class="post-list-items">
+    {%- for item in pagination.items %}
+      <div class="post-list-item">
+        <div class="link-title">
+          <a href="{{ item.data.wordpress.dataset.data.wordpress_url }}">
+            {{ item.data.title | safe }}
+          </a>
+          </div>
+        <div class="excerpt"><p></p>
+        <p>{{ item.data.wordpress.dataset.data.excerpt | safe }}</p>
+        <p></p></div>
+        <div class="date">{{ item.data.wordpress.dataset.data.date | dateFormat }}</div>
+      </div>
+    {% endfor -%}
+  </div>
+</div>
+
+<cagov-pagination data-current-page="{{ pagination.pageNumber + 1 }}" data-total-pages="{{ pagination.pages.length }}"></cagov-pagination>

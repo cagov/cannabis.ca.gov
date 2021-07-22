@@ -1,0 +1,30 @@
+html {
+  scrollbar-color: var(--sass-color-scrollbar-thumb)
+    var(--sass-color-background-body);
+  scrollbar-width: thin;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji',
+    sans-serif;
+  line-height: 1.4;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
+  word-wrap: break-word;
+  color: var(--sass-color-text-main);
+  background: var(--sass-color-background-body);
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+textarea {
+  transition: background-color var(--sass-transition-duration) linear,
+    border-color var(--sass-transition-duration) linear,
+    color var(--sass-transition-duration) linear,
+    box-shadow var(--sass-transition-duration) linear,
+    transform var(--sass-transition-duration) ease;
+}

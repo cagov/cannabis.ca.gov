@@ -1,0 +1,20 @@
+/* Forms generic styles*/
+body {
+  font-weight: $regular;
+}
+
+input, button, select, optgroup, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+textarea, input {
+  background-color: $white;
+  color: $black !important;
+  font-size: $body-text;
+  font-weight: $regular;
+  &:focus {
+      outline: 2px solid $secondary;
+  }
+}
