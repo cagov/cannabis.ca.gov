@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-23T21:42:54",
-    "updated_date": "2021-07-23T21:42:54",
+    "updated_date": "2021-07-23T21:58:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-23T14:42:54",
     "date_gmt": "2021-07-23T21:42:54",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/Rulemaking_AB1525Readopt_SubmissiontoOAL.pdf",
-    "modified": "2021-07-23T14:42:54",
-    "modified_gmt": "2021-07-23T21:42:54",
+    "modified": "2021-07-23T14:58:45",
+    "modified_gmt": "2021-07-23T21:58:45",
     "slug": "rulemaking_ab1525readopt_submissiontooal",
     "status": "inherit",
     "type": "attachment",
