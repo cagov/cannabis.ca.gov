@@ -2,7 +2,7 @@ name: Eleventy Build Main
 on:
   push:
     branches:
-      - main
+      - menu-styles
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
