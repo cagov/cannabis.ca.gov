@@ -12,6 +12,9 @@ $slow-curve: cubic-bezier(0.57, 0.2, 0.21, 0.89);
 
 /* MAIN MENU / HAMBURGER */
 cagov-navoverlay {
+  a:focus, button:focus {
+    outline: none !important;
+  }
   .container {
     max-width: $w-lg;
 		margin: 0 auto;
