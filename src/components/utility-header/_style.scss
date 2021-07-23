@@ -6,6 +6,12 @@
 	width: 100%;
 	border-bottom: 1px solid #ededef;
 
+	@include phone {
+		width: 100vw;
+		margin-left: -15px;
+		padding: .5rem 0;
+	}
+
 	.container {
 		display: flex;
 		flex-wrap: wrap;

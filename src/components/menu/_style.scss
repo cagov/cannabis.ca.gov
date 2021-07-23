@@ -241,6 +241,10 @@ cagov-navoverlay {
         .expanded-menu-dropdown {
           max-height: none;
           top: 2.35rem;
+
+          @include phone {
+            padding: .5rem 0;
+          }
         }
       }
       @include tablet {
@@ -360,10 +364,6 @@ cagov-navoverlay {
       max-height: 0px;
       overflow: hidden;
       transition: max-height 0.5s $slow-curve;
-
-      @include phone {
-        padding: .5rem 0;
-      }
 
       &-link {
         font-weight: 400;
