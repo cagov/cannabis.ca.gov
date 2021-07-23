@@ -40,7 +40,6 @@ class CAGOVOverlayNav extends window.HTMLElement {
 
   closeMainMenu () {
     this.classList.remove('display-menu');
-    this.classList.remove('reveal-items');
     this.querySelector('.hamburger').classList.remove('is-active');
     this.querySelector('.menu-trigger').classList.remove('is-fixed');
     var menLabel = this.querySelector('.menu-trigger-label');

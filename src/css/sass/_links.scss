@@ -16,3 +16,7 @@ a {
   @include text-underline;
 
 }
+
+a:focus, button:focus {
+  outline: solid 2px #fdb81e !important;
+}
