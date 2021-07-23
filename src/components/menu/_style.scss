@@ -370,9 +370,6 @@ cagov-navoverlay {
         &:hover {
           text-decoration: underline;
         }
-        &:first-child {
-          margin-top: 0.7em;
-        }
         &.current-page-highlight {
           font-weight: bold;
         }
