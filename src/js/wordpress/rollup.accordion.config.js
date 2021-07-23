@@ -2,10 +2,10 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 
 export default {
-  input: 'index.js',
+  input: 'src/js/wordpress/accordion.js',
   output: {
-    file: 'index.min.js',
+    file: 'src/js/wordpress/generated/accordion.min.js',
     format: 'esm'
   },
-  plugins: [nodeResolve()]
+  plugins: [nodeResolve(), terser()]
 };
