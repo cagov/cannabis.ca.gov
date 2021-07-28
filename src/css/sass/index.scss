@@ -25,7 +25,7 @@
 @import '../../components/breadcrumb/index'; /* copied from blocks */
 @import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
 @import '../../components/cards/index'; /* copied from blocks */
-@import '../../components/content-navigation/index'; /* copied from blocks */
+@import '../../../node_modules/@cagov/ds-content-navigation/src/index.scss'; // now imported from npm module
 @import '../../components/hero/index'; /* copied from block */
 @import '../../components/page-alert/index'; /* copied from gutenberg custom block */
 @import '../../components/post-list-headless/_style';
@@ -35,7 +35,7 @@
 @import '../../components/utility-header/_style';
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
-@import '../../components/menu/_style';
+@import '../../../node_modules/@cagov/ds-dropdown-menu/src/_style'; // now imported from npm module
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 
 
