@@ -23,7 +23,7 @@
 @import '../../components/accordion/_style';  /* custom css overrides for default accordion styles */
 @import './_announcement-list'; /* copied from block */
 @import '../../components/breadcrumb/index'; /* copied from blocks */
-@import '../../components/branding/_style';
+@import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
 @import '../../components/cards/index'; /* copied from blocks */
 @import '../../components/content-navigation/index'; /* copied from blocks */
 @import '../../components/hero/index'; /* copied from block */

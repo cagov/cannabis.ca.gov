@@ -38,3 +38,17 @@ $site-font: "Public Sans",sans-serif;
 $bold: 700;
 $regular: 400;
 $light: 300;
+
+:root {
+  // Container widths
+  --w-lg: 1176px;
+  --w-lg: 1176px;
+  --w-md: 960px;
+  --w-sm: 720px;
+  --w-xs: 540px;
+
+  // Font sizes
+  --body-text: 1.125rem;
+  --lead-text: 1.5rem;
+  --small-text: 1rem;
+}
