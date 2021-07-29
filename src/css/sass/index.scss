@@ -24,8 +24,6 @@
 @import '../../components/breadcrumb/index'; /* copied from blocks */
 
 @import '../../components/accordion/_style';  /* custom css overrides for default accordion styles */
-@import '../../components/cards/index'; /* copied from blocks */
-@import '../../components/hero/index'; /* copied from block */
 
 @import '../../components/page-alert/index'; /* copied from gutenberg custom block */
 @import '../../components/post-list-headless/_style';
@@ -36,6 +34,8 @@
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 
+@import '../../../node_modules/@cagov/ds-feature-card/css/index'; // now imported from npm module
+@import '../../../node_modules/@cagov/ds-card-grid/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-content-navigation/src/index.scss'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-dropdown-menu/src/_style'; // now imported from npm module
