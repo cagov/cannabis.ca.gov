@@ -32,7 +32,10 @@ jobs:
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
-          args: --acl public-read --follow-symlinks --delete
+          args: --acl public-read --follow-symlinks --delete \
+            --exclude "*" --include "*.jpg" --include "*.png" --include "*.woff2" \
+            --recursive --metadata-directive REPLACE --expires 2034-01-01T00:00:00Z --acl public-read \
+            --cache-control max-age=15552000,public
         env:
           AWS_S3_BUCKET: 'headless.cannabis.ca.gov'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
