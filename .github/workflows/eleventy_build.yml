@@ -41,18 +41,14 @@ jobs:
           SOURCE_DIR: ./docs # only move built directory
 
       # Reset the cache-control headers on static assets on production S3 bucket
-      - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
+      - name: Reset cache-control on static files
+        uses: prewk/s3-cp-action@v2
         with:
-          args: --exclude "*" --include "*.jpg" --include "*.png" --include "*.woff2" \
-            --recursive --metadata-directive REPLACE --expires 2034-01-01T00:00:00Z --acl public-read \
-            --cache-control max-age=15552000,public
-        env:
-          AWS_S3_BUCKET: 'headless.cannabis.ca.gov'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
-          SOURCE_DIR: ./docs # only move built directory
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          source: './docs/fonts'
+          dest: 's3://headless.cannabis.ca.gov/fonts'
+          flags: --exclude "*" --include "*.woff2" --acl public-read --cache-control max-age=15552000,public
 
       # Invalidate Cloudfront production distribution
       - name: invalidate
