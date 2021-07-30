@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-30T07:13:59",
-    "updated_date": "2021-07-30T07:13:59",
+    "created_date": "2021-07-30T07:15:54",
+    "updated_date": "2021-07-30T07:15:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -13,12 +13,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 8649,
-    "date": "2021-07-30T00:13:59",
-    "date_gmt": "2021-07-30T07:13:59",
+    "id": 8662,
+    "date": "2021-07-30T00:15:54",
+    "date_gmt": "2021-07-30T07:15:54",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/DCC-Disciplinary-Guidelines-Excluding-Cultivation-and-Manufacturing-Licensees-7.20.21-Clean.pdf",
-    "modified": "2021-07-30T00:13:59",
-    "modified_gmt": "2021-07-30T07:13:59",
+    "modified": "2021-07-30T00:15:54",
+    "modified_gmt": "2021-07-30T07:15:54",
     "slug": "dcc-disciplinary-guidelines-excluding-cultivation-and-manufacturing-licensees-7-20-21-clean",
     "status": "inherit",
     "type": "attachment",
