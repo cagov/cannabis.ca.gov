@@ -28,12 +28,23 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_production
-          # Push built site files to S3 production bucket    
+      # Push built site files to S3 production bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
-          args: --acl public-read --follow-symlinks --delete \
-            --exclude "*" --include "*.jpg" --include "*.png" --include "*.woff2" \
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: 'headless.cannabis.ca.gov'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
+          SOURCE_DIR: ./docs # only move built directory
+
+      # Reset the cache-control headers on static assets on production S3 bucket
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --exclude "*" --include "*.jpg" --include "*.png" --include "*.woff2" \
             --recursive --metadata-directive REPLACE --expires 2034-01-01T00:00:00Z --acl public-read \
             --cache-control max-age=15552000,public
         env:
