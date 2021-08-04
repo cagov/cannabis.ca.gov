@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:52",
-    "updated_date": "2021-06-24T18:18:25",
+    "updated_date": "2021-08-03T17:35:33",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:52",
     "date_gmt": "2021-06-19T15:07:52",
     "guid": "http://wordpress.test:8888/testing-laboratories/",
-    "modified": "2021-06-24T11:18:25",
-    "modified_gmt": "2021-06-24T18:18:25",
+    "modified": "2021-08-03T10:35:33",
+    "modified_gmt": "2021-08-03T17:35:33",
     "slug": "testing-laboratories",
     "status": "publish",
     "type": "page",

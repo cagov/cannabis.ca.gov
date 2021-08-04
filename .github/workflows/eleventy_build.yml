@@ -2,7 +2,7 @@ name: Eleventy Build Main
 on:
   push:
     branches:
-      - headless
+      - main
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
@@ -28,7 +28,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_production
-          # Push built site files to S3 production bucket    
+      # Push built site files to S3 production bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
@@ -39,6 +39,17 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
           SOURCE_DIR: ./docs # only move built directory
+
+      # Reset the cache-control headers on static assets on production S3 bucket
+      - name: Reset cache-control on static files
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/fonts'
+          dest: 's3://headless.cannabis.ca.gov/fonts'
+          flags: --recursive --cache-control max-age=15552000
 
       # Invalidate Cloudfront production distribution
       - name: invalidate

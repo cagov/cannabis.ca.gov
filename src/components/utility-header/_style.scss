@@ -1,10 +1,21 @@
-/*official*/
+/* translate widget loader */
+#google_translate_element {
+	font-size: .85rem;
+}
 
+
+/*official*/
 .official-header {
 	background-color: $gray-100;
 	padding: 0;
 	width: 100%;
 	border-bottom: 1px solid #ededef;
+
+	@include phone {
+		width: 100vw;
+		margin-left: -15px;
+		padding: .5rem 0;
+	}
 
 	.container {
 		display: flex;
