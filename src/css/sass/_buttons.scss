@@ -1,18 +1,25 @@
 /* Buttons global styles */
 .wp-block-button__link {
-  color: #fff;
-  background-color: #32373c;
-  border: none;
-  border-radius: 1.55em;
-  box-shadow: none;
-  cursor: pointer;
+  background-color: #33705b;
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-color, #33705b);
+  color: white;
+  padding: 0.5556rem;
+  border-radius: 0.2778rem;
+  font-weight: bold;
   display: inline-block;
-  font-size: 1.125em;
-  padding: .667em 1.333em;
-  text-align: center;
+  border: none;
   text-decoration: none;
-  overflow-wrap: break-word;
 }
-.wp-block-button__link:active, .wp-block-button__link:focus, .wp-block-button__link:hover, .wp-block-button__link:visited {
-  color: #fff;
+.wp-block-button__link:hover {
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-hover-color, #33705b);
+  /* variable used with fallback in case it is not defined */
+  color: var(--white, #ffffff);
+  padding: 0.5556rem;
+  border-radius: 0.2778rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  // text-decoration: underline;
 }
