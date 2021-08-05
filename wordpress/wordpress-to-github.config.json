@@ -5,18 +5,6 @@
     "description": "wordpress-to-github endpoints config file"
   },
   "data": {
-    "wordpress-to-github-config": {
-      "disabled": false,
-      "WordPressUrl": "https://cannabis.ca.gov",
-      "PostPath": "wordpress/posts",
-      "PagePath": "wordpress/pages",
-      "SyncMedia": true,
-      "MediaPath": "wordpress/media",
-      "ExcludeProperties": [
-        "content",
-        "_links"
-      ]
-    },
     "wordpress_source_url": "https://cannabis.ca.gov",
     "github_targets": [
       {
