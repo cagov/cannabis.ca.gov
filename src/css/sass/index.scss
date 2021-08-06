@@ -14,24 +14,21 @@
 @import './_code'; /* pre, code, var generic styles */
 @import './_forms'; /* input, textarea, select generic styles */
 @import './_links'; /* a, a:hover, a:focus */
+@import './_breadcrumbs'; /* copied from blocks */
 @import './_typography'; /* headings, p, blockqute, font styles */
 @import './_utility-classes'; /* all utility css classes that can be used (shortcodes) */
 /* all of the above will become part of base-css component */
 
 /* COMPONENTS/BLOCKS */
-/* COMPONENTS/BLOCKS */
-@import './_announcement-list'; /* copied from block */
-@import '../../components/breadcrumb/index'; /* copied from blocks */
-
 @import '../../components/page-alert/index'; /* copied from gutenberg custom block */
 @import '../../components/post-list-headless/_style';
-@import '../../components/step-list/index';
 
 /* NAVIGATION ELEMENTS */
 @import '../../components/utility-header/_style'; // statewide header
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 
+@import '../../../node_modules/@cagov/ds-step-list/index.scss';
 @import '../../../node_modules/@cagov/ds-feature-card/css/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-card-grid/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
