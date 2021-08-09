@@ -845,3 +845,66 @@ cagov-accordion .cagov-accordion-card {
 
 /* Some manual style? Who added it? */
 .cagov-card svg { max-height: 25px; }
+
+/* Fix incorrect padding in CAWeb theme (needs to be updated in theme code) */
+@media (min-width: 1176px) {
+  .container,
+  .branding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .first-level-link:first-child, .first-level-btn:first-child {
+    /* padding-left: 0; */
+  }
+  .top-level-nav {
+    margin-left: -15px; /* Push buttons left, to decide on */
+  }
+}
+
+/* PDF Links */
+.link-icon {
+  font-size: 0.85rem;
+  position: relative;
+  top: -3px;
+  padding-left: 2px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.pdf-link {
+  &::after {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    content: ".PDF";
+    display: inline-block;
+    text-decoration: none;
+    outline: 1px solid;
+    outline-offset: -2px;
+    padding: 1px 4px 0px 4px;
+    position: relative;
+    left: 1px;
+    top: -3px;
+  }
+}
+
+.pdf-link-icon {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 400;
+  display: inline-block;
+  outline: 1px solid;
+  outline-offset: -2px;
+  padding: 1px 4px 0px 4px;
+  position: relative;
+  left: 1px;
+  top: -3px;
+  line-height: .9rem;
+  margin-left: 4px;
+}
+
+.no-underline-icon {
+  display: inline-block;
+  text-decoration: none;
+}
