@@ -1,3 +1,0 @@
-# Base CSS
-
-## CSS variables

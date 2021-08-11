@@ -5,18 +5,18 @@ section.site-footer {
 		flex-wrap: wrap;
 		flex-direction: column;
 		box-sizing: border-box;
-		max-width: $w-lg;
+		max-width: var(--w-lg, 1176px);
 		margin: 0 auto;
 		padding: 1rem;
 	}
 
 	a {
-		color: $primary;
+		color: var(--primary-color, #004abc);
 		&:hover {
-			color: $secondary-dark;
+			color: var(--secondary-dark-color, #ff8000);
 		}
 		&:focus {
-			outline: 2px solid $secondary;
+			outline: 2px solid var(--secondary-color, #fec02f);
 		}
 	}
 
@@ -48,11 +48,11 @@ section.site-footer {
 			padding-left: .3rem;
 			transition: all 0.3s ease;
 			svg path {
-				fill: $primary;
+				fill: var(--primary-color, #004abc);
 			}
 			&:hover {
 				svg path {
-					fill: $primary-dark;
+					fill: var(--primary-dark-color, #1e1569);
 				}
 			}
 		}
@@ -73,7 +73,7 @@ section.site-footer {
 
 // Misc
 .bg-light-grey {
-    background-color:$gray-100;
+    background-color: var(--gray-100, #f9f9fa);
 }
 
 .pt-0 {

@@ -10,14 +10,14 @@
 }
 
 .cagov-post-list .link-title a {
-  color: $primary;
+  color: var(--primary-color, #064e66);
   font-weight: normal;
   text-decoration: underline;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px;
   &:hover {
-    color: $primary-dark;
+    color: var(--primary-dark-color, #4A1106);
     text-decoration: none;
   }
 }
@@ -65,13 +65,13 @@
 }
 
 .cagov-post-list .link-title a {
-  color: $primary;
+  color: var(--primary-color, #064e66);
   font-weight: 700;
   line-height: 30px;
   font-size: 28px;
   text-decoration: underline;
   &:hover {
-    color: $primary-dark;
+    color: var(--primary-dark-color, #4A1106);
     text-decoration: none;
   }
 }
@@ -122,14 +122,14 @@
   }
 
   .cagov-post-list .link-title a {
-    color: $primary;
+    color: var(--primary-color, #064e66);
     font-weight: 700;
     line-height: 30px;
     font-size: 24px;
     margin-bottom: 8px;
     text-decoration: underline;
     &:hover {
-      color: $primary-dark;
+      color: var(--primary-dark-color, #4A1106);
       text-decoration: none;
     }
   }
