@@ -1,8 +1,4 @@
 /* Forms generic styles*/
-body {
-  font-weight: $regular;
-}
-
 input, button, select, optgroup, textarea {
   margin: 0;
   font-family: inherit;
@@ -12,7 +8,7 @@ input, button, select, optgroup, textarea {
 textarea, input {
   background-color: $white;
   color: $black !important;
-  font-size: $body-text;
+  font-size: var(--body-text, 1.125rem);
   font-weight: $regular;
   &:focus {
       outline: 2px solid $secondary;

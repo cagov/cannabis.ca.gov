@@ -1,16 +1,15 @@
 {
-  "name": "base-css",
+  "name": "@cagov/ds-base-css",
   "version": "1.0.0",
-  "description": "This component contains the baseline CSS for the design system.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass-chokidar --source-map true src/ -o dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "chokidar-cli": "^2.1.0",
-    "node-sass-chokidar": "^1.5.0"
+  "devDependencies": {
+    "sass": "^1.37.5"
   }
 }

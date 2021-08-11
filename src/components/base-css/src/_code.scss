@@ -6,7 +6,7 @@ time {
   color:$gray-900;
   padding: 2.5px 5px;
   border-radius: 6px;
-  font-size: $body-text;
+  font-size: var(--body-text, 1.125rem);
 }
 
 pre > code {
