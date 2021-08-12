@@ -7,16 +7,16 @@ footer {
 		flex-wrap: wrap;
 		flex-direction: column;
 		box-sizing: border-box;
-		max-width: $w-lg;
+		max-width: var(--w-lg, 1176px);
 		margin: 0 auto;
 		padding: 1rem;
 	}
 	a {
 		&:hover {
-			color: $primary-dark;
+			color: var(--primary-dark-color, #1e1569);
 		}
 		&:focus {
-			outline: 2px solid $secondary;
+			outline: 2px solid var(--secondary-color, #fec02f);
 		}
 	}
 
@@ -34,11 +34,11 @@ footer {
 	.bg-light-grey svg {
 		padding: 0;
 		.ca {
-			fill: $secondary;
+			fill: var(--secondary-color, #fec02f);
 		}
 
 		.gov {
-			fill: $primary-dark;
+			fill: var(--primary-dark-color, #1e1569);
 		}
 	}
 
@@ -48,12 +48,12 @@ footer {
 
 	.bg-light-grey a,
 	.copyright {
-		color: $black;
+		color: var(--black, #000);;
 	}
 }
 
 .bg-light-grey {
-	background-color: $gray-100;
+	background-color: var(--gray-100, #f9f9fa);
 }
 
 .pt-0 {
