@@ -6,12 +6,12 @@
 
 /*official*/
 .official-header {
-	background-color: $gray-100;
+	background-color: var(--gray-100, #f9f9fa);
 	padding: 0;
 	width: 100%;
 	border-bottom: 1px solid #ededef;
 
-	@include phone {
+	@media (max-width: 767px) {
 		width: 100vw;
 		margin-left: -15px;
 		padding: .5rem 0;
@@ -23,7 +23,7 @@
 		align-items: center;
 		justify-content: space-between;
 		box-sizing: border-box;
-		max-width: $w-lg;
+		max-width: var(--w-lg, 1176px);
 		min-height: 40px;
 		margin: 0 auto;
 		padding: 0 10px 0 10px;
@@ -45,10 +45,10 @@
 		width: 38px;
 
 		.ca {
-			fill: $secondary;
+			fill: var(--secondary-color, #fec02f);
 		}
 		.gov {
-			fill: $primary-dark;
+			fill: var(--primary-dark-color, #1e1569);
 		}
 	}
 
@@ -58,11 +58,11 @@
 	}
 
 	.official-languages a {
-		color: $black;
+		color: #000;
 		padding: 0 0.5rem 0 0.5rem;
 
 		&:hover {
-			color: $primary-dark;
+			color: var(--primary-dark-color, #1e1569);
 		}
 	}
 
@@ -77,11 +77,11 @@
 			padding-right: 0;
 			border: none;
 			text-decoration: underline;
-			background-color: $white;
+			background-color: #fff;
 			transition: transform 0.3s;
 
 			&:hover {
-				color: $primary-dark;
+				color: var(--primary-dark-color, #1e1569);
 			}
 			&[aria-expanded="false"] {
 				.caret-down {
@@ -115,8 +115,8 @@
 
 		.dropdown-content {
 			background-clip: padding-box;
-			background-color: $white;
-			border: 1px solid $primary;
+			background-color: #fff;
+			border: 1px solid var(--primary-color, #33705b);
 			border-radius: 0.25rem;
 			padding: 15px;
 			position: absolute;

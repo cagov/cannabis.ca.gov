@@ -2,9 +2,6 @@
 // Site Colors
 @import './colorschemes/cannabis.scss'; /* theme colors */
 
-/* base-css */
-/*@import '../../components/base-css/dist/index'; /* copied from gutenberg custom block */
-
 /* COMPONENTS/BLOCKS */
 @import '../../components/page-alert/index'; /* copied from gutenberg custom block */
 @import '../../components/post-list-headless/_style';
@@ -14,6 +11,7 @@
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 
+@import '../../../node_modules/@cagov/ds-base-css/src/_core.scss';
 @import '../../../node_modules/@cagov/ds-step-list/index.scss';
 @import '../../../node_modules/@cagov/ds-feature-card/css/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-card-grid/index'; // now imported from npm module
