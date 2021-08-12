@@ -9,3 +9,9 @@ import '@cagov/ds-content-navigation';
 
 import '../components/post-list-headless/index.js';
 import '../components/page-alert/index.js';
+
+import './headless/google-analytics.js';
+import setupAnalytics from './headless/index.js';
+window.onload = (event) => {
+  setupAnalytics();
+};
