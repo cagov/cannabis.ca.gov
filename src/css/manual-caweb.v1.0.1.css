@@ -237,6 +237,10 @@ div.goog-te-gadget {
     bottom: 11px !important;
     color: var(--primary-color);
   }
+  .second-level-nav .unit2, .second-level-nav .unit2 {
+    overflow: visible !important;
+    height: unset !important;
+  }
 }
 
 /*Navigation mobile*/
