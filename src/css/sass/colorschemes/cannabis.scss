@@ -1,11 +1,16 @@
+/* Cannabis logo font */
+@font-face {
+	font-family: 'Lexend';
+	src: url('/fonts/Lexend-Medium.woff2') format('woff2');
+  }
 
 /* Colorscheme root variables */
 :root {
   /* Theme colors */
   --primary-color: #064e66;
-  --primary-dark-color: #4A1106;
-  --primary-light-color: #965D52;
-  --primary-lightest-color: #B48C84;
+  --primary-dark-color: #043747;
+  --primary-light-color: #518394;
+  --primary-lightest-color: #83a7b3;
   --primary-hover-color: #043747;
   // --primary-active-color: #4A1106;
   // --primary-focused-color: #4A1106;
@@ -23,4 +28,6 @@
 
   --standout-color: #2f4c2c;
   --standout-hover-color: #21351f; 
+  --logo-font: 'Lexend';
 }
+
