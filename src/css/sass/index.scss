@@ -7,12 +7,12 @@
 @import '../../components/post-list-headless/_style';
 
 /* NAVIGATION ELEMENTS */
-@import '../../components/utility-header/_style'; // statewide header
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 
-@import '../../../node_modules/@cagov/ds-base-css/src/_core.scss';
-@import '../../../node_modules/@cagov/ds-step-list/index.scss';
+@import '../../../node_modules/@cagov/ds-statewide-header/src/style.scss'; // statewide header
+@import '../../../node_modules/@cagov/ds-base-css/src/_core.scss'; // unthemed base css
+@import '../../../node_modules/@cagov/ds-step-list/index.scss'; // step list
 @import '../../../node_modules/@cagov/ds-feature-card/css/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-card-grid/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
