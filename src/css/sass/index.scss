@@ -15,9 +15,10 @@
 @import '../../../node_modules/@cagov/ds-step-list/index.scss'; // step list
 @import '../../../node_modules/@cagov/ds-feature-card/css/index'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-card-grid/index'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
+// @import '../../../node_modules/@cagov/ds-branding/_style'; // now imported from npm module
+@import '../../../node_modules/@cagov/ds-branding/src/index.scss'; // now imported from npm module
 @import '../../../node_modules/@cagov/ds-content-navigation/src/index.scss'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-dropdown-menu/src/_style'; // now imported from npm module
+@import '../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss'; // now imported from npm module
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 
 
