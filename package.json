@@ -11,7 +11,7 @@
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run js:bundle && npm run build:regen'",
     "js:bundle": "rollup --config rollup.config.js",
     "start": "npx @11ty/eleventy --quiet --serve",
-    "test:setup": "npx playwright install-deps chromium",
+    "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "test":"npx playwright test",
     "dev": "npm-run-all -p sass:build js:bundle sass:watch js:watch start",
     "build": "npm-run-all -s js:bundle sass:build build:regen",
