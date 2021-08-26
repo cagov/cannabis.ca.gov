@@ -11,6 +11,8 @@
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run js:bundle && npm run build:regen'",
     "js:bundle": "rollup --config rollup.config.js",
     "start": "npx @11ty/eleventy --quiet --serve",
+    "test:setup": "npx playwright install-deps chromium",
+    "test":"npx playwright test",
     "dev": "npm-run-all -p sass:build js:bundle sass:watch js:watch start",
     "build": "npm-run-all -s js:bundle sass:build build:regen",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
@@ -22,6 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@playwright/test": "^1.14.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "autoprefixer": "^10.2.5",
