@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - name: Use Node.js 14.17.0
+      - name: Use Node.js 14.17.5
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17.0
+          node-version: 14.17.5
       - name: Build 11ty
         run: |
           mkdir dist
