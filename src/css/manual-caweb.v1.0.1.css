@@ -895,3 +895,21 @@ cagov-accordion .cagov-accordion-card {
   display: inline-block;
   text-decoration: none;
 }
+
+wp-block-button__link {
+  background-color: #064E66;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+}
+
+.wp-block-button__link:hover {
+background-color: #043747;
+}
+
+h1.page-title {
+padding-top: 0  !important;
+padding-bottom: 0  !important;
+margin-top: 0 !important;
+margin-bottom: 2rem !important;
+}
