@@ -30,6 +30,7 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@web/dev-server": "^0.1.22",
     "autoprefixer": "^10.2.5",
+    "axe-playwright": "^1.1.8",
     "chokidar-cli": "^2.1.0",
     "clean-css": "^5.1.2",
     "node-fetch": "^2.6.1",

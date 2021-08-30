@@ -55,12 +55,14 @@
 
 <body>
 
-  <div class="header-container">
-    {% include "skip-to-content.njk" %}
-    {% include "statewide-header.njk" %}
-    {% include "branding.njk" %}
-    {% include "nav-component.njk" %}
-  </div>
+  <header>
+    <div class="header-container">
+      {% include "skip-to-content.njk" %}
+      {% include "statewide-header.njk" %}
+      {% include "branding.njk" %}
+      {% include "nav-component.njk" %}
+    </div>
+  </header>
 
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
   {%- if templatestring == 'landing' -%}
