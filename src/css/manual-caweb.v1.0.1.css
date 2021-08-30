@@ -896,7 +896,7 @@ cagov-accordion .cagov-accordion-card {
   text-decoration: none;
 }
 
-wp-block-button__link {
+.wp-block-button__link {
   background-color: #064E66;
   border-radius: 5px;
   font-weight: 700;
