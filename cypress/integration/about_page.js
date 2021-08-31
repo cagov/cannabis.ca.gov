@@ -1,6 +1,6 @@
 describe('My First Test', () => {
   it('clicks the link "type"', () => {
-    cy.visit('http://localhost:8000/')
+    cy.visit('http://localhost:8080/')
 
     // these are temporary sample tests, clicking on links in menu, these selectors are too brittle
     cy.contains('About us').click()
