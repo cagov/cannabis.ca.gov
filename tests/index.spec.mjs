@@ -11,7 +11,6 @@ Then clicking around and doing what you want your tests to cover. Playwright wil
 */
 
 let devserver;
-let GARequests = [];
 let testLocation = 'http://localhost:8000/'
 const resolveAfterDelay = promisify(setTimeout);
 
