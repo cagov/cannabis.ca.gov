@@ -1,4 +1,4 @@
-name: End to end tests
+name: End to end tests playwright
 on:
   push:
     branches:
