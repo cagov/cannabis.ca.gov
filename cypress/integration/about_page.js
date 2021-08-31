@@ -1,5 +1,5 @@
 describe('My First Test', () => {
-  it('clicks the link "type"', () => {
+  it('goes to about page', () => {
     cy.visit('http://localhost:8080/')
 
     // these are temporary sample tests, clicking on links in menu, these selectors are too brittle
@@ -9,6 +9,9 @@ describe('My First Test', () => {
     // h1 is present and contains text About
     cy.get('h1').should('contain.text', 'About');
 
+  })
+
+  it('interacts with feedback form', () => {
     // verify page feedback form is in initial state with textarea hidden
     cy.get('cagov-feedback .feedback-form-add').should('not.be.visible')
 
@@ -17,7 +20,9 @@ describe('My First Test', () => {
 
     // verify feedback area is now visible
     cy.get('cagov-feedback .feedback-form-add').should('be.visible')
+  })
 
+  it('checks google analytics event data collection', () => {
     // should have more than a couple events in Google Analytics dataLayer object
     cy.window().its('dataLayer.length').should('be.gt', 2)
 
