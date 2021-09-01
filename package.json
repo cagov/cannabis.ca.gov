@@ -49,7 +49,7 @@
     "@cagov/ds-branding": "^1.0.1",
     "@cagov/ds-card-grid": "^1.0.2",
     "@cagov/ds-content-navigation": "^1.0.2",
-    "@cagov/ds-dropdown-menu": "^1.0.5",
+    "@cagov/ds-dropdown-menu": "^1.0.8",
     "@cagov/ds-feature-card": "^1.0.2",
     "@cagov/ds-feedback": "^1.0.1",
     "@cagov/ds-google-translate": "^1.0.0",
@@ -57,6 +57,7 @@
     "@cagov/ds-pagination": "^1.0.0",
     "@cagov/ds-plus": "^1.0.0",
     "@cagov/ds-skip-to-content": "^1.0.0",
+    "@cagov/ds-statewide-footer": "^1.0.0",
     "@cagov/ds-statewide-header": "^1.0.2",
     "@cagov/ds-step-list": "^1.0.1"
   }
