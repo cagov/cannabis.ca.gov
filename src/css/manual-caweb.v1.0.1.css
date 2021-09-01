@@ -355,6 +355,8 @@ div.goog-te-gadget {
   background-color: #ffffff;
   padding-left: 0;
   padding-right: 0;
+  height: unset;
+  overflow: visible !important;
 }
 .second-level-nav > li:focus,
 .second-level-nav > li:hover {
