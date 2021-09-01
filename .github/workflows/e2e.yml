@@ -1,8 +1,8 @@
 name: End to end tests playwright
 on:
-  push:
-    branches:
-      - task-269/end-to-end-tests
+  schedule:
+    - cron: "*/5 * * * *"
+    
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04

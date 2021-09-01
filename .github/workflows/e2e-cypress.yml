@@ -1,8 +1,8 @@
 name: End-to-end tests cypress
 on:
-  push:
-    branches:
-      - task-269/end-to-end-tests-cypress
+  schedule:
+    - cron: "*/5 * * * *"
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
