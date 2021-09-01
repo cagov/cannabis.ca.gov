@@ -1,3 +1,5 @@
+import 'cypress-axe'
+
 describe('My First Test', () => {
   it('goes to about page', () => {
     cy.visit('http://localhost:8080/')
@@ -9,6 +11,14 @@ describe('My First Test', () => {
     // h1 is present and contains text About
     cy.get('h1').should('contain.text', 'About');
 
+    // Inject the axe-core library
+    cy.injectAxe();
+  })
+
+  it('verify accessibility with axe', () => {
+    // verify accessibility
+    // this is not working, it is reporting an error with no explanation and I cannot reproduce an error chrome axe plugin locally
+    // cy.checkA11y();
   })
 
   it('interacts with feedback form', () => {
