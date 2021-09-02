@@ -707,7 +707,7 @@ ol.steps li:last-child {
   }
 }
 /* remove CAWeb credits */
-.global-footer .copyright span.pull-right {
+.global-footer .copyright .half.text-right span {
   display: none;
 }
 /* END -- Footer */
