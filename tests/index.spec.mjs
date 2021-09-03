@@ -1,6 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { spawn } from 'child_process';
-import { promisify } from 'util';
 import { injectAxe, checkA11y, getViolations, reportViolations } from 'axe-playwright'
 /*
 The playwright codegen mode is good. Give it a try by running this command supplying your target url as the final argument
@@ -10,15 +8,7 @@ npx playwright codegen http://localhost:8000
 Then clicking around and doing what you want your tests to cover. Playwright will generate useful test code and you may only need to modify selectors to make them less brittle
 */
 
-let devserver;
 let testLocation = 'http://localhost:8000/'
-const resolveAfterDelay = promisify(setTimeout);
-
-// test.beforeAll(async () => {
-//   devserver = spawn('npm', ['run', 'test:server']);
-//   // The test runs too fast after this we need to delay it so dev server can start
-//   const result = await resolveAfterDelay(3000);
-// })
 
 test('about page tests', async ({ page }) => {
 
@@ -60,7 +50,3 @@ test('about page tests', async ({ page }) => {
   const visibleFeedback = await page.isVisible('cagov-feedback .feedback-form-add');
   expect(visibleFeedback).toBeTruthy();
 });
-
-// test.afterAll(async () => {
-//   devserver.kill('SIGINT');
-// });
