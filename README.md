@@ -52,7 +52,7 @@ To run playwright tests locally
 - ```npm test:playwright``` to run the playwright tests headlessly
 or
 - ```npm test:playwright:headed``` to run the playwright tests headed so you can see what it is doing. More debugging tips and tools on playwright on the <a href="https://playwright.dev/docs/debug">playwright debugging page</a>
-
+- Before running tests you need to have run a build at least once. The tests are not yet tied to a watch or rebuild process. If you have already done ```npm run dev``` or ```npm run build``` then you will have generated the static site and can run the test command without a server running.
 More info on playwright at <a href="https://playwright.dev/">playwright.dev</a>
 
 When writing new playwright tests or to get used to the tool initially try out the codegen tool passing the target url as the final argument:
@@ -76,6 +76,7 @@ The cypress headless tests are triggered with ```npm test```. These run in the g
 
 To run cypress tests locally
 - ```npm test:cypress``` to start a dev server and launch the cypress test runner tool
+- Before running tests you need to have run a build at least once. The tests are not yet tied to a watch or rebuild process. If you have already done ```npm run dev``` or ```npm run build``` then you will have generated the static site and can run the test command without a server running.
 
 More info on <a href="https://www.cypress.io/">cypress</a>
 
