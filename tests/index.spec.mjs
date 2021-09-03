@@ -14,11 +14,11 @@ let devserver;
 let testLocation = 'http://localhost:8000/'
 const resolveAfterDelay = promisify(setTimeout);
 
-test.beforeAll(async () => {
-  devserver = spawn('npm', ['run', 'test:server']);
-  // The test runs too fast after this we need to delay it so dev server can start
-  const result = await resolveAfterDelay(3000);
-})
+// test.beforeAll(async () => {
+//   devserver = spawn('npm', ['run', 'test:server']);
+//   // The test runs too fast after this we need to delay it so dev server can start
+//   const result = await resolveAfterDelay(3000);
+// })
 
 test('about page tests', async ({ page }) => {
 
@@ -61,6 +61,6 @@ test('about page tests', async ({ page }) => {
   expect(visibleFeedback).toBeTruthy();
 });
 
-test.afterAll(async () => {
-  devserver.kill('SIGINT');
-});
+// test.afterAll(async () => {
+//   devserver.kill('SIGINT');
+// });
