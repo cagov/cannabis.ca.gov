@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "created_date": "2021-09-03T20:34:31",
+    "updated_date": "2021-09-03T20:34:32",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8713,
+    "date": "2021-09-03T13:34:31",
+    "date_gmt": "2021-09-03T20:34:31",
+    "guid": "https://cannabis.ca.gov/?p=8713",
+    "modified": "2021-09-03T13:34:32",
+    "modified_gmt": "2021-09-03T20:34:32",
+    "slug": "disaster-relief-for-cannabis-businesses-affected-by-fires",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
+    "title": "Disaster Relief for Cannabis Businesses Affected by Fires",
+    "excerpt": "<p>California is in the thick of fire season. This year, wildfires have burned more than 1.9 million acres in California. More than 15,300 firefighters are on the frontlines of 16 major and five extended attack wildfires across California. The Caldor Fire is the 15th largest fire in California history and the Monument fire is the [&hellip;]</p>\n",
+    "author": "Christina Dempsey",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "disaster relief",
+      "Fire",
+      "form 8101",
+      "form dcc-8101",
+      "wildfire"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/"
+  }
+}
