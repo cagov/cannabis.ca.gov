@@ -15,6 +15,7 @@
     "start": "npx @11ty/eleventy --quiet --serve",
     "test": "npx playwright test",
     "test:server": "npx web-dev-server --root-dir docs/",
+    "test:server:background": "npx web-dev-server --root-dir docs/ &",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
