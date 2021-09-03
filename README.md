@@ -40,3 +40,47 @@ The npm script in this package.json references multiple commands which point to 
 
 When content in this repository is modified it gets deployed to headles.cannabis.ca.gov so the new hashed filename can be referenced in the WordPress monolith custom JS textarea we modify in the theme config in the wordpress admin. Since we are using hashed filenames we can revert easily to the prior filename.
 
+## Testing
+
+We are evaluating the two tools below:
+
+### Integration(End to end) tests with playwright
+
+The playwright headless tests are triggered with ```npm test```. These run in the git action e2e.yml. The git action runs setup scripts and starts a web dev server to return files in docs/ after the build runs.
+
+To run playwright tests locally
+- ```npm test:playwright``` to run the playwright tests headlessly
+or
+- ```npm test:playwright:headed``` to run the playwright tests headed so you can see what it is doing. More debugging tips and tools on playwright on the <a href="https://playwright.dev/docs/debug">playwright debugging page</a>
+
+More info on playwright at <a href="https://playwright.dev/">playwright.dev</a>
+
+When writing new playwright tests or to get used to the tool initially try out the codegen tool passing the target url as the final argument:
+
+```
+npx playwright codegen https://cannabis.ca.gov
+```
+
+Benefits:
+- Works nicely in a git action
+- Runs reliably
+- Helpful debugging tools
+- Successfully integrated full page accessibility checks with headless axe package
+- The codegen tool is helpful
+- Supports 3 browser engines so we can test Chrome, Firefox and Safari
+
+### Integration(End to end) tests with cypress
+
+
+The cypress headless tests are triggered with ```npm test```. These run in the git action e2e-cypress.yml. The git action runs setup scripts and starts a web dev server to return files in docs/ after the build runs.
+
+To run cypress tests locally
+- ```npm test:cypress``` to start a dev server and launch the cypress test runner tool
+
+More info on <a href="https://www.cypress.io/">cypress</a>
+
+Benefits:
+- Works nicely in a git action
+- Runs reliably
+- Helpful debugging tools
+- Supports 2 browser engines so we can test Chrome and Firefox
