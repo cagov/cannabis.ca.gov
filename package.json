@@ -61,6 +61,7 @@
     "@cagov/ds-google-translate": "^1.0.0",
     "@cagov/ds-minus": "^1.0.0",
     "@cagov/ds-pagination": "^1.0.0",
+    "@cagov/ds-pdf-icon": "^1.0.0",
     "@cagov/ds-plus": "^1.0.0",
     "@cagov/ds-skip-to-content": "^1.0.0",
     "@cagov/ds-statewide-footer": "^1.0.0",
