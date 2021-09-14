@@ -65,7 +65,7 @@
     "@cagov/ds-plus": "^1.0.0",
     "@cagov/ds-skip-to-content": "^1.0.0",
     "@cagov/ds-statewide-footer": "^1.0.0",
-    "@cagov/ds-statewide-header": "^1.0.5",
+    "@cagov/ds-statewide-header": "^1.0.6",
     "@cagov/ds-step-list": "^1.0.1"
   }
 }
