@@ -1,0 +1,36 @@
+/* Cannabis logo font */
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend-Medium.woff2") format("woff2");
+}
+
+.branding {
+  padding: 0 15px 15px 15px;
+
+  .branding-logo {
+    margin: 0;
+
+    .logo-text {
+      position: relative;
+      top: -3px;
+
+      .logo-state {
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        font-family: "Arial", "Helvetica", sans-serif;
+        position: relative;
+        top: 4px;
+      }
+      .logo-dept {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .branding {
+    padding: 0;
+  }
+}
