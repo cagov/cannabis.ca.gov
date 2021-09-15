@@ -8,7 +8,7 @@ redirectFile.redirects.forEach((redirect) => {
   s3.putObject({
     Body: '',
     Bucket: 'staging.cannabis.ca.gov',
-    Key: redirect.url,
+    Key: (redirect.url.indexOf('/') === 0) ? redirect.url.substring(1) : redirect.url,
     Metadata: {
       'Website-Redirect-Location': redirect.action_data.url
     }
