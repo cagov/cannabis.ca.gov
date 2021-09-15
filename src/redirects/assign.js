@@ -9,15 +9,9 @@ redirectFile.redirects.forEach((redirect) => {
     Body: '',
     Bucket: 'staging.cannabis.ca.gov',
     Key: (redirect.url.indexOf('/') === 0) ? redirect.url.substring(1) : redirect.url,
-    Metadata: {
-      'Content-Type': 'text/plain',
-      'x-amz-website-redirect-location': redirect.action_data.url
-    }
+    WebsiteRedirectLocation: redirect.action_data.url
   }, (err, data) => {
     if (err) return console.log(err)
     console.log(data)
   })
 })
-
-/*
-/applicants/how-to-apply-renew/
