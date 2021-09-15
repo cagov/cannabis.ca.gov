@@ -18,6 +18,3 @@ redirectFile.redirects.forEach((redirect) => {
     console.log(data)
   })
 })
-
-/*
-/applicants/how-to-apply-renew/
