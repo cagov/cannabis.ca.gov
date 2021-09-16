@@ -1,0 +1,780 @@
+{
+  "plugin": {
+      "version": "5.1.3",
+      "date": "Tue, 14 Sep 2021 18:37:21 +0000"
+  },
+  "groups": [
+      {
+          "id": 1,
+          "name": "Redirections",
+          "redirects": 29,
+          "module_id": 1,
+          "moduleName": "WordPress",
+          "enabled": true
+      },
+      {
+          "id": 2,
+          "name": "Modified Posts",
+          "redirects": 0,
+          "module_id": 1,
+          "moduleName": "WordPress",
+          "enabled": true
+      }
+  ],
+  "redirects": [
+      {
+          "id": 161,
+          "url": "/about_us",
+          "match_url": "/about_us",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/about-dcc/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 3,
+          "regex": false,
+          "group_id": 1,
+          "position": 0,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 162,
+          "url": "/apply-for-a-license",
+          "match_url": "/apply-for-a-license",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/applicants/how-to-apply-renew/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 72,
+          "regex": false,
+          "group_id": 1,
+          "position": 1,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 163,
+          "url": "/business-resources",
+          "match_url": "/business-resources",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/running-business/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 2,
+          "regex": false,
+          "group_id": 1,
+          "position": 2,
+          "last_access": "September 13, 2021",
+          "enabled": true
+      },
+      {
+          "id": 164,
+          "url": "/calcannabis-appellations-project",
+          "match_url": "/calcannabis-appellations-project",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/licensees/cultivation/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 1,
+          "regex": false,
+          "group_id": 1,
+          "position": 3,
+          "last_access": "August 16, 2021",
+          "enabled": true
+      },
+      {
+          "id": 165,
+          "url": "/calcannabis-cultivation-licensing-through-cdfa",
+          "match_url": "/calcannabis-cultivation-licensing-through-cdfa",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/licensees/cultivation/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 13,
+          "regex": false,
+          "group_id": 1,
+          "position": 4,
+          "last_access": "September 13, 2021",
+          "enabled": true
+      },
+      {
+          "id": 166,
+          "url": "/california-cannabis-portal",
+          "match_url": "/california-cannabis-portal",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/home/homepage/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 0,
+          "regex": false,
+          "group_id": 1,
+          "position": 5,
+          "last_access": "-",
+          "enabled": true
+      },
+      {
+          "id": 167,
+          "url": "/cannabis-advisory-committee",
+          "match_url": "/cannabis-advisory-committee",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/cannabis-advisory-committee/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 3,
+          "regex": false,
+          "group_id": 1,
+          "position": 6,
+          "last_access": "August 28, 2021",
+          "enabled": true
+      },
+      {
+          "id": 168,
+          "url": "/cannabis-legislation",
+          "match_url": "/cannabis-legislation",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/laws-and-regulations/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 37,
+          "regex": false,
+          "group_id": 1,
+          "position": 7,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 169,
+          "url": "/cannabis-regulations",
+          "match_url": "/cannabis-regulations",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/rulemaking/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 143,
+          "regex": false,
+          "group_id": 1,
+          "position": 8,
+          "last_access": "September 13, 2021",
+          "enabled": true
+      },
+      {
+          "id": 170,
+          "url": "/career-opportunities",
+          "match_url": "/career-opportunities",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/about-dcc/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 6,
+          "regex": false,
+          "group_id": 1,
+          "position": 9,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 172,
+          "url": "/conditions",
+          "match_url": "/conditions",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "https://ca.gov/use/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 3,
+          "regex": false,
+          "group_id": 1,
+          "position": 11,
+          "last_access": "August 10, 2021",
+          "enabled": true
+      },
+      {
+          "id": 173,
+          "url": "/consumers",
+          "match_url": "/consumers",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/consumers/whats-legal/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 29,
+          "regex": false,
+          "group_id": 1,
+          "position": 12,
+          "last_access": "September 8, 2021",
+          "enabled": true
+      },
+      {
+          "id": 174,
+          "url": "/emergency-regulations",
+          "match_url": "/emergency-regulations",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/rulemaking/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 6,
+          "regex": false,
+          "group_id": 1,
+          "position": 13,
+          "last_access": "September 9, 2021",
+          "enabled": true
+      },
+      {
+          "id": 177,
+          "url": "/file-a-complaint",
+          "match_url": "/file-a-complaint",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/file-complaint/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 464,
+          "regex": false,
+          "group_id": 1,
+          "position": 16,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 179,
+          "url": "/get-weedwise",
+          "match_url": "/get-weedwise",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/public-awareness-campaigns/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 56,
+          "regex": false,
+          "group_id": 1,
+          "position": 18,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 180,
+          "url": "/laws-regulations",
+          "match_url": "/laws-regulations",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/laws-and-regulations/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 2590,
+          "regex": false,
+          "group_id": 1,
+          "position": 19,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 181,
+          "url": "/lets-talk-cannabis",
+          "match_url": "/lets-talk-cannabis",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/consumers/whats-legal/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 153,
+          "regex": false,
+          "group_id": 1,
+          "position": 20,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 182,
+          "url": "/licensing",
+          "match_url": "/licensing",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": false,
+                  "flag_trailing": false,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 114,
+          "regex": false,
+          "group_id": 1,
+          "position": 21,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 184,
+          "url": "/local-equity-information",
+          "match_url": "/local-equity-information",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/laws-and-regulations/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 135,
+          "regex": false,
+          "group_id": 1,
+          "position": 23,
+          "last_access": "September 13, 2021",
+          "enabled": true
+      },
+      {
+          "id": 186,
+          "url": "/medical-marijuana-identification-card-program",
+          "match_url": "/medical-marijuana-identification-card-program",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/consumers/medicinal-cannabis/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 1178,
+          "regex": false,
+          "group_id": 1,
+          "position": 25,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 187,
+          "url": "/meetings-events",
+          "match_url": "/meetings-events",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/dcc-events/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 117,
+          "regex": false,
+          "group_id": 1,
+          "position": 26,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 188,
+          "url": "/motor-carrier-permits",
+          "match_url": "/motor-carrier-permits",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/licensees/distribution/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 220,
+          "regex": false,
+          "group_id": 1,
+          "position": 27,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 189,
+          "url": "/news",
+          "match_url": "/news",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/announcements/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 3148,
+          "regex": false,
+          "group_id": 1,
+          "position": 28,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 191,
+          "url": "/privacy",
+          "match_url": "/privacy",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "https://www.ca.gov/privacy/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 206,
+          "regex": false,
+          "group_id": 1,
+          "position": 30,
+          "last_access": "September 13, 2021",
+          "enabled": true
+      },
+      {
+          "id": 194,
+          "url": "/resources",
+          "match_url": "/resources",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 817,
+          "regex": false,
+          "group_id": 1,
+          "position": 33,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 196,
+          "url": "/tax-permits",
+          "match_url": "/tax-permits",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/running-business/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 230,
+          "regex": false,
+          "group_id": 1,
+          "position": 35,
+          "last_access": "September 13, 2021",
+          "enabled": true
+      },
+      {
+          "id": 197,
+          "url": "/tax-resources",
+          "match_url": "/tax-resources",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/resources/running-business/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 370,
+          "regex": false,
+          "group_id": 1,
+          "position": 36,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 199,
+          "url": "/track-and-trace-system",
+          "match_url": "/track-and-trace-system",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/licensees/track-and-trace/"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 1098,
+          "regex": false,
+          "group_id": 1,
+          "position": 38,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      },
+      {
+          "id": 200,
+          "url": "/contact-us",
+          "match_url": "/contact-us",
+          "match_data": {
+              "source": {
+                  "flag_query": "exact",
+                  "flag_case": true,
+                  "flag_trailing": true,
+                  "flag_regex": false
+              }
+          },
+          "action_code": 301,
+          "action_type": "url",
+          "action_data": {
+              "url": "/about-us/contact-us"
+          },
+          "match_type": "url",
+          "title": "",
+          "hits": 776,
+          "regex": false,
+          "group_id": 1,
+          "position": 28,
+          "last_access": "September 14, 2021",
+          "enabled": true
+      }
+  ]
+}
