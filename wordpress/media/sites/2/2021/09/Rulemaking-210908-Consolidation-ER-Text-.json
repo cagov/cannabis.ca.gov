@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-08T05:50:45",
-    "updated_date": "2021-09-15T22:42:49",
+    "updated_date": "2021-09-16T02:02:23",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-07T22:50:45",
     "date_gmt": "2021-09-08T05:50:45",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Rulemaking-210908-Consolidation-ER-Text-.pdf",
-    "modified": "2021-09-15T15:42:49",
-    "modified_gmt": "2021-09-15T22:42:49",
+    "modified": "2021-09-15T19:02:23",
+    "modified_gmt": "2021-09-16T02:02:23",
     "slug": "rulemaking-210908-consolidation-er-text",
     "status": "inherit",
     "type": "attachment",
