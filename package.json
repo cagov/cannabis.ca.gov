@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npm-run-all -s js:bundle sass:build build:regen",
     "build:regen": "npx @11ty/eleventy --quiet",
+    "deploy:redirects": "node src/redirects/assign.js",
     "dev": "npm-run-all -p sass:build js:bundle sass:watch js:watch start",
     "js:watch": "chokidar 'src/**/*.js' -c 'npm run js:bundle && npm run build:regen'",
     "js:bundle": "rollup --config rollup.config.js",
@@ -36,6 +37,7 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@web/dev-server": "^0.1.22",
     "autoprefixer": "^10.2.5",
+    "aws-sdk": "^2.989.0",
     "axe-core": "^4.3.3",
     "axe-playwright": "^1.1.8",
     "chokidar-cli": "^2.1.0",
@@ -51,7 +53,7 @@
   },
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.6",
-    "@cagov/ds-base-css": "^1.0.1",
+    "@cagov/ds-base-css": "^1.0.2",
     "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-card-grid": "^1.0.2",
     "@cagov/ds-content-navigation": "^1.0.3",
@@ -65,7 +67,7 @@
     "@cagov/ds-plus": "^1.0.0",
     "@cagov/ds-skip-to-content": "^1.0.0",
     "@cagov/ds-statewide-footer": "^1.0.0",
-    "@cagov/ds-statewide-header": "^1.0.5",
+    "@cagov/ds-statewide-header": "^1.0.6",
     "@cagov/ds-step-list": "^1.0.1"
   }
 }

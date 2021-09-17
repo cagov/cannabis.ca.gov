@@ -11,12 +11,12 @@ section.site-footer {
 	}
 
 	a {
-		color: var(--primary-color, #004abc);
+		color: var(--primary-color, #064E66);
 		&:hover {
-			color: var(--secondary-dark-color, #ff8000);
+			color: var(--primary-hover-color, #043747);
 		}
 		&:focus {
-			outline: 2px solid var(--secondary-color, #fec02f);
+			outline: 2px solid var(--highlight-color, #fec02f);
 		}
 	}
 
@@ -48,7 +48,7 @@ section.site-footer {
 			padding-left: .3rem;
 			transition: all 0.3s ease;
 			svg path {
-				fill: var(--primary-color, #004abc);
+				fill: var(--primary-color, #064E66);
 			}
 			&:hover {
 				svg path {
