@@ -1,35 +1,67 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-06-24T18:24:03",
+    "updated_date": "2021-06-28T19:59:26",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
     "id": 709,
-    "slug": "banking-insurance",
-    "title": "Banking and insurance",
-    "author": "Department of Cannabis Control",
     "date": "2021-06-19T15:07:31",
-    "modified": "2021-06-24T11:24:03",
     "date_gmt": "2021-06-19T15:07:31",
-    "modified_gmt": "2021-06-24T18:24:03",
+    "guid": "http://wordpress.test:8888/resources/banking-insurance/",
+    "modified": "2021-06-28T19:59:26",
+    "modified_gmt": "2021-06-28T19:59:26",
+    "slug": "banking-insurance",
+    "status": "publish",
+    "type": "page",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/resources/banking-insurance/",
+    "title": "Banking and insurance",
+    "excerpt": "<p>You can authorize the Department of Cannabis Control to share information with financial institutions to get access to banking and insurance services.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 759,
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "wordpress_url": "https://cannabis.ca.gov/resources/banking-insurance/",
-    "excerpt": "<p>You can authorize the Department of Cannabis Control to share information with financial institutions to get access to banking and insurance services.</p>\n",
-    "type": "page",
-    "parent": 759,
-    "menu_order": 0
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page"
+    },
+    "autodescription_meta": {
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "_genesis_canonical_uri": "",
+      "_social_image_url": "",
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled\" />\n<meta property=\"og:site_name\" content=\"Department of Cannabis Control\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled\" />\n"
+    },
+    "site_settings": {
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "url": "https://dev-cagov-dcc.pantheonsite.io",
+      "wpurl": "https://dev-cagov-dcc.pantheonsite.io"
+    },
+    "redirection_meta": {
+      "redirects": ""
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/banking-insurance/"
   }
 }

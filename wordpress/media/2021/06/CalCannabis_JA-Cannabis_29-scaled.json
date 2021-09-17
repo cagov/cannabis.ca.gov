@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "created_date": "2021-06-22T17:43:13",
+    "updated_date": "2021-08-16T22:03:09",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8138,
+    "date": "2021-06-22T17:43:13",
+    "date_gmt": "2021-06-22T17:43:13",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29.jpg",
+    "modified": "2021-08-16T22:03:09",
+    "modified_gmt": "2021-08-16T22:03:09",
+    "slug": "calcannabis_ja-cannabis_29",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/calcannabis_ja-cannabis_29/",
+    "title": "test",
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg'><img width=\"300\" height=\"200\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"test\" loading=\"lazy\" /></a></p>\n<p>test</p>\n",
+    "caption": "<p>test</p>\n",
+    "alt_text": "test",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2560,
+      "height": 1707,
+      "file": "2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg",
+      "sizes": {
+        "medium": {
+          "file": "CalCannabis_JA-Cannabis_29-300x200.jpg",
+          "width": 300,
+          "height": 200,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-300x200.jpg"
+        },
+        "large": {
+          "file": "CalCannabis_JA-Cannabis_29-1024x683.jpg",
+          "width": 1024,
+          "height": 683,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1024x683.jpg"
+        },
+        "thumbnail": {
+          "file": "CalCannabis_JA-Cannabis_29-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "CalCannabis_JA-Cannabis_29-768x512.jpg",
+          "width": 768,
+          "height": 512,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-768x512.jpg"
+        },
+        "1536x1536": {
+          "file": "CalCannabis_JA-Cannabis_29-1536x1024.jpg",
+          "width": 1536,
+          "height": 1024,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1536x1024.jpg"
+        },
+        "2048x2048": {
+          "file": "CalCannabis_JA-Cannabis_29-2048x1365.jpg",
+          "width": 2048,
+          "height": 1365,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-2048x1365.jpg"
+        },
+        "et-pb-post-main-image": {
+          "file": "CalCannabis_JA-Cannabis_29-400x250.jpg",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x250.jpg"
+        },
+        "et-pb-post-main-image-fullwidth": {
+          "file": "CalCannabis_JA-Cannabis_29-1080x675.jpg",
+          "width": 1080,
+          "height": 675,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1080x675.jpg"
+        },
+        "et-pb-portfolio-image": {
+          "file": "CalCannabis_JA-Cannabis_29-400x284.jpg",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x284.jpg"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "CalCannabis_JA-Cannabis_29-510x382.jpg",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-510x382.jpg"
+        },
+        "et-pb-portfolio-image-single": {
+          "file": "CalCannabis_JA-Cannabis_29-1080x720.jpg",
+          "width": 1080,
+          "height": 720,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1080x720.jpg"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "CalCannabis_JA-Cannabis_29-400x516.jpg",
+          "width": 400,
+          "height": 516,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x516.jpg"
+        },
+        "et-pb-post-main-image-fullwidth-large": {
+          "file": "CalCannabis_JA-Cannabis_29-2880x1800.jpg",
+          "width": 2880,
+          "height": 1800,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-2880x1800.jpg"
+        },
+        "et-pb-image--responsive--desktop": {
+          "file": "CalCannabis_JA-Cannabis_29-1280x854.jpg",
+          "width": 1280,
+          "height": 854,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1280x854.jpg"
+        },
+        "et-pb-image--responsive--tablet": {
+          "file": "CalCannabis_JA-Cannabis_29-980x653.jpg",
+          "width": 980,
+          "height": 653,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-980x653.jpg"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "CalCannabis_JA-Cannabis_29-480x320.jpg",
+          "width": 480,
+          "height": 320,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-480x320.jpg"
+        },
+        "full": {
+          "file": "CalCannabis_JA-Cannabis_29-scaled.jpg",
+          "width": 2560,
+          "height": 1707,
+          "mime_type": "image/jpeg",
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "2.8",
+        "credit": "",
+        "camera": "Canon EOS 6D",
+        "caption": "",
+        "created_timestamp": "1601612532",
+        "copyright": "",
+        "focal_length": "35",
+        "iso": "125",
+        "shutter_speed": "0.00125",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      },
+      "original_image": "CalCannabis_JA-Cannabis_29.jpg"
+    },
+    "post": null,
+    "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg",
+    "sizes": [
+      {
+        "type": "et-pb-post-main-image-fullwidth-large",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-2880x1800.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-2880x1800.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-2880x1800.jpg",
+        "width": 2880,
+        "height": 1800,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-2880x1800.jpg"
+      },
+      {
+        "type": "full",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-scaled.jpg",
+        "width": 2560,
+        "height": 1707,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-scaled.jpg"
+      },
+      {
+        "type": "2048x2048",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-2048x1365.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-2048x1365.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-2048x1365.jpg",
+        "width": 2048,
+        "height": 1365,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-2048x1365.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-1536x1024.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1536x1024.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-1536x1024.jpg",
+        "width": 1536,
+        "height": 1024,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1536x1024.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--desktop",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-1280x854.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1280x854.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-1280x854.jpg",
+        "width": 1280,
+        "height": 854,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1280x854.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image-fullwidth",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-1080x675.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1080x675.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-1080x675.jpg",
+        "width": 1080,
+        "height": 675,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1080x675.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image-single",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-1080x720.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1080x720.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-1080x720.jpg",
+        "width": 1080,
+        "height": 720,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1080x720.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-1024x683.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1024x683.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-1024x683.jpg",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-1024x683.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--tablet",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-980x653.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-980x653.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-980x653.jpg",
+        "width": 980,
+        "height": 653,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-980x653.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-768x512.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-768x512.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-768x512.jpg",
+        "width": 768,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-768x512.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-510x382.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-510x382.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-510x382.jpg",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-510x382.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-480x320.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-480x320.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-480x320.jpg",
+        "width": 480,
+        "height": 320,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-480x320.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-400x250.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x250.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-400x250.jpg",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x250.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-400x284.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x284.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-400x284.jpg",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x284.jpg"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-400x516.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x516.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-400x516.jpg",
+        "width": 400,
+        "height": 516,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-400x516.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-300x200.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-300x200.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-300x200.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/06/CalCannabis_JA-Cannabis_29-150x150.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-150x150.jpg",
+        "file": "CalCannabis_JA-Cannabis_29-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/CalCannabis_JA-Cannabis_29-150x150.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "created_date": "2021-06-18T03:42:05",
+    "updated_date": "2021-08-16T22:04:12",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 7455,
+    "date": "2021-06-18T03:42:05",
+    "date_gmt": "2021-06-18T03:42:05",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_square.png",
+    "modified": "2021-08-16T22:04:12",
+    "modified_gmt": "2021-08-16T22:04:12",
+    "slug": "logo_square",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/logo_square/",
+    "title": "logo_square",
+    "author": "chach.sikes",
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_square.png'><img width=\"90\" height=\"90\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_square.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 90,
+      "height": 90,
+      "file": "2021/06/logo_square.png",
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_square.png",
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_square.png",
+    "path": "2021/06/logo_square.png"
+  }
+}
