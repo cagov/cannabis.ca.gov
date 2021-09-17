@@ -1,37 +1,41 @@
 {
   "meta": {
     "created_date": "2020-06-29T19:04:00",
-    "updated_date": "2021-06-19T15:50:47",
+    "updated_date": "2021-06-14T19:15:45",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
     "id": 5979,
-    "slug": "state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees",
-    "title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals to Additional Licensees",
-    "author": "Department of Cannabis Control",
     "date": "2020-06-29T19:04:00",
-    "modified": "2021-06-19T08:50:47",
     "date_gmt": "2020-06-29T19:04:00",
-    "modified_gmt": "2021-06-19T15:50:47",
+    "guid": "http://wordpress.test:8888/content-types/announcement/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees/",
+    "modified": "2021-06-14T19:15:45",
+    "modified_gmt": "2021-06-14T19:15:45",
+    "slug": "state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees",
+    "status": "publish",
+    "type": "post",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2020/06/29/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees/",
+    "title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals to Additional Licensees",
+    "excerpt": "<p>SACRAMENTO — The three state cannabis licensing authorities announced today that businesses with state commercial cannabis licenses expiring between July 1, 2020 and August 31, 2020 may request 60-day deferrals of their license fee payments.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2020/06/29/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees/",
-    "excerpt": "<p>SACRAMENTO — The three state cannabis licensing authorities announced today that businesses with state commercial cannabis licenses expiring between July 1, 2020 and August 31, 2020 may request 60-day deferrals of their license fee payments.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Press Releases"
@@ -43,10 +47,55 @@
       "California cannabis",
       "California Department of Food and Agriculture",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "CDFA",
+      "CDPH",
+      "Licensing"
+    ],
+    "design_system_fields": {
+      "template": "template-single-press-release",
+      "post": {
+        "post_link": "",
+        "post_date": "",
+        "locale": "en_US",
+        "gmt_offset": "0",
+        "timezone": "",
+        "post_published_date_display": {
+          "i18n_locale_date": "June 29, 2020",
+          "i18n_locale_date_gmt": "June 29, 2020",
+          "i18n_locale_date_time": "June 29, 2020 7:04 pm",
+          "i18n_locale_date_time_gmt": "June 29, 2020 7:04 pm"
+        },
+        "post_modified_date_display": {
+          "i18n_locale_date": "June 14, 2021",
+          "i18n_locale_date_gmt": "June 14, 2021",
+          "i18n_locale_date_time": "June 14, 2021 7:15 pm",
+          "i18n_locale_date_time_gmt": "June 14, 2021 7:15 pm"
+        },
+        "post_location": "",
+        "custom_fields": null
+      }
+    },
+    "site_settings": {
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "url": "https://dev-cagov-dcc.pantheonsite.io",
+      "wpurl": "https://dev-cagov-dcc.pantheonsite.io"
+    },
+    "autodescription_meta": {
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "_genesis_canonical_uri": "",
+      "_social_image_url": "",
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled\" />\n<meta property=\"og:site_name\" content=\"Department of Cannabis Control\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled\" />\n"
+    },
+    "redirection_meta": {
+      "redirects": ""
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/06/29/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals-to-additional-licensees/"
   }
 }

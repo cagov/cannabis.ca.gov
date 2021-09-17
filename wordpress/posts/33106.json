@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "created_date": "2019-05-13T23:45:00",
+    "updated_date": "2021-06-14T19:16:06",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6323,
+    "date": "2019-05-13T23:45:00",
+    "date_gmt": "2019-05-13T23:45:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/33106/",
+    "modified": "2021-06-14T19:16:06",
+    "modified_gmt": "2021-06-14T19:16:06",
+    "slug": "33106",
+    "status": "publish",
+    "type": "post",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/33106/",
+    "title": "Cancelled: Cannabis Fees Stakeholder Meeting &#8211; May 10, 2019",
+    "excerpt": "<p>Interested Parties,<br />\nThe Cannabis Fees Stakeholders meeting on Friday May 10th has been cancelled. The meeting will be rescheduled at a later date.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Events"
+    ],
+    "tags": [
+      "CalEPA",
+      "Cannabis",
+      "Fees",
+      "May 10",
+      "Meeting",
+      "Stakeholder",
+      "State Water Board",
+      "State Water Resources Control Board"
+    ],
+    "design_system_fields": {
+      "template": "template-single-event",
+      "post": {
+        "post_link": "",
+        "post_date": "",
+        "locale": "en_US",
+        "gmt_offset": "0",
+        "timezone": "",
+        "post_published_date_display": {
+          "i18n_locale_date": "May 13, 2019",
+          "i18n_locale_date_gmt": "May 13, 2019",
+          "i18n_locale_date_time": "May 13, 2019 11:45 pm",
+          "i18n_locale_date_time_gmt": "May 13, 2019 11:45 pm"
+        },
+        "post_modified_date_display": {
+          "i18n_locale_date": "June 14, 2021",
+          "i18n_locale_date_gmt": "June 14, 2021",
+          "i18n_locale_date_time": "June 14, 2021 7:16 pm",
+          "i18n_locale_date_time_gmt": "June 14, 2021 7:16 pm"
+        },
+        "post_location": "",
+        "custom_fields": null
+      }
+    },
+    "site_settings": {
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "url": "https://dev-cagov-dcc.pantheonsite.io",
+      "wpurl": "https://dev-cagov-dcc.pantheonsite.io"
+    },
+    "autodescription_meta": {
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "_genesis_canonical_uri": "",
+      "_social_image_url": "",
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled\" />\n<meta property=\"og:site_name\" content=\"Department of Cannabis Control\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled\" />\n"
+    },
+    "redirection_meta": {
+      "redirects": ""
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/33106/"
+  }
+}

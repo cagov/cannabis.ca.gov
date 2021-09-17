@@ -1,37 +1,41 @@
 {
   "meta": {
     "created_date": "2017-12-08T16:00:00",
-    "updated_date": "2021-07-01T17:52:33",
+    "updated_date": "2021-06-14T19:17:01",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
     "id": 6271,
-    "slug": "state-applications-for-cannabis-manufacturing-are-now-available",
-    "title": "State Applications for Cannabis Manufacturing are Now Available",
-    "author": "Department of Cannabis Control",
     "date": "2017-12-08T16:00:00",
-    "modified": "2021-07-01T10:52:33",
     "date_gmt": "2017-12-08T16:00:00",
-    "modified_gmt": "2021-07-01T17:52:33",
+    "guid": "http://wordpress.test:8888/content-types/announcement/state-applications-for-cannabis-manufacturing-are-now-available/",
+    "modified": "2021-06-14T19:17:01",
+    "modified_gmt": "2021-06-14T19:17:01",
+    "slug": "state-applications-for-cannabis-manufacturing-are-now-available",
+    "status": "publish",
+    "type": "post",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
+    "title": "State Applications for Cannabis Manufacturing are Now Available",
+    "excerpt": "<p>The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
-    },
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
-    "wordpress_url": "https://cannabis.ca.gov/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
-    "excerpt": "<p>The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.</p>\n",
-    "format": "standard",
-    "type": "post",
-    "design_system_fields": {
-      "display_title": false
     },
     "categories": [
       "Announcements"
@@ -39,11 +43,56 @@
     "tags": [
       "Apply",
       "California Department of Public Health",
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+      "Cannabis",
+      "Licensing",
+      "Manufacturing",
+      "Online",
+      "Regulation"
+    ],
+    "design_system_fields": {
+      "template": "template-single",
+      "post": {
+        "post_link": "",
+        "post_date": "",
+        "locale": "en_US",
+        "gmt_offset": "0",
+        "timezone": "",
+        "post_published_date_display": {
+          "i18n_locale_date": "December 8, 2017",
+          "i18n_locale_date_gmt": "December 8, 2017",
+          "i18n_locale_date_time": "December 8, 2017 4:00 pm",
+          "i18n_locale_date_time_gmt": "December 8, 2017 4:00 pm"
+        },
+        "post_modified_date_display": {
+          "i18n_locale_date": "June 14, 2021",
+          "i18n_locale_date_gmt": "June 14, 2021",
+          "i18n_locale_date_time": "June 14, 2021 7:17 pm",
+          "i18n_locale_date_time_gmt": "June 14, 2021 7:17 pm"
+        },
+        "post_location": "",
+        "custom_fields": null
+      }
+    },
+    "site_settings": {
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "url": "https://dev-cagov-dcc.pantheonsite.io",
+      "wpurl": "https://dev-cagov-dcc.pantheonsite.io"
+    },
+    "autodescription_meta": {
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "_genesis_canonical_uri": "",
+      "_social_image_url": "",
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled\" />\n<meta property=\"og:site_name\" content=\"Department of Cannabis Control\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled\" />\n"
+    },
+    "redirection_meta": {
+      "redirects": ""
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/"
   }
 }
