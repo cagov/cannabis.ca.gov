@@ -2,7 +2,7 @@ name: Eleventy Build Main
 on:
   push:
     branches:
-      - headless
+      - development
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
@@ -34,7 +34,7 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: 'headless.cannabis.ca.gov'
+          AWS_S3_BUCKET: 'development.cannabis.ca.gov'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
