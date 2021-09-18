@@ -54,7 +54,7 @@
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.6",
     "@cagov/ds-base-css": "^1.0.2",
-    "@cagov/ds-branding": "^1.0.2",
+    "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-card-grid": "^1.0.2",
     "@cagov/ds-content-navigation": "^1.0.3",
     "@cagov/ds-dropdown-menu": "^1.0.11",
