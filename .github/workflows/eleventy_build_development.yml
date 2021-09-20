@@ -27,9 +27,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: publish_development
-          env:
-             SITE_DOMAIN: "http://development.cannabis.ca.gov.s3.amazonaws.com"
-            # SITE_DOMAIN: "https://development.cannabis.ca.gov"
+
           # Push built site files to S3 production bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
