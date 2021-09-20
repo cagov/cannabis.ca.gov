@@ -1,7 +1,7 @@
 {
-  "name": "cagov-design-system",
+  "name": "cannabis.ca.gov",
   "version": "1.0.0",
-  "description": "",
+  "description": "Headless build of cannabis.ca.gov",
   "main": "index.html",
   "scripts": {
     "sass:compile": "node-sass --source-map true src/css/sass/ -o dist/",
@@ -18,13 +18,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagov/cannabis.ca.gov/issues"
+  },
+  "homepage": "https://github.com/cagov/cannabis.ca.gov#README",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "node-fetch": "^2.6.1"
   },
   "dependencies": {
+    "@cagov/11ty-serverless-preview-mode": "^1.0.6",
     "@cagov/ds-accordion": "^1.0.3",
-    "@cagov/ds-feedback": "^1.0.1",
+    "@cagov/ds-feedback": "^1.0.5",
     "@cagov/ds-minus": "^1.0.0",
     "@cagov/ds-pagination": "^1.0.0",
     "@cagov/ds-plus": "^1.0.0",
@@ -33,6 +38,7 @@
     "autoprefixer": "^10.2.5",
     "chokidar-cli": "^2.1.0",
     "clean-css": "^5.1.2",
+    "moment-timezone": "^0.5.33",
     "node-sass-chokidar": "^1.5.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1",
