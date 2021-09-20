@@ -26,7 +26,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          publish_branch: development
+          publish_branch: publish_development
+          # env:
+            # SITE_DOMAIN: "https://development.cannabis.ca.gov"
+          
           # Push built site files to S3 production bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
@@ -40,11 +43,11 @@ jobs:
           SOURCE_DIR: ./docs # only move built directory
 
       # Invalidate Cloudfront production distribution
-      - name: invalidate
-        uses: chetan/invalidate-cloudfront-action@v1.3
-        env:
-          DISTRIBUTION: 'E1HY53GZXHPHRV'
-          PATHS: '/*'
-          AWS_REGION: 'us-west-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
+      #- name: invalidate
+      #  uses: chetan/invalidate-cloudfront-action@v1.3
+      #  env:
+      #    DISTRIBUTION: 'E1HY53GZXHPHRV'
+      #    PATHS: '/*'
+      #    AWS_REGION: 'us-west-1'
+      #    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
