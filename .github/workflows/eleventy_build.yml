@@ -17,7 +17,6 @@ jobs:
           node-version: 14.17.0
       - name: Build 11ty
         run: |
-          mkdir dist
           npm install
           npm run build
 
