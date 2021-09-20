@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.6",
-    "@cagov/ds-base-css": "^1.0.2",
+    "@cagov/ds-base-css": "^1.0.3",
     "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-card-grid": "^1.0.2",
     "@cagov/ds-content-navigation": "^1.0.3",
@@ -66,8 +66,8 @@
     "@cagov/ds-pdf-icon": "^1.0.0",
     "@cagov/ds-plus": "^1.0.0",
     "@cagov/ds-skip-to-content": "^1.0.0",
-    "@cagov/ds-statewide-footer": "^1.0.0",
-    "@cagov/ds-statewide-header": "^1.0.6",
+    "@cagov/ds-statewide-footer": "^1.0.1",
+    "@cagov/ds-statewide-header": "^1.0.7",
     "@cagov/ds-step-list": "^1.0.1"
   }
 }
