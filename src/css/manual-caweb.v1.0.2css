@@ -920,3 +920,18 @@ padding-bottom: 0  !important;
 margin-top: 0 !important;
 margin-bottom: 2rem !important;
 }
+
+/* content navigation  */
+sidebar cagov-content-navigation ul li {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+border-top: none;
+  border-bottom: 1px solid var(--gray-200, #ededef);
+  line-height: 28.2px;
+  list-style: none;}
+sidebar cagov-content-navigation ul li:first-child {
+ border-top: 1px solid var(--gray-200, #ededef);}
+sidebar cagov-content-navigation ul li a {text-decoration:none;}
+sidebar cagov-content-navigation ul li a:hover {text-decoration: underline;}
