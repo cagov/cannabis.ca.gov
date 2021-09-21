@@ -424,7 +424,7 @@ a.second-level-link:focus {
   content: "\55" !important;
   color: white !important;
   position: relative;
-  top:0;
+  top:-11px;
   right: 4px;
   font-size: 25px;
 }
