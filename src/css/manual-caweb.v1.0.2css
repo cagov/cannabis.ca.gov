@@ -935,3 +935,8 @@ sidebar cagov-content-navigation ul li:first-child {
  border-top: 1px solid var(--gray-200, #ededef);}
 sidebar cagov-content-navigation ul li a {text-decoration:none;}
 sidebar cagov-content-navigation ul li a:hover {text-decoration: underline;}
+
+/* main content */
+#main-content.landing {
+  margin-top: 0 !important;
+}
