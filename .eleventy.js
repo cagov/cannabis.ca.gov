@@ -3,6 +3,9 @@ let pressList = require('./src/templates/_includes/layouts/templates/press-list.
 let lastFewPosts = require('./src/templates/_data/last-few-posts.js');
 const monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
+/**
+ * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig 
+ */
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
@@ -27,13 +30,15 @@ module.exports = function(eleventyConfig) {
           pressPosts.push(item);
         }
       }
+      // modify the wordpress asset links here opportunistically because we are already looping through tempaltes with njk transformed into HTML 
+
     });
     pressPosts.sort((a,b) => {
       return new Date(b.data.wordpress.dataset.data.date).getTime() - new Date(a.data.wordpress.dataset.data.date).getTime();
     });
     return pressPosts;
   });
-  
+
   eleventyConfig.addFilter("postlist", function(html) {
     let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
     let myArray = myRe.exec(html);

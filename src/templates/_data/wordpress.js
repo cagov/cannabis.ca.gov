@@ -178,7 +178,7 @@ function getHeadTags(data, field) {
     let url_path = cleanUrl(
       data.wordpress_url
     );
-    let permalink = `${site_url}/${url_path}` 
+    let permalink = `${site_url}${url_path}` 
     return permalink;
   }
   if (field === "image") {
