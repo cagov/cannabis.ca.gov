@@ -940,3 +940,14 @@ sidebar cagov-content-navigation ul li a:hover {text-decoration: underline;}
 #main-content.landing {
   margin-top: 0 !important;
 }
+/* department footer fixes */
+.menu-section .logo-small img {
+  max-width: 100%;
+  height: auto;
+}
+.content-menu-links {
+  padding-left: 0;
+}
+.menu-section ul li {
+  list-style: none;
+}
