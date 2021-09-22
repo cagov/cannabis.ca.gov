@@ -1,7 +1,8 @@
 name: End-to-end tests cypress
 on:
-  schedule:
-    - cron: "*/5 * * * *"
+  push:
+    branches:
+      - main
 
 jobs:
   cypress-run:
