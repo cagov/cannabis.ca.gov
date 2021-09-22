@@ -10,8 +10,8 @@
       {
         "outputBranch": "main",
         "disabled": false,
-        "PostPath": "pages/wordpress/posts",
-        "PagePath": "pages/wordpress/pages",
+        "PostPath": "wordpress/posts",
+        "PagePath": "wordpress/pages",
         "MediaPath": "wordpress/media",
         "ExcludeProperties": [
           "content",
