@@ -9,14 +9,14 @@ pagination:
     {%- for item in pagination.items %}
       <div class="post-list-item">
         <div class="link-title">
-          <a href="{{ item.data.wordpress.dataset.data.wordpress_url }}">
+          <a href="{{ item.data.data.wordpress_url }}">
             {{ item.data.title | safe }}
           </a>
           </div>
         <div class="excerpt"><p></p>
-        <p>{{ item.data.wordpress.dataset.data.excerpt | safe }}</p>
+        <p>{{ item.data.data.excerpt | safe }}</p>
         <p></p></div>
-        <div class="date">{{ item.data.wordpress.dataset.data.date | dateFormat }}</div>
+        <div class="date">{{ item.data.data.date | dateFormat }}</div>
       </div>
     {% endfor -%}
   </div>

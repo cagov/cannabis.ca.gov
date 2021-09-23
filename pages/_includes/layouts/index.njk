@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>{{ page_meta.page_title | safe }}</title>
+  <title>{{ title | safe }}</title>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
-	<meta name="description" content="{{ page_meta.page_description | safe }}" />
+	<meta name="description" content="{{ description | safe }}" />
 	<meta name="keywords" content="California, government, cannabis, cannabis.ca.gov" />
 
 	<!-- http://t.co/dKP3o1e -->
@@ -16,24 +16,24 @@
 	{# <!-- Google Meta-->
 	<meta name="google-site-verification" content="account_number" /> #}
   <!-- OG tags -->
-  <link rel="canonical" href="{{ page_meta.canonical_url | safe }}" />
-  {# {{ page_meta.og_meta | safe }} #}
+  <link rel="canonical" href="{{ data.wordpress_url | safe }}" />
+  {# {{ social.og_meta | safe }} #}
   {# more properties required for FB sharing #}
-  <meta property="og:url" content="{{ page_meta.canonical_url | safe }}" />
-  <meta property="og:description" content="{{ page_meta.page_description | safe }}" />
-  <meta property="og:title" content="{{ page_meta.page_title | safe }}" />
+  <meta property="og:url" content="{{ data.wordpress_url | safe }}" />
+  <meta property="og:description" content="{{ description | safe }}" />
+  <meta property="og:title" content="{{ title | safe }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ page_meta.image.url | safe }}" />
-  {# <meta property="og:image:alt" content="{{ page_meta.image.alt | safe }}" /> #}
-  <meta property="og:image:width" content="{{ page_meta.image.width | safe }}" />
-  <meta property="og:image:height" content="{{ page_meta.image.height | safe }}" />
+  <meta property="og:image" content="{{ social.image.url | safe }}" />
+  {# <meta property="og:image:alt" content="{{ social.image.alt | safe }}" /> #}
+  <meta property="og:image:width" content="{{ social.image.width | safe }}" />
+  <meta property="og:image:height" content="{{ social.image.height | safe }}" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="{{ page_meta.site_title | safe }}" />
+  <meta property="og:site_name" content="{{ social.site_title | safe }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ page_meta.page_title | safe }}" />
-  <meta name="twitter:image" content="{{ page_meta.image.url | safe }}" />
-  <meta name="twitter:image:width" content="{{ page_meta.image.width | safe }}" />
-  <meta name="twitter:image:height" content="{{ page_meta.image.height | safe }}" />
+  <meta name="twitter:title" content="{{ title | safe }}" />
+  <meta name="twitter:image" content="{{ social.image.url | safe }}" />
+  <meta name="twitter:image:width" content="{{ social.image.width | safe }}" />
+  <meta name="twitter:image:height" content="{{ social.image.height | safe }}" />
 
   <link title="Fav Icon" rel="icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
   <link rel="shortcut icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
@@ -42,7 +42,7 @@
   <link rel="preconnect" href="https://www.google-analytics.com/">
   <!-- CSS -->
   {% set css %}
-  {% include "../../../../dist/index.css" %}
+  {% include "../../../dist/index.css" %}
   {% endset %}
   <!-- the inlined hardcoded grid css below is there because it was breaking sass compilation -->
   <style>
@@ -91,7 +91,7 @@
   {% include "../footer-universal.njk" %}
 
   {% set js %}
-  {% include "../../../../dist/built.js" %}
+  {% include "../../../dist/built.js" %}
   {% endset %}
   <script type="module">
     {{ js | safe }}
