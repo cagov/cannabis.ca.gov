@@ -1,26 +1,23 @@
 /* GLOBAL */
 // Site Colors
-@import './colorschemes/cannabis.scss'; /* theme colors */
+@import "./colorschemes/cannabis.scss"; /* theme colors */
 
 /* COMPONENTS/BLOCKS */
-@import '../../components/page-alert/index'; /* copied from gutenberg custom block */
-@import '../../components/post-list-headless/_style';
+@import "../../components/page-alert/index"; /* copied from gutenberg custom block */
+@import "../../components/post-list-headless/_style";
 @import "../../components/regulatory-outline/_regulatory-outline";
 
 /* NAVIGATION ELEMENTS */
-@import '../../components/site-footer/index.scss';
-@import '../../../node_modules/@cagov/ds-skip-to-content/src/index.scss'; // skip-to-content
-@import '../../../node_modules/@cagov/ds-statewide-header/src/index.scss'; // statewide header
-@import '../../../node_modules/@cagov/ds-statewide-footer/src/index.scss'; // statewide footer
-@import '../../../node_modules/@cagov/ds-base-css/src/_core.scss'; // unthemed base css
-@import '../../../node_modules/@cagov/ds-step-list/src/index.scss'; // step list
-@import '../../../node_modules/@cagov/ds-feature-card/index'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-card-grid/index'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-branding/src/index.scss'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-content-navigation/src/index.scss'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss'; // now imported from npm module
-@import '../../../node_modules/@cagov/ds-pdf-icon/src/index.scss'; // now imported from npm module
-
-
-
-
+@import "../../components/site-footer/index.scss";
+@import "../../../node_modules/@cagov/ds-skip-to-content/src/index.scss"; // skip-to-content
+@import "../../../node_modules/@cagov/ds-statewide-header/src/index.scss"; // statewide header
+@import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss"; // statewide footer
+@import "../../../node_modules/@cagov/ds-base-css/src/_core.scss"; // unthemed base css
+@import "../../../node_modules/@cagov/ds-step-list/src/index.scss"; // step list
+@import "../../../node_modules/@cagov/ds-feature-card/index"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-card-grid/index"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-branding/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-content-navigation/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-pdf-icon/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-back-to-top/src/index.scss"; // now imported from npm module

@@ -53,7 +53,8 @@
   },
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.6",
-    "@cagov/ds-base-css": "^1.0.3",
+    "@cagov/ds-back-to-top": "^1.0.0",
+    "@cagov/ds-base-css": "^1.0.4",
     "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-card-grid": "^1.0.2",
     "@cagov/ds-content-navigation": "^1.0.3",
