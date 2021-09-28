@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
-  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
+  eleventyConfig.addPassthroughCopy({ "wordpress/media": "wp-content/uploads" });
   eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" });
   
   eleventyConfig.setBrowserSyncConfig({
@@ -60,7 +60,7 @@ module.exports = function(eleventyConfig) {
         if(jsonData.media) {
           const featuredMedia = jsonData.media.find(x=>x.featured);
           if(featuredMedia) {
-            item.data.previewimage = '/media/'+featuredMedia.path;
+            item.data.previewimage = '/wp-content/uploads/'+featuredMedia.path;
           }
 
           jsonData.media.filter(x=>x.source_url_match).forEach(m=>{
@@ -76,8 +76,8 @@ module.exports = function(eleventyConfig) {
         }
       }
       // modify the wordpress asset links here opportunistically because we are already looping through tempaltes with njk transformed into HTML 
-      item.template.frontMatter.content = item.template.frontMatter.content.replace('http://cannabis.ca.gov/wp-content/uploads/','/media/');
-      item.template.frontMatter.content = item.template.frontMatter.content.replace('https://cannabis.ca.gov/wp-content/uploads/','/media/');
+      item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp('http://cannabis.ca.gov/','g'),'/');
+      item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp('https://cannabis.ca.gov/','g'),'/');
     });
     pressPosts.sort((a,b) => {
       return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();

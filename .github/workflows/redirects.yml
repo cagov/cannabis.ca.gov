@@ -2,7 +2,7 @@ name: Eleventy Build Main
 on:
   push:
     branches:
-      - redirect-config
+      - main
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
