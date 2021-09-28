@@ -1,5 +1,5 @@
 name: Eleventy Build Main
-# site:  https://development-pantheon.cannabis.ca.gov
+# site:  https://development.cannabis.ca.gov
 # editor: https://dev-cannabis-ca-gov.pantheonsite.io
 # s3 bucket: development-pantheon.cannabis.ca.gov
 on:
