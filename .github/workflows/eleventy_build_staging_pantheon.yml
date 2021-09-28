@@ -5,8 +5,7 @@ name: Eleventy Build Main
 on:
   push:
     branches:
-      - pantheon_production
-jobs:
+      - staging
   build_deploy:
     runs-on: ubuntu-18.04
     steps:
@@ -29,7 +28,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          publish_branch: deploy_pantheon_development
+          publish_branch: deploy_staging_pantheon
 
           # Push built site files to S3 production bucket    
       - name: Deploy to S3
