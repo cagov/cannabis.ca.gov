@@ -46,6 +46,9 @@
       "GO-BIZ",
       "Governor's Office of Business and Economic Development"
     ],
+    "design_system_fields": {
+      "template": "template-single"
+    },
     "autodescription_meta": {
       "tsf_post_meta": {
         "_genesis_title": "",

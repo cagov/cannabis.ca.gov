@@ -50,6 +50,9 @@
       "OAL",
       "Public comment"
     ],
+    "design_system_fields": {
+      "template": "template-single-press-release"
+    },
     "autodescription_meta": {
       "tsf_post_meta": {
         "_genesis_title": "",
