@@ -1,7 +1,7 @@
-name: Eleventy Build Main
+name: Eleventy build development cannabis.ca.gov WP API
 # site:  https://development.cannabis.ca.gov
-# editor: https://dev-cannabis-ca-gov.pantheonsite.io
-# s3 bucket: development-pantheon.cannabis.ca.gov
+# editor: https://cannabis.ca.gov
+# s3 bucket: development.cannabis.ca.gov
 on:
   push:
     branches:

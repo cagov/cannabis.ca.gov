@@ -1,6 +1,6 @@
-name: Eleventy Build Main
+name: Eleventy build staging Pantheon Flywheel clone
 # site:  staging-pantheon.cannabis.ca.gov
-# editor: https://live-cannabis-ca-gov.pantheonsite.io
+# editor: https://dev-cagov-dcc.pantheonsite.io/
 # s3 bucket: staging-pantheon.cannabis.ca.gov
 on:
   push:
