@@ -39,6 +39,9 @@
     },
     "categories": [],
     "tags": [],
+    "design_system_fields": {
+      "template": "searchpage"
+    },
     "autodescription": {
       "tsf_post_meta": {
         "_genesis_title": "",
