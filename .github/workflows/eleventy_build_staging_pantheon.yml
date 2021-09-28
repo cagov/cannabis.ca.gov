@@ -1,7 +1,7 @@
 name: Eleventy Build Main
 # site:  staging.cannabis.ca.gov
 # editor: https://live-cannabis-ca-gov.pantheonsite.io
-# s3 bucket: headless-pantheon.cannabis.ca.gov
+# s3 bucket: staging.cannabis.ca.gov
 on:
   push:
     branches:
