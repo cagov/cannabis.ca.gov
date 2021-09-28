@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - staging
+jobs:
   build_deploy:
     runs-on: ubuntu-18.04
     steps:
