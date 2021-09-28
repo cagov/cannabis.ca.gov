@@ -1,8 +1,10 @@
+// Manual JS with fixes for CAweb 1.5.7
 // This to make sure featured search is visible and displayed correctly
 $(document).ready(function () {
     $(".navigation-search").addClass("full-width-nav container");
     $("#head-search").addClass("featured-search").insertBefore("#navigation");
-
+    // get rid fo divi styles
+    $("#divi-style-parent-inline-inline-css").html("");
 // Move mobile icons before brandin
 $(".mobile-controls").insertBefore(".branding");
 // menu toggle button switch places with search toggle button in mobile

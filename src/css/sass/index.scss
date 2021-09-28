@@ -1,35 +1,23 @@
 /* GLOBAL */
 // Site Colors
-@import './colorschemes/cannabis.scss'; /* theme colors */
-@import './_variables'; /* spasing, margin and padding values */
-
-/* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
-@import './_fonts'; /* website global fonts */
-@import './_base'; /* html, body, main and all the website level base styes */
-@import './_buttons'; /* buttons generic styles */
-@import './_code'; /* pre, code, var generic styles */
-@import './_forms'; /* input, textarea, select generic styles */
-@import './_links'; /* a, a:hover, a:focus */
-@import './_typography'; /* headings, p, blockqute, font styles */
-@import './_utility-classes'; /* all utility css classes that can be used (shortcodes) */
-/* all of the above will become part of base-css component */
+@import "./colorschemes/cannabis.scss"; /* theme colors */
 
 /* COMPONENTS/BLOCKS */
-@import '../../components/page-alert/index'; /* copied from gutenberg custom block */
-@import '../../components/hero/index'; /* copied from block */
-@import '../../components/cards/index'; /* copied from blocks */
-@import '../../components/breadcrumb/index'; /* copied from blocks */
-@import '../../components/content-navigation/index'; /* copied from blocks */
-@import '../../components/step-list/index';
-@import './_announcement-list'; /* copied from block */
-@import '../../components/branding/_style';
-@import '../../components/utility-header/_style';
-@import '../../components/site-footer/_style';
-@import '../../components/footer/_style';
-@import '../../components/navigation/_style';
-@import '../../components/menu/scss/_index';
-/* these component should all be published and installed so they aren't duplicated here and in design-system */
+@import "../../components/page-alert/index"; /* copied from gutenberg custom block */
+@import "../../components/post-list-headless/_style";
+@import "../../components/regulatory-outline/_regulatory-outline";
 
-/* page layout styles, not sure where this should go, in base-css too eventually? */
-@import './_layouts-main'; 
-@import './_layouts-sidebar'; 
+/* NAVIGATION ELEMENTS */
+@import "../../components/site-footer/index.scss";
+@import "../../../node_modules/@cagov/ds-skip-to-content/src/index.scss"; // skip-to-content
+@import "../../../node_modules/@cagov/ds-statewide-header/src/index.scss"; // statewide header
+@import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss"; // statewide footer
+@import "../../../node_modules/@cagov/ds-base-css/src/_core.scss"; // unthemed base css
+@import "../../../node_modules/@cagov/ds-step-list/src/index.scss"; // step list
+@import "../../../node_modules/@cagov/ds-feature-card/index"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-card-grid/index"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-branding/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-content-navigation/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-pdf-icon/src/index.scss"; // now imported from npm module
+@import "../../../node_modules/@cagov/ds-back-to-top/src/index.scss"; // now imported from npm module

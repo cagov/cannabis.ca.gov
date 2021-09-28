@@ -1,18 +1,36 @@
-/* Cannabis color scheme */ 
-//theme colors
-$primary: #2f4c2c;
-$primary-dark: #064e66;
-$primary-light: #ccdbf2;
-$secondary: #fec02f;
-$secondary-dark: #cf5d28;
-$secondary-light: #fff2d5;
+/* Cannabis logo font */
+@font-face {
+	font-family: 'Lexend';
+	src: url('/fonts/Lexend-Medium.woff2') format('woff2');
+  }
 
 /* Colorscheme root variables */
 :root {
-  --primary-color: #064e66;
+  /* Theme colors */
+  --primary-color: #064E66;
+  --primary-dark-color: #043747;
+  --primary-light-color: #518394;
+  --primary-lightest-color: #B4CAD1;
   --primary-hover-color: #043747;
-  --standout-color: #2f4c2c;
-  --standout-hover-color: #21351f;
-  --secondary-color: #cf5d28;
-  --highlight-color: #fdb81e;
+
+  --secondary-color: #2F4C2C;
+  --secondary-dark-color: #21351F;
+  --secondary-light-color: #6D826B;
+  --secondary-lightest-color: #C1C9C0;
+  --secondary-hover-color: #21351F;
+
+  --highlight-color: #C0633B;
+  --highlight-dark-color: #864529;
+  --highlight-light-color: #D39276;
+  --highlight-lightest-color: #ECD0C4;
+  --secondary-hover-color: #864529;
+  
+  --org-name-state-font: "Arial", "Helvetica", sans-serif;
+  --org-name-state-font-size: 0.875rem;
+  --org-name-state-text-transform: uppercase;
+
+  --org-name-dept-font: "Lexend";
+  --org-name-dept-font-size: 1.5rem;
+  --org-name-dept-font-weight: 500;
 }
+

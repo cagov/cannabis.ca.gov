@@ -1,199 +1,112 @@
-const moment = require('moment-timezone');
 const CleanCSS = require("clean-css");
+let pressList = require('./pages/_includes/layouts/templates/press-list.js');
+let lastFewPosts = require('./pages/_data/last-few-posts.js');
+let extractMeta = require('./src/build/extract-meta.js');
+const monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-// let pressList = require('./src/templates/_includes/layouts/templates/press-list.js');
-// let last3Posts = require('./src/templates/_data/last3.js');
-
-const wordpressEditor = "https://dev-cannabis-ca-gov.pantheonsite.io";
-const wordpressEditorApi = "https://dev-cannabis-ca-gov.pantheonsite.io";
-const wordpressEditorMediaFiles = "https://dev-cannabis-ca-gov.pantheonsite.io";
-// const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
-const SITE_DOMAIN = ""; // Relative links only for local images in display.
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net/media/";
-const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://development.cannabis.ca.gov/media/";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/"; // Test with original image (not cached)
-
-const replacementPaths = {
-  media: {
-    src: "https://dev-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
-    target: "/media/",
-    targetPermalink: `${SITE_DOMAIN}/media/`,
-    targetPermalinkOGTags: `${DEFAULT_SITE_DOMAIN_OG_TAGS}`,
-    targetPermalinkTest: "https://github.com/cagov/cannabis.ca.gov/raw/development/wordpress/media/"
-  },
-};
-
-
+/**
+ * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig 
+ */
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
+  eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
+  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
+  eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" });
+  
   eleventyConfig.setBrowserSyncConfig({
     watch:true,
     notify:true,
  });
-
+ 
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-
-  // eleventyConfig.addCollection("press", function(collection) {
-  //   let output = [];
-  //   collection.getAll().forEach(item => {
-  //     if(item.data.wordpress.dataset) {
-  //       if(item.data.type == "post") {
-  //         output.push(item);
-  //       }
-  //     }
-  //   });
-  //   return output.sort((a,b) => {
-  //     return a.data.date > b.data.date;
-  //   });
-  // });
-  
-  // eleventyConfig.addFilter("postlist", function(html) {
-  //   let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
-  //   let myArray = myRe.exec(html);
-  //   let lastPosts = last3Posts();
-  //   let postHTML = pressList(lastPosts);
-  //   if(myArray) {
-  //     return html.replace(myArray[0],postHTML);
-  //   }
-  //   return html;    
-  // });
-
-  eleventyConfig.addCollection("manualcontent", function(collection) {
-    let output = [];
+  eleventyConfig.addCollection("press", function(collection) {
+    let pressPosts = [];
+    let folderNames = ['/wordpress/posts','/wordpress/pages'];
     collection.getAll().forEach(item => {
-      if(item.data.wordpress.dataset) {
-        item.data.title = item.data.wordpress.dataset.data.title;
-        item.data.templatestring = item.data.wordpress.dataset.data.template;
-      }
-      output.push(item);
-    });
 
-    return output;
-  });
+      if(item.inputPath.includes(folderNames[0]) || item.inputPath.includes(folderNames[1])) {
+        item.outputPath = 'docs' + extractMeta.cleanUrl(item.data.data.wordpress_url) + 'index.html';
 
+        item.url = item.outputPath;
+        item.data.page.url = item.url;
 
-  // New stuff
-  const { addPreviewModeToEleventy } = require("@cagov/11ty-serverless-preview-mode");
-  addPreviewModeToEleventy(eleventyConfig);
+        //content pulled in from JSON
+        const jsonData = item.data.data;
+        item.data.layout = "layouts/index";
+        item.data.title = jsonData.title;
+        item.data.publishdate = jsonData.date.split('T')[0]; //new Date(jsonData.modified_gmt)
+        item.data.meta = jsonData.excerpt;
+        item.data.description = jsonData.excerpt;
 
+        item.data.description = extractMeta.getHeadTags(jsonData, "page_description");
+        if(!item.data.social) { item.data.social = {}; }
+        item.data.social.site_title = extractMeta.getHeadTags(jsonData, "site_title");
+        item.data.social.site_description = extractMeta.getHeadTags(jsonData, "site_description");
+        item.data.social.image = extractMeta.getHeadTags(jsonData, "image");
+        item.data.social.twitter_title = extractMeta.getHeadTags(jsonData, "twitter_title");
+        item.data.social.og_meta = extractMeta.getOGMetatags(jsonData);
 
-  const wordpressImagePath = 'img/wordpress';
+        item.data.lead = jsonData.excerpt;
+        item.data.author = jsonData.author;
+        item.data.templatestring = extractMeta.chooseTemplate(jsonData);
+        item.data.category = jsonData.category;
+        item.data.id = jsonData.id;
+        item.data.parentid = jsonData.parent;
 
-  eleventyConfig.addPassthroughCopy({ "wordpress/media":wordpressImagePath });
-
-  eleventyConfig.addFilter("dateformat", function(dateIn) {
-    return moment(dateIn).tz('America/Los_Angeles').format('M/D/YYYY');
-  });
-
-
-  //Process wordpress posts
-  eleventyConfig.addCollection("wordpressposts", function(collection) {
-    const FolderName = 'wordpress-posts';
-    let output = [];
-    
-    collection.getAll().forEach(item => {
-        if(item.inputPath.includes(FolderName)) {
-          item.outputPath = item.outputPath.replace(`/${FolderName}`,'');;
-          item.url = item.url.replace(`/${FolderName}`,'');
-          item.data.page.url = item.url;
-
-          //content pulled in from JSON
-          const jsonData = item.data.data;
-          item.data.layout = "page";
-          item.data.tags = ['news'];
-          item.data.title = jsonData.title;
-          item.data.publishdate = jsonData.date.split('T')[0]; //new Date(jsonData.modified_gmt)
-          item.data.meta = jsonData.excerpt;
-          item.data.description = jsonData.excerpt;
-          item.data.lead = jsonData.excerpt;
-          item.data.author = jsonData.author;
-
-          if(jsonData.media) {
-            const featuredMedia = jsonData.media.find(x=>x.featured);
-            if(featuredMedia) {
-              item.data.previewimage = wordpressImagePath+'/'+featuredMedia.path;
-            }
-
-            jsonData.media.filter(x=>x.source_url_match).forEach(m=>{
-              replaceContent(item,new RegExp(m.source_url,'g'),'/'+wordpressImagePath+'/'+m.path);
-            });
+        if(jsonData.media) {
+          const featuredMedia = jsonData.media.find(x=>x.featured);
+          if(featuredMedia) {
+            item.data.previewimage = '/media/'+featuredMedia.path;
           }
-        };
-    });
 
-    return output;
-  });
+          jsonData.media.filter(x=>x.source_url_match).forEach(m=>{
+            // replaceContent(item,new RegExp(m.source_url,'g'),'/'+wordpressImagePath+'/'+m.path);
+            // item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp(m.source_url,'g'),'/media/'+m.path);
+          });
+        }
+      };
 
-
-    // eleventyConfig.addCollection("manualcontent", function(collection) {
-  //   let output = [];
-  //   collection.getAll().forEach(item => {
-  //     if(item.data.wordpress.dataset) {
-  //       // Set up fields for passing into template
-  //       item.data.title = item.data.wordpress.dataset.data.title;
-  //       item.data.templatestring = item.data.wordpress.dataset.data.template;
-  //       item.data.page_meta = item.data.wordpress.dataset.data.page_meta;
-  //       item.data.category = item.data.wordpress.dataset.data.category;
-  //       item.data.id = item.data.wordpress.dataset.data.id;
-
-  //       let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
-  //       item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
-  //       try {
-  //         item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
-  //       } catch (error) {
-  //         // console.error(error);
-  //       }
-       
-  //     }
-  //     output.push(item);
-  //   });
-
-  //   return output;
-  // });
-
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if( outputPath && outputPath.endsWith(".html") ) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      });
-      return minified;
-    }
-
-    return content;
-  });
- 
-  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
-  eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
-
-
-  eleventyConfig.addCollection("mySort", function(collection) {
-    let posts = [];
-    collection.getAll().forEach( (item) => {
-      if(item.data.tags && item.data.tags[0] == 'news') {
-        posts.push(item);
+      if(item.data.data) {
+        if(item.data.data.type === "post") {
+          pressPosts.push(item);
+        }
       }
-    })
-    return posts.sort(function(a, b) {
-      return new Date(a.data.publishdate) - new Date(b.data.publishdate);
-    }).reverse();
+      // modify the wordpress asset links here opportunistically because we are already looping through tempaltes with njk transformed into HTML 
+      item.template.frontMatter.content = item.template.frontMatter.content.replace('http://cannabis.ca.gov/wp-content/uploads/','/media/');
+      item.template.frontMatter.content = item.template.frontMatter.content.replace('https://cannabis.ca.gov/wp-content/uploads/','/media/');
+    });
+    pressPosts.sort((a,b) => {
+      return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
+    });
+    return pressPosts;
   });
 
-  // end new stuff
+  eleventyConfig.addFilter("postlist", function(html) {
+    let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
+    let myArray = myRe.exec(html);
+    let lastPosts = lastFewPosts();
+    let postHTML = pressList(lastPosts, monthStrings);
+    if(myArray) {
+      return html.replace(myArray[0],postHTML);
+    }
+    return html;    
+  });
+
+  eleventyConfig.addFilter("dateFormat", function(dateString) {
+    let d = new Date(dateString);
+    return `${monthStrings[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
+  });
+
   return {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "md",
     templateFormats: ["html", "njk", "11ty.js", "md"],
     dir: {
-      input: "src/templates",
+      input: "pages",
       output: "docs",
     }
   };

@@ -1,6 +1,9 @@
 #ethnio-campaign-theme {left: 45px !important;}
 
-/* GLOBAL */
+/* GLOBAL 
+Style adjustments for CAWeb v1.5.7 
+*/
+
 a:focus,
 button:focus {
   outline: solid 2px #fdb81e !important;
@@ -348,7 +351,7 @@ div.goog-te-gadget {
 }
 /* end mobile navigation */
 /* navigation dropdown */
-.main-navigation.dropdown .second-level-nav {
+.main-navigation.dropdown .second-level-nav, .main-navigation.dropdown .second-level-nav > li {
   border: none !important;
 }
 .main-navigation.dropdown .sub-nav ul li {
@@ -357,6 +360,7 @@ div.goog-te-gadget {
   padding-right: 0;
   height: unset;
   overflow: visible !important;
+  display: block;
 }
 .second-level-nav > li:focus,
 .second-level-nav > li:hover {
@@ -383,8 +387,9 @@ a.second-level-link:focus {
     width: 32%;
     transition: none;
   }
-  .search-container #site-search {
-    position: relative;
+
+#head-search .container {
+    width: 100% !important;
   }
   /* for fixed nav */
   .full-width-nav #head-search.fixed-hide:not(.active) .search-textfield {
@@ -419,7 +424,7 @@ a.second-level-link:focus {
   content: "\55" !important;
   color: white !important;
   position: relative;
-  top: -10px;
+  top:-11px;
   right: 4px;
   font-size: 25px;
 }
@@ -914,4 +919,35 @@ padding-top: 0  !important;
 padding-bottom: 0  !important;
 margin-top: 0 !important;
 margin-bottom: 2rem !important;
+}
+
+/* content navigation  */
+sidebar cagov-content-navigation ul li {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+border-top: none;
+  border-bottom: 1px solid var(--gray-200, #ededef);
+  line-height: 28.2px;
+  list-style: none;}
+sidebar cagov-content-navigation ul li:first-child {
+ border-top: 1px solid var(--gray-200, #ededef);}
+sidebar cagov-content-navigation ul li a {text-decoration:none;}
+sidebar cagov-content-navigation ul li a:hover {text-decoration: underline;}
+
+/* main content */
+#main-content.landing {
+  margin-top: 0 !important;
+}
+/* department footer fixes */
+.menu-section .logo-small img {
+  max-width: 100%;
+  height: auto;
+}
+.content-menu-links {
+  padding-left: 0;
+}
+.menu-section ul li {
+  list-style: none;
 }
