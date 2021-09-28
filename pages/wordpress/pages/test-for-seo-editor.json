@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_date": "2021-06-24T17:30:20",
+    "updated_date": "2021-09-28T17:47:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8181,
+    "date": "2021-06-24T10:30:20",
+    "date_gmt": "2021-06-24T17:30:20",
+    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8181",
+    "modified": "2021-09-28T17:47:50",
+    "modified_gmt": "2021-09-28T17:47:50",
+    "slug": "test-for-seo-editor",
+    "status": "publish",
+    "type": "page",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/test-for-seo-editor/",
+    "title": "Test for SEO editor",
+    "excerpt": "<p>Page content test heading</p>\n",
+    "author": "Michael Sullivan",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [],
+    "tags": [],
+    "autodescription": {
+      "tsf_post_meta": {
+        "_genesis_title": "",
+        "_tsf_title_no_blogname": 0,
+        "_genesis_description": "",
+        "_genesis_canonical_uri": "",
+        "redirect": "",
+        "_social_image_url": "",
+        "_social_image_id": 0,
+        "_genesis_noindex": 0,
+        "_genesis_nofollow": 0,
+        "_genesis_noarchive": 0,
+        "exclude_local_search": 0,
+        "exclude_from_archive": 0,
+        "_open_graph_title": "",
+        "_open_graph_description": "",
+        "_twitter_title": "",
+        "_twitter_description": ""
+      },
+      "site_defaults": {
+        "title": "Test for SEO editor",
+        "description": "",
+        "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/test-for-seo-editor",
+        "site_name": "Department of Cannabis Control",
+        "site_description": "Learn about California cannabis laws and licenses",
+        "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+        "wp_url": "https://dev-cagov-dcc.pantheonsite.io"
+      }
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/test-for-seo-editor/"
+  }
+}
