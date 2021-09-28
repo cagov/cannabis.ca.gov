@@ -53,6 +53,9 @@
       "Retailers",
       "Taxes"
     ],
+    "design_system_fields": {
+      "template": "template-single"
+    },
     "autodescription_meta": {
       "tsf_post_meta": {
         "_genesis_title": "",

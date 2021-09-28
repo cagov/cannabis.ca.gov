@@ -49,6 +49,9 @@
       "State Water Board",
       "Water board"
     ],
+    "design_system_fields": {
+      "template": "post"
+    },
     "autodescription_meta": {
       "tsf_post_meta": {
         "_genesis_title": "",
