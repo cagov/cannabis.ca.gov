@@ -1,11 +1,11 @@
 name: Eleventy Build Main
-# site:  https://development-pantheon.cannabis.ca.gov
-# editor: https://dev-cannabis-ca-gov.pantheonsite.io
-# s3 bucket: development-pantheon.cannabis.ca.gov
+# site:  headless-pantheon.cannabis.ca.gov
+# editor: https://live-cannabis-ca-gov.pantheonsite.io
+# s3 bucket: headless-pantheon.cannabis.ca.gov
 on:
   push:
     branches:
-      - development
+      - pantheon_production
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
@@ -20,7 +20,6 @@ jobs:
           node-version: 14.17.0
       - name: Build 11ty
         run: |
-          mkdir dist
           npm install
           npm run build
 
@@ -30,7 +29,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          publish_branch: deploy_development
+          publish_branch: deploy_pantheon_development
 
           # Push built site files to S3 production bucket    
       - name: Deploy to S3
@@ -38,9 +37,8 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: 'development.cannabis.ca.gov'
+          AWS_S3_BUCKET: 'headless-pantheon.cannabis.ca.gov'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
           SOURCE_DIR: ./docs # only move built directory
-          
