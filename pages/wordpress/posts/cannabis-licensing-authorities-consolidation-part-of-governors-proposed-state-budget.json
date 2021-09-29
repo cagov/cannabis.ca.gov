@@ -75,6 +75,114 @@
       "twitter_title": "Cannabis Licensing Authorities Consolidation Part Of Governor’s Proposed State Budget",
       "twitter_description": "Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 292,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 292,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 47,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 139,
+        "name": "California Department of Food and Agriculture",
+        "slug": "california-department-of-food-and-agriculture",
+        "term_group": 0,
+        "term_taxonomy_id": 139,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/01/08/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/"
   }

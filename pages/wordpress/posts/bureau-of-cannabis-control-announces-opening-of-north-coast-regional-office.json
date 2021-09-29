@@ -77,6 +77,138 @@
       "twitter_title": "Bureau of Cannabis Control Announces Opening of North Coast Regional Office",
       "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (BCC) today announced the upcoming opening of its North Coast Regional Office in Eureka."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 247,
+        "name": "Appointments",
+        "slug": "appointments",
+        "term_group": 0,
+        "term_taxonomy_id": 247,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 248,
+        "name": "CA Department of Food and Agriculture",
+        "slug": "ca-department-of-food-and-agriculture",
+        "term_group": 0,
+        "term_taxonomy_id": 248,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 249,
+        "name": "Eureka",
+        "slug": "eureka",
+        "term_group": 0,
+        "term_taxonomy_id": 249,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 141,
+        "name": "Humboldt",
+        "slug": "humboldt",
+        "term_group": 0,
+        "term_taxonomy_id": 141,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 221,
+        "name": "Licensees",
+        "slug": "licensees",
+        "term_group": 0,
+        "term_taxonomy_id": 221,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 250,
+        "name": "North coast regional office",
+        "slug": "north-coast-regional-office",
+        "term_group": 0,
+        "term_taxonomy_id": 250,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/28/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office/"
   }

@@ -77,6 +77,138 @@
       "twitter_title": "Important Announcement Regarding External Transfers for Metrc Users",
       "twitter_description": "To All Interested Parties,\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 286,
+        "name": "Announcement",
+        "slug": "announcement",
+        "term_group": 0,
+        "term_taxonomy_id": 286,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 429,
+        "name": "California Cannabis Track-and-Trace",
+        "slug": "california-cannabis-track-and-trace",
+        "term_group": 0,
+        "term_taxonomy_id": 429,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 693,
+        "name": "Cannabis product",
+        "slug": "cannabis-product",
+        "term_group": 0,
+        "term_taxonomy_id": 693,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 725,
+        "name": "External",
+        "slug": "external",
+        "term_group": 0,
+        "term_taxonomy_id": 725,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 726,
+        "name": "External transfers",
+        "slug": "external-transfers",
+        "term_group": 0,
+        "term_taxonomy_id": 726,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 659,
+        "name": "METRC",
+        "slug": "metrc",
+        "term_group": 0,
+        "term_taxonomy_id": 659,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Track-and-trace",
+        "slug": "track-and-trace",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 727,
+        "name": "Transfer",
+        "slug": "transfer",
+        "term_group": 0,
+        "term_taxonomy_id": 727,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/"
   }

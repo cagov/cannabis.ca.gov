@@ -75,6 +75,114 @@
       "twitter_title": "A Message for Cannabis Manufacturers",
       "twitter_description": "Temporary licenses for cannabis manufacturing that were issued with an effective date of January 1, 2018 will expire on April 30, 2018."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 223,
+        "name": "Annual application",
+        "slug": "annual-application",
+        "term_group": 0,
+        "term_taxonomy_id": 223,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 226,
+        "name": "Extension",
+        "slug": "extension",
+        "term_group": 0,
+        "term_taxonomy_id": 226,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 229,
+        "name": "Livescan",
+        "slug": "livescan",
+        "term_group": 0,
+        "term_taxonomy_id": 229,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 137,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 137,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 204,
+        "name": "Temporary license",
+        "slug": "temporary-license",
+        "term_group": 0,
+        "term_taxonomy_id": 204,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/06/a-message-for-cannabis-manufacturers/"
   }

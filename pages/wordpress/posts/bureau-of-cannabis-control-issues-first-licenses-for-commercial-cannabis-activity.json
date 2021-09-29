@@ -77,6 +77,138 @@
       "twitter_title": "Bureau of Cannabis Control Issues First Licenses For Commercial Cannabis Activity",
       "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today issued the first group of commercial cannabis temporary licenses for retailers, distributors, microbusinesses and testing laboratories via its online licensing system."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 165,
+        "name": "Activity",
+        "slug": "activity",
+        "term_group": 0,
+        "term_taxonomy_id": 165,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 166,
+        "name": "Commercial",
+        "slug": "commercial",
+        "term_group": 0,
+        "term_taxonomy_id": 166,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 167,
+        "name": "Issues",
+        "slug": "issues",
+        "term_group": 0,
+        "term_taxonomy_id": 167,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 147,
+        "name": "Licenses",
+        "slug": "licenses",
+        "term_group": 0,
+        "term_taxonomy_id": 147,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 74,
+        "name": "Regulation",
+        "slug": "regulation",
+        "term_group": 0,
+        "term_taxonomy_id": 74,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/14/bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity/"
   }

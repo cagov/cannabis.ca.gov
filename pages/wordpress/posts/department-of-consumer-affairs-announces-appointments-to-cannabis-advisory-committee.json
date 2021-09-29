@@ -72,6 +72,78 @@
       "twitter_title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
       "twitter_description": "SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC)."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 23,
+        "name": "Advisory Committee",
+        "slug": "advisory-committee",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 106,
+        "name": "Department of Consumer Affairs",
+        "slug": "department-of-consumer-affairs",
+        "term_group": 0,
+        "term_taxonomy_id": 106,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/"
   }

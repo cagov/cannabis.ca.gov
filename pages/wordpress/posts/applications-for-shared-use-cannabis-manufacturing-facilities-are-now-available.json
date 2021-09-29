@@ -78,6 +78,150 @@
       "twitter_title": "Applications for Shared-Use Cannabis Manufacturing Facilities Are Now Available",
       "twitter_description": "Emergency regulations for shared-use cannabis manufacturing facilities, released by the California Department of Public Health, have been approved and are now in effect."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 146,
+        "name": "Applications",
+        "slug": "applications",
+        "term_group": 0,
+        "term_taxonomy_id": 146,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 205,
+        "name": "Facility",
+        "slug": "facility",
+        "term_group": 0,
+        "term_taxonomy_id": 205,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 154,
+        "name": "License",
+        "slug": "license",
+        "term_group": 0,
+        "term_taxonomy_id": 154,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 16,
+        "filter": "raw"
+      },
+      {
+        "term_id": 94,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 34,
+        "filter": "raw"
+      },
+      {
+        "term_id": 137,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 137,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 22,
+        "name": "Manufacturing",
+        "slug": "manufacturing",
+        "term_group": 0,
+        "term_taxonomy_id": 22,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 206,
+        "name": "Shared-use facilities",
+        "slug": "shared-use-facilities",
+        "term_group": 0,
+        "term_taxonomy_id": 206,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 207,
+        "name": "type-s",
+        "slug": "type-s",
+        "term_group": 0,
+        "term_taxonomy_id": 207,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/04/18/applications-for-shared-use-cannabis-manufacturing-facilities-are-now-available/"
   }

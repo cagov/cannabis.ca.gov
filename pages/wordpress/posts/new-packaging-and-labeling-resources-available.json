@@ -77,6 +77,138 @@
       "twitter_title": "New Packaging and Labeling Resources Available",
       "twitter_description": "The California Department of Public Health (CDPH) has released new resources to assist cannabis manufacturers and other businesses in understanding and evaluating compliance with packaging and labeling requirements."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 273,
+        "name": "Common questions",
+        "slug": "common-questions",
+        "term_group": 0,
+        "term_taxonomy_id": 273,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 274,
+        "name": "Feedback",
+        "slug": "feedback",
+        "term_group": 0,
+        "term_taxonomy_id": 274,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 275,
+        "name": "Labeling",
+        "slug": "labeling",
+        "term_group": 0,
+        "term_taxonomy_id": 275,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 137,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 137,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 276,
+        "name": "Packaging",
+        "slug": "packaging",
+        "term_group": 0,
+        "term_taxonomy_id": 276,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 277,
+        "name": "Resources questions",
+        "slug": "resources-questions",
+        "term_group": 0,
+        "term_taxonomy_id": 277,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 278,
+        "name": "Universal cannabis symbol",
+        "slug": "universal-cannabis-symbol",
+        "term_group": 0,
+        "term_taxonomy_id": 278,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/29/new-packaging-and-labeling-resources-available/"
   }

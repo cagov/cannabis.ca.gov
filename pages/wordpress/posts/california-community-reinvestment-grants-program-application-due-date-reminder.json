@@ -72,6 +72,78 @@
       "twitter_title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
       "twitter_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 583,
+        "name": "California community reinvestment grants program",
+        "slug": "california-community-reinvestment-grants-program",
+        "term_group": 0,
+        "term_taxonomy_id": 583,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 446,
+        "name": "GO-BIZ",
+        "slug": "go-biz",
+        "term_group": 0,
+        "term_taxonomy_id": 446,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 506,
+        "name": "Governor's Office of Business and Economic Development",
+        "slug": "governors-office-of-business-and-economic-development",
+        "term_group": 0,
+        "term_taxonomy_id": 506,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/"
   }

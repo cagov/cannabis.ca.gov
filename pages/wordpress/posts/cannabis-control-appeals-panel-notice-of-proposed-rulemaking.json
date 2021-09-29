@@ -77,6 +77,138 @@
       "twitter_title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
       "twitter_description": "The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 374,
+        "name": "Applicants",
+        "slug": "applicants",
+        "term_group": 0,
+        "term_taxonomy_id": 374,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 375,
+        "name": "California code of regulations",
+        "slug": "california-code-of-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 375,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 340,
+        "name": "Cannabis control appeals panel",
+        "slug": "cannabis-control-appeals-panel",
+        "term_group": 0,
+        "term_taxonomy_id": 340,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 376,
+        "name": "Cannabis licensees",
+        "slug": "cannabis-licensees",
+        "term_group": 0,
+        "term_taxonomy_id": 376,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 342,
+        "name": "Panel",
+        "slug": "panel",
+        "term_group": 0,
+        "term_taxonomy_id": 342,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 377,
+        "name": "Procedures to appeal",
+        "slug": "procedures-to-appeal",
+        "term_group": 0,
+        "term_taxonomy_id": 377,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 378,
+        "name": "Proposed regulations",
+        "slug": "proposed-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 378,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 379,
+        "name": "Rulemaking",
+        "slug": "rulemaking",
+        "term_group": 0,
+        "term_taxonomy_id": 379,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/"
   }

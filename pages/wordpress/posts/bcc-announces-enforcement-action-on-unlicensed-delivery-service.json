@@ -76,6 +76,126 @@
       "twitter_title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
       "twitter_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs' Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 292,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 292,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 47,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 555,
+        "name": "Delivery service",
+        "slug": "delivery-service",
+        "term_group": 0,
+        "term_taxonomy_id": 555,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 120,
+        "name": "Enforcement",
+        "slug": "enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 120,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 18,
+        "filter": "raw"
+      },
+      {
+        "term_id": 211,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 211,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 157,
+        "name": "Retailer",
+        "slug": "retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 157,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 13,
+        "filter": "raw"
+      },
+      {
+        "term_id": 426,
+        "name": "Unlicensed",
+        "slug": "unlicensed",
+        "term_group": 0,
+        "term_taxonomy_id": 426,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 11,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/"
   }

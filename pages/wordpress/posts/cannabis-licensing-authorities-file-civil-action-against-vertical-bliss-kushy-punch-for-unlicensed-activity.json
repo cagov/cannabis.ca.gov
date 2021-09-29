@@ -75,6 +75,114 @@
       "twitter_title": "Cannabis Licensing Authorities File Civil Action Against Vertical Bliss (Kushy Punch) For Unlicensed Activity",
       "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 292,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 292,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 47,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 475,
+        "name": "Illegal unlicensed cannabis activity",
+        "slug": "illegal-unlicensed-cannabis-activity",
+        "term_group": 0,
+        "term_taxonomy_id": 475,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 743,
+        "name": "Kushy Punch",
+        "slug": "kushy-punch",
+        "term_group": 0,
+        "term_taxonomy_id": 743,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 103,
+        "name": "Sacramento",
+        "slug": "sacramento",
+        "term_group": 0,
+        "term_taxonomy_id": 103,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 20,
+        "filter": "raw"
+      },
+      {
+        "term_id": 744,
+        "name": "Vertical bliss",
+        "slug": "vertical-bliss",
+        "term_group": 0,
+        "term_taxonomy_id": 744,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/24/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/"
   }

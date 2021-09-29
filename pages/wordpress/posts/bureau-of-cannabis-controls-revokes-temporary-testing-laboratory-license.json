@@ -77,6 +77,138 @@
       "twitter_title": "Bureau of Cannabis Controls Revokes Temporary Testing Laboratory License",
       "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has revoked a temporary testing laboratory license previously issued to PharmLabs, LLC operating in San Diego."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 144,
+        "name": "Annual",
+        "slug": "annual",
+        "term_group": 0,
+        "term_taxonomy_id": 144,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 152,
+        "name": "Laboratory",
+        "slug": "laboratory",
+        "term_group": 0,
+        "term_taxonomy_id": 152,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 154,
+        "name": "License",
+        "slug": "license",
+        "term_group": 0,
+        "term_taxonomy_id": 154,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 16,
+        "filter": "raw"
+      },
+      {
+        "term_id": 317,
+        "name": "Revoke",
+        "slug": "revoke",
+        "term_group": 0,
+        "term_taxonomy_id": 317,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 150,
+        "name": "Temporary",
+        "slug": "temporary",
+        "term_group": 0,
+        "term_taxonomy_id": 150,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 318,
+        "name": "Testing laboratory",
+        "slug": "testing-laboratory",
+        "term_group": 0,
+        "term_taxonomy_id": 318,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/28/bureau-of-cannabis-controls-revokes-temporary-testing-laboratory-license/"
   }

@@ -73,6 +73,90 @@
       "twitter_title": "State Cannabis Licensing Authorities Release Proposed Cannabis Regulations Submitted to OAL",
       "twitter_description": "California’s three state cannabis licensing authorities recently announced the release of the proposed cannabis regulations currently under review by the California Office of Administrative Law (OAL)."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 231,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 231,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 232,
+        "name": "OAL",
+        "slug": "oal",
+        "term_group": 0,
+        "term_taxonomy_id": 232,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      },
+      {
+        "term_id": 41,
+        "name": "Proposed",
+        "slug": "proposed",
+        "term_group": 0,
+        "term_taxonomy_id": 41,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      },
+      {
+        "term_id": 20,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 20,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/07/29971-2/"
   }

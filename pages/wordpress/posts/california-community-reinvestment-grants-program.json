@@ -78,6 +78,150 @@
       "twitter_title": "California Community Reinvestment Grants Program",
       "twitter_description": "The California Community Reinvestment Grants program was included in The Adult Use of Marijuana Act (Proposition 64), which was approved by California voters on November 8, 2016."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 172,
+        "name": "Adult-use",
+        "slug": "adult-use",
+        "term_group": 0,
+        "term_taxonomy_id": 172,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 25,
+        "name": "Business",
+        "slug": "business",
+        "term_group": 0,
+        "term_taxonomy_id": 25,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 353,
+        "name": "Funding",
+        "slug": "funding",
+        "term_group": 0,
+        "term_taxonomy_id": 353,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 354,
+        "name": "Governor's office",
+        "slug": "governors-office",
+        "term_group": 0,
+        "term_taxonomy_id": 354,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 355,
+        "name": "Grants",
+        "slug": "grants",
+        "term_group": 0,
+        "term_taxonomy_id": 355,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      },
+      {
+        "term_id": 356,
+        "name": "Implementation",
+        "slug": "implementation",
+        "term_group": 0,
+        "term_taxonomy_id": 356,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 357,
+        "name": "Program",
+        "slug": "program",
+        "term_group": 0,
+        "term_taxonomy_id": 357,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 358,
+        "name": "Prop 64",
+        "slug": "prop-64",
+        "term_group": 0,
+        "term_taxonomy_id": 358,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 359,
+        "name": "Reinvestment",
+        "slug": "reinvestment",
+        "term_group": 0,
+        "term_taxonomy_id": 359,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/09/26/california-community-reinvestment-grants-program/"
   }

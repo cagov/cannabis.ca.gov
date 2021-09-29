@@ -69,6 +69,42 @@
       "twitter_title": "Department of Cannabis Control Names Leadership Team",
       "twitter_description": "The Department of Cannabis Control announced permanent and acting members of its leadership team."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 645,
+        "name": "Nicole Elliott",
+        "slug": "nicole-elliott",
+        "term_group": 0,
+        "term_taxonomy_id": 645,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/07/20/department-of-cannabis-control-names-leadership-team/"
   }

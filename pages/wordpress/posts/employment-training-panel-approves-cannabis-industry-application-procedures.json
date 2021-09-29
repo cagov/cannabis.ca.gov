@@ -78,6 +78,150 @@
       "twitter_title": "Employment Training Panel Approves Cannabis Industry Application Procedures",
       "twitter_description": "SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 525,
+        "name": "Cannabis business",
+        "slug": "cannabis-business",
+        "term_group": 0,
+        "term_taxonomy_id": 525,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 640,
+        "name": "Employees",
+        "slug": "employees",
+        "term_group": 0,
+        "term_taxonomy_id": 640,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 641,
+        "name": "Employment training panel",
+        "slug": "employment-training-panel",
+        "term_group": 0,
+        "term_taxonomy_id": 641,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 353,
+        "name": "Funding",
+        "slug": "funding",
+        "term_group": 0,
+        "term_taxonomy_id": 353,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 642,
+        "name": "Funding training opportunities",
+        "slug": "funding-training-opportunities",
+        "term_group": 0,
+        "term_taxonomy_id": 642,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 643,
+        "name": "Gavin Newsom",
+        "slug": "gavin-newsom",
+        "term_group": 0,
+        "term_taxonomy_id": 643,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 644,
+        "name": "Licensed cannabis businesses",
+        "slug": "licensed-cannabis-businesses",
+        "term_group": 0,
+        "term_taxonomy_id": 644,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 221,
+        "name": "Licensees",
+        "slug": "licensees",
+        "term_group": 0,
+        "term_taxonomy_id": 221,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 645,
+        "name": "Nicole Elliott",
+        "slug": "nicole-elliott",
+        "term_group": 0,
+        "term_taxonomy_id": 645,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/09/17/employment-training-panel-approves-cannabis-industry-application-procedures/"
   }

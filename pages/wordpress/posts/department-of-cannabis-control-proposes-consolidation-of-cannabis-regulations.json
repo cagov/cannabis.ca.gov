@@ -76,6 +76,126 @@
       "twitter_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 761,
+        "name": "consolidated regulations",
+        "slug": "consolidated-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 761,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 762,
+        "name": "consolidation",
+        "slug": "consolidation",
+        "term_group": 0,
+        "term_taxonomy_id": 762,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 88,
+        "name": "Emergency regs",
+        "slug": "emergency-regs",
+        "term_group": 0,
+        "term_taxonomy_id": 88,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 231,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 231,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 764,
+        "name": "emergency rulemaking",
+        "slug": "emergency-rulemaking",
+        "term_group": 0,
+        "term_taxonomy_id": 764,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 20,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 20,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 379,
+        "name": "Rulemaking",
+        "slug": "rulemaking",
+        "term_group": 0,
+        "term_taxonomy_id": 379,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 770,
+        "name": "rulemaking action",
+        "slug": "rulemaking-action",
+        "term_group": 0,
+        "term_taxonomy_id": 770,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/09/08/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/"
   }

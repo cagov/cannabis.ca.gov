@@ -78,6 +78,150 @@
       "twitter_title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
       "twitter_description": "SACRAMENTO, March 15, 2018 — The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division will host seven public workshops throughout California starting on March 27."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 188,
+        "name": "April",
+        "slug": "april",
+        "term_group": 0,
+        "term_taxonomy_id": 188,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 78,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 78,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 19,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 19,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 20,
+        "filter": "raw"
+      },
+      {
+        "term_id": 189,
+        "name": "March",
+        "slug": "march",
+        "term_group": 0,
+        "term_taxonomy_id": 189,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 52,
+        "name": "Public",
+        "slug": "public",
+        "term_group": 0,
+        "term_taxonomy_id": 52,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 8,
+        "filter": "raw"
+      },
+      {
+        "term_id": 190,
+        "name": "Questions",
+        "slug": "questions",
+        "term_group": 0,
+        "term_taxonomy_id": 190,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 53,
+        "name": "Workshop",
+        "slug": "workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 53,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 19,
+        "filter": "raw"
+      },
+      {
+        "term_id": 176,
+        "name": "Workshops",
+        "slug": "workshops",
+        "term_group": 0,
+        "term_taxonomy_id": 176,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/"
   }

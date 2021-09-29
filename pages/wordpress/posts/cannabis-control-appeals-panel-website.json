@@ -76,6 +76,126 @@
       "twitter_title": "Cannabis Control Appeals Panel Website",
       "twitter_description": "The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 339,
+        "name": "Appeals",
+        "slug": "appeals",
+        "term_group": 0,
+        "term_taxonomy_id": 339,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 134,
+        "name": "CalCannabis Cultivation Licensing",
+        "slug": "calcannabis-cultivation-licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 134,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 19,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 380,
+        "name": "cannabis control",
+        "slug": "cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 380,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 137,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 137,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 381,
+        "name": "Panel members",
+        "slug": "panel-members",
+        "term_group": 0,
+        "term_taxonomy_id": 381,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 49,
+        "name": "Website",
+        "slug": "website",
+        "term_group": 0,
+        "term_taxonomy_id": 49,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/21/cannabis-control-appeals-panel-website/"
   }

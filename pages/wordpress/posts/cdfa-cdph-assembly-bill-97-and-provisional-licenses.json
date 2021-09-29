@@ -76,6 +76,126 @@
       "twitter_title": "CDFA &#038; CDPH &#8211; Assembly Bill 97 and Provisional Licenses",
       "twitter_description": "Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA)."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 680,
+        "name": "AB 97",
+        "slug": "ab-97",
+        "term_group": 0,
+        "term_taxonomy_id": 680,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 374,
+        "name": "Applicants",
+        "slug": "applicants",
+        "term_group": 0,
+        "term_taxonomy_id": 374,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 535,
+        "name": "Assembly bill 97",
+        "slug": "assembly-bill-97",
+        "term_group": 0,
+        "term_taxonomy_id": 535,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 538,
+        "name": "Provisional license",
+        "slug": "provisional-license",
+        "term_group": 0,
+        "term_taxonomy_id": 538,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 681,
+        "name": "Provisional licenses",
+        "slug": "provisional-licenses",
+        "term_group": 0,
+        "term_taxonomy_id": 681,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/"
   }

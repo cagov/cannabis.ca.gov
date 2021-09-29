@@ -76,6 +76,126 @@
       "twitter_title": "CalCannabis Cultivation Licensing Public Comment Period Deadline",
       "twitter_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nToday the California Department of Food and Agriculture CalCannabis (CalCannabis) Licensing Division submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL)."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 78,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 78,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 251,
+        "name": "Comment period",
+        "slug": "comment-period",
+        "term_group": 0,
+        "term_taxonomy_id": 251,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 306,
+        "name": "Deadline",
+        "slug": "deadline",
+        "term_group": 0,
+        "term_taxonomy_id": 306,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 232,
+        "name": "OAL",
+        "slug": "oal",
+        "term_group": 0,
+        "term_taxonomy_id": 232,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      },
+      {
+        "term_id": 253,
+        "name": "Office of Administrative Law",
+        "slug": "office-of-administrative-law",
+        "term_group": 0,
+        "term_taxonomy_id": 253,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 36,
+        "name": "Public comment",
+        "slug": "public-comment",
+        "term_group": 0,
+        "term_taxonomy_id": 36,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/29/calcannabis-cultivation-licensing-public-comment-period-deadline/"
   }

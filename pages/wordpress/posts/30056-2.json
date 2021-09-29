@@ -79,6 +79,162 @@
       "twitter_title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
       "twitter_description": "The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 438,
+        "name": "Cannabis goods",
+        "slug": "cannabis-goods",
+        "term_group": 0,
+        "term_taxonomy_id": 438,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 346,
+        "name": "Cannabis testing",
+        "slug": "cannabis-testing",
+        "term_group": 0,
+        "term_taxonomy_id": 346,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 439,
+        "name": "Phase 1",
+        "slug": "phase-1",
+        "term_group": 0,
+        "term_taxonomy_id": 439,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 440,
+        "name": "Phase 2",
+        "slug": "phase-2",
+        "term_group": 0,
+        "term_taxonomy_id": 440,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 441,
+        "name": "Phase 3",
+        "slug": "phase-3",
+        "term_group": 0,
+        "term_taxonomy_id": 441,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 442,
+        "name": "Required testing",
+        "slug": "required-testing",
+        "term_group": 0,
+        "term_taxonomy_id": 442,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 443,
+        "name": "Testing",
+        "slug": "testing",
+        "term_group": 0,
+        "term_taxonomy_id": 443,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "Testing labs",
+        "slug": "testing-labs",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/11/30056-2/"
   }

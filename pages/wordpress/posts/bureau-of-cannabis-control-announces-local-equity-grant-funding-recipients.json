@@ -79,6 +79,162 @@
       "twitter_title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
       "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded equity grant funding to local jurisdictions to be used for commercial cannabis equity programs that focus on inclusion and support of persons or communities that were negatively or disproportionately impacted by cannabis criminalization."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 621,
+        "name": "$10 million",
+        "slug": "10-million",
+        "term_group": 0,
+        "term_taxonomy_id": 621,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 292,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 292,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 47,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 622,
+        "name": "Cannabis prohibition",
+        "slug": "cannabis-prohibition",
+        "term_group": 0,
+        "term_taxonomy_id": 622,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 121,
+        "name": "Equity",
+        "slug": "equity",
+        "term_group": 0,
+        "term_taxonomy_id": 121,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 8,
+        "filter": "raw"
+      },
+      {
+        "term_id": 623,
+        "name": "Equity act",
+        "slug": "equity-act",
+        "term_group": 0,
+        "term_taxonomy_id": 623,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 355,
+        "name": "Grants",
+        "slug": "grants",
+        "term_group": 0,
+        "term_taxonomy_id": 355,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      },
+      {
+        "term_id": 624,
+        "name": "Local equity",
+        "slug": "local-equity",
+        "term_group": 0,
+        "term_taxonomy_id": 624,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 512,
+        "name": "Local equity grant program",
+        "slug": "local-equity-grant-program",
+        "term_group": 0,
+        "term_taxonomy_id": 512,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 625,
+        "name": "War on drugs",
+        "slug": "war-on-drugs",
+        "term_group": 0,
+        "term_taxonomy_id": 625,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/"
   }

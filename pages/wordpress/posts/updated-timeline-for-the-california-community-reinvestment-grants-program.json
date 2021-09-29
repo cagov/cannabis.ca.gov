@@ -79,6 +79,162 @@
       "twitter_title": "Updated Timeline for the California Community Reinvestment Grants Program",
       "twitter_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) announced the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment on February 15, 2019.  Included in the draft was a timeline with the release of the Final Grant Solicitation planned for April 8, 2019."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 504,
+        "name": "CalCRG",
+        "slug": "calcrg",
+        "term_group": 0,
+        "term_taxonomy_id": 504,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 505,
+        "name": "Community",
+        "slug": "community",
+        "term_group": 0,
+        "term_taxonomy_id": 505,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 446,
+        "name": "GO-BIZ",
+        "slug": "go-biz",
+        "term_group": 0,
+        "term_taxonomy_id": 446,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 506,
+        "name": "Governor's Office of Business and Economic Development",
+        "slug": "governors-office-of-business-and-economic-development",
+        "term_group": 0,
+        "term_taxonomy_id": 506,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 355,
+        "name": "Grants",
+        "slug": "grants",
+        "term_group": 0,
+        "term_taxonomy_id": 355,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      },
+      {
+        "term_id": 507,
+        "name": "Online application portal",
+        "slug": "online-application-portal",
+        "term_group": 0,
+        "term_taxonomy_id": 507,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 357,
+        "name": "Program",
+        "slug": "program",
+        "term_group": 0,
+        "term_taxonomy_id": 357,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 36,
+        "name": "Public comment",
+        "slug": "public-comment",
+        "term_group": 0,
+        "term_taxonomy_id": 36,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 508,
+        "name": "Public review",
+        "slug": "public-review",
+        "term_group": 0,
+        "term_taxonomy_id": 508,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 359,
+        "name": "Reinvestment",
+        "slug": "reinvestment",
+        "term_group": 0,
+        "term_taxonomy_id": 359,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/"
   }

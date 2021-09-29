@@ -76,6 +76,126 @@
       "twitter_title": "California Senate passes bill to create banks for pot businesses",
       "twitter_description": "The state Senate passed a bill this week to create a state charter for banks to serve California cannabis businesses, which would allow licensed merchants to write checks to pay taxes, fees and vendors — rather than use large amounts of cash, as they currently do."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 300,
+        "name": "Assembly",
+        "slug": "assembly",
+        "term_group": 0,
+        "term_taxonomy_id": 300,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 301,
+        "name": "Banks",
+        "slug": "banks",
+        "term_group": 0,
+        "term_taxonomy_id": 301,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 302,
+        "name": "Credit union",
+        "slug": "credit-union",
+        "term_group": 0,
+        "term_taxonomy_id": 302,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 303,
+        "name": "SB-930",
+        "slug": "sb-930",
+        "term_group": 0,
+        "term_taxonomy_id": 303,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 304,
+        "name": "Senate",
+        "slug": "senate",
+        "term_group": 0,
+        "term_taxonomy_id": 304,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 305,
+        "name": "State-chartered",
+        "slug": "state-chartered",
+        "term_group": 0,
+        "term_taxonomy_id": 305,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/05/31/california-senate-passes-bill-to-create-banks-for-pot-businesses/"
   }

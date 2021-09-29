@@ -71,6 +71,66 @@
       "twitter_title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Delivery Service in Sacramento",
       "twitter_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement action on an unlicensed cannabis business operating in Sacramento."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 120,
+        "name": "Enforcement",
+        "slug": "enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 120,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 18,
+        "filter": "raw"
+      },
+      {
+        "term_id": 319,
+        "name": "Unlicensed cannabis activity",
+        "slug": "unlicensed-cannabis-activity",
+        "term_group": 0,
+        "term_taxonomy_id": 319,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/08/28/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-delivery-service-in-sacramento/"
   }

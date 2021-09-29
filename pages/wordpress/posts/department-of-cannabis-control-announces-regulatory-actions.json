@@ -75,6 +75,114 @@
       "twitter_title": "Department of Cannabis Control Announces Regulatory Actions",
       "twitter_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 760,
+        "name": "ab 1525",
+        "slug": "ab-1525",
+        "term_group": 0,
+        "term_taxonomy_id": 760,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 91,
+        "name": "Banking",
+        "slug": "banking",
+        "term_group": 0,
+        "term_taxonomy_id": 91,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 400,
+        "name": "Cannabis regulations",
+        "slug": "cannabis-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 400,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 231,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 231,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 20,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 20,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 769,
+        "name": "regulatory action",
+        "slug": "regulatory-action",
+        "term_group": 0,
+        "term_taxonomy_id": 769,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 771,
+        "name": "section 100",
+        "slug": "section-100",
+        "term_group": 0,
+        "term_taxonomy_id": 771,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/"
   }

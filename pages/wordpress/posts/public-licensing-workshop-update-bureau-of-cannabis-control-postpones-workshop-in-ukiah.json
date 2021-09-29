@@ -76,6 +76,126 @@
       "twitter_title": "PUBLIC LICENSING WORKSHOP UPDATE: Bureau of Cannabis Control Postpones Workshop in Ukiah",
       "twitter_description": "The Bureau of Cannabis Control (Bureau) today announced that its public licensing workshop previously scheduled for Tuesday, February 6 in Ukiah has been postponed."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 94,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 34,
+        "filter": "raw"
+      },
+      {
+        "term_id": 52,
+        "name": "Public",
+        "slug": "public",
+        "term_group": 0,
+        "term_taxonomy_id": 52,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 8,
+        "filter": "raw"
+      },
+      {
+        "term_id": 159,
+        "name": "Ukiah",
+        "slug": "ukiah",
+        "term_group": 0,
+        "term_taxonomy_id": 159,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 168,
+        "name": "Update",
+        "slug": "update",
+        "term_group": 0,
+        "term_taxonomy_id": 168,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 53,
+        "name": "Workshop",
+        "slug": "workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 53,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 19,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/31/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/"
   }

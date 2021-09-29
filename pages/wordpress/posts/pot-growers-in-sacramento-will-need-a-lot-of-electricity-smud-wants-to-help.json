@@ -72,6 +72,78 @@
       "twitter_title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
       "twitter_description": "It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 114,
+        "name": "Electricity",
+        "slug": "electricity",
+        "term_group": 0,
+        "term_taxonomy_id": 114,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 115,
+        "name": "Growers",
+        "slug": "growers",
+        "term_group": 0,
+        "term_taxonomy_id": 115,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 116,
+        "name": "SMUD",
+        "slug": "smud",
+        "term_group": 0,
+        "term_taxonomy_id": 116,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/"
   }

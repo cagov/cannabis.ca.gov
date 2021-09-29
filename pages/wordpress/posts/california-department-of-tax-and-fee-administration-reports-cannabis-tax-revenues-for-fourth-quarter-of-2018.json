@@ -79,6 +79,162 @@
       "twitter_title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
       "twitter_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018."
     },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 233,
+        "name": "California department of tax and fee administration",
+        "slug": "california-department-of-tax-and-fee-administration",
+        "term_group": 0,
+        "term_taxonomy_id": 233,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 13,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 395,
+        "name": "Cannabis taxes",
+        "slug": "cannabis-taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 395,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 135,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 135,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 21,
+        "filter": "raw"
+      },
+      {
+        "term_id": 239,
+        "name": "Cultivation tax",
+        "slug": "cultivation-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 239,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 235,
+        "name": "Excise tax",
+        "slug": "excise-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 235,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      },
+      {
+        "term_id": 484,
+        "name": "Q4",
+        "slug": "q4",
+        "term_group": 0,
+        "term_taxonomy_id": 484,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 485,
+        "name": "Quarter 4",
+        "slug": "quarter-4",
+        "term_group": 0,
+        "term_taxonomy_id": 485,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 486,
+        "name": "State tax",
+        "slug": "state-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 486,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 487,
+        "name": "Tax report",
+        "slug": "tax-report",
+        "term_group": 0,
+        "term_taxonomy_id": 487,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 182,
+        "name": "Taxes",
+        "slug": "taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 182,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/"
   }

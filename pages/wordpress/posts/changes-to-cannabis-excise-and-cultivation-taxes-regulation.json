@@ -79,6 +79,162 @@
       "twitter_title": "Changes to Cannabis Excise and Cultivation Taxes Regulation",
       "twitter_description": "The California Department of Tax and Fee Administration (CDTFA) recently adopted Regulation 3700, <em>Cannabis Excise and Cultivation Taxes</em>, which addresses and clarifies the Cannabis Tax Law regarding the administration of the cannabis excise and cultivation taxes."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 233,
+        "name": "California department of tax and fee administration",
+        "slug": "california-department-of-tax-and-fee-administration",
+        "term_group": 0,
+        "term_taxonomy_id": 233,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 13,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 655,
+        "name": "Cannabis accessories",
+        "slug": "cannabis-accessories",
+        "term_group": 0,
+        "term_taxonomy_id": 655,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 656,
+        "name": "Cannabis excise",
+        "slug": "cannabis-excise",
+        "term_group": 0,
+        "term_taxonomy_id": 656,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 395,
+        "name": "Cannabis taxes",
+        "slug": "cannabis-taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 395,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 135,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 135,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 21,
+        "filter": "raw"
+      },
+      {
+        "term_id": 19,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 19,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 20,
+        "filter": "raw"
+      },
+      {
+        "term_id": 404,
+        "name": "Cultivation taxes",
+        "slug": "cultivation-taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 404,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 74,
+        "name": "Regulation",
+        "slug": "regulation",
+        "term_group": 0,
+        "term_taxonomy_id": 74,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 182,
+        "name": "Taxes",
+        "slug": "taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 182,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 657,
+        "name": "Wholesale",
+        "slug": "wholesale",
+        "term_group": 0,
+        "term_taxonomy_id": 657,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/19/changes-to-cannabis-excise-and-cultivation-taxes-regulation/"
   }

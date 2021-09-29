@@ -75,6 +75,114 @@
       "twitter_title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
       "twitter_description": "The California Bureau of Cannabis Control sent a cease-and-desist letter last month to Irvine-based Ghost Management Group, the owner of popular marijuana dispensary finder Weedmaps.com, ordering the company to stop advertising unlicensed operators or face unspecified “criminal and administrative penalties.”"
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 242,
+        "name": "Advertising",
+        "slug": "advertising",
+        "term_group": 0,
+        "term_taxonomy_id": 242,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 243,
+        "name": "Dispensaries",
+        "slug": "dispensaries",
+        "term_group": 0,
+        "term_taxonomy_id": 243,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 124,
+        "name": "Retailers",
+        "slug": "retailers",
+        "term_group": 0,
+        "term_taxonomy_id": 124,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      },
+      {
+        "term_id": 244,
+        "name": "Weedmaps",
+        "slug": "weedmaps",
+        "term_group": 0,
+        "term_taxonomy_id": 244,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/"
   }

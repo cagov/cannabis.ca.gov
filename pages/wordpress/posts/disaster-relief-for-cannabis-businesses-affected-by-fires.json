@@ -73,6 +73,90 @@
       "twitter_title": "Disaster Relief for Cannabis Businesses Affected by Fires",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 763,
+        "name": "disaster relief",
+        "slug": "disaster-relief",
+        "term_group": 0,
+        "term_taxonomy_id": 763,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 607,
+        "name": "Fire",
+        "slug": "fire",
+        "term_group": 0,
+        "term_taxonomy_id": 607,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 765,
+        "name": "form 8101",
+        "slug": "form-8101",
+        "term_group": 0,
+        "term_taxonomy_id": 765,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 766,
+        "name": "form dcc-8101",
+        "slug": "form-dcc-8101",
+        "term_group": 0,
+        "term_taxonomy_id": 766,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 772,
+        "name": "wildfire",
+        "slug": "wildfire",
+        "term_group": 0,
+        "term_taxonomy_id": 772,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/"
   }

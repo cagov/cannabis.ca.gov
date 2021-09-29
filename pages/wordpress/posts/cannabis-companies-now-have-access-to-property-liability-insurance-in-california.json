@@ -77,6 +77,138 @@
       "twitter_title": "Cannabis companies now have access to property, liability insurance in California",
       "twitter_description": "When you’re running a marijuana business in California, getting insurance can be a challenge."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 295,
+        "name": "Commissioner",
+        "slug": "commissioner",
+        "term_group": 0,
+        "term_taxonomy_id": 295,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 296,
+        "name": "Coverage",
+        "slug": "coverage",
+        "term_group": 0,
+        "term_taxonomy_id": 296,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 297,
+        "name": "Dave Jones",
+        "slug": "dave-jones",
+        "term_group": 0,
+        "term_taxonomy_id": 297,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 119,
+        "name": "Distributors",
+        "slug": "distributors",
+        "term_group": 0,
+        "term_taxonomy_id": 119,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 298,
+        "name": "Insurance",
+        "slug": "insurance",
+        "term_group": 0,
+        "term_taxonomy_id": 298,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 299,
+        "name": "Manufacturers",
+        "slug": "manufacturers",
+        "term_group": 0,
+        "term_taxonomy_id": 299,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 29,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 29,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 124,
+        "name": "Retailers",
+        "slug": "retailers",
+        "term_group": 0,
+        "term_taxonomy_id": 124,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/"
   }

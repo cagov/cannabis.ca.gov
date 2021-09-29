@@ -76,6 +76,126 @@
       "twitter_title": "Cannabis Control Appeals Panel Announces Teleconference Call Meeting",
       "twitter_description": "The Cannabis Control Appeals Panel (CCAP) will conduct a panel meeting via teleconference on Monday, April 29th at 1:30 p.m."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 307,
+        "name": "Agenda",
+        "slug": "agenda",
+        "term_group": 0,
+        "term_taxonomy_id": 307,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 340,
+        "name": "Cannabis control appeals panel",
+        "slug": "cannabis-control-appeals-panel",
+        "term_group": 0,
+        "term_taxonomy_id": 340,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 593,
+        "name": "CCAP",
+        "slug": "ccap",
+        "term_group": 0,
+        "term_taxonomy_id": 593,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 594,
+        "name": "Control panel",
+        "slug": "control-panel",
+        "term_group": 0,
+        "term_taxonomy_id": 594,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 595,
+        "name": "Info",
+        "slug": "info",
+        "term_group": 0,
+        "term_taxonomy_id": 595,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Meeting",
+        "slug": "meeting",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      },
+      {
+        "term_id": 596,
+        "name": "Teleconference call",
+        "slug": "teleconference-call",
+        "term_group": 0,
+        "term_taxonomy_id": 596,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/32771-2/"
   }

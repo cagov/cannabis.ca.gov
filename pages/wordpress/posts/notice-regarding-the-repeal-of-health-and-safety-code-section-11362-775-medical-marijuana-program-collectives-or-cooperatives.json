@@ -75,6 +75,114 @@
       "twitter_title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
       "twitter_description": "Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 131,
+        "name": "Department of Food and Agriculture",
+        "slug": "department-of-food-and-agriculture",
+        "term_group": 0,
+        "term_taxonomy_id": 131,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 132,
+        "name": "Department of Public Health",
+        "slug": "department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 132,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 169,
+        "name": "Health and safety code",
+        "slug": "health-and-safety-code",
+        "term_group": 0,
+        "term_taxonomy_id": 169,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 170,
+        "name": "Notice",
+        "slug": "notice",
+        "term_group": 0,
+        "term_taxonomy_id": 170,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 171,
+        "name": "Repeal",
+        "slug": "repeal",
+        "term_group": 0,
+        "term_taxonomy_id": 171,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/"
   }

@@ -72,6 +72,78 @@
       "twitter_title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
       "twitter_description": "Long Beach will play host to a two-day conference on marijuana next week that will not only let attendees try the products they will discuss, but it will bring together cannabis industry leaders, elected officials, regulators and others to understand the federally illegal plant that will be sold recreationally statewide by next year."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 75,
+        "name": "Long Beach",
+        "slug": "long-beach",
+        "term_group": 0,
+        "term_taxonomy_id": 75,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 76,
+        "name": "Lori Ajax",
+        "slug": "lori-ajax",
+        "term_group": 0,
+        "term_taxonomy_id": 76,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 77,
+        "name": "State of cannabis",
+        "slug": "state-of-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 77,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/09/25/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/"
   }

@@ -75,6 +75,114 @@
       "twitter_title": "Cannabis Cultivation Informational Workshop and Permitting Event",
       "twitter_description": "State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 458,
+        "name": "Cannabis cultivation general order",
+        "slug": "cannabis-cultivation-general-order",
+        "term_group": 0,
+        "term_taxonomy_id": 458,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 459,
+        "name": "Cannabis policy",
+        "slug": "cannabis-policy",
+        "term_group": 0,
+        "term_taxonomy_id": 459,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 19,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 19,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 20,
+        "filter": "raw"
+      },
+      {
+        "term_id": 460,
+        "name": "Fortuna",
+        "slug": "fortuna",
+        "term_group": 0,
+        "term_taxonomy_id": 460,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 461,
+        "name": "Irrigation",
+        "slug": "irrigation",
+        "term_group": 0,
+        "term_taxonomy_id": 461,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 365,
+        "name": "Policy",
+        "slug": "policy",
+        "term_group": 0,
+        "term_taxonomy_id": 365,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/"
   }

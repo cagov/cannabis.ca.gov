@@ -78,6 +78,150 @@
       "twitter_title": "GO-Biz Concludes Community Workshop Series on California Community Reinvestment Grants Program",
       "twitter_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG)."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 444,
+        "name": "Community reinvestment grants program",
+        "slug": "community-reinvestment-grants-program",
+        "term_group": 0,
+        "term_taxonomy_id": 444,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 445,
+        "name": "Community workshop",
+        "slug": "community-workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 445,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 274,
+        "name": "Feedback",
+        "slug": "feedback",
+        "term_group": 0,
+        "term_taxonomy_id": 274,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 446,
+        "name": "GO-BIZ",
+        "slug": "go-biz",
+        "term_group": 0,
+        "term_taxonomy_id": 446,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 447,
+        "name": "Grant applications",
+        "slug": "grant-applications",
+        "term_group": 0,
+        "term_taxonomy_id": 447,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 359,
+        "name": "Reinvestment",
+        "slug": "reinvestment",
+        "term_group": 0,
+        "term_taxonomy_id": 359,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 448,
+        "name": "Webinar",
+        "slug": "webinar",
+        "term_group": 0,
+        "term_taxonomy_id": 448,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 176,
+        "name": "Workshops",
+        "slug": "workshops",
+        "term_group": 0,
+        "term_taxonomy_id": 176,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/"
   }
