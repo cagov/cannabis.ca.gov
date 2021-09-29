@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:12:14",
-    "updated_date": "2021-09-28T17:48:30",
+    "updated_date": "2021-09-29T01:27:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:12:14",
     "date_gmt": "2021-06-19T15:12:14",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
-    "modified": "2021-09-28T17:48:30",
-    "modified_gmt": "2021-09-28T17:48:30",
+    "modified": "2021-09-28T18:27:09",
+    "modified_gmt": "2021-09-29T01:27:09",
     "slug": "dcc-events",
     "status": "publish",
     "type": "page",
