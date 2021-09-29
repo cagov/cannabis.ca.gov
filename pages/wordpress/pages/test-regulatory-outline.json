@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "created_date": "2021-09-29T02:49:50",
+    "updated_date": "2021-09-29T02:49:52",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9857,
+    "date": "2021-09-28T19:49:50",
+    "date_gmt": "2021-09-29T02:49:50",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=9857",
+    "modified": "2021-09-28T19:49:52",
+    "modified_gmt": "2021-09-29T02:49:52",
+    "slug": "test-regulatory-outline",
+    "status": "publish",
+    "type": "page",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/test-regulatory-outline/",
+    "title": "Test Regulatory outline",
+    "excerpt": "<p>&lt;ol class=&#8221;regulatory-outline&#8221;&gt; &lt;li&gt;LEVEL ONE A law enforcement agency may only use a person under 21 years of age to attempt to purchase alcoholic beverages for delivery to apprehend licensees, or employees or agents of licensees, who deliver alcoholic beverages to minors (persons under 21 years of age), and to reduce deliveries of alcoholic beverages to [&hellip;]</p>\n",
+    "author": "Chach Sikes",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "autodescription": {
+      "tsf_post_meta": {
+        "_genesis_title": "",
+        "_tsf_title_no_blogname": 0,
+        "_genesis_description": "",
+        "_genesis_canonical_uri": "",
+        "redirect": "",
+        "_social_image_url": "",
+        "_social_image_id": 0,
+        "_genesis_noindex": 0,
+        "_genesis_nofollow": 0,
+        "_genesis_noarchive": 0,
+        "exclude_local_search": 0,
+        "exclude_from_archive": 0,
+        "_open_graph_title": "",
+        "_open_graph_description": "",
+        "_twitter_title": "",
+        "_twitter_description": ""
+      },
+      "site_defaults": {
+        "title": "Test Regulatory outline",
+        "description": "",
+        "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/test-regulatory-outline",
+        "site_name": "Department of Cannabis Control",
+        "site_description": "Learn about California cannabis laws and licenses",
+        "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+        "wp_url": "https://dev-cagov-dcc.pantheonsite.io"
+      }
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/test-regulatory-outline/"
+  }
+}
