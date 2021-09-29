@@ -65,6 +65,10 @@
       "twitter_title": "Banking and insurance",
       "twitter_description": "You can authorize the Department of Cannabis Control to share information with financial institutions to get access to banking and insurance services."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/banking-insurance/"
   }
 }

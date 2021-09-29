@@ -65,6 +65,10 @@
       "twitter_title": "Running a business in California",
       "twitter_description": "Cannabis businesses must follow the regular rules for businesses in California."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/running-business/"
   }
 }

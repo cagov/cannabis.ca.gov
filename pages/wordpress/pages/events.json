@@ -65,6 +65,10 @@
       "twitter_title": "Events",
       "twitter_description": "Cannabis events are multi-day events where people can sell and consume cannabis."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/events/"
   }
 }

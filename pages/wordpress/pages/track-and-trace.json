@@ -65,6 +65,10 @@
       "twitter_title": "Track and Trace",
       "twitter_description": "Licensees must use the California Cannabis Track and Trace system to track the movement of cannabis and cannabis products through the supply chain."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/track-and-trace/"
   }
 }

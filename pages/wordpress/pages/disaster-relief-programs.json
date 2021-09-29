@@ -65,6 +65,10 @@
       "twitter_title": "Disaster relief programs",
       "twitter_description": "If you cannot meet a licensing requirement due to a declared disaster, you can request relief from a regulatory requirement."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/disaster-relief-programs/"
   }
 }

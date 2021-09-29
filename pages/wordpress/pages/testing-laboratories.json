@@ -65,6 +65,10 @@
       "twitter_title": "Testing laboratories",
       "twitter_description": "Testing laboratories make sure cannabis goods are safe for consumption."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/testing-laboratories/"
   }
 }

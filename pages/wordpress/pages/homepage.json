@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-09-29T18:56:17",
+    "updated_date": "2021-09-29T22:58:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
-    "modified": "2021-09-29T11:56:17",
-    "modified_gmt": "2021-09-29T18:56:17",
+    "modified": "2021-09-29T15:58:12",
+    "modified_gmt": "2021-09-29T22:58:12",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -65,6 +65,10 @@
       "twitter_title": "Department of Cannabis Control (Twitter title)",
       "twitter_description": "Learn about California cannabis laws and licenses (Twitter Description)"
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/",
     "media": [
       {

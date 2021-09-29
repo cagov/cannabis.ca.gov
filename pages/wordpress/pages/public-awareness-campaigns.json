@@ -65,6 +65,10 @@
       "twitter_title": "Public awareness campaigns",
       "twitter_description": "The Department of Cannabis Control's public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/public-awareness-campaigns/"
   }
 }

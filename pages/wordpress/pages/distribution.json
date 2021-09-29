@@ -65,6 +65,10 @@
       "twitter_title": "Distribution",
       "twitter_description": "Distributors transport cannabis and cannabis products in California."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/distribution/"
   }
 }

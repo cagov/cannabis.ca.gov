@@ -65,6 +65,10 @@
       "twitter_title": "How to apply for or renew a license",
       "twitter_description": "Learn the steps needed to apply for or renew a cannabis license."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/how-to-apply-renew/"
   }
 }

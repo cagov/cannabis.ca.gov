@@ -65,6 +65,10 @@
       "twitter_title": "About the Department of Cannabis Control",
       "twitter_description": "The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/about-dcc/"
   }
 }

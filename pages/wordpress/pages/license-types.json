@@ -65,6 +65,10 @@
       "twitter_title": "License types",
       "twitter_description": "Licenses are based on the type of cannabis activity that your business will perform."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/license-types/"
   }
 }
