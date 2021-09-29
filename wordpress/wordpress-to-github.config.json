@@ -5,7 +5,7 @@
     "description": "wordpress-to-github endpoints config file"
   },
   "data": {
-    "wordpress_source_url": "https://api.cannabis.ca.gov",
+    "wordpress_source_url": "https://cannabis.ca.gov",
     "github_targets": [
       {
         "outputBranch": "main",
