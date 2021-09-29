@@ -42,8 +42,10 @@
     "design_system_fields": {
       "template": "landing"
     },
-    "autodescription": {
-      "tsf_post_meta": {
+    "og_meta": {
+      "plaform": "WordPress",
+      "the_seo_framework_version": "4.1.5.1",
+      "the_seo_framework_post_meta": {
         "_genesis_title": "",
         "_tsf_title_no_blogname": "1",
         "_genesis_description": "",
@@ -60,6 +62,11 @@
         "_open_graph_description": "Learn about California cannabis laws and licenses",
         "_twitter_title": "Department of Cannabis Control",
         "_twitter_description": "Learn about California cannabis laws and licenses"
+      },
+      "the_seo_framework_post_meta_defaults": {
+        "homepage_title": "Department of Cannabis Control",
+        "homepage_description": "Learn about California cannabis laws and licenses",
+        "homepage_social_image_url": ""
       },
       "site_defaults": {
         "title": "Home page",

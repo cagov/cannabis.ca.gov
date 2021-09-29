@@ -42,8 +42,10 @@
     "design_system_fields": {
       "template": "template-page"
     },
-    "autodescription": {
-      "tsf_post_meta": {
+    "og_meta": {
+      "plaform": "WordPress",
+      "the_seo_framework_version": "4.1.5.1",
+      "the_seo_framework_post_meta": {
         "_genesis_title": "",
         "_tsf_title_no_blogname": 0,
         "_genesis_description": "",
@@ -60,6 +62,11 @@
         "_open_graph_description": "",
         "_twitter_title": "",
         "_twitter_description": ""
+      },
+      "the_seo_framework_post_meta_defaults": {
+        "homepage_title": "Department of Cannabis Control",
+        "homepage_description": "Learn about California cannabis laws and licenses",
+        "homepage_social_image_url": ""
       },
       "site_defaults": {
         "title": "Application resources",
