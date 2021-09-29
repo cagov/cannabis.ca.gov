@@ -1,5 +1,3 @@
-import boxTracker from "./box-tracker.js";
-
 export default function setupAnalytics() {
 
   document.querySelectorAll('cagov-accordion').forEach((acc) => {
@@ -93,6 +91,7 @@ export default function setupAnalytics() {
       }
     });
   };
+  window.addEventListener('scroll', throttle(scrollHandler('homepage'), 1000));
 
   // Give all analytics calls a chance to finish before following the link.
   // Note this generates a function for use by an event listener.
