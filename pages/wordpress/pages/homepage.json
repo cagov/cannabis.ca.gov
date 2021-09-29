@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-09-29T22:58:12",
+    "updated_date": "2021-09-29T23:00:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
-    "modified": "2021-09-29T15:58:12",
-    "modified_gmt": "2021-09-29T22:58:12",
+    "modified": "2021-09-29T16:00:58",
+    "modified_gmt": "2021-09-29T23:00:58",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -37,8 +37,12 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "categories": [],
-    "tags": [],
+    "categories": [
+      "Uncategorized"
+    ],
+    "tags": [
+      "Test homepage tag"
+    ],
     "design_system_fields": {
       "template": "landing"
     },
@@ -59,14 +63,46 @@
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674.jpeg",
       "meta_title": "Department of Cannabis control (Meta title)",
       "meta_description": "Learn about California laws and licenses (Meta description)",
-      "meta_canonical_url": "http://cannabis.ca.gov/events",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
       "open_graph_title": "Department of Cannabis control (OG title)",
       "open_graph_description": "Learn about California cannabis laws and licenses (OG Description)",
       "twitter_title": "Department of Cannabis Control (Twitter title)",
       "twitter_description": "Learn about California cannabis laws and licenses (Twitter Description)"
     },
-    "headless_categories": [],
-    "headless_tags": [],
+    "headless_categories": [
+      {
+        "term_id": 759,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 759,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "cat_ID": 759,
+        "category_count": 1,
+        "category_description": "",
+        "cat_name": "Uncategorized",
+        "category_nicename": "uncategorized",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 777,
+        "name": "Test homepage tag",
+        "slug": "test-homepage-tag",
+        "term_group": 0,
+        "term_taxonomy_id": 777,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/",
