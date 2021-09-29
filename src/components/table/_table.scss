@@ -35,8 +35,4 @@
     border: 1px solid var(--black, #000000);
     padding: 6px 24px;
   }
-
-  ul {
-    margin-bottom: 0 !important; // !important is needed to override aggressive styles coming from body.interior-page
-  }
 }
