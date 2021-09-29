@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-29T02:49:50",
-    "updated_date": "2021-09-29T02:49:52",
+    "updated_date": "2021-09-29T02:50:23",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
@@ -17,21 +17,21 @@
     "date": "2021-09-28T19:49:50",
     "date_gmt": "2021-09-29T02:49:50",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=9857",
-    "modified": "2021-09-28T19:49:52",
-    "modified_gmt": "2021-09-29T02:49:52",
+    "modified": "2021-09-28T19:50:23",
+    "modified_gmt": "2021-09-29T02:50:23",
     "slug": "test-regulatory-outline",
     "status": "publish",
     "type": "page",
     "link": "https://dev-cagov-dcc.pantheonsite.io/test-regulatory-outline/",
     "title": "Test Regulatory outline",
-    "excerpt": "<p>&lt;ol class=&#8221;regulatory-outline&#8221;&gt; &lt;li&gt;LEVEL ONE A law enforcement agency may only use a person under 21 years of age to attempt to purchase alcoholic beverages for delivery to apprehend licensees, or employees or agents of licensees, who deliver alcoholic beverages to minors (persons under 21 years of age), and to reduce deliveries of alcoholic beverages to [&hellip;]</p>\n",
+    "excerpt": "<p>LEVEL ONE A law enforcement agency may only use a person under 21 years of age to attempt to purchase alcoholic beverages for delivery to apprehend licensees, or employees or agents of licensees, who deliver alcoholic beverages to minors (persons under 21 years of age), and to reduce deliveries of alcoholic beverages to minors, in [&hellip;]</p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "off",
       "_et_pb_old_content": "",
@@ -40,7 +40,7 @@
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "autodescription": {
       "tsf_post_meta": {
