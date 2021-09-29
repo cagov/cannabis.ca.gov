@@ -57,13 +57,13 @@
       "page_title": "Department of Cannabis Control events",
       "page_description": "Find out about upcoming Department of Cannabis Control events.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Department of Cannabis Control events",
+      "meta_description": "Find out about upcoming Department of Cannabis Control events.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
+      "open_graph_title": "Department of Cannabis Control events",
+      "open_graph_description": "Find out about upcoming Department of Cannabis Control events.",
+      "twitter_title": "Department of Cannabis Control events",
+      "twitter_description": "Find out about upcoming Department of Cannabis Control events."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/"
   }

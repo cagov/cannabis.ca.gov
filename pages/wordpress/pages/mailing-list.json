@@ -55,15 +55,15 @@
       "site_url": "https://dev-cagov-dcc.pantheonsite.io",
       "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
       "page_title": "Sign up for email list",
-      "page_description": "",
+      "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Sign up for email list",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
+      "open_graph_title": "Sign up for email list",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Sign up for email list",
+      "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/"
   }

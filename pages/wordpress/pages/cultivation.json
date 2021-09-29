@@ -57,13 +57,13 @@
       "page_title": "Cultivation",
       "page_description": "Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Cultivation",
+      "meta_description": "Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products.",
+      "meta_canonical_url": "http://wordpress.test:8888/cultivation/",
+      "open_graph_title": "Cultivation",
+      "open_graph_description": "Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products.",
+      "twitter_title": "Cultivation",
+      "twitter_description": "Cultivators grow all of the cannabis plants that are harvested, sold as flower, and made into products."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/cultivation/"
   }

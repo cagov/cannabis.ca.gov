@@ -57,13 +57,13 @@
       "page_title": "Search for a licensed business",
       "page_description": "Search for a business licensed by the Department of Cannabis Control.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Search for a licensed business",
+      "meta_description": "Search for a business licensed by the Department of Cannabis Control.",
+      "meta_canonical_url": "http://wordpress.test:8888/resources/search-for-licensed-business/",
+      "open_graph_title": "Search for a licensed business",
+      "open_graph_description": "Search for a business licensed by the Department of Cannabis Control.",
+      "twitter_title": "Search for a licensed business",
+      "twitter_description": "Search for a business licensed by the Department of Cannabis Control."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/search-for-licensed-business/"
   }

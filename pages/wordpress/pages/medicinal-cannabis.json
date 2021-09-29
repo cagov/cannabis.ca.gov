@@ -57,13 +57,13 @@
       "page_title": "Medicinal cannabis",
       "page_description": "Your doctor can recommend cannabis to help you manage some medical conditions.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Medicinal cannabis",
+      "meta_description": "Your doctor can recommend cannabis to help you manage some medical conditions.",
+      "meta_canonical_url": "http://wordpress.test:8888/medicinal-cannabis/",
+      "open_graph_title": "Medicinal cannabis",
+      "open_graph_description": "Your doctor can recommend cannabis to help you manage some medical conditions.",
+      "twitter_title": "Medicinal cannabis",
+      "twitter_description": "Your doctor can recommend cannabis to help you manage some medical conditions."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/consumers/medicinal-cannabis/"
   }

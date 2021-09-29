@@ -57,13 +57,13 @@
       "page_title": "Events",
       "page_description": "Cannabis events are multi-day events where people can sell and consume cannabis.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Events",
+      "meta_description": "Cannabis events are multi-day events where people can sell and consume cannabis.",
+      "meta_canonical_url": "http://wordpress.test:8888/events/",
+      "open_graph_title": "Events",
+      "open_graph_description": "Cannabis events are multi-day events where people can sell and consume cannabis.",
+      "twitter_title": "Events",
+      "twitter_description": "Cannabis events are multi-day events where people can sell and consume cannabis."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/events/"
   }

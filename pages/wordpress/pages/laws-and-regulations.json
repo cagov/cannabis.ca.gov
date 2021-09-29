@@ -57,13 +57,13 @@
       "page_title": "Laws and regulations",
       "page_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Laws and regulations",
+      "meta_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.",
+      "meta_canonical_url": "http://wordpress.test:8888/resources/laws-and-regulations/",
+      "open_graph_title": "Laws and regulations",
+      "open_graph_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.",
+      "twitter_title": "Laws and regulations",
+      "twitter_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/laws-and-regulations/"
   }

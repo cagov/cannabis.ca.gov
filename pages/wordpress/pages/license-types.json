@@ -57,13 +57,13 @@
       "page_title": "License types",
       "page_description": "Licenses are based on the type of cannabis activity that your business will perform.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "License types",
+      "meta_description": "Licenses are based on the type of cannabis activity that your business will perform.",
+      "meta_canonical_url": "http://wordpress.test:8888/license-types/",
+      "open_graph_title": "License types",
+      "open_graph_description": "Licenses are based on the type of cannabis activity that your business will perform.",
+      "twitter_title": "License types",
+      "twitter_description": "Licenses are based on the type of cannabis activity that your business will perform."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/applicants/license-types/"
   }

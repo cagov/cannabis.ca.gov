@@ -57,13 +57,13 @@
       "page_title": "Public awareness campaigns",
       "page_description": "The Department of Cannabis Control's public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Public awareness campaigns",
+      "meta_description": "The Department of Cannabis Control's public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market.",
+      "meta_canonical_url": "http://wordpress.test:8888/public-outreach-campaigns/",
+      "open_graph_title": "Public awareness campaigns",
+      "open_graph_description": "The Department of Cannabis Control's public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market.",
+      "twitter_title": "Public awareness campaigns",
+      "twitter_description": "The Department of Cannabis Control's public awareness campaigns educate consumers, encourage businesses to get licensed and promote the legal cannabis market."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/public-awareness-campaigns/"
   }

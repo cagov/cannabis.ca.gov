@@ -57,13 +57,13 @@
       "page_title": "Contact us",
       "page_description": "You have several ways to contact the Department of Cannabis Control.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Contact us",
+      "meta_description": "You have several ways to contact the Department of Cannabis Control.",
+      "meta_canonical_url": "http://wordpress.test:8888/contact-us/",
+      "open_graph_title": "Contact us",
+      "open_graph_description": "You have several ways to contact the Department of Cannabis Control.",
+      "twitter_title": "Contact us",
+      "twitter_description": "You have several ways to contact the Department of Cannabis Control."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/contact-us/"
   }

@@ -57,13 +57,13 @@
       "page_title": "Retail",
       "page_description": "Cannabis retailers sell cannabis goods through storefront shops or delivery.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Retail",
+      "meta_description": "Cannabis retailers sell cannabis goods through storefront shops or delivery.",
+      "meta_canonical_url": "http://wordpress.test:8888/retail/",
+      "open_graph_title": "Retail",
+      "open_graph_description": "Cannabis retailers sell cannabis goods through storefront shops or delivery.",
+      "twitter_title": "Retail",
+      "twitter_description": "Cannabis retailers sell cannabis goods through storefront shops or delivery."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/retail/"
   }

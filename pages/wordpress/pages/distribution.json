@@ -57,13 +57,13 @@
       "page_title": "Distribution",
       "page_description": "Distributors transport cannabis and cannabis products in California.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Distribution",
+      "meta_description": "Distributors transport cannabis and cannabis products in California.",
+      "meta_canonical_url": "http://wordpress.test:8888/distribution/",
+      "open_graph_title": "Distribution",
+      "open_graph_description": "Distributors transport cannabis and cannabis products in California.",
+      "twitter_title": "Distribution",
+      "twitter_description": "Distributors transport cannabis and cannabis products in California."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/distribution/"
   }

@@ -57,13 +57,13 @@
       "page_title": "Cannabis Advisory Committee",
       "page_description": "The Cannabis Advisory Committee are subject-matter experts that advise the Department of Cannabis Control on regulations.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Cannabis Advisory Committee",
+      "meta_description": "The Cannabis Advisory Committee are subject-matter experts that advise the Department of Cannabis Control on regulations.",
+      "meta_canonical_url": "http://wordpress.test:8888/cannabis-advisory-committee/",
+      "open_graph_title": "Cannabis Advisory Committee",
+      "open_graph_description": "The Cannabis Advisory Committee are subject-matter experts that advise the Department of Cannabis Control on regulations.",
+      "twitter_title": "Cannabis Advisory Committee",
+      "twitter_description": "The Cannabis Advisory Committee are subject-matter experts that advise the Department of Cannabis Control on regulations."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/cannabis-advisory-committee/"
   }

@@ -57,13 +57,13 @@
       "page_title": "Grant funding",
       "page_description": "California offers cannabis-related grants to local governments to fund programs and universities to fund research.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "Grant funding",
+      "meta_description": "California offers cannabis-related grants to local governments to fund programs and universities to fund research.",
+      "meta_canonical_url": "http://wordpress.test:8888/grants/",
+      "open_graph_title": "Grant funding",
+      "open_graph_description": "California offers cannabis-related grants to local governments to fund programs and universities to fund research.",
+      "twitter_title": "Grant funding",
+      "twitter_description": "California offers cannabis-related grants to local governments to fund programs and universities to fund research."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/about-us/grant-funding/"
   }

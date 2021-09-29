@@ -57,13 +57,13 @@
       "page_title": "File a complaint",
       "page_description": "File an anonymous complaints against licensed or unlicensed cannabis businesses.",
       "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "meta_title": null,
-      "meta_description": null,
-      "meta_canonical_url": null,
-      "open_graph_title": null,
-      "open_graph_description": null,
-      "twitter_title": null,
-      "twitter_description": null
+      "meta_title": "File a complaint",
+      "meta_description": "File an anonymous complaints against licensed or unlicensed cannabis businesses.",
+      "meta_canonical_url": "http://wordpress.test:8888/resources/file-complaint/",
+      "open_graph_title": "File a complaint",
+      "open_graph_description": "File an anonymous complaints against licensed or unlicensed cannabis businesses.",
+      "twitter_title": "File a complaint",
+      "twitter_description": "File an anonymous complaints against licensed or unlicensed cannabis businesses."
     },
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/resources/file-complaint/"
   }
