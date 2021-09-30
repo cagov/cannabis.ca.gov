@@ -1,4 +1,10 @@
 name: Eleventy Build Main
+# site:  headless.cannabis.ca.gov
+# editor: https://cannabis.ca.gov
+# s3 bucket headless.cannabis.ca.gov
+# Will become
+# site:  cannabis.ca.gov
+# editor: https://api.cannabis.ca.gov
 on:
   push:
     branches:
