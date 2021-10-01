@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-01T07:14:36",
-    "updated_date": "2021-10-01T07:14:36",
+    "updated_date": "2021-10-01T15:36:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-01T00:14:36",
     "date_gmt": "2021-10-01T07:14:36",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCC_Provisional-License-Requirements.pdf",
-    "modified": "2021-10-01T00:14:36",
-    "modified_gmt": "2021-10-01T07:14:36",
+    "modified": "2021-10-01T08:36:45",
+    "modified_gmt": "2021-10-01T15:36:45",
     "slug": "dcc_provisional-license-requirements",
     "status": "inherit",
     "type": "attachment",
