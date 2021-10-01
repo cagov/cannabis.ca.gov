@@ -11,7 +11,7 @@ section.site-footer {
 	}
 
 	a {
-		color: var(--primary-color, #064E66);
+		color: var(--primary-color, #064e66);
 		&:hover {
 			color: var(--primary-hover-color, #043747);
 		}
@@ -22,7 +22,7 @@ section.site-footer {
 
 	.footer-logo {
 		width: 54px;
-		margin-right: 2rem;
+		margin-right: 8px;
 		img {
 			width: 100%;
 		}
@@ -34,21 +34,21 @@ section.site-footer {
 		font-size: 1.125rem;
 		a {
 			margin-right: 1.7rem;
-			padding-top: .5rem;
-			padding-bottom: .5rem;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
 		}
 	}
 
 	.footer-social-links {
-		padding-top: .7rem;
-		padding-bottom: .7rem;
+		padding-top: 0.7rem;
+		padding-bottom: 0.7rem;
 		a {
 			text-decoration: none;
-			padding-right: .3rem;
-			padding-left: .3rem;
+			padding-right: 0.3rem;
+			padding-left: 0.3rem;
 			transition: all 0.3s ease;
 			svg path {
-				fill: var(--primary-color, #064E66);
+				fill: var(--primary-color, #064e66);
 			}
 			&:hover {
 				svg path {
@@ -59,21 +59,20 @@ section.site-footer {
 	}
 }
 
-
 @media (min-width: 991px) {
-	.footer-secondary-links, section.site-footer .container {
+	.footer-secondary-links,
+	section.site-footer .container {
 		flex-direction: row !important;
-		align-items:center;
+		align-items: center;
 	}
 	.footer-social-links {
 		margin-left: auto;
-
 	}
 }
 
 // Misc
 .bg-light-grey {
-    background-color: var(--gray-100, #f9f9fa);
+	background-color: var(--gray-100, #f9f9fa);
 }
 
 .pt-0 {
