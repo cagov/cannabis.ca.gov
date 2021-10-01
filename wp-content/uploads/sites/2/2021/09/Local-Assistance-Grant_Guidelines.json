@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-01T04:24:54",
-    "updated_date": "2021-10-01T04:24:54",
+    "updated_date": "2021-10-01T05:58:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-30T21:24:54",
     "date_gmt": "2021-10-01T04:24:54",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Local-Assistance-Grant_Guidelines.pdf",
-    "modified": "2021-09-30T21:24:54",
-    "modified_gmt": "2021-10-01T04:24:54",
+    "modified": "2021-09-30T22:58:35",
+    "modified_gmt": "2021-10-01T05:58:35",
     "slug": "local-assistance-grant_guidelines",
     "status": "inherit",
     "type": "attachment",
