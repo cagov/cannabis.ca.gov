@@ -76,8 +76,7 @@ module.exports = function(eleventyConfig) {
         }
       }
       // modify the wordpress asset links here opportunistically because we are already looping through tempaltes with njk transformed into HTML 
-      item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp('http://cannabis.ca.gov/','g'),'/');
-      item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp('https://cannabis.ca.gov/','g'),'/');
+      item.template.frontMatter.content = item.template.frontMatter.content.replace(/https?:\/\/cannabis\.ca\.gov\//g,'/');
     });
     pressPosts.sort((a,b) => {
       return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
