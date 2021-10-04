@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-03-06T22:11:00",
-    "updated_date": "2021-06-19T15:50:52",
+    "updated_date": "2021-09-28T17:40:42",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-03-06T22:11:00",
     "date_gmt": "2019-03-06T22:11:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/32152/",
-    "modified": "2021-06-19T08:50:52",
-    "modified_gmt": "2021-06-19T15:50:52",
+    "modified": "2021-09-28T17:40:42",
+    "modified_gmt": "2021-09-28T17:40:42",
     "slug": "32152-2",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2019/03/06/32152-2/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/03/06/32152-2/",
     "title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -53,8 +53,179 @@
       "Testing labs"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single-press-release"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2019/03/06/32152-2/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/06/32152-2/",
+      "page_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/06/32152-2/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
+      "twitter_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 54,
+        "name": "Campaign",
+        "slug": "campaign",
+        "term_group": 0,
+        "term_taxonomy_id": 54,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 330,
+        "name": "Cannabis industry",
+        "slug": "cannabis-industry",
+        "term_group": 0,
+        "term_taxonomy_id": 330,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 469,
+        "name": "KP public affairs",
+        "slug": "kp-public-affairs",
+        "term_group": 0,
+        "term_taxonomy_id": 469,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 211,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 211,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 221,
+        "name": "Licensees",
+        "slug": "licensees",
+        "term_group": 0,
+        "term_taxonomy_id": 221,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 113,
+        "name": "Public awareness",
+        "slug": "public-awareness",
+        "term_group": 0,
+        "term_taxonomy_id": 113,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 470,
+        "name": "Safe cannabis",
+        "slug": "safe-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 470,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "Testing labs",
+        "slug": "testing-labs",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/06/32152-2/"
   }
 }

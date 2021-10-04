@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2017-12-18T19:35:00",
-    "updated_date": "2021-06-30T17:59:19",
+    "updated_date": "2021-09-28T17:41:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2017-12-18T19:35:00",
     "date_gmt": "2017-12-18T19:35:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/alameda-county-announces-winter-cannabis-summit/",
-    "modified": "2021-06-30T10:59:19",
-    "modified_gmt": "2021-06-30T17:59:19",
+    "modified": "2021-09-28T17:41:29",
+    "modified_gmt": "2021-09-28T17:41:29",
     "slug": "alameda-county-announces-winter-cannabis-summit",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
     "title": "Alameda County Announces Winter Cannabis Summit",
     "excerpt": "<p>As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -54,8 +54,191 @@
       "Winter"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single-press-release"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2017/12/18/alameda-county-announces-winter-cannabis-summit/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
+      "page_title": "Alameda County Announces Winter Cannabis Summit",
+      "page_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Alameda County Announces Winter Cannabis Summit",
+      "meta_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
+      "open_graph_title": "Alameda County Announces Winter Cannabis Summit",
+      "open_graph_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.",
+      "twitter_title": "Alameda County Announces Winter Cannabis Summit",
+      "twitter_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 160,
+        "name": "Alameda",
+        "slug": "alameda",
+        "term_group": 0,
+        "term_taxonomy_id": 160,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 78,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 78,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 23,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 161,
+        "name": "County",
+        "slug": "county",
+        "term_group": 0,
+        "term_taxonomy_id": 161,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 162,
+        "name": "Event",
+        "slug": "event",
+        "term_group": 0,
+        "term_taxonomy_id": 162,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 137,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 137,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      },
+      {
+        "term_id": 163,
+        "name": "Summit",
+        "slug": "summit",
+        "term_group": 0,
+        "term_taxonomy_id": 163,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 164,
+        "name": "Winter",
+        "slug": "winter",
+        "term_group": 0,
+        "term_taxonomy_id": 164,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/12/18/alameda-county-announces-winter-cannabis-summit/"
   }
 }

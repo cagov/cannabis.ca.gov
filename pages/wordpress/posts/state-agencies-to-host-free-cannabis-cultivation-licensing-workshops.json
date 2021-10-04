@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2020-01-15T01:35:00",
-    "updated_date": "2021-07-01T17:52:23",
+    "updated_date": "2021-09-28T17:36:52",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2020-01-15T01:35:00",
     "date_gmt": "2020-01-15T01:35:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/",
-    "modified": "2021-07-01T10:52:23",
-    "modified_gmt": "2021-07-01T17:52:23",
+    "modified": "2021-09-28T17:36:52",
+    "modified_gmt": "2021-09-28T17:36:52",
     "slug": "state-agencies-to-host-free-cannabis-cultivation-licensing-workshops",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2020/01/15/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2020/01/15/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/",
     "title": "State Agencies To Host Four Free Cannabis Cultivation Licensing Workshops",
     "excerpt": "<p>The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting a series of cannabis licensing workshops this January and February.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -56,8 +56,215 @@
       "Workshops"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2020/01/15/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/15/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/",
+      "page_title": "State Agencies To Host Four Free Cannabis Cultivation Licensing Workshops",
+      "page_description": "The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting a series of cannabis licensing workshops this January and February.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Agencies To Host Four Free Cannabis Cultivation Licensing Workshops",
+      "meta_description": "The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting a series of cannabis licensing workshops this January and February.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/15/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/",
+      "open_graph_title": "State Agencies To Host Four Free Cannabis Cultivation Licensing Workshops",
+      "open_graph_description": "The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting a series of cannabis licensing workshops this January and February.",
+      "twitter_title": "State Agencies To Host Four Free Cannabis Cultivation Licensing Workshops",
+      "twitter_description": "The California Department of Fish and Wildlife (CDFW), the California Department of Food and Agriculture (CDFA) and the State Water Resources Control Board (SWRCB) are hosting a series of cannabis licensing workshops this January and February."
+    },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 134,
+        "name": "CalCannabis Cultivation Licensing",
+        "slug": "calcannabis-cultivation-licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 134,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 19,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 490,
+        "name": "Cannabis cultivation",
+        "slug": "cannabis-cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 490,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 453,
+        "name": "CDFW",
+        "slug": "cdfw",
+        "term_group": 0,
+        "term_taxonomy_id": 453,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 19,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 19,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 20,
+        "filter": "raw"
+      },
+      {
+        "term_id": 721,
+        "name": "Free",
+        "slug": "free",
+        "term_group": 0,
+        "term_taxonomy_id": 721,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 722,
+        "name": "Free cannabis cultivation",
+        "slug": "free-cannabis-cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 722,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 154,
+        "name": "License",
+        "slug": "license",
+        "term_group": 0,
+        "term_taxonomy_id": 154,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 16,
+        "filter": "raw"
+      },
+      {
+        "term_id": 94,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 34,
+        "filter": "raw"
+      },
+      {
+        "term_id": 723,
+        "name": "Licensing workshop",
+        "slug": "licensing-workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 723,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 467,
+        "name": "State Water Board",
+        "slug": "state-water-board",
+        "term_group": 0,
+        "term_taxonomy_id": 467,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 176,
+        "name": "Workshops",
+        "slug": "workshops",
+        "term_group": 0,
+        "term_taxonomy_id": 176,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/15/state-agencies-to-host-free-cannabis-cultivation-licensing-workshops/"
   }
 }

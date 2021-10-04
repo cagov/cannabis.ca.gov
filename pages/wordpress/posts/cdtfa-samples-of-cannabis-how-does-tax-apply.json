@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-04-18T23:46:00",
-    "updated_date": "2021-07-01T17:52:26",
+    "updated_date": "2021-09-28T17:37:15",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-04-18T23:46:00",
     "date_gmt": "2019-04-18T23:46:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdtfa-samples-of-cannabis-how-does-tax-apply/",
-    "modified": "2021-07-01T10:52:26",
-    "modified_gmt": "2021-07-01T17:52:26",
+    "modified": "2021-09-28T17:37:15",
+    "modified_gmt": "2021-09-28T17:37:15",
     "slug": "cdtfa-samples-of-cannabis-how-does-tax-apply",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
     "title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
     "excerpt": "<p>As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -56,8 +56,215 @@
       "Tax"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
+      "page_title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
+      "page_description": "As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
+      "meta_description": "As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/",
+      "open_graph_title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
+      "open_graph_description": "As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer.",
+      "twitter_title": "CDTFA: Samples of Cannabis – How Does Tax Apply?",
+      "twitter_description": "As a distributor, manufacturer, or cultivator, you may sell samples or promotional items to a cannabis retailer."
+    },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 233,
+        "name": "California department of tax and fee administration",
+        "slug": "california-department-of-tax-and-fee-administration",
+        "term_group": 0,
+        "term_taxonomy_id": 233,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 13,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 427,
+        "name": "Cannabis excise tax",
+        "slug": "cannabis-excise-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 427,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 496,
+        "name": "Cannabis samples",
+        "slug": "cannabis-samples",
+        "term_group": 0,
+        "term_taxonomy_id": 496,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 135,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 135,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 21,
+        "filter": "raw"
+      },
+      {
+        "term_id": 151,
+        "name": "Distributor",
+        "slug": "distributor",
+        "term_group": 0,
+        "term_taxonomy_id": 151,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 95,
+        "name": "Microbusiness",
+        "slug": "microbusiness",
+        "term_group": 0,
+        "term_taxonomy_id": 95,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 236,
+        "name": "Retail",
+        "slug": "retail",
+        "term_group": 0,
+        "term_taxonomy_id": 236,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 157,
+        "name": "Retailer",
+        "slug": "retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 157,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 13,
+        "filter": "raw"
+      },
+      {
+        "term_id": 282,
+        "name": "Sales and use tax",
+        "slug": "sales-and-use-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 282,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 497,
+        "name": "Sales tax",
+        "slug": "sales-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 497,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 498,
+        "name": "Samples",
+        "slug": "samples",
+        "term_group": 0,
+        "term_taxonomy_id": 498,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 237,
+        "name": "Tax",
+        "slug": "tax",
+        "term_group": 0,
+        "term_taxonomy_id": 237,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/18/cdtfa-samples-of-cannabis-how-does-tax-apply/"
   }
 }

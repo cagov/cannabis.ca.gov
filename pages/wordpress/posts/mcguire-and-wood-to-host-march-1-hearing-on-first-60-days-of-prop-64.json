@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2018-02-23T22:00:00",
-    "updated_date": "2021-06-19T15:50:55",
+    "updated_date": "2021-09-28T17:41:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2018-02-23T22:00:00",
     "date_gmt": "2018-02-23T22:00:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
-    "modified": "2021-06-19T08:50:55",
-    "modified_gmt": "2021-06-19T15:50:55",
+    "modified": "2021-09-28T17:41:14",
+    "modified_gmt": "2021-09-28T17:41:14",
     "slug": "mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
     "title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
     "excerpt": "<p>NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -55,8 +55,203 @@
       "Ukiah"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single-press-release"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
+      "page_title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
+      "page_description": "NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
+      "meta_description": "NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/",
+      "open_graph_title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
+      "open_graph_description": "NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis.",
+      "twitter_title": "McGuire and Wood to host March 1 hearing on ‘First 60 days of Prop 64",
+      "twitter_description": "NORTH COAST, Calif. – In November 2016, California voters approved Proposition 64 legalizing recreational cannabis."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 193,
+        "name": "Assemblyman",
+        "slug": "assemblyman",
+        "term_group": 0,
+        "term_taxonomy_id": 193,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 194,
+        "name": "Hearing",
+        "slug": "hearing",
+        "term_group": 0,
+        "term_taxonomy_id": 194,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 195,
+        "name": "Jim Wood",
+        "slug": "jim-wood",
+        "term_group": 0,
+        "term_taxonomy_id": 195,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 196,
+        "name": "Mike McGuire",
+        "slug": "mike-mcguire",
+        "term_group": 0,
+        "term_taxonomy_id": 196,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 197,
+        "name": "Proposition 64",
+        "slug": "proposition-64",
+        "term_group": 0,
+        "term_taxonomy_id": 197,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 198,
+        "name": "Senator",
+        "slug": "senator",
+        "term_group": 0,
+        "term_taxonomy_id": 198,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 159,
+        "name": "Ukiah",
+        "slug": "ukiah",
+        "term_group": 0,
+        "term_taxonomy_id": 159,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/02/23/mcguire-and-wood-to-host-march-1-hearing-on-first-60-days-of-prop-64/"
   }
 }

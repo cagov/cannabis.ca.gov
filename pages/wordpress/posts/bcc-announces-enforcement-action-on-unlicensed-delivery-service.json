@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-05-13T23:55:00",
-    "updated_date": "2021-07-01T00:53:57",
+    "updated_date": "2021-09-28T17:40:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-05-13T23:55:00",
     "date_gmt": "2019-05-13T23:55:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
-    "modified": "2021-06-30T17:53:57",
-    "modified_gmt": "2021-07-01T00:53:57",
+    "modified": "2021-09-28T17:40:38",
+    "modified_gmt": "2021-09-28T17:40:38",
     "slug": "bcc-announces-enforcement-action-on-unlicensed-delivery-service",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
     "title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs&#8217; Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -51,8 +51,155 @@
       "Unlicensed"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single-press-release"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
+      "page_title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
+      "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs' Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
+      "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs' Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/",
+      "open_graph_title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
+      "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs' Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California.",
+      "twitter_title": "BCC Announces Enforcement Action on Unlicensed Delivery Service",
+      "twitter_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs' Cannabis Enforcement Unit recently announced enforcement action on an unlicensed cannabis business operating out of Southern California."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 292,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 292,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 47,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 555,
+        "name": "Delivery service",
+        "slug": "delivery-service",
+        "term_group": 0,
+        "term_taxonomy_id": 555,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 120,
+        "name": "Enforcement",
+        "slug": "enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 120,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 18,
+        "filter": "raw"
+      },
+      {
+        "term_id": 211,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 211,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 157,
+        "name": "Retailer",
+        "slug": "retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 157,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 13,
+        "filter": "raw"
+      },
+      {
+        "term_id": 426,
+        "name": "Unlicensed",
+        "slug": "unlicensed",
+        "term_group": 0,
+        "term_taxonomy_id": 426,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 11,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/05/13/bcc-announces-enforcement-action-on-unlicensed-delivery-service/"
   }
 }
