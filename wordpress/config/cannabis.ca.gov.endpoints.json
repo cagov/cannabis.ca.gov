@@ -14,7 +14,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "main",
-            "ConfigPath": "wordpress/wordpress-to-github.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.config.json"
           }
         },
         {
@@ -25,7 +25,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "staging",
-            "ConfigPath": "wordpress/wordpress-to-github.staging.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.staging.config.json"
           }
         },
         {
@@ -36,7 +36,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "development",
-            "ConfigPath": "wordpress/wordpress-to-github.development.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.development.config.json"
           }
         },
         {
@@ -47,7 +47,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "staging-pantheon",
-            "ConfigPath": "wordpress/wordpress-to-github.staging-pantheon.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.staging-pantheon.config.json"
           }
         },
         {
@@ -58,7 +58,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "development-pantheon",
-            "ConfigPath": "wordpress/wordpress-to-github.development-pantheon.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.development-pantheon.config.json"
           }
         },
         {
@@ -69,7 +69,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "main-wp58",
-            "ConfigPath": "wordpress/wordpress-to-github.main-wp58.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.main-wp58.config.json"
           }
         },
         {
@@ -80,7 +80,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "staging-wp58",
-            "ConfigPath": "wordpress/wordpress-to-github.staging-wp58.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.staging-wp58.config.json"
           }
         },
         {
@@ -91,7 +91,7 @@
             "Owner": "cagov",
             "Repo": "cannabis.ca.gov",
             "Branch": "development-wp58",
-            "ConfigPath": "wordpress/wordpress-to-github.development-wp58.config.json"
+            "ConfigPath": "wordpress/config/wordpress-to-github.development-wp58.config.json"
           }
         }
       ]
