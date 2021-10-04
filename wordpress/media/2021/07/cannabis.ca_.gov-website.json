@@ -36,7 +36,7 @@
     "categories": [
       1
     ],
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website.png'><img width=\"300\" height=\"215\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-471x338.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website.png'><img width=\"576\" height=\"414\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-576x414.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",
@@ -47,11 +47,11 @@
       "file": "2021/07/cannabis.ca_.gov-website.png",
       "sizes": {
         "medium": {
-          "file": "cannabis.ca_.gov-website-471x338.png",
-          "width": 471,
-          "height": 338,
+          "file": "cannabis.ca_.gov-website-576x414.png",
+          "width": 576,
+          "height": 414,
           "mime_type": "image/png",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-471x338.png"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-576x414.png"
         },
         "large": {
           "file": "cannabis.ca_.gov-website-1024x735.png",
@@ -201,6 +201,16 @@
         "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-768x551.png"
       },
       {
+        "type": "medium",
+        "path": "2021/07/cannabis.ca_.gov-website-576x414.png",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-576x414.png",
+        "file": "cannabis.ca_.gov-website-576x414.png",
+        "width": 576,
+        "height": 414,
+        "mime_type": "image/png",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-576x414.png"
+      },
+      {
         "type": "et-pb-portfolio-module-image",
         "path": "2021/07/cannabis.ca_.gov-website-510x382.png",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-510x382.png",
@@ -219,16 +229,6 @@
         "height": 345,
         "mime_type": "image/png",
         "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-480x345.png"
-      },
-      {
-        "type": "medium",
-        "path": "2021/07/cannabis.ca_.gov-website-471x338.png",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-471x338.png",
-        "file": "cannabis.ca_.gov-website-471x338.png",
-        "width": 471,
-        "height": 338,
-        "mime_type": "image/png",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cannabis.ca_.gov-website-471x338.png"
       },
       {
         "type": "et-pb-post-main-image",

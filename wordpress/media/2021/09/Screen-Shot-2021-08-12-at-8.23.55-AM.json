@@ -36,7 +36,7 @@
     "categories": [
       1
     ],
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM.png'><img width=\"300\" height=\"294\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM.png'><img width=\"576\" height=\"565\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png 576w, https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-480x471.png 480w\" sizes=\"(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 576px, 100vw\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",
@@ -47,11 +47,11 @@
       "file": "2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM.png",
       "sizes": {
         "medium": {
-          "file": "Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png",
-          "width": 345,
-          "height": 338,
+          "file": "Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png",
+          "width": 576,
+          "height": 565,
           "mime_type": "image/png",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png"
         },
         "thumbnail": {
           "file": "Screen-Shot-2021-08-12-at-8.23.55-AM-366x260.png",
@@ -133,6 +133,16 @@
         "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM.png"
       },
       {
+        "type": "medium",
+        "path": "2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png",
+        "file": "Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png",
+        "width": 576,
+        "height": 565,
+        "mime_type": "image/png",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-576x565.png"
+      },
+      {
         "type": "et-pb-portfolio-module-image",
         "path": "2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-510x382.png",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-510x382.png",
@@ -191,16 +201,6 @@
         "height": 260,
         "mime_type": "image/png",
         "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-366x260.png"
-      },
-      {
-        "type": "medium",
-        "path": "2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png",
-        "file": "Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png",
-        "width": 345,
-        "height": 338,
-        "mime_type": "image/png",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM-345x338.png"
       }
     ],
     "path": "2021/09/Screen-Shot-2021-08-12-at-8.23.55-AM.png"

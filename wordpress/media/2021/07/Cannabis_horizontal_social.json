@@ -36,7 +36,7 @@
     "categories": [
       1
     ],
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png'><img width=\"300\" height=\"169\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-566x318.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis Control Logo\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png'><img width=\"576\" height=\"324\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-576x324.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis Control Logo\" loading=\"lazy\" /></a></p>\n",
     "caption": "<p>Department of Cannabis Control</p>\n",
     "alt_text": "Department of Cannabis Control Logo",
     "media_type": "image",
@@ -47,11 +47,11 @@
       "file": "2021/07/Cannabis_horizontal_social.png",
       "sizes": {
         "medium": {
-          "file": "Cannabis_horizontal_social-566x318.png",
-          "width": 566,
-          "height": 318,
+          "file": "Cannabis_horizontal_social-576x324.png",
+          "width": 576,
+          "height": 324,
           "mime_type": "image/png",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-566x318.png"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-576x324.png"
         },
         "large": {
           "file": "Cannabis_horizontal_social-1024x576.png",
@@ -219,13 +219,13 @@
       },
       {
         "type": "medium",
-        "path": "2021/07/Cannabis_horizontal_social-566x318.png",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-566x318.png",
-        "file": "Cannabis_horizontal_social-566x318.png",
-        "width": 566,
-        "height": 318,
+        "path": "2021/07/Cannabis_horizontal_social-576x324.png",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-576x324.png",
+        "file": "Cannabis_horizontal_social-576x324.png",
+        "width": 576,
+        "height": 324,
         "mime_type": "image/png",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-566x318.png"
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-576x324.png"
       },
       {
         "type": "et-pb-portfolio-module-image",

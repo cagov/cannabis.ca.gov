@@ -36,7 +36,7 @@
     "categories": [
       1
     ],
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal.png'><img width=\"300\" height=\"85\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-566x160.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis logo\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal.png'><img width=\"576\" height=\"163\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-576x163.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis logo\" loading=\"lazy\" srcset=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-576x163.png 576w, https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-480x136.png 480w\" sizes=\"(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 576px, 100vw\" /></a></p>\n",
     "caption": "",
     "alt_text": "Department of Cannabis logo",
     "media_type": "image",
@@ -47,11 +47,11 @@
       "file": "2021/06/logo_horizontal.png",
       "sizes": {
         "medium": {
-          "file": "logo_horizontal-566x160.png",
-          "width": 566,
-          "height": 160,
+          "file": "logo_horizontal-576x163.png",
+          "width": 576,
+          "height": 163,
           "mime_type": "image/png",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-566x160.png"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-576x163.png"
         },
         "thumbnail": {
           "file": "logo_horizontal-366x170.png",
@@ -134,13 +134,13 @@
       },
       {
         "type": "medium",
-        "path": "2021/06/logo_horizontal-566x160.png",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-566x160.png",
-        "file": "logo_horizontal-566x160.png",
-        "width": 566,
-        "height": 160,
+        "path": "2021/06/logo_horizontal-576x163.png",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-576x163.png",
+        "file": "logo_horizontal-576x163.png",
+        "width": 576,
+        "height": 163,
         "mime_type": "image/png",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-566x160.png"
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/logo_horizontal-576x163.png"
       },
       {
         "type": "et-pb-portfolio-module-image",

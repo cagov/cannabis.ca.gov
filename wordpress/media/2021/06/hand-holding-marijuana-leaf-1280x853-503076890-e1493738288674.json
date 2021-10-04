@@ -35,7 +35,7 @@
     "categories": [
       1
     ],
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674.jpeg'><img width=\"300\" height=\"174\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg\" class=\"attachment-medium size-medium\" alt=\"Featured image alt text\" loading=\"lazy\" /></a></p>\n<p>Featured image description</p>\n",
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674.jpeg'><img width=\"576\" height=\"334\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg\" class=\"attachment-medium size-medium\" alt=\"Featured image alt text\" loading=\"lazy\" /></a></p>\n<p>Featured image description</p>\n",
     "caption": "<p>Featured image caption</p>\n",
     "alt_text": "Featured image alt text",
     "media_type": "image",
@@ -46,11 +46,11 @@
       "file": "2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674.jpeg",
       "sizes": {
         "medium": {
-          "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg",
-          "width": 566,
-          "height": 328,
+          "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg",
+          "width": 576,
+          "height": 334,
           "mime_type": "image/jpeg",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg"
         },
         "large": {
           "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1024x594.jpeg",
@@ -218,13 +218,13 @@
       },
       {
         "type": "medium",
-        "path": "2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg",
-        "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg",
-        "width": 566,
-        "height": 328,
+        "path": "2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg",
+        "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg",
+        "width": 576,
+        "height": 334,
         "mime_type": "image/jpeg",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-566x328.jpeg"
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-576x334.jpeg"
       },
       {
         "type": "et-pb-portfolio-module-image",

@@ -36,7 +36,7 @@
     "categories": [
       1
     ],
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg'><img width=\"300\" height=\"157\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-300x157.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg</p>\n",
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg'><img width=\"576\" height=\"302\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-576x302.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg</p>\n",
     "caption": "<p>https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg</p>\n",
     "alt_text": "",
     "media_type": "image",
@@ -47,11 +47,11 @@
       "file": "2021/06/cropped-cannabis-buds-hero-1.jpg",
       "sizes": {
         "medium": {
-          "file": "cropped-cannabis-buds-hero-1-300x157.jpg",
-          "width": 300,
-          "height": 157,
+          "file": "cropped-cannabis-buds-hero-1-576x302.jpg",
+          "width": 576,
+          "height": 302,
           "mime_type": "image/jpeg",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-300x157.jpg"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-576x302.jpg"
         },
         "large": {
           "file": "cropped-cannabis-buds-hero-1-1024x537.jpg",
@@ -218,6 +218,16 @@
         "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-768x403.jpg"
       },
       {
+        "type": "medium",
+        "path": "2021/06/cropped-cannabis-buds-hero-1-576x302.jpg",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-576x302.jpg",
+        "file": "cropped-cannabis-buds-hero-1-576x302.jpg",
+        "width": 576,
+        "height": 302,
+        "mime_type": "image/jpeg",
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-576x302.jpg"
+      },
+      {
         "type": "et-pb-portfolio-module-image",
         "path": "2021/06/cropped-cannabis-buds-hero-1-510x382.jpg",
         "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-510x382.jpg",
@@ -276,16 +286,6 @@
         "height": 260,
         "mime_type": "image/jpeg",
         "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-366x260.jpg"
-      },
-      {
-        "type": "medium",
-        "path": "2021/06/cropped-cannabis-buds-hero-1-300x157.jpg",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-300x157.jpg",
-        "file": "cropped-cannabis-buds-hero-1-300x157.jpg",
-        "width": 300,
-        "height": 157,
-        "mime_type": "image/jpeg",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1-300x157.jpg"
       }
     ],
     "path": "2021/06/cropped-cannabis-buds-hero-1.jpg"
