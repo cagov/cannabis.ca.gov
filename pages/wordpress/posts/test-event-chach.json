@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "created_date": "2021-09-30T03:25:09",
+    "updated_date": "2021-09-30T03:25:12",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9870,
+    "date": "2021-09-29T20:25:09",
+    "date_gmt": "2021-09-30T03:25:09",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/?p=9870",
+    "modified": "2021-09-29T20:25:12",
+    "modified_gmt": "2021-09-30T03:25:12",
+    "slug": "test-event-chach",
+    "status": "publish",
+    "type": "post",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2021/09/29/test-event-chach/",
+    "title": "Test Event &#8211; Chach",
+    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">October 13, 2021</div>\n<p></p>\n<div class=\"event-time\">6:00 AM &#8211; 7:30 AM PST</div>\n<p></p>\n<div class=\"event-location\">This is the location of the event.<br />Could be an address</div>\n</div>\n",
+    "author": "Chach Sikes",
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Events"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-single-event"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2021/09/29/test-event-chach/",
+      "page_title": "Test Event - Chach",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Test Event - Chach",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2021/09/29/test-event-chach/",
+      "open_graph_title": "Test Event - Chach",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Test Event - Chach",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 4,
+        "name": "Events",
+        "slug": "events",
+        "term_group": 0,
+        "term_taxonomy_id": 4,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 2,
+        "count": 2,
+        "filter": "raw",
+        "cat_ID": 4,
+        "category_count": 2,
+        "category_description": "",
+        "cat_name": "Events",
+        "category_nicename": "events",
+        "category_parent": 2
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": {
+      "startDateTimeUTC": "2021-10-13T13:00:00",
+      "endDateTimeUTC": "2021-10-13T14:30:00",
+      "startDate": "October 13, 2021",
+      "endDate": "October 13, 2021",
+      "startTime": "6:00 AM",
+      "endTime": "7:30 AM",
+      "localTimezone": "America/Los_Angeles",
+      "localTimezoneLabel": "PST",
+      "location": "This is the location of the event.<br>Could be an address",
+      "cost": "It's free."
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/09/29/test-event-chach/"
+  }
+}

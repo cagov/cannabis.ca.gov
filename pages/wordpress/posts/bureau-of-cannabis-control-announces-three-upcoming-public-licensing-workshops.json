@@ -52,35 +52,140 @@
     "design_system_fields": {
       "template": "template-single"
     },
-    "autodescription_meta": {
-      "tsf_post_meta": {
-        "_genesis_title": "",
-        "_tsf_title_no_blogname": 0,
-        "_genesis_description": "",
-        "_genesis_canonical_uri": "",
-        "redirect": "",
-        "_social_image_url": "",
-        "_social_image_id": 0,
-        "_genesis_noindex": 0,
-        "_genesis_nofollow": 0,
-        "_genesis_noarchive": 0,
-        "exclude_local_search": 0,
-        "exclude_from_archive": 0,
-        "_open_graph_title": "",
-        "_open_graph_description": "",
-        "_twitter_title": "",
-        "_twitter_description": ""
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
       },
-      "site_defaults": {
-        "title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
-        "description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
-        "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops",
-        "site_name": "Department of Cannabis Control",
-        "site_description": "Learn about California cannabis laws and licenses",
-        "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-        "wp_url": "https://dev-cagov-dcc.pantheonsite.io"
-      }
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
+      "page_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
+      "twitter_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 94,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 94,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 34,
+        "filter": "raw"
+      },
+      {
+        "term_id": 105,
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "term_group": 0,
+        "term_taxonomy_id": 105,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 12,
+        "filter": "raw"
+      },
+      {
+        "term_id": 104,
+        "name": "Riverside",
+        "slug": "riverside",
+        "term_group": 0,
+        "term_taxonomy_id": 104,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 103,
+        "name": "Sacramento",
+        "slug": "sacramento",
+        "term_group": 0,
+        "term_taxonomy_id": 103,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 20,
+        "filter": "raw"
+      },
+      {
+        "term_id": 53,
+        "name": "Workshop",
+        "slug": "workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 53,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 19,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/"
   }

@@ -33,7 +33,10 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png'><img width=\"566\" height=\"297\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-566x297.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>http://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png</p>\n",
+    "categories": [
+      1
+    ],
+    "description": "<p class=\"attachment\"><a href='https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png'><img width=\"576\" height=\"302\" src=\"https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-576x302.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>http://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png</p>\n",
     "caption": "<p>http://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social.png</p>\n",
     "alt_text": "",
     "media_type": "image",
@@ -44,11 +47,11 @@
       "file": "2021/07/cropped-Cannabis_horizontal_social.png",
       "sizes": {
         "medium": {
-          "file": "cropped-Cannabis_horizontal_social-566x297.png",
-          "width": 566,
-          "height": 297,
+          "file": "cropped-Cannabis_horizontal_social-576x302.png",
+          "width": 576,
+          "height": 302,
           "mime_type": "image/png",
-          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-566x297.png"
+          "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-576x302.png"
         },
         "large": {
           "file": "cropped-Cannabis_horizontal_social-1024x538.png",
@@ -216,13 +219,13 @@
       },
       {
         "type": "medium",
-        "path": "2021/07/cropped-Cannabis_horizontal_social-566x297.png",
-        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-566x297.png",
-        "file": "cropped-Cannabis_horizontal_social-566x297.png",
-        "width": 566,
-        "height": 297,
+        "path": "2021/07/cropped-Cannabis_horizontal_social-576x302.png",
+        "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-576x302.png",
+        "file": "cropped-Cannabis_horizontal_social-576x302.png",
+        "width": 576,
+        "height": 302,
         "mime_type": "image/png",
-        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-566x297.png"
+        "source_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social-576x302.png"
       },
       {
         "type": "et-pb-portfolio-module-image",

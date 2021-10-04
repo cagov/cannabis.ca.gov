@@ -53,35 +53,152 @@
     "design_system_fields": {
       "template": "template-single"
     },
-    "autodescription_meta": {
-      "tsf_post_meta": {
-        "_genesis_title": "",
-        "_tsf_title_no_blogname": 0,
-        "_genesis_description": "",
-        "_genesis_canonical_uri": "",
-        "redirect": "",
-        "_social_image_url": "",
-        "_social_image_id": 0,
-        "_genesis_noindex": 0,
-        "_genesis_nofollow": 0,
-        "_genesis_noarchive": 0,
-        "exclude_local_search": 0,
-        "exclude_from_archive": 0,
-        "_open_graph_title": "",
-        "_open_graph_description": "",
-        "_twitter_title": "",
-        "_twitter_description": ""
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
       },
-      "site_defaults": {
-        "title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
-        "description": "The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.",
-        "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report",
-        "site_name": "Department of Cannabis Control",
-        "site_description": "Learn about California cannabis laws and licenses",
-        "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-        "wp_url": "https://dev-cagov-dcc.pantheonsite.io"
-      }
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/",
+      "page_title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
+      "page_description": "The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
+      "meta_description": "The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/",
+      "open_graph_title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
+      "open_graph_description": "The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate.",
+      "twitter_title": "California Legislative Analyst&#8217;s Office Publishes Cannabis Tax Adjustment Report",
+      "twitter_description": "The California Legislative Analyst&#8217;s Office (LAO) recently published their cannabis tax report, <a href=\"https://lao.ca.gov/reports/2019/4125/cannabis-taxes-121719.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Adjusting California&#8217;s Cannabis Taxes</a>, recommending adjustments to the state’s cannabis tax rate."
     },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 734,
+        "name": "Adjustment",
+        "slug": "adjustment",
+        "term_group": 0,
+        "term_taxonomy_id": 734,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 735,
+        "name": "California taxes",
+        "slug": "california-taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 735,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 395,
+        "name": "Cannabis taxes",
+        "slug": "cannabis-taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 395,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      },
+      {
+        "term_id": 736,
+        "name": "LAO",
+        "slug": "lao",
+        "term_group": 0,
+        "term_taxonomy_id": 736,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 737,
+        "name": "Legislative analyst's office",
+        "slug": "legislative-analysts-office",
+        "term_group": 0,
+        "term_taxonomy_id": 737,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 738,
+        "name": "Report",
+        "slug": "report",
+        "term_group": 0,
+        "term_taxonomy_id": 738,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 182,
+        "name": "Taxes",
+        "slug": "taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 182,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "event": null,
     "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/12/18/california-legislative-analysts-office-publishes-cannabis-tax-adjustment-report/"
   }
