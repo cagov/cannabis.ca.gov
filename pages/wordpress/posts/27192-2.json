@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "created_date": "2017-08-25T22:52:00",
+    "updated_date": "2017-08-25T22:52:00",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6075,
+    "date": "2017-08-25T22:52:00",
+    "date_gmt": "2017-08-25T22:52:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/27192/",
+    "modified": "2017-08-25T22:52:00",
+    "modified_gmt": "2017-08-25T22:52:00",
+    "slug": "27192-2",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2017/08/25/27192-2/",
+    "title": "Governor Brown Announces Appointments",
+    "excerpt": "<p>SACRAMENTO – Governor Edmund G.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Andre Jones",
+      "Appointment",
+      "Assistant",
+      "Bureau of Cannabis Control",
+      "Cannabis",
+      "Chief",
+      "Deputy",
+      "Governor",
+      "Jerry Brown",
+      "Melanie V. Ramil",
+      "Ricardo V. DeLaCruz"
+    ],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2017/08/25/27192-2/"
+  }
+}

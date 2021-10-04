@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2018-06-26T15:51:00",
-    "updated_date": "2021-09-28T17:37:52",
+    "updated_date": "2021-07-01T17:52:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2018-06-26T15:51:00",
     "date_gmt": "2018-06-26T15:51:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
-    "modified": "2021-09-28T17:37:52",
-    "modified_gmt": "2021-09-28T17:37:52",
+    "modified": "2021-07-01T10:52:30",
+    "modified_gmt": "2021-07-01T17:52:30",
     "slug": "information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
+    "link": "https://cannabis.ca.gov/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
     "title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
     "excerpt": "<p>Cultivation Tax<br />\nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -53,179 +53,8 @@
       "Seeds"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
-      "page_title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
-      "page_description": "Cultivation Tax \nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
-      "meta_description": "Cultivation Tax \nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
-      "open_graph_title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
-      "open_graph_description": "Cultivation Tax \nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.",
-      "twitter_title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
-      "twitter_description": "Cultivation Tax \nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds."
-    },
-    "headless_categories": [
-      {
-        "term_id": 13,
-        "name": "Announcements",
-        "slug": "announcements",
-        "term_group": 0,
-        "term_taxonomy_id": 13,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 146,
-        "filter": "raw",
-        "cat_ID": 13,
-        "category_count": 146,
-        "category_description": "",
-        "cat_name": "Announcements",
-        "category_nicename": "announcements",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 233,
-        "name": "California department of tax and fee administration",
-        "slug": "california-department-of-tax-and-fee-administration",
-        "term_group": 0,
-        "term_taxonomy_id": 233,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 13,
-        "filter": "raw"
-      },
-      {
-        "term_id": 15,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 187,
-        "filter": "raw"
-      },
-      {
-        "term_id": 279,
-        "name": "Cannabis tax",
-        "slug": "cannabis-tax",
-        "term_group": 0,
-        "term_taxonomy_id": 279,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 135,
-        "name": "CDTFA",
-        "slug": "cdtfa",
-        "term_group": 0,
-        "term_taxonomy_id": 135,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 21,
-        "filter": "raw"
-      },
-      {
-        "term_id": 280,
-        "name": "Clones",
-        "slug": "clones",
-        "term_group": 0,
-        "term_taxonomy_id": 280,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 239,
-        "name": "Cultivation tax",
-        "slug": "cultivation-tax",
-        "term_group": 0,
-        "term_taxonomy_id": 239,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 235,
-        "name": "Excise tax",
-        "slug": "excise-tax",
-        "term_group": 0,
-        "term_taxonomy_id": 235,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 9,
-        "filter": "raw"
-      },
-      {
-        "term_id": 281,
-        "name": "Immature plants",
-        "slug": "immature-plants",
-        "term_group": 0,
-        "term_taxonomy_id": 281,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 282,
-        "name": "Sales and use tax",
-        "slug": "sales-and-use-tax",
-        "term_group": 0,
-        "term_taxonomy_id": 282,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 2,
-        "filter": "raw"
-      },
-      {
-        "term_id": 283,
-        "name": "Seeds",
-        "slug": "seeds",
-        "term_group": 0,
-        "term_taxonomy_id": 283,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/"
+    "wordpress_url": "https://cannabis.ca.gov/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/"
   }
 }

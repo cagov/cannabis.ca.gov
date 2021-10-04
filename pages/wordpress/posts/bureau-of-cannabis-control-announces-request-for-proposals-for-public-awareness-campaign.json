@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2018-11-06T20:29:00",
-    "updated_date": "2021-09-28T17:40:51",
+    "updated_date": "2021-06-19T15:50:53",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2018-11-06T20:29:00",
     "date_gmt": "2018-11-06T20:29:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/",
-    "modified": "2021-09-28T17:40:51",
-    "modified_gmt": "2021-09-28T17:40:51",
+    "modified": "2021-06-19T08:50:53",
+    "modified_gmt": "2021-06-19T15:50:53",
     "slug": "bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/",
+    "link": "https://cannabis.ca.gov/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/",
     "title": "Bureau of Cannabis Control Announces Request for Proposals for Public Awareness Campaign",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -56,215 +56,8 @@
       "Strategy development"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/",
-      "page_title": "Bureau of Cannabis Control Announces Request for Proposals for Public Awareness Campaign",
-      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Bureau of Cannabis Control Announces Request for Proposals for Public Awareness Campaign",
-      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/",
-      "open_graph_title": "Bureau of Cannabis Control Announces Request for Proposals for Public Awareness Campaign",
-      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
-      "twitter_title": "Bureau of Cannabis Control Announces Request for Proposals for Public Awareness Campaign",
-      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it is seeking proposals to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California."
-    },
-    "headless_categories": [
-      {
-        "term_id": 46,
-        "name": "Press Releases",
-        "slug": "press-releases",
-        "term_group": 0,
-        "term_taxonomy_id": 46,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 110,
-        "filter": "raw",
-        "cat_ID": 46,
-        "category_count": 110,
-        "category_description": "",
-        "cat_name": "Press Releases",
-        "category_nicename": "press-releases",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 38,
-        "name": "Bureau of Cannabis Control",
-        "slug": "bureau-of-cannabis-control",
-        "term_group": 0,
-        "term_taxonomy_id": 38,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 121,
-        "filter": "raw"
-      },
-      {
-        "term_id": 31,
-        "name": "California",
-        "slug": "california",
-        "term_group": 0,
-        "term_taxonomy_id": 31,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 62,
-        "filter": "raw"
-      },
-      {
-        "term_id": 54,
-        "name": "Campaign",
-        "slug": "campaign",
-        "term_group": 0,
-        "term_taxonomy_id": 54,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 2,
-        "filter": "raw"
-      },
-      {
-        "term_id": 407,
-        "name": "Commercial cannabis businesses",
-        "slug": "commercial-cannabis-businesses",
-        "term_group": 0,
-        "term_taxonomy_id": 407,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 408,
-        "name": "Communications plan",
-        "slug": "communications-plan",
-        "term_group": 0,
-        "term_taxonomy_id": 408,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 409,
-        "name": "Licensure",
-        "slug": "licensure",
-        "term_group": 0,
-        "term_taxonomy_id": 409,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 410,
-        "name": "Media planning",
-        "slug": "media-planning",
-        "term_group": 0,
-        "term_taxonomy_id": 410,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 411,
-        "name": "Proposals",
-        "slug": "proposals",
-        "term_group": 0,
-        "term_taxonomy_id": 411,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 412,
-        "name": "Public awareness campaign",
-        "slug": "public-awareness-campaign",
-        "term_group": 0,
-        "term_taxonomy_id": 412,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 413,
-        "name": "Request for proposal",
-        "slug": "request-for-proposal",
-        "term_group": 0,
-        "term_taxonomy_id": 413,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 414,
-        "name": "RFP",
-        "slug": "rfp",
-        "term_group": 0,
-        "term_taxonomy_id": 414,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 415,
-        "name": "Statewide",
-        "slug": "statewide",
-        "term_group": 0,
-        "term_taxonomy_id": 415,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 416,
-        "name": "Strategy development",
-        "slug": "strategy-development",
-        "term_group": 0,
-        "term_taxonomy_id": 416,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/"
+    "wordpress_url": "https://cannabis.ca.gov/2018/11/06/bureau-of-cannabis-control-announces-request-for-proposals-for-public-awareness-campaign/"
   }
 }

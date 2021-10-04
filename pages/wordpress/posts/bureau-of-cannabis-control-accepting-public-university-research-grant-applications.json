@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2020-09-17T19:53:00",
-    "updated_date": "2021-09-28T17:39:59",
+    "updated_date": "2021-07-01T00:56:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2020-09-17T19:53:00",
     "date_gmt": "2020-09-17T19:53:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
-    "modified": "2021-09-28T17:39:59",
-    "modified_gmt": "2021-09-28T17:39:59",
+    "modified": "2021-06-30T17:56:07",
+    "modified_gmt": "2021-07-01T00:56:07",
     "slug": "bureau-of-cannabis-control-accepting-public-university-research-grant-applications",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
+    "link": "https://cannabis.ca.gov/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
     "title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
     "excerpt": "<p>The Bureau of Cannabis Control announced today a Request for Proposals for university research grants for public universities in California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -50,143 +50,8 @@
       "University"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
-      "page_title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
-      "page_description": "The Bureau of Cannabis Control announced today a Request for Proposals for university research grants for public universities in California.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
-      "meta_description": "The Bureau of Cannabis Control announced today a Request for Proposals for university research grants for public universities in California.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/",
-      "open_graph_title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
-      "open_graph_description": "The Bureau of Cannabis Control announced today a Request for Proposals for university research grants for public universities in California.",
-      "twitter_title": "Bureau of Cannabis Control Accepting Public University Research Grant Applications",
-      "twitter_description": "The Bureau of Cannabis Control announced today a Request for Proposals for university research grants for public universities in California."
-    },
-    "headless_categories": [
-      {
-        "term_id": 46,
-        "name": "Press Releases",
-        "slug": "press-releases",
-        "term_group": 0,
-        "term_taxonomy_id": 46,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 110,
-        "filter": "raw",
-        "cat_ID": 46,
-        "category_count": 110,
-        "category_description": "",
-        "cat_name": "Press Releases",
-        "category_nicename": "press-releases",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 93,
-        "name": "Application",
-        "slug": "application",
-        "term_group": 0,
-        "term_taxonomy_id": 93,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 9,
-        "filter": "raw"
-      },
-      {
-        "term_id": 292,
-        "name": "BCC",
-        "slug": "bcc",
-        "term_group": 0,
-        "term_taxonomy_id": 292,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 47,
-        "filter": "raw"
-      },
-      {
-        "term_id": 38,
-        "name": "Bureau of Cannabis Control",
-        "slug": "bureau-of-cannabis-control",
-        "term_group": 0,
-        "term_taxonomy_id": 38,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 121,
-        "filter": "raw"
-      },
-      {
-        "term_id": 15,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 187,
-        "filter": "raw"
-      },
-      {
-        "term_id": 478,
-        "name": "Grant",
-        "slug": "grant",
-        "term_group": 0,
-        "term_taxonomy_id": 478,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 103,
-        "name": "Sacramento",
-        "slug": "sacramento",
-        "term_group": 0,
-        "term_taxonomy_id": 103,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 20,
-        "filter": "raw"
-      },
-      {
-        "term_id": 745,
-        "name": "University",
-        "slug": "university",
-        "term_group": 0,
-        "term_taxonomy_id": 745,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/"
+    "wordpress_url": "https://cannabis.ca.gov/2020/09/17/bureau-of-cannabis-control-accepting-public-university-research-grant-applications/"
   }
 }

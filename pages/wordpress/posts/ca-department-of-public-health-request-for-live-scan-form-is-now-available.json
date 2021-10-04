@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2018-07-09T18:39:00",
-    "updated_date": "2021-09-28T17:37:50",
+    "updated_date": "2021-07-01T17:52:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2018-07-09T18:39:00",
     "date_gmt": "2018-07-09T18:39:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
-    "modified": "2021-09-28T17:37:50",
-    "modified_gmt": "2021-09-28T17:37:50",
+    "modified": "2021-07-01T10:52:30",
+    "modified_gmt": "2021-07-01T17:52:30",
     "slug": "ca-department-of-public-health-request-for-live-scan-form-is-now-available",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
+    "link": "https://cannabis.ca.gov/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
     "title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
     "excerpt": "<p>The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -54,191 +54,8 @@
       "Temporary licenses"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
-      "page_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
-      "page_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
-      "meta_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
-      "open_graph_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
-      "open_graph_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.",
-      "twitter_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
-      "twitter_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing."
-    },
-    "headless_categories": [
-      {
-        "term_id": 13,
-        "name": "Announcements",
-        "slug": "announcements",
-        "term_group": 0,
-        "term_taxonomy_id": 13,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 146,
-        "filter": "raw",
-        "cat_ID": 13,
-        "category_count": 146,
-        "category_description": "",
-        "cat_name": "Announcements",
-        "category_nicename": "announcements",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 267,
-        "name": "Annual license applicants",
-        "slug": "annual-license-applicants",
-        "term_group": 0,
-        "term_taxonomy_id": 267,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 268,
-        "name": "Annual license applications",
-        "slug": "annual-license-applications",
-        "term_group": 0,
-        "term_taxonomy_id": 268,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 269,
-        "name": "CA Department of Public Health",
-        "slug": "ca-department-of-public-health",
-        "term_group": 0,
-        "term_taxonomy_id": 269,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 15,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 187,
-        "filter": "raw"
-      },
-      {
-        "term_id": 270,
-        "name": "Cannabis manufacturing",
-        "slug": "cannabis-manufacturing",
-        "term_group": 0,
-        "term_taxonomy_id": 270,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 21,
-        "name": "CDPH",
-        "slug": "cdph",
-        "term_group": 0,
-        "term_taxonomy_id": 21,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 46,
-        "filter": "raw"
-      },
-      {
-        "term_id": 231,
-        "name": "Emergency regulations",
-        "slug": "emergency-regulations",
-        "term_group": 0,
-        "term_taxonomy_id": 231,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 15,
-        "filter": "raw"
-      },
-      {
-        "term_id": 271,
-        "name": "Fingerprint",
-        "slug": "fingerprint",
-        "term_group": 0,
-        "term_taxonomy_id": 271,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 229,
-        "name": "Livescan",
-        "slug": "livescan",
-        "term_group": 0,
-        "term_taxonomy_id": 229,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 265,
-        "name": "MAUCRSA",
-        "slug": "maucrsa",
-        "term_group": 0,
-        "term_taxonomy_id": 265,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 4,
-        "filter": "raw"
-      },
-      {
-        "term_id": 272,
-        "name": "Temporary licenses",
-        "slug": "temporary-licenses",
-        "term_group": 0,
-        "term_taxonomy_id": 272,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/"
+    "wordpress_url": "https://cannabis.ca.gov/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/"
   }
 }
