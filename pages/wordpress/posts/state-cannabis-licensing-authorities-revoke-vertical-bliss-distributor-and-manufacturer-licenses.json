@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-11-21T21:37:00",
-    "updated_date": "2021-09-28T17:40:17",
+    "updated_date": "2021-06-19T15:50:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-11-21T21:37:00",
     "date_gmt": "2019-11-21T21:37:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
-    "modified": "2021-09-28T17:40:17",
-    "modified_gmt": "2021-09-28T17:40:17",
+    "modified": "2021-06-19T08:50:49",
+    "modified_gmt": "2021-06-19T15:50:49",
     "slug": "state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
+    "link": "https://cannabis.ca.gov/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
     "title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -54,191 +54,8 @@
       "Vape product"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
-      "page_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
-      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
-      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
-      "open_graph_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
-      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.",
-      "twitter_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
-      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth."
-    },
-    "headless_categories": [
-      {
-        "term_id": 46,
-        "name": "Press Releases",
-        "slug": "press-releases",
-        "term_group": 0,
-        "term_taxonomy_id": 46,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 110,
-        "filter": "raw",
-        "cat_ID": 46,
-        "category_count": 110,
-        "category_description": "",
-        "cat_name": "Press Releases",
-        "category_nicename": "press-releases",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 38,
-        "name": "Bureau of Cannabis Control",
-        "slug": "bureau-of-cannabis-control",
-        "term_group": 0,
-        "term_taxonomy_id": 38,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 121,
-        "filter": "raw"
-      },
-      {
-        "term_id": 79,
-        "name": "California Department of Public Health",
-        "slug": "california-department-of-public-health",
-        "term_group": 0,
-        "term_taxonomy_id": 79,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 23,
-        "filter": "raw"
-      },
-      {
-        "term_id": 15,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 187,
-        "filter": "raw"
-      },
-      {
-        "term_id": 471,
-        "name": "Cannabis enforcement",
-        "slug": "cannabis-enforcement",
-        "term_group": 0,
-        "term_taxonomy_id": 471,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 21,
-        "name": "CDPH",
-        "slug": "cdph",
-        "term_group": 0,
-        "term_taxonomy_id": 21,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 46,
-        "filter": "raw"
-      },
-      {
-        "term_id": 154,
-        "name": "License",
-        "slug": "license",
-        "term_group": 0,
-        "term_taxonomy_id": 154,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 16,
-        "filter": "raw"
-      },
-      {
-        "term_id": 602,
-        "name": "Revocation",
-        "slug": "revocation",
-        "term_group": 0,
-        "term_taxonomy_id": 602,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 317,
-        "name": "Revoke",
-        "slug": "revoke",
-        "term_group": 0,
-        "term_taxonomy_id": 317,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 2,
-        "filter": "raw"
-      },
-      {
-        "term_id": 603,
-        "name": "Vape",
-        "slug": "vape",
-        "term_group": 0,
-        "term_taxonomy_id": 603,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 4,
-        "filter": "raw"
-      },
-      {
-        "term_id": 604,
-        "name": "Vape cartridge",
-        "slug": "vape-cartridge",
-        "term_group": 0,
-        "term_taxonomy_id": 604,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 605,
-        "name": "Vape product",
-        "slug": "vape-product",
-        "term_group": 0,
-        "term_taxonomy_id": 605,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/"
+    "wordpress_url": "https://cannabis.ca.gov/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/"
   }
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2020-01-27T18:54:00",
-    "updated_date": "2021-09-28T17:40:10",
+    "updated_date": "2021-06-19T15:50:48",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2020-01-27T18:54:00",
     "date_gmt": "2020-01-27T18:54:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
-    "modified": "2021-09-28T17:40:10",
-    "modified_gmt": "2021-09-28T17:40:10",
+    "modified": "2021-06-19T08:50:48",
+    "modified_gmt": "2021-06-19T15:50:48",
     "slug": "dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
+    "link": "https://cannabis.ca.gov/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
     "title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
     "excerpt": "<p>SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -64,311 +64,8 @@
       "Vitamin E acetate"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
-      "page_title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
-      "page_description": "SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
-      "meta_description": "SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/",
-      "open_graph_title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
-      "open_graph_description": "SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label.",
-      "twitter_title": "Dangerous Vaping Products Seized from Unlicensed Cannabis Shops During Major Enforcement Operation",
-      "twitter_description": "SACRAMENTO – A random sampling of the cannabis products seized from unlicensed retailers during a major enforcement operation in Los Angeles last month were found to contain undisclosed additives, some of them potentially dangerous, and significantly lower amounts of THC than claimed on the label."
-    },
-    "headless_categories": [
-      {
-        "term_id": 46,
-        "name": "Press Releases",
-        "slug": "press-releases",
-        "term_group": 0,
-        "term_taxonomy_id": 46,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 110,
-        "filter": "raw",
-        "cat_ID": 46,
-        "category_count": 110,
-        "category_description": "",
-        "cat_name": "Press Releases",
-        "category_nicename": "press-releases",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 38,
-        "name": "Bureau of Cannabis Control",
-        "slug": "bureau-of-cannabis-control",
-        "term_group": 0,
-        "term_taxonomy_id": 38,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 121,
-        "filter": "raw"
-      },
-      {
-        "term_id": 79,
-        "name": "California Department of Public Health",
-        "slug": "california-department-of-public-health",
-        "term_group": 0,
-        "term_taxonomy_id": 79,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 23,
-        "filter": "raw"
-      },
-      {
-        "term_id": 15,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 187,
-        "filter": "raw"
-      },
-      {
-        "term_id": 330,
-        "name": "Cannabis industry",
-        "slug": "cannabis-industry",
-        "term_group": 0,
-        "term_taxonomy_id": 330,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 6,
-        "filter": "raw"
-      },
-      {
-        "term_id": 532,
-        "name": "capotcheck.com",
-        "slug": "capotcheck-com",
-        "term_group": 0,
-        "term_taxonomy_id": 532,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 5,
-        "filter": "raw"
-      },
-      {
-        "term_id": 698,
-        "name": "Cartridge",
-        "slug": "cartridge",
-        "term_group": 0,
-        "term_taxonomy_id": 698,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 21,
-        "name": "CDPH",
-        "slug": "cdph",
-        "term_group": 0,
-        "term_taxonomy_id": 21,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 46,
-        "filter": "raw"
-      },
-      {
-        "term_id": 699,
-        "name": "Content",
-        "slug": "content",
-        "term_group": 0,
-        "term_taxonomy_id": 699,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 543,
-        "name": "Get #weedwise",
-        "slug": "get-weedwise",
-        "term_group": 0,
-        "term_taxonomy_id": 543,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 488,
-        "name": "Illegal",
-        "slug": "illegal",
-        "term_group": 0,
-        "term_taxonomy_id": 488,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 7,
-        "filter": "raw"
-      },
-      {
-        "term_id": 105,
-        "name": "Los Angeles",
-        "slug": "los-angeles",
-        "term_group": 0,
-        "term_taxonomy_id": 105,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 12,
-        "filter": "raw"
-      },
-      {
-        "term_id": 691,
-        "name": "QR code",
-        "slug": "qr-code",
-        "term_group": 0,
-        "term_taxonomy_id": 691,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 5,
-        "filter": "raw"
-      },
-      {
-        "term_id": 692,
-        "name": "Scan",
-        "slug": "scan",
-        "term_group": 0,
-        "term_taxonomy_id": 692,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 700,
-        "name": "Tested",
-        "slug": "tested",
-        "term_group": 0,
-        "term_taxonomy_id": 700,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 701,
-        "name": "THC",
-        "slug": "thc",
-        "term_group": 0,
-        "term_taxonomy_id": 701,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 426,
-        "name": "Unlicensed",
-        "slug": "unlicensed",
-        "term_group": 0,
-        "term_taxonomy_id": 426,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 11,
-        "filter": "raw"
-      },
-      {
-        "term_id": 702,
-        "name": "Untested",
-        "slug": "untested",
-        "term_group": 0,
-        "term_taxonomy_id": 702,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 603,
-        "name": "Vape",
-        "slug": "vape",
-        "term_group": 0,
-        "term_taxonomy_id": 603,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 4,
-        "filter": "raw"
-      },
-      {
-        "term_id": 639,
-        "name": "Vaping",
-        "slug": "vaping",
-        "term_group": 0,
-        "term_taxonomy_id": 639,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 3,
-        "filter": "raw"
-      },
-      {
-        "term_id": 703,
-        "name": "Vitamin E",
-        "slug": "vitamin-e",
-        "term_group": 0,
-        "term_taxonomy_id": 703,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 704,
-        "name": "Vitamin E acetate",
-        "slug": "vitamin-e-acetate",
-        "term_group": 0,
-        "term_taxonomy_id": 704,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/"
+    "wordpress_url": "https://cannabis.ca.gov/2020/01/27/dangerous-vaping-products-seized-from-unlicensed-cannabis-shops-during-major-enforcement-operation/"
   }
 }

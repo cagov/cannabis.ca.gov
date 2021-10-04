@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-02-19T18:48:00",
-    "updated_date": "2021-09-28T17:37:22",
+    "updated_date": "2021-07-01T17:52:27",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-02-19T18:48:00",
     "date_gmt": "2019-02-19T18:48:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/31947/",
-    "modified": "2021-09-28T17:37:22",
-    "modified_gmt": "2021-09-28T17:37:22",
+    "modified": "2021-07-01T10:52:27",
+    "modified_gmt": "2021-07-01T17:52:27",
     "slug": "31947-2",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/31947-2/",
+    "link": "https://cannabis.ca.gov/2019/02/19/31947-2/",
     "title": "California Community Reinvestment Grants Program &#8211; Draft Grant Solicitation &#038; Public Comment Period",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties,<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) is pleased to announce the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -55,203 +55,8 @@
       "Reinvestments"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "display_title": false
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/31947-2/",
-      "page_title": "California Community Reinvestment Grants Program &#8211; Draft Grant Solicitation &#038; Public Comment Period",
-      "page_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) is pleased to announce the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment.",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "California Community Reinvestment Grants Program &#8211; Draft Grant Solicitation &#038; Public Comment Period",
-      "meta_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) is pleased to announce the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment.",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/31947-2/",
-      "open_graph_title": "California Community Reinvestment Grants Program &#8211; Draft Grant Solicitation &#038; Public Comment Period",
-      "open_graph_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) is pleased to announce the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment.",
-      "twitter_title": "California Community Reinvestment Grants Program &#8211; Draft Grant Solicitation &#038; Public Comment Period",
-      "twitter_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) is pleased to announce the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment."
-    },
-    "headless_categories": [
-      {
-        "term_id": 13,
-        "name": "Announcements",
-        "slug": "announcements",
-        "term_group": 0,
-        "term_taxonomy_id": 13,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "count": 146,
-        "filter": "raw",
-        "cat_ID": 13,
-        "category_count": 146,
-        "category_description": "",
-        "cat_name": "Announcements",
-        "category_nicename": "announcements",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 504,
-        "name": "CalCRG",
-        "slug": "calcrg",
-        "term_group": 0,
-        "term_taxonomy_id": 504,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 2,
-        "filter": "raw"
-      },
-      {
-        "term_id": 31,
-        "name": "California",
-        "slug": "california",
-        "term_group": 0,
-        "term_taxonomy_id": 31,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 62,
-        "filter": "raw"
-      },
-      {
-        "term_id": 15,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 187,
-        "filter": "raw"
-      },
-      {
-        "term_id": 505,
-        "name": "Community",
-        "slug": "community",
-        "term_group": 0,
-        "term_taxonomy_id": 505,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 2,
-        "filter": "raw"
-      },
-      {
-        "term_id": 522,
-        "name": "Draft",
-        "slug": "draft",
-        "term_group": 0,
-        "term_taxonomy_id": 522,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      },
-      {
-        "term_id": 121,
-        "name": "Equity",
-        "slug": "equity",
-        "term_group": 0,
-        "term_taxonomy_id": 121,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 8,
-        "filter": "raw"
-      },
-      {
-        "term_id": 446,
-        "name": "GO-BIZ",
-        "slug": "go-biz",
-        "term_group": 0,
-        "term_taxonomy_id": 446,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 10,
-        "filter": "raw"
-      },
-      {
-        "term_id": 354,
-        "name": "Governor's office",
-        "slug": "governors-office",
-        "term_group": 0,
-        "term_taxonomy_id": 354,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 4,
-        "filter": "raw"
-      },
-      {
-        "term_id": 355,
-        "name": "Grants",
-        "slug": "grants",
-        "term_group": 0,
-        "term_taxonomy_id": 355,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 7,
-        "filter": "raw"
-      },
-      {
-        "term_id": 357,
-        "name": "Program",
-        "slug": "program",
-        "term_group": 0,
-        "term_taxonomy_id": 357,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 4,
-        "filter": "raw"
-      },
-      {
-        "term_id": 358,
-        "name": "Prop 64",
-        "slug": "prop-64",
-        "term_group": 0,
-        "term_taxonomy_id": 358,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 4,
-        "filter": "raw"
-      },
-      {
-        "term_id": 523,
-        "name": "Reinvestments",
-        "slug": "reinvestments",
-        "term_group": 0,
-        "term_taxonomy_id": 523,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "count": 1,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "event": null,
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/02/19/31947-2/"
+    "wordpress_url": "https://cannabis.ca.gov/2019/02/19/31947-2/"
   }
 }
