@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:12:14",
-    "updated_date": "2021-09-28T17:47:47",
+    "updated_date": "2021-06-19T15:34:20",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2021-06-19T15:12:14",
     "date_gmt": "2021-06-19T15:12:14",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
-    "modified": "2021-09-28T17:47:47",
-    "modified_gmt": "2021-09-28T17:47:47",
+    "modified": "2021-06-19T08:34:20",
+    "modified_gmt": "2021-06-19T15:34:20",
     "slug": "mailing-list",
     "status": "publish",
     "type": "page",
-    "link": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
+    "link": "https://cannabis.ca.gov/mailing-list/",
     "title": "Sign up for email list",
     "excerpt": "",
     "author": "Department of Cannabis Control",
@@ -31,47 +31,12 @@
     "menu_order": 0,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "categories": [],
-    "tags": [],
-    "design_system_fields": {
-      "template": "template-page"
-    },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
-      },
-      "site_name": "Department of Cannabis Control",
-      "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
-      "page_title": "Sign up for email list",
-      "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Sign up for email list",
-      "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
-      "open_graph_title": "Sign up for email list",
-      "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Sign up for email list",
-      "twitter_description": "Learn about California cannabis laws and licenses"
-    },
-    "headless_categories": [],
-    "headless_tags": [],
-    "headless_publishing": [],
-    "headless_preview": [],
-    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/"
+    "wordpress_url": "https://cannabis.ca.gov/mailing-list/"
   }
 }
