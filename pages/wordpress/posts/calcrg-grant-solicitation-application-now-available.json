@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2019-04-22T23:15:00",
-    "updated_date": "2021-07-01T17:52:26",
+    "updated_date": "2021-09-28T17:37:13",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2019-04-22T23:15:00",
     "date_gmt": "2019-04-22T23:15:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/calcrg-grant-solicitation-application-now-available/",
-    "modified": "2021-07-01T10:52:26",
-    "modified_gmt": "2021-07-01T17:52:26",
+    "modified": "2021-09-28T17:37:13",
+    "modified_gmt": "2021-09-28T17:37:13",
     "slug": "calcrg-grant-solicitation-application-now-available",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2019/04/22/calcrg-grant-solicitation-application-now-available/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/calcrg-grant-solicitation-application-now-available/",
     "title": "CalCRG Grant Solicitation &#038; Application Now Available!",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -52,8 +52,167 @@
       "Term"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2019/04/22/calcrg-grant-solicitation-application-now-available/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/calcrg-grant-solicitation-application-now-available/",
+      "page_title": "CalCRG Grant Solicitation &#038; Application Now Available!",
+      "page_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "CalCRG Grant Solicitation &#038; Application Now Available!",
+      "meta_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/calcrg-grant-solicitation-application-now-available/",
+      "open_graph_title": "CalCRG Grant Solicitation &#038; Application Now Available!",
+      "open_graph_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!",
+      "twitter_title": "CalCRG Grant Solicitation &#038; Application Now Available!",
+      "twitter_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nThe Governor’s Office of Business and Economic Development (GO-Biz) is excited to announce that the California Community Reinvestment Grants (CalCRG) program Grant Solicitation is now available!"
+    },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 93,
+        "name": "Application",
+        "slug": "application",
+        "term_group": 0,
+        "term_taxonomy_id": 93,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      },
+      {
+        "term_id": 534,
+        "name": "Application portal",
+        "slug": "application-portal",
+        "term_group": 0,
+        "term_taxonomy_id": 534,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 583,
+        "name": "California community reinvestment grants program",
+        "slug": "california-community-reinvestment-grants-program",
+        "term_group": 0,
+        "term_taxonomy_id": 583,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 446,
+        "name": "GO-BIZ",
+        "slug": "go-biz",
+        "term_group": 0,
+        "term_taxonomy_id": 446,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      },
+      {
+        "term_id": 506,
+        "name": "Governor's Office of Business and Economic Development",
+        "slug": "governors-office-of-business-and-economic-development",
+        "term_group": 0,
+        "term_taxonomy_id": 506,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 590,
+        "name": "Grant program",
+        "slug": "grant-program",
+        "term_group": 0,
+        "term_taxonomy_id": 590,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 591,
+        "name": "Review",
+        "slug": "review",
+        "term_group": 0,
+        "term_taxonomy_id": 591,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 592,
+        "name": "Term",
+        "slug": "term",
+        "term_group": 0,
+        "term_taxonomy_id": 592,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/04/22/calcrg-grant-solicitation-application-now-available/"
   }
 }
