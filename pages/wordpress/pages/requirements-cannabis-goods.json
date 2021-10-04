@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-06-30T21:29:49",
+    "updated_date": "2021-09-28T17:48:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/requirements-cannabis-goods/",
-    "modified": "2021-06-30T14:29:49",
-    "modified_gmt": "2021-06-30T21:29:49",
+    "modified": "2021-09-28T17:48:12",
+    "modified_gmt": "2021-09-28T17:48:12",
     "slug": "requirements-cannabis-goods",
     "status": "publish",
     "type": "page",
-    "link": "https://cannabis.ca.gov/licensees/requirements-cannabis-goods/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/licensees/requirements-cannabis-goods/",
     "title": "Requirements for cannabis goods",
     "excerpt": "<p>Manufactured goods must follow packaging and labeling requirements.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,12 +31,47 @@
     "menu_order": 9,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "wordpress_url": "https://cannabis.ca.gov/licensees/requirements-cannabis-goods/"
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/requirements-cannabis-goods/",
+      "page_title": "Requirements for cannabis goods",
+      "page_description": "Manufactured goods must follow packaging and labeling requirements.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Requirements for cannabis goods",
+      "meta_description": "Manufactured goods must follow packaging and labeling requirements.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/requirements-cannabis-goods/",
+      "open_graph_title": "Requirements for cannabis goods",
+      "open_graph_description": "Manufactured goods must follow packaging and labeling requirements.",
+      "twitter_title": "Requirements for cannabis goods",
+      "twitter_description": "Manufactured goods must follow packaging and labeling requirements."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/licensees/requirements-cannabis-goods/"
   }
 }

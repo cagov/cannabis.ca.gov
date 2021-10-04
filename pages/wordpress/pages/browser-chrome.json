@@ -1,28 +1,28 @@
 {
   "meta": {
     "created_date": "2021-06-30T18:36:14",
-    "updated_date": "2021-06-30T18:46:23",
+    "updated_date": "2021-09-28T17:47:37",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 8333,
+    "id": 9471,
     "date": "2021-06-30T11:36:14",
     "date_gmt": "2021-06-30T18:36:14",
     "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8333",
-    "modified": "2021-06-30T11:46:23",
-    "modified_gmt": "2021-06-30T18:46:23",
+    "modified": "2021-09-28T17:47:37",
+    "modified_gmt": "2021-09-28T17:47:37",
     "slug": "browser-chrome",
     "status": "publish",
     "type": "page",
-    "link": "https://cannabis.ca.gov/browser-chrome/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/browser-chrome/",
     "title": "Keyboard Shortcuts for Chrome",
     "excerpt": "<p>&nbsp;Keyboard Shortcuts for Chrome Windows and Linux Tab and window shortcuts To do this Press this Opens a new window. Ctrl+N Opens a new tab. Ctrl+T Opens a new window in incognito mode. Ctrl+Shift+N Opens a file from your computer in Google Chrome. Press Ctrl+O, then select file Opens the link in a new tab [&hellip;]</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,12 +31,47 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "off",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "wordpress_url": "https://cannabis.ca.gov/browser-chrome/"
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/browser-chrome/",
+      "page_title": "Keyboard Shortcuts for Chrome",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Keyboard Shortcuts for Chrome",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/browser-chrome/",
+      "open_graph_title": "Keyboard Shortcuts for Chrome",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Keyboard Shortcuts for Chrome",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/browser-chrome/"
   }
 }
