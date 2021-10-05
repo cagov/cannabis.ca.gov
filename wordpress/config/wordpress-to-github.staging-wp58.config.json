@@ -5,7 +5,7 @@
     "description": "wordpress-to-github endpoints config file"
   },
   "data": {
-    "wordpress_source_url": "https://live-cannabis-ca-gov.pantheonsite.io/",
+    "wordpress_source_url": "https://live-cannabis-ca-gov.pantheonsite.io",
     "github_targets": [
       {
         "outputBranch": "staging-wp58",
