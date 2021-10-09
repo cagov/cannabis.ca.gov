@@ -3,6 +3,7 @@
 # 1.0.0
 From [Office of Digital Innovation](https://digital.ca.gov), October 8, 2021
 Board: @DOCS
+* Add `config.json` and `odi-publishing.json` config files.
 * Re-organize static site folder architecture based on clean git repo goals.
 * Sync several pipeline and development systems with other systems that we call `odi-publishing`.
 * Add @DOCS tags for places that need quick explanations for total clarity.
