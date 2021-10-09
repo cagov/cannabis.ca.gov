@@ -1,5 +1,6 @@
 import boxTracker from "./box-tracker.js";
 
+// @DOCS What do we need to know about this script?
 export default function setupAnalytics() {
 
   document.querySelectorAll('cagov-accordion').forEach((acc) => {

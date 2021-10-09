@@ -26,7 +26,7 @@ import '../components/page-alert/index.js';
  // @DOCS @TODO Reference to anchor tag in BUILD.md
  // Configurations in `config.json`; @TODO @ISSUE
 import './headless/google-analytics.js';
-import setupAnalytics from './headless/index.js';
+import setupAnalytics from './headless/setup-analytics.js';
 window.onload = (event) => {
   setupAnalytics();
 };
