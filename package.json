@@ -34,6 +34,7 @@
     "@cagov",
     "Office of Digital Innovation"
   ],
+  "repository": "https://github.com/cannabis.ca.gov",
   "author": "Office of Digital Innovation for the Department of Cannabis Control",
   "license": "ISC",
   "devDependencies": {
