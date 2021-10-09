@@ -49,7 +49,11 @@
     "endpoints": {
         "wordpress-to-github": {
             "src": "./wordpress",
-            "config": "./wordpress/config"
+            "config": "./wordpress/config",
+            "endpoints": [
+                "wp-json/wp/v2/posts", 
+                "@DOCS"
+            ]
         },
         "redirects": {
             "config": "./redirects"
@@ -70,6 +74,15 @@
         },
         "odi-publishing": {
             "production": {
+                "polling-schedule": "ncrontab @DOCS",
+                "system-status": "@FEATURE",
+                "microservices": {
+                    "publish": "",
+                    "publish-trigger": "",
+                    "stage": "",
+                    "preview": "",
+                    "preview-expiration": "@DOCS 48 hours"
+                }
 
             },
             "staging": {
