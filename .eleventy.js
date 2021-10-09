@@ -14,6 +14,11 @@ const {
  * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setBrowserSyncConfig({
+    watch: true,
+    notify: true,
+  });
+
   eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
 
@@ -23,11 +28,6 @@ module.exports = function (eleventyConfig) {
     "wordpress/media": "wp-content/uploads",
   });
   eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" }); // @Q Does this order matter?
-
-  eleventyConfig.setBrowserSyncConfig({
-    watch: true,
-    notify: true,
-  });
 
   // Make CSS smaller
   eleventyConfig.addFilter("cssmin", function (code) {

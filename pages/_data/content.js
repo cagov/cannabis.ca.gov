@@ -10,8 +10,7 @@ exports.processContentPost = (item, folderNames) => {
   ) {
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-
-    // item = processMeta(item);
+    item = processMeta(item);
   }
   return item;
 };
@@ -70,6 +69,7 @@ const getOGMetatags = function (data) {
  */
 const processMeta = (contentItem) => {
   let item = contentItem;
+  console.log(item);
   item.url = item.outputPath;
   item.data.page.url = item.url;
 
