@@ -1,3 +1,7 @@
+# Static site generation build
+
+@DOCS
+
 
 ### https://cannabis.ca.gov WordPress "monolith" support.
 

@@ -1,4 +1,12 @@
 {
-    "skip-to-content": "Skip to Main Content",
-    "official-state-tag": "<span class=\"desktop-only\">Official website of the </span>State of California',
+    "es": {
+        "skip-to-content": "Skip to Main Content @TRANSLATE @TRANSLATE-ES",
+        "official-state-tag": "<span class=\"desktop-only\">Official website of the </span>State of California  @TRANSLATE @TRANSLATE-ES",
+        "copyright": "Copyright © 2021 State of California @TRANSLATE @TRANSLATE-ES"
+    },
+    "en": {
+        "skip-to-content": "Skip to Main Content",
+        "official-state-tag": "<span class=\"desktop-only\">Official website of the </span>State of California",
+        "copyright": "Copyright © 2021 State of California"
+    }
 }

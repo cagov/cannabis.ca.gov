@@ -3,6 +3,8 @@
 # 1.0.0
 From [Office of Digital Innovation](https://digital.ca.gov), October 8, 2021
 Board: @DOCS
+* Add `translations.json` pulling out hard coded strings so they can be translated. @TRANSLATE
+* Add @ISSUE tags on hard coded strings, they need to be connected to the `translations.json` content.
 * Add `config.json` and `odi-publishing.json` config files.
 * Re-organize static site folder architecture based on clean git repo goals.
 * Sync several pipeline and development systems with other systems that we call `odi-publishing`.

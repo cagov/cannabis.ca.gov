@@ -9,14 +9,16 @@ exports.chooseTemplate = function (data) {
   if(data.design_system_fields) {
     template = data.design_system_fields.template;
   }
+
+  // @ISSUE Hard coded domains- should come from odi-publishing.json.
   if(data.wordpress_url === 'https://cannabis.ca.gov/') {
-    return "landing"
+    return "landing";
   }
   if(data.wordpress_url === 'https://cannabis.ca.gov/serp/') {
     return "search"
   }
-  if(data.template?.indexOf('template-page-single-column') > -1) {
-    return "template-page-single-column"
+  if(data.template?.indexOf('single-column') > -1) {
+    return "single-column"
   }
 
   // Handle errors

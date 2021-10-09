@@ -107,7 +107,8 @@
 
     },
     "search": {
-
+        "url": "https://cannabis.ca.gov/serp/",
+        "path": "serp",
     },
     "translations": {
 
