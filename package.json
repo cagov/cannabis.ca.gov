@@ -1,6 +1,6 @@
 {
   "name": "cannabis.ca.gov",
-  "version": "1.0.0",
+  "version": "1.0.0-rc-2",
   "description": "Static site generator for cannabis.ca.gov",
   "main": "index.html",
   "scripts": {
@@ -30,8 +30,8 @@
     "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh",
     "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["@cagov", "Office of Digital Innovation"],
+  "author": "Office of Digital Innovation for the Department of Cannabis Control",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",

@@ -1,3 +1,9 @@
+// Main build file for the JavaScript static site generation bundle.
+
+// * @cagov/design-system *
+// @DOCS [Link](@TODO)
+// [Cookbook]
+// [Boilerplate]  
 import '@cagov/ds-accordion';
 import '@cagov/ds-feedback';
 import '@cagov/ds-minus';
@@ -9,9 +15,16 @@ import '@cagov/ds-content-navigation';
 import '@cagov/ds-pdf-icon/src/index.js';
 import '@cagov/ds-back-to-top/src/index.js';
 
-import '../components/post-list-headless/index.js';
+// *Project components*
+// Patterns (more complex interfaces)
+import '../patterns/posts/index.js';
+// Components (individual components)
+// @DOCS Link to website
 import '../components/page-alert/index.js';
 
+// *Insights*
+ // @DOCS @TODO Reference to anchor tag in BUILD.md
+ // Configurations in `config.json`; @TODO @ISSUE
 import './headless/google-analytics.js';
 import setupAnalytics from './headless/index.js';
 window.onload = (event) => {

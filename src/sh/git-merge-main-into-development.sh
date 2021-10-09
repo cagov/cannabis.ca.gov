@@ -9,4 +9,5 @@ git restore --source=HEAD --staged --worktree -- \
     wordpress/posts \
     wordpress/pages \
     wordpress/media
+    # wordpress/config
 git commit -m "Selective merge: main into development"

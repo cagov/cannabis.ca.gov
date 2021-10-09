@@ -8,7 +8,7 @@
     "wordpress_source_url": "https://live-cannabis-ca-gov.pantheonsite.io",
     "github_targets": [
       {
-        "outputBranch": "main-wp58",
+        "outputBranch": "production-wp58",
         "disabled": false,
         "PostPath": "pages/wordpress/posts",
         "PagePath": "pages/wordpress/pages",

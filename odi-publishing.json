@@ -1,0 +1,94 @@
+{
+    "branches": [
+        "main", 
+        "staging", 
+        "development", 
+        "staging-pantheon",
+        "development-pantheon",
+        "main-wp58",
+        "staging-wp58",
+        "development-wp58"
+    ],
+    "domains": {
+        "production": "https://cannabis.ca.gov",
+        "staging": "https://",
+        "development" : "https://",
+        "development-pantheon": "https://",
+        "staging-pantheon": "https://",
+        "production-pantheon": "https://",
+        "development-wp58": "https://",
+        "staging-wp58": "https://",
+        "production-wp58": "https://"
+    },
+    "s3-buckets": {
+        "production": "https:// @DOCS",
+        "staging": "https://",
+        "development" : "https://",
+        "development-pantheon": "https://",
+        "staging-pantheon": "https://",
+        "production-pantheon": "https://",
+        "development-wp58": "https://",
+        "staging-wp58": "https://",
+        "production-wp58": "https://"
+    },
+    "editor-url": {
+        "production": "https:// @DOCS",
+        "staging": "https://",
+        "development" : "https://",
+        "development-pantheon": "https://",
+        "staging-pantheon": "https://",
+        "production-pantheon": "https://",
+        "development-wp58": "https://",
+        "staging-wp58": "https://",
+        "production-wp58": "https://"
+    },
+    "endpoints": {
+        "wordpress-to-github": {
+            "config": "./wordpress/config"
+        },
+        "11ty-serverless-preview": {
+            "endpoint": "endpoint @DOCS"
+        },
+        "odi-publishing": {
+            "production": {
+
+            },
+            "staging": {
+
+            },
+            "development": {
+
+            }
+        },
+        "notifications": {
+            "slack-production-id": "",
+            "slack-development-id": "",
+            "slack-data-approval-bot": ""
+        }
+    },
+    "GA": "",
+    "ethnio id": {
+
+    },
+    "search": {
+
+    },
+    "translations": {
+
+    },
+    "languages": {
+        "es-xx": "Espanol",
+        "en-us": "English"
+    },
+    "social-links": [
+        {
+                "label": "Twitter",
+                "link": "https://twitter.com/@DOCS",
+                "icon": "twitter"
+        }
+    ],
+    "og-meta": {
+        "site-name": "",
+        "site-social-url": ""
+    }
+}
