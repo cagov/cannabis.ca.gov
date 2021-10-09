@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-06-20T19:39:00",
-    "updated_date": "2021-07-01T17:52:25",
+    "updated_date": "2021-09-28T17:37:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-06-20T19:39:00",
     "date_gmt": "2019-06-20T19:39:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
-    "modified": "2021-07-01T10:52:25",
-    "modified_gmt": "2021-07-01T17:52:25",
+    "modified": "2021-09-28T17:37:06",
+    "modified_gmt": "2021-09-28T17:37:06",
     "slug": "reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
     "title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
     "excerpt": "<p>The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -57,8 +57,227 @@
       "Universal symbol for cannabis"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
+      "page_title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
+      "page_description": "The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
+      "meta_description": "The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
+      "open_graph_title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
+      "open_graph_description": "The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.",
+      "twitter_title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
+      "twitter_description": "The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year."
+    },
+    "headless_categories": [
+      {
+        "term_id": 13,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 146,
+        "filter": "raw",
+        "cat_ID": 13,
+        "category_count": 146,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 31,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 31,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 560,
+        "name": "Cannabis labeling",
+        "slug": "cannabis-labeling",
+        "term_group": 0,
+        "term_taxonomy_id": 560,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 561,
+        "name": "Cannabis packaging",
+        "slug": "cannabis-packaging",
+        "term_group": 0,
+        "term_taxonomy_id": 561,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 18,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 18,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 21,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 21,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 46,
+        "filter": "raw"
+      },
+      {
+        "term_id": 562,
+        "name": "Compliance",
+        "slug": "compliance",
+        "term_group": 0,
+        "term_taxonomy_id": 562,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 563,
+        "name": "Container",
+        "slug": "container",
+        "term_group": 0,
+        "term_taxonomy_id": 563,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 275,
+        "name": "Labeling",
+        "slug": "labeling",
+        "term_group": 0,
+        "term_taxonomy_id": 275,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 564,
+        "name": "Labeling checklist",
+        "slug": "labeling-checklist",
+        "term_group": 0,
+        "term_taxonomy_id": 564,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 276,
+        "name": "Packaging",
+        "slug": "packaging",
+        "term_group": 0,
+        "term_taxonomy_id": 276,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 565,
+        "name": "Packaging checklist",
+        "slug": "packaging-checklist",
+        "term_group": 0,
+        "term_taxonomy_id": 565,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 566,
+        "name": "Universal symbol for cannabis",
+        "slug": "universal-symbol-for-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 566,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/"
   }
 }

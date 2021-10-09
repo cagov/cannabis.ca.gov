@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2019-03-01T21:19:00",
-    "updated_date": "2021-07-01T00:55:44",
+    "updated_date": "2021-09-28T17:40:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,12 +17,12 @@
     "date": "2019-03-01T21:19:00",
     "date_gmt": "2019-03-01T21:19:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-accepting-equity-grant-applications/",
-    "modified": "2021-06-30T17:55:44",
-    "modified_gmt": "2021-07-01T00:55:44",
+    "modified": "2021-09-28T17:40:44",
+    "modified_gmt": "2021-09-28T17:40:44",
     "slug": "bureau-of-cannabis-control-accepting-equity-grant-applications",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2019/03/01/bureau-of-cannabis-control-accepting-equity-grant-applications/",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2019/03/01/bureau-of-cannabis-control-accepting-equity-grant-applications/",
     "title": "Bureau of Cannabis Control Accepting Equity Grant Applications",
     "excerpt": "<p>The Bureau of Cannabis Control announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 established by Senate Bill 1294.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -55,8 +55,203 @@
       "Senate Bill 1294"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "template-single-press-release"
     },
-    "wordpress_url": "https://cannabis.ca.gov/2019/03/01/bureau-of-cannabis-control-accepting-equity-grant-applications/"
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/01/bureau-of-cannabis-control-accepting-equity-grant-applications/",
+      "page_title": "Bureau of Cannabis Control Accepting Equity Grant Applications",
+      "page_description": "The Bureau of Cannabis Control announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 established by Senate Bill 1294.",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Accepting Equity Grant Applications",
+      "meta_description": "The Bureau of Cannabis Control announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 established by Senate Bill 1294.",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/01/bureau-of-cannabis-control-accepting-equity-grant-applications/",
+      "open_graph_title": "Bureau of Cannabis Control Accepting Equity Grant Applications",
+      "open_graph_description": "The Bureau of Cannabis Control announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 established by Senate Bill 1294.",
+      "twitter_title": "Bureau of Cannabis Control Accepting Equity Grant Applications",
+      "twitter_description": "The Bureau of Cannabis Control announced today that it is accepting applications for grant funding authorized by the California Cannabis Equity Act of 2018 established by Senate Bill 1294."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 110,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_count": 110,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 292,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 292,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 47,
+        "filter": "raw"
+      },
+      {
+        "term_id": 34,
+        "name": "Bureau",
+        "slug": "bureau",
+        "term_group": 0,
+        "term_taxonomy_id": 34,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 121,
+        "filter": "raw"
+      },
+      {
+        "term_id": 477,
+        "name": "California Cannabis Equity Act of 2018",
+        "slug": "california-cannabis-equity-act-of-2018",
+        "term_group": 0,
+        "term_taxonomy_id": 477,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 187,
+        "filter": "raw"
+      },
+      {
+        "term_id": 478,
+        "name": "Grant",
+        "slug": "grant",
+        "term_group": 0,
+        "term_taxonomy_id": 478,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 479,
+        "name": "Grant applicants",
+        "slug": "grant-applicants",
+        "term_group": 0,
+        "term_taxonomy_id": 479,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 480,
+        "name": "Grant funding",
+        "slug": "grant-funding",
+        "term_group": 0,
+        "term_taxonomy_id": 480,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 481,
+        "name": "Grant funds",
+        "slug": "grant-funds",
+        "term_group": 0,
+        "term_taxonomy_id": 481,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 482,
+        "name": "Local cities and counties",
+        "slug": "local-cities-and-counties",
+        "term_group": 0,
+        "term_taxonomy_id": 482,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 29,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 29,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      },
+      {
+        "term_id": 483,
+        "name": "Senate Bill 1294",
+        "slug": "senate-bill-1294",
+        "term_group": 0,
+        "term_taxonomy_id": 483,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2019/03/01/bureau-of-cannabis-control-accepting-equity-grant-applications/"
   }
 }

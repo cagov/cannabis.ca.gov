@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "created_date": "2021-10-05T17:20:31",
+    "updated_date": "2021-10-05T17:20:34",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://dev-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cagov-dcc.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9884,
+    "date": "2021-10-05T10:20:31",
+    "date_gmt": "2021-10-05T17:20:31",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/?p=9884",
+    "modified": "2021-10-05T10:20:34",
+    "modified_gmt": "2021-10-05T17:20:34",
+    "slug": "test-event-ehb",
+    "status": "publish",
+    "type": "post",
+    "link": "https://dev-cagov-dcc.pantheonsite.io/2021/10/05/test-event-ehb/",
+    "title": "Test Event &#8211; Ehb",
+    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">October 5, 2021 &#8211; October 6, 2021</div>\n<p></p>\n<div class=\"event-time\">3:20 AM &#8211; 4:20 AM PST</div>\n<p></p>\n<div class=\"event-location\">tbd</div>\n</div>\n",
+    "author": "Ehb Teng",
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Events"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-single-event"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-cagov-dcc.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://dev-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2021/10/05/test-event-ehb/",
+      "page_title": "Test Event - Ehb",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/2021/06/cropped-cannabis-buds-hero-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Test Event - Ehb",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://dev-cagov-dcc.pantheonsite.io/2021/10/05/test-event-ehb/",
+      "open_graph_title": "Test Event - Ehb",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Test Event - Ehb",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 4,
+        "name": "Events",
+        "slug": "events",
+        "term_group": 0,
+        "term_taxonomy_id": 4,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 2,
+        "count": 3,
+        "filter": "raw",
+        "cat_ID": 4,
+        "category_count": 3,
+        "category_description": "",
+        "cat_name": "Events",
+        "category_nicename": "events",
+        "category_parent": 2
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": {
+      "startDateTimeUTC": "2021-10-05T10:20:00",
+      "endDateTimeUTC": "2021-10-06T11:20:00",
+      "startDate": "October 5, 2021",
+      "endDate": "October 6, 2021",
+      "startTime": "3:20 AM",
+      "endTime": "4:20 AM",
+      "localTimezone": "America/Los_Angeles",
+      "localTimezoneLabel": "PST",
+      "location": "tbd",
+      "cost": "tbd"
+    },
+    "wordpress_url": "https://dev-cagov-dcc.pantheonsite.io/2021/10/05/test-event-ehb/"
+  }
+}

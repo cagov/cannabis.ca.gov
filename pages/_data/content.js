@@ -8,9 +8,11 @@ exports.processContentPost = (item, folderNames) => {
     item.inputPath.includes(folderNames[0]) ||
     item.inputPath.includes(folderNames[1])
   ) {
+    let args = siteSettings();
+
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-    item = processMeta(item);
+      item = processMeta({contentItem : item, ...args});
   }
   return item;
 };
@@ -25,12 +27,30 @@ exports.processContentPage = (item, folderNames) => {
     item.inputPath.includes(folderNames[0]) ||
     item.inputPath.includes(folderNames[1])
   ) {
+    let args = siteSettings();
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-    item = processMeta(item);
+    item = processMeta({contentItem : item, ...args});
   }
   return item;
 };
+
+
+const siteSettings = () => {
+  // @TODO get from config odi-publishing.json
+  return {
+    layoutFolder : "layouts/index",
+    site_url : "https://cannabis.ca.gov",
+    page_social_image_url : "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+    page_social_image_alt : "Department of Cannabis Control",
+    page_social_image_width : 1200,
+    page_social_image_height : 630,
+    upload_folder : '/wp-content/uploads/',
+    replaceUrls : ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/"],
+    editor_url : "https://dev-cagov-dcc.pantheonsite.io",
+    production_url : "https://cannabis.ca.gov"
+  };
+}
 
 /**
  *
@@ -42,9 +62,10 @@ exports.processContentEvent = (item, folderNames) => {
     item.inputPath.includes(folderNames[0]) ||
     item.inputPath.includes(folderNames[1])
   ) {
+    let args = siteSettings();
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-    item = processMeta(item);
+    item = processMeta({contentItem : item, ...args});
   }
   return item;
 };
@@ -67,29 +88,64 @@ const getOGMetatags = function (data) {
  * @param {*} item
  * @returns
  */
-const processMeta = (contentItem) => {
+const processMeta = ({
+  contentItem, 
+  layoutFolder = "layouts/index",
+  site_url = "https://cannabis.ca.gov",
+  page_social_image_url = "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+  page_social_image_alt = "Department of Cannabis Control",
+  page_social_image_width = 1200,
+  page_social_image_height = 630,
+  upload_folder = '/wp-content/uploads/',
+  replaceUrls = ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/"],
+  editor_url = "https://dev-cagov-dcc.pantheonsite.io",
+  production_url = "https://cannabis.ca.gov"
+}) => {
   let item = contentItem;
-  console.log(item);
+
   item.url = item.outputPath;
   item.data.page.url = item.url;
 
   //content pulled in from JSON
   const jsonData = item.data.data;
-  item.data.layout = "layouts/index";
+  item.data.layout = layoutFolder;
   item.data.title = jsonData.title;
-  item.data.publishdate = jsonData.date.split("T")[0]; //new Date(jsonData.modified_gmt)
-  item.data.meta = jsonData.excerpt;
-  item.data.description = jsonData.excerpt;
+  item.data.publishdate = jsonData.date.split('T')[0]; //new Date(jsonData.modified_gmt)
+  item.data.meta = getHeadTags(jsonData, "excerpt");
+  item.data.excerpt = getHeadTags(jsonData, "excerpt");
+  item.data.description = getHeadTags(jsonData, "excerpt");
+  if(!item.data.og_meta) { item.data.og_meta = {}; }
 
-  item.data.description = getHeadTags(jsonData, "page_description");
-  if (!item.data.social) {
-    item.data.social = {};
+  let default_og_meta = {
+    site_name: "Department of Cannabis Control",
+    site_description: getHeadTags(jsonData, "excerpt"), // This should have been excerpt raw, not rendered.
+    site_url: site_url,
+    canonical_url: jsonData.wordpress_url, // @ISSUE check
+    page_title: jsonData.title,
+    page_description: getHeadTags(jsonData, "excerpt"),
+    page_social_image_url: page_social_image_url,
+    page_social_image_width: page_social_image_width,
+    page_social_image_height: page_social_image_height,
+    page_social_image_alt: page_social_image_alt,
+    meta_title: jsonData.title,
+    meta_description: getHeadTags(jsonData, "excerpt"),
+    meta_canonical_url: jsonData.wordpress_url,
+    open_graph_title: jsonData.title,
+    open_graph_description: getHeadTags(jsonData, "excerpt"),
+    twitter_title: jsonData.title,
+    twitter_description: getHeadTags(jsonData, "excerpt")
+  };
+
+  item.data.og_meta = default_og_meta;
+  if (jsonData.og_meta !== undefined && jsonData.og_meta.editor !== undefined) {
+    Object.keys(jsonData.og_meta).map(meta => {
+        if (jsonData.og_meta[meta] !== "") {
+          item.data.og_meta[meta] = jsonData.og_meta[meta];
+        }
+    });
   }
-  item.data.social.site_title = getHeadTags(jsonData, "site_title");
-  item.data.social.site_description = getHeadTags(jsonData, "site_description");
-  item.data.social.image = getHeadTags(jsonData, "image");
-  item.data.social.twitter_title = getHeadTags(jsonData, "twitter_title");
-  item.data.social.og_meta = getOGMetatags(jsonData);
+
+  item.data.description = item.data.og_meta.page_description;
 
   item.data.lead = jsonData.excerpt;
   item.data.author = jsonData.author;
@@ -98,32 +154,33 @@ const processMeta = (contentItem) => {
   item.data.id = jsonData.id;
   item.data.parentid = jsonData.parent;
 
-  if (jsonData.media) {
-    const featuredMedia = jsonData.media.find((x) => x.featured);
-    if (featuredMedia) {
-      item.data.previewimage = "/wp-content/uploads/" + featuredMedia.path;
+  if(jsonData.media) {
+    const featuredMedia = jsonData.media.find(x=>x.featured);
+    if(featuredMedia) {
+      item.data.previewimage = uploadFolder + featuredMedia.path;
     }
 
-    jsonData.media
-      .filter((x) => x.source_url_match)
-      .forEach((m) => {
-        // replaceContent(item,new RegExp(m.source_url,'g'),'/'+wordpressImagePath+'/'+m.path);
-        // item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp(m.source_url,'g'),'/media/'+m.path);
-      });
+    jsonData.media.filter(x=>x.source_url_match).forEach(m=>{
+      // replaceContent(item,new RegExp(m.source_url,'g'),'/'+wordpressImagePath+'/'+m.path);
+      // item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp(m.source_url,'g'),'/media/'+m.path);
+    });
   }
 
-  // @TODO Modify the wordpress asset links here opportunistically because we are already looping through tempaltes with njk transformed into HTML
-  item.template.frontMatter.content = item.template.frontMatter.content.replace(
-    new RegExp("http://cannabis.ca.gov/", "g"),
-    "/"
-  );
-  item.template.frontMatter.content = item.template.frontMatter.content.replace(
-    new RegExp("https://cannabis.ca.gov/", "g"),
-    "/"
-  );
+  // @TODO Modify the wordpress asset links here opportunistically because we are already looping through templates with njk transformed into HTML
+  // @TODO iterate over replaceUrls, quick hack here
+  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[0], "/");
+  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[1], "/");
 
   return item;
 };
+
+const replaceUrl = function(content, match, replacement) {
+  return string.replace(
+    new RegExp(replacement, "g"),
+    replacement
+  );
+}
+
 
 /**
  *
