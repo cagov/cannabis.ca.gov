@@ -1,4 +1,7 @@
 module.exports = function (dataset, monthStrings) {
+
+  const monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
   let html = `
     <div class="post-list-results">
       <div class="post-list-items">

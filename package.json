@@ -1,7 +1,7 @@
 {
-  "name": "cagov-design-system",
+  "name": "cannabis.ca.gov",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static site generator for cannabis.ca.gov",
   "main": "index.html",
   "scripts": {
     "build": "npm-run-all -s js:bundle sass:build build:regen",
@@ -25,7 +25,10 @@
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
-    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all"
+    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
+    "git:merge:dev-into-main": "./src/sh/git-merge-development-into-main.sh",
+    "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh",
+    "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh"
   },
   "keywords": [],
   "author": "",

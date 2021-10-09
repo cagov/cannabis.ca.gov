@@ -3,7 +3,7 @@
  * @param {*} data
  * @returns
  */
-exports. chooseTemplate = function (data) {
+exports.chooseTemplate = function (data) {
   // Get value set in API for headless design system
   let template;
   if(data.design_system_fields) {
@@ -32,13 +32,13 @@ exports. chooseTemplate = function (data) {
   return template;
 }
 
-exports.getOGMetatags = function (data) {
-  if(!data.og_meta) {
-    return "";
-  }
-  let og_meta = data.og_meta.og_rendered;
-  return og_meta;
-}
+// exports.getOGMetatags = function (data) {
+//   if(!data.og_meta) {
+//     return "";
+//   }
+//   let og_meta = data.og_meta.og_rendered;
+//   return og_meta;
+// }
 
 exports.cleanUrl = function (url) {
   if(url) {
