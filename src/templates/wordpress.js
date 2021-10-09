@@ -11,7 +11,7 @@ module.exports = function () {
     let wordPressArray = [];
     let fileNameMap = new Map();
     // @TODO @ISSUE these file paths can link to a config setting path for pages & posts so we can move the folders easily.
-    fs.readdir("wordpress/pages/", (err, files) => {
+    fs.readdir("pages/wordpress/pages/", (err, files) => {
       // Process WordPress pages
       files.forEach((file) => {
         let loc = "wordpress/pages/" + file;
@@ -19,7 +19,7 @@ module.exports = function () {
       });
       
       // Process WordPress posts data
-      fs.readdir("wordpress/posts/", (err, files) => {
+      fs.readdir("pages/wordpress/posts/", (err, files) => {
         files.forEach((file) => {
           let loc = "wordpress/posts/" + file;
           processFile(file, fileNameMap, loc);
