@@ -1,5 +1,5 @@
 const fs = require("fs");
-import pageMeta from "./meta.js";
+const pageMeta = require("./meta.js");
 
 /**
  * @DOCS 
