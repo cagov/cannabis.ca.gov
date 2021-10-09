@@ -58,37 +58,36 @@ module.exports = function (eleventyConfig) {
   });
 
   // Process content, update data.
-  // eleventyConfig.addCollection("posts", function (collection) {
-  //   let posts = [];
-  //   // @TODO @DOCS odi-publishing.json settings
-  //   let folderNames = ["/pages/wordpress/posts"];
+  eleventyConfig.addCollection("posts", function (collection) {
+    let posts = [];
+    // @TODO @DOCS odi-publishing.json settings
+    let folderNames = ["/pages/wordpress/posts"];
 
-  //   collection.getAll().forEach((item) => {
-  //     item = processContentPost(item, folderNames);
+    collection.getAll().forEach((item) => {
+      item = processContentPost(item, folderNames);
 
-  //     if (item.data.data) {
-  //       if (item.data.data.type === "post") {
-  //         posts.push(item);
-  //       }
-  //     }
-  //   });
-
-  //   console.log("posts", posts);
-  //   return posts;
-  // });
-
+      if (item.data.data) {
+        if (item.data.data.type === "post") {
+          posts.push(item);
+        }
+      }
       // @TODO correct the sort field - YYYY-MM-DD custom_post_date (requires DB sync)
-    // pressPosts.sort((a,b) => {
-    //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
-    // });
+      // pressPosts.sort((a,b) => {
+      //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
+      // });
+    });
 
-    // @TODO
-    //   pressPosts.sort((a, b) => {
-    //     return (
-    //       new Date(b.data.data.date).getTime() -
-    //       new Date(a.data.data.date).getTime()
-    //     );
-    //   });
+    //   console.log("posts", posts);
+    return posts;
+  });
+
+  // @TODO
+  //   pressPosts.sort((a, b) => {
+  //     return (
+  //       new Date(b.data.data.date).getTime() -
+  //       new Date(a.data.data.date).getTime()
+  //     );
+  //   });
 
   // Process content, update data.
   // eleventyConfig.addCollection("events", function (collection) {
@@ -129,7 +128,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("eventlist", function (html) {
     let myRe = /<cagov-event-post-list\s*.*>\s*.*<\/cagov-event-post-list>/gs;
     let myArray = myRe.exec(html);
-    let recentPosts = getRecentEvents({count: 5, fieldDate: "custom_post_date" } );
+    let recentPosts = getRecentEvents({
+      count: 5,
+      fieldDate: "custom_post_date",
+    });
     let eventtListHTML = eventList(recentPosts);
     if (myArray) {
       return html.replace(myArray[0], eventListHTML);
