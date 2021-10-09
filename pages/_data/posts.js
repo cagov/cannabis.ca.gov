@@ -1,11 +1,11 @@
-module.exports = function (dataset, monthStrings) {
-
+module.exports = function (dataset) {
+  // @TRANSLATE
   const monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
   let html = `
     <div class="post-list-results">
       <div class="post-list-items">
-        ${dataset.map(post => `<div class="post-list-item">
+        ${dataset && dataset.map(post => `<div class="post-list-item">
           <div class="link-title">
             <a href="${post.data.wordpress_url}">${post.data.title}</a>
           </div>

@@ -17,7 +17,8 @@ import '@cagov/ds-back-to-top/src/index.js';
 
 // *Project components*
 // Patterns (more complex interfaces)
-import '../patterns/posts/index.js';
+import '../components/post-list/index.js';
+import '../components/event-list/index.js';
 // Components (individual components)
 // @DOCS Link to website
 import '../components/page-alert/index.js';
