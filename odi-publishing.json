@@ -10,6 +10,10 @@
         "staging-wp58",
         "development-wp58"
     ],
+    "menus": "https://cannabis.ca.gov/wp-json/menus/v1/menus",
+    "page-feedback": {
+        "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
+    },
     "domains": {
         "production": "https://cannabis.ca.gov",
         "staging": "https://",
@@ -120,15 +124,49 @@
     },
     "social-links": [
         {
-                "label": "Twitter",
-                "link": "https://twitter.com/@DOCS",
-                "icon": "twitter"
+            "label": "Facebook",
+            "link": "https://www.facebook.com/CACannabisDept",
+            "icon": "ca-gov-icon-facebook",
+            "title": {
+              "es": "Share via Facebook @TRANSLATE @DOCS",
+              "en": "Share via Facebook",
+              "sr-only": "Facebook"
+            },
+            "tracking": "_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'facebook.com/cacannabisdept', 0, 0]); _gaq.push(['b._trackEvent', 'Outbound Links', 'Click', 'facebook.com/cacannabisdept', 0, 0]);"
         },
         {
-            "label": "Facebook",
-            "link": "https:// @DOCS",
-            "icon": "facebook"
-    }
+            "label": "Twitter",
+            "link": "https://twitter.com/CACannabisDept",
+            "icon": "ca-gov-icon-twitter",
+            "title": {
+              "es": "Share via Twitter @TRANSLATE @DOCS",
+              "en": "Share via Twitter",
+              "sr-only": "Twitter"
+            },
+            "tracking": "_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'twitter.com/cacannabisdept', 0, 0]); _gaq.push(['b._trackEvent', 'Outbound Links', 'Click', 'twitter.com/cacannabisdept', 0, 0]);"
+        },
+        {
+            "label": "Twitter",
+            "link": "mailto:?subject=Home%20page%20%7C%20Department%20of%20Cannabis%20Control&amp;body=https%3A%2F%2Fcannabis.ca.gov%2F",
+            "icon": "ca-gov-icon-email",
+            "title": {
+              "es": "Share via Email @TRANSLATE @DOCS",
+              "en": "Share via Email",
+              "sr-only": "Email"
+            },
+            "tracking": false
+        },
+        {
+            "label": "Instagram",
+            "link": "https://www.instagram.com/cacannabisdept/",
+            "icon": "ca-gov-icon-instagram",
+            "title": {
+              "es": "Share via Instagram @TRANSLATE @DOCS",
+              "en": "Share via Instagram",
+              "sr-only": "Share via Instagram"
+            },
+            "tracking": false
+        }
     ],
     "og-meta": {
         "site-name": "",
