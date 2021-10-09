@@ -71,7 +71,7 @@
   {%- elif templatestring == 'search' -%}
     {% include "../layouts/templates/search.njk" %}  
   {# Pages that don't have content navigation #}
-  {%- elif templatestring == 'template-page-single-column' -%}
+  {%- elif templatestring == 'single-column' -%}
     {% include "../layouts/templates/single-column.njk" %}  
   {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
   {% elif templatestring == 'page' -%}
@@ -79,12 +79,14 @@
   {# Normal post template, with category if default the API will return "post" #}
   {% elif templatestring == 'post' -%}
     {% include "../layouts/templates/post.njk" %}
-  {% elif templatestring == 'template-single-press-release ' -%}
+  {% elif templatestring == 'event' -%}
+    {% include "../layouts/templates/event.njk" %}
+  {% elif templatestring == 'press-release' -%}
   {# We are developing more templates for special post types, like press releases and events. #}
-    {% include "../layouts/templates/post.njk" %}
+    {% include "../layouts/templates/press-release.njk" %}
   {# No template #}
   {% else %}
-    {% include "../layouts/templates/landing.njk" %}
+    {% include "../layouts/templates/page.njk" %}
   {%- endif -%}
 
   {% include "../footer.njk" %}
