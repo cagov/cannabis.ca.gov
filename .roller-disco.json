@@ -37,6 +37,7 @@
                 "image_caption":{
                     "en-us": ""
                 },
+                "lint-passes": false,
                 "status": {
                     "README": false,
                     "package.json": false,

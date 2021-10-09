@@ -1,11 +1,13 @@
 // fetch header, footer and content menus
 
-/**
- * Is this a duplicate @ISSUE.
- */
 const fetch = require("node-fetch");
-// @TODO this should come from odi-publishing.json @ISSUE
+// @TODO @DOCS connect to odi-publishing.json.
 let urlBase = "https://cannabis.ca.gov/wp-json/menus/v1/menus";
+/**
+ * @DOCS
+ *
+ * @returns
+ */
 module.exports = function () {
   return new Promise((resolve, reject) => {
     fetch(urlBase)

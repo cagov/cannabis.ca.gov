@@ -30,7 +30,10 @@
     "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh",
     "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh"
   },
-  "keywords": ["@cagov", "Office of Digital Innovation"],
+  "keywords": [
+    "@cagov",
+    "Office of Digital Innovation"
+  ],
   "author": "Office of Digital Innovation for the Department of Cannabis Control",
   "license": "ISC",
   "devDependencies": {
