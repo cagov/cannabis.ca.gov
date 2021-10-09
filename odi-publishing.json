@@ -45,10 +45,25 @@
     },
     "endpoints": {
         "wordpress-to-github": {
+            "src": "./wordpress",
             "config": "./wordpress/config"
         },
+        "redirects": {
+            "config": "./redirects"
+        },
         "11ty-serverless-preview": {
-            "endpoint": "endpoint @DOCS"
+            "config": "./src-preview",
+            "endpoints": {
+                "production": "https:// @DOCS",
+                "staging": "https://",
+                "development" : "https://",
+                "development-pantheon": "https://",
+                "staging-pantheon": "https://",
+                "production-pantheon": "https://",
+                "development-wp58": "https://",
+                "staging-wp58": "https://",
+                "production-wp58": "https://"
+            }
         },
         "odi-publishing": {
             "production": {
@@ -86,7 +101,12 @@
                 "label": "Twitter",
                 "link": "https://twitter.com/@DOCS",
                 "icon": "twitter"
-        }
+        },
+        {
+            "label": "Facebook",
+            "link": "https:// @DOCS",
+            "icon": "facebook"
+    }
     ],
     "og-meta": {
         "site-name": "",

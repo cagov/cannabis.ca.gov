@@ -1,7 +1,7 @@
 {
     "what?": "Set up your code editor to feel like a roller disco while fixing up our components.Try the [[hugodvlpr-theme](](https://marketplace.visualstudio.com/items?itemName=Hugodvlpr.hugodvlpr-theme) or play this roller disco themed playlist. [@DOCS We need a playlist].",
     "version": "0.0.1",
-    "github-board": "",
+    "github-board": "@DOCS",
     "components-checklist": {
         "design-system": {
             "components": {
