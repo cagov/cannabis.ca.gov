@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {*} data 
+ * @returns 
+ */
 function getPageMeta(data) {
   let page_meta = {};
   page_meta.page_title = getHeadTags(data, "page_title");
@@ -120,8 +125,7 @@ function getHeadTags(data, field) {
   return false;
 }
 
-
-
+// @dup? @TODO
 // /**
 //  * Get the njk template that corresponds to settings from the API
 //  * @param {*} data

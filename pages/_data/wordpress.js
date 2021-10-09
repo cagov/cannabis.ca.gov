@@ -4,7 +4,7 @@ import pageMeta from "./meta.js";
 /**
  * @DOCS 
  * 
- * @returns 
+ * @returns Array of data from WordPress
  */
 module.exports = function () {
   return new Promise((resolve, reject) => {

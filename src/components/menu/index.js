@@ -1,3 +1,6 @@
+/**
+ * @DOCS
+ */
 class CAGOVOverlayNav extends window.HTMLElement {
   connectedCallback () {
     this.menuContentFile = this.dataset.json;
