@@ -25,7 +25,7 @@
 				<div>
 					<article id="post-{{id}}">
 						<div class="category-label">{{ category | safe }}</div>
-						<!-- Page Title-->
+						<!-- Page Title @ISSUE @TRANSLATE -->
 						<h1 class="page-title">Search results for "<span class="query-display"></span>"</h1>
 						<p class="page-date published">
 							<time datetime="">
@@ -45,6 +45,7 @@
 
 
 <script>
+	// @TODO @ISSUE connect hardcoded values to odi-publishing.json
 	const cx = '001779225245372747843:o_16poin-0q';
 	const gcse = document.createElement('script');
 	gcse.type = 'text/javascript';
