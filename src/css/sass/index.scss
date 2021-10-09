@@ -3,9 +3,11 @@
 @import "./colorschemes/cannabis.scss"; /* theme colors */
 
 /* COMPONENTS/BLOCKS */
-@import "../../components/page-alert/index"; /* copied from gutenberg custom block */
-@import "../../components/post-list-headless/_style";
-@import "../../components/regulatory-outline/_regulatory-outline";
+@import "../../components/page-alert/_style"; /* copied from gutenberg custom block */
+@import "../../components/regulatory-outline/_style";
+
+/* PATTERNS */
+@import "../../patterns/posts/post-list/_style";
 
 /* NAVIGATION ELEMENTS */
 @import "../../components/site-footer/index.scss";
