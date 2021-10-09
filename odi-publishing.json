@@ -32,6 +32,9 @@
         "staging-wp58": "https://",
         "production-wp58": "https://"
     },
+    "media": {
+        "entry": "./wordpress/media"
+    },
     "editor-url": {
         "production": "https:// @DOCS",
         "staging": "https://",
@@ -92,6 +95,12 @@
     "translations": {
 
     },
+    "logs": {
+
+    },
+    "communications": {
+
+    },
     "languages": {
         "es": "Español",
         "en": "English"
@@ -111,5 +120,8 @@
     "og-meta": {
         "site-name": "",
         "site-social-url": ""
+    },
+    "contact": {
+
     }
 }
