@@ -1,33 +1,38 @@
-const CleanCSS = require("clean-css"); // Q: What does this do?
-const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: What does this do?
+const CleanCSS = require("clean-css"); // CSS optimizer
+const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: Do we have to do this?
 const postList = require("./pages/_data/post-list.js"); // Get templated post-list
 const eventList = require("./pages/_data/event-list.js"); // Get templated post-list
+
+// Get static site build configurations and setting (@TODO: for current branch.)
+const odiPublishing = require("./odi-publishing/config.js");
+const config = odiPublishing.getConfig();
 
 const {
   processContentPage,
   processContentPost,
   processContentEvent,
-} = require("./pages/_data/content.js"); // Content type processors
-// @DOCS 11ty reference
+} = require("./pages/_data/wordpress-content.js"); // Content data processors for WordPress API. 
+
+// [11ty](https://www.11ty.dev/docs/)
 /**
- * Create 11ty build configuration settings
+ * Create 11ty build [configuration settings](https://www.11ty.dev/docs/config/)
  * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
 module.exports = function (eleventyConfig) {
+  // Build configurations
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
     notify: true,
   });
-
+  
+  // https://www.11ty.dev/docs/copy/#manual-passthrough-file-copy-(faster)
   eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
-
-  // @Q: Why are we doing this re-write?
-  // @DOCS Let's explain our logic a little for everyone using the code.
   eleventyConfig.addPassthroughCopy({
-    "wordpress/media": "wp-content/uploads",
+    [config.build.media]: config.build.upload_folder, // Copy local wordpress media file to original relative path
   });
-  eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" }); // @Q Does this order matter?
+
+  eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" }); // @Q Does this order in build matter? (before minification?)
 
   // Make CSS smaller
   eleventyConfig.addFilter("cssmin", function (code) {
@@ -35,22 +40,21 @@ module.exports = function (eleventyConfig) {
   });
 
   /* Content type collections */
-  // Process content, update data.
+  // Process content, update data cache
   eleventyConfig.addCollection("pages", function (collection) {
     let posts = [];
-    // @TODO @DOCS odi-publishing.json settings
-    let folderNames = ["/pages/wordpress/pages"];
-
+    // Folders to process
+    let localFolder = config.build.pages;
+    // Build array of processed content data items.
     collection.getAll().forEach((item) => {
-      item = processContentPage(item, folderNames);
-
+      item = processContentPage(item, localFolder, false);
       if (item.data.data) {
         if (item.data.data.type === "page") {
           posts.push(item);
         }
       }
     });
-
+    // @TODO convert to a sort function.
     // posts.sort((a,b) => {
     //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
     // });
@@ -58,28 +62,25 @@ module.exports = function (eleventyConfig) {
   });
 
   // Process content, update data.
-  eleventyConfig.addCollection("posts", function (collection) {
-    let posts = [];
-    // @TODO @DOCS odi-publishing.json settings
-    let folderNames = ["/pages/wordpress/posts"];
-
-    collection.getAll().forEach((item) => {
-      item = processContentPost(item, folderNames);
-
-      if (item.data.data) {
-        if (item.data.data.type === "post") {
-          posts.push(item);
-        }
-      }
-      // @TODO correct the sort field - YYYY-MM-DD custom_post_date (requires DB sync)
-      // pressPosts.sort((a,b) => {
-      //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
-      // });
-    });
-
-    //   console.log("posts", posts);
-    return posts;
-  });
+  // eleventyConfig.addCollection("posts", function (collection) {
+  //   let posts = [];
+  //   // Folders to process
+  //   let localFolder = config.build.posts;
+  //   // Build array of processed content data items.
+  //   collection.getAll().forEach((item) => {
+  //     item = processContentPost(item, localFolder);
+  //     if (item.data.data) {
+  //       if (item.data.data.type === "post") {
+  //         posts.push(item);
+  //       }
+  //     }
+  //     // @TODO correct the sort field - YYYY-MM-DD custom_post_date (requires DB sync)
+  //     // pressPosts.sort((a,b) => {
+  //     //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
+  //     // });
+  //   });
+  //   return posts;
+  // });
 
   // @TODO
   //   pressPosts.sort((a, b) => {
@@ -92,13 +93,13 @@ module.exports = function (eleventyConfig) {
   // Process content, update data.
   // eleventyConfig.addCollection("events", function (collection) {
   //   let posts = [];
-  //   // @TODO @DOCS odi-publishing.json settings
-  //   let folderNames = ["/wordpress/posts"];
+  //   // Folders to process
+  //   let localFolder = [config.build.posts];
 
   //   collection.getAll().forEach((item) => {
   //     // @IDEA processContentEvent.sort
   //     // @NOTE startTimeUtC is the field
-  //     item = processContentEvent(item, folderNames);
+  //     item = processContentEvent(item, localFolder);
 
   //     if (item.data.data) {
   //       if (
@@ -114,30 +115,30 @@ module.exports = function (eleventyConfig) {
   //   return posts;
   // });
 
-  eleventyConfig.addFilter("postlist", function (html) {
-    let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
-    let myArray = myRe.exec(html);
-    let lastPosts = getRecentPosts();
-    let postListHTML = postList(lastPosts);
-    if (myArray) {
-      return html.replace(myArray[0], postListHTML);
-    }
-    return html;
-  });
+  // eleventyConfig.addFilter("postlist", function (html) {
+  //   let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
+  //   let myArray = myRe.exec(html);
+  //   let lastPosts = getRecentPosts();
+  //   let postListHTML = postList(lastPosts);
+  //   if (myArray) {
+  //     return html.replace(myArray[0], postListHTML);
+  //   }
+  //   return html;
+  // });
 
-  eleventyConfig.addFilter("eventlist", function (html) {
-    let myRe = /<cagov-event-post-list\s*.*>\s*.*<\/cagov-event-post-list>/gs;
-    let myArray = myRe.exec(html);
-    let recentPosts = getRecentEvents({
-      count: 5,
-      fieldDate: "custom_post_date",
-    });
-    let eventtListHTML = eventList(recentPosts);
-    if (myArray) {
-      return html.replace(myArray[0], eventListHTML);
-    }
-    return html;
-  });
+  // eleventyConfig.addFilter("eventlist", function (html) {
+  //   let myRe = /<cagov-event-post-list\s*.*>\s*.*<\/cagov-event-post-list>/gs;
+  //   let myArray = myRe.exec(html);
+  //   let recentPosts = getRecentEvents({
+  //     count: 5,
+  //     fieldDate: "custom_post_date",
+  //   });
+  //   let eventtListHTML = eventList(recentPosts);
+  //   if (myArray) {
+  //     return html.replace(myArray[0], eventListHTML);
+  //   }
+  //   return html;
+  // });
 
   // @Q How is this used?
   // eleventyConfig.addFilter("dateFormat", function (dateString) {
@@ -150,8 +151,8 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "md",
     templateFormats: ["html", "njk", "11ty.js", "md"],
     dir: {
-      input: "pages",
-      output: "docs",
+      input: config.build.input,
+      output: config.build.output,
     },
   };
 };

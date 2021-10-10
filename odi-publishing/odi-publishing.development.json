@@ -1,0 +1,130 @@
+{
+  "version": "1.0.0", 
+  "name": "cannabis.ca.gov - Department of Cannabis Control",
+  "gitrepo": "@cagov/cannabis.ca.gov",
+  "contact": {
+    "maintainer": "Office of Digital Innovation"
+  },
+  "og-meta": {
+    "site_name": "Department of Cannabis Control",
+    "site_social_url": "",
+    "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+    "page_social_image_alt": "Department of Cannabis Control",
+    "site_url": "https://cannabis.ca.gov",
+    "page_social_image_width": 1200,
+    "page_social_image_height": 630
+  },
+  "build": {
+    "input": "pages",
+    "output": "docs",
+    "build_folder": "docs/",
+    "index_layout": "layouts/index",
+    "upload_folder": "/wp-content/uploads/",
+    "replace_urls": ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/"],
+    "editor_url": "https://dev-cagov-dcc.pantheonsite.io",
+    "canonical_url": "https://cannabis.ca.gov",
+    "s3_bucket_url": "",
+    "media": "wordpress/media",
+    "pages": "pages/wordpress/posts",
+    "posts": "pages/wordpress/posts"
+  },
+  "endpoints": {
+    "wordpress-to-github": {
+      "src": "./wordpress",
+      "config": "./wordpress/config",
+      "endpoints": {
+        "posts": "wp-json/wp/v2/posts",
+        "pages": "wp-json/wp/v2/pages",
+        "media": "wp-json/wp/v2/media",
+        "menus": "wp-json/menus/v1/menus"
+      }
+    },
+    "page-feedback": {
+      "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
+    },
+    "redirects": {
+      "config": "./redirects"
+    },
+    "11ty-serverless-preview": {
+      "config": "./src-preview",
+      "endpoint": "@TODO"
+    },
+    "odi-publishing": {
+      "logs": "",
+      "polling-schedule": "@DOCS ncrontab ",
+      "system-status": "@FEATURE",
+      "microservices": {
+        "publish": "",
+        "publish-trigger": "",
+        "stage": "",
+        "preview": "",
+        "preview-expiration": "@DOCS 48 hours"
+      }
+    },
+    "notifications": {
+      "slack_id": "",
+      "slack_data_approval_bot": "",
+      "slack_logs_url": ""
+    }
+  },
+  "analytics": {
+    "cx": "001779225245372747843:o_16poin-0q",
+    "url": "https://cse.google.com/api/003358532045999200914:uxxka6d3pge/popularqueryjs?view=week",
+    "src": "https://cse.google.com/cse.js?language=en-US&cx="
+  },
+  "ethnio": null,
+  "search": {
+    "google_console_url": "https://cannabis.ca.gov/serp/",
+    "path": "serp"
+  },
+  "translations": {},
+  "languages": {
+    "es": "Español",
+    "en": "English"
+  },
+  "social-links": [{
+      "label": "Facebook",
+      "link": "https://www.facebook.com/CACannabisDept",
+      "icon": "ca-gov-icon-facebook",
+      "title": {
+        "es": "Share via Facebook @TRANSLATE @DOCS",
+        "en": "Share via Facebook",
+        "sr-only": "Facebook"
+      },
+      "tracking": "_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'facebook.com/cacannabisdept', 0, 0]); _gaq.push(['b._trackEvent', 'Outbound Links', 'Click', 'facebook.com/cacannabisdept', 0, 0]);"
+    },
+    {
+      "label": "Twitter",
+      "link": "https://twitter.com/CACannabisDept",
+      "icon": "ca-gov-icon-twitter",
+      "title": {
+        "es": "Share via Twitter @TRANSLATE @DOCS",
+        "en": "Share via Twitter",
+        "sr-only": "Twitter"
+      },
+      "tracking": "_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'twitter.com/cacannabisdept', 0, 0]); _gaq.push(['b._trackEvent', 'Outbound Links', 'Click', 'twitter.com/cacannabisdept', 0, 0]);"
+    },
+    {
+      "label": "Twitter",
+      "link": "mailto:?subject=Home%20page%20%7C%20Department%20of%20Cannabis%20Control&amp;body=https%3A%2F%2Fcannabis.ca.gov%2F",
+      "icon": "ca-gov-icon-email",
+      "title": {
+        "es": "Share via Email @TRANSLATE @DOCS",
+        "en": "Share via Email",
+        "sr-only": "Email"
+      },
+      "tracking": false
+    },
+    {
+      "label": "Instagram",
+      "link": "https://www.instagram.com/cacannabisdept/",
+      "icon": "ca-gov-icon-instagram",
+      "title": {
+        "es": "Share via Instagram @TRANSLATE @DOCS",
+        "en": "Share via Instagram",
+        "sr-only": "Share via Instagram"
+      },
+      "tracking": false
+    }
+  ]
+}
