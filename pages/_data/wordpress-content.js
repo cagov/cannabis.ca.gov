@@ -13,8 +13,11 @@ const config = odiPublishing.getConfig();
  */
 exports.processContentPost = (item, localFolder) => {
   if (item.inputPath.includes(localFolder)) {
-    item.outputPath = config.build.output + "/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
+    // item.outputPath = config.build.output + "/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
+    item.outputPath =
+    "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
     item = processContentItem(item);
+    // console.log(item);
   }
   return item;
 };
@@ -28,7 +31,9 @@ exports.processContentPost = (item, localFolder) => {
 exports.processContentPage = (item, localFolder) => {
   // if current file (*.html) includes localFolder name
   if (item.inputPath.includes(localFolder)) {
-    item.outputPath = config.build.output + "/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
+    // item.outputPath = config.build.output + "/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
+    item.outputPath =
+    "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
     item = processContentItem(item);
   }
   return item;
@@ -52,42 +57,6 @@ exports.processContentPage = (item, localFolder) => {
   return url;
 };
 
-
-/**
- * Convert a static html page to a relative folder containing and index.html file.
- * Example: {slug}.html to {slug}/index.html
- * @param {*} url
- * @returns
- */
-// const staticSiteUrl = function ({
-//   inputPath,
-//   localFolder,
-//   wordpressUrl,
-//   relative = false,
-// }) {
-//   console.log("inputPath", inputPath);
-//   console.log("localFolder", localFolder);
-//   console.log("wordpressUrl", wordpressUrl);
-//   let url = inputPath;
-//   if (wordpressUrl) {
-//     // url.replace(
-//     //   new RegExp(config.build.editor_url, "g"),
-//     //   relative ? "/" : config.build.static_site_url + "/"
-//     // );
-
-//     config.build.replace_urls.map((urlToReplace) => {
-//       console.log(urlToReplace);
-//       let url = replaceUrl(
-//         wordpressUrl,
-//         inputPath,
-//         "/"
-//       ) + "/index.html";
-//       console.log("url -", url);
-//     });
-//   }
-//   return url;
-// };
-
 /**
  * Utility function to replace all instances of a string.
  * @param {*} string
@@ -95,9 +64,12 @@ exports.processContentPage = (item, localFolder) => {
  * @param {*} replacement
  * @returns
  */
- const replaceUrl = function (string, match, replacement) {
-  return string.replace(new RegExp(replacement, "g"), replacement);
-};
+ const replaceUrl = function(content, match, replacement) {
+  return content.replace(
+    new RegExp(replacement, "g"),
+    replacement
+  );
+}
 
 
 /**
@@ -106,15 +78,11 @@ exports.processContentPage = (item, localFolder) => {
  * @param {*} localFolder
  */
 exports.processContentEvent = (item, localFolder) => {
-  // if (
-  //   item.inputPath.includes(localFolder[0]) ||
-  //   item.inputPath.includes(localFolder[1])
-  // ) {
-  //   let args = config.og_meta;
-  //   item.outputPath =
-  //     "docs/" + staticSiteUrl(item.data.data.wordpress_url) + "index.html";
-  //   item = processContentItem(item);
-  // }
+  // if current file (*.html) includes localFolder name
+  if (item.inputPath.includes(localFolder)) {
+    item.outputPath = config.build.output + "/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
+    item = processContentItem(item);
+  }
   return item;
 };
 
@@ -135,10 +103,15 @@ const processContentItem = (item) => {
   item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
   item.data.parent_id = item.data.data.parent; // Used in breadcrumb
   // Page meta, including og
-  getHeadMetaTags(item);
+  item = getHeadMetaTags(item);
   // Clean up URLs in content
-  // frontMatterRelativeUrls(item);
+  // item = frontMatterRelativeUrls(item);
   // Clean up URLs in ..l
+
+  let replaceUrls  = ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/"];
+
+  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[0], "/");
+  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[1], "/");
 
   return item;
 };
@@ -253,12 +226,12 @@ const chooseTemplate = function (data, cms) {
     template = data.design_system_fields.template; // Location of template name set in WordPress editor.
   }
   // Note: Was a hack. we should not do this, the editors control the layout of the landing page. @ISSUE
-  // if (data.wordpress_url === "https://cannabis.ca.gov/") {
-  //   return "landing";
-  // }
-  // if (data.wordpress_url === "https://cannabis.ca.gov/serp/") {
-  //   return "search";
-  // }
+  if (data.wordpress_url === "https://cannabis.ca.gov/") {
+    return "landing";
+  }
+  if (data.wordpress_url === "https://cannabis.ca.gov/serp/") {
+    return "search";
+  }
   if (data.template?.indexOf("single-column") > -1) {
     return "single-column"; // @ISSUE check API changes
   }
