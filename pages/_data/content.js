@@ -4,9 +4,9 @@
  * Compatible with:
  *   * [ca-design-system-gutenberg-blocks](https://github.com/cagov/ca-design-system-gutenberg-blocks) plugin `1.1.0`
  */
- const odiPublishing = require("./../../odi-publishing/config.js");
- const config = odiPublishing.getConfig();
- 
+const odiPublishing = require("./../../odi-publishing/config.js");
+const config = odiPublishing.getConfig();
+
 /**
  *
  * @param {*} item
@@ -20,7 +20,7 @@ exports.processContentPost = (item, folderNames) => {
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
 
-      item = processContentItem(item);
+    item = processContentItem(item);
   }
   return item;
 };
@@ -37,7 +37,7 @@ exports.processContentPage = (item, folderNames) => {
   ) {
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-      item = processContentItem(item);
+    item = processContentItem(item);
   }
   return item;
 };
@@ -59,7 +59,6 @@ exports.processContentEvent = (item, folderNames) => {
   return item;
 };
 
-
 /**
  *
  * @param {*} item
@@ -73,20 +72,40 @@ const processContentItem = (contentItem) => {
 
   //content pulled in from JSON
   const jsonData = item.data.data;
-  item.data.layout = "layouts/index";
-  // item.data.layout = config.build.index_layout; // Full page index layout
-   // Data attributes required by the 11ty build.
-   item.url = item.outputPath; // Target document folder
-   item.data.page.url = item.url; // Original URL of page, from WordPress
+  // item.data.layout = "layouts/index";
+  item.data.layout = config.build.index_layout; // Full page index layout
+  // Data attributes required by the 11ty build.
+  item.url = item.outputPath; // Target document folder
+  item.data.page.url = item.url; // Original URL of page, from WordPress
   //  item.data.layout = config.build.index_layout; // Full page index layout
-   item.data.title = item.data.data.title;
-   item.data.publish_date = item.data.data.date.split("T")[0]; //new Date(jsonData.modified_gmt) // @Q how do we use this?
-   // @TODO include date posted & other custom fields?
-   item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
-   item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
-   item.data.parent_id = item.data.data.parent; // Used in breadcrumb
-   // Page meta, including og
-   item = getHeadMetaTags(item);
+  item.data.title = item.data.data.title;
+  item.data.publish_date = item.data.data.date.split("T")[0]; //new Date(jsonData.modified_gmt) // @Q how do we use this?
+  // @TODO include date posted & other custom fields?
+  item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
+  item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
+  item.data.parent_id = item.data.data.parent; // Used in breadcrumb
+  let replaceUrls = [
+    "http://cannabis.ca.gov/",
+    "https://cannabis.ca.gov/",
+    "https://dev-cagov-dcc.pantheonsite.io/",
+  ];
+  item.template.frontMatter.content = replaceUrl(
+    item.template.frontMatter.content,
+    replaceUrls[0],
+    "/"
+  );
+  item.template.frontMatter.content = replaceUrl(
+    item.template.frontMatter.content,
+    replaceUrls[1],
+    "/"
+  );
+  item.template.frontMatter.content = replaceUrl(
+    item.template.frontMatter.content,
+    replaceUrls[2],
+    "/"
+  );
+  // Page meta, including og
+  item = getHeadMetaTags(item);
 
   if (jsonData.media) {
     const featuredMedia = jsonData.media.find((x) => x.featured);
@@ -101,11 +120,6 @@ const processContentItem = (contentItem) => {
         // item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp(m.source_url,'g'),'/media/'+m.path);
       });
   }
-
-  let replaceUrls  = ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/"];
-
-  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[0], "/");
-  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[1], "/");
 
   return item;
 };
@@ -128,7 +142,11 @@ const getHeadMetaTags = function (item) {
   return item;
 };
 
-
+/**
+ *
+ * @param {*} item
+ * @returns
+ */
 const getOGMetaData = function (item) {
   if (!item.data.og_meta) {
     item.data.og_meta = {};
@@ -174,12 +192,28 @@ const getOGMetaData = function (item) {
 
   if (jsonData.og_meta !== undefined && jsonData.og_meta.editor !== undefined) {
     // If a page SEO editor is used, use values from WordPress API data (otherwise default to core wordpress or pre-formatted response if the conditionally available data is not set.)
+    console.log("api", jsonData.og_meta);
     Object.keys(jsonData.og_meta).map((meta) => {
       if (jsonData.og_meta[meta] !== "") {
         item.data.og_meta[meta] = jsonData.og_meta[meta];
       }
     });
   }
+
+  // Replace static site URLs in og meta content
+  Object.keys(item.data.og_meta).map((field) => {
+    if (item.data.og_meta[field] !== "") {
+      let replacedField = replaceUrl(
+        item.data.og_meta[field],
+        config.build.editor_url,
+        config.build.static_site_url
+      );
+      if (replacedField !== undefined) {
+        item.data.og_meta[field] = replacedField;
+      }
+    }
+  });
+  console.log(item.data.og_meta);
   return item.data.og_meta;
 };
 
@@ -190,28 +224,37 @@ const getOGMetaData = function (item) {
  * @param {*} replacement
  * @returns
  */
- const replaceUrl = function(content, match, replacement) {
-  return content.replace(
-    new RegExp(replacement, "g"),
-    replacement
-  );
-}
+const replaceUrl = function (content, match, replacement) {
+  try {
+    if (typeof content === "string") {
+      return content.replace(new RegExp(match, "g"), replacement);
+    }
+  } catch (error) {
+    console.error(error);
+  }
+  return content;
+};
 
 /**
- *
+ * For processing slugs.
  * @param {*} url
  * @returns
  */
 const cleanUrl = function (url) {
-  if (url) {
-    // @DOCS odi-publishing.json
-    if (url.indexOf(".pantheonsite.io/") > -1) {
-      return url.split(".pantheonsite.io/")[1];
+  try {
+    if (url) {
+      // @DOCS odi-publishing.json
+      if (url.indexOf(".pantheonsite.io/") > -1) {
+        return url.split(".pantheonsite.io/")[1];
+      }
+      if (url.indexOf("cannabis.ca.gov") > -1) {
+        return url.split("cannabis.ca.gov")[1];
+      }
     }
-    if (url.indexOf("cannabis.ca.gov") > -1) {
-      return url.split("cannabis.ca.gov")[1];
-    }
+  } catch (error) {
+    console.error(error);
   }
+
   return url;
 };
 
@@ -255,7 +298,7 @@ const chooseTemplate = function (data, cms = "WordPress") {
  * @param {*} field
  * @returns
  */
- const getMetaTagValue = function (data, field) {
+const getMetaTagValue = function (data, field) {
   // Default mapping is from WordPress.
   if (field === "excerpt") {
     const content = data.excerpt.replace(/(<([^>]+)>)/gi, ""); // Remove HTML tags.
