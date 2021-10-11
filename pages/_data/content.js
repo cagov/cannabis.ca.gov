@@ -75,30 +75,18 @@ const processContentItem = (contentItem) => {
   const jsonData = item.data.data;
   item.data.layout = "layouts/index";
   // item.data.layout = config.build.index_layout; // Full page index layout
-  item.data.title = item.data.data.title;
-  item.data.publishdate = jsonData.date.split("T")[0]; //new Date(jsonData.modified_gmt)
-  item.data.meta = jsonData.excerpt;
-  item.data.description = jsonData.excerpt;
-
-  item.data.description = getHeadTags(jsonData, "page_description");
-  if (!item.data.social) {
-    item.data.social = {};
-  }
-  item.data.social.site_title = getHeadTags(jsonData, "site_title");
-  item.data.social.site_description = getHeadTags(jsonData, "site_description");
-  item.data.social.image = getHeadTags(jsonData, "image");
-  item.data.social.twitter_title = getHeadTags(jsonData, "twitter_title");
-  
-
-  item.data.lead = jsonData.excerpt;
-  item.data.author = jsonData.author;
-  item.data.page_layout_name = chooseTemplate(jsonData);
-  // item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
-  item.data.category = jsonData.category;
-  // item.data.id = jsonData.id;
-  item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
-  // item.data.parent_id = jsonData.parent;
-  item.data.parent_id = item.data.data.parent; // Used in breadcrumb
+   // Data attributes required by the 11ty build.
+   item.url = item.outputPath; // Target document folder
+   item.data.page.url = item.url; // Original URL of page, from WordPress
+  //  item.data.layout = config.build.index_layout; // Full page index layout
+   item.data.title = item.data.data.title;
+   item.data.publish_date = item.data.data.date.split("T")[0]; //new Date(jsonData.modified_gmt) // @Q how do we use this?
+   // @TODO include date posted & other custom fields?
+   item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
+   item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
+   item.data.parent_id = item.data.data.parent; // Used in breadcrumb
+   // Page meta, including og
+   item = getHeadMetaTags(item);
 
   if (jsonData.media) {
     const featuredMedia = jsonData.media.find((x) => x.featured);
@@ -122,6 +110,78 @@ const processContentItem = (contentItem) => {
   return item;
 };
 
+const getHeadMetaTags = function (item) {
+  // Content pulled in from JSON
+  const jsonData = item.data.data;
+  // Q: Dups? @TODO
+  item.data.meta = getMetaTagValue(jsonData, "excerpt");
+  item.data.excerpt = getMetaTagValue(jsonData, "excerpt"); // @TODO - same question
+  item.data.description = getMetaTagValue(jsonData, "excerpt"); // @TODO - same question
+  // item.data.description = item.data.og_meta.page_description; // @TODO Remove dup?
+
+  item.data.category = jsonData.category; // Content category label
+  // item.data.lead = jsonData.excerpt; // @TODO Remove? Doesn't look like code uses this.
+  item.data.author = jsonData.author; // Page content author
+  item.data.og_meta = getOGMetaData(item); // Open graph tags for page sharing.
+
+  // @TODO fix media path?
+  return item;
+};
+
+
+const getOGMetaData = function (item) {
+  if (!item.data.og_meta) {
+    item.data.og_meta = {};
+  }
+
+  let jsonData = item.data.data;
+
+  let default_og_meta = {
+    site_name: config.og_meta.site_name,
+    site_description:
+      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description, // @ISSUE This should have been excerpt raw (from wordpress-to-github), not rendered. Wrong field.
+    site_url: config.og_meta.site_url,
+    canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url, // @ISSUE check variable name
+    meta_canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url,
+
+    page_title: jsonData.title || config.og_meta.title,
+    meta_title: jsonData.title || config.og_meta.title,
+    open_graph_title: jsonData.title || config.og_meta.title,
+    twitter_title: jsonData.title || config.og_meta.title,
+
+    page_description:
+      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description,
+    meta_description:
+      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description,
+    open_graph_description:
+      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description,
+    twitter_description:
+      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description,
+
+    page_social_image_url: config.og_meta.page_social_image_url,
+    // @TODO - check this
+    //  if (jsonData.media) {
+    //   const featuredMedia = jsonData.media.find((x) => x.featured);
+    //   if (featuredMedia) {
+    //     item.data.previewimage = upload_folder + featuredMedia.path;
+    //   }
+    page_social_image_width: config.og_meta.page_social_image_width,
+    page_social_image_height: config.og_meta.page_social_image_height,
+    page_social_image_alt: config.og_meta.page_social_image_alt,
+  };
+  // Set default data
+  item.data.og_meta = default_og_meta;
+
+  if (jsonData.og_meta !== undefined && jsonData.og_meta.editor !== undefined) {
+    // If a page SEO editor is used, use values from WordPress API data (otherwise default to core wordpress or pre-formatted response if the conditionally available data is not set.)
+    Object.keys(jsonData.og_meta).map((meta) => {
+      if (jsonData.og_meta[meta] !== "") {
+        item.data.og_meta[meta] = jsonData.og_meta[meta];
+      }
+    });
+  }
+  return item.data.og_meta;
+};
 
 /**
  * Utility function to replace all instances of a string.
@@ -160,7 +220,7 @@ const cleanUrl = function (url) {
  * @param {*} data
  * @returns
  */
-const chooseTemplate = function (data) {
+const chooseTemplate = function (data, cms = "WordPress") {
   // Get value set in API for headless design system
   let template;
   if (data.design_system_fields) {
@@ -190,19 +250,21 @@ const chooseTemplate = function (data) {
 };
 
 /**
- *
+ * Read the og_meta data object from content API. Process field data for a given field.
  * @param {*} data
  * @param {*} field
  * @returns
  */
-const getHeadTags = function (data, field) {
+ const getMetaTagValue = function (data, field) {
+  // Default mapping is from WordPress.
   if (field === "excerpt") {
-    const content = data.excerpt.replace(/(<([^>]+)>)/gi, "");
+    const content = data.excerpt.replace(/(<([^>]+)>)/gi, ""); // Remove HTML tags.
     return content;
   }
 
   if (field === "page_title") {
     try {
+      // SEO framework. Check API setting as different editors could be used.
       if (data.og_meta._genesis_title !== "") {
         return data.og_meta._genesis_title;
       } else if (data.og_meta._open_graph_title !== "") {
@@ -211,9 +273,9 @@ const getHeadTags = function (data, field) {
         return data.title;
       }
     } catch (error) {
-      // console.error("No site, page or post title found.")
+      console.error("No site, page or post title found.");
     }
-    return "Department of Cannabis Control";
+    return config.og_meta.site_name;
   }
   if (field === "twitter_title") {
     try {
@@ -223,17 +285,17 @@ const getHeadTags = function (data, field) {
         return data.title;
       }
     } catch (error) {
-      // console.error("No twitter title found.")
+      console.error("No twitter title found.");
     }
-    return "Department of Cannabis Control";
+    return config.og_meta.site_name;
   }
   if (field === "site_title") {
     try {
       return data.site_settings.site_name;
     } catch (error) {
-      // console.error("No site, page or post title found.")
+      console.error("No site, page or post title found.");
     }
-    return "Department of Cannabis Control";
+    return config.og_meta.site_name;
   }
   if (field === "page_description") {
     try {
@@ -245,14 +307,14 @@ const getHeadTags = function (data, field) {
         return data.site_settings.site_description;
       }
     } catch (error) {
-      // console.error("No site, page or post description found.")
+      console.error("No site, page or post description found.");
     }
   }
   if (field === "site_description") {
     try {
       return data.site_settings.site_description;
     } catch (error) {
-      // console.error("No site, page or post description found.")
+      console.error("No site, page or post description found.");
     }
     return "";
   }
@@ -260,22 +322,18 @@ const getHeadTags = function (data, field) {
     try {
       return {
         url: data.og_meta._social_image_url,
-        width: 1200, // Need to expose variable from API
-        height: 630, // Need to expose variable from API
+        width: config.og_meta.page_social_image_width || 1200, // @TODO Need to expose variable from API in plugin @ISSUE (have to reverse lookup media id based on how media object is saved in WP)
+        height: config.og_meta.page_social_image_height || 630, // @TODO Need to expose variable from API in plugin @ISSUE (have to reverse lookup media id based on how media object is saved in WP)
       };
     } catch (error) {
-      // console.error("No social image found.")
+      console.error("No social image found.");
     }
     return {
-      url: "https://headless.cannabis.ca.gov/media/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
-      width: 1200, // Need to expose variable from API
-      height: 630, // Need to expose variable from API
+      url:
+        config.og_meta.page_social_image_url || "https://placekitten/1200/630",
+      width: config.og_meta.page_social_image_width || 1200, // @TODO Need to expose variable from API in plugin @ISSUE (have to reverse lookup media id based on how media object is saved in WP)
+      height: config.og_meta.page_social_image_height || 630, // @TODO Need to expose variable from API in plugin @ISSUE (have to reverse lookup media id based on how media object is saved in WP)
     };
   }
   return false;
 };
-
-// exports.getHeadTags = getHeadTags;
-// exports.chooseTemplate = chooseTemplate;
-// exports.cleanUrl = cleanUrl;
-// exports.processMeta = processMeta;
