@@ -3,8 +3,6 @@
 # 1.0.0
 From [Office of Digital Innovation](https://digital.ca.gov), October 8, 2021
 Board: @DOCS
-* Create config handler `odi-publishing`, create configs for different branches.
-* Re-organize the pages/_data so data is only collection builder functions and includes is only .njk templates
 * Add `translations.json` pulling out hard coded strings so they can be translated. @TRANSLATE
 * Add @ISSUE tags on hard coded strings, they need to be connected to the `translations.json` content.
 * Add `config.json` and `odi-publishing.json` config files.

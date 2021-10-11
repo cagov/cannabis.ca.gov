@@ -1,38 +1,33 @@
-const CleanCSS = require("clean-css"); // CSS optimizer
-const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: Do we have to do this?
+const CleanCSS = require("clean-css"); // Q: What does this do?
+const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: What does this do?
 const postList = require("./pages/_data/post-list.js"); // Get templated post-list
 const eventList = require("./pages/_data/event-list.js"); // Get templated post-list
-
-// Get static site build configurations and setting (@TODO: for current branch.)
-const odiPublishing = require("./odi-publishing/config.js");
-const config = odiPublishing.getConfig();
 
 const {
   processContentPage,
   processContentPost,
   processContentEvent,
-} = require("./pages/_data/wordpress-content.js"); // Content data processors for WordPress API. 
-
-// [11ty](https://www.11ty.dev/docs/)
+} = require("./pages/_data/content.js"); // Content type processors
+// @DOCS 11ty reference
 /**
- * Create 11ty build [configuration settings](https://www.11ty.dev/docs/config/)
+ * Create 11ty build configuration settings
  * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
 module.exports = function (eleventyConfig) {
-  // Build configurations
+  eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
+  eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
+
+  // @Q: Why are we doing this re-write?
+  // @DOCS Let's explain our logic a little for everyone using the code.
+  eleventyConfig.addPassthroughCopy({
+    "wordpress/media": "wp-content/uploads",
+  });
+  eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" }); // @Q Does this order matter?
+
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
     notify: true,
   });
-  
-  // https://www.11ty.dev/docs/copy/#manual-passthrough-file-copy-(faster)
-  eleventyConfig.addPassthroughCopy({ "./src/css/fonts": "fonts" });
-  eleventyConfig.addPassthroughCopy({ "./src/rootcopy/*": "/" });
-  eleventyConfig.addPassthroughCopy({
-    [config.build.media]: config.build.upload_folder, // Copy local wordpress media file to original relative path
-  });
-
-  eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" });
 
   // Make CSS smaller
   eleventyConfig.addFilter("cssmin", function (code) {
@@ -40,54 +35,70 @@ module.exports = function (eleventyConfig) {
   });
 
   /* Content type collections */
-  // Process content, update data cache
+  // Process content, update data.
   eleventyConfig.addCollection("pages", function (collection) {
-    let items = [];
-    // Folders to process
-    let localFolder = config.build.pages;
-    // Build array of processed content data items.
+    let posts = [];
+    // @TODO @DOCS odi-publishing.json settings
+    let folderNames = ["/pages/wordpress/pages"];
+
     collection.getAll().forEach((item) => {
-      item = processContentPage(item, localFolder, false);
+      item = processContentPage(item, folderNames);
+
       if (item.data.data) {
         if (item.data.data.type === "page") {
-          items.push(item);
+          posts.push(item);
         }
       }
     });
-    // @TODO convert to a sort function.
-    // items.sort((a,b) => {
+
+    // posts.sort((a,b) => {
     //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
     // });
-    return items;
+    return posts;
   });
 
   // Process content, update data.
   eleventyConfig.addCollection("posts", function (collection) {
-    let items = [];
-    // Folders to process
-    let localFolder = config.build.posts;
-    // Build array of processed content data items.
+    let posts = [];
+    // @TODO @DOCS odi-publishing.json settings
+    let folderNames = ["/pages/wordpress/posts"];
+
     collection.getAll().forEach((item) => {
-      item = processContentPost(item, localFolder);
+      item = processContentPost(item, folderNames);
+
       if (item.data.data) {
         if (item.data.data.type === "post") {
-          items.push(item);
+          posts.push(item);
         }
       }
+      // @TODO correct the sort field - YYYY-MM-DD custom_post_date (requires DB sync)
+      // pressPosts.sort((a,b) => {
+      //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
+      // });
     });
-    return items;
+
+    //   console.log("posts", posts);
+    return posts;
   });
+
+  // @TODO
+  //   pressPosts.sort((a, b) => {
+  //     return (
+  //       new Date(b.data.data.date).getTime() -
+  //       new Date(a.data.data.date).getTime()
+  //     );
+  //   });
 
   // Process content, update data.
   // eleventyConfig.addCollection("events", function (collection) {
   //   let posts = [];
-  //   // Folders to process
-  //   let localFolder = config.build.posts;
+  //   // @TODO @DOCS odi-publishing.json settings
+  //   let folderNames = ["/wordpress/posts"];
 
   //   collection.getAll().forEach((item) => {
   //     // @IDEA processContentEvent.sort
   //     // @NOTE startTimeUtC is the field
-  //     item = processContentEvent(item, localFolder);
+  //     item = processContentEvent(item, folderNames);
 
   //     if (item.data.data) {
   //       if (
@@ -128,26 +139,19 @@ module.exports = function (eleventyConfig) {
     return html;
   });
 
-  return {
-    htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "md",
-    templateFormats: ["html", "njk", "11ty.js", "md"],
-    dir: {
-      input: config.build.input,
-      output: config.build.output,
-    },
-  };
-};
-
-
-// Junk
   // @Q How is this used?
   // eleventyConfig.addFilter("dateFormat", function (dateString) {
   //   let d = new Date(dateString);
   //   return `${monthStrings[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
   // });
 
-    // @TODO correct the sort field - YYYY-MM-DD custom_post_date (requires DB sync)
-  // pressPosts.sort((a,b) => {
-  //   return new Date(b.data.data.date).getTime() - new Date(a.data.data.date).getTime();
-  // });
+  return {
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "md",
+    templateFormats: ["html", "njk", "11ty.js", "md"],
+    dir: {
+      input: "pages",
+      output: "docs",
+    },
+  };
+};
