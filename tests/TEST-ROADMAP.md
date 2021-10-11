@@ -5,6 +5,11 @@ We are evaluating the three tools below:
 ### Mocha unit tests through playwright.
 @DOCS @TODO
 
+### Cypress unit tests
+* https://dev.to/dgreene1/wow-cypress-can-run-unit-tests-15l5
+* https://docs.cypress.io/examples/examples/recipes#Unit-Testing
+* @TODO Finish this config: looks promising - https://medium.com/swlh/automated-testing-with-cypress-17bf74bfd97d
+
 ### Integration(End to end) tests with playwright
 
 The playwright headless tests are triggered with ```npm test```. These run in the git action e2e.yml. The git action runs setup scripts and starts a web dev server to return files in docs/ after the build runs.
