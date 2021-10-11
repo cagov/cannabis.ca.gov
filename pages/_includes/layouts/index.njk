@@ -65,23 +65,23 @@
   </header>
 
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
-  {%- if templatestring == 'landing' -%}
+  {%- if page_layout_name == 'landing' -%}
     {% include "../layouts/templates/landing.njk" %}
   {# Search results #}
-  {%- elif templatestring == 'search' -%}
+  {%- elif page_layout_name == 'search' -%}
     {% include "../layouts/templates/search.njk" %}  
   {# Pages that don't have content navigation #}
-  {%- elif templatestring == 'single-column' -%}
+  {%- elif page_layout_name == 'single-column' -%}
     {% include "../layouts/templates/single-column.njk" %}  
   {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
-  {% elif templatestring == 'page' -%}
+  {% elif page_layout_name == 'page' -%}
     {% include "../layouts/templates/page.njk" %}
   {# Normal post template, with category if default the API will return "post" #}
-  {% elif templatestring == 'post' -%}
+  {% elif page_layout_name == 'post' -%}
     {% include "../layouts/templates/post.njk" %}
-  {% elif templatestring == 'event' -%}
+  {% elif page_layout_name == 'event' -%}
     {% include "../layouts/templates/event.njk" %}
-  {% elif templatestring == 'press-release' -%}
+  {% elif page_layout_name == 'press-release' -%}
   {# We are developing more templates for special post types, like press releases and events. #}
     {% include "../layouts/templates/press-release.njk" %}
   {# No template #}

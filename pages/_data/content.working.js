@@ -1,13 +1,4 @@
 /**
- * WordPress content formatter.
- * Read data from WordPress API
- * Compatible with:
- *   * [ca-design-system-gutenberg-blocks](https://github.com/cagov/ca-design-system-gutenberg-blocks) plugin `1.1.0`
- */
- const odiPublishing = require("./../../odi-publishing/config.js");
- const config = odiPublishing.getConfig();
- 
-/**
  *
  * @param {*} item
  * @param {*} folderNames
@@ -20,7 +11,7 @@ exports.processContentPost = (item, folderNames) => {
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
 
-      item = processContentItem(item);
+    // item = processMeta(item);
   }
   return item;
 };
@@ -37,7 +28,7 @@ exports.processContentPage = (item, folderNames) => {
   ) {
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-      item = processContentItem(item);
+    item = processMeta(item);
   }
   return item;
 };
@@ -54,28 +45,38 @@ exports.processContentEvent = (item, folderNames) => {
   ) {
     item.outputPath =
       "docs/" + cleanUrl(item.data.data.wordpress_url) + "index.html";
-    item = processContentItem(item);
+    item = processMeta(item);
   }
   return item;
 };
 
+/**
+ * @ISSUE Do we really need this? 
+ * @param {*} data 
+ * @returns 
+ */
+const getOGMetatags = function (data) {
+  if(!data.og_meta) {
+    return "";
+  }
+  let og_meta = data.og_meta.og_rendered;
+  return og_meta;
+}
 
 /**
  *
  * @param {*} item
  * @returns
  */
-const processContentItem = (contentItem) => {
+const processMeta = (contentItem) => {
   let item = contentItem;
-  // Data attributes required by the 11ty build.
-  item.url = item.outputPath; // Target document folder
-  item.data.page.url = item.url; // Original URL of page, from WordPress
+  item.url = item.outputPath;
+  item.data.page.url = item.url;
 
   //content pulled in from JSON
   const jsonData = item.data.data;
   item.data.layout = "layouts/index";
-  // item.data.layout = config.build.index_layout; // Full page index layout
-  item.data.title = item.data.data.title;
+  item.data.title = jsonData.title;
   item.data.publishdate = jsonData.date.split("T")[0]; //new Date(jsonData.modified_gmt)
   item.data.meta = jsonData.excerpt;
   item.data.description = jsonData.excerpt;
@@ -88,17 +89,14 @@ const processContentItem = (contentItem) => {
   item.data.social.site_description = getHeadTags(jsonData, "site_description");
   item.data.social.image = getHeadTags(jsonData, "image");
   item.data.social.twitter_title = getHeadTags(jsonData, "twitter_title");
-  
+  item.data.social.og_meta = getOGMetatags(jsonData);
 
   item.data.lead = jsonData.excerpt;
   item.data.author = jsonData.author;
   item.data.page_layout_name = chooseTemplate(jsonData);
-  // item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
   item.data.category = jsonData.category;
-  // item.data.id = jsonData.id;
-  item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
-  // item.data.parent_id = jsonData.parent;
-  item.data.parent_id = item.data.data.parent; // Used in breadcrumb
+  item.data.id = jsonData.id;
+  item.data.parent_id = jsonData.parent;
 
   if (jsonData.media) {
     const featuredMedia = jsonData.media.find((x) => x.featured);
@@ -114,28 +112,18 @@ const processContentItem = (contentItem) => {
       });
   }
 
-  let replaceUrls  = ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/"];
-
-  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[0], "/");
-  item.template.frontMatter.content = replaceUrl(item.template.frontMatter.content, replaceUrls[1], "/");
+  // @TODO Modify the wordpress asset links here opportunistically because we are already looping through tempaltes with njk transformed into HTML
+  item.template.frontMatter.content = item.template.frontMatter.content.replace(
+    new RegExp("http://cannabis.ca.gov/", "g"),
+    "/"
+  );
+  item.template.frontMatter.content = item.template.frontMatter.content.replace(
+    new RegExp("https://cannabis.ca.gov/", "g"),
+    "/"
+  );
 
   return item;
 };
-
-
-/**
- * Utility function to replace all instances of a string.
- * @param {*} string
- * @param {*} match
- * @param {*} replacement
- * @returns
- */
- const replaceUrl = function(content, match, replacement) {
-  return content.replace(
-    new RegExp(replacement, "g"),
-    replacement
-  );
-}
 
 /**
  *
@@ -275,7 +263,7 @@ const getHeadTags = function (data, field) {
   return false;
 };
 
-// exports.getHeadTags = getHeadTags;
-// exports.chooseTemplate = chooseTemplate;
-// exports.cleanUrl = cleanUrl;
-// exports.processMeta = processMeta;
+exports.getHeadTags = getHeadTags;
+exports.chooseTemplate = chooseTemplate;
+exports.cleanUrl = cleanUrl;
+exports.processMeta = processMeta;
