@@ -1,6 +1,19 @@
 // import { test, expect } from '@playwright/test';
 // import { injectAxe, checkA11y, getViolations, reportViolations } from 'axe-playwright'
 
+
+const assert = require('assert');
+const { PlaywrightMocha } = require('playwright-mocha/dist/pm');
+
+it('checks the title of the page', async () => {
+
+  const page = PlaywrightMocha.page();
+
+  await page.goto('https://www.headlesstesting.com/');
+  const title = await page.title();
+  assert.strictEqual(title, 'Headless Testing with Puppeteer and Playwright in the Cloud.');
+})
+
 // // var assert = require('assert');
 
 // // Mocha unit test using Playwright.
@@ -9,7 +22,7 @@
 // // # Run mocha tests with Playwright
 // /*
 // @DOCS @TEST 
-// We like `playwright codegen` mode because (@DOCS @TODO.)
+// We like `npx playwright-mocha` mode because (@DOCS @TODO.)
 // // 
 // ## Record a test
 

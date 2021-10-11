@@ -76,6 +76,7 @@
     "@cagov/ds-skip-to-content": "^1.0.0",
     "@cagov/ds-statewide-footer": "^1.0.1",
     "@cagov/ds-statewide-header": "^1.0.7",
-    "@cagov/ds-step-list": "^1.0.1"
+    "@cagov/ds-step-list": "^1.0.1",
+    "playwright-mocha": "^2.0.2"
   }
 }
