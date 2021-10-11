@@ -1,6 +1,7 @@
 {
-    "what?": "Set up your code editor to feel like a roller disco while fixing up our components.Try the [[hugodvlpr-theme](](https://marketplace.visualstudio.com/items?itemName=Hugodvlpr.hugodvlpr-theme) or play this roller disco themed playlist. [@DOCS We need a playlist].",
-    "version": "0.0.1",
+    "name": "Docs Stats",
+    "version": "1.0.0-rc-x",
+    "theme": "Version 1.0.0 release. DOCS PARTY THEME: ROLLER DISCO. Set up your code editor to feel like a roller disco while fixing up our components.Try the [[hugodvlpr-theme](](https://marketplace.visualstudio.com/items?itemName=Hugodvlpr.hugodvlpr-theme) or play this roller disco themed playlist. [@DOCS playlist].",
     "github-board": "@DOCS",
     "components-checklist": {
         "design-system": {

@@ -1,11 +1,23 @@
 import { test, expect } from '@playwright/test';
 import { injectAxe, checkA11y, getViolations, reportViolations } from 'axe-playwright'
+
+// Mocha unit test using Playwright.
+// Unit tests of important functions.
+
+// # Run mocha tests with Playwright
 /*
-The playwright codegen mode is good. Give it a try by running this command supplying your target url as the final argument
+@DOCS @TEST 
+We like `playwright codegen` mode because (@DOCS @TODO.)
 
-npx playwright codegen http://localhost:8000
+## Record a test
 
-Then clicking around and doing what you want your tests to cover. Playwright will generate useful test code and you may only need to modify selectors to make them less brittle
+Give Playwright a try.
+
+1. Run: `npx playwright codegen http://localhost:8000` (supply your target url as the final argument)
+2. Then, click around. Perform the actions you want your tests to cover. 
+3. Playwright will generate useful test code.
+4. You may need to modify selectors to make them less brittle.
+5. Save to test file: `./tests/{test-name}.spec.mjs`
 */
 
 let testLocation = 'http://localhost:8000/'
