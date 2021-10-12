@@ -23,12 +23,12 @@
     "test:server": "npx web-dev-server --root-dir docs/",
     "test:server:background": "npx web-dev-server --root-dir docs/ &",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
-    "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
-    "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
-    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
     "git:merge:dev-into-main": "./src/sh/git-merge-development-into-main.sh",
     "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh",
-    "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh"
+    "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh",
+    "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
+    "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
+    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all"
   },
   "keywords": [
     "@cagov",
@@ -39,6 +39,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "html-minifier": "^4.0.0",
     "@playwright/test": "^1.14.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
@@ -47,6 +48,7 @@
     "aws-sdk": "^2.989.0",
     "axe-core": "^4.3.3",
     "axe-playwright": "^1.1.8",
+    "cheerio": "^1.0.0-rc.10",
     "chokidar-cli": "^2.1.0",
     "clean-css": "^5.1.2",
     "cypress": "^8.3.1",
@@ -69,7 +71,7 @@
     "@cagov/ds-content-navigation": "^1.0.3",
     "@cagov/ds-dropdown-menu": "^1.0.11",
     "@cagov/ds-feature-card": "^1.0.2",
-    "@cagov/ds-feedback": "^1.0.1",
+    "@cagov/ds-feedback": "^1.0.5",
     "@cagov/ds-google-translate": "^1.0.0",
     "@cagov/ds-minus": "^1.0.0",
     "@cagov/ds-pagination": "^1.0.0",

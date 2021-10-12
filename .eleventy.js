@@ -1,13 +1,19 @@
-const CleanCSS = require("clean-css"); // Q: What does this do?
-const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: What does this do?
-const postList = require("./pages/_data/post-list.js"); // Get templated post-list
-const eventList = require("./pages/_data/event-list.js"); // Get templated post-list
+const CleanCSS = require("clean-css"); // Optimize CSS
+const htmlmin = require("html-minifier"); // Minify HTML
+const cheerio = require("cheerio");
+
+const lastFewPosts = require("./src/components/post-list/last-few-posts");
+const {
+  postListServerRender,
+  setDefaultAttributes,
+} = require("./src/components/post-list/render");
 
 const {
   processContentPage,
   processContentPost,
-  processContentEvent,
+  // processContentEvent,
 } = require("./pages/_data/content.js"); // Content type processors
+
 // @DOCS 11ty reference
 /**
  * Create 11ty build configuration settings
@@ -144,6 +150,21 @@ module.exports = function (eleventyConfig) {
   //   let d = new Date(dateString);
   //   return `${monthStrings[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
   // });
+
+  // Minify HTML
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
+    if (outputPath && outputPath.endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+      return minified;
+    }
+
+    return content;
+  });
 
   return {
     htmlTemplateEngine: "njk",

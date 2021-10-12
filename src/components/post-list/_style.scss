@@ -8,16 +8,16 @@
     }
   }
 }
-
+.cagov-post-list .link-title,
 .cagov-post-list .link-title a {
-  color: var(--primary-color, #064e66);
+  color: $primary;
   font-weight: normal;
-  text-decoration: underline;
+  @include text-underline;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px;
   &:hover {
-    color: var(--primary-dark-color, #4A1106);
+    color: $primary-dark;
     text-decoration: none;
   }
 }
@@ -27,16 +27,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
+  margin-bottom: 16px;
   a {
-    text-decoration: underline;
+    @include text-underline;
     &:hover {
       text-decoration: none;
     }
   }
-}
-
-.post-list-item {
-  margin-bottom: 16px;
 }
 
 .wp-block-ca-design-system-post-list .post-list-item.post-status {
@@ -65,13 +62,13 @@
 }
 
 .cagov-post-list .link-title a {
-  color: var(--primary-color, #064e66);
+  color: $primary;
   font-weight: 700;
   line-height: 30px;
   font-size: 28px;
-  text-decoration: underline;
+  @include text-underline;
   &:hover {
-    color: var(--primary-dark-color, #4A1106);
+    color: $primary-dark;
     text-decoration: none;
   }
 }
@@ -84,12 +81,12 @@
   margin-bottom: 8px;
 }
 
-.cagov-post-list .post-list-item {
+cagov-post-list .post-list-item {
   margin: 0;
   padding: 0;
 }
 
-.cagov-post-list .post-list-item {
+cagov-post-list .post-list-item {
   font-style: normal;
   font-weight: normal;
   margin-bottom: 24px;
@@ -100,6 +97,7 @@
   line-height: 30px;
   margin-top: 0px;
   color: #000;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 580px) {
@@ -122,14 +120,14 @@
   }
 
   .cagov-post-list .link-title a {
-    color: var(--primary-color, #064e66);
+    color: $primary;
     font-weight: 700;
     line-height: 30px;
     font-size: 24px;
     margin-bottom: 8px;
-    text-decoration: underline;
+    @include text-underline;
     &:hover {
-      color: var(--primary-dark-color, #4A1106);
+      color: $primary-dark;
       text-decoration: none;
     }
   }
@@ -142,12 +140,12 @@
     margin-bottom: 8px;
   }
 
-  .cagov-post-list .post-list-item {
+  cagov-post-list .post-list-item {
     margin: 0;
     padding: 0;
   }
 
-  .cagov-post-list .post-list-item {
+  cagov-post-list .post-list-item {
     font-style: normal;
     font-weight: normal;
     margin-bottom: 16px;
@@ -157,6 +155,7 @@
     line-height: 24px;
     margin-top: 0px;
     color: #000;
+    font-weight: 700;
   }
 
   .wp-block-ca-design-system-post-list .post-list-item.post-status {
