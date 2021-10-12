@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.6",
+    "@cagov/ds-agency-footer": "^1.0.0",
     "@cagov/ds-back-to-top": "^1.0.1",
     "@cagov/ds-base-css": "^1.0.6",
     "@cagov/ds-branding": "^1.0.4",
