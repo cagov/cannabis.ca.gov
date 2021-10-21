@@ -5,19 +5,18 @@
     "description": "wordpress-to-github endpoints config file"
   },
   "data": {
-    "wordpress_source_url": "https://cannabis.ca.gov",
+    "disabled": false,
+    "PostPath": "pages/wordpress/posts",
+    "PagePath": "pages/wordpress/pages",
+    "MediaPath": "wordpress/media",
+    "ExcludeProperties": ["content", "_links"],
     "github_targets": [
       {
-        "outputBranch": "development",
         "disabled": false,
         "PostPath": "pages/wordpress/posts",
         "PagePath": "pages/wordpress/pages",
         "MediaPath": "wordpress/media",
-        "ExcludeProperties": [
-          "content",
-          "_links"
-        ],
-        "tags_exclude": []
+        "ExcludeProperties": ["content", "_links"]
       }
     ]
   }
