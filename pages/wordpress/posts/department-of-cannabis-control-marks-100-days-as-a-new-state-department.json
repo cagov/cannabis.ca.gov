@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "created_date": "2021-10-21T23:16:44",
+    "updated_date": "2021-10-21T23:16:46",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8927,
+    "date": "2021-10-21T16:16:44",
+    "date_gmt": "2021-10-21T23:16:44",
+    "guid": "https://cannabis.ca.gov/?p=8927",
+    "modified": "2021-10-21T16:16:46",
+    "modified_gmt": "2021-10-21T23:16:46",
+    "slug": "department-of-cannabis-control-marks-100-days-as-a-new-state-department",
+    "status": "publish",
+    "type": "post",
+    "link": "https://cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+    "title": "Department of Cannabis Control marks 100 days as a new state department",
+    "excerpt": "<p>CALIFORNIA – Today, California’s Department of Cannabis Control (DCC) marks its first 100 days as a new state department. In this short time, DCC has already taken significant steps to deliver on the Newsom Administration’s commitments to support California cannabis businesses and improve the cannabis regulatory framework. “We’ve made meaningful early progress as a new [&hellip;]</p>\n",
+    "author": "Christina Dempsey",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "display_title": false
+    },
+    "wordpress_url": "https://cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+    "media": [
+      {
+        "id": 8923,
+        "type": "full",
+        "path": "sites/2/2021/10/20210924_095121-002-scaled.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-scaled.jpg",
+        "file": "20210924_095121-002-scaled.jpg",
+        "width": 2560,
+        "height": 1336,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-scaled.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8923,
+        "type": "large",
+        "path": "sites/2/2021/10/20210924_095121-002-1024x534.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-1024x534.jpg",
+        "file": "20210924_095121-002-1024x534.jpg",
+        "width": 1024,
+        "height": 534,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-1024x534.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8923,
+        "type": "et-pb-image--responsive--tablet",
+        "path": "sites/2/2021/10/20210924_095121-002-980x511.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-980x511.jpg",
+        "file": "20210924_095121-002-980x511.jpg",
+        "width": 980,
+        "height": 511,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-980x511.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8923,
+        "type": "et-pb-image--responsive--phone",
+        "path": "sites/2/2021/10/20210924_095121-002-480x251.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-480x251.jpg",
+        "file": "20210924_095121-002-480x251.jpg",
+        "width": 480,
+        "height": 251,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/20210924_095121-002-480x251.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "full",
+        "path": "sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-scaled.jpg",
+        "width": 2560,
+        "height": 2443,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "large",
+        "path": "sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-1024x977.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-1024x977.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-1024x977.jpg",
+        "width": 1024,
+        "height": 977,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-1024x977.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "et-pb-image--responsive--tablet",
+        "path": "sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-980x935.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-980x935.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-980x935.jpg",
+        "width": 980,
+        "height": 935,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-980x935.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "et-pb-image--responsive--phone",
+        "path": "sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-480x458.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-480x458.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-480x458.jpg",
+        "width": 480,
+        "height": 458,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/Secretary-Tours-BCSH-and-DCC-Group-480x458.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
