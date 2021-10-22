@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "created_date": "2021-10-22T00:12:26",
+    "updated_date": "2021-10-22T00:13:39",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8932,
+    "date": "2021-10-21T17:12:26",
+    "date_gmt": "2021-10-22T00:12:26",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg",
+    "modified": "2021-10-21T17:13:39",
+    "modified_gmt": "2021-10-22T00:13:39",
+    "slug": "dccfirst100days_twitter",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://cannabis.ca.gov/homepage/dccfirst100days_twitter/",
+    "title": "DCCFirst100Days_Twitter",
+    "author": "Christina Dempsey",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      766
+    ],
+    "description": "<p class=\"attachment\"><a href='https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg'><img width=\"576\" height=\"288\" src=\"https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-576x288.jpg\" class=\"attachment-medium size-medium\" alt=\"Green background with logo and text overlaid which reads &quot;Department of Cannabis Control&#039;s first 100 days&quot;\" loading=\"lazy\" /></a></p>\n",
+    "caption": "<p>The Department of Cannabis Control marks 100 days as a new state department.</p>\n",
+    "alt_text": "Green background with logo and text overlaid which reads \"Department of Cannabis Control's first 100 days\"",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2133,
+      "height": 1067,
+      "file": "2021/10/DCCFirst100Days_Twitter.jpg",
+      "sizes": {
+        "medium": {
+          "file": "DCCFirst100Days_Twitter-576x288.jpg",
+          "width": 576,
+          "height": 288,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-576x288.jpg"
+        },
+        "large": {
+          "file": "DCCFirst100Days_Twitter-1024x512.jpg",
+          "width": 1024,
+          "height": 512,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1024x512.jpg"
+        },
+        "thumbnail": {
+          "file": "DCCFirst100Days_Twitter-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "DCCFirst100Days_Twitter-768x384.jpg",
+          "width": 768,
+          "height": 384,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-768x384.jpg"
+        },
+        "1536x1536": {
+          "file": "DCCFirst100Days_Twitter-1536x768.jpg",
+          "width": 1536,
+          "height": 768,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1536x768.jpg"
+        },
+        "2048x2048": {
+          "file": "DCCFirst100Days_Twitter-2048x1024.jpg",
+          "width": 2048,
+          "height": 1024,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-2048x1024.jpg"
+        },
+        "et-pb-post-main-image": {
+          "file": "DCCFirst100Days_Twitter-400x250.jpg",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x250.jpg"
+        },
+        "et-pb-post-main-image-fullwidth": {
+          "file": "DCCFirst100Days_Twitter-1080x675.jpg",
+          "width": 1080,
+          "height": 675,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1080x675.jpg"
+        },
+        "et-pb-portfolio-image": {
+          "file": "DCCFirst100Days_Twitter-400x284.jpg",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x284.jpg"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "DCCFirst100Days_Twitter-510x382.jpg",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-510x382.jpg"
+        },
+        "et-pb-portfolio-image-single": {
+          "file": "DCCFirst100Days_Twitter-1080x540.jpg",
+          "width": 1080,
+          "height": 540,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1080x540.jpg"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "DCCFirst100Days_Twitter-400x516.jpg",
+          "width": 400,
+          "height": 516,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x516.jpg"
+        },
+        "et-pb-image--responsive--desktop": {
+          "file": "DCCFirst100Days_Twitter-1280x640.jpg",
+          "width": 1280,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1280x640.jpg"
+        },
+        "et-pb-image--responsive--tablet": {
+          "file": "DCCFirst100Days_Twitter-980x490.jpg",
+          "width": 980,
+          "height": 490,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-980x490.jpg"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "DCCFirst100Days_Twitter-480x240.jpg",
+          "width": 480,
+          "height": 240,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-480x240.jpg"
+        },
+        "full": {
+          "file": "DCCFirst100Days_Twitter.jpg",
+          "width": 2133,
+          "height": 1067,
+          "mime_type": "image/jpeg",
+          "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 7424,
+    "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg",
+    "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg",
+        "file": "DCCFirst100Days_Twitter.jpg",
+        "width": 2133,
+        "height": 1067,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter.jpg"
+      },
+      {
+        "type": "2048x2048",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-2048x1024.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-2048x1024.jpg",
+        "file": "DCCFirst100Days_Twitter-2048x1024.jpg",
+        "width": 2048,
+        "height": 1024,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-2048x1024.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-1536x768.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1536x768.jpg",
+        "file": "DCCFirst100Days_Twitter-1536x768.jpg",
+        "width": 1536,
+        "height": 768,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1536x768.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--desktop",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-1280x640.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1280x640.jpg",
+        "file": "DCCFirst100Days_Twitter-1280x640.jpg",
+        "width": 1280,
+        "height": 640,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1280x640.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image-fullwidth",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-1080x675.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1080x675.jpg",
+        "file": "DCCFirst100Days_Twitter-1080x675.jpg",
+        "width": 1080,
+        "height": 675,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1080x675.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image-single",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-1080x540.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1080x540.jpg",
+        "file": "DCCFirst100Days_Twitter-1080x540.jpg",
+        "width": 1080,
+        "height": 540,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1080x540.jpg"
+      },
+      {
+        "type": "large",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-1024x512.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1024x512.jpg",
+        "file": "DCCFirst100Days_Twitter-1024x512.jpg",
+        "width": 1024,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-1024x512.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--tablet",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-980x490.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-980x490.jpg",
+        "file": "DCCFirst100Days_Twitter-980x490.jpg",
+        "width": 980,
+        "height": 490,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-980x490.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-768x384.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-768x384.jpg",
+        "file": "DCCFirst100Days_Twitter-768x384.jpg",
+        "width": 768,
+        "height": 384,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-768x384.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-576x288.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-576x288.jpg",
+        "file": "DCCFirst100Days_Twitter-576x288.jpg",
+        "width": 576,
+        "height": 288,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-576x288.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-510x382.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-510x382.jpg",
+        "file": "DCCFirst100Days_Twitter-510x382.jpg",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-510x382.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-480x240.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-480x240.jpg",
+        "file": "DCCFirst100Days_Twitter-480x240.jpg",
+        "width": 480,
+        "height": 240,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-480x240.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-400x250.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x250.jpg",
+        "file": "DCCFirst100Days_Twitter-400x250.jpg",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x250.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-400x284.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x284.jpg",
+        "file": "DCCFirst100Days_Twitter-400x284.jpg",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x284.jpg"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-400x516.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x516.jpg",
+        "file": "DCCFirst100Days_Twitter-400x516.jpg",
+        "width": 400,
+        "height": 516,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-400x516.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "sites/2/2021/10/DCCFirst100Days_Twitter-150x150.jpg",
+        "wordpress_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-150x150.jpg",
+        "file": "DCCFirst100Days_Twitter-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/DCCFirst100Days_Twitter-150x150.jpg"
+      }
+    ],
+    "path": "sites/2/2021/10/DCCFirst100Days_Twitter.jpg"
+  }
+}
