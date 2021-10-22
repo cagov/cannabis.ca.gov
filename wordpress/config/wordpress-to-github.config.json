@@ -9,15 +9,6 @@
     "PostPath": "pages/wordpress/posts",
     "PagePath": "pages/wordpress/pages",
     "MediaPath": "wordpress/media",
-    "ExcludeProperties": ["content", "_links"],
-    "github_targets": [
-      {
-        "disabled": false,
-        "PostPath": "pages/wordpress/posts",
-        "PagePath": "pages/wordpress/pages",
-        "MediaPath": "wordpress/media",
-        "ExcludeProperties": ["content", "_links"]
-      }
-    ]
+    "ExcludeProperties": ["content", "_links"]
   }
 }
