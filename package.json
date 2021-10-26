@@ -21,7 +21,6 @@
     "test:playwright": "npm-run-all test:server:background test",
     "test:playwright:headed": "npm-run-all test:server:background test:headed",
     "test:server": "npx web-dev-server --root-dir docs/",
-    "test:server:background": "npx web-dev-server --root-dir docs/ &",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
