@@ -85,3 +85,73 @@ Benefits:
 - Runs reliably
 - Helpful debugging tools
 - Supports 2 browser engines so we can test Chrome and Firefox
+
+## npm scripts
+
+The scripts in the package.json are arranged alphabetically. 
+
+They are mostly related to running a local version of the cannabis site.
+
+The command to start your own dev server which you would run right after ```npm install``` is:
+
+```
+npm run dev
+```
+
+This dev command will trigger CSS and JS bundling, watch processes for files and the 11ty build, then serve the site until the process is terminated.
+
+Many tasks the build server performs can be triggered individually if desired but that probably isn't necessary in normal development workflow:
+
+- Run the js and css builds followed by 11ty:
+```
+  "build": "npm-run-all -s js:bundle sass:build build:regen",
+```
+
+- Run the 11ty build, without too much console noise, do not start server:
+```
+  "build:regen": "npx @11ty/eleventy --quiet",
+```
+
+- Run the 11ty build and serve content until process is terminated:
+```
+  "start": "npx @11ty/eleventy --quiet --serve",
+```
+
+- Build, JS and CSS, watch for changes:
+```
+  "js:watch": "chokidar 'src/**/*.js' -c 'npm run js:bundle && npm run build:regen'",
+  "js:bundle": "rollup --config rollup.config.js",
+  "sass:compile": "node-sass --source-map true src/css/sass/ -o dist/",
+  "sass:build": "npm run sass:compile",
+  "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build && npm run build:regen'",
+```
+
+Several script commands are used to control our end to end testing tools
+
+- End to end tests with playwright:
+```
+  "test": "npx playwright test",
+  "test:headed": "npx playwright test --headed",
+  "test:setup": "npx playwright install-deps chromium && npx playwright install",
+```
+
+- End to end tests with Cypress:
+```
+  "test:cypress:tool": "npx cypress open",
+  "test:cypress": "npm-run-all test:server:background test:cypress:tool",
+```
+
+- Start a plain server that serves already generated HTML files form the directory 11ty builds to:
+```
+  "test:server": "npx web-dev-server --root-dir docs/",
+```
+
+There is one command that will be run only during deployment to an AWS environment by our github actions. This will create all the desired redirects in our bucket based on the file managed in and exported from WordPress:
+
+    "deploy:redirects": "node src/redirects/assign.js",
+
+There are a couple scripts in here which generate client side bundles of specific design system components that are currently called from inside WordPress Gutenberg blocks with script tags using version specific urls.
+
+    "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
+    "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
+    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all"
