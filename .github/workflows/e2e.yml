@@ -2,7 +2,7 @@ name: End to end tests playwright
 on:
   push:
     branches:
-      - main
+      - missing-step-build
     
 jobs:
   build_deploy:
@@ -18,6 +18,7 @@ jobs:
           mkdir dist
           npm install
           npm run build
+          npm run test:setup
 
       - name: Run test
         run: |
