@@ -2,7 +2,7 @@ name: End to end tests playwright
 on:
   push:
     branches:
-      - missing-step-build
+      - main
     
 jobs:
   build_deploy:
