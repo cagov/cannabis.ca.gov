@@ -9,7 +9,7 @@ import '@cagov/ds-content-navigation';
 import '@cagov/ds-pdf-icon/src/index.js';
 import '@cagov/ds-back-to-top/src/index.js';
 
-import '../components/post-list-headless/index.js';
+//import '../components/post-list-headless/index.js';
 import '../components/page-alert/index.js';
 
 import './headless/google-analytics.js';

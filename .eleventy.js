@@ -1,4 +1,6 @@
+const { renderPostLists } = require("./src/components/post-list-headless/render.js");
 const CleanCSS = require("clean-css");
+
 let pressList = require('./pages/_includes/layouts/templates/press-list.js');
 let lastFewPosts = require('./pages/_data/last-few-posts.js');
 let extractMeta = require('./src/build/extract-meta.js');
@@ -85,15 +87,14 @@ module.exports = function(eleventyConfig) {
     return pressPosts;
   });
 
-  eleventyConfig.addFilter("postlist", function(html) {
-    let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
-    let myArray = myRe.exec(html);
-    let lastPosts = lastFewPosts();
-    let postHTML = pressList(lastPosts, monthStrings);
-    if(myArray) {
-      return html.replace(myArray[0],postHTML);
+  eleventyConfig.addTransform("renderPostLists", function (html, outputPath) {
+    //outputPath === false means serverless templates
+    if (!outputPath || outputPath.endsWith(".html")) {
+      if (html.includes("cagov-post-list")) {
+        html = renderPostLists(html);
+      }
     }
-    return html;    
+    return html;
   });
 
   eleventyConfig.addFilter("dateFormat", function(dateString) {
