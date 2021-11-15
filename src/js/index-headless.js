@@ -11,7 +11,7 @@ import '@cagov/ds-external-link-icon/src/index.js';
 import '@cagov/ds-back-to-top/src/index.js';
 import '@cagov/ds-statewide-header/src/index.js';
 
-import '../components/post-list-headless/index.js';
+//import '../components/post-list-headless/index.js';
 import '../components/page-alert/index.js';
 
 import './headless/google-analytics.js';
