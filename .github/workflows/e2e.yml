@@ -18,7 +18,6 @@ jobs:
           mkdir dist
           npm install
           npm run build
-          npm run test:server:background
           npm run test:setup
 
       - name: Run test
