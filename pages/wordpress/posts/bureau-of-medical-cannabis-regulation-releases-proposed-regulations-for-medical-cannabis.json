@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -45,8 +45,80 @@
       "Regulations"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2017/04/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis/",
+      "page_title": "Bureau of Medical Cannabis Regulation Releases Proposed Regulations for Medical Cannabis",
+      "page_description": "The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed licensing regulations for medical cannabis have been posted and the 45-day public comment period is now underway.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Medical Cannabis Regulation Releases Proposed Regulations for Medical Cannabis",
+      "meta_description": "The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed licensing regulations for medical cannabis have been posted and the 45-day public comment period is now underway.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2017/04/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis/",
+      "open_graph_title": "Bureau of Medical Cannabis Regulation Releases Proposed Regulations for Medical Cannabis",
+      "open_graph_description": "The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed licensing regulations for medical cannabis have been posted and the 45-day public comment period is now underway.",
+      "twitter_title": "Bureau of Medical Cannabis Regulation Releases Proposed Regulations for Medical Cannabis",
+      "twitter_description": "The Bureau of Medical Cannabis Regulation (BMCR) today announced that its proposed licensing regulations for medical cannabis have been posted and the 45-day public comment period is now underway."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 455,
+        "name": "Medical cannabis",
+        "slug": "medical-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 455,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 564,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 564,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2017/04/bureau-of-medical-cannabis-regulation-releases-proposed-regulations-for-medical-cannabis/"
   }
 }

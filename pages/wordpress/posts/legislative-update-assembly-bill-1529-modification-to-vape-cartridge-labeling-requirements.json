@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -59,8 +59,234 @@
       "Vaping products"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2019/10/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/",
+      "page_title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
+      "page_description": "Assembly Bill (AB) 1529 was recently signed into law and modifies the labeling requirements for cannabis vaping products.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
+      "meta_description": "Assembly Bill (AB) 1529 was recently signed into law and modifies the labeling requirements for cannabis vaping products.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2019/10/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/",
+      "open_graph_title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
+      "open_graph_description": "Assembly Bill (AB) 1529 was recently signed into law and modifies the labeling requirements for cannabis vaping products.",
+      "twitter_title": "Legislative Update: Assembly Bill 1529 &#8211; Modification to Vape Cartridge Labeling Requirements",
+      "twitter_description": "Assembly Bill (AB) 1529 was recently signed into law and modifies the labeling requirements for cannabis vaping products."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 26,
+        "name": "AB 1529",
+        "slug": "ab-1529",
+        "term_group": 0,
+        "term_taxonomy_id": 26,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 160,
+        "name": "Cannabis products",
+        "slug": "cannabis-products",
+        "term_group": 0,
+        "term_taxonomy_id": 160,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 170,
+        "name": "Cannabis vaping products",
+        "slug": "cannabis-vaping-products",
+        "term_group": 0,
+        "term_taxonomy_id": 170,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 184,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 184,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 361,
+        "name": "Illegal market",
+        "slug": "illegal-market",
+        "term_group": 0,
+        "term_taxonomy_id": 361,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 393,
+        "name": "Labeling",
+        "slug": "labeling",
+        "term_group": 0,
+        "term_taxonomy_id": 393,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 404,
+        "name": "Legal market",
+        "slug": "legal-market",
+        "term_group": 0,
+        "term_taxonomy_id": 404,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 439,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 439,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 499,
+        "name": "Packaging",
+        "slug": "packaging",
+        "term_group": 0,
+        "term_taxonomy_id": 499,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 500,
+        "name": "Packaging and labeling",
+        "slug": "packaging-and-labeling",
+        "term_group": 0,
+        "term_taxonomy_id": 500,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 565,
+        "name": "Regulatory",
+        "slug": "regulatory",
+        "term_group": 0,
+        "term_taxonomy_id": 565,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 708,
+        "name": "universal symbol",
+        "slug": "universal-symbol",
+        "term_group": 0,
+        "term_taxonomy_id": 708,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 711,
+        "name": "Unlicensed",
+        "slug": "unlicensed",
+        "term_group": 0,
+        "term_taxonomy_id": 711,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 716,
+        "name": "Vape",
+        "slug": "vape",
+        "term_group": 0,
+        "term_taxonomy_id": 716,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 723,
+        "name": "Vaping products",
+        "slug": "vaping-products",
+        "term_group": 0,
+        "term_taxonomy_id": 723,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2019/10/legislative-update-assembly-bill-1529-modification-to-vape-cartridge-labeling-requirements/"
   }
 }

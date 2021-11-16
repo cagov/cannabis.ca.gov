@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -54,8 +54,179 @@
       "Youth"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2019/10/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/",
+      "page_title": "Cannabis Advisory Committee to Hold Upcoming October Meetings in Burlingame",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold two subcommittee meetings on Tuesday, October 22 and a full committee meeting on Wednesday, October 23 at the Hyatt Regency San Francisco Airport in Burlingame.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Cannabis Advisory Committee to Hold Upcoming October Meetings in Burlingame",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold two subcommittee meetings on Tuesday, October 22 and a full committee meeting on Wednesday, October 23 at the Hyatt Regency San Francisco Airport in Burlingame.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2019/10/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/",
+      "open_graph_title": "Cannabis Advisory Committee to Hold Upcoming October Meetings in Burlingame",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold two subcommittee meetings on Tuesday, October 22 and a full committee meeting on Wednesday, October 23 at the Hyatt Regency San Francisco Airport in Burlingame.",
+      "twitter_title": "Cannabis Advisory Committee to Hold Upcoming October Meetings in Burlingame",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold two subcommittee meetings on Tuesday, October 22 and a full committee meeting on Wednesday, October 23 at the Hyatt Regency San Francisco Airport in Burlingame."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 91,
+        "name": "Burlingame",
+        "slug": "burlingame",
+        "term_group": 0,
+        "term_taxonomy_id": 91,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 124,
+        "name": "Cannabis advisory committee",
+        "slug": "cannabis-advisory-committee",
+        "term_group": 0,
+        "term_taxonomy_id": 124,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 204,
+        "name": "Committee meeting",
+        "slug": "committee-meeting",
+        "term_group": 0,
+        "term_taxonomy_id": 204,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 232,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 232,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 485,
+        "name": "October meetings",
+        "slug": "october-meetings",
+        "term_group": 0,
+        "term_taxonomy_id": 485,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 540,
+        "name": "Public health",
+        "slug": "public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 540,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 564,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 564,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 603,
+        "name": "San Francisco",
+        "slug": "san-francisco",
+        "term_group": 0,
+        "term_taxonomy_id": 603,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 657,
+        "name": "Subcommittee",
+        "slug": "subcommittee",
+        "term_group": 0,
+        "term_taxonomy_id": 657,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 748,
+        "name": "Youth",
+        "slug": "youth",
+        "term_group": 0,
+        "term_taxonomy_id": 748,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2019/10/cannabis-advisory-committee-to-hold-upcoming-october-meetings-in-burlingame/"
   }
 }

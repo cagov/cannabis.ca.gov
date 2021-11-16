@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -52,8 +52,157 @@
       "Written comments regulatory process"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2018/08/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles/",
+      "page_title": "Bureau of Cannabis Control to Hold Public Hearing on Proposed Cannabis Regulations in Los Angeles",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the second of three public hearings for our proposed non-emergency cannabis regulations will be held on Tuesday, August 14 in Los Angeles.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control to Hold Public Hearing on Proposed Cannabis Regulations in Los Angeles",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the second of three public hearings for our proposed non-emergency cannabis regulations will be held on Tuesday, August 14 in Los Angeles.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2018/08/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles/",
+      "open_graph_title": "Bureau of Cannabis Control to Hold Public Hearing on Proposed Cannabis Regulations in Los Angeles",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the second of three public hearings for our proposed non-emergency cannabis regulations will be held on Tuesday, August 14 in Los Angeles.",
+      "twitter_title": "Bureau of Cannabis Control to Hold Public Hearing on Proposed Cannabis Regulations in Los Angeles",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the second of three public hearings for our proposed non-emergency cannabis regulations will be held on Tuesday, August 14 in Los Angeles."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 76,
+        "name": "August",
+        "slug": "august",
+        "term_group": 0,
+        "term_taxonomy_id": 76,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 435,
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "term_group": 0,
+        "term_taxonomy_id": 435,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 496,
+        "name": "Oral comments",
+        "slug": "oral-comments",
+        "term_group": 0,
+        "term_taxonomy_id": 496,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 526,
+        "name": "Proposed cannabis regulations",
+        "slug": "proposed-cannabis-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 526,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 538,
+        "name": "Public comment",
+        "slug": "public-comment",
+        "term_group": 0,
+        "term_taxonomy_id": 538,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 541,
+        "name": "Public hearing",
+        "slug": "public-hearing",
+        "term_group": 0,
+        "term_taxonomy_id": 541,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 746,
+        "name": "Written comments regulatory process",
+        "slug": "written-comments-regulatory-process",
+        "term_group": 0,
+        "term_taxonomy_id": 746,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2018/08/bureau-of-cannabis-control-to-hold-public-hearing-on-proposed-cannabis-regulations-in-los-angeles/"
   }
 }

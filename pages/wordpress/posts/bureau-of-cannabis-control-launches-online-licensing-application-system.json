@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -51,8 +51,146 @@
       "Testing labs"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2017/12/bureau-of-cannabis-control-launches-online-licensing-application-system/",
+      "page_title": "Bureau of Cannabis Control Launches Online Licensing Application System",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Launches Online Licensing Application System",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2017/12/bureau-of-cannabis-control-launches-online-licensing-application-system/",
+      "open_graph_title": "Bureau of Cannabis Control Launches Online Licensing Application System",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events.",
+      "twitter_title": "Bureau of Cannabis Control Launches Online Licensing Application System",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today officially launched its online licensing system and is now accepting applications for commercial cannabis licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis events."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 60,
+        "name": "Application",
+        "slug": "application",
+        "term_group": 0,
+        "term_taxonomy_id": 60,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 416,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 416,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 462,
+        "name": "Microbusiness",
+        "slug": "microbusiness",
+        "term_group": 0,
+        "term_taxonomy_id": 462,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 488,
+        "name": "Online",
+        "slug": "online",
+        "term_group": 0,
+        "term_taxonomy_id": 488,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 664,
+        "name": "System",
+        "slug": "system",
+        "term_group": 0,
+        "term_taxonomy_id": 664,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 685,
+        "name": "Testing labs",
+        "slug": "testing-labs",
+        "term_group": 0,
+        "term_taxonomy_id": 685,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2017/12/bureau-of-cannabis-control-launches-online-licensing-application-system/"
   }
 }

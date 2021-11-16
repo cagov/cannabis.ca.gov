@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -57,8 +57,212 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2018/01/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
+      "page_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
+      "page_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
+      "meta_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2018/01/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
+      "open_graph_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
+      "open_graph_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.",
+      "twitter_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
+      "twitter_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 96,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 96,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 112,
+        "name": "California Department of Food and Agriculture",
+        "slug": "california-department-of-food-and-agriculture",
+        "term_group": 0,
+        "term_taxonomy_id": 112,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 114,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 114,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 358,
+        "name": "Humboldt",
+        "slug": "humboldt",
+        "term_group": 0,
+        "term_taxonomy_id": 358,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 389,
+        "name": "Kern",
+        "slug": "kern",
+        "term_group": 0,
+        "term_taxonomy_id": 389,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 435,
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "term_group": 0,
+        "term_taxonomy_id": 435,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 590,
+        "name": "Riverside",
+        "slug": "riverside",
+        "term_group": 0,
+        "term_taxonomy_id": 590,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 593,
+        "name": "Sacramento",
+        "slug": "sacramento",
+        "term_group": 0,
+        "term_taxonomy_id": 593,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 602,
+        "name": "San Diego",
+        "slug": "san-diego",
+        "term_group": 0,
+        "term_taxonomy_id": 602,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 603,
+        "name": "San Francisco",
+        "slug": "san-francisco",
+        "term_group": 0,
+        "term_taxonomy_id": 603,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 692,
+        "name": "Track-and-trace",
+        "slug": "track-and-trace",
+        "term_group": 0,
+        "term_taxonomy_id": 692,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 744,
+        "name": "Workshop",
+        "slug": "workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 744,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2018/01/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/"
   }
 }

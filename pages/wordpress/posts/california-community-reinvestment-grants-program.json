@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -53,8 +53,168 @@
       "Reinvestment"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2018/09/california-community-reinvestment-grants-program/",
+      "page_title": "California Community Reinvestment Grants Program",
+      "page_description": "The California Community Reinvestment Grants program was included in The Adult Use of Marijuana Act (Proposition 64), which was approved by California voters on November 8, 2016.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California Community Reinvestment Grants Program",
+      "meta_description": "The California Community Reinvestment Grants program was included in The Adult Use of Marijuana Act (Proposition 64), which was approved by California voters on November 8, 2016.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2018/09/california-community-reinvestment-grants-program/",
+      "open_graph_title": "California Community Reinvestment Grants Program",
+      "open_graph_description": "The California Community Reinvestment Grants program was included in The Adult Use of Marijuana Act (Proposition 64), which was approved by California voters on November 8, 2016.",
+      "twitter_title": "California Community Reinvestment Grants Program",
+      "twitter_description": "The California Community Reinvestment Grants program was included in The Adult Use of Marijuana Act (Proposition 64), which was approved by California voters on November 8, 2016."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 35,
+        "name": "Adult-use",
+        "slug": "adult-use",
+        "term_group": 0,
+        "term_taxonomy_id": 35,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 92,
+        "name": "Business",
+        "slug": "business",
+        "term_group": 0,
+        "term_taxonomy_id": 92,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 328,
+        "name": "Funding",
+        "slug": "funding",
+        "term_group": 0,
+        "term_taxonomy_id": 328,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 336,
+        "name": "Governor's office",
+        "slug": "governors-office",
+        "term_group": 0,
+        "term_taxonomy_id": 336,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 344,
+        "name": "Grants",
+        "slug": "grants",
+        "term_group": 0,
+        "term_taxonomy_id": 344,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 365,
+        "name": "Implementation",
+        "slug": "implementation",
+        "term_group": 0,
+        "term_taxonomy_id": 365,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 520,
+        "name": "Program",
+        "slug": "program",
+        "term_group": 0,
+        "term_taxonomy_id": 520,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 523,
+        "name": "Prop 64",
+        "slug": "prop-64",
+        "term_group": 0,
+        "term_taxonomy_id": 523,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 566,
+        "name": "Reinvestment",
+        "slug": "reinvestment",
+        "term_group": 0,
+        "term_taxonomy_id": 566,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2018/09/california-community-reinvestment-grants-program/"
   }
 }

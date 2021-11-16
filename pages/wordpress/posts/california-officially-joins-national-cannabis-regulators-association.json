@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -49,8 +49,124 @@
       "National Cannabis Regulations Association"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2021/02/california-officially-joins-national-cannabis-regulators-association/",
+      "page_title": "California Officially Joins National Cannabis Regulators Association",
+      "page_description": "The Bureau of Cannabis Control announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or are weighing the legalization of cannabis.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California Officially Joins National Cannabis Regulators Association",
+      "meta_description": "The Bureau of Cannabis Control announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or are weighing the legalization of cannabis.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2021/02/california-officially-joins-national-cannabis-regulators-association/",
+      "open_graph_title": "California Officially Joins National Cannabis Regulators Association",
+      "open_graph_description": "The Bureau of Cannabis Control announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or are weighing the legalization of cannabis.",
+      "twitter_title": "California Officially Joins National Cannabis Regulators Association",
+      "twitter_description": "The Bureau of Cannabis Control announced today that California has officially become the newest member of the Cannabis Regulators Association (CANNRA), a non-partisan organization created to facilitate information sharing amongst state regulators, develop more uniformity across state frameworks where practicable, and to assist federal, state, and local jurisdictions that have approved or are weighing the legalization of cannabis."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 79,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 104,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 104,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 105,
+        "name": "California cannabis",
+        "slug": "california-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 105,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 173,
+        "name": "CANNRA",
+        "slug": "cannra",
+        "term_group": 0,
+        "term_taxonomy_id": 173,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 467,
+        "name": "National Cannabis Regulations Association",
+        "slug": "national-cannabis-regulations-association",
+        "term_group": 0,
+        "term_taxonomy_id": 467,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2021/02/california-officially-joins-national-cannabis-regulators-association/"
   }
 }

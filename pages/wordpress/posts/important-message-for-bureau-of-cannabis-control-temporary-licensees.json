@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -56,8 +56,201 @@
       "Testing laboratories"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2018/04/important-message-for-bureau-of-cannabis-control-temporary-licensees/",
+      "page_title": "Important Message for Bureau of Cannabis Control Temporary Licensees",
+      "page_description": "Temporary License Extensions:\nTemporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Important Message for Bureau of Cannabis Control Temporary Licensees",
+      "meta_description": "Temporary License Extensions:\nTemporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2018/04/important-message-for-bureau-of-cannabis-control-temporary-licensees/",
+      "open_graph_title": "Important Message for Bureau of Cannabis Control Temporary Licensees",
+      "open_graph_description": "Temporary License Extensions:\nTemporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018.",
+      "twitter_title": "Important Message for Bureau of Cannabis Control Temporary Licensees",
+      "twitter_description": "Temporary License Extensions:\nTemporary licenses for retailers, distributors, microbusinesses, testing laboratories and cannabis event organizers that were issued with an effective date of January 1, 2018 will expire on April 30, 2018."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 47,
+        "name": "Annual",
+        "slug": "annual",
+        "term_group": 0,
+        "term_taxonomy_id": 47,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 48,
+        "name": "Annual application",
+        "slug": "annual-application",
+        "term_group": 0,
+        "term_taxonomy_id": 48,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 53,
+        "name": "Annual licensing",
+        "slug": "annual-licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 53,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 141,
+        "name": "Cannabis event organizers",
+        "slug": "cannabis-event-organizers",
+        "term_group": 0,
+        "term_taxonomy_id": 141,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 260,
+        "name": "Distributors",
+        "slug": "distributors",
+        "term_group": 0,
+        "term_taxonomy_id": 260,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 302,
+        "name": "Extension",
+        "slug": "extension",
+        "term_group": 0,
+        "term_taxonomy_id": 302,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 422,
+        "name": "Live scan",
+        "slug": "live-scan",
+        "term_group": 0,
+        "term_taxonomy_id": 422,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 463,
+        "name": "Microbusinesses",
+        "slug": "microbusinesses",
+        "term_group": 0,
+        "term_taxonomy_id": 463,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 583,
+        "name": "Retailers",
+        "slug": "retailers",
+        "term_group": 0,
+        "term_taxonomy_id": 583,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 678,
+        "name": "Temporary license",
+        "slug": "temporary-license",
+        "term_group": 0,
+        "term_taxonomy_id": 678,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 683,
+        "name": "Testing laboratories",
+        "slug": "testing-laboratories",
+        "term_group": 0,
+        "term_taxonomy_id": 683,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2018/04/important-message-for-bureau-of-cannabis-control-temporary-licensees/"
   }
 }

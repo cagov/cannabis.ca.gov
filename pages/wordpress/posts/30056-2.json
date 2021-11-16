@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -54,8 +54,179 @@
       "Testing labs"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2018/12/30056-2/",
+      "page_title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
+      "page_description": "The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
+      "meta_description": "The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2018/12/30056-2/",
+      "open_graph_title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
+      "open_graph_description": "The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations.",
+      "twitter_title": "Bureau of Cannabis Control &#8211; Testing Requirements for Cannabis Goods Reminder",
+      "twitter_description": "The Bureau has been receiving questions about which cannabis goods are subject to the phase three testing requirements contained in section 5715 of the Bureau’s regulations."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 104,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 104,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 144,
+        "name": "Cannabis goods",
+        "slug": "cannabis-goods",
+        "term_group": 0,
+        "term_taxonomy_id": 144,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 169,
+        "name": "Cannabis testing",
+        "slug": "cannabis-testing",
+        "term_group": 0,
+        "term_taxonomy_id": 169,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 507,
+        "name": "Phase 1",
+        "slug": "phase-1",
+        "term_group": 0,
+        "term_taxonomy_id": 507,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 508,
+        "name": "Phase 2",
+        "slug": "phase-2",
+        "term_group": 0,
+        "term_taxonomy_id": 508,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 509,
+        "name": "Phase 3",
+        "slug": "phase-3",
+        "term_group": 0,
+        "term_taxonomy_id": 509,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 575,
+        "name": "Required testing",
+        "slug": "required-testing",
+        "term_group": 0,
+        "term_taxonomy_id": 575,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 682,
+        "name": "Testing",
+        "slug": "testing",
+        "term_group": 0,
+        "term_taxonomy_id": 682,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 685,
+        "name": "Testing labs",
+        "slug": "testing-labs",
+        "term_group": 0,
+        "term_taxonomy_id": 685,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2018/12/30056-2/"
   }
 }

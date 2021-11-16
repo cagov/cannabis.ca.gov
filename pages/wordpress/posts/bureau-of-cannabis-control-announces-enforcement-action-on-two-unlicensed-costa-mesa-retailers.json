@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -56,8 +56,201 @@
       "Unlicensed"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2019/06/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers/",
+      "page_title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
+      "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
+      "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2019/06/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
+      "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California.",
+      "twitter_title": "Bureau of Cannabis Control Announces Enforcement Action on Two Unlicensed Costa Mesa Retailers",
+      "twitter_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis retailers operating out of Southern California."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 79,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 163,
+        "name": "Cannabis retailer",
+        "slug": "cannabis-retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 163,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 174,
+        "name": "capotcheck.com",
+        "slug": "capotcheck-com",
+        "term_group": 0,
+        "term_taxonomy_id": 174,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 224,
+        "name": "Costa Mesa",
+        "slug": "costa-mesa",
+        "term_group": 0,
+        "term_taxonomy_id": 224,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 285,
+        "name": "Enforcement",
+        "slug": "enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 285,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 286,
+        "name": "Enforcement action",
+        "slug": "enforcement-action",
+        "term_group": 0,
+        "term_taxonomy_id": 286,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 312,
+        "name": "Fet licensed",
+        "slug": "fet-licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 312,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 362,
+        "name": "Illegal unlicensed cannabis activity",
+        "slug": "illegal-unlicensed-cannabis-activity",
+        "term_group": 0,
+        "term_taxonomy_id": 362,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 411,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 411,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 582,
+        "name": "Retailer",
+        "slug": "retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 582,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 711,
+        "name": "Unlicensed",
+        "slug": "unlicensed",
+        "term_group": 0,
+        "term_taxonomy_id": 711,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2019/06/bureau-of-cannabis-control-announces-enforcement-action-on-two-unlicensed-costa-mesa-retailers/"
   }
 }

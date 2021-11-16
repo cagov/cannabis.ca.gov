@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Content Types",
@@ -51,8 +51,151 @@
       "Water board"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2019/06/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/",
+      "page_title": "Water Quality and Water Rights Fees Stakeholder Meetings on June 11, 2019",
+      "page_description": "Interested Parties:\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/).",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Water Quality and Water Rights Fees Stakeholder Meetings on June 11, 2019",
+      "meta_description": "Interested Parties:\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/).",
+      "meta_canonical_url": "https://cannabis.ca.gov/2019/06/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/",
+      "open_graph_title": "Water Quality and Water Rights Fees Stakeholder Meetings on June 11, 2019",
+      "open_graph_description": "Interested Parties:\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/).",
+      "twitter_title": "Water Quality and Water Rights Fees Stakeholder Meetings on June 11, 2019",
+      "twitter_description": "Interested Parties:\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/)."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Content Types",
+        "slug": "content-types",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Content Types",
+        "category_nicename": "content-types",
+        "category_parent": 0
+      },
+      {
+        "term_id": 15,
+        "name": "Event Materials",
+        "slug": "event-materials",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 15,
+        "category_description": "",
+        "cat_name": "Event Materials",
+        "category_nicename": "event-materials",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 232,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 232,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 311,
+        "name": "Fees",
+        "slug": "fees",
+        "term_group": 0,
+        "term_taxonomy_id": 311,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 458,
+        "name": "Meeting",
+        "slug": "meeting",
+        "term_group": 0,
+        "term_taxonomy_id": 458,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 636,
+        "name": "Stakeholder",
+        "slug": "stakeholder",
+        "term_group": 0,
+        "term_taxonomy_id": 636,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 648,
+        "name": "State Water Board",
+        "slug": "state-water-board",
+        "term_group": 0,
+        "term_taxonomy_id": 648,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 730,
+        "name": "Water board",
+        "slug": "water-board",
+        "term_group": 0,
+        "term_taxonomy_id": 730,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2019/06/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/"
   }
 }

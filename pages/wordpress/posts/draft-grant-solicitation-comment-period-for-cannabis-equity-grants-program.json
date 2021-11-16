@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Announcements"
@@ -54,8 +54,179 @@
       "Public comment"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2019/12/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
+      "page_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
+      "page_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
+      "meta_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2019/12/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
+      "open_graph_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
+      "open_graph_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.",
+      "twitter_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
+      "twitter_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control."
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 79,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 104,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 104,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 290,
+        "name": "Equity",
+        "slug": "equity",
+        "term_group": 0,
+        "term_taxonomy_id": 290,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 310,
+        "name": "Feedback",
+        "slug": "feedback",
+        "term_group": 0,
+        "term_taxonomy_id": 310,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 333,
+        "name": "GO-BIZ",
+        "slug": "go-biz",
+        "term_group": 0,
+        "term_taxonomy_id": 333,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 336,
+        "name": "Governor's office",
+        "slug": "governors-office",
+        "term_group": 0,
+        "term_taxonomy_id": 336,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 344,
+        "name": "Grants",
+        "slug": "grants",
+        "term_group": 0,
+        "term_taxonomy_id": 344,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 431,
+        "name": "Local jurisdictions",
+        "slug": "local-jurisdictions",
+        "term_group": 0,
+        "term_taxonomy_id": 431,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 538,
+        "name": "Public comment",
+        "slug": "public-comment",
+        "term_group": 0,
+        "term_taxonomy_id": 538,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2019/12/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/"
   }
 }

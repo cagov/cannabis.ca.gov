@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -56,8 +56,201 @@
       "Update"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
+      "page_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
+      "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
+      "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
+      "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.",
+      "twitter_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
+      "twitter_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 139,
+        "name": "Cannabis enforcement",
+        "slug": "cannabis-enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 139,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 140,
+        "name": "Cannabis enforcement unit",
+        "slug": "cannabis-enforcement-unit",
+        "term_group": 0,
+        "term_taxonomy_id": 140,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 250,
+        "name": "Department of Consumer Affairs",
+        "slug": "department-of-consumer-affairs",
+        "term_group": 0,
+        "term_taxonomy_id": 250,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 262,
+        "name": "Division of investigations",
+        "slug": "division-of-investigations",
+        "term_group": 0,
+        "term_taxonomy_id": 262,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 285,
+        "name": "Enforcement",
+        "slug": "enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 285,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 288,
+        "name": "Enforcement update",
+        "slug": "enforcement-update",
+        "term_group": 0,
+        "term_taxonomy_id": 288,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 362,
+        "name": "Illegal unlicensed cannabis activity",
+        "slug": "illegal-unlicensed-cannabis-activity",
+        "term_group": 0,
+        "term_taxonomy_id": 362,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 411,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 411,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 573,
+        "name": "Report unlicensed cannabis activity",
+        "slug": "report-unlicensed-cannabis-activity",
+        "term_group": 0,
+        "term_taxonomy_id": 573,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 711,
+        "name": "Unlicensed",
+        "slug": "unlicensed",
+        "term_group": 0,
+        "term_taxonomy_id": 711,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 715,
+        "name": "Update",
+        "slug": "update",
+        "term_group": 0,
+        "term_taxonomy_id": 715,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/"
   }
 }

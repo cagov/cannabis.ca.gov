@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -49,8 +49,124 @@
       "Search"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
+      "page_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).",
+      "meta_canonical_url": "https://cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
+      "open_graph_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).",
+      "twitter_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API)."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 56,
+        "name": "API",
+        "slug": "api",
+        "term_group": 0,
+        "term_taxonomy_id": 56,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 104,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 104,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 250,
+        "name": "Department of Consumer Affairs",
+        "slug": "department-of-consumer-affairs",
+        "term_group": 0,
+        "term_taxonomy_id": 250,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 410,
+        "name": "License search",
+        "slug": "license-search",
+        "term_group": 0,
+        "term_taxonomy_id": 410,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 609,
+        "name": "Search",
+        "slug": "search",
+        "term_group": 0,
+        "term_taxonomy_id": 609,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/"
   }
 }

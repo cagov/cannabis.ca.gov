@@ -33,9 +33,9 @@
     "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
     },
     "categories": [
       "Press Releases"
@@ -54,8 +54,179 @@
       "Ricardo V. DeLaCruz"
     ],
     "design_system_fields": {
-      "display_title": false
+      "template": "post"
     },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/2017/08/27192-2/",
+      "page_title": "Governor Brown Announces Appointments",
+      "page_description": "SACRAMENTO – Governor Edmund G.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Governor Brown Announces Appointments",
+      "meta_description": "SACRAMENTO – Governor Edmund G.",
+      "meta_canonical_url": "https://cannabis.ca.gov/2017/08/27192-2/",
+      "open_graph_title": "Governor Brown Announces Appointments",
+      "open_graph_description": "SACRAMENTO – Governor Edmund G.",
+      "twitter_title": "Governor Brown Announces Appointments",
+      "twitter_description": "SACRAMENTO – Governor Edmund G."
+    },
+    "headless_categories": [
+      {
+        "term_id": 16,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 16,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 43,
+        "name": "Andre Jones",
+        "slug": "andre-jones",
+        "term_group": 0,
+        "term_taxonomy_id": 43,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 65,
+        "name": "Appointment",
+        "slug": "appointment",
+        "term_group": 0,
+        "term_taxonomy_id": 65,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 75,
+        "name": "Assistant",
+        "slug": "assistant",
+        "term_group": 0,
+        "term_taxonomy_id": 75,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 190,
+        "name": "Chief",
+        "slug": "chief",
+        "term_group": 0,
+        "term_taxonomy_id": 190,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 255,
+        "name": "Deputy",
+        "slug": "deputy",
+        "term_group": 0,
+        "term_taxonomy_id": 255,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 334,
+        "name": "Governor",
+        "slug": "governor",
+        "term_group": 0,
+        "term_taxonomy_id": 334,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 384,
+        "name": "Jerry Brown",
+        "slug": "jerry-brown",
+        "term_group": 0,
+        "term_taxonomy_id": 384,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 460,
+        "name": "Melanie V. Ramil",
+        "slug": "melanie-v-ramil",
+        "term_group": 0,
+        "term_taxonomy_id": 460,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 589,
+        "name": "Ricardo V. DeLaCruz",
+        "slug": "ricardo-v-delacruz",
+        "term_group": 0,
+        "term_taxonomy_id": 589,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
     "wordpress_url": "https://cannabis.ca.gov/2017/08/27192-2/"
   }
 }
