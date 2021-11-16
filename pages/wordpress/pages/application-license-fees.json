@@ -37,6 +37,39 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/applicants/application-license-fees/",
+      "page_title": "Application and license fees",
+      "page_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Application and license fees",
+      "meta_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.",
+      "meta_canonical_url": "https://cannabis.ca.gov/applicants/application-license-fees/",
+      "open_graph_title": "Application and license fees",
+      "open_graph_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.",
+      "twitter_title": "Application and license fees",
+      "twitter_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://cannabis.ca.gov/applicants/application-license-fees/"
   }
 }

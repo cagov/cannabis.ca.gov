@@ -37,6 +37,39 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/consumers/talking-young-people-about-cannabis/",
+      "page_title": "Talking to young people about cannabis",
+      "page_description": "Get tips for cannabis conversations, including details on how cannabis affects young people.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Talking to young people about cannabis",
+      "meta_description": "Get tips for cannabis conversations, including details on how cannabis affects young people.",
+      "meta_canonical_url": "https://cannabis.ca.gov/consumers/talking-young-people-about-cannabis/",
+      "open_graph_title": "Talking to young people about cannabis",
+      "open_graph_description": "Get tips for cannabis conversations, including details on how cannabis affects young people.",
+      "twitter_title": "Talking to young people about cannabis",
+      "twitter_description": "Get tips for cannabis conversations, including details on how cannabis affects young people."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://cannabis.ca.gov/consumers/talking-young-people-about-cannabis/"
   }
 }

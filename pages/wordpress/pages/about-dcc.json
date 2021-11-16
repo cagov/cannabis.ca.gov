@@ -37,6 +37,39 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/about-us/about-dcc/",
+      "page_title": "About the Department of Cannabis Control",
+      "page_description": "The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "About the Department of Cannabis Control",
+      "meta_description": "The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses.",
+      "meta_canonical_url": "https://cannabis.ca.gov/about-us/about-dcc/",
+      "open_graph_title": "About the Department of Cannabis Control",
+      "open_graph_description": "The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses.",
+      "twitter_title": "About the Department of Cannabis Control",
+      "twitter_description": "The Department of Cannabis Control (DCC) is the California state agency that licenses and regulates cannabis businesses."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://cannabis.ca.gov/about-us/about-dcc/"
   }
 }

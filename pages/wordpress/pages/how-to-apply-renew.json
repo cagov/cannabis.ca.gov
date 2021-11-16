@@ -37,6 +37,39 @@
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/applicants/how-to-apply-renew/",
+      "page_title": "How to apply for or renew a license",
+      "page_description": "Learn the steps needed to apply for or renew a cannabis license.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "How to apply for or renew a license",
+      "meta_description": "Learn the steps needed to apply for or renew a cannabis license.",
+      "meta_canonical_url": "https://cannabis.ca.gov/applicants/how-to-apply-renew/",
+      "open_graph_title": "How to apply for or renew a license",
+      "open_graph_description": "Learn the steps needed to apply for or renew a cannabis license.",
+      "twitter_title": "How to apply for or renew a license",
+      "twitter_description": "Learn the steps needed to apply for or renew a cannabis license."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://cannabis.ca.gov/applicants/how-to-apply-renew/"
   }
 }
