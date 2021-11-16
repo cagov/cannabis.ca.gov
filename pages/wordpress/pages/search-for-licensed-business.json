@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-11-16T02:11:08",
+    "updated_date": "2021-11-16T02:13:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/resources/search-for-licensed-business/",
-    "modified": "2021-11-15T18:11:08",
-    "modified_gmt": "2021-11-16T02:11:08",
+    "modified": "2021-11-15T18:13:55",
+    "modified_gmt": "2021-11-16T02:13:55",
     "slug": "search-for-licensed-business",
     "status": "publish",
     "type": "page",
