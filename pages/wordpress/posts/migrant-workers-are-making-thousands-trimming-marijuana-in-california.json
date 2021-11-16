@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T22:29:00",
-    "updated_date": "2021-11-16T01:15:18",
+    "updated_date": "2021-11-16T02:09:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2017-04-20T22:29:00",
     "date_gmt": "2017-04-20T22:29:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/migrant-workers-are-making-thousands-trimming-marijuana-in-california/",
-    "modified": "2021-11-15T17:15:18",
-    "modified_gmt": "2021-11-16T01:15:18",
+    "modified": "2021-11-15T18:09:00",
+    "modified_gmt": "2021-11-16T02:09:00",
     "slug": "migrant-workers-are-making-thousands-trimming-marijuana-in-california",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "custom_post_link": "",
@@ -42,7 +42,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {

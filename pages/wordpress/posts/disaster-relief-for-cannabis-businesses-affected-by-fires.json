@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-03T20:34:31",
-    "updated_date": "2021-11-16T01:12:53",
+    "updated_date": "2021-11-16T02:08:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-03T13:34:31",
     "date_gmt": "2021-09-03T20:34:31",
     "guid": "https://cannabis.ca.gov/?p=8713",
-    "modified": "2021-11-15T17:12:53",
-    "modified_gmt": "2021-11-16T01:12:53",
+    "modified": "2021-11-15T18:08:39",
+    "modified_gmt": "2021-11-16T02:08:39",
     "slug": "disaster-relief-for-cannabis-businesses-affected-by-fires",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "custom_post_link": "",
@@ -48,7 +48,7 @@
       "wildfire"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {

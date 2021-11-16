@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-12-26T21:22:00",
-    "updated_date": "2021-11-16T01:14:26",
+    "updated_date": "2021-11-16T02:08:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2018-12-26T21:22:00",
     "date_gmt": "2018-12-26T21:22:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
-    "modified": "2021-11-15T17:14:26",
-    "modified_gmt": "2021-11-16T01:14:26",
+    "modified": "2021-11-15T18:08:47",
+    "modified_gmt": "2021-11-16T02:08:47",
     "slug": "results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "custom_post_link": "",
@@ -52,7 +52,7 @@
       "Treasurer's office"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
