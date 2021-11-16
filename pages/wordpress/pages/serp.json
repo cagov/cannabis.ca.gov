@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-20T19:13:54",
-    "updated_date": "2021-11-16T02:14:06",
+    "updated_date": "2021-11-16T02:19:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-20T12:13:54",
     "date_gmt": "2021-06-20T19:13:54",
     "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8111",
-    "modified": "2021-11-15T18:14:06",
-    "modified_gmt": "2021-11-16T02:14:06",
+    "modified": "2021-11-15T18:19:14",
+    "modified_gmt": "2021-11-16T02:19:14",
     "slug": "serp",
     "status": "publish",
     "type": "page",
@@ -31,14 +31,14 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-page-single-column.php",
+    "template": "page-templates/searchpage.php",
     "meta": {
       "_et_pb_use_builder": "on",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "searchpage"
     },
     "og_meta": {
       "editor": {
