@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-06-30T20:05:30",
+    "updated_date": "2021-11-16T01:14:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "http://wordpress.test:8888/access-license-portals/",
-    "modified": "2021-06-30T13:05:30",
-    "modified_gmt": "2021-06-30T20:05:30",
+    "modified": "2021-11-15T17:14:09",
+    "modified_gmt": "2021-11-16T01:14:09",
     "slug": "access-license-portals",
     "status": "publish",
     "type": "page",
@@ -31,7 +31,7 @@
     "menu_order": 6,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
