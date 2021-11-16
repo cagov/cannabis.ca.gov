@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-07-25T21:23:00",
-    "updated_date": "2021-07-01T17:52:30",
+    "updated_date": "2021-11-16T01:14:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2018-07-25T21:23:00",
     "date_gmt": "2018-07-25T21:23:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/industry-advisory-cannabis-and-alcoholic-beverages/",
-    "modified": "2021-07-01T10:52:30",
-    "modified_gmt": "2021-07-01T17:52:30",
+    "modified": "2021-11-15T17:14:45",
+    "modified_gmt": "2021-11-16T01:14:45",
     "slug": "industry-advisory-cannabis-and-alcoholic-beverages",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",

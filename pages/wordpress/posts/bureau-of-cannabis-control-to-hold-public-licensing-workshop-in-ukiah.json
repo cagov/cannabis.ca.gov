@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-02-22T17:53:00",
-    "updated_date": "2021-06-19T15:50:56",
+    "updated_date": "2021-11-16T01:15:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2018-02-22T17:53:00",
     "date_gmt": "2018-02-22T17:53:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
-    "modified": "2021-06-19T08:50:56",
-    "modified_gmt": "2021-06-19T15:50:56",
+    "modified": "2021-11-15T17:15:00",
+    "modified_gmt": "2021-11-16T01:15:00",
     "slug": "bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
