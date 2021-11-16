@@ -378,29 +378,35 @@
     </div>
   </header>
 
-  <div id="page-container" class="page-container-ds">
-    <div id="main-content" class="main-content-ds single-column" tabindex="-1">
-        <div class="breadcrumb" aria-label="Breadcrumb" role="region">
-            <a class="crumb" href="https:\/\/ca.gov" title="CA.GOV">CA.GOV</a>
-            <span class="crumb separator">/</span>
-            <a class="crumb" href="/" title="Department of Cannabis Control">Department of Cannabis Control</a>
-            <span class="crumb separator">/</span>
-            <span class="crumb">Resources</span>
-            <span class="crumb separator">/</span>
-            <span class="crumb current">File a complaint</span>
+  <div id="page-container" class="with-sidebar has-sidebar-left page-container-ds">
+  <div id="main-content" class="main-content-ds single-column" tabindex="-1">
+    <div class="breadcrumb" aria-label="Breadcrumb" role="region">
+      <a class="crumb" href="https:\/\/ca.gov" title="CA.GOV">CA.GOV</a>
+      <span class="crumb separator">/</span>
+      <a class="crumb" href="/" title="Department of Cannabis Control">Department of Cannabis Control</a>
+      <span class="crumb separator">/</span>
+      <span class="crumb">Resources</span>
+      <span class="crumb separator">/</span>
+      <span class="crumb current">File a complaint</span>
+    </div>
+    <div class="ds-content-layout">
+      <aside>
+        <div class="sidebar-container everylayout" style="z-index: 1;">
+          <sidebar space="0" side="left">
+            <cagov-content-navigation data-selector="main" data-type="wordpress" data-label="On this page"></cagov-content-navigation>
+          </sidebar>
         </div>
-
-        <div class="narrow-page-title">
+      </aside>
+      <div class="everylayout">
+        <main class="main-primary">
+          <article id="post-712">
             <h1 class="page-title">File a complaint</h1>
-        </div>
-        <div class="ds-content-layout">
-            <main class="main-primary">
-                <div>
-                    <article id="post-712">
-                        <!-- Page Title-->
-                        <h1 class="page-title wide-page-title">File a complaint</h1>
-                        <div class="entry-content">
-                            <p>You can file an anonymous complaint against licensed or unlicensed cannabis businesses. Provide as much detail as you can.</p>
+            <!-- Page Title-->
+            <h1 class="wide-page-title page-title">
+              File a complaint
+            </h1>
+            <div class="entry-content">
+              <p>You can file an anonymous complaint against licensed or unlicensed cannabis businesses. Provide as much detail as you can.</p>
 
 <div class="wp-block-buttons">
 <div class="wp-block-button"><a class="wp-block-button__link" href="https://search.cannabis.ca.gov/complaints/unlicensed">File a complaint</a></div>
@@ -416,13 +422,13 @@
 
 <ul><li>Investigate complaints of unlicensed or illegal cannabis activity</li><li>Stop the sale of cannabis to minors</li><li>Prevent unsafe products from entering the cannabis market</li></ul>
 
-                        </div>
-                    </article>
-                </div>
-            </main>
-        </div>
+            </div>
+          </article>
+        </main>
+      </div>
     </div>
-</div>  
+  </div>
+</div>
   
   <div class="content-footer mb-3">
   <cagov-feedback data-endpoint-url="https://fa-go-feedback-001.azurewebsites.net/sendfeedback"></cagov-feedback>
