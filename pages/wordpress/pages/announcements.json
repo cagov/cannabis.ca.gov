@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-15T21:40:52",
-    "updated_date": "2021-07-07T23:51:13",
+    "updated_date": "2021-11-16T01:14:26",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-15T21:40:52",
     "date_gmt": "2021-06-15T21:40:52",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=7429",
-    "modified": "2021-07-07T16:51:13",
-    "modified_gmt": "2021-07-07T23:51:13",
+    "modified": "2021-11-15T17:14:26",
+    "modified_gmt": "2021-11-16T01:14:26",
     "slug": "announcements",
     "status": "publish",
     "type": "page",
@@ -31,7 +31,7 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "",
     "meta": {
       "_et_pb_use_builder": "off",
       "_et_pb_old_content": "",
