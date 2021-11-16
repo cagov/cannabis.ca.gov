@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-09-18T19:51:00",
-    "updated_date": "2021-06-19T15:50:50",
+    "updated_date": "2021-11-16T01:13:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2019-09-18T19:51:00",
     "date_gmt": "2019-09-18T19:51:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
-    "modified": "2021-06-19T08:50:50",
-    "modified_gmt": "2021-06-19T15:50:50",
+    "modified": "2021-11-15T17:13:43",
+    "modified_gmt": "2021-11-16T01:13:43",
     "slug": "governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",

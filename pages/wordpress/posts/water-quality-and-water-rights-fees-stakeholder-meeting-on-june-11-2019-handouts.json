@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-06-04T23:37:00",
-    "updated_date": "2019-06-04T23:37:00",
+    "updated_date": "2021-11-16T01:13:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2019-06-04T23:37:00",
     "date_gmt": "2019-06-04T23:37:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/",
-    "modified": "2019-06-04T23:37:00",
-    "modified_gmt": "2019-06-04T23:37:00",
+    "modified": "2021-11-15T17:13:56",
+    "modified_gmt": "2021-11-16T01:13:56",
     "slug": "water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts",
     "status": "publish",
     "type": "post",

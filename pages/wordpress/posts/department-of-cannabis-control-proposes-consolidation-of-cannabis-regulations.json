@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-08T18:51:33",
-    "updated_date": "2021-09-08T18:51:34",
+    "updated_date": "2021-11-16T01:12:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-08T11:51:33",
     "date_gmt": "2021-09-08T18:51:33",
     "guid": "https://cannabis.ca.gov/?p=8765",
-    "modified": "2021-09-08T11:51:34",
-    "modified_gmt": "2021-09-08T18:51:34",
+    "modified": "2021-11-15T17:12:50",
+    "modified_gmt": "2021-11-16T01:12:50",
     "slug": "department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "off",

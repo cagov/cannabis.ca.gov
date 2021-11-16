@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-06-05T00:06:00",
-    "updated_date": "2021-07-01T00:52:56",
+    "updated_date": "2021-11-16T01:13:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2019-06-05T00:06:00",
     "date_gmt": "2019-06-05T00:06:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer/",
-    "modified": "2021-06-30T17:52:56",
-    "modified_gmt": "2021-07-01T00:52:56",
+    "modified": "2021-11-15T17:13:55",
+    "modified_gmt": "2021-11-16T01:13:55",
     "slug": "bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
