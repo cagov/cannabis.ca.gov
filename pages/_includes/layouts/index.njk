@@ -74,10 +74,10 @@
     {%- elif templatestring == 'template-page-single-column' -%}
       {% include "../layouts/templates/single-column.njk" %}
       {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
-    {% elif templatestring == 'page' -%}
+    {% elif templatestring == 'template-page' -%}
       {% include "../layouts/templates/page.njk" %}
       {# Normal post template, with category if default the API will return "post" #}
-    {% elif templatestring == 'post' -%}
+    {% elif templatestring == 'template-single' -%}
       {% include "../layouts/templates/post.njk" %}
     {% elif templatestring == 'template-single-press-release ' -%}
       {# We are developing more templates for special post types, like press releases and events. #}
