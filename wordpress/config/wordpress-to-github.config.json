@@ -14,7 +14,7 @@
       {
         "Destination": "wordpress/config/redirects.json",
         "Source": "/wp-json/redirection/v1/export-public/1/json",
-        "ExcludeProperties": []
+        "ExcludeProperties": ["plugin"]
       }
     ]
   }
