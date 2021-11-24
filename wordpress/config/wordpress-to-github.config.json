@@ -10,6 +10,12 @@
     "PagePath": "pages/wordpress/pages",
     "MediaPath": "wordpress/media",
     "ExcludeProperties": ["content", "_links"],
-    "ApiRequests": []
+    "ApiRequests": [
+      {
+        "Destination": "wordpress/config/redirects.json",
+        "Source": "/wp-json/redirection/v1/export-public/1/json",
+        "ExcludeProperties": ["plugin"]
+      }
+    ]
   }
 }
