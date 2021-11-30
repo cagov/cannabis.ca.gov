@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2017-04-20T21:59:00",
-    "updated_date": "2021-11-16T02:09:00",
+    "created_date": "2021-11-30T00:17:52",
+    "updated_date": "2021-11-30T00:17:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -13,27 +13,27 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 6302,
-    "date": "2017-04-20T21:59:00",
-    "date_gmt": "2017-04-20T21:59:00",
-    "guid": "http://wordpress.test:8888/content-types/announcement/26449/",
-    "modified": "2021-11-15T18:09:00",
-    "modified_gmt": "2021-11-16T02:09:00",
-    "slug": "26449-2",
+    "id": 8983,
+    "date": "2021-11-29T16:17:52",
+    "date_gmt": "2021-11-30T00:17:52",
+    "guid": "https://cannabis.ca.gov/?p=8983",
+    "modified": "2021-11-29T16:17:54",
+    "modified_gmt": "2021-11-30T00:17:54",
+    "slug": "test-post",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2017/04/26449-2/",
-    "title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
-    "excerpt": "<p>&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.</p>\n",
+    "link": "https://cannabis.ca.gov/2021/11/test-post/",
+    "title": "Test post",
+    "excerpt": "",
     "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": {
-      "_et_pb_use_builder": "",
+      "_et_pb_use_builder": "on",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
@@ -42,7 +42,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "og_meta": {
       "editor": {
@@ -55,20 +55,20 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://cannabis.ca.gov",
-      "canonical_url": "https://cannabis.ca.gov/2017/04/26449-2/",
-      "page_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
-      "page_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.",
+      "canonical_url": "https://cannabis.ca.gov/2021/11/test-post/",
+      "page_title": "Test post",
+      "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
-      "meta_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.",
-      "meta_canonical_url": "https://cannabis.ca.gov/2017/04/26449-2/",
-      "open_graph_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
-      "open_graph_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.",
-      "twitter_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
-      "twitter_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m."
+      "meta_title": "Test post",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://cannabis.ca.gov/2021/11/test-post/",
+      "open_graph_title": "Test post",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Test post",
+      "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [
       {
@@ -99,6 +99,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://cannabis.ca.gov/2017/04/26449-2/"
+    "wordpress_url": "https://cannabis.ca.gov/2021/11/test-post/"
   }
 }
