@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-01T12:00:00",
-    "updated_date": "2021-12-02T21:18:40",
+    "updated_date": "2021-12-02T21:24:46",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-01T05:00:00",
     "date_gmt": "2021-10-01T12:00:00",
     "guid": "https://cannabis.ca.gov/?p=8844",
-    "modified": "2021-12-02T13:18:40",
-    "modified_gmt": "2021-12-02T21:18:40",
+    "modified": "2021-12-02T13:24:46",
+    "modified_gmt": "2021-12-02T21:24:46",
     "slug": "department-of-cannabis-control-announces-100-million-local-jurisdiction-assistance-grant-program",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "off",
@@ -53,7 +53,7 @@
       "Local jurisdictions"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {

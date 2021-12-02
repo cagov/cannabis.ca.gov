@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-03-13T18:04:00",
-    "updated_date": "2021-12-02T21:21:57",
+    "updated_date": "2021-12-02T21:25:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2018-03-13T18:04:00",
     "date_gmt": "2018-03-13T18:04:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/28332/",
-    "modified": "2021-12-02T13:21:57",
-    "modified_gmt": "2021-12-02T21:21:57",
+    "modified": "2021-12-02T13:25:14",
+    "modified_gmt": "2021-12-02T21:25:14",
     "slug": "28332-2",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -52,7 +52,7 @@
       "Webcast"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
