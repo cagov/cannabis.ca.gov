@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-09-26T19:43:00",
-    "updated_date": "2021-11-16T02:08:42",
+    "updated_date": "2021-12-02T21:19:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2019-09-26T19:43:00",
     "date_gmt": "2019-09-26T19:43:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public/",
-    "modified": "2021-11-15T18:08:42",
-    "modified_gmt": "2021-11-16T02:08:42",
+    "modified": "2021-12-02T13:19:44",
+    "modified_gmt": "2021-12-02T21:19:44",
     "slug": "vaping-related-lung-illness-a-summary-of-the-public-health-risks-and-recommendations-for-the-public",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",

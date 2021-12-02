@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-05-22T00:12:00",
-    "updated_date": "2021-11-16T02:08:43",
+    "updated_date": "2021-12-02T21:20:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2019-05-22T00:12:00",
     "date_gmt": "2019-05-22T00:12:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/",
-    "modified": "2021-11-15T18:08:43",
-    "modified_gmt": "2021-11-16T02:08:43",
+    "modified": "2021-12-02T13:20:01",
+    "modified_gmt": "2021-12-02T21:20:01",
     "slug": "edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
