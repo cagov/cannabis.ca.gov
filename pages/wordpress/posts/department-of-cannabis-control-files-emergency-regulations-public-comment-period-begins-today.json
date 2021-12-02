@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-15T19:39:01",
-    "updated_date": "2021-12-02T21:18:43",
+    "updated_date": "2021-12-02T21:31:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-15T12:39:01",
     "date_gmt": "2021-09-15T19:39:01",
     "guid": "https://cannabis.ca.gov/?p=8800",
-    "modified": "2021-12-02T13:18:43",
-    "modified_gmt": "2021-12-02T21:18:43",
+    "modified": "2021-12-02T13:31:06",
+    "modified_gmt": "2021-12-02T21:31:06",
     "slug": "department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today",
     "status": "publish",
     "type": "post",
@@ -142,11 +142,11 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "",
+    "custom_post_date": "2021-09-15",
     "meta_": {
-      "0": "",
+      "0": "2021-09-15",
       "custom_post_link": "",
-      "custom_post_date": "",
+      "custom_post_date": "2021-09-15",
       "custom_post_location": ""
     },
     "wordpress_url": "https://cannabis.ca.gov/2021/09/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today/"
