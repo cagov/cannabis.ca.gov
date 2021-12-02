@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T21:40:00",
-    "updated_date": "2021-11-16T02:09:00",
+    "updated_date": "2021-12-02T21:23:19",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2017-04-20T21:40:00",
     "date_gmt": "2017-04-20T21:40:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-celebrates-420/",
-    "modified": "2021-11-15T18:09:00",
-    "modified_gmt": "2021-11-16T02:09:00",
+    "modified": "2021-12-02T13:23:19",
+    "modified_gmt": "2021-12-02T21:23:19",
     "slug": "california-celebrates-420",
     "status": "publish",
     "type": "post",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
