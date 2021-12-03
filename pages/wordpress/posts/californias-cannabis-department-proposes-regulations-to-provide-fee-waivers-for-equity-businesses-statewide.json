@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-03T16:47:54",
-    "updated_date": "2021-12-03T16:47:56",
+    "updated_date": "2021-12-03T16:49:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-12-03T08:47:54",
     "date_gmt": "2021-12-03T16:47:54",
     "guid": "https://cannabis.ca.gov/?p=9026",
-    "modified": "2021-12-03T08:47:56",
-    "modified_gmt": "2021-12-03T16:47:56",
+    "modified": "2021-12-03T08:49:01",
+    "modified_gmt": "2021-12-03T16:49:01",
     "slug": "californias-cannabis-department-proposes-regulations-to-provide-fee-waivers-for-equity-businesses-statewide",
     "status": "publish",
     "type": "post",
