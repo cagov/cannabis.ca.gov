@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-11-30T03:39:31",
+    "updated_date": "2021-12-03T19:58:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/resources/rulemaking/",
-    "modified": "2021-11-29T19:39:31",
-    "modified_gmt": "2021-11-30T03:39:31",
+    "modified": "2021-12-03T11:58:03",
+    "modified_gmt": "2021-12-03T19:58:03",
     "slug": "rulemaking",
     "status": "publish",
     "type": "page",
