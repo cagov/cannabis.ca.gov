@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-09-28T17:48:28",
+    "updated_date": "2021-11-16T02:13:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/index/state-cannabis-consolidation/",
-    "modified": "2021-09-28T17:48:28",
-    "modified_gmt": "2021-09-28T17:48:28",
+    "modified": "2021-11-15T18:13:09",
+    "modified_gmt": "2021-11-16T02:13:09",
     "slug": "consolidation",
     "status": "publish",
     "type": "page",
-    "link": "https://live-cagov-dcc.pantheonsite.io/about-us/consolidation/",
+    "link": "https://cannabis.ca.gov/about-us/consolidation/",
     "title": "State cannabis consolidation",
     "excerpt": "<p>The creation of the Department of Cannabis Control is a first step in simplifying California&#8217;s approach to cannabis.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,14 +31,12 @@
     "menu_order": 0,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
-    "categories": [],
-    "tags": [],
     "design_system_fields": {
       "template": "template-page"
     },
@@ -48,12 +46,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/about-us/consolidation/",
+      "site_url": "https://cannabis.ca.gov",
+      "canonical_url": "https://cannabis.ca.gov/about-us/consolidation/",
       "page_title": "State cannabis consolidation",
       "page_description": "The creation of the Department of Cannabis Control is a first step in simplifying California's approach to cannabis.",
       "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
@@ -62,7 +60,7 @@
       "page_social_image_alt": "",
       "meta_title": "State cannabis consolidation",
       "meta_description": "The creation of the Department of Cannabis Control is a first step in simplifying California's approach to cannabis.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/about-us/consolidation/",
+      "meta_canonical_url": "https://cannabis.ca.gov/about-us/consolidation/",
       "open_graph_title": "State cannabis consolidation",
       "open_graph_description": "The creation of the Department of Cannabis Control is a first step in simplifying California's approach to cannabis.",
       "twitter_title": "State cannabis consolidation",
@@ -72,6 +70,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/about-us/consolidation/"
+    "wordpress_url": "https://cannabis.ca.gov/about-us/consolidation/"
   }
 }
