@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2017-09-25T16:18:00",
-    "updated_date": "2021-12-02T21:23:10",
+    "updated_date": "2021-09-28T17:38:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://live-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2017-09-25T16:18:00",
     "date_gmt": "2017-09-25T16:18:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
-    "modified": "2021-12-02T13:23:10",
-    "modified_gmt": "2021-12-02T21:23:10",
+    "modified": "2021-09-28T17:38:43",
+    "modified_gmt": "2021-09-28T17:38:43",
     "slug": "upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
+    "link": "https://live-cagov-dcc.pantheonsite.io/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
     "title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
     "excerpt": "<p>Long Beach will play host to a two-day conference on marijuana next week that will not only let attendees try the products they will discuss, but it will bring together cannabis industry leaders, elected officials, regulators and others to understand the federally illegal plant that will be sold recreationally statewide by next year.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -55,12 +55,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://cannabis.ca.gov"
+        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://cannabis.ca.gov",
-      "canonical_url": "https://cannabis.ca.gov/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
+      "site_url": "https://live-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
       "page_title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
       "page_description": "Long Beach will play host to a two-day conference on marijuana next week that will not only let attendees try the products they will discuss, but it will bring together cannabis industry leaders, elected officials, regulators and others to understand the federally illegal plant that will be sold recreationally statewide by next year.",
       "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
       "meta_description": "Long Beach will play host to a two-day conference on marijuana next week that will not only let attendees try the products they will discuss, but it will bring together cannabis industry leaders, elected officials, regulators and others to understand the federally illegal plant that will be sold recreationally statewide by next year.",
-      "meta_canonical_url": "https://cannabis.ca.gov/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
+      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/",
       "open_graph_title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
       "open_graph_description": "Long Beach will play host to a two-day conference on marijuana next week that will not only let attendees try the products they will discuss, but it will bring together cannabis industry leaders, elected officials, regulators and others to understand the federally illegal plant that will be sold recreationally statewide by next year.",
       "twitter_title": "Upcoming State of Cannabis Conference Aims to Educate Industry Insiders, Create Network",
@@ -77,16 +77,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 14,
+        "term_id": 13,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 14,
+        "term_taxonomy_id": 13,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 14,
+        "cat_ID": 13,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -95,44 +95,44 @@
     ],
     "headless_tags": [
       {
-        "term_id": 122,
+        "term_id": 15,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 122,
+        "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 433,
+        "term_id": 75,
         "name": "Long Beach",
         "slug": "long-beach",
         "term_group": 0,
-        "term_taxonomy_id": 433,
+        "term_taxonomy_id": 75,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 434,
+        "term_id": 76,
         "name": "Lori Ajax",
         "slug": "lori-ajax",
         "term_group": 0,
-        "term_taxonomy_id": 434,
+        "term_taxonomy_id": 76,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 642,
+        "term_id": 77,
         "name": "State of cannabis",
         "slug": "state-of-cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 642,
+        "term_taxonomy_id": 77,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -149,6 +149,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://cannabis.ca.gov/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/"
+    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2017/09/upcoming-state-of-cannabis-conference-aims-to-educate-industry-insiders-create-network/"
   }
 }
