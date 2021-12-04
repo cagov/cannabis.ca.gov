@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-11-16T02:13:07",
+    "updated_date": "2021-09-28T17:47:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://live-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "http://wordpress.test:8888/resources/",
-    "modified": "2021-11-15T18:13:07",
-    "modified_gmt": "2021-11-16T02:13:07",
+    "modified": "2021-09-28T17:47:57",
+    "modified_gmt": "2021-09-28T17:47:57",
     "slug": "application-resources",
     "status": "publish",
     "type": "page",
-    "link": "https://cannabis.ca.gov/applicants/application-resources/",
+    "link": "https://live-cagov-dcc.pantheonsite.io/applicants/application-resources/",
     "title": "Application resources",
     "excerpt": "<p>The Department of Cannabis Control created resources to help you apply for a license and technical guides for the licensing systems.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,12 +31,14 @@
     "menu_order": 5,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-page.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "categories": [],
+    "tags": [],
     "design_system_fields": {
       "template": "template-page"
     },
@@ -46,12 +48,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://cannabis.ca.gov"
+        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://cannabis.ca.gov",
-      "canonical_url": "https://cannabis.ca.gov/applicants/application-resources/",
+      "site_url": "https://live-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/applicants/application-resources/",
       "page_title": "Application resources",
       "page_description": "The Department of Cannabis Control created resources to help you apply for a license and technical guides for the licensing systems.",
       "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
@@ -60,7 +62,7 @@
       "page_social_image_alt": "",
       "meta_title": "Application resources",
       "meta_description": "The Department of Cannabis Control created resources to help you apply for a license and technical guides for the licensing systems.",
-      "meta_canonical_url": "https://cannabis.ca.gov/applicants/application-resources/",
+      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/applicants/application-resources/",
       "open_graph_title": "Department of Cannabis Control application resources",
       "open_graph_description": "The Department of Cannabis Control created resources to help you apply for a license and technical guides for the licensing systems.",
       "twitter_title": "Application resources",
@@ -70,6 +72,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://cannabis.ca.gov/applicants/application-resources/"
+    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/applicants/application-resources/"
   }
 }
