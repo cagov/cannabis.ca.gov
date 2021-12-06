@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-12-06T17:24:40",
+    "updated_date": "2021-09-28T17:47:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://live-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "http://wordpress.test:8888/application-license-fees/",
-    "modified": "2021-12-06T09:24:40",
-    "modified_gmt": "2021-12-06T17:24:40",
+    "modified": "2021-09-28T17:47:55",
+    "modified_gmt": "2021-09-28T17:47:55",
     "slug": "application-license-fees",
     "status": "publish",
     "type": "page",
-    "link": "https://cannabis.ca.gov/applicants/application-license-fees/",
+    "link": "https://live-cagov-dcc.pantheonsite.io/applicants/application-license-fees/",
     "title": "Application and license fees",
     "excerpt": "<p>Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,12 +31,14 @@
     "menu_order": 4,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_et_pb_use_builder": "",
       "_et_pb_old_content": "",
       "_et_gb_content_width": ""
     },
+    "categories": [],
+    "tags": [],
     "design_system_fields": {
       "template": "template-page"
     },
@@ -46,12 +48,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://cannabis.ca.gov"
+        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://cannabis.ca.gov",
-      "canonical_url": "https://cannabis.ca.gov/applicants/application-license-fees/",
+      "site_url": "https://live-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/applicants/application-license-fees/",
       "page_title": "Application and license fees",
       "page_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.",
       "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
@@ -60,7 +62,7 @@
       "page_social_image_alt": "",
       "meta_title": "Application and license fees",
       "meta_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.",
-      "meta_canonical_url": "https://cannabis.ca.gov/applicants/application-license-fees/",
+      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/applicants/application-license-fees/",
       "open_graph_title": "Application and license fees",
       "open_graph_description": "Fees are specific to the license type you are applying for or renewing. Most fees are calculated based on your business’s gross annual revenue.",
       "twitter_title": "Application and license fees",
@@ -70,6 +72,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://cannabis.ca.gov/applicants/application-license-fees/"
+    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/applicants/application-license-fees/"
   }
 }
