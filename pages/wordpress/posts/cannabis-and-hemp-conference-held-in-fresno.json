@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2017-04-27T18:19:00",
-    "updated_date": "2021-12-02T21:23:17",
+    "updated_date": "2021-09-28T17:39:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://cannabis.ca.gov",
+      "source_data": "https://live-cagov-dcc.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2017-04-27T18:19:00",
     "date_gmt": "2017-04-27T18:19:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-and-hemp-conference-held-in-fresno/",
-    "modified": "2021-12-02T13:23:17",
-    "modified_gmt": "2021-12-02T21:23:17",
+    "modified": "2021-09-28T17:39:04",
+    "modified_gmt": "2021-09-28T17:39:04",
     "slug": "cannabis-and-hemp-conference-held-in-fresno",
     "status": "publish",
     "type": "post",
-    "link": "https://cannabis.ca.gov/2017/04/cannabis-and-hemp-conference-held-in-fresno/",
+    "link": "https://live-cagov-dcc.pantheonsite.io/2017/04/cannabis-and-hemp-conference-held-in-fresno/",
     "title": "Cannabis and Hemp Conference Held in Fresno",
     "excerpt": "<p>Many of the people at the Cannabis and Hemp Conference held at Bitwise Industries came to learn more about the challenge of creating a statewide marijuana marketplace.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_et_pb_use_builder": "",
@@ -53,12 +53,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://cannabis.ca.gov"
+        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://cannabis.ca.gov",
-      "canonical_url": "https://cannabis.ca.gov/2017/04/cannabis-and-hemp-conference-held-in-fresno/",
+      "site_url": "https://live-cagov-dcc.pantheonsite.io",
+      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/cannabis-and-hemp-conference-held-in-fresno/",
       "page_title": "Cannabis and Hemp Conference Held in Fresno",
       "page_description": "Many of the people at the Cannabis and Hemp Conference held at Bitwise Industries came to learn more about the challenge of creating a statewide marijuana marketplace.",
       "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
@@ -67,7 +67,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis and Hemp Conference Held in Fresno",
       "meta_description": "Many of the people at the Cannabis and Hemp Conference held at Bitwise Industries came to learn more about the challenge of creating a statewide marijuana marketplace.",
-      "meta_canonical_url": "https://cannabis.ca.gov/2017/04/cannabis-and-hemp-conference-held-in-fresno/",
+      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/cannabis-and-hemp-conference-held-in-fresno/",
       "open_graph_title": "Cannabis and Hemp Conference Held in Fresno",
       "open_graph_description": "Many of the people at the Cannabis and Hemp Conference held at Bitwise Industries came to learn more about the challenge of creating a statewide marijuana marketplace.",
       "twitter_title": "Cannabis and Hemp Conference Held in Fresno",
@@ -75,16 +75,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 14,
+        "term_id": 13,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 14,
+        "term_taxonomy_id": 13,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 14,
+        "cat_ID": 13,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -93,22 +93,22 @@
     ],
     "headless_tags": [
       {
-        "term_id": 122,
+        "term_id": 15,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 122,
+        "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 145,
+        "term_id": 24,
         "name": "Cannabis Growers",
         "slug": "cannabis-growers",
         "term_group": 0,
-        "term_taxonomy_id": 145,
+        "term_taxonomy_id": 24,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -125,6 +125,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://cannabis.ca.gov/2017/04/cannabis-and-hemp-conference-held-in-fresno/"
+    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/cannabis-and-hemp-conference-held-in-fresno/"
   }
 }
