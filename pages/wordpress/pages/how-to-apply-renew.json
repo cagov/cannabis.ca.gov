@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-12-06T17:22:18",
+    "updated_date": "2021-12-06T17:24:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/applicants/applicants/how-to-apply-renew/",
-    "modified": "2021-12-06T09:22:18",
-    "modified_gmt": "2021-12-06T17:22:18",
+    "modified": "2021-12-06T09:24:36",
+    "modified_gmt": "2021-12-06T17:24:36",
     "slug": "how-to-apply-renew",
     "status": "publish",
     "type": "page",
