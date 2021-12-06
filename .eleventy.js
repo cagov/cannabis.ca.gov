@@ -31,7 +31,7 @@ module.exports = function(eleventyConfig) {
     collection.getAll().forEach(item => {
 
       if(item.inputPath.includes(folderNames[0]) || item.inputPath.includes(folderNames[1])) {
-        item.outputPath = 'docs' + extractMeta.cleanUrl(item.data.data.wordpress_url) + 'index.html';
+        item.outputPath = 'docs/' + extractMeta.cleanUrl(item.data.data.wordpress_url) + 'index.html';
 
         item.url = item.outputPath;
         item.data.page.url = item.url;
