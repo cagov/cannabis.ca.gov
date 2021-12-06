@@ -26,6 +26,11 @@ jobs:
           mkdir dist
           npm install
           npm run build
+          npm run test:setup
+
+      - name: Run test
+        run: |
+          npm test
 
       # Push built site files to S3 production bucket    
       - name: Deploy to S3
