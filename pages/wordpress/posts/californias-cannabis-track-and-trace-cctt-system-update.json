@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2018-01-01T20:10:00",
-    "updated_date": "2021-09-28T17:38:25",
+    "updated_date": "2018-01-01T20:10:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2018-01-01T20:10:00",
     "date_gmt": "2018-01-01T20:10:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/californias-cannabis-track-and-trace-cctt-system-update/",
-    "modified": "2021-09-28T17:38:25",
-    "modified_gmt": "2021-09-28T17:38:25",
+    "modified": "2018-01-01T20:10:00",
+    "modified_gmt": "2018-01-01T20:10:00",
     "slug": "californias-cannabis-track-and-trace-cctt-system-update",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2018/01/californias-cannabis-track-and-trace-cctt-system-update/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
     "title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
     "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Announcements"
     ],
@@ -57,21 +53,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2018/01/californias-cannabis-track-and-trace-cctt-system-update/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
       "page_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
       "page_description": "Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
       "meta_description": "Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2018/01/californias-cannabis-track-and-trace-cctt-system-update/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
       "open_graph_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
       "open_graph_description": "Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.",
       "twitter_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
@@ -79,16 +75,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 13,
+        "term_id": 2,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 13,
+        "cat_ID": 2,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -108,55 +104,55 @@
         "filter": "raw"
       },
       {
-        "term_id": 15,
+        "term_id": 3,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 3,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 94,
+        "term_id": 33,
         "name": "Licensing",
         "slug": "licensing",
         "term_group": 0,
-        "term_taxonomy_id": 94,
+        "term_taxonomy_id": 33,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 97,
+        "term_id": 108,
         "name": "System",
         "slug": "system",
         "term_group": 0,
-        "term_taxonomy_id": 97,
+        "term_taxonomy_id": 108,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 89,
+        "term_id": 90,
         "name": "Track-and-trace",
         "slug": "track-and-trace",
         "term_group": 0,
-        "term_taxonomy_id": 89,
+        "term_taxonomy_id": 90,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 176,
+        "term_id": 114,
         "name": "Workshops",
         "slug": "workshops",
         "term_group": 0,
-        "term_taxonomy_id": 176,
+        "term_taxonomy_id": 114,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -173,6 +169,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2018/01/californias-cannabis-track-and-trace-cctt-system-update/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/"
   }
 }

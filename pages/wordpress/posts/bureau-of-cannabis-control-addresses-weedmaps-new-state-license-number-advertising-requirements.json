@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2019-08-22T22:44:00",
-    "updated_date": "2021-09-28T17:40:28",
+    "updated_date": "2019-08-22T22:44:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2019-08-22T22:44:00",
     "date_gmt": "2019-08-22T22:44:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
-    "modified": "2021-09-28T17:40:28",
-    "modified_gmt": "2021-09-28T17:40:28",
+    "modified": "2019-08-22T22:44:00",
+    "modified_gmt": "2019-08-22T22:44:00",
     "slug": "bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2019/08/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
     "title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
     "excerpt": "<p>The Bureau of Cannabis Control today issued the following statement from Bureau Chief Lori Ajax regarding Weedmaps’ announcement that it would no longer advertise illegal cannabis businesses.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Press Releases"
     ],
@@ -63,21 +59,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2019/08/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
       "page_title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
       "page_description": "The Bureau of Cannabis Control today issued the following statement from Bureau Chief Lori Ajax regarding Weedmaps’ announcement that it would no longer advertise illegal cannabis businesses.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
       "meta_description": "The Bureau of Cannabis Control today issued the following statement from Bureau Chief Lori Ajax regarding Weedmaps’ announcement that it would no longer advertise illegal cannabis businesses.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2019/08/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/",
       "open_graph_title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
       "open_graph_description": "The Bureau of Cannabis Control today issued the following statement from Bureau Chief Lori Ajax regarding Weedmaps’ announcement that it would no longer advertise illegal cannabis businesses.",
       "twitter_title": "Bureau of Cannabis Control Addresses Weedmaps&#8217; New State License Number Advertising Requirements",
@@ -103,77 +99,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 242,
+        "term_id": 181,
         "name": "Advertising",
         "slug": "advertising",
         "term_group": 0,
-        "term_taxonomy_id": 242,
+        "term_taxonomy_id": 181,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 292,
+        "term_id": 208,
         "name": "BCC",
         "slug": "bcc",
         "term_group": 0,
-        "term_taxonomy_id": 292,
+        "term_taxonomy_id": 208,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 38,
+        "term_id": 32,
         "name": "Bureau of Cannabis Control",
         "slug": "bureau-of-cannabis-control",
         "term_group": 0,
-        "term_taxonomy_id": 38,
+        "term_taxonomy_id": 32,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 15,
+        "term_id": 3,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 3,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 557,
+        "term_id": 492,
         "name": "Dispensary",
         "slug": "dispensary",
         "term_group": 0,
-        "term_taxonomy_id": 557,
+        "term_taxonomy_id": 492,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 153,
+        "term_id": 170,
         "name": "Legal",
         "slug": "legal",
         "term_group": 0,
-        "term_taxonomy_id": 153,
+        "term_taxonomy_id": 170,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 211,
+        "term_id": 236,
         "name": "Licensed",
         "slug": "licensed",
         "term_group": 0,
-        "term_taxonomy_id": 211,
+        "term_taxonomy_id": 236,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -191,44 +187,44 @@
         "filter": "raw"
       },
       {
-        "term_id": 647,
+        "term_id": 596,
         "name": "Quote",
         "slug": "quote",
         "term_group": 0,
-        "term_taxonomy_id": 647,
+        "term_taxonomy_id": 596,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 236,
+        "term_id": 258,
         "name": "Retail",
         "slug": "retail",
         "term_group": 0,
-        "term_taxonomy_id": 236,
+        "term_taxonomy_id": 258,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 157,
+        "term_id": 174,
         "name": "Retailer",
         "slug": "retailer",
         "term_group": 0,
-        "term_taxonomy_id": 157,
+        "term_taxonomy_id": 174,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 244,
+        "term_id": 183,
         "name": "Weedmaps",
         "slug": "weedmaps",
         "term_group": 0,
-        "term_taxonomy_id": 244,
+        "term_taxonomy_id": 183,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -245,6 +241,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2019/08/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/08/22/bureau-of-cannabis-control-addresses-weedmaps-new-state-license-number-advertising-requirements/"
   }
 }

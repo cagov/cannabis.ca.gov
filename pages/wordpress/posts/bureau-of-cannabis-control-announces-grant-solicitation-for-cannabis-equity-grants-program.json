@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2020-12-16T23:31:00",
-    "updated_date": "2021-09-28T17:39:52",
+    "updated_date": "2020-12-16T23:31:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2020-12-16T23:31:00",
     "date_gmt": "2020-12-16T23:31:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
-    "modified": "2021-09-28T17:39:52",
-    "modified_gmt": "2021-09-28T17:39:52",
+    "modified": "2020-12-16T23:31:00",
+    "modified_gmt": "2020-12-16T23:31:00",
     "slug": "bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2020/12/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
     "title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
     "excerpt": "<p>The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Press Releases"
     ],
@@ -59,21 +55,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2020/12/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
       "page_title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
       "page_description": "The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
       "meta_description": "The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2020/12/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
       "open_graph_title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
       "open_graph_description": "The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.",
       "twitter_title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
@@ -99,11 +95,11 @@
     ],
     "headless_tags": [
       {
-        "term_id": 38,
+        "term_id": 32,
         "name": "Bureau of Cannabis Control",
         "slug": "bureau-of-cannabis-control",
         "term_group": 0,
-        "term_taxonomy_id": 38,
+        "term_taxonomy_id": 32,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -121,66 +117,66 @@
         "filter": "raw"
       },
       {
-        "term_id": 134,
+        "term_id": 157,
         "name": "CalCannabis Cultivation Licensing",
         "slug": "calcannabis-cultivation-licensing",
         "term_group": 0,
-        "term_taxonomy_id": 134,
+        "term_taxonomy_id": 157,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 31,
+        "term_id": 23,
         "name": "California",
         "slug": "california",
         "term_group": 0,
-        "term_taxonomy_id": 31,
+        "term_taxonomy_id": 23,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 15,
+        "term_id": 3,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 3,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 121,
+        "term_id": 144,
         "name": "Equity",
         "slug": "equity",
         "term_group": 0,
-        "term_taxonomy_id": 121,
+        "term_taxonomy_id": 144,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 446,
+        "term_id": 364,
         "name": "GO-BIZ",
         "slug": "go-biz",
         "term_group": 0,
-        "term_taxonomy_id": 446,
+        "term_taxonomy_id": 364,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 103,
+        "term_id": 34,
         "name": "Sacramento",
         "slug": "sacramento",
         "term_group": 0,
-        "term_taxonomy_id": 103,
+        "term_taxonomy_id": 34,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -197,6 +193,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2020/12/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/"
   }
 }

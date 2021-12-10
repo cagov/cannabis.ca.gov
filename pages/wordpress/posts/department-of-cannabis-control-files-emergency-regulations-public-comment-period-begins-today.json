@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2021-09-15T19:39:01",
-    "updated_date": "2021-11-02T20:02:08",
+    "updated_date": "2021-09-15T19:39:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,26 +17,22 @@
     "date": "2021-09-15T12:39:01",
     "date_gmt": "2021-09-15T19:39:01",
     "guid": "https://cannabis.ca.gov/?p=8800",
-    "modified": "2021-11-02T13:02:08",
-    "modified_gmt": "2021-11-02T20:02:08",
-    "slug": "department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today-test-change",
+    "modified": "2021-09-15T12:39:01",
+    "modified_gmt": "2021-09-15T19:39:01",
+    "slug": "department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2021/09/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today-test-change/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/15/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today/",
     "title": "Department of Cannabis Control Files Emergency Regulations; public comment period begins today",
-    "excerpt": "<p>The Department of Cannabis Control (DCC) has filed proposed emergency regulations to consolidate, clarify, and make consistent cannabis regulations to the California Office of Administrative Law (OAL). This marks the start of the five-calendar day public comment period and the 10-day OAL review period. How to submit a public comment If you wish to comment [&hellip;]</p>\n",
+    "excerpt": "<p>The Department of Cannabis Control (DCC) has filed proposed emergency regulations to consolidate, clarify, and make consistent cannabis regulations to the California Office of Administrative Law (OAL). This marks the start of the five-calendar day public comment period and the 10-day OAL review period. How to submit a public comment If you wish to comment &#8230; <a title=\"Department of Cannabis Control Files Emergency Regulations; public comment period begins today\" class=\"read-more\" href=\"https://live-cannabis-ca-gov.pantheonsite.io/2021/09/15/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today/\" aria-label=\"More on Department of Cannabis Control Files Emergency Regulations; public comment period begins today\">Read more</a></p>\n",
     "author": "Christina Dempsey",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "off",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Announcements"
     ],
@@ -55,21 +51,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2021/09/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today-test-change/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/15/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today/",
       "page_title": "Department of Cannabis Control Files Emergency Regulations; public comment period begins today",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control Files Emergency Regulations; public comment period begins today",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2021/09/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today-test-change/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/15/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today/",
       "open_graph_title": "Department of Cannabis Control Files Emergency Regulations; public comment period begins today",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Department of Cannabis Control Files Emergency Regulations; public comment period begins today",
@@ -77,16 +73,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 13,
+        "term_id": 2,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 13,
+        "cat_ID": 2,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -95,44 +91,44 @@
     ],
     "headless_tags": [
       {
-        "term_id": 761,
+        "term_id": 26,
         "name": "consolidated regulations",
         "slug": "consolidated-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 761,
+        "term_taxonomy_id": 26,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 231,
+        "term_id": 27,
         "name": "Emergency regulations",
         "slug": "emergency-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 231,
+        "term_taxonomy_id": 27,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 36,
+        "term_id": 120,
         "name": "Public comment",
         "slug": "public-comment",
         "term_group": 0,
-        "term_taxonomy_id": 36,
+        "term_taxonomy_id": 120,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 254,
+        "term_id": 196,
         "name": "Public comment period",
         "slug": "public-comment-period",
         "term_group": 0,
-        "term_taxonomy_id": 254,
+        "term_taxonomy_id": 196,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -142,13 +138,13 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "",
+    "custom_post_date": "2021-09-15",
     "meta_": {
-      "0": "",
+      "0": "2021-09-15",
       "custom_post_link": "",
-      "custom_post_date": "",
+      "custom_post_date": "2021-09-15",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2021/09/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today-test-change/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/15/department-of-cannabis-control-files-emergency-regulations-public-comment-period-begins-today/"
   }
 }

@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2021-07-16T22:16:00",
-    "updated_date": "2021-09-28T17:36:45",
+    "updated_date": "2021-07-16T22:16:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2021-07-16T15:16:00",
     "date_gmt": "2021-07-16T22:16:00",
     "guid": "https://cannabis.ca.gov/?p=8600",
-    "modified": "2021-09-28T17:36:45",
-    "modified_gmt": "2021-09-28T17:36:45",
+    "modified": "2021-07-16T15:16:00",
+    "modified_gmt": "2021-07-16T22:16:00",
     "slug": "department-of-cannabis-control-announces-regulatory-actions",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2021/07/department-of-cannabis-control-announces-regulatory-actions/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
     "title": "Department of Cannabis Control Announces Regulatory Actions",
     "excerpt": "<p>The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.</p>\n",
     "author": "Christina Dempsey",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "off",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Announcements"
     ],
@@ -58,21 +54,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2021/07/department-of-cannabis-control-announces-regulatory-actions/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
       "page_title": "Department of Cannabis Control Announces Regulatory Actions",
       "page_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control Announces Regulatory Actions",
       "meta_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2021/07/department-of-cannabis-control-announces-regulatory-actions/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
       "open_graph_title": "Department of Cannabis Control Announces Regulatory Actions",
       "open_graph_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
       "twitter_title": "Department of Cannabis Control Announces Regulatory Actions",
@@ -80,16 +76,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 13,
+        "term_id": 2,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 13,
+        "cat_ID": 2,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -98,77 +94,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 760,
+        "term_id": 717,
         "name": "ab 1525",
         "slug": "ab-1525",
         "term_group": 0,
-        "term_taxonomy_id": 760,
+        "term_taxonomy_id": 717,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 91,
+        "term_id": 5,
         "name": "Banking",
         "slug": "banking",
         "term_group": 0,
-        "term_taxonomy_id": 91,
+        "term_taxonomy_id": 5,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 400,
+        "term_id": 442,
         "name": "Cannabis regulations",
         "slug": "cannabis-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 400,
+        "term_taxonomy_id": 442,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 231,
+        "term_id": 27,
         "name": "Emergency regulations",
         "slug": "emergency-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 231,
+        "term_taxonomy_id": 27,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 20,
+        "term_id": 6,
         "name": "Regulations",
         "slug": "regulations",
         "term_group": 0,
-        "term_taxonomy_id": 20,
+        "term_taxonomy_id": 6,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 769,
+        "term_id": 718,
         "name": "regulatory action",
         "slug": "regulatory-action",
         "term_group": 0,
-        "term_taxonomy_id": 769,
+        "term_taxonomy_id": 718,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 771,
+        "term_id": 719,
         "name": "section 100",
         "slug": "section-100",
         "term_group": 0,
-        "term_taxonomy_id": 771,
+        "term_taxonomy_id": 719,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -185,6 +181,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2021/07/department-of-cannabis-control-announces-regulatory-actions/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/"
   }
 }

@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2017-04-21T21:09:00",
-    "updated_date": "2021-09-28T17:39:06",
+    "updated_date": "2017-04-21T21:09:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2017-04-21T21:09:00",
     "date_gmt": "2017-04-21T21:09:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
-    "modified": "2021-09-28T17:39:06",
-    "modified_gmt": "2021-09-28T17:39:06",
+    "modified": "2017-04-21T21:09:00",
+    "modified_gmt": "2017-04-21T21:09:00",
     "slug": "marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2017/04/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
     "title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
     "excerpt": "<p>For the International Church of Cannabis in Denver, there were three reasons to celebrate on Thursday.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Announcements"
     ],
@@ -55,21 +51,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
       "page_title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
       "page_description": "For the International Church of Cannabis in Denver, there were three reasons to celebrate on Thursday.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
       "meta_description": "For the International Church of Cannabis in Denver, there were three reasons to celebrate on Thursday.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/",
       "open_graph_title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
       "open_graph_description": "For the International Church of Cannabis in Denver, there were three reasons to celebrate on Thursday.",
       "twitter_title": "Marijuana on Religious Grounds? A Cannabis Church Opens in Denver",
@@ -77,16 +73,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 13,
+        "term_id": 2,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 13,
+        "cat_ID": 2,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -95,44 +91,44 @@
     ],
     "headless_tags": [
       {
-        "term_id": 15,
+        "term_id": 3,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 3,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 28,
+        "term_id": 20,
         "name": "Colorado",
         "slug": "colorado",
         "term_group": 0,
-        "term_taxonomy_id": 28,
+        "term_taxonomy_id": 20,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 29,
+        "term_id": 21,
         "name": "News",
         "slug": "news",
         "term_group": 0,
-        "term_taxonomy_id": 29,
+        "term_taxonomy_id": 21,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 30,
+        "term_id": 22,
         "name": "Religion",
         "slug": "religion",
         "term_group": 0,
-        "term_taxonomy_id": 30,
+        "term_taxonomy_id": 22,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -149,6 +145,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/21/marijuana-on-religious-grounds-a-cannabis-church-opens-in-denver/"
   }
 }

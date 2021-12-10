@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2017-10-03T18:59:00",
-    "updated_date": "2021-09-28T17:38:41",
+    "updated_date": "2017-10-03T18:59:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2017-10-03T18:59:00",
     "date_gmt": "2017-10-03T18:59:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
-    "modified": "2021-09-28T17:38:41",
-    "modified_gmt": "2021-09-28T17:38:41",
+    "modified": "2017-10-03T18:59:00",
+    "modified_gmt": "2017-10-03T18:59:00",
     "slug": "bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2017/10/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
     "title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Announcements"
     ],
@@ -58,21 +54,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/10/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
       "page_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/10/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
       "open_graph_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
       "twitter_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
@@ -80,16 +76,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 13,
+        "term_id": 2,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 13,
+        "cat_ID": 2,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -98,77 +94,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 38,
+        "term_id": 32,
         "name": "Bureau of Cannabis Control",
         "slug": "bureau-of-cannabis-control",
         "term_group": 0,
-        "term_taxonomy_id": 38,
+        "term_taxonomy_id": 32,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 15,
+        "term_id": 3,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 3,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 94,
+        "term_id": 33,
         "name": "Licensing",
         "slug": "licensing",
         "term_group": 0,
-        "term_taxonomy_id": 94,
+        "term_taxonomy_id": 33,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 105,
+        "term_id": 37,
         "name": "Los Angeles",
         "slug": "los-angeles",
         "term_group": 0,
-        "term_taxonomy_id": 105,
+        "term_taxonomy_id": 37,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 104,
+        "term_id": 36,
         "name": "Riverside",
         "slug": "riverside",
         "term_group": 0,
-        "term_taxonomy_id": 104,
+        "term_taxonomy_id": 36,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 103,
+        "term_id": 34,
         "name": "Sacramento",
         "slug": "sacramento",
         "term_group": 0,
-        "term_taxonomy_id": 103,
+        "term_taxonomy_id": 34,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 53,
+        "term_id": 35,
         "name": "Workshop",
         "slug": "workshop",
         "term_group": 0,
-        "term_taxonomy_id": 53,
+        "term_taxonomy_id": 35,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -185,6 +181,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2017/10/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/"
   }
 }

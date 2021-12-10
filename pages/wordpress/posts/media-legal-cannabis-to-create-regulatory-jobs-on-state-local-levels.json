@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2017-08-21T19:03:00",
-    "updated_date": "2021-09-28T17:41:43",
+    "updated_date": "2017-08-21T19:03:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2017-08-21T19:03:00",
     "date_gmt": "2017-08-21T19:03:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
-    "modified": "2021-09-28T17:41:43",
-    "modified_gmt": "2021-09-28T17:41:43",
+    "modified": "2017-08-21T19:03:00",
+    "modified_gmt": "2017-08-21T19:03:00",
     "slug": "media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2017/08/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
     "title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
     "excerpt": "<p>HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Press Releases"
     ],
@@ -63,21 +59,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/08/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
       "page_title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
       "page_description": "HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
       "meta_description": "HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/08/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
       "open_graph_title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
       "open_graph_description": "HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.",
       "twitter_title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
@@ -103,9 +99,20 @@
     ],
     "headless_tags": [
       {
-        "term_id": 68,
+        "term_id": 67,
         "name": "ABC",
         "slug": "abc",
+        "term_group": 0,
+        "term_taxonomy_id": 67,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 68,
+        "name": "Adult",
+        "slug": "adult",
         "term_group": 0,
         "term_taxonomy_id": 68,
         "taxonomy": "post_tag",
@@ -115,8 +122,8 @@
       },
       {
         "term_id": 69,
-        "name": "Adult",
-        "slug": "adult",
+        "name": "Bureau",
+        "slug": "bureau",
         "term_group": 0,
         "term_taxonomy_id": 69,
         "taxonomy": "post_tag",
@@ -125,33 +132,22 @@
         "filter": "raw"
       },
       {
-        "term_id": 34,
-        "name": "Bureau",
-        "slug": "bureau",
-        "term_group": 0,
-        "term_taxonomy_id": 34,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 31,
+        "term_id": 23,
         "name": "California",
         "slug": "california",
         "term_group": 0,
-        "term_taxonomy_id": 31,
+        "term_taxonomy_id": 23,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 15,
+        "term_id": 3,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 3,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -202,11 +198,11 @@
         "filter": "raw"
       },
       {
-        "term_id": 29,
+        "term_id": 21,
         "name": "News",
         "slug": "news",
         "term_group": 0,
-        "term_taxonomy_id": 29,
+        "term_taxonomy_id": 21,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -245,6 +241,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2017/08/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/08/21/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/"
   }
 }

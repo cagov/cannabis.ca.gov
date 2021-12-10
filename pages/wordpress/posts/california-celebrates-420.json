@@ -1,13 +1,13 @@
 {
   "meta": {
     "created_date": "2017-04-20T21:40:00",
-    "updated_date": "2021-09-28T17:39:12",
+    "updated_date": "2017-04-20T21:40:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cagov-dcc.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cagov-dcc.pantheonsite.io",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -17,12 +17,12 @@
     "date": "2017-04-20T21:40:00",
     "date_gmt": "2017-04-20T21:40:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-celebrates-420/",
-    "modified": "2021-09-28T17:39:12",
-    "modified_gmt": "2021-09-28T17:39:12",
+    "modified": "2017-04-20T21:40:00",
+    "modified_gmt": "2017-04-20T21:40:00",
     "slug": "california-celebrates-420",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cagov-dcc.pantheonsite.io/2017/04/california-celebrates-420/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/20/california-celebrates-420/",
     "title": "California Celebrates 4/20",
     "excerpt": "<p>Today, April 20, is the most exalted day of the year for marijuana enthusiasts, but now that pot is legal in California aficionados predict that this 4/20 will likely be bigger and smokier than ever.</p>\n",
     "author": "Department of Cannabis Control",
@@ -30,13 +30,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": {
-      "_et_pb_use_builder": "",
-      "_et_pb_old_content": "",
-      "_et_gb_content_width": ""
-    },
+    "meta": [],
     "categories": [
       "Announcements"
     ],
@@ -50,21 +46,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cagov-dcc.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cagov-dcc.pantheonsite.io",
-      "canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/california-celebrates-420/",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/20/california-celebrates-420/",
       "page_title": "California Celebrates 4/20",
       "page_description": "Today, April 20, is the most exalted day of the year for marijuana enthusiasts, but now that pot is legal in California aficionados predict that this 4/20 will likely be bigger and smokier than ever.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "California Celebrates 4/20",
       "meta_description": "Today, April 20, is the most exalted day of the year for marijuana enthusiasts, but now that pot is legal in California aficionados predict that this 4/20 will likely be bigger and smokier than ever.",
-      "meta_canonical_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/california-celebrates-420/",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/20/california-celebrates-420/",
       "open_graph_title": "California Celebrates 4/20",
       "open_graph_description": "Today, April 20, is the most exalted day of the year for marijuana enthusiasts, but now that pot is legal in California aficionados predict that this 4/20 will likely be bigger and smokier than ever.",
       "twitter_title": "California Celebrates 4/20",
@@ -72,16 +68,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 13,
+        "term_id": 2,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 13,
+        "cat_ID": 2,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -99,6 +95,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cagov-dcc.pantheonsite.io/2017/04/california-celebrates-420/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/04/20/california-celebrates-420/"
   }
 }
