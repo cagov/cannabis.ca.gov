@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "created_date": "2021-06-15T20:58:00",
+    "updated_date": "2021-10-13T19:51:14",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 502,
+    "date": "2021-06-15T13:58:00",
+    "date_gmt": "2021-06-15T20:58:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=502",
+    "modified": "2021-10-13T12:51:14",
+    "modified_gmt": "2021-10-13T19:51:14",
+    "slug": "drought-conditions-prompt-restrictions-for-some-delta-water-right-holders",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/drought-conditions-prompt-restrictions-for-some-delta-water-right-holders/",
+    "title": "Drought Conditions Prompt Restrictions for Some Delta Water Right Holders",
+    "excerpt": "<p>With extremely dry conditions continuing throughout the Sacramento San Joaquin Delta, the State Water Resources Control Board today sent notices of water unavailability to approximately 4,300 right holders in the watershed, urging them to stop diverting to preserve dwindling water supply for both this year and the next.</p>\n",
+    "author": "Chach Sikes",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06152021_bay_delta_unavailability.pdf",
+      "custom_post_date": "2021-06-15",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/drought-conditions-prompt-restrictions-for-some-delta-water-right-holders/",
+      "page_title": "Drought Conditions Prompt Restrictions for Some Delta Water Right Holders",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Drought Conditions Prompt Restrictions for Some Delta Water Right Holders",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/drought-conditions-prompt-restrictions-for-some-delta-water-right-holders/",
+      "open_graph_title": "Drought Conditions Prompt Restrictions for Some Delta Water Right Holders",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Drought Conditions Prompt Restrictions for Some Delta Water Right Holders",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2021-06-15",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/drought-conditions-prompt-restrictions-for-some-delta-water-right-holders/"
+  }
+}

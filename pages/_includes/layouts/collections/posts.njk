@@ -1,0 +1,28 @@
+---
+tags:
+  - posts
+pagination:
+    data: wordpress
+    size: 5
+    alias: wordpress
+layout: "layouts/collections/posts.njk"
+---
+
+<div class="post-list-results">
+  <div class="post-list-items">
+    {%- for item in pagination.items %}
+      <div class="post-list-item">
+        <!-- @TODO this should use a micro component, 3 variants -->
+        <div class="link-title"><a href="{{ item.dataset.data.wordpress_url }}">
+          {{ item.dataset.data.title | safe }}
+        </a></div>
+        <div class="excerpt"><p></p>
+        <p>{{ item.dataset.data.excerpt | safe }}</p>
+        <p></p></div>
+        <div class="date">{{ item.dataset.data.date }}</div>
+      </div>
+    {% endfor -%}
+  </div>
+</div>
+
+<cagov-pagination data-current-page="{{ pagination.pageNumber }}" data-total-pages="{{ pagination.pages.length }}"></cagov-pagination>

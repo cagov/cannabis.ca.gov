@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "created_date": "2021-10-28T23:06:56",
+    "updated_date": "2021-10-28T23:17:46",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 863,
+    "date": "2021-10-28T16:06:56",
+    "date_gmt": "2021-10-28T23:06:56",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=863",
+    "modified": "2021-10-28T16:17:46",
+    "modified_gmt": "2021-10-28T23:17:46",
+    "slug": "dwr-offers-grants-for-urban-and-multibenefit-drought-relief",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/dwr-offers-grants-for-urban-and-multibenefit-drought-relief/",
+    "title": "DWR Offers Grants for Urban and Multibenefit Drought Relief",
+    "excerpt": "<p>The Department of Water Resources (DWR) today announced the release of the program guidelines and proposal solicitation package to distribute $200 million in funding available through the Urban and Multibenefit Drought Relief Grant Program.</p>\n",
+    "author": "Peggy Gartin",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Oct-21/DWR-Offers-Grants-for-Urban-and-Multibenefit-Drought-Relief",
+      "custom_post_date": "2021-10-28",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-offers-grants-for-urban-and-multibenefit-drought-relief/",
+      "page_title": "DWR Offers Grants for Urban and Multibenefit Drought Relief",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "DWR Offers Grants for Urban and Multibenefit Drought Relief",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-offers-grants-for-urban-and-multibenefit-drought-relief/",
+      "open_graph_title": "DWR Offers Grants for Urban and Multibenefit Drought Relief",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "DWR Offers Grants for Urban and Multibenefit Drought Relief",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2021-10-28",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-offers-grants-for-urban-and-multibenefit-drought-relief/"
+  }
+}

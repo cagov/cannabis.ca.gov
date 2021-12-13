@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
+  "version": "1.0.0", 
   "name": "cannabis.ca.gov - Department of Cannabis Control",
-  "gitrepo": "@cagov/cannabis.ca.gov - Department of Cannabis Control",
+  "gitrepo": "@cagov/cannabis.ca.gov",
   "contact": {
     "maintainer": "Office of Digital Innovation"
   },
@@ -14,6 +14,16 @@
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "As needed"
+  },
+  "og_meta": {
+    "site_name": "Department of Cannabis Control",
+    "site_description": "Learn about California cannabis laws and licenses",
+    "site_social_url": "",
+    "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+    "page_social_image_alt": "Department of Cannabis Control",
+    "site_url": "https://cannabis.ca.gov",
+    "page_social_image_width": 1200,
+    "page_social_image_height": 630
   },
   "data": {
     "name": "Department of Cannabis Control",
@@ -31,35 +41,25 @@
       "wp-site-health/v1"
     ]
   },
-  "og_meta": {
-    "site_name": "Department of Cannabis Control",
-    "site_description": "Learn about California cannabis laws and licenses",
-    "site_social_url": "",
-    "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
-    "page_social_image_alt": "Department of Cannabis Control",
-    "site_url": "https://cannabis.ca.gov",
-    "page_social_image_width": 1200,
-    "page_social_image_height": 630
-  },
   "build": {
     "input": "pages",
     "output": "docs",
     "static_site_media": "/media/",
     "index_layout": "layouts/index",
     "upload_folder": "wp-content/uploads/",
-    "replace_urls": ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/", "https://dev-cannabis-gov.pantheonsite.io/", "https://test-cannabis-ca-gov.pantheonsite.io/", "https://live-cannabis-ca-gov.pantheonsite.io/"],
+    "replace_urls": ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/", "https://dev-cagov-dcc.pantheonsite.io"],
     "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io",
     "static_site_url": "https://cannabis.ca.gov",
     "canonical_url": "https://cannabis.ca.gov",
-    "s3_bucket_url": "http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
-    "media": "wordpress/media",
+    "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "media": "pages/wordpress/media",
     "pages": "pages/wordpress/posts",
     "posts": "pages/wordpress/posts"
   },
   "endpoints": {
     "wordpress-to-github": {
       "src": "./wordpress",
-      "config": "./wordpress",
+      "config": "./wordpress/config",
       "endpoints": {
         "posts": "wp-json/wp/v2/posts",
         "pages": "wp-json/wp/v2/pages",
@@ -74,7 +74,7 @@
       "config": "./redirects"
     },
     "11ty-serverless-preview": {
-      "config": "@TODO",
+      "config": "./src-preview",
       "endpoint": "@TODO"
     },
     "odi-publishing": {
@@ -96,74 +96,18 @@
     }
   },
   "analytics": {
-    "cx": "@TODO",
-    "url": "@TODO",
-    "src": "@TODO"
+    "cx": "001779225245372747843:o_16poin-0q",
+    "url": "https://cse.google.com/api/003358532045999200914:uxxka6d3pge/popularqueryjs?view=week",
+    "src": "https://cse.google.com/cse.js?language=en-US&cx="
   },
   "ethnio": null,
   "search": {
-    "google_console_url": "@TODO",
-    "path": "search @TODO check"
+    "google_console_url": "https://cannabis.ca.gov/serp/",
+    "path": "serp"
   },
   "translations": {},
   "languages": {
     "es": "Español",
     "en": "English"
-  },
-  "social_links": [{
-      "label": "Facebook",
-      "link": "https://www.facebook.com/SaveOurWaterCA",
-      "icon": "ca-gov-icon-facebook",
-      "title": {
-        "es": "Share via Facebook @TRANSLATE @DOCS",
-        "en": "Share via Facebook",
-        "sr-only": "Facebook"
-      },
-      "tracking": false
-    },
-    {
-      "label": "Twitter",
-      "link": "https://twitter.com/saveourwater",
-      "icon": "ca-gov-icon-twitter",
-      "title": {
-        "es": "Share via Twitter @TRANSLATE @DOCS",
-        "en": "Share via Twitter",
-        "sr-only": "Twitter"
-      },
-      "tracking": false
-    },
-    {
-      "label": "Instagram",
-      "link": "https://www.instagram.com/saveourwater/",
-      "icon": "ca-gov-icon-instagram",
-      "title": {
-        "es": "Share via Instagram @TRANSLATE @DOCS",
-        "en": "Share via Instagram",
-        "sr-only": "Share via Instagram"
-      },
-      "tracking": false
-    },
-    {
-      "label": "YouTube",
-      "link": "https://www.youtube.com/channel/UCTTvFfFatgWr6jv1jVgei1w,",
-      "icon": "ca-gov-icon-youtube",
-      "title": {
-        "es": "Share via YouTube @TRANSLATE @DOCS",
-        "en": "Share via YouTube",
-        "sr-only": "Share via YouTube"
-      },
-      "tracking": false
-    },
-    {
-      "label": "GitHub",
-      "link": "https://github.com/cagov/drought.ca.gov",
-      "icon": "ca-gov-icon-github",
-      "title": {
-        "es": "Share via GitHub @TRANSLATE @DOCS",
-        "en": "Share via GitHub",
-        "sr-only": "Share via GitHub"
-      },
-      "tracking": false
-    }
-  ]
+  }
 }

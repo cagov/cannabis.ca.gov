@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "created_date": "2021-09-28T17:54:05",
+    "updated_date": "2021-12-06T22:17:53",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 583,
+    "date": "2021-09-28T10:54:05",
+    "date_gmt": "2021-09-28T17:54:05",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=583",
+    "modified": "2021-12-06T14:17:53",
+    "modified_gmt": "2021-12-06T22:17:53",
+    "slug": "weekly-drought-update",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/",
+    "title": "Weekly drought update",
+    "excerpt": "<p>The California Drought Update is a weekly roundup of drought conditions, state actions, and upcoming developments. Latest update December 6, 2021 Past updates November 22, 2021 November 15, 2021 November 8, 2021 November 1, 2021 October 25, 2021 October 18, 2021 October 11, 2021 October 4, 2021 September 27, 2021 September 20, 2021 Contributors The &#8230; <a title=\"Weekly drought update\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/\" aria-label=\"More on Weekly drought update\">Read more</a></p>\n",
+    "author": "Peggy Gartin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      "Weekly drought update"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/",
+      "page_title": "Weekly drought update",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Weekly drought update",
+      "meta_description": "The California Drought Update is a weekly roundup of conditions, state actions, and upcoming developments. Find all editions here.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/",
+      "open_graph_title": "Weekly drought update",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Weekly drought update",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 25,
+        "name": "Weekly drought update",
+        "slug": "weekly-drought-update",
+        "term_group": 0,
+        "term_taxonomy_id": 25,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 25,
+        "category_description": "",
+        "cat_name": "Weekly drought update",
+        "category_nicename": "weekly-drought-update",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/"
+  }
+}

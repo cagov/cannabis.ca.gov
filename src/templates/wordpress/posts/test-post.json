@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "created_date": "2021-07-22T21:44:08",
+    "updated_date": "2021-08-03T21:07:47",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 360,
+    "date": "2021-07-22T14:44:08",
+    "date_gmt": "2021-07-22T21:44:08",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=360",
+    "modified": "2021-08-03T14:07:47",
+    "modified_gmt": "2021-08-03T21:07:47",
+    "slug": "test-post",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/test-post/",
+    "title": "Staging only Test post",
+    "excerpt": "<p>update 2</p>\n",
+    "author": "Jim Bumgardner",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "Uncategorized"
+    ],
+    "tags": [
+      "staging"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/test-post/",
+      "page_title": "Staging only Test post",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Test post2",
+      "meta_description": "test test",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/test-post/",
+      "open_graph_title": "Staging only Test post",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Staging only Test post",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw",
+        "cat_ID": 1,
+        "category_count": 1,
+        "category_description": "",
+        "cat_name": "Uncategorized",
+        "category_nicename": "uncategorized",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/test-post/"
+  }
+}

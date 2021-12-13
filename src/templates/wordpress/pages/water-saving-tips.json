@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_date": "2021-07-06T23:09:05",
+    "updated_date": "2021-10-13T23:06:49",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 182,
+    "date": "2021-07-06T16:09:05",
+    "date_gmt": "2021-07-06T23:09:05",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=182",
+    "modified": "2021-10-13T16:06:49",
+    "modified_gmt": "2021-10-13T23:06:49",
+    "slug": "water-saving-tips",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+    "title": "Water-saving tips",
+    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top ways to conserve water:&nbsp; Improve landscape irrigation50% of residential water use goes &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
+    "author": "Peggy Gartin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "single-column",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "single-column"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+      "page_title": "Water-saving tips",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Water&#x2d;saving tips",
+      "meta_description": "The best tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+      "open_graph_title": "California drought action &#x2d; Water&#x2d;saving tips",
+      "open_graph_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day.",
+      "twitter_title": "California drought action &#x2d; Water&#x2d;saving tips",
+      "twitter_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_date": "2021-07-06T15:42:41",
+    "updated_date": "2021-09-30T23:51:34",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 132,
+    "date": "2021-07-06T08:42:41",
+    "date_gmt": "2021-07-06T15:42:41",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=132",
+    "modified": "2021-09-30T16:51:34",
+    "modified_gmt": "2021-09-30T23:51:34",
+    "slug": "development-sample-page",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+    "title": "Development",
+    "excerpt": "<p>This is a page of Gutenberg blocks and other settings, for rendering tests. Jim testing. #9 Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
+    "author": "Jim Bumgardner",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+      "page_title": "Development",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-cropped-65535_51212545511_72587a3916_h_1024_800_nofilter.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Page meta title",
+      "meta_description": "Page meta description",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+      "open_graph_title": "Page meta title",
+      "open_graph_description": "Page meta description",
+      "twitter_title": "Development",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/"
+  }
+}

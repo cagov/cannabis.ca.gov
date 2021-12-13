@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "created_date": "2021-07-04T14:50:45",
+    "updated_date": "2021-07-08T15:23:12",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 35,
+    "date": "2021-07-04T14:50:45",
+    "date_gmt": "2021-07-04T14:50:45",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=35",
+    "modified": "2021-07-08T08:23:12",
+    "modified_gmt": "2021-07-08T15:23:12",
+    "slug": "how-you-can-help",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
+    "title": "How you can help",
+    "excerpt": "<p>Be drought-aware Drought levels vary across the state, but all Californians live in a drought zone. And all Californians can play an important role in limiting the impact of drought. Use water wisely In recent years, Californians have embraced some great daily habits to save water: Taking 5-minute showers Turning off the faucet when brushing &#8230; <a title=\"How you can help\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/\" aria-label=\"More on How you can help\">Read more</a></p>\n",
+    "author": "Chach Sikes",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      "launch content"
+    ],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
+      "page_title": "How you can help",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "How you can help",
+      "meta_description": "Find out water&#x2d;wise daily habits that can help you save gallons of water every day. This will help the state meets its goal of a 15% reduction in water consumption.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
+      "open_graph_title": "How you can help",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "How you can help",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "launch content",
+        "slug": "launch-content",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
+    "media": [
+      {
+        "id": 213,
+        "type": "full",
+        "path": "2021/07/save-water-bottle.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+        "file": "save-water-bottle.png",
+        "width": 759,
+        "height": 506,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 213,
+        "type": "large",
+        "path": "2021/07/save-water-bottle-750x500.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
+        "file": "save-water-bottle-750x500.png",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 213,
+        "type": "medium",
+        "path": "2021/07/save-water-bottle-300x200.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
+        "file": "save-water-bottle-300x200.png",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
