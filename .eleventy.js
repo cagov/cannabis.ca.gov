@@ -68,7 +68,7 @@ module.exports = function (eleventyConfig) {
         html = renderEventLists(html);
       }
       // Replace Wordpress media paths with correct 11ty output path.
-      html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/media/");
+      html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/wp-content/uploads/");
       // Minify HTML.
       html = htmlmin.minify(html, {
         useShortDoctype: true,
