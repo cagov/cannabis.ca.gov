@@ -102,4 +102,6 @@ class CAGOVOverlayNav extends window.HTMLElement {
     });
   }
 }
-window.customElements.define('cagov-navoverlay', CAGOVOverlayNav);
+if (window.customElements.get('cagov-navoverlay') === null) {
+  window.customElements.define('cagov-navoverlay', CAGOVOverlayNav);
+}
