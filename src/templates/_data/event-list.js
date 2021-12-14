@@ -33,21 +33,24 @@ module.exports = function (
   link = "https://cannabis.ca.gov/2021/02/16/cannabis-advisory-committee-to-hold-virtual-meeting-3/",
   title = "Cannabis Advisory Committee To Hold Virtual Meeting",
 ) {
-  return `<cagov-post-list class="post-list cagov-stack" data-category="${category}" data-count="${5}" data-order="${order}" data-endpoint="${endpoint}" data-show-excerpt="${showExcerpt}" data-show-published-date="${showPublishedDate}" data-no-results="${noResults}" data-show-pagination="${showPagination}" data-read-more="${readMore}" data-filter="${filter}">
-      <div class="post-list-results">
-      ${dataset.map(
-          (post) => `<div class="post-list-items">
-        <div class="post-list-item">
-          <div class="link-title"><a href="${link}">
-            ${title}
-          </a></div>
-        <div class="date">${post.data[fieldDate]}</div>
-      </div>`
-        )
-        .join("\n")}
+  return `<cagov-event-list class="event-list cagov-stack" data-category="${category}" data-count="${5}" data-order="${order}" data-endpoint="${endpoint}" data-show-excerpt="${showExcerpt}" data-show-published-date="${showPublishedDate}" data-no-results="${noResults}" data-show-pagination="${showPagination}" data-read-more="${readMore}" data-filter="${filter}">
+      <div class="event-list-results">
+@TODO
       </div>
       
       ${readMore}
       </div>
-    </cagov-post-list>`;
+    </cagov-event-list>`;
 };
+
+
+// ${dataset.map(
+//   (post) => `<div class="event-list-items">
+// <div class="event-list-item">
+//   <div class="link-title"><a href="${link}">
+//     ${title}
+//   </a></div>
+// <div class="date">${post.data[fieldDate]}</div>
+// </div>`
+// )
+// .join("\n")}

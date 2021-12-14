@@ -1,5 +1,5 @@
 const cheerio = require("cheerio");
-const { getPostsByCategory } = require("./get-posts");
+const { getEventsByCategory } = require("./get-posts");
 
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
@@ -33,16 +33,16 @@ const setDefaultAttributes = (attributes) => {
  * @param {Object} attributes An object of cagov-post-list attributes.
  * @returns {string} A string of rendered HTML.
  */
-const applyPostsTemplate = (posts, attributes) => {
+const applyEventsTemplate = (posts, attributes) => {
   let innerContent;
   if (posts !== undefined && posts !== null && posts.length > 0) {
     if (attributes.type === "wordpress") {
-      renderedPosts = posts.map((post) =>
+      renderedEvents = posts.map((post) =>
         renderWordpressPostTitleDate(post.data, attributes)
       );
       innerContent = `
         <div class="post-list-items">
-          ${renderedPosts.join("")}
+          ${renderedEvents.join("")}
         </div>
         ${attributes.readMore}
       `;
@@ -193,7 +193,7 @@ const renderWordpressPostTitleDate = (
  * @param {string} html A string of HTML.
  * @returns {string} A modified HTML string with cagov-post-list components pre-rendered.
  */
-const renderPostLists = function (html) {
+const renderEventLists = function (html) {
   const postLists = html.matchAll(
     /<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm
   );
@@ -222,14 +222,14 @@ const renderPostLists = function (html) {
 
     let processedAttributes = setDefaultAttributes(postListAttributes);
 
-    let recentPosts = getPostsByCategory(
+    let recentEvents = getEventsByCategory(
       postListAttributes.category,
       parseInt(postListAttributes.count),
       "custom_post_date" // @TODO link in WP html & pull from processedAttributes @ISSUE
     );
 
-    let modifiedMarkup = applyPostsTemplate(
-      recentPosts, 
+    let modifiedMarkup = applyEventsTemplate(
+      recentEvents, 
       processedAttributes
     );
 
@@ -241,4 +241,4 @@ const renderPostLists = function (html) {
   return result;
 };
 
-module.exports = { renderPostLists };
+module.exports = { renderEventLists };

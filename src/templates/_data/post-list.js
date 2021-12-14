@@ -17,19 +17,22 @@ module.exports = function (
 ) {
   return `<cagov-post-list class="post-list cagov-stack" data-category="${category}" data-count="${5}" data-order="${order}" data-endpoint="${endpoint}" data-show-excerpt="${showExcerpt}" data-show-published-date="${showPublishedDate}" data-no-results="${noResults}" data-show-pagination="${showPagination}" data-read-more="${readMore}" data-filter="${filter}">
       <div class="post-list-results">
-      ${dataset.map(
-          (post) => `<div class="post-list-items">
-        <div class="post-list-item">
-          <div class="link-title"><a href="${link}">
-            ${title}
-          </a></div>
-        <div class="date">${post.data[fieldDate]}</div>
-      </div>`
-        )
-        .join("\n")}
+
       </div>
       
       ${readMore}
       </div>
     </cagov-post-list>`;
 };
+
+
+// ${dataset.map(
+//   (post) => `<div class="post-list-items">
+// <div class="post-list-item">
+//   <div class="link-title"><a href="${link}">
+//     ${title}
+//   </a></div>
+// <div class="date">${post.data[fieldDate]}</div>
+// </div>`
+// )
+// .join("\n")}
