@@ -1,42 +1,40 @@
 {
   "meta": {
-    "created_date": "2021-07-04T19:45:28",
-    "updated_date": "2021-10-01T19:50:08",
+    "created_date": "2021-06-19T15:07:31",
+    "updated_date": "2021-06-19T15:07:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 70,
-    "date": "2021-07-04T12:45:28",
-    "date_gmt": "2021-07-04T19:45:28",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=70",
-    "modified": "2021-10-01T12:50:08",
-    "modified_gmt": "2021-10-01T19:50:08",
+    "id": 759,
+    "date": "2021-06-19T15:07:31",
+    "date_gmt": "2021-06-19T15:07:31",
+    "guid": "http://wordpress.test:8888/index-5/",
+    "modified": "2021-06-19T15:07:31",
+    "modified_gmt": "2021-06-19T15:07:31",
     "slug": "resources",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/resources/",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/resources/",
     "title": "Resources",
-    "excerpt": "<p>Find your local water agency Public utilities About 90% of the water in California is managed by public utilities that belong to the Association of California Water Agencies (ACWA). To find your local agency, start here. Find your region Private companies The rest of California is serviced by private water companies, most of which belong &#8230; <a title=\"Resources\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/resources/\" aria-label=\"More on Resources\">Read more</a></p>\n",
-    "author": "Chach Sikes",
+    "excerpt": "",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "parent": 0,
-    "menu_order": 0,
-    "comment_status": "closed",
-    "ping_status": "closed",
-    "template": "",
+    "menu_order": 1,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/page.php",
     "meta": [],
     "categories": [],
-    "tags": [
-      "launch content"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "page"
     },
@@ -46,42 +44,30 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
       },
-      "site_name": "California drought action",
-      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/resources/",
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/resources/",
       "page_title": "Resources",
-      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Resources &#x2d; California drought action",
-      "meta_description": "A list of drought resources from California state agencies, including help for dry wells, ways to protect fish and wildlife, and contacts for water assistance.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/resources/",
-      "open_graph_title": "Resources &#x2d; California drought action",
-      "open_graph_description": "Learn more about current conditions, the state’s response, and informational resources available to the public.",
+      "meta_title": "Resources",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/resources/",
+      "open_graph_title": "Resources",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Resources",
-      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+      "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [],
-    "headless_tags": [
-      {
-        "term_id": 15,
-        "name": "launch content",
-        "slug": "launch-content",
-        "term_group": 0,
-        "term_taxonomy_id": 15,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/resources/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/resources/"
   }
 }
