@@ -69,23 +69,6 @@ Benefits:
 - The codegen tool is helpful
 - Supports 3 browser engines so we can test Chrome, Firefox and Safari
 
-### Integration(End to end) tests with cypress
-
-
-The cypress headless tests are triggered with ```npm test```. These run in the git action e2e-cypress.yml. The git action runs setup scripts and starts a web dev server to return files in docs/ after the build runs.
-
-To run cypress tests locally
-- ```npm test:cypress``` to start a dev server and launch the cypress test runner tool
-- Before running tests you need to have run a build at least once. The tests are not yet tied to a watch or rebuild process. If you have already done ```npm run dev``` or ```npm run build``` then you will have generated the static site and can run the test command without a server running.
-
-More info on <a href="https://www.cypress.io/">cypress</a>
-
-Benefits:
-- Works nicely in a git action
-- Runs reliably
-- Helpful debugging tools
-- Supports 2 browser engines so we can test Chrome and Firefox
-
 ## npm scripts
 
 The scripts in the package.json are arranged alphabetically. 
