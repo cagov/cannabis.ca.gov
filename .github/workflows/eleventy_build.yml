@@ -11,16 +11,16 @@ on:
       - main
 jobs:
   build_deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: n1hility/cancel-previous-runs@v2
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
-      - name: Use Node.js 14.17.0
+      - name: Use Node.js 16.13.1
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17.0
+          node-version: 16.13.1
       - name: Build 11ty
         run: |
           mkdir dist
