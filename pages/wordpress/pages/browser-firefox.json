@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_date": "2021-06-30T18:36:56",
+    "updated_date": "2021-06-30T18:36:56",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8336,
+    "date": "2021-06-30T11:36:56",
+    "date_gmt": "2021-06-30T18:36:56",
+    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8336",
+    "modified": "2021-06-30T11:36:56",
+    "modified_gmt": "2021-06-30T18:36:56",
+    "slug": "browser-firefox",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/",
+    "title": "Keyboard Shortcuts for Firefox",
+    "excerpt": "<p>Keyboard Shortcuts for Firefox Windows Navigation To do this Press this Back Alt + ← BackspaceAlt + ← Ctrl + [ Forward Alt + → Shift + BackspaceAlt + → Ctrl + ] Home Alt + Home Open File Ctrl + O Reload F5 Ctrl + R Reload (override cache) Ctrl + F5 Ctrl + &#8230; <a title=\"Keyboard Shortcuts for Firefox\" class=\"read-more\" href=\"https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/\" aria-label=\"More on Keyboard Shortcuts for Firefox\">Read more</a></p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page-single-column"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/",
+      "page_title": "Keyboard Shortcuts for Firefox",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Keyboard Shortcuts for Firefox",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/",
+      "open_graph_title": "Keyboard Shortcuts for Firefox",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Keyboard Shortcuts for Firefox",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/"
+  }
+}

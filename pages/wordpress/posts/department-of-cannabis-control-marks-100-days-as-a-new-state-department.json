@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "created_date": "2021-10-21T23:16:44",
+    "updated_date": "2021-10-21T23:16:44",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8927,
+    "date": "2021-10-21T16:16:44",
+    "date_gmt": "2021-10-21T23:16:44",
+    "guid": "https://cannabis.ca.gov/?p=8927",
+    "modified": "2021-10-21T16:16:44",
+    "modified_gmt": "2021-10-21T23:16:44",
+    "slug": "department-of-cannabis-control-marks-100-days-as-a-new-state-department",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+    "title": "Department of Cannabis Control marks 100 days as a new state department",
+    "excerpt": "<p>CALIFORNIA – Today, California’s Department of Cannabis Control (DCC) marks its first 100 days as a new state department. In this short time, DCC has already taken significant steps to deliver on the Newsom Administration’s commitments to support California cannabis businesses and improve the cannabis regulatory framework. “We’ve made meaningful early progress as a new &#8230; <a title=\"Department of Cannabis Control marks 100 days as a new state department\" class=\"read-more\" href=\"https://live-cannabis-ca-gov.pantheonsite.io/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/\" aria-label=\"More on Department of Cannabis Control marks 100 days as a new state department\">Read more</a></p>\n",
+    "author": "Christina Dempsey",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-single-press-release"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+      "page_title": "Department of Cannabis Control marks 100 days as a new state department",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Department of Cannabis Control marks 100 days as a new state department",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+      "open_graph_title": "Department of Cannabis Control marks 100 days as a new state department",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Department of Cannabis Control marks 100 days as a new state department",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "2021-10-21",
+    "meta_": {
+      "0": "2021-10-21",
+      "custom_post_link": "",
+      "custom_post_date": "2021-10-21",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+    "media": [
+      {
+        "id": 8923,
+        "type": "full",
+        "path": "2021/10/20210924_095121-002-scaled-2.jpg",
+        "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/20210924_095121-002-scaled-2.jpg",
+        "file": "20210924_095121-002-scaled-2.jpg",
+        "width": 2560,
+        "height": 1336,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/20210924_095121-002-scaled-2.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "full",
+        "path": "2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "width": 2560,
+        "height": 2443,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
