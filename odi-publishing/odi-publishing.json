@@ -105,6 +105,14 @@
     "google_console_url": "https://cannabis.ca.gov/serp/",
     "path": "serp"
   },
+  "tracking": {
+    "todo": "get url of menu & parse this as a match",
+    "social_links": {
+      "facebook": "facebook.com/cacannabisdept",
+      "twitter": "twitter.com/cacannabisdept",
+      "instagram": "instagram.com/cacannabisdept"
+    }
+  },
   "translations": {},
   "languages": {
     "es": "Español",

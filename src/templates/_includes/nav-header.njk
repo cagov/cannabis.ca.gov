@@ -1,27 +1,27 @@
 <nav id="navigation" class="main-navigation dropdown hidden-print nav" data-multiselectable="false"
   data-nav-id="hg9r92s58o">
+  HELLO
   <ul id="nav_list" class="top-level-nav">
-    {%-set headerLinks = menus['header-menu'].items -%}
-    {% for menu in headerLinks %}
-    <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page" title="">
-      <div class="has-sub-btn"><button class="first-level-btn nav-header has-sub" id="navz9mkgo0td82_tab1"
-          aria-controls="navz9mkgo0td82_panel1" data-nav-id="hg9r92s58o" aria-expanded="false"><span
-            class="ca-gov-icon-logo invisible"></span><span class="link-title">{{ menu.title | safe }}<span
-              class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span><span
-            class="ca-gov-icon-triangle-down carrot" aria-hidden="true"></span></button></div>
-      <div class="sub-nav" role="tabpanel" aria-labelledby="navz9mkgo0td82_tab1" id="navz9mkgo0td82_panel1"
-        data-nav-id="hg9r92s58o" aria-hidden="true">
-        <div>
-          <ul class="second-level-nav">
-            {% for sublink in menu['child_items'] %}
-            <li class="unit1  menu-item menu-item-type-post_type menu-item-object-page" title=""><a
-                href="{{ sublink.url | safe }}" class="second-level-link"
-                tabindex="-1">{{ sublink.title | safe }}</a></li>
-            {% endfor %}
-          </ul>
+    {% for menu in headerMenu.items %}
+      <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page" title="">
+        <div class="has-sub-btn"><button class="first-level-btn nav-header has-sub" id="navz9mkgo0td82_tab1"
+            aria-controls="navz9mkgo0td82_panel1" data-nav-id="hg9r92s58o" aria-expanded="false"><span
+              class="ca-gov-icon-logo invisible"></span><span class="link-title">{{ menu.title | safe }}<span
+                class="ca-gov-icon-triangle-down carrot align-middle" aria-hidden="true"></span></span><span
+              class="ca-gov-icon-triangle-down carrot" aria-hidden="true"></span></button></div>
+        <div class="sub-nav" role="tabpanel" aria-labelledby="navz9mkgo0td82_tab1" id="navz9mkgo0td82_panel1"
+          data-nav-id="hg9r92s58o" aria-hidden="true">
+          <div>
+            <ul class="second-level-nav">
+              {% for sublink in menu['child_items'] %}
+              <li class="unit1  menu-item menu-item-type-post_type menu-item-object-page" title=""><a
+                  href="{{ sublink.url | safe }}" class="second-level-link"
+                  tabindex="-1">{{ sublink.title | safe }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
-      </div>
-    </li>
+      </li>
     {% endfor %}
   </ul>
 </nav>
