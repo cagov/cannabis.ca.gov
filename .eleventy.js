@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
         html = renderPostLists(html);
       }
 
-      if (html.includes("cagov-event-list")) {
+      if (html.includes("cagov-event-post-list")) {
         html = renderEventLists(html);
       }
       // Replace Wordpress media paths with correct 11ty output path.

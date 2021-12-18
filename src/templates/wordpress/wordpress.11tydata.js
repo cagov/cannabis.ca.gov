@@ -12,7 +12,13 @@ module.exports = {
   eleventyComputed: {
     permalink: article => getUrlPath(article.data?.wordpress_url),
     layout: article => article.data?.design_system_fields?.template || article.data?.type || "page",
-    // Below, mimic the structure of Wordpress article data files.
+    parentid: article => article.data.parent,
+    title: article => article.data.title,
+    category: article => article.data?.categories[0],
+    site_name: config.data.name,
+    gov_name: "CA.GOV",
+    gov_url: "https:\/\/ca.gov",
+    // Below, mimic the structure of Wordpress article data files (pages/posts).
     // Use the value in the article data JSON if available, otherwise set default.
     data: {
       og_meta: {

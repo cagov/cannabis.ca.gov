@@ -22,7 +22,7 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
  * @param {number} count The number of posts to return.
  * @returns {Object[]} A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
  */
-const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date") => {
+const getEventsByCategory = (categoryString, count = 5, field = "custom_post_date") => {
   let componentCategories = categoryString
     .split(",")
     .map((c) => c.toLowerCase());
@@ -55,4 +55,4 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
   return postsToReturn;
 };
 
-module.exports = { getPostsByCategory };
+module.exports = { getEventsByCategory };

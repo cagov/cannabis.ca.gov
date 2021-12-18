@@ -10,8 +10,8 @@ const { getEventsByCategory } = require("./get-posts");
 const setDefaultAttributes = (attributes) => {
   let defaults = {
     order: "desc",
-    count: "10",
-    category: "announcements,press-releases",
+    count: "3",
+    category: "events",
     showExcerpt: true,
     noResults: "No results found",
     showPublishedDate: true,
@@ -138,19 +138,8 @@ const renderWordpressPostTitleDate = (
 
   let category_type = "";
   let showCategoryType = false;
-  // Disabled but can enable when we have a default style.
-  /*
-  if (
-    showCategoryType &&
-    categories !== null &&
-    Object.keys(categoryMap).length > 1
-  ) {
-    let categoryItem = categoryMap[[categories[0]]]; // Use first category. There should only be one set.
-    if (categoryItem.name !== undefined && categoryItem.name !== null) {
-      category_type = `<div class="category-type">${categoryItem.name}</div>`;
-    }
-  }
-  */
+
+  
 
   if (format === "status") {
     return `
@@ -195,7 +184,7 @@ const renderWordpressPostTitleDate = (
  */
 const renderEventLists = function (html) {
   const postLists = html.matchAll(
-    /<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm
+    /<cagov-event-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-event-post-list>/gm
   );
 
   let result = html;
@@ -206,7 +195,7 @@ const renderEventLists = function (html) {
     @DOCS: https://www.npmjs.com/package/cheerio - "Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure. It does not interpret the result as a web browser does. Specifically, it does not produce a visual rendering, apply CSS, load external resources, or execute JavaScript. This makes Cheerio much, much faster than other solutions. If your use case requires any of this functionality, you should consider projects like Puppeteer or JSDom." @ISSUE
     */
     let $ = cheerio.load(originalMarkup, null, false);
-    let postListElement = $("cagov-post-list").get(0);
+    let postListElement = $("cagov-event-post-list").get(0);
     // @NOTE this is a good local utility candidate
     let postListAttributes = Object.keys(postListElement.attribs).reduce(
       (obj, attr) => {
@@ -233,7 +222,7 @@ const renderEventLists = function (html) {
       processedAttributes
     );
 
-    $("cagov-post-list").append(modifiedMarkup).attr("data-rendered", "true");
+    $("cagov-event-post-list").append(modifiedMarkup).attr("data-rendered", "true");
 
     result = result.replace(originalMarkup, $.html());
   }

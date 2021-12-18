@@ -1,0 +1,74 @@
+/* Rough pass at CSS */
+
+.cagov-event-detail {
+    margin-top: 32px;
+}
+
+.cagov-event-detail h4 {
+    margin-bottom: 8px;
+}
+
+.cagov-event-detail.cagov-stack {
+    margin-top: 0;
+}
+
+.cagov-event-detail .field-data {
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.cagov-event-detail .timezone-label {
+    padding-left: 8px;
+}
+
+.cagov-event-detail .start-date {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.cagov-event-detail .end-date::before {
+    content: ' –⁠ ';
+}
+
+.cagov-event-detail .end-date {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.cagov-event-detail .start-time {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.cagov-event-detail .end-time::before {
+    content: ' –⁠ ';
+}
+
+.cagov-event-detail .end-time {
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+.cagov-event-detail {
+    font-size: 18px;
+}
+
+.cagov-event-detail .detail-section,
+.cagov-event-detail .detail-section-more-info {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #EDEDEF;
+}
+
+.cagov-event-detail .detail-section:last-child {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EDEDEF;
+}
+
+.cagov-event-detail .wp-block-button .wp-block-button__link {
+    background-color: #064E66;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px
+}
