@@ -25,7 +25,7 @@
             <a class="expanded-menu-section-header-link js-event-hm-menu" href="/">Home</a>
           </strong>
         </div>
-        {% for menu in headerMenu.items %}
+        {% for menu in headerMenu %}
           <div class="expanded-menu-col js-cagov-navoverlay-expandable">
             <div class="expanded-menu-section">
               <strong class="expanded-menu-section-header">
@@ -45,8 +45,8 @@
                     </span>
                   </button>
                 {% else %}
-                  <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url.split('ca-gov.pantheonsite.io')[1] | safe }}">
-                    {{ menu.title | safe }}
+                  <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url | safe }}">
+                    {{ menu.title | safe }} {{ menu.url }}
                   </a>
                 {% endif %}
               </strong>
@@ -55,7 +55,7 @@
               {% if menu['child_items']|length %}
                 <div class="expanded-menu-dropdown">
                   {% for sublink in menu['child_items'] %}
-                    <a class="expanded-menu-dropdown-link js-event-hm-menu" href="/{{ sublink.url.split('ca-gov.pantheonsite.io')[1] | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
+                    <a class="expanded-menu-dropdown-link js-event-hm-menu" href="{{ sublink.url | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
                   {% endfor %}
                 </div>
               {% endif %}
