@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-06T20:18:47",
-    "updated_date": "2021-12-06T20:18:47",
+    "updated_date": "2021-12-18T01:31:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,20 +17,20 @@
     "date": "2021-12-06T12:18:47",
     "date_gmt": "2021-12-06T20:18:47",
     "guid": "https://cannabis.ca.gov/?p=9070",
-    "modified": "2021-12-06T12:18:47",
-    "modified_gmt": "2021-12-06T20:18:47",
+    "modified": "2021-12-17T17:31:55",
+    "modified_gmt": "2021-12-18T01:31:55",
     "slug": "cannabis-advisory-committee-meeting",
     "status": "publish",
     "type": "post",
     "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/06/cannabis-advisory-committee-meeting/",
     "title": "Cannabis Advisory Committee",
-    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">December 13, 2021</div>\n<p></p>\n<div class=\"event-time\">10:00 AM PST</div>\n<p></p>\n<div class=\"event-location\">Virtual (WebEx Events)</div>\n</div>\n",
+    "excerpt": "<p>Cannabis Advisory Committee Meeting The Department of Cannabis Control (DCC) will host a meeting of the Cannabis Advisory Committee on December 13, 2021. The meeting will be held virtually via WebEx Events. Meeting Notice and Agenda&nbsp;– Includes a link and instructions for joining the virtual meeting. Meeting Materials: Meeting Minutes: May 25, 2021</p>\n",
     "author": "Christina Dempsey",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
+    "template": "event",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -38,7 +38,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-event"
+      "template": "event"
     },
     "og_meta": {
       "editor": {
