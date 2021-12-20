@@ -4,7 +4,6 @@ module.exports = function () {
   return new Promise((resolve, reject) => {
     let idObject = {};
     fs.readdir("./src/templates/wordpress/pages/", (err, files) => {
-        console.log("files", files);
       files.forEach((file) => {
         if (file.indexOf(".json") > -1) {
           let fileData = JSON.parse(fs.readFileSync("./src/templates/wordpress/pages/" + file, "utf8"));

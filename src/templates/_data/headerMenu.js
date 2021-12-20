@@ -9,12 +9,12 @@ const data = require('./../wordpress/menu/headerMenu.json');
  */
 module.exports = () => {
     return data.items.map((item) => {
-        console.log(item.url.replace(config.build.editor_url, ""));
+        // console.log(item.url.replace(config.build.editor_url, ""));
         return {
             title: item.title,
             url: item.url.replace(config.build.editor_url, ""),
             child_items: item.child_items.map((childItem) => {
-                console.log(childItem.url.replace(config.build.editor_url, ""));
+                // console.log(childItem.url.replace(config.build.editor_url, ""));
                 return {
                     title: childItem.title,
                     url: childItem.url.replace(config.build.editor_url, "")
