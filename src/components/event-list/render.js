@@ -138,8 +138,7 @@ const renderEventLists = (html) => {
 
     let recentEvents = getEventsByCategory(
       postListAttributes.category,
-      parseInt(postListAttributes.count),
-      "custom_post_date" // @TODO link in WP html & pull from processedAttributes @ISSUE
+      parseInt(postListAttributes.count)
     );
 
     let modifiedMarkup = applyEventsTemplate(recentEvents, processedAttributes);
