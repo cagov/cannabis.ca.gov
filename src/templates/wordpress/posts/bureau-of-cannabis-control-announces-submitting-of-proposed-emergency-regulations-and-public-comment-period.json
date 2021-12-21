@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -45,7 +45,7 @@
       "Submit"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -61,7 +61,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/11/28/bureau-of-cannabis-control-announces-submitting-of-proposed-emergency-regulations-and-public-comment-period/",
       "page_title": "Bureau of Cannabis Control Announces Submitting of Proposed Emergency Regulations and Public Comment Period",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

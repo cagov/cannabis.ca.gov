@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -51,7 +51,7 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -67,7 +67,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/02/22/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
       "page_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Ukiah",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "Regulations"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +63,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
       "page_title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
       "page_description": "Agencies Also Post Summary of Public Comments to Cannabis Web Portal.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

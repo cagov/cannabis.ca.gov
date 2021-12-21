@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -43,7 +43,7 @@
       "Department of Consumer Affairs"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -59,7 +59,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
       "page_title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
       "page_description": "SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

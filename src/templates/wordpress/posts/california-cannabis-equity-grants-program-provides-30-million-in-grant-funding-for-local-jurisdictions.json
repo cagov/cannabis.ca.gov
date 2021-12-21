@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -49,7 +49,7 @@
       "Sacramento"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -65,7 +65,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/04/22/california-cannabis-equity-grants-program-provides-30-million-in-grant-funding-for-local-jurisdictions/",
       "page_title": "California Cannabis Equity Grants Program Provides $30 Million in Grant Funding for Local Jurisdictions",
       "page_description": "Sacramento, CA &#8211; Today, the Governor&#8217;s Office of Business and Economic Development (GO-Biz), in partnership with the Bureau of Cannabis Control, announced $30 million in grant funding through the Cannabis Equity Grants Program for Local Jurisdictions.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

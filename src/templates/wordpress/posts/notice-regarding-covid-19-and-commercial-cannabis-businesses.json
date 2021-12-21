@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "Sacramento"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +63,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/03/21/notice-regarding-covid-19-and-commercial-cannabis-businesses/",
       "page_title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
       "page_description": "SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

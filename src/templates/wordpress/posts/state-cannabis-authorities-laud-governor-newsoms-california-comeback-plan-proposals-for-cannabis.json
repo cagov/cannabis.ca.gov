@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -43,7 +43,7 @@
       "Cannabis"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -59,7 +59,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
       "page_title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
       "page_description": "Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

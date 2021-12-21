@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -46,7 +46,7 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -62,7 +62,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/10/03/bureau-of-cannabis-control-announces-three-upcoming-public-licensing-workshops/",
       "page_title": "Bureau of Cannabis Control Announces Three Upcoming Public Licensing Workshops",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced plans to host three public licensing workshops.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
