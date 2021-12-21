@@ -1,5 +1,6 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
+# @TODO Docs on what this is and how to access it
 
 name: Build and deploy Node.js project to Azure Function App - FA-GO-WP-PREV-01
 

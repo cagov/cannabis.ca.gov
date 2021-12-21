@@ -55,7 +55,8 @@
     "media": "pages/wordpress/media",
     "pages": "src/templates/wordpress/posts",
     "posts": "src/templates/wordpress/posts",
-    "keywords": "cannabis, Department of Cannabis Control"
+    "keywords": "cannabis, Department of Cannabis Control",
+    "ascii": "                        .\n                       .:.\n                       :|:\n                      .:|:.\n                      ::|::\n       :.             ::|::             .:\n       :|:.          .::|::.          .:|:\n       ::|:.         :::|:::         .:|:;\n       `::|:.        :::|:::        .:|::'\n        ::|::.       :::|:::       .::|:;\n        `::|::.      :::|:::      .::|::'\n         :::|::.     :::|:::     .::|::;\n         `:::|::.    :::|:::    .::|::;'\n`::.      `:::|::.   :::|:::   .::|::;'      .:;'\n `:::..     ¹::|::.  :::|:::  .::|::¹    ..::;'\n   `:::::.    ':|::. :::|::: .::|:'   ,::::;'\n     `:::::.    ':|:::::|:::::|:'   :::::;'\n       `:::::.:::::|::::|::::|::::.,:::;'\n          ':::::::::|:::|:::|:::::::;:'\n             ':::::::|::|::|:::::::''\n                  `::::::::::;'\n                 .:;'' ::: ``::.\n                      :':':\n                        ;\n"
   },
   "endpoints": {
     "wordpress-to-github": {
