@@ -31,12 +31,12 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/single-column-wide.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column-wide.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column-wide"
+      "template": "template-page-single-column-wide"
     },
     "og_meta": {
       "editor": {
@@ -52,7 +52,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/test-for-seo-editor/",
       "page_title": "Test for SEO editor",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

@@ -31,12 +31,12 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "page-templates/search.php",
+    "template": "page-templates/searchpage.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "search"
+      "template": "searchpage"
     },
     "og_meta": {
       "editor": {
@@ -52,7 +52,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/serp/",
       "page_title": "Search",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

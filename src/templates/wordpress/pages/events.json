@@ -31,12 +31,12 @@
     "menu_order": 7,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/page.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
@@ -52,7 +52,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/licensees/events/",
       "page_title": "Events",
       "page_description": "Cannabis events are multi-day events where people can sell and consume cannabis.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
