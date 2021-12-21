@@ -5,18 +5,18 @@
   <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <meta charset="utf-8">
-	<meta name="author" content="State of California" />
-	<meta name="description" content="{{ data.og_meta.page_description | striptags }}" />
-	<meta name="keywords" content="California, government, {{ data.og_meta.keywords | striptags }}" />
-	<!-- http://t.co/dKP3o1e -->
-	<meta name="HandheldFriendly" content="True">
-	<!-- for Blackberry, AvantGo -->
-	<meta name="MobileOptimized" content="320">
-	<!-- for Windows mobile -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="author" content="State of California" />
+  <meta name="description" content="{{ data.og_meta.page_description | striptags }}" />
+  <meta name="keywords" content="California, government, {{ data.og_meta.keywords | striptags }}" />
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <!-- for Blackberry, AvantGo -->
+  <meta name="MobileOptimized" content="320">
+  <!-- for Windows mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 	{# <!-- Google Meta-->
 	<meta name="google-site-verification" content="account_number" /> #}
- <!-- OG tags -->
+  <!-- OG tags -->
   <link rel="canonical" href="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
   <meta property="og:url" content="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
   <meta property="og:description" content="{{ data.og_meta.open_graph_description | striptags }}" />
@@ -50,23 +50,17 @@
       grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     }
   </style>
-<!-- htmlmin:ignore -->
-<pre>
-  TESTING!
-  {{ data.build.ascii }}
-</pre>
-<!-- htmlmin:ignore -->
 </head>
 
 <body>
-  <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
-
-  <div class="header-container">
-    {% include "utility-header.njk" %}
-    {% include "branding.njk" %}
-    {% include "nav-component.njk" %}
-  </div>
-
+  <header>
+    <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+    <div class="header-container">
+      {% include "utility-header.njk" %}
+      {% include "branding.njk" %}
+      {% include "nav-component.njk" %}
+    </div>
+  </header>
   {% block content %}
     {{ content | safe }}
   {% endblock %}
