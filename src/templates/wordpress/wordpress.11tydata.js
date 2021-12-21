@@ -8,10 +8,38 @@ const getUrlPath = (url) => {
   }
 };
 
+const getTemplate = (article) => {
+  let template = "page";
+
+  template = article.data?.type; // page or post from WP
+
+  if (article.data?.design_system_fields?.template) {
+    template = article.data?.design_system_fields?.template.replace("template-", "").replace("page-", ""); // Remove extra template- prefix that comes from some instances of WP. (The desired template values will be without the prefix.)
+
+    if (template === "single-press-release") {
+      return "press-release";
+    }
+    
+    if (template === "single-event") {
+      return "event";
+    }
+
+    if (template === "searchpage") {
+      return "search";
+    }
+
+    if (template === "single") {
+      return "single-column";
+    }
+  }
+
+  return template;
+}
+
 module.exports = {
   eleventyComputed: {
     permalink: article => getUrlPath(article.data?.wordpress_url),
-    layout: article => article.data?.design_system_fields?.template || article.data?.type || "page",
+    layout: article => getTemplate(article),
     parentid: article => article.data.parent,
     title: article => article.data.title,
     category: article => article.data?.categories[0],
