@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:12:14",
-    "updated_date": "2021-06-19T15:12:14",
+    "updated_date": "2021-12-21T22:01:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:12:14",
     "date_gmt": "2021-06-19T15:12:14",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
-    "modified": "2021-06-19T15:12:14",
-    "modified_gmt": "2021-06-19T15:12:14",
+    "modified": "2021-12-21T14:01:31",
+    "modified_gmt": "2021-12-21T22:01:31",
     "slug": "dcc-events",
     "status": "publish",
     "type": "page",
@@ -31,12 +31,12 @@
     "menu_order": 4,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
+    "template": "single-column-wide",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-event"
+      "template": "single-column-wide"
     },
     "og_meta": {
       "editor": {
