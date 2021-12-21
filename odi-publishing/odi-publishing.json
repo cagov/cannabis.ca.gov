@@ -103,7 +103,8 @@
   "ethnio": null,
   "search": {
     "google_console_url": "https://cannabis.ca.gov/serp/",
-    "path": "serp"
+    "path": "serp",
+    "cx": "001779225245372747843:o_16poin-0q"
   },
   "tracking": {
     "todo": "get url of menu & parse this as a match",

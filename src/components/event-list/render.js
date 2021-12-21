@@ -68,112 +68,6 @@ const applyEventsTemplate = (posts, attributes) => {
  * @param {Object} attributes An object of cagov-post-list attributes.
  * @returns A string of rendered HTML.
  */
-// const renderWordpressPostTitleDate = (
-//   {
-//     title = null,
-//     link = null,
-//     date = null, // "2021-05-23T18:19:58"
-//     // modified = null,
-//     // content = null,
-//     excerpt = null, // @TODO shorten / optional
-//     // author = null, // 1
-//     // featured_media = null, // 0
-//     categories = null,
-//     format = null,
-//     meta = null,
-//     custom_post_date = null,
-//   },
-//   attributes
-// ) => {
-//   // WOOOO!!!! WE GET TO USE THIS NOW!! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString Bye IE!
-//   //www.w3schools.com/jsref/jsref_tolocalestring.asp
-
-//   let itemDate = date;
-
-//   if (custom_post_date && custom_post_date !== "") {
-//     itemDate = custom_post_date;
-//   }
-
-//   // Hack to fix GMT collision - something different on renderer. @BUG @ISSUE
-//   Date.prototype.addDays = function(days) {
-//     var date = new Date(this.valueOf());
-//     date.setDate(date.getDate() + days);
-//     return date;
-//   }
-
-//   let dateFormatted = new Date(itemDate).toLocaleDateString("en-us", {
-//     // weekday: false,
-//     month: "long",
-//     year: "numeric",
-//     day: "numeric",
-//     // hour: 'numeric',
-//     // minute: 'numeric',
-//     // second: 'numeric',
-//     // timeZone: 'America/Los_Angeles',
-//     // timeZoneName: 'short'
-//   });
-
-//   let getExcerpt =
-//     attributes.showExcerpt === "true" || attributes.showExcerpt === true
-//       ? `<div class="excerpt">${excerpt}</div>`
-//       : ``;
-//   let getDate =
-//     attributes.showPublishedDate === "true" ||
-//     attributes.showPublishedDate === true
-//       ? `<div class="date">${dateFormatted}</div>`
-//       : ``;
-
-//   let formattedTitle;
-
-//   if (format === "link" && meta && meta.hasOwnProperty("custom_post_link") && meta.custom_post_link !== "") {
-//     formattedTitle = `<a href="${meta.custom_post_link}">${title}</a>`;
-//   }
-//   else if (format !== "link") {
-//     formattedTitle = link ? `<a href="${link.split("pantheonsite.io")[1]}">${title}</a>` : `<span>${title}</span>`;
-//   }
-//   else {
-//     formattedTitle = `<span>${title}</span>`;
-//   }
-
-//   let category_type = "";
-//   let showCategoryType = false;
-
-//   if (format === "status") {
-//     return `
-//       <div class="post-list-item status">
-//         <div class="link-title">
-//           ${getDate}
-//         </div>
-//         ${getExcerpt}
-//       </div>
-//     `;
-//   }
-
-//   if (format === "link") {
-//     return `
-//       <div class="post-list-item">
-//         ${category_type}
-//         <div class="link-title">
-//           ${formattedTitle}
-//         </div>
-//         ${getDate}
-//         ${getExcerpt}
-//       </div>
-//     `;
-//   }
-
-//   return `
-//     <div class="post-list-item">
-//       ${category_type}
-//       <div class="link-title">
-//         ${formattedTitle}
-//       </div>
-//       ${getDate}
-//       ${getExcerpt}
-//     </div>
-//   `;
-// };
-
 const renderWordpressPostTitleDate = ({
   title = null,
   link = null,
@@ -190,11 +84,6 @@ const renderWordpressPostTitleDate = ({
     showExcerpt === "true"
       ? `<div class="excerpt"><p>${excerpt}</p></div>`
       : ``;
-
-  // let getDate =
-  //   this.showPublishedDate === "true"
-  //     ? `<div class="date">${startDate}-${endDate}</div>`
-  //     : ``;
 
   let category_type = "";
   let showCategoryType = false;

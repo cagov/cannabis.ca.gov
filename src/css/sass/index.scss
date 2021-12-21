@@ -5,6 +5,7 @@
 /* sitewide styles */
 @import "../../../node_modules/@cagov/ds-base-css/src/_core.scss";
 
+
 /* COMPONENTS/BLOCKS */
 @import "../../../node_modules/@cagov/ds-accordion/src/index.scss"; /* custom css overrides for default accordion styles */
 @import "../../../node_modules/@cagov/ds-branding/src/index.scss";
@@ -25,6 +26,9 @@
 @import "../../../node_modules/@cagov/ds-agency-footer/src/index.scss";
 @import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss";
 @import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss";
+
+
+@import "./_extra.scss"; /* Extra local page styles that belong in ds-base-css */
 
 
 // /* Sitewide styles */

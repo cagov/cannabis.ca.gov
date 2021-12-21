@@ -13,6 +13,14 @@
   height: auto;
 }
 
+.cagov-page-alert .dashicons-star-filled {
+  background: url(/css/svg/star.svg) no-repeat top left;
+  background-size: cover;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+}
+
 .cagov-page-alert {
   display: flex;
   flex-direction: row;
