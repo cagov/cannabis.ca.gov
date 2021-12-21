@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-30T18:37:32",
-    "updated_date": "2021-06-30T18:37:32",
+    "updated_date": "2021-12-21T22:00:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,26 +17,26 @@
     "date": "2021-06-30T11:37:32",
     "date_gmt": "2021-06-30T18:37:32",
     "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8338",
-    "modified": "2021-06-30T11:37:32",
-    "modified_gmt": "2021-06-30T18:37:32",
+    "modified": "2021-12-21T14:00:04",
+    "modified_gmt": "2021-12-21T22:00:04",
     "slug": "browser-ie",
     "status": "publish",
     "type": "page",
     "link": "https://live-cannabis-ca-gov.pantheonsite.io/browser-ie/",
     "title": "Keyboard Shortcuts for Internet Explorer",
-    "excerpt": "<p>Keyboard Shortcuts for Internet Explorer Viewing and exploring webpages The following table describes shortcuts used to view and explore webpages. To do this Press this Display Help F1 Toggle between full-screen and regular views of the browser window F11 Move forward through the items on a webpage, the Address bar, or the Favorites bar Tab &#8230; <a title=\"Keyboard Shortcuts for Internet Explorer\" class=\"read-more\" href=\"https://live-cannabis-ca-gov.pantheonsite.io/browser-ie/\" aria-label=\"More on Keyboard Shortcuts for Internet Explorer\">Read more</a></p>\n",
+    "excerpt": "<p>Keyboard Shortcuts for Internet Explorer Viewing and exploring webpages The following table describes shortcuts used to view and explore webpages. To do this Press this Display Help F1 Toggle between full-screen and regular views of the browser window F11 Move forward through the items on a webpage, the Address bar, or the Favorites bar Tab [&hellip;]</p>\n",
     "author": "Department of Cannabis Control",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "single-column",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "single-column"
     },
     "og_meta": {
       "editor": {
