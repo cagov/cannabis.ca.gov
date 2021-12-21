@@ -1,28 +1,28 @@
-name: End-to-end tests cypress
-on:
-  push:
-    branches:
-      - main
+# name: End-to-end tests cypress
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  cypress-run:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Use Node.js 14.17.5
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.17.5
-      - name: Build 11ty
-        run: |
-          mkdir dist
-          npm install
-          npm run build
+# jobs:
+#   cypress-run:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#       - name: Use Node.js 14.17.5
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: 14.17.5
+#       - name: Build 11ty
+#         run: |
+#           mkdir dist
+#           npm install
+#           npm run build
 
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm run test:server
-          wait-on: http://localhost:8000
+#       - name: Cypress run
+#         uses: cypress-io/github-action@v2
+#         with:
+#           build: npm run build
+#           start: npm run test:server
+#           wait-on: http://localhost:8000
