@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -53,7 +53,7 @@
       "Universal symbol for cannabis"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -69,7 +69,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/06/20/reminder-packaging-and-labeling-compliance-for-cannabis-and-cannabis-products/",
       "page_title": "Reminder &#8211; Packaging and Labeling Compliance for Cannabis and Cannabis Products",
       "page_description": "The three state cannabis agencies distributed an email on March 7, 2019, which contained packaging and labeling resources and outlined expectations for licensees to transition into compliance with the regulations adopted early this year.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

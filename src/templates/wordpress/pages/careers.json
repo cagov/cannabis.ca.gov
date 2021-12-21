@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-06-30T18:36:56",
-    "updated_date": "2021-06-30T18:36:56",
+    "created_date": "2021-06-19T15:12:14",
+    "updated_date": "2021-12-21T17:49:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,30 +13,30 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 8336,
-    "date": "2021-06-30T11:36:56",
-    "date_gmt": "2021-06-30T18:36:56",
-    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8336",
-    "modified": "2021-06-30T11:36:56",
-    "modified_gmt": "2021-06-30T18:36:56",
-    "slug": "browser-firefox",
+    "id": 7796,
+    "date": "2021-06-19T15:12:14",
+    "date_gmt": "2021-06-19T15:12:14",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/careers/",
+    "modified": "2021-12-21T09:49:38",
+    "modified_gmt": "2021-12-21T17:49:38",
+    "slug": "careers",
     "status": "publish",
     "type": "page",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/",
-    "title": "Keyboard Shortcuts for Firefox",
-    "excerpt": "<p>Keyboard Shortcuts for Firefox Windows Navigation To do this Press this Back Alt + ← BackspaceAlt + ← Ctrl + [ Forward Alt + → Shift + BackspaceAlt + → Ctrl + ] Home Alt + Home Open File Ctrl + O Reload F5 Ctrl + R Reload (override cache) Ctrl + F5 Ctrl + &#8230; <a title=\"Keyboard Shortcuts for Firefox\" class=\"read-more\" href=\"https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/\" aria-label=\"More on Keyboard Shortcuts for Firefox\">Read more</a></p>\n",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/careers/",
+    "title": "Careers",
+    "excerpt": "",
     "author": "Department of Cannabis Control",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
-    "comment_status": "closed",
-    "ping_status": "closed",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "page"
     },
     "og_meta": {
       "editor": {
@@ -49,25 +49,25 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/",
-      "page_title": "Keyboard Shortcuts for Firefox",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/careers/",
+      "page_title": "Careers",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Keyboard Shortcuts for Firefox",
+      "meta_title": "Careers",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/",
-      "open_graph_title": "Keyboard Shortcuts for Firefox",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/careers/",
+      "open_graph_title": "Careers",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Keyboard Shortcuts for Firefox",
+      "twitter_title": "Careers",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-firefox/"
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/careers/"
   }
 }

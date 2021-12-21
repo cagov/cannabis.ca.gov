@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -46,7 +46,7 @@
       "Policy"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -62,7 +62,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
       "page_title": "Cannabis Cultivation Informational Workshop and Permitting Event",
       "page_description": "State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

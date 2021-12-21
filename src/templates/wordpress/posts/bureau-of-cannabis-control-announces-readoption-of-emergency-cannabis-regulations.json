@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -45,7 +45,7 @@
       "Regulations"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -61,7 +61,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/06/07/bureau-of-cannabis-control-announces-readoption-of-emergency-cannabis-regulations/",
       "page_title": "Bureau of Cannabis Control Announces Readoption of Emergency Cannabis Regulations",
       "page_description": "The Bureau of Cannabis Control’s (Bureau) emergency cannabis regulations were officially readopted on June 4, 2018, and are now in effect as of June 6, 2018.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -49,7 +49,7 @@
       "Seeds"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -65,7 +65,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/06/26/information-for-the-cannabis-industry-how-tax-applies-to-immature-plants-clones-and-seeds/",
       "page_title": "Information for the Cannabis Industry: How Tax Applies to Immature Plants, Clones, and Seeds",
       "page_description": "Cultivation Tax \nThe cultivation tax does not apply to the sale or transfer of immature plants, including clones or seeds.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

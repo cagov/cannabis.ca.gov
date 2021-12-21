@@ -11,15 +11,16 @@
   },
   "data": {
     "name": "Department of Cannabis Control",
-    "description": "",
+    "description": "Learn about California cannabis laws and licenses",
     "url": "https://live-cannabis-ca-gov.pantheonsite.io",
     "home": "https://live-cannabis-ca-gov.pantheonsite.io",
-    "gmt_offset": -7,
+    "gmt_offset": -8,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [
       "oembed/1.0",
       "redirection/v1",
       "menus/v1",
+      "generatepress/v1",
       "notification/v1",
       "wp/v2",
       "wp-site-health/v1"

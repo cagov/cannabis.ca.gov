@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +63,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/31/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/",
       "page_title": "PUBLIC LICENSING WORKSHOP UPDATE: Bureau of Cannabis Control Postpones Workshop in Ukiah",
       "page_description": "The Bureau of Cannabis Control (Bureau) today announced that its public licensing workshop previously scheduled for Tuesday, February 6 in Ukiah has been postponed.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

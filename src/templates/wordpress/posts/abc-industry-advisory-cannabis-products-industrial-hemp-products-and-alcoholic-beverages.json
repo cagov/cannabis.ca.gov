@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -42,7 +42,7 @@
       "industry advisory"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -58,7 +58,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
       "page_title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -55,7 +55,7 @@
       "Vape cartridge"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -71,7 +71,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/01/31/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-in-southern-california/",
       "page_title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers in Southern California",
       "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis retailers operating in Southern California.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

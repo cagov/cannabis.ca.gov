@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -46,7 +46,7 @@
       "section 100"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -62,7 +62,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
       "page_title": "Department of Cannabis Control Announces Regulatory Actions",
       "page_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

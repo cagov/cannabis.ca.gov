@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "Sacramento"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +63,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/16/bureau-of-cannabis-control-announces-grant-solicitation-for-cannabis-equity-grants-program/",
       "page_title": "Bureau Of Cannabis Control Announces Grant Solicitation For Cannabis Equity Grants Program",
       "page_description": "The Bureau of Cannabis Control, in partnership with the Governor’s Office of Business and Economic Development, is pleased to announce that the fiscal year 2020-2021 Grant Solicitation for the Cannabis Equity Grants Program for Local Jurisdictions is now available.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

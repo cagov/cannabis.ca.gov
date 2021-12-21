@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -48,7 +48,7 @@
       "Treasurer's office"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -64,7 +64,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/12/26/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
       "page_title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
       "page_description": "California’s 18-member Cannabis Banking Working Group (CBWG), chaired by State Treasurer John Chiang, will hold a public hearing Thursday, December 27, where they will be presented with the results of the cannabis banking feasibility study prepared by Level 4 Venture.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

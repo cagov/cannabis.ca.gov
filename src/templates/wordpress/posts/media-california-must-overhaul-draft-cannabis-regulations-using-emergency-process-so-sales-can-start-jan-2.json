@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -43,7 +43,7 @@
       "News"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -59,7 +59,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/08/02/media-california-must-overhaul-draft-cannabis-regulations-using-emergency-process-so-sales-can-start-jan-2/",
       "page_title": "Media: California Must Overhaul Draft Cannabis Regulations Using ‘Emergency’ Process So Sales Can Start Jan. 2",
       "page_description": "Three state agencies spent more than a year drafting 211 pages of regulations for California’s medical marijuana market.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

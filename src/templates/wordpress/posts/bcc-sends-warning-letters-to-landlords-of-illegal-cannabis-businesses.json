@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -53,7 +53,7 @@
       "Unlicensed"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -69,7 +69,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/11/26/bcc-sends-warning-letters-to-landlords-of-illegal-cannabis-businesses/",
       "page_title": "BCC Sends Warning Letters To Landlords of Illegal Cannabis Businesses",
       "page_description": "In its continuing effort to combat the state’s illegal cannabis market, the Bureau of Cannabis Control recently sent hundreds of letters notifying landlords that the Bureau has information their property is being used for illegal cannabis activity.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

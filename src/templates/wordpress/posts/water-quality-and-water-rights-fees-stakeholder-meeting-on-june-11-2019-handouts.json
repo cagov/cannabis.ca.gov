@@ -30,7 +30,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "Water board"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +63,7 @@
       "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/06/04/water-quality-and-water-rights-fees-stakeholder-meeting-on-june-11-2019-handouts/",
       "page_title": "Water Quality and Water Rights Fees Stakeholder Meetings on June 11, 2019",
       "page_description": "Interested Parties:\nListed below are handouts for the Water Quality and Water Rights Fees Stakeholder Meetings on Tuesday, June 11, 2019, which are available on the State Water Board&#8217;s Fees Stakeholder website (https://www.waterboards.ca.gov/resources/fees/stakeholder/).",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
