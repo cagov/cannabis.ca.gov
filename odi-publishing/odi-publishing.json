@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0", 
+  "version": "1.1.1",
   "name": "cannabis.ca.gov - Department of Cannabis Control",
   "gitrepo": "@cagov/cannabis.ca.gov",
   "contact": {
@@ -28,6 +28,7 @@
   "data": {
     "name": "Department of Cannabis Control",
     "site_description": "Learn about California cannabis laws and licenses",
+    "keywords": "cannabis, Department of Cannabis Control",
     "url": "https://live-cannabis-ca-gov.pantheonsite.io",
     "home": "https://live-cannabis-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
@@ -47,7 +48,11 @@
     "static_site_media": "/media/",
     "index_layout": "layouts/index",
     "upload_folder": "wp-content/uploads/",
-    "replace_urls": ["http://cannabis.ca.gov/", "https://cannabis.ca.gov/", "https://dev-cagov-dcc.pantheonsite.io"],
+    "replace_urls": [
+      "http://cannabis.ca.gov/",
+      "https://cannabis.ca.gov/",
+      "https://dev-cagov-dcc.pantheonsite.io"
+    ],
     "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io",
     "static_site_url": "https://cannabis.ca.gov",
     "canonical_url": "https://cannabis.ca.gov",
@@ -71,7 +76,7 @@
       "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
     },
     "redirects": {
-      "config": "./redirects"
+      "config": "./src/templates/wordpress/redirects/redirects"
     },
     "11ty-serverless-preview": {
       "config": "./src-preview",
@@ -86,7 +91,7 @@
         "publish-trigger": "",
         "stage": "",
         "preview": "",
-        "preview-expiration": "@DOCS 48 hours"
+        "preview-expiration": "@DOCS"
       }
     },
     "notifications": {
@@ -107,7 +112,7 @@
     "cx": "001779225245372747843:o_16poin-0q"
   },
   "tracking": {
-    "todo": "get url of menu & parse this as a match",
+    "todo": "get url of menu & parse this as a match, connect to tracker",
     "social_links": {
       "facebook": "facebook.com/cacannabisdept",
       "twitter": "twitter.com/cacannabisdept",

@@ -64,7 +64,8 @@ module.exports = {
           || config.og_meta.page_social_image_height,
         page_social_image_alt: article => 
           article.data.og_meta?.page_social_image_alt 
-          || config.og_meta.page_social_image_alt
+          || config.og_meta.page_social_image_alt,
+        keywords: config.build.keywords || ""
       }
     }
   }
