@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "created_date": "2017-12-08T16:00:00",
+    "updated_date": "2017-12-08T16:00:00",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6271,
+    "date": "2017-12-08T16:00:00",
+    "date_gmt": "2017-12-08T16:00:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/state-applications-for-cannabis-manufacturing-are-now-available/",
+    "modified": "2017-12-08T16:00:00",
+    "modified_gmt": "2017-12-08T16:00:00",
+    "slug": "state-applications-for-cannabis-manufacturing-are-now-available",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
+    "title": "State Applications for Cannabis Manufacturing are Now Available",
+    "excerpt": "<p>The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/post.php",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Apply",
+      "California Department of Public Health",
+      "Cannabis",
+      "Licensing",
+      "Manufacturing",
+      "Online",
+      "Regulation"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
+      "page_title": "State Applications for Cannabis Manufacturing are Now Available",
+      "page_description": "The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Applications for Cannabis Manufacturing are Now Available",
+      "meta_description": "The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.",
+      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/",
+      "open_graph_title": "State Applications for Cannabis Manufacturing are Now Available",
+      "open_graph_description": "The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing.",
+      "twitter_title": "State Applications for Cannabis Manufacturing are Now Available",
+      "twitter_description": "The California Department of Public Health (CDPH) is now accepting applications for commercial cannabis manufacturing."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 116,
+        "name": "Apply",
+        "slug": "apply",
+        "term_group": 0,
+        "term_taxonomy_id": 116,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 33,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 33,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 14,
+        "name": "Manufacturing",
+        "slug": "manufacturing",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 107,
+        "name": "Online",
+        "slug": "online",
+        "term_group": 0,
+        "term_taxonomy_id": 107,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 74,
+        "name": "Regulation",
+        "slug": "regulation",
+        "term_group": 0,
+        "term_taxonomy_id": 74,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/12/08/state-applications-for-cannabis-manufacturing-are-now-available/"
+  }
+}

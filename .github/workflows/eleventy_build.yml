@@ -1,4 +1,4 @@
-name: Eleventy Build Main
+name: Eleventy build production cannabis.ca.gov WP API
 # site:  headless.cannabis.ca.gov
 # editor: https://cannabis.ca.gov
 # s3 bucket headless.cannabis.ca.gov
@@ -28,10 +28,13 @@ jobs:
           npm run build
           npm run test:setup
 
-      - name: Run test
-        run: |
-          npm test
-
+      # deploy built files to separate branch that contains only built files that github pages uses to serve site
+      - name: Deploy to github pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: deploy_production
       # Push built site files to S3 production bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
