@@ -1273,6 +1273,11 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
   max-width: 1147px;
   margin: 0 auto; }
 
+  
+  .single-column.landing {
+    max-width: 1147px;
+    margin: 0 auto; }
+
 /* CONTENT FOOTER */
 .content-footer-container {
   border-bottom: 1px solid #ededef;

@@ -1,7 +1,7 @@
 <cagov-navoverlay>
   <div class="container">
     <div class="search-container search-container--small hidden-search">
-      <form class="site-search" action="/serp/">
+      <form class="site-search" action="/search/">
         <span class="sr-only" id="SearchInput2">Custom Google Search</span>
         <input type="text" name="q" aria-labelledby="SearchInput2" placeholder="Search this website"
           class="search-textfield">
@@ -25,38 +25,43 @@
             <a class="expanded-menu-section-header-link js-event-hm-menu" href="/">Home</a>
           </strong>
         </div>
-        {%-set headerLinks = menus['header-menu'].items -%}
-        {% for menu in headerLinks %}
-        <div class="expanded-menu-col js-cagov-navoverlay-expandable">
-          <div class="expanded-menu-section">
-            <strong class="expanded-menu-section-header">
-              {% if menu['child_items'] %}
-                <button class="expanded-menu-section-header-link js-event-hm-menu">
-                  <span>
-                    {{ menu.title | safe }}
-                  </span>
-                  <span class="expanded-menu-section-header-arrow">
-                    <svg width="11" height="7"
-                      class="expanded-menu-section-header-arrow-svg" viewBox="0 0 11 7" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z"
-                        fill="#064E66" />
-                    </svg>
-                  </span>
-                </button>
-              {% else %}
-                <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url | safe }}">{{
-                  menu.title | safe }}</a>
+        {% for menu in headerMenu %}
+          <div class="expanded-menu-col js-cagov-navoverlay-expandable">
+            <div class="expanded-menu-section">
+              <strong class="expanded-menu-section-header">
+                {% if menu['child_items'] %}
+                  <button class="expanded-menu-section-header-link js-event-hm-menu">
+                    <span>
+                      {{ menu.title | safe }}
+                    </span>
+                    <span class="expanded-menu-section-header-arrow">
+                      <svg width="11" height="7"
+                        class="expanded-menu-section-header-arrow-svg" viewBox="0 0 11 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z"
+                          fill="#064E66" />
+                      </svg>
+                    </span>
+                  </button>
+                {% else %}
+                  <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url | safe }}">
+                    {{ menu.title | safe }} {{ menu.url }}
+                  </a>
+                {% endif %}
+              </strong>
+
+
+              {% if menu['child_items']|length %}
+                <div class="expanded-menu-dropdown">
+                  {% for sublink in menu['child_items'] %}
+                    <a class="expanded-menu-dropdown-link js-event-hm-menu" href="{{ sublink.url | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
+                  {% endfor %}
+                </div>
               {% endif %}
-            </strong>
-            <div class="expanded-menu-dropdown">
-              {% for sublink in menu['child_items'] %}
-                <a class="expanded-menu-dropdown-link js-event-hm-menu" href="/{{ sublink.url.replace('https://cannabis.ca.gov/','') | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
-              {% endfor %}
+
             </div>
           </div>
-        </div>
         {% endfor %}
       </div>
     </nav>

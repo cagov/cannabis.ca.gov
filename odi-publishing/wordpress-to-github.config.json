@@ -13,7 +13,12 @@
     "ExcludeProperties": ["content", "_links"],
     "ApiRequests": [
       {
-        "Destination": "src/templates/_data/headerMenu.json",
+        "Destination": "src/templates/wordpress/redirects/redirects.json",
+        "Source": "/wp-json/redirection/v1/export-public/1/json",
+        "ExcludeProperties": []
+      },
+      {
+        "Destination": "src/templates/wordpress/menu/headerMenu.json",
         "Source": "/wp-json/menus/v1/menus/header-menu",
         "ExcludeProperties": []
       },
@@ -29,7 +34,7 @@
       },
       {
         "Destination": "src/templates/_data/socialMediaLinksMenu.json",
-        "Source": "/wp-json/menus/v1/menus/social-media-links-menu",
+        "Source": "/wp-json/menus/v1/menus/social-media-links",
         "ExcludeProperties": []
       }
     ]

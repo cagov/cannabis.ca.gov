@@ -4,9 +4,6 @@
 # 11ty
 docs/
 
-# Drought map temp files
-src/assets/img/usdm-assets/*_mapTemp_*.png
-
 # Logs
 logs
 *.log

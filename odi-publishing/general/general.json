@@ -1,19 +1,19 @@
 {
   "meta": {
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
-    "name": "California drought action",
-    "description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-    "url": "https://test-drought-ca-gov.pantheonsite.io",
-    "home": "https://test-drought-ca-gov.pantheonsite.io",
+    "name": "Department of Cannabis Control",
+    "description": "",
+    "url": "https://live-cannabis-ca-gov.pantheonsite.io",
+    "home": "https://live-cannabis-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [

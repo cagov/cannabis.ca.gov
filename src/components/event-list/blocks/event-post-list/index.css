@@ -1,0 +1,113 @@
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+
+.cagov-event-post-list .event-post-list-title {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 24px;
+}
+
+.cagov-event-post-list .read-more a {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+}
+
+.cagov-event-post-list .link-title a {
+    color: #064E66;
+    font-weight: 700;
+    line-height: 32.9px;
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.cagov-event-post-list .excerpt,
+.cagov-event-post-list .excerpt p {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+cagov-event-post-list .event-post-list-item {
+    margin: 0;
+    padding: 0;
+}
+
+cagov-event-post-list .event-post-list-item {
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.cagov-event-post-list .event-post-list-item .date {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    color: #000;
+}
+
+@media only screen and (max-width: 580px) {
+
+    .cagov-event-post-list h3 {
+        /* font-family: Public Sans; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 24px;
+    }
+    
+    .cagov-event-post-list .read-more a {
+        /* font-family: Public Sans; */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000;
+    }
+    
+    .cagov-event-post-list .link-title a {
+        color: #064E66;
+        font-weight: 700;
+        line-height: 28.2px;
+        font-size: 24px;
+        margin-bottom: 8px;
+        text-decoration: none;
+    }
+    
+    .cagov-event-post-list .excerpt,
+    .cagov-event-post-list .excerpt p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    
+    cagov-event-post-list .event-post-list-item {
+        margin: 0;
+        padding: 0;
+    }
+    
+    cagov-event-post-list .event-post-list-item {
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
+    
+    .cagov-event-post-list .event-post-list-item .date {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0px;
+        color: #000;
+    }
+
+}

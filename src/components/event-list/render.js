@@ -10,8 +10,8 @@ const { getEventsByCategory } = require("./get-posts");
 const setDefaultAttributes = (attributes) => {
   let defaults = {
     order: "desc",
-    count: "10",
-    category: "announcements,press-releases",
+    count: "3",
+    category: "events",
     showExcerpt: true,
     noResults: "No results found",
     showPublishedDate: true,
@@ -68,124 +68,38 @@ const applyEventsTemplate = (posts, attributes) => {
  * @param {Object} attributes An object of cagov-post-list attributes.
  * @returns A string of rendered HTML.
  */
-const renderWordpressPostTitleDate = (
-  {
-    title = null,
-    link = null,
-    date = null, // "2021-05-23T18:19:58"
-    // modified = null,
-    // content = null,
-    excerpt = null, // @TODO shorten / optional
-    // author = null, // 1
-    // featured_media = null, // 0
-    categories = null,
-    format = null,
-    meta = null,
-    custom_post_date = null,
-  },
-  attributes
-) => {
-  // WOOOO!!!! WE GET TO USE THIS NOW!! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString Bye IE!
-  //www.w3schools.com/jsref/jsref_tolocalestring.asp
-  
-  let itemDate = date;
-
-  if (custom_post_date && custom_post_date !== "") {
-    itemDate = custom_post_date;
-  }
-
-  // Hack to fix GMT collision - something different on renderer. @BUG @ISSUE
-  Date.prototype.addDays = function(days) {
-    var date = new Date(this.valueOf());
-    date.setDate(date.getDate() + days);
-    return date;
-  }
-
-
-  let dateFormatted = new Date(itemDate).toLocaleDateString("en-us", {
-    // weekday: false,
-    month: "long",
-    year: "numeric",
-    day: "numeric",
-    // hour: 'numeric',
-    // minute: 'numeric',
-    // second: 'numeric',
-    // timeZone: 'America/Los_Angeles',
-    // timeZoneName: 'short'
-  });
-
+const renderWordpressPostTitleDate = ({
+  title = null,
+  link = null,
+  date = null, // "2021-05-23T18:19:58"
+  // content = null,
+  excerpt = null, // @TODO shorten / optional
+  showExcerpt = "true", // Comes in as a string from API
+  // author = null, // 1
+  // featured_media = null, // 0
+  categories = null,
+  event = null,
+}) => {
   let getExcerpt =
-    attributes.showExcerpt === "true" || attributes.showExcerpt === true
-      ? `<div class="excerpt">${excerpt}</div>`
+    showExcerpt === "true"
+      ? `<div class="excerpt"><p>${excerpt}</p></div>`
       : ``;
-  let getDate =
-    attributes.showPublishedDate === "true" ||
-    attributes.showPublishedDate === true
-      ? `<div class="date">${dateFormatted}</div>`
-      : ``;
-
-  let formattedTitle;
-
-  if (format === "link" && meta && meta.hasOwnProperty("custom_post_link") && meta.custom_post_link !== "") {
-    formattedTitle = `<a href="${meta.custom_post_link}">${title}</a>`;
-  } 
-  else if (format !== "link") {
-    formattedTitle = link ? `<a href="${link.split("pantheonsite.io")[1]}">${title}</a>` : `<span>${title}</span>`;
-  }
-  else {
-    formattedTitle = `<span>${title}</span>`;
-  }
 
   let category_type = "";
   let showCategoryType = false;
   // Disabled but can enable when we have a default style.
-  /*
-  if (
-    showCategoryType &&
-    categories !== null &&
-    Object.keys(categoryMap).length > 1
-  ) {
-    let categoryItem = categoryMap[[categories[0]]]; // Use first category. There should only be one set.
-    if (categoryItem.name !== undefined && categoryItem.name !== null) {
-      category_type = `<div class="category-type">${categoryItem.name}</div>`;
-    }
-  }
-  */
-
-  if (format === "status") {
-    return `
-      <div class="post-list-item status">
-        <div class="link-title">
-          ${getDate}
-        </div>
-        ${getExcerpt}
-      </div>
-    `;
+  if (showCategoryType && categories && categories[0]) {
+    category_type = `<div class="category-type">${category[0]}</div>`;
   }
 
-  if (format === "link") {
-    return `
-      <div class="post-list-item">
-        ${category_type}
-        <div class="link-title">
-          ${formattedTitle}
-        </div>
-        ${getDate}
-        ${getExcerpt}
-      </div>
-    `;
-  }
-
-  return `
-    <div class="post-list-item">
-      ${category_type}
-      <div class="link-title">
-        ${formattedTitle}
-      </div>
-      ${getDate}
-      ${getExcerpt}
-    </div>
-  `;
+  return `<div class="event-post-list-item">
+            ${category_type}
+            <div class="link-title"><a href="${link}">
+                ${title}
+            </a></div>
+            ${getExcerpt}
+          </div>
+          `;
 };
 
 /**
@@ -193,9 +107,9 @@ const renderWordpressPostTitleDate = (
  * @param {string} html A string of HTML.
  * @returns {string} A modified HTML string with cagov-post-list components pre-rendered.
  */
-const renderEventLists = function (html) {
+const renderEventLists = (html) => {
   const postLists = html.matchAll(
-    /<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm
+    /<cagov-event-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-event-post-list>/gm
   );
 
   let result = html;
@@ -206,7 +120,7 @@ const renderEventLists = function (html) {
     @DOCS: https://www.npmjs.com/package/cheerio - "Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure. It does not interpret the result as a web browser does. Specifically, it does not produce a visual rendering, apply CSS, load external resources, or execute JavaScript. This makes Cheerio much, much faster than other solutions. If your use case requires any of this functionality, you should consider projects like Puppeteer or JSDom." @ISSUE
     */
     let $ = cheerio.load(originalMarkup, null, false);
-    let postListElement = $("cagov-post-list").get(0);
+    let postListElement = $("cagov-event-post-list").get(0);
     // @NOTE this is a good local utility candidate
     let postListAttributes = Object.keys(postListElement.attribs).reduce(
       (obj, attr) => {
@@ -224,16 +138,14 @@ const renderEventLists = function (html) {
 
     let recentEvents = getEventsByCategory(
       postListAttributes.category,
-      parseInt(postListAttributes.count),
-      "custom_post_date" // @TODO link in WP html & pull from processedAttributes @ISSUE
+      parseInt(postListAttributes.count)
     );
 
-    let modifiedMarkup = applyEventsTemplate(
-      recentEvents, 
-      processedAttributes
-    );
+    let modifiedMarkup = applyEventsTemplate(recentEvents, processedAttributes);
 
-    $("cagov-post-list").append(modifiedMarkup).attr("data-rendered", "true");
+    $("cagov-event-post-list")
+      .append(modifiedMarkup)
+      .attr("data-rendered", "true");
 
     result = result.replace(originalMarkup, $.html());
   }

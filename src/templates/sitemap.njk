@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
   {% for page in collections.all %}
     {% if not sitemap.urls[page.url | url ].exclude %}
       <url>
-        <loc>https://drought.ca.gov{{ page.url | url }}</loc>
+        <loc>https://cannabis.ca.gov{{ page.url | url }}</loc>
         <lastmod>{{ page.date.toISOString() }}</lastmod>
         <changefreq>daily</changefreq>
       </url>
