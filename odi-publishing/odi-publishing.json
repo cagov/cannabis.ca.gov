@@ -59,7 +59,8 @@
     "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
     "media": "pages/wordpress/media",
     "pages": "src/templates/wordpress/posts",
-    "posts": "src/templates/wordpress/posts"
+    "posts": "src/templates/wordpress/posts",
+    "ascii": "                        .\n                       .:.\n                       :|:\n                      .:|:.\n                      ::|::\n       :.             ::|::             .:\n       :|:.          .::|::.          .:|:\n       ::|:.         :::|:::         .:|:;\n       `::|:.        :::|:::        .:|::'\n        ::|::.       :::|:::       .::|:;\n        `::|::.      :::|:::      .::|::'\n         :::|::.     :::|:::     .::|::;\n         `:::|::.    :::|:::    .::|::;'\n`::.      `:::|::.   :::|:::   .::|::;'      .:;'\n `:::..     ¹::|::.  :::|:::  .::|::¹    ..::;'\n   `:::::.    ':|::. :::|::: .::|:'   ,::::;'\n     `:::::.    ':|:::::|:::::|:'   :::::;'\n       `:::::.:::::|::::|::::|::::.,:::;'\n          ':::::::::|:::|:::|:::::::;:'\n             ':::::::|::|::|:::::::''\n                  `::::::::::;'\n                 .:;'' ::: ``::.\n                      :':':\n                        ;\n"
   },
   "endpoints": {
     "wordpress-to-github": {

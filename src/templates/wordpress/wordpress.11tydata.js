@@ -21,6 +21,7 @@ module.exports = {
     // Below, mimic the structure of Wordpress article data files (pages/posts).
     // Use the value in the article data JSON if available, otherwise set default.
     data: {
+      ascii: config.build.ascii || "",
       og_meta: {
         site_url: config.og_meta.site_url,
         canonical_url: article => 

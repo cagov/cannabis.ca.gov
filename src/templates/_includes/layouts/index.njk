@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>{{ data.og_meta.page_title }}</title> 
+  <title>{{ data.og_meta.page_title }}</title>
   <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
-    <link rel="preload" href="/fonts/CaGov.ttf" as="font" type="font/ttf" crossorigin ></link>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
 	<meta name="description" content="{{ data.og_meta.page_description | striptags }}" />
@@ -54,6 +53,12 @@
 </head>
 
 <body>
+
+<!-- htmlmin:ignore -->
+<pre>
+  {{ data.build.ascii }}
+</pre>
+  <!-- htmlmin:ignore -->
   <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
 
   <div class="header-container">
