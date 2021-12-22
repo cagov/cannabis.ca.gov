@@ -16,7 +16,10 @@
 * DOMAIN - Managed by Department of Consumer Affairs (DCA), the control agency for the Department of Cannabis Control.
 * CONFIG - `odi-publishing` contains configuration files for site settings. We are avoiding hard coding content in the UI because we are making a reusable site template for agencies adopting the design system.
 * PAGE FEEDBACK - @DOCS
-* DIAGRAM - @DOCS Figma link.
+* SERVICES DIAGRAM - @DOCS FigmaJam link.
+
+* Server architecture
+<img src="./ca.gov-web-application-architecture.png" />
 
 ## Development notes
 * Check out the git repo.
