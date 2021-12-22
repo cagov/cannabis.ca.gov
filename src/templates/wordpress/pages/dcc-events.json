@@ -1,10 +1,11 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:12:14",
-    "updated_date": "2021-12-22T20:27:27",
+    "updated_date": "2021-12-22T20:54:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/7800",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -17,8 +18,8 @@
     "date": "2021-06-19T15:12:14",
     "date_gmt": "2021-06-19T15:12:14",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
-    "modified": "2021-12-22T12:27:27",
-    "modified_gmt": "2021-12-22T20:27:27",
+    "modified": "2021-12-22T12:54:29",
+    "modified_gmt": "2021-12-22T20:54:29",
     "slug": "dcc-events",
     "status": "publish",
     "type": "page",
