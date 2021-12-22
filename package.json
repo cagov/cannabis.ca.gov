@@ -25,7 +25,7 @@
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
     "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
-    "deploy:redirects": "node src/redirects/assign.js"
+    "deploy:redirects": "node src/templates/wordpress/redirects/assign.js"
   },
   "keywords": [
     "@cagov",
