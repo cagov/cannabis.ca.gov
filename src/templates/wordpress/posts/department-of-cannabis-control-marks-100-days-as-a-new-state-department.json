@@ -54,7 +54,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
       "page_title": "Department of Cannabis Control marks 100 days as a new state department",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -95,34 +95,6 @@
       "custom_post_date": "2021-10-21",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
-    "media": [
-      {
-        "id": 8923,
-        "type": "full",
-        "path": "2021/10/20210924_095121-002-scaled-2.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/20210924_095121-002-scaled-2.jpg",
-        "file": "20210924_095121-002-scaled-2.jpg",
-        "width": 2560,
-        "height": 1336,
-        "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/20210924_095121-002-scaled-2.jpg",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8920,
-        "type": "full",
-        "path": "2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
-        "file": "Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
-        "width": 2560,
-        "height": 2443,
-        "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/"
   }
 }
