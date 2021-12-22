@@ -4,10 +4,10 @@
     "updated_date": "2020-02-29T01:08:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "donations-of-cannabis-and-cannabis-product",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2020/02/29/donations-of-cannabis-and-cannabis-product/",
+    "link": "https://api.cannabis.ca.gov/2020/02/29/donations-of-cannabis-and-cannabis-product/",
     "title": "Donations of Cannabis and Cannabis Product",
     "excerpt": "<p>Beginning March 1, 2020, cannabis retailers may provide free cannabis or cannabis products to qualified medicinal patients or their primary caregivers.</p>\n",
     "author": "Department of Cannabis Control",
@@ -65,21 +65,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/02/29/donations-of-cannabis-and-cannabis-product/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2020/02/29/donations-of-cannabis-and-cannabis-product/",
       "page_title": "Donations of Cannabis and Cannabis Product",
       "page_description": "Beginning March 1, 2020, cannabis retailers may provide free cannabis or cannabis products to qualified medicinal patients or their primary caregivers.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Donations of Cannabis and Cannabis Product",
       "meta_description": "Beginning March 1, 2020, cannabis retailers may provide free cannabis or cannabis products to qualified medicinal patients or their primary caregivers.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/02/29/donations-of-cannabis-and-cannabis-product/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/02/29/donations-of-cannabis-and-cannabis-product/",
       "open_graph_title": "Donations of Cannabis and Cannabis Product",
       "open_graph_description": "Beginning March 1, 2020, cannabis retailers may provide free cannabis or cannabis products to qualified medicinal patients or their primary caregivers.",
       "twitter_title": "Donations of Cannabis and Cannabis Product",
@@ -313,6 +313,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/02/29/donations-of-cannabis-and-cannabis-product/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2020/02/29/donations-of-cannabis-and-cannabis-product/"
   }
 }

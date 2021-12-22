@@ -4,10 +4,10 @@
     "updated_date": "2018-04-17T22:15:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "notice-regarding-temporary-cannabis-events",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/04/17/notice-regarding-temporary-cannabis-events/",
+    "link": "https://api.cannabis.ca.gov/2018/04/17/notice-regarding-temporary-cannabis-events/",
     "title": "Notice Regarding Temporary Cannabis Events",
     "excerpt": "<p>Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,21 +56,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/04/17/notice-regarding-temporary-cannabis-events/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/04/17/notice-regarding-temporary-cannabis-events/",
       "page_title": "Notice Regarding Temporary Cannabis Events",
       "page_description": "Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Notice Regarding Temporary Cannabis Events",
       "meta_description": "Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/04/17/notice-regarding-temporary-cannabis-events/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/04/17/notice-regarding-temporary-cannabis-events/",
       "open_graph_title": "Notice Regarding Temporary Cannabis Events",
       "open_graph_description": "Please be aware that lawful participation by bureau licensees in any temporary cannabis event that allows sales and/or consumption is dependent upon issuance of the appropriate licenses from the bureau.",
       "twitter_title": "Notice Regarding Temporary Cannabis Events",
@@ -205,6 +205,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/04/17/notice-regarding-temporary-cannabis-events/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/04/17/notice-regarding-temporary-cannabis-events/"
   }
 }

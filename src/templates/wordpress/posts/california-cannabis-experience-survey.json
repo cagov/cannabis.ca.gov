@@ -4,10 +4,10 @@
     "updated_date": "2019-12-19T01:06:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "california-cannabis-experience-survey",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/california-cannabis-experience-survey/",
+    "link": "https://api.cannabis.ca.gov/2019/12/19/california-cannabis-experience-survey/",
     "title": "Office of Innovation &#8211; California Cannabis Experience Survey",
     "excerpt": "<p>Nearly three years ago, Proposition 64 marked the beginning of California’s three state cannabis licensing authorities: The Bureau of Cannabis Control, the California Department of Food and Agriculture and the California Department of Public Health.</p>\n",
     "author": "Department of Cannabis Control",
@@ -62,21 +62,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/california-cannabis-experience-survey/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/12/19/california-cannabis-experience-survey/",
       "page_title": "Office of Innovation &#8211; California Cannabis Experience Survey",
       "page_description": "Nearly three years ago, Proposition 64 marked the beginning of California’s three state cannabis licensing authorities: The Bureau of Cannabis Control, the California Department of Food and Agriculture and the California Department of Public Health.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Office of Innovation &#8211; California Cannabis Experience Survey",
       "meta_description": "Nearly three years ago, Proposition 64 marked the beginning of California’s three state cannabis licensing authorities: The Bureau of Cannabis Control, the California Department of Food and Agriculture and the California Department of Public Health.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/california-cannabis-experience-survey/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/12/19/california-cannabis-experience-survey/",
       "open_graph_title": "Office of Innovation &#8211; California Cannabis Experience Survey",
       "open_graph_description": "Nearly three years ago, Proposition 64 marked the beginning of California’s three state cannabis licensing authorities: The Bureau of Cannabis Control, the California Department of Food and Agriculture and the California Department of Public Health.",
       "twitter_title": "Office of Innovation &#8211; California Cannabis Experience Survey",
@@ -277,6 +277,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/california-cannabis-experience-survey/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/12/19/california-cannabis-experience-survey/"
   }
 }

@@ -4,10 +4,10 @@
     "updated_date": "2020-12-01T22:05:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "cannabis-advisory-committee-to-hold-virtual-meeting-2",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/",
+    "link": "https://api.cannabis.ca.gov/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/",
     "title": "Cannabis Advisory Committee To Hold Virtual Meeting",
     "excerpt": "<p>The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will hold a virtual meeting on Wednesday, December 9, 2020.</p>\n",
     "author": "Department of Cannabis Control",
@@ -54,21 +54,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/",
       "page_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
       "page_description": "The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will hold a virtual meeting on Wednesday, December 9, 2020.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
       "meta_description": "The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will hold a virtual meeting on Wednesday, December 9, 2020.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/",
       "open_graph_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
       "open_graph_description": "The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will hold a virtual meeting on Wednesday, December 9, 2020.",
       "twitter_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
@@ -181,6 +181,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2020/12/01/cannabis-advisory-committee-to-hold-virtual-meeting-2/"
   }
 }

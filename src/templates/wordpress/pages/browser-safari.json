@@ -4,10 +4,10 @@
     "updated_date": "2021-12-21T22:00:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "browser-safari",
     "status": "publish",
     "type": "page",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/browser-safari/",
+    "link": "https://api.cannabis.ca.gov/browser-safari/",
     "title": "Keyboard Shortcuts for Safari",
     "excerpt": "<p>&nbsp;Keyboard Shortcuts for Safari To do this Press this Scroll up, down, left, or right Press the arrow keys. Scroll in larger increments Press Option while you press an arrow key. Scroll down a screen Page Down Space bar Scroll up a screen Page Up Shift-Space bar Scroll to the top-left or bottom-left corner of [&hellip;]</p>\n",
     "author": "Department of Cannabis Control",
@@ -44,21 +44,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-safari/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/browser-safari/",
       "page_title": "Keyboard Shortcuts for Safari",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Keyboard Shortcuts for Safari",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-safari/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/browser-safari/",
       "open_graph_title": "Keyboard Shortcuts for Safari",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Keyboard Shortcuts for Safari",
@@ -68,6 +68,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/browser-safari/"
+    "wordpress_url": "https://api.cannabis.ca.gov/browser-safari/"
   }
 }

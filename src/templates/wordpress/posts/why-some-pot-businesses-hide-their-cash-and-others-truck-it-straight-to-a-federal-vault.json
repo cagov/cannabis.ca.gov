@@ -4,10 +4,10 @@
     "updated_date": "2017-07-10T20:38:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
+    "link": "https://api.cannabis.ca.gov/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
     "title": "Why Some Pot Businesses Hide Their Cash &#8211; And Others Truck It Straight To A Federal Vault",
     "excerpt": "<p>Slip a fresh $20 bill under the bulletproof teller window of Donnie Anderson’s Medex marijuana dispensary on Century Boulevard — perhaps for a gram of cannabis or some THC-infused toffees — and the legal tender is transformed into something else: drug money.</p>\n",
     "author": "Department of Cannabis Control",
@@ -49,21 +49,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
       "page_title": "Why Some Pot Businesses Hide Their Cash &#8211; And Others Truck It Straight To A Federal Vault",
       "page_description": "Slip a fresh $20 bill under the bulletproof teller window of Donnie Anderson’s Medex marijuana dispensary on Century Boulevard — perhaps for a gram of cannabis or some THC-infused toffees — and the legal tender is transformed into something else: drug money.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Why Some Pot Businesses Hide Their Cash &#8211; And Others Truck It Straight To A Federal Vault",
       "meta_description": "Slip a fresh $20 bill under the bulletproof teller window of Donnie Anderson’s Medex marijuana dispensary on Century Boulevard — perhaps for a gram of cannabis or some THC-infused toffees — and the legal tender is transformed into something else: drug money.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/",
       "open_graph_title": "Why Some Pot Businesses Hide Their Cash &#8211; And Others Truck It Straight To A Federal Vault",
       "open_graph_description": "Slip a fresh $20 bill under the bulletproof teller window of Donnie Anderson’s Medex marijuana dispensary on Century Boulevard — perhaps for a gram of cannabis or some THC-infused toffees — and the legal tender is transformed into something else: drug money.",
       "twitter_title": "Why Some Pot Businesses Hide Their Cash &#8211; And Others Truck It Straight To A Federal Vault",
@@ -121,6 +121,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/07/10/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/"
   }
 }

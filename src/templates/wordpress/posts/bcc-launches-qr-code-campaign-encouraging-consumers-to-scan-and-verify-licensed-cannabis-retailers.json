@@ -4,10 +4,10 @@
     "updated_date": "2019-12-19T21:13:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
+    "link": "https://api.cannabis.ca.gov/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
     "title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
     "excerpt": "<p>The Bureau of Cannabis Control launched a campaign today encouraging consumers to look for and scan a quick response code (QR code) with their smartphone camera when they visit a licensed cannabis retailer.</p>\n",
     "author": "Department of Cannabis Control",
@@ -61,21 +61,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
       "page_title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
       "page_description": "The Bureau of Cannabis Control launched a campaign today encouraging consumers to look for and scan a quick response code (QR code) with their smartphone camera when they visit a licensed cannabis retailer.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
       "meta_description": "The Bureau of Cannabis Control launched a campaign today encouraging consumers to look for and scan a quick response code (QR code) with their smartphone camera when they visit a licensed cannabis retailer.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/",
       "open_graph_title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
       "open_graph_description": "The Bureau of Cannabis Control launched a campaign today encouraging consumers to look for and scan a quick response code (QR code) with their smartphone camera when they visit a licensed cannabis retailer.",
       "twitter_title": "BCC Launches QR Code Campaign Encouraging Consumers to Scan and Verify Licensed Cannabis Retailers",
@@ -265,6 +265,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/12/19/bcc-launches-qr-code-campaign-encouraging-consumers-to-scan-and-verify-licensed-cannabis-retailers/"
   }
 }

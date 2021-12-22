@@ -4,10 +4,10 @@
     "updated_date": "2018-08-27T23:50:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/",
+    "link": "https://api.cannabis.ca.gov/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/",
     "title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Operator",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit, in coordination with the Costa Mesa Police Department and local agencies, today announced enforcement action on an unlicensed cannabis business operating in Costa Mesa.</p>\n",
     "author": "Department of Cannabis Control",
@@ -58,21 +58,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/",
       "page_title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Operator",
       "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit, in coordination with the Costa Mesa Police Department and local agencies, today announced enforcement action on an unlicensed cannabis business operating in Costa Mesa.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Operator",
       "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit, in coordination with the Costa Mesa Police Department and local agencies, today announced enforcement action on an unlicensed cannabis business operating in Costa Mesa.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/",
       "open_graph_title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Operator",
       "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit, in coordination with the Costa Mesa Police Department and local agencies, today announced enforcement action on an unlicensed cannabis business operating in Costa Mesa.",
       "twitter_title": "Bureau of Cannabis Control Announces Enforcement Action on Unlicensed Cannabis Operator",
@@ -229,6 +229,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/08/27/bureau-of-cannabis-control-announces-enforcement-action-on-unlicensed-cannabis-operator/"
   }
 }

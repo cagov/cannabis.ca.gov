@@ -4,10 +4,10 @@
     "updated_date": "2021-07-13T14:51:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -16,13 +16,13 @@
     "id": 8498,
     "date": "2021-07-13T07:51:47",
     "date_gmt": "2021-07-13T14:51:47",
-    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cannabis_favicon_32x32.png",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis_favicon_32x32.png",
     "modified": "2021-07-13T07:51:47",
     "modified_gmt": "2021-07-13T14:51:47",
     "slug": "cannabis_favicon_32x32",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/cannabis_favicon_32x32/",
+    "link": "https://api.cannabis.ca.gov/cannabis_favicon_32x32/",
     "title": "cannabis_favicon_32x32",
     "author": "Department of Cannabis Control",
     "comment_status": "closed",
@@ -32,7 +32,7 @@
     "categories": [
       2
     ],
-    "description": "<p class=\"attachment\"><a href='https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cannabis_favicon_32x32.png'><img width=\"32\" height=\"32\" src=\"https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cannabis_favicon_32x32.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis_favicon_32x32.png'><img width=\"32\" height=\"32\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis_favicon_32x32.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",
@@ -58,8 +58,8 @@
       }
     },
     "post": null,
-    "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cannabis_favicon_32x32.png",
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cannabis_favicon_32x32.png",
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis_favicon_32x32.png",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis_favicon_32x32.png",
     "path": "2021/07/cannabis_favicon_32x32.png"
   }
 }

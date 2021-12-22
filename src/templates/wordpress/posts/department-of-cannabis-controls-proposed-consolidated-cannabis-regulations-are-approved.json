@@ -4,10 +4,10 @@
     "updated_date": "2021-09-29T17:16:28",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
+    "link": "https://api.cannabis.ca.gov/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
     "title": "Department of Cannabis Control&#8217;s Proposed Consolidated Cannabis Regulations Are Approved",
     "excerpt": "<p>The Department of Cannabis Control’s (DCC) consolidated emergency regulations are approved and now in effect. The regulations create consistent standards for cannabis licensees across all license types, by aligning application requirements, unifying terminology, and clarifying ownership and financial interest requirements. The regulations also establish rules for trade samples between businesses. View the approved regulation documents: [&hellip;]</p>\n",
     "author": "Christina Dempsey",
@@ -53,21 +53,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
       "page_title": "Department of Cannabis Control's Proposed Consolidated Cannabis Regulations Are Approved",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control's Proposed Consolidated Cannabis Regulations Are Approved",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
       "open_graph_title": "Department of Cannabis Control's Proposed Consolidated Cannabis Regulations Are Approved",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Department of Cannabis Control's Proposed Consolidated Cannabis Regulations Are Approved",
@@ -169,6 +169,6 @@
       "custom_post_date": "2021-09-29",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/09/29/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/"
   }
 }

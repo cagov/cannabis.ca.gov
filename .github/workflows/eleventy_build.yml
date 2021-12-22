@@ -1,6 +1,6 @@
 name: Eleventy build production Pantheon WP 5.8.1
 # site:  headless.cannabis.ca.gov
-# editor: https://live-cannabis-ca-gov.pantheonsite.io
+# editor: https://api.cannabis.ca.gov
 # s3 bucket http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 # Will become
 # site:  cannabis.ca.gov

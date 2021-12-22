@@ -4,10 +4,10 @@
     "updated_date": "2017-09-08T22:14:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "cdph-launches-cannabis-public-education-campaign",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
+    "link": "https://api.cannabis.ca.gov/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
     "title": "CDPH Launches Cannabis Public Education Campaign",
     "excerpt": "<p>SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.</p>\n",
     "author": "Department of Cannabis Control",
@@ -54,21 +54,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
       "page_title": "CDPH Launches Cannabis Public Education Campaign",
       "page_description": "SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "CDPH Launches Cannabis Public Education Campaign",
       "meta_description": "SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/09/08/cdph-launches-cannabis-public-education-campaign/",
       "open_graph_title": "CDPH Launches Cannabis Public Education Campaign",
       "open_graph_description": "SACRAMENTO –Today the California Department of Public Health (CDPH) launched a health information and education campaign about what’s legal in California and potential health impacts of cannabis use.",
       "twitter_title": "CDPH Launches Cannabis Public Education Campaign",
@@ -181,6 +181,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2017/09/08/cdph-launches-cannabis-public-education-campaign/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/09/08/cdph-launches-cannabis-public-education-campaign/"
   }
 }

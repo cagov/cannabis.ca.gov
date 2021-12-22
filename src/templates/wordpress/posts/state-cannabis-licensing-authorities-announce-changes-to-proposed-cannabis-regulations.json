@@ -4,10 +4,10 @@
     "updated_date": "2018-10-19T20:48:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
+    "link": "https://api.cannabis.ca.gov/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
     "title": "State Cannabis Licensing Authorities Announce Changes to Proposed Cannabis Regulations",
     "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.</p>\n",
     "author": "Department of Cannabis Control",
@@ -58,21 +58,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
       "page_title": "State Cannabis Licensing Authorities Announce Changes to Proposed Cannabis Regulations",
       "page_description": "SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "State Cannabis Licensing Authorities Announce Changes to Proposed Cannabis Regulations",
       "meta_description": "SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/",
       "open_graph_title": "State Cannabis Licensing Authorities Announce Changes to Proposed Cannabis Regulations",
       "open_graph_description": "SACRAMENTO – California’s three state cannabis licensing authorities today announced changes to the proposed cannabis regulations published to the California Regulatory Notice Register on July 13, 2018.",
       "twitter_title": "State Cannabis Licensing Authorities Announce Changes to Proposed Cannabis Regulations",
@@ -229,6 +229,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/10/19/state-cannabis-licensing-authorities-announce-changes-to-proposed-cannabis-regulations/"
   }
 }

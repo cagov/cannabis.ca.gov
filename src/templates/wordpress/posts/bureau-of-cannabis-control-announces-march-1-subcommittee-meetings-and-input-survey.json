@@ -4,10 +4,10 @@
     "updated_date": "2018-02-15T18:28:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
+    "link": "https://api.cannabis.ca.gov/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
     "title": "Bureau of Cannabis Control Announces March 1 Subcommittee Meetings and Input Survey",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a second series of subcommittee meetings on Thursday, March 1 in Sacramento.</p>\n",
     "author": "Department of Cannabis Control",
@@ -64,21 +64,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
       "page_title": "Bureau of Cannabis Control Announces March 1 Subcommittee Meetings and Input Survey",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a second series of subcommittee meetings on Thursday, March 1 in Sacramento.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces March 1 Subcommittee Meetings and Input Survey",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a second series of subcommittee meetings on Thursday, March 1 in Sacramento.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/",
       "open_graph_title": "Bureau of Cannabis Control Announces March 1 Subcommittee Meetings and Input Survey",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will be holding a second series of subcommittee meetings on Thursday, March 1 in Sacramento.",
       "twitter_title": "Bureau of Cannabis Control Announces March 1 Subcommittee Meetings and Input Survey",
@@ -301,6 +301,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/02/15/bureau-of-cannabis-control-announces-march-1-subcommittee-meetings-and-input-survey/"
   }
 }

@@ -4,10 +4,10 @@
     "updated_date": "2019-10-09T19:37:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
+    "link": "https://api.cannabis.ca.gov/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
     "title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded equity grant funding to local jurisdictions to be used for commercial cannabis equity programs that focus on inclusion and support of persons or communities that were negatively or disproportionately impacted by cannabis criminalization.</p>\n",
     "author": "Department of Cannabis Control",
@@ -58,21 +58,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
       "page_title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded equity grant funding to local jurisdictions to be used for commercial cannabis equity programs that focus on inclusion and support of persons or communities that were negatively or disproportionately impacted by cannabis criminalization.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded equity grant funding to local jurisdictions to be used for commercial cannabis equity programs that focus on inclusion and support of persons or communities that were negatively or disproportionately impacted by cannabis criminalization.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/",
       "open_graph_title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded equity grant funding to local jurisdictions to be used for commercial cannabis equity programs that focus on inclusion and support of persons or communities that were negatively or disproportionately impacted by cannabis criminalization.",
       "twitter_title": "Bureau of Cannabis Control Announces Local Equity Grant Funding Recipients",
@@ -229,6 +229,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/10/09/bureau-of-cannabis-control-announces-local-equity-grant-funding-recipients/"
   }
 }

@@ -4,10 +4,10 @@
     "updated_date": "2018-01-09T18:40:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
+    "link": "https://api.cannabis.ca.gov/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
     "title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
     "excerpt": "<p>SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.</p>\n",
     "author": "Department of Cannabis Control",
@@ -61,21 +61,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
       "page_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
       "page_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
       "meta_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/",
       "open_graph_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
       "open_graph_description": "SACRAMENTO, January 8, 2018 – The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division, along with the Bureau of Cannabis Control and the California Department of Public Health, are offering 14 workshops in January and February on California’s Cannabis Track-and-Trace system.",
       "twitter_title": "CDFA, Bureau of Cannabis Control and Department of Public Health Offer Workshops On California&#8217;s Cannabis Track-and-Trace System",
@@ -265,6 +265,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/01/09/cdfa-bureau-of-cannabis-control-and-department-of-public-health-offer-workshops-on-californias-cannabis-track-and-trace-system/"
   }
 }

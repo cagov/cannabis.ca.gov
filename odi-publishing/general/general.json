@@ -1,10 +1,10 @@
 {
   "meta": {
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -12,8 +12,8 @@
   "data": {
     "name": "Department of Cannabis Control",
     "description": "Learn about California cannabis laws and licenses",
-    "url": "https://live-cannabis-ca-gov.pantheonsite.io",
-    "home": "https://live-cannabis-ca-gov.pantheonsite.io",
+    "url": "https://api.cannabis.ca.gov",
+    "home": "https://api.cannabis.ca.gov",
     "gmt_offset": -8,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [

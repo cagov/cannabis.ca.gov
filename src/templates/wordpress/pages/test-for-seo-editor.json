@@ -4,10 +4,10 @@
     "updated_date": "2021-06-24T17:30:20",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "test-for-seo-editor",
     "status": "publish",
     "type": "page",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/test-for-seo-editor/",
+    "link": "https://api.cannabis.ca.gov/test-for-seo-editor/",
     "title": "Test for SEO editor",
     "excerpt": "<p>Page content test heading</p>\n",
     "author": "Michael Sullivan",
@@ -44,21 +44,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/test-for-seo-editor/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/test-for-seo-editor/",
       "page_title": "Test for SEO editor",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Test for SEO editor",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/test-for-seo-editor/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/test-for-seo-editor/",
       "open_graph_title": "Test for SEO editor",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Test for SEO editor",
@@ -68,6 +68,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/test-for-seo-editor/"
+    "wordpress_url": "https://api.cannabis.ca.gov/test-for-seo-editor/"
   }
 }

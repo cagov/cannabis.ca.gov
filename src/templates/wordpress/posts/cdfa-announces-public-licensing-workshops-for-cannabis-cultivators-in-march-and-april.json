@@ -4,10 +4,10 @@
     "updated_date": "2018-03-16T17:55:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
+    "link": "https://api.cannabis.ca.gov/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
     "title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
     "excerpt": "<p>SACRAMENTO, March 15, 2018 — The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division will host seven public workshops throughout California starting on March 27.</p>\n",
     "author": "Department of Cannabis Control",
@@ -57,21 +57,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
       "page_title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
       "page_description": "SACRAMENTO, March 15, 2018 — The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division will host seven public workshops throughout California starting on March 27.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
       "meta_description": "SACRAMENTO, March 15, 2018 — The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division will host seven public workshops throughout California starting on March 27.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/",
       "open_graph_title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
       "open_graph_description": "SACRAMENTO, March 15, 2018 — The California Department of Food and Agriculture’s CalCannabis Cultivation Licensing Division will host seven public workshops throughout California starting on March 27.",
       "twitter_title": "CDFA Announces Public Licensing Workshops for Cannabis Cultivators in March and April",
@@ -217,6 +217,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/03/16/cdfa-announces-public-licensing-workshops-for-cannabis-cultivators-in-march-and-april/"
   }
 }

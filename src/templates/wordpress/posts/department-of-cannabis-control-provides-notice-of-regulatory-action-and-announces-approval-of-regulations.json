@@ -4,10 +4,10 @@
     "updated_date": "2021-08-06T20:14:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/",
+    "link": "https://api.cannabis.ca.gov/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/",
     "title": "Department of Cannabis Control Provides Notice of Regulatory Action and Announces Approval of Regulations",
     "excerpt": "<p>The Department of Cannabis Control (DCC) is providing notice of a proposed rulemaking to adopt regulations for Quick Response (QR) Code certificates. DCC also today announced the approval of the readoption of emergency regulations allowing for information sharing with financial institutions. Notice of proposed rulemaking to adopt QR Code regulations DCC is providing notice to [&hellip;]</p>\n",
     "author": "Christina Dempsey",
@@ -54,21 +54,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/",
       "page_title": "Department of Cannabis Control Provides Notice of Regulatory Action and Announces Approval of Regulations",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control Provides Notice of Regulatory Action and Announces Approval of Regulations",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/",
       "open_graph_title": "Department of Cannabis Control Provides Notice of Regulatory Action and Announces Approval of Regulations",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Department of Cannabis Control Provides Notice of Regulatory Action and Announces Approval of Regulations",
@@ -181,6 +181,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/08/06/department-of-cannabis-control-provides-notice-of-regulatory-action-and-announces-approval-of-regulations/"
   }
 }

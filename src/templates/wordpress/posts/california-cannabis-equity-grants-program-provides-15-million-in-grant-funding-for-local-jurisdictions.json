@@ -4,10 +4,10 @@
     "updated_date": "2021-03-16T01:04:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
+    "link": "https://api.cannabis.ca.gov/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
     "title": "California Cannabis Equity Grants Program Provides $15 Million in Grant Funding for Local Jurisdictions",
     "excerpt": "<p>Funding advances economic justice for communities disproportionately impacted by cannabis prohibition.</p>\n",
     "author": "Department of Cannabis Control",
@@ -53,21 +53,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
       "page_title": "California Cannabis Equity Grants Program Provides $15 Million in Grant Funding for Local Jurisdictions",
       "page_description": "Funding advances economic justice for communities disproportionately impacted by cannabis prohibition.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "California Cannabis Equity Grants Program Provides $15 Million in Grant Funding for Local Jurisdictions",
       "meta_description": "Funding advances economic justice for communities disproportionately impacted by cannabis prohibition.",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/",
       "open_graph_title": "California Cannabis Equity Grants Program Provides $15 Million in Grant Funding for Local Jurisdictions",
       "open_graph_description": "Funding advances economic justice for communities disproportionately impacted by cannabis prohibition.",
       "twitter_title": "California Cannabis Equity Grants Program Provides $15 Million in Grant Funding for Local Jurisdictions",
@@ -169,6 +169,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/03/15/california-cannabis-equity-grants-program-provides-15-million-in-grant-funding-for-local-jurisdictions/"
   }
 }

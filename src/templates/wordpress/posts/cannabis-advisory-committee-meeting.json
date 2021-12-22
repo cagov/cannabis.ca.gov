@@ -4,10 +4,10 @@
     "updated_date": "2021-12-21T22:04:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -22,7 +22,7 @@
     "slug": "cannabis-advisory-committee-meeting",
     "status": "publish",
     "type": "post",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/06/cannabis-advisory-committee-meeting/",
+    "link": "https://api.cannabis.ca.gov/2021/12/06/cannabis-advisory-committee-meeting/",
     "title": "Cannabis Advisory Committee",
     "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">December 13, 2021</div>\n<p></p>\n<div class=\"event-time\">10:00 AM PST</div>\n<p></p>\n<div class=\"event-location\">Virtual (WebEx Events)</div>\n</div>\n",
     "author": "Christina Dempsey",
@@ -46,21 +46,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-cannabis-ca-gov.pantheonsite.io"
+        "editor_url": "https://api.cannabis.ca.gov"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://live-cannabis-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/06/cannabis-advisory-committee-meeting/",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/12/06/cannabis-advisory-committee-meeting/",
       "page_title": "Cannabis Advisory Committee",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Cannabis Advisory Committee",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/06/cannabis-advisory-committee-meeting/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/12/06/cannabis-advisory-committee-meeting/",
       "open_graph_title": "Cannabis Advisory Committee",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Cannabis Advisory Committee",
@@ -106,6 +106,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/06/cannabis-advisory-committee-meeting/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/12/06/cannabis-advisory-committee-meeting/"
   }
 }
