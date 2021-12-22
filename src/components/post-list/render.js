@@ -1,6 +1,6 @@
 const cheerio = require("cheerio");
 const { getPostsByCategory } = require("./get-posts");
-
+const config = require('./../../../odi-publishing/config.js');
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
  * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied
@@ -84,10 +84,7 @@ const renderWordpressPostTitleDate = (
     custom_post_date = null,
   },
   attributes
-) => {
-  // WOOOO!!!! WE GET TO USE THIS NOW!! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString Bye IE!
-  //www.w3schools.com/jsref/jsref_tolocalestring.asp
-  
+) => {  
   let itemDate = date;
 
   if (custom_post_date && custom_post_date !== "") {
@@ -101,7 +98,7 @@ const renderWordpressPostTitleDate = (
     return date;
   }
 
-
+  // Reference: https://www.w3schools.com/jsref/jsref_tolocalestring.asp
   let dateFormatted = new Date(itemDate).toLocaleDateString("en-us", {
     // weekday: false,
     month: "long",
@@ -130,7 +127,7 @@ const renderWordpressPostTitleDate = (
     formattedTitle = `<a href="${meta.custom_post_link}">${title}</a>`;
   } 
   else if (format !== "link") {
-    formattedTitle = link ? `<a href="${link.split("pantheonsite.io")[1]}">${title}</a>` : `<span>${title}</span>`;
+    formattedTitle = link ? `<a href="${link.replace(config.build.editor_url, "")}">${title}</a>` : `<span>${title}</span>`;
   }
   else {
     formattedTitle = `<span>${title}</span>`;
