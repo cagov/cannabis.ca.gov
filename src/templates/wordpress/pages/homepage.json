@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2021-12-21T21:55:48",
+    "updated_date": "2021-12-22T03:18:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
-    "modified": "2021-12-21T13:55:48",
-    "modified_gmt": "2021-12-21T21:55:48",
+    "modified": "2021-12-21T19:18:25",
+    "modified_gmt": "2021-12-22T03:18:25",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -52,7 +52,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/",
       "page_title": "Home page",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
