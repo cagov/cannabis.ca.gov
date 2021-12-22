@@ -29,6 +29,7 @@ Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Depart
 * [Wiki](https://github.com/cagov/cannabis.ca.gov/wiki) - Slightly out of date old docs.
 
 ## Project contacts
+* Office of Digital Innovation is working with the Department of Cannabis Control and CDT to bring you this site.
 * Submit an issue to the github repo or on the page feedback form on the cannabis site if you are experiencing an issue.
-* *Slack*: ODI `#cagov-cannabis-dev`, `#cagov-cannabis`
+* *Slack*: Office of Digital Innovation (ODI) Slack:  `#cagov-cannabis-qa` `#cagov-cannabis-dev`, `#cagov-cannabis`
 
