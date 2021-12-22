@@ -4,10 +4,10 @@
     "updated_date": "2021-12-07T14:43:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -16,13 +16,13 @@
     "id": 9104,
     "date": "2021-12-07T06:43:39",
     "date_gmt": "2021-12-07T14:43:39",
-    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
     "modified": "2021-12-07T06:43:39",
     "modified_gmt": "2021-12-07T14:43:39",
     "slug": "dcc-lic-024-data-package-cover-page-and-checklist",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/dcc-lic-024-data-package-cover-page-and-checklist/",
+    "link": "https://api.cannabis.ca.gov/dcc-lic-024-data-package-cover-page-and-checklist/",
     "title": "DCC-LIC-024 Data Package Cover Page and Checklist",
     "author": "Christina Dempsey",
     "comment_status": "closed",
@@ -32,7 +32,7 @@
     "categories": [
       2
     ],
-    "description": "<p class=\"attachment\"><a href='https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf'><img width=\"232\" height=\"300\" src=\"https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf'><img width=\"232\" height=\"300\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "file",
@@ -44,74 +44,74 @@
           "width": 1088,
           "height": 1408,
           "mime_type": "application/pdf",
-          "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg"
         },
         "medium": {
           "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg",
           "width": 232,
           "height": 300,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg"
         },
         "large": {
           "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg",
           "width": 791,
           "height": 1024,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg"
         },
         "thumbnail": {
           "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg",
           "width": 116,
           "height": 150,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg"
         }
       }
     },
     "post": null,
-    "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
     "sizes": [
       {
         "type": "full",
         "path": "2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg",
-        "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg",
         "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg",
         "width": 1088,
         "height": 1408,
         "mime_type": "application/pdf",
-        "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf.jpg"
       },
       {
         "type": "large",
         "path": "2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg",
-        "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg",
         "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg",
         "width": 791,
         "height": 1024,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-791x1024.jpg"
       },
       {
         "type": "medium",
         "path": "2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg",
-        "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg",
         "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg",
         "width": 232,
         "height": 300,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-232x300.jpg"
       },
       {
         "type": "thumbnail",
         "path": "2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg",
-        "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg",
         "file": "DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg",
         "width": 116,
         "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist-pdf-116x150.jpg"
       }
     ],
     "path": "2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf"

@@ -4,10 +4,10 @@
     "updated_date": "2021-09-14T23:48:33",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-cannabis-ca-gov.pantheonsite.io",
+      "source_data": "https://api.cannabis.ca.gov",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -16,13 +16,13 @@
     "id": 8784,
     "date": "2021-09-14T16:48:33",
     "date_gmt": "2021-09-14T23:48:33",
-    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx",
     "modified": "2021-09-14T16:48:33",
     "modified_gmt": "2021-09-14T23:48:33",
     "slug": "local-grant_attachment-5-draft",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://live-cannabis-ca-gov.pantheonsite.io/local-grant_attachment-5-draft/",
+    "link": "https://api.cannabis.ca.gov/local-grant_attachment-5-draft/",
     "title": "Local Grant_Attachment 5 &#8211; DRAFT",
     "author": "Christina Dempsey",
     "comment_status": "closed",
@@ -32,15 +32,15 @@
     "categories": [
       2
     ],
-    "description": "<p class=\"attachment\"><a href='https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx'>Local Grant_Attachment 5 - DRAFT</a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx'>Local Grant_Attachment 5 - DRAFT</a></p>\n",
     "caption": "<p>Local Grant_Attachment 5 &#8211; DRAFT</p>\n",
     "alt_text": "",
     "media_type": "file",
     "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "media_details": {},
     "post": null,
-    "source_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx",
-    "wordpress_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx",
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Local-Grant_Attachment-5-DRAFT.xlsx",
     "path": "2021/09/Local-Grant_Attachment-5-DRAFT.xlsx"
   }
 }
