@@ -24,7 +24,8 @@
     "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
-    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all"
+    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
+    "deploy:redirects": "node src/redirects/assign.js"
   },
   "keywords": [
     "@cagov",
