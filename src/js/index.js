@@ -13,8 +13,8 @@ import '@cagov/ds-plus';
 import '@cagov/ds-statewide-header/src/index.js';
 import '../components/menu/index.js';
 import '../components/page-alert/index.js';
-import '../components/post-list/index.js';
-import '../components/event-list/index.js';
+// import '../components/post-list/index.js';
+// import '../components/event-list/index.js';
 import './google-analytics.js';
 import setupAnalytics from './setup-analytics.js';
 

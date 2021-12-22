@@ -1,6 +1,6 @@
 const cheerio = require("cheerio");
 const { getEventsByCategory } = require("./get-posts");
-
+const config = require('./../../../odi-publishing/config.js');
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
  * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied
@@ -94,7 +94,7 @@ const renderWordpressPostTitleDate = ({
 
   return `<div class="event-post-list-item">
             ${category_type}
-            <div class="link-title"><a href="${link}">
+            <div class="link-title"><a href="${link.replace(config.build.editor_url, "")}">
                 ${title}
             </a></div>
             ${getExcerpt}

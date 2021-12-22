@@ -1,6 +1,7 @@
 const cheerio = require("cheerio");
 const { getPostsByCategory } = require("./get-posts");
 const config = require('./../../../odi-publishing/config.js');
+
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
  * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied
