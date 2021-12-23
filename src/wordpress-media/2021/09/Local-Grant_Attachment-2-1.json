@@ -2,7 +2,7 @@
   "meta": {
     "created_date": "2021-10-01T04:24:51",
     "updated_date": "2021-10-01T04:24:51",
-    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
     "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/8831",
