@@ -15,7 +15,7 @@
       {
         "Destination": "src/templates/wordpress/redirects/redirects.json",
         "Source": "/wp-json/redirection/v1/export-public/1/json",
-        "ExcludeProperties": []
+        "ExcludeProperties": ["plugin"]
       },
       {
         "Destination": "src/templates/wordpress/menu/headerMenu.json",
