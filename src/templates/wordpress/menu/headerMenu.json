@@ -29,7 +29,7 @@
       "post_modified_gmt": "2021-12-07 19:07:51",
       "post_content_filtered": "",
       "post_parent": 0,
-      "guid": "https://api.cannabis.ca.gov/2021/12/07/9165/",
+      "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9165/",
       "menu_order": 1,
       "post_type": "nav_menu_item",
       "post_mime_type": "",
@@ -46,7 +46,9 @@
       "target": "",
       "attr_title": "",
       "description": "",
-      "classes": [""],
+      "classes": [
+        ""
+      ],
       "xfn": "",
       "slug": "applicants",
       "child_items": [
@@ -69,7 +71,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 756,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9190/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9190/",
           "menu_order": 2,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -86,7 +88,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "how-to-apply-renew"
         },
@@ -109,7 +113,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 756,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9169/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9169/",
           "menu_order": 3,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -126,7 +130,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "license-types"
         },
@@ -149,7 +155,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 756,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9167/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9167/",
           "menu_order": 4,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -166,7 +172,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "application-license-fees"
         },
@@ -189,7 +197,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 756,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9168/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9168/",
           "menu_order": 5,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -206,7 +214,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "application-resources"
         },
@@ -229,7 +239,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 756,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9170/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9170/",
           "menu_order": 6,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -246,7 +256,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "access-license-portals"
         }
@@ -271,7 +283,7 @@
       "post_modified_gmt": "2021-12-07 19:07:51",
       "post_content_filtered": "",
       "post_parent": 0,
-      "guid": "https://api.cannabis.ca.gov/2021/12/07/9166/",
+      "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9166/",
       "menu_order": 7,
       "post_type": "nav_menu_item",
       "post_mime_type": "",
@@ -288,7 +300,9 @@
       "target": "",
       "attr_title": "",
       "description": "",
-      "classes": [""],
+      "classes": [
+        ""
+      ],
       "xfn": "",
       "slug": "licensees",
       "child_items": [
@@ -311,7 +325,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9182/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9182/",
           "menu_order": 8,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -328,7 +342,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "cultivation"
         },
@@ -351,7 +367,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9185/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9185/",
           "menu_order": 9,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -368,7 +384,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "manufacturing"
         },
@@ -391,7 +409,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9183/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9183/",
           "menu_order": 10,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -408,7 +426,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "distribution"
         },
@@ -431,7 +451,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9189/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9189/",
           "menu_order": 11,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -448,7 +468,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "testing-laboratories"
         },
@@ -471,7 +493,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9188/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9188/",
           "menu_order": 12,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -488,7 +510,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "retail"
         },
@@ -511,7 +535,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9184/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9184/",
           "menu_order": 13,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -528,7 +552,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "events"
         },
@@ -551,7 +577,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9195/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9195/",
           "menu_order": 14,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -568,7 +594,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "track-and-trace"
         },
@@ -591,7 +619,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 758,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9186/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9186/",
           "menu_order": 15,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -608,7 +636,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "requirements-cannabis-goods"
         }
@@ -633,7 +663,7 @@
       "post_modified_gmt": "2021-12-07 19:07:51",
       "post_content_filtered": "",
       "post_parent": 0,
-      "guid": "https://api.cannabis.ca.gov/2021/12/07/9172/",
+      "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9172/",
       "menu_order": 16,
       "post_type": "nav_menu_item",
       "post_mime_type": "",
@@ -650,7 +680,9 @@
       "target": "",
       "attr_title": "",
       "description": "",
-      "classes": [""],
+      "classes": [
+        ""
+      ],
       "xfn": "",
       "slug": "consumers",
       "child_items": [
@@ -673,7 +705,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 757,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/whats-legal/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/whats-legal/",
           "menu_order": 17,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -690,7 +722,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "whats-legal"
         },
@@ -713,7 +747,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 757,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9178/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9178/",
           "menu_order": 18,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -730,7 +764,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "medicinal-cannabis"
         },
@@ -753,7 +789,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 757,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9179/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9179/",
           "menu_order": 19,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -770,7 +806,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "responsible-cannabis-use"
         },
@@ -793,7 +831,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 757,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9180/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9180/",
           "menu_order": 20,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -810,7 +848,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "talking-young-people-about-cannabis"
         }
@@ -835,7 +875,7 @@
       "post_modified_gmt": "2021-12-07 19:07:51",
       "post_content_filtered": "",
       "post_parent": 0,
-      "guid": "https://api.cannabis.ca.gov/2021/12/07/9173/",
+      "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9173/",
       "menu_order": 21,
       "post_type": "nav_menu_item",
       "post_mime_type": "",
@@ -852,7 +892,9 @@
       "target": "",
       "attr_title": "",
       "description": "",
-      "classes": [""],
+      "classes": [
+        ""
+      ],
       "xfn": "",
       "slug": "resources",
       "child_items": [
@@ -875,7 +917,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 759,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9192/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9192/",
           "menu_order": 22,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -892,7 +934,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "laws-and-regulations"
         },
@@ -915,7 +959,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 759,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9193/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9193/",
           "menu_order": 23,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -932,7 +976,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "running-business"
         },
@@ -955,7 +1001,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 759,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9191/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9191/",
           "menu_order": 24,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -972,7 +1018,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "file-complaint"
         },
@@ -995,7 +1043,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 759,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9187/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9187/",
           "menu_order": 25,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1012,7 +1060,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "disaster-relief-programs"
         },
@@ -1035,7 +1085,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 759,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9194/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9194/",
           "menu_order": 26,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1052,7 +1102,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "search-for-licensed-business"
         }
@@ -1077,7 +1129,7 @@
       "post_modified_gmt": "2021-12-07 19:07:51",
       "post_content_filtered": "",
       "post_parent": 0,
-      "guid": "https://api.cannabis.ca.gov/2021/12/07/9200/",
+      "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9200/",
       "menu_order": 27,
       "post_type": "nav_menu_item",
       "post_mime_type": "",
@@ -1094,7 +1146,9 @@
       "target": "",
       "attr_title": "",
       "description": "",
-      "classes": [""],
+      "classes": [
+        ""
+      ],
       "xfn": "",
       "slug": "about-us",
       "child_items": [
@@ -1117,7 +1171,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/about-dcc/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/about-dcc/",
           "menu_order": 28,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1134,7 +1188,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "about-dcc"
         },
@@ -1157,7 +1213,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9171/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9171/",
           "menu_order": 29,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1174,7 +1230,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "announcements"
         },
@@ -1197,7 +1255,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/dcc-events/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/dcc-events/",
           "menu_order": 30,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1214,7 +1272,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "dcc-events"
         },
@@ -1237,7 +1297,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9176/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9176/",
           "menu_order": 31,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1254,7 +1314,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "public-awareness-campaigns"
         },
@@ -1277,7 +1339,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9177/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9177/",
           "menu_order": 32,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1294,7 +1356,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "scientific-research"
         },
@@ -1317,7 +1381,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9175/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9175/",
           "menu_order": 33,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1334,7 +1398,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "grant-funding"
         },
@@ -1357,7 +1423,7 @@
           "post_modified_gmt": "2021-12-07 19:07:51",
           "post_content_filtered": "",
           "post_parent": 856,
-          "guid": "https://api.cannabis.ca.gov/2021/12/07/9174/",
+          "guid": "https://live-cannabis-ca-gov.pantheonsite.io/2021/12/07/9174/",
           "menu_order": 34,
           "post_type": "nav_menu_item",
           "post_mime_type": "",
@@ -1374,7 +1440,9 @@
           "target": "",
           "attr_title": "",
           "description": "",
-          "classes": [""],
+          "classes": [
+            ""
+          ],
           "xfn": "",
           "slug": "contact-us"
         }
