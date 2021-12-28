@@ -1,6 +1,6 @@
 const main = require('./odi-publishing.json'); // Default settings.
 
-// const staging = require('./odi-publishing.staging.json'); // Default settings.
+// const staging = require('./odi-publishing.json'); // Default settings.
 const localhost = require('./odi-publishing.localhost.json'); // Default settings.
 
 const getConfig = () => {
