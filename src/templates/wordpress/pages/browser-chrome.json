@@ -9,7 +9,7 @@
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/staging"
     },
     "refresh_frequency": "as needed"
   },
