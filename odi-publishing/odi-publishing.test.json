@@ -7,11 +7,11 @@
   },
   "meta": {
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "As needed"
   },
@@ -29,8 +29,8 @@
     "name": "Department of Cannabis Control",
     "site_description": "Learn about California cannabis laws and licenses",
     "keywords": "cannabis, Department of Cannabis Control",
-    "url": "https://api.cannabis.ca.gov",
-    "home": "https://api.cannabis.ca.gov",
+    "url": "https://test-cannabis-ca-gov.pantheonsite.io",
+    "home": "https://test-cannabis-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [
@@ -53,10 +53,10 @@
       "https://cannabis.ca.gov/",
       "https://dev-cagov-dcc.pantheonsite.io"
     ],
-    "editor_url": "https://api.cannabis.ca.gov",
+    "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io",
     "static_site_url": "https://cannabis.ca.gov",
     "canonical_url": "https://cannabis.ca.gov",
-    "s3_bucket_url": "http://test.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
     "media": "pages/wordpress/media",
     "pages": "src/templates/wordpress/posts",
     "posts": "src/templates/wordpress/posts",
