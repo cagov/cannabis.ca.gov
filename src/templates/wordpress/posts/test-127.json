@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "created_date": "2021-12-28T22:51:11",
+    "updated_date": "2021-12-28T22:51:12",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/9286",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9286,
+    "date": "2021-12-28T14:51:11",
+    "date_gmt": "2021-12-28T22:51:11",
+    "guid": "https://test-cannabis-ca-gov.pantheonsite.io/?p=9286",
+    "modified": "2021-12-28T14:51:12",
+    "modified_gmt": "2021-12-28T22:51:12",
+    "slug": "test-127",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2021/12/28/test-127/",
+    "title": "test-127",
+    "excerpt": "",
+    "author": "Test Suite Z",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/12/28/test-127/",
+      "page_title": "test-127",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "test-127",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/12/28/test-127/",
+      "open_graph_title": "test-127",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "test-127",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/12/28/test-127/"
+  }
+}
