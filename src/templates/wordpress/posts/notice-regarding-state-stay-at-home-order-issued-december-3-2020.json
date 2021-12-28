@@ -4,12 +4,12 @@
     "updated_date": "2020-12-05T00:00:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6179",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6179",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "notice-regarding-state-stay-at-home-order-issued-december-3-2020",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
     "title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
     "excerpt": "<p>On Thursday, December 3, 2020, Governor Gavin Newsom issued a new Stay-at-Home Order to protect the health and well-being of all Californians and to continue facilitating a consistent approach across the state to slow the spread of COVID-19.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
       "page_title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
       "page_description": "On Thursday, December 3, 2020, Governor Gavin Newsom issued a new Stay-at-Home Order to protect the health and well-being of all Californians and to continue facilitating a consistent approach across the state to slow the spread of COVID-19.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
       "meta_description": "On Thursday, December 3, 2020, Governor Gavin Newsom issued a new Stay-at-Home Order to protect the health and well-being of all Californians and to continue facilitating a consistent approach across the state to slow the spread of COVID-19.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/",
       "open_graph_title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
       "open_graph_description": "On Thursday, December 3, 2020, Governor Gavin Newsom issued a new Stay-at-Home Order to protect the health and well-being of all Californians and to continue facilitating a consistent approach across the state to slow the spread of COVID-19.",
       "twitter_title": "Notice Regarding State Stay-At-Home Order Issued December 3, 2020",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/12/05/notice-regarding-state-stay-at-home-order-issued-december-3-2020/"
   }
 }

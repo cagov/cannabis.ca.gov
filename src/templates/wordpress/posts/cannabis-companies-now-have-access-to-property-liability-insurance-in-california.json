@@ -4,12 +4,12 @@
     "updated_date": "2018-06-05T19:23:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6249",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6249",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "cannabis-companies-now-have-access-to-property-liability-insurance-in-california",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
     "title": "Cannabis companies now have access to property, liability insurance in California",
     "excerpt": "<p>When you’re running a marijuana business in California, getting insurance can be a challenge.</p>\n",
     "author": "Department of Cannabis Control",
@@ -57,12 +57,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
       "page_title": "Cannabis companies now have access to property, liability insurance in California",
       "page_description": "When you’re running a marijuana business in California, getting insurance can be a challenge.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -71,7 +71,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis companies now have access to property, liability insurance in California",
       "meta_description": "When you’re running a marijuana business in California, getting insurance can be a challenge.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/",
       "open_graph_title": "Cannabis companies now have access to property, liability insurance in California",
       "open_graph_description": "When you’re running a marijuana business in California, getting insurance can be a challenge.",
       "twitter_title": "Cannabis companies now have access to property, liability insurance in California",
@@ -206,6 +206,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/05/cannabis-companies-now-have-access-to-property-liability-insurance-in-california/"
   }
 }

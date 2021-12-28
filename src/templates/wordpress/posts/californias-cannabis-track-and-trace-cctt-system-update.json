@@ -4,12 +4,12 @@
     "updated_date": "2018-01-01T20:10:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6269",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6269",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "californias-cannabis-track-and-trace-cctt-system-update",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
     "title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
     "excerpt": "<p>Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.</p>\n",
     "author": "Department of Cannabis Control",
@@ -54,12 +54,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
       "page_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
       "page_description": "Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -68,7 +68,7 @@
       "page_social_image_alt": "",
       "meta_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
       "meta_description": "Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/",
       "open_graph_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
       "open_graph_description": "Do you want the latest information on California&#8217;s Cannabis Track-and-Trace (CCTT) system.",
       "twitter_title": "California&#8217;s Cannabis Track-and-Trace (CCTT) System Update",
@@ -170,6 +170,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/01/01/californias-cannabis-track-and-trace-cctt-system-update/"
   }
 }

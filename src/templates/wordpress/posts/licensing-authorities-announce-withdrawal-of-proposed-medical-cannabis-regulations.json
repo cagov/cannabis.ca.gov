@@ -4,12 +4,12 @@
     "updated_date": "2017-09-29T20:42:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6068",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6068",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
     "title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
     "excerpt": "<p>Agencies Also Post Summary of Public Comments to Cannabis Web Portal.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
       "page_title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
       "page_description": "Agencies Also Post Summary of Public Comments to Cannabis Web Portal.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
       "meta_description": "Agencies Also Post Summary of Public Comments to Cannabis Web Portal.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/",
       "open_graph_title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
       "open_graph_description": "Agencies Also Post Summary of Public Comments to Cannabis Web Portal.",
       "twitter_title": "Licensing Authorities Announce Withdrawal of Proposed Medical Cannabis Regulations",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/09/29/licensing-authorities-announce-withdrawal-of-proposed-medical-cannabis-regulations/"
   }
 }

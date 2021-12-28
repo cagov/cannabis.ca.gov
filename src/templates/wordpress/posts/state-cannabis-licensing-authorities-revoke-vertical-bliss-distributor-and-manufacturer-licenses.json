@@ -4,12 +4,12 @@
     "updated_date": "2019-11-21T21:37:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5991",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/5991",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
     "title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
       "page_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/",
       "open_graph_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today that they have revoked the state commercial cannabis licenses issued to Vertical Bliss, Inc., also known as Kushy Punch, located at 20500 Nordhoff Street in Chatsworth.",
       "twitter_title": "State Cannabis Licensing Authorities Revoke Vertical Bliss&#8217; Distributor and Manufacturer Licenses",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/11/21/state-cannabis-licensing-authorities-revoke-vertical-bliss-distributor-and-manufacturer-licenses/"
   }
 }

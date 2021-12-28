@@ -4,12 +4,12 @@
     "updated_date": "2019-12-24T20:47:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6186",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6186",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
     "title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
     "excerpt": "<p>The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
       "page_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
       "page_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
       "meta_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/",
       "open_graph_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
       "open_graph_description": "The Governor’s Office of Business and Economic Development (GO-Biz) is administering the Cannabis Equity Grants Program for Local Jurisdictions, also known as the Local Equity Grant Program, on behalf of the Bureau of Cannabis Control.",
       "twitter_title": "Draft Grant Solicitation &#038; Comment Period for Cannabis Equity Grants Program",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/12/24/draft-grant-solicitation-comment-period-for-cannabis-equity-grants-program/"
   }
 }

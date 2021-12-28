@@ -4,12 +4,12 @@
     "updated_date": "2017-12-18T20:17:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6270",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6270",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "cdfa-now-accepting-temporary-cannabis-licensing-applications",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
     "title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
     "excerpt": "<p>The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.</p>\n",
     "author": "Department of Cannabis Control",
@@ -55,12 +55,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
       "page_title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
       "page_description": "The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
       "meta_description": "The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
       "open_graph_title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
       "open_graph_description": "The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.",
       "twitter_title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
@@ -182,6 +182,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/12/18/cdfa-now-accepting-temporary-cannabis-licensing-applications/"
   }
 }

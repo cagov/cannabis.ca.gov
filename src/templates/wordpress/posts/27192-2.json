@@ -4,12 +4,12 @@
     "updated_date": "2017-08-25T22:52:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6075",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6075",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "27192-2",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/08/25/27192-2/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2017/08/25/27192-2/",
     "title": "Governor Brown Announces Appointments",
     "excerpt": "<p>SACRAMENTO – Governor Edmund G.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/08/25/27192-2/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/08/25/27192-2/",
       "page_title": "Governor Brown Announces Appointments",
       "page_description": "SACRAMENTO – Governor Edmund G.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "Governor Brown Announces Appointments",
       "meta_description": "SACRAMENTO – Governor Edmund G.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/08/25/27192-2/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/08/25/27192-2/",
       "open_graph_title": "Governor Brown Announces Appointments",
       "open_graph_description": "SACRAMENTO – Governor Edmund G.",
       "twitter_title": "Governor Brown Announces Appointments",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/08/25/27192-2/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/08/25/27192-2/"
   }
 }

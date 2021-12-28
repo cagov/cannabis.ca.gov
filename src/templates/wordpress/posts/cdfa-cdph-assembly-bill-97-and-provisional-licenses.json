@@ -4,12 +4,12 @@
     "updated_date": "2019-08-06T23:14:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6195",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6195",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "cdfa-cdph-assembly-bill-97-and-provisional-licenses",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
     "title": "CDFA &#038; CDPH &#8211; Assembly Bill 97 and Provisional Licenses",
     "excerpt": "<p>Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA).</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
       "page_title": "CDFA &#038; CDPH &#8211; Assembly Bill 97 and Provisional Licenses",
       "page_description": "Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA).",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDFA &#038; CDPH &#8211; Assembly Bill 97 and Provisional Licenses",
       "meta_description": "Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA).",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/",
       "open_graph_title": "CDFA &#038; CDPH &#8211; Assembly Bill 97 and Provisional Licenses",
       "open_graph_description": "Assembly Bill 97, a trailer bill passed by the California State Legislature and signed into law earlier this month, contains provisions that modify the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA).",
       "twitter_title": "CDFA &#038; CDPH &#8211; Assembly Bill 97 and Provisional Licenses",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/08/06/cdfa-cdph-assembly-bill-97-and-provisional-licenses/"
   }
 }

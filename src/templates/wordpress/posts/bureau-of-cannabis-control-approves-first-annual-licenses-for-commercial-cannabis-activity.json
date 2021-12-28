@@ -4,12 +4,12 @@
     "updated_date": "2018-11-02T21:59:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6021",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6021",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
     "title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -58,12 +58,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
       "page_title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -72,7 +72,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/",
       "open_graph_title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced it has approved the issuance of annual licenses for 12 commercial cannabis businesses in California.",
       "twitter_title": "Bureau of Cannabis Control Approves First Annual Licenses for Commercial Cannabis Activity",
@@ -218,6 +218,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/11/02/bureau-of-cannabis-control-approves-first-annual-licenses-for-commercial-cannabis-activity/"
   }
 }

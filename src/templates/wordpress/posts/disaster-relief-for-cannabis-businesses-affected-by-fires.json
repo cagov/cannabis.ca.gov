@@ -4,12 +4,12 @@
     "updated_date": "2021-09-03T20:34:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/8713",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/8713",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "disaster-relief-for-cannabis-businesses-affected-by-fires",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
     "title": "Disaster Relief for Cannabis Businesses Affected by Fires",
     "excerpt": "<p>California is in the thick of fire season. This year, wildfires have burned more than 1.9 million acres in California. More than 15,300 firefighters are on the frontlines of 16 major and five extended attack wildfires across California. The Caldor Fire is the 15th largest fire in California history and the Monument fire is the [&hellip;]</p>\n",
     "author": "Christina Dempsey",
@@ -53,12 +53,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
       "page_title": "Disaster Relief for Cannabis Businesses Affected by Fires",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -67,7 +67,7 @@
       "page_social_image_alt": "",
       "meta_title": "Disaster Relief for Cannabis Businesses Affected by Fires",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/",
       "open_graph_title": "Disaster Relief for Cannabis Businesses Affected by Fires",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Disaster Relief for Cannabis Businesses Affected by Fires",
@@ -158,6 +158,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/09/03/disaster-relief-for-cannabis-businesses-affected-by-fires/"
   }
 }

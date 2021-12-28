@@ -4,12 +4,12 @@
     "updated_date": "2017-04-20T21:59:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6302",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6302",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "26449-2",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/04/20/26449-2/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2017/04/20/26449-2/",
     "title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
     "excerpt": "<p>&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.</p>\n",
     "author": "Department of Cannabis Control",
@@ -47,12 +47,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/04/20/26449-2/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/04/20/26449-2/",
       "page_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
       "page_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -61,7 +61,7 @@
       "page_social_image_alt": "",
       "meta_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
       "meta_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/04/20/26449-2/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/04/20/26449-2/",
       "open_graph_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
       "open_graph_description": "&nbsp;&nbsp;SEATTLE (AP) — Thursday marks marijuana culture&#8217;s high holiday, 4/20, when college students gather — at 4:20 p.m.",
       "twitter_title": "Celebrating 4/20, Marijuana&#8217;s Big Day",
@@ -96,6 +96,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/04/20/26449-2/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/04/20/26449-2/"
   }
 }

@@ -4,12 +4,12 @@
     "updated_date": "2019-01-09T22:16:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6217",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6217",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "30677-2",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/01/09/30677-2/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/01/09/30677-2/",
     "title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
     "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) recently adopted emergency Regulation 3702, California Cannabis Track-and-Trace, which requires distributors and retailers to enter the wholesale cost and the retail selling price of cannabis or cannabis products into the California Cannabis Track-and-Trace (CCTT) system.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/01/09/30677-2/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/01/09/30677-2/",
       "page_title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
       "page_description": "The California Department of Tax and Fee Administration (CDTFA) recently adopted emergency Regulation 3702, California Cannabis Track-and-Trace, which requires distributors and retailers to enter the wholesale cost and the retail selling price of cannabis or cannabis products into the California Cannabis Track-and-Trace (CCTT) system.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
       "meta_description": "The California Department of Tax and Fee Administration (CDTFA) recently adopted emergency Regulation 3702, California Cannabis Track-and-Trace, which requires distributors and retailers to enter the wholesale cost and the retail selling price of cannabis or cannabis products into the California Cannabis Track-and-Trace (CCTT) system.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/01/09/30677-2/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/01/09/30677-2/",
       "open_graph_title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
       "open_graph_description": "The California Department of Tax and Fee Administration (CDTFA) recently adopted emergency Regulation 3702, California Cannabis Track-and-Trace, which requires distributors and retailers to enter the wholesale cost and the retail selling price of cannabis or cannabis products into the California Cannabis Track-and-Trace (CCTT) system.",
       "twitter_title": "New Emergency Regulation for Cannabis Distributors and Retailers Requires California Cannabis Track-and-Trace",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/01/09/30677-2/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/01/09/30677-2/"
   }
 }

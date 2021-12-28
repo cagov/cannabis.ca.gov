@@ -4,12 +4,12 @@
     "updated_date": "2018-06-11T22:21:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6244",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6244",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
     "title": "Notice Regarding the Bureau of Cannabis Control&#8217;s Online Licensing System",
     "excerpt": "<p>Beginning at 8:00 AM on Saturday, June 9, 2018, you will not be able the access the Bureau’s online licensing system while it undergoes maintenance necessary to implement the new emergency regulations.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
       "page_title": "Notice Regarding the Bureau of Cannabis Control&#8217;s Online Licensing System",
       "page_description": "Beginning at 8:00 AM on Saturday, June 9, 2018, you will not be able the access the Bureau’s online licensing system while it undergoes maintenance necessary to implement the new emergency regulations.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "Notice Regarding the Bureau of Cannabis Control&#8217;s Online Licensing System",
       "meta_description": "Beginning at 8:00 AM on Saturday, June 9, 2018, you will not be able the access the Bureau’s online licensing system while it undergoes maintenance necessary to implement the new emergency regulations.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/",
       "open_graph_title": "Notice Regarding the Bureau of Cannabis Control&#8217;s Online Licensing System",
       "open_graph_description": "Beginning at 8:00 AM on Saturday, June 9, 2018, you will not be able the access the Bureau’s online licensing system while it undergoes maintenance necessary to implement the new emergency regulations.",
       "twitter_title": "Notice Regarding the Bureau of Cannabis Control&#8217;s Online Licensing System",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/06/11/notice-regarding-the-bureau-of-cannabis-controls-online-licensing-system/"
   }
 }

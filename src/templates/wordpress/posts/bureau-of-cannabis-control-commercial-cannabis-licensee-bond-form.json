@@ -4,12 +4,12 @@
     "updated_date": "2018-04-16T21:08:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6256",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6256",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
     "title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
     "excerpt": "<p>One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
       "page_title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
       "page_description": "One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
       "meta_description": "One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
       "open_graph_title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
       "open_graph_description": "One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.",
       "twitter_title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2018/04/16/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/"
   }
 }

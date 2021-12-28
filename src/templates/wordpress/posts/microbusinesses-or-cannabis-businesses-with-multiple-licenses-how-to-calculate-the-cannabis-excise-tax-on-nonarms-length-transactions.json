@@ -4,12 +4,12 @@
     "updated_date": "2019-02-07T18:46:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6214",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6214",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
     "title": "CDTFA: How to Calculate the Cannabis Excise Tax on Nonarm&#8217;s Length Transactions",
     "excerpt": "<p>Distributors or microbusinesses authorized to operate as distributors are required to calculate and collect the 15 percent cannabis excise tax from cannabis retailers on the sale or transfer of cannabis or cannabis products (cannabis) based on the average market price of the cannabis.</p>\n",
     "author": "Department of Cannabis Control",
@@ -60,12 +60,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
       "page_title": "CDTFA: How to Calculate the Cannabis Excise Tax on Nonarm&#8217;s Length Transactions",
       "page_description": "Distributors or microbusinesses authorized to operate as distributors are required to calculate and collect the 15 percent cannabis excise tax from cannabis retailers on the sale or transfer of cannabis or cannabis products (cannabis) based on the average market price of the cannabis.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -74,7 +74,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDTFA: How to Calculate the Cannabis Excise Tax on Nonarm&#8217;s Length Transactions",
       "meta_description": "Distributors or microbusinesses authorized to operate as distributors are required to calculate and collect the 15 percent cannabis excise tax from cannabis retailers on the sale or transfer of cannabis or cannabis products (cannabis) based on the average market price of the cannabis.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/",
       "open_graph_title": "CDTFA: How to Calculate the Cannabis Excise Tax on Nonarm&#8217;s Length Transactions",
       "open_graph_description": "Distributors or microbusinesses authorized to operate as distributors are required to calculate and collect the 15 percent cannabis excise tax from cannabis retailers on the sale or transfer of cannabis or cannabis products (cannabis) based on the average market price of the cannabis.",
       "twitter_title": "CDTFA: How to Calculate the Cannabis Excise Tax on Nonarm&#8217;s Length Transactions",
@@ -242,6 +242,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/07/microbusinesses-or-cannabis-businesses-with-multiple-licenses-how-to-calculate-the-cannabis-excise-tax-on-nonarms-length-transactions/"
   }
 }
