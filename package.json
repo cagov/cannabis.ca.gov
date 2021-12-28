@@ -50,7 +50,7 @@
     "@cagov/ds-accordion": "^1.0.8",
     "@cagov/ds-agency-footer": "^1.0.2",
     "@cagov/ds-back-to-top": "^1.0.2",
-    "@cagov/ds-base-css": "^1.0.11",
+    "@cagov/ds-base-css": "^1.0.13",
     "@cagov/ds-branding": "^1.0.8",
     "@cagov/ds-button-grid": "^2.0.1",
     "@cagov/ds-content-navigation": "^1.0.7",
