@@ -4,12 +4,12 @@
     "updated_date": "2021-12-10T22:30:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9225",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/pages/9225",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "design-system-component-test-page",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/design-system-component-test-page/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/design-system-component-test-page/",
     "title": "Design System component test page",
     "excerpt": "",
     "author": "Chach",
@@ -45,12 +45,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/design-system-component-test-page/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/design-system-component-test-page/",
       "page_title": "Design System component test page",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -59,7 +59,7 @@
       "page_social_image_alt": "",
       "meta_title": "Design System component test page",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/design-system-component-test-page/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/design-system-component-test-page/",
       "open_graph_title": "Design System component test page",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Design System component test page",
@@ -69,18 +69,18 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/design-system-component-test-page/",
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/design-system-component-test-page/",
     "media": [
       {
         "id": 8179,
         "type": "thumbnail",
         "path": "2021/06/cannabis-buds-hero-1-150x150.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg",
         "file": "cannabis-buds-hero-1-150x150.jpg",
         "width": 150,
         "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg",
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg",
         "source_url_match": true,
         "featured": false
       },
@@ -88,12 +88,12 @@
         "id": 13,
         "type": "thumbnail",
         "path": "2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
         "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
         "width": 150,
         "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
         "source_url_match": true,
         "featured": false
       }

@@ -4,12 +4,12 @@
     "updated_date": "2021-12-08T05:10:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/7429",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/pages/7429",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "announcements",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/about-us/announcements/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/about-us/announcements/",
     "title": "Announcements",
     "excerpt": "<p>Sign up to receive emails&nbsp;from the Department of Cannabis Control&nbsp;when&nbsp;we share news and information.&nbsp;&nbsp;</p>\n",
     "author": "Department of Cannabis Control",
@@ -45,12 +45,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/about-us/announcements/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/about-us/announcements/",
       "page_title": "Announcements",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -59,7 +59,7 @@
       "page_social_image_alt": "",
       "meta_title": "Announcements",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/about-us/announcements/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/about-us/announcements/",
       "open_graph_title": "Announcements",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Announcements",
@@ -69,6 +69,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/about-us/announcements/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/about-us/announcements/"
   }
 }
