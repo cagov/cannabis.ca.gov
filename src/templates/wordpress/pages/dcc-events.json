@@ -4,11 +4,11 @@
     "updated_date": "2021-12-22T20:54:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/7800",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/pages/7800",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "dcc-events",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/about-us/dcc-events/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/about-us/dcc-events/",
     "title": "Department of Cannabis Control events",
     "excerpt": "<p>Find out about upcoming Department of Cannabis Control events.</p>\n",
     "author": "Department of Cannabis Control",
@@ -45,12 +45,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/about-us/dcc-events/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/about-us/dcc-events/",
       "page_title": "Department of Cannabis Control events",
       "page_description": "Find out about upcoming Department of Cannabis Control events.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -59,7 +59,7 @@
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control events",
       "meta_description": "Find out about upcoming Department of Cannabis Control events.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/about-us/dcc-events/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/about-us/dcc-events/",
       "open_graph_title": "Department of Cannabis Control events",
       "open_graph_description": "Find out about upcoming Department of Cannabis Control events.",
       "twitter_title": "Department of Cannabis Control events",
@@ -69,6 +69,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/about-us/dcc-events/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/about-us/dcc-events/"
   }
 }

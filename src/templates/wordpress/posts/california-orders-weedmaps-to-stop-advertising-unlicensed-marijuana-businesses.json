@@ -4,11 +4,11 @@
     "updated_date": "2018-03-13T16:10:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6265",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6265",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
     "title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
     "excerpt": "<p>The California Bureau of Cannabis Control sent a cease-and-desist letter last month to Irvine-based Ghost Management Group, the owner of popular marijuana dispensary finder Weedmaps.com, ordering the company to stop advertising unlicensed operators or face unspecified “criminal and administrative penalties.”</p>\n",
     "author": "Department of Cannabis Control",
@@ -55,12 +55,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
       "page_title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
       "page_description": "The California Bureau of Cannabis Control sent a cease-and-desist letter last month to Irvine-based Ghost Management Group, the owner of popular marijuana dispensary finder Weedmaps.com, ordering the company to stop advertising unlicensed operators or face unspecified “criminal and administrative penalties.”",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
       "meta_description": "The California Bureau of Cannabis Control sent a cease-and-desist letter last month to Irvine-based Ghost Management Group, the owner of popular marijuana dispensary finder Weedmaps.com, ordering the company to stop advertising unlicensed operators or face unspecified “criminal and administrative penalties.”",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/",
       "open_graph_title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
       "open_graph_description": "The California Bureau of Cannabis Control sent a cease-and-desist letter last month to Irvine-based Ghost Management Group, the owner of popular marijuana dispensary finder Weedmaps.com, ordering the company to stop advertising unlicensed operators or face unspecified “criminal and administrative penalties.”",
       "twitter_title": "California orders Weedmaps to stop advertising unlicensed marijuana businesses",
@@ -182,6 +182,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/13/california-orders-weedmaps-to-stop-advertising-unlicensed-marijuana-businesses/"
   }
 }

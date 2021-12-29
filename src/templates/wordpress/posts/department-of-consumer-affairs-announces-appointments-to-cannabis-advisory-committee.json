@@ -4,11 +4,11 @@
     "updated_date": "2017-10-04T22:52:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6066",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6066",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
     "title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
     "excerpt": "<p>SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).</p>\n",
     "author": "Department of Cannabis Control",
@@ -52,12 +52,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
       "page_title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
       "page_description": "SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -66,7 +66,7 @@
       "page_social_image_alt": "",
       "meta_title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
       "meta_description": "SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/",
       "open_graph_title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
       "open_graph_description": "SACRAMENTO – The Department of Consumer Affairs today announced the members of the state’s new Cannabis Advisory Committee under the Bureau of Cannabis Control (BCC).",
       "twitter_title": "Department of Consumer Affairs Announces Appointments to Cannabis Advisory Committee",
@@ -146,6 +146,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/04/department-of-consumer-affairs-announces-appointments-to-cannabis-advisory-committee/"
   }
 }

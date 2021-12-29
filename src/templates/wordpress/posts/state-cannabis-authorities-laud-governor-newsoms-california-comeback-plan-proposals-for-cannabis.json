@@ -4,11 +4,11 @@
     "updated_date": "2021-05-15T05:07:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6177",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6177",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
     "title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
     "excerpt": "<p>Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.</p>\n",
     "author": "Department of Cannabis Control",
@@ -52,12 +52,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
       "page_title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
       "page_description": "Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -66,7 +66,7 @@
       "page_social_image_alt": "",
       "meta_title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
       "meta_description": "Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/",
       "open_graph_title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
       "open_graph_description": "Plan proposes millions in funding to address environmental impacts, public health and safety concerns, and equity and inclusion.",
       "twitter_title": "State Cannabis Authorities Laud Governor Newsom’s California Comeback Plan Proposals for Cannabis",
@@ -146,6 +146,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/05/14/state-cannabis-authorities-laud-governor-newsoms-california-comeback-plan-proposals-for-cannabis/"
   }
 }

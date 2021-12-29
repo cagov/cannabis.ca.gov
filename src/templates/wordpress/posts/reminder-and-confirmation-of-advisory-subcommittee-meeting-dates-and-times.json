@@ -4,11 +4,11 @@
     "updated_date": "2018-02-09T00:37:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6044",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6044",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
     "title": "REMINDER AND CONFIRMATION OF ADVISORY SUBCOMMITTEE MEETING DATES AND TIMES",
     "excerpt": "<p>The Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.</p>\n",
     "author": "Department of Cannabis Control",
@@ -47,12 +47,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
       "page_title": "REMINDER AND CONFIRMATION OF ADVISORY SUBCOMMITTEE MEETING DATES AND TIMES",
       "page_description": "The Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -61,7 +61,7 @@
       "page_social_image_alt": "",
       "meta_title": "REMINDER AND CONFIRMATION OF ADVISORY SUBCOMMITTEE MEETING DATES AND TIMES",
       "meta_description": "The Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/",
       "open_graph_title": "REMINDER AND CONFIRMATION OF ADVISORY SUBCOMMITTEE MEETING DATES AND TIMES",
       "open_graph_description": "The Cannabis Advisory Committee will be holding a series of Subcommittee Meetings on Tuesday, February 13 in Sacramento.",
       "twitter_title": "REMINDER AND CONFIRMATION OF ADVISORY SUBCOMMITTEE MEETING DATES AND TIMES",
@@ -96,6 +96,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/02/09/reminder-and-confirmation-of-advisory-subcommittee-meeting-dates-and-times/"
   }
 }

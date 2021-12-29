@@ -4,11 +4,11 @@
     "updated_date": "2017-04-20T22:11:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6301",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6301",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "californias-weed-nuns-on-a-mission-to-heal-with-cannabis",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
     "title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
     "excerpt": "<p>The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.</p>\n",
     "author": "Department of Cannabis Control",
@@ -47,12 +47,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
       "page_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
       "page_description": "The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -61,7 +61,7 @@
       "page_social_image_alt": "",
       "meta_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
       "meta_description": "The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
       "open_graph_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
       "open_graph_description": "The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.",
       "twitter_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
@@ -96,6 +96,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/"
   }
 }

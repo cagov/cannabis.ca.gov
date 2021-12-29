@@ -4,11 +4,11 @@
     "updated_date": "2019-04-08T20:39:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6208",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6208",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "updated-timeline-for-the-california-community-reinvestment-grants-program",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/",
     "title": "Updated Timeline for the California Community Reinvestment Grants Program",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties,<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) announced the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment on February 15, 2019.  Included in the draft was a timeline with the release of the Final Grant Solicitation planned for April 8, 2019.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/",
       "page_title": "Updated Timeline for the California Community Reinvestment Grants Program",
       "page_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) announced the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment on February 15, 2019.  Included in the draft was a timeline with the release of the Final Grant Solicitation planned for April 8, 2019.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "Updated Timeline for the California Community Reinvestment Grants Program",
       "meta_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) announced the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment on February 15, 2019.  Included in the draft was a timeline with the release of the Final Grant Solicitation planned for April 8, 2019.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/",
       "open_graph_title": "Updated Timeline for the California Community Reinvestment Grants Program",
       "open_graph_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) announced the release of the California Community Reinvestment Grants (CalCRG) program Draft Grant Solicitation for public review and comment on February 15, 2019.  Included in the draft was a timeline with the release of the Final Grant Solicitation planned for April 8, 2019.",
       "twitter_title": "Updated Timeline for the California Community Reinvestment Grants Program",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/04/08/updated-timeline-for-the-california-community-reinvestment-grants-program/"
   }
 }

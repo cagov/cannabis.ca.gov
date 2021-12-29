@@ -4,11 +4,11 @@
     "updated_date": "2018-05-11T17:32:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6037",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6037",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
     "title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
     "excerpt": "<p>Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.</p>\n",
     "author": "Department of Cannabis Control",
@@ -53,12 +53,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
       "page_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
       "page_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -67,7 +67,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
       "meta_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
       "open_graph_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
       "open_graph_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.",
       "twitter_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
@@ -158,6 +158,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/05/11/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/"
   }
 }

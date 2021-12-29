@@ -4,11 +4,11 @@
     "updated_date": "2017-10-09T18:56:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6064",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6064",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
     "title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Riverside on October 13.</p>\n",
     "author": "Department of Cannabis Control",
@@ -54,12 +54,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
       "page_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Riverside on October 13.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -68,7 +68,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Riverside on October 13.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/",
       "open_graph_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Riverside on October 13.",
       "twitter_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Riverside",
@@ -170,6 +170,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/09/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-riverside/"
   }
 }

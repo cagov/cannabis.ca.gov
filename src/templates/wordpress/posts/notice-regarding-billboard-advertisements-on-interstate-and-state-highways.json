@@ -4,11 +4,11 @@
     "updated_date": "2021-01-22T19:01:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5966",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/5966",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "notice-regarding-billboard-advertisements-on-interstate-and-state-highways",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
     "title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
     "excerpt": "<p>On January 11, 2021, in the case of Farmer v. Bureau of Cannabis Control &#038; Lori Ajax, the San Luis Obispo County Superior Court entered a formal judgement ruling that Section 5040(b)(3) of the Bureau’s regulations is invalid.</p>\n",
     "author": "Department of Cannabis Control",
@@ -52,12 +52,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
       "page_title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
       "page_description": "On January 11, 2021, in the case of Farmer v. Bureau of Cannabis Control & Lori Ajax, the San Luis Obispo County Superior Court entered a formal judgement ruling that Section 5040(b)(3) of the Bureau’s regulations is invalid.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -66,7 +66,7 @@
       "page_social_image_alt": "",
       "meta_title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
       "meta_description": "On January 11, 2021, in the case of Farmer v. Bureau of Cannabis Control & Lori Ajax, the San Luis Obispo County Superior Court entered a formal judgement ruling that Section 5040(b)(3) of the Bureau’s regulations is invalid.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/",
       "open_graph_title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
       "open_graph_description": "On January 11, 2021, in the case of Farmer v. Bureau of Cannabis Control & Lori Ajax, the San Luis Obispo County Superior Court entered a formal judgement ruling that Section 5040(b)(3) of the Bureau’s regulations is invalid.",
       "twitter_title": "Notice Regarding Billboard Advertisements on Interstate and State Highways",
@@ -146,6 +146,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/01/22/notice-regarding-billboard-advertisements-on-interstate-and-state-highways/"
   }
 }

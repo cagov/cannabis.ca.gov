@@ -4,11 +4,11 @@
     "updated_date": "2017-09-15T20:04:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6072",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6072",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
     "title": "Bureau of Cannabis Control to Hold CEQA Study Results Workshop in Long Beach",
     "excerpt": "<p>SACRAMENTO &#8211; The Bureau of Cannabis Control (Bureau) will hold a public workshop in Long Beach to receive comments regarding the recent release of its California Environmental Quality Act (CEQA) Initial Study and Proposed Negative Declaration (IS/ND) for its regulatory licensing and enforcement program (Proposed Program) for commercial cannabis distributors, retailers, testing laboratories and microbusinesses.</p>\n",
     "author": "Department of Cannabis Control",
@@ -53,12 +53,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
       "page_title": "Bureau of Cannabis Control to Hold CEQA Study Results Workshop in Long Beach",
       "page_description": "SACRAMENTO &#8211; The Bureau of Cannabis Control (Bureau) will hold a public workshop in Long Beach to receive comments regarding the recent release of its California Environmental Quality Act (CEQA) Initial Study and Proposed Negative Declaration (IS/ND) for its regulatory licensing and enforcement program (Proposed Program) for commercial cannabis distributors, retailers, testing laboratories and microbusinesses.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -67,7 +67,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control to Hold CEQA Study Results Workshop in Long Beach",
       "meta_description": "SACRAMENTO &#8211; The Bureau of Cannabis Control (Bureau) will hold a public workshop in Long Beach to receive comments regarding the recent release of its California Environmental Quality Act (CEQA) Initial Study and Proposed Negative Declaration (IS/ND) for its regulatory licensing and enforcement program (Proposed Program) for commercial cannabis distributors, retailers, testing laboratories and microbusinesses.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/",
       "open_graph_title": "Bureau of Cannabis Control to Hold CEQA Study Results Workshop in Long Beach",
       "open_graph_description": "SACRAMENTO &#8211; The Bureau of Cannabis Control (Bureau) will hold a public workshop in Long Beach to receive comments regarding the recent release of its California Environmental Quality Act (CEQA) Initial Study and Proposed Negative Declaration (IS/ND) for its regulatory licensing and enforcement program (Proposed Program) for commercial cannabis distributors, retailers, testing laboratories and microbusinesses.",
       "twitter_title": "Bureau of Cannabis Control to Hold CEQA Study Results Workshop in Long Beach",
@@ -158,6 +158,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/09/15/bureau-of-cannabis-control-to-hold-ceqa-study-results-workshop-in-long-beach/"
   }
 }

@@ -4,11 +4,11 @@
     "updated_date": "2021-11-02T00:00:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/8942",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/8942",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
     "title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
     "excerpt": "<p>The California Department of Alcoholic Beverage Control (ABC) issued the following industry advisory to provide guidance about which activities are allowed on or in premises licensed by ABC. Contact ABC if you have any questions about this advisory:&nbsp;headquarters@abc.ca.gov, (916) 419-2500 With the legalization of commercial recreational use of cannabis products commencing in 2018, along with [&hellip;]</p>\n",
     "author": "Christina Dempsey",
@@ -51,12 +51,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
       "page_title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -65,7 +65,7 @@
       "page_social_image_alt": "",
       "meta_title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
       "open_graph_title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
@@ -134,6 +134,6 @@
       "custom_post_date": "2021-11-01",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2021/11/01/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/"
   }
 }

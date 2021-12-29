@@ -4,11 +4,11 @@
     "updated_date": "2019-01-17T01:32:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6018",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6018",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "new-cannabis-regulations-approved-by-the-office-of-administrative-law",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
     "title": "New Cannabis Regulations Approved by the Office of Administrative Law",
     "excerpt": "<p>SACRAMENTO – California’s three state cannabis licensing authorities today announced that the Office of Administrative Law (OAL) has officially approved state regulations for cannabis businesses across the supply chain from cultivation to retail.</p>\n",
     "author": "Department of Cannabis Control",
@@ -68,12 +68,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
       "page_title": "New Cannabis Regulations Approved by the Office of Administrative Law",
       "page_description": "SACRAMENTO – California’s three state cannabis licensing authorities today announced that the Office of Administrative Law (OAL) has officially approved state regulations for cannabis businesses across the supply chain from cultivation to retail.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -82,7 +82,7 @@
       "page_social_image_alt": "",
       "meta_title": "New Cannabis Regulations Approved by the Office of Administrative Law",
       "meta_description": "SACRAMENTO – California’s three state cannabis licensing authorities today announced that the Office of Administrative Law (OAL) has officially approved state regulations for cannabis businesses across the supply chain from cultivation to retail.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/",
       "open_graph_title": "New Cannabis Regulations Approved by the Office of Administrative Law",
       "open_graph_description": "SACRAMENTO – California’s three state cannabis licensing authorities today announced that the Office of Administrative Law (OAL) has officially approved state regulations for cannabis businesses across the supply chain from cultivation to retail.",
       "twitter_title": "New Cannabis Regulations Approved by the Office of Administrative Law",
@@ -338,6 +338,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/17/new-cannabis-regulations-approved-by-the-office-of-administrative-law/"
   }
 }

@@ -4,11 +4,11 @@
     "updated_date": "2017-10-23T18:34:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6277",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6277",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
     "title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
     "excerpt": "<p>It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.</p>\n",
     "author": "Department of Cannabis Control",
@@ -52,12 +52,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
       "page_title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
       "page_description": "It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -66,7 +66,7 @@
       "page_social_image_alt": "",
       "meta_title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
       "meta_description": "It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/",
       "open_graph_title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
       "open_graph_description": "It takes a lot of juice to grow pot indoors, so Sacramento’s major electric utility is gearing up for the heavy demands of recreational marijuana growers come January.",
       "twitter_title": "Media: Pot Growers in Sacramento Will Need a Lot of Electricity. SMUD Wants to Help",
@@ -146,6 +146,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2017/10/23/pot-growers-in-sacramento-will-need-a-lot-of-electricity-smud-wants-to-help/"
   }
 }

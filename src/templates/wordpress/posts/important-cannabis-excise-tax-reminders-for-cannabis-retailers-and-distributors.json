@@ -4,11 +4,11 @@
     "updated_date": "2019-01-16T17:57:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6216",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6216",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/",
     "title": "Important Cannabis Excise Tax Reminders for Cannabis Retailers and Distributors",
     "excerpt": "<p>Cannabis Excise Tax Requirements: Distributors are required to calculate and collect the cannabis excise tax from retailers on the sale or transfer of cannabis or cannabis products.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/",
       "page_title": "Important Cannabis Excise Tax Reminders for Cannabis Retailers and Distributors",
       "page_description": "Cannabis Excise Tax Requirements: Distributors are required to calculate and collect the cannabis excise tax from retailers on the sale or transfer of cannabis or cannabis products.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "Important Cannabis Excise Tax Reminders for Cannabis Retailers and Distributors",
       "meta_description": "Cannabis Excise Tax Requirements: Distributors are required to calculate and collect the cannabis excise tax from retailers on the sale or transfer of cannabis or cannabis products.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/",
       "open_graph_title": "Important Cannabis Excise Tax Reminders for Cannabis Retailers and Distributors",
       "open_graph_description": "Cannabis Excise Tax Requirements: Distributors are required to calculate and collect the cannabis excise tax from retailers on the sale or transfer of cannabis or cannabis products.",
       "twitter_title": "Important Cannabis Excise Tax Reminders for Cannabis Retailers and Distributors",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2019/01/16/important-cannabis-excise-tax-reminders-for-cannabis-retailers-and-distributors/"
   }
 }

@@ -4,11 +4,11 @@
     "updated_date": "2018-11-06T00:19:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6227",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6227",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "cannabis-cultivation-informational-workshop-and-permitting-event",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
     "title": "Cannabis Cultivation Informational Workshop and Permitting Event",
     "excerpt": "<p>State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.</p>\n",
     "author": "Department of Cannabis Control",
@@ -55,12 +55,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
       "page_title": "Cannabis Cultivation Informational Workshop and Permitting Event",
       "page_description": "State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Cultivation Informational Workshop and Permitting Event",
       "meta_description": "State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/",
       "open_graph_title": "Cannabis Cultivation Informational Workshop and Permitting Event",
       "open_graph_description": "State Water Board staff will be hosting an Informational Workshop on the proposed updates to the Cannabis Cultivation Policy and Cannabis Cultivation General Order on November 8, 2018 from 4:00 p.m.",
       "twitter_title": "Cannabis Cultivation Informational Workshop and Permitting Event",
@@ -182,6 +182,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/11/06/cannabis-cultivation-informational-workshop-and-permitting-event/"
   }
 }

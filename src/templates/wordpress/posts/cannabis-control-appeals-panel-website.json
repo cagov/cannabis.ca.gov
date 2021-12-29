@@ -4,11 +4,11 @@
     "updated_date": "2018-08-21T23:55:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6236",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6236",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "cannabis-control-appeals-panel-website",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/08/21/cannabis-control-appeals-panel-website/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/08/21/cannabis-control-appeals-panel-website/",
     "title": "Cannabis Control Appeals Panel Website",
     "excerpt": "<p>The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/08/21/cannabis-control-appeals-panel-website/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/08/21/cannabis-control-appeals-panel-website/",
       "page_title": "Cannabis Control Appeals Panel Website",
       "page_description": "The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Control Appeals Panel Website",
       "meta_description": "The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/08/21/cannabis-control-appeals-panel-website/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/08/21/cannabis-control-appeals-panel-website/",
       "open_graph_title": "Cannabis Control Appeals Panel Website",
       "open_graph_description": "The Cannabis Control Appeals Panel is responsible for appeals of any decision by state cannabis licensing authorities relating to the order of any penalty assessment, issuing, denying, transferring, conditioning, suspending or revoking any license provided under MAUCRSA.",
       "twitter_title": "Cannabis Control Appeals Panel Website",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/08/21/cannabis-control-appeals-panel-website/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/08/21/cannabis-control-appeals-panel-website/"
   }
 }

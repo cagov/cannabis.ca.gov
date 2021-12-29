@@ -4,11 +4,11 @@
     "updated_date": "2018-03-23T18:19:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6263",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6263",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -23,7 +23,7 @@
     "slug": "cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
+    "link": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
     "title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
     "excerpt": "<p>The California Department of Public Health (CDPH) released today proposed emergency regulations that would allow cannabis manufacturers to utilize shared-use facilities.</p>\n",
     "author": "Department of Cannabis Control",
@@ -53,12 +53,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
+      "site_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
       "page_title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
       "page_description": "The California Department of Public Health (CDPH) released today proposed emergency regulations that would allow cannabis manufacturers to utilize shared-use facilities.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -67,7 +67,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
       "meta_description": "The California Department of Public Health (CDPH) released today proposed emergency regulations that would allow cannabis manufacturers to utilize shared-use facilities.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
+      "meta_canonical_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/",
       "open_graph_title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
       "open_graph_description": "The California Department of Public Health (CDPH) released today proposed emergency regulations that would allow cannabis manufacturers to utilize shared-use facilities.",
       "twitter_title": "CDPH Releases Emergency Regulations for Cannabis Manufacturing in Shared-Use Facilities",
@@ -158,6 +158,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/"
+    "wordpress_url": "https://dev-cannabis-ca-gov.pantheonsite.io/2018/03/23/cdph-releases-emergency-regulations-for-cannabis-manufacturing-in-shared-use-facilities/"
   }
 }
