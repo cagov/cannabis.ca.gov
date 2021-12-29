@@ -1,36 +1,3 @@
-/* CA branding */
-$cagov-branding-primary: #fec02f;
-$cagov-branding-secondary: #0f1e6b;
-
-/* Theme colors */
-$primary: #064e66;
-$primary-color: #064e66;
-$primary-dark: #043747;
-$primary-dark-color: #043747;
-$primary-light-color: #518394;
-$primary-lightest-color: #b4cad1;
-$primary-hover-color: #043747;
-
-$secondary-color: #2f4c2c;
-$secondary-dark-color: #21351f;
-$secondary-light-color: #6d826b;
-$secondary-lightest-color: #c1c9c0;
-$secondary-hover-color: #21351f;
-
-$highlight-color: #c0633b;
-$highlight-dark-color: #864529;
-$highlight-light-color: #d39276;
-$highlight-lightest-color: #ecd0c4;
-$secondary-hover-color: #864529;
-
-$org-name-state-font: "Arial", "Helvetica", sans-serif;
-$org-name-state-font-size: 0.875rem;
-$org-name-state-text-transform: uppercase;
-
-$org-name-dept-font: "Lexend";
-$org-name-dept-font-size: 1.5rem;
-$org-name-dept-font-weight: 500;
-
 /* Cannabis logo font */
 @font-face {
   font-family: "Lexend";
@@ -39,45 +6,10 @@ $org-name-dept-font-weight: 500;
 
 /* Colorscheme root variables */
 :root {
-  /* Theme colors */
-  --primary: #064e66;
-  --primary-color: #064e66;
-  --primary-dark: #043747;
-  --primary-dark-color: #043747;
-  --primary-light-color: #518394;
-  --primary-lightest-color: #b4cad1;
-  --primary-hover-color: #043747;
-
-  --secondary-color: #2f4c2c;
-  --secondary-dark-color: #21351f;
-  --secondary-light-color: #6d826b;
-  --secondary-lightest-color: #c1c9c0;
-  --secondary-hover-color: #21351f;
-
-  --highlight-color: #c0633b;
-  --highlight-dark-color: #864529;
-  --highlight-light-color: #d39276;
-  --highlight-lightest-color: #ecd0c4;
-  --secondary-hover-color: #864529;
-
   --org-name-state-font: "Arial", "Helvetica", sans-serif;
   --org-name-state-font-size: 0.875rem;
   --org-name-state-text-transform: uppercase;
-
   --org-name-dept-font: "Lexend";
   --org-name-dept-font-size: 1.5rem;
   --org-name-dept-font-weight: 500;
-}
-
-/* GLOBAL */
-/* Cannabis color scheme */
-/* Colorscheme root variables */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap");
-:root {
-  --primary-color: #064e66;
-  --primary-hover-color: #043747;
-  --standout-color: #2f4c2c;
-  --standout-hover-color: #21351f;
-  --secondary-color: #2f4c2c;
-  --highlight-color: #fdb81e;
 }
