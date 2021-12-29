@@ -2,7 +2,7 @@
 git fetch
 git checkout development
 git pull
-git checkout main
+git checkout test
 git pull
 git merge --no-ff --no-commit development
 git restore --source=HEAD --staged --worktree -- \ 
@@ -21,4 +21,4 @@ git checkout src/templates/_data \
     src/templates/wordpress/redirects \ 
     src/templates/wordpress-media \ 
     odi-publishing
-#git commit -m "Selective merge: development into main"
+#git commit -m "Selective merge: development into test"
