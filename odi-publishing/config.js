@@ -25,7 +25,7 @@ const getConfig = () => {
         config.build.replace_urls = [
             "http://cannabis.ca.gov/",
             "https://cannabis.ca.gov/",
-            "https://dev-cagov-dcc.pantheonsite.io"
+            "https://dev-cannabis-ca-gov.pantheonsite.io"
         ];
         config.build.static_site_url = "http://localhost:8080";
         config.build.canonical_url = "http://localhost:8080";

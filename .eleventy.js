@@ -41,8 +41,10 @@ module.exports = function (eleventyConfig) {
   // Good candidate for 11ty-build-system.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
     try {
-      let u = new URL(url, `https://${domain}`);
+      let host = config.build.canonical_url.split("//");
+      let u = new URL(url, host[1] );
       u.host = domain;
+      u.protocol = host[0] + "//";
       return u.href;
     } catch {
       return url;
@@ -52,7 +54,6 @@ module.exports = function (eleventyConfig) {
   // Replace Wordpress Media paths.
   // Use this explicitly when a full URL is needed, such as within meta tags.
   // Doing so will ensure the domain doesn't get nuked by the HTML transformation below.
-
   eleventyConfig.addFilter("changeWpMediaPath", function (path) {
     return path.replace(new RegExp(`/${config.build.upload_folder}`, 'g'), "/media/");
   });
@@ -72,11 +73,11 @@ module.exports = function (eleventyConfig) {
       // html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/media/");
 
       // Minify HTML.
-      // html = htmlmin.minify(html, {
-      //   useShortDoctype: true,
-      //   removeComments: true,
-      //   collapseWhitespace: true,
-      // });
+      html = htmlmin.minify(html, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
     }
     return html;
   });
