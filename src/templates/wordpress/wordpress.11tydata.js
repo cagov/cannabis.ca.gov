@@ -95,6 +95,9 @@ module.exports = {
           article.data.og_meta?.page_social_image_alt 
           || config.og_meta.page_social_image_alt,
         keywords: config.build.keywords || ""
+      },
+      build: {
+        favicon: config.build.favicon
       }
     }
   }

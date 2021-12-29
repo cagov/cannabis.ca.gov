@@ -14,7 +14,7 @@ git restore --source=HEAD --staged --worktree -- \
     src/templates/wordpress-media \ 
     odi-publishing
 # Also do a checkout to fully prevent any content merges
-git checkout src/templates/_data \ 
+git checkout development src/templates/_data \ 
     src/templates/wordpress/menu \ 
     src/templates/wordpress/pages \ 
     src/templates/wordpress/posts \ 

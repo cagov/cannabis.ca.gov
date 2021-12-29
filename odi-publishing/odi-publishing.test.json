@@ -19,9 +19,9 @@
     "site_name": "Department of Cannabis Control",
     "site_description": "Learn about California cannabis laws and licenses",
     "site_social_url": "",
-    "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+    "page_social_image_url": "http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
     "page_social_image_alt": "Department of Cannabis Control",
-    "site_url": "https://cannabis.ca.gov",
+    "site_url": "http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com",
     "page_social_image_width": 1200,
     "page_social_image_height": 630
   },
@@ -51,12 +51,12 @@
     "replace_urls": [
       "http://cannabis.ca.gov/",
       "https://cannabis.ca.gov/",
-      "https://dev-cagov-dcc.pantheonsite.io"
+      "https://test-cannabis-ca-gov.pantheonsite.io"
     ],
     "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io",
-    "static_site_url": "https://cannabis.ca.gov",
-    "canonical_url": "https://cannabis.ca.gov",
-    "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "static_site_url": "http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "canonical_url": "http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "s3_bucket_url": "http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
     "media": "pages/wordpress/media",
     "pages": "src/templates/wordpress/posts",
     "posts": "src/templates/wordpress/posts",

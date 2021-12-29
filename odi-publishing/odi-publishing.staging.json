@@ -11,7 +11,7 @@
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/staging"
     },
     "refresh_frequency": "As needed"
   },
@@ -21,7 +21,7 @@
     "site_social_url": "",
     "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
     "page_social_image_alt": "Department of Cannabis Control",
-    "site_url": "https://cannabis.ca.gov",
+    "site_url": "https://development.cannabis.ca.gov",
     "page_social_image_width": 1200,
     "page_social_image_height": 630
   },
@@ -57,7 +57,7 @@
     "editor_url": "https://api.cannabis.ca.gov",
     "static_site_url": "https://cannabis.ca.gov",
     "canonical_url": "https://cannabis.ca.gov",
-    "s3_bucket_url": "http://test.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
     "media": "pages/wordpress/media",
     "pages": "src/templates/wordpress/posts",
     "posts": "src/templates/wordpress/posts",
