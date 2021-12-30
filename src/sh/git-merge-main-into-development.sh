@@ -20,6 +20,7 @@ git checkout main src/templates/_data \
     src/templates/wordpress/posts \ 
     src/templates/wordpress/redirects \ 
     src/templates/wordpress-media \ 
+    src/sh \ 
     odi-publishing \ 
-    .github/workflows   
+    .github/workflows 
 #git commit -m "Selective merge: main into development"
