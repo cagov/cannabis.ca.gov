@@ -14,13 +14,13 @@ git merge --no-ff --no-commit development
 #     src/templates/wordpress-media \ 
 #     odi-publishing
 # Also do a checkout to fully prevent any content merges
-git checkout development src/templates/_data
-git checkout development src/templates/wordpress/menu
-git checkout development src/templates/wordpress/pages
-git checkout development src/templates/wordpress/posts
-git checkout development src/templates/wordpress/redirects
-git checkout development src/templates/wordpress-media
-git checkout development src/sh
-git checkout development odi-publishing
-git checkout development .github/workflows
+git checkout test src/templates/_data
+git checkout test src/templates/wordpress/menu
+git checkout test src/templates/wordpress/pages
+git checkout test src/templates/wordpress/posts
+git checkout test src/templates/wordpress/redirects
+git checkout test src/wordpress-media
+git checkout test src/sh
+git checkout test odi-publishing
+git checkout test .github/workflows
 #git commit -m "Selective merge: development into test"
