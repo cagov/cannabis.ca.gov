@@ -4,12 +4,12 @@
     "updated_date": "2019-02-19T22:31:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6015",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6015",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
     "title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
     "excerpt": "<p>Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018.</p>\n",
     "author": "Department of Cannabis Control",
@@ -59,12 +59,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
       "page_title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
       "page_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -73,7 +73,7 @@
       "page_social_image_alt": "",
       "meta_title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
       "meta_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/",
       "open_graph_title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
       "open_graph_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 4th quarter of 2018.",
       "twitter_title": "California Department of Tax and Fee Administration Reports Cannabis Tax Revenues for Fourth Quarter of 2018",
@@ -230,6 +230,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/02/19/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-fourth-quarter-of-2018/"
   }
 }

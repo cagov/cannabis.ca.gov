@@ -4,12 +4,12 @@
     "updated_date": "2019-09-13T23:21:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5998",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/5998",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
     "title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers Selling Illegal Vape Cartridges",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action against two unlicensed cannabis retailers in Southern California selling illegal vape cartridges.</p>\n",
     "author": "Department of Cannabis Control",
@@ -55,12 +55,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
       "page_title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers Selling Illegal Vape Cartridges",
       "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action against two unlicensed cannabis retailers in Southern California selling illegal vape cartridges.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers Selling Illegal Vape Cartridges",
       "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action against two unlicensed cannabis retailers in Southern California selling illegal vape cartridges.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/",
       "open_graph_title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers Selling Illegal Vape Cartridges",
       "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action against two unlicensed cannabis retailers in Southern California selling illegal vape cartridges.",
       "twitter_title": "BCC Announces Enforcement Action on Two Unlicensed Cannabis Retailers Selling Illegal Vape Cartridges",
@@ -182,6 +182,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/09/13/bcc-announces-enforcement-action-on-two-unlicensed-cannabis-retailers-selling-illegal-vape-cartridges/"
   }
 }

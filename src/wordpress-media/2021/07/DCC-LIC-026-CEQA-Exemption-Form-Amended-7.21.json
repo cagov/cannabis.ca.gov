@@ -4,12 +4,12 @@
     "updated_date": "2021-07-29T04:53:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/8626",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/media/8626",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "dcc-lic-026-ceqa-exemption-form-amended-7-21",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/dcc-lic-026-ceqa-exemption-form-amended-7-21/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/dcc-lic-026-ceqa-exemption-form-amended-7-21/",
     "title": "DCC-LIC-026 CEQA Exemption Form (Amended 7.21)",
     "author": "Christina Dempsey",
     "comment_status": "closed",
@@ -33,7 +33,7 @@
     "categories": [
       2
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf'><img width=\"232\" height=\"300\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf'><img width=\"232\" height=\"300\" src=\"https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "file",
@@ -45,74 +45,74 @@
           "width": 1088,
           "height": 1408,
           "mime_type": "application/pdf",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg"
+          "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg"
         },
         "medium": {
           "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg",
           "width": 232,
           "height": 300,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg"
+          "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg"
         },
         "large": {
           "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg",
           "width": 791,
           "height": 1024,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg"
+          "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg"
         },
         "thumbnail": {
           "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg",
           "width": 116,
           "height": 150,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg"
+          "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg"
         }
       }
     },
     "post": null,
-    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf",
-    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf",
+    "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf",
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf",
     "sizes": [
       {
         "type": "full",
         "path": "2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg",
         "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg",
         "width": 1088,
         "height": 1408,
         "mime_type": "application/pdf",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg"
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1.jpg"
       },
       {
         "type": "large",
         "path": "2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg",
         "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg",
         "width": 791,
         "height": 1024,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg"
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-791x1024.jpg"
       },
       {
         "type": "medium",
         "path": "2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg",
         "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg",
         "width": 232,
         "height": 300,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg"
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-232x300.jpg"
       },
       {
         "type": "thumbnail",
         "path": "2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg",
         "file": "DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg",
         "width": 116,
         "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg"
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21-pdf-1-116x150.jpg"
       }
     ],
     "path": "2021/07/DCC-LIC-026-CEQA-Exemption-Form-Amended-7.21.pdf"

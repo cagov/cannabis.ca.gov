@@ -4,12 +4,12 @@
     "updated_date": "2019-03-13T23:01:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6211",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6211",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
     "title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
     "excerpt": "<p>As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).</p>\n",
     "author": "Department of Cannabis Control",
@@ -61,12 +61,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
       "page_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
       "page_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -75,7 +75,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
       "meta_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
       "open_graph_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
       "open_graph_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).",
       "twitter_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
@@ -254,6 +254,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/03/13/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/"
   }
 }

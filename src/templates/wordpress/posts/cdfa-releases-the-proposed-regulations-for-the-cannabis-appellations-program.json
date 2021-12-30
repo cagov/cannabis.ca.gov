@@ -4,12 +4,12 @@
     "updated_date": "2020-02-20T23:16:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6182",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6182",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
     "title": "CDFA Releases the Proposed Regulations for the Cannabis Appellations Program",
     "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.</p>\n",
     "author": "Department of Cannabis Control",
@@ -58,12 +58,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
       "page_title": "CDFA Releases the Proposed Regulations for the Cannabis Appellations Program",
       "page_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -72,7 +72,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDFA Releases the Proposed Regulations for the Cannabis Appellations Program",
       "meta_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/",
       "open_graph_title": "CDFA Releases the Proposed Regulations for the Cannabis Appellations Program",
       "open_graph_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nThe California Department of Food and Agriculture (CDFA) released the proposed regulations today for the appellations of origin for cannabis.",
       "twitter_title": "CDFA Releases the Proposed Regulations for the Cannabis Appellations Program",
@@ -218,6 +218,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/02/20/cdfa-releases-the-proposed-regulations-for-the-cannabis-appellations-program/"
   }
 }

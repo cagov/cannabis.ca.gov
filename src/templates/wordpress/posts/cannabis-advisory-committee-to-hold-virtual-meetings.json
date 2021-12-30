@@ -4,12 +4,12 @@
     "updated_date": "2021-05-07T22:52:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5963",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/5963",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "cannabis-advisory-committee-to-hold-virtual-meetings",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
     "title": "Cannabis Advisory Committee To Hold Virtual Meetings",
     "excerpt": "<p>The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.</p>\n",
     "author": "Department of Cannabis Control",
@@ -52,12 +52,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
       "page_title": "Cannabis Advisory Committee To Hold Virtual Meetings",
       "page_description": "The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -66,7 +66,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Advisory Committee To Hold Virtual Meetings",
       "meta_description": "The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/",
       "open_graph_title": "Cannabis Advisory Committee To Hold Virtual Meetings",
       "open_graph_description": "The Bureau of Cannabis Control announced today that the Cannabis Advisory Committee will be holding three virtual meetings in May.",
       "twitter_title": "Cannabis Advisory Committee To Hold Virtual Meetings",
@@ -146,6 +146,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2021/05/07/cannabis-advisory-committee-to-hold-virtual-meetings/"
   }
 }

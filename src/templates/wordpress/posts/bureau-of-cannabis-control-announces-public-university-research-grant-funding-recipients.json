@@ -4,12 +4,12 @@
     "updated_date": "2020-11-14T00:15:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5972",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/5972",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
     "title": "Bureau Of Cannabis Control Announces Public University Research Grant Funding Recipients",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded $29,950,494 in public university research grant funding to universities across California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -52,12 +52,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
       "page_title": "Bureau Of Cannabis Control Announces Public University Research Grant Funding Recipients",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded $29,950,494 in public university research grant funding to universities across California.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -66,7 +66,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau Of Cannabis Control Announces Public University Research Grant Funding Recipients",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded $29,950,494 in public university research grant funding to universities across California.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/",
       "open_graph_title": "Bureau Of Cannabis Control Announces Public University Research Grant Funding Recipients",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has awarded $29,950,494 in public university research grant funding to universities across California.",
       "twitter_title": "Bureau Of Cannabis Control Announces Public University Research Grant Funding Recipients",
@@ -146,6 +146,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/11/14/bureau-of-cannabis-control-announces-public-university-research-grant-funding-recipients/"
   }
 }

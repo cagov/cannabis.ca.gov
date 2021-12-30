@@ -4,12 +4,12 @@
     "updated_date": "2020-05-14T17:37:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5980",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/5980",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
     "title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
     "excerpt": "<p>SACRAMENTO, CA – The three state cannabis licensing authorities announced today that businesses with state commercial cannabis licenses expiring between now through June 30, 2020 may request 60-day deferrals of their license fee payments.</p>\n",
     "author": "Department of Cannabis Control",
@@ -56,12 +56,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
       "page_title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
       "page_description": "SACRAMENTO, CA – The three state cannabis licensing authorities announced today that businesses with state commercial cannabis licenses expiring between now through June 30, 2020 may request 60-day deferrals of their license fee payments.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -70,7 +70,7 @@
       "page_social_image_alt": "",
       "meta_title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
       "meta_description": "SACRAMENTO, CA – The three state cannabis licensing authorities announced today that businesses with state commercial cannabis licenses expiring between now through June 30, 2020 may request 60-day deferrals of their license fee payments.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/",
       "open_graph_title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
       "open_graph_description": "SACRAMENTO, CA – The three state cannabis licensing authorities announced today that businesses with state commercial cannabis licenses expiring between now through June 30, 2020 may request 60-day deferrals of their license fee payments.",
       "twitter_title": "State Cannabis Licensing Authorities Offer 60-day License Fee Deferrals",
@@ -194,6 +194,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2020/05/14/state-cannabis-licensing-authorities-offer-60-day-license-fee-deferrals/"
   }
 }

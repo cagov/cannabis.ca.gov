@@ -4,12 +4,12 @@
     "updated_date": "2019-05-23T18:29:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6007",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6007",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
     "title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
     "excerpt": "<p>Sacramento</strong>&nbsp;–The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 1st quarter of 2019. As of May 15, 2019, California&#8217;s cannabis excise tax generated $61.4 million in revenue reported on the 1st quarter 2019 returns due by April 30, 2019 and the cultivation tax generated $16.8 million.</p>\n",
     "author": "Department of Cannabis Control",
@@ -58,12 +58,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
       "page_title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
       "page_description": "Sacramento</strong>&nbsp;–The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 1st quarter of 2019. As of May 15, 2019, California&#8217;s cannabis excise tax generated $61.4 million in revenue reported on the 1st quarter 2019 returns due by April 30, 2019 and the cultivation tax generated $16.8 million.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -72,7 +72,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
       "meta_description": "Sacramento</strong>&nbsp;–The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 1st quarter of 2019. As of May 15, 2019, California&#8217;s cannabis excise tax generated $61.4 million in revenue reported on the 1st quarter 2019 returns due by April 30, 2019 and the cultivation tax generated $16.8 million.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
       "open_graph_title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
       "open_graph_description": "Sacramento</strong>&nbsp;–The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 1st quarter of 2019. As of May 15, 2019, California&#8217;s cannabis excise tax generated $61.4 million in revenue reported on the 1st quarter 2019 returns due by April 30, 2019 and the cultivation tax generated $16.8 million.",
       "twitter_title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
@@ -218,6 +218,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2019/05/23/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/"
   }
 }

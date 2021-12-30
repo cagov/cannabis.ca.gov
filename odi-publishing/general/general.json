@@ -1,20 +1,20 @@
 {
   "meta": {
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json?_fields=description,gmt_offset,name,namespaces,timezone_string,home,url",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json?_fields=description,gmt_offset,name,namespaces,timezone_string,home,url",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
     "name": "Department of Cannabis Control",
     "description": "Learn about California cannabis laws and licenses",
-    "url": "https://api.cannabis.ca.gov",
-    "home": "https://api.cannabis.ca.gov",
+    "url": "https://test-cannabis-ca-gov.pantheonsite.io",
+    "home": "https://test-cannabis-ca-gov.pantheonsite.io",
     "gmt_offset": -8,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [

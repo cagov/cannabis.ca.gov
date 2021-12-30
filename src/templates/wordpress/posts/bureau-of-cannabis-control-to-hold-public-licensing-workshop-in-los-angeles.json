@@ -4,12 +4,12 @@
     "updated_date": "2017-10-05T17:42:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6065",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/6065",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
     },
     "refresh_frequency": "as needed"
   },
@@ -23,7 +23,7 @@
     "slug": "bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/",
     "title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Los Angeles",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Los Angeles on October 12.</p>\n",
     "author": "Department of Cannabis Control",
@@ -53,12 +53,12 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://api.cannabis.ca.gov"
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
       },
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
-      "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/",
       "page_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Los Angeles",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Los Angeles on October 12.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -67,7 +67,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Los Angeles",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Los Angeles on October 12.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/",
       "open_graph_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Los Angeles",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Los Angeles on October 12.",
       "twitter_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Los Angeles",
@@ -158,6 +158,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/"
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2017/10/05/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-los-angeles/"
   }
 }
