@@ -53,7 +53,7 @@
       "https://cannabis.ca.gov/",
       "https://dev-cannabis-ca-gov.pantheonsite.io"
     ],
-    "favicon": "src/assets/cannabis_favicon_16x16.png",
+    "favicon": "/assets/cannabis_favicon_16x16.png",
     "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
     "static_site_url": "https://development.cannabis.ca.gov",
     "canonical_url": "https://development.cannabis.ca.gov",

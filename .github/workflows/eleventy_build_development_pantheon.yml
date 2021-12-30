@@ -1,7 +1,8 @@
 name: Eleventy build development Pantheon WP 5.8.1
 # site:  https://development.cannabis.ca.gov
 # editor: https://dev-cannabis-ca-gov.pantheonsite.io
-# s3 bucket: development.cannabis.ca.gov
+# url: development.cannabis.ca.gov
+# s3 bucket http://development.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 on:
   push:
     branches:
