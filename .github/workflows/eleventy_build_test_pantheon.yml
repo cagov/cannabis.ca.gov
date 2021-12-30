@@ -1,11 +1,11 @@
-name: Eleventy build development Pantheon WP 5.8.1
-# site:  https://development.cannabis.ca.gov
-# editor: https://dev-cannabis-ca-gov.pantheonsite.io
-# s3 bucket: development.cannabis.ca.gov
+name: Eleventy build production Pantheon WP 5.8.1
+# site:  test.cannabis.ca.gov
+# editor: https://test-cannabis-ca-gov.pantheonsite.io
+# s3 bucket http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 on:
   push:
     branches:
-      - development
+      - test
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir dist
           npm install
-          npm run build:development
+          npm run build:test
           npm run test:setup
 
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
@@ -31,14 +31,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          publish_branch: deploy_development
+          publish_branch: deploy_test
       # Push built site files to S3 production bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: 'development.cannabis.ca.gov'
+          AWS_S3_BUCKET: 'test.cannabis.ca.gov'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
@@ -52,7 +52,7 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-west-1'   # optional: defaults to us-east-1
           source: './docs/fonts'
-          dest: 's3://development.cannabis.ca.gov/fonts'
+          dest: 's3://test.cannabis.ca.gov/fonts'
           flags: --recursive --cache-control max-age=15552000
 
       # - name: Deploy redirects
@@ -68,7 +68,5 @@ jobs:
       #     AWS_REGION: 'us-west-1'
       #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
-
-
 
 
