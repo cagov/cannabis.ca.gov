@@ -2,7 +2,7 @@
 git fetch
 git checkout development
 git pull
-git checkout main
+git checkout test
 git pull
 git merge --no-ff --no-commit development
 git restore --source=HEAD --staged --worktree -- \ 
@@ -14,11 +14,11 @@ git restore --source=HEAD --staged --worktree -- \
     src/templates/wordpress-media \ 
     odi-publishing
 # Also do a checkout to fully prevent any content merges
-git checkout test src/templates/_data \ 
+git checkout development src/templates/_data \ 
     src/templates/wordpress/menu \ 
     src/templates/wordpress/pages \ 
     src/templates/wordpress/posts \ 
     src/templates/wordpress/redirects \ 
     src/templates/wordpress-media \ 
     odi-publishing
-#git commit -m "Selective merge: development into main"
+#git commit -m "Selective merge: development into test"

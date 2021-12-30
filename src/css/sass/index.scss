@@ -1,10 +1,9 @@
 /* GLOBAL */
-/* Site Colors */
-@import "./colorschemes/_cannabis.scss"; /* theme colors */
-
 /* sitewide styles */
-@import "../../../node_modules/@cagov/ds-base-css/src/_core.scss";
+@import "../../../node_modules/@cagov/ds-base-css/src/themes/_cannabis.scss";
 
+/* custom local variables */
+@import "./colorschemes/_cannabis.scss"; /* theme colors */
 
 /* COMPONENTS/BLOCKS */
 @import "../../../node_modules/@cagov/ds-accordion/src/index.scss"; /* custom css overrides for default accordion styles */
@@ -27,9 +26,7 @@
 @import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss";
 @import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss";
 
-
 @import "./_extra.scss"; /* Extra local page styles that belong in ds-base-css */
-
 
 // /* Sitewide styles */
 // @import "../../../node_modules/@cagov/ds-base-css/src/_core.scss";
