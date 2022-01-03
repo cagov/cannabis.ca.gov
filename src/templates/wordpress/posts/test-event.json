@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-03T18:13:10",
-    "updated_date": "2022-01-03T18:13:10",
+    "updated_date": "2022-01-03T18:17:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,28 +18,28 @@
     "date": "2022-01-03T10:13:10",
     "date_gmt": "2022-01-03T18:13:10",
     "guid": "https://test-cannabis-ca-gov.pantheonsite.io/?p=9316",
-    "modified": "2022-01-03T10:13:10",
-    "modified_gmt": "2022-01-03T18:13:10",
+    "modified": "2022-01-03T10:17:06",
+    "modified_gmt": "2022-01-03T18:17:06",
     "slug": "test-event",
     "status": "publish",
     "type": "post",
     "link": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-event/",
     "title": "test event",
-    "excerpt": "<p>test event</p>\n",
+    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">January 4, 2022</div>\n<p></p>\n<div class=\"event-time\">12:00 PM &#8211; 2:00 PM PST</div>\n<p></p>\n<div class=\"event-location\"></div>\n</div>\n",
     "author": "Chach",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "event",
     "format": "standard",
     "meta": [],
     "categories": [
-      "Announcements"
+      "Events"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "post"
+      "template": "event"
     },
     "og_meta": {
       "editor": {
@@ -69,20 +69,20 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
-        "name": "Announcements",
-        "slug": "announcements",
+        "term_id": 729,
+        "name": "Events",
+        "slug": "events",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 729,
         "taxonomy": "category",
         "description": "",
-        "parent": 0,
+        "parent": 550,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 729,
         "category_description": "",
-        "cat_name": "Announcements",
-        "category_nicename": "announcements",
-        "category_parent": 0
+        "cat_name": "Events",
+        "category_nicename": "events",
+        "category_parent": 550
       }
     ],
     "headless_tags": [],
