@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-03T18:13:10",
-    "updated_date": "2022-01-03T18:17:06",
+    "updated_date": "2022-01-03T20:24:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-01-03T10:13:10",
     "date_gmt": "2022-01-03T18:13:10",
     "guid": "https://test-cannabis-ca-gov.pantheonsite.io/?p=9316",
-    "modified": "2022-01-03T10:17:06",
-    "modified_gmt": "2022-01-03T18:17:06",
+    "modified": "2022-01-03T12:24:44",
+    "modified_gmt": "2022-01-03T20:24:44",
     "slug": "test-event",
     "status": "publish",
     "type": "post",
