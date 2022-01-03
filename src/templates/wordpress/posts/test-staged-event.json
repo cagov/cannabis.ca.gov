@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "created_date": "2022-01-03T21:52:29",
+    "updated_date": "2022-01-03T22:16:17",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/9321",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/test"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9321,
+    "date": "2022-01-03T13:52:29",
+    "date_gmt": "2022-01-03T21:52:29",
+    "guid": "https://test-cannabis-ca-gov.pantheonsite.io/?p=9321",
+    "modified": "2022-01-03T14:16:17",
+    "modified_gmt": "2022-01-03T22:16:17",
+    "slug": "test-staged-event",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-staged-event/",
+    "title": "Test  event",
+    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">October 3, 2021</div>\n<p></p>\n<div class=\"event-time\">6:51 AM &#8211; 6:52 AM PST</div>\n<p></p>\n<div class=\"event-location\"></div>\n</div>\n",
+    "author": "Chach",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "event",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Events"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "event"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-cannabis-ca-gov.pantheonsite.io"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-staged-event/",
+      "page_title": "Test  event",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Test  event",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-staged-event/",
+      "open_graph_title": "Test  event",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Test  event",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 729,
+        "name": "Events",
+        "slug": "events",
+        "term_group": 0,
+        "term_taxonomy_id": 729,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 550,
+        "filter": "raw",
+        "cat_ID": 729,
+        "category_description": "",
+        "cat_name": "Events",
+        "category_nicename": "events",
+        "category_parent": 550
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": {
+      "startDateTimeUTC": "2021-10-03T13:51:00",
+      "endDateTimeUTC": "2021-10-03T13:52:00",
+      "startDate": "October 3, 2021",
+      "endDate": "October 3, 2021",
+      "startTime": "6:51 AM",
+      "endTime": "6:52 AM",
+      "localTimezone": "America/Los_Angeles",
+      "localTimezoneLabel": "PST"
+    },
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-staged-event/"
+  }
+}
