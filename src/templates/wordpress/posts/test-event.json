@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-03T18:13:10",
-    "updated_date": "2022-01-03T20:24:44",
+    "updated_date": "2022-01-03T20:53:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,13 +18,13 @@
     "date": "2022-01-03T10:13:10",
     "date_gmt": "2022-01-03T18:13:10",
     "guid": "https://test-cannabis-ca-gov.pantheonsite.io/?p=9316",
-    "modified": "2022-01-03T12:24:44",
-    "modified_gmt": "2022-01-03T20:24:44",
+    "modified": "2022-01-03T12:53:16",
+    "modified_gmt": "2022-01-03T20:53:16",
     "slug": "test-event",
     "status": "publish",
     "type": "post",
     "link": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-event/",
-    "title": "test event",
+    "title": "test event &#8211; stage test",
     "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">January 4, 2022</div>\n<p></p>\n<div class=\"event-time\">12:00 PM &#8211; 2:00 PM PST</div>\n<p></p>\n<div class=\"event-location\"></div>\n</div>\n",
     "author": "Chach",
     "featured_media": 0,
@@ -37,7 +37,9 @@
     "categories": [
       "Events"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "event"
     },
@@ -53,18 +55,18 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://test-cannabis-ca-gov.pantheonsite.io",
       "canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-event/",
-      "page_title": "test event",
+      "page_title": "test event - stage test",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "test event",
+      "meta_title": "test event - stage test",
       "meta_description": "Learn about California cannabis laws and licenses",
       "meta_canonical_url": "https://test-cannabis-ca-gov.pantheonsite.io/2022/01/03/test-event/",
-      "open_graph_title": "test event",
+      "open_graph_title": "test event - stage test",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "test event",
+      "twitter_title": "test event - stage test",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [
@@ -85,7 +87,19 @@
         "category_parent": 550
       }
     ],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 780,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 780,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "event": {
