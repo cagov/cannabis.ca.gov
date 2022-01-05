@@ -42,15 +42,3 @@ module.exports = function (
       </div>
     </cagov-event-post-list>`;
 };
-
-
-// ${dataset.map(
-//   (post) => `<div class="event-list-items">
-// <div class="event-list-item">
-//   <div class="link-title"><a href="${link}">
-//     ${title}
-//   </a></div>
-// <div class="date">${post.data[fieldDate]}</div>
-// </div>`
-// )
-// .join("\n")}
