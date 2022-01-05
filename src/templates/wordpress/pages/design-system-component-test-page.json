@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-10T22:30:40",
-    "updated_date": "2021-12-10T22:30:40",
+    "updated_date": "2022-01-05T22:57:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2021-12-10T14:30:40",
     "date_gmt": "2021-12-10T22:30:40",
     "guid": "https://live-cannabis-ca-gov.pantheonsite.io/?page_id=9225",
-    "modified": "2021-12-10T14:30:40",
-    "modified_gmt": "2021-12-10T22:30:40",
+    "modified": "2022-01-05T14:57:31",
+    "modified_gmt": "2022-01-05T22:57:31",
     "slug": "design-system-component-test-page",
     "status": "publish",
     "type": "page",
     "link": "https://test-cannabis-ca-gov.pantheonsite.io/design-system-component-test-page/",
     "title": "Design System component test page",
-    "excerpt": "",
+    "excerpt": "<p>Accordion Call to action button Page alert Promotional card grid Scrollable card grid Event list Announcement list Event pattern This is the pattern used for event pages Other materials</p>\n",
     "author": "Chach",
     "featured_media": 0,
     "parent": 0,
@@ -72,6 +72,19 @@
     "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/design-system-component-test-page/",
     "media": [
       {
+        "id": 8923,
+        "type": "medium",
+        "path": "2021/10/20210924_095121-002-scaled-2-300x157.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/20210924_095121-002-scaled-2-300x157.jpg",
+        "file": "20210924_095121-002-scaled-2-300x157.jpg",
+        "width": 300,
+        "height": 157,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/20210924_095121-002-scaled-2-300x157.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
         "id": 8179,
         "type": "thumbnail",
         "path": "2021/06/cannabis-buds-hero-1-150x150.jpg",
@@ -94,6 +107,19 @@
         "height": 150,
         "mime_type": "image/jpeg",
         "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-150x150.jpeg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "medium",
+        "path": "2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2-300x286.jpg",
+        "wordpress_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2-300x286.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-scaled-2-300x286.jpg",
+        "width": 300,
+        "height": 286,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2-300x286.jpg",
         "source_url_match": true,
         "featured": false
       }
