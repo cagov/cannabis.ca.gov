@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2021-12-21T00:39:00",
-    "updated_date": "2022-01-10T17:29:41",
+    "created_date": "2022-01-02T00:26:00",
+    "updated_date": "2022-01-10T17:28:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9262",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9336",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,18 +14,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 9262,
-    "date": "2021-12-20T16:39:00",
-    "date_gmt": "2021-12-21T00:39:00",
-    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/?p=9262",
-    "modified": "2022-01-10T09:29:41",
-    "modified_gmt": "2022-01-10T17:29:41",
-    "slug": "california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers",
+    "id": 9336,
+    "date": "2022-01-01T16:26:00",
+    "date_gmt": "2022-01-02T00:26:00",
+    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/?p=9336",
+    "modified": "2022-01-10T09:28:36",
+    "modified_gmt": "2022-01-10T17:28:36",
+    "slug": "californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/12/20/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/",
-    "title": "California to offer financial support for cannabis equity businesses through fee waivers",
-    "excerpt": "<p>Emergency regulations for the equity license fee waiver program were approved today CALIFORNIA – Cannabis entrepreneurs affected by the War on Drugs can have their license or renewal fee waived, following the approval of emergency regulations issued by the Department of Cannabis Control (DCC). These regulations implement Senate Bill (SB) 166, signed into law on [&hellip;]</p>\n",
+    "link": "https://api.cannabis.ca.gov/2022/01/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/",
+    "title": "California’s cannabis department awards nearly $100 million in grants to local governments",
+    "excerpt": "<p>SACRAMENTO, CA – The Department of Cannabis Control (DCC) has awarded nearly $100 million in grant funding through the Local Jurisdiction Assistance Grant Program. The program, proposed by Governor Newsom in the 2021-2022 budget and passed by the Legislature, provides funding for local jurisdictions to aid in more swiftly transitioning high numbers of provisional cannabis [&hellip;]</p>\n",
     "author": "Chach",
     "featured_media": 0,
     "comment_status": "closed",
@@ -52,19 +52,19 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/12/20/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/",
-      "page_title": "California to offer financial support for cannabis equity businesses through fee waivers",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/01/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/",
+      "page_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "California to offer financial support for cannabis equity businesses through fee waivers",
+      "meta_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/12/20/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/",
-      "open_graph_title": "California to offer financial support for cannabis equity businesses through fee waivers",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/01/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/",
+      "open_graph_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "California to offer financial support for cannabis equity businesses through fee waivers",
+      "twitter_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [
@@ -96,6 +96,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/12/20/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/01/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/"
   }
 }
