@@ -23,4 +23,8 @@ git checkout test-staging src/templates/wordpress-media
 git checkout test-staging src/sh
 git checkout test-staging odi-publishing
 git checkout test-staging .github/workflows
+# Deal with any new files that are different coming from content
+git reset src/templates/wordpress-media
+git reset src/templates/wordpress/pages
+git reset src/templates/wordpress/posts
 #git commit -m "Selective merge: test into test-staging"
