@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2022-01-10T17:25:50",
-    "updated_date": "2022-01-10T17:25:51",
+    "created_date": "2022-01-02T00:26:00",
+    "updated_date": "2022-01-10T17:37:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -15,15 +15,15 @@
   },
   "data": {
     "id": 9334,
-    "date": "2022-01-10T09:25:50",
-    "date_gmt": "2022-01-10T17:25:50",
+    "date": "2022-01-01T16:26:00",
+    "date_gmt": "2022-01-02T00:26:00",
     "guid": "https://live-cannabis-ca-gov.pantheonsite.io/?p=9334",
-    "modified": "2022-01-10T09:25:51",
-    "modified_gmt": "2022-01-10T17:25:51",
+    "modified": "2022-01-10T09:37:44",
+    "modified_gmt": "2022-01-10T17:37:44",
     "slug": "dcc-is-now-accepting-requests-for-equity-fee-waivers",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2022/01/10/dcc-is-now-accepting-requests-for-equity-fee-waivers/",
+    "link": "https://api.cannabis.ca.gov/2022/01/01/dcc-is-now-accepting-requests-for-equity-fee-waivers/",
     "title": "DCC is now accepting requests for Equity Fee Waivers",
     "excerpt": "<p>Cannabis equity businesses can now request a license fee waiver from the Department of Cannabis Control.&nbsp; Fee Waiver Eligibility The cannabis business must meet the following criteria: Equity ownership: Individuals who meet the equity criteria own 50% or more of the business. Gross revenues: The business has gross revenue of $1.5 million or less per [&hellip;]</p>\n",
     "author": "Chach",
@@ -52,7 +52,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2022/01/10/dcc-is-now-accepting-requests-for-equity-fee-waivers/",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/01/01/dcc-is-now-accepting-requests-for-equity-fee-waivers/",
       "page_title": "DCC is now accepting requests for Equity Fee Waivers",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -61,7 +61,7 @@
       "page_social_image_alt": "",
       "meta_title": "DCC is now accepting requests for Equity Fee Waivers",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/01/10/dcc-is-now-accepting-requests-for-equity-fee-waivers/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/01/01/dcc-is-now-accepting-requests-for-equity-fee-waivers/",
       "open_graph_title": "DCC is now accepting requests for Equity Fee Waivers",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "DCC is now accepting requests for Equity Fee Waivers",
@@ -96,6 +96,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2022/01/10/dcc-is-now-accepting-requests-for-equity-fee-waivers/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/01/01/dcc-is-now-accepting-requests-for-equity-fee-waivers/"
   }
 }
