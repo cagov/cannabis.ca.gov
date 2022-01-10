@@ -12,11 +12,10 @@
     "build:production": "cross-env NSITE_ENV=production eleventy",
     "watch": "eleventy --serve",
     "watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --serve --incremental",
-    "watch:dev:development": "cross-env NODE_ENV=development SITE_ENV=development eleventy --serve --incremental",
     "start": "npm run watch",
     "dev": "npm run watch:dev",
-    "dev:development": "npm run watch:dev:development",
-    "git:merge:dev-into-main": "./src/sh/git-merge-development-into-main.sh",
+    "git:merge:dev-into-test": "./src/sh/git-merge-development-into-test.sh",
+    "git:merge:test-into-main": "./src/sh/git-merge-test-into-main.sh",
     "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh",
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
@@ -52,7 +51,6 @@
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "@cagov/11ty-serverless-preview-mode": "^1.0.12",
     "@cagov/ds-accordion": "^1.0.8",
     "@cagov/ds-agency-footer": "^1.0.2",
     "@cagov/ds-back-to-top": "^1.0.2",
@@ -77,9 +75,9 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "cheerio": "^1.0.0-rc.10",
-    "chokidar-cli": "^2.1.0",
     "clean-css": "^5.1.2",
     "cross-env": "^7.0.3",
+    "chokidar-cli": "^2.1.0",
     "html-minifier": "^4.0.0",
     "node-fetch": "^2.6.1",
     "rollup-plugin-terser": "^7.0.2"
