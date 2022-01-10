@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-06T00:30:00",
-    "updated_date": "2022-01-10T17:37:14",
+    "updated_date": "2022-01-10T17:40:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-01-05T16:30:00",
     "date_gmt": "2022-01-06T00:30:00",
     "guid": "https://live-cannabis-ca-gov.pantheonsite.io/?p=9336",
-    "modified": "2022-01-10T09:37:14",
-    "modified_gmt": "2022-01-10T17:37:14",
+    "modified": "2022-01-10T09:40:11",
+    "modified_gmt": "2022-01-10T17:40:11",
     "slug": "californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments",
     "status": "publish",
     "type": "post",
@@ -31,15 +31,15 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
-      "Press Releases"
+      "Announcements"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "post"
     },
     "og_meta": {
       "editor": {
@@ -69,19 +69,19 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
-        "name": "Press Releases",
-        "slug": "press-releases",
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 2,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 2,
         "category_description": "",
-        "cat_name": "Press Releases",
-        "category_nicename": "press-releases",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
         "category_parent": 0
       }
     ],
