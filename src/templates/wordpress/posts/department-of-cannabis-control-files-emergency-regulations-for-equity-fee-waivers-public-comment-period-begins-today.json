@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-12-21T22:05:03",
-    "updated_date": "2021-12-21T22:07:33",
+    "created_date": "2021-12-10T23:16:00",
+    "updated_date": "2022-01-10T17:39:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -15,15 +15,15 @@
   },
   "data": {
     "id": 9258,
-    "date": "2021-12-21T14:05:03",
-    "date_gmt": "2021-12-21T22:05:03",
+    "date": "2021-12-10T15:16:00",
+    "date_gmt": "2021-12-10T23:16:00",
     "guid": "https://live-cannabis-ca-gov.pantheonsite.io/?p=9258",
-    "modified": "2021-12-21T14:07:33",
-    "modified_gmt": "2021-12-21T22:07:33",
+    "modified": "2022-01-10T09:39:11",
+    "modified_gmt": "2022-01-10T17:39:11",
     "slug": "department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/12/21/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/",
+    "link": "https://api.cannabis.ca.gov/2021/12/10/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/",
     "title": "Department of Cannabis Control files emergency regulations for equity fee waivers; public comment period begins today",
     "excerpt": "<p>The Department of Cannabis Control (DCC) has filed proposed emergency regulations to provide licensing fee waivers to qualified equity businesses statewide with the California Office of Administrative Law (OAL). This marks the start of the five-calendar day public comment period and the 10-day OAL review period. How to submit a public comment If you wish [&hellip;]</p>\n",
     "author": "Chach",
@@ -52,7 +52,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/12/21/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/12/10/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/",
       "page_title": "Department of Cannabis Control files emergency regulations for equity fee waivers; public comment period begins today",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -61,7 +61,7 @@
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control files emergency regulations for equity fee waivers; public comment period begins today",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/12/21/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/12/10/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/",
       "open_graph_title": "Department of Cannabis Control files emergency regulations for equity fee waivers; public comment period begins today",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Department of Cannabis Control files emergency regulations for equity fee waivers; public comment period begins today",
@@ -96,6 +96,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/12/21/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/12/10/department-of-cannabis-control-files-emergency-regulations-for-equity-fee-waivers-public-comment-period-begins-today/"
   }
 }
