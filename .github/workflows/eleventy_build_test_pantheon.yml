@@ -1,4 +1,4 @@
-name: Eleventy build production Pantheon WP 5.8.1
+name: Eleventy build test site Pantheon WP 5.8.1
 # site:  test.cannabis.ca.gov
 # editor: https://test-cannabis-ca-gov.pantheonsite.io
 # s3 bucket http://test.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
