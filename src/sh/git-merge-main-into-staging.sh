@@ -1,10 +1,10 @@
 #!/bin/sh
 git fetch
-git checkout test
-git pull
 git checkout main
 git pull
-git merge --no-ff --no-commit test
+git checkout staging
+git pull
+git merge --no-ff --no-commit main
 # git restore --source=HEAD --staged --worktree -- \ 
 #     src/templates/_data \ 
 #     src/templates/wordpress/menu \ 
@@ -23,4 +23,4 @@ git checkout main src/templates/wordpress-media
 git checkout main src/sh
 git checkout main odi-publishing
 git checkout main .github/workflows
-#git commit -m "Selective merge: test into main"
+#git commit -m "Selective merge: main into staging"
