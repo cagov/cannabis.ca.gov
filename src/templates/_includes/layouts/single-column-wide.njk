@@ -2,7 +2,7 @@
 
 {% block content %}
     <div id="page-container" class="page-container-ds">
-          <div class="main-content-ds single-column single-column-wide">
+          <div id="main-content" class="main-content-ds single-column single-column-wide">
             <div class="breadcrumb" aria-label="Breadcrumb" role="region">
                 <a class="crumb" href="https:\/\/ca.gov" title="CA.GOV">CA.GOV</a>
                 <span class="crumb separator">/</span>
@@ -17,7 +17,7 @@
                 <h1 class="page-title">{{ title | safe }}</h1>
             </div>
             <div class="ds-content-layout">
-                <main id="main-content" class="main-primary">
+                <main class="main-primary">
                     <div>
                         <article id="post-{{id}}">
                             <!-- Page Title-->
