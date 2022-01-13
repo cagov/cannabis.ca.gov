@@ -51,7 +51,7 @@
     "replace_urls": [
       "http://cannabis.ca.gov/",
       "https://cannabis.ca.gov/",
-      "https://dev-cagov-dcc.pantheonsite.io"
+      "https://live-cannabis-ca-gov.pantheonsite.io"
     ],
     "editor_url": "https://api.cannabis.ca.gov",
     "static_site_url": "https://cannabis.ca.gov",
