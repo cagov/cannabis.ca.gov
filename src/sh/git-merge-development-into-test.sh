@@ -23,8 +23,4 @@ git checkout test src/wordpress-media
 git checkout test src/sh
 git checkout test odi-publishing
 git checkout test .github/workflows
-# Deal with any new files that are different coming from content
-git reset src/templates/wordpress-media
-git reset src/templates/wordpress/pages
-git reset src/templates/wordpress/posts
 #git commit -m "Selective merge: development into test"

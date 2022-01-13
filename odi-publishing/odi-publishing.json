@@ -53,10 +53,11 @@
       "https://cannabis.ca.gov/",
       "https://dev-cagov-dcc.pantheonsite.io"
     ],
+    "favicon": "/assets/cannabis_favicon_16x16.png",
     "editor_url": "https://api.cannabis.ca.gov",
     "static_site_url": "https://cannabis.ca.gov",
     "canonical_url": "https://cannabis.ca.gov",
-    "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "s3_bucket_url": "http://test.ca.gov.s3-website-us-west-1.amazonaws.com/",
     "media": "pages/wordpress/media",
     "pages": "src/templates/wordpress/posts",
     "posts": "src/templates/wordpress/posts",
