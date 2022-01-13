@@ -17,12 +17,12 @@
 	{# <!-- Google Meta-->
 	<meta name="google-site-verification" content="account_number" /> #}
   <!-- OG tags -->
-  <link rel="canonical" href="{{ data.og_meta.canonical_url | changeDomain(domain) | changeWpMediaPath }}" />
-  <meta property="og:url" content="{{ data.og_meta.canonical_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <link rel="canonical" href="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
+  <meta property="og:url" content="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
   <meta property="og:description" content="{{ data.og_meta.open_graph_description | striptags }}" />
   <meta property="og:title" content="{{ data.og_meta.open_graph_title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta property="og:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) }}" />
   <meta property="og:image:width" content="{{ data.og_meta.page_social_image_width }}" />
   <meta property="og:image:height" content="{{ data.og_meta.page_social_image_height }}" />
   <meta property="og:image:alt" content="{{ data.og_meta.page_social_image_alt }}" />
@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="{{ data.og_meta.site_name }}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ data.og_meta.twitter_title }}" />
-  <meta name="twitter:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta name="twitter:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) }}" />
   <meta name="twitter:image:width" content="{{ data.og_meta.page_social_image_width }}" />
   <meta name="twitter:image:height" content="{{ data.og_meta.page_social_image_height }}" />
 
