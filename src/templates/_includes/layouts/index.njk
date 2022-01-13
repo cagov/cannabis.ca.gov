@@ -17,8 +17,8 @@
 	{# <!-- Google Meta-->
 	<meta name="google-site-verification" content="account_number" /> #}
   <!-- OG tags -->
-  <link rel="canonical" href="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
-  <meta property="og:url" content="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
+  <link rel="canonical" href="{{ data.og_meta.canonical_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta property="og:url" content="{{ data.og_meta.canonical_url | changeDomain(domain) | changeWpMediaPath }}" />
   <meta property="og:description" content="{{ data.og_meta.open_graph_description | striptags }}" />
   <meta property="og:title" content="{{ data.og_meta.open_graph_title }}" />
   <meta property="og:type" content="website" />
