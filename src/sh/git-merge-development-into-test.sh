@@ -11,7 +11,7 @@ git merge --no-ff --no-commit development
 #     src/templates/wordpress/pages \ 
 #     src/templates/wordpress/posts \ 
 #     src/templates/wordpress/redirects \ 
-#     src/templates/wordpress-media \ 
+#     src/wordpress-media \ 
 #     odi-publishing
 # Also do a checkout to fully prevent any content merges
 git checkout test src/templates/_data
