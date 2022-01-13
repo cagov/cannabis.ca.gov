@@ -1,56 +1,27 @@
 @charset "UTF-8";
 /* GLOBAL */
-/* Site Colors */
-/* CA branding */
-/* Theme colors */
-/* Cannabis logo font */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap");
-@font-face {
-  font-family: "Lexend";
-  src: url("/fonts/Lexend-Medium.woff2") format("woff2");
-}
+/* sitewide styles */
 /* Colorscheme root variables */
 :root {
   /* Theme colors */
-  --primary: #064e66;
-  --primary-color: #064e66;
-  --primary-dark: #043747;
+  --primary-color: #064E66;
   --primary-dark-color: #043747;
   --primary-light-color: #518394;
-  --primary-lightest-color: #b4cad1;
+  --primary-lightest-color: #B4CAD1;
   --primary-hover-color: #043747;
-  --secondary-color: #2f4c2c;
-  --secondary-dark-color: #21351f;
-  --secondary-light-color: #6d826b;
-  --secondary-lightest-color: #c1c9c0;
-  --secondary-hover-color: #21351f;
-  --highlight-color: #c0633b;
+  --secondary-color: #2F4C2C;
+  --secondary-dark-color: #21351F;
+  --secondary-light-color: #6D826B;
+  --secondary-lightest-color: #C1C9C0;
+  --secondary-hover-color: #21351F;
+  --highlight-color: #C0633B;
   --highlight-dark-color: #864529;
-  --highlight-light-color: #d39276;
-  --highlight-lightest-color: #ecd0c4;
+  --highlight-light-color: #D39276;
+  --highlight-lightest-color: #ECD0C4;
   --secondary-hover-color: #864529;
-  --org-name-state-font: "Arial", "Helvetica", sans-serif;
-  --org-name-state-font-size: 0.875rem;
-  --org-name-state-text-transform: uppercase;
-  --org-name-dept-font: "Lexend";
-  --org-name-dept-font-size: 1.5rem;
-  --org-name-dept-font-weight: 500;
-}
-
-/* GLOBAL */
-/* Cannabis color scheme */
-/* Colorscheme root variables */
-:root {
-  --primary-color: #064e66;
-  --primary-hover-color: #043747;
-  --standout-color: #2f4c2c;
-  --standout-hover-color: #21351f;
-  --secondary-color: #cf5d28;
-  --highlight-color: #fdb81e;
 }
 
 /* theme colors */
-/* sitewide styles */
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 :root {
   --w-lg: 1176px;
@@ -2924,6 +2895,23 @@ figure figcaption {
 }
 /* grid classes */
 /* all of the above will become part of base-css component */
+/* custom local variables */
+/* Cannabis logo font */
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend-Medium.woff2") format("woff2");
+}
+/* Colorscheme root variables */
+:root {
+  --org-name-state-font: "Arial", "Helvetica", sans-serif;
+  --org-name-state-font-size: 0.875rem;
+  --org-name-state-text-transform: uppercase;
+  --org-name-dept-font: "Lexend";
+  --org-name-dept-font-size: 1.5rem;
+  --org-name-dept-font-weight: 500;
+}
+
+/* theme colors */
 /* COMPONENTS/BLOCKS */
 /* accordion component specific classes */
 cagov-accordion .cagov-accordion-card {
@@ -4031,11 +4019,11 @@ cagov-post-list .post-list-item .link-title {
   font-weight: 700;
 }
 cagov-post-list .post-list-item .link-title a {
-  color: #064e66;
+  color: var(--primary-color, #064e66);
   text-decoration: underline;
 }
 cagov-post-list .post-list-item .link-title a:hover {
-  color: #043747;
+  color: var(--primary-dark-color, #043747);
   text-decoration: none;
 }
 cagov-post-list .excerpt .date {
@@ -4063,11 +4051,11 @@ cagov-post-list .excerpt .date:after {
   font-size: 28px;
 }
 .post-list-results .post-list-item .link-title a {
-  color: #064e66;
+  color: var(--primary-color, #064e66);
   text-decoration: underline;
 }
 .post-list-results .post-list-item .link-title a:hover {
-  color: #043747;
+  color: var(--primary-dark-color, #043747);
   text-decoration: none;
 }
 .post-list-results .excerpt .date {
@@ -4092,11 +4080,11 @@ cagov-post-list .excerpt .date:after {
   font-size: 18px;
 }
 .wp-block-column .post-list-results .post-list-item .link-title a {
-  color: #064e66;
+  color: var(--primary-color, #064e66);
   text-decoration: underline;
 }
 .wp-block-column .post-list-results .post-list-item .link-title a:hover {
-  color: #043747;
+  color: var(--primary-dark-color, #043747);
   text-decoration: none;
 }
 .wp-block-column .post-list-results .post-list-item.status .date {
