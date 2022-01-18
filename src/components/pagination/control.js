@@ -1,5 +1,6 @@
 const controlPages = function () {
-  document.querySelector('cagov-pagination').addEventListener('paginationClick', function (e) { 
+  if(document.querySelector('cagov-pagination')) {
+    document.querySelector('cagov-pagination').addEventListener('paginationClick', function (e) { 
     writePostsHTML(e.detail);
     history.replaceState({page: 3}, `${document.title} page ${e.detail}`, `?page=${e.detail}`)
    }, false);
@@ -8,6 +9,7 @@ const controlPages = function () {
    if(parseInt(urlParams.get('page')) > 0) {
      writePostsHTML(urlParams.get('page'));
    }
+  }
 }
 
 const writePostsHTML = function (page) {
