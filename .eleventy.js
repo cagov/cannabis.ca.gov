@@ -35,11 +35,14 @@ module.exports = function (eleventyConfig) {
   // Good candidate for 11ty-build-system.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
     try {
-      let host = config.build.canonical_url.split("//");
-      let u = new URL(url, host[1]);
-      u.host = domain;
-      u.protocol = host[0] + "//";
-      return u.href;
+      
+      let host = config.build.canonical_url.split("//"); // TEMP Cheat to get https
+      let changedUrl = url;
+      // There are multiple strings that we may need to replace because of how we merge and work with data. Use them.
+      config.build.replace_urls.map((item) => {
+        changedUrl = changedUrl.replace(item, host[0] + "//" + domain);
+      });
+      return changedUrl;
     } catch {
       return url;
     }

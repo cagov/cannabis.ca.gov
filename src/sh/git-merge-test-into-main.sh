@@ -20,7 +20,7 @@ git checkout main src/templates/wordpress/pages
 git checkout main src/templates/wordpress/posts
 git checkout main src/templates/wordpress/redirects
 git checkout main src/wordpress-media
-git checkout main src/sh
-git checkout main odi-publishing
-git checkout main .github/workflows
+# git checkout main src/sh
+# git checkout main odi-publishing
+# git checkout main .github/workflows
 #git commit -m "Selective merge: test into main"
