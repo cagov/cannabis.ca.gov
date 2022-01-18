@@ -11,8 +11,7 @@ import '@cagov/ds-pagination';
 import { controlPages } from '../components/pagination/control.js'
 import '@cagov/ds-plus';
 import '@cagov/ds-statewide-header/src/index.js';
-import '../components/menu/index.js';
-import '../components/page-alert/index.js';
+import '@cagov/ds-page-alert/src/index.js';
 import './google-analytics.js';
 import setupAnalytics from './setup-analytics.js';
 

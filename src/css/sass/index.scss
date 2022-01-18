@@ -12,9 +12,11 @@
 @import "../../../node_modules/@cagov/ds-step-list/src/index.scss";
 @import "../../../node_modules/@cagov/ds-link-icon/src/index.scss";
 @import "../../../node_modules/@cagov/ds-skip-to-content/src/index.scss";
+@import "../../../node_modules/@cagov/ds-back-to-top/src/index.scss";
+@import "../../../node_modules/@cagov/ds-page-alert/src/index.scss";
 
 @import "../../components/breadcrumb/_style.scss"; /* copied from blocks */
-@import "../../components/page-alert/_style.scss"; /* copied from gutenberg custom block */
+
 @import "../../components/post-list/_style.scss";
 
 /* NAVIGATION ELEMENTS */
