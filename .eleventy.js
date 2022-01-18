@@ -3,7 +3,7 @@ const htmlmin = require("html-minifier");
 const cagovBuildSystem = require("@cagov/11ty-build-system");
 const config = require("./odi-publishing/config.js");
 
-const { renderPostLists } = require("./src/components/post-list/render");
+const { renderPostLists, renderWordpressPostTitleDate } = require("./src/components/post-list/render");
 const { renderEventLists } = require("./src/components/event-list/render");
 
 module.exports = function (eleventyConfig) {
@@ -57,6 +57,10 @@ module.exports = function (eleventyConfig) {
       "/media/"
     );
   });
+
+  eleventyConfig.addFilter('displayPostInfo', function(item) {
+    return renderWordpressPostTitleDate(item.data, { 'showExcerpt': true, 'showPublishDate': true});
+  })
 
   eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
     //outputPath === false means serverless templates
