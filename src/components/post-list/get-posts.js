@@ -52,7 +52,7 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
     .reverse();
 
   //console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
-  return postsToReturn;
+  return { 'total': wordPressArray.length, 'posts': postsToReturn };
 };
 
 module.exports = { getPostsByCategory };

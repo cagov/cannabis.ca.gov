@@ -1,0 +1,13 @@
+---
+pagination:
+    data: announcements
+    size: 5
+    alias: announcement
+permalink: "about-us/announcements/{{pagination.pageNumber}}/"
+---
+
+<div class="post-list-items">
+{%- for item in pagination.items %}
+  {{ item | displayPostInfo | safe }}
+{% endfor -%}
+</div>
