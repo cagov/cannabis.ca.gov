@@ -6,8 +6,8 @@
 @import "./colorschemes/_cannabis.scss"; /* theme colors */
 
 /* COMPONENTS/BLOCKS */
-@import "../../../node_modules/@cagov/ds-branding/src/index.scss";
-@import "../../../node_modules/@cagov/ds-button-grid/src/index.scss"; /* copied from blocks */
+@import "../../../node_modules/@cagov/ds-site-header/src/index.scss";
+@import "../../../node_modules/@cagov/ds-link-grid/src/index.scss"; /* copied from blocks */
 @import "../../../node_modules/@cagov/ds-feature-card/src/index.scss"; /* copied from block */
 @import "../../../node_modules/@cagov/ds-step-list/src/index.scss";
 @import "../../../node_modules/@cagov/ds-link-icon/src/index.scss";
@@ -21,8 +21,8 @@
 
 /* NAVIGATION ELEMENTS */
 @import "../../../node_modules/@cagov/ds-statewide-header/src/index.scss";
-@import "../../../node_modules/@cagov/ds-agency-footer/src/index.scss";
+@import "../../../node_modules/@cagov/ds-site-footer/src/index.scss";
 @import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss";
-@import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss";
+@import "../../../node_modules/@cagov/ds-site-navigation/src/index.scss";
 
 @import "./_extra.scss"; /* Extra local page styles that belong in ds-base-css */

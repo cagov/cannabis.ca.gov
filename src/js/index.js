@@ -1,9 +1,9 @@
 // Main build file for the JavaScript static site generation bundle.
 import '@cagov/ds-accordion';
 import '@cagov/ds-back-to-top';
-import '@cagov/ds-content-navigation';
-import '@cagov/ds-dropdown-menu';
-import '@cagov/ds-feedback/dist/index.js';
+import '@cagov/ds-page-navigation';
+import '@cagov/ds-site-navigation';
+import '@cagov/ds-page-feedback/dist/index.js';
 import '@cagov/ds-google-translate';
 import '@cagov/ds-link-icon/src/index.js';
 import '@cagov/ds-minus';
