@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Web component preview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Reusable preview HTML page for testing components"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="crossorigin"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+    <script type="module">
+      import "./src/index.js";
+    </script>
+  </head>
+
+  <body>
+    <main>
+      <cagov-map-table
+        data-places=""
+        data-boundaries-state=""
+        data-boundaries-counties=""
+        data-boundaries-places=""
+        data-geojson=""
+      >
+        <div class="legend"></div>
+        <div class="filters">
+          <form>
+            <div class="filter">
+              <label>Filter label</label>
+              <cagov-autocomplete>
+                <input type="text" />
+                <select>
+                  <option>Option</option>
+                </select>
+              </cagov-autocomplete>
+            </div>
+          </form>
+        </div>
+        <div class="maps">
+          <div class="map">
+            <cagov-places-map data-container=""> </cagov-places-map>
+          </div>
+        </div>
+        <div class="data-table">
+          <div class="table-title"></div>
+          <div class="table-legend"></div>
+          <div class="table-data">
+            <cagov-table-data data-container=""> </cagov-table-data>
+          </div>
+        </div>
+      </cagov-map-table>
+    </main>
+  </body>
+</html>
