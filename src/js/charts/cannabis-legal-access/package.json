@@ -1,0 +1,27 @@
+{
+  "name": "cannabis-legal-access",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.css",
+  "scripts": {
+    "build": "sass src/index.scss index.css",
+    "html:preview": "node ../../docs/src/publish/dynamic-html.js"
+  },
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cagov/cannabis.ca.gov"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/testing": "^3.0.0-next.2",
+    "@web/test-runner-puppeteer": "^0.10.1",
+    "sass": "^1.38.1"
+  },
+  "dependencies": {
+    "@types/topojson-client": "^3.1.0",
+    "d3": "^7.3.0",
+    "simplify-geojson": "^1.0.4"
+  }
+}
