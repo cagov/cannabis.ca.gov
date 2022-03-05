@@ -1,571 +1,571 @@
-Place,CA Places Key,County,Jurisdiction Type,Retail: Storefront,Retail: Non-Storefront,Distributor,Manufacturer,Cultivation,Testing,Limit Explanations,Notes,Updated,Are all CCA activited prohibited?,Is all retail prohibited?,CCA Prohibited by County,Unincorporated Population,City Population
-Adelanto,Adelanto,San Bernardino County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,Retail (all): pre-existing businesses only,,2022-01-22,,,,,35
-Agoura Hills,Agoura Hills,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,20
-Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Nursery Only,,2022-01-22,,,,,78
-Albany,Albany,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Testing, Micro: Silent",2022-01-22,checked,checked,,,19
-Alhambra,Alhambra,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery  from outside the jurisdiction,2022-01-22,checked,checked,,,86
-Aliso Viejo,Aliso Viejo,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,51
-Alturas,Alturas,Modoc County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Testing, Micro: Silent",2022-01-22,checked,checked,,,2
-Amador City,Amador City,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,
-American Canyon,American Canyon,Napa County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,20
-Anaheim,Anaheim,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,357
-Anderson,Anderson,Shasta County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,10
-Angels Camp,Angels,Calaveras County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside of the jurisdiction,2022-01-22,checked,checked,,,4
-Antioch,Antioch,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,113
-Apple Valley,Apple Valley,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,73
-Arcadia,Arcadia,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,57
-Arcata,Arcata,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,18
-Arroyo Grande,Arroyo Grande,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,17
-Artesia,Artesia,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,16
-Arvin,Arvin,Kern County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: indoor only,Prohibits delivery from outside of the jurisdiction,2022-01-22,,,,,21
-Atascadero,Atascadero,San Luis Obispo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,,,,31
-Atherton,Atherton,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Silent for all CCA activities,2022-01-22,checked,checked,,,7
-Atwater,Atwater,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,31
-Auburn,Auburn,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,14
-Avalon (Catalina Island),Avalon,Los Angeles County County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,3
-Avenal,Avenal,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,checked,checked,,,13
-Azusa,Azusa,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,49
-Bakersfield,Bakersfield,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,386
-Baldwin Park,Baldwin Park,Los Angeles County County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Prohibited,Cultivation: Indoor only,,2022-01-22,,checked,,,76
-Banning,Banning,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Non-storefront: Silent,2022-01-22,,,,,31
-Barstow,Barstow,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,24
-Beaumont,Beaumont,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,48
-Bell,Bell,Los Angeles County County,City,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Cultivation: Indoor only,Allows medical delivery  from outside the jurisdiction,2022-01-22,,checked,,,36
-Bell Gardens,Bell Gardens,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,43
-Bellflower,Bellflower,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,77
-Belmont,Belmont,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,27
-Belvedere,Belvedere,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside of the jurisdiction,2022-01-22,checked,checked,,,2
-Benicia,Benicia,Solano County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,"Storefront retail: Limit 1 licensee
-Cultivation: Indoor only",,2022-01-22,,,,,27
-Berkeley,Berkeley,Alameda County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,All retail: pre-existing only,,2022-01-22,,,,,121
-Beverly Hills,Beverly Hills,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,34
-Big Bear Lake,Big Bear Lake,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,5
-Biggs,Biggs,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Bishop,Bishop,Inyo County,City,Limited,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (all): Limit 2 licensees,,2022-01-22,,,,,3
-Blue Lake,Blue Lake,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Blythe,Blythe,Riverside County,City,Limited,Prohibited,Allowed,Allowed,Allowed,Limited,"Retail (storefront): Limit 2 licensees
-Testing: Limit 2 licensees
-Microbusiness: Limit 2 licensees",Non-storefront: Silent,2022-01-22,,,,,19
-Bradbury,Bradbury,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Brawley,Brawley,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,27
-Brea,Brea,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,44
-Brentwood,Brentwood,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,63
-Brisbane,Brisbane,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,Retail (storefront): City plans to consider in 2022,Micro: Silent,2022-01-22,,,,,4
-Buellton,Buellton,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,5
-Buena Park,Buena Park,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,83
-Burbank,Burbank,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,107
-Burlingame,Burlingame,San Mateo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,30
-Calabasas,Calabasas,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,24
-Calexico,Calexico,Imperial County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,41
-California City,California City,Kern County,City,Limited,Allowed,Allowed,Allowed,Allowed,Allowed,Retail (storefront): Limit 2 licensees,,2022-01-22,,,,,14
-Calimesa,Calimesa,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,8
-Calipatria,Calipatria,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,7
-Calistoga,Calistoga,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,5
-Camarillo,Camarillo,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,68
-Campbell,Campbell,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,42
-Canyon Lake,Canyon Lake,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,11
-Capitola,Capitola,Santa Cruz County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,,,,10
-Carlsbad,Carlsbad,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,114
-Carmel-by-the-Sea,Carmel-by-the-Sea,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,3
-Carpinteria,Carpinteria,Santa Barbara County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,,,,,13
-Carson,Carson,Los Angeles County County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,checked,,,93
-Cathedral City,Cathedral City,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,54
-Ceres,Ceres,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,48
-Cerritos,Cerritos,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,50
-Chico,Chico,Butte County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,,,,,92
-Chino,Chino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,86
-Chino Hills,Chino Hills,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,83
-Chowchilla,Chowchilla,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,18
-Chula Vista,Chula Vista,San Diego County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,"Retail (storefront): Limit 4 licensees
-Cultivation: Indoor only",Micro: Silent,2022-01-22,,,,,267
-Citrus Heights,Citrus Heights,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,87
-Claremont,Claremont,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,36
-Clayton,Clayton,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,11
-Clearlake,Clearlake,Lake County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,15
-Cloverdale,Cloverdale,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,9
-Clovis,Clovis,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,113
-Coachella,Coachella,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,45
-Coalinga,Coalinga,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,16
-Colfax,Colfax,Placer County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,2
-Colma,Colma,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Colton,Colton,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,Cultivation: Indoor only,Allows delivery from outside jurisdiction,2022-01-22,,checked,,,53
-Colusa,Colusa,Colusa County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,,,2022-01-22,,checked,,,6
-Commerce,Commerce,Los Angeles County County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,13
-Compton,Compton,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,99
-Concord,Concord,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,,,,,129
-Corcoran,Corcoran,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,21
-Corning,Corning,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,7
-Corona,Corona,Riverside County,City,Limited,Allowed,Allowed,Allowed,Prohibited,Allowed,Retail (storefront): Limit 12 licensees,,2022-01-22,,,,,168
-Coronado,Coronado,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,21
-Corte Madera,Corte Madera,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,10
-Costa Mesa,Costa Mesa,Orange County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,,,,,115
-Cotati,Cotati,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,7
-Covina,Covina,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,49
-Crescent City,Crescent City,Del Norte County,City,Allowed,Allowed,Allowed,Limited,Limited,Allowed,"Manufacturing: Non-volatile only
-Cultivation: Indoor only",,2022-01-22,,,,,6
-Cudahy,Cudahy,Los Angeles County County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,,2022-01-22,,,,,24
-Culver City,Culver City,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,39
-Cupertino,Cupertino,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,60
-Cypress,Cypress,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,49
-Daly City,Daly City,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,,,,107
-Dana Point,Dana Point,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,34
-Danville,Danville,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,44
-Davis,Davis,Yolo County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,,,,,68
-Del Mar,Del Mar,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,4
-Del Rey Oaks,Del Rey Oaks,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,1
-Delano,Delano,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,53
-Desert Hot Springs,Desert Hot Springs,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,29
-Diamond Bar,Diamond Bar,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,57
-Dinuba,Dinuba,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,24
-Dixon,Dixon,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Limited,Allowed,Cultivation: Indoor only,Distribution: Silent,2022-01-22,,,,,19
-Dorris,Dorris,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,966
-Dos Palos,Dos Palos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,5
-Downey,Downey,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,114
-Duarte,Duarte,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,22
-Dublin,Dublin,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,63
-Dunsmuir,Dunsmuir,Siskiyou County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,1
-East Palo Alto,East Palo Alto,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,30
-Eastvale,Eastvale,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,64
-El Cajon,El Cajon,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,105
-El Centro,El Centro,Imperial County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,46
-El Cerrito,El Cerrito,Contra Costa County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,24
-El Monte,El Monte,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,117
-El Segundo,El Segundo,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,16
-Elk Grove,Elk Grove,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,checked,checked,,,172
-Emeryville,Emeryville,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,,,,,11
-Encinitas,Encinitas,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,,"Testing, Micro: Silent",2022-01-22,,,,,63
-Escalon,Escalon,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,checked,checked,,,7
-Escondido,Escondido,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,151
-Etna,Etna,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,744
-Eureka,Eureka,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,26
-Exeter,Exeter,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,11
-Fairfax,Fairfax,Marin County,City,Limited-Medical Only,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,7
-Fairfield,Fairfield,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Allowed,,,2022-01-22,,,,,116
-Farmersville,Farmersville,Tulare County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,11
-Ferndale,Ferndale,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Fillmore,Fillmore,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,15
-Firebaugh,Firebaugh,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,8
-Folsom,Folsom,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,78
-Fontana,Fontana,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,212
-Fort Bragg,Fort Bragg,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,7
-Fort Jones,Fort Jones,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,739
-Fortuna,Fortuna,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,12
-Foster City,Foster City,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,Allows delivery from outside jurisdiction,2022-01-22,,checked,,,33
-Fountain Valley,Fountain Valley,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,56
-Fowler,Fowler,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,6
-Fremont,Fremont,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,235
-Fresno,Fresno,Fresno County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Must be part of a storefront
-Cultivation: Indoor only",,2022-01-22,,,,,538
+Place,CA Places Key,County,Jurisdiction Type,Retail: Storefront,Retail: Non-Storefront,Distributor,Manufacturer,Cultivation,Testing,Limit Explanations,Notes,Updated,Are all CCA activites prohibited?,Is all retail prohibited?,CCA Prohibited by County,Unincorporated Population,City Population
+Woodlake,Woodlake,Tulare County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor and mixed light only,Micro: Silent,2022-01-22,No,No,,,7
+Unincorporated Yolo County,,Yolo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,221,
 Fullerton,Fullerton,Orange County,City,Limited,Limited,Limited,Limited,Limited,Allowed,"Retail (all): Limit 2 total
 Distribution: Limit 5
 Manufacturer: Limit 5
 Cultivation: Limit 5; indoor only
-Microbusiness: Limit 2",,2022-01-22,,,,,144
-Galt,Galt,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-Garden Grove,Garden Grove,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Testing, Micro: Silent",2022-01-22,checked,checked,,,176
-Gardena,Gardena,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,61
-Gilroy,Gilroy,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,55
-Glendale,Glendale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,205
-Glendora,Glendora,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,52
-Goleta,Goleta,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,31
-Gonzales,Gonzales,Monterey County,City,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,,"Distribution, Testing, Micro: Silent",2022-01-22,,checked,,,8
-Grand Terrace,Grand Terrace,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,12
+Microbusiness: Limit 2",,2022-01-22,No,No,,,144
+Santa Ana,Santa Ana,Orange County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,338
+Union City,Union City,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,72
+Pleasant Hill,Pleasant Hill,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,35
+Nevada City,Nevada City,Nevada County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,3
+La Habra,La Habra,Orange County,City,Prohibited,Allowed,Allowed,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,,,62
+Concord,Concord,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,No,No,,,129
+Atwater,Atwater,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,31
+Unincorporated San Joaquin County,,San Joaquin County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,758,
+Redwood City,Redwood City,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Nursery Only,,2022-01-22,No,No,,,86
+Antioch,Antioch,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,113
+Unincorporated Stanislaus County,,Stanislaus County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,555,
+Novato,Novato,Marin County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,54
+Avalon (Catalina Island),Avalon,Los Angeles County County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,3
+Berkeley,Berkeley,Alameda County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,All retail: pre-existing only,,2022-01-22,No,No,,,121
+Greenfield,"Greenfield,Greenfield",Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,18
+Corona,Corona,Riverside County,City,Limited,Allowed,Allowed,Allowed,Prohibited,Allowed,Retail (storefront): Limit 12 licensees,,2022-01-22,No,No,,,168
+Palm Desert,Palm Desert,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,52
+Benicia,Benicia,Solano County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,"Storefront retail: Limit 1 licensee
+Cultivation: Indoor only",,2022-01-22,No,No,,,27
+Unincorporated Sonoma County,,Sonoma County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,503,
+Patterson,Patterson,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,22
+Unincorporated Mendocino County,,Mendocino County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,89,
+Santa Barbara,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,94
+Chula Vista,Chula Vista,San Diego County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,"Retail (storefront): Limit 4 licensees
+Cultivation: Indoor only",Micro: Silent,2022-01-22,No,No,,,267
+Tracy,Tracy,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,92
+Thousand Oaks,Thousand Oaks,Ventura County,City,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,,,130
+Sacramento,Sacramento,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,501
+Firebaugh,Firebaugh,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,8
+Rolling Hills,"Rolling Hills,Rolling Hills",Los Angeles County County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,1
 Grass Valley,Grass Valley,Nevada County,City,Limited,Limited,Limited,Limited,Limited,Limited,"Retail (storefront): Limit of 2 licensees
 Retail (delivery): Limit of 3 licensees
 Distributor: Limit of 5 licensees
 Manufacturer and/or Processor: Limit of 10 total
 Nursery: Limit of 2
-Testing: Limit of 2",Micro: Silent,2022-01-22,,,,,13
-Greenfield,"Greenfield,Greenfield",Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,18
-Gridley,Gridley,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,6
-Grover Beach,Grover Beach,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,13
-Guadalupe,Guadalupe,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,"Cultivation: Processor only
-Microbusiness: No cultivation",,2022-01-22,,,,,7
-Gustine,Gustine,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Prohibited,Cultivation: Indoor only,Testing: Silent,2022-01-22,,,,,5
-Half Moon Bay,Half Moon Bay,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Nursery Only,,2022-01-22,,checked,,,12
-Hanford,Hanford,Kings County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,58
-Hawaiian Gardens,Hawaiian Gardens,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,14
-Hawthorne,Hawthorne,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (storefront): City is in the process of developing an ordinance after tax measure approved in 2020,2022-01-22,checked,checked,,,88
-Hayward,Hayward,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,162
-Healdsburg,Healdsburg,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (storefront): City is planning further discussions or bond meausre in 2022.,2022-01-22,checked,checked,,,12
-Hemet,Hemet,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,83
-Hercules,Hercules,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-Hermosa Beach,Hermosa Beach,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,19
-Hesperia,Hesperia,San Bernardino County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,94
-Hidden Hills,Hidden Hills,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Highland,Highland,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,54
-Hillsborough,Hillsborough,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,11
+Testing: Limit of 2",Micro: Silent,2022-01-22,No,No,,,13
+Brisbane,Brisbane,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,Retail (storefront): City plans to consider in 2022,Micro: Silent,2022-01-22,No,No,,,4
+Cotati,Cotati,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,7
+San Bernardino,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,221
+Burlingame,Burlingame,San Mateo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,30
+El Monte,El Monte,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,117
+Porterville,Porterville,Tulare County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (Non-storefront): Delivery from storefronts only,,2022-01-22,No,No,,,60
+Malibu,Malibu,Los Angeles County County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,12
+Unincorporated Santa Cruz County,,Santa Cruz County,County,Allowed,Limited,Allowed,Allowed,Allowed,Prohibited,Retail (Non-storefront): Delivery by storefront only,Testing: Silent,2022-01-22,No,No,No,276,
+Oxnard,Oxnard,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,No,No,,,206
+Perris,Perris,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,77
+Stanton,Stanton,Orange County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,39
+Santa Cruz,Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,66
+National City,National City,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,62
+Dunsmuir,Dunsmuir,Siskiyou County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,1
+Coachella,Coachella,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,45
+Imperial,Imperial,Imperial County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (storefront): Limit 1 licensee,,2022-01-22,No,No,,,19
+Lindsay,Lindsay,Tulare County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Delivery from storefront only
+Cultivation: Indoor only",Micro: Silent,2022-01-22,No,No,,,13
+Morro Bay,Morro Bay,San Luis Obispo County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,10
+Imperial Beach,Imperial Beach,San Diego County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,28
+San Juan Bautista,San Juan Bautista,San Benito County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,1
+Sonora,Sonora,Tuolumne County,City,Limited,Limited,Prohibited,Allowed,Prohibited,Allowed,"Retail (Storefront): Limit 3
+Retail (Non-storefront): Delivery from storefront only",,2022-01-22,No,No,,,4
+Unincorporated Santa Barbara County,,Santa Barbara County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,453,
+Ukiah,Ukiah,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,16
+Goleta,Goleta,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,31
+Waterford,Waterford,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,9
+Petaluma,Petaluma,Sonoma County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,No,No,,,62
+Montebello,Montebello,Los Angeles County County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,64
+Eureka,Eureka,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,26
+Daly City,Daly City,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,,,107
+Merced,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,86
+Fairfield,Fairfield,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Allowed,,,2022-01-22,No,No,,,116
+San Francisco,San Francisco,City and County of San Francisco,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,883
+Unincorporated Monterey County,,Monterey County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,No,443,
+Jurupa Valley,Jurupa Valley,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Non-storefront: Silent,2022-01-22,No,No,,,106
+Rio Dell,Rio Dell,Humboldt County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,"Retail (Non-storefront), Micro: Silent",2022-01-22,No,No,,,3
+Walnut Creek,Walnut Creek,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,70
+Farmersville,Farmersville,Tulare County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,11
+Calexico,Calexico,Imperial County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,41
 Hollister,Hollister,San Benito County,City,Limited-Medical Only,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): delivery from storefronts only
-Cultivation: Indoor only",Micro: Silent,2022-01-22,,,,,36
+Cultivation: Indoor only",Micro: Silent,2022-01-22,No,No,,,36
+Arvin,Arvin,Kern County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: indoor only,Prohibits delivery from outside of the jurisdiction,2022-01-22,No,No,,,21
+Unincorporated Inyo County,,Inyo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,18,
+Culver City,Culver City,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,39
+Los Angeles,Los Angeles,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,4
+Stockton,Stockton,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,315
+Unincorporated Contra Costa County,,Contra Costa County,County,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Delivery by storefront only
+Cultivation: Indoor only",Micro: Silent,2022-01-22,No,No,No,1,
+Fort Bragg,Fort Bragg,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,7
+Carpinteria,Carpinteria,Santa Barbara County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,No,No,,,13
+Cathedral City,Cathedral City,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,54
+Capitola,Capitola,Santa Cruz County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,,,10
+Colfax,Colfax,Placer County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,2
+Lynwood,Lynwood,Los Angeles County County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,72
+Richmond,Richmond,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,110
+Hayward,Hayward,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,162
+Blythe,Blythe,Riverside County,City,Limited,Prohibited,Allowed,Allowed,Allowed,Limited,"Retail (storefront): Limit 2 licensees
+Testing: Limit 2 licensees
+Microbusiness: Limit 2 licensees",Non-storefront: Silent,2022-01-22,No,No,,,19
+San Jacinto,San Jacinto,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,Non-storefront: Silent,2022-01-22,No,No,,,48
+Placerville,Placerville,El Dorado County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,,,10
+Lancaster,Lancaster,Los Angeles County County,City,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,Retail (Non-storefront): Delivery from storefront retail only,Micro: Silent,2022-01-22,No,No,,,161
+Hemet,Hemet,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,83
+Adelanto,Adelanto,San Bernardino County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,Retail (all): pre-existing businesses only,,2022-01-22,No,No,,,35
+Needles,Needles,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,5
+Moreno Valley,Moreno Valley,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,207
+Unincorporated Mono County,,Mono County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,13,
+Unincorporated San Diego County,,San Diego County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Prohibited,,Testing: Silent,2022-01-22,No,No,No,3,
+Modesto,Modesto,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,215
+Banning,Banning,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Non-storefront: Silent,2022-01-22,No,No,,,31
+Seaside,Seaside,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,34
+Arcata,Arcata,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,18
+Unincorporated Humboldt County,,Humboldt County,County,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,Retail (Non-storefront): Delivery by storefront only,,2022-01-22,No,No,No,136,
+Encinitas,Encinitas,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,,"Testing, Micro: Silent",2022-01-22,No,No,,,63
+Shasta Lake,Shasta Lake,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,10
+Maywood,Maywood,Los Angeles County County,City,Limited,Limited,Limited,Limited,Limited,Limited,Pre-existing licenses only,,2022-01-22,No,No,,,28
+Lathrop,Lathrop,San Joaquin County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (Storefront):  Limit 1 licensee,,2022-01-22,No,No,,,24
+Coalinga,Coalinga,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,16
+Hanford,Hanford,Kings County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,58
+Turlock,Turlock,Stanislaus County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Delivery by storefront only
+Cultivation: Indoor only",Micro: Silent,2022-01-22,No,No,,,74
+Napa,Napa,Napa County,City,Limited-Medical Only,Limited-Medical Only,Prohibited,Allowed,Prohibited,Prohibited,,,2022-01-22,No,No,,,80
+Barstow,Barstow,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,24
+Unincorporated Del Norte County,,Del Norte County,County,Allowed,Prohibited,Prohibited,Allowed,Allowed,Prohibited,,"Retail (Non-storefront), Distribution, Testing, Micro: Silent",2022-01-22,No,No,No,27,
+Costa Mesa,Costa Mesa,Orange County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,No,No,,,115
+Lake Elsinore,Lake Elsinore,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,63
+South San Francisco,South San Francisco,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,67
+Riverbank,Riverbank,Stanislaus County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Allowed,Cultivation: Indoor only,"Distribution, Manufacturing, Micro: Silent",2022-01-22,No,No,,,25
+San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,1
+Unincorporated San Luis Obispo County,,San Luis Obispo County,County,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,No,280,
+Yountville,Yountville,Napa County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,2
+Lompoc,Lompoc,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,43
+Unincorporated Alameda County,,Alameda County,County,Allowed,Allowed,Limited,Limited,Allowed,Allowed,"Distribution and manufacturing: Cultivator or microbusiness only
+",,2022-01-22,No,No,No,1,
+Crescent City,Crescent City,Del Norte County,City,Allowed,Allowed,Allowed,Limited,Limited,Allowed,"Manufacturing: Non-volatile only
+Cultivation: Indoor only",,2022-01-22,No,No,,,6
+Guadalupe,Guadalupe,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,"Cultivation: Processor only
+Microbusiness: No cultivation",,2022-01-22,No,No,,,7
+San Jose,San Jose,Santa Clara County,City,Limited,Limited,Allowed,Allowed,Limited,Allowed,"Pre-existing operators only, must have registered with city prior to Dec 18, 2015",,2022-01-22,No,No,,,1
+Cudahy,Cudahy,Los Angeles County County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,,2022-01-22,No,No,,,24
+Martinez,Martinez,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,No,No,,,38
+Point Arena,Point Arena,Mendocino County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,448
+Clearlake,Clearlake,Lake County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,15
+Fresno,Fresno,Fresno County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Must be part of a storefront
+Cultivation: Indoor only",,2022-01-22,No,No,,,538
+Chico,Chico,Butte County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,No,No,,,92
+Grover Beach,Grover Beach,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,13
+Palm Springs,Palm Springs,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,47
+Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Nursery Only,,2022-01-22,No,No,,,78
+Bellflower,Bellflower,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,77
+Lemon Grove,Lemon Grove,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,,"Testing, Micro: Silent",2022-01-22,No,No,,,26
+Hesperia,Hesperia,San Bernardino County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,94
+Bishop,Bishop,Inyo County,City,Limited,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (all): Limit 2 licensees,,2022-01-22,No,No,,,3
+San Leandro,San Leandro,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,No,No,,,87
+Watsonville,Watsonville,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,53
+Atascadero,Atascadero,San Luis Obispo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,,,31
+Mendota,Mendota,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,12
+Ceres,Ceres,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,48
+Redding,Redding,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,91
+King City,King City,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,14
+San Rafael,San Rafael,Marin County,City,Prohibited,Allowed,Allowed,Limited,Prohibited,Allowed,Manufacturing: Type N only,,2022-01-22,No,No,,,60
+Huntington Park,Huntington Park,Los Angeles County County,City,Limited-Medical Only,Limited,Prohibited,Allowed,Allowed,Prohibited,Retail (Non-storefront): delivery from storefronts only,"Distribution, Testing: Silent",2022-01-22,No,No,,,59
+Unincorporated Trinity County,,Trinity County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,13,
+Gustine,Gustine,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Prohibited,Cultivation: Indoor only,Testing: Silent,2022-01-22,No,No,,,5
+American Canyon,American Canyon,Napa County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,20
+Weed,Weed,Siskiyou County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Indoor only,"Distribution, Manufacturing, Testing, Micro: Silent",2022-01-22,No,No,,,2
+Emeryville,Emeryville,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,No,No,,,11
+Vista,Vista,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,No,No,,,103
+South Lake Tahoe,South Lake Tahoe,El Dorado County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,21
+Oceanside,Oceanside,San Diego County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,177
+Vallejo,Vallejo,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,119
+Pacifica,Pacifica,San Mateo County,City,Allowed,Limited,Allowed,Allowed,Prohibited,Allowed,Retail (Non-Storefront): Delivery from storefront only,Micro: Silent,2022-01-22,No,No,,,38
+San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,46
+Fairfax,Fairfax,Marin County,City,Limited-Medical Only,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,7
+Dixon,Dixon,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Limited,Allowed,Cultivation: Indoor only,Distribution: Silent,2022-01-22,No,No,,,19
+El Centro,El Centro,Imperial County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,46
+Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Limited,Prohibited,Allowed,Manufacturing: Type N or P only,,2022-01-22,No,No,,,11
+La Quinta,La Quinta,Riverside County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,41
+Wildomar,Wildomar,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,36
+Willows,Willows,Glenn County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (Non-storefront): Delivery from storefront only,,2022-01-22,No,No,,,6
+Long Beach,Long Beach,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,478
+Commerce,Commerce,Los Angeles County County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,13
+Lakeport,Lakeport,Lake County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,5
+Unincorporated Lassen County,,Lassen County,County,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,No,No,30,
+Unincorporated Calaveras County,,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Prohibited,,Microbusiness: Co-location allowed,2022-01-22,No,No,No,45,
+La Mesa,La Mesa,San Diego County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,61
+Salinas,Salinas,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,161
+Ventura (San Buenaventura),San Buenaventura (Ventura),Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,Microbusiness: No cultivation,,2022-01-22,No,No,,,111
+Lemoore,Lemoore,Kings County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,25
+Unincorporated Tulare County,,Tulare County,County,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,No,No,No,475,
+Santa Rosa,Santa Rosa,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,178
+Truckee,Truckee,Nevada County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,16
+Del Rey Oaks,Del Rey Oaks,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,No,No,,,1
+Willits,Willits,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,5
+Solvang,Solvang,Santa Barbara County,City,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,,2022-01-22,No,No,,,5
+Oakland,Oakland,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,428
+Port Hueneme,Port Hueneme,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,23
+Rio Vista,Rio Vista,Solano County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,9
+Oakdale,Oakdale,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,23
+Unincorporated Riverside County,,Riverside County,County,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,No,2,
+Marysville,Marysville,Yuba County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,11
+Desert Hot Springs,Desert Hot Springs,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,29
+Unincorporated El Dorado County,,El Dorado County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,No,188,
+Tulare,Tulare,Tulare County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,65
+Suisun City,Suisun City,Solano County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,29
+Unincorporated Imperial County,,Imperial County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,No,190,
+Marina,Marina,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,22
+Mountain View,"Mountain View,Mountain View",Santa Clara County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,81
+California City,California City,Kern County,City,Limited,Allowed,Allowed,Allowed,Allowed,Allowed,Retail (storefront): Limit 2 licensees,,2022-01-22,No,No,,,14
+Mount Shasta,Mount Shasta,Siskiyou County,City,Allowed,Limited-Medical Only,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,3
+Pomona,Pomona,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,155
+Santa Monica,Santa Monica,Los Angeles County County,City,Limited-Medical Only,Prohibited,Prohibited,Limited-Medical Only,Prohibited,Prohibited,,Retail (non-storefront): Silent on medical,2022-01-22,No,No,,,92
+Ojai,Ojai,Ventura County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Allowed,,Distribution: Silent,2022-01-22,No,No,,,7
+Unincorporated Marin County,,Marin County,County,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,No,263,
+Sebastopol,Sebastopol,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,7
+Davis,Davis,Yolo County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,No,No,,,68
+Vacaville,Vacaville,Solano County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,Microbusiness: No cultivation,,2022-01-22,No,No,,,98
+Pasadena,Pasadena,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,No,,,144
+Cloverdale,Cloverdale,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,No,No,,,9
+Mammoth Lakes,Mammoth Lakes,Mono County,City,Allowed,Prohibited,Allowed,Limited,Limited,Allowed,"Manufacturing: Non-volatile only
+Cultivation: Indoor only",,2022-01-22,No,No,,,8
+Isleton,Isleton,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,No,,,837
+West Hollywood,West Hollywood,Los Angeles County County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,No,No,,,36
+El Cerrito,El Cerrito,Contra Costa County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,No,No,,,24
+Mill Valley,Mill Valley,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,14
+Ridgecrest,Ridgecrest,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,28
+Monrovia,Monrovia,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,38
+Albany,Albany,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,19
+Carmel-by-the-Sea,Carmel-by-the-Sea,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,3
+Laguna Woods,Laguna Woods,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,16
+East Palo Alto,East Palo Alto,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,30
+Glendora,Glendora,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,52
+Glendale,Glendale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,205
+Selma,Selma,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,24
+Laguna Beach,Laguna Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Manufacturing, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,23
+San Clemente,San Clemente,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,65
+Duarte,Duarte,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,22
+Yucca Valley,Yucca Valley,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,21
+Simi Valley,Simi Valley,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,128
+Artesia,Artesia,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,16
+Tustin,Tustin,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,82
+Baldwin Park,Baldwin Park,Los Angeles County County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Prohibited,Cultivation: Indoor only,,2022-01-22,No,Yes,,,76
+Unincorporated Sierra County,,Sierra County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,Yes,3,
+Santa Paula,Santa Paula,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,31
+Los Altos,Los Altos,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,31
+Hermosa Beach,Hermosa Beach,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,19
+Palos Verdes Estates,Palos Verdes Estates,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,13
+Loomis,Loomis,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,6
+Corte Madera,Corte Madera,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,10
+Morgan Hill,Morgan Hill,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,Yes,Yes,,,44
+Unincorporated Nevada County,,Nevada County,County,Prohibited,Prohibited,Limited,Prohibited,Limited-Medical Only,Prohibited,"Distribution: Self-distribution by cultivators only
+",,2022-01-22,No,Yes,No,99,
+Foster City,Foster City,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,Allows delivery from outside jurisdiction,2022-01-22,No,Yes,,,33
+Sand City,Sand City,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,394
+Unincorporated Sacramento County,,Sacramento County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,1,
+Elk Grove,Elk Grove,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,172
+Rocklin,Rocklin,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,66
+Coronado,Coronado,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,21
+Huron,Huron,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,7
+Tehama,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,430
+Whittier,Whittier,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,87
+Campbell,Campbell,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,42
+Orinda,Orinda,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,19
+El Cajon,El Cajon,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,105
+Winters,Winters,Yolo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,7
+Danville,Danville,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,44
+Hercules,Hercules,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+Inglewood,Inglewood,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,113
+Santa Maria,Santa Maria,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,108
+Newman,Newman,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,11
+Lomita,Lomita,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,20
+Woodside,Woodside,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,5
+La Palma,La Palma,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,15
+Williams,Williams,Colusa County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,Yes,,,5
+Unincorporated Santa Clara County,,Santa Clara County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,1,
+Delano,Delano,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,53
+Orland,Orland,Glenn County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,Yes,Yes,,,7
+Torrance,Torrance,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,149
+Atherton,Atherton,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Silent for all CCA activities,2022-01-22,Yes,Yes,,,7
+San Bruno,San Bruno,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,46
+Trinidad,Trinidad,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,340
+Unincorporated San Benito County,,San Benito County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,"Cultivation: Indoor only
+Microbusiness: No retail",Allows delivery from outside jurisdiction but requires a county permit,2022-01-22,No,Yes,No,57,
+Unincorporated Shasta County,,Shasta County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,178,
+Ross,Ross,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,2
+Menlo Park,Menlo Park,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,35
+Belmont,Belmont,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,27
+La Verne,La Verne,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,33
+Colma,Colma,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Hawthorne,Hawthorne,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (storefront): City is in the process of developing an ordinance after tax measure approved in 2020,2022-01-22,Yes,Yes,,,88
+Wheatland,Wheatland,Yuba County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,3
+Anderson,Anderson,Shasta County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,10
+Poway,Poway,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,50
+Soledad,Soledad,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+San Gabriel,San Gabriel,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,40
+Unincorporated Alpine County,,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,1,
+Sierra Madre,Sierra Madre,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,10
+Rosemead,Rosemead,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,55
+Pleasanton,Pleasanton,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,79
+Indian Wells,Indian Wells,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,5
+South Gate,South Gate,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,98
+Santee,Santee,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (storefront) - Measure to allow may be on 2022 ballot,2022-01-22,Yes,Yes,,,56
+Norco,Norco,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,Yes,Yes,,,26
+Menifee,Menifee,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,91
+Scotts Valley,Scotts Valley,Santa Cruz County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,12
+Plymouth,Plymouth,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Windsor,Windsor,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,28
+Solana Beach,Solana Beach,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,13
+Jackson,Jackson,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,4
+Unincorporated Colusa County,,Colusa County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,Yes,No,22,
+Unincorporated Madera County,,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,158,
+Loma Linda,Loma Linda,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,23
+Ontario,Ontario,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,177
+Fort Jones,Fort Jones,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,739
+Red Bluff,Red Bluff,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,13
+Hughson,Hughson,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,7
+Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,129
+Lodi,Lodi,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,67
+Saratoga,Saratoga,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,31
+Westmorland,Westmorland,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,2
+Gonzales,Gonzales,Monterey County,City,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,,"Distribution, Testing, Micro: Silent",2022-01-22,No,Yes,,,8
+Del Mar,Del Mar,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,4
+Industry,Industry,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,437
+San Joaquin,San Joaquin,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,4
+Fillmore,Fillmore,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,15
+Murrieta,Murrieta,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,113
+Kerman,Kerman,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,15
+Unincorporated Lake County,,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,,2021-12-13,No,Yes,No,65,
+Pismo Beach,Pismo Beach,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,8
+Irwindale,Irwindale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Cupertino,Cupertino,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,60
+Maricopa,Maricopa,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Redlands,Redlands,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,71
+Exeter,Exeter,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,11
+San Pablo,San Pablo,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,31
+Monterey Park,Monterey Park,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,62
+McFarland,McFarland,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,15
+Seal Beach,Seal Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,25
+Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,28
+Azusa,Azusa,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,49
+Chino,Chino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,86
+San Fernando,San Fernando,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,24
+Unincorporated Los Angeles County,,Los Angeles County County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,10,
+Burbank,Burbank,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,107
+Orange Cove,Orange Cove,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,9
+Calipatria,Calipatria,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,7
+Carlsbad,Carlsbad,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,114
+San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,Yes,Yes,,,104
+Unincorporated Yuba County,,Yuba County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,74,
+Hillsborough,Hillsborough,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,11
+Bell Gardens,Bell Gardens,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,43
+Dinuba,Dinuba,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,24
+Garden Grove,Garden Grove,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,176
+West Sacramento,West Sacramento,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Allows delivery from outside jurisdiction,2022-01-22,No,Yes,,,54
+Twentynine Palms,Twentynine Palms,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,27
+Parlier,Parlier,Fresno County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,No,Yes,,,15
+Alturas,Alturas,Modoc County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,2
+Manhattan Beach,Manhattan Beach,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,35
+Claremont,Claremont,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,36
+Cypress,Cypress,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,49
+Ripon,Ripon,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,15
+La Habra Heights,La Habra Heights,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,5
+Clovis,Clovis,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,113
+Rancho Mirage,Rancho Mirage,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,18
+Big Bear Lake,Big Bear Lake,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,5
+Indio,Indio,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,87
+Wasco,Wasco,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,27
+Unincorporated Fresno County,,Fresno County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,1,
+El Segundo,El Segundo,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,16
+Bakersfield,Bakersfield,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,386
+Livingston,Livingston,Merced County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,"Cultivation: Indoor only
+Microbusiness: No retail","Allows delivery from outside jurisdiction
+Distribution: Silent",2022-01-22,No,Yes,,,14
+Victorville,Victorville,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,123
+Milpitas,Milpitas,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,74
+San Dimas,San Dimas,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,34
+Bell,Bell,Los Angeles County County,City,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Cultivation: Indoor only,Allows medical delivery  from outside the jurisdiction,2022-01-22,No,Yes,,,36
+Dos Palos,Dos Palos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,5
+Moorpark,Moorpark,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,37
+Woodland,Woodland,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,,"Allows delivery from outside jurisdiction, but must have a city permit",2022-01-22,No,Yes,,,60
+Hawaiian Gardens,Hawaiian Gardens,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,14
+Brea,Brea,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,44
+La Cañada Flintridge,La Cañada Flintridge,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,20
+Unincorporated Siskiyou County,,Siskiyou County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,44,
+Los Alamitos,Los Alamitos,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,11
+Newport Beach,Newport Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,87
+Lincoln,Lincoln,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,48
+Ione,Ione,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,8
+Fremont,Fremont,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,235
+Clayton,Clayton,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,11
+Aliso Viejo,Aliso Viejo,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,51
+Montague,Montague,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Eastvale,Eastvale,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,64
+San Marcos,San Marcos,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,95
+San Juan Capistrano,San Juan Capistrano,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,36
+Diamond Bar,Diamond Bar,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,57
+Camarillo,Camarillo,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,68
+Cerritos,Cerritos,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,50
+Belvedere,Belvedere,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside of the jurisdiction,2022-01-22,Yes,Yes,,,2
+Portola,Portola,Plumas County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,2
+Pacific Grove,Pacific Grove,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (Storefront): City passed ordinance to allow but approval is pending a referendum,2022-01-22,Yes,Yes,,,15
+Gridley,Gridley,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,6
+Livermore,Livermore,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,91
+Unincorporated Orange County,,Orange County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,3,
+Irvine,Irvine,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,276
+Walnut,Walnut,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,30
+Hidden Hills,Hidden Hills,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Redondo Beach,Redondo Beach,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,68
+Unincorporated Mariposa County,,Mariposa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,18,
+Santa Fe Springs,Santa Fe Springs,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,18
+Corning,Corning,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,7
+Newark,Newark,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,47
+Rolling Hills Estates,Rolling Hills Estates,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,8
+Visalia,Visalia,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,136
+Unincorporated Kern County,,Kern County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,905,
+Shafter,Shafter,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,19
+Colton,Colton,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,Cultivation: Indoor only,Allows delivery from outside jurisdiction,2022-01-22,No,Yes,,,53
+Rancho Cordova,Rancho Cordova,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,74
+Oakley,Oakley,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,41
+Mission Viejo,Mission Viejo,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,95
+Unincorporated Tehama County,,Tehama County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Manufacturing, Testing, Micro: Silent",2022-01-22,Yes,Yes,Yes,64,
+Pico Rivera,Pico Rivera,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,64
+Arcadia,Arcadia,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,57
+Lawndale,Lawndale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,33
+Colusa,Colusa,Colusa County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,,,2022-01-22,No,Yes,,,6
+Laguna Niguel,Laguna Niguel,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,65
+Unincorporated Glenn County,,Glenn County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,28,
+Dana Point,Dana Point,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,34
+Lafayette,Lafayette,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,25
+Palo Alto,Palo Alto,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,69
+Carson,Carson,Los Angeles County County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,No,Yes,,,93
+Anaheim,Anaheim,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,357
+Sutter Creek,Sutter Creek,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,2
+Upland,Upland,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,77
+South El Monte,South El Monte,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,20
+Auburn,Auburn,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,14
+Yuba City,Yuba City,Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,67
+Bradbury,Bradbury,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Piedmont,Piedmont,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,11
+Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,141
+Fountain Valley,Fountain Valley,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,56
+Unincorporated San Mateo County,,San Mateo County,County,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Mixed-light only,Allows delivery from outside jurisdiction,2022-01-22,No,Yes,No,774,
+Temecula,Temecula,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,113
+Unincorporated Tuolumne County,,Tuolumne County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,54,
+Angels Camp,Angels,Calaveras County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside of the jurisdiction,2022-01-22,Yes,Yes,,,4
+Half Moon Bay,Half Moon Bay,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Nursery Only,,2022-01-22,No,Yes,,,12
+Placentia,Placentia,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,52
+Unincorporated Placer County,,Placer County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,389,
+Los Gatos,Los Gatos,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,30
+Rohnert Park,Rohnert Park,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,43
+St. Helena,St. Helena,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,6
+Citrus Heights,Citrus Heights,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,87
+Gilroy,Gilroy,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,55
+Fowler,Fowler,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,6
+Taft,Taft,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,9
+Escalon,Escalon,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,7
+Escondido,Escondido,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,151
+Portola Valley,Portola Valley,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Limit of 12 plants,,2022-01-22,No,Yes,,,4
+Calimesa,Calimesa,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,8
 Holtville,Holtville,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Retail (storefront): Silent on adult use, medicinal banned
 Retail (Non-storefront), Distribution, Manufacturing, Cultivation, Testing, Micro: Silent
 Distribution: Silent
-Manufacturing: Silent",2022-01-22,checked,checked,,,6
-Hughson,Hughson,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,7
-Huntington Beach,Huntington Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,202
-Huntington Park,Huntington Park,Los Angeles County County,City,Limited-Medical Only,Limited,Prohibited,Allowed,Allowed,Prohibited,Retail (Non-storefront): delivery from storefronts only,"Distribution, Testing: Silent",2022-01-22,,,,,59
-Huron,Huron,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,7
-Imperial,Imperial,Imperial County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (storefront): Limit 1 licensee,,2022-01-22,,,,,19
-Imperial Beach,Imperial Beach,San Diego County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,28
-Indian Wells,Indian Wells,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,5
-Indio,Indio,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,87
-Industry,Industry,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,437
-Inglewood,Inglewood,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,113
-Ione,Ione,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,8
-Irvine,Irvine,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,276
-Irwindale,Irwindale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Isleton,Isleton,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,837
-Jackson,Jackson,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,4
-Jurupa Valley,Jurupa Valley,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Non-storefront: Silent,2022-01-22,,,,,106
-Kerman,Kerman,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,15
-King City,King City,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,14
-Kingsburg,Kingsburg,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,12
-La Cañada Flintridge,La Cañada Flintridge,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,20
-La Habra,La Habra,Orange County,City,Prohibited,Allowed,Allowed,Prohibited,Prohibited,Allowed,,,2022-01-22,,,,,62
-La Habra Heights,La Habra Heights,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,5
-La Mesa,La Mesa,San Diego County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,61
-La Mirada,La Mirada,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,49
-La Palma,La Palma,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,15
-La Puente,La Puente,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,40
-La Quinta,La Quinta,Riverside County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,41
-La Verne,La Verne,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,33
-Lafayette,Lafayette,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,25
-Laguna Beach,Laguna Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Manufacturing, Testing, Micro: Silent",2022-01-22,checked,checked,,,23
-Laguna Hills,Laguna Hills,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,31
-Laguna Niguel,Laguna Niguel,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,65
-Laguna Woods,Laguna Woods,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,16
-Lake Elsinore,Lake Elsinore,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,63
-Lake Forest,Lake Forest,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,63
-Lakeport,Lakeport,Lake County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,5
-Lakewood,Lakewood,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,81
-Lancaster,Lancaster,Los Angeles County County,City,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,Retail (Non-storefront): Delivery from storefront retail only,Micro: Silent,2022-01-22,,,,,161
-Larkspur,Larkspur,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,12
-Lathrop,Lathrop,San Joaquin County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (Storefront):  Limit 1 licensee,,2022-01-22,,,,,24
-Lawndale,Lawndale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,33
-Lemon Grove,Lemon Grove,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,,"Testing, Micro: Silent",2022-01-22,,,,,26
-Lemoore,Lemoore,Kings County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,25
-Lincoln,Lincoln,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,48
-Lindsay,Lindsay,Tulare County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Delivery from storefront only
-Cultivation: Indoor only",Micro: Silent,2022-01-22,,,,,13
-Live Oak,"Live Oak,Live Oak",Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,8
-Livermore,Livermore,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,91
-Livingston,Livingston,Merced County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,"Cultivation: Indoor only
-Microbusiness: No retail","Allows delivery from outside jurisdiction
-Distribution: Silent",2022-01-22,,checked,,,14
-Lodi,Lodi,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,67
-Loma Linda,Loma Linda,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,23
-Lomita,Lomita,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,20
-Lompoc,Lompoc,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,43
-Long Beach,Long Beach,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,478
-Loomis,Loomis,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,6
-Los Alamitos,Los Alamitos,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,11
-Los Altos,Los Altos,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,31
-Los Altos Hills,Los Altos Hills,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,8
-Los Angeles,Los Angeles,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,4
-Los Banos,Los Banos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,40
-Los Gatos,Los Gatos,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,30
-Loyalton,Loyalton,Sierra County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,757
-Lynwood,Lynwood,Los Angeles County County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,72
-Madera,Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,66
-Malibu,Malibu,Los Angeles County County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,12
-Mammoth Lakes,Mammoth Lakes,Mono County,City,Allowed,Prohibited,Allowed,Limited,Limited,Allowed,"Manufacturing: Non-volatile only
-Cultivation: Indoor only",,2022-01-22,,,,,8
-Manhattan Beach,Manhattan Beach,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,35
-Manteca,Manteca,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,81
-Maricopa,Maricopa,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Marina,Marina,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,22
-Martinez,Martinez,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,,,,,38
-Marysville,Marysville,Yuba County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,11
-Maywood,Maywood,Los Angeles County County,City,Limited,Limited,Limited,Limited,Limited,Limited,Pre-existing licenses only,,2022-01-22,,,,,28
-McFarland,McFarland,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,15
-Mendota,Mendota,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,12
-Menifee,Menifee,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,91
-Menlo Park,Menlo Park,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,35
-Merced,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,86
-Mill Valley,Mill Valley,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,14
-Millbrae,Millbrae,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,22
-Milpitas,Milpitas,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,74
-Mission Viejo,Mission Viejo,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,95
-Modesto,Modesto,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,215
-Monrovia,Monrovia,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,38
-Montague,Montague,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Montclair,Montclair,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,39
-Monte Sereno,Monte Sereno,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,3
-Montebello,Montebello,Los Angeles County County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,64
-Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,28
-Monterey Park,Monterey Park,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,62
-Moorpark,Moorpark,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,37
-Moraga,Moraga,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,16
-Moreno Valley,Moreno Valley,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,207
-Morgan Hill,Morgan Hill,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,checked,checked,,,44
-Morro Bay,Morro Bay,San Luis Obispo County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,10
-Mount Shasta,Mount Shasta,Siskiyou County,City,Allowed,Limited-Medical Only,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,3
-Mountain View,"Mountain View,Mountain View",Santa Clara County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,81
-Murrieta,Murrieta,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,113
-Napa,Napa,Napa County,City,Limited-Medical Only,Limited-Medical Only,Prohibited,Allowed,Prohibited,Prohibited,,,2022-01-22,,,,,80
-National City,National City,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,62
-Needles,Needles,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,5
-Nevada City,Nevada City,Nevada County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,3
-Newark,Newark,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,47
-Newman,Newman,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,11
-Newport Beach,Newport Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,87
-Norco,Norco,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,checked,checked,,,26
-Norwalk,Norwalk,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,107
-Novato,Novato,Marin County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,54
-Oakdale,Oakdale,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,23
-Oakland,Oakland,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,428
-Oakley,Oakley,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Testing, Micro: Silent",2022-01-22,checked,checked,,,41
-Oceanside,Oceanside,San Diego County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,177
-Ojai,Ojai,Ventura County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Allowed,,Distribution: Silent,2022-01-22,,,,,7
-Ontario,Ontario,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,177
-Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,141
-Orange Cove,Orange Cove,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,9
-Orinda,Orinda,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,19
-Orland,Orland,Glenn County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,checked,checked,,,7
-Oroville,Oroville,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,18
-Oxnard,Oxnard,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,,,,,206
-Pacific Grove,Pacific Grove,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (Storefront): City passed ordinance to allow but approval is pending a referendum,2022-01-22,checked,checked,,,15
-Pacifica,Pacifica,San Mateo County,City,Allowed,Limited,Allowed,Allowed,Prohibited,Allowed,Retail (Non-Storefront): Delivery from storefront only,Micro: Silent,2022-01-22,,,,,38
-Palm Desert,Palm Desert,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,52
-Palm Springs,Palm Springs,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,47
-Palmdale,Palmdale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,158
-Palo Alto,Palo Alto,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,69
-Palos Verdes Estates,Palos Verdes Estates,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,13
-Paradise,"Paradise,Paradise",Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-Paramount,Paramount,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,56
-Parlier,Parlier,Fresno County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,checked,,,15
-Pasadena,Pasadena,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,144
-Paso Robles (El Paso de Robles),El Paso de Robles (Paso Robles),San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,31
-Patterson,Patterson,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,22
-Perris,Perris,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,77
-Petaluma,Petaluma,Sonoma County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,,,,,62
-Pico Rivera,Pico Rivera,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,64
-Piedmont,Piedmont,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,11
-Pinole,Pinole,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,19
-Pismo Beach,Pismo Beach,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,8
-Pittsburg,Pittsburg,Contra Costa County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,,checked,,,72
-Placentia,Placentia,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,52
-Placerville,Placerville,El Dorado County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Allowed,,,2022-01-22,,,,,10
-Pleasant Hill,Pleasant Hill,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,35
-Pleasanton,Pleasanton,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,79
-Plymouth,Plymouth,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,1
-Point Arena,Point Arena,Mendocino County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,448
-Pomona,Pomona,Los Angeles County County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,155
-Port Hueneme,Port Hueneme,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,23
-Porterville,Porterville,Tulare County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (Non-storefront): Delivery from storefronts only,,2022-01-22,,,,,60
-Portola,Portola,Plumas County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,2
-Portola Valley,Portola Valley,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Limit of 12 plants,,2022-01-22,,checked,,,4
-Poway,Poway,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,50
-Rancho Cordova,Rancho Cordova,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,74
-Rancho Cucamonga,Rancho Cucamonga,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,176
-Rancho Mirage,Rancho Mirage,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,18
-Rancho Palos Verdes,Rancho Palos Verdes,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,42
-Rancho Santa Margarita,Rancho Santa Margarita,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,49
-Red Bluff,Red Bluff,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,13
-Redding,Redding,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,91
-Redlands,Redlands,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,71
-Redondo Beach,Redondo Beach,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,68
-Redwood City,Redwood City,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Nursery Only,,2022-01-22,,,,,86
-Reedley,Reedley,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-Rialto,Rialto,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,107
-Richmond,Richmond,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,110
-Ridgecrest,Ridgecrest,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,28
-Rio Dell,Rio Dell,Humboldt County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,"Retail (Non-storefront), Micro: Silent",2022-01-22,,,,,3
-Rio Vista,Rio Vista,Solano County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,9
-Ripon,Ripon,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,15
-Riverbank,Riverbank,Stanislaus County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Allowed,Cultivation: Indoor only,"Distribution, Manufacturing, Micro: Silent",2022-01-22,,,,,25
-Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,325
-Rocklin,Rocklin,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,66
-Rohnert Park,Rohnert Park,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,43
-Rolling Hills,"Rolling Hills,Rolling Hills",Los Angeles County County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,1
-Rolling Hills Estates,Rolling Hills Estates,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,8
-Rosemead,Rosemead,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,55
-Roseville,Roseville,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,137
-Ross,Ross,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,2
-Sacramento,Sacramento,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,501
-Salinas,Salinas,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,161
-San Anselmo,San Anselmo,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,13
-San Bernardino,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,221
-San Bruno,San Bruno,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,46
-San Carlos,San Carlos,San Mateo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,Microbusiness: No retail,Allows delivery from outside jurisdiction,2022-01-22,,checked,,,29
-San Clemente,San Clemente,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,65
-San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,1
-San Dimas,San Dimas,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,34
-San Fernando,San Fernando,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,24
-San Francisco,San Francisco,City and County of San Francisco,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,883
-San Gabriel,San Gabriel,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,40
-San Jacinto,San Jacinto,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,Non-storefront: Silent,2022-01-22,,,,,48
-San Joaquin,San Joaquin,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,4
-San Jose,San Jose,Santa Clara County,City,Limited,Limited,Allowed,Allowed,Limited,Allowed,"Pre-existing operators only, must have registered with city prior to Dec 18, 2015",,2022-01-22,,,,,1
-San Juan Bautista,San Juan Bautista,San Benito County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,1
-San Juan Capistrano,San Juan Capistrano,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,36
-San Leandro,San Leandro,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,,,,,87
-San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,46
-San Marcos,San Marcos,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,95
-San Marino,San Marino,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,13
-San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Testing: Silent,2022-01-22,checked,checked,,,104
-San Pablo,San Pablo,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,31
-San Rafael,San Rafael,Marin County,City,Prohibited,Allowed,Allowed,Limited,Prohibited,Allowed,Manufacturing: Type N only,,2022-01-22,,,,,60
-San Ramon,San Ramon,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,82
-Sand City,Sand City,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,394
-Sanger,Sanger,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-Santa Ana,Santa Ana,Orange County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,338
-Santa Barbara,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,94
-Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,129
-Santa Clarita,Santa Clarita,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,216
-Santa Cruz,Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,66
-Santa Fe Springs,Santa Fe Springs,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,18
-Santa Maria,Santa Maria,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,108
-Santa Monica,Santa Monica,Los Angeles County County,City,Limited-Medical Only,Prohibited,Prohibited,Limited-Medical Only,Prohibited,Prohibited,,Retail (non-storefront): Silent on medical,2022-01-22,,,,,92
-Santa Paula,Santa Paula,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,checked,,,31
-Santa Rosa,Santa Rosa,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,178
-Santee,Santee,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (storefront) - Measure to allow may be on 2022 ballot,2022-01-22,checked,checked,,,56
-Saratoga,Saratoga,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,31
-Sausalito,Sausalito,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,7
-Scotts Valley,Scotts Valley,Santa Cruz County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,12
-Seal Beach,Seal Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,25
-Seaside,Seaside,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,34
-Sebastopol,Sebastopol,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,7
-Selma,Selma,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,24
-Shafter,Shafter,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,19
-Shasta Lake,Shasta Lake,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,10
-Sierra Madre,Sierra Madre,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,10
-Signal Hill,Signal Hill,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (Storefront): Ballot measure pending in 2022,2022-01-22,checked,checked,,,11
-Simi Valley,Simi Valley,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,128
-Solana Beach,Solana Beach,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,13
-Soledad,Soledad,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-Solvang,Solvang,Santa Barbara County,City,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,,2022-01-22,,,,,5
-Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Limited,Prohibited,Allowed,Manufacturing: Type N or P only,,2022-01-22,,,,,11
-Sonora,Sonora,Tuolumne County,City,Limited,Limited,Prohibited,Allowed,Prohibited,Allowed,"Retail (Storefront): Limit 3
-Retail (Non-storefront): Delivery from storefront only",,2022-01-22,,,,,4
-South El Monte,South El Monte,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,20
-South Gate,South Gate,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,98
-South Lake Tahoe,South Lake Tahoe,El Dorado County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,21
-South Pasadena,South Pasadena,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,26
-South San Francisco,South San Francisco,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,67
-St. Helena,St. Helena,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,6
-Stanton,Stanton,Orange County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,,,39
-Stockton,Stockton,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,315
-Suisun City,Suisun City,Solano County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,29
-Sunnyvale,Sunnyvale,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,153
-Susanville,Susanville,Lassen County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,14
-Sutter Creek,Sutter Creek,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,2
-Taft,Taft,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,9
-Tehachapi,Tehachapi,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,12
-Tehama,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,430
-Temecula,Temecula,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,113
-Temple City,Temple City,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,36
-Thousand Oaks,Thousand Oaks,Ventura County,City,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,,,,130
-Tiburon,Tiburon,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,9
-Torrance,Torrance,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,149
-Tracy,Tracy,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,92
-Trinidad,Trinidad,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,340
-Truckee,Truckee,Nevada County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,16
-Tulare,Tulare,Tulare County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,65
-Tulelake,Tulelake,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,977
-Turlock,Turlock,Stanislaus County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Delivery by storefront only
-Cultivation: Indoor only",Micro: Silent,2022-01-22,,,,,74
-Tustin,Tustin,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,82
-Twentynine Palms,Twentynine Palms,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,27
-Ukiah,Ukiah,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,16
-Union City,Union City,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,,,72
-Upland,Upland,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,77
-Vacaville,Vacaville,Solano County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,Microbusiness: No cultivation,,2022-01-22,,,,,98
-Vallejo,Vallejo,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,119
-Ventura (San Buenaventura),San Buenaventura (Ventura),Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,Microbusiness: No cultivation,,2022-01-22,,,,,111
-Vernon,Vernon,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,209
-Victorville,Victorville,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,,,123
-Villa Park,Villa Park,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,5
-Visalia,Visalia,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,136
-Vista,Vista,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,Micro: Silent,2022-01-22,,,,,103
-Walnut,Walnut,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,30
-Walnut Creek,Walnut Creek,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,70
-Wasco,Wasco,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,27
-Waterford,Waterford,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,9
-Watsonville,Watsonville,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,53
-Weed,Weed,Siskiyou County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Indoor only,"Distribution, Manufacturing, Testing, Micro: Silent",2022-01-22,,,,,2
-West Covina,West Covina,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,108
-West Hollywood,West Hollywood,Los Angeles County County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,,,,,36
-West Sacramento,West Sacramento,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Allows delivery from outside jurisdiction,2022-01-22,,checked,,,54
-Westlake Village,Westlake Village,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,8
-Westminster,Westminster,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,94
-Westmorland,Westmorland,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,2
-Wheatland,Wheatland,Yuba County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,3
-Whittier,Whittier,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,87
-Wildomar,Wildomar,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,,,36
-Williams,Williams,Colusa County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,checked,,,5
-Willits,Willits,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,,,5
-Willows,Willows,Glenn County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Retail (Non-storefront): Delivery from storefront only,,2022-01-22,,,,,6
-Windsor,Windsor,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,28
-Winters,Winters,Yolo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,7
-Woodlake,Woodlake,Tulare County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor and mixed light only,Micro: Silent,2022-01-22,,,,,7
-Woodland,Woodland,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,,"Allows delivery from outside jurisdiction, but must have a city permit",2022-01-22,,checked,,,60
-Woodside,Woodside,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,,,5
-Yorba Linda,Yorba Linda,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,69
-Yountville,Yountville,Napa County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,,,2
-Yreka,Yreka,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,7
-Yuba City,Yuba City,Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,67
-Yucaipa,Yucaipa,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,54
-Yucca Valley,Yucca Valley,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,,,21
-Unincorporated Alameda County,,Alameda County,County,Allowed,Allowed,Limited,Limited,Allowed,Allowed,"Distribution and manufacturing: Cultivator or microbusiness only
-",,2022-01-22,,,N,1,
-Unincorporated Alpine County,,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,1,
-Unincorporated Amador County,,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,38,
-Unincorporated Butte County,,Butte County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,227,
-Unincorporated Calaveras County,,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Prohibited,,Microbusiness: Co-location allowed,2022-01-22,,,N,45,
-Unincorporated Colusa County,,Colusa County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,checked,N,22,
-Unincorporated Contra Costa County,,Contra Costa County,County,Allowed,Limited,Allowed,Allowed,Limited,Allowed,"Retail (Non-storefront): Delivery by storefront only
-Cultivation: Indoor only",Micro: Silent,2022-01-22,,,N,1,
-Unincorporated Del Norte County,,Del Norte County,County,Allowed,Prohibited,Prohibited,Allowed,Allowed,Prohibited,,"Retail (Non-storefront), Distribution, Testing, Micro: Silent",2022-01-22,,,N,27,
-Unincorporated El Dorado County,,El Dorado County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,N,188,
-Unincorporated Fresno County,,Fresno County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,1,
-Unincorporated Glenn County,,Glenn County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,28,
-Unincorporated Humboldt County,,Humboldt County,County,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,Retail (Non-storefront): Delivery by storefront only,,2022-01-22,,,N,136,
-Unincorporated Imperial County,,Imperial County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,190,
-Unincorporated Inyo County,,Inyo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,18,
-Unincorporated Kern County,,Kern County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,905,
-Unincorporated Kings County,,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,151,
-Unincorporated Lake County,,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,,2021-12-13,,checked,N,65,
-Unincorporated Lassen County,,Lassen County,County,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,,,N,30,
-Unincorporated Los Angeles County,,Los Angeles County County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,10,
-Unincorporated Madera County,,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,158,
-Unincorporated Marin County,,Marin County,County,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,,,N,263,
-Unincorporated Mariposa County,,Mariposa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,18,
-Unincorporated Mendocino County,,Mendocino County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,89,
-Unincorporated Merced County,,Merced County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,checked,checked,Y,279,
-Unincorporated Modoc County,,Modoc County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,9,
-Unincorporated Mono County,,Mono County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,13,
-Unincorporated Monterey County,,Monterey County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,Micro: Silent,2022-01-22,,,N,443,
-Unincorporated Napa County,,Napa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,Y,141,
-Unincorporated Nevada County,,Nevada County,County,Prohibited,Prohibited,Limited,Prohibited,Limited-Medical Only,Prohibited,"Distribution: Self-distribution by cultivators only
-",,2022-01-22,,checked,N,99,
-Unincorporated Orange County,,Orange County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,3,
-Unincorporated Placer County,,Placer County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,389,
-Unincorporated Plumas County,,Plumas County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,19,
-Unincorporated Riverside County,,Riverside County,County,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,,2022-01-22,,,N,2,
-Unincorporated Sacramento County,,Sacramento County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,1,
-Unincorporated San Benito County,,San Benito County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,"Cultivation: Indoor only
-Microbusiness: No retail",Allows delivery from outside jurisdiction but requires a county permit,2022-01-22,,checked,N,57,
-Unincorporated San Bernardino County,,San Bernardino County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,2,
-Unincorporated San Diego County,,San Diego County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Prohibited,,Testing: Silent,2022-01-22,,,N,3,
-Unincorporated San Joaquin County,,San Joaquin County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,758,
-Unincorporated San Luis Obispo County,,San Luis Obispo County,County,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,Cultivation: Indoor only,Micro: Silent,2022-01-22,,,N,280,
-Unincorporated San Mateo County,,San Mateo County,County,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,Cultivation: Mixed-light only,Allows delivery from outside jurisdiction,2022-01-22,,checked,N,774,
-Unincorporated Santa Barbara County,,Santa Barbara County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,453,
-Unincorporated Santa Clara County,,Santa Clara County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,1,
-Unincorporated Santa Cruz County,,Santa Cruz County,County,Allowed,Limited,Allowed,Allowed,Allowed,Prohibited,Retail (Non-storefront): Delivery by storefront only,Testing: Silent,2022-01-22,,,N,276,
-Unincorporated Shasta County,,Shasta County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,178,
-Unincorporated Sierra County,,Sierra County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,checked,checked,Y,3,
-Unincorporated Siskiyou County,,Siskiyou County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,44,
-Unincorporated Solano County,,Solano County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,439,
-Unincorporated Sonoma County,,Sonoma County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,503,
-Unincorporated Stanislaus County,,Stanislaus County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,555,
-Unincorporated Sutter County,,Sutter County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Manufacturing, Testing, Micro: Silent",2022-01-22,checked,checked,Y,97,
-Unincorporated Tehama County,,Tehama County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Manufacturing, Testing, Micro: Silent",2022-01-22,checked,checked,Y,64,
-Unincorporated Trinity County,,Trinity County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,13,
-Unincorporated Tulare County,,Tulare County,County,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,,,N,475,
-Unincorporated Tuolumne County,,Tuolumne County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,54,
+Manufacturing: Silent",2022-01-22,Yes,Yes,,,6
+Brentwood,Brentwood,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,63
+Moraga,Moraga,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,16
+Manteca,Manteca,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,81
+Villa Park,Villa Park,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,5
+San Marino,San Marino,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,13
+Palmdale,Palmdale,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,158
+Etna,Etna,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,744
+Ferndale,Ferndale,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Unincorporated Merced County,,Merced County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,Yes,279,
+Rancho Palos Verdes,Rancho Palos Verdes,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,42
+Grand Terrace,Grand Terrace,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,12
+Downey,Downey,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,114
+Buena Park,Buena Park,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,83
+Montclair,Montclair,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,39
+West Covina,West Covina,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,108
+Covina,Covina,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,49
+Calabasas,Calabasas,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,24
+Agoura Hills,Agoura Hills,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,20
+Chowchilla,Chowchilla,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,18
+Unincorporated Modoc County,,Modoc County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,9,
+Arroyo Grande,Arroyo Grande,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,17
+Lakewood,Lakewood,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,81
+Fortuna,Fortuna,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,12
+Folsom,Folsom,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,78
+Highland,Highland,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,54
+Rancho Santa Margarita,Rancho Santa Margarita,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,49
 Unincorporated Ventura County,,Ventura County,County,Prohibited,Prohibited,Limited,Prohibited,Limited,Prohibited,"Distribution: Self-distribution only
-Cultivation: Indoor only",,2022-01-22,,checked,N,859,
-Unincorporated Yolo County,,Yolo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,,2022-01-22,,,N,221,
-Unincorporated Yuba County,,Yuba County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,checked,checked,Y,74,
+Cultivation: Indoor only",,2022-01-22,No,Yes,No,859,
+Lake Forest,Lake Forest,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,63
+Biggs,Biggs,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Calistoga,Calistoga,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,5
+Avenal,Avenal,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",2022-01-22,Yes,Yes,,,13
+Madera,Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,66
+Sanger,Sanger,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+Kingsburg,Kingsburg,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,12
+Huntington Beach,Huntington Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,202
+Temple City,Temple City,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,36
+Norwalk,Norwalk,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,107
+Millbrae,Millbrae,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,22
+Los Banos,Los Banos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,40
+Rancho Cucamonga,Rancho Cucamonga,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,176
+Beverly Hills,Beverly Hills,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,34
+Pinole,Pinole,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,19
+Dorris,Dorris,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,966
+Brawley,Brawley,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,27
+Yreka,Yreka,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,7
+Westminster,Westminster,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,94
+Los Altos Hills,Los Altos Hills,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,8
+Signal Hill,Signal Hill,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (Storefront): Ballot measure pending in 2022,2022-01-22,Yes,Yes,,,11
+Paradise,"Paradise,Paradise",Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+Rialto,Rialto,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,107
+La Mirada,La Mirada,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,49
+Unincorporated Plumas County,,Plumas County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,19,
+Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,325
+Yorba Linda,Yorba Linda,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,69
+La Puente,La Puente,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,40
+Larkspur,Larkspur,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,12
+Healdsburg,Healdsburg,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Retail (storefront): City is planning further discussions or bond meausre in 2022.,2022-01-22,Yes,Yes,,,12
+Tulelake,Tulelake,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,977
+Compton,Compton,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,99
+Tiburon,Tiburon,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,9
+Oroville,Oroville,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,18
+Galt,Galt,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+Live Oak,"Live Oak,Live Oak",Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,8
+San Carlos,San Carlos,San Mateo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,Microbusiness: No retail,Allows delivery from outside jurisdiction,2022-01-22,No,Yes,,,29
+San Anselmo,San Anselmo,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,13
+Sunnyvale,Sunnyvale,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,153
+Blue Lake,Blue Lake,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,1
+Sausalito,Sausalito,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,7
+Tehachapi,Tehachapi,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,12
+Unincorporated Amador County,,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,38,
+Apple Valley,Apple Valley,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,73
+Susanville,Susanville,Lassen County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,14
+Paramount,Paramount,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,56
+Chino Hills,Chino Hills,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,83
+San Ramon,San Ramon,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,82
+Loyalton,Loyalton,Sierra County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,757
+Vernon,Vernon,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,209
+Pittsburg,Pittsburg,Contra Costa County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,,,2022-01-22,No,Yes,,,72
+Paso Robles (El Paso de Robles),El Paso de Robles (Paso Robles),San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,31
+Unincorporated Solano County,,Solano County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,439,
+Corcoran,Corcoran,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,21
+Amador City,Amador City,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,
+Buellton,Buellton,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,,2022-01-22,No,Yes,,,5
+Beaumont,Beaumont,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,48
+Unincorporated Sutter County,,Sutter County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,"Manufacturing, Testing, Micro: Silent",2022-01-22,Yes,Yes,Yes,97,
+Yucaipa,Yucaipa,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,54
+Unincorporated San Bernardino County,,San Bernardino County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,2,
+Dublin,Dublin,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,63
+Fontana,Fontana,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,212
+Reedley,Reedley,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+Unincorporated Napa County,,Napa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,Yes,141,
+Gardena,Gardena,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,61
+Canyon Lake,Canyon Lake,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,11
+Unincorporated Butte County,,Butte County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,227,
+Santa Clarita,Santa Clarita,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,216
+Unincorporated Kings County,,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,Yes,151,
+Roseville,Roseville,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,137
+South Pasadena,South Pasadena,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,26
+Monte Sereno,Monte Sereno,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,3
+Alhambra,Alhambra,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows medical delivery  from outside the jurisdiction,2022-01-22,Yes,Yes,,,86
+Laguna Hills,Laguna Hills,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,,2022-01-22,Yes,Yes,,,31
+Westlake Village,Westlake Village,Los Angeles County County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Allows delivery from outside jurisdiction,2022-01-22,Yes,Yes,,,8
