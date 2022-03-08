@@ -1,0 +1,45 @@
+// .chart-title {
+//   border-bottom: solid 1px;
+//   padding-bottom: 0.3em;
+//   margin-bottom: 1em;
+// }
+
+cagov-chart-re-pop {  
+  // display: block;
+  min-width: 300px;
+
+  // .chart-title::first-letter {
+  //   text-transform: capitalize;
+  // }
+
+  // .svg-holder svg {
+  //   width: 100%;
+  // }
+
+  .svg-holder-second {
+    border-top: solid 1px #000;
+    margin-top: 10px;
+    padding-top: 30px;
+    svg {
+      width: 100%;
+    }
+  }
+
+  .chart-overlaybox-container {
+    top: 23%;
+    left: 20%;
+  }
+
+  .change-from-month-labels {
+    font-size: 0.75em;
+    text-anchor: unset;
+  }
+
+  .withheld-label {
+    font-size: 0.85em;
+  }
+
+  .chart-tooltip--repop {
+    min-width: 100px;
+  }
+}

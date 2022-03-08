@@ -32,11 +32,13 @@
   <body>
     <main>
       <cagov-map-table
-        data-places=""
-        data-boundaries-state=""
-        data-boundaries-counties=""
-        data-boundaries-places=""
-        data-geojson=""
+        data-layer-counties="./data/california-data-layers/CA_Counties_TIGER2016.svg"
+        data-layer-places="./data/california-data-layers/CA_Places_TIGER2016.svg"
+        data-csv="./data/draft-cannabis-legal-access.2022-01-22.csv"
+        data-counties-key="NAME,GEOID"
+        data-places-key="NAME,GEOID"
+        data-county-label-field="Name"
+        data-place-label-field="Name"
       >
         <div class="legend"></div>
         <div class="filters">
