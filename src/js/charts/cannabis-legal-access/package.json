@@ -2,10 +2,11 @@
   "name": "cannabis-legal-access",
   "version": "0.0.1",
   "description": "",
-  "main": "index.css",
+  "main": "index.js",
   "scripts": {
     "build": "sass src/index.scss index.css",
-    "html:preview": "node ../../docs/src/publish/dynamic-html.js"
+    "html:preview": "node ./publish/dynamic-html.js",
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
