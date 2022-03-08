@@ -6,7 +6,7 @@
   "scripts": {
     "build": "sass src/index.scss index.css",
     "html:preview": "node ./publish/dynamic-html.js",
-    "start": "npm start"
+    "start": "http-server ./ --port 3000"
   },
   "keywords": [],
   "author": "",
