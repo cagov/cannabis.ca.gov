@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cannabis Legal Access Interactive</title>
+    <style>
+      path.dm-1 {
+        fill: #fcd37f;
+      }
+      path.dm-2 {
+        fill: #ffaa00;
+      }
+      path.dm-3 {
+        fill: #e60000;
+      }
+      path.dm-4 {
+        fill: #730000;
+      }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="dist/index.js"></script>
+  </head>
+  <body>
+    <h2>Where are commercial cannabis activities (CCA) allowed?</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium dapibus diam, a finibus metus congue a. Vestibulum laoreet faucibus ultrices. Vestibulum condimentum lectus in arcu ultricies condimentum.</p>
+    
+
+ <main>
+      <cagov-map-table
+        data-layer-id-counties="data-layer-counties"
+        data-layer-id-places="data-layer-places"
+        data-csv="./data/draft-cannabis-legal-access.2022-01-22.csv"
+        data-counties-key="NAME,GEOID"
+        data-places-key="NAME,GEOID"
+        data-county-label-field="Name"
+        data-place-label-field="Name"
+      >
+        <div class="legend"></div>
+        <div class="filters">
+          <form>
+            <div class="filter">
+              <label>Filter label</label>
+              <cagov-autocomplete>
+                <input type="text" />
+                <select>
+                  <option>Option</option>
+                </select>
+              </cagov-autocomplete>
+            </div>
+          </form>
+        </div>
+        <div class="maps">
+          <div class="map">
+            <cagov-places-map 
+              data-container=""
+            > 
+              <div class="svg-layer-container">
+                <div id="data-layer-places" class="svg-layer-places">
+                  <img
+                    src="./data/california-data-layers/CA_Places_TIGER2016.svg"
+                    alt="CA PLACES TIGER2016"
+                    height="800"
+                    width="923"
+                  />
+                </div>
+                <div class="svg-layer-counties"></div>
+                <div class="svg-layer-bay-area-counties"></div>
+                <div class="svg-layer-bay-area-county-outlines"></div>
+                <div class="svg-layer-bay-area-state-boundaries"></div>
+                <div class="svg-layer-background"></div>
+              </div>
+            </cagov-places-map>
+          </div>
+        </div>
+        <div class="data-table">
+          <div class="table-title"></div>
+          <div class="table-legend"></div>
+          <div class="table-data">
+            <cagov-table-data data-container=""> </cagov-table-data>
+          </div>
+        </div>
+      </cagov-map-table>
+    </main>
+
+  </body>
+</html>
