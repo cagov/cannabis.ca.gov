@@ -32,8 +32,8 @@
   <body>
     <main>
       <cagov-map-table
-        data-layer-counties="./data/california-data-layers/CA_Counties_TIGER2016.svg"
-        data-layer-places="./data/california-data-layers/CA_Places_TIGER2016.svg"
+        data-layer-id-counties="data-layer-counties"
+        data-layer-id-places="data-layer-places"
         data-csv="./data/draft-cannabis-legal-access.2022-01-22.csv"
         data-counties-key="NAME,GEOID"
         data-places-key="NAME,GEOID"
@@ -56,7 +56,25 @@
         </div>
         <div class="maps">
           <div class="map">
-            <cagov-places-map data-container=""> </cagov-places-map>
+            <cagov-places-map 
+              data-container=""
+            > 
+              <div class="svg-layer-container">
+                <div id="data-layer-places" class="svg-layer-places">
+                  <img
+                    src="./data/california-data-layers/CA_Places_TIGER2016.svg"
+                    alt="CA PLACES TIGER2016"
+                    height="800"
+                    width="923"
+                  />
+                </div>
+                <div class="svg-layer-counties"></div>
+                <div class="svg-layer-bay-area-counties"></div>
+                <div class="svg-layer-bay-area-county-outlines"></div>
+                <div class="svg-layer-bay-area-state-boundaries"></div>
+                <div class="svg-layer-background"></div>
+              </div>
+            </cagov-places-map>
           </div>
         </div>
         <div class="data-table">
