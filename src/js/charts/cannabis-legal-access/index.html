@@ -23,13 +23,16 @@
 
     <!-- @TODO Add design system CDN links here -->
 
-    <link rel="stylesheet" href="index.css" />
+    <script>
+      document.write('<link href="./main.css?cachebust='  + Math.floor(Math.random()*100) + '" rel="stylesheet" type="text/css" />');
+    </script>
+    
     <script src="https://d3js.org/d3.v7.min.js"></script>
 
     <script type="module">
-      import "./src/index.js";
+      import "./index.js";
     </script>
-    <title>Cannabis Legal Access Interactive</title>
+    <title>DRAFT - Cannabis Legal Access Interactive</title>
   </head>
   <body>
     <h2>Where are commercial cannabis activities (CCA) allowed?</h2>
@@ -41,25 +44,25 @@
     </p>
 
     <main>
-<!-- 
-WORK-IN-PROGRESS NOTES
-Data
-1. read .csv into memory.
-2. bind data object on external container & connect with listeners.
-3. Later: scale SVG parent container to div.
-Planning
-Move cartography notes from Notion & Figma into `adr` file.
+      <!-- 
+      WORK-IN-PROGRESS NOTES
+      Data
+      1. read .csv into memory.
+      2. bind data object on external container & connect with listeners.
+      3. Later: scale SVG parent container to div.
+      Planning
+      Move cartography notes from Notion & Figma into `adr` file.
 
-UI
-- [ ] Build HTML structures of anything that doesn't need to render in d3
-- [X] Add all SVG layers
+      UI
+      - [ ] Build HTML structures of anything that doesn't need to render in d3
+      - [X] Add all SVG layers
 
-LATER
-* Styles
-* Local data source
-* Data ALT tags
-* img srcset?
--->
+      LATER
+      * Styles
+      * Local data source
+      * Data ALT tags
+      * img srcset?
+      -->
       <cagov-map-table
         data-layer-id-counties="data-layer-counties"
         data-layer-id-places="data-layer-places"
@@ -68,6 +71,7 @@ LATER
         data-places-key="NAME,GEOID"
         data-county-label-field="Name"
         data-place-label-field="Name"
+        data-layers="./data-layers.json"
       >
         <div class="filters">
           <form>
@@ -146,8 +150,9 @@ LATER
               <cagov-autocomplete>
                 <input type="text" placeholder="Search for a city" />
                 <!-- ICON: search -->
-                <!-- @TODO Move out of the way -->
-                <!-- HMM we might actually not need to load a csv file for the places data (and can make CSV smaller by ) -  if we build autocomplete like this - otherwise load a CSV and have package build this data - TODO write some markup spit out scripts like I did for industry guidance auto docs generator for airtable - same script could be adapted to other dynamic spreadsheets -->
+                <!-- @TODO Move select out of the way -->
+                <!-- HMM ... we might actually not need to load a csv file for the places data (and can make CSV smaller by ) -  if we build autocomplete like this - otherwise load a CSV and have package build this data - TODO write some markup spit out scripts like I did for industry guidance auto docs generator for airtable - same script could be adapted to other dynamic spreadsheets.
+                 -->
               <select>
                 <option value="Adelanto" data-geoid="600296">Adelanto</option>
                 <option value="Agoura Hills" data-geoid="600394">Agoura Hills</option>
@@ -727,54 +732,6 @@ LATER
           <div class="map">
             <div class="cagov-places-map data-container="">
               <div class="svg-layer-container">
-                <div id="data-layers" class="layer svg-layer-places">
-                  <img
-                    src="./data/california-data-layers/CA_Places_TIGER2016.svg"
-                    alt="CA PLACES TIGER2016"
-                    height="800"
-                    width="923"
-                  />
-                </div>
-                <div class="layer svg-layer-counties">
-                  <img
-                    src="./data/california-data-layers/CA_Counties_TIGER2016.svg"
-                    alt="CA COUNTIES TIGER2016"
-                    height="800"
-                    width="923"
-                  />
-                </div>
-                <div class="layer svg-layer-bay-area-counties">
-                  <img
-                    src="./data/california-data-layers/geo_export_f87ffb26-fc15-43a4-aea3-61b7f9af450c.svg"
-                    alt="data.sf.gov Bay Area Boundaries"
-                    height="800"
-                    width="923"
-                  />
-                </div>
-                <div class="layer svg-layer-county-outlines">
-                  <img
-                    src="./data/california-data-layers/cnty19_1.svg"
-                    alt="cnty19_1"
-                    height="800"
-                    width="923"
-                  />
-                </div>
-                <div class="layer svg-layer-state-boundaries">
-                  <img
-                    src="./data/california-data-layers/CA_State_TIGER2016.svg"
-                    alt="CA STATE TIGER2016"
-                    height="800"
-                    width="923"
-                  />
-                </div>
-                <div class="layer svg-layer-background">
-                  <img
-                    src="./data/california-data-layers/background.svg"
-                    alt="Background"
-                    height="800"
-                    width="923"
-                  />
-                </div>
               </div>
             </div>
           </div>
