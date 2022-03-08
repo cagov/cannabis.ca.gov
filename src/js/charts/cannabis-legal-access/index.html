@@ -49,18 +49,27 @@
       1. read .csv into memory.
       2. bind data object on external container & connect with listeners.
       3. Later: scale SVG parent container to div.
-      Planning
+      ## Planning
       Move cartography notes from Notion & Figma into `adr` file.
 
-      UI
+      ISSUES (to move to github cannabis.ca.gov project board when ready)
+      ## UI
       - [ ] Build HTML structures of anything that doesn't need to render in d3
+      - [ ] Build Table layout
+      - [ ] Build Tooltips markup (html or html template first, then d3 if we absolutely must)
       - [X] Add all SVG layers
-
-      LATER
-      * Styles
-      * Local data source
-      * Data ALT tags
-      * img srcset?
+      - Connect data-layers.json to render dynamic SVGs in plain mode or d3
+      - Connect DS code for page layout
+      
+      ## LATER
+      - Move UI up to make it available in normal 11ty headless mode
+        (working in this project root for efficiency)
+      - [ ] Build City layout (last)
+      - [ ] Add icons (pull latest from DS if available)
+      * Complete styles
+      * Pull in CSV local data source
+      * Adjust CSV (remove any extra data we don't need & add CSV source file of everything for archival purposes)
+      * Write meaningful data ALT tags
       -->
       <cagov-map-table
         data-layer-id-counties="data-layer-counties"
