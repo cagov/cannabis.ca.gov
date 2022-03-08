@@ -32,7 +32,7 @@
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
     "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
-    "feature": "cd src/js/charts/cannabis-legal-access"
+    "start:feature": "http-server ./src/js/charts/cannabis-legal-access/ --port 3000"
   },
   "keywords": [
     "@cagov",
