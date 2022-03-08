@@ -26,14 +26,16 @@
     <script src="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.js"></script>
      -->
 
+
+
     <script src="https://d3js.org/d3.v7.min.js"></script>
 
-    <script type="module">
-      import "./index.js";
-    </script>
+    <script src="./dist/bundle.js"></script>
     <title>DRAFT - Cannabis Legal Access Interactive</title>
   </head>
   <body>
+    
+    
     <h2>Where are commercial cannabis activities (CCA) allowed?</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -60,6 +62,9 @@
       - [X] Add all SVG layers
       - Connect data-layers.json to render dynamic SVGs in plain mode or d3
       - Connect DS code for page layout
+      - Rig up web components
+      - load CSV file into data object
+      - Read data attributes
       
       ## LATER
       - Move UI up to make it available in normal 11ty headless mode
@@ -737,7 +742,7 @@
               <span>10% of jurisdictions</span>
             </div>
           </div>
-          <div class="map">
+          <div id="county-map">
             <div class="cagov-places-map data-container="">
               <div class="svg-layer-container">
               </div>
