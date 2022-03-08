@@ -2,28 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Cannabis Legal Access Interactive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Preview UI component"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="crossorigin"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      path.dm-1 {
-        fill: #fcd37f;
-      }
-      path.dm-2 {
-        fill: #ffaa00;
-      }
-      path.dm-3 {
-        fill: #e60000;
-      }
-      path.dm-4 {
-        fill: #730000;
+      body {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
       }
     </style>
+    <link rel="stylesheet" href="index.css" />
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script type="module" src="dist/index.js"></script>
+    <script type="module">
+      import "./src/index.js";
+    </script>
+    <title>Cannabis Legal Access Interactive</title>
   </head>
   <body>
     <h2>Where are commercial cannabis activities (CCA) allowed?</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium dapibus diam, a finibus metus congue a. Vestibulum laoreet faucibus ultrices. Vestibulum condimentum lectus in arcu ultricies condimentum.</p>
-    
 
  <main>
       <cagov-map-table
