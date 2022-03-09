@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.js",
@@ -33,9 +34,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+          { from: 'static' }
+      ]
+  })
   ],
 };
 
+// REF
 // // Generated using webpack-cli https://github.com/webpack/webpack-cli
 // var webpack = require('webpack');
 // const path = require("path");

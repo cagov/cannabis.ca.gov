@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <descript>
+            <abstract>In late 1996, the Dept of Conservation (DOC) surveyed state 
+and federal agencies about the county boundary coverage they used. As a 
+result, DOC adopted the 1:24,000 (24K) scale U.S. Bureau of Reclamation 
+(USBR) dataset (USGS source) for their Farmland Mapping and Monitoring 
+Program (FMMP) but with several modifications. Detailed documentation of
+ these changes is provided by FMMP and included in the lineage section 
+of the metadata.A 
+dataset was made available (approximately 2004) through CALFIRE - FRAP 
+and the California Spatial Information Library (CaSIL), with additional 
+updates throughout subsequent years. More recently, an
+ effort was made to improve the coastal linework by using the previous 
+interior linework from the 24k data, but replacing the coastal linework 
+based on NOAA's ERMA coastal dataset (which used NAIP 2010). In
+ this dataset, all bays (plus bay islands and constructed features) are 
+merged into the mainland, and coastal features (such as islands and 
+constructed features) are not included, with the exception of the 
+Channel Islands which ARE included.This service represents the latest released version, and is updated when new versions are released. As of June, 2019 it
+represents cnty19_1.</abstract>
+            <purpose>California County Boundaries. This layer provides an initial offering as "best available" at 1:24,000 scale.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>California</themekey>
+                <themekey>Counties</themekey>
+                <themekey>County</themekey>
+                <themekey>CAL FIRE</themekey>
+                <themekey>FRAP</themekey>
+                <themekey>Boundaries</themekey>
+                <themekey>Boundaries and Ownership</themekey>
+                <themekey>CAOpenData</themekey>
+                <themekey>California Department of Forestry and Fire Protection</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The State of California and the Department of Forestry and 
+Fire Protection make no representations or warranties regarding the accuracy of data or maps.  
+Neither the State nor the Department shall be liable under any circumstances for any direct, special, 
+incidental, or consequential damages with respect to any claim by any user or third party on account of,
+ or arising from, the use of data or maps.
+For more information about this product, date or terms of use, 
+contact calfire.egis@fire.ca.gov.
+
+
+
+</useconst>
+        <datacred>U.S. Bureau of Reclamation, California Department of Conservation, California Department of Fish and Game, California Department of Forestry and Fire Protection, National Oceanic and Atmospheric Administration </datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

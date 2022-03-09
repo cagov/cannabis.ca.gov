@@ -25,11 +25,7 @@
     <link href="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.css" rel="stylesheet" />
     <script src="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.js"></script>
      -->
-
-
-
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
     <script src="./dist/bundle.js"></script>
     <title>DRAFT - Cannabis Legal Access Interactive</title>
   </head>
@@ -743,10 +739,17 @@
             </div>
           </div>
           <div id="county-map">
-            <div class="cagov-places-map data-container="">
+            <div class="chart-container cagov-places-map data-container="">
               <div class="svg-layer-container">
+                
               </div>
-            </div>
+              <cagov-county-map id="cagov-county-map" data-json="">
+                <ul>
+                    <li data-label="title">Title</li>
+                </ul>
+              </cagov-county-map>
+              
+
           </div>
         </div>
 

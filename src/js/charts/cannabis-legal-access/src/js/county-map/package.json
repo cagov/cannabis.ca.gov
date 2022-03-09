@@ -1,0 +1,14 @@
+{
+  "name": "cagov-county-map",
+  "version": "2.0.0",
+  "description": "* Version: 2.0.0 * Status: Prototype / Draft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}
