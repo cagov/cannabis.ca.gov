@@ -2,6 +2,20 @@ import template from "./template.js";
 import drawCountyMap from "./drawCountyMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
+
+import countyStatusData from "./../../../static/data/countystatus.json";
+import * as landArea from "./../../../static/data/landArea.json";
+import * as counties from "./../../../static/data/countyFeats.json";
+import * as ca from "./../../../static/data/ca.json";
+
+// Need to include path to data in component & load it in webcomponent
+const data = {
+  countystatus: countyStatusData,
+  landArea,
+  counties,
+  ca
+};
+
 // import rtlOverride from "./rtl-override.js"; // Let's have an example with Arabic & Chinese for the bar charts.
 // import { reformatReadableDate } from "./readable-date.js";
 
@@ -97,12 +111,15 @@ class CaGovCountyMap extends window.HTMLElement {
 
   // Manually triggered method to get or update and render dynamic data and pass into the template.
   render() {
-    // Read content of stringified data-json that is inserted into the enclosing tag of the web-component.
-    this.localData = JSON.parse(this.dataset.json);
+    // Get ID of parent data container
+    // Requires attributes
+    // @TODO load data file 
+    this.localData = data;
+    this.container = this.dataset.container;
     // Replace the enclosing tag element with contents of template.
     this.innerHTML = template({
-      translations: this.translationsStrings,
-      localData: this.localData,
+      // translations: this.translationsStrings,
+      // localData: this.localData,
     });
     // Draw or redraw the chart.
     this.redraw();

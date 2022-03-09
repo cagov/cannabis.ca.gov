@@ -73,6 +73,7 @@
       * Write meaningful data ALT tags
       -->
       <cagov-map-table
+        id="cagov-map-table"
         data-layer-id-counties="data-layer-counties"
         data-layer-id-places="data-layer-places"
         data-csv="./data/draft-cannabis-legal-access.2022-01-22.csv"
@@ -739,11 +740,13 @@
             </div>
           </div>
           <div id="county-map">
-            <div class="chart-container cagov-places-map data-container="">
-              <div class="svg-layer-container">
+            <div class="cagov-places-map data-container="#cagov-map-table">
+              <!-- <div class="svg-layer-container">
                 
-              </div>
-              <cagov-county-map id="cagov-county-map" data-json="">
+              </div> -->
+              <cagov-county-map 
+                id="cagov-county-map"
+              >
                 <ul>
                     <li data-label="title">Title</li>
                 </ul>

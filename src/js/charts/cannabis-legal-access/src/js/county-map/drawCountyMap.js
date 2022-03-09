@@ -1,7 +1,4 @@
 import * as d3 from "d3";
-import * as landArea from "./data/topojson/landArea.json";
-import * as counties from "./data/topojson/countyFeats.json";
-import * as ca from "./data/topojson/ca.json";
 
 /**
  * Render SVG based interactive county map using d3
@@ -15,6 +12,9 @@ export default function drawCountyMap({
   screenDisplayType = null,
 }) {
   try {
+    var countyStatuses = data.countystatus;
+    var { landArea, ca, counties} = data;
+
     // NOTE: Code loaded from Observables example.
     function zoom (s) {
       s.call(d3.zoom()
@@ -31,8 +31,6 @@ export default function drawCountyMap({
     var path = d3.geoPath(projection);
     var boundaryFilter = (a, b) => a !== b;
     
-    var tiers = data.countystatus;
-
     const svg = d3
       .select(domElement)
       .append("svg")
@@ -59,29 +57,30 @@ export default function drawCountyMap({
   
     // County boundaries
     const countiesGroup = g.append("g").attr("id", "county-boundaries");
-    // Tier colors
-    const tierColors = ["0000cc","e6b735","d97641","c43d53","802f67"];
+    // County status colors
+    const countyStatusColors = ["0000cc","e6b735","d97641","c43d53","802f67"];
     
     countiesGroup.selectAll('.county')
-      .data(countyFeats.features)
+      .data(counties.features)
       .enter()
       .append('path')
       .attr("stroke-width", 1.25)
       .attr("stroke", 'white')
       .attr('d', path)
-      .attr('fill', (d) => {
-        let tier = '';
-        tiers.forEach(t => {
-          if(t.county.toLowerCase() === d.properties.NAME.toLowerCase()) {
-            tier = t["Overall Status"];
-          }
-        })
-        if(tier) {
-          return "#" + tierColors[tier];
-        } else {
-          return 'gray';
-        }
-      })
+      .attr('fill', '0000cc')
+      // .attr('fill', (d) => {
+      //   let countyStatus = '';
+      //   countyStatuses.forEach(status => {
+      //     if(status.county.toLowerCase() === d.properties.NAME.toLowerCase()) {
+      //       countyStatus = t["Overall Status"];
+      //     }
+      //   })
+      //   if(countyStatus) {
+      //     return "#" + countyStatusColors[countyStatus];
+      //   } else {
+      //     return 'gray';
+      //   }
+      // })
       .on('mouseover', function(event, d){
         tooltip.html(`<div class="county-tooltip">
           <h3>${d.properties.NAME}</h2>
