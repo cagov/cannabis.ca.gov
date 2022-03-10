@@ -5,7 +5,8 @@ import getScreenResizeCharts from "./get-window-size.js";
 
 import countyStatusData from "./../../../static/data/countystatus.json";
 import * as landArea from "./../../../static/data/landArea.json";
-import * as counties from "./../../../static/data/countyFeats.json";
+import * as counties from "./../../../static/data/counties.json";
+import * as places from "./../../../static/data/CA_Places_TIGER2016.json";
 import * as ca from "./../../../static/data/ca.json";
 
 // Need to include path to data in component & load it in webcomponent
@@ -13,7 +14,8 @@ const data = {
   countystatus: countyStatusData,
   landArea,
   counties,
-  ca
+  ca,
+  places
 };
 
 // import rtlOverride from "./rtl-override.js"; // Let's have an example with Arabic & Chinese for the bar charts.

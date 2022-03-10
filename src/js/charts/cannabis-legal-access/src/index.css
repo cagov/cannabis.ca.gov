@@ -22,6 +22,10 @@
   position: absolute;
 }
 
+.county-tooltip {
+  padding: 10px;
+}
+
 main {
-  background-color: red;
+  
 }
