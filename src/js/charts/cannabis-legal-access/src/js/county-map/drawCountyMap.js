@@ -138,15 +138,17 @@ export default function drawCountyMap({
             let countyWidth = parseInt(this.getBoundingClientRect().width);
 
             if (countyX + countyWidth > mapWidth - countyWidth) {
-              tooltipX = mapWidth - countyWidth;
+              tooltipX = countyX - countyWidth - 30;
             }
 
             let countyY = parseInt(this.getBoundingClientRect().y)
-            let tooltipY = countyY;
             let countyHeight = parseInt(this.getBoundingClientRect().height);
+
+            let tooltipY = countyY;
+            
      
-            if (countyY + countyHeight > mapHeight - countyHeight) {
-              tooltipY = mapHeight - countyHeight; 
+            if (countyY - countyHeight > mapHeight - countyHeight) {
+              tooltipY = mapHeight - countyHeight + 30; 
                 // mapHeight * 0.5 + (parseInt(this.getBoundingClientRect().y) / 2) - (mapHeight * 0.3);
             }
 
