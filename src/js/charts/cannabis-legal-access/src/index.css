@@ -104,8 +104,16 @@ cagov-map-table {
 
 [data-layer-name="map-layers-container"] {
   /* width: 45%; */
-  height: 100%;
+  /* max-width: 60vm; */
+  height: 60vm;
   /* max-height: 650px; */
+  max-height: 923px;
+}
+
+@media only screen and (max-width: 900px) {
+  [data-layer-name="map-layers-container"] {
+    max-height: 650px;
+  }
 }
 
 cagov-map-table .map-header {
