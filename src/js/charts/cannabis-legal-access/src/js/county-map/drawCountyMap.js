@@ -1,9 +1,8 @@
 import * as d3 from "d3";
-
-/**
-- [ ] Update tooltip
-- [ ] Add places
-*/
+import { xml } from "d3-fetch";
+import { getCountyColor, getPlaceColor } from "./processData.js";
+import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
+import "./../../index.css";
 
 /**
  * Render SVG based interactive county map using d3
@@ -11,145 +10,159 @@ import * as d3 from "d3";
 export default function drawCountyMap({
   data = null,
   domElement = null,
+  tooltipElement = null,
   chartOptions = null,
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
   try {
-    var countyStatuses = data.countystatus;
-    var { landArea, ca, counties, places } = data;
+    /* Data processing */
+    var { dataPlaces } = data;
 
-    // function zoom (s) {
-    //   s.call(d3.zoom()
-    // -- invalid, no event
-    //     // .on("zoom", () => s.select("#map-layers").attr("transform", d3.event.transform))
-    //     .scaleExtent([1, 18])
-    //     .translateExtent([[0, 0], [width, height]]))
-    // }
+    var rawWidth = 800;
+    var rawHeight = 923;
 
-    var projection = d3
-      .geoConicConformal()
-      .parallels([37 + 4 / 60, 38 + 26 / 60])
-      .rotate([120 + 30 / 60], 0)
-      .fitSize(
-        [chartBreakpointValues.width, chartBreakpointValues.height],
-        landArea
+    // Clean up existing SVGs
+
+    d3.select(domElement).select("svg").remove();
+
+    if (
+      document.querySelector(
+        domElement + ' svg[data-layer-name="map-layer-container"]'
+      ) === null
+    ) {
+      const svg = d3
+        .select(domElement)
+        .append("svg")
+        .attr("viewBox", [0, 0, 800, 923])
+        .attr("data-layer-name", "map-layers-container")
+        .append("g")
+        .attr("data-layer-name", "map-layers")
+        .attr("width", "800")
+        .attr("height", "923");
+      svg.append("g").attr("data-name", "land-boundaries");
+      svg.append("g").attr("data-name", "county-boundaries");
+      svg.append("g").attr("data-name", "places-boundaries");
+      svg.append("g").attr("data-name", "county-strokes");
+    } else {
+      d3.select(domElement + " [data-name] g").remove();
+    }
+
+    // xml("/data/CA_Counties_TIGER2016.svg").then((counties) => {
+    xml("/data/cnty19_1.svg").then((counties) => {
+      const countiesGroup = d3.select(
+        domElement + ' [data-name="county-boundaries"]'
       );
 
-    var path = d3.geoPath(projection);
-    var boundaryFilter = (a, b) => a !== b;
+      countiesGroup.node().append(counties.documentElement);
+      let countyPaths = countiesGroup.selectAll("g path");
 
-    const svg = d3
-      .select(domElement)
-      .append("svg")
-      .attr("viewBox", [
-        0,
-        0,
-        chartBreakpointValues.width,
-        chartBreakpointValues.height,
-      ])
-      .append("g");
+      countyPaths.each(function (p, j) {
+        let el = d3.select(this);
+        // let name = el.attr("data-name"); // TIGER2016
+        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        let island = el.attr("data-island"); // Island values from californoia county boundaries
+        let geoid = el.attr("data-geoid");
+        el.attr("fill", () => {
+          return getCountyColor(data, { name, island });
+        })
+          .attr("stroke-width", 1)
+          .attr("stroke-opacity", 0.5)
+          .attr("stroke", "#FFFFFF");
+      });
+    });
 
-    const g = svg.append("g").attr("id", "map-layers");
+    // County stroke lines and tooltips
+    xml("/data/cnty19_1.svg").then((counties) => {
+      const countiesGroup = d3.select(
+        domElement + ' [data-name="county-strokes"]'
+      );
 
-    // "land" from merged counties
-    const land = g
-      .append("g")
-      .attr("id", "land")
-      .append("path")
-      .datum(landArea)
-      .attr("fill", "white")
-      .attr("stroke-width", 0.2)
-      .attr("stroke", "white")
-      .attr("stroke-line-join", "round")
-      .attr("d", path);
+      countiesGroup.node().append(counties.documentElement);
 
-    // County boundaries
-    const countiesGroup = g.append("g").attr("id", "county-boundaries");
-    const placesGroup = g.append("g").attr("id", "places-boundaries");
-    // County status colors
-    const countyStatusColors = [
-      "2F4C2C",
-      "C0633B",
-    ];
+      let countyPaths = countiesGroup.selectAll("g path");
 
-    const placeStatusColors = [
-      "2F4C2C",
-      "C0633B",
-    ];
+      countyPaths.each(function (p, j) {
+        let el = d3.select(this);
+        // let name = el.attr("data-name"); // TIGER2016
+        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        let island = el.attr("data-island"); // Island values from californoia county boundaries
+        let geoid = el.attr("data-geoid");
+        let props = getCountyTooltipData(data, { name, island, geoid });
 
-    countiesGroup
-      .selectAll(".county")
-      .data(counties.features)
-      .enter()
-      .append("path")
-      .attr("stroke-width", 0.5)
-      .attr("stroke", "white")
-      .attr("d", path)
-      .attr('fill', (d) => {
-        let countyStatus = '';
-        countyStatuses.forEach(status => {
-          if(status.county.toLowerCase() === d.properties.NAME.toLowerCase()) {
-            countyStatus = status["Overall Status"];
-          }
+        el.attr("stroke-width", 1)
+          .attr("stroke-opacity", 0.5)
+          .attr("stroke", "#FFFFFF")
+          .attr("fill", "transparent")
+          .attr("tabindex", "0")
+          .attr("aria-label", (d, i) => {
+            return tooltip.html(
+              chartTooltipCounty(data, props, tooltipElement)
+            );
+          })
+          .on("mouseover focus", function (event, d) {
+            tooltip.html(chartTooltipCounty(data, props, tooltipElement));
+            return tooltip.style("visibility", "visible");
+          })
+          .on("mousemove", function (event) {
+            return tooltip
+              .style(
+                "top",
+                parseInt(this.getBoundingClientRect().y) + 310 + "px"
+              )
+              .style(
+                "left",
+                parseInt(this.getBoundingClientRect().x) + 10 + "px"
+              );
+          })
+          .on("mouseout", function () {
+            return tooltip.style("visibility", "hidden");
+          });
+      });
+    });
+
+    /* PLACES */
+    xml("/data/tl_2016_06_place.svg").then((places) => {
+      const group = d3.select(domElement + ' [data-name="places-boundaries"]');
+
+      group.node().append(places.documentElement);
+      let paths = group.selectAll("g path");
+
+      paths.each(function (p, j) {
+        let el = d3.select(this);
+        let name = el.attr("data-name");
+        let geoid = el.attr("data-geoid");
+        let placeColor = getPlaceColor(data, { name, geoid });
+        el.attr("stroke-width", 0.2)
+          .attr("stroke-opacity", 0.2)
+          .attr(
+            "stroke",
+            placeColor !== "transparent" ? "#fff" : "transparent"
+          );
+
+        el.attr("fill", () => {
+          let placeColor = getPlaceColor(data, { name, geoid });
+          return placeColor;
         });
-        if(countyStatus) {
-          return "#" + countyStatusColors[countyStatus];
-        } else {
-          return 'gray';
-        }
-      })
-      .on("mouseover", function (event, d) {
-        tooltip.html(`<div class="county-tooltip">
-          <h3>${d.properties.NAME}</h2>
-        </div>`);
-        return tooltip.style("visibility", "visible");
-      })
-      .on("mousemove", function () {
-        return tooltip
-          .style("top", parseInt(this.getBoundingClientRect().y) - 10 + "px")
-          .style("left", parseInt(this.getBoundingClientRect().x) + 10 + "px");
-      })
-      .on("mouseout", function () {
-        return tooltip.style("visibility", "hidden");
+      });
+    });
+
+    /* LAND */
+    xml("/data/california-land.svg").then((land) => {
+      const group = d3.select(domElement + ' [data-name="land-boundaries"]');
+
+      group.node().append(land.documentElement);
+      let paths = group.selectAll("g path");
+
+      paths.each(function (p, j) {
+        let el = d3.select(this); // This is a black and white land later intended to be used with screen color mode.
       });
 
-      placesGroup
-      .selectAll(".places")
-      .data(places.features)
-      .enter()
-      .append("path")
-      .attr("d", path)
-      .attr('fill', (d) => {
-        let placeStatus = '';
-        placeStatuses.forEach(status => {
-          if(status.place.toLowerCase() === d.properties.NAME.toLowerCase()) {
-            placeStatus = status["Overall Status"];
-          }
-        });
-        if(placeStatus) {
-          return "#" + placeStatusColors[placeStatus];
-        } else {
-          return 'gray';
-        }
-      })
-      .on("mouseover", function (event, d) {
-        tooltip.html(`<div class="county-tooltip">
-          <h3>${d.properties.NAME}</h2>
-        </div>`);
-        return tooltip.style("visibility", "visible");
-      })
-      .on("mousemove", function () {
-        return tooltip
-          .style("top", parseInt(this.getBoundingClientRect().y) - 10 + "px")
-          .style("left", parseInt(this.getBoundingClientRect().x) + 10 + "px");
-      })
-      .on("mouseout", function () {
-        return tooltip.style("visibility", "hidden");
-      });
+      // .attr("fill-opacity", 1);
+      // attr('mask', 'url(#mask)')
+    });
 
-    // Tooltip
-    // NOTE: Original was a simple label, not styled as a tooltip.
+    /* Tooltip container */
     let tooltip = d3
       .select("body")
       .append("div")
@@ -157,11 +170,7 @@ export default function drawCountyMap({
       .style("z-index", "10")
       .style("visibility", "hidden")
       .style("background", "#fff")
-      .text("a simple tooltip");
-
-    // Labels
-    const labelsGroup = g.append("g").attr("id", "labels");
-
+      .text("");
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);
   }

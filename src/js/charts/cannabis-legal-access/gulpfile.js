@@ -15,7 +15,7 @@
 //   });
 //   browserSync.init({
 //     server: {
-//       baseDir: "./dist",
+//       baseDir: "./build",
 //       index: "index.html",
 //     },
 //     middleware: [

@@ -1,3 +1,7 @@
+main {
+  margin: 16px 36px;
+}
+
 .svg-layer-counties img svg path {
   fill: #fbaa1e;
 }
@@ -22,10 +26,289 @@
   position: absolute;
 }
 
-.county-tooltip {
-  padding: 10px;
+
+/* TOOLTIPS */
+
+
+cagov-county-map .tooltip-templates {
+  display: none;
 }
 
-main {
+
+.tooltip-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 24px;
+
   
+  width: 328px;
+  height: 160px;
+  
+
+  /* Gray/White */
+
+  background: #FFFFFF;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tooltip {
+  font-size: 18px;
+  padding: 10px;
+  
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 24px;
+  /* width: 328px;
+  height: 160px; */
+  background: #ffffff;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.tooltip h3 {
+  font-weight: 700;
+}
+
+
+/* @TODO look up css variables */
+cagov-map-table {
+  /* border: 1px solid #E1E0E3; */
+  /* min-height: 600px; */
+}
+.cagov-map-table.tooltip-container .county-tooltip h3 {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+[data-layer-name="map-layers-container"] {
+  width: 45%;
+  height: 100%;
+  max-height: 650px;
+}
+
+cagov-map-table .map-header {
+  background: #f9f9fa;
+  border: 1px solid #e1e0e3;
+  box-sizing: border-box;
+  padding: 8px 16px;
+}
+
+/* Breadcrumb */
+cagov-map-table .map-header .breadcrumb span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 37px;
+  color: #000000;
+}
+
+cagov-map-table .map-header .caret {
+  padding: 0 8px;
+}
+
+cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-active="true"] a {
+  text-decoration: underline;
+  color: #064e66;
+}
+
+cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-active="false"] {
+  display: none;
+}
+
+/* Maps */
+
+cagov-map-table .maps {
+  border: 1px solid #e1e0e3;
+  border-top: none;
+  box-sizing: border-box;
+  padding: 8px 36px;
+  /* display: flex; */
+  /* flex-flow: column wrap; */
+}
+
+cagov-map-table .maps .panel {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-basis: 100px; */
+  /* flex-direction:row; */
+  /* flex-flow: row wrap; */
+}
+
+cagov-map-table .maps .panel.map {
+  min-height: 650px;
+  /* max-width: 650px; */
+}
+
+
+cagov-map-table .panel.legend {
+  /* get grid */
+  width: 307px;
+  height: 200px;
+  
+}
+
+
+/* @TODO lookup css var breakpoints */
+@media only screen and (max-width: 900px) {
+  cagov-map-table .maps .panel {
+    /* display: flex;
+    flex-flow: column wrap;
+    flex-direction:column; */
+  }
+
+  cagov-map-table .maps .panel.map {
+    min-height: 292px;
+  }
+
+}
+
+cagov-county-map .map .map-container svg {
+  width: 520px;
+  height: 604px;
+}
+
+/* Download button */
+
+cagov-map-table .download .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #064e66;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 190px;
+  height: 48px;
+}
+
+/* Filters */
+
+cagov-map-table .filters {
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid #e1e0e3;
+  border-top: none;
+}
+
+.filters form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+cagov-autocomplete select {
+  display: none;
+}
+
+.filter-label {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.filters .filter {
+  padding: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 8px 8px 16px;
+
+  width: 260px;
+  height: 48px;
+  left: 16px;
+  top: 56px;
+
+  background: #ffffff;
+  border: 1px solid #b3b2b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: Public Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+/* Toggle button */
+
+.toggle-button label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.toggle-button label span {
+  width: 118px;
+}
+
+.toggle-button .toggle {
+  --width: 34px;
+  --height: calc(var(--width) / 2);
+  --border-radius: calc(var(--height) / 2);
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle-button .toggle__input {
+  display: none;
+}
+
+.toggle-button .toggle__fill {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  border-radius: var(--border-radius);
+  background: #dddddd;
+  transition: background 0.2s;
+}
+
+.toggle-button .toggle__fill::after {
+  content: "";
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+  height: 12px; /* var(--height); */
+  width: 12px; /* var(--height); */
+  background: #ffffff;
+
+  border-radius: var(--border-radius);
+  transition: transform 0.2s;
+}
+
+.toggle-button .toggle__input:checked ~ .toggle__fill {
+  background: #064e66;
+}
+
+.toggle-button .toggle__input:checked ~ .toggle__fill::after {
+  transform: translateX(var(--height));
 }

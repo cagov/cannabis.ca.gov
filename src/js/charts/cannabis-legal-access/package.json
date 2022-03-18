@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
-    "start": "npm run build && http-server ./ --port 3000",
+    "start": "npm run build && http-server ./build --port 3000",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
@@ -47,6 +47,12 @@
   "dependencies": {
     "@types/topojson-client": "^3.1.0",
     "d3": "^7.3.0",
-    "simplify-geojson": "^1.0.4"
+    "d3-fetch": "^3.0.1",
+    "d3-geo": "^3.0.1",
+    "http-server": "^14.1.0",
+    "regenerator-runtime": "^0.13.9",
+    "simplify-geojson": "^1.0.4",
+    "topojson": "^3.0.2",
+    "topojson-client": "^3.1.0"
   }
 }

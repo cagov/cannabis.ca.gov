@@ -2,24 +2,14 @@ import template from "./template.js";
 import drawCountyMap from "./drawCountyMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
+import { getActivities, getActivitiesDataSchema } from "./processData.js";
 
-import countyStatusData from "./../../../static/data/countystatus.json";
-import * as landArea from "./../../../static/data/landArea.json";
-import * as counties from "./../../../static/data/counties.json";
-import * as places from "./../../../static/data/CA_Places_TIGER2016.json";
-import * as ca from "./../../../static/data/ca.json";
-
-// Need to include path to data in component & load it in webcomponent
-const data = {
-  countystatus: countyStatusData,
-  landArea,
-  counties,
-  ca,
-  places
-};
-
-// import rtlOverride from "./rtl-override.js"; // Let's have an example with Arabic & Chinese for the bar charts.
-// import { reformatReadableDate } from "./readable-date.js";
+// import * as landArea from "./../../../static/data/landArea.json"; // Deprecating
+// import * as ca from "./../../../static/data/ca.json"; // Deprecating
+// import * as counties from "./../../../static/data/counties.json"; // Deprecating
+import * as countyList from "./../../../static/data/countyList.json";
+import * as dataPlaces from "./../../../static/data/draft-cannabis-legal-access.2022-01-22.json";
+// import * as places from "./../../../static/data/CA_Places_TIGER2016.json"; // Deprecating
 
 class CaGovCountyMap extends window.HTMLElement {
   // Set up static variables that are specific to this component.
@@ -32,23 +22,25 @@ class CaGovCountyMap extends window.HTMLElement {
     this.chartOptions = {
       screens: {
         desktop: {
-          width: 600,
-          height: 400,
+          width: 1500,
+          height: 1500,
+          // width: 876,
+          // height: 604,
         },
         tablet: {
-          width: 600,
-          height: 1200,
+          width: 876,
+          height: 604,
         },
         mobile: {
-          width: 400,
-          height: 800,
+          width: 876,
+          height: 604,
         },
         retina: {
-          width: 600,
-          height: 400,
+          width: 876,
+          height: 604,
         },
       },
-    };    
+    };
   }
 
   /**
@@ -56,16 +48,17 @@ class CaGovCountyMap extends window.HTMLElement {
    */
   connectedCallback() {
     window.addEventListener("resize", (e) => {
-      console.log("resize");
-        this.handleChartResize(e);
+      // console.log("resize");
+      // this.handleChartResize(e);
     });
 
     // Get translations from web component markup.
     this.translationsStrings = getTranslations(this);
+
     // Render the chart for the first time.
     this.render();
   }
- 
+
   /**
    * Remove any window events on removing this component.
    */
@@ -76,8 +69,8 @@ class CaGovCountyMap extends window.HTMLElement {
   // Display content & layout dimensions.
   handleChartResize(e) {
     getScreenResizeCharts(this);
-    this.updateScreenOptions(e)
-    // Trigger component redraw (any component on this page with this name) this makes sense for window resize events, but if you want more individualized redraws will need to 
+    this.updateScreenOptions(e);
+    // Trigger component redraw (any component on this page with this name) this makes sense for window resize events, but if you want more individualized redraws will need to
     document.querySelector("cagov-county-map").redraw();
   }
 
@@ -85,10 +78,10 @@ class CaGovCountyMap extends window.HTMLElement {
     this.screenDisplayType = window.charts
       ? window.charts.displayType
       : "desktop";
-    this.chartBreakpointValues = this.chartOptions.screens[
-      this.screenDisplayType ? this.screenDisplayType : "desktop"
-    ];
-    // console.log(this.screenDisplayType);
+    this.chartBreakpointValues =
+      this.chartOptions.screens[
+        this.screenDisplayType ? this.screenDisplayType : "desktop"
+      ];
   }
 
   redraw() {
@@ -97,35 +90,52 @@ class CaGovCountyMap extends window.HTMLElement {
     this.updateScreenOptions();
 
     // Clear previous SVG.
-    if (document.querySelector('.chart-container') !== null) {
-      document.querySelector('.chart-container').innerHTML = "";
+    if (document.querySelector(".map-container .map-detail") !== null) {
+      document.querySelector(".map-container .map-detail").innerHTML = "";
     }
     // Generate the map.
     this.svg = drawCountyMap({
       translations: this.translationsStrings,
       data: this.localData,
-      domElement: ".chart-container",
+      domElement: ".map-container",
+      tooltipElement: ".tooltip-templates",
       chartOptions: this.chartOptions,
       chartBreakpointValues: this.chartBreakpointValues,
       screenDisplayType: this.screenDisplayType,
     });
+
+
   }
 
-  // Manually triggered method to get or update and render dynamic data and pass into the template.
+  setActivity(e, data) {
+    data.activities = e.target.value;
+    this.redraw();
+  }
+
   render() {
-    // Get ID of parent data container
-    // Requires attributes
-    // @TODO load data file 
+    let data = {
+      dataPlaces: Object.assign({}, dataPlaces),
+      countyList: Object.assign({}, countyList),
+      activities: "All activities",
+    };
+
+    var select = document.querySelector(".filter-activity select");
+    select.addEventListener("change", (e) => this.setActivity(e, data));
+
+    getActivities(data); // development
+    // Get activities by GEOID (for accuracy)
+    getActivities(data, true);
+
     this.localData = data;
     this.container = this.dataset.container;
     // Replace the enclosing tag element with contents of template.
-    this.innerHTML = template({
-      // translations: this.translationsStrings,
-      // localData: this.localData,
-    });
+    this.innerHTML = template({});
+
     // Draw or redraw the chart.
     this.redraw();
   }
 }
 
-window.customElements.define("cagov-county-map", CaGovCountyMap);
+if (!customElements.get("cagov-county-map")) {
+  window.customElements.define("cagov-county-map", CaGovCountyMap);
+}

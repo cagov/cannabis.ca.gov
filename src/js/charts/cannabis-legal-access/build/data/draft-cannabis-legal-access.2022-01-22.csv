@@ -1,0 +1,572 @@
+﻿Place,CA Places Key,GEOID,County,counties,County label,Jurisdiction Type,Retail: Storefront,Retail: Non-Storefront,Distributor,Manufacturer,Cultivation,Testing,CCA Prohibited by County,Are all CCA activites prohibited?,Is all retail prohibited?,Unincorporated Population,INTPTLAT,INTPTLON,City Population PLACEHOLDER,Updated,Notes,Limit Explanations
+Oakland,Oakland,653000,Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.7698464,-122.2256900,428,2022-01-22,,
+Fremont,Fremont,626000,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.4944613,-121.9411499,235,2022-01-22,,
+Hayward,Hayward,633000,Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.6286591,-122.1024054,162,2022-01-22,,
+Berkeley,Berkeley,606000,Alameda,Alameda,Alameda County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,,No,No,,37.8669717,-122.2991474,121,2022-01-22,,All retail: pre-existing only
+Livermore,Livermore,641992,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.6854667,-121.7625177,91,2022-01-22,Allows delivery from outside jurisdiction,
+San Leandro,San Leandro,668084,Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,37.7033683,-122.1630360,87,2022-01-22,Micro: Silent,
+Pleasanton,Pleasanton,657792,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.6671852,-121.8812304,79,2022-01-22,,
+Alameda,Alameda,600562,Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.7419107,-122.2599139,78,2022-01-22,,Cultivation: Nursery Only
+Union City,Union City,681204,Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.6029595,-122.0187225,72,2022-01-22,,Cultivation: Indoor only
+Dublin,Dublin,620018,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.7161535,-121.8962343,63,2022-01-22,,
+Newark,Newark,650916,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.5045144,-122.0329158,47,2022-01-22,,
+Albany,Albany,600674,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8906499,-122.3181164,19,2022-01-22,"Distribution, Testing, Micro: Silent",
+Piedmont,Piedmont,656938,Alameda,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8225436,-122.2300249,11,2022-01-22,,
+Emeryville,Emeryville,622594,Alameda,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,37.8399065,-122.2989635,11,2022-01-22,,
+Alameda County,,,Alameda,Alameda,Alameda County,County,Allowed,Allowed,Limited,Limited,Allowed,Allowed,No,No,No,1,,,,2022-01-22,,"Distribution and manufacturing: Cultivator or microbusiness only
+"
+Alpine County,,,Alpine,Alpine,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,1,,,,2022-01-22,,
+Ione,Ione,636672,Amador,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.3600299,-120.9443428,8,2022-01-22,,
+Jackson,Jackson,636980,Amador,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.3484537,-120.7723664,4,2022-01-22,,
+Sutter Creek,Sutter Creek,677392,Amador,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.3928570,-120.7980620,2,2022-01-22,,
+Plymouth,Plymouth,657834,Amador,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.4778909,-120.8410320,1,2022-01-22,,
+Amador County,,,Amador,Amador,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,38,,,,2022-01-22,,
+Amador City,Amador City,601514,Amador,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.4189496,-120.8235481,,2022-01-22,,
+Chico,Chico,613014,Butte,Butte,Butte County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,39.7554055,-121.8183895,92,2022-01-22,,
+Paradise,Paradise,655520,Butte,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.7541919,-121.6064000,26,2022-01-22,,
+Oroville,Oroville,654386,Butte,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.4954747,-121.5600132,18,2022-01-22,,
+Gridley,Gridley,631260,Butte,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.3621693,-121.6970846,6,2022-01-22,,
+Biggs,Biggs,606560,Butte,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.4132906,-121.7100758,1,2022-01-22,,
+Butte County,,,Butte,Butte,Butte County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,227,,,,2022-01-22,,
+Angels Camp,Angels,602112,Calaveras,Calaveras,Calaveras County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.0710375,-120.5517286,4,2022-01-22,Allows delivery from outside of the jurisdiction,
+Calaveras County,,,Calaveras,Calaveras,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Prohibited,No,No,No,45,,,,2022-01-22,Microbusiness: Co-location allowed,
+Colusa,Colusa,614946,Colusa,Colusa,Colusa County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,,No,Yes,,39.2048901,-122.0095754,6,2022-01-22,,
+Williams,Williams,685586,Colusa,Colusa,Colusa County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,Yes,,39.1486777,-122.1372495,5,2022-01-22,Micro: Silent,
+Colusa County,,,Colusa,Colusa,Colusa County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,No,No,Yes,22,,,,2022-01-22,,Cultivation: Indoor only
+Concord,Concord,616000,Contra Costa,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,37.9721891,-122.0016172,129,2022-01-22,,
+Antioch,Antioch,602252,Contra Costa,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.9790748,-121.7961950,113,2022-01-22,,
+Richmond,Richmond,660620,Contra Costa,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.9522779,-122.3606090,110,2022-01-22,,
+San Ramon,San Ramon,668378,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.7646048,-121.9332505,82,2022-01-22,,
+Pittsburg,Pittsburg,657456,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,,No,Yes,,38.0199568,-121.9058201,72,2022-01-22,,
+Walnut Creek,Walnut Creek,683346,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.9026660,-122.0404790,70,2022-01-22,,
+Brentwood,Brentwood,608142,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9359047,-121.7185472,63,2022-01-22,,
+Danville,Danville,617988,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8121407,-121.9698219,44,2022-01-22,,
+Oakley,Oakley,653070,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9939359,-121.6911388,41,2022-01-22,"Distribution, Manufacturing, Testing, Micro: Silent",
+Martinez,Martinez,646114,Contra Costa,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,37.9981228,-122.1144209,38,2022-01-22,Micro: Silent,
+Pleasant Hill,Pleasant Hill,657764,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.9540083,-122.0758961,35,2022-01-22,,
+San Pablo,San Pablo,668294,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9628505,-122.3425736,31,2022-01-22,,
+Hercules,Hercules,633308,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.0214271,-122.2889290,26,2022-01-22,,
+Lafayette,Lafayette,639122,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8910040,-122.1195292,25,2022-01-22,Allows delivery from outside jurisdiction,
+El Cerrito,El Cerrito,621796,Contra Costa,Contra Costa,Contra Costa County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.9196297,-122.3025159,24,2022-01-22,,
+Orinda,Orinda,654232,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8816136,-122.1685852,19,2022-01-22,,
+Pinole,Pinole,657288,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.0017019,-122.3184880,19,2022-01-22,,
+Moraga,Moraga,649187,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8456927,-122.1232170,16,2022-01-22,,
+Clayton,Clayton,613882,Contra Costa,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9403195,-121.9300757,11,2022-01-22,Allows delivery from outside jurisdiction,
+Contra Costa County,,,Contra Costa,Contra Costa,Contra Costa County,County,Allowed,Limited,Allowed,Allowed,Limited,Allowed,No,No,No,1,,,,2022-01-22,Micro: Silent,"Retail (Non-storefront): Delivery by storefront only
+Cultivation: Indoor only"
+Crescent City,Crescent City,617022,Del Norte,Del Norte,Del Norte County,City,Allowed,Allowed,Allowed,Limited,Limited,Allowed,,No,No,,41.7645143,-124.2007785,6,2022-01-22,,"Manufacturing: Non-volatile only
+Cultivation: Indoor only"
+Del Norte County,,,Del Norte,Del Norte,Del Norte County,County,Allowed,Prohibited,Prohibited,Allowed,Allowed,Prohibited,No,No,No,27,,,,2022-01-22,"Retail (Non-storefront), Distribution, Testing, Micro: Silent",
+South Lake Tahoe,South Lake Tahoe,673108,El Dorado,El Dorado,El Dorado County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,38.9392299,-119.9822156,21,2022-01-22,,
+Placerville,Placerville,657540,El Dorado,El Dorado,El Dorado County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Allowed,,No,No,,38.7304688,-120.7969650,10,2022-01-22,,
+El Dorado County,,,El Dorado,El Dorado,El Dorado County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,188,,,,2022-01-22,Micro: Silent,
+Fresno,Fresno,627000,Fresno,Fresno,Fresno County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,,No,No,,36.7836027,-119.7934453,538,2022-01-22,,"Retail (Non-storefront): Must be part of a storefront
+Cultivation: Indoor only"
+Clovis,Clovis,614218,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,36.8281886,-119.6849012,113,2022-01-22,,
+Sanger,Sanger,667056,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.6989453,-119.5574669,26,2022-01-22,,
+Reedley,Reedley,660242,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.5993741,-119.4477810,26,2022-01-22,,
+Selma,Selma,670882,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.5743083,-119.6155826,24,2022-01-22,,
+Coalinga,Coalinga,614274,Fresno,Fresno,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.1330557,-120.3390286,16,2022-01-22,,
+Kerman,Kerman,638226,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.7248573,-120.0624290,15,2022-01-22,,
+Parlier,Parlier,655856,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,Yes,,36.6081599,-119.5438057,15,2022-01-22,Micro: Silent,
+Kingsburg,Kingsburg,638562,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.5252005,-119.5675710,12,2022-01-22,,
+Mendota,Mendota,646828,Fresno,Fresno,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.7559904,-120.3782366,12,2022-01-22,,
+Orange Cove,Orange Cove,654008,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.6211449,-119.3187499,9,2022-01-22,,
+Firebaugh,Firebaugh,624134,Fresno,Fresno,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.8534960,-120.4535653,8,2022-01-22,Micro: Silent,
+Huron,Huron,636084,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.2039785,-120.0961776,7,2022-01-22,,
+Fowler,Fowler,625436,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.6245476,-119.6738678,6,2022-01-22,,
+San Joaquin,San Joaquin,667126,Fresno,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.6055688,-120.1899215,4,2022-01-22,,
+Fresno County,,,Fresno,Fresno,Fresno County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,1,,,,2022-01-22,,
+Orland,Orland,654274,Glenn,Glenn,Glenn County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.7460220,-122.1850001,7,2022-01-22,Testing: Silent,
+Willows,Willows,685684,Glenn,Glenn,Glenn County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,39.5147524,-122.1991778,6,2022-01-22,,Retail (Non-storefront): Delivery from storefront only
+Glenn County,,,Glenn,Glenn,Glenn County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,28,,,,2022-01-22,,
+Trinidad,Trinidad,680448,Humboldt,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.0577077,-124.1432550,340,2022-01-22,,
+Eureka,Eureka,623042,Humboldt,Humboldt,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,40.7934759,-124.1552744,26,2022-01-22,,
+Arcata,Arcata,602476,Humboldt,Humboldt,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,40.8622906,-124.0749668,18,2022-01-22,,
+Fortuna,Fortuna,625296,Humboldt,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.5854108,-124.1426079,12,2022-01-22,,
+Rio Dell,Rio Dell,660900,Humboldt,Humboldt,Humboldt County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,No,,40.4955909,-124.1149295,3,2022-01-22,"Retail (Non-storefront), Micro: Silent",
+Ferndale,Ferndale,623910,Humboldt,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.5798914,-124.2619086,1,2022-01-22,,
+Blue Lake,Blue Lake,607162,Humboldt,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.8832036,-123.9947220,1,2022-01-22,,
+Humboldt County,,,Humboldt,Humboldt,Humboldt County,County,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,No,No,No,136,,,,2022-01-22,,Retail (Non-storefront): Delivery by storefront only
+El Centro,El Centro,621782,Imperial,Imperial,Imperial County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,32.7873249,-115.5580064,46,2022-01-22,,
+Calexico,Calexico,609710,Imperial,Imperial,Imperial County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,32.6849016,-115.4943619,41,2022-01-22,,Cultivation: Indoor only
+Brawley,Brawley,608058,Imperial,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.9787022,-115.5299143,27,2022-01-22,,
+Imperial,Imperial,636280,Imperial,Imperial,Imperial County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,32.8375033,-115.5718599,19,2022-01-22,,Retail (storefront): Limit 1 licensee
+Calipatria,Calipatria,609878,Imperial,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.1688054,-115.4857095,7,2022-01-22,,
+Holtville,Holtville,634246,Imperial,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.8137812,-115.3783188,6,2022-01-22,"Retail (storefront): Silent on adult use, medicinal banned
+Retail (Non-storefront), Distribution, Manufacturing, Cultivation, Testing, Micro: Silent
+Distribution: Silent
+Manufacturing: Silent",
+Westmorland,Westmorland,684606,Imperial,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.0389220,-115.6223136,2,2022-01-22,,
+Imperial County,,,Imperial,Imperial,Imperial County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,190,,,,2022-01-22,,
+Bishop,Bishop,606798,Inyo,Inyo,Inyo County,City,Limited,Limited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.3663813,-118.3958082,3,2022-01-22,,Retail (all): Limit 2 licensees
+Inyo County,,,Inyo,Inyo,Inyo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,18,,,,2022-01-22,,
+Bakersfield,Bakersfield,603526,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.3212129,-119.0182915,386,2022-01-22,,
+Delano,Delano,618394,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.7631833,-119.2635598,53,2022-01-22,,
+Ridgecrest,Ridgecrest,660704,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.6285421,-117.6639923,28,2022-01-22,,
+Wasco,Wasco,683542,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.5937751,-119.3673064,27,2022-01-22,,
+Arvin,Arvin,602924,Kern,Kern,Kern County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,35.1943611,-118.8305687,21,2022-01-22,Prohibits delivery from outside of the jurisdiction,Cultivation: indoor only
+Shafter,Shafter,671106,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.4780002,-119.1991905,19,2022-01-22,,
+McFarland,McFarland,644826,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.6705643,-119.2327288,15,2022-01-22,,
+California City,California City,609780,Kern,Kern,Kern County,City,Limited,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,35.1465903,-117.8693463,14,2022-01-22,,Retail (storefront): Limit 2 licensees
+Tehachapi,Tehachapi,678092,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.1429585,-118.4460356,12,2022-01-22,,
+Taft,Taft,677574,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.1266850,-119.4241719,9,2022-01-22,,
+Maricopa,Maricopa,645736,Kern,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.0581843,-119.3994953,1,2022-01-22,,
+Kern County,,,Kern,Kern,Kern County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,905,,,,2022-01-22,,
+Hanford,Hanford,631960,Kings,Kings,Kings County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,36.3259567,-119.6538807,58,2022-01-22,,Cultivation: Indoor only
+Lemoore,Lemoore,641152,Kings,Kings,Kings County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.2959537,-119.7982556,25,2022-01-22,Micro: Silent,
+Corcoran,Corcoran,616224,Kings,Kings,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.0846861,-119.5611408,21,2022-01-22,,
+Avenal,Avenal,603302,Kings,Kings,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.0311809,-120.1160228,13,2022-01-22,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",
+Kings County,,,Kings,Kings,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,151,,,,2022-01-22,,
+Clearlake,Clearlake,613945,Lake,Lake,Lake County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,38.9600452,-122.6332316,15,2022-01-22,,
+Lakeport,Lakeport,639710,Lake,Lake,Lake County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,39.0382153,-122.9226970,5,2022-01-22,,Cultivation: Indoor only
+Lake County,,,Lake,Lake,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,Yes,65,,,,2021-12-13,,
+Susanville,Susanville,677364,Lassen,Lassen,Lassen County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.4336740,-120.6283062,14,2022-01-22,,
+Lassen County,,,Lassen,Lassen,Lassen County,County,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,No,No,No,30,,,,2022-01-22,,
+Long Beach,Long Beach,643000,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.8091789,-118.1552902,478,2022-01-22,,
+Industry,Industry,636490,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0262321,-117.9403266,437,2022-01-22,,
+Santa Clarita,Santa Clarita,669088,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.4029972,-118.5041658,216,2022-01-22,Allows delivery from outside jurisdiction,
+Vernon,Vernon,682422,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0011230,-118.2108689,209,2022-01-22,,
+Glendale,Glendale,630000,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1813929,-118.2458301,205,2022-01-22,,
+Lancaster,Lancaster,640130,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,,No,No,,34.6935580,-118.1753054,161,2022-01-22,Micro: Silent,Retail (Non-storefront): Delivery from storefront retail only
+Palmdale,Palmdale,655156,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.5910383,-118.1054031,158,2022-01-22,,
+Pomona,Pomona,658072,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.0584937,-117.7610909,155,2022-01-22,,Cultivation: Indoor only
+Torrance,Torrance,680000,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8349663,-118.3414307,149,2022-01-22,,
+Pasadena,Pasadena,656000,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,34.1605920,-118.1395930,144,2022-01-22,Micro: Silent,
+El Monte,El Monte,622230,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.0746329,-118.0291358,117,2022-01-22,,Cultivation: Indoor only
+Downey,Downey,619766,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9382375,-118.1308561,114,2022-01-22,,
+Inglewood,Inglewood,636546,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9560678,-118.3442743,113,2022-01-22,,
+West Covina,West Covina,684200,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0559412,-117.9099372,108,2022-01-22,,
+Burbank,Burbank,608954,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1900793,-118.3264045,107,2022-01-22,,
+Norwalk,Norwalk,652526,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9076003,-118.0834525,107,2022-01-22,,
+Compton,Compton,615044,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8940467,-118.2274687,99,2022-01-22,,
+South Gate,South Gate,673080,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9441585,-118.1927614,98,2022-01-22,,
+Carson,Carson,611530,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,,No,Yes,,33.8403670,-118.2495736,93,2022-01-22,,Cultivation: Indoor only
+Santa Monica,Santa Monica,670000,Los Angeles,Los Angeles,Los Angeles County,City,Limited-Medical Only,Prohibited,Prohibited,Limited-Medical Only,Prohibited,Prohibited,,No,No,,34.0234128,-118.4816663,92,2022-01-22,Retail (non-storefront): Silent on medical,
+Hawthorne,Hawthorne,632548,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9147753,-118.3480828,88,2022-01-22,Retail (storefront): City is in the process of developing an ordinance after tax measure approved in 2020,
+Whittier,Whittier,685292,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9668274,-118.0201222,87,2022-01-22,,
+Alhambra,Alhambra,600884,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0835711,-118.1364436,86,2022-01-22,Allows medical delivery  from outside the jurisdiction,
+Lakewood,Lakewood,639892,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8471353,-118.1218940,81,2022-01-22,,
+Bellflower,Bellflower,604982,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.8878214,-118.1272504,77,2022-01-22,,
+Baldwin Park,Baldwin Park,603666,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Prohibited,,No,Yes,,34.0828245,-117.9712858,76,2022-01-22,,Cultivation: Indoor only
+Lynwood,Lynwood,644574,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,33.9239617,-118.2016475,72,2022-01-22,,Cultivation: Indoor only
+Redondo Beach,Redondo Beach,660018,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8568174,-118.3771371,68,2022-01-22,,
+Pico Rivera,Pico Rivera,656924,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9895242,-118.0892994,64,2022-01-22,,
+Montebello,Montebello,648816,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,34.0154437,-118.1110124,64,2022-01-22,Micro: Silent,
+Monterey Park,Monterey Park,648914,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0483305,-118.1331830,62,2022-01-22,,
+Gardena,Gardena,628168,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8944169,-118.3075220,61,2022-01-22,,
+Huntington Park,Huntington Park,636056,Los Angeles,Los Angeles,Los Angeles County,City,Limited-Medical Only,Limited,Prohibited,Allowed,Allowed,Prohibited,,No,No,,33.9792475,-118.2174380,59,2022-01-22,"Distribution, Testing: Silent",Retail (Non-storefront): delivery from storefronts only
+Diamond Bar,Diamond Bar,619192,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0015725,-117.8176013,57,2022-01-22,,
+Arcadia,Arcadia,602462,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1326887,-118.0363467,57,2022-01-22,,
+Paramount,Paramount,655618,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8988835,-118.1666294,56,2022-01-22,,
+Rosemead,Rosemead,662896,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0688796,-118.0826804,55,2022-01-22,,
+Glendora,Glendora,630014,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1449667,-117.8476672,52,2022-01-22,,
+Cerritos,Cerritos,612552,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8677431,-118.0694719,50,2022-01-22,,
+Azusa,Azusa,603386,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1385241,-117.9122530,49,2022-01-22,,
+Covina,Covina,616742,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0904746,-117.8821434,49,2022-01-22,,
+La Mirada,La Mirada,640032,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9020453,-118.0089608,49,2022-01-22,,
+Bell Gardens,Bell Gardens,604996,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9643785,-118.1544369,43,2022-01-22,,
+Rancho Palos Verdes,Rancho Palos Verdes,659514,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7531531,-118.3679637,42,2022-01-22,,
+San Gabriel,San Gabriel,667042,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0946359,-118.0984687,40,2022-01-22,,
+La Puente,La Puente,640340,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0323333,-117.9535204,40,2022-01-22,,
+Culver City,Culver City,617568,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.0058204,-118.3967807,39,2022-01-22,,Cultivation: Indoor only
+Monrovia,Monrovia,648648,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,34.1639973,-117.9846118,38,2022-01-22,,
+Claremont,Claremont,613756,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1249246,-117.7139226,36,2022-01-22,,
+Bell,Bell,604870,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,No,Yes,,33.9797042,-118.1792494,36,2022-01-22,Allows medical delivery  from outside the jurisdiction,Cultivation: Indoor only
+Temple City,Temple City,678148,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1021588,-118.0579488,36,2022-01-22,,
+West Hollywood,West Hollywood,684410,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,34.0882673,-118.3718297,36,2022-01-22,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",
+Manhattan Beach,Manhattan Beach,645400,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8896319,-118.3973699,35,2022-01-22,,
+San Dimas,San Dimas,666070,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1079574,-117.8085286,34,2022-01-22,,
+Beverly Hills,Beverly Hills,606308,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0792300,-118.4024374,34,2022-01-22,,
+La Verne,La Verne,640830,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1205212,-117.7699278,33,2022-01-22,,
+Lawndale,Lawndale,640886,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8884221,-118.3531377,33,2022-01-22,,
+Walnut,Walnut,683332,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0371955,-117.8556059,30,2022-01-22,,
+Maywood,Maywood,646492,Los Angeles,Los Angeles,Los Angeles County,City,Limited,Limited,Limited,Limited,Limited,Limited,,No,No,,33.9885051,-118.1876662,28,2022-01-22,,Pre-existing licenses only
+South Pasadena,South Pasadena,673220,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1089567,-118.1566154,26,2022-01-22,,
+San Fernando,San Fernando,666140,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.2886519,-118.4362413,24,2022-01-22,Allows medical delivery from outside jurisdiction,
+Calabasas,Calabasas,609598,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1340150,-118.6691280,24,2022-01-22,,
+Cudahy,Cudahy,617498,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,No,No,,33.9640029,-118.1825614,24,2022-01-22,,
+Duarte,Duarte,619990,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1609114,-117.9505275,22,2022-01-22,,
+Lomita,Lomita,642468,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7933091,-118.3174455,20,2022-01-22,,
+La Cañada Flintridge,La Cañada Flintridge,639003,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.2109111,-118.2001349,20,2022-01-22,,
+South El Monte,South El Monte,672996,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0503775,-118.0483840,20,2022-01-22,,
+Agoura Hills,Agoura Hills,600394,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1489422,-118.7639301,20,2022-01-22,,
+Hermosa Beach,Hermosa Beach,633364,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8652682,-118.3962966,19,2022-01-22,,
+Santa Fe Springs,Santa Fe Springs,669154,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9335648,-118.0626113,18,2022-01-22,,
+Artesia,Artesia,602896,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8675926,-118.0806353,16,2022-01-22,,
+El Segundo,El Segundo,622412,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9171449,-118.4015540,16,2022-01-22,,
+Hawaiian Gardens,Hawaiian Gardens,632506,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8304821,-118.0734509,14,2022-01-22,,
+Palos Verdes Estates,Palos Verdes Estates,655380,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7865188,-118.3949114,13,2022-01-22,,
+San Marino,San Marino,668224,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1226714,-118.1129107,13,2022-01-22,,
+Commerce,Commerce,614974,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,33.9945234,-118.1499518,13,2022-01-22,,Cultivation: Indoor only
+Malibu,Malibu,645246,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,34.0342195,-118.7794907,12,2022-01-22,,
+Signal Hill,Signal Hill,671876,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8034309,-118.1697698,11,2022-01-22,Retail (Storefront): Ballot measure pending in 2022,
+Sierra Madre,Sierra Madre,671806,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1687705,-118.0502158,10,2022-01-22,,
+Rolling Hills Estates,Rolling Hills Estates,662644,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7809592,-118.3253120,8,2022-01-22,,
+Westlake Village,Westlake Village,684438,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1366751,-118.8173674,8,2022-01-22,Allows delivery from outside jurisdiction,
+La Habra Heights,La Habra Heights,639304,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9589591,-117.9489729,5,2022-01-22,,
+Los Angeles,Los Angeles,644000,Los Angeles,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,34.0193936,-118.4108248,4,2022-01-22,,
+Avalon (Catalina Island),Avalon,603274,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,33.3240430,-118.3346990,3,2022-01-22,,
+Irwindale,Irwindale,636826,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1119138,-117.9635233,1,2022-01-22,,
+Hidden Hills,Hidden Hills,633518,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1637439,-118.6612038,1,2022-01-22,,
+Bradbury,Bradbury,607946,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1531592,-117.9688184,1,2022-01-22,,
+Rolling Hills,Rolling Hills,662602,Los Angeles,Los Angeles,Los Angeles County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,Prohibited,Prohibited,,No,No,,33.7600185,-118.3471668,1,2022-01-22,,
+Los Angeles County,,,Los Angeles,Los Angeles,Los Angeles County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,10,,,,2022-01-22,,
+Madera,Madera,645022,Madera,Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.9639834,-120.0802435,66,2022-01-22,,
+Chowchilla,Chowchilla,613294,Madera,Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.1095034,-120.2349397,18,2022-01-22,,
+Madera County,,,Madera,Madera,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,158,,,,2022-01-22,,
+San Rafael,San Rafael,668364,Marin,Marin,Marin County,City,Prohibited,Allowed,Allowed,Limited,Prohibited,Allowed,,No,No,,37.9810032,-122.5069297,60,2022-01-22,,Manufacturing: Type N only
+Novato,Novato,652582,Marin,Marin,Marin County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.0850865,-122.5482145,54,2022-01-22,,Cultivation: Indoor only
+Mill Valley,Mill Valley,647710,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9081217,-122.5423253,14,2022-01-22,Allows medical delivery from outside jurisdiction,
+San Anselmo,San Anselmo,664434,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9821217,-122.5699098,13,2022-01-22,Allows medical delivery from outside jurisdiction,
+Larkspur,Larkspur,640438,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9405150,-122.5295502,12,2022-01-22,Allows delivery from outside jurisdiction,
+Corte Madera,Corte Madera,616462,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9318458,-122.5077378,10,2022-01-22,Allows delivery from outside jurisdiction,
+Tiburon,Tiburon,678666,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8871660,-122.4582910,9,2022-01-22,Allows medical delivery from outside jurisdiction,
+Sausalito,Sausalito,670364,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8583694,-122.4918436,7,2022-01-22,Allows medical delivery from outside jurisdiction,
+Fairfax,Fairfax,623168,Marin,Marin,Marin County,City,Limited-Medical Only,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.9883780,-122.5950965,7,2022-01-22,,
+Ross,Ross,662980,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.9638151,-122.5615688,2,2022-01-22,Allows medical delivery from outside jurisdiction,
+Belvedere,Belvedere,605164,Marin,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.8743657,-122.4716178,2,2022-01-22,Allows delivery from outside of the jurisdiction,
+Marin County,,,Marin,Marin,Marin County,County,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,No,263,,,,2022-01-22,,
+Mariposa County,,,Mariposa,Mariposa,Mariposa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,18,,,,2022-01-22,,
+Point Arena,Point Arena,657876,Mendocino,Mendocino,Mendocino County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,No,,38.9123087,-123.6957623,448,2022-01-22,,
+Ukiah,Ukiah,681134,Mendocino,Mendocino,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,39.1466140,-123.2103259,16,2022-01-22,,
+Fort Bragg,Fort Bragg,625058,Mendocino,Mendocino,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,39.4410694,-123.8036201,7,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Willits,Willits,685600,Mendocino,Mendocino,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,39.4050065,-123.3488889,5,2022-01-22,,
+Mendocino County,,,Mendocino,Mendocino,Mendocino County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,89,,,,2022-01-22,,
+Merced,Merced,646898,Merced,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.3056953,-120.4778715,86,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Los Banos,Los Banos,644028,Merced,Merced,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.0633346,-120.8402558,40,2022-01-22,,
+Atwater,Atwater,603162,Merced,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.3540494,-120.5971768,31,2022-01-22,,Cultivation: Indoor only
+Livingston,Livingston,642006,Merced,Merced,Merced County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,,No,Yes,,37.3872812,-120.7249430,14,2022-01-22,"Allows delivery from outside jurisdiction
+Distribution: Silent","Cultivation: Indoor only
+Microbusiness: No retail"
+Dos Palos,Dos Palos,619612,Merced,Merced,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.9854237,-120.6338446,5,2022-01-22,,
+Gustine,Gustine,631568,Merced,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Prohibited,,No,No,,37.2545144,-120.9948698,5,2022-01-22,Testing: Silent,Cultivation: Indoor only
+Merced County,,,Merced,Merced,Merced County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,279,,,,2022-01-22,Allows medical delivery from outside jurisdiction,
+Alturas,Alturas,601444,Modoc,Modoc,Modoc County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.4891359,-120.5512862,2,2022-01-22,"Distribution, Testing, Micro: Silent",
+Modoc County,,,Modoc,Modoc,Modoc County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,9,,,,2022-01-22,,
+Mammoth Lakes,Mammoth Lakes,645358,Mono,Mono,Mono County,City,Allowed,Prohibited,Allowed,Limited,Limited,Allowed,,No,No,,37.6088480,-118.9712613,8,2022-01-22,,"Manufacturing: Non-volatile only
+Cultivation: Indoor only"
+Mono County,,,Mono,Mono,Mono County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,No,13,,,,2022-01-22,,
+Sand City,Sand City,665112,Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.6219032,-121.8475249,394,2022-01-22,,
+Salinas,Salinas,664224,Monterey,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,36.6901821,-121.6337145,161,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Seaside,Seaside,670742,Monterey,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.6252150,-121.8238832,34,2022-01-22,Micro: Silent,
+Monterey,Monterey,648872,Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,36.6012904,-121.8825566,28,2022-01-22,,
+Soledad,Soledad,672520,Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.4379099,-121.3156119,26,2022-01-22,,
+Marina,Marina,645778,Monterey,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.6805918,-121.7900735,22,2022-01-22,,
+Greenfield,Greenfield,630994,Monterey,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,36.3233901,-121.2447500,18,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Pacific Grove,Pacific Grove,654848,Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.6225766,-121.9264300,15,2022-01-22,Retail (Storefront): City passed ordinance to allow but approval is pending a referendum,
+King City,King City,638520,Monterey,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,36.2162833,-121.1319616,14,2022-01-22,,Cultivation: Indoor only
+Gonzales,Gonzales,630392,Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,,No,Yes,,36.5059790,-121.4429180,8,2022-01-22,"Distribution, Testing, Micro: Silent",
+Carmel-by-the-Sea,Carmel-by-the-Sea,611250,Monterey,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.5529458,-121.9218892,3,2022-01-22,,
+Del Rey Oaks,Del Rey Oaks,618688,Monterey,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,36.5825013,-121.8297974,1,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Monterey County,,,Monterey,Monterey,Monterey County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,443,,,,2022-01-22,Micro: Silent,
+Napa,Napa,650258,Napa,Napa,Napa County,City,Limited-Medical Only,Limited-Medical Only,Prohibited,Allowed,Prohibited,Prohibited,,No,No,,38.2972195,-122.3011697,80,2022-01-22,,
+American Canyon,American Canyon,601640,Napa,Napa,Napa County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.1790331,-122.2596023,20,2022-01-22,,Cultivation: Indoor only
+St. Helena,St. Helena,664140,Napa,Napa,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.5040450,-122.4677325,6,2022-01-22,,
+Calistoga,Calistoga,609892,Napa,Napa,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.5814083,-122.5826961,5,2022-01-22,,
+Yountville,Yountville,686930,Napa,Napa,Napa County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,38.3955283,-122.3669157,2,2022-01-22,,
+Napa County,,,Napa,Napa,Napa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,141,,,,2022-01-22,Allows delivery from outside jurisdiction,
+Truckee,Truckee,680588,Nevada,Nevada,Nevada County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,39.3505492,-120.1939411,16,2022-01-22,,
+Grass Valley,Grass Valley,630798,Nevada,Nevada,Nevada County,City,Limited,Limited,Limited,Limited,Limited,Limited,,No,No,,39.2236859,-121.0550036,13,2022-01-22,Micro: Silent,"Retail (storefront): Limit of 2 licensees
+Retail (delivery): Limit of 3 licensees
+Distributor: Limit of 5 licensees
+Manufacturer and/or Processor: Limit of 10 total
+Nursery: Limit of 2
+Testing: Limit of 2"
+Nevada City,Nevada City,650874,Nevada,Nevada,Nevada County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,39.2596075,-121.0333263,3,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Nevada County,,,Nevada,Nevada,Nevada County,County,Prohibited,Prohibited,Limited,Prohibited,Limited-Medical Only,Prohibited,No,No,Yes,99,,,,2022-01-22,,"Distribution: Self-distribution by cultivators only
+"
+Anaheim,Anaheim,602000,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8554971,-117.7600707,357,2022-01-22,,
+Santa Ana,Santa Ana,669000,Orange,Orange,Orange County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.7363320,-117.8829516,338,2022-01-22,,
+Irvine,Irvine,636770,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,33.6783986,-117.7712541,276,2022-01-22,,
+Huntington Beach,Huntington Beach,636000,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6905687,-118.0093300,202,2022-01-22,,
+Garden Grove,Garden Grove,629000,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7787816,-117.9604719,176,2022-01-22,"Distribution, Manufacturing, Testing, Micro: Silent",
+Fullerton,Fullerton,628000,Orange,Orange,Orange County,City,Limited,Limited,Limited,Limited,Limited,Allowed,,No,No,,33.8857144,-117.9280246,144,2022-01-22,,"Retail (all): Limit 2 total
+Distribution: Limit 5
+Manufacturer: Limit 5
+Cultivation: Limit 5; indoor only
+Microbusiness: Limit 2"
+Orange,Orange,653980,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7869711,-117.8612654,141,2022-01-22,,
+Costa Mesa,Costa Mesa,616532,Orange,Orange,Orange County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,33.6659055,-117.9123358,115,2022-01-22,,
+Mission Viejo,Mission Viejo,648256,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6093352,-117.6564710,95,2022-01-22,,
+Westminster,Westminster,684550,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7522888,-117.9938733,94,2022-01-22,,
+Newport Beach,Newport Beach,651182,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.5971325,-117.8902630,87,2022-01-22,,
+Buena Park,Buena Park,608786,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8573527,-118.0073733,83,2022-01-22,,
+Tustin,Tustin,680854,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7309083,-117.8106005,82,2022-01-22,,
+Yorba Linda,Yorba Linda,686832,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8869705,-117.7725900,69,2022-01-22,,
+San Clemente,San Clemente,665084,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.4491445,-117.6131194,65,2022-01-22,,
+Laguna Niguel,Laguna Niguel,639248,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.5288675,-117.7011753,65,2022-01-22,,
+Lake Forest,Lake Forest,639496,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,33.6549461,-117.6758479,63,2022-01-22,,
+La Habra,La Habra,639290,Orange,Orange,Orange County,City,Prohibited,Allowed,Allowed,Prohibited,Prohibited,Allowed,,No,No,,33.9279270,-117.9515540,62,2022-01-22,,
+Fountain Valley,Fountain Valley,625380,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7105823,-117.9511290,56,2022-01-22,,
+Placentia,Placentia,657526,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8811581,-117.8547827,52,2022-01-22,,
+Aliso Viejo,Aliso Viejo,600947,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.5792186,-117.7289150,51,2022-01-22,,
+Cypress,Cypress,617750,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8184768,-118.0383074,49,2022-01-22,Allows medical delivery from outside jurisdiction,
+Rancho Santa Margarita,Rancho Santa Margarita,659587,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6323536,-117.5990075,49,2022-01-22,,
+Brea,Brea,608100,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9317280,-117.8549423,44,2022-01-22,,
+Stanton,Stanton,673962,Orange,Orange,Orange County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,33.8002548,-117.9934483,39,2022-01-22,Micro: Silent,Cultivation: Indoor only
+San Juan Capistrano,San Juan Capistrano,668028,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.5005811,-117.6544330,36,2022-01-22,,
+Dana Point,Dana Point,617946,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.4632594,-117.7130166,34,2022-01-22,,
+Laguna Hills,Laguna Hills,639220,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.5915227,-117.6994074,31,2022-01-22,,
+Seal Beach,Seal Beach,670686,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7519180,-118.0732505,25,2022-01-22,,
+Laguna Beach,Laguna Beach,639178,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.5428910,-117.7624901,23,2022-01-22,"Manufacturing, Testing, Micro: Silent",
+Laguna Woods,Laguna Woods,639259,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6129246,-117.7314430,16,2022-01-22,Allows delivery from outside jurisdiction,
+La Palma,La Palma,640256,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8506159,-118.0395647,15,2022-01-22,,
+Los Alamitos,Los Alamitos,643224,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7968831,-118.0610390,11,2022-01-22,,
+Villa Park,Villa Park,682744,Orange,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8180671,-117.8102948,5,2022-01-22,,
+Orange County,,,Orange,Orange,Orange County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,3,,,,2022-01-22,,
+Roseville,Roseville,662938,Placer,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.7690012,-121.3189015,137,2022-01-22,,
+Rocklin,Rocklin,662364,Placer,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.8080407,-121.2503648,66,2022-01-22,,
+Lincoln,Lincoln,641474,Placer,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.8754761,-121.2923839,48,2022-01-22,,
+Auburn,Auburn,603204,Placer,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.8950746,-121.0767393,14,2022-01-22,,
+Loomis,Loomis,643140,Placer,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.8093681,-121.1954675,6,2022-01-22,,
+Colfax,Colfax,614498,Placer,Placer,Placer County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,39.0937989,-120.9532218,2,2022-01-22,,Cultivation: Indoor only
+Placer County,,,Placer,Placer,Placer County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,389,,,,2022-01-22,,
+Portola,Portola,658352,Plumas,Plumas,Plumas County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.8207990,-120.4742930,2,2022-01-22,Allows delivery from outside jurisdiction,
+Plumas County,,,Plumas,Plumas,Plumas County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,19,,,,2022-01-22,,
+Riverside,Riverside,662000,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,33.9381433,-117.3931675,325,2022-01-22,,
+Moreno Valley,Moreno Valley,649270,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.9232527,-117.2056845,207,2022-01-22,,
+Corona,Corona,616350,Riverside,Riverside,Riverside County,City,Limited,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,33.8619689,-117.5654945,168,2022-01-22,,Retail (storefront): Limit 12 licensees
+Murrieta,Murrieta,650076,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,33.5721337,-117.1904442,113,2022-01-22,,
+Temecula,Temecula,678120,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.4930818,-117.1317297,113,2022-01-22,,
+Jurupa Valley,Jurupa Valley,637692,Riverside,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,,No,No,,34.0025907,-117.4676122,106,2022-01-22,Non-storefront: Silent,Cultivation: Indoor only
+Menifee,Menifee,646842,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6898575,-117.1843827,91,2022-01-22,,
+Indio,Indio,636448,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7316388,-116.2359705,87,2022-01-22,,
+Hemet,Hemet,633182,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,33.7353163,-116.9944744,83,2022-01-22,,Cultivation: Indoor only
+Perris,Perris,656700,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,33.7902240,-117.2214116,77,2022-01-22,,Cultivation: Indoor only
+Eastvale,Eastvale,621230,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9632615,-117.5805473,64,2022-01-22,,
+Lake Elsinore,Lake Elsinore,639486,Riverside,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,,No,No,,33.6885202,-117.3428734,63,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Cathedral City,Cathedral City,612048,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.8354871,-116.4631031,54,2022-01-22,,
+Palm Desert,Palm Desert,655184,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.7377972,-116.3637202,52,2022-01-22,Micro: Silent,
+Beaumont,Beaumont,604758,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.8767216,-116.9530089,48,2022-01-22,,
+San Jacinto,San Jacinto,667112,Riverside,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,No,,33.7951219,-116.9919568,48,2022-01-22,Non-storefront: Silent,
+Palm Springs,Palm Springs,655254,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.8007326,-116.5367547,47,2022-01-22,Micro: Silent,
+Coachella,Coachella,614260,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,33.6905455,-116.1430540,45,2022-01-22,,Cultivation: Indoor only
+La Quinta,La Quinta,640354,Riverside,Riverside,Riverside County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,33.6417665,-116.2739430,41,2022-01-22,,
+Wildomar,Wildomar,685446,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.6172779,-117.2582476,36,2022-01-22,Micro: Silent,
+Banning,Banning,603820,Riverside,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,,No,No,,33.9460305,-116.8991871,31,2022-01-22,Non-storefront: Silent,Cultivation: Indoor only
+Desert Hot Springs,Desert Hot Springs,618996,Riverside,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.9575914,-116.5422837,29,2022-01-22,,
+Norco,Norco,651560,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9255186,-117.5519578,26,2022-01-22,Testing: Silent,
+Blythe,Blythe,607218,Riverside,Riverside,Riverside County,City,Limited,Prohibited,Allowed,Allowed,Allowed,Limited,,No,No,,33.6535839,-114.6217852,19,2022-01-22,Non-storefront: Silent,"Retail (storefront): Limit 2 licensees
+Testing: Limit 2 licensees
+Microbusiness: Limit 2 licensees"
+Rancho Mirage,Rancho Mirage,659500,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.7603520,-116.4287947,18,2022-01-22,Allows delivery from outside jurisdiction,
+Canyon Lake,Canyon Lake,610928,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6883023,-117.2635469,11,2022-01-22,,
+Calimesa,Calimesa,609864,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9873437,-117.0542110,8,2022-01-22,Allows medical delivery from outside jurisdiction,
+Indian Wells,Indian Wells,636434,Riverside,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.6922173,-116.3412484,5,2022-01-22,,
+Riverside County,,,Riverside,Riverside,Riverside County,County,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,No,2,,,,2022-01-22,,Cultivation: Indoor only
+Isleton,Isleton,636882,Sacramento,Sacramento,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.1612520,-121.6049577,837,2022-01-22,,Cultivation: Indoor only
+Sacramento,Sacramento,664000,Sacramento,Sacramento,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.5665924,-121.4686318,501,2022-01-22,,Cultivation: Indoor only
+Elk Grove,Elk Grove,622020,Sacramento,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.4146207,-121.3849614,172,2022-01-22,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",
+Citrus Heights,Citrus Heights,613588,Sacramento,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.6947765,-121.2879952,87,2022-01-22,Allows delivery from outside jurisdiction,
+Folsom,Folsom,624638,Sacramento,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.6665966,-121.1416355,78,2022-01-22,,
+Rancho Cordova,Rancho Cordova,659444,Sacramento,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.5761812,-121.2466921,74,2022-01-22,,
+Galt,Galt,628112,Sacramento,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.2669456,-121.3045439,26,2022-01-22,,
+Sacramento County,,,Sacramento,Sacramento,Sacramento County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,1,,,,2022-01-22,,
+Hollister,Hollister,634120,San Benito,San Benito,San Benito County,City,Limited-Medical Only,Limited,Allowed,Allowed,Limited,Allowed,,No,No,,36.8563746,-121.3981157,36,2022-01-22,Micro: Silent,"Retail (Non-storefront): delivery from storefronts only
+Cultivation: Indoor only"
+San Juan Bautista,San Juan Bautista,668014,San Benito,San Benito,San Benito County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.8456736,-121.5377770,1,2022-01-22,,
+San Benito County,,,San Benito,San Benito,San Benito County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,No,No,Yes,57,,,,2022-01-22,Allows delivery from outside jurisdiction but requires a county permit,"Cultivation: Indoor only
+Microbusiness: No retail"
+San Bernardino,San Bernardino,665000,San Bernardino,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.1415530,-117.2935572,221,2022-01-22,,Cultivation: Indoor only
+Fontana,Fontana,624680,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1089560,-117.4628880,212,2022-01-22,,
+Ontario,Ontario,653896,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0394383,-117.6042147,177,2022-01-22,,
+Rancho Cucamonga,Rancho Cucamonga,659451,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1233151,-117.5642070,176,2022-01-22,,
+Victorville,Victorville,682590,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.5277346,-117.3535789,123,2022-01-22,Allows medical delivery from outside jurisdiction,
+Rialto,Rialto,660466,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1117839,-117.3882874,107,2022-01-22,,
+Hesperia,Hesperia,633434,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,34.3970383,-117.3151976,94,2022-01-22,,
+Chino,Chino,613210,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9780368,-117.6577189,86,2022-01-22,,
+Chino Hills,Chino Hills,613214,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.9429693,-117.7256483,83,2022-01-22,,
+Upland,Upland,681344,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1160731,-117.6599224,77,2022-01-22,,
+Apple Valley,Apple Valley,602364,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.5333761,-117.2103584,73,2022-01-22,,
+Redlands,Redlands,659962,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0516420,-117.1708618,71,2022-01-22,,
+Highland,Highland,633588,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1134731,-117.1657294,54,2022-01-22,,
+Yucaipa,Yucaipa,687042,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0335234,-117.0426099,54,2022-01-22,,
+Colton,Colton,614890,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,,No,Yes,,34.0545252,-117.3250286,53,2022-01-22,Allows delivery from outside jurisdiction,Cultivation: Indoor only
+Montclair,Montclair,648788,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0714521,-117.6980540,39,2022-01-22,,
+Adelanto,Adelanto,600296,San Bernardino,San Bernardino,San Bernardino County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,,No,No,,34.5809017,-117.4394577,35,2022-01-22,,Retail (all): pre-existing businesses only
+Twentynine Palms,Twentynine Palms,680994,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1483128,-116.0655262,27,2022-01-22,,
+Barstow,Barstow,604030,San Bernardino,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.8667883,-117.0430058,24,2022-01-22,,Cultivation: Indoor only
+Loma Linda,Loma Linda,642370,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0439367,-117.2495416,23,2022-01-22,,
+Yucca Valley,Yucca Valley,687056,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.1230893,-116.4214814,21,2022-01-22,,
+Grand Terrace,Grand Terrace,630658,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.0311716,-117.3132429,12,2022-01-22,,
+Big Bear Lake,Big Bear Lake,606434,San Bernardino,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.2429577,-116.8958909,5,2022-01-22,,
+Needles,Needles,650734,San Bernardino,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,34.8135697,-114.6253021,5,2022-01-22,,
+San Bernardino County,,,San Bernardino,San Bernardino,San Bernardino County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2,,,,2022-01-22,,
+Chula Vista,Chula Vista,613392,San Diego,San Diego,San Diego County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,32.6276701,-117.0151696,267,2022-01-22,Micro: Silent,"Retail (storefront): Limit 4 licensees
+Cultivation: Indoor only"
+Oceanside,Oceanside,653322,San Diego,San Diego,San Diego County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,33.2245045,-117.3062398,177,2022-01-22,Micro: Silent,
+Escondido,Escondido,622804,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.1330533,-117.0740430,151,2022-01-22,,
+Carlsbad,Carlsbad,611194,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.1239089,-117.2828350,114,2022-01-22,,
+El Cajon,El Cajon,621712,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.8016713,-116.9603972,105,2022-01-22,,
+Vista,Vista,682996,San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,33.1895407,-117.2386078,103,2022-01-22,Micro: Silent,
+San Marcos,San Marcos,668196,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,33.1338931,-117.1693670,95,2022-01-22,,
+Encinitas,Encinitas,622678,San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,,No,No,,33.0506323,-117.2636163,63,2022-01-22,"Testing, Micro: Silent",
+National City,National City,650398,San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,32.6658617,-117.0973610,62,2022-01-22,,
+La Mesa,La Mesa,640004,San Diego,San Diego,San Diego County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,No,,32.7694947,-117.0219232,61,2022-01-22,Micro: Silent,
+Santee,Santee,670224,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.8549903,-116.9860556,56,2022-01-22,Retail (storefront) - Measure to allow may be on 2022 ballot,
+Poway,Poway,658520,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.9877018,-117.0218426,50,2022-01-22,,
+Imperial Beach,Imperial Beach,636294,San Diego,San Diego,San Diego County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,32.5653537,-117.1145672,28,2022-01-22,,
+Lemon Grove,Lemon Grove,641124,San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,,No,No,,32.7330714,-117.0344138,26,2022-01-22,"Testing, Micro: Silent",
+Coronado,Coronado,616378,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.6572021,-117.1561371,21,2022-01-22,,
+Solana Beach,Solana Beach,672506,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.9914992,-117.2581337,13,2022-01-22,,
+Del Mar,Del Mar,618506,San Diego,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,32.9628522,-117.2624379,4,2022-01-22,,
+San Diego,San Diego,666000,San Diego,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,32.8152995,-117.1349930,1,2022-01-22,Micro: Silent,
+San Diego County,,,San Diego,San Diego,San Diego County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Prohibited,No,No,No,3,,,,2022-01-22,Testing: Silent,
+San Francisco,San Francisco,667000,San Francisco,San Francisco,City and County of San Francisco,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.7272391,-123.0322294,883,2022-01-22,,
+San Francisco County,,,San Francisco,San Francisco,City and County of San Francisco,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,,,,,2022-03-17,,
+Stockton,Stockton,675000,San Joaquin,San Joaquin,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.9763417,-121.3133043,315,2022-01-22,,Cultivation: Indoor only
+Tracy,Tracy,680238,San Joaquin,San Joaquin,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.7245975,-121.4455377,92,2022-01-22,,Cultivation: Indoor only
+Manteca,Manteca,645484,San Joaquin,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.7904975,-121.2306255,81,2022-01-22,,
+Lodi,Lodi,642202,San Joaquin,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.1216095,-121.2907652,67,2022-01-22,,
+Lathrop,Lathrop,640704,San Joaquin,San Joaquin,San Joaquin County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.8152896,-121.3125155,24,2022-01-22,,Retail (Storefront):  Limit 1 licensee
+Ripon,Ripon,661026,San Joaquin,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.7422644,-121.1321587,15,2022-01-22,,
+Escalon,Escalon,622790,San Joaquin,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.7913346,-120.9996440,7,2022-01-22,"Distribution, Manufacturing, Cultivation, Testing, Micro: Silent",
+San Joaquin County,,,San Joaquin,San Joaquin,San Joaquin County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,758,,,,2022-01-22,,
+San Luis Obispo,San Luis Obispo,668154,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,35.2639540,-120.6611260,46,2022-01-22,,Cultivation: Indoor only
+Paso Robles (El Paso de Robles),El Paso de Robles (Paso Robles),622300,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.6407402,-120.6542682,31,2022-01-22,,
+Atascadero,Atascadero,603064,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Allowed,,No,No,,35.4858195,-120.6896669,31,2022-01-22,,
+Arroyo Grande,Arroyo Grande,602868,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.1243045,-120.5848540,17,2022-01-22,,
+Grover Beach,Grover Beach,631393,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,35.1208877,-120.6196642,13,2022-01-22,,
+Morro Bay,Morro Bay,649362,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Prohibited,,No,No,,35.3672891,-120.8692045,10,2022-01-22,,
+Pismo Beach,Pismo Beach,657414,San Luis Obispo,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,35.1531410,-120.6745631,8,2022-01-22,,
+San Luis Obispo County,,,San Luis Obispo,San Luis Obispo,San Luis Obispo County,County,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,No,No,No,280,,,,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Daly City,Daly City,617918,San Mateo,San Mateo,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Allowed,,No,No,,37.7009406,-122.4649790,107,2022-01-22,,
+San Mateo,San Mateo,668252,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.5603104,-122.3106003,104,2022-01-22,Testing: Silent,
+Redwood City,Redwood City,660102,San Mateo,San Mateo,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Prohibited,,No,No,,37.5152736,-122.2136716,86,2022-01-22,,Cultivation: Nursery Only
+South San Francisco,South San Francisco,673262,San Mateo,San Mateo,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.6551037,-122.3762341,67,2022-01-22,,Cultivation: Indoor only
+San Bruno,San Bruno,665028,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.6253897,-122.4313027,46,2022-01-22,,
+Pacifica,Pacifica,654806,San Mateo,San Mateo,San Mateo County,City,Allowed,Limited,Allowed,Allowed,Prohibited,Allowed,,No,No,,37.6066267,-122.4772114,38,2022-01-22,Micro: Silent,Retail (Non-Storefront): Delivery from storefront only
+Menlo Park,Menlo Park,646870,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.4797313,-122.1480548,35,2022-01-22,Allows delivery from outside jurisdiction,
+Foster City,Foster City,625338,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,37.5648200,-122.2507815,33,2022-01-22,Allows delivery from outside jurisdiction,
+East Palo Alto,East Palo Alto,620956,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.4677798,-122.1325502,30,2022-01-22,,
+Burlingame,Burlingame,609066,San Mateo,San Mateo,San Mateo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.5899515,-122.3633425,30,2022-01-22,,
+San Carlos,San Carlos,665070,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,Yes,,37.4954625,-122.2667954,29,2022-01-22,Allows delivery from outside jurisdiction,Microbusiness: No retail
+Belmont,Belmont,605108,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.5143975,-122.2944751,27,2022-01-22,,
+Millbrae,Millbrae,647486,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.5989695,-122.4019908,22,2022-01-22,,
+Half Moon Bay,Half Moon Bay,631708,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,,No,Yes,,37.4673142,-122.4404742,12,2022-01-22,,Cultivation: Nursery Only
+Hillsborough,Hillsborough,633798,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.5572415,-122.3586951,11,2022-01-22,Allows delivery from outside jurisdiction,
+Atherton,Atherton,603092,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.4570721,-122.2010583,7,2022-01-22,Silent for all CCA activities,
+Woodside,Woodside,686440,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.4221552,-122.2590839,5,2022-01-22,Allows delivery from outside jurisdiction,
+Portola Valley,Portola Valley,658380,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,,No,Yes,,37.3650457,-122.2326785,4,2022-01-22,,Cultivation: Limit of 12 plants
+Brisbane,Brisbane,608310,San Mateo,San Mateo,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,37.6757495,-122.3833020,4,2022-01-22,Micro: Silent,Retail (storefront): City plans to consider in 2022
+Colma,Colma,614736,San Mateo,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.6766900,-122.4526823,1,2022-01-22,,
+San Mateo County,,,San Mateo,San Mateo,San Mateo County,County,Prohibited,Prohibited,Prohibited,Prohibited,Limited,Prohibited,No,No,Yes,774,,,,2022-01-22,Allows delivery from outside jurisdiction,Cultivation: Mixed-light only
+Santa Maria,Santa Maria,669196,Santa Barbara,Santa Barbara,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.9332137,-120.4438151,108,2022-01-22,Allows medical delivery from outside jurisdiction,
+Santa Barbara,Santa Barbara,669070,Santa Barbara,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.4006009,-119.7129545,94,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Lompoc,Lompoc,642524,Santa Barbara,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.6626889,-120.4708370,43,2022-01-22,,Cultivation: Indoor only
+Goleta,Goleta,630378,Santa Barbara,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.4348747,-119.8577412,31,2022-01-22,,Cultivation: Indoor only
+Carpinteria,Carpinteria,611446,Santa Barbara,Santa Barbara,Santa Barbara County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,34.3852905,-119.5008580,13,2022-01-22,Micro: Silent,
+Guadalupe,Guadalupe,631414,Santa Barbara,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.9616314,-120.5733774,7,2022-01-22,,"Cultivation: Processor only
+Microbusiness: No cultivation"
+Buellton,Buellton,608758,Santa Barbara,Santa Barbara,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,34.6154975,-120.1942368,5,2022-01-22,,
+Solvang,Solvang,672576,Santa Barbara,Santa Barbara,Santa Barbara County,City,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,,No,No,,34.5937578,-120.1396803,5,2022-01-22,,
+Santa Barbara County,,,Santa Barbara,Santa Barbara,Santa Barbara County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,453,,,,2022-01-22,,
+Sunnyvale,Sunnyvale,677000,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3857970,-122.0263165,153,2022-01-22,,
+Santa Clara,Santa Clara,669084,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3646259,-121.9679274,129,2022-01-22,,
+Mountain View,Mountain View,649670,Santa Clara,Santa Clara,Santa Clara County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,37.3996860,-122.0792687,81,2022-01-22,,
+Milpitas,Milpitas,647766,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.4339208,-121.8919831,74,2022-01-22,,
+Palo Alto,Palo Alto,655282,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3997819,-122.1427757,69,2022-01-22,,
+Cupertino,Cupertino,617610,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3193981,-122.0449562,60,2022-01-22,Allows medical delivery from outside jurisdiction,
+Gilroy,Gilroy,629504,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.0064066,-121.5853213,55,2022-01-22,,
+Morgan Hill,Morgan Hill,649278,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.1323963,-121.6409989,44,2022-01-22,Testing: Silent,
+Campbell,Campbell,610345,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.2802323,-121.9543517,42,2022-01-22,Allows medical delivery from outside jurisdiction,
+Los Altos,Los Altos,643280,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3685375,-122.0966288,31,2022-01-22,Allows delivery from outside jurisdiction,
+Saratoga,Saratoga,670280,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.2684932,-122.0254127,31,2022-01-22,,
+Los Gatos,Los Gatos,644112,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.2329763,-121.9510656,30,2022-01-22,Allows delivery from outside jurisdiction,
+Los Altos Hills,Los Altos Hills,643294,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3672230,-122.1390911,8,2022-01-22,,
+Monte Sereno,Monte Sereno,648956,Santa Clara,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.2404547,-121.9880928,3,2022-01-22,Allows medical delivery from outside jurisdiction,
+San Jose,San Jose,668000,Santa Clara,Santa Clara,Santa Clara County,City,Limited,Limited,Allowed,Allowed,Limited,Allowed,,No,No,,37.2967394,-121.8189089,1,2022-01-22,,"Pre-existing operators only, must have registered with city prior to Dec 18, 2015"
+Santa Clara County,,,Santa Clara,Santa Clara,Santa Clara County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,1,,,,2022-01-22,,
+Santa Cruz,Santa Cruz,669112,Santa Cruz,Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.9743850,-122.0352679,66,2022-01-22,,
+Watsonville,Watsonville,683668,Santa Cruz,Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,36.9196077,-121.7702498,53,2022-01-22,,
+Scotts Valley,Scotts Valley,670588,Santa Cruz,Santa Cruz,Santa Cruz County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.0554998,-122.0117687,12,2022-01-22,,
+Capitola,Capitola,611040,Santa Cruz,Santa Cruz,Santa Cruz County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,No,,36.9760826,-121.9540120,10,2022-01-22,,
+Santa Cruz County,,,Santa Cruz,Santa Cruz,Santa Cruz County,County,Allowed,Limited,Allowed,Allowed,Allowed,Prohibited,No,No,No,276,,,,2022-01-22,Testing: Silent,Retail (Non-storefront): Delivery by storefront only
+Redding,Redding,659920,Shasta,Shasta,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,40.5674321,-122.3648270,91,2022-01-22,,Cultivation: Indoor only
+Anderson,Anderson,602042,Shasta,Shasta,Shasta County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.4505960,-122.2963035,10,2022-01-22,,
+Shasta Lake,Shasta Lake,671225,Shasta,Shasta,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,40.6765637,-122.3809091,10,2022-01-22,Micro: Silent,Cultivation: Indoor only
+Shasta County,,,Shasta,Shasta,Shasta County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,178,,,,2022-01-22,,
+Loyalton,Loyalton,644364,Sierra,Sierra,Sierra County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.6768545,-120.2448111,757,2022-01-22,,
+Sierra County,,,Sierra,Sierra,Sierra County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,3,,,,2022-01-22,Allows delivery from outside jurisdiction,
+Tulelake,Tulelake,680686,Siskiyou,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.9534596,-121.4748966,977,2022-01-22,,
+Dorris,Dorris,619584,Siskiyou,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.9649654,-121.9203865,966,2022-01-22,,
+Etna,Etna,622972,Siskiyou,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.4581989,-122.8958191,744,2022-01-22,,
+Fort Jones,Fort Jones,625128,Siskiyou,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.6084521,-122.8410656,739,2022-01-22,,
+Yreka,Yreka,686944,Siskiyou,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.7240335,-122.6315699,7,2022-01-22,,
+Mount Shasta,Mount Shasta,649852,Siskiyou,Siskiyou,Siskiyou County,City,Allowed,Limited-Medical Only,Allowed,Allowed,Allowed,Allowed,,No,No,,41.3208797,-122.3154809,3,2022-01-22,Micro: Silent,
+Weed,Weed,683850,Siskiyou,Siskiyou,Siskiyou County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Prohibited,,No,No,,41.4120866,-122.3809655,2,2022-01-22,"Distribution, Manufacturing, Testing, Micro: Silent",Cultivation: Indoor only
+Montague,Montague,648690,Siskiyou,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,41.7270878,-122.5305115,1,2022-01-22,,
+Dunsmuir,Dunsmuir,620242,Siskiyou,Siskiyou,Siskiyou County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,41.2314848,-122.2709163,1,2022-01-22,,Cultivation: Indoor only
+Siskiyou County,,,Siskiyou,Siskiyou,Siskiyou County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,44,,,,2022-01-22,,
+Vallejo,Vallejo,681666,Solano,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,38.1079211,-122.2639644,119,2022-01-22,,
+Fairfield,Fairfield,623182,Solano,Solano,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Allowed,,No,No,,38.2592897,-122.0320951,116,2022-01-22,,
+Vacaville,Vacaville,681554,Solano,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,38.3586211,-121.9686015,98,2022-01-22,,Microbusiness: No cultivation
+Suisun City,Suisun City,675630,Solano,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.2483339,-122.0100659,29,2022-01-22,,Cultivation: Indoor only
+Benicia,Benicia,605290,Solano,Solano,Solano County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.0691473,-122.1511998,27,2022-01-22,,"Storefront retail: Limit 1 licensee
+Cultivation: Indoor only"
+Dixon,Dixon,619402,Solano,Solano,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Limited,Allowed,,No,No,,38.4475120,-121.8242225,19,2022-01-22,Distribution: Silent,Cultivation: Indoor only
+Rio Vista,Rio Vista,660984,Solano,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.1751526,-121.7085860,9,2022-01-22,,Cultivation: Indoor only
+Solano County,,,Solano,Solano,Solano County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,439,,,,2022-01-22,,
+Santa Rosa,Santa Rosa,670098,Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.4468158,-122.7061361,178,2022-01-22,,Cultivation: Indoor only
+Petaluma,Petaluma,656784,Sonoma,Sonoma,Sonoma County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,38.2422531,-122.6286306,62,2022-01-22,Micro: Silent,
+Rohnert Park,Rohnert Park,662546,Sonoma,Sonoma,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.3482133,-122.6988818,43,2022-01-22,,
+Windsor,Windsor,685922,Sonoma,Sonoma,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.5420993,-122.8086133,28,2022-01-22,,
+Healdsburg,Healdsburg,633056,Sonoma,Sonoma,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.6225714,-122.8656918,12,2022-01-22,Retail (storefront): City is planning further discussions or bond meausre in 2022.,
+Sonoma,Sonoma,672646,Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Limited,Prohibited,Allowed,,No,No,,38.2903313,-122.4598310,11,2022-01-22,,Manufacturing: Type N or P only
+Cloverdale,Cloverdale,614190,Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,38.7959624,-123.0153700,9,2022-01-22,,
+Cotati,Cotati,616560,Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,38.3284920,-122.7100491,7,2022-01-22,,
+Sebastopol,Sebastopol,670770,Sonoma,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,38.3999838,-122.8277275,7,2022-01-22,,Cultivation: Indoor only
+Sonoma County,,,Sonoma,Sonoma,Sonoma County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,503,,,,2022-01-22,,
+Modesto,Modesto,648354,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.6375332,-121.0030494,215,2022-01-22,,
+Turlock,Turlock,680812,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,,No,No,,37.5045611,-120.8569962,74,2022-01-22,Micro: Silent,"Retail (Non-storefront): Delivery by storefront only
+Cultivation: Indoor only"
+Ceres,Ceres,612524,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,37.5991087,-120.9684320,48,2022-01-22,,Cultivation: Indoor only
+Riverbank,Riverbank,661068,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Allowed,Prohibited,Prohibited,Limited,Allowed,,No,No,,37.7256023,-120.9381351,25,2022-01-22,"Distribution, Manufacturing, Micro: Silent",Cultivation: Indoor only
+Oakdale,Oakdale,652694,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,,No,No,,37.7616661,-120.8464343,23,2022-01-22,Micro: Silent,
+Patterson,Patterson,656112,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,,No,No,,37.4740526,-121.1433883,22,2022-01-22,,Cultivation: Indoor only
+Newman,Newman,651140,Stanislaus,Stanislaus,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.3156543,-121.0211254,11,2022-01-22,,
+Waterford,Waterford,683612,Stanislaus,Stanislaus,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,,No,No,,37.6426846,-120.7541520,9,2022-01-22,,
+Hughson,Hughson,634904,Stanislaus,Stanislaus,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,37.6021002,-120.8659790,7,2022-01-22,,
+Stanislaus County,,,Stanislaus,Stanislaus,Stanislaus County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,555,,,,2022-01-22,,
+Yuba City,Yuba City,686972,Sutter,Sutter,Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.1385876,-121.6396607,67,2022-01-22,,
+Live Oak,Live Oak,641936,Sutter,Sutter,Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.2788019,-121.6624391,8,2022-01-22,,
+Sutter County,,,Sutter,Sutter,Sutter County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,97,,,,2022-01-22,"Manufacturing, Testing, Micro: Silent",
+Tehama,Tehama,678106,Tehama,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.0217761,-122.1269008,430,2022-01-22,,
+Red Bluff,Red Bluff,659892,Tehama,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,40.1735147,-122.2415247,13,2022-01-22,,
+Corning,Corning,616322,Tehama,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.9281988,-122.1819931,7,2022-01-22,,
+Tehama County,,,Tehama,Tehama,Tehama County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,64,,,,2022-01-22,"Manufacturing, Testing, Micro: Silent",
+Trinity County,,,Trinity,Trinity,Trinity County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,13,,,,2022-01-22,,
+Visalia,Visalia,682954,Tulare,Tulare,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.3272719,-119.3288620,136,2022-01-22,,
+Tulare,Tulare,680644,Tulare,Tulare,Tulare County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,36.1993663,-119.3419206,65,2022-01-22,,
+Porterville,Porterville,658240,Tulare,Tulare,Tulare County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,,No,No,,36.0635420,-119.0336003,60,2022-01-22,,Retail (Non-storefront): Delivery from storefronts only
+Dinuba,Dinuba,619318,Tulare,Tulare,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.5453531,-119.3988747,24,2022-01-22,,
+Lindsay,Lindsay,641712,Tulare,Tulare,Tulare County,City,Allowed,Limited,Allowed,Allowed,Limited,Allowed,,No,No,,36.2082160,-119.0896803,13,2022-01-22,Micro: Silent,"Retail (Non-storefront): Delivery from storefront only
+Cultivation: Indoor only"
+Exeter,Exeter,623126,Tulare,Tulare,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,36.2940056,-119.1459278,11,2022-01-22,,
+Farmersville,Farmersville,623616,Tulare,Tulare,Tulare County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,,No,No,,36.3053520,-119.2081346,11,2022-01-22,,Cultivation: Indoor only
+Woodlake,Woodlake,686300,Tulare,Tulare,Tulare County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,36.4128251,-119.0995300,7,2022-01-22,Micro: Silent,Cultivation: Indoor and mixed light only
+Tulare County,,,Tulare,Tulare,Tulare County,County,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Prohibited,No,No,No,475,,,,2022-01-22,Allows delivery from outside jurisdiction,
+Sonora,Sonora,672674,Tuolumne,Tuolumne,Tuolumne County,City,Limited,Limited,Prohibited,Allowed,Prohibited,Allowed,,No,No,,37.9816919,-120.3826626,4,2022-01-22,,"Retail (Storefront): Limit 3
+Retail (Non-storefront): Delivery from storefront only"
+Tuolumne County,,,Tuolumne,Tuolumne,Tuolumne County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,54,,,,2022-01-22,,
+Oxnard,Oxnard,654652,Ventura,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,34.2023461,-119.2046028,206,2022-01-22,Micro: Silent,
+Thousand Oaks,Thousand Oaks,678582,Ventura,Ventura,Ventura County,City,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,No,,34.1932896,-118.8742350,130,2022-01-22,,
+Simi Valley,Simi Valley,672016,Ventura,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.2668875,-118.7484575,128,2022-01-22,,
+Ventura (San Buenaventura),San Buenaventura (Ventura),665042,Ventura,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,34.2677796,-119.2542062,111,2022-01-22,,Microbusiness: No cultivation
+Camarillo,Camarillo,610046,Ventura,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.2218233,-119.0321535,68,2022-01-22,,
+Moorpark,Moorpark,649138,Ventura,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.2859430,-118.8762626,37,2022-01-22,,
+Santa Paula,Santa Paula,670042,Ventura,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,,No,Yes,,34.3523140,-119.0688457,31,2022-01-22,,
+Port Hueneme,Port Hueneme,658296,Ventura,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,34.1621431,-119.2041771,23,2022-01-22,,Cultivation: Indoor only
+Fillmore,Fillmore,624092,Ventura,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,34.3984228,-118.9160960,15,2022-01-22,,
+Ojai,Ojai,653476,Ventura,Ventura,Ventura County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Allowed,,No,No,,34.4482528,-119.2465775,7,2022-01-22,Distribution: Silent,
+Ventura County,,,Ventura,Ventura,Ventura County,County,Prohibited,Prohibited,Limited,Prohibited,Limited,Prohibited,No,No,Yes,859,,,,2022-01-22,,"Distribution: Self-distribution only
+Cultivation: Indoor only"
+Davis,Davis,618100,Yolo,Yolo,Yolo County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,,No,No,,38.5561470,-121.7377925,68,2022-01-22,,
+Woodland,Woodland,686328,Yolo,Yolo,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,,No,Yes,,38.6711687,-121.7500290,60,2022-01-22,"Allows delivery from outside jurisdiction, but must have a city permit",
+West Sacramento,West Sacramento,684816,Yolo,Yolo,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,,No,Yes,,38.5543684,-121.5486634,54,2022-01-22,Allows delivery from outside jurisdiction,Cultivation: Indoor only
+Winters,Winters,686034,Yolo,Yolo,Yolo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,38.5332708,-121.9754730,7,2022-01-22,,
+Yolo County,,,Yolo,Yolo,Yolo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,221,,,,2022-01-22,,
+Marysville,Marysville,646170,Yuba,Yuba,Yuba County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,,No,No,,39.1515353,-121.5833738,11,2022-01-22,,Cultivation: Indoor only
+Wheatland,Wheatland,685012,Yuba,Yuba,Yuba County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,,Yes,Yes,,39.0311632,-121.3899957,3,2022-01-22,,
+Yuba County,,,Yuba,Yuba,Yuba County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,74,,,,2022-01-22,,
