@@ -48,7 +48,7 @@ export default function drawCountyMap({
       d3.select(domElement + " [data-name] g").remove();
     }
 
-    // xml("/data/CA_Counties_TIGER2016.svg").then((counties) => {
+    // California Counties Boundaries - has more recognizable coastline and island fills.
     xml("/assets/data/cnty19_1.svg").then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-boundaries"]'
@@ -72,8 +72,8 @@ export default function drawCountyMap({
       });
     });
 
-    // County stroke lines and tooltips
-    xml("/assets/data/cnty19_1.svg").then((counties) => {
+    // County stroke lines and tooltips (interactions, includes islands belonging to different counties.)
+    xml("/assets/data/ca_counties_tiger2016.svg").then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-strokes"]'
       );
@@ -85,7 +85,7 @@ export default function drawCountyMap({
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
         // let name = el.attr("data-name"); // TIGER2016
-        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        let name = el.attr("data-name"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from californoia county boundaries
         let geoid = el.attr("data-geoid");
         let props = getCountyTooltipData(data, { name, island, geoid });
@@ -101,8 +101,7 @@ export default function drawCountyMap({
           .on("mouseover focus", function (event, d) {
             d3.select(this)
             .attr("fill", "#fcfcfc")
-            .attr("fill-opacity", "0.2")
-            ;
+            .attr("fill-opacity", "0.2");
 
             tooltip.html(chartTooltipCounty(data, props, tooltipElement));
             return tooltip
@@ -111,9 +110,6 @@ export default function drawCountyMap({
               .style("visibility", "visible");
           })
           .on("mousemove", function (event, d) {
-            // console.log(this);
-            console.log(this.getBoundingClientRect());
-
             let mapWidth = parseInt(
               d3
                 .select("[data-layer-name=map-layers-container]")
@@ -127,41 +123,34 @@ export default function drawCountyMap({
                 .replace("px", "")
             );
 
-            let mapScale = mapHeight / 900;
-
-            let tooltipX =
-              (parseInt(this.getBoundingClientRect().x) +
-                parseInt(this.getBoundingClientRect().width)) *
-                mapScale;
-
-            let countyX = parseInt(this.getBoundingClientRect().x);
-            let countyWidth = parseInt(this.getBoundingClientRect().width);
-
-            if (countyX + countyWidth > mapWidth - countyWidth) {
-              tooltipX = countyX - countyWidth - 30;
-            }
-
-            let countyY = parseInt(this.getBoundingClientRect().y)
-            let countyHeight = parseInt(this.getBoundingClientRect().height);
-
-            let tooltipY = countyY;
+      
+            let mapTop = parseInt(countiesGroup.node().getBoundingClientRect().top);
             
-     
-            if (countyY - countyHeight > mapHeight - countyHeight) {
-              tooltipY = mapHeight - countyHeight + 30; 
-                // mapHeight * 0.5 + (parseInt(this.getBoundingClientRect().y) / 2) - (mapHeight * 0.3);
+            let tooltipX = mapWidth * 0.6;
+            let tooltipY = mapTop + 60;
+            
+            if (window.innerWidth < 600) {
+              tooltipX = 60;
+              tooltipY = 60;
+
+              return tooltip
+              // .style("position", relative)
+              .style("left", tooltipX + "px")
+              .style("bottom", 0 + "px");
+            } else {
+              return tooltip
+              .style("left", tooltipX + "px")
+              .style("top", tooltipY + "px");
             }
 
-            return tooltip
-              .style("top", tooltipY + "px")
-              .style("left", tooltipX + "px");
+      
           })
-          .on("mouseout", function (d) {
+          .on("mouseout focusout", function (d) {
             d3.select(this)
             .attr("fill", "transparent");
             return tooltip
               .transition()
-              .delay(500)
+              .delay(2500)
               .style("visibility", "hidden");
           });
       });
