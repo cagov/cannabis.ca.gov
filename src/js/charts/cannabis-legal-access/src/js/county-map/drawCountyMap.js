@@ -49,7 +49,7 @@ export default function drawCountyMap({
     }
 
     // xml("/data/CA_Counties_TIGER2016.svg").then((counties) => {
-    xml("/data/cnty19_1.svg").then((counties) => {
+    xml("/assets/data/cnty19_1.svg").then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-boundaries"]'
       );
@@ -73,7 +73,7 @@ export default function drawCountyMap({
     });
 
     // County stroke lines and tooltips
-    xml("/data/cnty19_1.svg").then((counties) => {
+    xml("/assets/data/cnty19_1.svg").then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-strokes"]'
       );
@@ -122,7 +122,7 @@ export default function drawCountyMap({
     });
 
     /* PLACES */
-    xml("/data/tl_2016_06_place.svg").then((places) => {
+    xml("/assets/data/tl_2016_06_place.svg").then((places) => {
       const group = d3.select(domElement + ' [data-name="places-boundaries"]');
 
       group.node().append(places.documentElement);
@@ -148,7 +148,7 @@ export default function drawCountyMap({
     });
 
     /* LAND */
-    xml("/data/california-land.svg").then((land) => {
+    xml("/assets/data/california-land.svg").then((land) => {
       const group = d3.select(domElement + ' [data-name="land-boundaries"]');
 
       group.node().append(land.documentElement);

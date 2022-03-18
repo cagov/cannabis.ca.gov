@@ -114,6 +114,9 @@ cagov-map-table .map-header {
 }
 
 /* Breadcrumb */
+cagov-map-table .map-header .breadcrumb {
+  margin: 0;
+}
 cagov-map-table .map-header .breadcrumb span {
   font-style: normal;
   font-weight: 700;
@@ -164,6 +167,7 @@ cagov-map-table .panel.legend {
   /* get grid */
   width: 307px;
   height: 200px;
+  display: none;
   
 }
 
