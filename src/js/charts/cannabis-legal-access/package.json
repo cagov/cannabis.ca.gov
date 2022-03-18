@@ -42,17 +42,12 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-middleware": "^5.3.1",
     "webpack-dev-server": "^4.7.4",
-    "webpack-hot-middleware": "^2.25.1"
+    "webpack-hot-middleware": "^2.25.1",
+    "http-server": "^14.1.0",
+    "regenerator-runtime": "^0.13.9"
   },
   "dependencies": {
-    "@types/topojson-client": "^3.1.0",
     "d3": "^7.3.0",
-    "d3-fetch": "^3.0.1",
-    "d3-geo": "^3.0.1",
-    "http-server": "^14.1.0",
-    "regenerator-runtime": "^0.13.9",
-    "simplify-geojson": "^1.0.4",
-    "topojson": "^3.0.2",
-    "topojson-client": "^3.1.0"
+    "d3-fetch": "^3.0.1"
   }
 }

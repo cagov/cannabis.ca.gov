@@ -13,7 +13,7 @@ function chartTooltipCounty(data, props, tooltipElement) {
   let tooltipContent = `<div class="cagov-map-table tooltip-container">
           <div class="county-tooltip">
             <h3>${props["County label"]}</h3>
-              <div class="legend-label">
+              <div class="tooltip-label">
                 ${message}
               </div>
           </div>
@@ -73,15 +73,28 @@ function countyStatusTooltipMessage(data, props) {
 
   if (prohibitionStatus === "Yes") {
     let icon = prohibitedIcon();
-    return `<div><span class="icon">${icon}</span><strong>Prohibited</strong>: No commercial cannabis activity allowed</div>
-      <div><em>Click to view details about this county</em></div>`;
+    return `<div>
+        
+        <span class="status">
+        <span class="icon">${icon}</span>
+        <strong>Prohibited</strong>: No commercial cannabis activity allowed</span>
+      </div>
+      <div>
+        <em>Click to view details about this county</em>
+      </div>`;
   } else if (prohibitionStatus === "No") {
     let icon = allowedIcon();
     // <span><span id="tooltip-allowed" data-variable="percentage">${percentageAllowed}%</span> of cities and counties don’t allow any type of commercial cannabis activity.</span>`;
 
-    return `<div><span class="icon">${icon}</span><strong>Allowed</strong> <br />
-    <span>At least 1 type of cannabis business activity is allowed</span></div>
-    <div><em>Click to view details about this county</em></div>`;
+    return `<div>
+      
+      <span class="status">
+      <span class="icon">${icon}</span>
+      <strong>Allowed</strong> <br />
+    At least 1 type of cannabis business activity is allowed</span></div>
+    <div>
+      <em>Click to view details about this county</em>
+    </div>`;
   }
 }
 

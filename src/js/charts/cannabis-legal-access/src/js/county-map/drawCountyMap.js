@@ -96,27 +96,49 @@ export default function drawCountyMap({
           .attr("fill", "transparent")
           .attr("tabindex", "0")
           .attr("aria-label", (d, i) => {
-            return tooltip.html(
-              chartTooltipCounty(data, props, tooltipElement)
-            );
+            return "Label";
           })
           .on("mouseover focus", function (event, d) {
             tooltip.html(chartTooltipCounty(data, props, tooltipElement));
-            return tooltip.style("visibility", "visible");
+            return tooltip
+            .transition().duration(0)
+            .style("visibility", "visible");
           })
-          .on("mousemove", function (event) {
+          .on("mousemove", function (event, d) {
+            // console.log(this);
+            console.log(this.getBoundingClientRect());
+            console.log(domElement);
+            let mapScale = d3.select("[data-layer-name=map-layers-container]").style("height").replace("px", "") / 900;
+           
+            console.log(mapScale);
+            let tooltipX = ((parseInt(this.getBoundingClientRect().x) + parseInt(this.getBoundingClientRect().width)) * mapScale) + 60 ;
+            let tooltipY = (parseInt(this.getBoundingClientRect().y)) + 40;
+            console.log("t xy", tooltipX, tooltipY);
+
             return tooltip
               .style(
                 "top",
-                parseInt(this.getBoundingClientRect().y) + 310 + "px"
+               tooltipY + "px"
               )
               .style(
                 "left",
-                parseInt(this.getBoundingClientRect().x) + 10 + "px"
+                tooltipX + "px"
               );
+            // return tooltip
+            //   .style(
+            //     "top",
+            //     (parseInt(this.getBoundingClientRect().y) * 2) + 15 + "px"
+            //   )
+            //   .style(
+            //     "left",
+            //     (parseInt(this.getBoundingClientRect().x) * 1) + 40 + "px"
+            //   );
           })
           .on("mouseout", function () {
-            return tooltip.style("visibility", "hidden");
+            return tooltip
+            .transition()
+            .delay(500)
+            .style("visibility", "hidden");
           });
       });
     });
