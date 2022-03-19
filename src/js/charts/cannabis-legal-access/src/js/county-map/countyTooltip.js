@@ -76,7 +76,7 @@ function countyStatusTooltipMessage(data, props) {
         <div class="status">
         <div class="icon">${icon}</div>
           <p>
-            <strong>Prohibited</strong>: No commercial cannabis activity allowed
+            <strong>Prohibited</strong>: No cannabis business activity allowed
           </p>
         </div>
         <div>
