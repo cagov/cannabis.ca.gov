@@ -75,6 +75,18 @@ cagov-county-map .tooltip-templates {
   font-weight: 700;
   font-size: 18px;
 }
+.cagov-map-table.tooltip-container .status  {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row;
+}
+.cagov-map-table.tooltip-container .status .icon {
+  width: 30px;
+  margin-right: 8px;
+}
+.cagov-map-table.tooltip-container .status p {
+  margin: 0;
+}
 
 .cagov-map-table.tooltip-container .county-tooltip .tooltip-label strong {
   line-height: 24px;

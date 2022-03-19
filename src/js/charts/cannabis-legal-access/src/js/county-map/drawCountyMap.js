@@ -110,6 +110,7 @@ export default function drawCountyMap({
               .style("visibility", "visible");
           })
           .on("mousemove", function (event, d) {
+
             let mapWidth = parseInt(
               d3
                 .select("[data-layer-name=map-layers-container]")
@@ -123,25 +124,79 @@ export default function drawCountyMap({
                 .replace("px", "")
             );
 
-      
-            let mapTop = parseInt(countiesGroup.node().getBoundingClientRect().top);
-            
-            let tooltipX = mapWidth * 0.6;
-            let tooltipY = mapTop + 60;
-            
-            if (window.innerWidth < 600) {
-              tooltipX = 60;
-              tooltipY = 60;
+            // console.log("m wh", mapWidth, mapHeight);
+            let mapTop = parseInt(d3
+              .select("svg[data-layer-name=map-layers-container]").node().getBoundingClientRect().top);
+            let mapBottom = parseInt(d3
+              .select("svg[data-layer-name=map-layers-container]").node().getBoundingClientRect().bottom);
 
-              return tooltip
-              // .style("position", relative)
-              .style("left", tooltipX + "px")
-              .style("bottom", 0 + "px");
-            } else {
+            // console.log(mapTop, mapBottom);
+ 
+            let mapScale = mapHeight / 900;
+
+
+            // console.log(this.getBoundingClientRect());
+
+            let countyX = parseInt(this.getBoundingClientRect().x);
+            let countyY = parseInt(this.getBoundingClientRect().y);
+
+            let countyWidth = parseInt(this.getBoundingClientRect().width);
+            let countyHeight = parseInt(this.getBoundingClientRect().height);
+            
+            // console.log("m wh s", mapWidth, mapHeight, mapScale);
+            // console.log("c wh", countyWidth, countyHeight);
+            // console.log("c xy", countyX, countyY);
+
+            // let tooltipWidth = 310;
+            // let tooltipHeight = 180;
+            
+            // Get quadrant
+            let quadrant = 0;
+            if (countyX < (mapWidth / 2) && countyY < (mapHeight / 2)) {
+              quadrant = 0; // upper left
+            } else if (countyX >= (mapWidth / 2) && countyY < (mapHeight / 2)) {
+              quadrant = 1; // upper right
+            } else if (countyX < (mapWidth / 2) && countyY >= (mapHeight / 2)) {
+              quadrant = 2; // lower left
+            } else if (countyX >= (mapWidth / 2) && countyY >= (mapHeight / 2)) {
+              quadrant = 3; // lower right
+            } 
+
+            let tooltipX = countyX;
+            let tooltipY = countyY;
+
+            let bufferX = 10;
+            let bufferY = 10;
+
+            if (quadrant === 0) {
+              console.log("q0");
+              tooltipX = countyX + countyWidth + bufferX;
+              tooltipY = countyY + countyHeight + bufferY;
+            } else if (quadrant === 1) {
+              console.log("q1");
+              tooltipX = countyX - countyWidth - bufferX;
+              tooltipY = countyY + countyHeight + bufferY;
+            } else if (quadrant === 2) {
+              console.log("q2");
+              tooltipX = countyX + countyWidth + bufferX;
+              tooltipY = countyY - countyHeight - 180;
+            } else if (quadrant === 3) {
+              console.log("q3");
+              tooltipX = countyX - countyWidth - bufferX;
+              tooltipY = countyY - countyHeight - 180;
+            }
+            
+
+            if (window.innerWidth < 600) {
+             tooltipX = 45;
+             tooltipY = mapBottom + 16;
+            } 
+
+
               return tooltip
               .style("left", tooltipX + "px")
               .style("top", tooltipY + "px");
-            }
+            
 
       
           })
@@ -150,7 +205,7 @@ export default function drawCountyMap({
             .attr("fill", "transparent");
             return tooltip
               .transition()
-              .delay(2500)
+              .delay(500)
               .style("visibility", "hidden");
           });
       });
