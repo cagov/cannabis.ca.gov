@@ -5,12 +5,9 @@
  * @param {string} tooltipElement
  * @returns {string} - HTML markup
  */
-function chartTooltipCounty(data, props, tooltipElement) {
-  let { name } = props;
-
+function chartTooltipCounty(data, props) {
   let message = countyStatusTooltipMessage(data, props);
-
-  let tooltipContent = `<div class="cagov-map-table tooltip-container">
+  let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
           <div class="county-tooltip">
             <h3>${props["County label"]}</h3>
               <div class="tooltip-label">
@@ -29,7 +26,7 @@ function chartTooltipCounty(data, props, tooltipElement) {
  */
 function getCountyTooltipData(data, props) {
   let { dataPlaces } = data;
-  let { name, island } = props;
+  let { name } = props;
 
   data.prohibitedStatusColors = {
     Yes: "#C0633B", // Orange
@@ -69,35 +66,47 @@ function getCountyTooltipData(data, props) {
  */
 function countyStatusTooltipMessage(data, props) {
   let { name, island, geoid, percentageAllowed, prohibitionStatus } = props;
+  let messages = {
+    statewideProhibited: "<strong>Prohibited</strong>: No cannabis business activity allowed",
+    statewideAllowed: "<strong>Allowed</strong> At least 1 type of cannabis business activity is allowed",
+    countyDetailsCTA: "<em>Click to view details about this county</em>",
+  }
+
+  let { statewideAllowed, statewideProhibited, countyDetailsCTA } = messages;
+
+  
 
   if (prohibitionStatus === "Yes") {
     let icon = prohibitedIcon();
+    // @TODO - pull strings from data.messages
+ 
     return `<div>
         <div class="status">
         <div class="icon">${icon}</div>
           <p>
-            <strong>Prohibited</strong>: No cannabis business activity allowed
+            ${statewideProhibited}
           </p>
         </div>
         <div>
           <p>
-            <em>Click to view details about this county</em>
+            <a class="loadCounty" href="#">${countyDetailsCTA}</a>
           </p>
         </div>
       </div>`;
   } else if (prohibitionStatus === "No") {
     let icon = allowedIcon();
-    // <span><span id="tooltip-allowed" data-variable="percentage">${percentageAllowed}%</span> of cities and counties don’t allow any type of commercial cannabis activity.</span>`;
 
     return `<div>
       <div class="status">
         <div class="icon">${icon}</div>
         <p>  
-          <strong>Allowed</strong> At least 1 type of cannabis business activity is allowed
+          ${statewideAllowed}
         </p>
       </div>
       <div>
-        <p><em>Click to view details about this county</em></p>
+        <p>
+        <a class="loadCounty" href="#">${countyDetailsCTA}</a>
+        </p>
       </div>
     </div>`;
   }

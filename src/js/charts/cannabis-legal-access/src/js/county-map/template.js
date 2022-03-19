@@ -7,6 +7,8 @@ export default function template(options) {
         <div class="map-container">
             <div class="map-detail">
             </div>
+            <div class="tooltips">
+            </div>
         </div>
     </div>
     `;

@@ -97,14 +97,19 @@ class CaGovCountyMap extends window.HTMLElement {
     this.svg = drawCountyMap({
       translations: this.translationsStrings,
       data: this.localData,
-      domElement: ".map-container",
-      tooltipElement: ".tooltip-templates",
+      domElement: ".map-container .map-detail",
+      tooltipElement: ".map-container .tooltips",
       chartOptions: this.chartOptions,
       chartBreakpointValues: this.chartBreakpointValues,
       screenDisplayType: this.screenDisplayType,
+      messages: {
+        statewideProhibited:
+          "<strong>Prohibited</strong>: No cannabis business activity allowed",
+        statewideAllowed:
+          "<strong>Allowed</strong> At least 1 type of cannabis business activity is allowed",
+        countyDetailsCTA: "<em>Click to view details about this county</em>",
+      },
     });
-
-
   }
 
   setActivity(e, data) {

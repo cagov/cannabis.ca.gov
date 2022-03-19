@@ -48,6 +48,16 @@ export default function drawCountyMap({
       d3.select(domElement + " [data-name] g").remove();
     }
 
+    /* Tooltip container */
+    let tooltip = d3
+      .select(tooltipElement)
+      .append("div")
+      .attr("class", "tooltip")
+      .style("position", "relative")
+      .style("z-index", "10")
+      .style("visibility", "hidden")
+      .text("");
+
     // California Counties Boundaries - has more recognizable coastline and island fills.
     xml("/assets/data/cnty19_1.svg").then((counties) => {
       const countiesGroup = d3.select(
@@ -62,7 +72,7 @@ export default function drawCountyMap({
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from californoia county boundaries
-        let geoid = el.attr("data-geoid");
+        // let geoid = el.attr("data-geoid");
         el.attr("fill", () => {
           return getCountyColor(data, { name, island });
         })
@@ -101,7 +111,8 @@ export default function drawCountyMap({
           .on("mouseover focus", function (event, d) {
             d3.select(this).attr("fill", "#fcfcfc").attr("fill-opacity", "0.2");
 
-            tooltip.html(chartTooltipCounty(data, props, tooltipElement));
+            tooltip.html(chartTooltipCounty(data, props));
+
             return tooltip
               .transition()
               .duration(0)
@@ -147,22 +158,27 @@ export default function drawCountyMap({
             let countyWidth = parseInt(this.getBoundingClientRect().width);
             let countyHeight = parseInt(this.getBoundingClientRect().height);
 
-            console.log("m wh s", mapWidth, mapHeight, mapScale);
-            console.log("c wh", countyWidth, countyHeight);
-            console.log("c xy", countyX, countyY);
+            // console.log("m wh s", mapWidth, mapHeight, mapScale);
+            // console.log("c wh", countyWidth, countyHeight);
+            // console.log("c xy", countyX, countyY);
 
             // let tooltipWidth = 310;
             // let tooltipHeight = 180;
 
+            let mapCenterWidth = mapWidth / 2;
+            let mapCenterHeight = mapHeight / 2;
             // Get quadrant
             let quadrant = 0;
-            if (countyX < mapWidth / 2 && countyY < mapHeight / 2) {
+            if (countyX < mapCenterWidth && countyY < mapCenterHeight) {
               quadrant = 0; // upper left
-            } else if (countyX >= mapWidth / 2 && countyY < mapHeight / 2) {
+            } else if (countyX >= mapCenterWidth && countyY < mapCenterHeight) {
               quadrant = 1; // upper right
-            } else if (countyX < mapWidth / 2 && countyY >= mapHeight / 2) {
+            } else if (countyX < mapCenterWidth && countyY >= mapCenterHeight) {
               quadrant = 2; // lower left
-            } else if (countyX >= mapWidth / 2 && countyY >= mapHeight / 2) {
+            } else if (
+              countyX >= mapCenterWidth &&
+              countyY >= mapCenterHeight
+            ) {
               quadrant = 3; // lower right
             }
 
@@ -173,22 +189,22 @@ export default function drawCountyMap({
             let bufferY = 10;
 
             if (quadrant === 0) {
-              console.log("q0");
+              // console.log("q0");
               tooltipX = countyX + bufferX;
               tooltipY = countyY + countyHeight + bufferY;
             } else if (quadrant === 1) {
-              console.log("q1");
+              // console.log("q1");
               tooltipX = countyX - countyWidth - bufferX;
               tooltipY = countyY + countyHeight + bufferY;
             } else if (quadrant === 2) {
-              console.log("q2");
+              // console.log("q2");
               tooltipX = countyX + bufferX;
-              tooltipY = countyY - countyHeight;
+              tooltipY = countyY - 80;
             } else if (quadrant === 3) {
-              console.log("q3");
-            
+              // console.log("q3");
+
               tooltipX = countyX - countyWidth - 180;
-              tooltipY = countyY - countyHeight - 180;
+              tooltipY = countyY - 80;
             }
 
             if (window.innerWidth < 600) {
@@ -202,6 +218,7 @@ export default function drawCountyMap({
           })
           .on("mouseout focusout", function (d) {
             d3.select(this).attr("fill", "transparent");
+
             return tooltip
               .transition()
               .delay(500)
@@ -235,30 +252,6 @@ export default function drawCountyMap({
         });
       });
     });
-
-    /* LAND */
-    // xml("/assets/data/california-land.svg").then((land) => {
-    //   const group = d3.select(domElement + ' [data-name="land-boundaries"]');
-
-    //   group.node().append(land.documentElement);
-    //   let paths = group.selectAll("g path");
-
-    //   paths.each(function (p, j) {
-    //     let el = d3.select(this); // This is a black and white land later intended to be used with screen color mode.
-    //   });
-
-    //   // .attr("fill-opacity", 1);
-    //   // attr('mask', 'url(#mask)')
-    // });
-
-    /* Tooltip container */
-    let tooltip = d3.select(domElement)
-      .append("div")
-      .style("position", "relative")
-      .style("z-index", "10")
-      .style("visibility", "hidden")
-      // .style("background", "#fff")
-      .text("");
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);
   }

@@ -28,9 +28,6 @@ main {
 
 
 /* TOOLTIPS */
-cagov-county-map .tooltip-templates {
-  display: none;
-}
 
 .tooltip-container {
   display: flex;
@@ -58,7 +55,6 @@ cagov-county-map .tooltip-templates {
   justify-content: center;
   align-items: flex-start;
   padding: 8px 24px;
-  background: #ffffff;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -66,7 +62,11 @@ cagov-county-map .tooltip-templates {
   padding: 0px;
 }
 
-.cagov-map-table.tooltip-container .county-tooltip h3 {
+a.loadCounty {
+  color: #000
+}
+
+.cagov-map-tooltip.tooltip-container .county-tooltip h3 {
   margin: 0;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -75,20 +75,21 @@ cagov-county-map .tooltip-templates {
   font-weight: 700;
   font-size: 18px;
 }
-.cagov-map-table.tooltip-container .status  {
+.cagov-map-tooltip.tooltip-container .status  {
   display: flex;
   flex-direction: column;
   flex-flow: row;
+  line-height: 32px;
 }
-.cagov-map-table.tooltip-container .status .icon {
+.cagov-map-tooltip.tooltip-container .status .icon {
   width: 30px;
   margin-right: 8px;
 }
-.cagov-map-table.tooltip-container .status p {
+.cagov-map-tooltip.tooltip-container .status p {
   margin: 0;
 }
 
-.cagov-map-table.tooltip-container .county-tooltip .tooltip-label strong {
+.cagov-map-tooltip.tooltip-container .county-tooltip .tooltip-label strong {
   line-height: 24px;
 }
 
