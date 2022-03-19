@@ -53,7 +53,7 @@ export default function drawCountyMap({
       .select(tooltipElement)
       .append("div")
       .attr("class", "tooltip")
-      .style("position", "relative")
+      .style("position", "absolute")
       .style("z-index", "10")
       .style("visibility", "hidden")
       .text("");
@@ -190,7 +190,7 @@ export default function drawCountyMap({
 
             if (quadrant === 0) {
               // console.log("q0");
-              tooltipX = countyX + bufferX;
+              tooltipX = countyX + countyWidth +  bufferX;
               tooltipY = countyY + countyHeight + bufferY;
             } else if (quadrant === 1) {
               // console.log("q1");
@@ -198,7 +198,7 @@ export default function drawCountyMap({
               tooltipY = countyY + countyHeight + bufferY;
             } else if (quadrant === 2) {
               // console.log("q2");
-              tooltipX = countyX + bufferX;
+              tooltipX = countyX + countyWidth +  bufferX;
               tooltipY = countyY - 80;
             } else if (quadrant === 3) {
               // console.log("q3");
@@ -213,8 +213,8 @@ export default function drawCountyMap({
             }
 
             return tooltip
-              .style("left", tooltipX - 10 + "px")
-              .style("top", tooltipY - mapHeight - 310 + "px");
+              .style("left", tooltipX + "px")
+              .style("top", tooltipY + "px");
           })
           .on("mouseout focusout", function (d) {
             d3.select(this).attr("fill", "transparent");
@@ -243,7 +243,7 @@ export default function drawCountyMap({
           .attr("stroke-opacity", 0.4)
           .attr(
             "stroke",
-            placeColor !== "transparent" ? "#000" : "transparent"
+            placeColor !== "transparent" ? "#FFF" : "transparent"
           );
 
         el.attr("fill", () => {
