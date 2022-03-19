@@ -99,9 +99,7 @@ export default function drawCountyMap({
             return "Label";
           })
           .on("mouseover focus", function (event, d) {
-            d3.select(this)
-            .attr("fill", "#fcfcfc")
-            .attr("fill-opacity", "0.2");
+            d3.select(this).attr("fill", "#fcfcfc").attr("fill-opacity", "0.2");
 
             tooltip.html(chartTooltipCounty(data, props, tooltipElement));
             return tooltip
@@ -110,7 +108,6 @@ export default function drawCountyMap({
               .style("visibility", "visible");
           })
           .on("mousemove", function (event, d) {
-
             let mapWidth = parseInt(
               d3
                 .select("[data-layer-name=map-layers-container]")
@@ -125,15 +122,22 @@ export default function drawCountyMap({
             );
 
             // console.log("m wh", mapWidth, mapHeight);
-            let mapTop = parseInt(d3
-              .select("svg[data-layer-name=map-layers-container]").node().getBoundingClientRect().top);
-            let mapBottom = parseInt(d3
-              .select("svg[data-layer-name=map-layers-container]").node().getBoundingClientRect().bottom);
+            let mapTop = parseInt(
+              d3
+                .select("svg[data-layer-name=map-layers-container]")
+                .node()
+                .getBoundingClientRect().top
+            );
+            let mapBottom = parseInt(
+              d3
+                .select("svg[data-layer-name=map-layers-container]")
+                .node()
+                .getBoundingClientRect().bottom
+            );
 
             // console.log(mapTop, mapBottom);
- 
-            let mapScale = mapHeight / 900;
 
+            let mapScale = mapHeight / 900;
 
             // console.log(this.getBoundingClientRect());
 
@@ -142,25 +146,25 @@ export default function drawCountyMap({
 
             let countyWidth = parseInt(this.getBoundingClientRect().width);
             let countyHeight = parseInt(this.getBoundingClientRect().height);
-            
-            // console.log("m wh s", mapWidth, mapHeight, mapScale);
-            // console.log("c wh", countyWidth, countyHeight);
-            // console.log("c xy", countyX, countyY);
+
+            console.log("m wh s", mapWidth, mapHeight, mapScale);
+            console.log("c wh", countyWidth, countyHeight);
+            console.log("c xy", countyX, countyY);
 
             // let tooltipWidth = 310;
             // let tooltipHeight = 180;
-            
+
             // Get quadrant
             let quadrant = 0;
-            if (countyX < (mapWidth / 2) && countyY < (mapHeight / 2)) {
+            if (countyX < mapWidth / 2 && countyY < mapHeight / 2) {
               quadrant = 0; // upper left
-            } else if (countyX >= (mapWidth / 2) && countyY < (mapHeight / 2)) {
+            } else if (countyX >= mapWidth / 2 && countyY < mapHeight / 2) {
               quadrant = 1; // upper right
-            } else if (countyX < (mapWidth / 2) && countyY >= (mapHeight / 2)) {
+            } else if (countyX < mapWidth / 2 && countyY >= mapHeight / 2) {
               quadrant = 2; // lower left
-            } else if (countyX >= (mapWidth / 2) && countyY >= (mapHeight / 2)) {
+            } else if (countyX >= mapWidth / 2 && countyY >= mapHeight / 2) {
               quadrant = 3; // lower right
-            } 
+            }
 
             let tooltipX = countyX;
             let tooltipY = countyY;
@@ -170,7 +174,7 @@ export default function drawCountyMap({
 
             if (quadrant === 0) {
               console.log("q0");
-              tooltipX = countyX + countyWidth + bufferX;
+              tooltipX = countyX + bufferX;
               tooltipY = countyY + countyHeight + bufferY;
             } else if (quadrant === 1) {
               console.log("q1");
@@ -178,31 +182,26 @@ export default function drawCountyMap({
               tooltipY = countyY + countyHeight + bufferY;
             } else if (quadrant === 2) {
               console.log("q2");
-              tooltipX = countyX + countyWidth + bufferX;
-              tooltipY = countyY - countyHeight - 180;
+              tooltipX = countyX + bufferX;
+              tooltipY = countyY - countyHeight;
             } else if (quadrant === 3) {
               console.log("q3");
-              tooltipX = countyX - countyWidth - bufferX;
+            
+              tooltipX = countyX - countyWidth - 180;
               tooltipY = countyY - countyHeight - 180;
             }
-            
 
             if (window.innerWidth < 600) {
-             tooltipX = 45;
-             tooltipY = mapBottom + 16;
-            } 
+              tooltipX = 10;
+              tooltipY = mapHeight + 310;
+            }
 
-
-              return tooltip
-              .style("left", tooltipX + "px")
-              .style("top", tooltipY + "px");
-            
-
-      
+            return tooltip
+              .style("left", tooltipX - 10 + "px")
+              .style("top", tooltipY - mapHeight - 310 + "px");
           })
           .on("mouseout focusout", function (d) {
-            d3.select(this)
-            .attr("fill", "transparent");
+            d3.select(this).attr("fill", "transparent");
             return tooltip
               .transition()
               .delay(500)
@@ -253,13 +252,12 @@ export default function drawCountyMap({
     // });
 
     /* Tooltip container */
-    let tooltip = d3
-      .select("body")
+    let tooltip = d3.select(domElement)
       .append("div")
-      .style("position", "absolute")
+      .style("position", "relative")
       .style("z-index", "10")
       .style("visibility", "hidden")
-      .style("background", "#fff")
+      // .style("background", "#fff")
       .text("");
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);
