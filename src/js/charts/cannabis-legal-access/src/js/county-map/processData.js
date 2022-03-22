@@ -3,6 +3,9 @@ function getCountyColor(data, props) {
   let { dataPlaces } = data;
   let { name, island } = props;
 
+  let values = data.dataPlaces[name];
+  let mode = data.activities;
+
   data.prohibitedStatusColors = {
     Yes: "#C0633B", // Orange
     No: "#2F4C2C", // Green
@@ -21,12 +24,57 @@ function getCountyColor(data, props) {
     }
   });
 
-  // console.log("ccd", dataPlaces[currentCountyPlaceName]);
-  // look up unincorporated area and get rules
+  try {
+    if (values !== undefined) {
+      switch (mode) {
+        case "All activities":
+          let placeData = dataPlaces[currentCountyPlaceName];
+          let prohibitionStatus = placeData["CCA Prohibited by County"];
+          return data.prohibitedStatusColors[prohibitionStatus];
+        case "Retail":
+          if (getRetailAllowed(values)) {
+            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+          } else {
+            return data.prohibitedStatusColors["Yes"]; // Prohibited
+          }
+        case "Distributor":
+          if (getDistributorAllowed(data, mode, values)) {
+            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+          } else {
+            return data.prohibitedStatusColors["Yes"]; // Prohibited
+          }
+        case "Manufacturer":
+          if (getManufacturerAllowed(data, mode, values)) {
+            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+          } else {
+            return data.prohibitedStatusColors["Yes"]; // Prohibited
+          }
+        case "Testing":
+          if (getTestingAllowed(data, mode, values)) {
+            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+          } else {
+            return data.prohibitedStatusColors["Yes"]; // Prohibited
+          }
+        case "Cultivation":
+          if (getCultivationAllowed(data, mode, values)) {
+            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+          } else {
+            return data.prohibitedStatusColors["Yes"]; // Prohibited
+          }
+        default:
+          break;
+      }
+    } else {
+      // Get county and look up prohibition
+      // console.log("undefined", name);
+      let placeData = dataPlaces[currentCountyPlaceName];
+      let prohibitionStatus = placeData["CCA Prohibited by County"];
+      return data.prohibitedStatusColors[prohibitionStatus];
+    }
+  } catch (error) {
+    console.error("error", error, name);
+  }
 
-  let placeData = dataPlaces[currentCountyPlaceName];
-  let prohibitionStatus = placeData["CCA Prohibited by County"];
-  return data.prohibitedStatusColors[prohibitionStatus];
 }
 
 function getPlaceColor(data, props) {
