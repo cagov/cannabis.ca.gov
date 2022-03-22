@@ -1,4 +1,6 @@
 function getCountyColor(data, props) {
+
+  
   // Shared data object
   let { dataPlaces } = data;
   let { name, island } = props;
@@ -23,6 +25,7 @@ function getCountyColor(data, props) {
       return place;
     }
   });
+
 
   try {
     if (values !== undefined) {
