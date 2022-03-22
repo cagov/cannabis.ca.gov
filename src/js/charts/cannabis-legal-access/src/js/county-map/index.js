@@ -103,11 +103,36 @@ class CaGovCountyMap extends window.HTMLElement {
       chartBreakpointValues: this.chartBreakpointValues,
       screenDisplayType: this.screenDisplayType,
       messages: {
-        statewideProhibited:
-          "<strong>Prohibited</strong>: No cannabis business activity allowed",
-        statewideAllowed:
-          "<strong>Allowed</strong> At least 1 type of cannabis business activity is allowed",
-        countyDetailsCTA: "<em>Click to view details about this county</em>",
+        "StatewideAllActivities": {
+          all: "Cities and counties that allow at least 1 type of cannabis business activity",
+          city: "Cities that allow at least 1 type of cannabis business activity",
+          county: "Counties that allow at least 1 type of cannabis business activity",
+          prohibited: "Prohibit: <span data-type=\"percentage-prohibited\"></span>",
+          allowed: "Allow: <span data-type=\"percentage-allowed\"></span>",      
+          detailsCTA: "<em>Click to view details about this county</em>",
+        },
+        "StatewideActivity": {
+          all: "Cities and counties that allow <span data-type=\"activity\"></span>",
+          city: "Cities that allow <span data-type=\"activity\"></span>",
+          county: "Counties that allow <span data-type=\"activity\"></span>",
+          prohibited: "Prohibit: <span data-type=\"percentage-prohibited\"></span>",
+          allowed: "Allow: <span data-type=\"percentage-allowed\"></span>",      
+          detailsCTA: "<em>Click to view details about this county</em>",
+        },
+        "County": {
+          all: "County and cities that allow at least 1 type of cannabis business activity",
+          city: "Cities that allow <span data-type=\"activity\"></span>",
+          prohibited: "At least 1 type of cannabis business activity is allowed",
+          allowed: "No cannabis business activity allowed",  
+          detailsCTA: "<em>Click to view details about this county</em>",
+        },
+        "CountyActivity": {
+          all: "County and cities that allow at least 1 type of cannabis business activity",
+          city: "Cities that allow <span data-type=\"activity\"></span>",
+          prohibited: "<span data-type=\"percentage-prohibited\"></span> prohibited",
+          allowed: "<span data-type=\"percentage-allowed\"></span> allowed",      
+          detailsCTA: "<em>Details about this city</em>",
+        },
       },
     });
   }

@@ -1,12 +1,8 @@
 function getCountyColor(data, props) {
 
-  
   // Shared data object
   let { dataPlaces } = data;
-  let { name, island } = props;
-
-  let values = data.dataPlaces[name];
-  let mode = data.activities;
+  let { name } = props;
 
   data.prohibitedStatusColors = {
     Yes: "#C0633B", // Orange
@@ -25,7 +21,9 @@ function getCountyColor(data, props) {
       return place;
     }
   });
-
+  
+  let values = dataPlaces[currentCountyPlaceName];
+  let mode = data.activities;
 
   try {
     if (values !== undefined) {
@@ -36,31 +34,31 @@ function getCountyColor(data, props) {
           return data.prohibitedStatusColors[prohibitionStatus];
         case "Retail":
           if (getRetailAllowed(values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Distributor":
           if (getDistributorAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Manufacturer":
           if (getManufacturerAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Testing":
           if (getTestingAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Cultivation":
           if (getCultivationAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
@@ -101,31 +99,31 @@ function getPlaceColor(data, props) {
           return getAllActivities(data, mode, values);
         case "Retail":
           if (getRetailAllowed(values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Distributor":
           if (getDistributorAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Manufacturer":
           if (getManufacturerAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Testing":
           if (getTestingAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
         case "Cultivation":
           if (getCultivationAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+            return data.prohibitedStatusColors["No"]; // Allowed
           } else {
             return data.prohibitedStatusColors["Yes"]; // Prohibited
           }
@@ -150,7 +148,7 @@ function getAllActivities(data, mode, values) {
     getDistributorAllowed(values) ||
     getTestingAllowed(values)
   ) {
-    return data.prohibitedStatusColors["No"]; // If allowed, not prohibited.
+    return data.prohibitedStatusColors["No"]; // Allowed
   } else {
     return data.prohibitedStatusColors["Yes"]; // Prohibited
   }
