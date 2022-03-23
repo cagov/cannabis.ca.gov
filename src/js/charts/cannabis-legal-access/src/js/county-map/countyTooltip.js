@@ -26,16 +26,27 @@ function chartTooltipCounty(data, props) {
  */
 function countyStatusTooltipMessage(data, props) {
   let { name, prohibitionStatus } = props;
+  let { activities } = data;
+  let mode = activities;
   let { all, city, county, prohibited, allowed, detailsCTA } =
-    getToolTipMessages(data, name, props, "County");
+  getToolTipMessages(data, name, props, "County");
+
+
+  let toggle = "All";
+
+  // Choose label
+  let label = all;
+  if (toggle === "City") {
+    label = city;
+  } else if (toggle === "County") {
+    label = county;
+  }
+
 
   data.tooltipData = getCountyTooltipData(data, props);
 
-  console.log(
-    "ttd",
-    data.tooltipData.activityPercentages.prohibited,
-    data.tooltipData.activityPercentages.allowed
-  );
+  label = insertValueIntoSpanTag(label, mode, "data-status");
+
   prohibited = insertValueIntoSpanTag(
     prohibited,
     data.tooltipData.activityPercentages.prohibited,
@@ -46,18 +57,6 @@ function countyStatusTooltipMessage(data, props) {
     data.tooltipData.activityPercentages.allowed,
     "data-status"
   );
-
-  let { activities } = data;
-  let mode = activities;
-
-  let toggle = "All";
-
-  let label = all;
-  if (toggle === "City") {
-    label = city;
-  } else if (toggle === "County") {
-    label = county;
-  }
 
   let icon = "";
 
@@ -201,7 +200,6 @@ function getActivityPercentages(data, props) {
       parseFloat(data.countyList[name].activities["Cities in County"]);
   }
 
-  console.log(percentageAllowed, formatPercent(percentageAllowed));
   return {
     allowed: formatPercent(percentageAllowed),
     prohibited: formatPercent(percentageProhibited),
@@ -214,7 +212,7 @@ function getActivityPercentages(data, props) {
  */
 function formatPercent(value) {
   // @TODO Check if is a number
-  value = (value * 100).toFixed(0)  + "%";
+  value = (value * 100).toFixed(0) + "%";
   return value;
 }
 
