@@ -19,6 +19,63 @@ function chartTooltipCounty(data, props) {
 }
 
 /**
+ * Get message for tooltip content.
+ * @param {object} data
+ * @param {object} props
+ * @returns {string} - HTML markup for tooltip content.
+ */
+function countyStatusTooltipMessage(data, props) {
+  let { name, island, geoid, percentageAllowed, prohibitionStatus } = props;
+  let { all, city, county, prohibited, allowed, detailsCTA } =
+    getToolTipMessages(data, name, props, "County");
+
+  data.tooltipData = getCountyTooltipData(data, props);
+
+  console.log("TTD", tooltipData);
+
+  let { activities } = data;
+  let mode = activities;
+
+  let toggle = "All";
+
+  console.log("mode", mode, getToolTipMessages(data, name, props, "County"));
+
+  let label = all;
+  if (toggle === "City") {
+    label = city;
+  } else if (toggle === "County") {
+    label = county;
+  }
+
+  let icon = "";
+  console.log("prohibitionStatus", prohibitionStatus);
+
+  if (prohibitionStatus === "Yes") {
+    icon = prohibitedIcon();
+  } else if (prohibitionStatus === "No") {
+    icon = allowedIcon();
+  }
+
+  let output = `<div>
+          <div class="status">
+            <div class="icon">${icon}</div>
+            <div>
+              ${label}<br/>
+              <div>${prohibited}</div>
+              <div>${allowed}</div>
+            </div> 
+          </div>
+          <div>
+            <p>
+              <a class="loadCounty" href="#">${detailsCTA}</a>
+            </p>
+          </div>
+        </div>`;
+
+  return output;
+}
+
+/**
  * Get data used in county tooltip.
  * @param {*} data
  * @param {*} props
@@ -48,68 +105,36 @@ function getCountyTooltipData(data, props) {
   let placeData = dataPlaces[currentCountyPlaceName];
   let prohibitionStatus = placeData["CCA Prohibited by County"];
 
-  let percentageAllowed = getPercentAllowedCounty(data, props);
+  let activityPercentages = getActivityPercentages(data, props);
 
   return {
     name: name,
     "County label": placeData["County label"],
     prohibitionStatus: prohibitionStatus,
-    percentageAllowed: percentageAllowed,
+    activityPercentages
   };
 }
 
-/**
- * Get message for tooltip content.
- * @param {object} data
- * @param {object} props
- * @returns {string} - HTML markup for tooltip content.
- */
-function countyStatusTooltipMessage(data, props) {
-  let { name, island, geoid, percentageAllowed, prohibitionStatus } = props;
-  let messages = {
-    statewideProhibited: "<strong>Prohibited</strong>: No cannabis business activity allowed",
-    statewideAllowed: "<strong>Allowed</strong> At least 1 type of cannabis business activity is allowed",
-    countyDetailsCTA: "<em>Click to view details about this county</em>",
+function getToolTipMessages(data, name, props, jurisdiction) {
+  let { messages, activities } = data;
+
+  let mode = activities;
+  console.log("m", mode, jurisdiction);
+  if (mode === "All activities" && jurisdiction === "County") {
+    console.log("aa", jurisdiction);
+    return messages["StatewideAllActivities"];
+  } else if (mode === "All activities" && jurisdiction === "City") {
+    console.log("aa", jurisdiction);
+    return messages["CountyAllActivities"];
+  } else {
+    if (jurisdiction === "County") {
+      console.log("SWA");
+      return messages["StatewideActivity"];
+    } else if (jurisdiction === "City") {
+      return messages["CountyActivity"];
+    }
   }
-
-  let { statewideAllowed, statewideProhibited, countyDetailsCTA } = messages;
-
-  
-
-  if (prohibitionStatus === "Yes") {
-    let icon = prohibitedIcon();
-    // @TODO - pull strings from data.messages
- 
-    return `<div>
-        <div class="status">
-        <div class="icon">${icon}</div>
-          <p>
-            ${statewideProhibited}
-          </p>
-        </div>
-        <div>
-          <p>
-            <a class="loadCounty" href="#">${countyDetailsCTA}</a>
-          </p>
-        </div>
-      </div>`;
-  } else if (prohibitionStatus === "No") {
-    let icon = allowedIcon();
-
-    return `<div>
-      <div class="status">
-        <div class="icon">${icon}</div>
-        <p>  
-          ${statewideAllowed}
-        </p>
-      </div>
-      <div>
-        <p>
-        <a class="loadCounty" href="#">${countyDetailsCTA}</a>
-        </p>
-      </div>
-    </div>`;
-  }
+  return null;
 }
 
 /**
@@ -118,15 +143,58 @@ function countyStatusTooltipMessage(data, props) {
  * @param {*} props - local data values for rendering in template
  * @returns {integer} Percentage allowed 0 - 100
  */
-function getPercentAllowedCounty(data, props) {
+function getActivityPercentages(data, props) {
   let { name, geoid } = props;
   let activityCountValues = data.countyList[name].countsValues;
-  let percentageAllowed =
-    parseFloat(
-      activityCountValues["Are all CCA activites prohibited?"]["No"] /
-        data.countyList[name].activities["Cities in County"]
-    ).toFixed(2) * 100;
-  return percentageAllowed;
+  let mode = data.activities;
+
+  let percentageAllowed, percentageProhibited;
+  if (mode === "All activities") {
+    percentageAllowed =
+      parseFloat(
+        activityCountValues["Are all CCA activites prohibited?"]["No"] /
+          data.countyList[name].activities["Cities in County"]
+      ).toFixed(2) * 100;
+
+    percentageProhibited =
+      parseFloat(
+        activityCountValues["Are all CCA activites prohibited?"]["Yes"] /
+          data.countyList[name].activities["Cities in County"]
+      ).toFixed(2) * 100;
+  } else if (mode === "Retail") {
+    percentageAllowed =
+      parseFloat(
+        activityCountValues["Is all retail prohibited?"]["No"] /
+          data.countyList[name].activities["Cities in County"]
+      ).toFixed(2) * 100;
+
+    percentageProhibited =
+      parseFloat(
+        activityCountValues["Is all retail prohibited?"]["Yes"] /
+          data.countyList[name].activities["Cities in County"]
+      ).toFixed(2) * 100;
+  } else {
+    percentageAllowed =
+      parseFloat(
+        activityCountValues[mode]["No"] /
+          data.countyList[name].activities["Cities in County"]
+      ).toFixed(2) * 100;
+
+    percentageProhibited =
+      parseFloat(
+        activityCountValues[mode]["Yes"] /
+          data.countyList[name].activities["Cities in County"]
+      ).toFixed(2) * 100;
+  }
+
+  return {
+    allowed: checkIfNumber(percentageAllowed),
+    prohibited: checkIfNumber(percentageProhibited),
+  };
+}
+
+function checkIfNumber(value) {
+  return value;
 }
 
 function allowedIcon() {

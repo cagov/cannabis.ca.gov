@@ -102,6 +102,19 @@ class CaGovCountyMap extends window.HTMLElement {
       chartOptions: this.chartOptions,
       chartBreakpointValues: this.chartBreakpointValues,
       screenDisplayType: this.screenDisplayType,
+    });
+  }
+
+  setActivity(e, data) {
+    data.activities = e.target.value;
+    this.redraw();
+  }
+
+  render() {
+    let data = {
+      dataPlaces: Object.assign({}, dataPlaces),
+      countyList: Object.assign({}, countyList),
+      activities: "All activities",
       messages: {
         "StatewideAllActivities": {
           all: "Cities and counties that allow at least 1 type of cannabis business activity",
@@ -119,7 +132,7 @@ class CaGovCountyMap extends window.HTMLElement {
           allowed: "Allow: <span data-type=\"percentage-allowed\"></span>",      
           detailsCTA: "<em>Click to view details about this county</em>",
         },
-        "County": {
+        "CountyAllActivities": {
           all: "County and cities that allow at least 1 type of cannabis business activity",
           city: "Cities that allow <span data-type=\"activity\"></span>",
           prohibited: "At least 1 type of cannabis business activity is allowed",
@@ -133,20 +146,7 @@ class CaGovCountyMap extends window.HTMLElement {
           allowed: "<span data-type=\"percentage-allowed\"></span> allowed",      
           detailsCTA: "<em>Details about this city</em>",
         },
-      },
-    });
-  }
-
-  setActivity(e, data) {
-    data.activities = e.target.value;
-    this.redraw();
-  }
-
-  render() {
-    let data = {
-      dataPlaces: Object.assign({}, dataPlaces),
-      countyList: Object.assign({}, countyList),
-      activities: "All activities",
+      }
     };
 
     var select = document.querySelector(".filter-activity select");

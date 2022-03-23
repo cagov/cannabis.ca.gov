@@ -17,7 +17,7 @@ export default function drawCountyMap({
 }) {
   try {
     /* Data processing */
-    var { dataPlaces } = data;
+    var { dataPlaces, messages } = data;
 
     var rawWidth = 800;
     var rawHeight = 923;
@@ -47,16 +47,22 @@ export default function drawCountyMap({
     } else {
       d3.select(domElement + " [data-name] g").remove();
     }
+    let tooltip = d3
+    .select(tooltipElement);
 
     /* Tooltip container */
-    let tooltip = d3
-      .select(tooltipElement)
-      .append("div")
-      .attr("class", "tooltip")
-      .style("position", "absolute")
-      .style("z-index", "10")
-      .style("visibility", "hidden")
-      .text("");
+    if (d3
+      .select(tooltipElement + " div") === null) {
+        tooltip = d3
+        .select(tooltipElement)
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .text("");
+      }
+     
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     xml("/assets/data/cnty19_1.svg").then((counties) => {
@@ -110,7 +116,7 @@ export default function drawCountyMap({
           })
           .on("mouseover focus", function (event, d) {
             d3.select(this).attr("fill", "#fcfcfc").attr("fill-opacity", "0.2");
-
+            console.log("mouseover",data, props);
             tooltip.html(chartTooltipCounty(data, props));
 
             return tooltip
