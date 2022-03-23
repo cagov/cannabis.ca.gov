@@ -25,20 +25,32 @@ function chartTooltipCounty(data, props) {
  * @returns {string} - HTML markup for tooltip content.
  */
 function countyStatusTooltipMessage(data, props) {
-  let { name, island, geoid, percentageAllowed, prohibitionStatus } = props;
+  let { name, prohibitionStatus } = props;
   let { all, city, county, prohibited, allowed, detailsCTA } =
     getToolTipMessages(data, name, props, "County");
 
   data.tooltipData = getCountyTooltipData(data, props);
 
-  console.log("TTD", tooltipData);
+  console.log(
+    "ttd",
+    data.tooltipData.activityPercentages.prohibited,
+    data.tooltipData.activityPercentages.allowed
+  );
+  prohibited = insertValueIntoSpanTag(
+    prohibited,
+    data.tooltipData.activityPercentages.prohibited,
+    "data-status"
+  );
+  allowed = insertValueIntoSpanTag(
+    allowed,
+    data.tooltipData.activityPercentages.allowed,
+    "data-status"
+  );
 
   let { activities } = data;
   let mode = activities;
 
   let toggle = "All";
-
-  console.log("mode", mode, getToolTipMessages(data, name, props, "County"));
 
   let label = all;
   if (toggle === "City") {
@@ -48,7 +60,6 @@ function countyStatusTooltipMessage(data, props) {
   }
 
   let icon = "";
-  console.log("prohibitionStatus", prohibitionStatus);
 
   if (prohibitionStatus === "Yes") {
     icon = prohibitedIcon();
@@ -73,6 +84,17 @@ function countyStatusTooltipMessage(data, props) {
         </div>`;
 
   return output;
+}
+
+function insertValueIntoSpanTag(string, value, prop) {
+  var parser = new DOMParser();
+  var el = parser.parseFromString(string, "text/html");
+  let span = el.querySelector("span[" + prop + "]");
+  if (span !== null) {
+    span.innerHTML = value;
+    return el.querySelector("body").innerHTML;
+  }
+  return string;
 }
 
 /**
@@ -111,7 +133,7 @@ function getCountyTooltipData(data, props) {
     name: name,
     "County label": placeData["County label"],
     prohibitionStatus: prohibitionStatus,
-    activityPercentages
+    activityPercentages,
   };
 }
 
@@ -119,16 +141,12 @@ function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
 
   let mode = activities;
-  console.log("m", mode, jurisdiction);
   if (mode === "All activities" && jurisdiction === "County") {
-    console.log("aa", jurisdiction);
     return messages["StatewideAllActivities"];
   } else if (mode === "All activities" && jurisdiction === "City") {
-    console.log("aa", jurisdiction);
     return messages["CountyAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      console.log("SWA");
       return messages["StatewideActivity"];
     } else if (jurisdiction === "City") {
       return messages["CountyActivity"];
@@ -148,52 +166,55 @@ function getActivityPercentages(data, props) {
   let activityCountValues = data.countyList[name].countsValues;
   let mode = data.activities;
 
+  console.log(activityCountValues);
   let percentageAllowed, percentageProhibited;
   if (mode === "All activities") {
     percentageAllowed =
       parseFloat(
-        activityCountValues["Are all CCA activites prohibited?"]["No"] /
-          data.countyList[name].activities["Cities in County"]
-      ).toFixed(2) * 100;
+        activityCountValues["Are all CCA activites prohibited?"]["No"]
+      ) / parseFloat(data.countyList[name].activities["Cities in County"]);
 
     percentageProhibited =
       parseFloat(
-        activityCountValues["Are all CCA activites prohibited?"]["Yes"] /
-          data.countyList[name].activities["Cities in County"]
-      ).toFixed(2) * 100;
+        activityCountValues["Are all CCA activites prohibited?"]["Yes"]
+      ) / parseFloat(data.countyList[name].activities["Cities in County"]);
   } else if (mode === "Retail") {
     percentageAllowed =
-      parseFloat(
-        activityCountValues["Is all retail prohibited?"]["No"] /
-          data.countyList[name].activities["Cities in County"]
-      ).toFixed(2) * 100;
+      parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
+      parseFloat(data.countyList[name].activities["Cities in County"]);
 
     percentageProhibited =
-      parseFloat(
-        activityCountValues["Is all retail prohibited?"]["Yes"] /
-          data.countyList[name].activities["Cities in County"]
-      ).toFixed(2) * 100;
+      parseFloat(activityCountValues["Is all retail prohibited?"]["Yes"]) /
+      parseFloat(data.countyList[name].activities["Cities in County"]);
   } else {
+    let allowedValues =
+      activityCountValues[mode]["Allowed"] +
+      activityCountValues[mode]["Limited"] +
+      activityCountValues[mode]["Limited-Medical Only"];
+
     percentageAllowed =
-      parseFloat(
-        activityCountValues[mode]["No"] /
-          data.countyList[name].activities["Cities in County"]
-      ).toFixed(2) * 100;
+      parseFloat(allowedValues) /
+      parseFloat(data.countyList[name].activities["Cities in County"]);
 
     percentageProhibited =
-      parseFloat(
-        activityCountValues[mode]["Yes"] /
-          data.countyList[name].activities["Cities in County"]
-      ).toFixed(2) * 100;
+      parseFloat(activityCountValues[mode]["Prohibited"]) /
+      parseFloat(data.countyList[name].activities["Cities in County"]);
   }
 
+  console.log(percentageAllowed, formatPercent(percentageAllowed));
   return {
-    allowed: checkIfNumber(percentageAllowed),
-    prohibited: checkIfNumber(percentageProhibited),
+    allowed: formatPercent(percentageAllowed),
+    prohibited: formatPercent(percentageProhibited),
   };
 }
-
-function checkIfNumber(value) {
+/**
+ * Convert float to percentage
+ * @param {float} value
+ * @returns {string} Percentage value
+ */
+function formatPercent(value) {
+  // @TODO Check if is a number
+  value = (value * 100).toFixed(0)  + "%";
   return value;
 }
 
