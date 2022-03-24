@@ -7,8 +7,7 @@
  */
 function chartTooltipPlace(data, props, options) {
   let { name, geoid } = options;
-  // let message = placeStatusTooltipMessage(data, props);
-  let message = "PLACEHOLDER";
+  let message = placeStatusTooltipMessage(data, props, options);
   let currentPlaceData = data.dataPlaces[options.name];
   let currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
     let item = data.dataPlaces[place];
@@ -38,55 +37,54 @@ function chartTooltipPlace(data, props, options) {
  * @param {object} props
  * @returns {string} - HTML markup for tooltip content.
  */
-function placeStatusTooltipMessage(data, props) {
-  let { name, prohibitionStatus } = props;
+function placeStatusTooltipMessage(data, props, options) {
+  let { prohibitionStatus } = props;
+  let { name } = options;
   let { activities, showCities, showCounties } = data;
   let mode = activities;
-  let { all, city, county, prohibited, allowed, detailsCTA } =
+  let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
     getToolTipMessages(data, name, props, "City");
-
-  let toggle = "All";
 
   // Choose label based on toggle
   let label = all;
-  if (showCities && !showCounties) {
-    label = city;
-  } else if (showCounties && !showCities) {
-    label = county;
-  } else if (showCounties && showCities) {
-    label = all;
-  }
+  // if (showCities && !showCounties) {
+  //   label = city;
+  // } else if (showCounties && !showCities) {
+  //   label = county;
+  // } else if (showCounties && showCities) {
+  //   label = all;
+  // }
+
+  // prohibitedLegend = insertValueIntoSpanTag(
+  //   prohibitedLegend,
+  //   data.tooltipData.activityPercentages.prohibited,
+  //   "data-status"
+  // );
+  // allowedLegend = insertValueIntoSpanTag(
+  //   allowedLegend,
+  //   data.tooltipData.activityPercentages.allowed,
+  //   "data-status"
+  // );
 
   data.tooltipData = getPlaceTooltipData(data, props);
-
+  console.log(data.tooltipData);
   label = insertValueIntoSpanTag(label, mode, "data-status");
-
-  prohibited = insertValueIntoSpanTag(
-    prohibited,
-    data.tooltipData.activityPercentages.prohibited,
-    "data-status"
-  );
-  allowed = insertValueIntoSpanTag(
-    allowed,
-    data.tooltipData.activityPercentages.allowed,
-    "data-status"
-  );
 
   let icon = "";
 
   if (prohibitionStatus === "Yes") {
     icon = prohibitedIcon();
+    label = prohibited;
   } else if (prohibitionStatus === "No") {
     icon = allowedIcon();
+    label = allowed;
   }
 
   let output = `<div>
           <div class="status">
             <div class="icon">${icon}</div>
             <div>
-              ${label}<br/>
-              <div>${prohibited}</div>
-              <div>${allowed}</div>
+              ${label}
             </div> 
           </div>
           <div>
@@ -142,20 +140,20 @@ function getPlaceTooltipData(data, props) {
 
   // console.log("currentPlaceName", currentPlaceName);
   let placeData = dataPlaces[currentPlaceName];
-  // try {
-  //   let prohibitionStatus = placeData["Are all CCA activites prohibited?"];
+  try {
+    let prohibitionStatus = placeData["Are all CCA activites prohibited?"];
 
-  //   let activityPercentages = getActivityPercentages(data, props);
+    // let activityPercentages = getActivityPercentages(data, props);
 
-  //   return {
-  //     name: name,
-  //     "County label": placeData["County label"],
-  //     prohibitionStatus: prohibitionStatus,
-  //     activityPercentages,
-  //   };
-  // } catch (error) {
-  //   console.error(error);
-  // }
+    return {
+      name: name,
+      "County label": placeData["County label"],
+      prohibitionStatus: prohibitionStatus,
+      // activityPercentages,
+    };
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 function getToolTipMessages(data, name, props, jurisdiction) {

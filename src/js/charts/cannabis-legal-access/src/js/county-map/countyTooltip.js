@@ -41,6 +41,13 @@ function countyStatusTooltipMessage(data, props) {
     label = county;
   }
 
+   // if (showCities && !showCounties) {
+  //   label = city;
+  // } else if (showCounties && !showCities) {
+  //   label = county;
+  // } else if (showCounties && showCities) {
+  //   label = all;
+  // }
 
   data.tooltipData = getCountyTooltipData(data, props);
 

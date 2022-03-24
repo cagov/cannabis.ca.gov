@@ -189,17 +189,19 @@ class CaGovCountyMap extends window.HTMLElement {
         CountyAllActivities: {
           all: "County and cities that allow at least 1 type of cannabis business activity",
           city: 'Cities that allow <strong><span data-status="activity"></span></strong>',
-          prohibited:
+          prohibited: "Prohibited",
+          allowed:
             "At least 1 type of cannabis business activity is allowed",
-          allowed: "No cannabis business activity allowed",
-          detailsCTA: "<em>Click to view details about this county</em>",
+          prohibitedLegend:
+            'Prohibit: <span data-status="percentage-prohibited"></span>',
+          allowedLegend: 'Allow: <span data-status="percentage-allowed"></span>',
+          detailsCTA: "<em>Details about this city</em>",
         },
         CountyActivity: {
           all: "County and cities that allow at least 1 type of cannabis business activity",
           city: 'Cities that allow <strong><span data-status="activity"></span></strong>',
-          prohibited:
-            '<span data-status="percentage-prohibited"></span> prohibited',
-          allowed: '<span data-status="percentage-allowed"></span> allowed',
+          prohibited: "Prohibited",
+          allowed: 'Allowed',
           detailsCTA: "<em>Details about this city</em>",
         },
       },
