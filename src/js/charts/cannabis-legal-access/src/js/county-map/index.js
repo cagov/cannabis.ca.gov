@@ -117,24 +117,12 @@ class CaGovCountyMap extends window.HTMLElement {
   setCountyToggle(e, data) {    
     data.showCounties = e.currentTarget.checked; // If checked
     this.redraw();
-    // let target = this.domElement + ' svg[data-layer-name="map-layer-container"]' + ' [data-name="places-boundaries"]';
-    // let layer = document.querySelector(target);
-    
-    // if (layer !== null) {
-    //   d3.select(target).select("path").transition().duration(100).style("visibility", data.showCounties ? "visible": "hidden");
-    //   // layer.style("visibility", data.showCounties ? "visible": "hidden");
-    // }
   }
 
   setCityToggle(e, data) {
     console.log(e.target);
     data.showCities = e.currentTarget.checked; // If checked
     this.redraw();
-    // let layer = document.querySelector(this.domElement + ' svg[data-layer-name="map-layer-container"]' + ' [data-name="county-boundaries"]');
-    // console.log(layer);
-    // if (layer !== null) {
-    //   layer.style("visibility", data.showCities ? "visible": "hidden");
-    // }
   }
 
   render() {
