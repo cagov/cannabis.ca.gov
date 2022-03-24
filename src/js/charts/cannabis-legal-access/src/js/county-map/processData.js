@@ -155,10 +155,10 @@ function getRetailAllowed(data, mode, values, renderMode) {
   console.log("R", value, values["County label"]);
   // Alt use both retail fields, but data at this prop should be correct.
   if (
-    value === "Yes" // Yes it's prohibited
+    value === "No" // No, it's allowed
   ) {
     return true;
-  } else if (value === "No") {
+  } else if (value === "Yes") {
     return false;
   } else {
     return null;
