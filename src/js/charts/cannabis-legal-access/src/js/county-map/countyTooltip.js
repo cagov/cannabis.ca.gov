@@ -31,7 +31,6 @@ function countyStatusTooltipMessage(data, props) {
   let { all, city, county, prohibited, allowed, detailsCTA } =
   getToolTipMessages(data, name, props, "County");
 
-
   let toggle = "All";
 
   // Choose label
@@ -165,7 +164,6 @@ function getActivityPercentages(data, props) {
   let activityCountValues = data.countyList[name].countsValues;
   let mode = data.activities;
 
-  console.log(activityCountValues);
   let percentageAllowed, percentageProhibited;
   if (mode === "All activities") {
     percentageAllowed =

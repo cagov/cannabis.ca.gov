@@ -1,5 +1,4 @@
 function getCountyColor(data, props) {
-
   // Shared data object
   let { dataPlaces } = data;
   let { name } = props;
@@ -10,7 +9,7 @@ function getCountyColor(data, props) {
   };
 
   // name - Name of current county from GIS data.
-  // Get couny data object from dataTables.
+  // Get county data object from dataTables.
   let currentCountyPlaceName = Object.keys(dataPlaces).filter((place) => {
     let item = dataPlaces[place];
     if (
@@ -21,53 +20,20 @@ function getCountyColor(data, props) {
       return place;
     }
   });
-  
+
   let values = dataPlaces[currentCountyPlaceName];
   let mode = data.activities;
 
   try {
     if (values !== undefined) {
-      switch (mode) {
-        case "All activities":
-          let placeData = dataPlaces[currentCountyPlaceName];
-          let prohibitionStatus = placeData["CCA Prohibited by County"];
-          return data.prohibitedStatusColors[prohibitionStatus];
-        case "Retail":
-          if (getRetailAllowed(values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Distributor":
-          if (getDistributorAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Manufacturer":
-          if (getManufacturerAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Testing":
-          if (getTestingAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Cultivation":
-          if (getCultivationAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        default:
-          break;
-      }
+      return getActivityStatusColors(
+        data,
+        mode,
+        values,
+        currentCountyPlaceName
+      );
     } else {
       // Get county and look up prohibition
-      // console.log("undefined", name);
       let placeData = dataPlaces[currentCountyPlaceName];
       let prohibitionStatus = placeData["CCA Prohibited by County"];
       return data.prohibitedStatusColors[prohibitionStatus];
@@ -75,7 +41,6 @@ function getCountyColor(data, props) {
   } catch (error) {
     console.error("error", error, name);
   }
-
 }
 
 function getPlaceColor(data, props) {
@@ -94,42 +59,7 @@ function getPlaceColor(data, props) {
 
   try {
     if (values !== undefined) {
-      switch (mode) {
-        case "All activities":
-          return getAllActivities(data, mode, values);
-        case "Retail":
-          if (getRetailAllowed(values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Distributor":
-          if (getDistributorAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Manufacturer":
-          if (getManufacturerAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Testing":
-          if (getTestingAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        case "Cultivation":
-          if (getCultivationAllowed(data, mode, values)) {
-            return data.prohibitedStatusColors["No"]; // Allowed
-          } else {
-            return data.prohibitedStatusColors["Yes"]; // Prohibited
-          }
-        default:
-          break;
-      }
+      return getActivityStatusColors(data, mode, values);
     } else {
       // Get county and look up prohibition
       // console.log("undefined", name);
@@ -140,90 +70,165 @@ function getPlaceColor(data, props) {
   }
 }
 
+function getActivityStatusColors(
+  data,
+  mode,
+  values,
+  currentCountyPlaceName = null
+) {
+  switch (mode) {
+    case "All activities":
+      if (currentCountyPlaceName !== null) {
+        let placeData = data.dataPlaces[currentCountyPlaceName];
+        let prohibitionStatus = placeData["CCA Prohibited by County"];
+        return data.prohibitedStatusColors[prohibitionStatus];
+      }
+      return getAllActivities(data, mode, values);
+    case "Retail":
+      if (getRetailAllowed(data, mode, values)) {
+        return data.prohibitedStatusColors["No"]; // Allowed
+      } else {
+        return data.prohibitedStatusColors["Yes"]; // Prohibited
+      }
+    case "Distributor":
+      if (getDistributorAllowed(data, mode, values)) {
+        return data.prohibitedStatusColors["No"]; // Allowed
+      } else {
+        return data.prohibitedStatusColors["Yes"]; // Prohibited
+      }
+    case "Manufacturer":
+      if (getManufacturerAllowed(data, mode, values)) {
+        return data.prohibitedStatusColors["No"]; // Allowed
+      } else {
+        return data.prohibitedStatusColors["Yes"]; // Prohibited
+      }
+    case "Testing":
+      if (getTestingAllowed(data, mode, values)) {
+        return data.prohibitedStatusColors["No"]; // Allowed
+      } else {
+        return data.prohibitedStatusColors["Yes"]; // Prohibited
+      }
+    case "Cultivation":
+      if (getCultivationAllowed(data, mode, values)) {
+        return data.prohibitedStatusColors["No"]; // Allowed
+      } else {
+        return data.prohibitedStatusColors["Yes"]; // Prohibited
+      }
+    default:
+      break;
+  }
+}
+
 function getAllActivities(data, mode, values) {
-  if (
-    getRetailAllowed(values) ||
-    getManufacturerAllowed(values) ||
-    getCultivationAllowed(values) ||
-    getDistributorAllowed(values) ||
-    getTestingAllowed(values)
-  ) {
-    return data.prohibitedStatusColors["No"]; // Allowed
-  } else {
-    return data.prohibitedStatusColors["Yes"]; // Prohibited
-  }
+  // If anything is allowed
+  // if (
+  //   getRetailAllowed(values) ||
+  //   getManufacturerAllowed(values) ||
+  //   getCultivationAllowed(values) ||
+  //   getDistributorAllowed(values) ||
+  //   getTestingAllowed(values)
+  // ) {
+  //   return data.prohibitedStatusColors["No"]; // Allowed
+  // } else {
+  //   return data.prohibitedStatusColors["Yes"]; // Prohibited
+  // }
+  return data.prohibitedStatusColors[values["Are all CCA activites prohibited?"]];
+  // Is all retail prohibited?
+  // Are all CCA activites prohibited?
 }
 
-function getRetailAllowed(values) {
+function getRetailAllowed(data, mode, values) {
+  // if (
+  //   values["Retail: Storefront"] === "Allowed" ||
+  //   values["Retail: Non-Storefront"] === "Allowed" ||
+  //   values["Retail: Storefront"] === "Limited-Medical Only" ||
+  //   values["Retail: Non-Storefront"] === "Limited-Medical Only" ||
+  //   values["Retail: Storefront"] === "Limited" ||
+  //   values["Retail: Non-Storefront"] === "Limited"
+  // ) {
+  //   return true;
+  // } else if (
+  //   values["Retail: Storefront"] === "Prohibited" ||
+  //   values["Retail: Non-Storefront"] === "Prohibited"
+  // ) {
+  //   return false;
+  // } else {
+  //   return null;
+  // }
+  
+  let value = values["Is all retail prohibited?"]; 
   if (
-    values["Retail: Storefront"] === "Allowed" ||
-    values["Retail: Non-Storefront"] === "Allowed" ||
-    values["Retail: Storefront"] === "Limited-Medical Only" ||
-    values["Retail: Non-Storefront"] === "Limited-Medical Only" ||
-    values["Retail: Storefront"] === "Limited" ||
-    values["Retail: Non-Storefront"] === "Limited"
+    value === "Yes"
   ) {
     return true;
-  } else if (
-    values["Retail: Storefront"] === "Prohibited" ||
-    values["Retail: Non-Storefront"] === "Prohibited"
-  ) {
+  } else if (value === "No") {
     return false;
   } else {
     return null;
   }
 }
 
-function getDistributorAllowed(values) {
+function getDistributorAllowed(data, mode, values) {
+  let value = values["Distributor"];
+
+  console.log("D", value, values["County label"]);
   if (
-    values["Distributor"] === "Allowed" ||
-    values["Distributor"] === "Limited" ||
-    values["Distributor"] === "Limited-Medical Only"
+    value === "Allowed" ||
+    value === "Limited" ||
+    value === "Limited-Medical Only"
   ) {
     return true;
-  } else if (values["Distributor"] === "Prohibited") {
+  } else if (value === "Prohibited") {
     return false;
   } else {
     return null;
   }
 }
 
-function getManufacturerAllowed(values) {
+function getManufacturerAllowed(data, mode, values) {
+  let value = values["Manufacturer"];
+  console.log("M", value, values["County label"]);
   if (
-    values["Manufacturer"] === "Allowed" ||
-    values["Manufacturer"] === "Limited" ||
-    values["Manufacturer"] === "Limited-Medical Only"
+    value === "Allowed" ||
+    value === "Limited" ||
+    value === "Limited-Medical Only"
   ) {
     return true;
-  } else if (values["Manufacturer"] === "Prohibited") {
+  } else if (value === "Prohibited") {
     return false;
   } else {
     return null;
   }
 }
 
-function getCultivationAllowed(values) {
+function getCultivationAllowed(data, mode, values) {
+  
+  let value = values["Cultivation"];
+  console.log("C", value, values["County label"]);
   if (
-    values["Cultivation"] === "Allowed" ||
-    values["Cultivation"] === "Limited" ||
-    values["Cultivation"] === "Limited-Medical Only"
+    value === "Allowed" ||
+    value === "Limited" ||
+    value === "Limited-Medical Only"
   ) {
     return true;
-  } else if (values["Cultivation"] === "Prohibited") {
+  } else if (value === "Prohibited") {
     return false;
   } else {
     return null;
   }
 }
 
-function getTestingAllowed(values) {
+function getTestingAllowed(data, mode, values) {
+  
+  let value = values["Testing"];
+  console.log("T", value, values["County label"]);
   if (
-    values["Testing"] === "Allowed" ||
-    values["Testing"] === "Limited" ||
-    values["Testing"] === "Limited-Medical Only"
+    value === "Allowed" ||
+    value === "Limited" ||
+    value === "Limited-Medical Only"
   ) {
     return true;
-  } else if (values["Testing"] === "Prohibited") {
+  } else if (value === "Prohibited") {
     return false;
   } else {
     return null;
