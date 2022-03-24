@@ -5,11 +5,25 @@
  * @param {string} tooltipElement
  * @returns {string} - HTML markup
  */
-function chartTooltipPlace(data, props) {
-  let message = placeStatusTooltipMessage(data, props);
+function chartTooltipPlace(data, props, options) {
+  let { name, geoid } = options;
+  // let message = placeStatusTooltipMessage(data, props);
+  let message = "PLACEHOLDER";
+  let currentPlaceData = data.dataPlaces[options.name];
+  let currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
+    let item = data.dataPlaces[place];
+    if (
+      parseInt(geoid) === item["GEOID"]  &&
+      item["Jurisdiction Type"] === "City" &&
+      place !== "default"
+    ) {
+      return place;
+    }
+  });
+  // console.log("DP", name, geoid, currentPlaceName, data.dataPlaces,currentPlaceData);
   let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
           <div class="county-tooltip">
-            <h3>${props["Place"]}</h3>
+            <h3>${currentPlaceName}</h3>
               <div class="tooltip-label">
                 ${message}
               </div>
@@ -110,35 +124,38 @@ function getPlaceTooltipData(data, props) {
     Yes: "#C0633B", // Orange
     No: "#2F4C2C", // Green
   };
-
+  // console.log("NS", name, selectedCounty, dataPlaces[name]["County"]);
   // Get couny data object from dataTables.
   let currentPlaceName = Object.keys(dataPlaces).filter((place) => {
     let item = dataPlaces[place];
+
     if (
-      name === item.Place &&
+      name === item["CA Places Key"] &&
       item["Jurisdiction Type"] === "City" &&
-      place !== "default" &&
-      selectedCounty === item.Place
+      place !== "default"
+      // &&
+      // item["County"] === selectedCounty
     ) {
       return place;
     }
   });
 
+  // console.log("currentPlaceName", currentPlaceName);
   let placeData = dataPlaces[currentPlaceName];
-  try {
-    let prohibitionStatus = placeData["CCA Prohibited by County"];
+  // try {
+  //   let prohibitionStatus = placeData["Are all CCA activites prohibited?"];
 
-    let activityPercentages = getActivityPercentages(data, props);
+  //   let activityPercentages = getActivityPercentages(data, props);
 
-    return {
-      name: name,
-      "County label": placeData["County label"],
-      prohibitionStatus: prohibitionStatus,
-      activityPercentages,
-    };
-  } catch (error) {
-    console.error(error);
-  }
+  //   return {
+  //     name: name,
+  //     "County label": placeData["County label"],
+  //     prohibitionStatus: prohibitionStatus,
+  //     activityPercentages,
+  //   };
+  // } catch (error) {
+  //   console.error(error);
+  // }
 }
 
 function getToolTipMessages(data, name, props, jurisdiction) {

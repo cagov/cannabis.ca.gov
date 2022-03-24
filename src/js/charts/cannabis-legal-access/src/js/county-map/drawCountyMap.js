@@ -2,10 +2,9 @@ import * as d3 from "d3";
 import { xml } from "d3-fetch";
 import {
   getCountyColorPlaceLevel,
-  getCountyColor,
-  getPlaceColor,
+  getPlaceColorPlaceLevel,
 } from "./processData.js";
-import { chartTooltipPlce, getPlaceTooltipData } from "./placeTooltip.js";
+import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
 
 /**
@@ -21,45 +20,45 @@ export default function drawCountyMap({
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
-  const zoom = d3.zoom().scaleExtent([1, 8]).on("zoom", zoomed);
+  // const zoom = d3.zoom().scaleExtent([1, 8]).on("zoom", zoomed);
 
-  function reset() {
-    states.transition().style("fill", null);
-    svg
-      .transition()
-      .duration(750)
-      .call(
-        zoom.transform,
-        d3.zoomIdentity,
-        d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
-      );
-  }
+  // function reset() {
+  //   states.transition().style("fill", null);
+  //   svg
+  //     .transition()
+  //     .duration(750)
+  //     .call(
+  //       zoom.transform,
+  //       d3.zoomIdentity,
+  //       d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+  //     );
+  // }
 
-  function clicked(event, d) {
-    const [[x0, y0], [x1, y1]] = path.bounds(d);
-    event.stopPropagation();
-    states.transition().style("fill", null);
-    d3.select(this).transition().style("fill", "red");
-    svg
-      .transition()
-      .duration(750)
-      .call(
-        zoom.transform,
-        d3.zoomIdentity
-          .translate(width / 2, height / 2)
-          .scale(
-            Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
-          )
-          .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-        d3.pointer(event, svg.node())
-      );
-  }
+  // function clicked(event, d) {
+  //   const [[x0, y0], [x1, y1]] = path.bounds(d);
+  //   event.stopPropagation();
+  //   states.transition().style("fill", null);
+  //   d3.select(this).transition().style("fill", "red");
+  //   svg
+  //     .transition()
+  //     .duration(750)
+  //     .call(
+  //       zoom.transform,
+  //       d3.zoomIdentity
+  //         .translate(width / 2, height / 2)
+  //         .scale(
+  //           Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
+  //         )
+  //         .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+  //       d3.pointer(event, svg.node())
+  //     );
+  // }
 
-  function zoomed(event) {
-    const { transform } = event;
-    g.attr("transform", transform);
-    g.attr("stroke-width", 1 / transform.k);
-  }
+  // function zoomed(event) {
+  //   const { transform } = event;
+  //   g.attr("transform", transform);
+  //   g.attr("stroke-width", 1 / transform.k);
+  // }
 
   try {
     /* Data processing */
@@ -91,7 +90,7 @@ export default function drawCountyMap({
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
-      svg.call(zoom);
+      // svg.call(zoom)
 
       // svg.append("g").attr("data-name", "county-strokes");
     } else {
@@ -159,11 +158,6 @@ export default function drawCountyMap({
             translate,
           };
 
-          el.attr(
-            "transform",
-            "translate(" + translate + ")scale(" + scale + ")"
-          );
-
           // .attr("transform", "scale(5.0); translate(100,100)");
         } else {
           // Not the selected county
@@ -172,177 +166,70 @@ export default function drawCountyMap({
       });
     });
 
-    // County stroke lines and tooltips (interactions, includes islands belonging to different counties.)
-    // xml("/assets/data/ca_counties_tiger2016.svg").then((counties) => {
-    //   const countiesGroup = d3.select(
-    //     domElement + ' [data-name="county-strokes"]'
-    //   );
-
-    //   countiesGroup.node().append(counties.documentElement);
-
-    //   let countyPaths = countiesGroup.selectAll("g path");
-
-    //   countyPaths.each(function (p, j) {
-    //     let el = d3.select(this);
-    //     // let name = el.attr("data-name"); // TIGER2016
-    //     let name = el.attr("data-name"); // California County Boundaries (2019)
-    //     let island = el.attr("data-island"); // Island values from californoia county boundaries
-    //     let geoid = el.attr("data-geoid");
-    //     let props = getPlaceTooltipData(data, { name, island, geoid });
-
-    //     el.attr("stroke-width", 1)
-    //       .attr("stroke-opacity", 1)
-    //       .attr("stroke", "#FFFFFF")
-    //       .attr("fill", "transparent")
-    //       .attr("tabindex", "0")
-    //       .attr("aria-label", (d, i) => {
-    //         return "Label";
-    //       })
-    //       .on("mouseover focus", function (event, d) {
-    //         d3.select(this).attr("fill", "#fcfcfc").attr("fill-opacity", "0.2");
-    //         tooltip.html(chartTooltipPlace(data, props));
-
-    //         return tooltip
-    //           .transition()
-    //           .duration(0)
-    //           .style("visibility", "visible");
-    //       })
-    //       .on("mousemove", function (event, d) {
-    //         let mapWidth = parseInt(
-    //           d3
-    //             .select("[data-layer-name=map-layers-container]")
-    //             .style("width")
-    //             .replace("px", "")
-    //         );
-    //         let mapHeight = parseInt(
-    //           d3
-    //             .select("[data-layer-name=map-layers-container]")
-    //             .style("height")
-    //             .replace("px", "")
-    //         );
-
-    //         // console.log("m wh", mapWidth, mapHeight);
-    //         let mapTop = parseInt(
-    //           d3
-    //             .select("svg[data-layer-name=map-layers-container]")
-    //             .node()
-    //             .getBoundingClientRect().top
-    //         );
-    //         let mapBottom = parseInt(
-    //           d3
-    //             .select("svg[data-layer-name=map-layers-container]")
-    //             .node()
-    //             .getBoundingClientRect().bottom
-    //         );
-
-    //         // console.log(mapTop, mapBottom);
-
-    //         let mapScale = mapHeight / 900;
-
-    //         // console.log(this.getBoundingClientRect());
-
-    //         let countyX = parseInt(this.getBoundingClientRect().x);
-    //         let countyY = parseInt(this.getBoundingClientRect().y);
-
-    //         let countyWidth = parseInt(this.getBoundingClientRect().width);
-    //         let countyHeight = parseInt(this.getBoundingClientRect().height);
-
-    //         // console.log("m wh s", mapWidth, mapHeight, mapScale);
-    //         // console.log("c wh", countyWidth, countyHeight);
-    //         // console.log("c xy", countyX, countyY);
-
-    //         // let tooltipWidth = 310;
-    //         // let tooltipHeight = 180;
-
-    //         let mapCenterWidth = mapWidth / 2;
-    //         let mapCenterHeight = mapHeight / 2;
-    //         // Get quadrant
-    //         let quadrant = 0;
-    //         if (countyX < mapCenterWidth && countyY < mapCenterHeight) {
-    //           quadrant = 0; // upper left
-    //         } else if (countyX >= mapCenterWidth && countyY < mapCenterHeight) {
-    //           quadrant = 1; // upper right
-    //         } else if (countyX < mapCenterWidth && countyY >= mapCenterHeight) {
-    //           quadrant = 2; // lower left
-    //         } else if (
-    //           countyX >= mapCenterWidth &&
-    //           countyY >= mapCenterHeight
-    //         ) {
-    //           quadrant = 3; // lower right
-    //         }
-
-    //         let tooltipX = countyX;
-    //         let tooltipY = countyY;
-
-    //         let bufferX = 10;
-    //         let bufferY = 10;
-
-    //         if (quadrant === 0) {
-    //           // console.log("q0");
-    //           tooltipX = countyX + countyWidth +  bufferX;
-    //           tooltipY = countyY + countyHeight + bufferY;
-    //         } else if (quadrant === 1) {
-    //           // console.log("q1");
-    //           tooltipX = countyX - countyWidth - bufferX;
-    //           tooltipY = countyY + countyHeight + bufferY;
-    //         } else if (quadrant === 2) {
-    //           // console.log("q2");
-    //           tooltipX = countyX + countyWidth +  bufferX;
-    //           tooltipY = countyY - 80;
-    //         } else if (quadrant === 3) {
-    //           // console.log("q3");
-
-    //           tooltipX = countyX - countyWidth - 180;
-    //           tooltipY = countyY - 80;
-    //         }
-
-    //         if (window.innerWidth < 600) {
-    //           tooltipX = 10;
-    //           tooltipY = mapHeight + 310;
-    //         }
-
-    //         return tooltip
-    //           .style("left", tooltipX + "px")
-    //           .style("top", tooltipY + "px");
-    //       })
-    //       .on("mouseout focusout", function (d) {
-    //         d3.select(this).attr("fill", "transparent");
-
-    //         return tooltip
-    //           .transition()
-    //           .delay(500)
-    //           .style("visibility", "hidden");
-    //       });
-    //   });
-    // });
-    // }
-
     /* PLACES */
-    //   if (data.showCities === true) {
-    //   xml("/assets/data/tl_2016_06_place.svg").then((places) => {
-    //     const group = d3.select(domElement + ' [data-name="places-boundaries"]');
+    // if (data.showCities === true) {
+    xml("/assets/data/tl_2016_06_place.svg").then((places) => {
+      const group = d3.select(domElement + ' [data-name="places-boundaries"]');
 
-    //     group.node().append(places.documentElement);
-    //     let paths = group.selectAll("g path");
+      group.node().append(places.documentElement);
+      let paths = group.selectAll("g path");
 
-    //     paths.each(function (p, j) {
-    //       let el = d3.select(this);
-    //       let name = el.attr("data-name");
-    //       let geoid = el.attr("data-geoid");
-    //       let placeColor = getPlaceColor(data, { name, geoid });
-    //       el.attr("stroke-width", 0.2)
-    //         .attr("stroke-opacity", 0.4)
-    //         .attr(
-    //           "stroke",
-    //           placeColor !== "transparent" ? "#FFF" : "transparent"
-    //         );
+      paths.each(function (p, j) {
+        let el = d3.select(this);
+        let name = el.attr("data-name");
+        let geoid = el.attr("data-geoid");
+        let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+        let props = getPlaceTooltipData(data, { name, geoid });
 
-    //       el.attr("fill", () => {
-    //         let placeColor = getPlaceColor(data, { name, geoid });
-    //         return placeColor;
-    //       });
-    //     });
-    //   });
+        if (name === data.selectedCounty) {
+        }
+        el.attr("stroke-width", 0.2)
+          .attr("stroke-opacity", 0.4)
+          .attr(
+            "stroke",
+            placeColor !== "transparent" ? "#FFF" : "transparent"
+          );
+
+        el.attr("fill", () => {
+          let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+          return placeColor;
+        })
+          .attr("tabindex", "0")
+          .attr("aria-label", (d, i) => {
+            return "Label";
+          })
+          .on("mouseover focus", function (event, d) {
+            d3.select(this).attr("fill-opacity", "0.8");
+            tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
+
+            return tooltip
+              .transition()
+              .duration(0)
+              .style("visibility", "visible");
+          })
+          .on("mousemove", function (event, d) {
+            let tooltipX = 100;
+            let tooltipY = 100;
+
+            return tooltip
+              .style("left", tooltipX + "px")
+              .style("top", tooltipY + "px");
+          })
+          .on("mouseout focusout", function (d) {
+            d3.select(this).attr("fill-opacity", "1");
+
+            return tooltip
+              .transition()
+              .delay(500)
+              .style("visibility", "hidden");
+          });
+
+        // el.attr(
+        //   "transform",
+        //   "translate(" + data.selectedShapeData.translate + ")scale(" + data.selectedShapeData.scale + ")"
+        // );
+      });
+    });
     // }
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);

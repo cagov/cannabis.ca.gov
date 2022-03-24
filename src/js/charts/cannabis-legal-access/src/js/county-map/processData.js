@@ -23,15 +23,12 @@ function getCountyColor(data, props, jurisdiction = null) {
       return place;
     }
   });
-
   
   let values = dataPlaces[currentCountyPlaceName];
   let mode = data.activities;
-  // console.log("CCP, V", currentCountyPlaceName, values);
 
   try {
     if (values !== undefined && jurisdiction === null) {
-      // console.log("Statewide");
       let activityStatusColors = getActivityStatusColor(
         data,
         mode,
@@ -40,7 +37,6 @@ function getCountyColor(data, props, jurisdiction = null) {
       );
       return activityStatusColors;
     } else if (values !== undefined && jurisdiction !== null) {
-      // console.log("County", data.selectedCounty, "|", values.County);
       let activityStatusColors = getActivityStatusColor(
         data,
         mode,
@@ -49,7 +45,6 @@ function getCountyColor(data, props, jurisdiction = null) {
       );
       
       if (data.selectedCounty === values["County"]) {
-        // console.log("SP", data.selectedCounty, values.County);
         return activityStatusColors;
       } else {
         return "transparent";
@@ -67,7 +62,11 @@ function getCountyColor(data, props, jurisdiction = null) {
   }
 }
 
-function getPlaceColor(data, props) {
+function getPlaceColorPlaceLevel(data, props) {
+  return getPlaceColor(data, props, "County");
+}
+
+function getPlaceColor(data, props, jurisdiction = null) {
   // Shared data object
   let { dataPlaces } = data;
   let { name, geoid } = props;
@@ -482,4 +481,5 @@ export {
   getActivities,
   getActivitiesDataSchema,
   getPlaceColor,
+  getPlaceColorPlaceLevel,
 };
