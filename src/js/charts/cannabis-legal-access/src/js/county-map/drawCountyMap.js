@@ -1,6 +1,10 @@
 import * as d3 from "d3";
 import { xml } from "d3-fetch";
-import { getCountyColorPlaceLevel, getCountyColor, getPlaceColor } from "./processData.js";
+import {
+  getCountyColorPlaceLevel,
+  getCountyColor,
+  getPlaceColor,
+} from "./processData.js";
 import { chartTooltipPlce, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
 
@@ -17,7 +21,46 @@ export default function drawCountyMap({
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
-  
+  const zoom = d3.zoom().scaleExtent([1, 8]).on("zoom", zoomed);
+
+  function reset() {
+    states.transition().style("fill", null);
+    svg
+      .transition()
+      .duration(750)
+      .call(
+        zoom.transform,
+        d3.zoomIdentity,
+        d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+      );
+  }
+
+  function clicked(event, d) {
+    const [[x0, y0], [x1, y1]] = path.bounds(d);
+    event.stopPropagation();
+    states.transition().style("fill", null);
+    d3.select(this).transition().style("fill", "red");
+    svg
+      .transition()
+      .duration(750)
+      .call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate(width / 2, height / 2)
+          .scale(
+            Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
+          )
+          .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+        d3.pointer(event, svg.node())
+      );
+  }
+
+  function zoomed(event) {
+    const { transform } = event;
+    g.attr("transform", transform);
+    g.attr("stroke-width", 1 / transform.k);
+  }
+
   try {
     /* Data processing */
     var { dataPlaces, messages, selectedCounty } = data;
@@ -42,22 +85,23 @@ export default function drawCountyMap({
         .attr("data-layer-name", "map-layers-container")
         .append("g")
         .attr("data-layer-name", "map-layers")
+        .attr("cursor", "pointer")
         .attr("width", "800")
         .attr("height", "923");
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
+      svg.call(zoom);
+
       // svg.append("g").attr("data-name", "county-strokes");
     } else {
       d3.select(domElement + " [data-name] g").remove();
     }
-    let tooltip = d3
-    .select(tooltipElement);
+    let tooltip = d3.select(tooltipElement);
 
     /* Tooltip container */
-    if (d3
-      .select(tooltipElement + " div") === null) {
-        tooltip = d3
+    if (d3.select(tooltipElement + " div") === null) {
+      tooltip = d3
         .select(tooltipElement)
         .append("div")
         .attr("class", "tooltip")
@@ -65,8 +109,7 @@ export default function drawCountyMap({
         .style("z-index", "10")
         .style("visibility", "hidden")
         .text("");
-      }
-     
+    }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     // if (data.showCounties === true) {
@@ -80,22 +123,54 @@ export default function drawCountyMap({
 
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
+
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from californoia county boundaries
         // let geoid = el.attr("data-geoid");
-        el.attr("fill", () => {
-          
+        if (name === data.selectedCounty) {
+          el.attr("fill", () => {
+            return getCountyColorPlaceLevel(data, {
+              name,
+              island,
+              selectedCounty,
+            });
+          })
+            .attr("stroke-width", 1)
+            .attr("stroke-opacity", 0.5)
+            .attr("stroke", "#FFFFFF");
+          console.log(el.node().getBBox());
+          var bbox = el.node().getBBox();
 
-            return getCountyColorPlaceLevel(data, { name, island, selectedCounty });
-       
-        })
-          .attr("stroke-width", 1)
-          .attr("stroke-opacity", 0.5)
-          .attr("stroke", "#FFFFFF");
+          var dx = bbox.width - bbox.x,
+            dy = bbox.height - bbox.y,
+            x = (bbox.x + (bbox.x + bbox.width)) / 2,
+            y = (bbox.y + (bbox.y + bbox.height)) / 2,
+            scale = Math.min(rawHeight / bbox.height, rawWidth / bbox.width),
+            translate = [rawWidth / 2 - scale * x, rawHeight / 2 - scale * y];
+
+          data.selectedShapeData = {
+            bbox,
+            dx,
+            dy,
+            scale,
+            x,
+            y,
+            translate,
+          };
+
+          el.attr(
+            "transform",
+            "translate(" + translate + ")scale(" + scale + ")"
+          );
+
+          // .attr("transform", "scale(5.0); translate(100,100)");
+        } else {
+          // Not the selected county
+          el.remove();
+        }
       });
     });
-  
 
     // County stroke lines and tooltips (interactions, includes islands belonging to different counties.)
     // xml("/assets/data/ca_counties_tiger2016.svg").then((counties) => {
@@ -240,37 +315,36 @@ export default function drawCountyMap({
     //       });
     //   });
     // });
-  // }
+    // }
 
     /* PLACES */
-  //   if (data.showCities === true) {
-  //   xml("/assets/data/tl_2016_06_place.svg").then((places) => {
-  //     const group = d3.select(domElement + ' [data-name="places-boundaries"]');
+    //   if (data.showCities === true) {
+    //   xml("/assets/data/tl_2016_06_place.svg").then((places) => {
+    //     const group = d3.select(domElement + ' [data-name="places-boundaries"]');
 
-  //     group.node().append(places.documentElement);
-  //     let paths = group.selectAll("g path");
+    //     group.node().append(places.documentElement);
+    //     let paths = group.selectAll("g path");
 
-  //     paths.each(function (p, j) {
-  //       let el = d3.select(this);
-  //       let name = el.attr("data-name");
-  //       let geoid = el.attr("data-geoid");
-  //       let placeColor = getPlaceColor(data, { name, geoid });
-  //       el.attr("stroke-width", 0.2)
-  //         .attr("stroke-opacity", 0.4)
-  //         .attr(
-  //           "stroke",
-  //           placeColor !== "transparent" ? "#FFF" : "transparent"
-  //         );
+    //     paths.each(function (p, j) {
+    //       let el = d3.select(this);
+    //       let name = el.attr("data-name");
+    //       let geoid = el.attr("data-geoid");
+    //       let placeColor = getPlaceColor(data, { name, geoid });
+    //       el.attr("stroke-width", 0.2)
+    //         .attr("stroke-opacity", 0.4)
+    //         .attr(
+    //           "stroke",
+    //           placeColor !== "transparent" ? "#FFF" : "transparent"
+    //         );
 
-  //       el.attr("fill", () => {
-  //         let placeColor = getPlaceColor(data, { name, geoid });
-  //         return placeColor;
-  //       });
-  //     });
-  //   });
-  // }
+    //       el.attr("fill", () => {
+    //         let placeColor = getPlaceColor(data, { name, geoid });
+    //         return placeColor;
+    //       });
+    //     });
+    //   });
+    // }
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);
   }
-  
 }

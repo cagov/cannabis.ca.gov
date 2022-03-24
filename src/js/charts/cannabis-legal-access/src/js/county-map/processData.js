@@ -31,8 +31,7 @@ function getCountyColor(data, props, jurisdiction = null) {
 
   try {
     if (values !== undefined && jurisdiction === null) {
-      console.log("Statewide");
-      // @QUESTION when is this run?
+      // console.log("Statewide");
       let activityStatusColors = getActivityStatusColor(
         data,
         mode,
@@ -41,7 +40,7 @@ function getCountyColor(data, props, jurisdiction = null) {
       );
       return activityStatusColors;
     } else if (values !== undefined && jurisdiction !== null) {
-      console.log("County", data.selectedCounty, "|", values.County);
+      // console.log("County", data.selectedCounty, "|", values.County);
       let activityStatusColors = getActivityStatusColor(
         data,
         mode,
@@ -50,14 +49,14 @@ function getCountyColor(data, props, jurisdiction = null) {
       );
       
       if (data.selectedCounty === values["County"]) {
-        console.log("SP", data.selectedCounty, values.County);
+        // console.log("SP", data.selectedCounty, values.County);
         return activityStatusColors;
       } else {
         return "transparent";
       }
     } else {
-      console.log("CC");
-      // @QUESTION when is this run?
+      console.log("CC found");
+      // @QUESTION when is this run? (probably percentages or tooltips, I forget)
       // Get county and look up prohibition
       let placeData = dataPlaces[currentCountyPlaceName];
       let prohibitionStatus = placeData["CCA Prohibited by County"];
