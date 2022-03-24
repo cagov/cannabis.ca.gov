@@ -94,7 +94,7 @@
             <div class="filter filter-activity">
               <div class="filter-label">Filter by activity</div>
               <select>
-                <option value="" disabled selected>Select activity type</option>
+                <option value="" selected disabled>Select activity type</option>
                 <option value="All activities">All activities</option>
                 <option value="Retail">Retail</option>
                 <option value="Distributor">Distributor</option>
@@ -103,38 +103,79 @@
                 <option value="Testing">Testing</option>
               </select>
             </div>
-            <!-- <div class="filter">
-              <div class="filter-label">Find a city or county</div>
+            <div class="filter" data-filter-type="places">
+              <div class="filter-label">Find a county</div>
               <cagov-autocomplete>
-                <input type="text" placeholder="Enter a city or county">
-                <span class="search-icon">
+                <!-- <input type="text" placeholder="Enter a county" /> -->
+                <!-- <span class="search-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22.525 18.3309L21.818 17.7439L21.822 17.7399L19.577 15.9259L16.408 13.3029C17.058 12.1399 17.393 10.8519 17.393 9.54589C17.393 7.59289 16.644 5.64089 15.135 4.13489C13.662 2.66089 11.711 1.94189 9.72599 1.94189C5.61599 1.94189 2.12299 5.43589 2.12299 9.54589C2.12299 13.6909 5.54899 17.1819 9.69099 17.1819C11.231 17.1819 12.769 16.7199 14.086 15.8219L17.346 18.5219L19.58 20.3259L19.578 20.3279L20.345 20.9639C20.721 21.2769 21.279 21.2239 21.587 20.8479L22.646 19.5719C22.957 19.1979 22.902 18.6409 22.528 18.3299L22.525 18.3309ZM13.078 12.8679C12.156 13.7919 10.956 14.2369 9.72499 14.2369C7.22299 14.2369 5.06699 12.1139 5.06699 9.54589C5.06699 7.04489 7.18999 4.88789 9.72499 4.88789C12.327 4.88789 14.447 7.01189 14.447 9.54589C14.447 10.7439 13.97 11.9429 13.078 12.8679Z" fill="black"></path>
                   </svg>
-                </span>
+                </span> -->
 
                 <select>
-                  
-                  <option value="">Enter a city or county</option>
-                  <option value="Adelanto" data-geoid="600296">Adelanto</option>
-                  <option value="Agoura Hills" data-geoid="600394">
-                    Agoura Hills
-                  </option>
-                  <option value="Alameda" data-geoid="600562">Alameda</option>
-                  <option value="Albany" data-geoid="600674">Albany</option>
-                  <option value="Alhambra" data-geoid="600884">Alhambra</option>
-                  <option value="Aliso Viejo" data-geoid="600947">
-                    Aliso Viejo
-                  </option>
-
-                  
-                  <option value="Alameda">Alameda County</option>
-                  <option value="Alpine">Alpine County</option>
-                  <option value="Amador">Amador County</option>
-                  <option value="Butte">Butte County</option>
+                  <option value="" selected>Enter a county</option>
+                  <option data-jurisdiction="County" value="Alameda">Alameda County</option>
+                  <option data-jurisdiction="County" value="Alpine">Alpine County</option>
+                  <option data-jurisdiction="County" value="Amador">Amador County</option>
+                  <option data-jurisdiction="County" value="Butte">Butte County</option>
+                  <option data-jurisdiction="County" value="Calaveras">Calaveras County</option>
+                  <option data-jurisdiction="County" value="Colusa">Colusa County</option>
+                  <option data-jurisdiction="County" value="Contra Costa">Contra Costa County</option>
+                  <option data-jurisdiction="County" value="Del Norte">County of Del Norte</option>
+                  <option data-jurisdiction="County" value="El Dorado">El Dorado County</option>
+                  <option data-jurisdiction="County" value="Fresno">Fresno County</option>
+                  <option data-jurisdiction="County" value="Glenn">Glenn County</option>
+                  <option data-jurisdiction="County" value="Humboldt">Humboldt County</option>
+                  <option data-jurisdiction="County" value="Imperial">Imperial County</option>
+                  <option data-jurisdiction="County" value="Inyo">Inyo County</option>
+                  <option data-jurisdiction="County" value="Kern">Kern County</option>
+                  <option data-jurisdiction="County" value="Kings">Kings County</option>
+                  <option data-jurisdiction="County" value="Lake">Lake County</option>
+                  <option data-jurisdiction="County" value="Lassen">Lassen County</option>
+                  <option data-jurisdiction="County" value="Los Angeles">Los Angeles County</option>
+                  <option data-jurisdiction="County" value="Madera">Madera County</option>
+                  <option data-jurisdiction="County" value="Marin">Marin County</option>
+                  <option data-jurisdiction="County" value="Mariposa">Mariposa County</option>
+                  <option data-jurisdiction="County" value="Mendocino">Mendocino County</option>
+                  <option data-jurisdiction="County" value="Merced">Merced County</option>
+                  <option data-jurisdiction="County" value="Modoc">Modoc County</option>
+                  <option data-jurisdiction="County" value="Mono">Mono County</option>
+                  <option data-jurisdiction="County" value="Monterey">Monterey County</option>
+                  <option data-jurisdiction="County" value="Napa">Napa County</option>
+                  <option data-jurisdiction="County" value="Nevada">Nevada County</option>
+                  <option data-jurisdiction="County" value="Orange">Orange County</option>
+                  <option data-jurisdiction="County" value="Placer">Placer County</option>
+                  <option data-jurisdiction="County" value="Plumas">Plumas County</option>
+                  <option data-jurisdiction="County" value="Riverside">Riverside County</option>
+                  <option data-jurisdiction="County" value="Sacramento">Sacramento County</option>
+                  <option data-jurisdiction="County" value="San Benito">San Benito County</option>
+                  <option data-jurisdiction="County" value="San Bernardino">San Bernardino County</option>
+                  <option data-jurisdiction="County" value="San Diego">San Diego County</option>
+                  <option data-jurisdiction="County" value="San Francisco">City and County of San Francisco</option>
+                  <option data-jurisdiction="County" value="San Joaquin">San Joaquin County</option>
+                  <option data-jurisdiction="County" value="San Luis Obispo">County of San Luis Obispo</option>
+                  <option data-jurisdiction="County" value="San Mateo">San Mateo County</option>
+                  <option data-jurisdiction="County" value="Santa Barbara">Santa Barbara County</option>
+                  <option data-jurisdiction="County" value="Santa Clara">Santa Clara County</option>
+                  <option data-jurisdiction="County" value="Santa Cruz">Santa Cruz County</option>
+                  <option data-jurisdiction="County" value="Shasta">Shasta County</option>
+                  <option data-jurisdiction="County" value="Sierra">Sierra County</option>
+                  <option data-jurisdiction="County" value="Siskiyou">Siskiyou County</option>
+                  <option data-jurisdiction="County" value="Solano">Solano County</option>
+                  <option data-jurisdiction="County" value="Sonoma">Sonoma County</option>
+                  <option data-jurisdiction="County" value="Stanislaus">Stanislaus County</option>
+                  <option data-jurisdiction="County" value="Sutter">Sutter County</option>
+                  <option data-jurisdiction="County" value="Tehama">Tehama County</option>
+                  <option data-jurisdiction="County" value="Trinity">Trinity County</option>
+                  <option data-jurisdiction="County" value="Tulare">Tulare County</option>
+                  <option data-jurisdiction="County" value="Tuolumne">Tuolumne County</option>
+                  <option data-jurisdiction="County" value="Ventura">Ventura County</option>
+                  <option data-jurisdiction="County" value="Yolo">Yolo County</option>
+                  <option data-jurisdiction="County" value="Yuba">Yuba County</option>
                 </select>
               </cagov-autocomplete>
-            </div>  -->
+            </div> 
           </form>
         </div>
 
