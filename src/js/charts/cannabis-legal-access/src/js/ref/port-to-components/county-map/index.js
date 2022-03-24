@@ -1,5 +1,5 @@
 import template from "./template.js";
-import drawCountyMap from "./drawCountyMap.js";
+import drawStatewideMap from "./drawStatewideMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
 // import rtlOverride from "./rtl-override.js"; // Let's have an example with Arabic & Chinese for the bar charts.
@@ -85,7 +85,7 @@ class CaGovCountyMap extends window.HTMLElement {
       document.querySelector('.map-container').innerHTML = "";
     }
     // Generate the map.
-    this.svg = drawCountyMap({
+    this.svg = drawStatewideMap({
       translations: this.translationsStrings,
       data: this.localData,
       domElement: ".map-container",

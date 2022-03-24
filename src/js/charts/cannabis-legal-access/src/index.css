@@ -236,7 +236,7 @@ cagov-map-table .filters {
 }
 
 cagov-autocomplete select {
-  display: none;
+  /* display: none; */
 }
 
 .filter-label {

@@ -6,7 +6,7 @@ import * as ca from './data/topojson/ca.json';
 /**
  * Render SVG based interactive county map using d3
  */
-export default function drawCountyMap({
+export default function drawStatewideMap({
   translations = null,
   data = null,
   domElement = null,

@@ -1,4 +1,7 @@
-function getCountyColor(data, props) {
+function getCountyColorPlaceLevel(data, props) {
+  return getCountyColor(data, props, "County");
+}
+function getCountyColor(data, props, jurisdiction = null) {
   // Shared data object
   let { dataPlaces } = data;
   let { name } = props;
@@ -21,18 +24,40 @@ function getCountyColor(data, props) {
     }
   });
 
+  
   let values = dataPlaces[currentCountyPlaceName];
   let mode = data.activities;
+  // console.log("CCP, V", currentCountyPlaceName, values);
 
   try {
-    if (values !== undefined) {
-      return getActivityStatusColors(
+    if (values !== undefined && jurisdiction === null) {
+      console.log("Statewide");
+      // @QUESTION when is this run?
+      let activityStatusColors = getActivityStatusColor(
         data,
         mode,
         values,
         "County"
       );
+      return activityStatusColors;
+    } else if (values !== undefined && jurisdiction !== null) {
+      console.log("County", data.selectedCounty, "|", values.County);
+      let activityStatusColors = getActivityStatusColor(
+        data,
+        mode,
+        values,
+        "County"
+      );
+      
+      if (data.selectedCounty === values["County"]) {
+        console.log("SP", data.selectedCounty, values.County);
+        return activityStatusColors;
+      } else {
+        return "transparent";
+      }
     } else {
+      console.log("CC");
+      // @QUESTION when is this run?
       // Get county and look up prohibition
       let placeData = dataPlaces[currentCountyPlaceName];
       let prohibitionStatus = placeData["CCA Prohibited by County"];
@@ -59,7 +84,7 @@ function getPlaceColor(data, props) {
 
   try {
     if (values !== undefined) {
-      return getActivityStatusColors(data, mode, values, "City");
+      return getActivityStatusColor(data, mode, values, "City");
     } else {
       // Get county and look up prohibition
       return "transparent";
@@ -76,9 +101,9 @@ function getPlaceColor(data, props) {
  * @param {*} mode 
  * @param {*} values 
  * @param {*} renderMode
- * @returns {*} string - Hex value
+ * @returns {*} string - single Hex value
  */
-function getActivityStatusColors(
+function getActivityStatusColor(
   data,
   mode,
   values,
@@ -152,7 +177,6 @@ function getAllActivities(data, mode, values, renderMode) {
  */
 function getRetailAllowed(data, mode, values, renderMode) {
   let value = values["Is all retail prohibited?"];
-  console.log("R", value, values["County label"]);
   // Alt use both retail fields, but data at this prop should be correct.
   if (
     value === "No" // No, it's allowed
@@ -167,7 +191,6 @@ function getRetailAllowed(data, mode, values, renderMode) {
 
 function getDistributorAllowed(data, mode, values, renderMode) {
   let value = values["Distributor"];
-  console.log("D", value, values["County label"]);
   if (
     value === "Allowed" ||
     value === "Limited" ||
@@ -183,7 +206,6 @@ function getDistributorAllowed(data, mode, values, renderMode) {
 
 function getManufacturerAllowed(data, mode, values, renderMode) {
   let value = values["Manufacturer"];
-  console.log("M", value, values["County label"]);
   if (
     value === "Allowed" ||
     value === "Limited" ||
@@ -200,7 +222,6 @@ function getManufacturerAllowed(data, mode, values, renderMode) {
 function getCultivationAllowed(data, mode, values, renderMode) {
   
   let value = values["Cultivation"];
-  console.log("C", value, values["County label"]);
   if (
     value === "Allowed" ||
     value === "Limited" ||
@@ -217,7 +238,6 @@ function getCultivationAllowed(data, mode, values, renderMode) {
 function getTestingAllowed(data, mode, values, renderMode) {
   
   let value = values["Testing"];
-  console.log("T", value, values["County label"]);
   if (
     value === "Allowed" ||
     value === "Limited" ||
@@ -459,6 +479,7 @@ function getActivitiesDataSchema() {
 
 export {
   getCountyColor,
+  getCountyColorPlaceLevel,
   getActivities,
   getActivitiesDataSchema,
   getPlaceColor,
