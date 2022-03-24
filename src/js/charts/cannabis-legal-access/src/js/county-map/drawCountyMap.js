@@ -22,37 +22,37 @@ export default function drawCountyMap({
 }) {
   // const zoom = d3.zoom().scaleExtent([1, 8]).on("zoom", zoomed);
 
-  // function reset() {
-  //   states.transition().style("fill", null);
-  //   svg
-  //     .transition()
-  //     .duration(750)
-  //     .call(
-  //       zoom.transform,
-  //       d3.zoomIdentity,
-  //       d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
-  //     );
-  // }
+  function reset() {
+    states.transition().style("fill", null);
+    svg
+      .transition()
+      .duration(750)
+      .call(
+        zoom.transform,
+        d3.zoomIdentity,
+        d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+      );
+  }
 
-  // function clicked(event, d) {
-  //   const [[x0, y0], [x1, y1]] = path.bounds(d);
-  //   event.stopPropagation();
-  //   states.transition().style("fill", null);
-  //   d3.select(this).transition().style("fill", "red");
-  //   svg
-  //     .transition()
-  //     .duration(750)
-  //     .call(
-  //       zoom.transform,
-  //       d3.zoomIdentity
-  //         .translate(width / 2, height / 2)
-  //         .scale(
-  //           Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
-  //         )
-  //         .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-  //       d3.pointer(event, svg.node())
-  //     );
-  // }
+  function clicked(event, d) {
+    const [[x0, y0], [x1, y1]] = path.bounds(d);
+    event.stopPropagation();
+    states.transition().style("fill", null);
+    d3.select(this).transition().style("fill", "red");
+    svg
+      .transition()
+      .duration(750)
+      .call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate(width / 2, height / 2)
+          .scale(
+            Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
+          )
+          .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+        d3.pointer(event, svg.node())
+      );
+  }
 
   // function zoomed(event) {
   //   const { transform } = event;
@@ -138,7 +138,7 @@ export default function drawCountyMap({
             .attr("stroke-width", 1)
             .attr("stroke-opacity", 0.5)
             .attr("stroke", "#FFFFFF");
-          console.log(el.node().getBBox());
+
           var bbox = el.node().getBBox();
 
           var dx = bbox.width - bbox.x,
@@ -158,7 +158,26 @@ export default function drawCountyMap({
             translate,
           };
 
-          // .attr("transform", "scale(5.0); translate(100,100)");
+          el.attr(
+            "transform",
+            "translate(" +
+              data.selectedShapeData.translate +
+              ")scale(" +
+              data.selectedShapeData.scale +
+              ")"
+          );
+
+          const placesGroup = d3.select(
+            domElement + ' [data-name="places-boundaries"]'
+          );
+          placesGroup.attr(
+            "transform",
+            "translate(" +
+              data.selectedShapeData.translate +
+              ")scale(" +
+              data.selectedShapeData.scale +
+              ")"
+          );
         } else {
           // Not the selected county
           el.remove();
@@ -178,56 +197,67 @@ export default function drawCountyMap({
         let el = d3.select(this);
         let name = el.attr("data-name");
         let geoid = el.attr("data-geoid");
-        let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-        let props = getPlaceTooltipData(data, { name, geoid });
-
-        if (name === data.selectedCounty) {
-        }
-        el.attr("stroke-width", 0.2)
-          .attr("stroke-opacity", 0.4)
-          .attr(
-            "stroke",
-            placeColor !== "transparent" ? "#FFF" : "transparent"
-          );
-
-        el.attr("fill", () => {
+        let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
+          let item = data.dataPlaces[place];
+          
+          if (
+            parseInt(geoid) === item["GEOID"] &&
+            item.County === data.selectedCounty && 
+            // item["Jurisdiction Type"] === "City" &&
+            place !== "default"
+          ) {
+            return place;
+          }
+        });
+      
+        
+        if (currentPlace !== null && currentPlace.length > 0) {
           let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-          return placeColor;
-        })
-          .attr("tabindex", "0")
-          .attr("aria-label", (d, i) => {
-            return "Label";
+          let props = getPlaceTooltipData(data, { name, geoid });
+
+          el.attr("stroke-width", 0.2)
+            .attr("stroke-opacity", 0.4)
+            .attr(
+              "stroke",
+              placeColor !== "transparent" ? "#FFF" : "transparent"
+            );
+
+          el.attr("fill", () => {
+            let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+            return placeColor;
           })
-          .on("mouseover focus", function (event, d) {
-            d3.select(this).attr("fill-opacity", "0.8");
-            tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
+            .attr("tabindex", "0")
+            .attr("aria-label", (d, i) => {
+              return "Label";
+            })
+            .on("mouseover focus", function (event, d) {
+              d3.select(this).attr("fill-opacity", "0.8");
+              tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
 
-            return tooltip
-              .transition()
-              .duration(0)
-              .style("visibility", "visible");
-          })
-          .on("mousemove", function (event, d) {
-            let tooltipX = 100;
-            let tooltipY = 100;
+              return tooltip
+                .transition()
+                .duration(0)
+                .style("visibility", "visible");
+            })
+            .on("mousemove", function (event, d) {
+              let tooltipX = 100;
+              let tooltipY = 100;
 
-            return tooltip
-              .style("left", tooltipX + "px")
-              .style("top", tooltipY + "px");
-          })
-          .on("mouseout focusout", function (d) {
-            d3.select(this).attr("fill-opacity", "1");
+              return tooltip
+                .style("left", tooltipX + "px")
+                .style("top", tooltipY + "px");
+            })
+            .on("mouseout focusout", function (d) {
+              d3.select(this).attr("fill-opacity", "1");
 
-            return tooltip
-              .transition()
-              .delay(500)
-              .style("visibility", "hidden");
-          });
-
-        // el.attr(
-        //   "transform",
-        //   "translate(" + data.selectedShapeData.translate + ")scale(" + data.selectedShapeData.scale + ")"
-        // );
+              return tooltip
+                .transition()
+                .delay(500)
+                .style("visibility", "hidden");
+            });
+        } else {
+          el.remove();
+        }
       });
     });
     // }
