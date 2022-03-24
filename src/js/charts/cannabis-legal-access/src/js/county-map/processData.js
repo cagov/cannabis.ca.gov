@@ -30,7 +30,7 @@ function getCountyColor(data, props) {
         data,
         mode,
         values,
-        currentCountyPlaceName
+        "County"
       );
     } else {
       // Get county and look up prohibition
@@ -59,57 +59,62 @@ function getPlaceColor(data, props) {
 
   try {
     if (values !== undefined) {
-      return getActivityStatusColors(data, mode, values);
+      return getActivityStatusColors(data, mode, values, "City");
     } else {
       // Get county and look up prohibition
-      // console.log("undefined", name);
       return "transparent";
     }
   } catch (error) {
     console.error("error", error, name);
   }
+  return "transparent";
 }
 
+/**
+ * Get status color at county level or place level
+ * @param {*} data 
+ * @param {*} mode 
+ * @param {*} values 
+ * @param {*} renderMode
+ * @returns {*} string - Hex value
+ */
 function getActivityStatusColors(
   data,
   mode,
   values,
-  currentCountyPlaceName = null
+  renderMode = "County"
 ) {
+
   switch (mode) {
     case "All activities":
-      if (currentCountyPlaceName !== null) {
-        let placeData = data.dataPlaces[currentCountyPlaceName];
-        let prohibitionStatus = placeData["CCA Prohibited by County"];
-        return data.prohibitedStatusColors[prohibitionStatus];
-      }
-      return getAllActivities(data, mode, values);
+      return getAllActivities(data, mode, values, renderMode);
     case "Retail":
-      if (getRetailAllowed(data, mode, values)) {
+      // True === Yes it's prohibited
+      if (getRetailAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
       }
     case "Distributor":
-      if (getDistributorAllowed(data, mode, values)) {
+      if (getDistributorAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
       }
     case "Manufacturer":
-      if (getManufacturerAllowed(data, mode, values)) {
+      if (getManufacturerAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
       }
     case "Testing":
-      if (getTestingAllowed(data, mode, values)) {
+      if (getTestingAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
       }
     case "Cultivation":
-      if (getCultivationAllowed(data, mode, values)) {
+      if (getCultivationAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
@@ -119,46 +124,38 @@ function getActivityStatusColors(
   }
 }
 
-function getAllActivities(data, mode, values) {
-  // If anything is allowed
-  // if (
-  //   getRetailAllowed(values) ||
-  //   getManufacturerAllowed(values) ||
-  //   getCultivationAllowed(values) ||
-  //   getDistributorAllowed(values) ||
-  //   getTestingAllowed(values)
-  // ) {
-  //   return data.prohibitedStatusColors["No"]; // Allowed
-  // } else {
-  //   return data.prohibitedStatusColors["Yes"]; // Prohibited
-  // }
-  return data.prohibitedStatusColors[values["Are all CCA activites prohibited?"]];
-  // Is all retail prohibited?
-  // Are all CCA activites prohibited?
+/**
+ * 
+ * @param {*} data 
+ * @param {*} mode 
+ * @param {*} values 
+ * @returns {*} string - Hex value for coloring map county
+ */
+function getAllActivities(data, mode, values, renderMode) {
+  let prohibitionStatus = values["CCA Prohibited by County"];
+  let allActivitiesProhibited = values["Are all CCA activites prohibited?"];
+  let status = null;
+  if (renderMode === "County") {
+    status = prohibitionStatus;
+  } else {
+    status = allActivitiesProhibited;
+  }
+  return data.prohibitedStatusColors[status];
 }
 
-function getRetailAllowed(data, mode, values) {
-  // if (
-  //   values["Retail: Storefront"] === "Allowed" ||
-  //   values["Retail: Non-Storefront"] === "Allowed" ||
-  //   values["Retail: Storefront"] === "Limited-Medical Only" ||
-  //   values["Retail: Non-Storefront"] === "Limited-Medical Only" ||
-  //   values["Retail: Storefront"] === "Limited" ||
-  //   values["Retail: Non-Storefront"] === "Limited"
-  // ) {
-  //   return true;
-  // } else if (
-  //   values["Retail: Storefront"] === "Prohibited" ||
-  //   values["Retail: Non-Storefront"] === "Prohibited"
-  // ) {
-  //   return false;
-  // } else {
-  //   return null;
-  // }
-  
-  let value = values["Is all retail prohibited?"]; 
+/**
+ * 
+ * @param {*} data 
+ * @param {*} mode 
+ * @param {*} values 
+ * @returns {boolean} - If value matches data values (currently Yes No, these could be converted props for rendering CSV to county map automatically (eventually))
+ */
+function getRetailAllowed(data, mode, values, renderMode) {
+  let value = values["Is all retail prohibited?"];
+  console.log("R", value, values["County label"]);
+  // Alt use both retail fields, but data at this prop should be correct.
   if (
-    value === "Yes"
+    value === "Yes" // Yes it's prohibited
   ) {
     return true;
   } else if (value === "No") {
@@ -168,9 +165,8 @@ function getRetailAllowed(data, mode, values) {
   }
 }
 
-function getDistributorAllowed(data, mode, values) {
+function getDistributorAllowed(data, mode, values, renderMode) {
   let value = values["Distributor"];
-
   console.log("D", value, values["County label"]);
   if (
     value === "Allowed" ||
@@ -185,7 +181,7 @@ function getDistributorAllowed(data, mode, values) {
   }
 }
 
-function getManufacturerAllowed(data, mode, values) {
+function getManufacturerAllowed(data, mode, values, renderMode) {
   let value = values["Manufacturer"];
   console.log("M", value, values["County label"]);
   if (
@@ -201,7 +197,7 @@ function getManufacturerAllowed(data, mode, values) {
   }
 }
 
-function getCultivationAllowed(data, mode, values) {
+function getCultivationAllowed(data, mode, values, renderMode) {
   
   let value = values["Cultivation"];
   console.log("C", value, values["County label"]);
@@ -218,7 +214,7 @@ function getCultivationAllowed(data, mode, values) {
   }
 }
 
-function getTestingAllowed(data, mode, values) {
+function getTestingAllowed(data, mode, values, renderMode) {
   
   let value = values["Testing"];
   console.log("T", value, values["County label"]);
@@ -233,27 +229,6 @@ function getTestingAllowed(data, mode, values) {
   } else {
     return null;
   }
-}
-
-function getCountyByGEOID(data, { geoid, name }) {
-  let countyData = Object.keys(data.dataPlaces).filter((place) => {
-    if (
-      data.dataPlaces[place]["GEOID"] === geoid &&
-      data.dataPlaces[place]["NAME"] === name
-    ) {
-      return data.dataPlaces[place];
-    }
-  });
-  return countyData;
-}
-
-function getDataByCounty(data, { name }) {
-  let countyData = Object.keys(data.countyList).filter((county) => {
-    if (name === county) {
-      return data.countyList[county];
-    }
-  });
-  return countyData;
 }
 
 function getActivities(data, getID = false) {
@@ -460,6 +435,27 @@ function getActivitiesDataSchema() {
     "Cities in County": 0,
   };
 }
+
+// function getCountyByGEOID(data, { geoid, name }) {
+//   let countyData = Object.keys(data.dataPlaces).filter((place) => {
+//     if (
+//       data.dataPlaces[place]["GEOID"] === geoid &&
+//       data.dataPlaces[place]["NAME"] === name
+//     ) {
+//       return data.dataPlaces[place];
+//     }
+//   });
+//   return countyData;
+// }
+
+// function getDataByCounty(data, { name }) {
+//   let countyData = Object.keys(data.countyList).filter((county) => {
+//     if (name === county) {
+//       return data.countyList[county];
+//     }
+//   });
+//   return countyData;
+// }
 
 export {
   getCountyColor,

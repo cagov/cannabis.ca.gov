@@ -18,6 +18,10 @@ class CaGovCountyMap extends window.HTMLElement {
     super();
     // Optional state object to use for persisting data across interactions.
     this.state = {};
+
+    this.domElement = ".map-container .map-detail";
+    this.tooltipElement = ".map-container .tooltips";
+
     // Establish chart variables and settings.
     this.chartOptions = {
       screens: {
@@ -97,8 +101,8 @@ class CaGovCountyMap extends window.HTMLElement {
     this.svg = drawCountyMap({
       translations: this.translationsStrings,
       data: this.localData,
-      domElement: ".map-container .map-detail",
-      tooltipElement: ".map-container .tooltips",
+      domElement: this.domElement,
+      tooltipElement: this.tooltipElement,
       chartOptions: this.chartOptions,
       chartBreakpointValues: this.chartBreakpointValues,
       screenDisplayType: this.screenDisplayType,
@@ -110,11 +114,38 @@ class CaGovCountyMap extends window.HTMLElement {
     this.redraw();
   }
 
+  setCountyToggle(e, data) {    
+    data.showCounties = e.currentTarget.checked; // If checked
+    this.redraw();
+    // let target = this.domElement + ' svg[data-layer-name="map-layer-container"]' + ' [data-name="places-boundaries"]';
+    // let layer = document.querySelector(target);
+    
+    // if (layer !== null) {
+    //   d3.select(target).select("path").transition().duration(100).style("visibility", data.showCounties ? "visible": "hidden");
+    //   // layer.style("visibility", data.showCounties ? "visible": "hidden");
+    // }
+  }
+
+  setCityToggle(e, data) {
+    console.log(e.target);
+    data.showCities = e.currentTarget.checked; // If checked
+    this.redraw();
+    // let layer = document.querySelector(this.domElement + ' svg[data-layer-name="map-layer-container"]' + ' [data-name="county-boundaries"]');
+    // console.log(layer);
+    // if (layer !== null) {
+    //   layer.style("visibility", data.showCities ? "visible": "hidden");
+    // }
+  }
+
   render() {
     let data = {
       dataPlaces: Object.assign({}, dataPlaces),
       countyList: Object.assign({}, countyList),
-      activities: "All activities",
+      activities: "All activities", // For activity mode
+      jurisdiction: "All", // For data layer mode
+      mapLevel: "Statewide", // For map zoom level
+      showCounties: true,
+      showCities: true,
       messages: {
         "StatewideAllActivities": {
           all: "Cities and counties that allow at least 1 type of cannabis business activity",
@@ -149,8 +180,14 @@ class CaGovCountyMap extends window.HTMLElement {
       }
     };
 
-    var select = document.querySelector(".filter-activity select");
-    select.addEventListener("change", (e) => this.setActivity(e, data));
+    var selectActivities = document.querySelector(".filter-activity select");
+    selectActivities.addEventListener("change", (e) => this.setActivity(e, data));
+
+    var toggleCounties = document.querySelector(".toggle-button [data-target=\"toggle-counties\"]");
+    toggleCounties.addEventListener("change", (e) => this.setCountyToggle(e, data));
+
+    var toggleCities = document.querySelector(".toggle-button [data-target=\"toggle-cities\"]");
+    toggleCities.addEventListener("change", (e) => this.setCityToggle(e, data));
 
     getActivities(data); // development
     // Get activities by GEOID (for accuracy)
