@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "created_date": "2022-03-08T21:00:21",
+    "updated_date": "2022-03-29T05:27:39",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9492",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9492,
+    "date": "2022-03-08T13:00:21",
+    "date_gmt": "2022-03-08T21:00:21",
+    "guid": "https://cannabis.ca.gov/?page_id=9492",
+    "modified": "2022-03-28T22:27:39",
+    "modified_gmt": "2022-03-29T05:27:39",
+    "slug": "cannaconnect-compliance-hub",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/",
+    "title": "CannaConnect Compliance Hub",
+    "excerpt": "<p>Resources for California’s cannabis license holders, all in one place CannaConnect is the Department of Cannabis Control&#8217;s (DCC’s) newest resource to connect California’s cannabis license holders to the tools they need to thrive in the state’s legal cannabis market. CannaConnect is aimed at helping license holders navigate the state’s regulated cannabis market and maintain compliance. [&hellip;]</p>\n",
+    "author": "Chach",
+    "featured_media": 0,
+    "parent": 758,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/",
+      "page_title": "CannaConnect Compliance Hub",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "CannaConnect Compliance Hub",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/",
+      "open_graph_title": "CannaConnect Compliance Hub",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "CannaConnect Compliance Hub",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/",
+    "media": [
+      {
+        "id": 9504,
+        "type": "full",
+        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
+        "file": "FHA211119_California_Cannabis_M-CMYK.png",
+        "width": 1200,
+        "height": 777,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9504,
+        "type": "large",
+        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
+        "file": "FHA211119_California_Cannabis_M-CMYK-1024x663.png",
+        "width": 1024,
+        "height": 663,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9504,
+        "type": "medium_large",
+        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
+        "file": "FHA211119_California_Cannabis_M-CMYK-768x497.png",
+        "width": 768,
+        "height": 497,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9504,
+        "type": "medium",
+        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
+        "file": "FHA211119_California_Cannabis_M-CMYK-576x373.png",
+        "width": 576,
+        "height": 373,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2022-01-10T17:24:18",
+    "updated_date": "2022-03-29T05:27:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,13 +18,13 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
-    "modified": "2022-01-10T09:24:18",
-    "modified_gmt": "2022-01-10T17:24:18",
+    "modified": "2022-03-28T22:27:54",
+    "modified_gmt": "2022-03-29T05:27:54",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/",
-    "title": "Homepage | Department of Cannabis Control",
+    "title": "Home page",
     "excerpt": "<p>Learn about California cannabis laws and licenses</p>\n",
     "author": "Department of Cannabis Control",
     "featured_media": 0,
@@ -51,24 +51,39 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/",
-      "page_title": "Homepage | Department of Cannabis Control",
+      "page_title": "Home page",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Homepage | Department of Cannabis Control",
+      "meta_title": "Home page",
       "meta_description": "Learn about California cannabis laws and licenses",
       "meta_canonical_url": "https://api.cannabis.ca.gov/",
-      "open_graph_title": "Homepage | Department of Cannabis Control",
+      "open_graph_title": "Home page",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Homepage | Department of Cannabis Control",
+      "twitter_title": "Home page",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/"
+    "wordpress_url": "https://api.cannabis.ca.gov/",
+    "media": [
+      {
+        "id": 8179,
+        "type": "large",
+        "path": "2021/06/cannabis-buds-hero-1-1024x683.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg",
+        "file": "cannabis-buds-hero-1-1024x683.jpg",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
