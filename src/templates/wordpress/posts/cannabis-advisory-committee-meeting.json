@@ -41,6 +41,25 @@
     "design_system_fields": {
       "template": "event"
     },
+    "event": {
+      "startDateTimeUTC": "2021-12-13T18:00:00",
+      "endDateTimeUTC": "2021-12-13T18:00:00",
+      "startDate": "December 13, 2021",
+      "endDate": "December 13, 2021",
+      "startTime": "10:00 AM",
+      "endTime": "10:00 AM",
+      "localTimezone": "America/Los_Angeles",
+      "localTimezoneLabel": "PST",
+      "location": "Virtual (WebEx Events)",
+      "cost": "Free"
+    },
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
     "og_meta": {
       "editor": {
         "platform": "WordPress",
@@ -88,25 +107,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "event": {
-      "startDateTimeUTC": "2021-12-13T18:00:00",
-      "endDateTimeUTC": "2021-12-13T18:00:00",
-      "startDate": "December 13, 2021",
-      "endDate": "December 13, 2021",
-      "startTime": "10:00 AM",
-      "endTime": "10:00 AM",
-      "localTimezone": "America/Los_Angeles",
-      "localTimezoneLabel": "PST",
-      "location": "Virtual (WebEx Events)",
-      "cost": "Free"
-    },
-    "custom_post_date": "",
-    "meta_": {
-      "0": "",
-      "custom_post_link": "",
-      "custom_post_date": "",
-      "custom_post_location": ""
-    },
     "wordpress_url": "https://api.cannabis.ca.gov/2021/12/06/cannabis-advisory-committee-meeting/"
   }
 }
