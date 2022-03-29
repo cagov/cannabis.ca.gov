@@ -4,8 +4,8 @@ import drawCountyMap from "./drawCountyMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
 import { getActivities, getActivitiesDataSchema } from "./processData.js";
-import * as countyList from "./../../../static/data/countyList.json";
-import * as dataPlaces from "./../../../static/data/draft-cannabis-legal-access.2022-01-22.json";
+import * as countyList from "../../../static/data/countyList.json";
+import * as dataPlaces from "../../../static/data/draft-cannabis-legal-access.2022-01-22.json";
 
 class CaGovCountyMap extends window.HTMLElement {
   // Set up static variables that are specific to this component.

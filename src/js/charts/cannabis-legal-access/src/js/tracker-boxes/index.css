@@ -1,0 +1,130 @@
+.tracker-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.tracker-box-wrapper {
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+
+
+width: 276px;
+height: 276px;
+left: 300px;
+top: 0px;
+
+background: #064E66;
+/* Gray/300 */
+
+border: 1px solid #E1E0E3;
+box-sizing: border-box;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+.tracker-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+
+    width: 256px;
+    height: 196px;
+    left: 10px;
+    top: 10px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.tracker-box .value {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.tracker-box .description {
+  /* Of cities and counties allow retail cannabis business activity */
+
+  width: 256px;
+  height: 95px;
+  left: 0px;
+  top: 67px;
+
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 175% */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.tracker-box .total {
+  /* (205 total) */
+
+  width: 69px;
+  height: 26px;
+  left: 93.5px;
+  top: 170px;
+
+  /* Small text/Desktop */
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
