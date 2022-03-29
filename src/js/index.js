@@ -14,6 +14,7 @@ import '@cagov/ds-statewide-header/src/index.js';
 import '@cagov/ds-page-alert/src/index.js';
 // Data viz component
 import './charts/cannabis-legal-access/build/bundle.js';
+
 import './google-analytics.js';
 import setupAnalytics from './setup-analytics.js';
 
