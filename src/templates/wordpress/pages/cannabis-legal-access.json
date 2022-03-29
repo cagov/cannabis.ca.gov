@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-10T22:12:43",
-    "updated_date": "2022-03-29T03:21:07",
+    "updated_date": "2022-03-29T04:09:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-03-10T14:12:43",
     "date_gmt": "2022-03-10T22:12:43",
     "guid": "https://api.cannabis.ca.gov/?page_id=9365",
-    "modified": "2022-03-28T20:21:07",
-    "modified_gmt": "2022-03-29T03:21:07",
+    "modified": "2022-03-28T21:09:35",
+    "modified_gmt": "2022-03-29T04:09:35",
     "slug": "cannabis-legal-access",
     "status": "publish",
     "type": "page",
