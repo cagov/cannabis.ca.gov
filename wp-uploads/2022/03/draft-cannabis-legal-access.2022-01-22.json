@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-03-10T22:30:19",
-    "updated_date": "2022-03-10T22:30:19",
+    "created_date": "2022-03-29T17:30:32",
+    "updated_date": "2022-03-29T17:30:32",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9367",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10281",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,12 +14,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 9367,
-    "date": "2022-03-10T14:30:19",
-    "date_gmt": "2022-03-10T22:30:19",
+    "id": 10281,
+    "date": "2022-03-29T10:30:32",
+    "date_gmt": "2022-03-29T17:30:32",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/draft-cannabis-legal-access.2022-01-22.csv",
-    "modified": "2022-03-10T14:30:19",
-    "modified_gmt": "2022-03-10T22:30:19",
+    "modified": "2022-03-29T10:30:32",
+    "modified_gmt": "2022-03-29T17:30:32",
     "slug": "draft-cannabis-legal-access-2022-01-22",
     "status": "inherit",
     "type": "attachment",
