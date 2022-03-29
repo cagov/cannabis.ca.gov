@@ -17,7 +17,7 @@
     "id": 8564,
     "date": "2021-07-16T03:28:56",
     "date_gmt": "2021-07-16T10:28:56",
-    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N.pdf",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N.pdf",
     "modified": "2021-07-16T03:28:56",
     "modified_gmt": "2021-07-16T10:28:56",
     "slug": "regulations_section100_2021-0615-04n",
@@ -25,7 +25,7 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/regulations_section100_2021-0615-04n/",
     "title": "Regulations_Section100_2021-0615-04N",
-    "author": "Christina Dempsey",
+    "author": "Chach",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
@@ -33,7 +33,7 @@
     "categories": [
       2
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N.pdf'><img width=\"232\" height=\"300\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "file",
@@ -48,11 +48,11 @@
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1.jpg"
         },
         "medium": {
-          "file": "Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg",
-          "width": 232,
-          "height": 300,
+          "file": "Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg",
+          "width": 445,
+          "height": 576,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg"
         },
         "large": {
           "file": "Regulations_Section100_2021-0615-04N-pdf-1-791x1024.jpg",
@@ -62,11 +62,11 @@
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-791x1024.jpg"
         },
         "thumbnail": {
-          "file": "Regulations_Section100_2021-0615-04N-pdf-1-116x150.jpg",
-          "width": 116,
-          "height": 150,
+          "file": "Regulations_Section100_2021-0615-04N-pdf-1-291x376.jpg",
+          "width": 291,
+          "height": 376,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-116x150.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-291x376.jpg"
         }
       }
     },
@@ -96,23 +96,23 @@
       },
       {
         "type": "medium",
-        "path": "2021/07/Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg",
-        "file": "Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg",
-        "width": 232,
-        "height": 300,
+        "path": "2021/07/Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg",
+        "file": "Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg",
+        "width": 445,
+        "height": 576,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-232x300.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-445x576.jpg"
       },
       {
         "type": "thumbnail",
-        "path": "2021/07/Regulations_Section100_2021-0615-04N-pdf-1-116x150.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-116x150.jpg",
-        "file": "Regulations_Section100_2021-0615-04N-pdf-1-116x150.jpg",
-        "width": 116,
-        "height": 150,
+        "path": "2021/07/Regulations_Section100_2021-0615-04N-pdf-1-291x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-291x376.jpg",
+        "file": "Regulations_Section100_2021-0615-04N-pdf-1-291x376.jpg",
+        "width": 291,
+        "height": 376,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-116x150.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_2021-0615-04N-pdf-1-291x376.jpg"
       }
     ],
     "path": "2021/07/Regulations_Section100_2021-0615-04N.pdf"
