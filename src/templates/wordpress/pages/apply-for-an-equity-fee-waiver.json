@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-01-19T19:53:51",
-    "updated_date": "2022-01-19T19:54:58",
+    "created_date": "2021-12-31T00:29:35",
+    "updated_date": "2022-03-29T05:32:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9349",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9225",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,30 +14,30 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 9349,
-    "date": "2022-01-19T11:53:51",
-    "date_gmt": "2022-01-19T19:53:51",
-    "guid": "https://api.cannabis.ca.gov/?page_id=9349",
-    "modified": "2022-01-19T11:54:58",
-    "modified_gmt": "2022-01-19T19:54:58",
-    "slug": "test-page",
+    "id": 9225,
+    "date": "2021-12-30T16:29:35",
+    "date_gmt": "2021-12-31T00:29:35",
+    "guid": "https://cannabis.ca.gov/?page_id=9225",
+    "modified": "2022-03-28T22:32:07",
+    "modified_gmt": "2022-03-29T05:32:07",
+    "slug": "apply-for-an-equity-fee-waiver",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/test-page/",
-    "title": "test page",
-    "excerpt": "<p>this is a test page</p>\n",
-    "author": "Christina Dempsey",
+    "link": "https://api.cannabis.ca.gov/applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/",
+    "title": "Apply for an equity fee waiver",
+    "excerpt": "<p>If you were negatively affected by the criminalization of cannabis, you can apply to have your license fee waived. Check if you’re eligible for a waiver before applying. Proof of eligibility If you take part in a local equity program, you can show you meet the equity criteria using an attestation on the fee waiver [&hellip;]</p>\n",
+    "author": "Chach",
     "featured_media": 0,
-    "parent": 0,
+    "parent": 9249,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "",
+    "template": "single-column",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "single-column"
     },
     "og_meta": {
       "editor": {
@@ -50,25 +50,25 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/test-page/",
-      "page_title": "test page",
+      "canonical_url": "https://api.cannabis.ca.gov/applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/",
+      "page_title": "Apply for an equity fee waiver",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "test page",
+      "meta_title": "Apply for an equity fee waiver",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/test-page/",
-      "open_graph_title": "test page",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/",
+      "open_graph_title": "Apply for an equity fee waiver",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "test page",
+      "twitter_title": "Apply for an equity fee waiver",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/test-page/"
+    "wordpress_url": "https://api.cannabis.ca.gov/applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/"
   }
 }
