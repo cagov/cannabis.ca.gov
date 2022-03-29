@@ -336,21 +336,43 @@ cagov-autocomplete select {
   text-align: start;
 }
 
-/* "CA Places Key",
-"Place",
-"GEOID",
-"County",
-"County label",
-"Jurisdiction Type",
-"Retail: Storefront",
-"Retail: Non-Storefront",
-"Distributor",
-"Manufacturer",
-"Cultivation",
-"Testing",
-"Are all CCA activites prohibited?",
-"Is all retail prohibited?",
-"CCA Prohibited by County" */
+
+.table-data thead {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 0px 8px 8px;
+background: #3F3E4D;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 10px;
+
+}
+.table-data th {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  min-width: 120px;
+  padding: 0 10px;  
+  color: #FFFFFF;
+}
+
+.table-data td {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  min-width: 120px;
+  padding: 0 10px;  
+  color: #000;
+}
+
+
+
+
 .table-data table tr[data-jurisdiction-type="City"],
 .table-data table tr[data-jurisdiction-type="City"] {
   display: none;
