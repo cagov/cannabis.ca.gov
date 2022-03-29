@@ -1,0 +1,52 @@
+{
+  "_args": [
+    [
+      "@cagov/ds-link-icon@1.0.0",
+      "/Users/chachsikes/Documents/ca.gov/cannabis.ca.gov"
+    ]
+  ],
+  "_from": "@cagov/ds-link-icon@1.0.0",
+  "_id": "@cagov/ds-link-icon@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-FSYbQ7uj93ZHDTK3/ufGDouJigGmIkyj62GAFvnPm+BKnfGy4oePjXG6r1/m+cqK/147ps/8r+Y278poBSuWTA==",
+  "_location": "/@cagov/ds-link-icon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@cagov/ds-link-icon@1.0.0",
+    "name": "@cagov/ds-link-icon",
+    "escapedName": "@cagov%2fds-link-icon",
+    "scope": "@cagov",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cagov/ds-link-icon/-/ds-link-icon-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "/Users/chachsikes/Documents/ca.gov/cannabis.ca.gov",
+  "author": "",
+  "description": "- PDF icon: The pdf icon is the letters PDF surrounded by a box outline. It indicates that the link opens a PDF. PDF link should not appear in combination with any other link icon. - External link: this component can also add an external-link icon next to a link that goes outside current website. It lets people know they will leave the site when that link is opened. However, if link is already link to pdf file the external link icon (or any other icon) will not be displayed.",
+  "devDependencies": {
+    "@open-wc/testing": "^3.0.0-next.2",
+    "@web/test-runner-puppeteer": "^0.10.1",
+    "sass": "^1.38.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.css",
+  "name": "@cagov/ds-link-icon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cagov/design-system/components/link-icon/"
+  },
+  "scripts": {
+    "build": "sass src/index.scss index.css",
+    "test": "web-test-runner \"test/**/*.js\" --node-resolve",
+    "test:visual": "web-test-runner \"test/**/*.js\" --node-resolve --config test-config.js"
+  },
+  "version": "1.0.0"
+}

@@ -73,9 +73,7 @@ module.exports = function (eleventyConfig) {
       if (html.includes("cagov-event-post-list")) {
         html = renderEventLists(html);
       }
-      // Replace Wordpress media paths with correct 11ty output path.
-      // html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/media/");
-
+      
       // Minify HTML.
       html = htmlmin.minify(html, {
         useShortDoctype: true,
@@ -91,33 +89,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "src/css/svg": "css/svg" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
-
-  // Preview support for any branch (temp disabled til figure out how to run it) - folder renamed from previewMode to src-preview to be more clear.
-  // const {
-  //   addPreviewModeToEleventy,
-  // } = require("@cagov/11ty-serverless-preview-mode");
-
-
-  // /**
-  //  * @type {import('@cagov/11ty-serverless-preview-mode').WordpressSettingCallback}
-  //  */
-  // const itemSetterCallback = (item, jsonData) => {
-  //   //Customize for your templates
-  //   item.data.layout = "page.njk";
-  //   // item.data.tags = ["do-not-crawl"];
-  //   // item.data.addtositemap = false;
-  //   // item.data.title = jsonData.title.rendered;
-  //   // item.data.publishdate = jsonData.date.split("T")[0]; //new Date(jsonData.modified_gmt)
-  //   // item.data.meta = jsonData.excerpt.rendered
-  //   //   .replace(/<p>/g, "")
-  //   //   .replace(/<\/p>/g, "");
-
-  //   // item.data.author = "State of California";
-
-  //   // item.template.frontMatter.content += jsonData.content.rendered;
-  // };
-
-  // addPreviewModeToEleventy(eleventyConfig, itemSetterCallback);
 
   return {
     htmlTemplateEngine: "njk",
