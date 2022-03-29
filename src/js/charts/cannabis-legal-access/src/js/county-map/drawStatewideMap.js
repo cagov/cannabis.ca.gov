@@ -3,7 +3,7 @@ import { xml } from "d3-fetch";
 import { getCountyColor, getPlaceColor } from "./processData.js";
 import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
-import { map } from "d3";
+// import { map } from "d3";
 
 /**
  * Render SVG based interactive county map using d3

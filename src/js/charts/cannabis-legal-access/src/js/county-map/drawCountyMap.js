@@ -25,7 +25,7 @@ export default function drawCountyMap({
   try {
     /* Data processing */
     var { dataPlaces, messages, selectedCounty } = data;
-    console.log("County map", jurisdiction, selectedCounty, mapLevel);
+    // console.log("County map", jurisdiction, selectedCounty, mapLevel);
 
     var rawWidth = 800;
     var rawHeight = 923;
