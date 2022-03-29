@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-08-31T19:39:00",
-    "updated_date": "2018-08-31T19:39:00",
+    "updated_date": "2022-03-29T05:25:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-08-31T19:39:00",
     "date_gmt": "2018-08-31T19:39:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
-    "modified": "2018-08-31T19:39:00",
-    "modified_gmt": "2018-08-31T19:39:00",
+    "modified": "2022-03-28T22:25:38",
+    "modified_gmt": "2022-03-29T05:25:38",
     "slug": "cannabis-control-appeals-panel-notice-of-proposed-rulemaking",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
+    "link": "https://api.cannabis.ca.gov/2018/08/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
     "title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
     "excerpt": "<p>The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -49,7 +49,7 @@
       "Rulemaking"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -70,7 +70,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/08/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
       "page_title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
       "page_description": "The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -79,7 +79,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
       "meta_description": "The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/08/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
       "open_graph_title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
       "open_graph_description": "The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.",
       "twitter_title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
@@ -206,6 +206,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/08/31/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/08/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/"
   }
 }

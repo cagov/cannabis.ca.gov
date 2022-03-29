@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-11-30T23:58:00",
-    "updated_date": "2018-11-30T23:58:00",
+    "updated_date": "2022-03-29T05:25:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-11-30T23:58:00",
     "date_gmt": "2018-11-30T23:58:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
-    "modified": "2018-11-30T23:58:00",
-    "modified_gmt": "2018-11-30T23:58:00",
+    "modified": "2022-03-28T22:25:36",
+    "modified_gmt": "2022-03-29T05:25:36",
     "slug": "bureau-of-cannabis-control-announcement-regarding-temporary-license-applications",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/11/30/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
+    "link": "https://api.cannabis.ca.gov/2018/11/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
     "title": "Bureau of Cannabis Control &#8211; Announcement Regarding Temporary License Applications",
     "excerpt": "<p>While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control, the Bureau cannot issue temporary licenses after December 31, 2018.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -50,7 +50,7 @@
       "Temporary licenses"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -71,7 +71,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/11/30/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/11/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
       "page_title": "Bureau of Cannabis Control &#8211; Announcement Regarding Temporary License Applications",
       "page_description": "While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control, the Bureau cannot issue temporary licenses after December 31, 2018.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -80,7 +80,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control &#8211; Announcement Regarding Temporary License Applications",
       "meta_description": "While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control, the Bureau cannot issue temporary licenses after December 31, 2018.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/11/30/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/11/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/",
       "open_graph_title": "Bureau of Cannabis Control &#8211; Announcement Regarding Temporary License Applications",
       "open_graph_description": "While there is no official deadline for submitting a temporary license application to the Bureau of Cannabis Control, the Bureau cannot issue temporary licenses after December 31, 2018.",
       "twitter_title": "Bureau of Cannabis Control &#8211; Announcement Regarding Temporary License Applications",
@@ -218,6 +218,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/11/30/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/11/bureau-of-cannabis-control-announcement-regarding-temporary-license-applications/"
   }
 }

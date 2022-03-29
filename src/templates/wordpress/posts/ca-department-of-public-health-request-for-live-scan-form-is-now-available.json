@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-07-09T18:39:00",
-    "updated_date": "2018-07-09T18:39:00",
+    "updated_date": "2022-03-29T05:25:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-07-09T18:39:00",
     "date_gmt": "2018-07-09T18:39:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
-    "modified": "2018-07-09T18:39:00",
-    "modified_gmt": "2018-07-09T18:39:00",
+    "modified": "2022-03-28T22:25:38",
+    "modified_gmt": "2022-03-29T05:25:38",
     "slug": "ca-department-of-public-health-request-for-live-scan-form-is-now-available",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
+    "link": "https://api.cannabis.ca.gov/2018/07/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
     "title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
     "excerpt": "<p>The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -51,7 +51,7 @@
       "Temporary licenses"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -72,7 +72,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/07/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
       "page_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
       "page_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -81,7 +81,7 @@
       "page_social_image_alt": "",
       "meta_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
       "meta_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/07/ca-department-of-public-health-request-for-live-scan-form-is-now-available/",
       "open_graph_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
       "open_graph_description": "The California Department of Public Health will begin processing Live Scan forms that are submitted with annual license applications for cannabis manufacturing.",
       "twitter_title": "CA Department of Public Health: &#8216;Request for Live Scan&#8217; Form is Now Available",
@@ -230,6 +230,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/07/09/ca-department-of-public-health-request-for-live-scan-form-is-now-available/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/07/ca-department-of-public-health-request-for-live-scan-form-is-now-available/"
   }
 }

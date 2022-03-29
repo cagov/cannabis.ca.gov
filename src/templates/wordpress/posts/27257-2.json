@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-09-06T19:55:00",
-    "updated_date": "2017-09-06T19:55:00",
+    "updated_date": "2022-03-29T05:27:18",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2017-09-06T19:55:00",
     "date_gmt": "2017-09-06T19:55:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/27257/",
-    "modified": "2017-09-06T19:55:00",
-    "modified_gmt": "2017-09-06T19:55:00",
+    "modified": "2022-03-28T22:27:18",
+    "modified_gmt": "2022-03-29T05:27:18",
     "slug": "27257-2",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/09/06/27257-2/",
+    "link": "https://api.cannabis.ca.gov/2017/09/27257-2/",
     "title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
     "excerpt": "<p>The Bureau of Cannabis Control released its California Environmental Quality Act Proposed Program study to the public today.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -44,7 +44,7 @@
       "Initial Study"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -65,7 +65,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/09/06/27257-2/",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/09/27257-2/",
       "page_title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
       "page_description": "The Bureau of Cannabis Control released its California Environmental Quality Act Proposed Program study to the public today.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -74,7 +74,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
       "meta_description": "The Bureau of Cannabis Control released its California Environmental Quality Act Proposed Program study to the public today.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/09/06/27257-2/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/09/27257-2/",
       "open_graph_title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
       "open_graph_description": "The Bureau of Cannabis Control released its California Environmental Quality Act Proposed Program study to the public today.",
       "twitter_title": "Bureau of Cannabis Control Announces CEQA Proposed Program Study Results and Public Workshop Meetings",
@@ -146,6 +146,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/09/06/27257-2/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/09/27257-2/"
   }
 }

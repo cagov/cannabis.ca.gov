@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-03-04T23:49:00",
-    "updated_date": "2019-03-04T23:49:00",
+    "updated_date": "2022-03-29T05:24:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2019-03-04T23:49:00",
     "date_gmt": "2019-03-04T23:49:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
-    "modified": "2019-03-04T23:49:00",
-    "modified_gmt": "2019-03-04T23:49:00",
+    "modified": "2022-03-28T22:24:55",
+    "modified_gmt": "2022-03-29T05:24:55",
     "slug": "bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/03/04/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
+    "link": "https://api.cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
     "title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -53,7 +53,7 @@
       "Update"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -74,7 +74,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/03/04/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
       "page_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
       "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -83,7 +83,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
       "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/03/04/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/",
       "open_graph_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
       "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement actions against two unlicensed cannabis businesses operating out of multiple locations in Sacramento, Davis and Los Angeles.",
       "twitter_title": "Bureau of Cannabis Control Announces Enforcement Action Against Unlicensed Cannabis Businesses",
@@ -254,6 +254,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/03/04/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/03/bureau-of-cannabis-control-announces-enforcement-action-against-unlicensed-cannabis-businesses/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-12-04T20:11:00",
-    "updated_date": "2018-12-04T20:11:00",
+    "updated_date": "2022-03-29T05:25:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-12-04T20:11:00",
     "date_gmt": "2018-12-04T20:11:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
-    "modified": "2018-12-04T20:11:00",
-    "modified_gmt": "2018-12-04T20:11:00",
+    "modified": "2022-03-28T22:25:36",
+    "modified_gmt": "2022-03-29T05:25:36",
     "slug": "go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
+    "link": "https://api.cannabis.ca.gov/2018/12/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
     "title": "GO-Biz Concludes Community Workshop Series on California Community Reinvestment Grants Program",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties,<br />\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -50,7 +50,7 @@
       "Workshops"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -71,7 +71,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/12/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
       "page_title": "GO-Biz Concludes Community Workshop Series on California Community Reinvestment Grants Program",
       "page_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -80,7 +80,7 @@
       "page_social_image_alt": "",
       "meta_title": "GO-Biz Concludes Community Workshop Series on California Community Reinvestment Grants Program",
       "meta_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/12/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/",
       "open_graph_title": "GO-Biz Concludes Community Workshop Series on California Community Reinvestment Grants Program",
       "open_graph_description": "Dear California Community Reinvestment Grants Program Interested Parties,\nThe Governor’s Office of Business and Economic Development (GO-Biz) has concluded an initial round of webinars and community workshops across the state to discuss the California Community Reinvestment Grants Program (CalCRG).",
       "twitter_title": "GO-Biz Concludes Community Workshop Series on California Community Reinvestment Grants Program",
@@ -218,6 +218,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/12/04/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/12/go-biz-concludes-community-workshop-series-on-california-community-reinvestment-grants-program/"
   }
 }

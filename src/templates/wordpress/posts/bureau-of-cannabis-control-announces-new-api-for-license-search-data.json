@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-11-17T18:20:00",
-    "updated_date": "2020-11-17T18:20:00",
+    "updated_date": "2022-03-29T05:24:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2020-11-17T18:20:00",
     "date_gmt": "2020-11-17T18:20:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
-    "modified": "2020-11-17T18:20:00",
-    "modified_gmt": "2020-11-17T18:20:00",
+    "modified": "2022-03-28T22:24:50",
+    "modified_gmt": "2022-03-29T05:24:50",
     "slug": "bureau-of-cannabis-control-announces-new-api-for-license-search-data",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
+    "link": "https://api.cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
     "title": "Bureau Of Cannabis Control Announces New API For License Search Data",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -46,7 +46,7 @@
       "Search"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -67,7 +67,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
+      "canonical_url": "https://api.cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
       "page_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -76,7 +76,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/",
       "open_graph_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today the launch of a new Application Programming Interface (API).",
       "twitter_title": "Bureau Of Cannabis Control Announces New API For License Search Data",
@@ -170,6 +170,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/11/17/bureau-of-cannabis-control-announces-new-api-for-license-search-data/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2020/11/bureau-of-cannabis-control-announces-new-api-for-license-search-data/"
   }
 }

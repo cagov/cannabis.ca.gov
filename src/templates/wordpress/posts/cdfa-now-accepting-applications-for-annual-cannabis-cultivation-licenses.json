@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-02T23:25:00",
-    "updated_date": "2018-01-02T23:25:00",
+    "updated_date": "2022-03-29T05:25:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-01-02T23:25:00",
     "date_gmt": "2018-01-02T23:25:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
-    "modified": "2018-01-02T23:25:00",
-    "modified_gmt": "2018-01-02T23:25:00",
+    "modified": "2022-03-28T22:25:00",
+    "modified_gmt": "2022-03-29T05:25:00",
     "slug": "cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/01/02/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
+    "link": "https://api.cannabis.ca.gov/2018/01/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
     "title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
     "excerpt": "<p>SACRAMENTO&nbsp;– The California Department of Food and Agriculture&#8217;s CalCannabis program has begun accepting applications for annual commercial licenses for cultivators, nurseries, and processors.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -51,7 +51,7 @@
       "Temporary"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -72,7 +72,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/01/02/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/01/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
       "page_title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
       "page_description": "SACRAMENTO&nbsp;– The California Department of Food and Agriculture&#8217;s CalCannabis program has begun accepting applications for annual commercial licenses for cultivators, nurseries, and processors.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -81,7 +81,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
       "meta_description": "SACRAMENTO&nbsp;– The California Department of Food and Agriculture&#8217;s CalCannabis program has begun accepting applications for annual commercial licenses for cultivators, nurseries, and processors.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/01/02/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/01/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
       "open_graph_title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
       "open_graph_description": "SACRAMENTO&nbsp;– The California Department of Food and Agriculture&#8217;s CalCannabis program has begun accepting applications for annual commercial licenses for cultivators, nurseries, and processors.",
       "twitter_title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
@@ -230,6 +230,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/01/02/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/01/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/"
   }
 }

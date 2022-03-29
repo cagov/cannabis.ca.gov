@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-16T22:16:00",
-    "updated_date": "2021-07-16T22:16:00",
+    "updated_date": "2022-03-29T05:25:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,20 +18,20 @@
     "date": "2021-07-16T15:16:00",
     "date_gmt": "2021-07-16T22:16:00",
     "guid": "https://cannabis.ca.gov/?p=8600",
-    "modified": "2021-07-16T15:16:00",
-    "modified_gmt": "2021-07-16T22:16:00",
+    "modified": "2022-03-28T22:25:30",
+    "modified_gmt": "2022-03-29T05:25:30",
     "slug": "department-of-cannabis-control-announces-regulatory-actions",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
+    "link": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-announces-regulatory-actions/",
     "title": "Department of Cannabis Control Announces Regulatory Actions",
     "excerpt": "<p>The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.</p>\n",
-    "author": "Christina Dempsey",
+    "author": "Chach",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "section 100"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -68,7 +68,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-announces-regulatory-actions/",
       "page_title": "Department of Cannabis Control Announces Regulatory Actions",
       "page_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -77,7 +77,7 @@
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control Announces Regulatory Actions",
       "meta_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-announces-regulatory-actions/",
       "open_graph_title": "Department of Cannabis Control Announces Regulatory Actions",
       "open_graph_description": "The Department of Cannabis Control announced two rulemaking actions: the approval of section 100 action to consolidate the cannabis regulations, and notice of readoption of emergency regulations for release of information to financial institutions.",
       "twitter_title": "Department of Cannabis Control Announces Regulatory Actions",
@@ -182,6 +182,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/07/16/department-of-cannabis-control-announces-regulatory-actions/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-announces-regulatory-actions/"
   }
 }

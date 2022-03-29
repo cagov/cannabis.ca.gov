@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-09-26T21:30:00",
-    "updated_date": "2019-09-26T21:30:00",
+    "updated_date": "2022-03-29T05:24:53",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2019-09-26T21:30:00",
     "date_gmt": "2019-09-26T21:30:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
-    "modified": "2019-09-26T21:30:00",
-    "modified_gmt": "2019-09-26T21:30:00",
+    "modified": "2022-03-28T22:24:53",
+    "modified_gmt": "2022-03-29T05:24:53",
     "slug": "investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/09/26/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+    "link": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
     "title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
     "excerpt": "<p>Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -54,7 +54,7 @@
       "War on drugs"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -75,7 +75,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/09/26/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
       "page_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
       "page_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -84,7 +84,7 @@
       "page_social_image_alt": "",
       "meta_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
       "meta_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/09/26/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
       "open_graph_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
       "open_graph_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.",
       "twitter_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
@@ -266,6 +266,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/09/26/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/"
   }
 }

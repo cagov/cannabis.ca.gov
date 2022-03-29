@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-08-22T21:32:00",
-    "updated_date": "2017-08-22T21:32:00",
+    "updated_date": "2022-03-29T05:26:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2017-08-22T21:32:00",
     "date_gmt": "2017-08-22T21:32:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/career-opportunities-in-cannabis-regulation/",
-    "modified": "2017-08-22T21:32:00",
-    "modified_gmt": "2017-08-22T21:32:00",
+    "modified": "2022-03-28T22:26:08",
+    "modified_gmt": "2022-03-29T05:26:08",
     "slug": "career-opportunities-in-cannabis-regulation",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/08/22/career-opportunities-in-cannabis-regulation/",
+    "link": "https://api.cannabis.ca.gov/2017/08/career-opportunities-in-cannabis-regulation/",
     "title": "Career Opportunities in Cannabis Regulation",
     "excerpt": "<p>As we get closer to January 2, 2018 and a newly-regulated cannabis industry, the State of California’s three licensing authorities are searching for qualified candidates to assist in the ongoing regulation process.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -55,7 +55,7 @@
       "State"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -76,7 +76,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/08/22/career-opportunities-in-cannabis-regulation/",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/08/career-opportunities-in-cannabis-regulation/",
       "page_title": "Career Opportunities in Cannabis Regulation",
       "page_description": "As we get closer to January 2, 2018 and a newly-regulated cannabis industry, the State of California’s three licensing authorities are searching for qualified candidates to assist in the ongoing regulation process.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -85,7 +85,7 @@
       "page_social_image_alt": "",
       "meta_title": "Career Opportunities in Cannabis Regulation",
       "meta_description": "As we get closer to January 2, 2018 and a newly-regulated cannabis industry, the State of California’s three licensing authorities are searching for qualified candidates to assist in the ongoing regulation process.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/08/22/career-opportunities-in-cannabis-regulation/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/08/career-opportunities-in-cannabis-regulation/",
       "open_graph_title": "Career Opportunities in Cannabis Regulation",
       "open_graph_description": "As we get closer to January 2, 2018 and a newly-regulated cannabis industry, the State of California’s three licensing authorities are searching for qualified candidates to assist in the ongoing regulation process.",
       "twitter_title": "Career Opportunities in Cannabis Regulation",
@@ -278,6 +278,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/08/22/career-opportunities-in-cannabis-regulation/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/08/career-opportunities-in-cannabis-regulation/"
   }
 }

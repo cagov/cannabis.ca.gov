@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-06-17T22:51:00",
-    "updated_date": "2019-06-17T22:51:00",
+    "updated_date": "2022-03-29T05:24:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2019-06-17T22:51:00",
     "date_gmt": "2019-06-17T22:51:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
-    "modified": "2019-06-17T22:51:00",
-    "modified_gmt": "2019-06-17T22:51:00",
+    "modified": "2022-03-28T22:24:54",
+    "modified_gmt": "2022-03-29T05:24:54",
     "slug": "cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/06/17/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
+    "link": "https://api.cannabis.ca.gov/2019/06/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
     "title": "Cannabis Advisory Committee to Hold Upcoming June Meetings in Los Angeles",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold three subcommittee meetings on Thursday, June 27 and a full committee meeting on Friday, June 28 at the Millennium Biltmore Hotel in Los Angeles.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -55,7 +55,7 @@
       "Webcast"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -76,7 +76,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/06/17/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/06/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
       "page_title": "Cannabis Advisory Committee to Hold Upcoming June Meetings in Los Angeles",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold three subcommittee meetings on Thursday, June 27 and a full committee meeting on Friday, June 28 at the Millennium Biltmore Hotel in Los Angeles.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -85,7 +85,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Advisory Committee to Hold Upcoming June Meetings in Los Angeles",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold three subcommittee meetings on Thursday, June 27 and a full committee meeting on Friday, June 28 at the Millennium Biltmore Hotel in Los Angeles.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/06/17/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/06/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/",
       "open_graph_title": "Cannabis Advisory Committee to Hold Upcoming June Meetings in Los Angeles",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that the Cannabis Advisory Committee will hold three subcommittee meetings on Thursday, June 27 and a full committee meeting on Friday, June 28 at the Millennium Biltmore Hotel in Los Angeles.",
       "twitter_title": "Cannabis Advisory Committee to Hold Upcoming June Meetings in Los Angeles",
@@ -278,6 +278,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/06/17/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/06/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/"
   }
 }

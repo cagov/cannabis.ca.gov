@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-10-28T17:13:00",
-    "updated_date": "2020-10-28T17:13:00",
+    "updated_date": "2022-03-29T05:24:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2020-10-28T17:13:00",
     "date_gmt": "2020-10-28T17:13:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-advisory-committee-to-hold-virtual-meeting/",
-    "modified": "2020-10-28T17:13:00",
-    "modified_gmt": "2020-10-28T17:13:00",
+    "modified": "2022-03-28T22:24:50",
+    "modified_gmt": "2022-03-29T05:24:50",
     "slug": "cannabis-advisory-committee-to-hold-virtual-meeting",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/10/28/cannabis-advisory-committee-to-hold-virtual-meeting/",
+    "link": "https://api.cannabis.ca.gov/2020/10/cannabis-advisory-committee-to-hold-virtual-meeting/",
     "title": "Cannabis Advisory Committee To Hold Virtual Meeting",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a virtual meeting on Friday, October 30, 2020. The focal point of the meeting will be to discuss and provide recommendations for consolidating the three licensing authorities’ regulations into one comprehensive set of regulations applicable to California’s cannabis [&hellip;]</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -45,7 +45,7 @@
       "Sacramento"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -66,7 +66,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/10/28/cannabis-advisory-committee-to-hold-virtual-meeting/",
+      "canonical_url": "https://api.cannabis.ca.gov/2020/10/cannabis-advisory-committee-to-hold-virtual-meeting/",
       "page_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -75,7 +75,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/10/28/cannabis-advisory-committee-to-hold-virtual-meeting/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/10/cannabis-advisory-committee-to-hold-virtual-meeting/",
       "open_graph_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Cannabis Advisory Committee To Hold Virtual Meeting",
@@ -158,6 +158,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/10/28/cannabis-advisory-committee-to-hold-virtual-meeting/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2020/10/cannabis-advisory-committee-to-hold-virtual-meeting/"
   }
 }

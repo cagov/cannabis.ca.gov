@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-11-15T01:26:00",
-    "updated_date": "2018-11-15T01:26:00",
+    "updated_date": "2022-03-29T05:25:37",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-11-15T01:26:00",
     "date_gmt": "2018-11-15T01:26:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/water-boards-cannabis-cultivation-enrollment-workshop/",
-    "modified": "2018-11-15T01:26:00",
-    "modified_gmt": "2018-11-15T01:26:00",
+    "modified": "2022-03-28T22:25:37",
+    "modified_gmt": "2022-03-29T05:25:37",
     "slug": "water-boards-cannabis-cultivation-enrollment-workshop",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/11/15/water-boards-cannabis-cultivation-enrollment-workshop/",
+    "link": "https://api.cannabis.ca.gov/2018/11/water-boards-cannabis-cultivation-enrollment-workshop/",
     "title": "CDFW, SWRCB, and CalCannabis to Host Three Additional Cannabis Cultivation Permitting Enrollment Workshops",
     "excerpt": "<p>State Water Resource Control Boards (SWRCB), California Department of Fish and Wildlife (CDFW), and the California Department of Food and Agriculture&#8217;s CalCannabis Cultivation Licensing division (CalCannabis) will be hosting three Cannabis Cultivation Permitting Enrollment workshops on December 4-6 from 10:00 a.m.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -53,7 +53,7 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -74,7 +74,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/11/15/water-boards-cannabis-cultivation-enrollment-workshop/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/11/water-boards-cannabis-cultivation-enrollment-workshop/",
       "page_title": "CDFW, SWRCB, and CalCannabis to Host Three Additional Cannabis Cultivation Permitting Enrollment Workshops",
       "page_description": "State Water Resource Control Boards (SWRCB), California Department of Fish and Wildlife (CDFW), and the California Department of Food and Agriculture&#8217;s CalCannabis Cultivation Licensing division (CalCannabis) will be hosting three Cannabis Cultivation Permitting Enrollment workshops on December 4-6 from 10:00 a.m.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -83,7 +83,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDFW, SWRCB, and CalCannabis to Host Three Additional Cannabis Cultivation Permitting Enrollment Workshops",
       "meta_description": "State Water Resource Control Boards (SWRCB), California Department of Fish and Wildlife (CDFW), and the California Department of Food and Agriculture&#8217;s CalCannabis Cultivation Licensing division (CalCannabis) will be hosting three Cannabis Cultivation Permitting Enrollment workshops on December 4-6 from 10:00 a.m.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/11/15/water-boards-cannabis-cultivation-enrollment-workshop/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/11/water-boards-cannabis-cultivation-enrollment-workshop/",
       "open_graph_title": "CDFW, SWRCB, and CalCannabis to Host Three Additional Cannabis Cultivation Permitting Enrollment Workshops",
       "open_graph_description": "State Water Resource Control Boards (SWRCB), California Department of Fish and Wildlife (CDFW), and the California Department of Food and Agriculture&#8217;s CalCannabis Cultivation Licensing division (CalCannabis) will be hosting three Cannabis Cultivation Permitting Enrollment workshops on December 4-6 from 10:00 a.m.",
       "twitter_title": "CDFW, SWRCB, and CalCannabis to Host Three Additional Cannabis Cultivation Permitting Enrollment Workshops",
@@ -254,6 +254,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/11/15/water-boards-cannabis-cultivation-enrollment-workshop/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/11/water-boards-cannabis-cultivation-enrollment-workshop/"
   }
 }
