@@ -159,28 +159,17 @@ cagov-map-table .maps {
   /* flex-flow: column wrap; */
 }
 
-cagov-map-table .maps .panel {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* flex-basis: 100px; */
-  /* flex-direction:row; */
-  /* flex-flow: row wrap; */
-}
-
 cagov-map-table .maps .panel.map {
   min-height: 650px;
   /* max-width: 650px; */
 }
 
-
 cagov-map-table .panel.legend {
   /* get grid */
   width: 307px;
   height: 200px;
-  display: none;
-  
+  /* display: none; */
 }
-
 
 /* @TODO lookup css var breakpoints */
 @media only screen and (max-width: 900px) {

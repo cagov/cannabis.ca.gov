@@ -16,49 +16,11 @@ export default function drawCountyMap({
   mapLevel = "County",
   jurisdiction = null,
   tooltipElement = null,
+  legendElement = null,
   chartOptions = null,
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
-  // const zoom = d3.zoom().scaleExtent([1, 8]).on("zoom", zoomed);
-
-  function reset() {
-    states.transition().style("fill", null);
-    svg
-      .transition()
-      .duration(750)
-      .call(
-        zoom.transform,
-        d3.zoomIdentity,
-        d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
-      );
-  }
-
-  function clicked(event, d) {
-    const [[x0, y0], [x1, y1]] = path.bounds(d);
-    event.stopPropagation();
-    states.transition().style("fill", null);
-    d3.select(this).transition().style("fill", "red");
-    svg
-      .transition()
-      .duration(750)
-      .call(
-        zoom.transform,
-        d3.zoomIdentity
-          .translate(width / 2, height / 2)
-          .scale(
-            Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
-          )
-          .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-        d3.pointer(event, svg.node())
-      );
-  }
-
-  // function zoomed(event) {
-  //   const { transform } = event;
-  //   g.attr("transform", transform);
-  //   g.attr("stroke-width", 1 / transform.k);
-  // }
 
   try {
     /* Data processing */
@@ -90,9 +52,7 @@ export default function drawCountyMap({
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
-      // svg.call(zoom)
 
-      // svg.append("g").attr("data-name", "county-strokes");
     } else {
       d3.select(domElement + " [data-name] g").remove();
     }
