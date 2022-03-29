@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-12-30T20:23:00",
-    "updated_date": "2019-12-30T20:23:00",
+    "updated_date": "2022-03-29T05:25:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2019-12-30T20:23:00",
     "date_gmt": "2019-12-30T20:23:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/important-announcement-regarding-external-transfers-for-metrc-users/",
-    "modified": "2019-12-30T20:23:00",
-    "modified_gmt": "2019-12-30T20:23:00",
+    "modified": "2022-03-28T22:25:31",
+    "modified_gmt": "2022-03-29T05:25:31",
     "slug": "important-announcement-regarding-external-transfers-for-metrc-users",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
+    "link": "https://api.cannabis.ca.gov/2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
     "title": "Important Announcement Regarding External Transfers for Metrc Users",
     "excerpt": "<p>To All Interested Parties,<br />\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -49,7 +49,7 @@
       "Transfer"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -70,7 +70,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
       "page_title": "Important Announcement Regarding External Transfers for Metrc Users",
       "page_description": "To All Interested Parties,\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -79,7 +79,7 @@
       "page_social_image_alt": "",
       "meta_title": "Important Announcement Regarding External Transfers for Metrc Users",
       "meta_description": "To All Interested Parties,\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
       "open_graph_title": "Important Announcement Regarding External Transfers for Metrc Users",
       "open_graph_description": "To All Interested Parties,\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.",
       "twitter_title": "Important Announcement Regarding External Transfers for Metrc Users",
@@ -206,6 +206,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/12/30/important-announcement-regarding-external-transfers-for-metrc-users/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/12/important-announcement-regarding-external-transfers-for-metrc-users/"
   }
 }

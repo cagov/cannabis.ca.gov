@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-07-30T16:26:00",
-    "updated_date": "2018-07-30T16:26:00",
+    "updated_date": "2022-03-29T05:25:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-07-30T16:26:00",
     "date_gmt": "2018-07-30T16:26:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdfas-calcannabis-appellations-program-survey/",
-    "modified": "2018-07-30T16:26:00",
-    "modified_gmt": "2018-07-30T16:26:00",
+    "modified": "2022-03-28T22:25:38",
+    "modified_gmt": "2022-03-29T05:25:38",
     "slug": "cdfas-calcannabis-appellations-program-survey",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/07/30/cdfas-calcannabis-appellations-program-survey/",
+    "link": "https://api.cannabis.ca.gov/2018/07/cdfas-calcannabis-appellations-program-survey/",
     "title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
     "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is preparing to host public workshops this September to provide information and gather feedback from workshop participants on the development of the new CalCannabis Appellations Program.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -48,7 +48,7 @@
       "Workshops"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -69,7 +69,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/07/30/cdfas-calcannabis-appellations-program-survey/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/07/cdfas-calcannabis-appellations-program-survey/",
       "page_title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
       "page_description": "CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is preparing to host public workshops this September to provide information and gather feedback from workshop participants on the development of the new CalCannabis Appellations Program.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -78,7 +78,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
       "meta_description": "CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is preparing to host public workshops this September to provide information and gather feedback from workshop participants on the development of the new CalCannabis Appellations Program.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/07/30/cdfas-calcannabis-appellations-program-survey/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/07/cdfas-calcannabis-appellations-program-survey/",
       "open_graph_title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
       "open_graph_description": "CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is preparing to host public workshops this September to provide information and gather feedback from workshop participants on the development of the new CalCannabis Appellations Program.",
       "twitter_title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
@@ -194,6 +194,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/07/30/cdfas-calcannabis-appellations-program-survey/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/07/cdfas-calcannabis-appellations-program-survey/"
   }
 }

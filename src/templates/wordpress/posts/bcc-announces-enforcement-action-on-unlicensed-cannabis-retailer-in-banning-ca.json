@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-07-12T23:23:00",
-    "updated_date": "2019-07-12T23:23:00",
+    "updated_date": "2022-03-29T05:24:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2019-07-12T23:23:00",
     "date_gmt": "2019-07-12T23:23:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
-    "modified": "2019-07-12T23:23:00",
-    "modified_gmt": "2019-07-12T23:23:00",
+    "modified": "2022-03-28T22:24:54",
+    "modified_gmt": "2022-03-29T05:24:54",
     "slug": "bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/07/12/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
+    "link": "https://api.cannabis.ca.gov/2019/07/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
     "title": "BCC Announces Enforcement Action on Unlicensed Cannabis Retailer in Banning, CA",
     "excerpt": "<p>The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on an unlicensed cannabis retailer operating in Southern California.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -49,7 +49,7 @@
       "Unlicensed"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -70,7 +70,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/07/12/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/07/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
       "page_title": "BCC Announces Enforcement Action on Unlicensed Cannabis Retailer in Banning, CA",
       "page_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on an unlicensed cannabis retailer operating in Southern California.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -79,7 +79,7 @@
       "page_social_image_alt": "",
       "meta_title": "BCC Announces Enforcement Action on Unlicensed Cannabis Retailer in Banning, CA",
       "meta_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on an unlicensed cannabis retailer operating in Southern California.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/07/12/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/07/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/",
       "open_graph_title": "BCC Announces Enforcement Action on Unlicensed Cannabis Retailer in Banning, CA",
       "open_graph_description": "The Bureau of Cannabis Control and the Department of Consumer Affairs’ Cannabis Enforcement Unit today announced enforcement action on an unlicensed cannabis retailer operating in Southern California.",
       "twitter_title": "BCC Announces Enforcement Action on Unlicensed Cannabis Retailer in Banning, CA",
@@ -206,6 +206,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/07/12/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/07/bcc-announces-enforcement-action-on-unlicensed-cannabis-retailer-in-banning-ca/"
   }
 }

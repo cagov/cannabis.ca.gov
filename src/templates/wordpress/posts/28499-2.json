@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-05-18T17:43:00",
-    "updated_date": "2018-05-18T17:43:00",
+    "updated_date": "2022-03-29T05:24:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-05-18T17:43:00",
     "date_gmt": "2018-05-18T17:43:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/28499/",
-    "modified": "2018-05-18T17:43:00",
-    "modified_gmt": "2018-05-18T17:43:00",
+    "modified": "2022-03-28T22:24:58",
+    "modified_gmt": "2022-03-29T05:24:58",
     "slug": "28499-2",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/05/18/28499-2/",
+    "link": "https://api.cannabis.ca.gov/2018/05/28499-2/",
     "title": "Licensing Authorities Announce Proposed Readoption of Emergency Cannabis Regulations",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control, California Department of Public Health and California Department of Food and Agriculture have proposed to readopt their emergency regulations that are currently in effect, extending the time those regulations are in effect for another 180-day period.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -39,7 +39,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -60,7 +60,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/05/18/28499-2/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/05/28499-2/",
       "page_title": "Licensing Authorities Announce Proposed Readoption of Emergency Cannabis Regulations",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control, California Department of Public Health and California Department of Food and Agriculture have proposed to readopt their emergency regulations that are currently in effect, extending the time those regulations are in effect for another 180-day period.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "Licensing Authorities Announce Proposed Readoption of Emergency Cannabis Regulations",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control, California Department of Public Health and California Department of Food and Agriculture have proposed to readopt their emergency regulations that are currently in effect, extending the time those regulations are in effect for another 180-day period.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/05/18/28499-2/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/05/28499-2/",
       "open_graph_title": "Licensing Authorities Announce Proposed Readoption of Emergency Cannabis Regulations",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control, California Department of Public Health and California Department of Food and Agriculture have proposed to readopt their emergency regulations that are currently in effect, extending the time those regulations are in effect for another 180-day period.",
       "twitter_title": "Licensing Authorities Announce Proposed Readoption of Emergency Cannabis Regulations",
@@ -96,6 +96,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/05/18/28499-2/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/05/28499-2/"
   }
 }

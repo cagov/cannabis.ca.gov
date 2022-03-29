@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-05-13T23:59:00",
-    "updated_date": "2019-05-13T23:59:00",
+    "updated_date": "2022-03-29T05:25:33",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2019-05-13T23:59:00",
     "date_gmt": "2019-05-13T23:59:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-community-reinvestment-grants-program-application-due-date-reminder/",
-    "modified": "2019-05-13T23:59:00",
-    "modified_gmt": "2019-05-13T23:59:00",
+    "modified": "2022-03-28T22:25:33",
+    "modified_gmt": "2022-03-29T05:25:33",
     "slug": "california-community-reinvestment-grants-program-application-due-date-reminder",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
+    "link": "https://api.cannabis.ca.gov/2019/05/california-community-reinvestment-grants-program-application-due-date-reminder/",
     "title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
     "excerpt": "<p>Dear California Community Reinvestment Grants Program Interested Parties:<br />\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -44,7 +44,7 @@
       "Governor's Office of Business and Economic Development"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -65,7 +65,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/05/california-community-reinvestment-grants-program-application-due-date-reminder/",
       "page_title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
       "page_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -74,7 +74,7 @@
       "page_social_image_alt": "",
       "meta_title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
       "meta_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/05/california-community-reinvestment-grants-program-application-due-date-reminder/",
       "open_graph_title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
       "open_graph_description": "Dear California Community Reinvestment Grants Program Interested Parties:\nAs a reminder, the deadline to submit a California Community Reinvestment Grants (CalCRG) program application is 11:59 p.m. (Pacific Time) on Thursday, May 16, 2019.",
       "twitter_title": "California Community Reinvestment Grants Program &#8211; Application Due Date Reminder",
@@ -146,6 +146,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2019/05/13/california-community-reinvestment-grants-program-application-due-date-reminder/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/05/california-community-reinvestment-grants-program-application-due-date-reminder/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-12-18T19:35:00",
-    "updated_date": "2017-12-18T19:35:00",
+    "updated_date": "2022-03-29T05:27:17",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2017-12-18T19:35:00",
     "date_gmt": "2017-12-18T19:35:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/alameda-county-announces-winter-cannabis-summit/",
-    "modified": "2017-12-18T19:35:00",
-    "modified_gmt": "2017-12-18T19:35:00",
+    "modified": "2022-03-28T22:27:17",
+    "modified_gmt": "2022-03-29T05:27:17",
     "slug": "alameda-county-announces-winter-cannabis-summit",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
+    "link": "https://api.cannabis.ca.gov/2017/12/alameda-county-announces-winter-cannabis-summit/",
     "title": "Alameda County Announces Winter Cannabis Summit",
     "excerpt": "<p>As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -51,7 +51,7 @@
       "Winter"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -72,7 +72,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/12/alameda-county-announces-winter-cannabis-summit/",
       "page_title": "Alameda County Announces Winter Cannabis Summit",
       "page_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -81,7 +81,7 @@
       "page_social_image_alt": "",
       "meta_title": "Alameda County Announces Winter Cannabis Summit",
       "meta_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/12/18/alameda-county-announces-winter-cannabis-summit/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/12/alameda-county-announces-winter-cannabis-summit/",
       "open_graph_title": "Alameda County Announces Winter Cannabis Summit",
       "open_graph_description": "As California gears up to establish a legal, taxed and tightly regulated system for medical and adult-use cannabis, Alameda County is hosting a Winter Cannabis Summit on Wednesday, December 20th, from 9am- 4pm, at the Alameda County Board of Supervisors Chambers, 1221 Oak St., 5th Floor, Oakland.",
       "twitter_title": "Alameda County Announces Winter Cannabis Summit",
@@ -230,6 +230,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/12/18/alameda-county-announces-winter-cannabis-summit/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/12/alameda-county-announces-winter-cannabis-summit/"
   }
 }

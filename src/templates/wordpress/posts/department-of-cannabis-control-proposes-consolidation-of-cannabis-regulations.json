@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-08T18:51:33",
-    "updated_date": "2021-09-08T18:51:33",
+    "updated_date": "2022-03-29T05:24:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,20 +18,20 @@
     "date": "2021-09-08T11:51:33",
     "date_gmt": "2021-09-08T18:51:33",
     "guid": "https://cannabis.ca.gov/?p=8765",
-    "modified": "2021-09-08T11:51:33",
-    "modified_gmt": "2021-09-08T18:51:33",
+    "modified": "2022-03-28T22:24:49",
+    "modified_gmt": "2022-03-29T05:24:49",
     "slug": "department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/09/08/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
+    "link": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
     "title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
     "excerpt": "<p>Emergency rulemaking action would create a single set of regulations for commercial cannabis activity in California SACRAMENTO, CA – The Department of Cannabis Control (DCC) today published proposed emergency regulations. This action follows those taken in July by DCC to move all cannabis regulations into Title 4 of the California Code of Regulations. This is [&hellip;]</p>\n",
-    "author": "Christina Dempsey",
+    "author": "Chach",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -48,7 +48,7 @@
       "rulemaking action"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -69,7 +69,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/09/08/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
       "page_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -78,7 +78,7 @@
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/09/08/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
       "open_graph_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
@@ -194,6 +194,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/09/08/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/"
   }
 }

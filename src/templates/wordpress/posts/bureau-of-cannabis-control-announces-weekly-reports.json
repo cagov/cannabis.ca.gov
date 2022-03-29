@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-10-11T21:12:00",
-    "updated_date": "2018-10-11T21:12:00",
+    "updated_date": "2022-03-29T05:25:37",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-10-11T21:12:00",
     "date_gmt": "2018-10-11T21:12:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-weekly-reports/",
-    "modified": "2018-10-11T21:12:00",
-    "modified_gmt": "2018-10-11T21:12:00",
+    "modified": "2022-03-28T22:25:37",
+    "modified_gmt": "2022-03-29T05:25:37",
     "slug": "bureau-of-cannabis-control-announces-weekly-reports",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/10/11/bureau-of-cannabis-control-announces-weekly-reports/",
+    "link": "https://api.cannabis.ca.gov/2018/10/bureau-of-cannabis-control-announces-weekly-reports/",
     "title": "Bureau of Cannabis Control Announces Weekly Reports",
     "excerpt": "<p>To All BCC Interested Parties:<br />\nThe Bureau of Cannabis Control has announced the addition of a new weekly report listing licensee information. This report reflects recently issued licenses, denied applications, and cannabis batch testing results.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -54,7 +54,7 @@
       "Weekly reports"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -75,7 +75,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/10/11/bureau-of-cannabis-control-announces-weekly-reports/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/10/bureau-of-cannabis-control-announces-weekly-reports/",
       "page_title": "Bureau of Cannabis Control Announces Weekly Reports",
       "page_description": "To All BCC Interested Parties:\nThe Bureau of Cannabis Control has announced the addition of a new weekly report listing licensee information. This report reflects recently issued licenses, denied applications, and cannabis batch testing results.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -84,7 +84,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control Announces Weekly Reports",
       "meta_description": "To All BCC Interested Parties:\nThe Bureau of Cannabis Control has announced the addition of a new weekly report listing licensee information. This report reflects recently issued licenses, denied applications, and cannabis batch testing results.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/10/11/bureau-of-cannabis-control-announces-weekly-reports/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/10/bureau-of-cannabis-control-announces-weekly-reports/",
       "open_graph_title": "Bureau of Cannabis Control Announces Weekly Reports",
       "open_graph_description": "To All BCC Interested Parties:\nThe Bureau of Cannabis Control has announced the addition of a new weekly report listing licensee information. This report reflects recently issued licenses, denied applications, and cannabis batch testing results.",
       "twitter_title": "Bureau of Cannabis Control Announces Weekly Reports",
@@ -266,6 +266,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/10/11/bureau-of-cannabis-control-announces-weekly-reports/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/10/bureau-of-cannabis-control-announces-weekly-reports/"
   }
 }

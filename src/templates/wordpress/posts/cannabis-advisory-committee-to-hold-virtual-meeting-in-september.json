@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-09-11T16:11:00",
-    "updated_date": "2020-09-11T16:11:00",
+    "updated_date": "2022-03-29T05:24:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2020-09-11T16:11:00",
     "date_gmt": "2020-09-11T16:11:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
-    "modified": "2020-09-11T16:11:00",
-    "modified_gmt": "2020-09-11T16:11:00",
+    "modified": "2022-03-28T22:24:51",
+    "modified_gmt": "2022-03-29T05:24:51",
     "slug": "cannabis-advisory-committee-to-hold-virtual-meeting-in-september",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2020/09/11/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
+    "link": "https://api.cannabis.ca.gov/2020/09/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
     "title": "Cannabis Advisory Committee To Hold Virtual Meeting In September",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, September 24 and Friday, September 25, 2020.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -48,7 +48,7 @@
       "Sacramento"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -69,7 +69,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2020/09/11/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
+      "canonical_url": "https://api.cannabis.ca.gov/2020/09/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
       "page_title": "Cannabis Advisory Committee To Hold Virtual Meeting In September",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, September 24 and Friday, September 25, 2020.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -78,7 +78,7 @@
       "page_social_image_alt": "",
       "meta_title": "Cannabis Advisory Committee To Hold Virtual Meeting In September",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, September 24 and Friday, September 25, 2020.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/09/11/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/09/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/",
       "open_graph_title": "Cannabis Advisory Committee To Hold Virtual Meeting In September",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, September 24 and Friday, September 25, 2020.",
       "twitter_title": "Cannabis Advisory Committee To Hold Virtual Meeting In September",
@@ -194,6 +194,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2020/09/11/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2020/09/cannabis-advisory-committee-to-hold-virtual-meeting-in-september/"
   }
 }

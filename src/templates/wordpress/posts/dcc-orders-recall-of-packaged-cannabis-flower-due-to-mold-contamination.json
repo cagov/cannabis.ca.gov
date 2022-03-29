@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "created_date": "2022-01-26T20:07:55",
+    "updated_date": "2022-03-29T05:25:29",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9374",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9374,
+    "date": "2022-01-26T12:07:55",
+    "date_gmt": "2022-01-26T20:07:55",
+    "guid": "https://cannabis.ca.gov/?p=9374",
+    "modified": "2022-03-28T22:25:29",
+    "modified_gmt": "2022-03-29T05:25:29",
+    "slug": "dcc-orders-recall-of-packaged-cannabis-flower-due-to-mold-contamination",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2022/01/dcc-orders-recall-of-packaged-cannabis-flower-due-to-mold-contamination/",
+    "title": "DCC orders recall of packaged cannabis flower due to mold contamination",
+    "excerpt": "<p>SACRAMENTO – California’s Department of Cannabis Control (DCC) has ordered a mandatory recall after identifying a batch of packaged cannabis flower contaminated with Aspergillus niger. Consumers who purchased Claybourne Co. flower are urged to check their packaging for the UID and batch numbers listed below and dispose of the flower if affected. To date, no [&hellip;]</p>\n",
+    "author": "Chach",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "aspergillus",
+      "cannabis flower",
+      "claybourne",
+      "claybourne co.",
+      "head banger",
+      "Mandatory recall",
+      "Recall"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/01/dcc-orders-recall-of-packaged-cannabis-flower-due-to-mold-contamination/",
+      "page_title": "DCC orders recall of packaged cannabis flower due to mold contamination",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "DCC orders recall of packaged cannabis flower due to mold contamination",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/01/dcc-orders-recall-of-packaged-cannabis-flower-due-to-mold-contamination/",
+      "open_graph_title": "DCC orders recall of packaged cannabis flower due to mold contamination",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "DCC orders recall of packaged cannabis flower due to mold contamination",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 782,
+        "name": "aspergillus",
+        "slug": "aspergillus",
+        "term_group": 0,
+        "term_taxonomy_id": 782,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 784,
+        "name": "cannabis flower",
+        "slug": "cannabis-flower",
+        "term_group": 0,
+        "term_taxonomy_id": 784,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 786,
+        "name": "claybourne",
+        "slug": "claybourne",
+        "term_group": 0,
+        "term_taxonomy_id": 786,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 788,
+        "name": "claybourne co.",
+        "slug": "claybourne-co",
+        "term_group": 0,
+        "term_taxonomy_id": 788,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 793,
+        "name": "head banger",
+        "slug": "head-banger",
+        "term_group": 0,
+        "term_taxonomy_id": 793,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 795,
+        "name": "Mandatory recall",
+        "slug": "mandatory-recall",
+        "term_group": 0,
+        "term_taxonomy_id": 795,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 797,
+        "name": "Recall",
+        "slug": "recall",
+        "term_group": 0,
+        "term_taxonomy_id": 797,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/01/dcc-orders-recall-of-packaged-cannabis-flower-due-to-mold-contamination/",
+    "media": [
+      {
+        "id": 9353,
+        "type": "full",
+        "path": "2022/01/Recall-220126-Back-of-Box.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Back-of-Box.jpg",
+        "file": "Recall-220126-Back-of-Box.jpg",
+        "width": 687,
+        "height": 751,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Back-of-Box.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9353,
+        "type": "medium",
+        "path": "2022/01/Recall-220126-Back-of-Box-527x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Back-of-Box-527x576.jpg",
+        "file": "Recall-220126-Back-of-Box-527x576.jpg",
+        "width": 527,
+        "height": 576,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Back-of-Box-527x576.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9350,
+        "type": "full",
+        "path": "2022/01/Recall-220126-Product-Packaging-scaled-1.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled-1.jpg",
+        "file": "Recall-220126-Product-Packaging-scaled-1.jpg",
+        "width": 2560,
+        "height": 1666,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled-1.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-12-11T22:04:00",
-    "updated_date": "2018-12-11T22:04:00",
+    "updated_date": "2022-03-29T05:25:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-12-11T22:04:00",
     "date_gmt": "2018-12-11T22:04:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
-    "modified": "2018-12-11T22:04:00",
-    "modified_gmt": "2018-12-11T22:04:00",
+    "modified": "2022-03-28T22:25:36",
+    "modified_gmt": "2022-03-29T05:25:36",
     "slug": "california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/12/11/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+    "link": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
     "title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
     "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -54,7 +54,7 @@
       "Taxes"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -75,7 +75,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/12/11/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
       "page_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
       "page_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -84,7 +84,7 @@
       "page_social_image_alt": "",
       "meta_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
       "meta_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/12/11/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
       "open_graph_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
       "open_graph_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.",
       "twitter_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
@@ -266,6 +266,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/12/11/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-21T23:16:44",
-    "updated_date": "2021-10-21T23:16:44",
+    "updated_date": "2022-03-29T05:24:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,20 +18,20 @@
     "date": "2021-10-21T16:16:44",
     "date_gmt": "2021-10-21T23:16:44",
     "guid": "https://cannabis.ca.gov/?p=8927",
-    "modified": "2021-10-21T16:16:44",
-    "modified_gmt": "2021-10-21T23:16:44",
+    "modified": "2022-03-28T22:24:49",
+    "modified_gmt": "2022-03-29T05:24:49",
     "slug": "department-of-cannabis-control-marks-100-days-as-a-new-state-department",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+    "link": "https://api.cannabis.ca.gov/2021/10/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
     "title": "Department of Cannabis Control marks 100 days as a new state department",
     "excerpt": "<p>CALIFORNIA – Today, California’s Department of Cannabis Control (DCC) marks its first 100 days as a new state department. In this short time, DCC has already taken significant steps to deliver on the Newsom Administration’s commitments to support California cannabis businesses and improve the cannabis regulatory framework. “We’ve made meaningful early progress as a new [&hellip;]</p>\n",
-    "author": "Christina Dempsey",
+    "author": "Chach",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -39,7 +39,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "2021-10-21",
@@ -60,7 +60,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/10/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
       "page_title": "Department of Cannabis Control marks 100 days as a new state department",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "Department of Cannabis Control marks 100 days as a new state department",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/10/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
       "open_graph_title": "Department of Cannabis Control marks 100 days as a new state department",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Department of Cannabis Control marks 100 days as a new state department",
@@ -96,6 +96,34 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/10/21/department-of-cannabis-control-marks-100-days-as-a-new-state-department/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/10/department-of-cannabis-control-marks-100-days-as-a-new-state-department/",
+    "media": [
+      {
+        "id": 8923,
+        "type": "full",
+        "path": "2021/10/20210924_095121-002-scaled-2.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/20210924_095121-002-scaled-2.jpg",
+        "file": "20210924_095121-002-scaled-2.jpg",
+        "width": 2560,
+        "height": 1336,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/20210924_095121-002-scaled-2.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 8920,
+        "type": "full",
+        "path": "2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "file": "Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "width": 2560,
+        "height": 2443,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/Secretary-Tours-BCSH-and-DCC-Group-scaled-2.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }

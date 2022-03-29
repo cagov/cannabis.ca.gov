@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-02-22T17:53:00",
-    "updated_date": "2018-02-22T17:53:00",
+    "updated_date": "2022-03-29T05:24:59",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-02-22T17:53:00",
     "date_gmt": "2018-02-22T17:53:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
-    "modified": "2018-02-22T17:53:00",
-    "modified_gmt": "2018-02-22T17:53:00",
+    "modified": "2022-03-28T22:24:59",
+    "modified_gmt": "2022-03-29T05:24:59",
     "slug": "bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/02/22/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
+    "link": "https://api.cannabis.ca.gov/2018/02/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
     "title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Ukiah",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "press-release",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -52,7 +52,7 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "press-release"
     },
     "event": null,
     "custom_post_date": "",
@@ -73,7 +73,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/02/22/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/02/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
       "page_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Ukiah",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -82,7 +82,7 @@
       "page_social_image_alt": "",
       "meta_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Ukiah",
       "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/02/22/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/02/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/",
       "open_graph_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Ukiah",
       "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) will host a public licensing workshop in Ukiah on Thursday, March 1.",
       "twitter_title": "Bureau of Cannabis Control to Hold Public Licensing Workshop in Ukiah",
@@ -242,6 +242,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/02/22/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/02/bureau-of-cannabis-control-to-hold-public-licensing-workshop-in-ukiah/"
   }
 }

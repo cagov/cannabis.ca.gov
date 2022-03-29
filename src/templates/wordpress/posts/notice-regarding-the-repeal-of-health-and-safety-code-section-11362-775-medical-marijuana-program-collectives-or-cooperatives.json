@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-09T23:50:00",
-    "updated_date": "2018-01-09T23:50:00",
+    "updated_date": "2022-03-29T05:26:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-01-09T23:50:00",
     "date_gmt": "2018-01-09T23:50:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
-    "modified": "2018-01-09T23:50:00",
-    "modified_gmt": "2018-01-09T23:50:00",
+    "modified": "2022-03-28T22:26:06",
+    "modified_gmt": "2022-03-29T05:26:06",
     "slug": "notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
+    "link": "https://api.cannabis.ca.gov/2018/01/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
     "title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
     "excerpt": "<p>Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -47,7 +47,7 @@
       "Repeal"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -68,7 +68,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/01/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
       "page_title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
       "page_description": "Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -77,7 +77,7 @@
       "page_social_image_alt": "",
       "meta_title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
       "meta_description": "Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/01/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/",
       "open_graph_title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
       "open_graph_description": "Health and Safety Code section 11362.775, provides that it shall remain in effect only until one year after the Bureau of Cannabis Control posts a notice on its Internet Web site that the state licensing authorities have commenced issuing licenses pursuant to the Medicinal and Adult-Use Cannabis Regulation and Safety Act.",
       "twitter_title": "Notice Regarding the Repeal of Health and Safety Code Section 11362.775 Medical Marijuana Program &#8211; Collectives or Cooperatives",
@@ -182,6 +182,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/01/09/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/01/notice-regarding-the-repeal-of-health-and-safety-code-section-11362-775-medical-marijuana-program-collectives-or-cooperatives/"
   }
 }

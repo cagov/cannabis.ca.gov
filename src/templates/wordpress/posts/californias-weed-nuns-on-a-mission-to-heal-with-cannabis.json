@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T22:11:00",
-    "updated_date": "2017-04-20T22:11:00",
+    "updated_date": "2022-03-29T05:26:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2017-04-20T22:11:00",
     "date_gmt": "2017-04-20T22:11:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
-    "modified": "2017-04-20T22:11:00",
-    "modified_gmt": "2017-04-20T22:11:00",
+    "modified": "2022-03-28T22:26:11",
+    "modified_gmt": "2022-03-29T05:26:11",
     "slug": "californias-weed-nuns-on-a-mission-to-heal-with-cannabis",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
+    "link": "https://api.cannabis.ca.gov/2017/04/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
     "title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
     "excerpt": "<p>The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -39,7 +39,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -60,7 +60,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/04/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
       "page_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
       "page_description": "The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -69,7 +69,7 @@
       "page_social_image_alt": "",
       "meta_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
       "meta_description": "The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/04/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/",
       "open_graph_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
       "open_graph_description": "The Sisters of the Valley, California&#8217;s self-ordained &#8220;weed nuns,&#8221; are on a mission to heal and empower women with their cannabis products.",
       "twitter_title": "California&#8217;s &#8216;weed nuns&#8217; on a mission to heal with cannabis",
@@ -96,6 +96,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2017/04/20/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/04/californias-weed-nuns-on-a-mission-to-heal-with-cannabis/"
   }
 }

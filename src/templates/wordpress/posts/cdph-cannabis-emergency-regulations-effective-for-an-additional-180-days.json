@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-06-07T17:42:00",
-    "updated_date": "2018-06-07T17:42:00",
+    "updated_date": "2022-03-29T05:25:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,12 +18,12 @@
     "date": "2018-06-07T17:42:00",
     "date_gmt": "2018-06-07T17:42:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
-    "modified": "2018-06-07T17:42:00",
-    "modified_gmt": "2018-06-07T17:42:00",
+    "modified": "2022-03-28T22:25:39",
+    "modified_gmt": "2022-03-29T05:25:39",
     "slug": "cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2018/06/07/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
+    "link": "https://api.cannabis.ca.gov/2018/06/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
     "title": "CDPH&#8217;s Manufactured Cannabis Safety Branch Announces Formal Re-Adoption of Emergency Regulations",
     "excerpt": "<p>The re-adoption of emergency regulations for cannabis manufacturers, issued by the California Department of Public Health (CDPH), has been approved.</p>\n",
     "author": "Department of Cannabis Control",
@@ -31,7 +31,7 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -48,7 +48,7 @@
       "Readopt"
     ],
     "design_system_fields": {
-      "template": "template-single"
+      "template": "post"
     },
     "event": null,
     "custom_post_date": "",
@@ -69,7 +69,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2018/06/07/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/06/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
       "page_title": "CDPH&#8217;s Manufactured Cannabis Safety Branch Announces Formal Re-Adoption of Emergency Regulations",
       "page_description": "The re-adoption of emergency regulations for cannabis manufacturers, issued by the California Department of Public Health (CDPH), has been approved.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -78,7 +78,7 @@
       "page_social_image_alt": "",
       "meta_title": "CDPH&#8217;s Manufactured Cannabis Safety Branch Announces Formal Re-Adoption of Emergency Regulations",
       "meta_description": "The re-adoption of emergency regulations for cannabis manufacturers, issued by the California Department of Public Health (CDPH), has been approved.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/06/07/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/06/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/",
       "open_graph_title": "CDPH&#8217;s Manufactured Cannabis Safety Branch Announces Formal Re-Adoption of Emergency Regulations",
       "open_graph_description": "The re-adoption of emergency regulations for cannabis manufacturers, issued by the California Department of Public Health (CDPH), has been approved.",
       "twitter_title": "CDPH&#8217;s Manufactured Cannabis Safety Branch Announces Formal Re-Adoption of Emergency Regulations",
@@ -194,6 +194,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2018/06/07/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/06/cdph-cannabis-emergency-regulations-effective-for-an-additional-180-days/"
   }
 }
