@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "cannabis.css",
-	"sources": [
-		"../sass/colorschemes/cannabis.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,2BAA2B;AAS3B,gCAAgC;AAChC,AAAA,KAAK,CAAC;EACJ,eAAe,CAAA,QAAC;EAChB,qBAAqB,CAAA,QAAC;EACtB,gBAAgB,CAAA,QAAC;EACjB,sBAAsB,CAAA,QAAC;EACvB,iBAAiB,CAAA,QAAC;EAClB,iBAAiB,CAAA,QAAC,GACnB"
-}

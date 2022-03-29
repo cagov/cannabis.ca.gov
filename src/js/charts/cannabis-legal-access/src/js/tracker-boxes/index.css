@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 10px;
-  min-width: 276px;
+  min-width: 242px;
   min-height: 276px;
   background: #064e66;
   border: 1px solid #e1e0e3;
@@ -21,7 +21,7 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-  margin: 0px 24px;
+  margin: 0px 0px;
 }
 
 .tracker-box {
