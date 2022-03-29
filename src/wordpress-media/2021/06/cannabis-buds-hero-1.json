@@ -17,7 +17,7 @@
     "id": 8179,
     "date": "2021-06-22T08:50:14",
     "date_gmt": "2021-06-22T15:50:14",
-    "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/06/cannabis-buds-hero-1.jpg",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1.jpg",
     "modified": "2021-06-22T08:50:14",
     "modified_gmt": "2021-06-22T15:50:14",
     "slug": "cannabis-buds-hero",
@@ -33,7 +33,7 @@
     "categories": [
       2
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1.jpg'><img width=\"300\" height=\"200\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"Image of resinous cannabis flowers growing in field of cannabis\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-300x200.jpg 300w, https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-768x512.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1.jpg 1212w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1.jpg'><img width=\"576\" height=\"384\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-576x384.jpg\" class=\"attachment-medium size-medium\" alt=\"Image of resinous cannabis flowers growing in field of cannabis\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-576x384.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-768x512.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1.jpg 1212w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",
     "alt_text": "Image of resinous cannabis flowers growing in field of cannabis",
     "media_type": "image",
@@ -44,11 +44,11 @@
       "file": "2021/06/cannabis-buds-hero-1.jpg",
       "sizes": {
         "medium": {
-          "file": "cannabis-buds-hero-1-300x200.jpg",
-          "width": 300,
-          "height": 200,
+          "file": "cannabis-buds-hero-1-576x384.jpg",
+          "width": 576,
+          "height": 384,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-300x200.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-576x384.jpg"
         },
         "large": {
           "file": "cannabis-buds-hero-1-1024x683.jpg",
@@ -58,11 +58,11 @@
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg"
         },
         "thumbnail": {
-          "file": "cannabis-buds-hero-1-150x150.jpg",
-          "width": 150,
-          "height": 150,
+          "file": "cannabis-buds-hero-1-376x376.jpg",
+          "width": 376,
+          "height": 376,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-376x376.jpg"
         },
         "medium_large": {
           "file": "cannabis-buds-hero-1-768x512.jpg",
@@ -130,23 +130,23 @@
       },
       {
         "type": "medium",
-        "path": "2021/06/cannabis-buds-hero-1-300x200.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-300x200.jpg",
-        "file": "cannabis-buds-hero-1-300x200.jpg",
-        "width": 300,
-        "height": 200,
+        "path": "2021/06/cannabis-buds-hero-1-576x384.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-576x384.jpg",
+        "file": "cannabis-buds-hero-1-576x384.jpg",
+        "width": 576,
+        "height": 384,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-300x200.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-576x384.jpg"
       },
       {
         "type": "thumbnail",
-        "path": "2021/06/cannabis-buds-hero-1-150x150.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg",
-        "file": "cannabis-buds-hero-1-150x150.jpg",
-        "width": 150,
-        "height": 150,
+        "path": "2021/06/cannabis-buds-hero-1-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-376x376.jpg",
+        "file": "cannabis-buds-hero-1-376x376.jpg",
+        "width": 376,
+        "height": 376,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-150x150.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-376x376.jpg"
       }
     ],
     "path": "2021/06/cannabis-buds-hero-1.jpg"
