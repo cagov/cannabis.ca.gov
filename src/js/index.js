@@ -7,6 +7,7 @@ import '@cagov/ds-dropdown-menu';
 // import '@cagov/ds-feedback';
 import '@cagov/ds-feedback/dist/index.js';
 import '@cagov/ds-google-translate';
+// import '@cagov/ds-icons';
 // import '@cagov/ds-link-icon';
 // import '@cagov/ds-link-icon/src/index.js'; // New version is broken
 import '../components/ds-link-icon/src/index.js'; // New version is broken

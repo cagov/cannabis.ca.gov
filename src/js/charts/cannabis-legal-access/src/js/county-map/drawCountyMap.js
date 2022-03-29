@@ -85,9 +85,10 @@ export default function drawCountyMap({
 
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
-        let island = el.attr("data-island"); // Island values from californoia county boundaries
+        let island = el.attr("data-island"); // Island values from California county boundaries
         // let geoid = el.attr("data-geoid");
-        if (name === data.selectedCounty) {
+        console.log("island", island);
+        if (name === data.selectedCounty && island === null) {
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {
               name,
@@ -99,7 +100,12 @@ export default function drawCountyMap({
             .attr("stroke-opacity", 0.5)
             .attr("stroke", "#FFFFFF");
 
-          var bbox = el.node().getBBox();
+         
+
+              var bbox = el.node().getBBox();
+              
+           
+          
 
           var dx = bbox.width - bbox.x,
             dy = bbox.height - bbox.y,
@@ -138,6 +144,10 @@ export default function drawCountyMap({
               data.selectedShapeData.scale +
               ")"
           );
+
+        } else if (island !== null) {
+          el.remove(); // Remove all the islands for now.
+   // Need to get the parent place for mainland
         } else {
           // Not the selected county
           el.remove();

@@ -4,7 +4,7 @@ function getCountyColorPlaceLevel(data, props) {
 function getCountyColor(data, props, jurisdiction = null) {
   // Shared data object
   let { dataPlaces } = data;
-  let { name } = props;
+  let { name, island } = props;
 
   data.prohibitedStatusColors = {
     Yes: "#C0633B", // Orange
@@ -50,7 +50,7 @@ function getCountyColor(data, props, jurisdiction = null) {
         return "transparent";
       }
     } else {
-      console.log("CC found");
+      // console.log("CC found");
       // @QUESTION when is this run? (probably percentages or tooltips, I forget)
       // Get county and look up prohibition
       let placeData = dataPlaces[currentCountyPlaceName];
