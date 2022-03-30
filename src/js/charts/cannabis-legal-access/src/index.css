@@ -110,7 +110,7 @@ cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-active="false"] {
 }
 
 /* Map layers */
-cagov-map-table .interactive-map {
+cagov-map-table .interactive-map-container {
   border: 1px solid #e1e0e3;
   border-top: none;
   box-sizing: border-box;
@@ -275,10 +275,16 @@ cagov-map-table .download .button {
   align-items: center;
   padding: 8px 16px;
   border: 1px solid #064e66;
+  color: #064e66;
   box-sizing: border-box;
   border-radius: 4px;
   width: 190px;
   height: 48px;
+  margin: 16px 0;
+}
+
+cagov-map-table .download .button svg {
+  margin-inline-end: 8px;
 }
 
 /* TOOLTIPS */

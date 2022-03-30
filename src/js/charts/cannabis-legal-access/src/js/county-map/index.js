@@ -4,8 +4,8 @@ import drawCountyMap from "./drawCountyMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
 import { getActivities, getActivitiesDataSchema } from "./processData.js";
-import * as countyList from "../../../static/data/countyList.json";
-import * as dataPlaces from "../../../static/data/draft-cannabis-legal-access.2022-01-22.json";
+import * as countyList from "../../../static/assets/data/countyList.json";
+import * as dataPlaces from "../../../static/assets/data/draft-cannabis-legal-access-interactive.2022-01-22.json";
 
 class CaGovCountyMap extends window.HTMLElement {
   // Set up static variables that are specific to this component.
@@ -218,7 +218,7 @@ class CaGovCountyMap extends window.HTMLElement {
     let data = {
       dataPlaces: Object.assign({}, dataPlaces),
       countyList: Object.assign({}, countyList),
-      activities: "All activities", // For activity mode
+      activities: "Any activities", // For activity mode
       jurisdiction: "All", // For data layer mode
       mapLevel: "Statewide", // For map zoom level
       showCounties: true,

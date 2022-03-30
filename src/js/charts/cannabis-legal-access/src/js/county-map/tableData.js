@@ -152,7 +152,7 @@ class CaGovTableData extends window.HTMLElement {
     let data = {
       dataPlaces: Object.assign({}, dataPlaces),
       countyList: Object.assign({}, countyList),
-      activities: "All activities", // For activity mode
+      activities: "Any activities", // For activity mode
       jurisdiction: "All", // For data layer mode
       mapLevel: "Statewide", // For map zoom level
       showCounties: true,

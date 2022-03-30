@@ -157,9 +157,9 @@
     let { messages, activities } = data;
   
     let mode = activities;
-    if (mode === "All activities" && jurisdiction === "County") {
+    if (mode === "Any activities" && jurisdiction === "County") {
       return messages["StatewideAllActivities"];
-    } else if (mode === "All activities" && jurisdiction === "City") {
+    } else if (mode === "Any activities" && jurisdiction === "City") {
       return messages["CountyAllActivities"];
     } else {
       if (jurisdiction === "County") {
@@ -183,7 +183,7 @@
     let mode = data.activities;
   
     let percentageAllowed, percentageProhibited;
-    if (mode === "All activities") {
+    if (mode === "Any activities") {
       percentageAllowed =
         parseFloat(
           activityCountValues["Are all CCA activites prohibited?"]["No"]

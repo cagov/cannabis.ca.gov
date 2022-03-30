@@ -70,13 +70,13 @@ const htmlTable = (fields, records) => {
     let thValues = Object.keys(fields).map((key) => {
       if (key !== "0" && key !== "2" && key !== "3" && key !== "5") {
         let fieldLabel = fields[key];
-        if (fields[key] === "Distributor") {
+        if (fields[key] === "Distribution") {
           fieldLabel = "Distribution";
         } else if (fields[key] === "Retail: Storefront") {
           fieldLabel = "Retail (storefront)";
         } else if (fields[key] === "Retail: Non-Storefront") {
           fieldLabel = "Retail (delivery)";
-        } else if (fields[key] === "Manufacturer") {
+        } else if (fields[key] === "Manufacturing") {
           fieldLabel = "Manufacture";
         }
         return `<th d="${key}">${fieldLabel}</th>`;
@@ -157,9 +157,9 @@ let fields = [
   "Jurisdiction Type",
   "Retail: Storefront",
   "Retail: Non-Storefront",
-  "Distributor",
+  "Distribution",
   "Testing",
-  "Manufacturer",
+  "Manufacturing",
   "Cultivation",
   "Are all CCA activites prohibited?",
   "Is all retail prohibited?",

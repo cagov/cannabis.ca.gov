@@ -109,7 +109,7 @@ function getActivityStatusColor(
 ) {
 
   switch (mode) {
-    case "All activities":
+    case "Any activities":
       return getAllActivities(data, mode, values, renderMode);
     case "Retail":
       // True === Yes it's prohibited
@@ -118,14 +118,14 @@ function getActivityStatusColor(
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
       }
-    case "Distributor":
-      if (getDistributorAllowed(data, mode, values, renderMode)) {
+    case "Distribution":
+      if (getDistributionAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
       }
-    case "Manufacturer":
-      if (getManufacturerAllowed(data, mode, values, renderMode)) {
+    case "Manufacturing":
+      if (getManufacturingAllowed(data, mode, values, renderMode)) {
         return data.prohibitedStatusColors["No"]; // Allowed
       } else {
         return data.prohibitedStatusColors["Yes"]; // Prohibited
@@ -187,8 +187,8 @@ function getRetailAllowed(data, mode, values, renderMode) {
   }
 }
 
-function getDistributorAllowed(data, mode, values, renderMode) {
-  let value = values["Distributor"];
+function getDistributionAllowed(data, mode, values, renderMode) {
+  let value = values["Distribution"];
   if (
     value === "Allowed" ||
     value === "Limited" ||
@@ -202,8 +202,8 @@ function getDistributorAllowed(data, mode, values, renderMode) {
   }
 }
 
-function getManufacturerAllowed(data, mode, values, renderMode) {
-  let value = values["Manufacturer"];
+function getManufacturingAllowed(data, mode, values, renderMode) {
+  let value = values["Manufacturing"];
   if (
     value === "Allowed" ||
     value === "Limited" ||
@@ -333,8 +333,8 @@ function groupAllowedActivities(place, activities, item, getID) {
     activities["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
       placeLabel
     );
-    activities["Distributor"][item["Distributor"]].push(placeLabel);
-    activities["Manufacturer"][item["Manufacturer"]].push(placeLabel);
+    activities["Distribution"][item["Distribution"]].push(placeLabel);
+    activities["Manufacturing"][item["Manufacturing"]].push(placeLabel);
     activities["Cultivation"][item["Cultivation"]].push(placeLabel);
     activities["Testing"][item["Testing"]].push(placeLabel);
 
@@ -355,8 +355,8 @@ function rollupAllowedActivities(countyList, county) {
         {},
         activities["Retail: Non-Storefront"]
       ),
-      Distributor: Object.assign({}, activities["Distributor"]),
-      Manufacturer: Object.assign({}, activities["Manufacturer"]),
+      Distribution: Object.assign({}, activities["Distribution"]),
+      Manufacturing: Object.assign({}, activities["Manufacturing"]),
       Cultivation: Object.assign({}, activities["Cultivation"]),
       Testing: Object.assign({}, activities["Testing"]),
       "CCA Prohibited by County": Object.assign(
@@ -414,13 +414,13 @@ function getActivitiesDataSchema() {
       "Limited-Medical Only": [],
       Prohibited: [],
     },
-    Distributor: {
+    Distribution: {
       Allowed: [],
       Limited: [],
       "Limited-Medical Only": [],
       Prohibited: [],
     },
-    Manufacturer: {
+    Manufacturing: {
       Allowed: [],
       Limited: [],
       "Limited-Medical Only": [],
