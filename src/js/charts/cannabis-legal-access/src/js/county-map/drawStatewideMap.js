@@ -4,7 +4,6 @@ import { getCountyColor, getPlaceColor } from "./processData.js";
 import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
 import { chartLegendStatewide } from "./legend.js";
-// import { map } from "d3";
 
 /**
  * Render SVG based interactive county map using d3
@@ -41,11 +40,27 @@ export default function drawStatewideMap({
         .select(domElement)
         .append("svg")
         .attr("viewBox", [0, 0, 800, 923])
-        .attr("data-layer-name", "map-layers-container")
+        .attr("data-layer-name", "interactive-map-container")
         .append("g")
-        .attr("data-layer-name", "map-layers")
+        .attr("data-layer-name", "interactive-map")
         .attr("width", "800")
         .attr("height", "923");
+
+
+        let mapHeight = parseInt(
+          d3
+            .select("[data-layer-name=interactive-map-container]")
+            .style("height")
+        );
+        // console.log(mapTop, mapBottom);
+    console.log("mapHeight", mapHeight);
+        let mapScale = mapHeight / 900;
+        d3
+        .select("[data-layer-name=interactive-map-container]")
+        
+        .attr("width", rawWidth * mapScale)
+        .attr("height", rawHeight * mapScale);
+      
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
@@ -134,13 +149,13 @@ export default function drawStatewideMap({
           .on("mousemove", function (event, d) {
             let mapWidth = parseInt(
               d3
-                .select("[data-layer-name=map-layers-container]")
+                .select("[data-layer-name=interactive-map-container]")
                 .style("width")
                 .replace("px", "")
             );
             let mapHeight = parseInt(
               d3
-                .select("[data-layer-name=map-layers-container]")
+                .select("[data-layer-name=interactive-map-container]")
                 .style("height")
                 .replace("px", "")
             );
@@ -148,13 +163,13 @@ export default function drawStatewideMap({
             // console.log("m wh", mapWidth, mapHeight);
             let mapTop = parseInt(
               d3
-                .select("svg[data-layer-name=map-layers-container]")
+                .select("svg[data-layer-name=interactive-map-container]")
                 .node()
                 .getBoundingClientRect().top
             );
             let mapBottom = parseInt(
               d3
-                .select("svg[data-layer-name=map-layers-container]")
+                .select("svg[data-layer-name=interactive-map-container]")
                 .node()
                 .getBoundingClientRect().bottom
             );

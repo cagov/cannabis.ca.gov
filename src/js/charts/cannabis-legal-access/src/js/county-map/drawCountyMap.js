@@ -43,9 +43,9 @@ export default function drawCountyMap({
         .select(domElement)
         .append("svg")
         .attr("viewBox", [0, 0, 800, 923])
-        .attr("data-layer-name", "map-layers-container")
+        .attr("data-layer-name", "interactive-map-container")
         .append("g")
-        .attr("data-layer-name", "map-layers")
+        .attr("data-layer-name", "interactive-map")
         .attr("cursor", "pointer")
         .attr("width", "800")
         .attr("height", "923");

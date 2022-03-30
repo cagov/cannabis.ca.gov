@@ -14,10 +14,9 @@ class CaGovCountyMap extends window.HTMLElement {
     super();
     // Optional state object to use for persisting data across interactions.
     this.state = {};
-
-    this.domElement = ".map-container .map-detail";
     this.mapLevel = "Statewide";
     this.jurisdiction = null;
+    this.domElement = ".map-container .map-detail";
     this.tooltipElement = ".map-container .tooltips";
     this.legendElement = ".map-legend";
 
@@ -99,6 +98,7 @@ class CaGovCountyMap extends window.HTMLElement {
   }
 
   setBreadcrumb(data, level, county, geoid) {
+    let stateEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="state"]`);
     let countyEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="county"]`);
     let countyLink = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="county"] a`);
     let placeEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="place"]`);
@@ -130,6 +130,7 @@ class CaGovCountyMap extends window.HTMLElement {
     });
 
     if (level === "statewide") {
+      stateEl = 
       countyEl.classList.add('hidden');
       placeEl.classList.add('hidden');
     } else if (level === "county") {
