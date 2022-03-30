@@ -127,6 +127,24 @@ cagov-map-table .map-header {
 cagov-map-table .map-header .breadcrumb {
   margin: 0;
 }
+
+cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-level="state"] {
+  margin: 0;
+}
+
+/* cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-level="county"] {
+  display: none;
+}
+
+cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-level="place"] {
+  display: none;
+} */
+
+cagov-map-table .map-header .breadcrumb .breadcrumb-item.hidden {
+  display: none;
+}
+
+
 cagov-map-table .map-header .breadcrumb span {
   font-style: normal;
   font-weight: 700;
