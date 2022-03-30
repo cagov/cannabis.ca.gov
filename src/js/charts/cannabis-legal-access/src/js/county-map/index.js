@@ -25,10 +25,10 @@ class CaGovCountyMap extends window.HTMLElement {
     this.chartOptions = {
       screens: {
         desktop: {
-          width: 1500,
-          height: 1500,
-          // width: 876,
-          // height: 604,
+          // width: 1500,
+          // height: 1500,
+          width: 876,
+          height: 604,
         },
         tablet: {
           width: 876,
@@ -223,6 +223,10 @@ class CaGovCountyMap extends window.HTMLElement {
       showCounties: true,
       showCities: true,
       messages: {
+        LegendStatewide: {
+          allowed: "<strong>Allow:</strong><span data-status=\"percentage-allowed\"></span>% of cities and counties allow at least one cannabis business activity",
+          prohibited: "<strong>Prohibit:</strong><span data-status=\"percentage-prohibited\"></span>% of cities and counties prohibit all cannabis business activities",
+        },
         StatewideAllActivities: {
           all: "Cities and counties that allow at least 1 type of cannabis business activity",
           city: "Cities that allow at least 1 type of cannabis business activity",

@@ -3,7 +3,7 @@ import { xml } from "d3-fetch";
 import { getCountyColor, getPlaceColor } from "./processData.js";
 import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
-import { chartLegend } from "./legend.js";
+import { chartLegendStatewide } from "./legend.js";
 // import { map } from "d3";
 
 /**
@@ -270,7 +270,7 @@ export default function drawStatewideMap({
   }
 
   // Update the legend
-  document.querySelector(legendElement).innerHTML = chartLegend(data, {});
+  document.querySelector(legendElement).innerHTML = chartLegendStatewide(data, {});
 
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);

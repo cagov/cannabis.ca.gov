@@ -5,15 +5,27 @@
  * @param {string} tooltipElement
  * @returns {string} - HTML markup
  */
- function chartLegend(data, props) {
+ function chartLegendStatewide(data, props) {
     console.log("setting legend", data, props);
+    let allowed = data.messages.LegendStatewide.allowed;
+    let prohibited = data.messages.LegendStatewide.prohibited;
+
     // let message = countyStatusTooltipMessage(data, props);
     let message = "State";
     let content = `<div class="cagov-map-legend legend-container">
-            
-                  ${message}
-
-          </div>`;
+          <div class="status">
+            <div class="icon">${allowedIcon()}</div>
+            <div>
+              <div>${allowed}</div>
+            </div> 
+          </div>
+          <div class="status">
+          <div class="icon">${prohibitedIcon()}</div>
+          <div>
+            <div>${prohibited}</div>
+          </div> 
+        </div>
+      </div>`;
     return content;
   }
   
@@ -234,5 +246,5 @@
       `;
   }
   
-  export { chartLegend, getLegendData };
+  export { chartLegendStatewide, getLegendData };
   
