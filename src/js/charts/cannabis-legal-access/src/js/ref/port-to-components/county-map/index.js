@@ -89,6 +89,7 @@ class CaGovCountyMap extends window.HTMLElement {
       translations: this.translationsStrings,
       data: this.localData,
       domElement: ".map-container",
+      domElement: ".map-container",
       chartOptions: this.chartOptions,
       chartBreakpointValues: this.chartBreakpointValues,
       screenDisplayType: this.screenDisplayType,

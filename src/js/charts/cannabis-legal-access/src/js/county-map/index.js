@@ -19,6 +19,7 @@ class CaGovCountyMap extends window.HTMLElement {
     this.mapLevel = "Statewide";
     this.jurisdiction = null;
     this.tooltipElement = ".map-container .tooltips";
+    this.legendElement = ".map-legend";
 
     // Establish chart variables and settings.
     this.chartOptions = {
@@ -103,6 +104,7 @@ class CaGovCountyMap extends window.HTMLElement {
     let placeEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="place"]`);
     let placeLink = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="place"] span.place-label`);
 
+    // @TODO convert to utility
     let countyData = Object.keys(data.dataPlaces).filter((p) => {
       let item = dataPlaces[p];
       if (
@@ -114,6 +116,7 @@ class CaGovCountyMap extends window.HTMLElement {
       }
     });
 
+    // @TODO convert to utility
     // @TODO Finish breadcrumb label for city
     let placeData = Object.keys(data.dataPlaces).filter((p) => {
       let item = dataPlaces[p];
@@ -187,6 +190,7 @@ class CaGovCountyMap extends window.HTMLElement {
         data: this.localData,
         domElement: this.domElement,
         tooltipElement: this.tooltipElement,
+        legendElement: this.legendElement,
         mapLevel: this.mapLevel,
         jurisdiction: this.jurisdiction,
         chartOptions: this.chartOptions,
@@ -199,6 +203,7 @@ class CaGovCountyMap extends window.HTMLElement {
         data: this.localData,
         domElement: this.domElement,
         tooltipElement: this.tooltipElement,
+        legendElement: this.legendElement,
         mapLevel: this.mapLevel,
         jurisdiction: this.jurisdiction,
         chartOptions: this.chartOptions,

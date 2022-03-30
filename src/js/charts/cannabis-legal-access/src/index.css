@@ -182,11 +182,13 @@ cagov-map-table .maps .panel.map {
   /* max-width: 650px; */
 }
 
-cagov-map-table .panel.legend {
-  /* get grid */
+cagov-map-table .map-legend {
   width: 307px;
   height: 200px;
-  /* display: none; */
+  background: #efefef;
+  position: absolute;
+  right: 76px;
+  margin-top: 16px;
 }
 
 /* @TODO lookup css var breakpoints */

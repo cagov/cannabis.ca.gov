@@ -3,6 +3,7 @@ import { xml } from "d3-fetch";
 import { getCountyColor, getPlaceColor } from "./processData.js";
 import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
+import { chartLegend } from "./legend.js";
 // import { map } from "d3";
 
 /**
@@ -12,6 +13,7 @@ export default function drawStatewideMap({
   data = null,
   domElement = null,
   tooltipElement = null,
+  legendElement = null,
   mapLevel = "Statewide",
   jurisdiction = null,
   chartOptions = null,
@@ -266,8 +268,11 @@ export default function drawStatewideMap({
       });
     });
   }
+
+  // Update the legend
+  document.querySelector(legendElement).innerHTML = chartLegend(data, {});
+
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);
   }
-  
 }

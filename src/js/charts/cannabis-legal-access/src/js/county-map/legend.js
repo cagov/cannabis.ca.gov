@@ -6,16 +6,15 @@
  * @returns {string} - HTML markup
  */
  function chartLegend(data, props) {
-    let message = countyStatusTooltipMessage(data, props);
-    let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
-            <div class="county-tooltip">
-              <h3>${props["County label"]}</h3>
-                <div class="tooltip-label">
+    console.log("setting legend", data, props);
+    // let message = countyStatusTooltipMessage(data, props);
+    let message = "State";
+    let content = `<div class="cagov-map-legend legend-container">
+            
                   ${message}
-                </div>
-            </div>
+
           </div>`;
-    return tooltipContent;
+    return content;
   }
   
   /**

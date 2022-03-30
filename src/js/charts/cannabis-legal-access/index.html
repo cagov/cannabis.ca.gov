@@ -91,14 +91,6 @@
       <!-- wp:html -->
       <cagov-map-table
         id="cagov-map-table"
-        data-layer-id-counties="data-layer-counties"
-        data-layer-id-places="data-layer-places"
-        data-csv="./data/draft-cannabis-legal-access.2022-01-22.csv"
-        data-counties-key="NAME,GEOID"
-        data-places-key="NAME,GEOID"
-        data-county-label-field="Name"
-        data-place-label-field="Name"
-        data-layers="./data-layers.json"
       >
         <div class="map-header">
           <div class="breadcrumb">
@@ -374,12 +366,13 @@
 
         <div class="maps">
           <div class="panel map">
+            <div class="map-legend"></div>
             <div class="cagov-places-map" data-container="#cagov-map-table">
               <cagov-county-map id="cagov-county-map"> </cagov-county-map>
             </div>
           </div>
 
-          <div class="panel legend"></div>
+          
 
           <div class="download">
             <div class="button">

@@ -96,8 +96,8 @@ export default function drawCountyMap({
               selectedCounty,
             });
           })
-            .attr("stroke-width", 1)
-            .attr("stroke-opacity", 0.5)
+            .attr("stroke-width", 0.2)
+            .attr("stroke-opacity", 1)
             .attr("stroke", "#FFFFFF");
 
          
@@ -186,7 +186,7 @@ export default function drawCountyMap({
           let props = getPlaceTooltipData(data, { name, geoid });
 
           el.attr("stroke-width", 0.2)
-            .attr("stroke-opacity", 0.4)
+            .attr("stroke-opacity", 1)
             .attr(
               "stroke",
               placeColor !== "transparent" ? "#FFF" : "transparent"
