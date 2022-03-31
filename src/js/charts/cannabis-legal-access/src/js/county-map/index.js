@@ -225,8 +225,8 @@ class CaGovCountyMap extends window.HTMLElement {
       messages: {
         MapTableCaption: "",
         LegendStatewide: {
-          allowed: "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>% of cities and counties allow at least one cannabis business activity",
-          prohibited: "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>% of cities and counties prohibit all cannabis business activities",
+          allowed: "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities and counties allow at least one cannabis business activity",
+          prohibited: "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities and counties prohibit all cannabis business activities",
         },
         StatewideAllActivities: {
           all: "Cities and counties that allow at least 1 type of cannabis business activity",
