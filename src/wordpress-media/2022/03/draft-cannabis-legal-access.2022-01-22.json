@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-29T17:30:32",
-    "updated_date": "2022-03-29T17:30:32",
+    "updated_date": "2022-03-31T02:22:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-03-29T10:30:32",
     "date_gmt": "2022-03-29T17:30:32",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/draft-cannabis-legal-access.2022-01-22.csv",
-    "modified": "2022-03-29T10:30:32",
-    "modified_gmt": "2022-03-29T17:30:32",
+    "modified": "2022-03-30T19:22:54",
+    "modified_gmt": "2022-03-31T02:22:54",
     "slug": "draft-cannabis-legal-access-2022-01-22",
     "status": "inherit",
     "type": "attachment",
