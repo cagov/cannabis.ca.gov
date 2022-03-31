@@ -249,7 +249,7 @@ cagov-map-table .filters {
 .toggle-button .toggle__fill::after {
   content: "";
   position: absolute;
-  top: 2.5px;
+  top: 2px;
   left: 4px;
   height: 12px; /* var(--height); */
   width: 12px; /* var(--height); */
