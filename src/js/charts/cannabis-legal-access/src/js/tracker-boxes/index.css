@@ -5,6 +5,13 @@
    grid-template-columns: repeat(auto-fill, 248px);;
 }
 
+/* @TODO mobile breakpoint */
+@media only screen and (max-width: 800px) { 
+  .tracker-boxes {
+    grid-template-columns: repeat(auto-fill, 100%);
+ }
+}
+
 .tracker-box-wrapper {
   display: flex;
   flex-direction: column;

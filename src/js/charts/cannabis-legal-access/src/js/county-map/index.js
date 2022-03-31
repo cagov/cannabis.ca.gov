@@ -224,6 +224,7 @@ class CaGovCountyMap extends window.HTMLElement {
       showCounties: true,
       showCities: true,
       messages: {
+        MapTableCaption: "",
         LegendStatewide: {
           allowed: "<strong>Allow:</strong><span data-status=\"percentage-allowed\"></span>% of cities and counties allow at least one cannabis business activity",
           prohibited: "<strong>Prohibit:</strong><span data-status=\"percentage-prohibited\"></span>% of cities and counties prohibit all cannabis business activities",

@@ -77,8 +77,10 @@ const htmlTable = (fields, records) => {
         } else if (fields[key] === "Retail: Non-Storefront") {
           fieldLabel = "Retail (delivery)";
         } else if (fields[key] === "Manufacturing") {
-          fieldLabel = "Manufacture";
-        }
+          fieldLabel = "Manufacturing";
+        } else if (fields[key] === "Place") {
+          fieldLabel = "Cities";
+        } 
         return `<th d="${key}">${fieldLabel}</th>`;
       }
     });
@@ -92,6 +94,7 @@ const htmlTable = (fields, records) => {
           rowValue !== "5"
         ) {
           let rowValueKey = "";
+          let rowValueLabel = row[rowValue];
 
           if (row[rowValue] === "Prohibited") {
             rowValueKey = "0";
@@ -101,14 +104,21 @@ const htmlTable = (fields, records) => {
             rowValueKey = "2";
           } else if (row[rowValue] === "Allowed") {
             rowValueKey = "3";
-          } else if (row[rowValue] === "County label" && row[5] === "County") {
-            rowValueKey = "County-wide";
-          }
+          } 
+          
+          // if (rowValue === "1" && row["5"] === "County") {
+          //   // console.log(row["5"]);
+          //   rowValueLabel = "County-wide";
+          // }
+
           if (rowValueKey !== "") {
-            return `<td d="${rowValue}" l="${rowValueKey}">${row[rowValue]}</td>`;
+           
+              return `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel}</td>`;
+            
           }
 
-          return `<td d="${rowValue}">${row[rowValue]}</td>`;
+
+          return `<td d="${rowValue}">${rowValueLabel}</td>`;
         }
       });
       return `<tr data-geoid="${row[2]}" 
@@ -118,6 +128,7 @@ const htmlTable = (fields, records) => {
     });
     let tableMarkup = `
         <table>
+           <caption id="caption"></caption>
            <thead>
               ${thValues.join("")}
            </thead>
@@ -142,7 +153,7 @@ const field_data = (fields) => {
 };
 
 let table = base.getTable("cannabis-legal-access");
-let view = table.getView("Flat Dataset");
+let view = table.getView("Interactive dataset");
 
 let queryResult = await view.selectRecordsAsync();
 

@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 8px 0px 8px 8px;
-  background: #3f3e4d;
+  background: #E1E0E3;
   flex: none;
   order: 2;
   align-self: stretch;
@@ -34,7 +34,7 @@
   line-height: 26px;
   min-width: 120px;
   padding: 0 10px;
-  color: #ffffff;
+  color: #000;
   text-align: start;
 }
 
@@ -57,6 +57,7 @@
   min-width: 180px;
 }
 /* https://yoksel.github.io/url-encoder/ */
+/* Assign svgs to table values */
 .table-data td[l="0"] {
   /* Prohibited */
   background-repeat: no-repeat;
@@ -91,7 +92,8 @@
   text-align: start;
 }
 
-/* "CA Places Key",
+/* Order 0+
+  "CA Places Key",
   "Place",
   "GEOID",
   "County",
@@ -127,4 +129,59 @@
 .table-data table td[d="14"],
 .table-data table th[d="14"] {
   display: none;
+}
+
+.county-view .table-data tbody tr:first-child {
+  border-bottom: 1px solid #6c6b77;
+}
+
+.county-view .table-data tbody tr:first-child td:first-child {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 900px) {
+  .table-data table {
+    margin: 0;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+  }
+
+  .table-data table thead td:first-child {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* width: 25vw; */
+    background-color: #E1E0E3;
+  }
+
+  .table-data table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    background-color: #E1E0E3;
+  }
+
+  .table-data table tbody td:first-child {
+    position: relative;
+  }
+
+  .table-data table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #FFF;
+    z-index: 1000;
+  }
+  
+  .table-data [role="region"][aria-labelledby][tabindex] {
+    width: 100%;
+    max-height: 98vh;
+    overflow: auto;
+  }
+  .table-data [role="region"][aria-labelledby][tabindex]:focus {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+    outline: 0;
+  }
+
 }
