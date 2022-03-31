@@ -1,4 +1,9 @@
 /* Data table */
+.table-data table {
+  overflow-x: scroll;
+  max-width: 720px;
+}
+
 .table-data table th {
   text-align: start;
 }
@@ -139,7 +144,7 @@
   font-weight: 700;
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) { */
   .table-data table {
     margin: 0;
     border: none;
@@ -184,4 +189,4 @@
     outline: 0;
   }
 
-}
+/* } */

@@ -1,3 +1,7 @@
+main {
+  width: 785px;
+}
+
 [data-layer-name="interactive-map-container"] {
   /* width: 45%; */
   /* max-width: 60vm; */
@@ -30,7 +34,7 @@ cagov-map-table .map-legend {
   width: 307px;
   /* height: 200px; */
   position: absolute;
-  right: 76px;
+  margin-left: 400px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
