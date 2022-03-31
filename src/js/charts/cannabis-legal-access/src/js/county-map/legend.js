@@ -6,7 +6,7 @@
  * @returns {string} - HTML markup
  */
  function chartLegendStatewide(data, props) {
-    console.log("setting legend", data, props);
+    // console.log("setting legend", data, props);
     let allowed = data.messages.LegendStatewide.allowed;
     let prohibited = data.messages.LegendStatewide.prohibited;
 

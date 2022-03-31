@@ -67,7 +67,7 @@ function placeStatusTooltipMessage(data, props, options) {
   // );
 
   data.tooltipData = getPlaceTooltipData(data, props);
-  console.log(data.tooltipData);
+  // console.log(data.tooltipData);
   label = insertValueIntoSpanTag(label, mode, "data-status");
 
   let icon = "";

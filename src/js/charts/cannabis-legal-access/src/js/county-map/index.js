@@ -136,7 +136,6 @@ class CaGovCountyMap extends window.HTMLElement {
     } else if (level === "county") {
       countyLink.innerHTML = countyData;
       // placeLink.innerHTML = "";
-      console.log(countyLink);
       countyLink.setAttribute("href", "#" + county);
       // placeLink.setAttribute("href", "#" + place);
       countyEl.classList.remove('hidden');

@@ -87,7 +87,7 @@ export default function drawCountyMap({
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
         // let geoid = el.attr("data-geoid");
-        console.log("island", island);
+        // console.log("island", island);
         if (name === data.selectedCounty && island === null) {
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {

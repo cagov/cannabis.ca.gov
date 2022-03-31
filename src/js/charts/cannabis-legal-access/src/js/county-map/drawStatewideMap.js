@@ -19,7 +19,7 @@ export default function drawStatewideMap({
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
-  console.log("Statewide map", jurisdiction, mapLevel);
+  // console.log("Statewide map", jurisdiction, mapLevel);
   try {
     /* Data processing */
     var { dataPlaces, messages } = data;
@@ -53,7 +53,7 @@ export default function drawStatewideMap({
             .style("height")
         );
         // console.log(mapTop, mapBottom);
-    console.log("mapHeight", mapHeight);
+    // console.log("mapHeight", mapHeight);
         let mapScale = mapHeight / 900;
         d3
         .select("[data-layer-name=interactive-map-container]")

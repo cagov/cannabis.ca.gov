@@ -95,14 +95,14 @@ class CaGovTableData extends window.HTMLElement {
 
   setPlace(e, data) {
     if (e.target.value !== null && e.target.value !== "") {
-      console.log("County", e.target.value);
+      // console.log("County", e.target.value);
       this.selectedCounty = e.target.value;
       data.selectedCounty = e.target.value;
       data.showPlace = e.target.value; // If checked
       this.mapLevel = "County";
       this.redraw();
     } else {
-      console.log("Statewide", e.target.value);
+      // console.log("Statewide", e.target.value);
       this.selectedCounty = null;
       data.selectedCounty = null;
       data.showPlace = false;
