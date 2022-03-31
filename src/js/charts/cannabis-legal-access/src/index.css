@@ -184,7 +184,7 @@ cagov-map-table .filters {
 
 .filters input,
 .filters select {
-  padding: 8px 8px 8px 16px;
+  padding: 8px 16px 8px 16px;
 
   width: 260px;
   height: 48px;
@@ -196,30 +196,19 @@ cagov-map-table .filters {
   box-sizing: border-box;
   border-radius: 4px;
 
-  font-family: Public Sans;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0em;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none; 
 }
-.filters select::after{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  right: 1px;
-  top: 5%;
-  position: absolute;
-  height: 90%;
-  width: 2rem;
-  font-weight: 900;
-  pointer-events: none;
-  content: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='11' height='7' class='expanded-menu-section-header-arrow-svg' viewBox='0 0 11 7' fill='%23004ABC' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z'%3E%3C/path%3E%3C/svg%3E");
-}
-
-cagov-autocomplete select {
-  /* display: none; */
+.filters select{
+  /* padding-right: 30px; */
+  background: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='11' height='7' class='expanded-menu-section-header-arrow-svg' viewBox='0 0 11 7' fill='%23000000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z'%3E%3C/path%3E%3C/svg%3E") no-repeat;
+  background-position: right 8px top 50%;
 }
 
 /* Toggle button */
@@ -237,6 +226,7 @@ cagov-autocomplete select {
 .toggle-button .toggle {
   --width: 34px;
   --height: calc(var(--width) / 2);
+  --height-inner: calc(var(--height) - 4px);
   --border-radius: calc(var(--height) / 2);
 
   display: inline-block;
@@ -249,8 +239,8 @@ cagov-autocomplete select {
 
 .toggle-button .toggle__fill {
   position: relative;
-  width: var(--width);
-  height: var(--height);
+  width: calc(var(--width) - 1px);
+  height: calc(var(--height) - 1px);
   border-radius: var(--border-radius);
   background: #dddddd;
   transition: background 0.2s;
@@ -260,7 +250,7 @@ cagov-autocomplete select {
   content: "";
   position: absolute;
   top: 2.5px;
-  left: 0;
+  left: 4px;
   height: 12px; /* var(--height); */
   width: 12px; /* var(--height); */
   background: #ffffff;
@@ -274,7 +264,7 @@ cagov-autocomplete select {
 }
 
 .toggle-button .toggle__input:checked ~ .toggle__fill::after {
-  transform: translateX(var(--height));
+  transform: translateX(var(--height-inner));
 }
 
 /* Download button */
@@ -288,7 +278,7 @@ cagov-map-table .download .button {
   color: #064e66;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 190px;
+  width: 210px;
   height: 48px;
   margin: 16px 0;
 }
