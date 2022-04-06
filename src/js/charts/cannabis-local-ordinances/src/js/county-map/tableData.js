@@ -158,44 +158,7 @@ class CaGovTableData extends window.HTMLElement {
       showCounties: true,
       showPlaces: true,
       messages: {
-        StatewideAllActivities: {
-          all: "Cities and counties that allow at least 1 type of cannabis business activity",
-          city: "Cities that allow at least 1 type of cannabis business activity",
-          county:
-            "Counties that allow at least 1 type of cannabis business activity",
-          prohibited:
-            'Prohibit: <span data-status="percentage-prohibited"></span>',
-          allowed: 'Allow: <span data-status="percentage-allowed"></span>',
-          detailsCTA: "<em>Click to view details about this county</em>",
-        },
-        StatewideActivity: {
-          all: 'Cities and counties that allow <strong><span data-status="activity"></span></strong>',
-          city: 'Cities that allow <span data-status="activity"></span>',
-          county:
-            'Counties that allow <strong><span data-status="activity"></span></strong>',
-          prohibited:
-            'Prohibit: <span data-status="percentage-prohibited"></span>',
-          allowed: 'Allow: <span data-status="percentage-allowed"></span>',
-          detailsCTA: "<em>Click to view details about this county</em>",
-        },
-        CountyAllActivities: {
-          all: "County and cities that allow at least 1 type of cannabis business activity",
-          city: 'Cities that allow <strong><span data-status="activity"></span></strong>',
-          prohibited: "Prohibited",
-          allowed:
-            "At least 1 type of cannabis business activity is allowed",
-          prohibitedLegend:
-            'Prohibit: <span data-status="percentage-prohibited"></span>',
-          allowedLegend: 'Allow: <span data-status="percentage-allowed"></span>',
-          detailsCTA: "<em>Details about this city</em>",
-        },
-        CountyActivity: {
-          all: "County and cities that allow at least 1 type of cannabis business activity",
-          city: 'Cities that allow <strong><span data-status="activity"></span></strong>',
-          prohibited: "Prohibited",
-          allowed: 'Allowed',
-          detailsCTA: "<em>Details about this city</em>",
-        },
+        
       },
     };
 

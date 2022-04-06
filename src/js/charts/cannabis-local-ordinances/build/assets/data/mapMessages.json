@@ -35,5 +35,19 @@
     "prohibited": "Prohibited",
     "allowed": "Allowed",
     "detailsCTA": "<em>Details about this city</em>"
+  },
+  "Places": {
+    "all": "County and cities that allow at least 1 type of cannabis business activity",
+    "city": "Cities that allow <strong><span data-status=\"activity\"></span></strong>",
+    "prohibited": "Prohibited",
+    "allowed": "Allowed",
+    "detailsCTA": "<em>Details about this city</em>"
+  },
+  "PlaceActivity": {
+    "all": "County and cities that allow at least 1 type of cannabis business activity",
+    "city": "Cities that allow <strong><span data-status=\"activity\"></span></strong>",
+    "prohibited": "Prohibited",
+    "allowed": "Allowed",
+    "detailsCTA": "<em>Details about this city</em>"
   }
 }
