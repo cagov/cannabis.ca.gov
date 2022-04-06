@@ -7,7 +7,7 @@ function getCountyColor(data, props, jurisdiction = null) {
   let { name, island } = props;
 
   data.prohibitedStatusColors = {
-    Yes: "#C0633B", // Orange
+    Yes: "#CF5028", // Orange
     No: "#2F4C2C", // Green
   };
 
@@ -72,7 +72,7 @@ function getPlaceColor(data, props, jurisdiction = null) {
   let { name, geoid } = props;
 
   data.prohibitedStatusColors = {
-    Yes: "#C0633B",
+    Yes: "#CF5028",
     No: "#2F4C2C",
   };
 

@@ -20,6 +20,7 @@
   flex-grow: 0;
   margin: 16px 10px;
 }
+
 .table-data tbody {
   display: flex;
   flex-direction: column;
@@ -32,11 +33,12 @@
   flex-grow: 0;
   margin: 16px 10px;
 }
+
 .table-data th {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 36px;
   min-width: 120px;
   padding: 0 10px;
   color: #000;
@@ -46,8 +48,8 @@
 .table-data td {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 36px;
   min-width: 120px;
   word-wrap: break-word;
   padding: 0 10px;
@@ -55,6 +57,15 @@
   text-align: start;
   padding: 8px;
 }
+
+@media only screen and (max-width: 900px) {
+  .table-data th, 
+  .table-data td {
+    font-size: 14px;
+  }
+}
+
+
 
 .table-data th[d="1"],
 .table-data td[d="1"] {
@@ -70,7 +81,7 @@
   white-space: nowrap;
   overflow: hidden;
   background-position: center;
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.738 1.6748C6.62903 1.6748 1.67603 6.6278 1.67603 12.7368C1.67603 18.8458 6.62903 23.7988 12.738 23.7988C18.847 23.7988 23.8 18.8458 23.8 12.7368C23.8 6.6278 18.847 1.6748 12.738 1.6748ZM17.863 8.6548L13.752 12.7658L17.389 16.8208C17.677 17.1088 17.677 17.5758 17.389 17.8638C17.101 18.1518 16.634 18.1518 16.346 17.8638L12.709 13.8088L8.65403 17.8638C8.36603 18.1518 7.89903 18.1518 7.61103 17.8638C7.32303 17.5758 7.32303 17.1088 7.61103 16.8208L11.722 12.7098L8.08503 8.6548C7.79703 8.3668 7.79703 7.89981 8.08503 7.6118C8.37303 7.3238 8.84003 7.3238 9.12803 7.6118L12.765 11.6668L16.82 7.6118C17.108 7.3238 17.575 7.3238 17.863 7.6118C18.151 7.89981 18.151 8.3668 17.863 8.6548Z' fill='%23C0633B'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.738 1.6748C6.62903 1.6748 1.67603 6.6278 1.67603 12.7368C1.67603 18.8458 6.62903 23.7988 12.738 23.7988C18.847 23.7988 23.8 18.8458 23.8 12.7368C23.8 6.6278 18.847 1.6748 12.738 1.6748ZM17.863 8.6548L13.752 12.7658L17.389 16.8208C17.677 17.1088 17.677 17.5758 17.389 17.8638C17.101 18.1518 16.634 18.1518 16.346 17.8638L12.709 13.8088L8.65403 17.8638C8.36603 18.1518 7.89903 18.1518 7.61103 17.8638C7.32303 17.5758 7.32303 17.1088 7.61103 16.8208L11.722 12.7098L8.08503 8.6548C7.79703 8.3668 7.79703 7.89981 8.08503 7.6118C8.37303 7.3238 8.84003 7.3238 9.12803 7.6118L12.765 11.6668L16.82 7.6118C17.108 7.3238 17.575 7.3238 17.863 7.6118C18.151 7.89981 18.151 8.3668 17.863 8.6548Z' fill='%23CF5028'/%3E%3C/svg%3E%0A");
 }
 .table-data td[l="1"],
 .table-data td[l="2"] {

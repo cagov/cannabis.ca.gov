@@ -1,4 +1,4 @@
-// Github: https://github.com/cagov/cannabis.ca.gov/src/js/charts/cannabis-legal-access/utilities/airtable-to-html-table/index.js"
+// Github: https://github.com/cagov/cannabis.ca.gov/src/js/charts/cannabis-local-ordinances/utilities/airtable-to-html-table/index.js"
 
 // Set up an object for the field.
 const field = (field) => {
@@ -152,7 +152,7 @@ const field_data = (fields) => {
   return data;
 };
 
-let table = base.getTable("cannabis-legal-access");
+let table = base.getTable("cannabis-local-ordinances");
 let view = table.getView("Interactive dataset");
 
 let queryResult = await view.selectRecordsAsync();

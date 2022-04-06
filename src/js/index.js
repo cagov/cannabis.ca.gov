@@ -38,8 +38,8 @@ import setupAnalytics from './setup-analytics.js';
 
 // Custom components
 // Data viz: consumers/where-cannabis-business-is-legal-in-california
-// import './charts/cannabis-legal-access/src/index.js';
-import './charts/cannabis-legal-access/build/bundle.js';
+// import './charts/cannabis-local-ordinances/src/index.js';
+import './charts/cannabis-local-ordinances/build/bundle.js';
 
 
 window.onload = (event) => {

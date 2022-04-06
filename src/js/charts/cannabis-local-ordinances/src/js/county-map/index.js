@@ -1,11 +1,13 @@
 import template from "./template.js";
 import drawStatewideMap from "./drawStatewideMap.js";
 import drawCountyMap from "./drawCountyMap.js";
+// import drawPlaceMap from "./drawPlaceMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
 import { getActivities, getActivitiesDataSchema } from "./processData.js";
 import * as countyList from "../../../static/assets/data/countyList.json";
-import * as dataPlaces from "../../../static/assets/data/draft-cannabis-legal-access-interactive.2022-01-22.json";
+import * as dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinances-interactive.2022-01-22.json";
+import * as mapMessages from "../../../static/assets/data/mapMessages.json";
 
 class CaGovCountyMap extends window.HTMLElement {
   // Set up static variables that are specific to this component.
@@ -19,7 +21,12 @@ class CaGovCountyMap extends window.HTMLElement {
     this.domElement = ".map-container .map-detail";
     this.tooltipElement = ".map-container .tooltips";
     this.legendElement = ".map-legend";
-
+    this.toggleCountiesEl = document.querySelector(
+      '.toggle-button [data-target="toggle-counties"]'
+    );
+    this.togglePlacesEl = document.querySelector(
+      '.toggle-button [data-target="toggle-cities"]'
+    );
     // Establish chart variables and settings.
     this.chartOptions = {
       screens: {
@@ -93,7 +100,19 @@ class CaGovCountyMap extends window.HTMLElement {
 
   setCountyToggle(e, data) {
     data.showCounties = e.currentTarget.checked; // If checked
-    // cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-level="county"]
+    // if (data.showPlaces === true){
+    //   data.showPlaces = false;
+    //   this.togglePlacesEl.setAttribute("checked", false);
+    // }
+    this.redraw();
+  }
+
+  setPlaceToggle(e, data) {
+    data.showPlaces = e.currentTarget.checked; // If checked
+    // if (data.showCounties === true){
+    //   data.showCounties = false;
+    //   this.toggleCountiesEl.setAttribute("checked", false);
+    // }
     this.redraw();
   }
 
@@ -135,25 +154,18 @@ class CaGovCountyMap extends window.HTMLElement {
       placeEl.classList.add('hidden');
     } else if (level === "county") {
       countyLink.innerHTML = countyData;
-      // placeLink.innerHTML = "";
       countyLink.setAttribute("href", "#" + county);
-      // placeLink.setAttribute("href", "#" + place);
       countyEl.classList.remove('hidden');
-      // placeEl.classList.add('hidden');
-    } else if (level === "place") {
-      // countyLink.innerHTML = county;
-      // placeLink.innerHTML = place;
-      // countyLink.setAttribute("href", "#" + county);
-      // placeLink.setAttribute("href", "#" + place);
-      // countyEl.classList.remove('hidden');
-      // placeEl.classList.remove('hidden');
-    }
+    } 
+    // else if (level === "place") {
+    //   countyLink.innerHTML = countyData;
+    //   placeLink.innerHTML = placeData;
+    //   countyLink.setAttribute("href", "#" + county);
+    //   placeLink.setAttribute("href", "#" + place);
+    //   countyEl.classList.remove('hidden');
+    //   placeEl.classList.remove('hidden');
+    // }
     return true;
-  }
-
-  setCityToggle(e, data) {
-    data.showCities = e.currentTarget.checked; // If checked
-    this.redraw();
   }
 
   setPlace(e, data) {
@@ -210,7 +222,21 @@ class CaGovCountyMap extends window.HTMLElement {
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
       });
-    }
+    } 
+    // else if (this.mapLevel === "Place") {
+    //   this.svg = drawPlaceMap({
+    //     translations: this.translationsStrings,
+    //     data: this.localData,
+    //     domElement: this.domElement,
+    //     tooltipElement: this.tooltipElement,
+    //     legendElement: this.legendElement,
+    //     mapLevel: this.mapLevel,
+    //     jurisdiction: this.jurisdiction,
+    //     chartOptions: this.chartOptions,
+    //     chartBreakpointValues: this.chartBreakpointValues,
+    //     screenDisplayType: this.screenDisplayType,
+    //   });
+    // }
   }
 
   render() {
@@ -221,52 +247,8 @@ class CaGovCountyMap extends window.HTMLElement {
       jurisdiction: "All", // For data layer mode
       mapLevel: "Statewide", // For map zoom level
       showCounties: true,
-      showCities: true,
-      messages: {
-        MapTableCaption: "",
-        LegendStatewide: {
-          allowed: "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities and counties allow at least one cannabis business activity",
-          prohibited: "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities and counties prohibit all cannabis business activities",
-        },
-        StatewideAllActivities: {
-          all: "Cities and counties that allow at least 1 type of cannabis business activity",
-          city: "Cities that allow at least 1 type of cannabis business activity",
-          county:
-            "Counties that allow at least 1 type of cannabis business activity",
-          prohibited:
-            'Prohibit: <span data-status="percentage-prohibited"></span>',
-          allowed: 'Allow: <span data-status="percentage-allowed"></span>',
-          detailsCTA: "<em>Click to view details about this county</em>",
-        },
-        StatewideActivity: {
-          all: 'Cities and counties that allow <strong><span data-status="activity"></span></strong>',
-          city: 'Cities that allow <span data-status="activity"></span>',
-          county:
-            'Counties that allow <strong><span data-status="activity"></span></strong>',
-          prohibited:
-            'Prohibit: <span data-status="percentage-prohibited"></span>',
-          allowed: 'Allow: <span data-status="percentage-allowed"></span>',
-          detailsCTA: "<em>Click to view details about this county</em>",
-        },
-        CountyAllActivities: {
-          all: "County and cities that allow at least 1 type of cannabis business activity",
-          city: 'Cities that allow <strong><span data-status="activity"></span></strong>',
-          prohibited: "Prohibited",
-          allowed:
-            "At least 1 type of cannabis business activity is allowed",
-          prohibitedLegend:
-            'Prohibit: <span data-status="percentage-prohibited"></span>',
-          allowedLegend: 'Allow: <span data-status="percentage-allowed"></span>',
-          detailsCTA: "<em>Details about this city</em>",
-        },
-        CountyActivity: {
-          all: "County and cities that allow at least 1 type of cannabis business activity",
-          city: 'Cities that allow <strong><span data-status="activity"></span></strong>',
-          prohibited: "Prohibited",
-          allowed: 'Allowed',
-          detailsCTA: "<em>Details about this city</em>",
-        },
-      },
+      showPlaces: true,
+      messages: mapMessages
     };
 
     var selectActivities = document.querySelector(".filter-activity select");
@@ -274,24 +256,15 @@ class CaGovCountyMap extends window.HTMLElement {
       this.setActivity(e, data)
     );
 
-    var toggleCounties = document.querySelector(
-      '.toggle-button [data-target="toggle-counties"]'
-    );
-    toggleCounties.addEventListener("change", (e) =>
-      this.setCountyToggle(e, data)
-    );
-
-    var toggleCities = document.querySelector(
-      '.toggle-button [data-target="toggle-cities"]'
-    );
-    toggleCities.addEventListener("change", (e) => this.setCityToggle(e, data));
+    this.toggleCountiesEl.addEventListener("change", (e) => this.setCountyToggle(e, data));
+    this.togglePlacesEl.addEventListener("change", (e) => this.setPlaceToggle(e, data));
 
     var setPlace = document.querySelector('.filter[data-filter-type="places"]');
     setPlace.addEventListener("change", (e) => this.setPlace(e, data));
 
-    getActivities(data); // development
+    getActivities(data);
     // Get activities by GEOID (for accuracy)
-    getActivities(data, true);
+    getActivities(data, true); // Remember why we have to do this twice (what's the boolean value for? - add docs)
 
     this.localData = data;
     this.container = this.dataset.container;
