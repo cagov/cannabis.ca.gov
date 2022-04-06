@@ -135,19 +135,6 @@ class CaGovCountyMap extends window.HTMLElement {
       }
     });
 
-    // @TODO convert to utility
-    // @TODO Finish breadcrumb label for city
-    let placeData = Object.keys(data.dataPlaces).filter((p) => {
-      let item = dataPlaces[p];
-      if (
-        geoid === item["GEOID"] &&
-        item["Jurisdiction Type"] === "City" &&
-        place !== "default"
-      ) {
-        return p;
-      }
-    });
-
     if (level === "statewide") {
       stateEl = 
       countyEl.classList.add('hidden');
@@ -157,27 +144,67 @@ class CaGovCountyMap extends window.HTMLElement {
       countyLink.setAttribute("href", "#" + county);
       countyEl.classList.remove('hidden');
     } else if (level === "place") {
-      countyLink.innerHTML = countyData;
-      placeLink.innerHTML = placeData;
-      countyLink.setAttribute("href", "#" + county);
-      placeLink.setAttribute("href", "#" + place);
+      if (geoid !== null) {
+        let placeData = this.getCurrentPlaceByGeoid(data, geoid);
+        console.log("p", placeData, placeData["CA Places Key"].toLowerCase().replace(" ", "-"));
+        placeLink.setAttribute("href", "#" + placeData["CA Places Key"].toLowerCase().replace(" ", "-"));
+        placeLink.innerHTML = placeData["CA Places Key"];
+        countyLink.innerHTML = placeData["County label"];
+        countyLink.setAttribute("href", "#" + placeData["County"].toLowerCase().replace(" ", "-"));
+      }
       countyEl.classList.remove('hidden');
       placeEl.classList.remove('hidden');
     }
     return true;
   }
 
+  getCurrentPlaceByGeoid(data, geoid) {
+    let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
+      let item = data.dataPlaces[place];
+      if (
+        parseInt(geoid) === item["GEOID"] && 
+        place !== "default"
+      ) {
+        return place;
+      }
+    });
+    return data.dataPlaces[currentPlace];
+  }
+
   setPlace(e, data) {
     if (e.target.value !== null && e.target.value !== "") {
-      this.selectedCounty = e.target.value;
-      data.selectedCounty = e.target.value;
-      data.showPlace = e.target.value; // If checked
-      this.mapLevel = "County";
-      this.setBreadcrumb(data, "county", this.selectedCounty);
+      this.selectedPlaceValue = e.target.value;
+      let selectedIndex = e.target.selectedIndex;
+      let selectedEl = e.target.options[selectedIndex];
+      let jurisdiction = selectedEl.getAttribute("data-jurisdiction");
+
+      if (jurisdiction === "County") {
+        this.selectedCounty = e.target.value;
+        data.selectedCounty = e.target.value;
+        this.selectedPlace = null;
+        data.selectedPlace = null;
+        data.showPlace = e.target.value; // If checked
+        this.mapLevel = "County";
+        this.setBreadcrumb(data, "county", this.selectedCounty);
+      } else if (jurisdiction === "Place") {
+        /// use geoid = get Place
+        let geoid = selectedEl.getAttribute("data-geoid");
+        let currentPlace = this.getCurrentPlaceByGeoid(data, geoid);
+   
+        this.selectedCounty = currentPlace.countyLabel;
+        data.selectedCounty = currentPlace.countyLabel;
+        this.selectedPlace = e.target.value;
+        data.selectedPlace = e.target.value;
+        data.showPlace = e.target.value; // If checked
+        this.mapLevel = "Place";
+        this.setBreadcrumb(data, "place", this.selectedPlace, geoid);
+      }
+  
       this.redraw();
     } else {
       this.selectedCounty = null;
       data.selectedCounty = null;
+      data.selectedPlace = null;
       data.showPlace = false;
       this.mapLevel = "Statewide";
       this.setBreadcrumb(data, "state");
@@ -223,18 +250,18 @@ class CaGovCountyMap extends window.HTMLElement {
         screenDisplayType: this.screenDisplayType,
       });
     } else if (this.mapLevel === "Place") {
-      // this.svg = drawPlaceMap({
-      //   translations: this.translationsStrings,
-      //   data: this.localData,
-      //   domElement: this.domElement,
-      //   tooltipElement: this.tooltipElement,
-      //   legendElement: this.legendElement,
-      //   mapLevel: this.mapLevel,
-      //   jurisdiction: this.jurisdiction,
-      //   chartOptions: this.chartOptions,
-      //   chartBreakpointValues: this.chartBreakpointValues,
-      //   screenDisplayType: this.screenDisplayType,
-      // });
+      this.svg = drawPlaceMap({
+        translations: this.translationsStrings,
+        data: this.localData,
+        domElement: this.domElement,
+        tooltipElement: this.tooltipElement,
+        legendElement: this.legendElement,
+        mapLevel: this.mapLevel,
+        jurisdiction: this.jurisdiction,
+        chartOptions: this.chartOptions,
+        chartBreakpointValues: this.chartBreakpointValues,
+        screenDisplayType: this.screenDisplayType,
+      });
     }
   }
 
