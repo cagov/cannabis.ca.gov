@@ -146,7 +146,6 @@ class CaGovCountyMap extends window.HTMLElement {
     } else if (level === "place") {
       if (geoid !== null) {
         let placeData = this.getCurrentPlaceByGeoid(data, geoid);
-        console.log("p", placeData, placeData["CA Places Key"].toLowerCase().replace(" ", "-"));
         placeLink.setAttribute("href", "#" + placeData["CA Places Key"].toLowerCase().replace(" ", "-"));
         placeLink.innerHTML = placeData["CA Places Key"];
         countyLink.innerHTML = placeData["County label"];
@@ -190,14 +189,14 @@ class CaGovCountyMap extends window.HTMLElement {
         /// use geoid = get Place
         let geoid = selectedEl.getAttribute("data-geoid");
         let currentPlace = this.getCurrentPlaceByGeoid(data, geoid);
-   
-        this.selectedCounty = currentPlace.countyLabel;
-        data.selectedCounty = currentPlace.countyLabel;
-        this.selectedPlace = e.target.value;
-        data.selectedPlace = e.target.value;
+        // console.log("currentPlace", currentPlace, currentPlace.County);
+        this.selectedCounty = currentPlace.County;
+        data.selectedCounty = currentPlace.County;
+        this.selectedPlace = currentPlace;
+        data.selectedPlace = currentPlace;
         data.showPlace = e.target.value; // If checked
         this.mapLevel = "Place";
-        this.setBreadcrumb(data, "place", this.selectedPlace, geoid);
+        this.setBreadcrumb(data, "place", currentPlace, geoid);
       }
   
       this.redraw();

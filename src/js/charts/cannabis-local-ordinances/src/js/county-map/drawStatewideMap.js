@@ -19,7 +19,7 @@ export default function drawStatewideMap({
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
-  console.log("Statewide map", jurisdiction, mapLevel);
+  // console.log("Statewide map", jurisdiction, mapLevel);
   try {
     /* Data processing */
     var { dataPlaces, messages } = data;

@@ -22,7 +22,7 @@ export default function drawPlaceMap({
   screenDisplayType = null,
 }) {
   try {
-  //   /* Data processing */
+    //   /* Data processing */
     var { dataPlaces, messages, selectedPlace } = data;
     // console.log("Place map", jurisdiction, selectedPlace, mapLevel);
 
@@ -51,7 +51,6 @@ export default function drawPlaceMap({
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
-
     } else {
       d3.select(domElement + " [data-name] g").remove();
     }
@@ -85,26 +84,20 @@ export default function drawPlaceMap({
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
-        // let geoid = el.attr("data-geoid");
-        // console.log("island", island);
         if (name === data.selectedCounty && island === null) {
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {
               name,
               island,
-              selectedCounty,
+              selectedCounty: data.selectedCounty,
             });
           })
             .attr("stroke-width", 0.2)
             .attr("stroke-opacity", 1)
-            .attr("stroke", "#FFFFFF");
+            .attr("stroke", "#FFFFFF")
+            .attr("fill-opacity", 0.25);
 
-         
-
-              var bbox = el.node().getBBox();
-              
-           
-          
+          var bbox = el.node().getBBox();
 
           var dx = bbox.width - bbox.x,
             dy = bbox.height - bbox.y,
@@ -143,10 +136,9 @@ export default function drawPlaceMap({
               data.selectedShapeData.scale +
               ")"
           );
-
         } else if (island !== null) {
           el.remove(); // Remove all the islands for now.
-   // Need to get the parent place for mainland
+          // Need to get the parent place for mainland
         } else {
           // Not the selected county
           el.remove();
@@ -168,18 +160,16 @@ export default function drawPlaceMap({
         let geoid = el.attr("data-geoid");
         let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
           let item = data.dataPlaces[place];
-          
+
           if (
             parseInt(geoid) === item["GEOID"] &&
-            item.County === data.selectedCounty && 
-            // item["Jurisdiction Type"] === "City" &&
+            item.County === data.selectedCounty &&
             place !== "default"
           ) {
             return place;
           }
         });
-      
-        
+
         if (currentPlace !== null && currentPlace.length > 0) {
           let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
           let props = getPlaceTooltipData(data, { name, geoid });
@@ -199,8 +189,23 @@ export default function drawPlaceMap({
             .attr("aria-label", (d, i) => {
               return "Label";
             })
+            .attr("fill-opacity", (d) => {
+              if (data.dataPlaces[currentPlace]["GEOID"] === data.selectedPlace["GEOID"] ) {
+                return 1;
+              } else {
+                return 0.25;
+              }
+            })
             .on("mouseover focus", function (event, d) {
-              d3.select(this).attr("fill-opacity", "0.8");
+              d3.select(this)
+              .attr("fill-opacity", (d) => {
+                if (data.dataPlaces[currentPlace]["GEOID"] === data.selectedPlace["GEOID"] ) {
+                  return 0.8;
+                } else {
+                  return 0.25;
+                }
+              });
+
               tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
 
               return tooltip
@@ -217,7 +222,13 @@ export default function drawPlaceMap({
                 .style("top", tooltipY + "px");
             })
             .on("mouseout focusout", function (d) {
-              d3.select(this).attr("fill-opacity", "1");
+              d3.select(this).attr("fill-opacity", (d) => {
+                if (data.dataPlaces[currentPlace]["GEOID"] === data.selectedPlace["GEOID"] ) {
+                  return 1;
+                } else {
+                  return 0.25;
+                }
+              });
 
               return tooltip
                 .transition()
@@ -229,7 +240,6 @@ export default function drawPlaceMap({
         }
       });
     });
-
   } catch (error) {
     console.error("Error rendering cagov-place-map:", error);
   }

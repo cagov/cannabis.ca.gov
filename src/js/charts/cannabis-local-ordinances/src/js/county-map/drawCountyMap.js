@@ -159,7 +159,6 @@ export default function drawCountyMap({
     // if (data.showPlaces === true) {
     xml("/assets/data/tl_2016_06_place.svg").then((places) => {
       const group = d3.select(domElement + ' [data-name="places-boundaries"]');
-      console.log("places");
       group.node().append(places.documentElement);
       let paths = group.selectAll("g path");
 
