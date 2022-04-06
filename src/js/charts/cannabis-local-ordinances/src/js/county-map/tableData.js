@@ -89,7 +89,7 @@ class CaGovTableData extends window.HTMLElement {
   }
 
   setCityToggle(e, data) {
-    data.showCities = e.currentTarget.checked; // If checked
+    data.showPlaces = e.currentTarget.checked; // If checked
     this.redraw();
   }
 
@@ -156,7 +156,7 @@ class CaGovTableData extends window.HTMLElement {
       jurisdiction: "All", // For data layer mode
       mapLevel: "Statewide", // For map zoom level
       showCounties: true,
-      showCities: true,
+      showPlaces: true,
       messages: {
         StatewideAllActivities: {
           all: "Cities and counties that allow at least 1 type of cannabis business activity",

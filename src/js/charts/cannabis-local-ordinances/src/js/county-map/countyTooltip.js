@@ -41,11 +41,11 @@ function countyStatusTooltipMessage(data, props) {
     label = county;
   }
 
-   // if (showCities && !showCounties) {
+   // if (showPlaces && !showCounties) {
   //   label = city;
-  // } else if (showCounties && !showCities) {
+  // } else if (showCounties && !showPlaces) {
   //   label = county;
-  // } else if (showCounties && showCities) {
+  // } else if (showCounties && showPlaces) {
   //   label = all;
   // }
 

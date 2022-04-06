@@ -1,7 +1,7 @@
 import template from "./template.js";
 import drawStatewideMap from "./drawStatewideMap.js";
 import drawCountyMap from "./drawCountyMap.js";
-// import drawPlaceMap from "./drawPlaceMap.js";
+import drawPlaceMap from "./drawPlaceMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
 import { getActivities, getActivitiesDataSchema } from "./processData.js";
@@ -100,19 +100,19 @@ class CaGovCountyMap extends window.HTMLElement {
 
   setCountyToggle(e, data) {
     data.showCounties = e.currentTarget.checked; // If checked
-    // if (data.showPlaces === true){
-    //   data.showPlaces = false;
-    //   this.togglePlacesEl.setAttribute("checked", false);
-    // }
+    if (data.showPlaces === false && data.showCounties === false){
+      data.showPlaces = true;
+      this.togglePlacesEl.checked = true;
+    }
     this.redraw();
   }
 
   setPlaceToggle(e, data) {
     data.showPlaces = e.currentTarget.checked; // If checked
-    // if (data.showCounties === true){
-    //   data.showCounties = false;
-    //   this.toggleCountiesEl.setAttribute("checked", false);
-    // }
+    if (data.showCounties === false && data.showPlaces === false){
+      data.showCounties = true;
+      this.toggleCountiesEl.checked = true;
+    }
     this.redraw();
   }
 
@@ -156,15 +156,14 @@ class CaGovCountyMap extends window.HTMLElement {
       countyLink.innerHTML = countyData;
       countyLink.setAttribute("href", "#" + county);
       countyEl.classList.remove('hidden');
-    } 
-    // else if (level === "place") {
-    //   countyLink.innerHTML = countyData;
-    //   placeLink.innerHTML = placeData;
-    //   countyLink.setAttribute("href", "#" + county);
-    //   placeLink.setAttribute("href", "#" + place);
-    //   countyEl.classList.remove('hidden');
-    //   placeEl.classList.remove('hidden');
-    // }
+    } else if (level === "place") {
+      countyLink.innerHTML = countyData;
+      placeLink.innerHTML = placeData;
+      countyLink.setAttribute("href", "#" + county);
+      placeLink.setAttribute("href", "#" + place);
+      countyEl.classList.remove('hidden');
+      placeEl.classList.remove('hidden');
+    }
     return true;
   }
 
@@ -195,6 +194,7 @@ class CaGovCountyMap extends window.HTMLElement {
     if (document.querySelector(".map-container .map-detail") !== null) {
       document.querySelector(".map-container .map-detail").innerHTML = "";
     }
+
     // Generate the map.
     if (this.mapLevel === "Statewide") {
       this.svg = drawStatewideMap({
@@ -222,21 +222,20 @@ class CaGovCountyMap extends window.HTMLElement {
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
       });
-    } 
-    // else if (this.mapLevel === "Place") {
-    //   this.svg = drawPlaceMap({
-    //     translations: this.translationsStrings,
-    //     data: this.localData,
-    //     domElement: this.domElement,
-    //     tooltipElement: this.tooltipElement,
-    //     legendElement: this.legendElement,
-    //     mapLevel: this.mapLevel,
-    //     jurisdiction: this.jurisdiction,
-    //     chartOptions: this.chartOptions,
-    //     chartBreakpointValues: this.chartBreakpointValues,
-    //     screenDisplayType: this.screenDisplayType,
-    //   });
-    // }
+    } else if (this.mapLevel === "Place") {
+      // this.svg = drawPlaceMap({
+      //   translations: this.translationsStrings,
+      //   data: this.localData,
+      //   domElement: this.domElement,
+      //   tooltipElement: this.tooltipElement,
+      //   legendElement: this.legendElement,
+      //   mapLevel: this.mapLevel,
+      //   jurisdiction: this.jurisdiction,
+      //   chartOptions: this.chartOptions,
+      //   chartBreakpointValues: this.chartBreakpointValues,
+      //   screenDisplayType: this.screenDisplayType,
+      // });
+    }
   }
 
   render() {

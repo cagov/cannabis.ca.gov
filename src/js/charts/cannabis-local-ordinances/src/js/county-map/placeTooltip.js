@@ -40,18 +40,18 @@ function chartTooltipPlace(data, props, options) {
 function placeStatusTooltipMessage(data, props, options) {
   let { prohibitionStatus } = props;
   let { name } = options;
-  let { activities, showCities, showCounties } = data;
+  let { activities, showPlaces, showCounties } = data;
   let mode = activities;
   let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
     getToolTipMessages(data, name, props, "City");
 
   // Choose label based on toggle
   let label = all;
-  // if (showCities && !showCounties) {
+  // if (showPlaces && !showCounties) {
   //   label = city;
-  // } else if (showCounties && !showCities) {
+  // } else if (showCounties && !showPlaces) {
   //   label = county;
-  // } else if (showCounties && showCities) {
+  // } else if (showCounties && showPlaces) {
   //   label = all;
   // }
 

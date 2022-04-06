@@ -19,7 +19,7 @@ export default function drawStatewideMap({
   chartBreakpointValues = null,
   screenDisplayType = null,
 }) {
-  // console.log("Statewide map", jurisdiction, mapLevel);
+  console.log("Statewide map", jurisdiction, mapLevel);
   try {
     /* Data processing */
     var { dataPlaces, messages } = data;
@@ -28,7 +28,6 @@ export default function drawStatewideMap({
     var rawHeight = 923;
 
     // Clean up existing SVGs
-
     d3.select(domElement).select("svg").remove();
 
     if (
@@ -53,7 +52,7 @@ export default function drawStatewideMap({
             .style("height")
         );
         // console.log(mapTop, mapBottom);
-    // console.log("mapHeight", mapHeight);
+        // console.log("mapHeight", mapHeight);
         let mapScale = mapHeight / 900;
         d3
         .select("[data-layer-name=interactive-map-container]")
@@ -257,7 +256,7 @@ export default function drawStatewideMap({
   }
 
     /* PLACES */
-    if (data.showCities === true) {
+    if (data.showPlaces === true) {
     xml("/assets/data/tl_2016_06_place.svg").then((places) => {
       const group = d3.select(domElement + ' [data-name="places-boundaries"]');
 
