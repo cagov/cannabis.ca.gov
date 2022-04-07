@@ -36,9 +36,11 @@ import { controlPages } from '../components/pagination/control.js'
 import './google-analytics.js';
 import setupAnalytics from './setup-analytics.js';
 
+
+console.log("hey?");
 // Custom components
-// Data viz: consumers/where-cannabis-business-is-legal-in-california
-// import './charts/cannabis-local-ordinances/src/index.js';
+// Data viz: where-cannabis-business-is-legal-in-california
+// import './charts/cannabis-local-ordinances/src/index.js'; // Can we do this instead?
 import './charts/cannabis-local-ordinances/build/bundle.js';
 
 

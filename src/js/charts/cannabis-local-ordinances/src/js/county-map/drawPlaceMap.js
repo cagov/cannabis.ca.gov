@@ -57,16 +57,16 @@ export default function drawPlaceMap({
     let tooltip = d3.select(tooltipElement);
 
     /* Tooltip container */
-    if (d3.select(tooltipElement + " div") === null) {
-      tooltip = d3
-        .select(tooltipElement)
-        .append("div")
-        .attr("class", "tooltip")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .text("");
-    }
+    // if (d3.select(tooltipElement + " div") === null) {
+    //   tooltip = d3
+    //     .select(tooltipElement)
+    //     .append("div")
+    //     .attr("class", "tooltip")
+    //     .style("position", "absolute")
+    //     .style("z-index", "10")
+    //     .style("visibility", "hidden")
+    //     .text("");
+    // }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     // if (data.showCounties === true) {
@@ -195,46 +195,8 @@ export default function drawPlaceMap({
               } else {
                 return 0.25;
               }
-            })
-            .on("mouseover focus", function (event, d) {
-              d3.select(this)
-              .attr("fill-opacity", (d) => {
-                if (data.dataPlaces[currentPlace]["GEOID"] === data.selectedPlace["GEOID"] ) {
-                  return 0.8;
-                } else {
-                  return 0.25;
-                }
-              });
-
-              tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
-
-              return tooltip
-                .transition()
-                .duration(0)
-                .style("visibility", "visible");
-            })
-            .on("mousemove", function (event, d) {
-              let tooltipX = 100;
-              let tooltipY = 100;
-
-              return tooltip
-                .style("left", tooltipX + "px")
-                .style("top", tooltipY + "px");
-            })
-            .on("mouseout focusout", function (d) {
-              d3.select(this).attr("fill-opacity", (d) => {
-                if (data.dataPlaces[currentPlace]["GEOID"] === data.selectedPlace["GEOID"] ) {
-                  return 1;
-                } else {
-                  return 0.25;
-                }
-              });
-
-              return tooltip
-                .transition()
-                .delay(500)
-                .style("visibility", "hidden");
             });
+            
         } else {
           el.remove();
         }
