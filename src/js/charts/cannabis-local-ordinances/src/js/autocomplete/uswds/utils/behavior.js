@@ -1,5 +1,7 @@
-// const assign = require("object-assign");
-// const Behavior = require("receptor/behavior");
+const assign = require("object-assign");
+// const Behavior = require("./../../../../../node_modules/receptor/src/behavior");
+
+import { behavior } from "receptor";
 
 /**
  * @name sequence
@@ -23,14 +25,16 @@ const sequence = (...seq) =>
  * @param {object?} props
  * @return {receptor.behavior}
  */
-module.exports = (events, props) => false;
-//   Behavior(
-//     events,
-//     assign(
-//       {
-//         on: sequence("init", "add"),
-//         off: sequence("teardown", "remove"),
-//       },
-//       props
-//     )
-//   );
+ export default (events, props) =>
+  behavior(
+    events,
+    assign(
+      {
+        on: sequence("init", "add"),
+        off: sequence("teardown", "remove"),
+      },
+      props
+    )
+  );
+
+

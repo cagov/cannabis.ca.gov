@@ -1,7 +1,7 @@
-import comboBox from "./combo-box.js"; // From USWDS
+import ComboBox from "./combo-box.js"; // From USWDS
 
 /**
- - [ ] Review package used
+ - [X] Review package used
  - [ ] Sample markup
  - [ ] Update UI elements
  - [ ] Write jsdocs
@@ -21,14 +21,8 @@ class CaGovAutocomplete extends window.HTMLElement {
    * Run when component is first loaded. Pull any data from the environment.
    */
   connectedCallback() {
-    // @TODO need markup example & test data.
-
-    // Maybe not needed.
-    // this.fieldSelector = this.dataset.fieldSelector;
-    // this.fieldLabel = this.dataset.fieldLabel;
-    // this.dataSource = this.dataset.autoCompleteDataSource;
-    // this.selectCallback = this.dataset.selectCallback;
-    // this.parentSelector = this.dataset.parentSelector;
+    console.log("connected", ComboBox);
+    ComboBox.init();
   }
 
   /**
@@ -40,7 +34,8 @@ class CaGovAutocomplete extends window.HTMLElement {
   }
 
   render() {
-    comboBox.init();
+    // ?
+    console.log("render");
   }
 }
 

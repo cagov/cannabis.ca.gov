@@ -2,12 +2,16 @@
 // src/js/components/combo-box.js
 // OK, USWDS. Let's see how this works with the California Design System. 🌞🧸🌵🌊🗻
 
-// const receptor = require("./../node_modules/receptor");
+// const receptor = require("receptor");
+// const keymap = require("../../../../node_modules/receptor/src/keymap");
 // const keymap = receptor.keymap;
 
-const keymap = (options) => options;
+import { keymap } from "receptor";
+import Behavior from "./uswds/utils/behavior";
+
+// const keymap = (options) => options;
 const select = require("./uswds/utils/select");
-const behavior = require("./uswds/utils/behavior");
+// const behavior = require("./uswds/utils/behavior");
 const Sanitizer = require("./uswds/utils/sanitizer");
 const { prefix: PREFIX } = require("./uswds/config");
 const { CLICK } = require("./uswds/events");
@@ -743,7 +747,7 @@ const handleClickFromInput = (el) => {
   }
 };
 
-const comboBox = behavior(
+const comboBox = Behavior(
   {
     [CLICK]: {
       [INPUT]() {
@@ -805,6 +809,7 @@ const comboBox = behavior(
   },
   {
     init(root) {
+        console.log("init");
       select(COMBO_BOX, root).forEach((comboBoxEl) => {
         enhanceComboBox(comboBoxEl);
       });
@@ -820,4 +825,4 @@ const comboBox = behavior(
   }
 );
 
-module.exports = comboBox;
+export default comboBox;
