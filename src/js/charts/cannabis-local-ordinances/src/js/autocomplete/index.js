@@ -1,4 +1,4 @@
-import comboBox from "./combo-box.js";
+import comboBox from "./combo-box.js"; // From USWDS
 
 /**
  - [ ] Review package used
@@ -39,75 +39,11 @@ class CaGovAutocomplete extends window.HTMLElement {
     // focus
   }
 
-  setupAutoComplete(fieldSelector, fieldName, autocompleteDataList) {
-    let component = this;
-    // @TODO Add docs ref
-    const awesompleteSettings = {
-      autoFirst: true,
-      minChars: 0,
-      maxItems: 20,
-      filter: function (text, input) {
-        return Awesomplete.FILTER_CONTAINS(text, input.match(/[^,]*$/)[0]);
-      },
-      item: function (text, input) {
-        return Awesomplete.ITEM(text, input.match(/[^,]*$/)[0]);
-      },
-      data: function (item, input) {
-        // console.log(item);
-        if (item.value !== undefined) {
-          return { label: item.label, value: item.id };
-        } else {
-          return item;
-        }
-      },
-      replace: function (text) {
-        let before = this.input.value.match(/^.+,\s*|/)[0];
-        let finalval = before + text;
-        component.changeLocationInput(finalval);
-        // component.layoutCards();
-      },
-      sort: (a, b) => {
-        return autocompleteDataList.indexOf(a.label) <
-          autocompleteDataList.indexOf(b.label)
-          ? -1
-          : 1;
-      },
-      list: autocompleteDataList,
-    }
-    this.awesompleteSettings = awesompleteSettings;
-  }
-
   render() {
-    const autocompleteElement = new Awesomplete(
-      this.fieldSelector,
-      this.awesompleteSettings
-    );
-
-    document
-      .querySelector("#awesomplete_list_1")
-      .setAttribute("aria-label", this.fieldLabel);
-
-    
-    
-    document
-      .querySelector(fieldSelector)
-      .addEventListener("focus", function () {
-        window.cagovAutoComplete.evaluate();
-        addAutocompleteSectionSeparator("#awesomplete_list_1 li", countyTiers);
-      });
-
-    document.querySelector(fieldSelector).addEventListener("input", (event) => {
-      // const inputText = event.target.value; // What was this for? 
-      window.autocompleteElement.evaluate();
-    });
-
-    window.cagovAutoComplete.autocompleteElement = autocompleteElement;
+    comboBox.init();
   }
 }
 
 if (!customElements.get("cagov-autocomplete")) {
   window.customElements.define("cagov-autocomplete", CaGovAutocomplete);
-  if (window.cagovAutoComplete === undefined) {
-    window.cagovAutoComplete = {}; // @TODO make appendable, supports one autocomplete list.
-  }
 }
