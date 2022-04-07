@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "created_date": "2019-06-07T17:02:00",
+    "updated_date": "2022-03-29T05:25:33",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6198",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6198,
+    "date": "2019-06-07T17:02:00",
+    "date_gmt": "2019-06-07T17:02:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/33571/",
+    "modified": "2022-03-28T22:25:33",
+    "modified_gmt": "2022-03-29T05:25:33",
+    "slug": "33571-2",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/06/33571-2/",
+    "title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+    "excerpt": "<p>You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Answers",
+      "Application",
+      "Archive",
+      "Bureau of Cannabis Control",
+      "Bureau of Cannabis Control questions",
+      "Cannabis",
+      "CBD",
+      "Database",
+      "Document",
+      "FAQ",
+      "Industrial hemp",
+      "Licensing",
+      "Ownership",
+      "Questions",
+      "Regulations",
+      "Searchable"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/06/33571-2/",
+      "page_title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+      "page_description": "You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+      "meta_description": "You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/06/33571-2/",
+      "open_graph_title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+      "open_graph_description": "You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers.",
+      "twitter_title": "Bureau of Cannabis Control Launches New &#8220;Your Questions Answered&#8221; Webpage",
+      "twitter_description": "You asked, and we answered! After many popular requests, the Bureau of Cannabis Control (Bureau) is excited to announce the launch of our new searchable database of questions and answers."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 497,
+        "name": "Answers",
+        "slug": "answers",
+        "term_group": 0,
+        "term_taxonomy_id": 497,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 105,
+        "name": "Application",
+        "slug": "application",
+        "term_group": 0,
+        "term_taxonomy_id": 105,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 498,
+        "name": "Archive",
+        "slug": "archive",
+        "term_group": 0,
+        "term_taxonomy_id": 498,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 499,
+        "name": "Bureau of Cannabis Control questions",
+        "slug": "bureau-of-cannabis-control-questions",
+        "term_group": 0,
+        "term_taxonomy_id": 499,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 305,
+        "name": "CBD",
+        "slug": "cbd",
+        "term_group": 0,
+        "term_taxonomy_id": 305,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 500,
+        "name": "Database",
+        "slug": "database",
+        "term_group": 0,
+        "term_taxonomy_id": 500,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 501,
+        "name": "Document",
+        "slug": "document",
+        "term_group": 0,
+        "term_taxonomy_id": 501,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 502,
+        "name": "FAQ",
+        "slug": "faq",
+        "term_group": 0,
+        "term_taxonomy_id": 502,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 503,
+        "name": "Industrial hemp",
+        "slug": "industrial-hemp",
+        "term_group": 0,
+        "term_taxonomy_id": 503,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 33,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 33,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 504,
+        "name": "Ownership",
+        "slug": "ownership",
+        "term_group": 0,
+        "term_taxonomy_id": 504,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 129,
+        "name": "Questions",
+        "slug": "questions",
+        "term_group": 0,
+        "term_taxonomy_id": 129,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 6,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 6,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 505,
+        "name": "Searchable",
+        "slug": "searchable",
+        "term_group": 0,
+        "term_taxonomy_id": 505,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/06/33571-2/"
+  }
+}

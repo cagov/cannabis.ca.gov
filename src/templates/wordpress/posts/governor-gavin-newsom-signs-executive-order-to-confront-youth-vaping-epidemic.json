@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "created_date": "2019-09-18T19:51:00",
+    "updated_date": "2022-03-29T05:24:53",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5996",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5996,
+    "date": "2019-09-18T19:51:00",
+    "date_gmt": "2019-09-18T19:51:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
+    "modified": "2022-03-28T22:24:53",
+    "modified_gmt": "2022-03-29T05:24:53",
+    "slug": "governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
+    "title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+    "excerpt": "<p>SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "$20 million",
+      "California Department of Public Health",
+      "California department of tax and fee administration",
+      "Cannabis",
+      "CDPH",
+      "CDTFA",
+      "Executive order",
+      "Governor Newsom",
+      "SB-39",
+      "Statewide campaign",
+      "Teens",
+      "Vape cartridge",
+      "Vape pen",
+      "Vaping"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
+      "page_title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+      "page_description": "SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+      "meta_description": "SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
+      "open_graph_title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+      "open_graph_description": "SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping.",
+      "twitter_title": "Governor Gavin Newsom Signs Executive Order to Confront Youth Vaping Epidemic",
+      "twitter_description": "SACRAMENTO – Governor Gavin Newsom signed today an executive order to confront the growing youth epidemic and health risks linked to vaping."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 581,
+        "name": "$20 million",
+        "slug": "20-million",
+        "term_group": 0,
+        "term_taxonomy_id": 581,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 256,
+        "name": "California department of tax and fee administration",
+        "slug": "california-department-of-tax-and-fee-administration",
+        "term_group": 0,
+        "term_taxonomy_id": 256,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 13,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 139,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 139,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 582,
+        "name": "Executive order",
+        "slug": "executive-order",
+        "term_group": 0,
+        "term_taxonomy_id": 582,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 556,
+        "name": "Governor Newsom",
+        "slug": "governor-newsom",
+        "term_group": 0,
+        "term_taxonomy_id": 556,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 583,
+        "name": "SB-39",
+        "slug": "sb-39",
+        "term_group": 0,
+        "term_taxonomy_id": 583,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 584,
+        "name": "Statewide campaign",
+        "slug": "statewide-campaign",
+        "term_group": 0,
+        "term_taxonomy_id": 584,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 585,
+        "name": "Teens",
+        "slug": "teens",
+        "term_group": 0,
+        "term_taxonomy_id": 585,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 586,
+        "name": "Vape cartridge",
+        "slug": "vape-cartridge",
+        "term_group": 0,
+        "term_taxonomy_id": 586,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 587,
+        "name": "Vape pen",
+        "slug": "vape-pen",
+        "term_group": 0,
+        "term_taxonomy_id": 587,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 588,
+        "name": "Vaping",
+        "slug": "vaping",
+        "term_group": 0,
+        "term_taxonomy_id": 588,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/"
+  }
+}

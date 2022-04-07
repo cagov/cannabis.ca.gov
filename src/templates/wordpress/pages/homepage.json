@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "created_date": "2021-06-19T15:07:31",
+    "updated_date": "2022-03-29T05:27:54",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/7424",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 7424,
+    "date": "2021-06-19T15:07:31",
+    "date_gmt": "2021-06-19T15:07:31",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
+    "modified": "2022-03-28T22:27:54",
+    "modified_gmt": "2022-03-29T05:27:54",
+    "slug": "homepage",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/",
+    "title": "Home page",
+    "excerpt": "<p>Learn about California cannabis laws and licenses</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "landing",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "landing"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/",
+      "page_title": "Home page",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Home page",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/",
+      "open_graph_title": "Home page",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Home page",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/",
+    "media": [
+      {
+        "id": 8179,
+        "type": "large",
+        "path": "2021/06/cannabis-buds-hero-1-1024x683.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg",
+        "file": "cannabis-buds-hero-1-1024x683.jpg",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}

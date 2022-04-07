@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "created_date": "2021-12-03T16:47:54",
+    "updated_date": "2022-03-29T05:24:48",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9026",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9026,
+    "date": "2021-12-03T08:47:54",
+    "date_gmt": "2021-12-03T16:47:54",
+    "guid": "https://cannabis.ca.gov/?p=9026",
+    "modified": "2022-03-28T22:24:48",
+    "modified_gmt": "2022-03-29T05:24:48",
+    "slug": "californias-cannabis-department-proposes-regulations-to-provide-fee-waivers-for-equity-businesses-statewide",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2021/12/californias-cannabis-department-proposes-regulations-to-provide-fee-waivers-for-equity-businesses-statewide/",
+    "title": "California’s cannabis department proposes regulations to provide fee waivers for equity businesses statewide",
+    "excerpt": "<p>Proposed regulations would provide financial assistance for cannabis entrepreneurs affected by the War on Drugs CALIFORNIA – California’s Department of Cannabis Control (DCC) today released proposed emergency regulations to provide licensing fee waivers to qualified equity businesses statewide. The waivers are designed to assist individuals harmed by the War on Drugs with starting and operating [&hellip;]</p>\n",
+    "author": "Chach",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Cannabis",
+      "Emergency cannabis regulations",
+      "Emergency regulations",
+      "emergency rulemaking",
+      "Equity",
+      "fee waiver",
+      "Regulations",
+      "Rulemaking",
+      "rulemaking action"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/12/californias-cannabis-department-proposes-regulations-to-provide-fee-waivers-for-equity-businesses-statewide/",
+      "page_title": "California’s cannabis department proposes regulations to provide fee waivers for equity businesses statewide",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California’s cannabis department proposes regulations to provide fee waivers for equity businesses statewide",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/12/californias-cannabis-department-proposes-regulations-to-provide-fee-waivers-for-equity-businesses-statewide/",
+      "open_graph_title": "California’s cannabis department proposes regulations to provide fee waivers for equity businesses statewide",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "California’s cannabis department proposes regulations to provide fee waivers for equity businesses statewide",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 193,
+        "name": "Emergency cannabis regulations",
+        "slug": "emergency-cannabis-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 193,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 27,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 27,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 725,
+        "name": "emergency rulemaking",
+        "slug": "emergency-rulemaking",
+        "term_group": 0,
+        "term_taxonomy_id": 725,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 144,
+        "name": "Equity",
+        "slug": "equity",
+        "term_group": 0,
+        "term_taxonomy_id": 144,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 770,
+        "name": "fee waiver",
+        "slug": "fee-waiver",
+        "term_group": 0,
+        "term_taxonomy_id": 770,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 6,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 6,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 291,
+        "name": "Rulemaking",
+        "slug": "rulemaking",
+        "term_group": 0,
+        "term_taxonomy_id": 291,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 726,
+        "name": "rulemaking action",
+        "slug": "rulemaking-action",
+        "term_group": 0,
+        "term_taxonomy_id": 726,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/12/californias-cannabis-department-proposes-regulations-to-provide-fee-waivers-for-equity-businesses-statewide/"
+  }
+}

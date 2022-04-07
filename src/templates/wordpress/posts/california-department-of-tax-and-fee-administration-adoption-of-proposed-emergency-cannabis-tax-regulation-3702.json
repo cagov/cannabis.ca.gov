@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "created_date": "2018-12-11T22:04:00",
+    "updated_date": "2022-03-29T05:25:36",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6221",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6221,
+    "date": "2018-12-11T22:04:00",
+    "date_gmt": "2018-12-11T22:04:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+    "modified": "2022-03-28T22:25:36",
+    "modified_gmt": "2022-03-29T05:25:36",
+    "slug": "california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+    "title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
+    "excerpt": "<p>The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "California",
+      "California Cannabis Track-and-Trace",
+      "California department of tax and fee administration",
+      "Cannabis",
+      "Cannabis tax",
+      "CCTT",
+      "CDTFA",
+      "Emergency regulations",
+      "OAL",
+      "Office of Administrative Law",
+      "Price",
+      "Proposed emergency regulations",
+      "Regulations",
+      "Taxes"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+      "page_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
+      "page_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
+      "meta_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/",
+      "open_graph_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
+      "open_graph_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system.",
+      "twitter_title": "California Department of Tax and Fee Administration &#8211; Adoption of Proposed Emergency Cannabis Tax Regulation 3702",
+      "twitter_description": "The California Department of Tax and Fee Administration (CDTFA) has adopted proposed emergency Cannabis Tax Regulation 3702, California Cannabis Track-and-Trace, to require the wholesale cost and retail selling price of cannabis and cannabis products to be recorded in the California Cannabis Track-and-Trace (CCTT) system."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 23,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 465,
+        "name": "California Cannabis Track-and-Trace",
+        "slug": "california-cannabis-track-and-trace",
+        "term_group": 0,
+        "term_taxonomy_id": 465,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 256,
+        "name": "California department of tax and fee administration",
+        "slug": "california-department-of-tax-and-fee-administration",
+        "term_group": 0,
+        "term_taxonomy_id": 256,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 321,
+        "name": "Cannabis tax",
+        "slug": "cannabis-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 321,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 471,
+        "name": "CCTT",
+        "slug": "cctt",
+        "term_group": 0,
+        "term_taxonomy_id": 471,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 139,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 139,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 27,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 27,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 194,
+        "name": "OAL",
+        "slug": "oal",
+        "term_group": 0,
+        "term_taxonomy_id": 194,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 195,
+        "name": "Office of Administrative Law",
+        "slug": "office-of-administrative-law",
+        "term_group": 0,
+        "term_taxonomy_id": 195,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 472,
+        "name": "Price",
+        "slug": "price",
+        "term_group": 0,
+        "term_taxonomy_id": 472,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 28,
+        "name": "Proposed emergency regulations",
+        "slug": "proposed-emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 28,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 6,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 6,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 180,
+        "name": "Taxes",
+        "slug": "taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 180,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/12/california-department-of-tax-and-fee-administration-adoption-of-proposed-emergency-cannabis-tax-regulation-3702/"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "created_date": "2019-12-13T20:28:00",
+    "updated_date": "2022-03-29T05:24:52",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5988",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5988,
+    "date": "2019-12-13T20:28:00",
+    "date_gmt": "2019-12-13T20:28:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
+    "modified": "2022-03-28T22:24:52",
+    "modified_gmt": "2022-03-29T05:24:52",
+    "slug": "state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/12/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
+    "title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau of Cannabis Control",
+      "Cannabis",
+      "Cannabis enforcement unit",
+      "Department of Consumer Affairs",
+      "Dispendary",
+      "DOI",
+      "Enforcement",
+      "Illegal",
+      "License",
+      "Licensed",
+      "Los Angeles",
+      "Retailer",
+      "Unlicensed"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/12/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
+      "page_title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/12/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
+      "open_graph_title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles.",
+      "twitter_title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 208,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 208,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 415,
+        "name": "Cannabis enforcement unit",
+        "slug": "cannabis-enforcement-unit",
+        "term_group": 0,
+        "term_taxonomy_id": 415,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 38,
+        "name": "Department of Consumer Affairs",
+        "slug": "department-of-consumer-affairs",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 672,
+        "name": "Dispendary",
+        "slug": "dispendary",
+        "term_group": 0,
+        "term_taxonomy_id": 672,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 354,
+        "name": "DOI",
+        "slug": "doi",
+        "term_group": 0,
+        "term_taxonomy_id": 354,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 143,
+        "name": "Enforcement",
+        "slug": "enforcement",
+        "term_group": 0,
+        "term_taxonomy_id": 143,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 432,
+        "name": "Illegal",
+        "slug": "illegal",
+        "term_group": 0,
+        "term_taxonomy_id": 432,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 171,
+        "name": "License",
+        "slug": "license",
+        "term_group": 0,
+        "term_taxonomy_id": 171,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 236,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 236,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 37,
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "term_group": 0,
+        "term_taxonomy_id": 37,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 174,
+        "name": "Retailer",
+        "slug": "retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 174,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 355,
+        "name": "Unlicensed",
+        "slug": "unlicensed",
+        "term_group": 0,
+        "term_taxonomy_id": 355,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/12/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/"
+  }
+}

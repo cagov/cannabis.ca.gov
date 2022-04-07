@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "created_date": "2019-01-08T18:54:00",
+    "updated_date": "2022-03-29T05:25:35",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6218",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6218,
+    "date": "2019-01-08T18:54:00",
+    "date_gmt": "2019-01-08T18:54:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/california-cannabis-advisory-committee-publishes-2018-annual-report/",
+    "modified": "2022-03-28T22:25:35",
+    "modified_gmt": "2022-03-29T05:25:35",
+    "slug": "california-cannabis-advisory-committee-publishes-2018-annual-report",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/01/california-cannabis-advisory-committee-publishes-2018-annual-report/",
+    "title": "California Cannabis Advisory Committee Publishes 2018 Annual Report",
+    "excerpt": "<p>California’s Cannabis Advisory Committee (CAC) recently published their full 2018 Annual Report to the Bureau of Cannabis Control’s website.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/01/california-cannabis-advisory-committee-publishes-2018-annual-report/",
+      "page_title": "California Cannabis Advisory Committee Publishes 2018 Annual Report",
+      "page_description": "California’s Cannabis Advisory Committee (CAC) recently published their full 2018 Annual Report to the Bureau of Cannabis Control’s website.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California Cannabis Advisory Committee Publishes 2018 Annual Report",
+      "meta_description": "California’s Cannabis Advisory Committee (CAC) recently published their full 2018 Annual Report to the Bureau of Cannabis Control’s website.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/01/california-cannabis-advisory-committee-publishes-2018-annual-report/",
+      "open_graph_title": "California Cannabis Advisory Committee Publishes 2018 Annual Report",
+      "open_graph_description": "California’s Cannabis Advisory Committee (CAC) recently published their full 2018 Annual Report to the Bureau of Cannabis Control’s website.",
+      "twitter_title": "California Cannabis Advisory Committee Publishes 2018 Annual Report",
+      "twitter_description": "California’s Cannabis Advisory Committee (CAC) recently published their full 2018 Annual Report to the Bureau of Cannabis Control’s website."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/01/california-cannabis-advisory-committee-publishes-2018-annual-report/"
+  }
+}

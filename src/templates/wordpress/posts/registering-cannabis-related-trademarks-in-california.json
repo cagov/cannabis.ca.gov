@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "created_date": "2019-04-29T21:00:00",
+    "updated_date": "2022-03-29T05:25:33",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6202",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6202,
+    "date": "2019-04-29T21:00:00",
+    "date_gmt": "2019-04-29T21:00:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/registering-cannabis-related-trademarks-in-california/",
+    "modified": "2022-03-28T22:25:33",
+    "modified_gmt": "2022-03-29T05:25:33",
+    "slug": "registering-cannabis-related-trademarks-in-california",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/04/registering-cannabis-related-trademarks-in-california/",
+    "title": "Registering Cannabis-Related Trademarks in California",
+    "excerpt": "<p>The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Brochure",
+      "Business",
+      "California cannabis",
+      "Cannabis",
+      "Cannabis business",
+      "Cannabis-related",
+      "Questions",
+      "Registering",
+      "Secretary of State",
+      "Service mark",
+      "SoS",
+      "Trademarks"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/04/registering-cannabis-related-trademarks-in-california/",
+      "page_title": "Registering Cannabis-Related Trademarks in California",
+      "page_description": "The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Registering Cannabis-Related Trademarks in California",
+      "meta_description": "The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/04/registering-cannabis-related-trademarks-in-california/",
+      "open_graph_title": "Registering Cannabis-Related Trademarks in California",
+      "open_graph_description": "The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California.",
+      "twitter_title": "Registering Cannabis-Related Trademarks in California",
+      "twitter_description": "The Secretary of State&#8217;s Office has created a new brochure with information regarding registering cannabis-related trademarks in California."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 515,
+        "name": "Brochure",
+        "slug": "brochure",
+        "term_group": 0,
+        "term_taxonomy_id": 515,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "Business",
+        "slug": "business",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 410,
+        "name": "California cannabis",
+        "slug": "california-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 410,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 458,
+        "name": "Cannabis business",
+        "slug": "cannabis-business",
+        "term_group": 0,
+        "term_taxonomy_id": 458,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 516,
+        "name": "Cannabis-related",
+        "slug": "cannabis-related",
+        "term_group": 0,
+        "term_taxonomy_id": 516,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 129,
+        "name": "Questions",
+        "slug": "questions",
+        "term_group": 0,
+        "term_taxonomy_id": 129,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 517,
+        "name": "Registering",
+        "slug": "registering",
+        "term_group": 0,
+        "term_taxonomy_id": 517,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 204,
+        "name": "Secretary of State",
+        "slug": "secretary-of-state",
+        "term_group": 0,
+        "term_taxonomy_id": 204,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 518,
+        "name": "Service mark",
+        "slug": "service-mark",
+        "term_group": 0,
+        "term_taxonomy_id": 518,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 519,
+        "name": "SoS",
+        "slug": "sos",
+        "term_group": 0,
+        "term_taxonomy_id": 519,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 520,
+        "name": "Trademarks",
+        "slug": "trademarks",
+        "term_group": 0,
+        "term_taxonomy_id": 520,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/04/registering-cannabis-related-trademarks-in-california/"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "created_date": "2019-04-12T23:28:00",
+    "updated_date": "2022-03-29T05:24:55",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6010",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6010,
+    "date": "2019-04-12T23:28:00",
+    "date_gmt": "2019-04-12T23:28:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location/",
+    "modified": "2022-03-28T22:24:55",
+    "modified_gmt": "2022-03-29T05:24:55",
+    "slug": "bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/04/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location/",
+    "title": "Bureau of Cannabis Control Announces Opening of North Coast Regional Office in New Location",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that its North Coast Regional Office will open in its new location on Tuesday, April 16, 2019.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Appointments",
+      "BCC",
+      "CalCannabis Cultivation Licensing",
+      "Cannabis",
+      "Cashiering",
+      "CDFA",
+      "CDPH",
+      "Eureka",
+      "Licensing",
+      "Manufactured Cannabis Safety Branch",
+      "New office",
+      "SCWCB",
+      "State Water Board",
+      "Water board"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/04/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location/",
+      "page_title": "Bureau of Cannabis Control Announces Opening of North Coast Regional Office in New Location",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that its North Coast Regional Office will open in its new location on Tuesday, April 16, 2019.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Opening of North Coast Regional Office in New Location",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that its North Coast Regional Office will open in its new location on Tuesday, April 16, 2019.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/04/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Opening of North Coast Regional Office in New Location",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that its North Coast Regional Office will open in its new location on Tuesday, April 16, 2019.",
+      "twitter_title": "Bureau of Cannabis Control Announces Opening of North Coast Regional Office in New Location",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that its North Coast Regional Office will open in its new location on Tuesday, April 16, 2019."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 281,
+        "name": "Appointments",
+        "slug": "appointments",
+        "term_group": 0,
+        "term_taxonomy_id": 281,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 208,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 208,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 157,
+        "name": "CalCannabis Cultivation Licensing",
+        "slug": "calcannabis-cultivation-licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 157,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 493,
+        "name": "Cashiering",
+        "slug": "cashiering",
+        "term_group": 0,
+        "term_taxonomy_id": 493,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 11,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 11,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 13,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 283,
+        "name": "Eureka",
+        "slug": "eureka",
+        "term_group": 0,
+        "term_taxonomy_id": 283,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 33,
+        "name": "Licensing",
+        "slug": "licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 33,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 98,
+        "name": "Manufactured Cannabis Safety Branch",
+        "slug": "manufactured-cannabis-safety-branch",
+        "term_group": 0,
+        "term_taxonomy_id": 98,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 494,
+        "name": "New office",
+        "slug": "new-office",
+        "term_group": 0,
+        "term_taxonomy_id": 494,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 495,
+        "name": "SCWCB",
+        "slug": "scwcb",
+        "term_group": 0,
+        "term_taxonomy_id": 495,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 462,
+        "name": "State Water Board",
+        "slug": "state-water-board",
+        "term_group": 0,
+        "term_taxonomy_id": 462,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 496,
+        "name": "Water board",
+        "slug": "water-board",
+        "term_group": 0,
+        "term_taxonomy_id": 496,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/04/bureau-of-cannabis-control-announces-opening-of-north-coast-regional-office-in-new-location/"
+  }
+}

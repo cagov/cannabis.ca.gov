@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "created_date": "2021-07-13T23:02:00",
+    "updated_date": "2022-03-29T05:24:49",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/8510",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8510,
+    "date": "2021-07-13T16:02:00",
+    "date_gmt": "2021-07-13T23:02:00",
+    "guid": "https://cannabis.ca.gov/?p=8510",
+    "modified": "2022-03-28T22:24:49",
+    "modified_gmt": "2022-03-29T05:24:49",
+    "slug": "governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/",
+    "title": "Governor Newsom signs Cannabis Trailer Bill, creating the Department of Cannabis Control",
+    "excerpt": "<p>Formation of the Department consolidates three programs into one and advances efforts to streamline the state cannabis regulatory structure.</p>\n",
+    "author": "Michael Sullivan",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/",
+      "page_title": "Governor Newsom signs Cannabis Trailer Bill, creating the Department of Cannabis Control",
+      "page_description": "Formation of the Department consolidates three programs into one and advances efforts to streamline the state cannabis regulatory structure.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Governor Newsom signs Cannabis Trailer Bill, creating the Department of Cannabis Control",
+      "meta_description": "Formation of the Department consolidates three programs into one and advances efforts to streamline the state cannabis regulatory structure.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/",
+      "open_graph_title": "Governor Newsom signs Cannabis Trailer Bill, creating the Department of Cannabis Control",
+      "open_graph_description": "Formation of the Department consolidates three programs into one and advances efforts to streamline the state cannabis regulatory structure.",
+      "twitter_title": "Governor Newsom signs Cannabis Trailer Bill, creating the Department of Cannabis Control",
+      "twitter_description": "Formation of the Department consolidates three programs into one and advances efforts to streamline the state cannabis regulatory structure."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/"
+  }
+}

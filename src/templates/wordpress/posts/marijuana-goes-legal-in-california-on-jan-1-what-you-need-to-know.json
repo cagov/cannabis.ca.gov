@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "created_date": "2017-12-01T20:06:00",
+    "updated_date": "2022-03-29T05:26:07",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6272",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6272,
+    "date": "2017-12-01T20:06:00",
+    "date_gmt": "2017-12-01T20:06:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
+    "modified": "2022-03-28T22:26:07",
+    "modified_gmt": "2022-03-29T05:26:07",
+    "slug": "marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2017/12/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
+    "title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
+    "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "Cannabis",
+      "Marijuana",
+      "Pot",
+      "Regulation",
+      "What you need to know"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/12/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
+      "page_title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
+      "page_description": "Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
+      "meta_description": "Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/12/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
+      "open_graph_title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
+      "open_graph_description": "Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.",
+      "twitter_title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
+      "twitter_description": "Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 117,
+        "name": "Marijuana",
+        "slug": "marijuana",
+        "term_group": 0,
+        "term_taxonomy_id": 117,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 118,
+        "name": "Pot",
+        "slug": "pot",
+        "term_group": 0,
+        "term_taxonomy_id": 118,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 74,
+        "name": "Regulation",
+        "slug": "regulation",
+        "term_group": 0,
+        "term_taxonomy_id": 74,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 119,
+        "name": "What you need to know",
+        "slug": "what-you-need-to-know",
+        "term_group": 0,
+        "term_taxonomy_id": 119,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/12/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/"
+  }
+}

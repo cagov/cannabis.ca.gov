@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "created_date": "2022-01-06T00:30:57",
+    "updated_date": "2022-03-29T05:25:29",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9326",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9326,
+    "date": "2022-01-05T16:30:57",
+    "date_gmt": "2022-01-06T00:30:57",
+    "guid": "https://cannabis.ca.gov/?p=9326",
+    "modified": "2022-03-28T22:25:29",
+    "modified_gmt": "2022-03-29T05:25:29",
+    "slug": "californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2022/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/",
+    "title": "California’s cannabis department awards nearly $100 million in grants to local governments",
+    "excerpt": "<p>SACRAMENTO, CA – The Department of Cannabis Control (DCC) has awarded nearly $100 million in grant funding through the Local Jurisdiction Assistance Grant Program. The program, proposed by Governor Newsom in the 2021-2022 budget and passed by the Legislature, provides funding for local jurisdictions to aid in more swiftly transitioning high numbers of provisional cannabis [&hellip;]</p>\n",
+    "author": "Chach",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "CEQA",
+      "Grant",
+      "Grant funding",
+      "local jurisdiction assistance grant program",
+      "Provisional license"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/",
+      "page_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/",
+      "open_graph_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "California’s cannabis department awards nearly $100 million in grants to local governments",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 50,
+        "name": "CEQA",
+        "slug": "ceqa",
+        "term_group": 0,
+        "term_taxonomy_id": 50,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 421,
+        "name": "Grant",
+        "slug": "grant",
+        "term_group": 0,
+        "term_taxonomy_id": 421,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 423,
+        "name": "Grant funding",
+        "slug": "grant-funding",
+        "term_group": 0,
+        "term_taxonomy_id": 423,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 773,
+        "name": "local jurisdiction assistance grant program",
+        "slug": "local-jurisdiction-assistance-grant-program",
+        "term_group": 0,
+        "term_taxonomy_id": 773,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 609,
+        "name": "Provisional license",
+        "slug": "provisional-license",
+        "term_group": 0,
+        "term_taxonomy_id": 609,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/01/californias-cannabis-department-awards-nearly-100-million-in-grants-to-local-governments/"
+  }
+}

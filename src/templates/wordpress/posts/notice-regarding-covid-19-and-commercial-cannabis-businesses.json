@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "created_date": "2020-03-21T18:03:00",
+    "updated_date": "2022-03-29T05:24:51",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5982",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5982,
+    "date": "2020-03-21T18:03:00",
+    "date_gmt": "2020-03-21T18:03:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/notice-regarding-covid-19-and-commercial-cannabis-businesses/",
+    "modified": "2022-03-28T22:24:51",
+    "modified_gmt": "2022-03-29T05:24:51",
+    "slug": "notice-regarding-covid-19-and-commercial-cannabis-businesses",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2020/03/notice-regarding-covid-19-and-commercial-cannabis-businesses/",
+    "title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
+    "excerpt": "<p>SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "CalCannabis",
+      "California",
+      "California Department of Public Health",
+      "Coronavirus",
+      "COVID-19",
+      "covid19",
+      "Sacramento"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2020/03/notice-regarding-covid-19-and-commercial-cannabis-businesses/",
+      "page_title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
+      "page_description": "SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
+      "meta_description": "SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2020/03/notice-regarding-covid-19-and-commercial-cannabis-businesses/",
+      "open_graph_title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
+      "open_graph_description": "SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19.",
+      "twitter_title": "Notice Regarding COVID-19 And Commercial Cannabis Businesses",
+      "twitter_description": "SACRAMENTO – On Thursday, March 19, 2020 Governor Gavin Newsom issued a stay at home order to protect the health and well-being of all Californians and to establish a consistent approach across the state to slow the spread of COVID-19."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 78,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 78,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 23,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 650,
+        "name": "Coronavirus",
+        "slug": "coronavirus",
+        "term_group": 0,
+        "term_taxonomy_id": 650,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 651,
+        "name": "COVID-19",
+        "slug": "covid-19",
+        "term_group": 0,
+        "term_taxonomy_id": 651,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 652,
+        "name": "covid19",
+        "slug": "covid19",
+        "term_group": 0,
+        "term_taxonomy_id": 652,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 34,
+        "name": "Sacramento",
+        "slug": "sacramento",
+        "term_group": 0,
+        "term_taxonomy_id": 34,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2020/03/notice-regarding-covid-19-and-commercial-cannabis-businesses/"
+  }
+}

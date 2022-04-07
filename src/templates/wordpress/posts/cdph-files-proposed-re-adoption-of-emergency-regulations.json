@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "created_date": "2018-05-29T16:12:00",
+    "updated_date": "2022-03-29T05:25:39",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6251",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6251,
+    "date": "2018-05-29T16:12:00",
+    "date_gmt": "2018-05-29T16:12:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cdph-files-proposed-re-adoption-of-emergency-regulations/",
+    "modified": "2022-03-28T22:25:39",
+    "modified_gmt": "2022-03-29T05:25:39",
+    "slug": "cdph-files-proposed-re-adoption-of-emergency-regulations",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2018/05/cdph-files-proposed-re-adoption-of-emergency-regulations/",
+    "title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
+    "excerpt": "<p>The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL).</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "California",
+      "California Department of Public Health",
+      "CDPH",
+      "Emergency regulations",
+      "OAL",
+      "Office of Administrative Law",
+      "Public comment",
+      "Public health",
+      "Readoption"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/05/cdph-files-proposed-re-adoption-of-emergency-regulations/",
+      "page_title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
+      "page_description": "The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL).",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
+      "meta_description": "The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL).",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/05/cdph-files-proposed-re-adoption-of-emergency-regulations/",
+      "open_graph_title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
+      "open_graph_description": "The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL).",
+      "twitter_title": "CDPH Files Proposed Re-Adoption of Emergency Regulations",
+      "twitter_description": "The California Department of Public Health (CDPH) has filed the proposed re-adoption of the emergency regulations with the Office of Administrative Law (OAL)."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 23,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 13,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 27,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 27,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 194,
+        "name": "OAL",
+        "slug": "oal",
+        "term_group": 0,
+        "term_taxonomy_id": 194,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 195,
+        "name": "Office of Administrative Law",
+        "slug": "office-of-administrative-law",
+        "term_group": 0,
+        "term_taxonomy_id": 195,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 120,
+        "name": "Public comment",
+        "slug": "public-comment",
+        "term_group": 0,
+        "term_taxonomy_id": 120,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 146,
+        "name": "Public health",
+        "slug": "public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 146,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 199,
+        "name": "Readoption",
+        "slug": "readoption",
+        "term_group": 0,
+        "term_taxonomy_id": 199,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/05/cdph-files-proposed-re-adoption-of-emergency-regulations/"
+  }
+}

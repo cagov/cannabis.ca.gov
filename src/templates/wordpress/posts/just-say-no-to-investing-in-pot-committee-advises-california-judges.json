@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "created_date": "2017-04-20T22:46:00",
+    "updated_date": "2022-03-29T05:26:10",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6299",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6299,
+    "date": "2017-04-20T22:46:00",
+    "date_gmt": "2017-04-20T22:46:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
+    "modified": "2022-03-28T22:26:10",
+    "modified_gmt": "2022-03-29T05:26:10",
+    "slug": "just-say-no-to-investing-in-pot-committee-advises-california-judges",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2017/04/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
+    "title": "Just say no to investing in pot, committee advises California judges",
+    "excerpt": "<p>A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/04/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
+      "page_title": "Just say no to investing in pot, committee advises California judges",
+      "page_description": "A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Just say no to investing in pot, committee advises California judges",
+      "meta_description": "A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/04/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
+      "open_graph_title": "Just say no to investing in pot, committee advises California judges",
+      "open_graph_description": "A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.",
+      "twitter_title": "Just say no to investing in pot, committee advises California judges",
+      "twitter_description": "A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/04/just-say-no-to-investing-in-pot-committee-advises-california-judges/"
+  }
+}

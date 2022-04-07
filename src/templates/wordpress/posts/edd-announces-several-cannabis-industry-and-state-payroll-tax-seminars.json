@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "created_date": "2019-05-22T00:12:00",
+    "updated_date": "2022-03-29T05:25:33",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6199",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6199,
+    "date": "2019-05-22T00:12:00",
+    "date_gmt": "2019-05-22T00:12:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/",
+    "modified": "2022-03-28T22:25:33",
+    "modified_gmt": "2022-03-29T05:25:33",
+    "slug": "edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/05/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/",
+    "title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
+    "excerpt": "<p>The Employment Development Department (EDD) offers State payroll tax seminars to help employers comply with California payroll tax laws.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "California cannabis",
+      "Cannabis",
+      "Cannabis industry",
+      "EDD",
+      "Employment development department",
+      "Learn",
+      "Seminar",
+      "State payroll",
+      "Tax",
+      "Tax seminar",
+      "Taxes"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/05/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/",
+      "page_title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
+      "page_description": "The Employment Development Department (EDD) offers State payroll tax seminars to help employers comply with California payroll tax laws.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
+      "meta_description": "The Employment Development Department (EDD) offers State payroll tax seminars to help employers comply with California payroll tax laws.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/05/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/",
+      "open_graph_title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
+      "open_graph_description": "The Employment Development Department (EDD) offers State payroll tax seminars to help employers comply with California payroll tax laws.",
+      "twitter_title": "EDD Announces Several Cannabis Industry and State Payroll Tax Seminars",
+      "twitter_description": "The Employment Development Department (EDD) offers State payroll tax seminars to help employers comply with California payroll tax laws."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 410,
+        "name": "California cannabis",
+        "slug": "california-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 410,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 272,
+        "name": "Cannabis industry",
+        "slug": "cannabis-industry",
+        "term_group": 0,
+        "term_taxonomy_id": 272,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 506,
+        "name": "EDD",
+        "slug": "edd",
+        "term_group": 0,
+        "term_taxonomy_id": 506,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 507,
+        "name": "Employment development department",
+        "slug": "employment-development-department",
+        "term_group": 0,
+        "term_taxonomy_id": 507,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 508,
+        "name": "Learn",
+        "slug": "learn",
+        "term_group": 0,
+        "term_taxonomy_id": 508,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 509,
+        "name": "Seminar",
+        "slug": "seminar",
+        "term_group": 0,
+        "term_taxonomy_id": 509,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 510,
+        "name": "State payroll",
+        "slug": "state-payroll",
+        "term_group": 0,
+        "term_taxonomy_id": 510,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 259,
+        "name": "Tax",
+        "slug": "tax",
+        "term_group": 0,
+        "term_taxonomy_id": 259,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 511,
+        "name": "Tax seminar",
+        "slug": "tax-seminar",
+        "term_group": 0,
+        "term_taxonomy_id": 511,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 180,
+        "name": "Taxes",
+        "slug": "taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 180,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/05/edd-announces-several-cannabis-industry-and-state-payroll-tax-seminars/"
+  }
+}

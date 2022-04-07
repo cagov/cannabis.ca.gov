@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "created_date": "2018-12-26T21:22:00",
+    "updated_date": "2022-03-29T05:25:36",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6220",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6220,
+    "date": "2018-12-26T21:22:00",
+    "date_gmt": "2018-12-26T21:22:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
+    "modified": "2022-03-28T22:25:36",
+    "modified_gmt": "2022-03-29T05:25:36",
+    "slug": "results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2018/12/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
+    "title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
+    "excerpt": "<p>California’s 18-member Cannabis Banking Working Group (CBWG), chaired by State Treasurer John Chiang, will hold a public hearing Thursday, December 27, where they will be presented with the results of the cannabis banking feasibility study prepared by Level 4 Venture.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Announcement",
+      "Banking",
+      "California",
+      "Cannabis",
+      "Cannabis Banking Feasibility Study",
+      "Meeting",
+      "Public hearing",
+      "Treasurer banking working group",
+      "Treasurer's office"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/12/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
+      "page_title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
+      "page_description": "California’s 18-member Cannabis Banking Working Group (CBWG), chaired by State Treasurer John Chiang, will hold a public hearing Thursday, December 27, where they will be presented with the results of the cannabis banking feasibility study prepared by Level 4 Venture.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
+      "meta_description": "California’s 18-member Cannabis Banking Working Group (CBWG), chaired by State Treasurer John Chiang, will hold a public hearing Thursday, December 27, where they will be presented with the results of the cannabis banking feasibility study prepared by Level 4 Venture.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/12/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/",
+      "open_graph_title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
+      "open_graph_description": "California’s 18-member Cannabis Banking Working Group (CBWG), chaired by State Treasurer John Chiang, will hold a public hearing Thursday, December 27, where they will be presented with the results of the cannabis banking feasibility study prepared by Level 4 Venture.",
+      "twitter_title": "Results of Cannabis Banking Feasibility Study to be Released at Public Hearing",
+      "twitter_description": "California’s 18-member Cannabis Banking Working Group (CBWG), chaired by State Treasurer John Chiang, will hold a public hearing Thursday, December 27, where they will be presented with the results of the cannabis banking feasibility study prepared by Level 4 Venture."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 328,
+        "name": "Announcement",
+        "slug": "announcement",
+        "term_group": 0,
+        "term_taxonomy_id": 328,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 5,
+        "name": "Banking",
+        "slug": "banking",
+        "term_group": 0,
+        "term_taxonomy_id": 5,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 23,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 468,
+        "name": "Cannabis Banking Feasibility Study",
+        "slug": "cannabis-banking-feasibility-study",
+        "term_group": 0,
+        "term_taxonomy_id": 468,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 145,
+        "name": "Meeting",
+        "slug": "meeting",
+        "term_group": 0,
+        "term_taxonomy_id": 145,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 269,
+        "name": "Public hearing",
+        "slug": "public-hearing",
+        "term_group": 0,
+        "term_taxonomy_id": 269,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 469,
+        "name": "Treasurer banking working group",
+        "slug": "treasurer-banking-working-group",
+        "term_group": 0,
+        "term_taxonomy_id": 469,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 470,
+        "name": "Treasurer's office",
+        "slug": "treasurers-office",
+        "term_group": 0,
+        "term_taxonomy_id": 470,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/12/results-of-cannabis-banking-feasibility-study-to-be-released-at-public-hearing/"
+  }
+}

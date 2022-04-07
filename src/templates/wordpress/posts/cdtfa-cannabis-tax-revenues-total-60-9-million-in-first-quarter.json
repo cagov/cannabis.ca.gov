@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "created_date": "2018-05-11T17:32:00",
+    "updated_date": "2022-03-29T05:24:58",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6037",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6037,
+    "date": "2018-05-11T17:32:00",
+    "date_gmt": "2018-05-11T17:32:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+    "modified": "2022-03-28T22:24:58",
+    "modified_gmt": "2022-03-29T05:24:58",
+    "slug": "cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2018/05/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+    "title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
+    "excerpt": "<p>Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Cannabis",
+      "CDTFA",
+      "Proposition 64",
+      "Tax revenue",
+      "Taxes"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/05/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+      "page_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
+      "page_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
+      "meta_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/05/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/",
+      "open_graph_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
+      "open_graph_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018.",
+      "twitter_title": "CDTFA: Cannabis Tax Revenues Total $60.9 Million in First Quarter",
+      "twitter_description": "Sacramento – The California Department of Tax and Fee Administration (CDTFA) today released revenue numbers for cannabis sales in the first quarter of 2018."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 139,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 139,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 137,
+        "name": "Proposition 64",
+        "slug": "proposition-64",
+        "term_group": 0,
+        "term_taxonomy_id": 137,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 200,
+        "name": "Tax revenue",
+        "slug": "tax-revenue",
+        "term_group": 0,
+        "term_taxonomy_id": 200,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 180,
+        "name": "Taxes",
+        "slug": "taxes",
+        "term_group": 0,
+        "term_taxonomy_id": 180,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/05/cdtfa-cannabis-tax-revenues-total-60-9-million-in-first-quarter/"
+  }
+}

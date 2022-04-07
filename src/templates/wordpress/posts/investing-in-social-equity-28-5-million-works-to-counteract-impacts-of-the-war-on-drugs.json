@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "created_date": "2019-09-26T21:30:00",
+    "updated_date": "2022-03-29T05:24:53",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5995",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5995,
+    "date": "2019-09-26T21:30:00",
+    "date_gmt": "2019-09-26T21:30:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+    "modified": "2022-03-28T22:24:53",
+    "modified_gmt": "2022-03-29T05:24:53",
+    "slug": "investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+    "title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+    "excerpt": "<p>Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "CalCRG program",
+      "Cannabis",
+      "Communities",
+      "Equity grants",
+      "Funding",
+      "GO-BIZ",
+      "Governor's Office of Business and Economic Development",
+      "Grants",
+      "Investing",
+      "Local jurisdiction",
+      "Non-profit",
+      "Prop 64",
+      "Social equity",
+      "War on drugs"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+      "page_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+      "page_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+      "meta_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/",
+      "open_graph_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+      "open_graph_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state.",
+      "twitter_title": "Investing in Social Equity: $28.5 Million Works to Counteract Impacts of the War on Drugs",
+      "twitter_description": "Sacramento, CA – Today, the Governor’s Office of Business and Economic Development (GO-Biz) announced 69 grants totaling $28.5 million awarded to organizations across the state."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 574,
+        "name": "CalCRG program",
+        "slug": "calcrg-program",
+        "term_group": 0,
+        "term_taxonomy_id": 574,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 575,
+        "name": "Communities",
+        "slug": "communities",
+        "term_group": 0,
+        "term_taxonomy_id": 575,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 576,
+        "name": "Equity grants",
+        "slug": "equity-grants",
+        "term_group": 0,
+        "term_taxonomy_id": 576,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 394,
+        "name": "Funding",
+        "slug": "funding",
+        "term_group": 0,
+        "term_taxonomy_id": 394,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 364,
+        "name": "GO-BIZ",
+        "slug": "go-biz",
+        "term_group": 0,
+        "term_taxonomy_id": 364,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 514,
+        "name": "Governor's Office of Business and Economic Development",
+        "slug": "governors-office-of-business-and-economic-development",
+        "term_group": 0,
+        "term_taxonomy_id": 514,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 396,
+        "name": "Grants",
+        "slug": "grants",
+        "term_group": 0,
+        "term_taxonomy_id": 396,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 577,
+        "name": "Investing",
+        "slug": "investing",
+        "term_group": 0,
+        "term_taxonomy_id": 577,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 578,
+        "name": "Local jurisdiction",
+        "slug": "local-jurisdiction",
+        "term_group": 0,
+        "term_taxonomy_id": 578,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 579,
+        "name": "Non-profit",
+        "slug": "non-profit",
+        "term_group": 0,
+        "term_taxonomy_id": 579,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 399,
+        "name": "Prop 64",
+        "slug": "prop-64",
+        "term_group": 0,
+        "term_taxonomy_id": 399,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 580,
+        "name": "Social equity",
+        "slug": "social-equity",
+        "term_group": 0,
+        "term_taxonomy_id": 580,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 573,
+        "name": "War on drugs",
+        "slug": "war-on-drugs",
+        "term_group": 0,
+        "term_taxonomy_id": 573,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/09/investing-in-social-equity-28-5-million-works-to-counteract-impacts-of-the-war-on-drugs/"
+  }
+}

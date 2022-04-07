@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "created_date": "2019-03-06T22:11:00",
+    "updated_date": "2022-03-29T05:24:55",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6012",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6012,
+    "date": "2019-03-06T22:11:00",
+    "date_gmt": "2019-03-06T22:11:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/32152/",
+    "modified": "2022-03-28T22:24:55",
+    "modified_gmt": "2022-03-29T05:24:55",
+    "slug": "32152-2",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/03/32152-2/",
+    "title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "Campaign",
+      "Cannabis",
+      "Cannabis industry",
+      "KP public affairs",
+      "Licensed",
+      "Licensees",
+      "Public awareness",
+      "Safe cannabis",
+      "Testing labs"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/03/32152-2/",
+      "page_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/03/32152-2/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California.",
+      "twitter_title": "Bureau of Cannabis Control Announces Vendor for Public Awareness Campaign",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today announced that KP Public Affairs of Sacramento was awarded a contract to develop a two-year statewide public awareness and education campaign related to the licensure of commercial cannabis businesses in California."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 53,
+        "name": "Campaign",
+        "slug": "campaign",
+        "term_group": 0,
+        "term_taxonomy_id": 53,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 272,
+        "name": "Cannabis industry",
+        "slug": "cannabis-industry",
+        "term_group": 0,
+        "term_taxonomy_id": 272,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 412,
+        "name": "KP public affairs",
+        "slug": "kp-public-affairs",
+        "term_group": 0,
+        "term_taxonomy_id": 412,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 236,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 236,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 246,
+        "name": "Licensees",
+        "slug": "licensees",
+        "term_group": 0,
+        "term_taxonomy_id": 246,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 123,
+        "name": "Public awareness",
+        "slug": "public-awareness",
+        "term_group": 0,
+        "term_taxonomy_id": 123,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 413,
+        "name": "Safe cannabis",
+        "slug": "safe-cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 413,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 10,
+        "name": "Testing labs",
+        "slug": "testing-labs",
+        "term_group": 0,
+        "term_taxonomy_id": 10,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/03/32152-2/"
+  }
+}

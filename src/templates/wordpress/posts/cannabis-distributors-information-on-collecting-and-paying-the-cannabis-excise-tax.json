@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "created_date": "2019-03-13T23:01:00",
+    "updated_date": "2022-03-29T05:25:34",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6211",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6211,
+    "date": "2019-03-13T23:01:00",
+    "date_gmt": "2019-03-13T23:01:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+    "modified": "2022-03-28T22:25:34",
+    "modified_gmt": "2022-03-29T05:25:34",
+    "slug": "cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/03/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+    "title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
+    "excerpt": "<p>As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau",
+      "Bureau of Cannabis Control",
+      "Cannabis",
+      "CDTFA",
+      "Cultivator",
+      "Distributors",
+      "Excise",
+      "Invoice",
+      "Licensed",
+      "Manufacturer",
+      "Retailer",
+      "Tax"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/03/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+      "page_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
+      "page_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
+      "meta_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/03/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/",
+      "open_graph_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
+      "open_graph_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis).",
+      "twitter_title": "Cannabis Distributors: Information on Collecting and Paying the Cannabis Excise Tax",
+      "twitter_description": "As a licensed cannabis distributor, you are required to collect the cannabis excise tax from retailers you supply with cannabis or cannabis products (cannabis)."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 208,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 208,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 69,
+        "name": "Bureau",
+        "slug": "bureau",
+        "term_group": 0,
+        "term_taxonomy_id": 69,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 139,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 139,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 446,
+        "name": "Cultivator",
+        "slug": "cultivator",
+        "term_group": 0,
+        "term_taxonomy_id": 446,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 142,
+        "name": "Distributors",
+        "slug": "distributors",
+        "term_group": 0,
+        "term_taxonomy_id": 142,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 333,
+        "name": "Excise",
+        "slug": "excise",
+        "term_group": 0,
+        "term_taxonomy_id": 333,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 447,
+        "name": "Invoice",
+        "slug": "invoice",
+        "term_group": 0,
+        "term_taxonomy_id": 447,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 236,
+        "name": "Licensed",
+        "slug": "licensed",
+        "term_group": 0,
+        "term_taxonomy_id": 236,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 448,
+        "name": "Manufacturer",
+        "slug": "manufacturer",
+        "term_group": 0,
+        "term_taxonomy_id": 448,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 174,
+        "name": "Retailer",
+        "slug": "retailer",
+        "term_group": 0,
+        "term_taxonomy_id": 174,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 259,
+        "name": "Tax",
+        "slug": "tax",
+        "term_group": 0,
+        "term_taxonomy_id": 259,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/03/cannabis-distributors-information-on-collecting-and-paying-the-cannabis-excise-tax/"
+  }
+}

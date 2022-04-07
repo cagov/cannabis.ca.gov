@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "created_date": "2017-10-31T15:25:00",
+    "updated_date": "2022-03-29T05:26:07",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6276",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6276,
+    "date": "2017-10-31T15:25:00",
+    "date_gmt": "2017-10-31T15:25:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
+    "modified": "2022-03-28T22:26:07",
+    "modified_gmt": "2022-03-29T05:26:07",
+    "slug": "media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2017/10/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
+    "title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
+    "excerpt": "<p>UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Alcohol",
+      "Cannabis",
+      "Drivers",
+      "Public awareness",
+      "Recreational"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2017/10/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
+      "page_title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
+      "page_description": "UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
+      "meta_description": "UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2017/10/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
+      "open_graph_title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
+      "open_graph_description": "UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.",
+      "twitter_title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
+      "twitter_description": "UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 121,
+        "name": "Alcohol",
+        "slug": "alcohol",
+        "term_group": 0,
+        "term_taxonomy_id": 121,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Drivers",
+        "slug": "drivers",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 123,
+        "name": "Public awareness",
+        "slug": "public-awareness",
+        "term_group": 0,
+        "term_taxonomy_id": 123,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 73,
+        "name": "Recreational",
+        "slug": "recreational",
+        "term_group": 0,
+        "term_taxonomy_id": 73,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2017/10/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "created_date": "2018-05-25T17:37:00",
+    "updated_date": "2022-03-29T05:24:58",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6035",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6035,
+    "date": "2018-05-25T17:37:00",
+    "date_gmt": "2018-05-25T17:37:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period/",
+    "modified": "2022-03-28T22:24:58",
+    "modified_gmt": "2022-03-29T05:24:58",
+    "slug": "bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2018/05/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period/",
+    "title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
+    "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Bureau of Cannabis Control",
+      "California",
+      "Cannabis",
+      "Comment period",
+      "Emergency cannabis regulations",
+      "Emergency regulations",
+      "OAL",
+      "Office of Administrative Law",
+      "Public comment",
+      "Public comment period",
+      "Readopt",
+      "Readopted",
+      "Readoption",
+      "Regulations"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/05/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period/",
+      "page_title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
+      "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
+      "meta_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/05/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period/",
+      "open_graph_title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
+      "open_graph_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL).",
+      "twitter_title": "Bureau of Cannabis Control Announces Submitting of Proposed Readoption of Emergency Regulations and Public Comment Period",
+      "twitter_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that it has submitted the proposed readoption of emergency regulations for commercial medicinal and adult-use cannabis to the Office of Administrative Law (OAL)."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 23,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 192,
+        "name": "Comment period",
+        "slug": "comment-period",
+        "term_group": 0,
+        "term_taxonomy_id": 192,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 193,
+        "name": "Emergency cannabis regulations",
+        "slug": "emergency-cannabis-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 193,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 27,
+        "name": "Emergency regulations",
+        "slug": "emergency-regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 27,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 194,
+        "name": "OAL",
+        "slug": "oal",
+        "term_group": 0,
+        "term_taxonomy_id": 194,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 195,
+        "name": "Office of Administrative Law",
+        "slug": "office-of-administrative-law",
+        "term_group": 0,
+        "term_taxonomy_id": 195,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 120,
+        "name": "Public comment",
+        "slug": "public-comment",
+        "term_group": 0,
+        "term_taxonomy_id": 120,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 196,
+        "name": "Public comment period",
+        "slug": "public-comment-period",
+        "term_group": 0,
+        "term_taxonomy_id": 196,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 197,
+        "name": "Readopt",
+        "slug": "readopt",
+        "term_group": 0,
+        "term_taxonomy_id": 197,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 198,
+        "name": "Readopted",
+        "slug": "readopted",
+        "term_group": 0,
+        "term_taxonomy_id": 198,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 199,
+        "name": "Readoption",
+        "slug": "readoption",
+        "term_group": 0,
+        "term_taxonomy_id": 199,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 6,
+        "name": "Regulations",
+        "slug": "regulations",
+        "term_group": 0,
+        "term_taxonomy_id": 6,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/05/bureau-of-cannabis-control-announces-submitting-of-proposed-readoption-of-emergency-regulations-and-public-comment-period/"
+  }
+}

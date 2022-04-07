@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "created_date": "2018-08-13T14:48:00",
+    "updated_date": "2022-03-29T05:25:38",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6237",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6237,
+    "date": "2018-08-13T14:48:00",
+    "date_gmt": "2018-08-13T14:48:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-cultivation-permitting-workshops/",
+    "modified": "2022-03-28T22:25:38",
+    "modified_gmt": "2022-03-29T05:25:38",
+    "slug": "cannabis-cultivation-permitting-workshops",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2018/08/cannabis-cultivation-permitting-workshops/",
+    "title": "Cannabis Cultivation Permitting Workshops",
+    "excerpt": "<p>The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "California department of fish and wildlife",
+      "Cannabis",
+      "Cannabis cultivation program",
+      "Cannabis cultivators",
+      "Cultivation",
+      "Permitting",
+      "State Water Resources Control Board",
+      "Workshop",
+      "Workshops"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2018/08/cannabis-cultivation-permitting-workshops/",
+      "page_title": "Cannabis Cultivation Permitting Workshops",
+      "page_description": "The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Cannabis Cultivation Permitting Workshops",
+      "meta_description": "The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2018/08/cannabis-cultivation-permitting-workshops/",
+      "open_graph_title": "Cannabis Cultivation Permitting Workshops",
+      "open_graph_description": "The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing.",
+      "twitter_title": "Cannabis Cultivation Permitting Workshops",
+      "twitter_description": "The State Water Resources Control Board (State Water Board) and the California Department of Fish and Wildlife (CDFW) will host four workshops throughout Northern California focusing on permit requirements and processing."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 295,
+        "name": "California department of fish and wildlife",
+        "slug": "california-department-of-fish-and-wildlife",
+        "term_group": 0,
+        "term_taxonomy_id": 295,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 296,
+        "name": "Cannabis cultivation program",
+        "slug": "cannabis-cultivation-program",
+        "term_group": 0,
+        "term_taxonomy_id": 296,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 297,
+        "name": "Cannabis cultivators",
+        "slug": "cannabis-cultivators",
+        "term_group": 0,
+        "term_taxonomy_id": 297,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 12,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 12,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 298,
+        "name": "Permitting",
+        "slug": "permitting",
+        "term_group": 0,
+        "term_taxonomy_id": 298,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 299,
+        "name": "State Water Resources Control Board",
+        "slug": "state-water-resources-control-board",
+        "term_group": 0,
+        "term_taxonomy_id": 299,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 35,
+        "name": "Workshop",
+        "slug": "workshop",
+        "term_group": 0,
+        "term_taxonomy_id": 35,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 114,
+        "name": "Workshops",
+        "slug": "workshops",
+        "term_group": 0,
+        "term_taxonomy_id": 114,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2018/08/cannabis-cultivation-permitting-workshops/"
+  }
+}

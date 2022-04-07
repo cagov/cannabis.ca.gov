@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "created_date": "2021-06-19T15:07:31",
+    "updated_date": "2022-03-29T05:27:38",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/757",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 757,
+    "date": "2021-06-19T15:07:31",
+    "date_gmt": "2021-06-19T15:07:31",
+    "guid": "http://wordpress.test:8888/index-3/",
+    "modified": "2022-03-28T22:27:38",
+    "modified_gmt": "2022-03-29T05:27:38",
+    "slug": "consumers",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/consumers/",
+    "title": "Consumers",
+    "excerpt": "",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 1,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/consumers/",
+      "page_title": "Consumers",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Consumers",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/consumers/",
+      "open_graph_title": "Consumers",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Consumers",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/consumers/"
+  }
+}

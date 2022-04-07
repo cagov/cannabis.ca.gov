@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "created_date": "2021-06-30T18:36:14",
+    "updated_date": "2022-03-29T05:29:15",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/8333",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 8333,
+    "date": "2021-06-30T11:36:14",
+    "date_gmt": "2021-06-30T18:36:14",
+    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8333",
+    "modified": "2022-03-28T22:29:15",
+    "modified_gmt": "2022-03-29T05:29:15",
+    "slug": "browser-chrome",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/browser-chrome/",
+    "title": "Keyboard Shortcuts for Chrome",
+    "excerpt": "<p>&nbsp;Keyboard Shortcuts for Chrome Windows and Linux Tab and window shortcuts To do this Press this Opens a new window. Ctrl+N Opens a new tab. Ctrl+T Opens a new window in incognito mode. Ctrl+Shift+N Opens a file from your computer in Google Chrome. Press Ctrl+O, then select file Opens the link in a new tab [&hellip;]</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "single-column",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "single-column"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/browser-chrome/",
+      "page_title": "Keyboard Shortcuts for Chrome",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Keyboard Shortcuts for Chrome",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/browser-chrome/",
+      "open_graph_title": "Keyboard Shortcuts for Chrome",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Keyboard Shortcuts for Chrome",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/browser-chrome/"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "created_date": "2019-09-17T23:08:00",
+    "updated_date": "2022-03-29T05:24:53",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5997",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5997,
+    "date": "2019-09-17T23:08:00",
+    "date_gmt": "2019-09-17T23:08:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/employment-training-panel-approves-cannabis-industry-application-procedures/",
+    "modified": "2022-03-28T22:24:53",
+    "modified_gmt": "2022-03-29T05:24:53",
+    "slug": "employment-training-panel-approves-cannabis-industry-application-procedures",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/09/employment-training-panel-approves-cannabis-industry-application-procedures/",
+    "title": "Employment Training Panel Approves Cannabis Industry Application Procedures",
+    "excerpt": "<p>SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "Cannabis",
+      "Cannabis business",
+      "Employees",
+      "Employment training panel",
+      "Funding",
+      "Funding training opportunities",
+      "Gavin Newsom",
+      "Licensed cannabis businesses",
+      "Licensees",
+      "Nicole Elliott"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/09/employment-training-panel-approves-cannabis-industry-application-procedures/",
+      "page_title": "Employment Training Panel Approves Cannabis Industry Application Procedures",
+      "page_description": "SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Employment Training Panel Approves Cannabis Industry Application Procedures",
+      "meta_description": "SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/09/employment-training-panel-approves-cannabis-industry-application-procedures/",
+      "open_graph_title": "Employment Training Panel Approves Cannabis Industry Application Procedures",
+      "open_graph_description": "SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses.",
+      "twitter_title": "Employment Training Panel Approves Cannabis Industry Application Procedures",
+      "twitter_description": "SACRAMENTO – The State of California’s Employment Training Panel announced that it will now accept and consider cannabis industry applications from licensed businesses."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 458,
+        "name": "Cannabis business",
+        "slug": "cannabis-business",
+        "term_group": 0,
+        "term_taxonomy_id": 458,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 589,
+        "name": "Employees",
+        "slug": "employees",
+        "term_group": 0,
+        "term_taxonomy_id": 589,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 590,
+        "name": "Employment training panel",
+        "slug": "employment-training-panel",
+        "term_group": 0,
+        "term_taxonomy_id": 590,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 394,
+        "name": "Funding",
+        "slug": "funding",
+        "term_group": 0,
+        "term_taxonomy_id": 394,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 591,
+        "name": "Funding training opportunities",
+        "slug": "funding-training-opportunities",
+        "term_group": 0,
+        "term_taxonomy_id": 591,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 592,
+        "name": "Gavin Newsom",
+        "slug": "gavin-newsom",
+        "term_group": 0,
+        "term_taxonomy_id": 592,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 593,
+        "name": "Licensed cannabis businesses",
+        "slug": "licensed-cannabis-businesses",
+        "term_group": 0,
+        "term_taxonomy_id": 593,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 246,
+        "name": "Licensees",
+        "slug": "licensees",
+        "term_group": 0,
+        "term_taxonomy_id": 246,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 594,
+        "name": "Nicole Elliott",
+        "slug": "nicole-elliott",
+        "term_group": 0,
+        "term_taxonomy_id": 594,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/09/employment-training-panel-approves-cannabis-industry-application-procedures/"
+  }
+}

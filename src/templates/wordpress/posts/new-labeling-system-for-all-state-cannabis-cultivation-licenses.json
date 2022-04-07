@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "created_date": "2019-11-05T20:38:00",
+    "updated_date": "2022-03-29T05:25:32",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/6190",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 6190,
+    "date": "2019-11-05T20:38:00",
+    "date_gmt": "2019-11-05T20:38:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
+    "modified": "2022-03-28T22:25:32",
+    "modified_gmt": "2022-03-29T05:25:32",
+    "slug": "new-labeling-system-for-all-state-cannabis-cultivation-licenses",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2019/11/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
+    "title": "New Labeling System for All State Cannabis Cultivation Licenses",
+    "excerpt": "<p>Hello CalCannabis Cultivation Licensing Stakeholders:<br />\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "CalCannabis",
+      "CalCannabis Cultivation Licensing",
+      "California Cannabis Track-and-Trace",
+      "Cannabis",
+      "CCTT",
+      "CDFA",
+      "Cultivation",
+      "Email",
+      "License",
+      "METRC"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2019/11/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
+      "page_title": "New Labeling System for All State Cannabis Cultivation Licenses",
+      "page_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "New Labeling System for All State Cannabis Cultivation Licenses",
+      "meta_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2019/11/new-labeling-system-for-all-state-cannabis-cultivation-licenses/",
+      "open_graph_title": "New Labeling System for All State Cannabis Cultivation Licenses",
+      "open_graph_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers.",
+      "twitter_title": "New Labeling System for All State Cannabis Cultivation Licenses",
+      "twitter_description": "Hello CalCannabis Cultivation Licensing Stakeholders:\nOn October 24, 2019, the California Department of Food and Agriculture (CDFA) installed an online cannabis cultivation licensing system enhancement that altered the labeling structure of all annual and provisional cultivation license numbers."
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 78,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 78,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 157,
+        "name": "CalCannabis Cultivation Licensing",
+        "slug": "calcannabis-cultivation-licensing",
+        "term_group": 0,
+        "term_taxonomy_id": 157,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 465,
+        "name": "California Cannabis Track-and-Trace",
+        "slug": "california-cannabis-track-and-trace",
+        "term_group": 0,
+        "term_taxonomy_id": 465,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 471,
+        "name": "CCTT",
+        "slug": "cctt",
+        "term_group": 0,
+        "term_taxonomy_id": 471,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 11,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 11,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 12,
+        "name": "Cultivation",
+        "slug": "cultivation",
+        "term_group": 0,
+        "term_taxonomy_id": 12,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 707,
+        "name": "Email",
+        "slug": "email",
+        "term_group": 0,
+        "term_taxonomy_id": 707,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 171,
+        "name": "License",
+        "slug": "license",
+        "term_group": 0,
+        "term_taxonomy_id": 171,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 625,
+        "name": "METRC",
+        "slug": "metrc",
+        "term_group": 0,
+        "term_taxonomy_id": 625,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2019/11/new-labeling-system-for-all-state-cannabis-cultivation-licenses/"
+  }
+}

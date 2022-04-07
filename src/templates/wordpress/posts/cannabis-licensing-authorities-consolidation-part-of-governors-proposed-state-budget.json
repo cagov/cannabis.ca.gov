@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "created_date": "2021-01-08T23:02:00",
+    "updated_date": "2022-03-29T05:24:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/5968",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 5968,
+    "date": "2021-01-08T23:02:00",
+    "date_gmt": "2021-01-08T23:02:00",
+    "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/",
+    "modified": "2022-03-28T22:24:50",
+    "modified_gmt": "2022-03-29T05:24:50",
+    "slug": "cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2021/01/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/",
+    "title": "Cannabis Licensing Authorities Consolidation Part Of Governor’s Proposed State Budget",
+    "excerpt": "<p>Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control.</p>\n",
+    "author": "Department of Cannabis Control",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "press-release",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Press Releases"
+    ],
+    "tags": [
+      "BCC",
+      "Bureau of Cannabis Control",
+      "California Department of Food and Agriculture",
+      "California Department of Public Health",
+      "Cannabis",
+      "CDFA",
+      "CDPH"
+    ],
+    "design_system_fields": {
+      "template": "press-release"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2021/01/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/",
+      "page_title": "Cannabis Licensing Authorities Consolidation Part Of Governor’s Proposed State Budget",
+      "page_description": "Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control.",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Cannabis Licensing Authorities Consolidation Part Of Governor’s Proposed State Budget",
+      "meta_description": "Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control.",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2021/01/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/",
+      "open_graph_title": "Cannabis Licensing Authorities Consolidation Part Of Governor’s Proposed State Budget",
+      "open_graph_description": "Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control.",
+      "twitter_title": "Cannabis Licensing Authorities Consolidation Part Of Governor’s Proposed State Budget",
+      "twitter_description": "Governor Newsom’s fiscal year 2021-2022 budget proposal released today includes a proposal to consolidate the three state licensing authorities into a single Department of Cannabis Control."
+    },
+    "headless_categories": [
+      {
+        "term_id": 46,
+        "name": "Press Releases",
+        "slug": "press-releases",
+        "term_group": 0,
+        "term_taxonomy_id": 46,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 46,
+        "category_description": "",
+        "cat_name": "Press Releases",
+        "category_nicename": "press-releases",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 208,
+        "name": "BCC",
+        "slug": "bcc",
+        "term_group": 0,
+        "term_taxonomy_id": 208,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 32,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 32,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 159,
+        "name": "California Department of Food and Agriculture",
+        "slug": "california-department-of-food-and-agriculture",
+        "term_group": 0,
+        "term_taxonomy_id": 159,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 79,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 79,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 11,
+        "name": "CDFA",
+        "slug": "cdfa",
+        "term_group": 0,
+        "term_taxonomy_id": 11,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 13,
+        "name": "CDPH",
+        "slug": "cdph",
+        "term_group": 0,
+        "term_taxonomy_id": 13,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/01/cannabis-licensing-authorities-consolidation-part-of-governors-proposed-state-budget/"
+  }
+}
