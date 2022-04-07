@@ -65,8 +65,6 @@
   }
 }
 
-
-
 .table-data th[d="1"],
 .table-data td[d="1"] {
   word-wrap: break-word;
@@ -124,10 +122,7 @@
   "Are all CCA activites prohibited?",
   "Is all retail prohibited?",
   "CCA Prohibited by County" */
-.table-data table tr[j="City"],
-.table-data table tr[j="City"] {
-  display: none;
-}
+
 .table-data table td[d="0"],
 .table-data table th[d="0"],
 .table-data table td[d="2"],
@@ -201,3 +196,13 @@
   }
 
 /* } */
+
+/* .table-data table tr[j="Place"],
+.table-data table tr[j="Place"] {
+  display: none;
+} */
+
+.table-data table tr.hidden {
+  display: none;
+}
+

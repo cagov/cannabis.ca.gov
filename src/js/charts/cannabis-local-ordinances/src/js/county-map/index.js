@@ -157,6 +157,33 @@ class CaGovCountyMap extends window.HTMLElement {
     return true;
   }
 
+
+  updateTable(data, level, county, geoid) {
+    let tableSelector = "cagov-table-data table";
+    let tableElements = document.querySelectorAll(`${tableSelector} tbody tr`);
+    Object.keys(tableElements).map((index) => tableElements[index].classList.add("hidden"));
+    if (level === "statewide") {
+      tableElements = document.querySelectorAll(`${tableSelector} tbody tr[j="County"]`);
+      Object.keys(tableElements).map((index) => tableElements[index].classList.remove("hidden"));
+    } else if (level === "county") {
+      let query = `${tableSelector} tr[c="${data.showPlace}"]`; // Everything in the county.
+      tableElements = document.querySelectorAll(query);
+      Object.keys(tableElements).map((index) => {
+        tableElements[index].classList.remove("hidden");
+      });
+    
+    } else if (level === "place") {
+      if (geoid !== null) {
+        let query = `${tableSelector} tr[data-geoid="${geoid}"]`; // Everything in the county.
+        tableElements = document.querySelectorAll(query);
+        Object.keys(tableElements).map((index) => {
+          tableElements[index].classList.remove("hidden");
+        });
+      }
+    }
+    return true;
+  }
+
   getCurrentPlaceByGeoid(data, geoid) {
     let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
       let item = data.dataPlaces[place];
@@ -185,6 +212,7 @@ class CaGovCountyMap extends window.HTMLElement {
         data.showPlace = e.target.value; // If checked
         this.mapLevel = "County";
         this.setBreadcrumb(data, "county", this.selectedCounty);
+        this.updateTable(data, "county", this.selectedCounty);
       } else if (jurisdiction === "Place") {
         /// use geoid = get Place
         let geoid = selectedEl.getAttribute("data-geoid");
@@ -197,6 +225,7 @@ class CaGovCountyMap extends window.HTMLElement {
         data.showPlace = e.target.value; // If checked
         this.mapLevel = "Place";
         this.setBreadcrumb(data, "place", currentPlace, geoid);
+        this.updateTable(data, "place", currentPlace, geoid);
       }
   
       this.redraw();

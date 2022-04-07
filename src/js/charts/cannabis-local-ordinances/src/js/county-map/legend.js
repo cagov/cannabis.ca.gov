@@ -186,6 +186,7 @@ function getActivityPercentagesCounty(data) {
   };
   let item = data.countyList[data.showPlace].activities;
   let mode = data.activities;
+  console.log("mode", mode, item);  
   try {
     if (mode === "Any activities") {
       countValues.prohibited =
@@ -197,9 +198,9 @@ function getActivityPercentagesCounty(data) {
       countValues.allowed = item["Retail"]["No"].length;
     } else {
       if (item[mode] === "Prohibited") {
-        countValues.prohibited = item[mode].length;
+        countValues.prohibited = item[mode]["Prohibited"].length;
       } else if (item[mode] !== "Prohibited") {
-        countValues.allowed = item[mode].length;
+        countValues.allowed = item[mode]["Allowed"].length + item[mode]["Limited"].length + item[mode]["Limited-Medical Only"].length;
       }
     }
 
