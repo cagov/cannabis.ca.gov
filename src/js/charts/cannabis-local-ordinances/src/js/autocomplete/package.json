@@ -1,0 +1,14 @@
+{
+  "name": "cagov-autocomplete",
+  "version": "0.0.1",
+  "description": "Autocomplete feature ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesomplete-es6": "^1.2.2"
+  }
+}

@@ -361,3 +361,10 @@ cagov-map-table .download .button svg {
     width: 240px
   }
 }
+
+label.hidden {
+  display: none;
+}
+
+
+@import './js/autocomplete/combo-box.css';
