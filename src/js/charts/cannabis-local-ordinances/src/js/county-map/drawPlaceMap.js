@@ -6,6 +6,7 @@ import {
 } from "./processData.js";
 import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
+import { chartLegendPlace  } from "./legend.js";
 
 /**
  * Render SVG based interactive places (city) map using d3
@@ -26,7 +27,7 @@ export default function drawPlaceMap({
     var { dataPlaces, messages, selectedPlace } = data;
     // console.log("Place map", jurisdiction, selectedPlace, mapLevel);
 
-    var rawWidth = 800;
+    var rawWidth = 800; // @TODO make a setting or pull from a base tile?
     var rawHeight = 923;
 
     // Clean up existing SVGs
@@ -202,6 +203,9 @@ export default function drawPlaceMap({
         }
       });
     });
+
+    // Update the legend
+    document.querySelector(legendElement).innerHTML = chartLegendPlace(data, {});
   } catch (error) {
     console.error("Error rendering cagov-place-map:", error);
   }

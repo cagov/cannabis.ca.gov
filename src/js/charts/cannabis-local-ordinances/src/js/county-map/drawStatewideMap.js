@@ -5,6 +5,7 @@ import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
 import { chartLegendStatewide } from "./legend.js";
 
+
 /**
  * Render SVG based interactive county map using d3
  */

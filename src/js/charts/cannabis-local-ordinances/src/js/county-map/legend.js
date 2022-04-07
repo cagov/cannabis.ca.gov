@@ -12,8 +12,16 @@ function chartLegendStatewide(data, props) {
 
   let percentages = getActivityPercentagesStatewide(data, props);
 
-  let allowedLabel = insertValueIntoSpanTag(allowed, percentages.allowedPercentage, "data-status");
-  let prohibitedLabel = insertValueIntoSpanTag(prohibited, percentages.prohibitedPercentage, "data-status");
+  let allowedLabel = insertValueIntoSpanTag(
+    allowed,
+    percentages.allowedPercentage,
+    "data-status"
+  );
+  let prohibitedLabel = insertValueIntoSpanTag(
+    prohibited,
+    percentages.prohibitedPercentage,
+    "data-status"
+  );
 
   // let message = countyStatusTooltipMessage(data, props);
   let message = "State";
@@ -34,6 +42,80 @@ function chartLegendStatewide(data, props) {
   return content;
 }
 
+function chartLegendCounty(data, props) {
+  console.log("setting legend county", data, props);
+  let allowed = data.messages.LegendCounty.allowed;
+  let prohibited = data.messages.LegendCounty.prohibited;
+
+  let percentages = getActivityPercentagesCounty(data, props);
+
+  let allowedLabel = insertValueIntoSpanTag(
+    allowed,
+    percentages.allowedPercentage,
+    "data-status"
+  );
+  let prohibitedLabel = insertValueIntoSpanTag(
+    prohibited,
+    percentages.prohibitedPercentage,
+    "data-status"
+  );
+
+  // let message = countyStatusTooltipMessage(data, props);
+  let message = "State";
+  let content = `<div class="cagov-map-legend legend-container">
+          <div class="status">
+            <div class="icon">${allowedIcon()}</div>
+            <div>
+              <div>${allowedLabel}</div>
+            </div> 
+          </div>
+          <div class="status">
+          <div class="icon">${prohibitedIcon()}</div>
+          <div>
+            <div>${prohibitedLabel}</div>
+          </div> 
+        </div>
+      </div>`;
+  return content;
+}
+
+function chartLegendPlace(data, props) {
+  let allowed = data.messages.LegendPlace.allowed;
+  let prohibited = data.messages.LegendPlace.prohibited;
+
+  let allowedLabel = allowed;
+  let prohibitedLabel = prohibited;
+
+  // let message = countyStatusTooltipMessage(data, props);
+  let message = "State";
+
+  let contentAllowed = `<div class="cagov-map-legend legend-container">
+          <div class="status">
+            <div class="icon">${allowedIcon()}</div>
+            <div>
+              <div>${allowedLabel}</div>
+            </div> 
+          </div>
+      </div>`;
+  let contentProhibited = `<div class="cagov-map-legend legend-container">
+      <div class="status">
+          <div class="icon">${prohibitedIcon()}</div>
+          <div>
+            <div>${prohibitedLabel}</div>
+          </div> 
+        </div>
+  </div>`;
+
+  let content = "";
+  let isAllowed = getActivityPercentagesPlace(data, props);
+  if (isAllowed === true) {
+    content = contentAllowed;
+  } else if (isAllowed === false) {
+    content = contentProhibited;
+  }
+  return content;
+}
+
 function insertValueIntoSpanTag(string, value, prop) {
   var parser = new DOMParser();
   var el = parser.parseFromString(string, "text/html");
@@ -51,7 +133,6 @@ function insertValueIntoSpanTag(string, value, prop) {
  * @returns {object} Percentage allowed 0 - 100
  */
 function getActivityPercentagesStatewide(data) {
-  console.log(data);
   let countValues = {
     allowed: 0,
     prohibited: 0,
@@ -62,37 +143,119 @@ function getActivityPercentagesStatewide(data) {
     if (mode === "Any activities") {
       if (item["Are all CCA activites prohibited?"] === "Yes") {
         countValues.prohibited = countValues.prohibited + 1;
-
       } else if (item["Are all CCA activites prohibited?"] === "No") {
         countValues.allowed = countValues.allowed + 1;
-      } 
+      }
     } else if (mode === "Retail") {
       if (item["Is all retail prohibited?"] === "Yes") {
         countValues.prohibited = countValues.prohibited + 1;
-
       } else if (item["Is all retail prohibited?"] === "No") {
         countValues.allowed = countValues.allowed + 1;
-      } 
+      }
     } else {
-
       if (item[mode] === "Prohibited") {
         countValues.prohibited = countValues.prohibited + 1;
-
       } else if (item[mode] !== "Prohibited") {
         countValues.allowed = countValues.allowed + 1;
-      } 
-    
+      }
     }
-  
   });
-
-  console.log(countValues);
   countValues.count = countValues.prohibited + countValues.allowed;
-  countValues.allowedPercentage = formatPercent(countValues.allowed / countValues.count);
-  countValues.prohibitedPercentage = formatPercent(countValues.prohibited / countValues.count);
-  
+  countValues.allowedPercentage = formatPercent(
+    countValues.allowed / countValues.count
+  );
+  countValues.prohibitedPercentage = formatPercent(
+    countValues.prohibited / countValues.count
+  );
+
   return countValues;
 }
+
+/**
+ *
+ * @param {*} data - data object
+ * @returns {object} Percentage allowed 0 - 100
+ */
+function getActivityPercentagesCounty(data) {
+  let countValues = {
+    allowed: 0,
+    prohibited: 0,
+    count: 0,
+    allowedPercentage: 0,
+    prohibitedPercentage: 0,
+  };
+  let item = data.countyList[data.showPlace].activities;
+  let mode = data.activities;
+  try {
+    if (mode === "Any activities") {
+      countValues.prohibited =
+        item["Are all CCA activites prohibited?"]["Yes"].length;
+      countValues.allowed =
+        item["Are all CCA activites prohibited?"]["No"].length;
+    } else if (mode === "Retail") {
+      countValues.prohibited = item["Retail"]["Yes"].length;
+      countValues.allowed = item["Retail"]["No"].length;
+    } else {
+      if (item[mode] === "Prohibited") {
+        countValues.prohibited = item[mode].length;
+      } else if (item[mode] !== "Prohibited") {
+        countValues.allowed = item[mode].length;
+      }
+    }
+
+    countValues.count = countValues.prohibited + countValues.allowed;
+    countValues.allowedPercentage = formatPercent(
+      countValues.allowed / countValues.count
+    );
+    countValues.prohibitedPercentage = formatPercent(
+      countValues.prohibited / countValues.count
+    );
+  } catch (error) {
+    console.error(error);
+  }
+
+  return countValues;
+}
+
+/**
+ *
+ * @param {*} data - data object
+ * @returns {object} Percentage allowed 0 - 100
+ */
+function getActivityPercentagesPlace(data) {
+  let countValues = {
+    allowed: 0,
+    prohibited: 0,
+  };
+  let item = data.dataPlaces[data.showPlace];
+  let mode = data.activities;
+  console.log(mode, item);
+  if (mode === "Any activities") {
+    if (item["Are all CCA activites prohibited?"] === "Yes") {
+      return false;
+    } else if (item["Are all CCA activites prohibited?"] === "No") {
+      return true;
+    }
+  } else if (mode === "Retail") {
+    if (item["Is all retail prohibited?"] === "Yes") {
+     
+      return false;
+    } else if (item["Is all retail prohibited?"] === "No") {
+     
+      return true;
+    }
+  } else {
+    if (item[mode] === "Prohibited") {
+      // console.log("f", mode);
+      return false;
+    } else if (item[mode] !== "Prohibited") {
+      //  console.log("t", mode);
+      return true;
+    }
+  }
+  return null;
+}
+
 /**
  * Convert float to percentage
  * @param {float} value
@@ -118,4 +281,4 @@ function prohibitedIcon() {
       `;
 }
 
-export { chartLegendStatewide };
+export { chartLegendStatewide, chartLegendCounty, chartLegendPlace };

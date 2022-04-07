@@ -33,7 +33,7 @@ cagov-map-table .interactive-map-container .map-wrapper {
 cagov-map-table .map-legend {
   width: 307px;
   /* height: 200px; */
-  position: absolute;
+  /* position: absolute; */
   margin-left: 400px;
   margin-top: 16px;
   margin-bottom: 16px;

@@ -6,7 +6,7 @@ import {
 } from "./processData.js";
 import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
-
+import { chartLegendCounty } from "./legend.js";
 /**
  * Render SVG based interactive county map using d3
  */
@@ -229,6 +229,9 @@ export default function drawCountyMap({
         }
       });
     });
+
+  // Update the legend
+  document.querySelector(legendElement).innerHTML = chartLegendCounty(data, {});
     // }
   } catch (error) {
     console.error("Error rendering cagov-county-map:", error);
