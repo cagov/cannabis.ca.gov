@@ -160,26 +160,39 @@ class CaGovCountyMap extends window.HTMLElement {
 
   updateTable(data, level, county, geoid) {
     let tableSelector = "cagov-table-data table";
+    let tableElement = document.querySelector(tableSelector);
     let tableElements = document.querySelectorAll(`${tableSelector} tbody tr`);
-    Object.keys(tableElements).map((index) => tableElements[index].classList.add("hidden"));
+    Object.keys(tableElements).map((index) => {
+      tableElements[index].classList.add("hidden");
+      tableElements[index].classList.remove("county-row");
+    });
     if (level === "statewide") {
       tableElements = document.querySelectorAll(`${tableSelector} tbody tr[j="County"]`);
       Object.keys(tableElements).map((index) => tableElements[index].classList.remove("hidden"));
+      tableElement.classList.add(level);
     } else if (level === "county") {
       let query = `${tableSelector} tr[c="${data.showPlace}"]`; // Everything in the county.
       tableElements = document.querySelectorAll(query);
       Object.keys(tableElements).map((index) => {
         tableElements[index].classList.remove("hidden");
+        if (index === "0") {
+          tableElements[index].classList.add("county-row");
+          tableElements[index].querySelector("td:first-child").innerHTML = data.messages.TableLabelCountyWide
+        }
       });
-    
+      tableElement.classList.add(level);
     } else if (level === "place") {
       if (geoid !== null) {
         let query = `${tableSelector} tr[data-geoid="${geoid}"]`; // Everything in the county.
         tableElements = document.querySelectorAll(query);
         Object.keys(tableElements).map((index) => {
           tableElements[index].classList.remove("hidden");
+          if (index === "0") {
+            tableElements[index].classList.add("county-row");
+          }
         });
       }
+      tableElement.classList.add(level);
     }
     return true;
   }
