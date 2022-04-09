@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-03-04T19:55:23",
-    "updated_date": "2022-03-04T19:55:23",
+    "created_date": "2022-03-03T09:07:45",
+    "updated_date": "2022-03-03T09:07:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9475",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9427",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,24 +14,24 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 9475,
-    "date": "2022-03-04T11:55:23",
-    "date_gmt": "2022-03-04T19:55:23",
-    "guid": "https://cannabis.ca.gov/?p=9475",
-    "modified": "2022-03-04T11:55:23",
-    "modified_gmt": "2022-03-04T19:55:23",
-    "slug": "californias-cannabis-department-proposes-comprehensive-regulatory-changes",
+    "id": 9427,
+    "date": "2022-03-03T01:07:45",
+    "date_gmt": "2022-03-03T09:07:45",
+    "guid": "https://cannabis.ca.gov/?p=9427",
+    "modified": "2022-03-03T01:07:45",
+    "modified_gmt": "2022-03-03T09:07:45",
+    "slug": "dcc-to-hold-briefing-about-upcoming-rulemaking",
     "status": "publish",
     "type": "post",
-    "link": "https://api.cannabis.ca.gov/2022/03/californias-cannabis-department-proposes-comprehensive-regulatory-changes/",
-    "title": "California’s cannabis department proposes comprehensive regulatory changes",
-    "excerpt": "<p>SACRAMENTO, CA – The Department of Cannabis Control (DCC) today released a comprehensive regulatory proposal to make changes to streamline and simplify the cannabis regulations, enhance consumer protections and make permanent changes that are currently in effect as emergency regulations. The proposal is a continuation of efforts by the Administration and DCC to refine and [&hellip;]</p>\n",
+    "link": "https://api.cannabis.ca.gov/2022/03/dcc-to-hold-briefing-about-upcoming-rulemaking/",
+    "title": "DCC to hold briefing about upcoming rulemaking",
+    "excerpt": "<p>This Friday, March 4, the Department of Cannabis Control (DCC) will release proposed regulation changes and begin a regular rulemaking process. The upcoming rulemaking process will include:&nbsp;&nbsp; Changes that are in effect as emergency regulations from the fall&nbsp;&nbsp; Additional changes to streamline and strengthen the regulatory framework&nbsp; Ahead of this release, we would like to [&hellip;]</p>\n",
     "author": "Christina Dempsey",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -39,13 +39,15 @@
     ],
     "tags": [
       "Cannabis regulations",
+      "certificate of compliance",
       "Proposed cannabis regulations",
-      "Public comment",
+      "Proposed regulations",
+      "Regulation",
       "Regulations",
-      "Rulemaking"
+      "Webinar"
     ],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "template-single"
     },
     "event": null,
     "custom_post_date": "",
@@ -66,19 +68,19 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/2022/03/californias-cannabis-department-proposes-comprehensive-regulatory-changes/",
-      "page_title": "California’s cannabis department proposes comprehensive regulatory changes",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/03/dcc-to-hold-briefing-about-upcoming-rulemaking/",
+      "page_title": "DCC to hold briefing about upcoming rulemaking",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "California’s cannabis department proposes comprehensive regulatory changes",
+      "meta_title": "DCC to hold briefing about upcoming rulemaking",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/03/californias-cannabis-department-proposes-comprehensive-regulatory-changes/",
-      "open_graph_title": "California’s cannabis department proposes comprehensive regulatory changes",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/03/dcc-to-hold-briefing-about-upcoming-rulemaking/",
+      "open_graph_title": "DCC to hold briefing about upcoming rulemaking",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "California’s cannabis department proposes comprehensive regulatory changes",
+      "twitter_title": "DCC to hold briefing about upcoming rulemaking",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [
@@ -112,6 +114,17 @@
         "filter": "raw"
       },
       {
+        "term_id": 785,
+        "name": "certificate of compliance",
+        "slug": "certificate-of-compliance",
+        "term_group": 0,
+        "term_taxonomy_id": 785,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
         "term_id": 268,
         "name": "Proposed cannabis regulations",
         "slug": "proposed-cannabis-regulations",
@@ -123,11 +136,22 @@
         "filter": "raw"
       },
       {
-        "term_id": 120,
-        "name": "Public comment",
-        "slug": "public-comment",
+        "term_id": 29,
+        "name": "Proposed regulations",
+        "slug": "proposed-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 120,
+        "term_taxonomy_id": 29,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 74,
+        "name": "Regulation",
+        "slug": "regulation",
+        "term_group": 0,
+        "term_taxonomy_id": 74,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -145,11 +169,11 @@
         "filter": "raw"
       },
       {
-        "term_id": 291,
-        "name": "Rulemaking",
-        "slug": "rulemaking",
+        "term_id": 367,
+        "name": "Webinar",
+        "slug": "webinar",
         "term_group": 0,
-        "term_taxonomy_id": 291,
+        "term_taxonomy_id": 367,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -158,6 +182,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/2022/03/californias-cannabis-department-proposes-comprehensive-regulatory-changes/"
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/03/dcc-to-hold-briefing-about-upcoming-rulemaking/"
   }
 }
