@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "created_date": "2022-04-01T17:46:04",
+    "updated_date": "2022-04-01T17:46:04",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9613",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9613,
+    "date": "2022-04-01T10:46:04",
+    "date_gmt": "2022-04-01T17:46:04",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+    "modified": "2022-04-01T10:46:04",
+    "modified_gmt": "2022-04-01T17:46:04",
+    "slug": "dcc-logo-rgb-horizontal-black",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc-logo-rgb-horizontal-black/",
+    "title": "DCC Logo RGB Horizontal (Black)",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg'><img width=\"576\" height=\"192\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1024x341.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-768x256.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1536x512.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg 1920w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1920,
+      "height": 640,
+      "file": "2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+      "sizes": {
+        "medium": {
+          "file": "DCC-Logo-RGB-Horizontal-Black-576x192.jpg",
+          "width": 576,
+          "height": 192,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg"
+        },
+        "large": {
+          "file": "DCC-Logo-RGB-Horizontal-Black-1024x341.jpg",
+          "width": 1024,
+          "height": 341,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1024x341.jpg"
+        },
+        "thumbnail": {
+          "file": "DCC-Logo-RGB-Horizontal-Black-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-376x376.jpg"
+        },
+        "medium_large": {
+          "file": "DCC-Logo-RGB-Horizontal-Black-768x256.jpg",
+          "width": 768,
+          "height": 256,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-768x256.jpg"
+        },
+        "1536x1536": {
+          "file": "DCC-Logo-RGB-Horizontal-Black-1536x512.jpg",
+          "width": 1536,
+          "height": 512,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1536x512.jpg"
+        },
+        "full": {
+          "file": "DCC-Logo-RGB-Horizontal-Black.jpg",
+          "width": 1920,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+        "file": "DCC-Logo-RGB-Horizontal-Black.jpg",
+        "width": 1920,
+        "height": 640,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2022/04/DCC-Logo-RGB-Horizontal-Black-1536x512.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1536x512.jpg",
+        "file": "DCC-Logo-RGB-Horizontal-Black-1536x512.jpg",
+        "width": 1536,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1536x512.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/04/DCC-Logo-RGB-Horizontal-Black-1024x341.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1024x341.jpg",
+        "file": "DCC-Logo-RGB-Horizontal-Black-1024x341.jpg",
+        "width": 1024,
+        "height": 341,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1024x341.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/04/DCC-Logo-RGB-Horizontal-Black-768x256.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-768x256.jpg",
+        "file": "DCC-Logo-RGB-Horizontal-Black-768x256.jpg",
+        "width": 768,
+        "height": 256,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-768x256.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg",
+        "file": "DCC-Logo-RGB-Horizontal-Black-576x192.jpg",
+        "width": 576,
+        "height": 192,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/04/DCC-Logo-RGB-Horizontal-Black-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-376x376.jpg",
+        "file": "DCC-Logo-RGB-Horizontal-Black-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-376x376.jpg"
+      }
+    ],
+    "path": "2022/04/DCC-Logo-RGB-Horizontal-Black.jpg"
+  }
+}
