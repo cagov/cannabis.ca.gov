@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-10T21:11:30",
-    "updated_date": "2022-03-29T05:25:28",
+    "updated_date": "2022-03-10T21:11:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,20 +18,20 @@
     "date": "2022-03-10T13:11:30",
     "date_gmt": "2022-03-10T21:11:30",
     "guid": "https://cannabis.ca.gov/?p=9517",
-    "modified": "2022-03-28T22:25:28",
-    "modified_gmt": "2022-03-29T05:25:28",
+    "modified": "2022-03-10T13:11:30",
+    "modified_gmt": "2022-03-10T21:11:30",
     "slug": "notice-of-proposed-readoption-of-emergency-regulations",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/03/notice-of-proposed-readoption-of-emergency-regulations/",
     "title": "Notice of proposed readoption of emergency regulations",
     "excerpt": "<p>The Department of Cannabis Control (DCC) is providing notice to the public of its intent to readopt its emergency regulations that consolidate the commercial cannabis regulations. This readoption would allow emergency regulations to remain in place while DCC completes the regular rulemaking process, which began on Friday, March 4. View the proposed finding of emergency and notice [&hellip;]</p>\n",
-    "author": "Chach",
+    "author": "Christina Dempsey",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -39,7 +39,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "event": null,
     "custom_post_date": "",

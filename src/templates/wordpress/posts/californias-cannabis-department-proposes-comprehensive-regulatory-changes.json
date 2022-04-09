@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-04T19:55:23",
-    "updated_date": "2022-03-29T05:25:29",
+    "updated_date": "2022-03-04T19:55:23",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,20 +18,20 @@
     "date": "2022-03-04T11:55:23",
     "date_gmt": "2022-03-04T19:55:23",
     "guid": "https://cannabis.ca.gov/?p=9475",
-    "modified": "2022-03-28T22:25:29",
-    "modified_gmt": "2022-03-29T05:25:29",
+    "modified": "2022-03-04T11:55:23",
+    "modified_gmt": "2022-03-04T19:55:23",
     "slug": "californias-cannabis-department-proposes-comprehensive-regulatory-changes",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/03/californias-cannabis-department-proposes-comprehensive-regulatory-changes/",
     "title": "California’s cannabis department proposes comprehensive regulatory changes",
     "excerpt": "<p>SACRAMENTO, CA – The Department of Cannabis Control (DCC) today released a comprehensive regulatory proposal to make changes to streamline and simplify the cannabis regulations, enhance consumer protections and make permanent changes that are currently in effect as emergency regulations. The proposal is a continuation of efforts by the Administration and DCC to refine and [&hellip;]</p>\n",
-    "author": "Chach",
+    "author": "Christina Dempsey",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
     "meta": [],
     "categories": [
@@ -45,7 +45,7 @@
       "Rulemaking"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single-press-release"
     },
     "event": null,
     "custom_post_date": "",
