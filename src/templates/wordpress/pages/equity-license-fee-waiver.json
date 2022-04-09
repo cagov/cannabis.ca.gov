@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2021-06-30T18:37:32",
-    "updated_date": "2022-04-09T18:45:58",
+    "created_date": "2022-04-09T18:47:17",
+    "updated_date": "2022-04-09T18:47:18",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/8338",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9215",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,30 +14,30 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 8338,
-    "date": "2021-06-30T11:37:32",
-    "date_gmt": "2021-06-30T18:37:32",
-    "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8338",
-    "modified": "2022-04-09T11:45:58",
-    "modified_gmt": "2022-04-09T18:45:58",
-    "slug": "browser-ie",
+    "id": 9215,
+    "date": "2022-04-09T11:47:17",
+    "date_gmt": "2022-04-09T18:47:17",
+    "guid": "https://cannabis.ca.gov/?page_id=9215",
+    "modified": "2022-04-09T11:47:18",
+    "modified_gmt": "2022-04-09T18:47:18",
+    "slug": "equity-license-fee-waiver",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/browser-ie/",
-    "title": "Keyboard Shortcuts for Internet Explorer",
-    "excerpt": "<p>Keyboard Shortcuts for Internet Explorer Viewing and exploring webpages The following table describes shortcuts used to view and explore webpages. To do this Press this Display Help F1 Toggle between full-screen and regular views of the browser window F11 Move forward through the items on a webpage, the Address bar, or the Favorites bar Tab [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "link": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/",
+    "title": "Equity license fee waiver",
+    "excerpt": "<p>If you were negatively affected by the criminalization of cannabis, you can apply to have your license fee waived. There are three basic requirements for getting your license fee waived. If you meet them all, you’re eligible for a waiver. 1. Expected revenue Your cannabis business must have gross revenue of no more than $1.5 [&hellip;]</p>\n",
+    "author": "Michael Sullivan",
     "featured_media": 0,
-    "parent": 0,
-    "menu_order": 0,
+    "parent": 756,
+    "menu_order": 1,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
+    "template": "single-column-wide",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "single-column-wide"
     },
     "og_meta": {
       "editor": {
@@ -50,25 +50,25 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/browser-ie/",
-      "page_title": "Keyboard Shortcuts for Internet Explorer",
+      "canonical_url": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/",
+      "page_title": "Equity license fee waiver",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Keyboard Shortcuts for Internet Explorer",
+      "meta_title": "Equity license fee waiver",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/browser-ie/",
-      "open_graph_title": "Keyboard Shortcuts for Internet Explorer",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/",
+      "open_graph_title": "Equity license fee waiver",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Keyboard Shortcuts for Internet Explorer",
+      "twitter_title": "Equity license fee waiver",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/browser-ie/"
+    "wordpress_url": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/"
   }
 }
