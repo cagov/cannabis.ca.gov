@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2022-03-29T05:27:54",
+    "updated_date": "2022-04-09T18:44:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
-    "modified": "2022-03-28T22:27:54",
-    "modified_gmt": "2022-03-29T05:27:54",
+    "modified": "2022-04-09T11:44:54",
+    "modified_gmt": "2022-04-09T18:44:54",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -69,21 +69,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/",
-    "media": [
-      {
-        "id": 8179,
-        "type": "large",
-        "path": "2021/06/cannabis-buds-hero-1-1024x683.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg",
-        "file": "cannabis-buds-hero-1-1024x683.jpg",
-        "width": 1024,
-        "height": 683,
-        "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/cannabis-buds-hero-1-1024x683.jpg",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://api.cannabis.ca.gov/"
   }
 }

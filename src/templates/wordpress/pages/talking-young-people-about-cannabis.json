@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2022-03-29T05:27:39",
+    "updated_date": "2021-06-19T15:07:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/talking-youth-about-cannabis/",
-    "modified": "2022-03-28T22:27:39",
-    "modified_gmt": "2022-03-29T05:27:39",
+    "modified": "2021-06-19T15:07:40",
+    "modified_gmt": "2021-06-19T15:07:40",
     "slug": "talking-young-people-about-cannabis",
     "status": "publish",
     "type": "page",
@@ -32,12 +32,12 @@
     "menu_order": 5,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {

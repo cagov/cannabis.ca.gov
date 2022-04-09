@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2022-03-29T05:27:38",
+    "updated_date": "2021-06-19T15:07:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "http://wordpress.test:8888/index-2/",
-    "modified": "2022-03-28T22:27:38",
-    "modified_gmt": "2022-03-29T05:27:38",
+    "modified": "2021-06-19T15:07:31",
+    "modified_gmt": "2021-06-19T15:07:31",
     "slug": "applicants",
     "status": "publish",
     "type": "page",
@@ -32,12 +32,12 @@
     "menu_order": 1,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.2/includes/templates/template-page.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {

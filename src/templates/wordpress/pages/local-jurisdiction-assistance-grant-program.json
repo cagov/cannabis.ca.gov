@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-01T05:36:57",
-    "updated_date": "2022-04-09T18:33:42",
+    "updated_date": "2021-10-01T05:36:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,26 @@
     "date": "2021-09-30T22:36:57",
     "date_gmt": "2021-10-01T05:36:57",
     "guid": "https://cannabis.ca.gov/?page_id=8843",
-    "modified": "2022-04-09T11:33:42",
-    "modified_gmt": "2022-04-09T18:33:42",
+    "modified": "2021-09-30T22:36:57",
+    "modified_gmt": "2021-10-01T05:36:57",
     "slug": "local-jurisdiction-assistance-grant-program",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/about-us/grant-funding/local-jurisdiction-assistance-grant-program/",
     "title": "Local Jurisdiction Assistance Grant Program",
     "excerpt": "<p>Information about the local jurisdiction assistance grant program, which helps transition provisional licensees into annual licensure</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Christina Dempsey",
     "featured_media": 0,
     "parent": 703,
     "menu_order": 1,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
