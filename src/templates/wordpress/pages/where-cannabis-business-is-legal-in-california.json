@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-29T05:37:52",
-    "updated_date": "2022-04-09T15:18:11",
+    "updated_date": "2022-04-09T18:33:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,17 +18,17 @@
     "date": "2022-03-28T22:37:52",
     "date_gmt": "2022-03-29T05:37:52",
     "guid": "https://api.cannabis.ca.gov/?page_id=10273",
-    "modified": "2022-04-09T08:18:11",
-    "modified_gmt": "2022-04-09T15:18:11",
+    "modified": "2022-04-09T11:33:41",
+    "modified_gmt": "2022-04-09T18:33:41",
     "slug": "where-cannabis-business-is-legal-in-california",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-business-is-legal-in-california/",
+    "link": "https://api.cannabis.ca.gov/where-cannabis-business-is-legal-in-california/",
     "title": "Where cannabis business is legal in California",
     "excerpt": "<p>Cannabis is legal in California. But local restrictions on cannabis business create a patchwork of areas where it is and is not legal. As a result, many people cannot get safe products where they live. And the illegal market continues to thrive. 44% Of cities and counties allow at least one type of cannabis business [&hellip;]</p>\n",
-    "author": "Chach",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
-    "parent": 9438,
+    "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -50,7 +50,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-business-is-legal-in-california/",
+      "canonical_url": "https://api.cannabis.ca.gov/where-cannabis-business-is-legal-in-california/",
       "page_title": "Where cannabis business is legal in California",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -59,7 +59,7 @@
       "page_social_image_alt": "",
       "meta_title": "Where cannabis business is legal in California",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-business-is-legal-in-california/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/where-cannabis-business-is-legal-in-california/",
       "open_graph_title": "Where cannabis business is legal in California",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "Where cannabis business is legal in California",
@@ -69,6 +69,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-business-is-legal-in-california/"
+    "wordpress_url": "https://api.cannabis.ca.gov/where-cannabis-business-is-legal-in-california/"
   }
 }
