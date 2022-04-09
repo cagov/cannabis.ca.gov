@@ -4,10 +4,11 @@ import drawCountyMap from "./drawCountyMap.js";
 import drawPlaceMap from "./drawPlaceMap.js";
 import getTranslations from "./get-translations-list.js";
 import getScreenResizeCharts from "./get-window-size.js";
-import { getActivities, getActivitiesDataSchema } from "./processData.js";
-import * as countyList from "../../../static/assets/data/countyList.json";
-import * as dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinances-interactive.2022-01-22.json";
-import * as mapMessages from "../../../static/assets/data/mapMessages.json";
+import { getActivities } from "./processData.js";
+import countyList from "../../../static/assets/data/countyList.json";
+import dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinances-interactive.2022-01-22.json";
+import mapMessages from "../../../static/assets/data/mapMessages.json";
+
 
 class CannabisLocalOrdinances extends window.HTMLElement {
   // Set up static variables that are specific to this component.
@@ -27,6 +28,12 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     this.togglePlacesEl = document.querySelector(
       '.toggle-button [data-target="toggle-cities"]'
     );
+    this.svgFiles = {
+      county: this.dataset.county || "https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg",
+      countyOutlines: this.dataset.countyOutlines || "https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg",
+      places: this.dataset.places || "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg",
+    };
+    console.log(this.svgFiles);
     // Establish chart variables and settings.
     this.chartOptions = {
       screens: {
@@ -63,11 +70,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
     // Get translations from web component markup.
     this.translationsStrings = getTranslations(this);
-    this.svgFiles = {
-      county: this.dataset.svgSourceCounty,
-      countyOutlines: this.dataset.svgSourceCountyOutlines,
-      places: this.dataset.svgSourcePlaces,
-    };
+
     // Render the chart for the first time.
     this.render();
   }
@@ -338,6 +341,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       document.querySelector(".map-container .map-detail").innerHTML = "";
     }
 
+
     // Generate the map.
     if (this.mapLevel === "Statewide") {
       this.svg = drawStatewideMap({
@@ -385,6 +389,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   render() {
+    console.log("svg", this.svgFiles);
     let data = {
       dataPlaces: Object.assign({}, dataPlaces),
       countyList: Object.assign({}, countyList),

@@ -15,9 +15,9 @@ class CAGovTableData extends window.HTMLElement {
   connectedCallback() {
     this.source = this.dataset.source;
     
-    xml(this.source).then((tableData) => {
-      console.log("td", tableData);
-    });
+    // xml(this.source, {'mode': 'no-cors'}).then((tableData) => {
+    //   console.log("td", tableData);
+    // });
   }
 
   /**

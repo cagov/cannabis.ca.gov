@@ -1,7 +1,3 @@
-main {
-  width: 785px;
-}
-
 [data-layer-name="interactive-map-container"] {
   /* width: 45%; */
   /* max-width: 60vm; */
@@ -398,4 +394,6 @@ svg :focus {
   text-decoration: underline;
 }
 
-@import './js/combo-box/combo-box.css';
+@import "./js/combo-box/combo-box.css";
+@import "./js/tracker-boxes/index.css";
+@import "./js/table-data/index.css";

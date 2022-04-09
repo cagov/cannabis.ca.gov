@@ -79,7 +79,8 @@ export default function drawStatewideMap({
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     if (data.showCounties === true) {
-      xml(svgFiles.county)
+      let fetchRequestCounty = new Request(svgFiles.county);
+        xml(svgFiles.county)
       .then((counties) => {
         const countiesGroup = d3.select(
           domElement + ' [data-name="county-boundaries"]'
@@ -106,6 +107,7 @@ export default function drawStatewideMap({
       // County stroke lines and tooltips (interactions, includes islands belonging to different counties.)
       xml(svgFiles.countyOutlines)
       .then((counties) => {
+       
         const countiesGroup = d3.select(
           domElement + ' [data-name="county-strokes"]'
         );
