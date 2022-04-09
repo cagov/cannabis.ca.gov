@@ -41,14 +41,6 @@ function countyStatusTooltipMessage(data, props) {
     label = county;
   }
 
-   // if (showPlaces && !showCounties) {
-  //   label = city;
-  // } else if (showCounties && !showPlaces) {
-  //   label = county;
-  // } else if (showCounties && showPlaces) {
-  //   label = all;
-  // }
-
   data.tooltipData = getCountyTooltipData(data, props);
 
   label = insertValueIntoSpanTag(label, mode, "data-status");
@@ -58,6 +50,7 @@ function countyStatusTooltipMessage(data, props) {
     data.tooltipData.activityPercentages.prohibited,
     "data-status"
   );
+  
   allowed = insertValueIntoSpanTag(
     allowed,
     data.tooltipData.activityPercentages.allowed,

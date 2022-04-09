@@ -7,6 +7,8 @@ import {
 import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
 import { chartLegendCounty } from "./legend.js";
+import tooltipPlacement from "./tooltipPlacement.js";
+
 /**
  * Render SVG based interactive county map using d3
  */
@@ -20,18 +22,16 @@ export default function drawCountyMap({
   chartOptions = null,
   chartBreakpointValues = null,
   screenDisplayType = null,
+  svgFiles = null,
 }) {
-
   try {
     /* Data processing */
     var { dataPlaces, messages, selectedCounty } = data;
-    // console.log("County map", jurisdiction, selectedCounty, mapLevel);
-
+    console.log("svg", svgFiles);
     var rawWidth = 800;
     var rawHeight = 923;
 
     // Clean up existing SVGs
-
     d3.select(domElement).select("svg").remove();
 
     if (
@@ -52,7 +52,6 @@ export default function drawCountyMap({
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
-
     } else {
       d3.select(domElement + " [data-name] g").remove();
     }
@@ -64,15 +63,12 @@ export default function drawCountyMap({
         .select(tooltipElement)
         .append("div")
         .attr("class", "tooltip")
-        .style("position", "absolute")
-        .style("z-index", "10")
         .style("visibility", "hidden")
         .text("");
     }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
-    // if (data.showCounties === true) {
-    xml("/assets/data/cnty19_1.svg").then((counties) => {
+    xml(svgFiles.county).then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-boundaries"]'
       );
@@ -100,12 +96,7 @@ export default function drawCountyMap({
             .attr("stroke-opacity", 1)
             .attr("stroke", "#FFFFFF");
 
-         
-
-              var bbox = el.node().getBBox();
-              
-           
-          
+          var bbox = el.node().getBBox();
 
           var dx = bbox.width - bbox.x,
             dy = bbox.height - bbox.y,
@@ -144,10 +135,9 @@ export default function drawCountyMap({
               data.selectedShapeData.scale +
               ")"
           );
-
         } else if (island !== null) {
           el.remove(); // Remove all the islands for now.
-   // Need to get the parent place for mainland
+          // Need to get the parent place for mainland
         } else {
           // Not the selected county
           el.remove();
@@ -156,30 +146,26 @@ export default function drawCountyMap({
     });
 
     /* PLACES */
-    // if (data.showPlaces === true) {
-    xml("/assets/data/tl_2016_06_place.svg").then((places) => {
+    xml(svgFiles.places).then((places) => {
       const group = d3.select(domElement + ' [data-name="places-boundaries"]');
       group.node().append(places.documentElement);
       let paths = group.selectAll("g path");
-
       paths.each(function (p, j) {
         let el = d3.select(this);
         let name = el.attr("data-name");
         let geoid = el.attr("data-geoid");
         let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
           let item = data.dataPlaces[place];
-          
+
           if (
             parseInt(geoid) === item["GEOID"] &&
-            item.County === data.selectedCounty && 
-            // item["Jurisdiction Type"] === "City" &&
+            item.County === data.selectedCounty &&
             place !== "default"
           ) {
             return place;
           }
         });
-      
-        
+
         if (currentPlace !== null && currentPlace.length > 0) {
           let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
           let props = getPlaceTooltipData(data, { name, geoid });
@@ -202,21 +188,33 @@ export default function drawCountyMap({
             .on("mouseover focus", function (event, d) {
               d3.select(this).attr("fill-opacity", "0.8");
               tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
-
               return tooltip
                 .transition()
                 .duration(0)
                 .style("visibility", "visible");
             })
-            .on("mousemove", function (event, d) {
-              let tooltipX = 100;
-              let tooltipY = 100;
-
-              return tooltip
-                .style("left", tooltipX + "px")
-                .style("top", tooltipY + "px");
+            .on("click", function(event, d){
+              const urlParams = new URLSearchParams(window.location.search);
+              urlParams.set("data-map-level", "county");
+              urlParams.set("data-geoid",geoid);
+              urlParams.set("data-county",currentPlace);
+              urlParams.set("data-place",name);
+              window.location.search = urlParams;
             })
-            .on("mouseout focusout", function (d) {
+            .on("mousemove", function (event, d) {
+              let shapes = [el];
+              let tooltipPosition = tooltipPlacement(
+                {
+                  rawWidth,
+                  rawHeight,
+                },
+                el
+              );
+              return tooltip
+                .style("left", tooltipPosition.x + "px")
+                .style("top", tooltipPosition.y + "px");
+            })
+            .on("focusout", function (d) {
               d3.select(this).attr("fill-opacity", "1");
 
               return tooltip
@@ -230,10 +228,12 @@ export default function drawCountyMap({
       });
     });
 
-  // Update the legend
-  document.querySelector(legendElement).innerHTML = chartLegendCounty(data, {});
-    // }
+    // Update the legend
+    document.querySelector(legendElement).innerHTML = chartLegendCounty(
+      data,
+      {}
+    );
   } catch (error) {
-    console.error("Error rendering cagov-county-map:", error);
+    console.error("Error rendering cannabis-local-ordinances:", error);
   }
 }

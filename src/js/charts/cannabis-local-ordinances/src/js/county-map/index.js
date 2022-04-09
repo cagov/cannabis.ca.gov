@@ -9,13 +9,13 @@ import * as countyList from "../../../static/assets/data/countyList.json";
 import * as dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinances-interactive.2022-01-22.json";
 import * as mapMessages from "../../../static/assets/data/mapMessages.json";
 
-class CaGovCountyMap extends window.HTMLElement {
+class CannabisLocalOrdinances extends window.HTMLElement {
   // Set up static variables that are specific to this component.
   // https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#using_the_lifecycle_callbacks
   constructor() {
     super();
     // Optional state object to use for persisting data across interactions.
-    this.state = {};
+    this.state = {}; 
     this.mapLevel = "Statewide";
     this.jurisdiction = null;
     this.domElement = ".map-container .map-detail";
@@ -63,7 +63,11 @@ class CaGovCountyMap extends window.HTMLElement {
 
     // Get translations from web component markup.
     this.translationsStrings = getTranslations(this);
-
+    this.svgFiles = {
+      county: this.dataset.svgSourceCounty,
+      countyOutlines: this.dataset.svgSourceCountyOutlines,
+      places: this.dataset.svgSourcePlaces,
+    };
     // Render the chart for the first time.
     this.render();
   }
@@ -80,7 +84,7 @@ class CaGovCountyMap extends window.HTMLElement {
     getScreenResizeCharts(this);
     this.updateScreenOptions(e);
     // Trigger component redraw (any component on this page with this name) this makes sense for window resize events, but if you want more individualized redraws will need to
-    document.querySelector("cagov-county-map").redraw();
+    document.querySelector("cannabis-local-ordinances").redraw();
   }
 
   updateScreenOptions(e) {
@@ -100,7 +104,7 @@ class CaGovCountyMap extends window.HTMLElement {
 
   setCountyToggle(e, data) {
     data.showCounties = e.currentTarget.checked; // If checked
-    if (data.showPlaces === false && data.showCounties === false){
+    if (data.showPlaces === false && data.showCounties === false) {
       data.showPlaces = true;
       this.togglePlacesEl.checked = true;
     }
@@ -109,7 +113,7 @@ class CaGovCountyMap extends window.HTMLElement {
 
   setPlaceToggle(e, data) {
     data.showPlaces = e.currentTarget.checked; // If checked
-    if (data.showCounties === false && data.showPlaces === false){
+    if (data.showCounties === false && data.showPlaces === false) {
       data.showCounties = true;
       this.toggleCountiesEl.checked = true;
     }
@@ -117,82 +121,117 @@ class CaGovCountyMap extends window.HTMLElement {
   }
 
   setBreadcrumb(data, level, county, geoid) {
-    let stateEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="state"]`);
-    let countyEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="county"]`);
-    let countyLink = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="county"] a`);
-    let placeEl = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="place"]`);
-    let placeLink = document.querySelector(`cagov-map-table .map-header .breadcrumb-item[data-level="place"] span.place-label`);
+    let stateEl = document.querySelector(
+      `cagov-map-table .map-header .breadcrumb-item[data-level="state"]`
+    );
+    let countyEl = document.querySelector(
+      `cagov-map-table .map-header .breadcrumb-item[data-level="county"]`
+    );
+    let countyLink = document.querySelector(
+      `cagov-map-table .map-header .breadcrumb-item[data-level="county"] a`
+    );
+    let placeEl = document.querySelector(
+      `cagov-map-table .map-header .breadcrumb-item[data-level="place"]`
+    );
+    let placeLink = document.querySelector(
+      `cagov-map-table .map-header .breadcrumb-item[data-level="place"] span.place-label`
+    );
 
-    // @TODO convert to utility
-    let countyData = Object.keys(data.dataPlaces).filter((p) => {
-      let item = dataPlaces[p];
-      if (
-        county === item["County"] &&
-        item["Jurisdiction Type"] === "County" &&
-        p !== "default"
-      ) {
-        return p;
-      }
-    });
+    if (
+      countyEl !== null &&
+      placeEl !== null &&
+      stateEl !== null &&
+      countyLink !== null &&
+      placeLink !== null
+    ) {
+      // @TODO convert to utility
+      let countyData = Object.keys(data.dataPlaces).filter((p) => {
+        let item = dataPlaces[p];
+        if (
+          county === item["County"] &&
+          item["Jurisdiction Type"] === "County" &&
+          p !== "default"
+        ) {
+          return p;
+        }
+      });
 
-    if (level === "statewide") {
-      stateEl = 
-      countyEl.classList.add('hidden');
-      placeEl.classList.add('hidden');
-    } else if (level === "county") {
-      countyLink.innerHTML = countyData;
-      countyLink.setAttribute("href", "#" + county);
-      countyEl.classList.remove('hidden');
-    } else if (level === "place") {
-      if (geoid !== null) {
-        let placeData = this.getCurrentPlaceByGeoid(data, geoid);
-        placeLink.setAttribute("href", "#" + placeData["CA Places Key"].toLowerCase().replace(" ", "-"));
-        placeLink.innerHTML = placeData["CA Places Key"];
-        countyLink.innerHTML = placeData["County label"];
-        countyLink.setAttribute("href", "#" + placeData["County"].toLowerCase().replace(" ", "-"));
+      if (level === "statewide") {
+        stateEl = countyEl.classList.add("hidden");
+        placeEl.classList.add("hidden");
+      } else if (level === "county") {
+        countyLink.innerHTML = countyData;
+        countyLink.setAttribute("href", "#" + county);
+        countyEl.classList.remove("hidden");
+      } else if (level === "place") {
+        if (geoid !== null) {
+          let placeData = this.getCurrentPlaceByGeoid(data, geoid);
+          placeLink.setAttribute(
+            "href",
+            "#" + placeData["CA Places Key"].toLowerCase().replace(/ /g, "-")
+          );
+          placeLink.innerHTML = placeData["CA Places Key"];
+          countyLink.innerHTML = placeData["County label"];
+          countyLink.setAttribute(
+            "href",
+            "#" + placeData["County"].toLowerCase().replace(/ /g, "-")
+          );
+        }
+        countyEl.classList.remove("hidden");
+        placeEl.classList.remove("hidden");
       }
-      countyEl.classList.remove('hidden');
-      placeEl.classList.remove('hidden');
     }
     return true;
   }
-
 
   updateTable(data, level, county, geoid) {
     let tableSelector = "cagov-table-data table";
     let tableElement = document.querySelector(tableSelector);
     let tableElements = document.querySelectorAll(`${tableSelector} tbody tr`);
     Object.keys(tableElements).map((index) => {
-      tableElements[index].classList.add("hidden");
-      tableElements[index].classList.remove("county-row");
+      if (tableElements[index] !== null) {
+        tableElements[index].classList.add("hidden");
+        tableElements[index].classList.remove("county-row");
+      }
     });
     if (level === "statewide") {
-      tableElements = document.querySelectorAll(`${tableSelector} tbody tr[j="County"]`);
-      Object.keys(tableElements).map((index) => tableElements[index].classList.remove("hidden"));
-      tableElement.classList.add(level);
+      tableElements = document.querySelectorAll(
+        `${tableSelector} tbody tr[j="County"]`
+      );
+      Object.keys(tableElements).map((index) =>
+        tableElements[index].classList.remove("hidden")
+      );
+      if (tableElement !== null) {
+        tableElement.classList.add(level);
+      }
     } else if (level === "county") {
       let query = `${tableSelector} tr[c="${data.showPlace}"]`; // Everything in the county.
       tableElements = document.querySelectorAll(query);
       Object.keys(tableElements).map((index) => {
         tableElements[index].classList.remove("hidden");
-        if (index === "0") {
+        if (index === "0" && tableElements[index] !== null) {
           tableElements[index].classList.add("county-row");
-          tableElements[index].querySelector("td:first-child").innerHTML = data.messages.TableLabelCountyWide
+          tableElements[index].querySelector("td:first-child").innerHTML =
+            data.messages.TableLabelCountyWide;
         }
       });
-      tableElement.classList.add(level);
+      if (tableElement !== null) {
+        tableElement.classList.add(level);
+      }
     } else if (level === "place") {
       if (geoid !== null) {
         let query = `${tableSelector} tr[data-geoid="${geoid}"]`; // Everything in the county.
         tableElements = document.querySelectorAll(query);
         Object.keys(tableElements).map((index) => {
           tableElements[index].classList.remove("hidden");
-          if (index === "0") {
+          if (index === "0" && tableElements[index] !== null) {
             tableElements[index].classList.add("county-row");
           }
         });
       }
-      tableElement.classList.add(level);
+      if (tableElement !== null) {
+        tableElement.classList.add(level);
+      }
     }
     return true;
   }
@@ -200,17 +239,53 @@ class CaGovCountyMap extends window.HTMLElement {
   getCurrentPlaceByGeoid(data, geoid) {
     let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
       let item = data.dataPlaces[place];
-      if (
-        parseInt(geoid) === item["GEOID"] && 
-        place !== "default"
-      ) {
+      if (parseInt(geoid) === item["GEOID"] && place !== "default") {
         return place;
       }
     });
     return data.dataPlaces[currentPlace];
   }
 
+  getHistory() {
+    // onload
+  }
+
+  setHistory(e, data) {
+    //     window.onpopstate = function(event) {
+    //   alert(`location: ${document.location}, state: ${JSON.stringify(event.state)}`)
+    // }
+
+    // history.pushState({page: 1}, "title 1", "?page=1")
+    // history.pushState({page: 2}, "title 2", "?page=2")
+    // history.replaceState({page: 3}, "title 3", "?page=3")
+    // history.back() // alerts "location: http://example.com/example.html?page=1, state: {"page":1}"
+    // history.back() // alerts "location: http://example.com/example.html, state: null"
+    // history.go(2)  // alerts "location: http://example.com/example.html?page=3, state: {"page":3}"
+    const state = {
+      selectedCounty: this.selectedCounty,
+      selectedPlace: this.selectedPlace,
+      showPlace: this.showPlace,
+      mapLevel: this.mapLevel,
+    };
+
+    var mapLevel = e.target.getAttribute("map-level");
+    var selectedPlace = e.target.getAttribute("selected-place");
+    var selectedCounty = e.target.getAttribute("selected-county");
+    // url = data + ".html";
+    // history.pushState(null, null, url);
+    // const url = new URL(window.location);
+    // url.searchParams.set('foo', 'bar');
+
+    // window.history.pushState(state, '', url);
+  }
+
+  historyChange() {
+    // When history changes, rebuild map & read params
+  }
+
   setPlace(e, data) {
+    let containerElement = document.querySelector("cagov-map-table");
+
     if (e.target.value !== null && e.target.value !== "") {
       this.selectedPlaceValue = e.target.value;
       let selectedIndex = e.target.selectedIndex;
@@ -226,11 +301,10 @@ class CaGovCountyMap extends window.HTMLElement {
         this.mapLevel = "County";
         this.setBreadcrumb(data, "county", this.selectedCounty);
         this.updateTable(data, "county", this.selectedCounty);
+        containerElement.setAttribute("data-map-level", "county");
       } else if (jurisdiction === "Place") {
-        /// use geoid = get Place
         let geoid = selectedEl.getAttribute("data-geoid");
         let currentPlace = this.getCurrentPlaceByGeoid(data, geoid);
-        // console.log("currentPlace", currentPlace, currentPlace.County);
         this.selectedCounty = currentPlace.County;
         data.selectedCounty = currentPlace.County;
         this.selectedPlace = currentPlace;
@@ -239,8 +313,8 @@ class CaGovCountyMap extends window.HTMLElement {
         this.mapLevel = "Place";
         this.setBreadcrumb(data, "place", currentPlace, geoid);
         this.updateTable(data, "place", currentPlace, geoid);
+        containerElement.setAttribute("data-map-level", "place");
       }
-  
       this.redraw();
     } else {
       this.selectedCounty = null;
@@ -249,6 +323,7 @@ class CaGovCountyMap extends window.HTMLElement {
       data.showPlace = false;
       this.mapLevel = "Statewide";
       this.setBreadcrumb(data, "state");
+      containerElement.setAttribute("data-map-level", "statewide");
       this.redraw();
     }
   }
@@ -276,6 +351,7 @@ class CaGovCountyMap extends window.HTMLElement {
         chartOptions: this.chartOptions,
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
+        svgFiles: this.svgFiles,
       });
     } else if (this.mapLevel === "County") {
       this.svg = drawCountyMap({
@@ -289,6 +365,7 @@ class CaGovCountyMap extends window.HTMLElement {
         chartOptions: this.chartOptions,
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
+        svgFiles: this.svgFiles,
       });
     } else if (this.mapLevel === "Place") {
       this.svg = drawPlaceMap({
@@ -302,6 +379,7 @@ class CaGovCountyMap extends window.HTMLElement {
         chartOptions: this.chartOptions,
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
+        svgFiles: this.svgFiles,
       });
     }
   }
@@ -315,7 +393,7 @@ class CaGovCountyMap extends window.HTMLElement {
       mapLevel: "Statewide", // For map zoom level
       showCounties: true,
       showPlaces: true,
-      messages: mapMessages
+      messages: mapMessages,
     };
 
     var selectActivities = document.querySelector(".filter-activity select");
@@ -323,8 +401,12 @@ class CaGovCountyMap extends window.HTMLElement {
       this.setActivity(e, data)
     );
 
-    this.toggleCountiesEl.addEventListener("change", (e) => this.setCountyToggle(e, data));
-    this.togglePlacesEl.addEventListener("change", (e) => this.setPlaceToggle(e, data));
+    this.toggleCountiesEl.addEventListener("change", (e) =>
+      this.setCountyToggle(e, data)
+    );
+    this.togglePlacesEl.addEventListener("change", (e) =>
+      this.setPlaceToggle(e, data)
+    );
 
     var setPlace = document.querySelector('.filter[data-filter-type="places"]');
     setPlace.addEventListener("change", (e) => this.setPlace(e, data));
@@ -343,6 +425,9 @@ class CaGovCountyMap extends window.HTMLElement {
   }
 }
 
-if (!customElements.get("cagov-county-map")) {
-  window.customElements.define("cagov-county-map", CaGovCountyMap);
+if (!customElements.get("cannabis-local-ordinances")) {
+  window.customElements.define(
+    "cannabis-local-ordinances",
+    CannabisLocalOrdinances
+  );
 }

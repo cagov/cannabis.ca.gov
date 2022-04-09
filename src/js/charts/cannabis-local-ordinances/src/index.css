@@ -5,7 +5,7 @@ main {
 [data-layer-name="interactive-map-container"] {
   /* width: 45%; */
   /* max-width: 60vm; */
-  height: 60vm;
+  /* height: 60vm; */
   /* max-height: 650px; */
   max-height: 923px;
 }
@@ -31,12 +31,33 @@ cagov-map-table .interactive-map-container .map-wrapper {
 
 /* LEGEND */
 cagov-map-table .map-legend {
-  width: 307px;
-  /* height: 200px; */
-  /* position: absolute; */
+  width: 323px;
+  height: 200px;
+  position: absolute;
   margin-left: 400px;
   margin-top: 16px;
   margin-bottom: 16px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+cagov-map-table[data-map-level="county"] .map-legend {
+  width: 323px;
+  height: auto;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+cagov-map-table[data-map-level="place"] .map-legend {
+  width: 323px;
+  height: auto;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
 }
 
 cagov-map-table .map-legend .status .icon {
@@ -140,7 +161,7 @@ cagov-map-table .interactive-map .map {
   }
 }
 
-cagov-county-map .map .map-container svg {
+cannabis-local-ordinances .map .map-container svg {
   width: 520px;
   height: 604px;
 }
@@ -289,7 +310,8 @@ cagov-map-table .download .button svg {
 
 /* TOOLTIPS */
 .tooltips {
-  /* position: absolute; */
+  position: absolute;
+  z-index: 2000;
 }
 
 .tooltip-container {
@@ -366,5 +388,14 @@ label.hidden {
   display: none;
 }
 
+svg :focus {
+  outline: 1px dashed black;
+}
+
+.loadPlace,
+.loadCounty {
+  color: #000;
+  text-decoration: underline;
+}
 
 @import './js/combo-box/combo-box.css';

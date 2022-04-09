@@ -21,7 +21,7 @@ class CaGovAutocomplete extends window.HTMLElement {
    * Run when component is first loaded. Pull any data from the environment.
    */
   connectedCallback() {
-    console.log("connected", ComboBox);
+    // console.log("connected", ComboBox);
     // ComboBox.init();
   }
 
@@ -35,7 +35,7 @@ class CaGovAutocomplete extends window.HTMLElement {
 
   render() {
     // ?
-    console.log("render");
+    // console.log("render");
   }
 }
 

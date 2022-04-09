@@ -6,7 +6,7 @@
  * @returns {string} - HTML markup
  */
 function chartLegendStatewide(data, props) {
-  console.log("setting legend", data, props);
+  // console.log("setting legend", data, props);
   let allowed = data.messages.LegendStatewide.allowed;
   let prohibited = data.messages.LegendStatewide.prohibited;
 
@@ -43,7 +43,7 @@ function chartLegendStatewide(data, props) {
 }
 
 function chartLegendCounty(data, props) {
-  console.log("setting legend county", data, props);
+  // console.log("setting legend county", data, props);
   let allowed = data.messages.LegendCounty.allowed;
   let prohibited = data.messages.LegendCounty.prohibited;
 
@@ -186,7 +186,7 @@ function getActivityPercentagesCounty(data) {
   };
   let item = data.countyList[data.showPlace].activities;
   let mode = data.activities;
-  console.log("mode", mode, item);  
+  // console.log("mode", mode, item);  
   try {
     if (mode === "Any activities") {
       countValues.prohibited =
@@ -230,7 +230,7 @@ function getActivityPercentagesPlace(data) {
   };
   let item = data.dataPlaces[data.showPlace];
   let mode = data.activities;
-  console.log(mode, item);
+  // console.log(mode, item);
   if (mode === "Any activities") {
     if (item["Are all CCA activites prohibited?"] === "Yes") {
       return false;

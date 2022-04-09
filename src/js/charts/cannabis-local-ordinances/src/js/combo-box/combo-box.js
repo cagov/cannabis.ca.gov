@@ -826,7 +826,7 @@ const { CLICK } = require("./uswds/events");
 // );
 
 const comboBox = () => {
-  console.log("combobox");
+  // console.log("combobox");
 }
 
 export default comboBox;

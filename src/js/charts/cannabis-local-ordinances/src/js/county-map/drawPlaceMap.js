@@ -21,6 +21,7 @@ export default function drawPlaceMap({
   chartOptions = null,
   chartBreakpointValues = null,
   screenDisplayType = null,
+  svgFiles = null,
 }) {
   try {
     //   /* Data processing */
@@ -71,7 +72,7 @@ export default function drawPlaceMap({
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     // if (data.showCounties === true) {
-    xml("/assets/data/cnty19_1.svg").then((counties) => {
+    xml(svgFiles.county).then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-boundaries"]'
       );
@@ -149,7 +150,7 @@ export default function drawPlaceMap({
 
     /* PLACES */
     // if (data.showPlaces === true) {
-    xml("/assets/data/tl_2016_06_place.svg").then((places) => {
+    xml(svgFiles.places).then((places) => {
       const group = d3.select(domElement + ' [data-name="places-boundaries"]');
 
       group.node().append(places.documentElement);
