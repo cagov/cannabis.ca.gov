@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2022-03-29T05:27:40",
+    "updated_date": "2021-06-19T15:07:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,26 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/resources/laws-and-regulations/",
-    "modified": "2022-03-28T22:27:40",
-    "modified_gmt": "2022-03-29T05:27:40",
+    "modified": "2021-06-19T15:07:40",
+    "modified_gmt": "2021-06-19T15:07:40",
     "slug": "laws-and-regulations",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/resources/laws-and-regulations/",
+    "link": "https://api.cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
     "title": "California&#8217;s cannabis laws",
     "excerpt": "<p>Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.</p>\n",
     "author": "Department of Cannabis Control",
     "featured_media": 0,
-    "parent": 759,
+    "parent": 9438,
     "menu_order": 3,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "",
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
@@ -50,7 +50,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/resources/laws-and-regulations/",
+      "canonical_url": "https://api.cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
       "page_title": "California's cannabis laws",
       "page_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -59,7 +59,7 @@
       "page_social_image_alt": "",
       "meta_title": "California's cannabis laws",
       "meta_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/resources/laws-and-regulations/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
       "open_graph_title": "California's cannabis laws",
       "open_graph_description": "Learn about how laws, regulations and ordinances work together to set rules for businesses and consumers.",
       "twitter_title": "California's cannabis laws",
@@ -69,6 +69,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/resources/laws-and-regulations/"
+    "wordpress_url": "https://api.cannabis.ca.gov/cannabis-laws/laws-and-regulations/"
   }
 }

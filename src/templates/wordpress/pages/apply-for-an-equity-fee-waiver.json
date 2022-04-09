@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-31T00:29:35",
-    "updated_date": "2022-04-09T18:33:42",
+    "updated_date": "2022-04-09T18:44:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-12-30T16:29:35",
     "date_gmt": "2021-12-31T00:29:35",
     "guid": "https://cannabis.ca.gov/?page_id=9225",
-    "modified": "2022-04-09T11:33:42",
-    "modified_gmt": "2022-04-09T18:33:42",
+    "modified": "2022-04-09T11:44:01",
+    "modified_gmt": "2022-04-09T18:44:01",
     "slug": "apply-for-an-equity-fee-waiver",
     "status": "publish",
     "type": "page",
@@ -32,12 +32,12 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
+    "template": "",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "page"
     },
     "og_meta": {
       "editor": {
