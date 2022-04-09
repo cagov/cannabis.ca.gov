@@ -23,7 +23,7 @@
     "slug": "dccfirst100days_instagram",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/homepage/dccfirst100days_instagram/",
+    "link": "https://api.cannabis.ca.gov/dccfirst100days_instagram/",
     "title": "DCCFirst100Days_Instagram",
     "author": "Chach",
     "comment_status": "closed",
@@ -109,7 +109,7 @@
         "keywords": []
       }
     },
-    "post": 7424,
+    "post": null,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/DCCFirst100Days_Instagram-1.jpg",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/10/DCCFirst100Days_Instagram-1.jpg",
     "sizes": [
