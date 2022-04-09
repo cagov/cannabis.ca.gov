@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-29T05:37:52",
-    "updated_date": "2022-04-08T17:22:10",
+    "updated_date": "2022-04-09T15:18:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-03-28T22:37:52",
     "date_gmt": "2022-03-29T05:37:52",
     "guid": "https://api.cannabis.ca.gov/?page_id=10273",
-    "modified": "2022-04-08T10:22:10",
-    "modified_gmt": "2022-04-08T17:22:10",
+    "modified": "2022-04-09T08:18:11",
+    "modified_gmt": "2022-04-09T15:18:11",
     "slug": "where-cannabis-business-is-legal-in-california",
     "status": "publish",
     "type": "page",
