@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2021-06-15T21:40:52",
-    "updated_date": "2022-04-09T18:48:51",
+    "created_date": "2022-04-09T18:47:17",
+    "updated_date": "2022-04-09T18:47:18",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/7429",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9215",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,30 +14,30 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 7429,
-    "date": "2021-06-15T21:40:52",
-    "date_gmt": "2021-06-15T21:40:52",
-    "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=7429",
-    "modified": "2022-04-09T11:48:51",
-    "modified_gmt": "2022-04-09T18:48:51",
-    "slug": "announcements",
+    "id": 9215,
+    "date": "2022-04-09T11:47:17",
+    "date_gmt": "2022-04-09T18:47:17",
+    "guid": "https://cannabis.ca.gov/?page_id=9215",
+    "modified": "2022-04-09T11:47:18",
+    "modified_gmt": "2022-04-09T18:47:18",
+    "slug": "equity-license-fee-waiver",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/about-us/announcements/",
-    "title": "Announcements",
-    "excerpt": "<p>Sign up to receive emails&nbsp;from the Department of Cannabis Control&nbsp;when&nbsp;we share news and information.&nbsp;&nbsp;</p>\n",
-    "author": "Department of Cannabis Control",
+    "link": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/",
+    "title": "Equity license fee waiver",
+    "excerpt": "<p>If you were negatively affected by the criminalization of cannabis, you can apply to have your license fee waived. There are three basic requirements for getting your license fee waived. If you meet them all, you’re eligible for a waiver. 1. Expected revenue Your cannabis business must have gross revenue of no more than $1.5 [&hellip;]</p>\n",
+    "author": "Michael Sullivan",
     "featured_media": 0,
-    "parent": 856,
-    "menu_order": 0,
+    "parent": 756,
+    "menu_order": 1,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
+    "template": "single-column-wide",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "single-column-wide"
     },
     "og_meta": {
       "editor": {
@@ -50,25 +50,25 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/about-us/announcements/",
-      "page_title": "Announcements",
+      "canonical_url": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/",
+      "page_title": "Equity license fee waiver",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Announcements",
+      "meta_title": "Equity license fee waiver",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/about-us/announcements/",
-      "open_graph_title": "Announcements",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/",
+      "open_graph_title": "Equity license fee waiver",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Announcements",
+      "twitter_title": "Equity license fee waiver",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/about-us/announcements/"
+    "wordpress_url": "https://api.cannabis.ca.gov/applicants/equity-license-fee-waiver/"
   }
 }
