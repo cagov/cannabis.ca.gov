@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "created_date": "2022-04-08T00:40:05",
+    "updated_date": "2022-04-08T00:40:05",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9646",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9646,
+    "date": "2022-04-07T17:40:05",
+    "date_gmt": "2022-04-08T00:40:05",
+    "guid": "https://cannabis.ca.gov/?p=9646",
+    "modified": "2022-04-07T17:40:05",
+    "modified_gmt": "2022-04-08T00:40:05",
+    "slug": "california-state-senate-confirms-nicole-elliott-as-director-of-the-department-of-cannabis-control",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2022/04/california-state-senate-confirms-nicole-elliott-as-director-of-the-department-of-cannabis-control/",
+    "title": "California State Senate confirms Nicole Elliott as Director of the Department of Cannabis Control",
+    "excerpt": "<p>SACRAMENTO – Nicole Elliott was confirmed today as Director of the Department of Cannabis Control (DCC) by the California State Senate. In a show of confidence, 34 senators voted in favor of Elliott’s confirmation, and no senators voted in opposition. Representatives of local government, cannabis businesses, law enforcement and labor unions voiced support for Elliott’s [&hellip;]</p>\n",
+    "author": "Christina Dempsey",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "format": "standard",
+    "meta": [],
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [
+      "Appointment",
+      "California",
+      "Cannabis",
+      "director",
+      "leadership team",
+      "Nicole Elliott",
+      "Senate"
+    ],
+    "design_system_fields": {
+      "template": "template-single"
+    },
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/04/california-state-senate-confirms-nicole-elliott-as-director-of-the-department-of-cannabis-control/",
+      "page_title": "California State Senate confirms Nicole Elliott as Director of the Department of Cannabis Control",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California State Senate confirms Nicole Elliott as Director of the Department of Cannabis Control",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/04/california-state-senate-confirms-nicole-elliott-as-director-of-the-department-of-cannabis-control/",
+      "open_graph_title": "California State Senate confirms Nicole Elliott as Director of the Department of Cannabis Control",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "California State Senate confirms Nicole Elliott as Director of the Department of Cannabis Control",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 59,
+        "name": "Appointment",
+        "slug": "appointment",
+        "term_group": 0,
+        "term_taxonomy_id": 59,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 23,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 23,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 3,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 801,
+        "name": "director",
+        "slug": "director",
+        "term_group": 0,
+        "term_taxonomy_id": 801,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 802,
+        "name": "leadership team",
+        "slug": "leadership-team",
+        "term_group": 0,
+        "term_taxonomy_id": 802,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 594,
+        "name": "Nicole Elliott",
+        "slug": "nicole-elliott",
+        "term_group": 0,
+        "term_taxonomy_id": 594,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 222,
+        "name": "Senate",
+        "slug": "senate",
+        "term_group": 0,
+        "term_taxonomy_id": 222,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/04/california-state-senate-confirms-nicole-elliott-as-director-of-the-department-of-cannabis-control/"
+  }
+}
