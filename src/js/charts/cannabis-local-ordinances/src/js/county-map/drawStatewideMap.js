@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { xml } from "d3-fetch";
+import { svg } from "d3-fetch";
 import { getCountyColor, getPlaceColor } from "./processData.js";
 import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
@@ -79,8 +79,7 @@ export default function drawStatewideMap({
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     if (data.showCounties === true) {
-      let fetchRequestCounty = new Request(svgFiles.county);
-        xml(svgFiles.county)
+      svg(svgFiles.county)
       .then((counties) => {
         const countiesGroup = d3.select(
           domElement + ' [data-name="county-boundaries"]'
@@ -102,10 +101,11 @@ export default function drawStatewideMap({
             .attr("stroke-opacity", 0.5)
             .attr("stroke", "#FFFFFF");
         });
-      });
+      })
+      .catch((error) => console.warn(error));
 
       // County stroke lines and tooltips (interactions, includes islands belonging to different counties.)
-      xml(svgFiles.countyOutlines)
+      svg(svgFiles.countyOutlines)
       .then((counties) => {
        
         const countiesGroup = d3.select(
@@ -182,12 +182,13 @@ export default function drawStatewideMap({
                 .style("visibility", "hidden");
             });
         });
-      });
+      })
+      .catch((error) => console.warn(error));
     }
 
     /* PLACES */
     if (data.showPlaces === true) {
-      xml(svgFiles.places)
+      svg(svgFiles.places)
       .then((places) => {
         const group = d3.select(
           domElement + ' [data-name="places-boundaries"]'
@@ -213,7 +214,8 @@ export default function drawStatewideMap({
             return placeColor;
           });
         });
-      });
+      })
+      .catch((error) => console.warn(error));
     }
 
     // Update the legend

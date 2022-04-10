@@ -862,21 +862,24 @@
 
         <div class="interactive-map-container">
           <div class="interactive-map">
-            
-            <div class="map-wrapper" data-container="#cagov-map-table">
-              <div class="map-legend" data-container="#cagov-map-table"></div>
+            <div class="map-wrapper">
+              <div class="map-legend"></div>
               <cannabis-local-ordinances 
-                id="cannabis-local-ordinances"
+                id="cannabis-local-ordinances-map"
                 data-county="https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg"
                 data-county-outlines="https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg"
                 data-places="https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg"
+                data-table-container="cagov-table-data"
               > </cannabis-local-ordinances>
             </div>
             
-            <div class="data-table" data-container="#cagov-map-table">
+            <div class="data-table">
               <div class="table-data">
                 <div role="region" aria-labelledby="caption" tabindex="0">
-                <cagov-table-data data-container="#cagov-map-table" data-source-wordpress="https://headless.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.html" data-source="/assets/data/cannabis-local-ordinances.html">
+                <cagov-table-data 
+                  id="cannabis-local-ordinances-table"
+                  data-map-container="cannabis-local-ordinances[id=cannabis-local-ordinances-map]"
+                >
                 </cagov-table-data>
               </div>
               </div>
