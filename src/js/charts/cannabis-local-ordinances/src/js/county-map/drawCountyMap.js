@@ -8,6 +8,7 @@ import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
 import { chartLegendCounty } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";
+import { updateHistory } from "./updateHistory.js";
 
 /**
  * Render SVG based interactive county map using d3
@@ -193,14 +194,6 @@ export default function drawCountyMap({
                 .duration(0)
                 .style("visibility", "visible");
             })
-            .on("click", function(event, d){
-              const urlParams = new URLSearchParams(window.location.search);
-              urlParams.set("data-map-level", "county");
-              urlParams.set("data-geoid",geoid);
-              urlParams.set("data-county",currentPlace);
-              urlParams.set("data-place",name);
-              window.location.search = urlParams;
-            })
             .on("mousemove", function (event, d) {
               let shapes = [el];
               let tooltipPosition = tooltipPlacement(
@@ -213,6 +206,17 @@ export default function drawCountyMap({
               return tooltip
                 .style("left", tooltipPosition.x + "px")
                 .style("top", tooltipPosition.y + "px");
+            })
+            .on("click", function (event, d) {
+              updateHistory(
+                {
+                  "data-geoid": geoid,
+                  "data-county": currentPlace["County label"],
+                  "title": "Place view",
+                  "anchor": "#city-view",
+                  "paramString": `?city=${name}&geoid=${geoid}`
+                }
+              );
             })
             .on("focusout", function (d) {
               d3.select(this).attr("fill-opacity", "1");

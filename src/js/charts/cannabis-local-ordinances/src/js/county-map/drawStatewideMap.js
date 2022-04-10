@@ -5,7 +5,7 @@ import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
 import "./../../index.css";
 import { chartLegendStatewide } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";
-
+import { updateHistory } from "./updateHistory.js";
 /**
  * Render SVG based interactive county map using d3
  */
@@ -118,7 +118,6 @@ export default function drawStatewideMap({
 
         Object.keys(data.countyList).map((county) => {
           data.countyList[county].shapes = [];
-          // console.log(county);
           data.countyList[county].shapes = countiesGroup.selectAll(
             `g path[data-name="${county}"]`
           );
@@ -149,7 +148,6 @@ export default function drawStatewideMap({
               return tooltip
                 .transition()
                 .duration(0)
-
                 .style("visibility", "visible");
             })
             .on("mousemove", function (event, d) {
@@ -167,11 +165,16 @@ export default function drawStatewideMap({
                 .style("top", tooltipPosition.y + "px");
             })
             .on("click", function (event, d) {
-              const urlParams = new URLSearchParams(window.location.search);
-              urlParams.set("data-map-level", "county");
-              urlParams.set("data-geoid",geoid);
-              urlParams.set("data-county",name);
-              window.location.search = urlParams;
+              updateHistory(
+                {
+                  "data-map-level": "county",
+                  "data-geoid": geoid,
+                  "data-county": name,
+                  "title": "County view",
+                  "anchor": "#county-view",
+                  "paramString": `?county=${name}`
+                }
+              );
             })
             .on("mouseout focusout", function (d) {
               d3.select(this).attr("fill", "transparent");
