@@ -97,6 +97,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     this.toggleCountiesEl.addEventListener("change", (e) =>
       this.setCountyToggle(e, this.localData)
     );
+
     this.togglePlacesEl.addEventListener("change", (e) =>
       this.setPlaceToggle(e, this.localData)
     );
@@ -108,15 +109,16 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     });
 
     var selectActivities = document.querySelector(".filter-activity select");
-    selectActivities.addEventListener("change", (e) =>
-      this.setActivity(e, this.localData)
-    );
+    selectActivities.addEventListener("change", (e) => {
+      console.log(e.target);
+      this.setActivity(e, this.localData);
+    });
   }
 
   /**
    * Control toggle behavior for counties button
-   * @param {*} e 
-   * @param {*} data 
+   * @param {*} e
+   * @param {*} data
    */
   setCountyToggle(e, data) {
     data.showCounties = e.currentTarget.checked; // If checked
@@ -129,8 +131,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   /**
    * Control toggle behavior for place button
-   * @param {*} e 
-   * @param {*} data 
+   * @param {*} e
+   * @param {*} data
    */
   setPlaceToggle(e, data) {
     data.showPlaces = e.currentTarget.checked; // If checked
@@ -143,8 +145,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   /**
    * Set activity state and redraw map
-   * @param {*} e 
-   * @param {*} data 
+   * @param {*} e
+   * @param {*} data
    */
   setActivity(e, data) {
     data.activities = e.target.value;
@@ -152,9 +154,9 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   /**
-   * 
-   * @param {*} e 
-   * @param {*} data 
+   *
+   * @param {*} e
+   * @param {*} data
    */
   setMapStateOld(e, data) {
     let containerElement = document.querySelector("cagov-map-table");
@@ -247,7 +249,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     let { jurisdiction, geoid } = data;
     console.log("j", jurisdiction, geoid, entry);
     if (entry !== undefined && entry !== null && entry !== "") {
-     
       this.selectedPlaceValue = entry;
       if (jurisdiction === "County") {
         this.selectedCounty = entry;
