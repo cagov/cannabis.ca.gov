@@ -165,6 +165,7 @@ export default function drawStatewideMap({
                 .style("top", tooltipPosition.y + "px");
             })
             .on("click", function (event, d) {
+              
               updateHistory(
                 {
                   "data-map-level": "county",
@@ -175,14 +176,21 @@ export default function drawStatewideMap({
                   "paramString": `?county=${name}`
                 }
               );
+
+               d3.select(this).attr("fill", "transparent");
+
+              return tooltip
+                .transition()
+                .delay(2500)
+                .style("visibility", "hidden");
             })
             .on("mouseout focusout", function (d) {
               d3.select(this).attr("fill", "transparent");
 
-              return tooltip
-                .transition()
-                .delay(500)
-                .style("visibility", "hidden");
+              // return tooltip
+              //   .transition()
+              //   .delay(500)
+              //   .style("visibility", "hidden");
             });
         });
       })

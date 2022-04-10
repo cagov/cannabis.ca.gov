@@ -98,25 +98,24 @@ const calculateQuadrantPositions = (m, s, quadrant) => {
   let tooltipX = s.shapeX;
   let tooltipY = s.shapeY;
 
-  let bufferX = 10;
+  let bufferX = 60;
   let bufferY = 180;
 
     if (quadrant === 0) {
-    //   console.log("q0");
+      // console.log("q0");
       bufferY = 10;
       tooltipX = s.shapeX + s.shapeWidth + bufferX;
       tooltipY = s.shapeY + s.shapeHeight + bufferY;
     } else if (quadrant === 1) {
-    //   console.log("q1");
+      // console.log("q1");
       tooltipX = s.shapeX - s.shapeWidth - bufferX;
       tooltipY = s.shapeY + s.shapeHeight + bufferY;
     } else if (quadrant === 2) {
-    //   console.log("q2");
+      // console.log("q2");
       tooltipX = s.shapeX + s.shapeWidth + bufferX;
       tooltipY = s.shapeY + s.shapeHeight - bufferY;
     } else if (quadrant === 3) {
-    //   console.log("q3");
-    //   bufferY = 10;
+      // console.log("q3");
       tooltipX = s.shapeX - s.shapeWidth - bufferX;
       tooltipY = s.shapeY - s.shapeHeight - bufferY;
     }
