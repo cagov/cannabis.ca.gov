@@ -105,12 +105,26 @@ function chartLegendCounty(data, props) {
 function chartLegendPlace(data, props) {
   let allowed = data.messages.LegendPlace.allowed;
   let prohibited = data.messages.LegendPlace.prohibited;
-
-  let allowedLabel = allowed;
-  let prohibitedLabel = prohibited;
+  let isAllowed = getActivityPercentagesPlace(data, props);
+  if (data.activities !== "Any activities") {
+    allowed = data.messages.LegendPlaceActivity.allowed;
+    prohibited = data.messages.LegendPlaceActivity.prohibited;
+  }
 
   // let message = countyStatusTooltipMessage(data, props);
   let message = "State";
+
+  let allowedLabel = insertValueIntoSpanTag(
+    allowed,
+    data.activities,
+    "data-status"
+  );
+
+  let prohibitedLabel = insertValueIntoSpanTag(
+    prohibited,
+    data.activities,
+    "data-status"
+  );
 
   let contentAllowed = `<div class="cagov-map-legend legend-container">
           <div class="status">
@@ -129,8 +143,10 @@ function chartLegendPlace(data, props) {
         </div>
   </div>`;
 
+
+
   let content = "";
-  let isAllowed = getActivityPercentagesPlace(data, props);
+
   if (isAllowed === true) {
     content = contentAllowed;
   } else if (isAllowed === false) {
@@ -207,7 +223,7 @@ function getActivityPercentagesCounty(data) {
     allowedPercentage: 0,
     prohibitedPercentage: 0,
   };
-  let item = data.countyList[data.selectedPlace].activities;
+  let item = data.countyList[data.selectedPlaceValue].activities;
   let mode = data.activities;
   console.log("mode", mode, item);  
   try {
@@ -252,9 +268,9 @@ function getActivityPercentagesPlace(data) {
     allowed: 0,
     prohibited: 0,
   };
-  let item = data.dataPlaces[data.selectedPlace];
+  let item = data.dataPlaces[data.selectedPlaceValue];
   let mode = data.activities;
-  // console.log(mode, item);
+  console.log(mode, item);
   if (mode === "Any activities") {
     if (item["Are all CCA activites prohibited?"] === "Yes") {
       return false;

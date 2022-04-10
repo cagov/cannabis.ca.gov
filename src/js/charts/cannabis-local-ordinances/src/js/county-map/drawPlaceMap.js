@@ -6,7 +6,7 @@ import {
 } from "./processData.js";
 import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
-import { chartLegendPlace  } from "./legend.js";
+import { chartLegendPlace } from "./legend.js";
 
 /**
  * Render SVG based interactive places (city) map using d3
@@ -25,7 +25,7 @@ export default function drawPlaceMap({
 }) {
   try {
     //   /* Data processing */
-    var { dataPlaces, messages, selectedPlace } = data;
+    // var { dataPlaces, messages, selectedPlace } = data;
     // console.log("Place map", jurisdiction, selectedPlace, mapLevel);
 
     var rawWidth = 800; // @TODO make a setting or pull from a base tile?
@@ -192,13 +192,15 @@ export default function drawPlaceMap({
               return "Label";
             })
             .attr("fill-opacity", (d) => {
-              if (data.dataPlaces[currentPlace]["GEOID"] === data.selectedPlace["GEOID"] ) {
+              if (
+                data.dataPlaces[currentPlace]["GEOID"] ===
+                data.selectedPlace["GEOID"]
+              ) {
                 return 1;
               } else {
                 return 0.25;
               }
             });
-            
         } else {
           el.remove();
         }
@@ -206,7 +208,10 @@ export default function drawPlaceMap({
     });
 
     // Update the legend
-    document.querySelector(legendElement).innerHTML = chartLegendPlace(data, {});
+    document.querySelector(legendElement).innerHTML = chartLegendPlace(
+      data,
+      {}
+    );
   } catch (error) {
     console.error("Error rendering cagov-place-map:", error);
   }

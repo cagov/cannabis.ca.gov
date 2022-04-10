@@ -10,8 +10,8 @@
     "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities prohibit all cannabis business activities"
   },
   "LegendPlace": {
-    "allowed": "<strong>Allowed </strong>At least one cannabis business type is allowed",
-    "prohibited": "<strong>Prohibited </strong>All cannabis business types are prohibited"
+    "allowed": "<strong>Allowed</strong> At least one cannabis business type is allowed",
+    "prohibited": "<strong>Prohibited</strong> All cannabis business types are prohibited"
   },  
   "LegendCountyActivity": {
     "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities allow <span data-activity=\"activity\"></span>.",
