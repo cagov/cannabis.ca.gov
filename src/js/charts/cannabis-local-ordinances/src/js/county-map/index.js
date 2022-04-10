@@ -242,7 +242,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
     this.setData(entry, this.localData);
-    this.setDisplays(entry, this.localData);
+    this.setDisplays(this.localData);
   }
 
   setData(entry, data) {
@@ -277,28 +277,38 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     }
   }
 
-  setDisplays(entry, data) {
-    let { jurisdiction, geoid, selectedPlace } = data;
-    console.log("j", jurisdiction, geoid, entry);
+  /**
+   * Update visual UI elements for whole interaction
+   * @param {} data 
+   */
+  setDisplays(data) {
+    let { jurisdiction, geoid, selectedPlace, selectedCounty } = data;
+    console.log("displays", jurisdiction, geoid, selectedPlace, selectedCounty);
     let containerElement = document.querySelector("cagov-map-table");
     let tableContainerElement = document.querySelector(this.tableContainer);
-    if (entry !== null && entry !== "") {
-      if (jurisdiction === "County") {
-        this.setBreadcrumb(data, "county", this.selectedCounty);
-        tableContainerElement.updateTable(data, "county", this.selectedCounty);
-        containerElement.setAttribute("data-map-level", "county");
-      } else if (jurisdiction === "Place") {
-        this.setBreadcrumb(data, "place", selectedPlace, geoid);
-        tableContainerElement.updateTable(data, "place", selectedPlace, geoid);
-        containerElement.setAttribute("data-map-level", "place");
-      }
-      this.redraw();
+    if (jurisdiction === "County") {
+      this.setBreadcrumb(data, "county", selectedCounty);
+      containerElement.setAttribute("data-map-level", "county");
+      tableContainerElement.updateTable(data, "county", selectedCounty);
+    } else if (jurisdiction === "Place") {
+      this.setBreadcrumb(data, "place", selectedPlace, geoid);
+      containerElement.setAttribute("data-map-level", "place");
+      tableContainerElement.updateTable(data, "place", selectedPlace, geoid);
     } else {
       this.setBreadcrumb(data, "state");
-      this.redraw();
+      tableContainerElement.updateTable(data, "statewide");
     }
+    this.redraw();
   }
 
+  /**
+   * Update breadcrumb 
+   * @param {*} data 
+   * @param {*} level 
+   * @param {*} county 
+   * @param {*} geoid 
+   * @returns 
+   */
   setBreadcrumb(data, level, county, geoid) {
     let stateEl = document.querySelector(
       `cagov-map-table .map-header .breadcrumb-item[data-level="state"]`

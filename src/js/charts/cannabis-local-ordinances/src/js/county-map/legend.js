@@ -44,20 +44,43 @@ function chartLegendStatewide(data, props) {
 
 function chartLegendCounty(data, props) {
   // console.log("setting legend county", data, props);
+  let percentages = getActivityPercentagesCounty(data, props);
+
   let allowed = data.messages.LegendCounty.allowed;
   let prohibited = data.messages.LegendCounty.prohibited;
+  if (data.activities !== "Any activities") {
+    allowed = data.messages.LegendCountyActivity.allowed;
+    prohibited = data.messages.LegendCountyActivity.prohibited;
+    if (percentages.allowedPercentage === "0") {
+      allowed = data.messages.LegendCountyActivity.allowedNoResults;
+    }
+    if (percentages.prohibitedPercentage === "0") {
+      prohibited = data.messages.LegendCountyActivity.prohibitedNoResults;
+    }
+  }
 
-  let percentages = getActivityPercentagesCounty(data, props);
 
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     percentages.allowedPercentage,
     "data-status"
   );
+
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     percentages.prohibitedPercentage,
     "data-status"
+  );
+
+  allowedLabel = insertValueIntoSpanTag(
+    allowedLabel,
+    data.activities,
+    "data-activity"
+  );
+   prohibitedLabel = insertValueIntoSpanTag(
+    prohibitedLabel,
+    data.activities,
+    "data-activity"
   );
 
   // let message = countyStatusTooltipMessage(data, props);
@@ -194,8 +217,8 @@ function getActivityPercentagesCounty(data) {
       countValues.allowed =
         item["Are all CCA activites prohibited?"]["No"].length;
     } else if (mode === "Retail") {
-      countValues.prohibited = item["Retail"]["Yes"].length;
-      countValues.allowed = item["Retail"]["No"].length;
+      countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
+      countValues.allowed = item["Is all retail prohibited?"]["No"].length;
     } else {
       if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;
@@ -203,7 +226,7 @@ function getActivityPercentagesCounty(data) {
         countValues.allowed = item[mode]["Allowed"].length + item[mode]["Limited"].length + item[mode]["Limited-Medical Only"].length;
       }
     }
-
+    
     countValues.count = countValues.prohibited + countValues.allowed;
     countValues.allowedPercentage = formatPercent(
       countValues.allowed / countValues.count
@@ -211,6 +234,7 @@ function getActivityPercentagesCounty(data) {
     countValues.prohibitedPercentage = formatPercent(
       countValues.prohibited / countValues.count
     );
+    console.log(countValues);
   } catch (error) {
     console.error(error);
   }
@@ -263,7 +287,11 @@ function getActivityPercentagesPlace(data) {
  * @returns {string} Percentage value
  */
 function formatPercent(value) {
+  console.log(value);
   // @TODO Check if is a number
+  if (isNaN(value)) {
+    return "0";
+  }
   value = (value * 100).toFixed(0) + "%";
   return value;
 }

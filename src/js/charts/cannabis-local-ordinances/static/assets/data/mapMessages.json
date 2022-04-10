@@ -12,6 +12,12 @@
   "LegendPlace": {
     "allowed": "<strong>Allowed </strong>At least one cannabis business type is allowed",
     "prohibited": "<strong>Prohibited </strong>All cannabis business types are prohibited"
+  },  
+  "LegendCountyActivity": {
+    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities allow <span data-activity=\"activity\"></span>.",
+    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities prohibit <span data-activity=\"activity\"></span>.",
+    "allowedNoResults": "<strong>Allow: </strong>No cities allow <span data-activity=\"activity\"></span>.",
+    "prohibitedNoResults": "<strong>Prohibit: </strong>All cities prohibit <span data-activity=\"activity\"></span>."
   },
   "LegendPlaceActivity": {
     "allowed": "<strong><span data-status=\"activity\"></span></strong> is allowed.",
