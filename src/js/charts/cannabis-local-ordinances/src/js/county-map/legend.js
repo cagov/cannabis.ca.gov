@@ -59,7 +59,6 @@ function chartLegendCounty(data, props) {
     }
   }
 
-
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     percentages.allowedPercentage,
@@ -77,7 +76,7 @@ function chartLegendCounty(data, props) {
     data.activities,
     "data-activity"
   );
-   prohibitedLabel = insertValueIntoSpanTag(
+  prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
     data.activities,
     "data-activity"
@@ -142,8 +141,6 @@ function chartLegendPlace(data, props) {
           </div> 
         </div>
   </div>`;
-
-
 
   let content = "";
 
@@ -225,7 +222,7 @@ function getActivityPercentagesCounty(data) {
   };
   let item = data.countyList[data.selectedPlaceValue].activities;
   let mode = data.activities;
-  console.log("mode", mode, item);  
+  console.log("mode", mode, item);
   try {
     if (mode === "Any activities") {
       countValues.prohibited =
@@ -239,10 +236,13 @@ function getActivityPercentagesCounty(data) {
       if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;
       } else if (item[mode] !== "Prohibited") {
-        countValues.allowed = item[mode]["Allowed"].length + item[mode]["Limited"].length + item[mode]["Limited-Medical Only"].length;
+        countValues.allowed =
+          item[mode]["Allowed"].length +
+          item[mode]["Limited"].length +
+          item[mode]["Limited-Medical Only"].length;
       }
     }
-    
+
     countValues.count = countValues.prohibited + countValues.allowed;
     countValues.allowedPercentage = formatPercent(
       countValues.allowed / countValues.count
@@ -271,27 +271,27 @@ function getActivityPercentagesPlace(data) {
   let item = data.dataPlaces[data.selectedPlaceValue];
   let mode = data.activities;
   console.log(mode, item);
-  if (mode === "Any activities") {
-    if (item["Are all CCA activites prohibited?"] === "Yes") {
-      return false;
-    } else if (item["Are all CCA activites prohibited?"] === "No") {
-      return true;
-    }
-  } else if (mode === "Retail") {
-    if (item["Is all retail prohibited?"] === "Yes") {
-     
-      return false;
-    } else if (item["Is all retail prohibited?"] === "No") {
-     
-      return true;
-    }
-  } else {
-    if (item[mode] === "Prohibited") {
-      // console.log("f", mode);
-      return false;
-    } else if (item[mode] !== "Prohibited") {
-      //  console.log("t", mode);
-      return true;
+  if (item !== undefined) {
+    if (mode === "Any activities") {
+      if (item["Are all CCA activites prohibited?"] === "Yes") {
+        return false;
+      } else if (item["Are all CCA activites prohibited?"] === "No") {
+        return true;
+      }
+    } else if (mode === "Retail") {
+      if (item["Is all retail prohibited?"] === "Yes") {
+        return false;
+      } else if (item["Is all retail prohibited?"] === "No") {
+        return true;
+      }
+    } else {
+      if (item[mode] === "Prohibited") {
+        // console.log("f", mode);
+        return false;
+      } else if (item[mode] !== "Prohibited") {
+        //  console.log("t", mode);
+        return true;
+      }
     }
   }
   return null;
