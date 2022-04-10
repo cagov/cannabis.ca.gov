@@ -81,12 +81,12 @@ class CannabisLocalOrdinances extends window.HTMLElement {
    * Listen to hash change events and update display based on URL params.
    */
   setupHashListener() {
-    window.addEventListener(
-      "hashchange",
-      () => updateMapLevelFromHash(location.hash, this.localData),
-      false
-    );
-    updateMapLevelFromHash(location.hash, this.localData);
+    // window.addEventListener(
+    //   "hashchange",
+    //   () => updateMapLevelFromHash(location.hash, this.localData),
+    //   false
+    // );
+    // updateMapLevelFromHash(location.hash, this.localData);
   }
 
   /**
@@ -233,11 +233,13 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   setMapState(e) {
-    let entry = e.target.value;
+    
     let selectedIndex = e.target.selectedIndex;
     let selectedEl = e.target.options[selectedIndex];
     let geoid = selectedEl.getAttribute("data-geoid") || null;
     let jurisdiction = selectedEl.getAttribute("data-jurisdiction");
+    let entry = e.target.value;
+    console.log(entry);
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
     this.setData(entry, this.localData);

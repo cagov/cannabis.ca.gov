@@ -268,9 +268,9 @@ function getActivityPercentagesPlace(data) {
     allowed: 0,
     prohibited: 0,
   };
-  let item = data.dataPlaces[data.selectedPlaceValue];
+  let item = data.selectedPlace; //data.dataPlaces[data.selectedPlace];
   let mode = data.activities;
-  console.log(mode, item);
+  // console.log(mode, item);
   if (item !== undefined) {
     if (mode === "Any activities") {
       if (item["Are all CCA activites prohibited?"] === "Yes") {
