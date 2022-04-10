@@ -249,7 +249,7 @@ function getTestingAllowed(data, mode, values, renderMode) {
   }
 }
 
-function getActivities(data, getID = false) {
+function precalculateActivitiesData(data, getID = false) {
   let { dataPlaces, countyList } = data;
 
   if (getID === false) {
@@ -259,7 +259,7 @@ function getActivities(data, getID = false) {
           if (countyList[county].activities === undefined) {
             countyList[county].activities = Object.assign(
               {},
-              getActivitiesDataSchema()
+              precalculateActivitiesDataDataSchema()
             );
           }
           if (county !== "default") {
@@ -280,7 +280,7 @@ function getActivities(data, getID = false) {
           if (countyList[county].activitiesByGEOID === undefined) {
             countyList[county].activitiesByGEOID = Object.assign(
               {},
-              getActivitiesDataSchema()
+              precalculateActivitiesDataDataSchema()
             );
           }
           if (county !== "default") {
@@ -400,7 +400,7 @@ function rollupAllowedActivities(countyList, county) {
   }
 }
 
-function getActivitiesDataSchema() {
+function precalculateActivitiesDataDataSchema() {
   return {
     "Retail: Storefront": {
       Allowed: [],
@@ -478,8 +478,8 @@ function getActivitiesDataSchema() {
 export {
   getCountyColor,
   getCountyColorPlaceLevel,
-  getActivities,
-  getActivitiesDataSchema,
+  precalculateActivitiesData,
+  precalculateActivitiesDataDataSchema,
   getPlaceColor,
   getPlaceColorPlaceLevel,
 };
