@@ -28,7 +28,6 @@ export default function drawCountyMap({
   try {
     /* Data processing */
     var { dataPlaces, messages, selectedCounty } = data;
-    console.log("svg", svgFiles);
     var rawWidth = 800;
     var rawHeight = 923;
 

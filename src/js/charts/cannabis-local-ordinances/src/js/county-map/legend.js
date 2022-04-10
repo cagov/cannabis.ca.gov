@@ -228,7 +228,7 @@ function getActivityPercentagesPlace(data) {
     allowed: 0,
     prohibited: 0,
   };
-  let item = data.dataPlaces[data.showPlace];
+  let item = data.dataPlaces[data.selectedPlace];
   let mode = data.activities;
   // console.log(mode, item);
   if (mode === "Any activities") {
