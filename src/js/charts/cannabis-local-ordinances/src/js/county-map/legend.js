@@ -184,9 +184,9 @@ function getActivityPercentagesCounty(data) {
     allowedPercentage: 0,
     prohibitedPercentage: 0,
   };
-  let item = data.countyList[data.showPlace].activities;
+  let item = data.countyList[data.selectedPlace].activities;
   let mode = data.activities;
-  // console.log("mode", mode, item);  
+  console.log("mode", mode, item);  
   try {
     if (mode === "Any activities") {
       countValues.prohibited =
