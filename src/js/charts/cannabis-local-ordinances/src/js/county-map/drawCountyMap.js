@@ -216,14 +216,17 @@ export default function drawCountyMap({
                   "paramString": `?city=${name}&geoid=${geoid}`
                 }
               );
-            })
-            .on("focusout", function (d) {
-              d3.select(this).attr("fill-opacity", "1");
-
               return tooltip
-                .transition()
-                .delay(500)
-                .style("visibility", "hidden");
+              .transition()
+              .delay(5000)
+              .style("visibility", "hidden");
+            })
+            .on("clickout", function (d) {
+              d3.select(this).attr("fill-opacity", "1");
+              return tooltip
+              .transition()
+              .delay(5000)
+              .style("visibility", "hidden");
             });
         } else {
           el.remove();

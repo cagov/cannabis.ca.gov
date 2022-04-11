@@ -104,13 +104,13 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
     var setPlace = document.querySelector('.filter[data-filter-type="places"]');
     setPlace.addEventListener("change", (e) => {
-      console.log(e.target);
+      // console.log(e.target);
       this.setMapState(e, this.localData);
     });
 
     var selectActivities = document.querySelector(".filter-activity select");
     selectActivities.addEventListener("change", (e) => {
-      console.log(e.target);
+      // console.log(e.target);
       this.setActivity(e, this.localData);
     });
   }
@@ -161,7 +161,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   setMapStateOld(e, data) {
     let containerElement = document.querySelector("cagov-map-table");
     let tableContainerElement = document.querySelector(this.tableContainer);
-    console.log(e.target);
+    // console.log(e.target);
     if (e.target.value !== null && e.target.value !== "") {
       this.selectedPlaceValue = e.target.value;
       let selectedIndex = e.target.selectedIndex;
@@ -239,7 +239,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     let geoid = selectedEl.getAttribute("data-geoid") || null;
     let jurisdiction = selectedEl.getAttribute("data-jurisdiction");
     let entry = e.target.value;
-    console.log(entry);
+    // console.log(entry);
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
     this.setData(entry, this.localData);
@@ -248,7 +248,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   setData(entry, data) {
     let { jurisdiction, geoid } = data;
-    console.log("j", jurisdiction, geoid, entry);
+    // console.log("j", jurisdiction, geoid, entry);
     if (entry !== undefined && entry !== null && entry !== "") {
       this.selectedPlaceValue = entry;
       if (jurisdiction === "County") {
@@ -290,14 +290,14 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       selectedCounty,
       selectedPlaceValue,
     } = data;
-    console.log(
-      "displays",
-      jurisdiction,
-      geoid,
-      selectedPlace,
-      selectedPlaceValue,
-      selectedCounty
-    );
+    // console.log(
+    //   "displays",
+    //   jurisdiction,
+    //   geoid,
+    //   selectedPlace,
+    //   selectedPlaceValue,
+    //   selectedCounty
+    // );
     let containerElement = document.querySelector("cagov-map-table");
     let tableContainerElement = document.querySelector(this.tableContainer);
     if (jurisdiction === "County") {

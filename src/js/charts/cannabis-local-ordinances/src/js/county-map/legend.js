@@ -222,7 +222,7 @@ function getActivityPercentagesCounty(data) {
   };
   let item = data.countyList[data.selectedPlaceValue].activities;
   let mode = data.activities;
-  console.log("mode", mode, item);
+  // console.log("mode", mode, item);
   try {
     if (mode === "Any activities") {
       countValues.prohibited =
@@ -250,7 +250,7 @@ function getActivityPercentagesCounty(data) {
     countValues.prohibitedPercentage = formatPercent(
       countValues.prohibited / countValues.count
     );
-    console.log(countValues);
+    // console.log(countValues);
   } catch (error) {
     console.error(error);
   }
@@ -303,7 +303,7 @@ function getActivityPercentagesPlace(data) {
  * @returns {string} Percentage value
  */
 function formatPercent(value) {
-  console.log(value);
+  // console.log(value);
   // @TODO Check if is a number
   if (isNaN(value)) {
     return "0";

@@ -35,9 +35,12 @@ const getMapDimensions = (options) => {
       .node()
       .getBoundingClientRect().bottom
   );
-  let parentBBox = document.querySelector("cagov-map-table .interactive-map-container").getBoundingClientRect();  //   console.log(mapTop, mapBottom);
+  let parentBBox = document
+    .querySelector("cagov-map-table .interactive-map-container")
+    .getBoundingClientRect(); 
+  //   console.log(mapTop, mapBottom);
 
-//   console.log("parentBBox", parentBBox);
+  //   console.log("parentBBox", parentBBox);
 
   let mapScale = mapHeight / options.rawHeight;
 
@@ -49,9 +52,9 @@ const getMapDimensions = (options) => {
     mapTop,
     mapBottom,
     mapCenterWidth,
-    mapCenterHeight, 
-    parentBBox// Change to center X Y
-  }
+    mapCenterHeight,
+    parentBBox, // Change to center X Y
+  };
 };
 
 const getShapeDimensions = (options, shapes) => {
@@ -101,29 +104,29 @@ const calculateQuadrantPositions = (m, s, quadrant) => {
   let bufferX = 60;
   let bufferY = 180;
 
-    if (quadrant === 0) {
-      // console.log("q0");
-      bufferY = 10;
-      tooltipX = s.shapeX + s.shapeWidth + bufferX;
-      tooltipY = s.shapeY + s.shapeHeight + bufferY;
-    } else if (quadrant === 1) {
-      // console.log("q1");
-      tooltipX = s.shapeX - s.shapeWidth - bufferX;
-      tooltipY = s.shapeY + s.shapeHeight + bufferY;
-    } else if (quadrant === 2) {
-      // console.log("q2");
-      tooltipX = s.shapeX + s.shapeWidth + bufferX;
-      tooltipY = s.shapeY + s.shapeHeight - bufferY;
-    } else if (quadrant === 3) {
-      // console.log("q3");
-      tooltipX = s.shapeX - s.shapeWidth - bufferX;
-      tooltipY = s.shapeY - s.shapeHeight - bufferY;
-    }
+  if (quadrant === 0) {
+    // console.log("q0");
+    bufferY = 10;
+    tooltipX = s.shapeX + s.shapeWidth + bufferX;
+    tooltipY = s.shapeY + s.shapeHeight + bufferY;
+  } else if (quadrant === 1) {
+    // console.log("q1");
+    tooltipX = s.shapeX - s.shapeWidth - bufferX;
+    tooltipY = s.shapeY + s.shapeHeight + bufferY;
+  } else if (quadrant === 2) {
+    // console.log("q2");
+    tooltipX = s.shapeX + s.shapeWidth + bufferX;
+    tooltipY = s.shapeY + s.shapeHeight - bufferY;
+  } else if (quadrant === 3) {
+    // console.log("q3");
+    tooltipX = s.shapeX - s.shapeWidth - bufferX;
+    tooltipY = s.shapeY - s.shapeHeight - bufferY;
+  }
 
-    // if (window.innerWidth < 600) {
-    //   tooltipX = 10;
-    //   tooltipY = m.mapHeight + 310;
-    // }
+  // if (window.innerWidth < 600) {
+  //   tooltipX = 10;
+  //   tooltipY = m.mapHeight + 310;
+  // }
 
   return {
     x: m.parentBBox.left + tooltipX + window.scrollX,

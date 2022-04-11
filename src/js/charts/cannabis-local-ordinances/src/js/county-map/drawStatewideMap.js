@@ -138,19 +138,12 @@ export default function drawStatewideMap({
             .attr("aria-label", (d, i) => {
               return "Label";
             })
-            .on("mouseover focus", function (event, d) {
+            .on("click", function (event, d) {
               d3.select(this)
-                .attr("fill", "#fcfcfc")
-                .attr("fill-opacity", "0.2");
-
+              .attr("fill", "#fcfcfc")
+              .attr("fill-opacity", "0.2");
               tooltip.html(chartTooltipCounty(data, props));
 
-              return tooltip
-                .transition()
-                .duration(0)
-                .style("visibility", "visible");
-            })
-            .on("mousemove", function (event, d) {
               let shapes = data.countyList[name].shapes;
               let tooltipPosition = tooltipPlacement(
                 {
@@ -159,38 +152,19 @@ export default function drawStatewideMap({
                 },
                 shapes
               );
-              // console.log("t", tooltipPosition);
               return tooltip
-                .style("left", tooltipPosition.x + "px")
-                .style("top", tooltipPosition.y + "px");
+              .transition()
+              .duration(0)
+              .style("left", tooltipPosition.x + "px")
+              .style("top", tooltipPosition.y + "px")
+              .style("visibility", "visible");
             })
-            .on("click", function (event, d) {
-              
-              updateHistory(
-                {
-                  "data-map-level": "county",
-                  "data-geoid": geoid,
-                  "data-county": name,
-                  "title": "County view",
-                  "anchor": "#county-view",
-                  "paramString": `?county=${name}`
-                }
-              );
-
-               d3.select(this).attr("fill", "transparent");
-
-              return tooltip
-                .transition()
-                .delay(2500)
-                .style("visibility", "hidden");
-            })
-            .on("mouseout focusout clickout", function (d) {
+            .on("clickout", function (d) {
               d3.select(this).attr("fill", "transparent");
-
-              // return tooltip
-              //   .transition()
-              //   .delay(500)
-              //   .style("visibility", "hidden");
+               return tooltip
+              .transition()
+              .delay(250)
+              .style("visibility", "hidden");
             });
         });
       })

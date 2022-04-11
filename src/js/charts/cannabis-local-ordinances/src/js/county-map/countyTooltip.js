@@ -76,7 +76,7 @@ function countyStatusTooltipMessage(data, props) {
           </div>
           <div>
             <p>
-              <a class="loadCounty" href="#">${detailsCTA}</a>
+              <a class="loadCounty" href="#county-view?county=">${detailsCTA}</a>
             </p>
           </div>
         </div>`;
