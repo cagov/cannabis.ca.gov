@@ -1,3 +1,6 @@
+main {
+  max-width: 785px;
+}
 [data-layer-name="interactive-map-container"] {
   /* width: 45%; */
   /* max-width: 60vm; */

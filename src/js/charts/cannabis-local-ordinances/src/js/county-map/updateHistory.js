@@ -1,7 +1,14 @@
+/**
+ * Set path for interaction state.
+ * @param {*} props 
+ */
 const updateHistory = (props) => {
+  console.log(props);
   let path = props.anchor + props.paramString;
+  console.log(path);
   // window.history.pushState(props, props.title, path);
-  window.location.href = path;
+  console.log(window.location);
+  window.location.hash = path;
 };
 
 const updateMapLevelFromHash = (hash, data) => {
@@ -24,6 +31,8 @@ const updateMapLevelFromHash = (hash, data) => {
           paramKeys[splitParam[0]] = splitParam[1];
         });
       }
+
+      console.log("paramKeys", paramKeys);
 
       if (
         paramKeys["activities"] !== undefined &&
@@ -73,7 +82,6 @@ const updateMapLevelFromHash = (hash, data) => {
           }
         }
       } else if (level === "place") {
-        // console.log("d", data, "l", level, "c", county, "p", place, "g", geoid);
         var updateOptionPlace = document.querySelector(
           `.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`
         );
@@ -83,10 +91,8 @@ const updateMapLevelFromHash = (hash, data) => {
           geoid !== null &&
           optionGeoid !== geoid
         ) {
-          // console.log("update select filter", setPlaceFilterEl);
           setPlaceFilterEl.selected = false;
           updateOptionPlace.selected = true;
-          // console.log(updateOptionPlace);
         }
       }
     }
