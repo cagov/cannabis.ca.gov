@@ -30,7 +30,7 @@ cagov-map-table .map-legend {
   width: 323px;
   height: 200px;
   position: absolute;
-  margin-left: calc(100% - 416px);
+  margin-left: 350px;
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 8px;
@@ -49,7 +49,7 @@ cagov-map-table[data-map-level="county"] .map-legend {
   width: 323px;
   height: auto;
   position: relative;
-  margin-left: calc(100% - 416px);
+  margin-left: 350px;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #fff;
@@ -58,10 +58,31 @@ cagov-map-table[data-map-level="place"] .map-legend {
   width: 323px;
   height: auto;
   position: relative;
-  margin-left: calc(100% - 416px);
+  margin-left: 350px;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
+  cagov-map-table[data-map-level="county"] .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
+  cagov-map-table[data-map-level="place"] .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
 }
 
 cagov-map-table .map-legend .status .icon {
@@ -164,12 +185,21 @@ cagov-map-table .interactive-map .map {
   }
 }
 
-cannabis-local-ordinances .map-container svg {
+cannabis-local-ordinances .map-container .map-detail svg {
   min-width: 520px;
   min-height: 360px;
   width: 100%;
   height: auto;
-  
+}
+
+@media only screen and (max-width: 900px) {
+  cannabis-local-ordinances .map-container .map-detail svg {
+    min-width: 200px;
+    min-height: 360px;
+
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Filters */

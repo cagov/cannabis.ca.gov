@@ -77,6 +77,18 @@ export default function drawCountyMap({
 
       countiesGroup.node().append(counties.documentElement);
       let countyPaths = countiesGroup.selectAll("g path");
+      let islandPaths = countiesGroup.selectAll("g path[data-island]");
+      data.selectedCountyIslands = [];
+      
+      islandPaths.each(function(p, j) {
+        let el = d3.select(this);
+        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        let island = el.attr("data-island"); // Island values from California county boundaries
+        if (name === data.selectedCounty) {
+          data.selectedCountyIslands.push(el);
+        }
+      });
+      
 
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
@@ -84,7 +96,7 @@ export default function drawCountyMap({
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
-        data.selectedCountyIslands = [];
+     
         // let geoid = el.attr("data-geoid");
         // console.log("island", island, geoid);
         if (name === data.selectedCounty) {
@@ -102,7 +114,7 @@ export default function drawCountyMap({
            
           if (island !== null) {
             el.style("visible", "hidden");
-            data.selectedCountyIslands.push({[island]: name});
+         
           } else {
             scaleCounty(
               el,
@@ -119,6 +131,7 @@ export default function drawCountyMap({
         } else {
           // Not the selected county
           el.remove();
+          // el.attr("opacity", 0.1);
         }
       });
     });
@@ -183,7 +196,6 @@ export default function drawCountyMap({
                 .style("visibility", "visible");
             })
             .on("dblclick", function (event, d) {
-              console.log("co");
               d3.select(this).attr("fill-opacity", "1");
               return tooltip
                 .transition()

@@ -36,7 +36,7 @@ Sacramento County,,,Sacramento,Sacramento County,County,Prohibited,Prohibited,Pr
 San Benito County,,,San Benito,San Benito County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Limited,No,Yes,No,2022-01-22
 San Bernardino County,,,San Bernardino,San Bernardino County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 San Diego County,,,San Diego,San Diego County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Allowed,No,No,No,2022-01-22
-San Francisco County,,,San Francisco,City and County of San Francisco,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-03-17
+San Francisco County,,,San Francisco,San Francisco County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-03-17
 San Joaquin County,,,San Joaquin,San Joaquin County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
 San Luis Obispo County,,,San Luis Obispo,San Luis Obispo County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,No,2022-01-22
 San Mateo County,,,San Mateo,San Mateo County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Limited,No,Yes,No,2022-01-22
@@ -409,7 +409,7 @@ San Marcos,San Marcos,668196,San Diego,San Diego County,City,Prohibited,Prohibit
 Santee,Santee,670224,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Solana Beach,Solana Beach,672506,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Vista,Vista,682996,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
-San Francisco,San Francisco,667000,San Francisco,City and County of San Francisco,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+San Francisco,San Francisco,667000,San Francisco,San Francisco County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Escalon,Escalon,622790,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Lathrop,Lathrop,640704,San Joaquin,San Joaquin County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
 Lodi,Lodi,642202,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22

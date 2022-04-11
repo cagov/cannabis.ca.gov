@@ -77,9 +77,11 @@ export default function drawPlaceMap({
         domElement + ' [data-name="county-boundaries"]'
       );
 
+
+
+
       countiesGroup.node().append(counties.documentElement);
       let countyPaths = countiesGroup.selectAll("g path");
-
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
 
