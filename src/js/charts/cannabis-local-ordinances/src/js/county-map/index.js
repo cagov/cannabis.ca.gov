@@ -319,7 +319,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     }
 
     let tooltipContainer = document.querySelector(this.tooltipElement);
-    console.log(tooltipContainer);
     tooltipContainer.setAttribute("style","visibility=hidden");
     this.redraw();
   }

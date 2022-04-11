@@ -42,6 +42,7 @@ function countyStatusTooltipMessage(data, props) {
   }
 
   data.tooltipData = getCountyTooltipData(data, props);
+  console.log("county ", data.tooltipData );
 
   label = insertValueIntoSpanTag(label, mode, "data-status");
 
@@ -76,7 +77,7 @@ function countyStatusTooltipMessage(data, props) {
           </div>
           <div>
             <p>
-              <a class="loadCounty" href="#county-view?county=">${detailsCTA}</a>
+              <a class="loadCounty" href="#county-view?county=${data.tooltipData.name}">${detailsCTA}</a>
             </p>
           </div>
         </div>`;

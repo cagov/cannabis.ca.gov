@@ -39,7 +39,7 @@ function chartTooltipPlace(data, props, options) {
  */
 function placeStatusTooltipMessage(data, props, options) {
   let { prohibitionStatus } = props;
-  let { name } = options;
+  let { name, geoid } = options;
   let { activities, showPlaces, showCounties } = data;
   let mode = activities;
   let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
@@ -47,27 +47,8 @@ function placeStatusTooltipMessage(data, props, options) {
 
   // Choose label based on toggle
   let label = all;
-  // if (showPlaces && !showCounties) {
-  //   label = city;
-  // } else if (showCounties && !showPlaces) {
-  //   label = county;
-  // } else if (showCounties && showPlaces) {
-  //   label = all;
-  // }
-
-  // prohibitedLegend = insertValueIntoSpanTag(
-  //   prohibitedLegend,
-  //   data.tooltipData.activityPercentages.prohibited,
-  //   "data-status"
-  // );
-  // allowedLegend = insertValueIntoSpanTag(
-  //   allowedLegend,
-  //   data.tooltipData.activityPercentages.allowed,
-  //   "data-status"
-  // );
-
   data.tooltipData = getPlaceTooltipData(data, props);
-  // console.log(data.tooltipData);
+
   label = insertValueIntoSpanTag(label, mode, "data-status");
 
   let icon = "";
@@ -89,7 +70,7 @@ function placeStatusTooltipMessage(data, props, options) {
           </div>
           <div>
             <p>
-              <a class="loadPlace" href="#city-view?geoid=">${detailsCTA}</a>
+              <a class="loadPlace" href="#city-view?geoid=${geoid}">${detailsCTA}</a>
             </p>
           </div>
         </div>`;
