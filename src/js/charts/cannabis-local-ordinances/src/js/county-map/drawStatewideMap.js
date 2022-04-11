@@ -45,7 +45,8 @@ export default function drawStatewideMap({
         .append("g")
         .attr("data-layer-name", "interactive-map")
         .attr("width", "800")
-        .attr("height", "923");
+        .attr("height", "923")
+        ;
 
       let mapHeight = parseInt(
         d3.select("[data-layer-name=interactive-map-container]").style("height")

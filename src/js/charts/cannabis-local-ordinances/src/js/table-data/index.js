@@ -53,7 +53,7 @@ class CAGovTableData extends window.HTMLElement {
       let tableData = [];
       Object.keys(data).map((dataKey) => {
         let rowData = {};
-        rowData["Place"] = dataKey;
+        // rowData["Place"] = dataKey;
         Object.keys(fields).map((fieldKey) => {
           rowData[fieldKey] = data[dataKey][fields[fieldKey]];
           // rowData[fields[fieldKey]] = data[dataKey][fields[fieldKey]];
