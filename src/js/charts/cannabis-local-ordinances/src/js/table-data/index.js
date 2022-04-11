@@ -53,9 +53,12 @@ class CAGovTableData extends window.HTMLElement {
       let tableData = [];
       Object.keys(data).map((dataKey) => {
         let rowData = {};
+        rowData["Place"] = dataKey;
         Object.keys(fields).map((fieldKey) => {
           rowData[fieldKey] = data[dataKey][fields[fieldKey]];
+          // rowData[fields[fieldKey]] = data[dataKey][fields[fieldKey]];
         });
+        console.log("reo", rowData)
         tableData.push(rowData);
       });
       // Get the data for the table rows.
@@ -105,6 +108,7 @@ class CAGovTableData extends window.HTMLElement {
               return `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel}</td>`;
             }
             if (rowValue === "1" && row[5] === "City") {
+              // console.log(row);
               rowValueLabel = row[0];
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             } else if (rowValue === "1" && row[5] === "County") {
@@ -176,7 +180,7 @@ class CAGovTableData extends window.HTMLElement {
       }
     } else if (level === "Place") {
       if (geoid !== null) {
-        console.log(data);
+        // console.log(data);
         let countyQuery = `${tableSelector} tr[c="${data.selectedCounty}"][data-geoid="null"]`;
         let countyElements = document.querySelectorAll(countyQuery);
         let query = `${tableSelector} tr[data-geoid="${geoid}"]`; // Everything in the county.

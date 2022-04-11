@@ -184,7 +184,7 @@ export default function drawStatewideMap({
                 .delay(2500)
                 .style("visibility", "hidden");
             })
-            .on("mouseout focusout", function (d) {
+            .on("mouseout focusout clickout", function (d) {
               d3.select(this).attr("fill", "transparent");
 
               // return tooltip
