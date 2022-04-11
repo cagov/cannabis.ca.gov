@@ -185,15 +185,9 @@ export default function drawCountyMap({
             .attr("aria-label", (d, i) => {
               return "Label";
             })
-            .on("mouseover focus", function (event, d) {
+            .on("click", function (event, d) {
+              console.log("click ");
               d3.select(this).attr("fill-opacity", "0.8");
-              tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
-              return tooltip
-                .transition()
-                .duration(0)
-                .style("visibility", "visible");
-            })
-            .on("mousemove", function (event, d) {
               let shapes = [el];
               let tooltipPosition = tooltipPlacement(
                 {
@@ -202,30 +196,20 @@ export default function drawCountyMap({
                 },
                 el
               );
+              tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
               return tooltip
+                .transition()
+                .duration(0)
                 .style("left", tooltipPosition.x + "px")
-                .style("top", tooltipPosition.y + "px");
+                .style("top", tooltipPosition.y + "px")
+                .style("visibility", "visible");
             })
-            .on("click", function (event, d) {
-              updateHistory(
-                {
-                  "data-geoid": geoid,
-                  "data-county": currentPlace["County label"],
-                  "title": "Place view",
-                  "anchor": "#city-view",
-                  "paramString": `?city=${name}&geoid=${geoid}`
-                }
-              );
-              return tooltip
-              .transition()
-              .delay(5000)
-              .style("visibility", "hidden");
-            })
-            .on("clickout", function (d) {
+            .on("dblclick", function (event, d) {
+              console.log("co");
               d3.select(this).attr("fill-opacity", "1");
               return tooltip
               .transition()
-              .delay(5000)
+              .delay(0)
               .style("visibility", "hidden");
             });
         } else {

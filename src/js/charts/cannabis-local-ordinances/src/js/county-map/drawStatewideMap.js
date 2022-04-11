@@ -159,11 +159,11 @@ export default function drawStatewideMap({
               .style("top", tooltipPosition.y + "px")
               .style("visibility", "visible");
             })
-            .on("clickout", function (d) {
+            .on("dblclick", function (d) {
               d3.select(this).attr("fill", "transparent");
                return tooltip
               .transition()
-              .delay(250)
+              .delay(200)
               .style("visibility", "hidden");
             });
         });
