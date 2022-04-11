@@ -58,7 +58,6 @@ class CAGovTableData extends window.HTMLElement {
           rowData[fieldKey] = data[dataKey][fields[fieldKey]];
           // rowData[fields[fieldKey]] = data[dataKey][fields[fieldKey]];
         });
-        console.log("reo", rowData)
         tableData.push(rowData);
       });
       // Get the data for the table rows.
