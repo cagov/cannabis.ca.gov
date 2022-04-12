@@ -26,8 +26,8 @@
     <script src="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.js"></script>
      -->
     <!-- Local build -->
-    <!-- <script src="./bundle.js"></script> -->
-    <script src="https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11" async></script>
+    <script src="./bundle.js"></script>
+    <!-- <script src="https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11" async></script> -->
 
     <title>Where cannabis business is legal in California</title>
   </head>
@@ -110,15 +110,15 @@
               class="map-breadcrumb-item"
               data-active="true"
               data-level="state"
-              data-jurisdiction=""
+              data-jurisdiction="Statewide"
             >
-            <a href="#state-view=statewide"> California </a>
+            <a href="#state-view=statewide" data-jurisdiction="Statewide"> California </a>
             </span>
             <span
               class="map-breadcrumb-item hidden"
               data-active="true"
               data-level="county"
-              data-jurisdiction=""
+              data-jurisdiction="County"
             >
               <span class="caret"> &gt; </span>
               <a href="#">County</a>
@@ -128,7 +128,7 @@
               class="map-breadcrumb-item hidden"
               data-active="true"
               data-level="place"
-              data-jurisdiction=""
+              data-jurisdiction="Place"
             >
               <span class="caret"> &gt; </span>
               <span class="place-label">City</span>

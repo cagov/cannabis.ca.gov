@@ -70,7 +70,7 @@ function placeStatusTooltipMessage(data, props, options) {
           </div>
           <div>
             <p>
-              <a class="loadPlace" href="#city-view?geoid=${geoid}">${detailsCTA}</a>
+              <a class="loadPlace" data-jurisdiction="Place" data-geoid="${geoid}" href="#city-view?geoid=${geoid}">${detailsCTA}</a>
             </p>
           </div>
         </div>`;

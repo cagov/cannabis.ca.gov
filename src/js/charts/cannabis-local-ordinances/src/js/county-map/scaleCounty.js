@@ -27,14 +27,10 @@ const scaleCounty = (el, data, county, rawWidth, rawHeight, domElement, island =
  
   // console.log("data.selectedCountyIslands", data.selectedCountyIslands);
   data.selectedCountyIslands.forEach((keyEl) => {
-    console.log(keyEl);
     var bbox = keyEl.node().getBBox();
     var box = keyEl.node().getBoundingClientRect();
     var left = box.left + scrollLeft;
     var top = box.top + scrollTop;
-    console.log(top, left);
-
-
 
     maxBBox.x = bbox.x > maxBBox.x ? bbox.x : maxBBox.x; 
     maxBBox.y = bbox.y > maxBBox.y ? bbox.y : maxBBox.y; 
@@ -43,14 +39,13 @@ const scaleCounty = (el, data, county, rawWidth, rawHeight, domElement, island =
     
     maxBBox.top = top > maxBBox.top ? top : maxBBox.top; 
     maxBBox.left = left > maxBBox.left ? left : maxBBox.left; 
-    console.log(bbox, maxBBox);
   });
 
   var dx = bbox.width - bbox.x,
     dy = bbox.height - bbox.y,
     x = (bbox.x + (bbox.x + bbox.width)) / 2,
     y = (bbox.y + (bbox.y + bbox.height)) / 2,
-    scale = Math.min(rawHeight / bbox.height, rawWidth / bbox.width) - 4,
+    scale = Math.min(rawHeight / bbox.height, rawWidth / bbox.width) - 3,
     translate = [(rawWidth / 2 - scale * x), ((rawHeight / 2) - (scale * y) )];
 
   // var dx = maxBBox.width - maxBBox.x,
@@ -70,15 +65,18 @@ const scaleCounty = (el, data, county, rawWidth, rawHeight, domElement, island =
     translate,
   };
 
-  // let aspectRatio = bbox.height/bbox.width;
+  let aspectRatio = bbox.height/bbox.width;
   // let aspectRatio = maxBBox.height/maxBBox.width;
-  // console.log(aspectRatio);
-  let aspectRatio = 1;
+  console.log(aspectRatio);
+  // let aspectRatio = 1;
 
-  d3.select("[data-layer-name=interactive-map-container]")
-  .attr("viewBox",  `0,${rawHeight*aspectRatio / 3 - 200},${rawWidth},${rawHeight*aspectRatio}`);
+  console.log(bbox);
 
+  // d3.select("[data-layer-name=interactive-map-container]")
+  // .attr("viewBox",  `0,${rawHeight*aspectRatio / 2 - 100},${rawWidth},${rawHeight*aspectRatio}`);
 
+  // d3.select("[data-layer-name=interactive-map-container]")
+  // .attr("viewBox",  `0,${bbox.height / 2},${bbox.width},${bbox.height*aspectRatio}`);
 
 
   // Scale the county and places containerer

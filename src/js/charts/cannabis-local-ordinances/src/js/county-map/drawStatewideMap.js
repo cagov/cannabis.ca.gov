@@ -130,7 +130,7 @@ export default function drawStatewideMap({
           let island = el.attr("data-island"); // Island values from californoia county boundaries
           let geoid = el.attr("data-geoid");
           let props = getCountyTooltipData(data, { name, island, geoid });
-
+          tooltip.attr("data-toggle","false");
           el.attr("stroke-width", 1)
             .attr("stroke-opacity", 1)
             .attr("stroke", "#FFFFFF")
@@ -140,32 +140,44 @@ export default function drawStatewideMap({
               return "Label";
             })
             .on("click", function (event, d) {
-              d3.select(this)
-              .attr("fill", "#fcfcfc")
-              .attr("fill-opacity", "0.2");
-              tooltip.html(chartTooltipCounty(data, props));
+              // if (tooltip.attr("data-toggle") !== "true") {
+                d3.select(this)
+                .attr("fill", "#fcfcfc")
+                .attr("fill-opacity", "0.2");
+                tooltip.html(chartTooltipCounty(data, props));
+                
 
-              let shapes = data.countyList[name].shapes;
-              let tooltipPosition = tooltipPlacement(
-                {
-                  rawWidth,
-                  rawHeight,
-                },
-                shapes
-              );
-              return tooltip
-              .transition()
-              .duration(0)
-              .style("left", tooltipPosition.x + "px")
-              .style("top", tooltipPosition.y + "px")
-              .style("visibility", "visible");
+                let shapes = data.countyList[name].shapes;
+                let tooltipPosition = tooltipPlacement(
+                  {
+                    rawWidth,
+                    rawHeight,
+                  },
+                  shapes
+                );
+                tooltip.attr("data-toggle","false");
+                data.setupTooltipUIListeners(data);
+                return tooltip
+                  .transition()
+                  .duration(0)
+                  .style("left", tooltipPosition.x + "px")
+                  .style("top", tooltipPosition.y + "px")
+                  .style("visibility", "visible");
+              // } else {
+              //   d3.select(this).attr("fill", "transparent");
+              //   tooltip.attr("data-toggle", "true");
+              //   return tooltip
+              //     .transition()
+              //     .delay(200)
+              //     .style("visibility", "hidden");
+              // }
             })
             .on("dblclick", function (d) {
               d3.select(this).attr("fill", "transparent");
-               return tooltip
-              .transition()
-              .delay(200)
-              .style("visibility", "hidden");
+              return tooltip
+                .transition()
+                .delay(200)
+                .style("visibility", "hidden");
             });
         });
       })

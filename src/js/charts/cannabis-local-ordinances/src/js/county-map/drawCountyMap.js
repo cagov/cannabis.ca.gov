@@ -49,8 +49,7 @@ export default function drawCountyMap({
         .attr("data-layer-name", "interactive-map")
         .attr("cursor", "pointer")
         .attr("width", "800")
-        .attr("height", "923")
-        ;
+        .attr("height", "923");
       svg.append("g").attr("data-name", "land-boundaries");
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
@@ -79,8 +78,8 @@ export default function drawCountyMap({
       let countyPaths = countiesGroup.selectAll("g path");
       let islandPaths = countiesGroup.selectAll("g path[data-island]");
       data.selectedCountyIslands = [];
-      
-      islandPaths.each(function(p, j) {
+
+      islandPaths.each(function (p, j) {
         let el = d3.select(this);
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
@@ -88,7 +87,6 @@ export default function drawCountyMap({
           data.selectedCountyIslands.push(el);
         }
       });
-      
 
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
@@ -96,7 +94,7 @@ export default function drawCountyMap({
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
-     
+
         // let geoid = el.attr("data-geoid");
         // console.log("island", island, geoid);
         if (name === data.selectedCounty) {
@@ -111,10 +109,10 @@ export default function drawCountyMap({
             .attr("stroke-opacity", 1)
             .attr("stroke", "#FFFFFF");
           // el.remove(); // Remove all the islands to rebuild just county islands at scale.
-           
+
           if (island !== null) {
             el.style("visible", "hidden");
-         
+            // el.remove();
           } else {
             scaleCounty(
               el,
@@ -125,13 +123,10 @@ export default function drawCountyMap({
               domElement
             );
           }
-         
-            
-            
         } else {
           // Not the selected county
-          el.remove();
-          // el.attr("opacity", 0.1);
+          // el.remove();
+          el.attr("opacity", 0.05);
         }
       });
     });
@@ -160,19 +155,17 @@ export default function drawCountyMap({
           let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
           let props = getPlaceTooltipData(data, { name, geoid });
 
-          el
-            .attr("stroke-width", 0.2)
+          el.attr("stroke-width", 0.2)
             .attr("stroke-opacity", 1)
             .attr(
               "stroke",
               placeColor !== "transparent" ? "#FFF" : "transparent"
             );
 
-          el
-            .attr("fill", () => {
-              let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-              return placeColor;
-            })
+          el.attr("fill", () => {
+            let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+            return placeColor;
+          })
             .attr("tabindex", "0")
             .attr("aria-label", (d, i) => {
               return "Label";
@@ -188,6 +181,7 @@ export default function drawCountyMap({
                 el
               );
               tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
+              data.setupTooltipUIListeners(data);
               return tooltip
                 .transition()
                 .duration(0)

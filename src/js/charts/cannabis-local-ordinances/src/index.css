@@ -416,6 +416,11 @@ cagov-map-table .download .button svg {
 .cagov-map-tooltip.tooltip-container a.loadCounty {
   color: #000;
 }
+.cagov-map-tooltip.tooltip-container a.loadCounty em,
+.cagov-map-tooltip.tooltip-container a.loadPlace em {
+  cursor: none;
+  pointer-events: none;
+}
 
 @media only screen and (max-width: 900px) {
   .tooltip-container {
