@@ -1,0 +1,9 @@
+{
+  "dir": {
+    "input": "src/templates",
+    "data": "src/templates/_data",
+    "includes": "src/templates/_includes",
+    "layouts": "src/templates/_includes/layouts",
+    "output": "docs"
+  }
+}

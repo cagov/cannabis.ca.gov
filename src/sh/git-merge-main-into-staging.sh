@@ -2,7 +2,7 @@
 git fetch
 git checkout main
 git pull
-git checkout development
+git checkout staging
 git pull
 git merge --no-ff --no-commit main
 # git restore --source=HEAD --staged --worktree -- \ 
@@ -23,4 +23,4 @@ git checkout main src/wordpress-media
 git checkout main src/sh
 git checkout main odi-publishing
 git checkout main .github/workflows
-#git commit -m "Selective merge: main into development"
+#git commit -m "Selective merge: main into staging"
