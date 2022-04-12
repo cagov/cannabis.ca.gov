@@ -31,7 +31,8 @@
     "watch": "eleventy --serve",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
-    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all"
+    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
+    "cannabis-local-ordinances:bundle": "cp src/js/charts/cannabis-local-ordinances/build/bundle.js src/assets/bundle.1.0.0.js"
   },
   "keywords": [
     "@cagov",
