@@ -8,7 +8,7 @@ const updateHistory = (props) => {
   // console.log(path);
   // window.history.pushState(props, props.title, path);
   // console.log(window.location);
-  window.location.hash = path;
+  // window.location.hash = path; // TEMPORARILY DISABLED, Future feature.
 };
 
 const updateMapLevelFromHash = (hash, data) => {
