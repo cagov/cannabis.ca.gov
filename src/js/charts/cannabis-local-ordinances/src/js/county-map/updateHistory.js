@@ -1,100 +1,138 @@
 /**
  * Set path for interaction state.
- * @param {*} props 
+ * @param {*} props
  */
 const updateHistory = (props) => {
-  console.log(props);
+  // console.log(props);
   let path = props.anchor + props.paramString;
-  console.log(path);
+  // console.log(path);
   // window.history.pushState(props, props.title, path);
-  console.log(window.location);
+  // console.log(window.location);
   window.location.hash = path;
 };
 
 const updateMapLevelFromHash = (hash, data) => {
-  console.log("update hash", hash);
-  /// @TODO Throttle
+  // console.log("update hash", hash, data);
+  if (hash !== undefined && hash.length > 0) {
+    let paramKeys = getParamKeys(hash, data);
+    console.log("paramKeys", paramKeys);
+    setDataFromHash(paramKeys, data);
+    // updateDisplaysFromHash(data);
+  }
+};
+
+const getParamKeys = (hash, data) => {
+  let paramKeys = {};
+  let splitHash = hash.split("?");
+  let anchor = splitHash[0];
+  paramKeys.anchor = anchor;
+  if (splitHash[1] !== undefined) {
+    let params = splitHash[1].split("&");
+    if (params.length > 0) {
+      Object.keys(params).map((param) => {
+        let splitParam = params[param].split("=");
+        paramKeys[splitParam[0]] = splitParam[1];
+      });
+    }
+  }
+  console.log("paramKeys", paramKeys);
+  return paramKeys;
+};
+
+const setDataFromHash = (paramKeys, data) => {
   let county = null;
-  let level = "statewide";
+  let level = "statewide"; // Next level to set
   let place = null;
   let geoid = null;
   let activities = null;
 
-  if (hash !== undefined && hash.length > 0) {
-    let splitHash = hash.split("?");
-    if (splitHash[1] !== undefined) {
-      let params = splitHash[1].split("&");
-      let paramKeys = {};
-      if (params.length > 0) {
-        Object.keys(params).map((param) => {
-          let splitParam = params[param].split("=");
-          paramKeys[splitParam[0]] = splitParam[1];
-        });
+  // Set activity data
+  if (paramKeys["activity"] !== undefined && paramKeys["activity"] !== null) {
+    data.activities = paramKeys["activity"];
+  }
+
+  // Set places filter data
+  if (paramKeys.anchor === "#county-view") {
+    level = "county";
+    if (paramKeys["county"] !== undefined && paramKeys["county"] !== null) {
+      data.selectedCounty = paramKeys["county"];
+    }
+  } else if (paramKeys.anchor === "#city-view") {
+    level = "place";
+    if (paramKeys["city"] !== undefined && paramKeys["city"] !== null) {
+      data.selectedPlace = paramKeys["city"];
+    }
+    if (paramKeys["geoid"] !== undefined && paramKeys["geoid"] !== null) {
+      data.geoid = paramKeys["geoid"];
+    }
+  }
+  console.log("data", data);
+};
+
+const updateDisplaysFromHash = () => {
+  // updateActivityFilter();
+  // updatePlacesFilter();
+};
+
+const updateActivityFilter = () => {
+  // Update acvitiy filter settings.
+  var setActivityFilterEl = document.querySelector(
+    ".filter-activity select option:checked"
+  );
+  let activityValue = setActivityFilterEl.value;
+
+  var updateOptionActivity = document.querySelector(
+    `.filter-activity select option[value="${activities}"]`
+  );
+  if (updateOptionActivity !== null) {
+    setActivityFilterEl.selected = false;
+    updateOptionActivity.selected = true;
+  }
+};
+
+const updatePlacesFilter = () => {
+  // Update places filter settings
+  var setPlaceFilterEl = document.querySelector(
+    '.filter[data-filter-type="places"] select option:checked'
+  );
+
+  let value = setPlaceFilterEl.value;
+  if (level === "county") {
+    var updateOptionCountyEl = document.querySelector(
+      `.filter[data-filter-type="places"] select option[value="${county}"]`
+    );
+    let jurisdiction = updateOptionCountyEl.getAttribute("data-jurisdiction");
+    let optionGeoid = updateOptionCountyEl.getAttribute("data-geoid");
+    if (jurisdiction === "County" && value !== county) {
+      if (updateOptionCountyEl !== null) {
+        setPlaceFilterEl.selected = false; // Unset anything selected.
+        updateOptionCountyEl.selected = true;
       }
+    }
+  } else if (level === "place") {
+    var updateOptionPlaceEl = document.querySelector(
+      `.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`
+    );
 
-      console.log("paramKeys", paramKeys);
+    let jurisdiction = updateOptionPlaceEl.getAttribute("data-jurisdiction");
+    let optionGeoid = updateOptionPlaceEl.getAttribute("data-geoid");
 
-      if (
-        paramKeys["activities"] !== undefined &&
-        paramKeys["activities"] !== null
-      ) {
-        activities = paramKeys["activities"];
-      }
+    if (
+      updateOptionPlaceEl !== null &&
+      geoid !== null &&
+      optionGeoid !== geoid
+    ) {
+      setPlaceFilterEl.selected = false; // Unset anything selected.
+      updateOptionPlaceEl.selected = true;
+    }
+  } else if (level === "statewide") {
+    var updateOptionStatewideEl = document.querySelector(
+      `.filter[data-filter-type="places"] select option[value=""]`
+    );
 
-      if (splitHash[0] === "#county-view") {
-        level = "county";
-        if (params !== undefined) {
-          if (
-            paramKeys["county"] !== undefined &&
-            paramKeys["county"] !== null
-          ) {
-            county = paramKeys["county"];
-          }
-        }
-      } else if (splitHash[0] === "#city-view") {
-        level = "place";
-        if (params !== undefined) {
-          if (paramKeys["city"] !== undefined && paramKeys["city"] !== null) {
-            place = paramKeys["city"];
-          }
-
-          if (paramKeys["geoid"] !== undefined && paramKeys["geoid"] !== null) {
-            geoid = paramKeys["geoid"];
-          }
-        }
-      }
-
-      var setPlaceFilterEl = document.querySelector(
-        '.filter[data-filter-type="places"] select option:checked'
-      );
-      let value = setPlaceFilterEl.value;
-      let jurisdiction = setPlaceFilterEl.getAttribute("data-jurisdiction");
-      let optionGeoid = setPlaceFilterEl.getAttribute("data-geoid");
-
-      if (level === "county") {
-        if (jurisdiction === "County" && value !== county) {
-          var updateOption = document.querySelector(
-            `.filter[data-filter-type="places"] select option[value="${county}"]`
-          );
-          if (updateOption !== null) {
-            setPlaceFilterEl.selected = false;
-            updateOption.selected = true;
-          }
-        }
-      } else if (level === "place") {
-        var updateOptionPlace = document.querySelector(
-          `.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`
-        );
-
-        if (
-          updateOptionPlace !== null &&
-          geoid !== null &&
-          optionGeoid !== geoid
-        ) {
-          setPlaceFilterEl.selected = false;
-          updateOptionPlace.selected = true;
-        }
-      }
+    if (updateOptionStatewideEl !== null) {
+      setPlaceFilterEl.selected = false;
+      updateOptionStatewideEl.selected = true;
     }
   }
 };

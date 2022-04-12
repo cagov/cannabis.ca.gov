@@ -48,8 +48,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     };
 
     this.tableContainer = this.dataset.tableContainer;
-
-    this.setupHashListener();
     this.setupFilterListeners();
 
     let data = {
@@ -67,7 +65,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     precalculateActivitiesData(this.localData);
     // Get activities by GEOID (for accuracy)
     precalculateActivitiesData(this.localData, true); // Get more data by GEOID
-
+    // Run hash check last to make sure data object is complete.
+    this.setupHashListener();
     // Render the display for the first time.
     this.render();
   }
@@ -81,12 +80,12 @@ class CannabisLocalOrdinances extends window.HTMLElement {
    * Listen to hash change events and update display based on URL params.
    */
   setupHashListener() {
-    // window.addEventListener(
-    //   "hashchange",
-    //   () => updateMapLevelFromHash(location.hash, this.localData),
-    //   false
-    // );
-    // updateMapLevelFromHash(location.hash, this.localData);
+    window.addEventListener(
+      "hashchange",
+      () => updateMapLevelFromHash(location.hash, this.localData),
+      false
+    );
+    updateMapLevelFromHash(location.hash, this.localData);
   }
 
   /**
@@ -266,7 +265,10 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     let jurisdiction = selectedEl.getAttribute("data-jurisdiction");
     let entry = e.target.value;
     
+    
+      console.log("data.activities", data.activities);
     let hasActivities = data.activities !== undefined && data.activities !== null && data.activities !== "Any activities";
+
     console.log(hasActivities, jurisdiction);
     if (jurisdiction === "County") {
       updateHistory({
@@ -285,6 +287,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         paramString: hasActivities ? `?city=${currentPlace["CA Places Key"]}&geoid=${geoid}&activity=${data.activities}` : `?city=${currentPlace["CA Places Key"]}&geoid=${geoid}`,
       });
     } else {
+      console.log("else", data.activities, hasActivities);
       updateHistory({
         title: "Statewide view",
         "data-activity": data.activities,
