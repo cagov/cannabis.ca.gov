@@ -18,6 +18,7 @@
     "git:merge:feature-into-dev": "./src/sh/git-merge-feature-into-development.sh",
     "git:merge:test-into-main": "./src/sh/git-merge-test-into-main.sh",
     "git:merge:test-into-test-staging": "./src/sh/git-merge-test-into-test-staging.sh",
+    "git:merge:main-into-staging": "./src/sh/git-merge-main-into-staging.sh",
     "start": "npm run watch",
     "test:headed": "npx playwright test --headed",
     "test:playwright:headed": "npm-run-all test:server:background test:headed",
