@@ -73,10 +73,10 @@ export default function drawCountyMap({
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-boundaries"]'
       );
-
       countiesGroup.node().append(counties.documentElement);
       let countyPaths = countiesGroup.selectAll("g path");
       let islandPaths = countiesGroup.selectAll("g path[data-island]");
+      console.log(islandPaths);
       data.selectedCountyIslands = [];
 
       islandPaths.each(function (p, j) {
@@ -125,8 +125,8 @@ export default function drawCountyMap({
           }
         } else {
           // Not the selected county
-          // el.remove();
-          el.attr("opacity", 0.05);
+          el.remove();
+          // el.attr("opacity", 0.05);
         }
       });
     });
