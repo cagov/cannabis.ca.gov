@@ -70,6 +70,6 @@ document.querySelector('head').appendChild(newScript_pixel);
 // View README.md for more infomation
 // This source code is compiled and some of the external assets are also hosted here and consumed by this UI.
 let cannabis_local_ordinances = document.createElement("script");
-cannabis_local_ordinances.src = "https://headless.cannabis.ca.gov/assets/data/bundle.js?1.0.0-2022-04-11";
+cannabis_local_ordinances.src = "https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11";
 cannabis_local_ordinances.async = "true";
 document.querySelector('head').appendChild(cannabis_local_ordinances);

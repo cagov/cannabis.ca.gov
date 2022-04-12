@@ -25,11 +25,26 @@
     <link href="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.css" rel="stylesheet" />
     <script src="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.js"></script>
      -->
-    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+    <!-- Local build -->
     <script src="./bundle.js"></script>
+    <script src="https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11" async></script>
+<!--
+    // Include source code for Cannabis Local Ordinances
+// Source code located at https://github.com/cagov/cannabis.ca.gov/tree/main/src/js/charts/cannabis-local-ordinances
+// View README.md for more infomation
+// This source code is compiled and some of the external assets are also hosted here and consumed by this UI.
+-->
+
+
     <title>Where cannabis business is legal in California</title>
   </head>
   <body>
+    <script>
+      let cannabis_local_ordinances = document.createElement("script");
+      cannabis_local_ordinances.src = "https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11";
+      cannabis_local_ordinances.async = "true";
+      document.querySelector('head').appendChild(cannabis_local_ordinances);
+      </script>
     <main>
       <!-- wp:heading -->
       <h2>Where cannabis business is legal in California</h2>
