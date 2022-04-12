@@ -1,6 +1,6 @@
 <p>Cannabis is legal in California. But local restrictions on cannabis business create a patchwork of areas where it is and is not legal. As a result, many people cannot get safe products where they live. And the illegal market continues to thrive.</p>
 
-   <div class="tracker-boxes">
+<div class="tracker-boxes">
         <div class="tracker-box-wrapper">
           <div class="tracker-box">
             <div class="value">44%</div>
@@ -35,43 +35,34 @@
 
 <p>This map shows which areas in California allow cannabis business activities.</p>
 
-   <cagov-map-table
+<cagov-map-table
         id="cagov-map-table"
       >
         <div class="map-header">
-          <div class="breadcrumb">
+          <div class="map-breadcrumb">
             <span
-              class="breadcrumb-item"
+              class="map-breadcrumb-item"
               data-active="true"
               data-level="state"
-              data-jurisdiction=""
+              data-jurisdiction="Statewide"
             >
-              California
+            <a href="#state-view=statewide" data-jurisdiction="Statewide"> California </a>
             </span>
             <span
-              class="breadcrumb-item hidden"
-              data-active="true"
-              data-level="state-clickable"
-              data-jurisdiction=""
-            >
-              <a href="#map-california">California</a>
-            </span>
-
-            <span
-              class="breadcrumb-item hidden"
+              class="map-breadcrumb-item hidden"
               data-active="true"
               data-level="county"
-              data-jurisdiction=""
+              data-jurisdiction="County"
             >
               <span class="caret"> &gt; </span>
-              <a href="#map-county">County</a>
+              <a href="#">County</a>
             </span>
 
             <span
-              class="breadcrumb-item hidden"
+              class="map-breadcrumb-item hidden"
               data-active="true"
               data-level="place"
-              data-jurisdiction=""
+              data-jurisdiction="Place"
             >
               <span class="caret"> &gt; </span>
               <span class="place-label">City</span>
@@ -154,6 +145,9 @@
                     <option data-jurisdiction="County" value="Calaveras">
                       Calaveras County
                     </option>
+                    <!-- <option data-jurisdiction="County" value="San Francisco">
+                      San Francisco County
+                    </option> -->
                     <option data-jurisdiction="County" value="Colusa">
                       Colusa County
                     </option>
@@ -251,7 +245,7 @@
                       San Diego County
                     </option>
                     <option data-jurisdiction="County" value="San Francisco">
-                      City and County of San Francisco
+                      San Francisco County
                     </option>
                     <option data-jurisdiction="County" value="San Joaquin">
                       San Joaquin County
@@ -807,21 +801,24 @@
 
         <div class="interactive-map-container">
           <div class="interactive-map">
-            
-            <div class="map-wrapper" data-container="#cagov-map-table">
-              <div class="map-legend" data-container="#cagov-map-table"></div>
+            <div class="map-wrapper">
+              <div class="map-legend"></div>
               <cannabis-local-ordinances 
-                id="cannabis-local-ordinances"
+                id="cannabis-local-ordinances-map"
                 data-county="https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg"
                 data-county-outlines="https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg"
                 data-places="https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg"
+                data-table-container="cagov-table-data[id=cannabis-local-ordinances-table]"
               > </cannabis-local-ordinances>
             </div>
             
-            <div class="data-table" data-container="#cagov-map-table">
+            <div class="data-table">
               <div class="table-data">
                 <div role="region" aria-labelledby="caption" tabindex="0">
-                <cagov-table-data data-container="#cagov-map-table" data-source-wordpress="https://headless.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.html" data-source="/assets/data/cannabis-local-ordinances.html">
+                <cagov-table-data 
+                  id="cannabis-local-ordinances-table"
+                  data-map-container="cannabis-local-ordinances[id=cannabis-local-ordinances-map]"
+                >
                 </cagov-table-data>
               </div>
               </div>
@@ -829,6 +826,7 @@
           </div>
           <div class="download">
             <div class="button">
+              <a href="https://headless.cannabis.ca.gov/assets/data/draft-cannabis-legal-access.2022-01-22.csv" download>
               <svg
                 width="24"
                 height="21"
@@ -846,6 +844,7 @@
                 ></path>
               </svg>
               Download data
+              </a>
             </div>
           </div>
         </div>
@@ -860,6 +859,8 @@
 </div>
 	</details>
 </cagov-accordion>
+<p></p>
+
 <p>If you’re a city or county official and think your data is not correct, <a href="/about-us/contact-us/" data-type="URL" data-id="/about-us/contact-us/">reach out to us.</a></p>
 
 <h2>Why cannabis business is not legal everywhere</h2>
