@@ -1,5 +1,5 @@
 main {
-  max-width: 785px;
+  /* max-width: 785px; */
 }
 [data-layer-name="interactive-map-container"] {
   /* width: 45%; */
@@ -33,7 +33,7 @@ cagov-map-table .map-legend {
   width: 323px;
   height: 200px;
   position: absolute;
-  margin-left: 350px;
+  margin-left: 420px;
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 8px;
@@ -52,7 +52,7 @@ cagov-map-table[data-map-level="county"] .map-legend {
   width: 323px;
   height: auto;
   position: relative;
-  margin-left: 350px;
+  margin-left: 420px;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #fff;
@@ -61,7 +61,7 @@ cagov-map-table[data-map-level="place"] .map-legend {
   width: 323px;
   height: auto;
   position: relative;
-  margin-left: 350px;
+  margin-left: 420px;
   margin-top: 16px;
   margin-bottom: 16px;
   background-color: #fff;
@@ -128,19 +128,19 @@ cagov-map-table .map-header {
 }
 
 /* Breadcrumb */
-cagov-map-table .map-header .breadcrumb {
+cagov-map-table .map-header .map-breadcrumb {
   margin: 0;
 }
 
-cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-level="state"] {
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-level="state"] {
   margin: 0;
 }
 
-cagov-map-table .map-header .breadcrumb .breadcrumb-item.hidden {
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item.hidden {
   display: none;
 }
 
-cagov-map-table .map-header .breadcrumb span {
+cagov-map-table .map-header .map-breadcrumb span {
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
@@ -149,7 +149,7 @@ cagov-map-table .map-header .breadcrumb span {
 }
 
 @media only screen and (max-width: 900px) {
-  cagov-map-table .map-header .breadcrumb span {
+  cagov-map-table .map-header .map-breadcrumb span {
     font-size: 16px;
   }
 }
@@ -158,12 +158,12 @@ cagov-map-table .map-header .caret {
   padding: 0 8px;
 }
 
-cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-active="true"] a {
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-active="true"] a {
   text-decoration: underline;
   color: #064e66;
 }
 
-cagov-map-table .map-header .breadcrumb .breadcrumb-item[data-active="false"] {
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-active="false"] {
   display: none;
 }
 
@@ -172,7 +172,7 @@ cagov-map-table .interactive-map-container {
   border: 1px solid #e1e0e3;
   border-top: none;
   box-sizing: border-box;
-  padding: 8px 36px;
+  /* padding: 8px 36px; */
   /* display: flex; */
   /* flex-flow: column wrap; */
 }
@@ -435,6 +435,10 @@ svg :focus {
 .loadCounty {
   color: #000;
   text-decoration: underline;
+}
+
+.download {
+  margin: 0 16px;
 }
 
 @import "./js/combo-box/combo-box.css";

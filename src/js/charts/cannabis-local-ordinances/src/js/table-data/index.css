@@ -1,8 +1,22 @@
+/* Unset CAWeb settings */
+.entry-content cagov-table-data tr td {
+  border-top: none;
+  padding: 0px 10px;
+}
+
+.entry-content cagov-table-data {
+  overflow-x: scroll;
+}
+
+.data-table {
+  margin-top: 32px;
+}
+
 /* Data table */
 .table-data table {
   overflow-x: scroll;
-  max-width: 720px;
-  margin: 0;
+  /* max-width: 720px; */
+  margin: 0 0 16px 0;
   border: none;
   border-collapse: separate;
   border-spacing: 0;
@@ -76,6 +90,7 @@
   background-color: #fff;
   z-index: 999;
   text-align: start;
+  display: inline-table;
 }
 
 .table-data [role="region"][aria-labelledby][tabindex] {
@@ -99,7 +114,7 @@
 .table-data th[d="1"],
 .table-data td[d="1"] {
   word-wrap: break-word;
-  min-width: 180px;
+  width: 180px;
 }
 
 /* https://yoksel.github.io/url-encoder/ */

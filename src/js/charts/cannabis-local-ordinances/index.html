@@ -26,24 +26,22 @@
     <script src="http://cdn.designsystem.webstandards.ca.gov.s3-website-us-west-1.amazonaws.com/components/ds-accordion/v2.0.0/index.js"></script>
      -->
     <!-- Local build -->
-    <script src="./bundle.js"></script>
+    <!-- <script src="./bundle.js"></script> -->
     <script src="https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11" async></script>
-<!--
-    // Include source code for Cannabis Local Ordinances
-// Source code located at https://github.com/cagov/cannabis.ca.gov/tree/main/src/js/charts/cannabis-local-ordinances
-// View README.md for more infomation
-// This source code is compiled and some of the external assets are also hosted here and consumed by this UI.
--->
-
 
     <title>Where cannabis business is legal in California</title>
   </head>
   <body>
     <script>
-      let cannabis_local_ordinances = document.createElement("script");
-      cannabis_local_ordinances.src = "https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11";
-      cannabis_local_ordinances.async = "true";
-      document.querySelector('head').appendChild(cannabis_local_ordinances);
+    // Include source code for Cannabis Local Ordinances
+    // Source code located at https://github.com/cagov/cannabis.ca.gov/tree/main/src/js/charts/cannabis-local-ordinances
+    // View README.md for more infomation
+    // This source code is compiled and some of the external assets are also hosted here and consumed by this UI.
+    let cannabis_local_ordinances = document.createElement("script");
+    cannabis_local_ordinances.src = "https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11";
+    cannabis_local_ordinances.async = "true";
+    document.querySelector('head').appendChild(cannabis_local_ordinances);
+
       </script>
     <main>
       <!-- wp:heading -->
@@ -107,9 +105,9 @@
         id="cagov-map-table"
       >
         <div class="map-header">
-          <div class="breadcrumb">
+          <div class="map-breadcrumb">
             <span
-              class="breadcrumb-item"
+              class="map-breadcrumb-item"
               data-active="true"
               data-level="state"
               data-jurisdiction=""
@@ -117,7 +115,7 @@
             <a href="#state-view=statewide"> California </a>
             </span>
             <span
-              class="breadcrumb-item hidden"
+              class="map-breadcrumb-item hidden"
               data-active="true"
               data-level="county"
               data-jurisdiction=""
@@ -127,7 +125,7 @@
             </span>
 
             <span
-              class="breadcrumb-item hidden"
+              class="map-breadcrumb-item hidden"
               data-active="true"
               data-level="place"
               data-jurisdiction=""
@@ -896,6 +894,7 @@
           </div>
           <div class="download">
             <div class="button">
+              <a href="https://headless.cannabis.ca.gov/assets/data/draft-cannabis-legal-access.2022-01-22.csv" download>
               <svg
                 width="24"
                 height="21"
@@ -913,11 +912,17 @@
                 ></path>
               </svg>
               Download data
+              </a>
             </div>
           </div>
         </div>
       </cagov-map-table>
+      <!-- /wp:html -->
   
+
+
+  
+
       <cagov-accordion>
         <details>
           <summary>Information about this data</summary>
@@ -926,12 +931,7 @@
           </div>
         </details>
       </cagov-accordion>
-      <!-- /wp:html -->
-      <!-- wp:paragraph -->
-      <p>
-       
-      </p>
-      <!-- /wp:paragraph -->
+      <p></p>
       <!-- wp:paragraph -->
       <p>
         If you’re a city or county official and think your data is not correct,

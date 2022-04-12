@@ -125,7 +125,6 @@ class CAGovTableData extends window.HTMLElement {
       });
       let tableMarkup = `
         <table>
-           <caption id="caption"></caption>
            <thead>
               ${thValues.join("")}
            </thead>
