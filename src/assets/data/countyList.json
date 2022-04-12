@@ -1,0 +1,176 @@
+{
+    "Alameda": {
+       "label": "Alameda County"
+    },
+    "Alpine": {
+       "label": "Alpine County"
+    },
+    "Amador": {
+       "label": "Amador County"
+    },
+    "Butte": {
+       "label": "Butte County"
+    },
+    "Colusa": {
+       "label": "Colusa County"
+    },
+    "Contra Costa": {
+       "label": "Contra Costa County"
+    },
+    "Del Norte": {
+       "label": "County of Del Norte"
+    },
+    "El Dorado": {
+       "label": "El Dorado County"
+    },
+    "Fresno": {
+       "label": "Fresno County"
+    },
+    "Glenn": {
+       "label": "Glenn County"
+    },
+    "Humboldt": {
+       "label": "Humboldt County"
+    },
+    "Imperial": {
+       "label": "Imperial County"
+    },
+    "Inyo": {
+       "label": "Inyo County"
+    },
+    "Kings": {
+       "label": "Kings County"
+    },
+    "Lake": {
+       "label": "Lake County"
+    },
+    "Lassen": {
+       "label": "Lassen County"
+    },
+    "Los Angeles": {
+       "label": "Los Angeles County"
+    },
+    "Madera": {
+       "label": "Madera County"
+    },
+    "Marin": {
+       "label": "Marin County"
+    },
+    "Mariposa": {
+       "label": "Mariposa County"
+    },
+    "Mendocino": {
+       "label": "Mendocino County"
+    },
+    "Merced": {
+       "label": "Merced County"
+    },
+    "Modoc": {
+       "label": "Modoc County"
+    },
+    "Mono": {
+       "label": "Mono County"
+    },
+    "Monterey": {
+       "label": "Monterey County"
+    },
+    "Napa": {
+       "label": "Napa County"
+    },
+    "Nevada": {
+       "label": "Nevada County"
+    },
+    "Orange": {
+       "label": "Orange County"
+    },
+    "Placer": {
+       "label": "Placer County"
+    },
+    "Plumas": {
+       "label": "Plumas County"
+    },
+    "Riverside": {
+       "label": "Riverside County"
+    },
+    "Sacramento": {
+       "label": "Sacramento County"
+    },
+    "San Benito": {
+       "label": "San Benito County"
+    },
+    "San Bernardino": {
+       "label": "San Bernardino County"
+    },
+    "San Diego": {
+       "label": "San Diego County"
+    },
+    "San Francisco": {
+       "label": "City and County of San Francisco"
+    },
+    "San Joaquin": {
+       "label": "San Joaquin County"
+    },
+    "San Luis Obispo": {
+       "label": "County of San Luis Obispo"
+    },
+    "San Mateo": {
+       "label": "San Mateo County"
+    },
+    "Santa Barbara": {
+       "label": "Santa Barbara County"
+    },
+    "Santa Clara": {
+       "label": "Santa Clara County"
+    },
+    "Santa Cruz": {
+       "label": "Santa Cruz County"
+    },
+    "Shasta": {
+       "label": "Shasta County"
+    },
+    "Sierra": {
+       "label": "Sierra County"
+    },
+    "Siskiyou": {
+       "label": "Siskiyou County"
+    },
+    "Solano": {
+       "label": "Solano County"
+    },
+    "Sonoma": {
+       "label": "Sonoma County"
+    },
+    "Stanislaus": {
+       "label": "Stanislaus County"
+    },
+    "Sutter": {
+       "label": "Sutter County"
+    },
+    "Tehama": {
+       "label": "Tehama County"
+    },
+    "Trinity": {
+       "label": "Trinity County"
+    },
+    "Tulare": {
+       "label": "Tulare County"
+    },
+    "Tuolumne": {
+       "label": "Tuolumne County"
+    },
+    "Ventura": {
+       "label": "Ventura County"
+    },
+    "Yolo": {
+       "label": "Yolo County"
+    },
+    "Yuba": {
+       "label": "Yuba County"
+    },
+    "Kern": {
+       "label": "Kern County"
+    },
+    "Calaveras": {
+       "label": "Calaveras County"
+    }
+ }

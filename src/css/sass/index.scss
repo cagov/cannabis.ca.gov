@@ -1,61 +1,33 @@
 /* GLOBAL */
-/* Site Colors */
-@import "./colorschemes/_cannabis.scss"; /* theme colors */
-
 /* sitewide styles */
-@import "../../../node_modules/@cagov/ds-base-css/src/_core.scss";
 
+@import '../../../node_modules/@cagov/ds-base-css/src/_core';
+@import '../../../node_modules/@cagov/ds-base-css/src/colorschemes/_cannabis'; /* theme colors */
 
-/* COMPONENTS/BLOCKS */
-@import "../../../node_modules/@cagov/ds-accordion/src/index.scss"; /* custom css overrides for default accordion styles */
-@import "../../../node_modules/@cagov/ds-branding/src/index.scss";
-@import "../../../node_modules/@cagov/ds-button-grid/src/index.scss"; /* copied from blocks */
-@import "../../../node_modules/@cagov/ds-content-navigation/src/index.scss"; /* copied from blocks */
-@import "../../../node_modules/@cagov/ds-feature-card/src/index.scss"; /* copied from block */
-@import "../../../node_modules/@cagov/ds-step-list/src/index.scss";
-@import "../../../node_modules/@cagov/ds-link-icon/src/index.scss";
-@import "../../../node_modules/@cagov/ds-skip-to-content/src/index.scss";
-@import "../../../node_modules/@cagov/ds-back-to-top/src/index.scss";
+@import '../../../node_modules/@cagov/ds-agency-footer/src/index.scss';
+@import '../../../node_modules/@cagov/ds-back-to-top/src/index.scss';
+@import '../../../node_modules/@cagov/ds-branding/src/index.scss';
+@import '../../../node_modules/@cagov/ds-button-grid/src/index.scss';
+@import '../../../node_modules/@cagov/ds-feature-card/src/index.scss';
+@import '../../../node_modules/@cagov/ds-page-navigation/src/index.scss';
+@import '../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss';
+@import '../../../node_modules/@cagov/ds-feedback/src/css/index.scss';
+@import '../../../node_modules/@cagov/ds-link-grid/src/index.scss';
+@import '../../../node_modules/@cagov/ds-link-icon/src/index.scss';
+@import '../../../node_modules/@cagov/ds-page-alert/src/index.scss';
+@import '../../../node_modules/@cagov/ds-pagination/src/css/index.scss';
+@import '../../../node_modules/@cagov/ds-regulatory-outline/src/index.scss';
+@import '../../../node_modules/@cagov/ds-site-footer/src/index.scss';
+@import '../../../node_modules/@cagov/ds-site-header/src/index.scss';
+@import '../../../node_modules/@cagov/ds-site-navigation/src/index.scss';
+@import '../../../node_modules/@cagov/ds-skip-to-content/src/index.scss';
+@import '../../../node_modules/@cagov/ds-statewide-header/src/index.scss';
+@import '../../../node_modules/@cagov/ds-statewide-footer/src/index.scss';
+@import '../../../node_modules/@cagov/ds-step-list/src/index.scss';
+@import '../../../node_modules/@cagov/ds-table/src/index.scss';
 
+// Local components
 @import "../../components/breadcrumb/_style.scss"; /* copied from blocks */
-@import "../../components/page-alert/_style.scss"; /* copied from gutenberg custom block */
 @import "../../components/post-list/_style.scss";
 
-/* NAVIGATION ELEMENTS */
-@import "../../../node_modules/@cagov/ds-statewide-header/src/index.scss";
-@import "../../../node_modules/@cagov/ds-agency-footer/src/index.scss";
-@import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss";
-@import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss";
-
-
-@import "./_extra.scss"; /* Extra local page styles that belong in ds-base-css */
-
-
-// /* Sitewide styles */
-// @import "../../../node_modules/@cagov/ds-base-css/src/_core.scss";
-
-// /* Navigation styles */
-// @import "../../../node_modules/@cagov/ds-agency-footer/src/index.scss";
-// @import "../../components/breadcrumb/_style.scss";
-// @import "../../../node_modules/@cagov/ds-branding/src/index.scss";
-// @import "../../../node_modules/@cagov/ds-content-navigation/src/index.scss"; /* copied from blocks */
-// @import "../../../node_modules/@cagov/ds-back-to-top/src/index.scss";
-// // @import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss";
-// @import "../../../node_modules/@cagov/ds-feedback/dist/index.css";
-// @import "../../../node_modules/@cagov/ds-link-icon/src/index.scss";
-// @import "../../../node_modules/@cagov/ds-statewide-header/src/index.scss";
-// @import "../../components/site-footer/_style.scss";
-
-// /* Page component blocks */
-// @import "../../../node_modules/@cagov/ds-accordion/src/index.scss"; /* custom css overrides for default accordion styles */
-// @import "../../../node_modules/@cagov/ds-button-grid/src/index.scss"; /* copied from blocks */
-// @import "../../components/event-list/_style.scss";
-// @import "../../../node_modules/@cagov/ds-feature-card/src/index.scss"; /* copied from block */
-// @import "../../../node_modules/@cagov/ds-regulatory-outline/src/index.scss";
-// @import "../../components/page-alert/_style.scss";
-// @import "../../components/post-list/_style.scss";
-// // @import "../../components/promotional-card/_style.scss";
-// // @import "../../components/scrollable-card/_style.scss";
-// @import "../../../node_modules/@cagov/ds-skip-to-content/src/index.scss";
-// @import "../../../node_modules/@cagov/ds-step-list/src/index.scss";
-// @import "../../../node_modules/@cagov/ds-table/src/index.scss";
+// @import "./_extra.scss"; /* Extra local page styles that belong in ds-base-css */

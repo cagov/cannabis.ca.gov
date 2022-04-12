@@ -11,7 +11,7 @@
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
-      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/staging"
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
     },
     "refresh_frequency": "As needed"
   },
@@ -51,6 +51,10 @@
     "replace_urls": [
       "http://cannabis.ca.gov/",
       "https://cannabis.ca.gov/",
+      "https://live-cannabis-ca-gov.pantheonsite.io",
+      "https://test-cannabis-ca-gov.pantheonsite.io",
+      "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "https://api.cannabis.ca.gov",
       "https://dev-cagov-dcc.pantheonsite.io"
     ],
     "editor_url": "https://api.cannabis.ca.gov",

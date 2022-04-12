@@ -30,6 +30,30 @@
 * [BUILD](BUILD.md) - How the build configuration on this project works.
 * [Wiki](https://github.com/cagov/cannabis.ca.gov/wiki) - Slightly out of date old docs.
 
+## Design system components
+
+This project leverages several components that are part of the <a href="https://designsystem.webstandards.ca.gov/">California design system</a>. These components are maintained in the <a href="https://github.com/cagov/design-system">design system repository</a>, published to npm, installed into this project and integrated in to the templates, css and javascript build steps as directed in those project readmes.
+
+Components included are listed as production dependencies in this project's package.json and are all identifiable because they are published under the @cagov/ organization's prefix:
+
+- @cagov/ds-accordion
+- @cagov/ds-agency-footer
+- @cagov/ds-back-to-top
+- @cagov/ds-branding
+- @cagov/ds-button-grid
+- @cagov/ds-content-navigation
+- @cagov/ds-dropdown-menu
+- @cagov/ds-feature-card
+- @cagov/ds-feedback
+- @cagov/ds-link-icon
+- @cagov/ds-pagination
+- @cagov/ds-regulatory-outline
+- @cagov/ds-skip-to-content
+- @cagov/ds-statewide-footer
+- @cagov/ds-statewide-header
+- @cagov/ds-step-list
+- @cagov/ds-table
+
 ## Project contacts
 * Office of Digital Innovation is working with the Department of Cannabis Control and CDT to bring you this site.
 * Submit an issue to the github repo or on the page feedback form on the cannabis site if you are experiencing an issue.

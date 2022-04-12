@@ -1,0 +1,451 @@
+main {
+  /* max-width: 785px; */
+}
+[data-layer-name="interactive-map-container"] {
+  /* width: 45%; */
+  /* max-width: 60vm; */
+  /* height: 60vm; */
+  /* max-height: 650px; */
+  /* max-height: 923px; */
+}
+
+@media only screen and (max-width: 900px) {
+  [data-layer-name="interactive-map-container"] {
+    /* max-height: 650px; */
+  }
+}
+
+/* Responsive map elements */
+cagov-map-table .interactive-map-container .map-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .interactive-map-container .map-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/* LEGEND */
+cagov-map-table .map-legend {
+  width: 323px;
+  height: 200px;
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: #fff;
+}
+@media only screen and (max-width: 900px) {
+  cagov-map-table .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
+}
+
+cagov-map-table[data-map-level="county"] .map-legend {
+  width: 323px;
+  height: auto;
+  position: relative;
+  margin-left: 420px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+cagov-map-table[data-map-level="place"] .map-legend {
+  width: 323px;
+  height: auto;
+  position: relative;
+  margin-left: 420px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
+  cagov-map-table[data-map-level="county"] .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
+  cagov-map-table[data-map-level="place"] .map-legend {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0px;
+  }
+}
+
+cagov-map-table .map-legend .status .icon {
+  width: 30px;
+  margin-right: 8px;
+}
+
+cagov-map-table .map-legend .status {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row;
+  line-height: 32px;
+}
+cagov-map-table .map-legend .status .icon {
+  width: 30px;
+  margin-right: 8px;
+}
+cagov-map-table .map-legend .status p {
+  margin: 0;
+}
+
+cagov-map-table .map-legend strong {
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .map-legend {
+    width: auto;
+    position: relative;
+    right: inherit;
+    margin-top: 16px;
+  }
+}
+
+cagov-map-table .map-header {
+  background: #f9f9fa;
+  border: 1px solid #e1e0e3;
+  box-sizing: border-box;
+  padding: 8px 16px;
+}
+
+/* Breadcrumb */
+cagov-map-table .map-header .map-breadcrumb {
+  margin: 0;
+}
+
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-level="state"] {
+  margin: 0;
+}
+
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item.hidden {
+  display: none;
+}
+
+cagov-map-table .map-header .map-breadcrumb span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 37px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .map-header .map-breadcrumb span {
+    font-size: 16px;
+  }
+}
+
+cagov-map-table .map-header .caret {
+  padding: 0 8px;
+}
+
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-active="true"] a {
+  text-decoration: underline;
+  color: #064e66;
+}
+
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-active="false"] {
+  display: none;
+}
+
+/* Map layers */
+cagov-map-table .interactive-map-container {
+  border: 1px solid #e1e0e3;
+  border-top: none;
+  box-sizing: border-box;
+  /* padding: 8px 36px; */
+  /* display: flex; */
+  /* flex-flow: column wrap; */
+}
+
+cagov-map-table .interactive-map .map {
+  min-height: 650px;
+}
+
+/* @TODO lookup css var breakpoints */
+@media only screen and (max-width: 900px) {
+  cagov-map-table .interactive-map .map {
+    min-height: 292px;
+  }
+}
+
+cannabis-local-ordinances .map-container .map-detail svg {
+  min-width: 520px;
+  min-height: 360px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  cannabis-local-ordinances .map-container .map-detail svg {
+    min-width: 200px;
+    min-height: 360px;
+
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Filters */
+cagov-map-table .filters {
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid #e1e0e3;
+  border-top: none;
+}
+
+.filters form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 900px) {
+  .filters form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.filter-label {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.filters .filter {
+  padding: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 16px 8px 16px;
+
+  width: 260px;
+  height: 48px;
+  left: 16px;
+  top: 56px;
+
+  background: #ffffff;
+  border: 1px solid #b3b2b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+.filters select {
+  /* padding-right: 30px; */
+  background: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='11' height='7' class='expanded-menu-section-header-arrow-svg' viewBox='0 0 11 7' fill='%23000000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat;
+  background-position: right 8px top 50%;
+}
+
+/* Toggle button */
+.toggle-button label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.toggle-button label span {
+  width: 118px;
+}
+
+.toggle-button .toggle {
+  --width: 34px;
+  --height: calc(var(--width) / 2);
+  --height-inner: calc(var(--height) - 4px);
+  --border-radius: calc(var(--height) / 2);
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle-button .toggle__input {
+  display: none;
+}
+
+.toggle-button .toggle__fill {
+  position: relative;
+  width: calc(var(--width) - 1px);
+  height: calc(var(--height) - 1px);
+  border-radius: var(--border-radius);
+  background: #dddddd;
+  transition: background 0.2s;
+}
+
+.toggle-button .toggle__fill::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  height: 12px; /* var(--height); */
+  width: 12px; /* var(--height); */
+  background: #ffffff;
+
+  border-radius: var(--border-radius);
+  transition: transform 0.2s;
+}
+
+.toggle-button .toggle__input:checked ~ .toggle__fill {
+  background: #064e66;
+}
+
+.toggle-button .toggle__input:checked ~ .toggle__fill::after {
+  transform: translateX(var(--height-inner));
+}
+
+/* Download button */
+cagov-map-table .download .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #064e66;
+  color: #064e66;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 210px;
+  height: 48px;
+  margin: 16px 0;
+}
+
+cagov-map-table .download .button svg {
+  margin-inline-end: 8px;
+}
+
+/* TOOLTIPS */
+.tooltips {
+  position: absolute;
+  z-index: 2000;
+}
+
+.tooltip-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 24px;
+  width: 328px;
+  background: #ffffff;
+  border-radius: 5px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tooltip {
+  font-size: 18px;
+  padding: 10px;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 24px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.cagov-map-tooltip.tooltip-container .county-tooltip h3 {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.cagov-map-tooltip.tooltip-container .status {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row;
+  line-height: 32px;
+}
+.cagov-map-tooltip.tooltip-container .status .icon {
+  width: 30px;
+  margin-right: 8px;
+}
+.cagov-map-tooltip.tooltip-container .status p {
+  margin: 0;
+}
+
+.cagov-map-tooltip.tooltip-container .county-tooltip .tooltip-label strong {
+  line-height: 24px;
+}
+
+.cagov-map-tooltip.tooltip-container a.loadCounty {
+  color: #000;
+}
+.cagov-map-tooltip.tooltip-container a.loadCounty em,
+.cagov-map-tooltip.tooltip-container a.loadPlace em {
+  cursor: none;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .tooltip-container {
+    width: 240px;
+  }
+}
+
+label.hidden {
+  display: none;
+}
+
+svg :focus {
+  outline: 1px dashed black;
+}
+
+.loadPlace,
+.loadCounty {
+  color: #000;
+  text-decoration: underline;
+}
+
+.download {
+  margin: 0 16px;
+}
+
+@import "./js/combo-box/combo-box.css";
+@import "./js/tracker-boxes/index.css";
+@import "./js/table-data/index.css";

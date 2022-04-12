@@ -19,7 +19,7 @@ ga('tracker2.send', 'pageview');
     <!-- site specific menu links --> 
     <div class="footer-secondary-links">
       {% for menu in contentMenu.items %}
-        <a href="{{ menu.url | safe }}">{{ menu.title | safe }}</a>
+        <a href="{{ menu.url | changeDomain(domain) | safe }}">{{ menu.title | safe }}</a>
       {% endfor %}
     </div>
 

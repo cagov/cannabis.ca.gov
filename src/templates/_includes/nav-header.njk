@@ -14,7 +14,7 @@
             <ul class="second-level-nav">
               {% for sublink in menu['child_items'] %}
               <li class="unit1  menu-item menu-item-type-post_type menu-item-object-page" title=""><a
-                  href="{{ sublink.url | safe }}" class="second-level-link"
+                  href="{{ sublink.url | changeDomain(domain) | safe }}" class="second-level-link"
                   tabindex="-1">{{ sublink.title | safe }}</a></li>
               {% endfor %}
             </ul>

@@ -12,7 +12,8 @@
             </div>
             <div class="ds-content-layout">
                 <main class="main-primary">
-                    <div>
+                    {# The #body-content div is the skip-to-content target. #}
+                    <div id="body-content">
                         <article id="post-{{id}}">
                             <div class="category-label">{{ category | safe }}</div>
                             <!-- Page Title-->

@@ -1,0 +1,191 @@
+/* Unset CAWeb settings */
+.entry-content cagov-table-data tr td {
+  border-top: none;
+  padding: 0px 10px;
+}
+
+.entry-content cagov-table-data {
+  overflow-x: scroll;
+}
+
+.data-table {
+  margin-top: 32px;
+}
+
+/* Data table */
+.table-data table {
+  overflow-x: scroll;
+  /* max-width: 720px; */
+  margin: 0 0 16px 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  border-left: 1px solid #e1e0e3;
+  border-right: 1px solid #e1e0e3;
+}
+
+.table-data thead {
+  margin: 16px 10px;
+  padding: 8px 0px 8px 8px;
+  background: #EDEDEF;
+}
+
+.table-data th {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  min-width: 120px;
+  padding: 8px 8px;
+  color: #000;
+} 
+
+.table-data table thead tr th {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #EDEDEF;
+}
+
+.table-data tbody {
+  padding: 8px 0px 8px 8px;
+  margin: 16px 10px;
+}
+
+.table-data tbody td {
+  border-bottom: 1px solid #e1e0e3;
+  text-align: start;
+}
+
+.table-data .county-row td {
+  font-weight: 700;
+  border-bottom: 1px solid #6C6B77;
+}
+
+.table-data table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1001;
+  text-align: start;
+}
+
+.table-data td {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  min-width: 120px;
+  word-wrap: break-word;
+  padding: 0 10px;
+  color: #000;
+  text-align: center;
+  padding: 8px;
+}
+
+.table-data table tbody td:first-child {
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+  text-align: start;
+  display: inline-table;
+}
+
+.table-data [role="region"][aria-labelledby][tabindex] {
+  width: 100%;
+  max-height: 98vh;
+  overflow: auto;
+}
+
+.table-data [role="region"][aria-labelledby][tabindex]:focus {
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  outline: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .table-data th,
+  .table-data td {
+    font-size: 14px;
+  }
+}
+
+.table-data th[d="1"],
+.table-data td[d="1"] {
+  word-wrap: break-word;
+  width: 180px;
+}
+
+/* https://yoksel.github.io/url-encoder/ */
+/* Assign svgs to table values */
+.table-data td[l="0"] {
+  /* Prohibited */
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.738 1.6748C6.62903 1.6748 1.67603 6.6278 1.67603 12.7368C1.67603 18.8458 6.62903 23.7988 12.738 23.7988C18.847 23.7988 23.8 18.8458 23.8 12.7368C23.8 6.6278 18.847 1.6748 12.738 1.6748ZM17.863 8.6548L13.752 12.7658L17.389 16.8208C17.677 17.1088 17.677 17.5758 17.389 17.8638C17.101 18.1518 16.634 18.1518 16.346 17.8638L12.709 13.8088L8.65403 17.8638C8.36603 18.1518 7.89903 18.1518 7.61103 17.8638C7.32303 17.5758 7.32303 17.1088 7.61103 16.8208L11.722 12.7098L8.08503 8.6548C7.79703 8.3668 7.79703 7.89981 8.08503 7.6118C8.37303 7.3238 8.84003 7.3238 9.12803 7.6118L12.765 11.6668L16.82 7.6118C17.108 7.3238 17.575 7.3238 17.863 7.6118C18.151 7.89981 18.151 8.3668 17.863 8.6548Z' fill='%23CF5028'/%3E%3C/svg%3E%0A");
+}
+
+.table-data td[l="1"],
+.table-data td[l="2"] {
+  /* Limited */
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.738 1.6748C6.62899 1.6748 1.67599 6.6278 1.67599 12.7368C1.67599 18.8458 6.62899 23.7988 12.738 23.7988C18.847 23.7988 23.8 18.8458 23.8 12.7368C23.8 6.6278 18.847 1.6748 12.738 1.6748ZM18.637 13.4748H6.83699C6.42999 13.4748 6.09899 13.1448 6.09899 12.7368C6.09899 12.3288 6.42899 11.9988 6.83699 11.9988H18.637C19.044 11.9988 19.375 12.3288 19.375 12.7368C19.375 13.1448 19.045 13.4748 18.637 13.4748Z' fill='%232F4C2C'/%3E%3C/svg%3E%0A");
+}
+
+.table-data td[l="3"] {
+  /* Allowed */
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.061 0.375C5.641 0.375 0.436005 5.58 0.436005 12C0.436005 18.42 5.641 23.625 12.061 23.625C18.481 23.625 23.686 18.42 23.686 12C23.686 5.58 18.481 0.375 12.061 0.375ZM17.446 8.784L11.878 17.295C11.877 17.296 11.874 17.298 11.874 17.299C11.845 17.343 11.829 17.392 11.793 17.433C11.742 17.488 11.677 17.517 11.619 17.559C11.604 17.569 11.59 17.581 11.574 17.591C11.484 17.648 11.391 17.685 11.289 17.71C11.256 17.719 11.225 17.727 11.19 17.733C11.107 17.745 11.029 17.745 10.946 17.736C10.888 17.732 10.833 17.724 10.776 17.71C10.718 17.694 10.664 17.669 10.609 17.643C10.563 17.621 10.513 17.615 10.47 17.588C10.438 17.568 10.421 17.536 10.393 17.511C10.381 17.501 10.367 17.498 10.355 17.488L7.113 14.49C6.7 14.108 6.676 13.464 7.05601 13.053C7.43601 12.642 8.08 12.616 8.493 12.996L10.84 15.167L15.744 7.67C16.052 7.201 16.681 7.068 17.152 7.375C17.623 7.683 17.755 8.314 17.447 8.783L17.446 8.784Z' fill='%232F4C2C'/%3E%3C/svg%3E%0A");
+}
+
+/* Order 0+
+  "CA Places Key",
+  "Place",
+  "GEOID",
+  "County",
+  "County label",
+  "Jurisdiction Type",
+  "Retail: Storefront",
+  "Retail: Non-Storefront",
+  "Distribution",
+  "Manufacturing",
+  "Cultivation",
+  "Testing",
+  "Are all CCA activites prohibited?",
+  "Is all retail prohibited?",
+  "CCA Prohibited by County" */
+
+.table-data table td[d="0"],
+.table-data table th[d="0"],
+.table-data table td[d="2"],
+.table-data table th[d="2"],
+.table-data table td[d="3"],
+.table-data table th[d="3"],
+.table-data table td[d="4"],
+.table-data table th[d="4"],
+.table-data table td[d="5"],
+.table-data table th[d="5"],
+.table-data table td[d="12"],
+.table-data table th[d="12"],
+.table-data table td[d="13"],
+.table-data table th[d="13"],
+.table-data table td[d="14"],
+.table-data table th[d="14"] {
+  display: none;
+}
+
+.table-data table tr.hidden {
+  display: none;
+}

@@ -1,0 +1,129 @@
+{
+  "version": "1.1.1",
+  "name": "cannabis.ca.gov - Department of Cannabis Control",
+  "gitrepo": "@cagov/cannabis.ca.gov",
+  "contact": {
+    "maintainer": "Office of Digital Innovation"
+  },
+  "meta": {
+    "api_version": "v2",
+    "api_url": "https://dev-cannabis-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-cannabis-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/development"
+    },
+    "refresh_frequency": "As needed"
+  },
+  "og_meta": {
+    "site_name": "Department of Cannabis Control",
+    "site_description": "Learn about California cannabis laws and licenses",
+    "site_social_url": "",
+    "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+    "page_social_image_alt": "Department of Cannabis Control",
+    "site_url": "https://development.cannabis.ca.gov",
+    "page_social_image_width": 1200,
+    "page_social_image_height": 630
+  },
+  "data": {
+    "name": "Department of Cannabis Control",
+    "site_description": "Learn about California cannabis laws and licenses",
+    "keywords": "cannabis, Department of Cannabis Control",
+    "url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+    "home": "https://dev-cannabis-ca-gov.pantheonsite.io",
+    "gmt_offset": -7,
+    "timezone_string": "America/Los_Angeles",
+    "namespaces": [
+      "oembed/1.0",
+      "redirection/v1",
+      "menus/v1",
+      "notification/v1",
+      "wp/v2",
+      "wp-site-health/v1"
+    ]
+  },
+  "build": {
+    "input": "pages",
+    "output": "docs",
+    "static_site_media": "/media/",
+    "index_layout": "layouts/index",
+    "upload_folder": "wp-content/uploads/",
+    "replace_urls": [
+      "http://cannabis.ca.gov/",
+      "https://cannabis.ca.gov/",
+      "https://dev-cannabis-ca-gov.pantheonsite.io"
+    ],
+    "favicon": "/assets/cannabis_favicon_16x16.png",
+    "editor_url": "https://dev-cannabis-ca-gov.pantheonsite.io",
+    "static_site_url": "https://development.cannabis.ca.gov",
+    "canonical_url": "https://development.cannabis.ca.gov",
+    "s3_bucket_url": "http://development.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "media": "pages/wordpress/media",
+    "pages": "src/templates/wordpress/posts",
+    "posts": "src/templates/wordpress/posts",
+    "ascii": "                        .\n                       .:.\n                       :|:\n                      .:|:.\n                      ::|::\n       :.             ::|::             .:\n       :|:.          .::|::.          .:|:\n       ::|:.         :::|:::         .:|:;\n       `::|:.        :::|:::        .:|::'\n        ::|::.       :::|:::       .::|:;\n        `::|::.      :::|:::      .::|::'\n         :::|::.     :::|:::     .::|::;\n         `:::|::.    :::|:::    .::|::;'\n`::.      `:::|::.   :::|:::   .::|::;'      .:;'\n `:::..     ¹::|::.  :::|:::  .::|::¹    ..::;'\n   `:::::.    ':|::. :::|::: .::|:'   ,::::;'\n     `:::::.    ':|:::::|:::::|:'   :::::;'\n       `:::::.:::::|::::|::::|::::.,:::;'\n          ':::::::::|:::|:::|:::::::;:'\n             ':::::::|::|::|:::::::''\n                  `::::::::::;'\n                 .:;'' ::: ``::.\n                      :':':\n                        ;\n"
+  },
+  "endpoints": {
+    "wordpress-to-github": {
+      "src": "./wordpress",
+      "config": "./wordpress/config",
+      "endpoints": {
+        "posts": "wp-json/wp/v2/posts",
+        "pages": "wp-json/wp/v2/pages",
+        "media": "wp-json/wp/v2/media",
+        "menus": "wp-json/menus/v1/menus"
+      }
+    },
+    "page-feedback": {
+      "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
+    },
+    "redirects": {
+      "config": "./src/templates/wordpress/redirects/redirects"
+    },
+    "11ty-serverless-preview": {
+      "config": "./src-preview",
+      "endpoint": "@TODO"
+    },
+    "odi-publishing": {
+      "logs": "",
+      "polling-schedule": "@DOCS ncrontab ",
+      "system-status": "@FEATURE",
+      "microservices": {
+        "publish": "",
+        "publish-trigger": "",
+        "stage": "",
+        "preview": "",
+        "preview-expiration": "@DOCS"
+      }
+    },
+    "notifications": {
+      "slack_id": "",
+      "slack_data_approval_bot": "",
+      "slack_logs_url": ""
+    }
+  },
+  "analytics": {
+    "cx": "001779225245372747843:o_16poin-0q",
+    "url": "https://cse.google.com/api/003358532045999200914:uxxka6d3pge/popularqueryjs?view=week",
+    "src": "https://cse.google.com/cse.js?language=en-US&cx="
+  },
+  "ethnio": null,
+  "search": {
+    "google_console_url": "https://cannabis.ca.gov/serp/",
+    "path": "serp",
+    "cx": "001779225245372747843:o_16poin-0q"
+  },
+  "tracking": {
+    "todo": "get url of menu & parse this as a match, connect to tracker",
+    "social_links": {
+      "facebook": "facebook.com/cacannabisdept",
+      "twitter": "twitter.com/cacannabisdept",
+      "instagram": "instagram.com/cacannabisdept"
+    }
+  },
+  "translations": {},
+  "languages": {
+    "es": "Español",
+    "en": "English"
+  }
+}

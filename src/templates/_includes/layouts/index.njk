@@ -22,7 +22,7 @@
   <meta property="og:description" content="{{ data.og_meta.open_graph_description | striptags }}" />
   <meta property="og:title" content="{{ data.og_meta.open_graph_title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta property="og:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) }}" />
   <meta property="og:image:width" content="{{ data.og_meta.page_social_image_width }}" />
   <meta property="og:image:height" content="{{ data.og_meta.page_social_image_height }}" />
   <meta property="og:image:alt" content="{{ data.og_meta.page_social_image_alt }}" />
@@ -30,13 +30,13 @@
   <meta property="og:site_name" content="{{ data.og_meta.site_name }}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ data.og_meta.twitter_title }}" />
-  <meta name="twitter:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta name="twitter:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) }}" />
   <meta name="twitter:image:width" content="{{ data.og_meta.page_social_image_width }}" />
   <meta name="twitter:image:height" content="{{ data.og_meta.page_social_image_height }}" />
 
   <!-- Favicon @TODO needs asset folder to be exposed to docs -->
-  <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
-  <link rel="shortcut icon" href="/assets/img/cagov_favicon.ico">
+  <link title="fav icon" rel="icon" href="/assets/cagov_favicon.ico">
+  <link rel="shortcut icon" href="/assets/cagov_favicon.ico">
   <!-- Google Analytics performance -->
   <link rel="preconnect" href="https://www.google-analytics.com/">
   <!-- CSS -->
@@ -47,14 +47,14 @@
   <style>
     {{ css | cssmin | safe }}
     .cagov-grid {
-      grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(376px, 100%), 1fr));
     }
   </style>
 </head>
 
 <body>
   <header>
-    <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+    <div id="skip-to-content"><a href="#body-content">Skip to content</a></div>
     <div class="header-container">
       {% include "utility-header.njk" %}
       {% include "branding.njk" %}

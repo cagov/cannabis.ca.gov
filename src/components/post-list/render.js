@@ -34,7 +34,7 @@ const setDefaultAttributes = (attributes) => {
  * @param {Object} attributes An object of cagov-post-list attributes.
  * @returns {string} A string of rendered HTML.
  */
-const applyPostsTemplate = (posts, attributes) => {
+const applyPostsTemplate = (posts, totalPosts, attributes) => {
   let innerContent;
   if (posts !== undefined && posts !== null && posts.length > 0) {
     if (attributes.type === "wordpress") {
@@ -60,6 +60,8 @@ const applyPostsTemplate = (posts, attributes) => {
     <div class="post-list-results">
       ${innerContent}
     </div>
+    ${attributes.showPagination === 'true' ? `<cagov-pagination data-current-page="1"
+    data-total-pages="${parseInt(totalPosts / 5)}"></cagov-pagination>` : ''}
   `;
 };
 
@@ -220,14 +222,14 @@ const renderPostLists = function (html) {
 
     let processedAttributes = setDefaultAttributes(postListAttributes);
 
-    let recentPosts = getPostsByCategory(
+    let recentPostData = getPostsByCategory(
       postListAttributes.category,
       parseInt(postListAttributes.count),
       "custom_post_date" // @TODO link in WP html & pull from processedAttributes @ISSUE
     );
 
     let modifiedMarkup = applyPostsTemplate(
-      recentPosts, 
+      recentPostData.posts, recentPostData.total,  
       processedAttributes
     );
 
@@ -239,4 +241,4 @@ const renderPostLists = function (html) {
   return result;
 };
 
-module.exports = { renderPostLists };
+module.exports = { renderPostLists, renderWordpressPostTitleDate };

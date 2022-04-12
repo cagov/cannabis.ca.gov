@@ -1,5 +1,11 @@
 # CHANGELOG for cannabis.ca.gov
 
+# 1.1.3 - 3-29-2022
+* [ ] Updated Design system components
+* [ ] Re-sync all content with upstream production content
+* [ ] Cannabis legal access data visualization
+* [ ] Clean up
+
 # 1.1.2 - 12-22-2021
 - [ ] Connect to api.cannabis.ca.gov
 - [ ] Components synced up with design system
