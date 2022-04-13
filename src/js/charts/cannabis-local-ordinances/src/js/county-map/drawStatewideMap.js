@@ -50,11 +50,9 @@ export default function drawStatewideMap({
       let mapHeight = parseInt(
         d3.select("[data-layer-name=interactive-map-container]").style("height")
       );
-      // console.log(mapTop, mapBottom);
-      // console.log("mapHeight", mapHeight);
+
       let mapScale = mapHeight / 900;
       d3.select("[data-layer-name=interactive-map-container]")
-
         .attr("width", rawWidth * mapScale)
         .attr("height", rawHeight * mapScale);
 
@@ -75,6 +73,16 @@ export default function drawStatewideMap({
         .attr("class", "tooltip")
         .style("visibility", "hidden")
         .text("");
+    }
+
+    // @TODO ADD REDRAW of whole UI on resize
+    if (window.innerWidth < 720) {
+      tooltip
+        .style("position", "relative");
+    } else {
+      tooltip
+      .style("position", "absolute")
+      .style("zIndex", "2000");
     }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.

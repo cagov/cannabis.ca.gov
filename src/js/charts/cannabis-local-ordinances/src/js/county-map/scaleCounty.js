@@ -84,7 +84,7 @@ const scaleCounty = (
     scaleLayer,
     mapElement: data.self.mapElement
   };
-  console.log(data.selectedShapeData);
+  // console.log(data.selectedShapeData);
   updateSVGContainer(data, scaleLayer);
 };
 

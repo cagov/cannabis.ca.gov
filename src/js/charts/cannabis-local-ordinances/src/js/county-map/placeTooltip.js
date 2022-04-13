@@ -99,7 +99,7 @@ function getPlaceTooltipData(data, props) {
   let { dataPlaces, selectedCounty } = data;
   let { name } = props;
 
-  data.prohibitedStatusColors = {
+  data.mapStatusColors = {
     Yes: "#CF5028", // Orange
     No: "#2F4C2C", // Green
   };

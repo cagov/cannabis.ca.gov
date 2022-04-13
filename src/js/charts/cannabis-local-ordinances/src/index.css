@@ -385,6 +385,11 @@ cagov-map-table .filters {
 }
 
 /* Download button */
+/* @TODO QUESTION: Can we convert this to DS yet? */
+cagov-map-table .download {
+  margin: 0 16px;
+}
+
 cagov-map-table .download .button {
   display: flex;
   flex-direction: row;
@@ -404,11 +409,8 @@ cagov-map-table .download .button svg {
   margin-inline-end: 8px;
 }
 
+
 /* TOOLTIPS */
-.tooltips {
-  position: absolute;
-  z-index: 2000;
-}
 
 .tooltip-container {
   display: flex;
@@ -425,6 +427,11 @@ cagov-map-table .download .button svg {
   flex-grow: 0;
   margin: 0px 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media only screen and (max-width: 720px) {
+  .tooltip-container {
+    width: 240px;
+  }
 }
 
 .tooltip {
@@ -479,28 +486,48 @@ cagov-map-table .download .button svg {
   pointer-events: none;
 }
 
-@media only screen and (max-width: 900px) {
-  .tooltip-container {
-    width: 240px;
-  }
+.cagov-map-tooltip.tooltip-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #064e66;
+  color: #064e66;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+  margin: 16px 0;
+  background-color: #FFF;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.cagov-map-tooltip.tooltip-container a.loadPlace,
+.cagov-map-tooltip.tooltip-container a.loadCounty {
+  text-decoration: none;
+}
+
+.cagov-map-tooltip.tooltip-container button svg {
+  margin-inline-end: 8px;
 }
 
 label.hidden {
   display: none;
 }
 
-svg :focus {
+cagov-map-table[data-jurisdiction="Statewide"] .map-container .map-detail svg path:focus {
   outline: 1px dashed black;
 }
 
-.loadPlace,
-.loadCounty {
-  color: #000;
-  text-decoration: underline;
+cagov-map-table[data-jurisdiction="County"] .map-container .map-detail svg path:focus {
+  outline: 0.1px dashed black;
+  z-index: 2000;
 }
 
-.download {
-  margin: 0 16px;
+cagov-map-table[data-jurisdiction="Place"] .map-container .map-detail svg path:focus {
+  outline: 0.1px dashed black;
+  z-index: 2000;
 }
 
 @import "./js/combo-box/combo-box.css";

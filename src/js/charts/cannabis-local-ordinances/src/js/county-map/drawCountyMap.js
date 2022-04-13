@@ -8,7 +8,7 @@ import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
 import { chartLegendCounty } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";
-import { updateHistory } from "./updateHistory.js";
+// import { updateHistory } from "./updateHistory.js";
 import { scaleCounty } from "./scaleCounty.js";
 
 /**
@@ -68,7 +68,7 @@ export default function drawCountyMap({
     }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
-   
+
     xml(svgFiles.county).then((counties) => {
       const countiesGroup = d3.select(
         mapElement + ' [data-name="county-boundaries"]'
@@ -76,9 +76,8 @@ export default function drawCountyMap({
       countiesGroup.node().append(counties.documentElement);
       let countyPaths = countiesGroup.selectAll("g path");
       let islandPaths = countiesGroup.selectAll("g path[data-island]");
-      console.log(islandPaths);
-      data.selectedCountyIslands = [];
 
+      data.selectedCountyIslands = [];
       islandPaths.each(function (p, j) {
         let el = d3.select(this);
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
@@ -135,79 +134,83 @@ export default function drawCountyMap({
       });
     });
 
+    if (data.showPlaces === true) {
+      /* PLACES */
+      xml(svgFiles.places).then((places) => {
+        const group = d3.select(
+          mapElement + ' [data-name="places-boundaries"]'
+        );
+        group.node().append(places.documentElement);
+        let paths = group.selectAll("g path");
 
-  if (data.showPlaces === true) {
-    /* PLACES */
-    xml(svgFiles.places).then((places) => {
-      const group = d3.select(mapElement + ' [data-name="places-boundaries"]');
-      group.node().append(places.documentElement);
-      let paths = group.selectAll("g path");
-      paths.each(function (p, j) {
-        let el = d3.select(this);
-        let name = el.attr("data-name");
-        let geoid = el.attr("data-geoid");
-        let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
-          let item = data.dataPlaces[place];
-          if (
-            parseInt(geoid) === item["GEOID"] &&
-            item.County === data.selectedCounty &&
-            place !== "default"
-          ) {
-            return place;
+        paths.each(function (p, j) {
+          let el = d3.select(this);
+          let name = el.attr("data-name");
+          let geoid = el.attr("data-geoid");
+          let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
+            let item = data.dataPlaces[place];
+            if (
+              parseInt(geoid) === item["GEOID"] &&
+              item.County === data.selectedCounty &&
+              place !== "default"
+            ) {
+              return place;
+            }
+          });
+
+          if (currentPlace !== null && currentPlace.length > 0) {
+            let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+            let props = getPlaceTooltipData(data, { name, geoid });
+
+            el.attr("stroke-width", 0.2)
+              .attr("stroke-opacity", 1)
+              .attr(
+                "stroke",
+                placeColor !== "transparent" ? "#FFF" : "transparent"
+              );
+
+            el.attr("fill", () => {
+              let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+              return placeColor;
+            })
+              .attr("tabindex", "0")
+              .attr("aria-label", (d, i) => {
+                // console.log(currentPlace);
+                // @TODO @DEBUG
+                return "Label";
+              })
+              .on("click", function (event, d) {
+                d3.select(this).attr("fill-opacity", "0.8");
+                let shapes = [el];
+                let tooltipPosition = tooltipPlacement(
+                  {
+                    rawWidth,
+                    rawHeight,
+                  },
+                  el
+                );
+                tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
+                data.setUpTooltipUIListeners(data);
+                return tooltip
+                  .transition()
+                  .duration(0)
+                  .style("left", tooltipPosition.x + "px")
+                  .style("top", tooltipPosition.y + "px")
+                  .style("visibility", "visible");
+              })
+              .on("dblclick", function (event, d) {
+                d3.select(this).attr("fill-opacity", "1");
+                return tooltip
+                  .transition()
+                  .delay(0)
+                  .style("visibility", "hidden");
+              });
+          } else {
+            el.remove();
           }
         });
-
-        if (currentPlace !== null && currentPlace.length > 0) {
-          let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-          let props = getPlaceTooltipData(data, { name, geoid });
-
-          el.attr("stroke-width", 0.2)
-            .attr("stroke-opacity", 1)
-            .attr(
-              "stroke",
-              placeColor !== "transparent" ? "#FFF" : "transparent"
-            );
-
-          el.attr("fill", () => {
-            let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-            return placeColor;
-          })
-            .attr("tabindex", "0")
-            .attr("aria-label", (d, i) => {
-              return "Label";
-            })
-            .on("click", function (event, d) {
-              d3.select(this).attr("fill-opacity", "0.8");
-              let shapes = [el];
-              let tooltipPosition = tooltipPlacement(
-                {
-                  rawWidth,
-                  rawHeight,
-                },
-                el
-              );
-              tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
-              data.setUpTooltipUIListeners(data);
-              return tooltip
-                .transition()
-                .duration(0)
-                .style("left", tooltipPosition.x + "px")
-                .style("top", tooltipPosition.y + "px")
-                .style("visibility", "visible");
-            })
-            .on("dblclick", function (event, d) {
-              d3.select(this).attr("fill-opacity", "1");
-              return tooltip
-                .transition()
-                .delay(0)
-                .style("visibility", "hidden");
-            });
-        } else {
-          el.remove();
-        }
       });
-    });
-  }
+    }
 
     // Update the legend
     document.querySelector(legendElement).innerHTML = chartLegendCounty(

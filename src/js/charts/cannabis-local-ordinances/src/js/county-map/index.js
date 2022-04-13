@@ -74,7 +74,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       // Get activities by GEOID (for accuracy)
       precalculateActivitiesData(this.localData, true); // Get more data by GEOID
       this.setUpUIListeners();
-      console.log("CD", this.containerElement);
       containerElement.setAttribute("data-jurisdiction", "Statewide");
       // Render the display for the first time.
       this.render();
@@ -185,10 +184,11 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     try {
       var tooltipLinkCounty = document.querySelector("a.loadCounty");
       tooltipLinkCounty.addEventListener("click", (e) => {
+        // console.log(e);
         data.setMapStateFromTooltip(e, data);
       });
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
     try {
       var tooltipLinkPlace = document.querySelector("a.loadPlace");
@@ -196,7 +196,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         data.setMapStateFromTooltip(e, data);
       });
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   }
 
@@ -326,6 +326,16 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     data.jurisdiction = jurisdiction;
     data.selectedCounty = county;
     data.geoid = geoid;
+    let placesOptions = document.querySelectorAll(`.filter[data-filter-type="places"] select option`);
+    placesOptions.selected = false;
+
+    if (jurisdiction === "County") {
+      let countyOption = document.querySelectorAll(`.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`);
+      if (countyOption !== null) { countyOption.selected = true; }
+    } else if (jurisdiction === "Place") {
+      let placeOption = document.querySelector(`.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`);
+      if (placeOption !== null) {  placeOption.selected = true; }
+    }
     if (jurisdiction === "County") {
       data.self.updateMapState(county, data);
     } else if (jurisdiction === "Place") {
@@ -374,7 +384,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
    */
   setData(entry, data) {
     let { jurisdiction, geoid } = data;
-    console.log("jur", jurisdiction, entry);
     if (entry !== undefined && entry !== null && entry !== "") {
       this.selectedPlaceValue = entry;
       if (jurisdiction === "County") {
@@ -396,7 +405,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
           this.jurisdiction = "Place";
           data.jurisdiction = "Place";
         } catch (error) {
-          console.log(error);
+          // console.log(error);
         }
       } else {
         this.selectedCounty = null;
@@ -407,7 +416,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       }
     } else {
       // Set defaults
-      console.log(this, data);
+      // console.log(this, data);
       this.selectedCounty = null;
       data.selectedCounty = null;
       data.selectedPlaceValue = null;
@@ -533,7 +542,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
             countyLink.setAttribute("data-county", placeData["County"]);
             countyLink.setAttribute("data-jurisdiction", "County");
           } catch (error) {
-            console.log(error);
+            // console.log(error);
           }
         }
         countyEl.classList.remove("hidden");
@@ -568,7 +577,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         tooltipElement: this.tooltipElement,
         legendElement: this.legendElement,
         jurisdiction: this.jurisdiction,
-        jurisdiction: this.jurisdiction,
         chartOptions: this.chartOptions,
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
@@ -582,7 +590,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         tooltipElement: this.tooltipElement,
         legendElement: this.legendElement,
         jurisdiction: this.jurisdiction,
-        jurisdiction: this.jurisdiction,
         chartOptions: this.chartOptions,
         chartBreakpointValues: this.chartBreakpointValues,
         screenDisplayType: this.screenDisplayType,
@@ -595,7 +602,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         mapElement: this.mapElement,
         tooltipElement: this.tooltipElement,
         legendElement: this.legendElement,
-        jurisdiction: this.jurisdiction,
         jurisdiction: this.jurisdiction,
         chartOptions: this.chartOptions,
         chartBreakpointValues: this.chartBreakpointValues,

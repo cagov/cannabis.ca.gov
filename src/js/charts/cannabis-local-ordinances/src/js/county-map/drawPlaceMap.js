@@ -7,6 +7,9 @@ import {
 import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
 import "./../../index.css";
 import { chartLegendPlace } from "./legend.js";
+import tooltipPlacement from "./tooltipPlacement.js";
+// import { updateHistory } from "./updateHistory.js";
+import { scaleCounty } from "./scaleCounty.js";
 
 /**
  * Render SVG based interactive places (city) map using d3
@@ -24,14 +27,11 @@ export default function drawPlaceMap({
 }) {
   try {
     //   /* Data processing */
-    // var { dataPlaces, messages, selectedPlace } = data;
-    // console.log("Place map", jurisdiction, selectedPlace, jurisdiction);
-
-    var rawWidth = 800; // @TODO make a setting or pull from a base tile?
+    var { dataPlaces, messages, selectedPlace, selectedCounty } = data;
+    var rawWidth = 800; 
     var rawHeight = 923;
 
     // Clean up existing SVGs
-
     d3.select(mapElement).select("svg").remove();
 
     if (
@@ -55,18 +55,16 @@ export default function drawPlaceMap({
     } else {
       d3.select(mapElement + " [data-name] g").remove();
     }
-    let tooltip = d3.select(tooltipElement);
+    // let tooltip = d3.select(tooltipElement);
 
     /* Tooltip container */
     if (d3.select(tooltipElement + " div") === null) {
-      tooltip = d3
-        .select(tooltipElement)
-        .append("div")
-        .attr("class", "tooltip")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .text("");
+      // tooltip = d3
+      //   .select(tooltipElement)
+      //   .append("div")
+      //   .attr("class", "tooltip")
+      //   .style("visibility", "hidden")
+      //   .text("");
     }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
@@ -77,12 +75,30 @@ export default function drawPlaceMap({
       );
       countiesGroup.node().append(counties.documentElement);
       let countyPaths = countiesGroup.selectAll("g path");
+      let islandPaths = countiesGroup.selectAll("g path[data-island]");
+
+      data.selectedCountyIslands = [];
+      islandPaths.each(function (p, j) {
+        let el = d3.select(this);
+        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        let island = el.attr("data-island"); // Island values from California county boundaries
+        if (name === data.selectedCounty) {
+          data.selectedCountyIslands.push(el);
+        }
+      });
+
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
+
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
-        if (name === data.selectedCounty && island === null) {
+
+        // let geoid = el.attr("data-geoid");
+        // console.log("island", island, geoid);
+        // console.log(name, data.selectedCounty);
+        if (name === data.selectedCounty) {
+          // @NOTE removed island DEBUGGING
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {
               name,
@@ -95,57 +111,30 @@ export default function drawPlaceMap({
             .attr("stroke", "#FFFFFF")
             .attr("fill-opacity", 0.25);
 
-          var bbox = el.node().getBBox();
+          // el.remove(); // Remove all the islands to rebuild just county islands at scale.
 
-          var dx = bbox.width - bbox.x,
-            dy = bbox.height - bbox.y,
-            x = (bbox.x + (bbox.x + bbox.width)) / 2,
-            y = (bbox.y + (bbox.y + bbox.height)) / 2,
-            scale = Math.min(rawHeight / bbox.height, rawWidth / bbox.width),
-            translate = [rawWidth / 2 - scale * x, rawHeight / 2 - scale * y];
-
-          data.selectedShapeData = {
-            bbox,
-            dx,
-            dy,
-            scale,
-            x,
-            y,
-            translate,
-          };
-
-          el.attr(
-            "transform",
-            "translate(" +
-              data.selectedShapeData.translate +
-              ")scale(" +
-              data.selectedShapeData.scale +
-              ")"
-          );
-
-          const placesGroup = d3.select(
-            mapElement + ' [data-name="places-boundaries"]'
-          );
-          placesGroup.attr(
-            "transform",
-            "translate(" +
-              data.selectedShapeData.translate +
-              ")scale(" +
-              data.selectedShapeData.scale +
-              ")"
-          );
-        } else if (island !== null) {
-          el.remove(); // Remove all the islands for now.
-          // Need to get the parent place for mainland
+          if (island !== null) {
+            el.style("visible", "hidden");
+            // el.remove();
+          } else {
+            scaleCounty(
+              el,
+              data,
+              selectedCounty,
+              rawWidth,
+              rawHeight,
+              mapElement
+            );
+          }
         } else {
           // Not the selected county
           el.remove();
+          // el.attr("opacity", 0.05);
         }
       });
     });
 
     /* PLACES */
-    // if (data.showPlaces === true) {
     xml(svgFiles.places).then((places) => {
       const group = d3.select(mapElement + ' [data-name="places-boundaries"]');
 
@@ -185,6 +174,8 @@ export default function drawPlaceMap({
           })
             .attr("tabindex", "0")
             .attr("aria-label", (d, i) => {
+              // console.log(currentPlace);
+              // @TODO @DEBUG
               return "Label";
             })
             .attr("fill-opacity", (d) => {
@@ -197,6 +188,33 @@ export default function drawPlaceMap({
                 return 0.25;
               }
             });
+            // .on("click", function (event, d) {
+            //   d3.select(this).attr("fill-opacity", "0.8");
+            //   let shapes = [el];
+            //   let tooltipPosition = tooltipPlacement(
+            //     {
+            //       rawWidth,
+            //       rawHeight,
+            //     },
+            //     el
+            //   );
+            //   tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
+            //   data.setUpTooltipUIListeners(data);
+            //   return tooltip
+            //     .transition()
+            //     .duration(0)
+            //     .style("left", tooltipPosition.x + "px")
+            //     .style("top", tooltipPosition.y + "px")
+            //     .style("visibility", "visible");
+            // })
+            // .on("dblclick", function (event, d) {
+            //   d3.select(this).attr("fill-opacity", "1");
+            //   return tooltip
+            //     .transition()
+            //     .delay(0)
+            //     .style("visibility", "hidden");
+            // });
+
         } else {
           el.remove();
         }

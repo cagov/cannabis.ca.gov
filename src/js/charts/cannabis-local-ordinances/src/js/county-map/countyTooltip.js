@@ -42,10 +42,7 @@ function countyStatusTooltipMessage(data, props) {
   }
 
   data.tooltipData = getCountyTooltipData(data, props);
-  // console.log("county ", data.tooltipData );
-
   label = insertValueIntoSpanTag(label, mode, "data-status");
-
   prohibited = insertValueIntoSpanTag(
     prohibited,
     data.tooltipData.activityPercentages.prohibited,
@@ -106,9 +103,9 @@ function getCountyTooltipData(data, props) {
   let { dataPlaces } = data;
   let { name } = props;
 
-  data.prohibitedStatusColors = {
-    Yes: "#CF5028", // Orange
-    No: "#2F4C2C", // Green
+  data.mapStatusColors = {
+    Yes: "#CF5028", // Orange, Yes, prohibited // @TODO CONFIG
+    No: "#2F4C2C", // Green// @TODO CONFIG
   };
 
   // Get couny data object from dataTables.
@@ -136,10 +133,19 @@ function getCountyTooltipData(data, props) {
   };
 }
 
+/**
+ * Build tooltip messages 
+ * @param {*} data 
+ * @param {*} name 
+ * @param {*} props 
+ * @param {*} jurisdiction 
+ * @returns 
+ */
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
 
   let mode = activities;
+  // @TODO CONNECT TO CONFIG
   if (mode === "Any cannabis business" && jurisdiction === "County") {
     return messages["TooltipStatewideAllActivities"];
   } else if (mode === "Any cannabis business" && jurisdiction === "City") {

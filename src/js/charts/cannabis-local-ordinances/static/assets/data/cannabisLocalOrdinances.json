@@ -7,5 +7,13 @@
         "County": {},
         "City": {}
     },
-    "Defaults": {}
+    "Defaults": {},
+    "mapStatusColors": {
+        "Yes": "#CF5028",
+        "No": "#2F4C2C"
+    },
+    "breakpoints": {
+        "narrow": 600
+    }
+    
 }

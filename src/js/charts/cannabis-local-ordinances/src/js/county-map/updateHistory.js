@@ -107,7 +107,6 @@ const updatePlacesFilter = (data) => {
     '.filter[data-filter-type="places"] select option'
   );
 
-  console.log("data.jurisdiction", data.jurisdiction);
   if (setPlaceFilterOptionsEl !== null) {
     let value = setPlaceFilterEl.value;
     if (data.jurisdiction === "County") {
