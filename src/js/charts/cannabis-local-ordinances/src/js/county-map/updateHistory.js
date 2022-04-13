@@ -3,23 +3,23 @@
  * @param {*} props
  */
 const updateHistory = (props) => {
-  console.log(props);
-  console.log("u");
-  let path = props.anchor + props.paramString;
+  // console.log(props);
+  // console.log("u");
+  // let path = props.anchor + props.paramString;
   // console.log(path);
   // window.history.pushState(props, props.title, path);
   // console.log(window.location);
-  window.location.hash = path; // TEMPORARILY DISABLED, Future feature.
+  // window.location.hash = path; // TEMPORARILY DISABLED, Future feature.
 };
 
 const updateMapLevelFromHash = (hash, data) => {
-  console.log("update hash", hash, data);
-  if (hash !== undefined && hash.length > 0) {
-    let paramKeys = getParamKeys(hash, data);
-    console.log("paramKeys", paramKeys);
-    setDataFromHash(paramKeys, data);
-    updateDisplaysFromInteraction(data);
-  }
+  // console.log("update hash", hash, data);
+  // if (hash !== undefined && hash.length > 0) {
+  //   let paramKeys = getParamKeys(hash, data);
+  //   console.log("paramKeys", paramKeys);
+  //   setDataFromHash(paramKeys, data);
+  //   updateDisplaysFromInteraction(data);
+  // }
 };
 
 const getParamKeys = (hash, data) => {
@@ -119,11 +119,11 @@ const updatePlacesFilter = (data) => {
           if (updateOptionCountyEl !== null) {
             setPlaceFilterOptionsEl.selected = false; // Unset anything selected.
             updateOptionCountyEl.selected = true;
-            const e = new CustomEvent("change", {
-              detail: { el: updateOptionCountyEl, hash: true },
-            });
+            // const e = new CustomEvent("change", {
+            //   detail: { el: updateOptionCountyEl, hash: true },
+            // });
 
-            setPlaceFilterEl.dispatchEvent(e);
+            // setPlaceFilterEl.dispatchEvent(e);
           }
         }
       }
