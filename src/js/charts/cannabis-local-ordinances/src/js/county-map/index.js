@@ -72,6 +72,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       // Get activities by GEOID (for accuracy)
       precalculateActivitiesData(this.localData, true); // Get more data by GEOID
       // Run hash check last to make sure data object is complete.
+      this.setUpFiltersMenuListener();
       this.setupUIListeners();
       // this.setupHashListener();
       
