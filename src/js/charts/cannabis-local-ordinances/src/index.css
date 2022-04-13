@@ -216,6 +216,9 @@ cagov-map-table .filters-section-toggler {
   border: 1px solid #e1e0e3;
   border-top: none;
   color: #064e66;
+  background-color: #fff;
+  font-size: 1em;
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
