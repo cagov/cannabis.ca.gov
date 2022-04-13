@@ -69,6 +69,7 @@ export default function drawCountyMap({
     }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
+   
     xml(svgFiles.county).then((counties) => {
       const countiesGroup = d3.select(
         domElement + ' [data-name="county-boundaries"]'
@@ -110,6 +111,10 @@ export default function drawCountyMap({
             .attr("stroke", "#FFFFFF");
           // el.remove(); // Remove all the islands to rebuild just county islands at scale.
 
+          if (data.showCounties === false) {
+            el.style("visible", "hidden");
+          }
+
           if (island !== null) {
             el.style("visible", "hidden");
             // el.remove();
@@ -125,12 +130,14 @@ export default function drawCountyMap({
           }
         } else {
           // Not the selected county
-          el.remove();
-          // el.attr("opacity", 0.05);
+          // el.remove();
+          el.attr("opacity", 0.05);
         }
       });
     });
 
+
+  if (data.showPlaces === true) {
     /* PLACES */
     xml(svgFiles.places).then((places) => {
       const group = d3.select(domElement + ' [data-name="places-boundaries"]');
@@ -201,6 +208,7 @@ export default function drawCountyMap({
         }
       });
     });
+  }
 
     // Update the legend
     document.querySelector(legendElement).innerHTML = chartLegendCounty(

@@ -75,6 +75,7 @@ const setDataFromHash = (paramKeys, data) => {
   }
 };
 
+/** Set filters after interaction */
 const updateDisplaysFromInteraction = (data) => {
   updateActivityFilter(data);
   updatePlacesFilter(data);
@@ -106,6 +107,7 @@ const updatePlacesFilter = (data) => {
     '.filter[data-filter-type="places"] select option'
   );
 
+  console.log("data.jurisdiction", data.jurisdiction);
   if (setPlaceFilterOptionsEl !== null) {
     let value = setPlaceFilterEl.value;
     if (data.jurisdiction === "County") {
@@ -146,7 +148,7 @@ const updatePlacesFilter = (data) => {
           updateOptionPlaceEl.selected = true;
         }
       }
-    } else if (data.jurisdiction === "All") {
+    } else if (data.jurisdiction === "All" || data.jurisdiction === "Statewide") {
       // @TODO confirm
       var updateOptionStatewideEl = document.querySelector(
         `.filter[data-filter-type="places"] select option[value=""]`

@@ -223,6 +223,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   updateMapState(entry, data) {
+    console.log("entry", entry);
     if (entry !== null) {
       let hasActivities =
         data.activities !== undefined &&
@@ -296,7 +297,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   setMapStateFromHash(e, data) {
-    console.log("E", e);
     let selectedEl = e.detail.el;
     let county = selectedEl.getAttribute("data-county") || null;
     let geoid = selectedEl.getAttribute("data-geoid") || null;
@@ -334,6 +334,11 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     }
   }
 
+  /**
+   * Update data object with entry based on already set context settings
+   * @param {*} entry 
+   * @param {*} data 
+   */
   setData(entry, data) {
     let { jurisdiction, geoid } = data;
     if (entry !== undefined && entry !== null && entry !== "") {
@@ -438,7 +443,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       countyLink !== null &&
       placeLink !== null
     ) {
-      // @TODO convert to utility
       let countyData = Object.keys(data.dataPlaces).filter((p) => {
         let item = dataPlaces[p];
         if (
@@ -449,9 +453,9 @@ class CannabisLocalOrdinances extends window.HTMLElement {
           return p;
         }
       });
-
-      if (level === "statewide") {
-        stateEl = countyEl.classList.add("hidden");
+      if (level === "statewide" || level === "state") {
+        // stateEl = 
+        countyEl.classList.add("hidden");
         placeEl.classList.add("hidden");
         countyLink.setAttribute("data-jurisdiction", "Statewide");
       } else if (level === "county") {
@@ -460,6 +464,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         countyLink.setAttribute("data-county", county);
         countyLink.setAttribute("data-jurisdiction", "County");
         countyEl.classList.remove("hidden");
+        placeEl.classList.add("hidden");
       } else if (level === "place") {
         if (geoid !== undefined && geoid !== null) {
           let placeData = this.getCurrentPlaceByGeoid(data, geoid);
