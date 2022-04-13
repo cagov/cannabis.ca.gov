@@ -28,6 +28,12 @@
   margin: 0px 0px;
 }
 
+@media only screen and (max-width: 800px) { 
+  .tracker-box-wrapper {
+    min-height: 0;
+  }
+}
+
 .tracker-box {
   display: grid;
   grid-template-rows: 75px auto 42px;
