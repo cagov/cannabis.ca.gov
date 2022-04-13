@@ -106,9 +106,11 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     const filterMenuToggleEl = mapTableEl.querySelector(
       ".filters-section-toggler"
     );
-    filterMenuToggleEl.addEventListener("click", (e) => {
-      mapTableEl.toggleAttribute("data-filters-open");
-    });
+    if (filterMenuToggleEl !== null) {
+      filterMenuToggleEl.addEventListener("click", (e) => {
+        mapTableEl.toggleAttribute("data-filters-open");
+      });
+    }
   }
 
   /**

@@ -125,8 +125,8 @@ export default function drawCountyMap({
           }
         } else {
           // Not the selected county
-          // el.remove();
-          el.attr("opacity", 0.05);
+          el.remove();
+          // el.attr("opacity", 0.05);
         }
       });
     });
