@@ -1,4 +1,5 @@
 import { xml } from "d3-fetch";
+import mapMessages from "../../../static/assets/data/mapMessages.json";
 
 class CAGovTableData extends window.HTMLElement {
   // Set up static variables that are specific to this component.
@@ -83,7 +84,7 @@ class CAGovTableData extends window.HTMLElement {
           } else if (fields[key] === "Manufacturing") {
             fieldLabel = "Manufacturing";
           } else if (fields[key] === "Place") {
-            fieldLabel = "Cities";
+            fieldLabel = mapMessages["CountyColumnLabel"] || "Counties";
           }
           return `<th d="${key}">${fieldLabel}</th>`;
         }
