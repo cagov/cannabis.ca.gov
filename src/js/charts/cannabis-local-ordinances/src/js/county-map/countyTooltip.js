@@ -77,7 +77,7 @@ function countyStatusTooltipMessage(data, props) {
           </div>
           <div>
             <p>
-              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name}">${detailsCTA}</a>
+              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}">${detailsCTA}</a>
             </p>
           </div>
         </div>`;
