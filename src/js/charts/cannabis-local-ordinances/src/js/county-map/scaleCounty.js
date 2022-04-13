@@ -7,10 +7,10 @@ import * as d3 from "d3";
  * @param {*} county 
  * @param {*} rawWidth of SVG
  * @param {*} rawHeight of SVG
- * @param {*} domElement 
+ * @param {*} mapElement 
  * @param {*} island 
  */
-const scaleCounty = (el, data, county, rawWidth, rawHeight, domElement, island = null ) => {
+const scaleCounty = (el, data, county, rawWidth, rawHeight, mapElement, island = null ) => {
   // Get county scale of the current element
   // Some counties have extra elements, so d3 iterator doesn't capture them.
   var bbox = el.node().getBBox();
@@ -116,11 +116,11 @@ const updateSVGContainer = (data) => {
 
   // Scale the county and places containerer
   const countiesGroup = d3.select(
-    data.self.domElement + ' [data-name="county-boundaries"]'
+    data.self.mapElement + ' [data-name="county-boundaries"]'
   );
 
   const containerEl = d3.select(
-    data.self.domElement + " svg [data-layer-name=interactive-map]"
+    data.self.mapElement + " svg [data-layer-name=interactive-map]"
   );
   // countiesGroup.attr(
   //   "transform",
@@ -150,7 +150,7 @@ const updateSVGContainer = (data) => {
   );
 
   // const placesGroup = d3.select(
-  //   data.self.domElement + ' [data-name="places-boundaries"]'
+  //   data.self.mapElement + ' [data-name="places-boundaries"]'
   // );
   // placesGroup.attr(
   //   "transform",

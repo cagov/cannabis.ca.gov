@@ -140,6 +140,7 @@ class CAGovTableData extends window.HTMLElement {
 
   updateTable(data) {
     let level = data.mapLevel;
+    console.log("level", level);
     let geoid = data.geoid;
     
     let tableSelector = "cagov-table-data table";
@@ -160,6 +161,7 @@ class CAGovTableData extends window.HTMLElement {
         tableElements[index].classList.remove("hidden")
       );
       if (tableElement !== null) {
+        tableElement.classList.remove("Place", "County");
         tableElement.classList.add(level);
       }
     } else if (level === "County") {
@@ -174,6 +176,7 @@ class CAGovTableData extends window.HTMLElement {
         }
       });
       if (tableElement !== null) {
+        tableElement.classList.remove("Statewide", "Place");
         tableElement.classList.add(level);
       }
     } else if (level === "Place") {
@@ -198,6 +201,7 @@ class CAGovTableData extends window.HTMLElement {
         });
       }
       if (tableElement !== null) {
+        tableElement.classList.remove("Statewide", "County");
         tableElement.classList.add(level);
       }
     }

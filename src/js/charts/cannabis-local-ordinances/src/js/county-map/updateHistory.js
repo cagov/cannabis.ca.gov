@@ -44,7 +44,7 @@ const getParamKeys = (hash, data) => {
 
 const setDataFromHash = (paramKeys, data) => {
   let county = null;
-  let level = "statewide"; // Next level to set
+  let level = "Statewide"; // Next level to set
   let place = null;
   let geoid = null;
   let activities = null;
@@ -56,22 +56,22 @@ const setDataFromHash = (paramKeys, data) => {
 
   // Set places filter data
   if (paramKeys.anchor === "#county-view") {
-    level = "county";
+    level = "County";
     data.jurisdiction = "County";
-    if (paramKeys["county"] !== undefined && paramKeys["county"] !== null) {
-      data.selectedCounty = decodeURI(paramKeys["county"]);
+    if (paramKeys["County"] !== undefined && paramKeys["County"] !== null) {
+      data.selectedCounty = decodeURI(paramKeys["County"]);
     }
   } else if (paramKeys.anchor === "#city-view") {
-    level = "place";
+    level = "Place";
     data.jurisdiction = "Place";
-    if (paramKeys["city"] !== undefined && paramKeys["city"] !== null) {
-      data.selectedPlace = paramKeys["city"];
+    if (paramKeys["Place"] !== undefined && paramKeys["Place"] !== null) {
+      data.selectedPlace = paramKeys["Place"];
     }
     if (paramKeys["geoid"] !== undefined && paramKeys["geoid"] !== null) {
       data.geoid = paramKeys["geoid"];
     }
   } else if (paramKeys.anchor === "" || paramKeys.anchor === "#") {
-    data.jurisdiction = "All";
+    data.jurisdiction = "Statewide";
   }
 };
 

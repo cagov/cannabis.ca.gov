@@ -48,7 +48,7 @@ cagov-map-table .map-legend {
   }
 }
 
-cagov-map-table[data-map-level="county"] .map-legend {
+cagov-map-table[data-map-level="County"] .map-legend {
   width: 323px;
   height: auto;
   position: relative;
@@ -57,7 +57,7 @@ cagov-map-table[data-map-level="county"] .map-legend {
   margin-bottom: 16px;
   background-color: #fff;
 }
-cagov-map-table[data-map-level="place"] .map-legend {
+cagov-map-table[data-map-level="Place"] .map-legend {
   width: 323px;
   height: auto;
   position: relative;
@@ -74,13 +74,13 @@ cagov-map-table[data-map-level="place"] .map-legend {
     position: relative;
     margin-left: 0px;
   }
-  cagov-map-table[data-map-level="county"] .map-legend {
+  cagov-map-table[data-map-level="County"] .map-legend {
     width: auto;
     height: auto;
     position: relative;
     margin-left: 0px;
   }
-  cagov-map-table[data-map-level="place"] .map-legend {
+  cagov-map-table[data-map-level="Place"] .map-legend {
     width: auto;
     height: auto;
     position: relative;
@@ -132,7 +132,7 @@ cagov-map-table .map-header .map-breadcrumb {
   margin: 0;
 }
 
-cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-level="state"] {
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-level="Statewide"] {
   margin: 0;
 }
 
@@ -252,6 +252,14 @@ cagov-map-table .filters {
   border: 1px solid #e1e0e3;
   border-top: none;
 }
+
+/* cagov-map-table .filters {
+cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-level="Statewide"] {
+  margin: 0;
+}
+
+filter map-display */
+
 
 @media only screen and (max-width: 900px) {
   cagov-map-table .filters {

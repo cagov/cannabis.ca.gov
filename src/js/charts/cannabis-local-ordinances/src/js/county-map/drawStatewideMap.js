@@ -11,7 +11,7 @@ import { updateHistory } from "./updateHistory.js";
  */
 export default function drawStatewideMap({
   data = null,
-  domElement = null,
+  mapElement = null,
   tooltipElement = null,
   legendElement = null,
   mapLevel = "Statewide",
@@ -30,15 +30,15 @@ export default function drawStatewideMap({
     var rawHeight = 923;
 
     // Clean up existing SVGs
-    d3.select(domElement).select("svg").remove();
+    d3.select(mapElement).select("svg").remove();
 
     if (
       document.querySelector(
-        domElement + ' svg[data-layer-name="map-layer-container"]'
+        mapElement + ' svg[data-layer-name="map-layer-container"]'
       ) === null
     ) {
       const svg = d3
-        .select(domElement)
+        .select(mapElement)
         .append("svg")
         .attr("viewBox", [0, 0, 800, 923])
         .attr("data-layer-name", "interactive-map-container")
@@ -64,7 +64,7 @@ export default function drawStatewideMap({
       svg.append("g").attr("data-name", "places-boundaries");
       svg.append("g").attr("data-name", "county-strokes");
     } else {
-      d3.select(domElement + " [data-name] g").remove();
+      d3.select(mapElement + " [data-name] g").remove();
     }
     let tooltip = d3.select(tooltipElement);
 
@@ -83,7 +83,7 @@ export default function drawStatewideMap({
       svg(svgFiles.county)
       .then((counties) => {
         const countiesGroup = d3.select(
-          domElement + ' [data-name="county-boundaries"]'
+          mapElement + ' [data-name="county-boundaries"]'
         );
 
         countiesGroup.node().append(counties.documentElement);
@@ -110,7 +110,7 @@ export default function drawStatewideMap({
       .then((counties) => {
        
         const countiesGroup = d3.select(
-          domElement + ' [data-name="county-strokes"]'
+          mapElement + ' [data-name="county-strokes"]'
         );
 
         countiesGroup.node().append(counties.documentElement);
@@ -189,7 +189,7 @@ export default function drawStatewideMap({
       svg(svgFiles.places)
       .then((places) => {
         const group = d3.select(
-          domElement + ' [data-name="places-boundaries"]'
+          mapElement + ' [data-name="places-boundaries"]'
         );
 
         group.node().append(places.documentElement);

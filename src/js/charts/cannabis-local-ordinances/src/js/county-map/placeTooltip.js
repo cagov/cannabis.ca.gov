@@ -142,14 +142,14 @@ function getToolTipMessages(data, name, props, jurisdiction) {
 
   let mode = activities;
   if (mode === "Any activities" && jurisdiction === "County") {
-    return messages["StatewideAllActivities"];
+    return messages["TooltipStatewideAllActivities"];
   } else if (mode === "Any activities" && jurisdiction === "City") {
-    return messages["CountyAllActivities"];
+    return messages["TooltipCountyAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      return messages["StatewideActivity"];
+      return messages["TooltipStatewideActivity"];
     } else if (jurisdiction === "City") {
-      return messages["CountyActivity"];
+      return messages["TooltipCountyActivity"];
     }
   }
   return null;

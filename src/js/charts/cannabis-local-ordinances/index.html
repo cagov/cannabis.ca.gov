@@ -27,7 +27,7 @@
      -->
     <!-- Local build -->
     <script src="./bundle.js"></script>
-    <!-- <script src="https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11" async></script> -->
+    <!-- <script src="https://headless.cannabis.ca.gov/assets/bundle.1.1.12.js?2022-04-11" async></script> -->
 
     <title>Where cannabis business is legal in California</title>
   </head>
@@ -109,15 +109,15 @@
             <span
               class="map-breadcrumb-item"
               data-active="true"
-              data-level="state"
+              data-level="Statewide"
               data-jurisdiction="Statewide"
             >
-            <a href="#state-view=statewide" data-jurisdiction="Statewide"> California </a>
+            <a href="#state-view=Statewide" data-jurisdiction="Statewide"> California </a>
             </span>
             <span
               class="map-breadcrumb-item hidden"
               data-active="true"
-              data-level="county"
+              data-level="County"
               data-jurisdiction="County"
             >
               <span class="caret"> &gt; </span>
@@ -127,7 +127,7 @@
             <span
               class="map-breadcrumb-item hidden"
               data-active="true"
-              data-level="place"
+              data-level="Place"
               data-jurisdiction="Place"
             >
               <span class="caret"> &gt; </span>
@@ -138,12 +138,12 @@
 
         <div class="filters">
           <form>
-            <div class="filter">
+            <div class="filter map-display">
               <div class="filter-label">Map display</div>
               <div class="switches">
                 <div class="toggle-button">
                   <label class="toggle" for="toggle-counties">
-                    <span>Counties</span>
+                    <span>Show counties</span>
                     <input
                       class="toggle__input"
                       name="toggle-counties"
@@ -157,7 +157,7 @@
                 </div>
                 <div class="toggle-button">
                   <label class="toggle" for="toggle-cities">
-                    <span>Cities</span>
+                    <span>Show cities</span>
                     <input
                       class="toggle__input"
                       name="toggle-cities"
@@ -172,10 +172,10 @@
               </div>
             </div>
             <div class="filter filter-activity">
-              <div class="filter-label">Filter by activity</div>
+              <div class="filter-label">Filter by business type</div>
               <select>
                 <option value="" selected disabled>Select activity type</option>
-                <option value="Any activities">Any activities</option>
+                <option value="Any activities">Any cannabis business</option>
                 <option value="Retail">Retail</option>
                 <option value="Distribution">Distribution</option>
                 <option value="Manufacturing">Manufacturing</option>
@@ -211,9 +211,6 @@
                     <option data-jurisdiction="County" value="Calaveras">
                       Calaveras County
                     </option>
-                    <!-- <option data-jurisdiction="County" value="San Francisco">
-                      San Francisco County
-                    </option> -->
                     <option data-jurisdiction="County" value="Colusa">
                       Colusa County
                     </option>
@@ -858,8 +855,6 @@
                   <option value="Yuba City" data-jurisdiction="Place" data-geoid="686972">Yuba City</option>
                   <option value="Yucaipa" data-jurisdiction="Place" data-geoid="687042">Yucaipa</option>
                   <option value="Yucca Valley" data-jurisdiction="Place" data-geoid="687056">Yucca Valley</option>
-                  
-  
                   </select>
                 </div>
               </cagov-autocomplete>

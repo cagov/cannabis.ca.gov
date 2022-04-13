@@ -49,13 +49,13 @@ function chartLegendCounty(data, props) {
   let allowed = data.messages.LegendCounty.allowed;
   let prohibited = data.messages.LegendCounty.prohibited;
   if (data.activities !== "Any activities") {
-    allowed = data.messages.LegendCountyActivity.allowed;
-    prohibited = data.messages.LegendCountyActivity.prohibited;
+    allowed = data.messages.LegendTooltipCountyActivity.allowed;
+    prohibited = data.messages.LegendTooltipCountyActivity.prohibited;
     if (percentages.allowedPercentage === "0") {
-      allowed = data.messages.LegendCountyActivity.allowedNoResults;
+      allowed = data.messages.LegendTooltipCountyActivity.allowedNoResults;
     }
     if (percentages.prohibitedPercentage === "0") {
-      prohibited = data.messages.LegendCountyActivity.prohibitedNoResults;
+      prohibited = data.messages.LegendTooltipCountyActivity.prohibitedNoResults;
     }
   }
 

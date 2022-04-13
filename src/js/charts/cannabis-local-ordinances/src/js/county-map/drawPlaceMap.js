@@ -13,7 +13,7 @@ import { chartLegendPlace } from "./legend.js";
  */
 export default function drawPlaceMap({
   data = null,
-  domElement = null,
+  mapElement = null,
   mapLevel = "Place",
   jurisdiction = null,
   tooltipElement = null,
@@ -33,15 +33,15 @@ export default function drawPlaceMap({
 
     // Clean up existing SVGs
 
-    d3.select(domElement).select("svg").remove();
+    d3.select(mapElement).select("svg").remove();
 
     if (
       document.querySelector(
-        domElement + ' svg[data-layer-name="map-layer-container"]'
+        mapElement + ' svg[data-layer-name="map-layer-container"]'
       ) === null
     ) {
       const svg = d3
-        .select(domElement)
+        .select(mapElement)
         .append("svg")
         .attr("viewBox", [0, 0, 800, 923])
         .attr("data-layer-name", "interactive-map-container")
@@ -54,37 +54,32 @@ export default function drawPlaceMap({
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
     } else {
-      d3.select(domElement + " [data-name] g").remove();
+      d3.select(mapElement + " [data-name] g").remove();
     }
     let tooltip = d3.select(tooltipElement);
 
     /* Tooltip container */
-    // if (d3.select(tooltipElement + " div") === null) {
-    //   tooltip = d3
-    //     .select(tooltipElement)
-    //     .append("div")
-    //     .attr("class", "tooltip")
-    //     .style("position", "absolute")
-    //     .style("z-index", "10")
-    //     .style("visibility", "hidden")
-    //     .text("");
-    // }
+    if (d3.select(tooltipElement + " div") === null) {
+      tooltip = d3
+        .select(tooltipElement)
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .text("");
+    }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
     // if (data.showCounties === true) {
     xml(svgFiles.county).then((counties) => {
       const countiesGroup = d3.select(
-        domElement + ' [data-name="county-boundaries"]'
+        mapElement + ' [data-name="county-boundaries"]'
       );
-
-
-
-
       countiesGroup.node().append(counties.documentElement);
       let countyPaths = countiesGroup.selectAll("g path");
       countyPaths.each(function (p, j) {
         let el = d3.select(this);
-
         // let name = el.attr("data-name"); // TIGER2016
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
@@ -130,7 +125,7 @@ export default function drawPlaceMap({
           );
 
           const placesGroup = d3.select(
-            domElement + ' [data-name="places-boundaries"]'
+            mapElement + ' [data-name="places-boundaries"]'
           );
           placesGroup.attr(
             "transform",
@@ -153,7 +148,7 @@ export default function drawPlaceMap({
     /* PLACES */
     // if (data.showPlaces === true) {
     xml(svgFiles.places).then((places) => {
-      const group = d3.select(domElement + ' [data-name="places-boundaries"]');
+      const group = d3.select(mapElement + ' [data-name="places-boundaries"]');
 
       group.node().append(places.documentElement);
       let paths = group.selectAll("g path");
