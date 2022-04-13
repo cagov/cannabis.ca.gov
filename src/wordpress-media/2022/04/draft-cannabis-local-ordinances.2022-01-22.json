@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "created_date": "2022-04-13T22:57:27",
+    "updated_date": "2022-04-13T22:57:27",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10478",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10478,
+    "date": "2022-04-13T15:57:27",
+    "date_gmt": "2022-04-13T22:57:27",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/draft-cannabis-local-ordinances.2022-01-22.csv",
+    "modified": "2022-04-13T15:57:27",
+    "modified_gmt": "2022-04-13T22:57:27",
+    "slug": "draft-cannabis-local-ordinances-2022-01-22",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/draft-cannabis-local-ordinances-2022-01-22/",
+    "title": "draft-cannabis-local-ordinances.2022-01-22",
+    "author": "Chach",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/draft-cannabis-local-ordinances.2022-01-22.csv'>draft-cannabis-local-ordinances.2022-01-22</a></p>\n",
+    "caption": "<p>draft-cannabis-local-ordinances.2022-01-22</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "text/csv",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/draft-cannabis-local-ordinances.2022-01-22.csv",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/draft-cannabis-local-ordinances.2022-01-22.csv",
+    "path": "2022/04/draft-cannabis-local-ordinances.2022-01-22.csv"
+  }
+}
