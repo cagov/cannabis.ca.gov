@@ -206,6 +206,41 @@ cannabis-local-ordinances .map-container .map-detail svg {
 }
 
 /* Filters */
+cagov-map-table .filters-section-toggler {
+  box-sizing: border-box;
+  padding: 16px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e1e0e3;
+  border-top: none;
+  color: #064e66;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .filters-section-toggler {
+    display: flex;
+  }
+}
+
+cagov-map-table .filters-section-toggler svg {
+  display: block;
+  width: 1em;
+  height: auto;
+}
+
+cagov-map-table .filters-section-toggler line {
+  stroke: #064e66;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+/* Turn the plus into a minus by hiding the vertical line. */
+cagov-map-table[data-filters-open] .filters-section-toggler line.vertical {
+  stroke-opacity: 0;
+}
+
 cagov-map-table .filters {
   box-sizing: border-box;
   padding: 16px;
@@ -213,6 +248,15 @@ cagov-map-table .filters {
   flex-flow: column wrap;
   border: 1px solid #e1e0e3;
   border-top: none;
+}
+
+@media only screen and (max-width: 900px) {
+  cagov-map-table .filters {
+    display: none !important;
+  }
+  cagov-map-table[data-filters-open] .filters {
+    display: flex !important;
+  }
 }
 
 .filters form {

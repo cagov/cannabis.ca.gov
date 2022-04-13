@@ -72,6 +72,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       precalculateActivitiesData(this.localData, true); // Get more data by GEOID
       // Run hash check last to make sure data object is complete.
       // this.setupHashListener();
+      this.setUpFiltersMenuListener();
       this.setupUIListeners();
       // Render the display for the first time.
       this.render();
@@ -95,6 +96,19 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     //   false
     // );
     // updateMapLevelFromHash(location.hash, this.localData);
+  }
+
+  /**
+   * Set up the open/close listener for the filters.
+   */
+  setUpFiltersMenuListener() {
+    const mapTableEl = document.querySelector("cagov-map-table");
+    const filterMenuToggleEl = mapTableEl.querySelector(
+      ".filters-section-toggler"
+    );
+    filterMenuToggleEl.addEventListener("click", (e) => {
+      mapTableEl.toggleAttribute("data-filters-open");
+    });
   }
 
   /**
@@ -122,12 +136,16 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       this.setActivity(e, this.localData);
     });
 
-    var selectCountyBreadcrumb = document.querySelector(".map-breadcrumb .map-breadcrumb-item[data-level=county]");
+    var selectCountyBreadcrumb = document.querySelector(
+      ".map-breadcrumb .map-breadcrumb-item[data-level=county]"
+    );
     selectCountyBreadcrumb.addEventListener("click", (e) => {
       this.setMapStateFromBreadcrumb(e, this.localData);
     });
 
-    var selectStateBreadcrumb = document.querySelector(".map-breadcrumb .map-breadcrumb-item[data-level=state]");
+    var selectStateBreadcrumb = document.querySelector(
+      ".map-breadcrumb .map-breadcrumb-item[data-level=state]"
+    );
     selectStateBreadcrumb.addEventListener("click", (e) => {
       this.setMapStateFromBreadcrumb(e, this.localData);
     });
@@ -436,25 +454,25 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         if (geoid !== undefined && geoid !== null) {
           let placeData = this.getCurrentPlaceByGeoid(data, geoid);
           try {
-          placeLink.setAttribute(
-            "href",
-            "#" + placeData["CA Places Key"].toLowerCase().replace(/ /g, "-")
-          );
-          placeLink.setAttribute(
-            "data-geoid",
-            placeData.GEOID
-          );
-          countyLink.setAttribute("data-jurisdiction", "Place");
-          placeLink.innerHTML = placeData["CA Places Key"];
-          countyLink.innerHTML = placeData["County label"];
-          countyLink.setAttribute(
-            "href",
-            "#city-view?geoid=" + geoid + "&county=" + placeData["County"]
-          );
-          countyLink.setAttribute("href", "#county-view?county=" + placeData["County"]);
-          countyLink.setAttribute("data-county", placeData["County"]);
-          countyLink.setAttribute("data-jurisdiction", "County");
-          } catch(error){
+            placeLink.setAttribute(
+              "href",
+              "#" + placeData["CA Places Key"].toLowerCase().replace(/ /g, "-")
+            );
+            placeLink.setAttribute("data-geoid", placeData.GEOID);
+            countyLink.setAttribute("data-jurisdiction", "Place");
+            placeLink.innerHTML = placeData["CA Places Key"];
+            countyLink.innerHTML = placeData["County label"];
+            countyLink.setAttribute(
+              "href",
+              "#city-view?geoid=" + geoid + "&county=" + placeData["County"]
+            );
+            countyLink.setAttribute(
+              "href",
+              "#county-view?county=" + placeData["County"]
+            );
+            countyLink.setAttribute("data-county", placeData["County"]);
+            countyLink.setAttribute("data-jurisdiction", "County");
+          } catch (error) {
             console.log(error);
           }
         }
