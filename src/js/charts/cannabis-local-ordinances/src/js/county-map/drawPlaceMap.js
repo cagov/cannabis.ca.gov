@@ -55,16 +55,16 @@ export default function drawPlaceMap({
     } else {
       d3.select(mapElement + " [data-name] g").remove();
     }
-    // let tooltip = d3.select(tooltipElement);
+    let tooltip = d3.select(tooltipElement);
 
     /* Tooltip container */
     if (d3.select(tooltipElement + " div") === null) {
-      // tooltip = d3
-      //   .select(tooltipElement)
-      //   .append("div")
-      //   .attr("class", "tooltip")
-      //   .style("visibility", "hidden")
-      //   .text("");
+      tooltip = d3
+        .select(tooltipElement)
+        .append("div")
+        .attr("class", "tooltip")
+        .style("visibility", "hidden")
+        .text("");
     }
 
     // California Counties Boundaries - has more recognizable coastline and island fills.
@@ -188,6 +188,7 @@ export default function drawPlaceMap({
                 return 0.25;
               }
             });
+            // No tooltip there is already a legend
             // .on("click", function (event, d) {
             //   d3.select(this).attr("fill-opacity", "0.8");
             //   let shapes = [el];

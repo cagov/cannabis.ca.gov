@@ -215,6 +215,11 @@ cannabis-local-ordinances .map-container .map-detail svg {
   }
 }
 
+cagov-map-table[data-jurisdiction="County"] .filter.map-display,
+cagov-map-table[data-jurisdiction="Place"] .filter.map-display {
+  display: none;
+}
+
 /* Filters */
 cagov-map-table .filters-section-toggler {
   box-sizing: border-box;

@@ -513,6 +513,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         placeEl.classList.add("hidden");
         countyLink.setAttribute("data-jurisdiction", "Statewide");
       } else if (jurisdiction === "County") {
+        stateEl.setAttribute("data-active", "true");
         countyLink.innerHTML = countyData;
         countyLink.setAttribute("href", "#county-view?county=" + county);
         countyLink.setAttribute("data-county", county);
@@ -520,6 +521,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         countyEl.classList.remove("hidden");
         placeEl.classList.add("hidden");
       } else if (jurisdiction === "Place") {
+        stateEl.setAttribute("data-active", "true");
         if (geoid !== undefined && geoid !== null) {
           let placeData = this.getCurrentPlaceByGeoid(data, geoid);
           try {
