@@ -13,10 +13,7 @@
 }
 
 .tracker-box-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10px;
+  padding: 20px;
   min-width: 242px;
   min-height: 276px;
   background: #064e66;
@@ -31,17 +28,19 @@
   margin: 0px 0px;
 }
 
+@media only screen and (max-width: 800px) { 
+  .tracker-box-wrapper {
+    min-height: 0;
+  }
+}
+
 .tracker-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 75px auto 42px;
   padding: 0px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 10px 0px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  height: 100%;
 }
 
 .tracker-box .value {
@@ -53,7 +52,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 8px 0px;
+  margin: 8px 0;
 }
 
 .tracker-box .description {
@@ -80,5 +79,5 @@
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 8px 0px;
+  margin: 0 0 8px;
 }
