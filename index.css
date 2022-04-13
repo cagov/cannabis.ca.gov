@@ -7430,3 +7430,12 @@ cagov-post-list .excerpt .date:after {
 .wp-block-column .post-list-results .excerpt .date:after {
   content: " — ";
 }
+
+/* Awaiting release in ds-base-css */
+@media (max-width: 767px) {
+  .with-sidebar.page-container-ds.has-sidebar-left main {
+    margin-right: 0;
+  }
+}
+
+/* Extra local page styles that belong in ds-base-css */
