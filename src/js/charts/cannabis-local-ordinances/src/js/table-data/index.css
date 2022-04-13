@@ -36,10 +36,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 36px;
+  line-height: 26px;
   min-width: 120px;
   padding: 8px 8px;
   color: #000;
+  white-space: nowrap;
 } 
 
 .table-data table thead tr th {
@@ -65,6 +66,7 @@
 }
 
 .table-data table thead th:first-child {
+  border-right: 3px solid #E1E0E3;
   position: sticky;
   left: 0;
   z-index: 1001;
@@ -85,6 +87,7 @@
 }
 
 .table-data table tbody td:first-child {
+  border-right: 3px solid #E1E0E3;
   position: sticky;
   left: 0;
   background-color: #fff;
@@ -100,7 +103,6 @@
 }
 
 .table-data [role="region"][aria-labelledby][tabindex]:focus {
-  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
   outline: 0;
 }
 
