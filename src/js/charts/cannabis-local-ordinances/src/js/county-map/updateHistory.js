@@ -44,7 +44,7 @@ const getParamKeys = (hash, data) => {
 
 const setDataFromHash = (paramKeys, data) => {
   let county = null;
-  let level = "Statewide"; // Next level to set
+  let jurisdiction = "Statewide"; // Next jurisdiction to set
   let place = null;
   let geoid = null;
   let activities = null;
@@ -56,13 +56,13 @@ const setDataFromHash = (paramKeys, data) => {
 
   // Set places filter data
   if (paramKeys.anchor === "#county-view") {
-    level = "County";
+    jurisdiction = "County";
     data.jurisdiction = "County";
     if (paramKeys["County"] !== undefined && paramKeys["County"] !== null) {
       data.selectedCounty = decodeURI(paramKeys["County"]);
     }
   } else if (paramKeys.anchor === "#city-view") {
-    level = "Place";
+    jurisdiction = "Place";
     data.jurisdiction = "Place";
     if (paramKeys["Place"] !== undefined && paramKeys["Place"] !== null) {
       data.selectedPlace = paramKeys["Place"];

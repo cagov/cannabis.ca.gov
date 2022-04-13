@@ -94,7 +94,7 @@ function getPlaceColor(data, props, jurisdiction = null) {
 }
 
 /**
- * Get status color at county level or place level
+ * Get status color for jurisdiction
  * @param {*} data 
  * @param {*} mode 
  * @param {*} values 
