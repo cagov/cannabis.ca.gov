@@ -155,7 +155,7 @@ class CAGovTableData extends window.HTMLElement {
 
     if (level === "Statewide") {
       tableElements = document.querySelectorAll(
-        `${tableSelector} tbody tr[j="County"]`
+        `${tableSelector} tbody tr`
       );
       Object.keys(tableElements).map((index) =>
         tableElements[index].classList.remove("hidden")

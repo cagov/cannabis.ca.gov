@@ -74,7 +74,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       precalculateActivitiesData(this.localData, true); // Get more data by GEOID
       // Run hash check last to make sure data object is complete.
       this.setupUIListeners();
-      
       // this.setupHashListener();
       // containerElement.setAttribute("data-map-level", "Statewide");
       // Render the display for the first time.
@@ -105,7 +104,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
    * Set up the open/close listener for the filters.
    */
   setUpFiltersMenuListener() {
-    const mapTableEl = document.querySelector("cagov-map-table");
+    const mapTableEl = document.querySelector(this.domElement);
     const filterMenuToggleEl = mapTableEl.querySelector(
       ".filters-section-toggler"
     );
@@ -157,6 +156,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     selectStateBreadcrumb.addEventListener("click", (e) => {
       this.setMapStateFromBreadcrumb(e, this.localData);
     });
+
+    this.setUpFiltersMenuListener();
   }
 
   setupTooltipUIListeners(data) {
