@@ -1,0 +1,11 @@
+{
+    "Places": {
+        "defaultUnselected": "Any cannabis business"
+    },
+    "Jurisdictions": {
+        "Statewide": {},
+        "County": {},
+        "City": {}
+    },
+    "Defaults": {}
+}

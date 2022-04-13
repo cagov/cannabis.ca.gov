@@ -17,8 +17,7 @@ import { scaleCounty } from "./scaleCounty.js";
 export default function drawCountyMap({
   data = null,
   mapElement = null,
-  mapLevel = "County",
-  jurisdiction = null,
+  jurisdiction = "County",
   tooltipElement = null,
   legendElement = null,
   chartOptions = null,
@@ -188,7 +187,7 @@ export default function drawCountyMap({
                 el
               );
               tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
-              data.setupTooltipUIListeners(data);
+              data.setUpTooltipUIListeners(data);
               return tooltip
                 .transition()
                 .duration(0)

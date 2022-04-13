@@ -12,7 +12,7 @@ const updateHistory = (props) => {
   // window.location.hash = path; // TEMPORARILY DISABLED, Future feature.
 };
 
-const updateMapLevelFromHash = (hash, data) => {
+const updateMapJurisdictionDisplayFromHash = (hash, data) => {
   // console.log("update hash", hash, data);
   // if (hash !== undefined && hash.length > 0) {
   //   let paramKeys = getParamKeys(hash, data);
@@ -148,7 +148,7 @@ const updatePlacesFilter = (data) => {
           updateOptionPlaceEl.selected = true;
         }
       }
-    } else if (data.jurisdiction === "All" || data.jurisdiction === "Statewide") {
+    } else if (data.jurisdiction === "Statewide") {
       // @TODO confirm
       var updateOptionStatewideEl = document.querySelector(
         `.filter[data-filter-type="places"] select option[value=""]`
@@ -162,4 +162,4 @@ const updatePlacesFilter = (data) => {
   }
 };
 
-export { updateHistory, updateMapLevelFromHash, updateDisplaysFromInteraction };
+export { updateHistory, updateMapJurisdictionDisplayFromHash, updateDisplaysFromInteraction };

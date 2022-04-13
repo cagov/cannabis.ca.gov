@@ -22,6 +22,7 @@ class CAGovTableData extends window.HTMLElement {
     this.updateTable(mapContainer.localData);
   }
 
+  /** Create HTML for table */
   buildTable(data) {
     let fields = [
       "CA Places Key",
@@ -43,6 +44,13 @@ class CAGovTableData extends window.HTMLElement {
     return this.htmlTable(fields, data);
   }
 
+  /**
+   * Create HTML markup
+   * @NOTE - Planning to restructure this to use field names as keys, will be easier to work with.
+   * @param {*} fields 
+   * @param {*} data 
+   * @returns 
+   */
   htmlTable(fields, data) {
     if (
       fields !== undefined &&
@@ -138,9 +146,13 @@ class CAGovTableData extends window.HTMLElement {
     }
   }
 
+  /**
+   * Change which UI elements are displayed
+   * @param {*} data 
+   * @returns 
+   */
   updateTable(data) {
-    let level = data.mapLevel;
-    console.log("level", level);
+    let jurisdiction = data.jurisdiction;
     let geoid = data.geoid;
     
     let tableSelector = "cagov-table-data table";
@@ -153,7 +165,7 @@ class CAGovTableData extends window.HTMLElement {
       }
     });
 
-    if (level === "Statewide") {
+    if (jurisdiction === "Statewide") {
       tableElements = document.querySelectorAll(
         `${tableSelector} tbody tr`
       );
@@ -162,9 +174,9 @@ class CAGovTableData extends window.HTMLElement {
       );
       if (tableElement !== null) {
         tableElement.classList.remove("Place", "County");
-        tableElement.classList.add(level);
+        tableElement.classList.add(jurisdiction);
       }
-    } else if (level === "County") {
+    } else if (jurisdiction === "County") {
       let query = `${tableSelector} tr[c="${data.selectedPlaceValue}"]`; // Everything in the county.
       tableElements = document.querySelectorAll(query);
       Object.keys(tableElements).map((index) => {
@@ -177,9 +189,9 @@ class CAGovTableData extends window.HTMLElement {
       });
       if (tableElement !== null) {
         tableElement.classList.remove("Statewide", "Place");
-        tableElement.classList.add(level);
+        tableElement.classList.add(jurisdiction);
       }
-    } else if (level === "Place") {
+    } else if (jurisdiction === "Place") {
       if (geoid !== null) {
         // console.log(data);
         let countyQuery = `${tableSelector} tr[c="${data.selectedCounty}"][data-geoid="null"]`;
@@ -202,7 +214,7 @@ class CAGovTableData extends window.HTMLElement {
       }
       if (tableElement !== null) {
         tableElement.classList.remove("Statewide", "County");
-        tableElement.classList.add(level);
+        tableElement.classList.add(jurisdiction);
       }
     }
     return true;

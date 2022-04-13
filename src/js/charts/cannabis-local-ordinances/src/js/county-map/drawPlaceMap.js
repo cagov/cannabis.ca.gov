@@ -14,8 +14,7 @@ import { chartLegendPlace } from "./legend.js";
 export default function drawPlaceMap({
   data = null,
   mapElement = null,
-  mapLevel = "Place",
-  jurisdiction = null,
+  jurisdiction = "Place",
   tooltipElement = null,
   legendElement = null,
   chartOptions = null,
@@ -26,7 +25,7 @@ export default function drawPlaceMap({
   try {
     //   /* Data processing */
     // var { dataPlaces, messages, selectedPlace } = data;
-    // console.log("Place map", jurisdiction, selectedPlace, mapLevel);
+    // console.log("Place map", jurisdiction, selectedPlace, jurisdiction);
 
     var rawWidth = 800; // @TODO make a setting or pull from a base tile?
     var rawHeight = 923;

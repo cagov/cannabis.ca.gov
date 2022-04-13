@@ -141,9 +141,9 @@ function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
 
   let mode = activities;
-  if (mode === "Any activities" && jurisdiction === "County") {
+  if (mode === "Any cannabis business" && jurisdiction === "County") {
     return messages["TooltipStatewideAllActivities"];
-  } else if (mode === "Any activities" && jurisdiction === "City") {
+  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
     return messages["TooltipCountyAllActivities"];
   } else {
     if (jurisdiction === "County") {
@@ -167,7 +167,7 @@ function getActivityPercentages(data, props) {
   let mode = data.activities;
 
   let percentageAllowed, percentageProhibited;
-  if (mode === "Any activities") {
+  if (mode === "Any cannabis business") {
     percentageAllowed =
       parseFloat(
         activityCountValues["Are all CCA activites prohibited?"]["No"]

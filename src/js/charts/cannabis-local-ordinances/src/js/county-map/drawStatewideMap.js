@@ -14,14 +14,13 @@ export default function drawStatewideMap({
   mapElement = null,
   tooltipElement = null,
   legendElement = null,
-  mapLevel = "Statewide",
-  jurisdiction = null,
+  jurisdiction = "Statewide",
   chartOptions = null,
   chartBreakpointValues = null,
   screenDisplayType = null,
   svgFiles = null
 }) {
-  // console.log("Statewide map", jurisdiction, mapLevel);
+  // console.log("Statewide map", jurisdiction, jurisdiction);
   try {
     /* Data processing */
     var { dataPlaces, messages } = data;
@@ -156,7 +155,7 @@ export default function drawStatewideMap({
                   shapes
                 );
                 tooltip.attr("data-toggle","false");
-                data.setupTooltipUIListeners(data);
+                data.setUpTooltipUIListeners(data);
                 return tooltip
                   .transition()
                   .duration(0)

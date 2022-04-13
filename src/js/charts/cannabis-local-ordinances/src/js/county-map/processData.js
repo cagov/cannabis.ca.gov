@@ -109,7 +109,7 @@ function getActivityStatusColor(
 ) {
 
   switch (mode) {
-    case "Any activities":
+    case "Any cannabis business":
       return getAllActivities(data, mode, values, renderMode);
     case "Retail":
       // True === Yes it's prohibited
