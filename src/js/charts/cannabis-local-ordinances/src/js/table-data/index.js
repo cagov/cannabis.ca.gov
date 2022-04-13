@@ -75,7 +75,7 @@ class CAGovTableData extends window.HTMLElement {
           } else if (fields[key] === "Manufacturing") {
             fieldLabel = "Manufacturing";
           } else if (fields[key] === "Place") {
-            fieldLabel = "Cities";
+            fieldLabel = "Counties";
           }
           return `<th d="${key}">${fieldLabel}</th>`;
         }
