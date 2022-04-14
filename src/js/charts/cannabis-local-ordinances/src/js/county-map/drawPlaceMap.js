@@ -28,7 +28,7 @@ export default function drawPlaceMap({
   try {
     //   /* Data processing */
     var { dataPlaces, messages, selectedPlace, selectedCounty } = data;
-    var rawWidth = 800; 
+    var rawWidth = 800;
     var rawHeight = 923;
 
     // Clean up existing SVGs
@@ -128,8 +128,8 @@ export default function drawPlaceMap({
           }
         } else {
           // Not the selected county
-          el.remove();
-          // el.attr("opacity", 0.05);
+          // el.remove();
+          el.attr("opacity", 0.05);
         }
       });
     });
@@ -160,6 +160,7 @@ export default function drawPlaceMap({
         if (currentPlace !== null && currentPlace.length > 0) {
           let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
           let props = getPlaceTooltipData(data, { name, geoid });
+          // console.log(props);
 
           el.attr("stroke-width", 0.2)
             .attr("stroke-opacity", 1)
@@ -187,35 +188,17 @@ export default function drawPlaceMap({
               } else {
                 return 0.25;
               }
+            })
+            .attr("class", (d) => {
+              if (
+                data.dataPlaces[currentPlace]["GEOID"] ===
+                data.selectedPlace["GEOID"]
+              ) {
+                return "selected";
+              } else {
+                return "";
+              }
             });
-            // No tooltip there is already a legend
-            // .on("click", function (event, d) {
-            //   d3.select(this).attr("fill-opacity", "0.8");
-            //   let shapes = [el];
-            //   let tooltipPosition = tooltipPlacement(
-            //     {
-            //       rawWidth,
-            //       rawHeight,
-            //     },
-            //     el
-            //   );
-            //   tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
-            //   data.setUpTooltipUIListeners(data);
-            //   return tooltip
-            //     .transition()
-            //     .duration(0)
-            //     .style("left", tooltipPosition.x + "px")
-            //     .style("top", tooltipPosition.y + "px")
-            //     .style("visibility", "visible");
-            // })
-            // .on("dblclick", function (event, d) {
-            //   d3.select(this).attr("fill-opacity", "1");
-            //   return tooltip
-            //     .transition()
-            //     .delay(0)
-            //     .style("visibility", "hidden");
-            // });
-
         } else {
           el.remove();
         }

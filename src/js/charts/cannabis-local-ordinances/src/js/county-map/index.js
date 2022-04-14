@@ -40,17 +40,16 @@ class CannabisLocalOrdinances extends window.HTMLElement {
    */
   connectedCallback() {
     try {
-      // NOTE THESE ARE NOT REALLY LOADING FROM URL PARAMS
       this.svgFiles = {
         county:
           this.dataset.county ||
-          "https://headless.cannabis.ca.gov/assets/data/cnty19_1.svg",
+          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg",
         countyOutlines:
           this.dataset.countyOutlines ||
-          "https://headless.cannabis.ca.gov/assets/data/ca_counties_tiger2016.svg",
+          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg",
         places:
           this.dataset.places ||
-          "https://headless.cannabis.ca.gov/assets/data/tl_2016_06_place_minimal.svg",
+          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place_minimal.svg",
       };
 
       this.tableContainer = this.dataset.tableContainer;
@@ -313,7 +312,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     let selectedIndex = e.target.selectedIndex;
     let selectedEl = e.target.options[selectedIndex];
     let geoid = selectedEl.getAttribute("data-geoid") || null;
-    let jurisdiction = selectedEl.getAttribute("data-jurisdiction");
+    let jurisdiction = selectedEl.getAttribute("data-jurisdiction") || "Statewide";
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
     this.updateMapState(entry, data);
@@ -329,7 +328,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     data.geoid = geoid;
     let placesOptions = document.querySelectorAll(`.filter[data-filter-type="places"] select option`);
     placesOptions.selected = false;
-
     if (jurisdiction === "County") {
       let countyOption = document.querySelectorAll(`.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`);
       if (countyOption !== null) { countyOption.selected = true; }

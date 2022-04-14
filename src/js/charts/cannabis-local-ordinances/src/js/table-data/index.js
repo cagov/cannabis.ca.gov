@@ -16,10 +16,12 @@ class CAGovTableData extends window.HTMLElement {
   connectedCallback() {
     this.mapContainer = this.dataset.mapContainer;
     let mapContainer = document.querySelector(this.mapContainer);
-    // let dataPlaces = mapContainer.localData.dataPlaces;
+    
+    // If need to rebuild data, reenable - this adds a bit of possible unnecessary processing
+    let dataPlaces = mapContainer.localData.dataPlaces;
+    let tableData = this.buildTable(dataPlaces);
+    this.innerHTML = tableData;
 
-    // let tableData = this.buildTable(dataPlaces);
-    // this.innerHTML = tableData;
     this.updateTable(mapContainer.localData);
   }
 
@@ -120,7 +122,11 @@ class CAGovTableData extends window.HTMLElement {
               rowValueLabel = row[0];
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             } else if (rowValue === "1" && row[5] === "County") {
-              rowValueLabel = row[4];
+              let countyLabel = row[4];
+              
+              // Alter data to get current county and wrap with show / hide logic
+              let rowValueLabel = "<span class=\"county-label\">" + countyLabel + "</span><span class=\"unincorporated-label\">" + " " + countyLabel + " " + mapMessages.TableLabelCountyWide + "</span>";
+              
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             }
 
@@ -167,12 +173,13 @@ class CAGovTableData extends window.HTMLElement {
     });
 
     if (jurisdiction === "Statewide") {
+      console.log("Statewide");
       tableElements = document.querySelectorAll(
         `${tableSelector} tbody tr`
       );
-      Object.keys(tableElements).map((index) =>
-        tableElements[index].classList.remove("hidden")
-      );
+      Object.keys(tableElements).map((index) => {
+        tableElements[index].classList.remove("hidden");
+      });
       if (tableElement !== null) {
         tableElement.classList.remove("Place", "County");
         tableElement.classList.add(jurisdiction);
@@ -184,8 +191,6 @@ class CAGovTableData extends window.HTMLElement {
         tableElements[index].classList.remove("hidden");
         if (index === "0" && tableElements[index] !== null) {
           tableElements[index].classList.add("county-row");
-          tableElements[index].querySelector("td:first-child").innerHTML =
-            data.messages.TableLabelCountyWide;
         }
       });
       if (tableElement !== null) {
@@ -197,7 +202,9 @@ class CAGovTableData extends window.HTMLElement {
         // console.log(data);
         let countyQuery = `${tableSelector} tr[c="${data.selectedCounty}"][data-geoid="null"]`;
         let countyElements = document.querySelectorAll(countyQuery);
-        let query = `${tableSelector} tr[data-geoid="${geoid}"]`; // Everything in the county.
+        
+        let query = `${tableSelector} tr[data-geoid="${geoid}"]`;
+        console.log(query);
         tableElements = document.querySelectorAll(query);
 
         Object.keys(countyElements).map((index) => {
@@ -209,7 +216,7 @@ class CAGovTableData extends window.HTMLElement {
         Object.keys(tableElements).map((index) => {
           tableElements[index].classList.remove("hidden");
           if (index === "0" && tableElements[index] !== null) {
-            // tableElements[index].classList.add("county-row");
+            tableElements[index].classList.add("place-row");
           }
         });
       }
