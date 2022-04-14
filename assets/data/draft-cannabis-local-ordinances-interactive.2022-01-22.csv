@@ -1,0 +1,541 @@
+﻿Place,CA Places Key,GEOID,County,County label,Jurisdiction Type,Retail: Storefront,Retail: Non-Storefront,Distribution,Testing,Manufacturing,Cultivation,Are all CCA activites prohibited?,Is all retail prohibited?,CCA Prohibited by County,Updated
+Alameda County,,,Alameda,Alameda County,County,Allowed,Allowed,Limited,Allowed,Limited,Allowed,No,No,No,2022-01-22
+Alpine County,,,Alpine,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Amador County,,,Amador,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Butte County,,,Butte,Butte County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Calaveras County,,,Calaveras,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Prohibited,Allowed,No,No,No,2022-01-22
+Colusa County,,,Colusa,Colusa County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Limited,No,Yes,No,2022-01-22
+Contra Costa County,,,Contra Costa,Contra Costa County,County,Allowed,Limited,Allowed,Allowed,Allowed,Limited,No,No,No,2022-01-22
+Del Norte County,,,Del Norte,Del Norte County,County,Allowed,Prohibited,Prohibited,Prohibited,Allowed,Allowed,No,No,No,2022-01-22
+El Dorado County,,,El Dorado,El Dorado County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Fresno County,,,Fresno,Fresno County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Glenn County,,,Glenn,Glenn County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Humboldt County,,,Humboldt,Humboldt County,County,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Imperial County,,,Imperial,Imperial County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Inyo County,,,Inyo,Inyo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Kern County,,,Kern,Kern County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Kings County,,,Kings,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Lake County,,,Lake,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,No,2021-12-13
+Lassen County,,,Lassen,Lassen County,County,Allowed,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,No,No,2022-01-22
+Los Angeles County,,,Los Angeles,Los Angeles County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Madera County,,,Madera,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Marin County,,,Marin,Marin County,County,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,No,2022-01-22
+Mariposa County,,,Mariposa,Mariposa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Mendocino County,,,Mendocino,Mendocino County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Merced County,,,Merced,Merced County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Modoc County,,,Modoc,Modoc County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Mono County,,,Mono,Mono County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Monterey County,,,Monterey,Monterey County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Napa County,,,Napa,Napa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Nevada County,,,Nevada,Nevada County,County,Prohibited,Prohibited,Limited,Prohibited,Prohibited,Limited-Medical Only,No,Yes,No,2022-01-22
+Orange County,,,Orange,Orange County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Placer County,,,Placer,Placer County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Plumas County,,,Plumas,Plumas County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Riverside County,,,Riverside,Riverside County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,No,2022-01-22
+Sacramento County,,,Sacramento,Sacramento County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+San Benito County,,,San Benito,San Benito County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Limited,No,Yes,No,2022-01-22
+San Bernardino County,,,San Bernardino,San Bernardino County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+San Diego County,,,San Diego,San Diego County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Allowed,No,No,No,2022-01-22
+San Francisco County,,,San Francisco,San Francisco County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-03-17
+San Joaquin County,,,San Joaquin,San Joaquin County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+San Luis Obispo County,,,San Luis Obispo,San Luis Obispo County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,No,2022-01-22
+San Mateo County,,,San Mateo,San Mateo County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Limited,No,Yes,No,2022-01-22
+Santa Barbara County,,,Santa Barbara,Santa Barbara County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Santa Clara County,,,Santa Clara,Santa Clara County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Santa Cruz County,,,Santa Cruz,Santa Cruz County,County,Allowed,Limited,Allowed,Prohibited,Allowed,Allowed,No,No,No,2022-01-22
+Shasta County,,,Shasta,Shasta County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Sierra County,,,Sierra,Sierra County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Siskiyou County,,,Siskiyou,Siskiyou County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Solano County,,,Solano,Solano County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Sonoma County,,,Sonoma,Sonoma County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Stanislaus County,,,Stanislaus,Stanislaus County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Sutter County,,,Sutter,Sutter County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Tehama County,,,Tehama,Tehama County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Trinity County,,,Trinity,Trinity County,County,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Tulare County,,,Tulare,Tulare County,County,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,Limited-Medical Only,No,No,No,2022-01-22
+Tuolumne County,,,Tuolumne,Tuolumne County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Ventura County,,,Ventura,Ventura County,County,Prohibited,Prohibited,Limited,Prohibited,Prohibited,Limited,No,Yes,No,2022-01-22
+Yolo County,,,Yolo,Yolo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
+Yuba County,,,Yuba,Yuba County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Alameda,Alameda,600562,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Albany,Albany,600674,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Berkeley,Berkeley,606000,Alameda,Alameda County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Dublin,Dublin,620018,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Emeryville,Emeryville,622594,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Fremont,Fremont,626000,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hayward,Hayward,633000,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Livermore,Livermore,641992,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Newark,Newark,650916,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Oakland,Oakland,653000,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Piedmont,Piedmont,656938,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pleasanton,Pleasanton,657792,Alameda,Alameda County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Leandro,San Leandro,668084,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Union City,Union City,681204,Alameda,Alameda County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Amador City,Amador City,601514,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Ione,Ione,636672,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Jackson,Jackson,636980,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Plymouth,Plymouth,657834,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Sutter Creek,Sutter Creek,677392,Amador,Amador County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Biggs,Biggs,606560,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Chico,Chico,613014,Butte,Butte County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Gridley,Gridley,631260,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Oroville,Oroville,654386,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Paradise,Paradise,655520,Butte,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Angels Camp,Angels,602112,Calaveras,Calaveras County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Colusa,Colusa,614946,Colusa,Colusa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,No,Yes,,2022-01-22
+Williams,Williams,685586,Colusa,Colusa County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,,2022-01-22
+Antioch,Antioch,602252,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Brentwood,Brentwood,608142,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Clayton,Clayton,613882,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Concord,Concord,616000,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Danville,Danville,617988,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+El Cerrito,El Cerrito,621796,Contra Costa,Contra Costa County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Hercules,Hercules,633308,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Lafayette,Lafayette,639122,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Martinez,Martinez,646114,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Moraga,Moraga,649187,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Oakley,Oakley,653070,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Orinda,Orinda,654232,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pinole,Pinole,657288,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pittsburg,Pittsburg,657456,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Prohibited,No,Yes,,2022-01-22
+Pleasant Hill,Pleasant Hill,657764,Contra Costa,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Richmond,Richmond,660620,Contra Costa,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+San Pablo,San Pablo,668294,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Ramon,San Ramon,668378,Contra Costa,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Walnut Creek,Walnut Creek,683346,Contra Costa,Contra Costa County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Crescent City,Crescent City,617022,Del Norte,Del Norte County,City,Allowed,Allowed,Allowed,Allowed,Limited,Limited,No,No,,2022-01-22
+Placerville,Placerville,657540,El Dorado,El Dorado County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
+South Lake Tahoe,South Lake Tahoe,673108,El Dorado,El Dorado County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Clovis,Clovis,614218,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Coalinga,Coalinga,614274,Fresno,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Firebaugh,Firebaugh,624134,Fresno,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Fowler,Fowler,625436,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fresno,Fresno,627000,Fresno,Fresno County,City,Allowed,Limited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Huron,Huron,636084,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Kerman,Kerman,638226,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Kingsburg,Kingsburg,638562,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Mendota,Mendota,646828,Fresno,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Orange Cove,Orange Cove,654008,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Parlier,Parlier,655856,Fresno,Fresno County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,,2022-01-22
+Reedley,Reedley,660242,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Joaquin,San Joaquin,667126,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Sanger,Sanger,667056,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Selma,Selma,670882,Fresno,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Orland,Orland,654274,Glenn,Glenn County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Willows,Willows,685684,Glenn,Glenn County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Arcata,Arcata,602476,Humboldt,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Blue Lake,Blue Lake,607162,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Eureka,Eureka,623042,Humboldt,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Ferndale,Ferndale,623910,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fortuna,Fortuna,625296,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rio Dell,Rio Dell,660900,Humboldt,Humboldt County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Trinidad,Trinidad,680448,Humboldt,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Brawley,Brawley,608058,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Calexico,Calexico,609710,Imperial,Imperial County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Calipatria,Calipatria,609878,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+El Centro,El Centro,621782,Imperial,Imperial County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Holtville,Holtville,634246,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Imperial,Imperial,636280,Imperial,Imperial County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Westmorland,Westmorland,684606,Imperial,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Bishop,Bishop,606798,Inyo,Inyo County,City,Limited,Limited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Arvin,Arvin,602924,Kern,Kern County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Bakersfield,Bakersfield,603526,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+California City,California City,609780,Kern,Kern County,City,Limited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Delano,Delano,618394,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Maricopa,Maricopa,645736,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+McFarland,McFarland,644826,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Ridgecrest,Ridgecrest,660704,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Shafter,Shafter,671106,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Taft,Taft,677574,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Tehachapi,Tehachapi,678092,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Wasco,Wasco,683542,Kern,Kern County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Avenal,Avenal,603302,Kings,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Corcoran,Corcoran,616224,Kings,Kings County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hanford,Hanford,631960,Kings,Kings County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Lemoore,Lemoore,641152,Kings,Kings County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Clearlake,Clearlake,613945,Lake,Lake County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Lakeport,Lakeport,639710,Lake,Lake County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Susanville,Susanville,677364,Lassen,Lassen County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Agoura Hills,Agoura Hills,600394,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Alhambra,Alhambra,600884,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Arcadia,Arcadia,602462,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Artesia,Artesia,602896,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Avalon (Catalina Island),Avalon,603274,Los Angeles,Los Angeles County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Azusa,Azusa,603386,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Baldwin Park,Baldwin Park,603666,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Allowed,Prohibited,Allowed,Limited,No,Yes,,2022-01-22
+Bell,Bell,604870,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,No,Yes,,2022-01-22
+Bell Gardens,Bell Gardens,604996,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Bellflower,Bellflower,604982,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Beverly Hills,Beverly Hills,606308,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Bradbury,Bradbury,607946,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Burbank,Burbank,608954,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Calabasas,Calabasas,609598,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Carson,Carson,611530,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Limited,No,Yes,,2022-01-22
+Cerritos,Cerritos,612552,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Claremont,Claremont,613756,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Commerce,Commerce,614974,Los Angeles,Los Angeles County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Compton,Compton,615044,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Covina,Covina,616742,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Cudahy,Cudahy,617498,Los Angeles,Los Angeles County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,No,No,,2022-01-22
+Culver City,Culver City,617568,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Diamond Bar,Diamond Bar,619192,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Downey,Downey,619766,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Duarte,Duarte,619990,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+El Monte,El Monte,622230,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+El Segundo,El Segundo,622412,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Gardena,Gardena,628168,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Glendale,Glendale,630000,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Glendora,Glendora,630014,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hawaiian Gardens,Hawaiian Gardens,632506,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hawthorne,Hawthorne,632548,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hermosa Beach,Hermosa Beach,633364,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hidden Hills,Hidden Hills,633518,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Huntington Park,Huntington Park,636056,Los Angeles,Los Angeles County,City,Limited-Medical Only,Limited,Prohibited,Prohibited,Allowed,Allowed,No,No,,2022-01-22
+Industry,Industry,636490,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Inglewood,Inglewood,636546,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Irwindale,Irwindale,636826,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+La Cañada Flintridge,La Cañada Flintridge,639003,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+La Habra Heights,La Habra Heights,639304,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+La Mirada,La Mirada,640032,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+La Puente,La Puente,640340,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+La Verne,La Verne,640830,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Lakewood,Lakewood,639892,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Lancaster,Lancaster,640130,Los Angeles,Los Angeles County,City,Allowed,Limited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Lawndale,Lawndale,640886,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Lomita,Lomita,642468,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Long Beach,Long Beach,643000,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Los Angeles,Los Angeles,644000,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Lynwood,Lynwood,644574,Los Angeles,Los Angeles County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Malibu,Malibu,645246,Los Angeles,Los Angeles County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Manhattan Beach,Manhattan Beach,645400,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Maywood,Maywood,646492,Los Angeles,Los Angeles County,City,Limited,Limited,Limited,Limited,Limited,Limited,No,No,,2022-01-22
+Monrovia,Monrovia,648648,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Montebello,Montebello,648816,Los Angeles,Los Angeles County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Monterey Park,Monterey Park,648914,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Norwalk,Norwalk,652526,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Palmdale,Palmdale,655156,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Palos Verdes Estates,Palos Verdes Estates,655380,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Paramount,Paramount,655618,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pasadena,Pasadena,656000,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Pico Rivera,Pico Rivera,656924,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pomona,Pomona,658072,Los Angeles,Los Angeles County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Rancho Palos Verdes,Rancho Palos Verdes,659514,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Redondo Beach,Redondo Beach,660018,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rolling Hills,Rolling Hills,662602,Los Angeles,Los Angeles County,City,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Rolling Hills Estates,Rolling Hills Estates,662644,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rosemead,Rosemead,662896,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Dimas,San Dimas,666070,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Fernando,San Fernando,666140,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Gabriel,San Gabriel,667042,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Marino,San Marino,668224,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Santa Clarita,Santa Clarita,669088,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Santa Fe Springs,Santa Fe Springs,669154,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Santa Monica,Santa Monica,670000,Los Angeles,Los Angeles County,City,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Prohibited,No,No,,2022-01-22
+Sierra Madre,Sierra Madre,671806,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Signal Hill,Signal Hill,671876,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+South El Monte,South El Monte,672996,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+South Gate,South Gate,673080,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+South Pasadena,South Pasadena,673220,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Temple City,Temple City,678148,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Torrance,Torrance,680000,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Vernon,Vernon,682422,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Walnut,Walnut,683332,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+West Covina,West Covina,684200,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+West Hollywood,West Hollywood,684410,Los Angeles,Los Angeles County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Westlake Village,Westlake Village,684438,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Whittier,Whittier,685292,Los Angeles,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Chowchilla,Chowchilla,613294,Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Madera,Madera,645022,Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Belvedere,Belvedere,605164,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Corte Madera,Corte Madera,616462,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fairfax,Fairfax,623168,Marin,Marin County,City,Limited-Medical Only,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Larkspur,Larkspur,640438,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Mill Valley,Mill Valley,647710,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Novato,Novato,652582,Marin,Marin County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Ross,Ross,662980,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Anselmo,San Anselmo,664434,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Rafael,San Rafael,668364,Marin,Marin County,City,Prohibited,Allowed,Allowed,Allowed,Limited,Prohibited,No,No,,2022-01-22
+Sausalito,Sausalito,670364,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Tiburon,Tiburon,678666,Marin,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fort Bragg,Fort Bragg,625058,Mendocino,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Point Arena,Point Arena,657876,Mendocino,Mendocino County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Ukiah,Ukiah,681134,Mendocino,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Willits,Willits,685600,Mendocino,Mendocino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Atwater,Atwater,603162,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Dos Palos,Dos Palos,619612,Merced,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Gustine,Gustine,631568,Merced,Merced County,City,Allowed,Allowed,Allowed,Prohibited,Allowed,Limited,No,No,,2022-01-22
+Livingston,Livingston,642006,Merced,Merced County,City,Prohibited,Prohibited,Prohibited,Allowed,Allowed,Limited,No,Yes,,2022-01-22
+Los Banos,Los Banos,644028,Merced,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Merced,Merced,646898,Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Alturas,Alturas,601444,Modoc,Modoc County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Mammoth Lakes,Mammoth Lakes,645358,Mono,Mono County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Limited,No,No,,2022-01-22
+Carmel-by-the-Sea,Carmel-by-the-Sea,611250,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Del Rey Oaks,Del Rey Oaks,618688,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Gonzales,Gonzales,630392,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,No,Yes,,2022-01-22
+Greenfield,Greenfield,630994,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+King City,King City,638520,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Marina,Marina,645778,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Monterey,Monterey,648872,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Pacific Grove,Pacific Grove,654848,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Salinas,Salinas,664224,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Sand City,Sand City,665112,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Seaside,Seaside,670742,Monterey,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Soledad,Soledad,672520,Monterey,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+American Canyon,American Canyon,601640,Napa,Napa County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Calistoga,Calistoga,609892,Napa,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Napa,Napa,650258,Napa,Napa County,City,Limited-Medical Only,Limited-Medical Only,Prohibited,Prohibited,Allowed,Prohibited,No,No,,2022-01-22
+St. Helena,St. Helena,664140,Napa,Napa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Yountville,Yountville,686930,Napa,Napa County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Grass Valley,Grass Valley,630798,Nevada,Nevada County,City,Limited,Limited,Limited,Limited,Limited,Limited,No,No,,2022-01-22
+Nevada City,Nevada City,650874,Nevada,Nevada County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Truckee,Truckee,680588,Nevada,Nevada County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Aliso Viejo,Aliso Viejo,600947,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Anaheim,Anaheim,602000,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Brea,Brea,608100,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Buena Park,Buena Park,608786,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Costa Mesa,Costa Mesa,616532,Orange,Orange County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Cypress,Cypress,617750,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Dana Point,Dana Point,617946,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fountain Valley,Fountain Valley,625380,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fullerton,Fullerton,628000,Orange,Orange County,City,Limited,Limited,Limited,Allowed,Limited,Limited,No,No,,2022-01-22
+Garden Grove,Garden Grove,629000,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Huntington Beach,Huntington Beach,636000,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Irvine,Irvine,636770,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+La Habra,La Habra,639290,Orange,Orange County,City,Prohibited,Allowed,Allowed,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
+La Palma,La Palma,640256,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Laguna Beach,Laguna Beach,639178,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Laguna Hills,Laguna Hills,639220,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Laguna Niguel,Laguna Niguel,639248,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Laguna Woods,Laguna Woods,639259,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Lake Forest,Lake Forest,639496,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Los Alamitos,Los Alamitos,643224,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Mission Viejo,Mission Viejo,648256,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Newport Beach,Newport Beach,651182,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Orange,Orange,653980,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Placentia,Placentia,657526,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rancho Santa Margarita,Rancho Santa Margarita,659587,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Clemente,San Clemente,665084,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Juan Capistrano,San Juan Capistrano,668028,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Santa Ana,Santa Ana,669000,Orange,Orange County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Seal Beach,Seal Beach,670686,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Stanton,Stanton,673962,Orange,Orange County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Tustin,Tustin,680854,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Villa Park,Villa Park,682744,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Westminster,Westminster,684550,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Yorba Linda,Yorba Linda,686832,Orange,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Auburn,Auburn,603204,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Colfax,Colfax,614498,Placer,Placer County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Lincoln,Lincoln,641474,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Loomis,Loomis,643140,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rocklin,Rocklin,662364,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Roseville,Roseville,662938,Placer,Placer County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Portola,Portola,658352,Plumas,Plumas County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Banning,Banning,603820,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Beaumont,Beaumont,604758,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Blythe,Blythe,607218,Riverside,Riverside County,City,Limited,Prohibited,Allowed,Limited,Allowed,Allowed,No,No,,2022-01-22
+Calimesa,Calimesa,609864,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Canyon Lake,Canyon Lake,610928,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Cathedral City,Cathedral City,612048,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Coachella,Coachella,614260,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Corona,Corona,616350,Riverside,Riverside County,City,Limited,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Desert Hot Springs,Desert Hot Springs,618996,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Eastvale,Eastvale,621230,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hemet,Hemet,633182,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Indian Wells,Indian Wells,636434,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Indio,Indio,636448,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Jurupa Valley,Jurupa Valley,637692,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+La Quinta,La Quinta,640354,Riverside,Riverside County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Lake Elsinore,Lake Elsinore,639486,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Menifee,Menifee,646842,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Moreno Valley,Moreno Valley,649270,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Murrieta,Murrieta,650076,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Norco,Norco,651560,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Palm Desert,Palm Desert,655184,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Palm Springs,Palm Springs,655254,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Perris,Perris,656700,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Rancho Mirage,Rancho Mirage,659500,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Riverside,Riverside,662000,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+San Jacinto,San Jacinto,667112,Riverside,Riverside County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Temecula,Temecula,678120,Riverside,Riverside County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Wildomar,Wildomar,685446,Riverside,Riverside County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Citrus Heights,Citrus Heights,613588,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Elk Grove,Elk Grove,622020,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Folsom,Folsom,624638,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Galt,Galt,628112,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Isleton,Isleton,636882,Sacramento,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Rancho Cordova,Rancho Cordova,659444,Sacramento,Sacramento County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Sacramento,Sacramento,664000,Sacramento,Sacramento County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Hollister,Hollister,634120,San Benito,San Benito County,City,Limited-Medical Only,Limited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+San Juan Bautista,San Juan Bautista,668014,San Benito,San Benito County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Adelanto,Adelanto,600296,San Bernardino,San Bernardino County,City,Limited,Limited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Apple Valley,Apple Valley,602364,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Barstow,Barstow,604030,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Big Bear Lake,Big Bear Lake,606434,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Chino,Chino,613210,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Chino Hills,Chino Hills,613214,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Colton,Colton,614890,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Allowed,Allowed,Limited,No,Yes,,2022-01-22
+Fontana,Fontana,624680,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Grand Terrace,Grand Terrace,630658,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Hesperia,Hesperia,633434,San Bernardino,San Bernardino County,City,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Highland,Highland,633588,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Loma Linda,Loma Linda,642370,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Montclair,Montclair,648788,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Needles,Needles,650734,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Ontario,Ontario,653896,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rancho Cucamonga,Rancho Cucamonga,659451,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Redlands,Redlands,659962,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Rialto,Rialto,660466,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Bernardino,San Bernardino,665000,San Bernardino,San Bernardino County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Twentynine Palms,Twentynine Palms,680994,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Upland,Upland,681344,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Victorville,Victorville,682590,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Yucaipa,Yucaipa,687042,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Yucca Valley,Yucca Valley,687056,San Bernardino,San Bernardino County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Carlsbad,Carlsbad,611194,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Chula Vista,Chula Vista,613392,San Diego,San Diego County,City,Limited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Coronado,Coronado,616378,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Del Mar,Del Mar,618506,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+El Cajon,El Cajon,621712,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Encinitas,Encinitas,622678,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Prohibited,Allowed,Allowed,No,No,,2022-01-22
+Escondido,Escondido,622804,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Imperial Beach,Imperial Beach,636294,San Diego,San Diego County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+La Mesa,La Mesa,640004,San Diego,San Diego County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Lemon Grove,Lemon Grove,641124,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Prohibited,Allowed,Allowed,No,No,,2022-01-22
+National City,National City,650398,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Oceanside,Oceanside,653322,San Diego,San Diego County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Poway,Poway,658520,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Diego,San Diego,666000,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+San Marcos,San Marcos,668196,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Santee,Santee,670224,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Solana Beach,Solana Beach,672506,San Diego,San Diego County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Vista,Vista,682996,San Diego,San Diego County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+San Francisco,San Francisco,667000,San Francisco,San Francisco County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Escalon,Escalon,622790,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Lathrop,Lathrop,640704,San Joaquin,San Joaquin County,City,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Lodi,Lodi,642202,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Manteca,Manteca,645484,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Ripon,Ripon,661026,San Joaquin,San Joaquin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Stockton,Stockton,675000,San Joaquin,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Tracy,Tracy,680238,San Joaquin,San Joaquin County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Arroyo Grande,Arroyo Grande,602868,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Atascadero,Atascadero,603064,San Luis Obispo,San Luis Obispo County,City,Prohibited,Allowed,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
+Grover Beach,Grover Beach,631393,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Morro Bay,Morro Bay,649362,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Paso Robles (El Paso de Robles),El Paso de Robles (Paso Robles),622300,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pismo Beach,Pismo Beach,657414,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Luis Obispo,San Luis Obispo,668154,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Atherton,Atherton,603092,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Belmont,Belmont,605108,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Brisbane,Brisbane,608310,San Mateo,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Burlingame,Burlingame,609066,San Mateo,San Mateo County,City,Prohibited,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Colma,Colma,614736,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Daly City,Daly City,617918,San Mateo,San Mateo County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
+East Palo Alto,East Palo Alto,620956,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Foster City,Foster City,625338,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Half Moon Bay,Half Moon Bay,631708,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Limited,No,Yes,,2022-01-22
+Hillsborough,Hillsborough,633798,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Menlo Park,Menlo Park,646870,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Millbrae,Millbrae,647486,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Pacifica,Pacifica,654806,San Mateo,San Mateo County,City,Allowed,Limited,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Portola Valley,Portola Valley,658380,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Limited,No,Yes,,2022-01-22
+Redwood City,Redwood City,660102,San Mateo,San Mateo County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Limited,No,No,,2022-01-22
+San Bruno,San Bruno,665028,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Carlos,San Carlos,665070,San Mateo,San Mateo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,,2022-01-22
+San Mateo,San Mateo,668252,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+South San Francisco,South San Francisco,673262,San Mateo,San Mateo County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Woodside,Woodside,686440,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Buellton,Buellton,608758,Santa Barbara,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Carpinteria,Carpinteria,611446,Santa Barbara,Santa Barbara County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Goleta,Goleta,630378,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Guadalupe,Guadalupe,631414,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Lompoc,Lompoc,642524,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Santa Barbara,Santa Barbara,669070,Santa Barbara,Santa Barbara County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Santa Maria,Santa Maria,669196,Santa Barbara,Santa Barbara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Solvang,Solvang,672576,Santa Barbara,Santa Barbara County,City,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,Limited-Medical Only,No,No,,2022-01-22
+Campbell,Campbell,610345,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Cupertino,Cupertino,617610,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Gilroy,Gilroy,629504,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Los Altos,Los Altos,643280,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Los Altos Hills,Los Altos Hills,643294,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Los Gatos,Los Gatos,644112,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Milpitas,Milpitas,647766,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Monte Sereno,Monte Sereno,648956,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Morgan Hill,Morgan Hill,649278,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Mountain View,Mountain View,649670,Santa Clara,Santa Clara County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Palo Alto,Palo Alto,655282,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+San Jose,San Jose,668000,Santa Clara,Santa Clara County,City,Limited,Limited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Santa Clara,Santa Clara,669084,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Saratoga,Saratoga,670280,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Sunnyvale,Sunnyvale,677000,Santa Clara,Santa Clara County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Capitola,Capitola,611040,Santa Cruz,Santa Cruz County,City,Allowed,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
+Santa Cruz,Santa Cruz,669112,Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Scotts Valley,Scotts Valley,670588,Santa Cruz,Santa Cruz County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Watsonville,Watsonville,683668,Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Anderson,Anderson,602042,Shasta,Shasta County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Redding,Redding,659920,Shasta,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Shasta Lake,Shasta Lake,671225,Shasta,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Loyalton,Loyalton,644364,Sierra,Sierra County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Dorris,Dorris,619584,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Dunsmuir,Dunsmuir,620242,Siskiyou,Siskiyou County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Etna,Etna,622972,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fort Jones,Fort Jones,625128,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Montague,Montague,648690,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Mount Shasta,Mount Shasta,649852,Siskiyou,Siskiyou County,City,Allowed,Limited-Medical Only,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Tulelake,Tulelake,680686,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Weed,Weed,683850,Siskiyou,Siskiyou County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Limited,No,No,,2022-01-22
+Yreka,Yreka,686944,Siskiyou,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Benicia,Benicia,605290,Solano,Solano County,City,Limited,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Dixon,Dixon,619402,Solano,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Allowed,Limited,No,No,,2022-01-22
+Fairfield,Fairfield,623182,Solano,Solano County,City,Allowed,Allowed,Prohibited,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Rio Vista,Rio Vista,660984,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Suisun City,Suisun City,675630,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Vacaville,Vacaville,681554,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Vallejo,Vallejo,681666,Solano,Solano County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Cloverdale,Cloverdale,614190,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Cotati,Cotati,616560,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Healdsburg,Healdsburg,633056,Sonoma,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Petaluma,Petaluma,656784,Sonoma,Sonoma County,City,Prohibited,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Rohnert Park,Rohnert Park,662546,Sonoma,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Santa Rosa,Santa Rosa,670098,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Sebastopol,Sebastopol,670770,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Sonoma,Sonoma,672646,Sonoma,Sonoma County,City,Allowed,Allowed,Allowed,Allowed,Limited,Prohibited,No,No,,2022-01-22
+Windsor,Windsor,685922,Sonoma,Sonoma County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Ceres,Ceres,612524,Stanislaus,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Hughson,Hughson,634904,Stanislaus,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Modesto,Modesto,648354,Stanislaus,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Newman,Newman,651140,Stanislaus,Stanislaus County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Oakdale,Oakdale,652694,Stanislaus,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Patterson,Patterson,656112,Stanislaus,Stanislaus County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Riverbank,Riverbank,661068,Stanislaus,Stanislaus County,City,Allowed,Allowed,Prohibited,Allowed,Prohibited,Limited,No,No,,2022-01-22
+Turlock,Turlock,680812,Stanislaus,Stanislaus County,City,Allowed,Limited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Waterford,Waterford,683612,Stanislaus,Stanislaus County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Live Oak,Live Oak,641936,Sutter,Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Yuba City,Yuba City,686972,Sutter,Sutter County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Corning,Corning,616322,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Red Bluff,Red Bluff,659892,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Tehama,Tehama,678106,Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Dinuba,Dinuba,619318,Tulare,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Exeter,Exeter,623126,Tulare,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Farmersville,Farmersville,623616,Tulare,Tulare County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Lindsay,Lindsay,641712,Tulare,Tulare County,City,Allowed,Limited,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Porterville,Porterville,658240,Tulare,Tulare County,City,Allowed,Limited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Tulare,Tulare,680644,Tulare,Tulare County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
+Visalia,Visalia,682954,Tulare,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Woodlake,Woodlake,686300,Tulare,Tulare County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Sonora,Sonora,672674,Tuolumne,Tuolumne County,City,Limited,Limited,Prohibited,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Camarillo,Camarillo,610046,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Fillmore,Fillmore,624092,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Moorpark,Moorpark,649138,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Ojai,Ojai,653476,Ventura,Ventura County,City,Allowed,Allowed,Prohibited,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Oxnard,Oxnard,654652,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Port Hueneme,Port Hueneme,658296,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Santa Paula,Santa Paula,670042,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Simi Valley,Simi Valley,672016,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Thousand Oaks,Thousand Oaks,678582,Ventura,Ventura County,City,Limited-Medical Only,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
+Ventura (San Buenaventura),San Buenaventura (Ventura),665042,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Davis,Davis,618100,Yolo,Yolo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+West Sacramento,West Sacramento,684816,Yolo,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Limited,No,Yes,,2022-01-22
+Winters,Winters,686034,Yolo,Yolo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Woodland,Woodland,686328,Yolo,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Prohibited,No,Yes,,2022-01-22
+Marysville,Marysville,646170,Yuba,Yuba County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Limited,No,No,,2022-01-22
+Wheatland,Wheatland,685012,Yuba,Yuba County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
