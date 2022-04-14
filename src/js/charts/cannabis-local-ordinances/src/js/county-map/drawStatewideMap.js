@@ -115,7 +115,6 @@ export default function drawStatewideMap({
       // County stroke lines and tooltips (interactions, includes islands belonging to different counties.)
       svg(svgFiles.countyOutlines)
       .then((counties) => {
-       
         const countiesGroup = d3.select(
           mapElement + ' [data-name="county-strokes"]'
         );

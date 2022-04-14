@@ -16,10 +16,10 @@ class CAGovTableData extends window.HTMLElement {
   connectedCallback() {
     this.mapContainer = this.dataset.mapContainer;
     let mapContainer = document.querySelector(this.mapContainer);
-    let dataPlaces = mapContainer.localData.dataPlaces;
+    // let dataPlaces = mapContainer.localData.dataPlaces;
 
-    let tableData = this.buildTable(dataPlaces);
-    this.innerHTML = tableData;
+    // let tableData = this.buildTable(dataPlaces);
+    // this.innerHTML = tableData;
     this.updateTable(mapContainer.localData);
   }
 

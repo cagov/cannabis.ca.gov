@@ -6,7 +6,7 @@
 }
 
 /* @TODO mobile breakpoint */
-@media only screen and (max-width: 900px) { 
+@media only screen and (max-width: 1024px) { 
   .tracker-boxes {
     grid-template-columns: repeat(auto-fill, 100%);
  }
@@ -28,7 +28,7 @@
   margin: 0px 0px;
 }
 
-@media only screen and (max-width: 900px) { 
+@media only screen and (max-width: 1024px) { 
   .tracker-box-wrapper {
     min-height: 0;
   }
