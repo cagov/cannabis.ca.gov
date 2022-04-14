@@ -3,7 +3,8 @@
   "CountyColumnLabel": "Counties",
   "TableLabelCountyWide": "(unincorporated)",
   "LegendStatewide": {
-    "label": "Cities and counties that allow at least one cannabis business type",
+    "labelAllowed": "Cities and counties that allow at least one cannabis business type",
+    "labelProhibited": "Cities and counties that prohibit all cannabis business types",
     "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>",
     "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
   },

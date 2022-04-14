@@ -6,14 +6,15 @@
  * @returns {string} - HTML markup
  */
 function chartLegendStatewide(data, props) {
-  console.log("setting legend", data, props);
   let allowed = data.messages.LegendStatewide.allowed;
   let prohibited = data.messages.LegendStatewide.prohibited;
-  let label = data.messages.LegendStatewide.label;
+  let labelAllowed = data.messages.LegendStatewide.labelAllowed;
+  let labelProhibited = data.messages.LegendStatewide.labelProhibited;
   if (data.activities !== "Any cannabis business") {
     allowed = data.messages.LegendStatewideActivity.allowed;
     prohibited = data.messages.LegendStatewideActivity.prohibited;
-    label = data.messages.LegendStatewideActivity.label;
+    labelAllowed = data.messages.LegendStatewideActivity.labelAllowed;
+    labelProhibited = data.messages.LegendStatewideActivity.labelProhibited;
   }
 
   let percentages = getActivityPercentagesStatewide(data, props);
@@ -29,20 +30,27 @@ function chartLegendStatewide(data, props) {
     "data-status"
   );
 
-  let labelProcessed = insertValueIntoSpanTag(
-    label,
+  let labelAllowedProcessed = insertValueIntoSpanTag(
+    labelAllowed,
     data.activities,
     "data-activity"
   );
-  let message = "State";
+
+  let labelProhibitedProcessed = insertValueIntoSpanTag(
+    labelProhibited,
+    data.activities,
+    "data-activity"
+  );
+
   let content = `<div class="cagov-map-legend legend-container">
-          <p>${labelProcessed}</p>
+          <div>${labelAllowedProcessed}</div>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
             <div>
               <div>${allowedLabel}</div>
             </div> 
           </div>
+          <div>${labelProhibitedProcessed}</div>
           <div class="status">
           <div class="icon">${prohibitedIcon()}</div>
           <div>
