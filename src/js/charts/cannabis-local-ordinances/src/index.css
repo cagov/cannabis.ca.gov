@@ -416,6 +416,16 @@ cagov-map-table .download .button svg {
 
 
 /* TOOLTIPS */
+.tooltips {
+  position: absolute;
+  z-index: 2000;
+}
+
+@media only screen and (max-width: 900px) {
+  .tooltips {
+    position: relative;
+  }
+}
 
 .tooltip-container {
   display: flex;

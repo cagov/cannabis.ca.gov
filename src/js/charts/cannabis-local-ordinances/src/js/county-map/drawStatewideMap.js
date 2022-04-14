@@ -147,6 +147,10 @@ export default function drawStatewideMap({
               return "Label";
             })
             .on("click", function (event, d) {
+              countyPaths.each(function (p, j) {
+                let el = d3.select(this);
+                d3.select(this).attr("fill", "transparent");
+              });
               // if (tooltip.attr("data-toggle") !== "true") {
                 d3.select(this)
                 .attr("fill", "#fcfcfc")

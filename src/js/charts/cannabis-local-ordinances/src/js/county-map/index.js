@@ -441,10 +441,12 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     let tableContainerElement = document.querySelector(
       data.self.tableContainer
     );
+    let tooltipElement = document.querySelector(this.tooltipElement);
     if (jurisdiction === "County") {
       this.setBreadcrumb(data, "County", selectedCounty);
       containerElement.setAttribute("data-jurisdiction", "County");
       tableContainerElement.updateTable(data, "County", selectedCounty);
+      tooltipElement.style.height = 0;
     } else if (jurisdiction === "Place") {
       this.setBreadcrumb(data, "Place", selectedPlaceValue, geoid);
       containerElement.setAttribute("data-jurisdiction", "Place");
@@ -454,10 +456,13 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         selectedPlaceValue,
         geoid
       );
+      tooltipElement.style.height = 0;
     } else {
+      // Statewide
       this.setBreadcrumb(data, "Statewide");
       containerElement.setAttribute("data-jurisdiction", "Statewide");
       tableContainerElement.updateTable(data, "Statewide");
+      tooltipElement.style.height = 0;
     }
 
     let tooltipContainer = document.querySelector(this.tooltipElement);
