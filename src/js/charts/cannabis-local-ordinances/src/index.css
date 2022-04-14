@@ -1,8 +1,7 @@
-main {
-  /* max-width: 1200px; */
-}
 
 cagov-map-table .map-wrapper {
+  max-width: 785px;
+
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;

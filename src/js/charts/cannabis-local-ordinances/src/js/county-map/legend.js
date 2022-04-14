@@ -64,10 +64,11 @@ function chartLegendStatewide(data, props) {
 function chartLegendCounty(data, props) {
   let countyData = getActivityPercentagesCounty(data, props);
   let isAllowed = null;
+  console.log("cd", countyData);
   if (countyData.allowed > 1) {
     isAllowed = true;
   } else {
-    isAllowed = false
+    isAllowed = false;
   }
 
   let percentages = getActivityPercentagesCounty(data, props);
@@ -76,6 +77,7 @@ function chartLegendCounty(data, props) {
   // Get numbers of cities (new function)
 
   let messages = data.messages.LegendCounty;
+
   if (data.activities !== "Any cannabis business") {
     messages = data.messages.LegendCountyActivity;
   }
@@ -91,15 +93,17 @@ function chartLegendCounty(data, props) {
     prohibitedNoResults
   } = messages;
   
+console.log(  allowed,
+  countyData.allowed);
 
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
-    percentages.allowedPercentage,
+    countyData.allowed,
     "data-status"
   );
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
-    percentages.prohibitedPercentage,
+    countyData.prohibited,
     "data-status"
   );
 
@@ -112,7 +116,7 @@ function chartLegendCounty(data, props) {
     prohibitedLabel,
     data.activities,
       "data-activity"
-    );
+  );
 
   let countyLabel = "";
   let unincorporatedLabel = "";
