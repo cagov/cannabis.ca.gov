@@ -1,3 +1,7 @@
+main {
+  max-width: 785px;
+}
+
 
 cagov-map-table .map-wrapper {
   display: flex;
@@ -19,8 +23,8 @@ cagov-map-table .map-legend {
   background-color: #fff;
   margin-top: 16px;
   margin-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 /* 
   height: auto;
   position: relative;

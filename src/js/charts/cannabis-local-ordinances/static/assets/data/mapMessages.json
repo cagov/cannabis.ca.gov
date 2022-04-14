@@ -3,8 +3,14 @@
   "CountyColumnLabel": "Counties",
   "TableLabelCountyWide": "(unincorporated)",
   "LegendStatewide": {
-    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities and counties allow at least one cannabis business activity",
-    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities and counties prohibit all cannabis business activities"
+    "label": "Cities and counties that allow at least one cannabis business type",
+    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>",
+    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
+  },
+  "LegendStatewideActivity": {
+    "label": "Cities and counties that allow <strong><span data-activity=\"activity\"></span></strong>",
+    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>",
+    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
   },
   "LegendCounty": {
     "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities allow at least one cannabis business activity",
@@ -15,7 +21,7 @@
     "allowed": "<strong>Allowed</strong> At least one cannabis business type is allowed",
     "prohibited": "<strong>Prohibited</strong> All cannabis business types are prohibited"
   },  
-  "LegendTooltipCountyActivity": {
+  "LegendCountyActivity": {
     "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities allow <span data-activity=\"activity\"></span>.",
     "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities prohibit <span data-activity=\"activity\"></span>.",
     "allowedNoResults": "<strong>Allow: </strong>No cities allow <span data-activity=\"activity\"></span>.",

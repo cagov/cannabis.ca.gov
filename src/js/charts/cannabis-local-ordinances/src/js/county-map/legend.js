@@ -6,9 +6,15 @@
  * @returns {string} - HTML markup
  */
 function chartLegendStatewide(data, props) {
-  // console.log("setting legend", data, props);
+  console.log("setting legend", data, props);
   let allowed = data.messages.LegendStatewide.allowed;
   let prohibited = data.messages.LegendStatewide.prohibited;
+  let label = data.messages.LegendStatewide.label;
+  if (data.activities !== "Any cannabis business") {
+    allowed = data.messages.LegendStatewideActivity.allowed;
+    prohibited = data.messages.LegendStatewideActivity.prohibited;
+    label = data.messages.LegendStatewideActivity.label;
+  }
 
   let percentages = getActivityPercentagesStatewide(data, props);
 
@@ -23,9 +29,17 @@ function chartLegendStatewide(data, props) {
     "data-status"
   );
 
+  let labelProcessed = insertValueIntoSpanTag(
+   label,
+    data.activities,
+    "data-activity"
+  );
+
+
   // let message = countyStatusTooltipMessage(data, props);
   let message = "State";
   let content = `<div class="cagov-map-legend legend-container">
+          <p>${labelProcessed}</p>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
             <div>
@@ -49,13 +63,13 @@ function chartLegendCounty(data, props) {
   let allowed = data.messages.LegendCounty.allowed;
   let prohibited = data.messages.LegendCounty.prohibited;
   if (data.activities !== "Any cannabis business") {
-    allowed = data.messages.LegendTooltipCountyActivity.allowed;
-    prohibited = data.messages.LegendTooltipCountyActivity.prohibited;
+    allowed = data.messages.LegendCountyActivity.allowed;
+    prohibited = data.messages.LegendCountyActivity.prohibited;
     if (percentages.allowedPercentage === "0") {
-      allowed = data.messages.LegendTooltipCountyActivity.allowedNoResults;
+      allowed = data.messages.LegendCountyActivity.allowedNoResults;
     }
     if (percentages.prohibitedPercentage === "0") {
-      prohibited = data.messages.LegendTooltipCountyActivity.prohibitedNoResults;
+      prohibited = data.messages.LegendCountyActivity.prohibitedNoResults;
     }
   }
 
