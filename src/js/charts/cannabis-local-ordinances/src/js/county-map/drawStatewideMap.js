@@ -11,17 +11,16 @@ import { updateHistory } from "./updateHistory.js";
  */
 export default function drawStatewideMap({
   data = null,
-  domElement = null,
+  mapElement = null,
   tooltipElement = null,
   legendElement = null,
-  mapLevel = "Statewide",
-  jurisdiction = null,
+  jurisdiction = "Statewide",
   chartOptions = null,
   chartBreakpointValues = null,
   screenDisplayType = null,
   svgFiles = null
 }) {
-  // console.log("Statewide map", jurisdiction, mapLevel);
+  // console.log("Statewide map", jurisdiction, jurisdiction);
   try {
     /* Data processing */
     var { dataPlaces, messages } = data;
@@ -30,15 +29,15 @@ export default function drawStatewideMap({
     var rawHeight = 923;
 
     // Clean up existing SVGs
-    d3.select(domElement).select("svg").remove();
+    d3.select(mapElement).select("svg").remove();
 
     if (
       document.querySelector(
-        domElement + ' svg[data-layer-name="map-layer-container"]'
+        mapElement + ' svg[data-layer-name="map-layer-container"]'
       ) === null
     ) {
       const svg = d3
-        .select(domElement)
+        .select(mapElement)
         .append("svg")
         .attr("viewBox", [0, 0, 800, 923])
         .attr("data-layer-name", "interactive-map-container")
@@ -51,11 +50,9 @@ export default function drawStatewideMap({
       let mapHeight = parseInt(
         d3.select("[data-layer-name=interactive-map-container]").style("height")
       );
-      // console.log(mapTop, mapBottom);
-      // console.log("mapHeight", mapHeight);
+
       let mapScale = mapHeight / 900;
       d3.select("[data-layer-name=interactive-map-container]")
-
         .attr("width", rawWidth * mapScale)
         .attr("height", rawHeight * mapScale);
 
@@ -64,7 +61,7 @@ export default function drawStatewideMap({
       svg.append("g").attr("data-name", "places-boundaries");
       svg.append("g").attr("data-name", "county-strokes");
     } else {
-      d3.select(domElement + " [data-name] g").remove();
+      d3.select(mapElement + " [data-name] g").remove();
     }
     let tooltip = d3.select(tooltipElement);
 
@@ -78,12 +75,22 @@ export default function drawStatewideMap({
         .text("");
     }
 
+    // @TODO ADD REDRAW of whole UI on resize
+    if (window.innerWidth < 720) {
+      tooltip
+        .style("position", "relative");
+    } else {
+      tooltip
+      .style("position", "absolute")
+      .style("zIndex", "2000");
+    }
+
     // California Counties Boundaries - has more recognizable coastline and island fills.
     if (data.showCounties === true) {
       svg(svgFiles.county)
       .then((counties) => {
         const countiesGroup = d3.select(
-          domElement + ' [data-name="county-boundaries"]'
+          mapElement + ' [data-name="county-boundaries"]'
         );
 
         countiesGroup.node().append(counties.documentElement);
@@ -110,7 +117,7 @@ export default function drawStatewideMap({
       .then((counties) => {
        
         const countiesGroup = d3.select(
-          domElement + ' [data-name="county-strokes"]'
+          mapElement + ' [data-name="county-strokes"]'
         );
 
         countiesGroup.node().append(counties.documentElement);
@@ -140,6 +147,10 @@ export default function drawStatewideMap({
               return "Label";
             })
             .on("click", function (event, d) {
+              countyPaths.each(function (p, j) {
+                let el = d3.select(this);
+                d3.select(this).attr("fill", "transparent");
+              });
               // if (tooltip.attr("data-toggle") !== "true") {
                 d3.select(this)
                 .attr("fill", "#fcfcfc")
@@ -156,7 +167,7 @@ export default function drawStatewideMap({
                   shapes
                 );
                 tooltip.attr("data-toggle","false");
-                data.setupTooltipUIListeners(data);
+                data.setUpTooltipUIListeners(data);
                 return tooltip
                   .transition()
                   .duration(0)
@@ -189,7 +200,7 @@ export default function drawStatewideMap({
       svg(svgFiles.places)
       .then((places) => {
         const group = d3.select(
-          domElement + ' [data-name="places-boundaries"]'
+          mapElement + ' [data-name="places-boundaries"]'
         );
 
         group.node().append(places.documentElement);

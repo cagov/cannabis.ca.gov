@@ -99,7 +99,7 @@ function getPlaceTooltipData(data, props) {
   let { dataPlaces, selectedCounty } = data;
   let { name } = props;
 
-  data.prohibitedStatusColors = {
+  data.mapStatusColors = {
     Yes: "#CF5028", // Orange
     No: "#2F4C2C", // Green
   };
@@ -141,15 +141,15 @@ function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
 
   let mode = activities;
-  if (mode === "Any activities" && jurisdiction === "County") {
-    return messages["StatewideAllActivities"];
-  } else if (mode === "Any activities" && jurisdiction === "City") {
-    return messages["CountyAllActivities"];
+  if (mode === "Any cannabis business" && jurisdiction === "County") {
+    return messages["TooltipStatewideAllActivities"];
+  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
+    return messages["TooltipCountyAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      return messages["StatewideActivity"];
+      return messages["TooltipStatewideActivity"];
     } else if (jurisdiction === "City") {
-      return messages["CountyActivity"];
+      return messages["TooltipCountyActivity"];
     }
   }
   return null;
@@ -167,7 +167,7 @@ function getActivityPercentages(data, props) {
   let mode = data.activities;
 
   let percentageAllowed, percentageProhibited;
-  if (mode === "Any activities") {
+  if (mode === "Any cannabis business") {
     percentageAllowed =
       parseFloat(
         activityCountValues["Are all CCA activites prohibited?"]["No"]

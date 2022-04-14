@@ -1,32 +1,7 @@
 main {
   /* max-width: 785px; */
 }
-[data-layer-name="interactive-map-container"] {
-  /* width: 45%; */
-  /* max-width: 60vm; */
-  /* height: 60vm; */
-  /* max-height: 650px; */
-  /* max-height: 923px; */
-}
 
-@media only screen and (max-width: 900px) {
-  [data-layer-name="interactive-map-container"] {
-    /* max-height: 650px; */
-  }
-}
-
-/* Responsive map elements */
-cagov-map-table .interactive-map-container .map-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-@media only screen and (max-width: 900px) {
-  cagov-map-table .interactive-map-container .map-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
 
 /* LEGEND */
 cagov-map-table .map-legend {
@@ -40,51 +15,81 @@ cagov-map-table .map-legend {
   background-color: #fff;
 }
 @media only screen and (max-width: 900px) {
-  cagov-map-table .map-legend {
-    width: auto;
+  cagov-map-table[data-jurisdiction="Statewide"]
+    .interactive-map-container
+    .map-legend,
+  cagov-map-table[data-jurisdiction="County"]
+    .interactive-map-container
+    .map-legend,
+  cagov-map-table[data-jurisdiction="Place"]
+    .interactive-map-container
+    .map-legend {
     height: auto;
+  }
+  cagov-map-table[data-jurisdiction="Statewide"]
+    .interactive-map-container
+    .map-wrapper,
+  cagov-map-table[data-jurisdiction="County"]
+    .interactive-map-container
+    .map-wrapper,
+  cagov-map-table[data-jurisdiction="Place"]
+    .interactive-map-container
+    .map-component {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+  cagov-map-table[data-jurisdiction="Statewide"]
+    .interactive-map-container
+    .map-component,
+  cagov-map-table[data-jurisdiction="County"]
+    .interactive-map-container
+    .map-component,
+  cagov-map-table[data-jurisdiction="Place"]
+    .interactive-map-container
+    .map-component {
+    width: 50%;
+  }
+  cagov-map-table[data-jurisdiction="Statewide"]
+  .interactive-map-container
+  .map-legend,
+  cagov-map-table[data-jurisdiction="County"]
+    .interactive-map-container
+    .map-legend,
+  cagov-map-table[data-jurisdiction="Place"]
+    .interactive-map-container
+    .map-legend {
     position: relative;
-    margin-left: 0px;
+    width: 50%;
   }
 }
 
-cagov-map-table[data-map-level="county"] .map-legend {
-  width: 323px;
-  height: auto;
-  position: relative;
-  margin-left: 420px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  background-color: #fff;
-}
-cagov-map-table[data-map-level="place"] .map-legend {
-  width: 323px;
-  height: auto;
-  position: relative;
-  margin-left: 420px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  background-color: #fff;
-}
-
-@media only screen and (max-width: 900px) {
-  cagov-map-table .map-legend {
-    width: auto;
+@media only screen and (max-width: 600px) {
+  cagov-map-table[data-jurisdiction="Statewide"]
+  .interactive-map-container
+  .map-legend,
+  cagov-map-table[data-jurisdiction="County"]
+    .interactive-map-container
+    .map-legend,
+  cagov-map-table[data-jurisdiction="Place"]
+    .interactive-map-container
+    .map-legend {
     height: auto;
-    position: relative;
-    margin-left: 0px;
+    width: 100%;
   }
-  cagov-map-table[data-map-level="county"] .map-legend {
-    width: auto;
-    height: auto;
-    position: relative;
-    margin-left: 0px;
-  }
-  cagov-map-table[data-map-level="place"] .map-legend {
-    width: auto;
-    height: auto;
-    position: relative;
-    margin-left: 0px;
+  cagov-map-table[data-jurisdiction="Statewide"]
+    .interactive-map-container
+    .map-wrapper,
+  cagov-map-table[data-jurisdiction="County"]
+    .interactive-map-container
+    .map-wrapper,
+  cagov-map-table[data-jurisdiction="Place"]
+    .interactive-map-container
+    .map-component {
+    display: column;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 100%;
   }
 }
 
@@ -132,12 +137,47 @@ cagov-map-table .map-header .map-breadcrumb {
   margin: 0;
 }
 
-cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-level="state"] {
+cagov-map-table
+  .map-header
+  .map-breadcrumb
+  .map-breadcrumb-item[data-jurisdiction="Statewide"] {
   margin: 0;
 }
 
 cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item.hidden {
   display: none;
+}
+
+cagov-map-table
+  .map-header
+  .map-breadcrumb
+  .map-breadcrumb-item[data-active="true"]
+  a {
+  text-decoration: underline;
+  color: #064e66;
+}
+
+cagov-map-table
+  .map-header
+  .map-breadcrumb
+  .map-breadcrumb-item[data-active="false"] {
+  display: none;
+}
+
+cagov-map-table
+  .map-header
+  .map-breadcrumb
+  .map-breadcrumb-item[data-jurisdiction="Statewide"][data-active="false"]
+  a {
+  text-decoration: none;
+  pointer-events: none;
+  color: #000000;
+}
+cagov-map-table
+  .map-header
+  .map-breadcrumb
+  .map-breadcrumb-item[data-jurisdiction="Statewide"][data-active="false"] {
+  display: inline;
 }
 
 cagov-map-table .map-header .map-breadcrumb span {
@@ -156,15 +196,6 @@ cagov-map-table .map-header .map-breadcrumb span {
 
 cagov-map-table .map-header .caret {
   padding: 0 8px;
-}
-
-cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-active="true"] a {
-  text-decoration: underline;
-  color: #064e66;
-}
-
-cagov-map-table .map-header .map-breadcrumb .map-breadcrumb-item[data-active="false"] {
-  display: none;
 }
 
 /* Map layers */
@@ -192,6 +223,7 @@ cannabis-local-ordinances .map-container .map-detail svg {
   min-width: 520px;
   min-height: 360px;
   width: 100%;
+  margin: 16px;
   height: auto;
 }
 
@@ -203,6 +235,11 @@ cannabis-local-ordinances .map-container .map-detail svg {
     width: 100%;
     height: auto;
   }
+}
+
+cagov-map-table[data-jurisdiction="County"] .filter.map-display,
+cagov-map-table[data-jurisdiction="Place"] .filter.map-display {
+  display: none;
 }
 
 /* Filters */
@@ -375,6 +412,11 @@ cagov-map-table .filters {
 }
 
 /* Download button */
+/* @TODO QUESTION: Can we convert this to DS yet? */
+cagov-map-table .download {
+  margin: 0 16px;
+}
+
 cagov-map-table .download .button {
   display: flex;
   flex-direction: row;
@@ -400,6 +442,12 @@ cagov-map-table .download .button svg {
   z-index: 2000;
 }
 
+@media only screen and (max-width: 900px) {
+  .tooltips {
+    position: relative;
+  }
+}
+
 .tooltip-container {
   display: flex;
   flex-direction: column;
@@ -415,6 +463,11 @@ cagov-map-table .download .button svg {
   flex-grow: 0;
   margin: 0px 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media only screen and (max-width: 720px) {
+  .tooltip-container {
+    width: 240px;
+  }
 }
 
 .tooltip {
@@ -469,28 +522,60 @@ cagov-map-table .download .button svg {
   pointer-events: none;
 }
 
-@media only screen and (max-width: 900px) {
-  .tooltip-container {
-    width: 240px;
-  }
+.cagov-map-tooltip.tooltip-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #064e66;
+  color: #064e66;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+  margin: 16px 0;
+  background-color: #fff;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.cagov-map-tooltip.tooltip-container a.loadPlace,
+.cagov-map-tooltip.tooltip-container a.loadCounty {
+  text-decoration: none;
+}
+
+.cagov-map-tooltip.tooltip-container button svg {
+  margin-inline-end: 8px;
 }
 
 label.hidden {
   display: none;
 }
 
-svg :focus {
+cagov-map-table[data-jurisdiction="Statewide"]
+  .map-container
+  .map-detail
+  svg
+  path:focus {
   outline: 1px dashed black;
 }
 
-.loadPlace,
-.loadCounty {
-  color: #000;
-  text-decoration: underline;
+cagov-map-table[data-jurisdiction="County"]
+  .map-container
+  .map-detail
+  svg
+  path:focus {
+  outline: 0.1px dashed black;
+  z-index: 2000;
 }
 
-.download {
-  margin: 0 16px;
+cagov-map-table[data-jurisdiction="Place"]
+  .map-container
+  .map-detail
+  svg
+  path:focus {
+  outline: 0.1px dashed black;
+  z-index: 2000;
 }
 
 @import "./js/combo-box/combo-box.css";

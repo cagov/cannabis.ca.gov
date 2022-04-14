@@ -48,14 +48,14 @@ function chartLegendCounty(data, props) {
 
   let allowed = data.messages.LegendCounty.allowed;
   let prohibited = data.messages.LegendCounty.prohibited;
-  if (data.activities !== "Any activities") {
-    allowed = data.messages.LegendCountyActivity.allowed;
-    prohibited = data.messages.LegendCountyActivity.prohibited;
+  if (data.activities !== "Any cannabis business") {
+    allowed = data.messages.LegendTooltipCountyActivity.allowed;
+    prohibited = data.messages.LegendTooltipCountyActivity.prohibited;
     if (percentages.allowedPercentage === "0") {
-      allowed = data.messages.LegendCountyActivity.allowedNoResults;
+      allowed = data.messages.LegendTooltipCountyActivity.allowedNoResults;
     }
     if (percentages.prohibitedPercentage === "0") {
-      prohibited = data.messages.LegendCountyActivity.prohibitedNoResults;
+      prohibited = data.messages.LegendTooltipCountyActivity.prohibitedNoResults;
     }
   }
 
@@ -105,7 +105,7 @@ function chartLegendPlace(data, props) {
   let allowed = data.messages.LegendPlace.allowed;
   let prohibited = data.messages.LegendPlace.prohibited;
   let isAllowed = getActivityPercentagesPlace(data, props);
-  if (data.activities !== "Any activities") {
+  if (data.activities !== "Any cannabis business") {
     allowed = data.messages.LegendPlaceActivity.allowed;
     prohibited = data.messages.LegendPlaceActivity.prohibited;
   }
@@ -176,7 +176,7 @@ function getActivityPercentagesStatewide(data) {
   let currentCountyPlaceName = Object.keys(data.dataPlaces).filter((place) => {
     let item = data.dataPlaces[place];
     let mode = data.activities;
-    if (mode === "Any activities") {
+    if (mode === "Any cannabis business") {
       if (item["Are all CCA activites prohibited?"] === "Yes") {
         countValues.prohibited = countValues.prohibited + 1;
       } else if (item["Are all CCA activites prohibited?"] === "No") {
@@ -224,7 +224,7 @@ function getActivityPercentagesCounty(data) {
   let mode = data.activities;
   // console.log("mode", mode, item);
   try {
-    if (mode === "Any activities") {
+    if (mode === "Any cannabis business") {
       countValues.prohibited =
         item["Are all CCA activites prohibited?"]["Yes"].length;
       countValues.allowed =
@@ -272,7 +272,7 @@ function getActivityPercentagesPlace(data) {
   let mode = data.activities;
   // console.log(mode, item);
   if (item !== undefined) {
-    if (mode === "Any activities") {
+    if (mode === "Any cannabis business") {
       if (item["Are all CCA activites prohibited?"] === "Yes") {
         return false;
       } else if (item["Are all CCA activites prohibited?"] === "No") {

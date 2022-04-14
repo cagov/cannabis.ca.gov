@@ -38,13 +38,8 @@ const getMapDimensions = (options) => {
   let parentBBox = document
     .querySelector("cagov-map-table .interactive-map-container")
     .getBoundingClientRect(); 
-  //   console.log(mapTop, mapBottom);
-
-  //   console.log("parentBBox", parentBBox);
 
   let mapScale = mapHeight / options.rawHeight;
-
-  //   console.log("m wh s", mapWidth, mapHeight, mapScale);
   let mapCenterWidth = mapWidth / 2;
   let mapCenterHeight = mapHeight / 2;
   return {
@@ -74,15 +69,14 @@ const getShapeDimensions = (options, shapes) => {
   };
 };
 
-const getTooltipDimensions = () => {
-  return {
-    w: 320,
-    h: 180,
-  };
-};
-
+/**
+ * Figure out where in the map the shape is located, reposition tooltip based on upper and lower left and right quadrants.
+ * @param {*} m 
+ * @param {*} s 
+ * @returns 
+ */
 const getPositionQuadrant = (m, s) => {
-  //   // Get quadrant
+  // Get quadrant
   let quadrant = 0;
   if (s.shapeX < m.mapCenterWidth && s.shapeY < m.mapCenterHeight) {
     quadrant = 0; // upper left
@@ -97,6 +91,13 @@ const getPositionQuadrant = (m, s) => {
   return quadrant;
 };
 
+/**
+ * Decide how to position the tooltip based on which quadrant we are in.
+ * @param {*} m 
+ * @param {*} s 
+ * @param {*} quadrant 
+ * @returns 
+ */
 const calculateQuadrantPositions = (m, s, quadrant) => {
   let tooltipX = s.shapeX;
   let tooltipY = s.shapeY;
@@ -123,10 +124,12 @@ const calculateQuadrantPositions = (m, s, quadrant) => {
     tooltipY = s.shapeY - s.shapeHeight - bufferY;
   }
 
-  // if (window.innerWidth < 600) {
-  //   tooltipX = 10;
-  //   tooltipY = m.mapHeight + 310;
-  // }
+  var narrowBreakpoint = 720;
+  // If in narrow screens, always be located in the same place.
+  if (window.innerWidth < narrowBreakpoint) {
+    tooltipX = 32;
+    tooltipY = m.mapHeight + 310;
+  }
 
   return {
     x: m.parentBBox.left + tooltipX + window.scrollX,

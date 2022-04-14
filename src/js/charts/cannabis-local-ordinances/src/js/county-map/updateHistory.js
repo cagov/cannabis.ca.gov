@@ -12,7 +12,7 @@ const updateHistory = (props) => {
   // window.location.hash = path; // TEMPORARILY DISABLED, Future feature.
 };
 
-const updateMapLevelFromHash = (hash, data) => {
+const updateMapJurisdictionDisplayFromHash = (hash, data) => {
   // console.log("update hash", hash, data);
   // if (hash !== undefined && hash.length > 0) {
   //   let paramKeys = getParamKeys(hash, data);
@@ -44,7 +44,7 @@ const getParamKeys = (hash, data) => {
 
 const setDataFromHash = (paramKeys, data) => {
   let county = null;
-  let level = "statewide"; // Next level to set
+  let jurisdiction = "Statewide"; // Next jurisdiction to set
   let place = null;
   let geoid = null;
   let activities = null;
@@ -56,22 +56,22 @@ const setDataFromHash = (paramKeys, data) => {
 
   // Set places filter data
   if (paramKeys.anchor === "#county-view") {
-    level = "county";
+    jurisdiction = "County";
     data.jurisdiction = "County";
-    if (paramKeys["county"] !== undefined && paramKeys["county"] !== null) {
-      data.selectedCounty = decodeURI(paramKeys["county"]);
+    if (paramKeys["County"] !== undefined && paramKeys["County"] !== null) {
+      data.selectedCounty = decodeURI(paramKeys["County"]);
     }
   } else if (paramKeys.anchor === "#city-view") {
-    level = "place";
+    jurisdiction = "Place";
     data.jurisdiction = "Place";
-    if (paramKeys["city"] !== undefined && paramKeys["city"] !== null) {
-      data.selectedPlace = paramKeys["city"];
+    if (paramKeys["Place"] !== undefined && paramKeys["Place"] !== null) {
+      data.selectedPlace = paramKeys["Place"];
     }
     if (paramKeys["geoid"] !== undefined && paramKeys["geoid"] !== null) {
       data.geoid = paramKeys["geoid"];
     }
   } else if (paramKeys.anchor === "" || paramKeys.anchor === "#") {
-    data.jurisdiction = "All";
+    data.jurisdiction = "Statewide";
   }
 };
 
@@ -107,7 +107,6 @@ const updatePlacesFilter = (data) => {
     '.filter[data-filter-type="places"] select option'
   );
 
-  console.log("data.jurisdiction", data.jurisdiction);
   if (setPlaceFilterOptionsEl !== null) {
     let value = setPlaceFilterEl.value;
     if (data.jurisdiction === "County") {
@@ -148,7 +147,7 @@ const updatePlacesFilter = (data) => {
           updateOptionPlaceEl.selected = true;
         }
       }
-    } else if (data.jurisdiction === "All" || data.jurisdiction === "Statewide") {
+    } else if (data.jurisdiction === "Statewide") {
       // @TODO confirm
       var updateOptionStatewideEl = document.querySelector(
         `.filter[data-filter-type="places"] select option[value=""]`
@@ -162,4 +161,4 @@ const updatePlacesFilter = (data) => {
   }
 };
 
-export { updateHistory, updateMapLevelFromHash, updateDisplaysFromInteraction };
+export { updateHistory, updateMapJurisdictionDisplayFromHash, updateDisplaysFromInteraction };
