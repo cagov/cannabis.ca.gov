@@ -1,8 +1,7 @@
-main {
-  /* max-width: 1200px; */
-}
 
 cagov-map-table .map-wrapper {
+  max-width: 785px;
+
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
@@ -98,12 +97,21 @@ cagov-map-table .map-legend .status .icon {
   margin-right: 8px;
 }
 
+cagov-map-table .map-legend .legend-label {
+  margin-bottom: 8px;
+}
+
 cagov-map-table .map-legend .status {
   display: flex;
   flex-direction: column;
   flex-flow: row;
   line-height: 32px;
+  margin-bottom: 8px;
 }
+cagov-map-table .map-legend .status-label {
+  line-height: 24px;
+}
+
 cagov-map-table .map-legend .status .icon {
   width: 30px;
   margin-right: 8px;

@@ -6,14 +6,15 @@
  * @returns {string} - HTML markup
  */
 function chartLegendStatewide(data, props) {
-  console.log("setting legend", data, props);
   let allowed = data.messages.LegendStatewide.allowed;
   let prohibited = data.messages.LegendStatewide.prohibited;
-  let label = data.messages.LegendStatewide.label;
+  let labelAllowed = data.messages.LegendStatewide.labelAllowed;
+  let labelProhibited = data.messages.LegendStatewide.labelProhibited;
   if (data.activities !== "Any cannabis business") {
     allowed = data.messages.LegendStatewideActivity.allowed;
     prohibited = data.messages.LegendStatewideActivity.prohibited;
-    label = data.messages.LegendStatewideActivity.label;
+    labelAllowed = data.messages.LegendStatewideActivity.labelAllowed;
+    labelProhibited = data.messages.LegendStatewideActivity.labelProhibited;
   }
 
   let percentages = getActivityPercentagesStatewide(data, props);
@@ -29,23 +30,30 @@ function chartLegendStatewide(data, props) {
     "data-status"
   );
 
-  let labelProcessed = insertValueIntoSpanTag(
-    label,
+  let labelAllowedProcessed = insertValueIntoSpanTag(
+    labelAllowed,
     data.activities,
     "data-activity"
   );
-  let message = "State";
+
+  let labelProhibitedProcessed = insertValueIntoSpanTag(
+    labelProhibited,
+    data.activities,
+    "data-activity"
+  );
+
   let content = `<div class="cagov-map-legend legend-container">
-          <p>${labelProcessed}</p>
+          <div class="legend-label">${labelAllowedProcessed}</div>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
-            <div>
+            <div class="status-label">
               <div>${allowedLabel}</div>
             </div> 
           </div>
+          <div class="legend-label">${labelProhibitedProcessed}</div>
           <div class="status">
           <div class="icon">${prohibitedIcon()}</div>
-          <div>
+          <div class="status-label">
             <div>${prohibitedLabel}</div>
           </div> 
         </div>
@@ -56,10 +64,11 @@ function chartLegendStatewide(data, props) {
 function chartLegendCounty(data, props) {
   let countyData = getActivityPercentagesCounty(data, props);
   let isAllowed = null;
+  console.log("cd", countyData);
   if (countyData.allowed > 1) {
     isAllowed = true;
   } else {
-    isAllowed = false
+    isAllowed = false;
   }
 
   let percentages = getActivityPercentagesCounty(data, props);
@@ -68,6 +77,7 @@ function chartLegendCounty(data, props) {
   // Get numbers of cities (new function)
 
   let messages = data.messages.LegendCounty;
+
   if (data.activities !== "Any cannabis business") {
     messages = data.messages.LegendCountyActivity;
   }
@@ -83,28 +93,27 @@ function chartLegendCounty(data, props) {
     prohibitedNoResults
   } = messages;
   
-
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
-    percentages.allowedPercentage,
+    countyData.allowed,
     "data-status"
   );
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
-    percentages.prohibitedPercentage,
+    countyData.prohibited,
     "data-status"
   );
 
   allowedLabel = insertValueIntoSpanTag(
     allowedLabel,
-    data.activities,
+    data.activities.toLowerCase(),
       "data-activity"
     );
   prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
-    data.activities,
+    data.activities.toLowerCase(),
       "data-activity"
-    );
+  );
 
   let countyLabel = "";
   let unincorporatedLabel = "";
@@ -136,16 +145,16 @@ function chartLegendCounty(data, props) {
   }
 
   let content = `<div class="cagov-map-legend legend-container">
-          <div>${countyLabel}</div>
+          <div class="legend-label">${countyLabel}</div>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
-            <div>
+            <div class="status-label">
               <div>${allowedLabel}</div>
             </div> 
           </div>
           <div class="status">
           <div class="icon">${prohibitedIcon()}</div>
-          <div>
+          <div class="status-label">
             <div>${prohibitedLabel}</div>
           </div> 
           

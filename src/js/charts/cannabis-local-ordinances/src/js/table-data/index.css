@@ -61,8 +61,9 @@
 }
 
 .table-data .county-row td {
-  font-weight: 700;
+  /* font-weight: 700; */
   border-bottom: 1px solid #6C6B77;
+  line-height: 32px;
 }
 
 .table-data .place-row td {
@@ -132,10 +133,10 @@
 }
 
 cagov-table-data table.Statewide td[d="1"] span.county-label {
-  display: none;  
+  display: inline;
 }
 cagov-table-data table.Statewide td[d="1"] span.unincorporated-label {
-  display: inline;
+  display: none;  
 }
 
 cagov-table-data table.County td[d="1"] span.county-label {
