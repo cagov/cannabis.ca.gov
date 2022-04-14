@@ -36,10 +36,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 36px;
+  line-height: 26px;
   min-width: 120px;
   padding: 8px 8px;
   color: #000;
+  white-space: nowrap;
 } 
 
 .table-data table thead tr th {
@@ -64,7 +65,13 @@
   border-bottom: 1px solid #6C6B77;
 }
 
+.table-data .place-row td {
+  font-weight: normal;
+  border-bottom: 1px solid #6C6B77;
+}
+
 .table-data table thead th:first-child {
+  border-right: 3px solid #E1E0E3;
   position: sticky;
   left: 0;
   z-index: 1001;
@@ -85,6 +92,7 @@
 }
 
 .table-data table tbody td:first-child {
+  border-right: 3px solid #E1E0E3;
   position: sticky;
   left: 0;
   background-color: #fff;
@@ -100,7 +108,6 @@
 }
 
 .table-data [role="region"][aria-labelledby][tabindex]:focus {
-  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
   outline: 0;
 }
 
@@ -115,6 +122,34 @@
 .table-data td[d="1"] {
   word-wrap: break-word;
   width: 180px;
+}
+.table-data .county-row td span.hidden {
+  display: none;
+}
+
+.table-data .county-row td span.show {
+  display: inline;
+}
+
+cagov-table-data table.Statewide td[d="1"] span.county-label {
+  display: none;  
+}
+cagov-table-data table.Statewide td[d="1"] span.unincorporated-label {
+  display: inline;
+}
+
+cagov-table-data table.County td[d="1"] span.county-label {
+  display: none;  
+}
+cagov-table-data table.County td[d="1"] span.unincorporated-label {
+  display: inline;
+}
+
+cagov-table-data table.Place td[d="1"] span.county-label {
+  display: none;  
+}
+cagov-table-data table.Place td[d="1"] span.unincorporated-label {
+  display: inline;
 }
 
 /* https://yoksel.github.io/url-encoder/ */

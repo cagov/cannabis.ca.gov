@@ -5,7 +5,7 @@
 //     // Optional state object to use for persisting data across interactions.
 //     this.state = {};
 
-//     this.domElement = ".tracker-boxes";
+//     this.mapElement = ".tracker-boxes";
 //   }
 
 //   /**

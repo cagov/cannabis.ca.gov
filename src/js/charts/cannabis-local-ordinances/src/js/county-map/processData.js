@@ -6,7 +6,7 @@ function getCountyColor(data, props, jurisdiction = null) {
   let { dataPlaces } = data;
   let { name, island } = props;
 
-  data.prohibitedStatusColors = {
+  data.mapStatusColors = {
     Yes: "#CF5028", // Orange
     No: "#2F4C2C", // Green
   };
@@ -55,7 +55,7 @@ function getCountyColor(data, props, jurisdiction = null) {
       // Get county and look up prohibition
       let placeData = dataPlaces[currentCountyPlaceName];
       let prohibitionStatus = placeData["CCA Prohibited by County"];
-      return data.prohibitedStatusColors[prohibitionStatus];
+      return data.mapStatusColors[prohibitionStatus];
     }
   } catch (error) {
     console.error("error", error, name);
@@ -71,7 +71,7 @@ function getPlaceColor(data, props, jurisdiction = null) {
   let { dataPlaces } = data;
   let { name, geoid } = props;
 
-  data.prohibitedStatusColors = {
+  data.mapStatusColors = {
     Yes: "#CF5028",
     No: "#2F4C2C",
   };
@@ -94,7 +94,7 @@ function getPlaceColor(data, props, jurisdiction = null) {
 }
 
 /**
- * Get status color at county level or place level
+ * Get status color for jurisdiction
  * @param {*} data 
  * @param {*} mode 
  * @param {*} values 
@@ -109,38 +109,38 @@ function getActivityStatusColor(
 ) {
 
   switch (mode) {
-    case "Any activities":
+    case "Any cannabis business":
       return getAllActivities(data, mode, values, renderMode);
     case "Retail":
       // True === Yes it's prohibited
       if (getRetailAllowed(data, mode, values, renderMode)) {
-        return data.prohibitedStatusColors["No"]; // Allowed
+        return data.mapStatusColors["No"]; // Allowed
       } else {
-        return data.prohibitedStatusColors["Yes"]; // Prohibited
+        return data.mapStatusColors["Yes"]; // Prohibited
       }
     case "Distribution":
       if (getDistributionAllowed(data, mode, values, renderMode)) {
-        return data.prohibitedStatusColors["No"]; // Allowed
+        return data.mapStatusColors["No"]; // Allowed
       } else {
-        return data.prohibitedStatusColors["Yes"]; // Prohibited
+        return data.mapStatusColors["Yes"]; // Prohibited
       }
     case "Manufacturing":
       if (getManufacturingAllowed(data, mode, values, renderMode)) {
-        return data.prohibitedStatusColors["No"]; // Allowed
+        return data.mapStatusColors["No"]; // Allowed
       } else {
-        return data.prohibitedStatusColors["Yes"]; // Prohibited
+        return data.mapStatusColors["Yes"]; // Prohibited
       }
     case "Testing":
       if (getTestingAllowed(data, mode, values, renderMode)) {
-        return data.prohibitedStatusColors["No"]; // Allowed
+        return data.mapStatusColors["No"]; // Allowed
       } else {
-        return data.prohibitedStatusColors["Yes"]; // Prohibited
+        return data.mapStatusColors["Yes"]; // Prohibited
       }
     case "Cultivation":
       if (getCultivationAllowed(data, mode, values, renderMode)) {
-        return data.prohibitedStatusColors["No"]; // Allowed
+        return data.mapStatusColors["No"]; // Allowed
       } else {
-        return data.prohibitedStatusColors["Yes"]; // Prohibited
+        return data.mapStatusColors["Yes"]; // Prohibited
       }
     default:
       break;
@@ -163,7 +163,7 @@ function getAllActivities(data, mode, values, renderMode) {
   } else {
     status = allActivitiesProhibited;
   }
-  return data.prohibitedStatusColors[status];
+  return data.mapStatusColors[status];
 }
 
 /**

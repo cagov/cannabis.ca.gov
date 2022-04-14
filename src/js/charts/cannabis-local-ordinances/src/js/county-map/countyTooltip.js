@@ -31,21 +31,18 @@ function countyStatusTooltipMessage(data, props) {
   let { all, city, county, prohibited, allowed, detailsCTA } =
   getToolTipMessages(data, name, props, "County");
 
-  let toggle = "All";
+  let toggle = "All Layers";
 
   // Choose label
   let label = all;
-  if (toggle === "City") {
+  if (toggle === "Place layer") {
     label = city;
-  } else if (toggle === "County") {
+  } else if (toggle === "County layer") {
     label = county;
   }
 
   data.tooltipData = getCountyTooltipData(data, props);
-  // console.log("county ", data.tooltipData );
-
   label = insertValueIntoSpanTag(label, mode, "data-status");
-
   prohibited = insertValueIntoSpanTag(
     prohibited,
     data.tooltipData.activityPercentages.prohibited,
@@ -77,7 +74,7 @@ function countyStatusTooltipMessage(data, props) {
           </div>
           <div>
             <p>
-              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name}">${detailsCTA}</a>
+              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}">${detailsCTA}</a>
             </p>
           </div>
         </div>`;
@@ -106,9 +103,9 @@ function getCountyTooltipData(data, props) {
   let { dataPlaces } = data;
   let { name } = props;
 
-  data.prohibitedStatusColors = {
-    Yes: "#CF5028", // Orange
-    No: "#2F4C2C", // Green
+  data.mapStatusColors = {
+    Yes: "#CF5028", // Orange, Yes, prohibited // @TODO CONFIG
+    No: "#2F4C2C", // Green// @TODO CONFIG
   };
 
   // Get couny data object from dataTables.
@@ -136,19 +133,28 @@ function getCountyTooltipData(data, props) {
   };
 }
 
+/**
+ * Build tooltip messages 
+ * @param {*} data 
+ * @param {*} name 
+ * @param {*} props 
+ * @param {*} jurisdiction 
+ * @returns 
+ */
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
 
   let mode = activities;
-  if (mode === "Any activities" && jurisdiction === "County") {
-    return messages["StatewideAllActivities"];
-  } else if (mode === "Any activities" && jurisdiction === "City") {
-    return messages["CountyAllActivities"];
+  // @TODO CONNECT TO CONFIG
+  if (mode === "Any cannabis business" && jurisdiction === "County") {
+    return messages["TooltipStatewideAllActivities"];
+  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
+    return messages["TooltipCountyAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      return messages["StatewideActivity"];
+      return messages["TooltipStatewideActivity"];
     } else if (jurisdiction === "City") {
-      return messages["CountyActivity"];
+      return messages["TooltipCountyActivity"];
     }
   }
   return null;
@@ -166,7 +172,7 @@ function getActivityPercentages(data, props) {
   let mode = data.activities;
 
   let percentageAllowed, percentageProhibited;
-  if (mode === "Any activities") {
+  if (mode === "Any cannabis business") {
     percentageAllowed =
       parseFloat(
         activityCountValues["Are all CCA activites prohibited?"]["No"]

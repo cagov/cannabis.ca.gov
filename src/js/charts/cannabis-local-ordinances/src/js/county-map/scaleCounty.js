@@ -1,13 +1,32 @@
 import * as d3 from "d3";
 
-
-
-
-
-const scaleCounty = (el, data, county, rawWidth, rawHeight, domElement, island = null ) => {
-  // Get county scale
+/**
+ * Scale SVG based on bounding box for a set of shapes
+ * @param {*} el
+ * @param {*} data
+ * @param {*} county
+ * @param {*} rawWidth of SVG
+ * @param {*} rawHeight of SVG
+ * @param {*} mapElement
+ * @param {*} scaleLayer
+ * @param {*} island
+ * @param {*} shapes Array of SVG shape elements
+ * @param {*} viewBox Width, Height and translation values of scaled SVG container
+ */
+const scaleCounty = (
+  el,
+  data,
+  county,
+  rawWidth,
+  rawHeight,
+  mapElement,
+  scaleLayer = "svg [data-layer-name=interactive-map]",
+  island = null,
+  shapes = "selectedCountyIslands",
+  viewBox = "0,250,500,500"
+) => {
+  // Get county scale of the current element
   var bbox = el.node().getBBox();
-  
   var viewportElement = document.documentElement;
   var box = el.node().getBoundingClientRect();
   var scrollLeft = viewportElement.scrollLeft;
@@ -24,78 +43,66 @@ const scaleCounty = (el, data, county, rawWidth, rawHeight, domElement, island =
     left: x,
   };
 
- 
-  // console.log("data.selectedCountyIslands", data.selectedCountyIslands);
-  data.selectedCountyIslands.forEach((keyEl) => {
+  // Calculate max bounds for any shape in list of related shapes.
+  data[shapes].forEach((keyEl) => {
     var bbox = keyEl.node().getBBox();
-    var box = keyEl.node().getBoundingClientRect();
+    var box = keyEl.node().getBoundingClientRect(); // Wait was this a box for?
     var left = box.left + scrollLeft;
     var top = box.top + scrollTop;
-
-    maxBBox.x = bbox.x > maxBBox.x ? bbox.x : maxBBox.x; 
-    maxBBox.y = bbox.y > maxBBox.y ? bbox.y : maxBBox.y; 
-    maxBBox.width = bbox.width > maxBBox.width ? bbox.width : maxBBox.width; 
-    maxBBox.height = bbox.height > maxBBox.height ? bbox.height : maxBBox.height; 
-    
-    maxBBox.top = top > maxBBox.top ? top : maxBBox.top; 
-    maxBBox.left = left > maxBBox.left ? left : maxBBox.left; 
+    bbox.left = left;
+    bbox.top = top;
+    maxBBox.x = bbox.x > maxBBox.x ? bbox.x : maxBBox.x;
+    maxBBox.y = bbox.y > maxBBox.y ? bbox.y : maxBBox.y;
+    maxBBox.width = bbox.width > maxBBox.width ? bbox.width : maxBBox.width;
+    maxBBox.height =
+      bbox.height > maxBBox.height ? bbox.height : maxBBox.height;
+    maxBBox.top = top > maxBBox.top ? top : maxBBox.top;
+    maxBBox.left = left > maxBBox.left ? left : maxBBox.left;
   });
 
+  // Figure out what scale this shape is at and where it's located.
   var dx = bbox.width - bbox.x,
     dy = bbox.height - bbox.y,
     x = (bbox.x + (bbox.x + bbox.width)) / 2,
     y = (bbox.y + (bbox.y + bbox.height)) / 2,
-    scale = Math.min(rawHeight / bbox.height, rawWidth / bbox.width) - 3,
-    translate = [(rawWidth / 2 - scale * x), ((rawHeight / 2) - (scale * y) )];
+    scale = Math.max(250 / maxBBox.width, 250 / maxBBox.height),
+    translate = [rawWidth / 2 - scale * x - 150, rawHeight / 2 - scale * y];
 
-  // var dx = maxBBox.width - maxBBox.x,
-  // dy = maxBBox.height - maxBBox.y,
-  // x = (maxBBox.x + (maxBBox.x + maxBBox.width)) / 2,
-  // y = (maxBBox.y + (maxBBox.y + maxBBox.height)) / 2,
-  // scale = Math.min(rawHeight / maxBBox.height, rawWidth / maxBBox.width) - 3,
-  // translate = [(rawWidth / 2 - scale * x), ((rawHeight / 2) - (scale * y) )];
+  let aspectRatio = maxBBox.height / maxBBox.width;
 
   data.selectedShapeData = {
     bbox,
+    maxBBox,
     dx,
     dy,
     scale,
     x,
     y,
     translate,
+    viewBox,
+    aspectRatio,
+    scaleLayer,
+    mapElement: data.self.mapElement
   };
+  // console.log(data.selectedShapeData);
+  updateSVGContainer(data, scaleLayer);
+};
 
-  let aspectRatio = bbox.height/bbox.width;
-  // let aspectRatio = maxBBox.height/maxBBox.width;
-  console.log(aspectRatio);
-  // let aspectRatio = 1;
-
-  console.log(bbox);
-
-  // d3.select("[data-layer-name=interactive-map-container]")
-  // .attr("viewBox",  `0,${rawHeight*aspectRatio / 2 - 100},${rawWidth},${rawHeight*aspectRatio}`);
-
-  // d3.select("[data-layer-name=interactive-map-container]")
-  // .attr("viewBox",  `0,${bbox.height / 2},${bbox.width},${bbox.height*aspectRatio}`);
-
-
-  // Scale the county and places containerer
-  const countiesGroup = d3.select(
-    domElement + ' [data-name="county-boundaries"]'
+/**
+ * Re-draw scaled SVG container.
+ * @param {*} data 
+ * @param {*} scaleLayer 
+ */
+const updateSVGContainer = (data) => {
+  d3.select("[data-layer-name=interactive-map-container]").attr(
+    "viewBox",
+    `${data.selectedShapeData.viewBox}`
   );
-  countiesGroup.attr(
-    "transform",
-    "translate(" +
-      data.selectedShapeData.translate +
-      ")scale(" +
-      data.selectedShapeData.scale +
-      ")"
+  // Scale the container
+  const containerEl = d3.select(
+    data.selectedShapeData.mapElement + " " + data.selectedShapeData.scaleLayer
   );
-
-  const placesGroup = d3.select(
-    domElement + ' [data-name="places-boundaries"]'
-  );
-  placesGroup.attr(
+  containerEl.attr(
     "transform",
     "translate(" +
       data.selectedShapeData.translate +

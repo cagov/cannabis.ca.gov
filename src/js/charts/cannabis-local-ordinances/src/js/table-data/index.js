@@ -1,4 +1,5 @@
 import { xml } from "d3-fetch";
+import mapMessages from "../../../static/assets/data/mapMessages.json";
 
 class CAGovTableData extends window.HTMLElement {
   // Set up static variables that are specific to this component.
@@ -15,13 +16,16 @@ class CAGovTableData extends window.HTMLElement {
   connectedCallback() {
     this.mapContainer = this.dataset.mapContainer;
     let mapContainer = document.querySelector(this.mapContainer);
+    
+    // If need to rebuild data, reenable - this adds a bit of possible unnecessary processing
     let dataPlaces = mapContainer.localData.dataPlaces;
-
     let tableData = this.buildTable(dataPlaces);
     this.innerHTML = tableData;
+
     this.updateTable(mapContainer.localData);
   }
 
+  /** Create HTML for table */
   buildTable(data) {
     let fields = [
       "CA Places Key",
@@ -43,6 +47,13 @@ class CAGovTableData extends window.HTMLElement {
     return this.htmlTable(fields, data);
   }
 
+  /**
+   * Create HTML markup
+   * @NOTE - Planning to restructure this to use field names as keys, will be easier to work with.
+   * @param {*} fields 
+   * @param {*} data 
+   * @returns 
+   */
   htmlTable(fields, data) {
     if (
       fields !== undefined &&
@@ -75,7 +86,7 @@ class CAGovTableData extends window.HTMLElement {
           } else if (fields[key] === "Manufacturing") {
             fieldLabel = "Manufacturing";
           } else if (fields[key] === "Place") {
-            fieldLabel = "Cities";
+            fieldLabel = mapMessages["CountyColumnLabel"] || "Counties";
           }
           return `<th d="${key}">${fieldLabel}</th>`;
         }
@@ -111,7 +122,11 @@ class CAGovTableData extends window.HTMLElement {
               rowValueLabel = row[0];
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             } else if (rowValue === "1" && row[5] === "County") {
-              rowValueLabel = row[4];
+              let countyLabel = row[4];
+              
+              // Alter data to get current county and wrap with show / hide logic
+              let rowValueLabel = "<span class=\"county-label\">" + countyLabel + "</span><span class=\"unincorporated-label\">" + " " + countyLabel + " " + mapMessages.TableLabelCountyWide + "</span>";
+              
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             }
 
@@ -138,8 +153,13 @@ class CAGovTableData extends window.HTMLElement {
     }
   }
 
+  /**
+   * Change which UI elements are displayed
+   * @param {*} data 
+   * @returns 
+   */
   updateTable(data) {
-    let level = data.mapLevel;
+    let jurisdiction = data.jurisdiction;
     let geoid = data.geoid;
     
     let tableSelector = "cagov-table-data table";
@@ -152,36 +172,39 @@ class CAGovTableData extends window.HTMLElement {
       }
     });
 
-    if (level === "Statewide") {
+    if (jurisdiction === "Statewide") {
+      console.log("Statewide");
       tableElements = document.querySelectorAll(
-        `${tableSelector} tbody tr[j="County"]`
+        `${tableSelector} tbody tr`
       );
-      Object.keys(tableElements).map((index) =>
-        tableElements[index].classList.remove("hidden")
-      );
+      Object.keys(tableElements).map((index) => {
+        tableElements[index].classList.remove("hidden");
+      });
       if (tableElement !== null) {
-        tableElement.classList.add(level);
+        tableElement.classList.remove("Place", "County");
+        tableElement.classList.add(jurisdiction);
       }
-    } else if (level === "County") {
+    } else if (jurisdiction === "County") {
       let query = `${tableSelector} tr[c="${data.selectedPlaceValue}"]`; // Everything in the county.
       tableElements = document.querySelectorAll(query);
       Object.keys(tableElements).map((index) => {
         tableElements[index].classList.remove("hidden");
         if (index === "0" && tableElements[index] !== null) {
           tableElements[index].classList.add("county-row");
-          tableElements[index].querySelector("td:first-child").innerHTML =
-            data.messages.TableLabelCountyWide;
         }
       });
       if (tableElement !== null) {
-        tableElement.classList.add(level);
+        tableElement.classList.remove("Statewide", "Place");
+        tableElement.classList.add(jurisdiction);
       }
-    } else if (level === "Place") {
+    } else if (jurisdiction === "Place") {
       if (geoid !== null) {
         // console.log(data);
         let countyQuery = `${tableSelector} tr[c="${data.selectedCounty}"][data-geoid="null"]`;
         let countyElements = document.querySelectorAll(countyQuery);
-        let query = `${tableSelector} tr[data-geoid="${geoid}"]`; // Everything in the county.
+        
+        let query = `${tableSelector} tr[data-geoid="${geoid}"]`;
+        console.log(query);
         tableElements = document.querySelectorAll(query);
 
         Object.keys(countyElements).map((index) => {
@@ -193,12 +216,13 @@ class CAGovTableData extends window.HTMLElement {
         Object.keys(tableElements).map((index) => {
           tableElements[index].classList.remove("hidden");
           if (index === "0" && tableElements[index] !== null) {
-            // tableElements[index].classList.add("county-row");
+            tableElements[index].classList.add("place-row");
           }
         });
       }
       if (tableElement !== null) {
-        tableElement.classList.add(level);
+        tableElement.classList.remove("Statewide", "County");
+        tableElement.classList.add(jurisdiction);
       }
     }
     return true;
