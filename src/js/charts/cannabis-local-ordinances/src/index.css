@@ -97,12 +97,21 @@ cagov-map-table .map-legend .status .icon {
   margin-right: 8px;
 }
 
+cagov-map-table .map-legend .legend-label {
+  margin-bottom: 8px;
+}
+
 cagov-map-table .map-legend .status {
   display: flex;
   flex-direction: column;
   flex-flow: row;
-  line-height: 32px;
+  line-height: 1.8rem;
+  margin-bottom: 8px;
 }
+cagov-map-table .map-legend .status-label {
+  line-height: 1.2rem;
+}
+
 cagov-map-table .map-legend .status .icon {
   width: 30px;
   margin-right: 8px;

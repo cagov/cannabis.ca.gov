@@ -68,9 +68,9 @@ function countyStatusTooltipMessage(data, props) {
             <div class="icon">${icon}</div>
             <div>
               ${label}<br/>
-              <div>${prohibited}</div>
               <div>${allowed}</div>
-            </div> 
+              <div>${prohibited}</div>
+            </div>
           </div>
           <div>
             <p>

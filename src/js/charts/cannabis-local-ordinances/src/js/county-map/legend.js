@@ -43,17 +43,17 @@ function chartLegendStatewide(data, props) {
   );
 
   let content = `<div class="cagov-map-legend legend-container">
-          <div>${labelAllowedProcessed}</div>
+          <div class="legend-label">${labelAllowedProcessed}</div>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
-            <div>
+            <div class="status-label">
               <div>${allowedLabel}</div>
             </div> 
           </div>
-          <div>${labelProhibitedProcessed}</div>
+          <div class="legend-label">${labelProhibitedProcessed}</div>
           <div class="status">
           <div class="icon">${prohibitedIcon()}</div>
-          <div>
+          <div class="status-label">
             <div>${prohibitedLabel}</div>
           </div> 
         </div>
@@ -93,9 +93,6 @@ function chartLegendCounty(data, props) {
     prohibitedNoResults
   } = messages;
   
-console.log(  allowed,
-  countyData.allowed);
-
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     countyData.allowed,
@@ -109,12 +106,12 @@ console.log(  allowed,
 
   allowedLabel = insertValueIntoSpanTag(
     allowedLabel,
-    data.activities,
+    data.activities.toLowerCase(),
       "data-activity"
     );
   prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
-    data.activities,
+    data.activities.toLowerCase(),
       "data-activity"
   );
 
@@ -148,16 +145,16 @@ console.log(  allowed,
   }
 
   let content = `<div class="cagov-map-legend legend-container">
-          <div>${countyLabel}</div>
+          <div class="legend-label">${countyLabel}</div>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
-            <div>
+            <div class="status-label">
               <div>${allowedLabel}</div>
             </div> 
           </div>
           <div class="status">
           <div class="icon">${prohibitedIcon()}</div>
-          <div>
+          <div class="status-label">
             <div>${prohibitedLabel}</div>
           </div> 
           

@@ -1,9 +1,10 @@
 {
   "MapTableCaption": "",
-  "CountyColumnLabel": "Counties",
+  "CountyColumnLabel": "Cities and Counties",
   "TableLabelCountyWide": "(unincorporated)",
   "LegendStatewide": {
-    "label": "Cities and counties that allow at least one cannabis business type",
+    "labelAllowed": "Cities and counties that allow at least one cannabis business type",
+    "labelProhibited": "Cities and counties that prohibit all cannabis business types",
     "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>",
     "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
   },
@@ -15,8 +16,8 @@
   "LegendCounty": {
     "labelAllowed": "At least one cannabis business type is allowed",
     "labelProhibited": "All cannabis business types are prohibited",
-    "allowed": "<span data-status=\"number-cities\"></span> of cities allow at least one business type",
-    "prohibited": "<span data-status=\"number-cities\"></span> of cities prohibit all cannabis business types",
+    "allowed": "<span data-status=\"number-cities\"></span> cities allow at least one business type",
+    "prohibited": "<span data-status=\"number-cities\"></span> cities prohibit all cannabis business types",
     "allowedNoResults": "At least one cannabis business type is allowed in unincorporated areas of this county",
     "prohibitedNoResults": "All cannabis business types are prohibited in unincorporated areas of this county",
     "unincorporatedAllowed": "At least one cannabis business type is allowed in unincorporated areas of this county.",
@@ -33,8 +34,8 @@
     "unincorporatedProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated areas of this county."
   },
   "LegendPlace": {
-    "allowed": "At least one cannabis business type is allowed",
-    "prohibited": "All cannabis business types are prohibited"
+    "allowed": "<strong>At least one</strong> cannabis business type is allowed.",
+    "prohibited": "<strong>All</strong> cannabis business types are prohibited."
   },  
   "LegendPlaceActivity": {
     "allowed": "<strong><span data-status=\"activity\"></span></strong> is allowed.",
