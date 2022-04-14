@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-05T01:05:17",
-    "updated_date": "2022-04-05T01:05:17",
+    "updated_date": "2022-04-14T01:45:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-04-04T18:05:17",
     "date_gmt": "2022-04-05T01:05:17",
     "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/cnty19_1.svg",
-    "modified": "2022-04-04T18:05:17",
-    "modified_gmt": "2022-04-05T01:05:17",
+    "modified": "2022-04-13T18:45:36",
+    "modified_gmt": "2022-04-14T01:45:36",
     "slug": "cnty19_1",
     "status": "inherit",
     "type": "attachment",
