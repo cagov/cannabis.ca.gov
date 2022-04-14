@@ -3,25 +3,39 @@
   "CountyColumnLabel": "Counties",
   "TableLabelCountyWide": "(unincorporated)",
   "LegendStatewide": {
-    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities and counties allow at least one cannabis business activity",
-    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities and counties prohibit all cannabis business activities"
+    "label": "Cities and counties that allow at least one cannabis business type",
+    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>",
+    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
+  },
+  "LegendStatewideActivity": {
+    "label": "Cities and counties that allow <strong><span data-activity=\"activity\"></span></strong>",
+    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span>",
+    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
   },
   "LegendCounty": {
-    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities allow at least one cannabis business activity",
-    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities prohibit all cannabis business activities",
-    "unincorporated": ""
+    "labelAllowed": "At least one cannabis business type is allowed",
+    "labelProhibited": "All cannabis business types are prohibited",
+    "allowed": "<span data-status=\"number-cities\"></span> of cities allow at least one business type",
+    "prohibited": "<span data-status=\"number-cities\"></span> of cities prohibit all cannabis business types",
+    "allowedNoResults": "At least one cannabis business type is allowed in unincorporated areas of this county",
+    "prohibitedNoResults": "All cannabis business types are prohibited in unincorporated areas of this county",
+    "unincorporatedAllowed": "At least one cannabis business type is allowed in unincorporated areas of this county.",
+    "unincorporatedProhibited": "All cannabis business types are prohibited in unincorporated areas of this county."
+  },
+  "LegendCountyActivity": {
+    "labelAllowed": "<strong><span data-activity=\"activity\"></span></strong> is allowed",
+    "labelProhibited": "<strong><span data-activity=\"activity\"></span></strong> is prohibited",
+    "allowed": "<span data-status=\"number-cities\"></span> of cities allow <span data-activity=\"activity\"></span>",
+    "prohibited": "<span data-status=\"number-cities\"></span> of cities prohibit <span data-activity=\"activity\"></span>",
+    "allowedNoResults": "No cities allow <span data-activity=\"activity\"></span>",
+    "prohibitedNoResults": "All cities prohibit <span data-activity=\"activity\"></span>",
+    "unincorporatedAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated areas of this county.",
+    "unincorporatedProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated areas of this county."
   },
   "LegendPlace": {
-    "allowed": "<strong>Allowed</strong> At least one cannabis business type is allowed",
-    "prohibited": "<strong>Prohibited</strong> All cannabis business types are prohibited"
+    "allowed": "At least one cannabis business type is allowed",
+    "prohibited": "All cannabis business types are prohibited"
   },  
-  "LegendCountyActivity": {
-    "allowed": "<strong>Allow: </strong><span data-status=\"percentage-allowed\"></span> of cities allow <span data-activity=\"activity\"></span>.",
-    "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span> of cities prohibit <span data-activity=\"activity\"></span>.",
-    "allowedNoResults": "<strong>Allow: </strong>No cities allow <span data-activity=\"activity\"></span>.",
-    "prohibitedNoResults": "<strong>Prohibit: </strong>All cities prohibit <span data-activity=\"activity\"></span>.",
-    "unincorporated": ""
-  },
   "LegendPlaceActivity": {
     "allowed": "<strong><span data-status=\"activity\"></span></strong> is allowed.",
     "prohibited": "<strong><span data-status=\"activity\"></span></strong> is prohibited."
