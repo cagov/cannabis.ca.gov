@@ -42,11 +42,12 @@
     "prohibited": "<strong><span data-status=\"activity\"></span></strong> is prohibited."
   },
   "TooltipStatewideAllActivities": {
-    "all": "Cities and counties that allow at least 1 type of cannabis business activity",
+    "all": "Cities and unincorporated parts of the county that allow at least 1 type of cannabis business type",
     "city": "Cities that allow at least 1 type of cannabis business activity",
     "county": "Counties that allow at least 1 type of cannabis business activity",
-    "prohibited": "Prohibit: <span data-status=\"percentage-prohibited\"></span>",
     "allowed": "Allow: <span data-status=\"percentage-allowed\"></span>",
+    "prohibited": "Prohibit: <span data-status=\"percentage-prohibited\"></span>",
+    
     "detailsCTA": "<button>View County</button>"
   },
   "TooltipStatewideActivity": {
