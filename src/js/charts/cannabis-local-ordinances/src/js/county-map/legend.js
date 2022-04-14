@@ -30,13 +30,10 @@ function chartLegendStatewide(data, props) {
   );
 
   let labelProcessed = insertValueIntoSpanTag(
-   label,
+    label,
     data.activities,
     "data-activity"
   );
-
-
-  // let message = countyStatusTooltipMessage(data, props);
   let message = "State";
   let content = `<div class="cagov-map-legend legend-container">
           <p>${labelProcessed}</p>
@@ -57,28 +54,41 @@ function chartLegendStatewide(data, props) {
 }
 
 function chartLegendCounty(data, props) {
-  // console.log("setting legend county", data, props);
-  let percentages = getActivityPercentagesCounty(data, props);
-
-  let allowed = data.messages.LegendCounty.allowed;
-  let prohibited = data.messages.LegendCounty.prohibited;
-  if (data.activities !== "Any cannabis business") {
-    allowed = data.messages.LegendCountyActivity.allowed;
-    prohibited = data.messages.LegendCountyActivity.prohibited;
-    if (percentages.allowedPercentage === "0") {
-      allowed = data.messages.LegendCountyActivity.allowedNoResults;
-    }
-    if (percentages.prohibitedPercentage === "0") {
-      prohibited = data.messages.LegendCountyActivity.prohibitedNoResults;
-    }
+  let countyData = getActivityPercentagesCounty(data, props);
+  let isAllowed = null;
+  if (countyData.allowed > 1) {
+    isAllowed = true;
+  } else {
+    isAllowed = false
   }
+
+  let percentages = getActivityPercentagesCounty(data, props);
+  // @TODO tomorrow
+  // Get if county is
+  // Get numbers of cities (new function)
+
+  let messages = data.messages.LegendCounty;
+  if (data.activities !== "Any cannabis business") {
+    messages = data.messages.LegendCountyActivity;
+  }
+
+  let {
+    labelAllowed,
+    labelProhibited,
+    allowed,
+    prohibited,
+    unincorporatedAllowed,
+    unincorporatedProhibited,
+    allowedNoResults,
+    prohibitedNoResults
+  } = messages;
+  
 
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     percentages.allowedPercentage,
     "data-status"
   );
-
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     percentages.prohibitedPercentage,
@@ -88,17 +98,45 @@ function chartLegendCounty(data, props) {
   allowedLabel = insertValueIntoSpanTag(
     allowedLabel,
     data.activities,
-    "data-activity"
-  );
+      "data-activity"
+    );
   prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
     data.activities,
-    "data-activity"
-  );
+      "data-activity"
+    );
 
-  // let message = countyStatusTooltipMessage(data, props);
-  let message = "State";
+  let countyLabel = "";
+  let unincorporatedLabel = "";
+  if (isAllowed) {
+    countyLabel = insertValueIntoSpanTag(
+      labelAllowed,
+      data.activities,
+      "data-activity"
+    );
+    unincorporatedLabel = insertValueIntoSpanTag(
+      unincorporatedAllowed,
+      data.activities,
+      "data-activity"
+    );
+  } else {
+    countyLabel = insertValueIntoSpanTag(
+      labelProhibited,
+      data.activities,
+      "data-activity"
+    );
+
+    unincorporatedLabel = insertValueIntoSpanTag(
+      unincorporatedProhibited,
+      data.activities,
+      "data-activity"
+    );
+    
+    
+  }
+
   let content = `<div class="cagov-map-legend legend-container">
+          <div>${countyLabel}</div>
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
             <div>
@@ -110,7 +148,9 @@ function chartLegendCounty(data, props) {
           <div>
             <div>${prohibitedLabel}</div>
           </div> 
+          
         </div>
+        <div>${unincorporatedLabel}</div>
       </div>`;
   return content;
 }
@@ -119,6 +159,7 @@ function chartLegendPlace(data, props) {
   let allowed = data.messages.LegendPlace.allowed;
   let prohibited = data.messages.LegendPlace.prohibited;
   let isAllowed = getActivityPercentagesPlace(data, props);
+
   if (data.activities !== "Any cannabis business") {
     allowed = data.messages.LegendPlaceActivity.allowed;
     prohibited = data.messages.LegendPlaceActivity.prohibited;
