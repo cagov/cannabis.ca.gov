@@ -187,7 +187,7 @@ function getDistributionAllowed(data, mode, values, renderMode) {
   let value = values["Distribution"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -202,7 +202,7 @@ function getManufacturingAllowed(data, mode, values, renderMode) {
   let value = values["Manufacturing"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -217,7 +217,7 @@ function getCultivationAllowed(data, mode, values, renderMode) {
   let value = values["Cultivation"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -232,7 +232,7 @@ function getTestingAllowed(data, mode, values, renderMode) {
   let value = values["Testing"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;

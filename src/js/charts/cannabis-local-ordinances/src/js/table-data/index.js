@@ -106,7 +106,7 @@ class CAGovTableData extends window.HTMLElement {
 
             if (row[rowValue] === "Prohibited") {
               rowValueKey = "0";
-            } else if (row[rowValue] === "Limited") {
+            } else if (row[rowValue] === "Allowed") {
               rowValueKey = "1";
             } else if (row[rowValue] === "Limited-Medical Only") {
               rowValueKey = "2";

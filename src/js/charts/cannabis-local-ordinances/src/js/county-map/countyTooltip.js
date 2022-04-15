@@ -1,3 +1,4 @@
+import { chartLegendCounty } from "./legend.js";
 /**
  * Build County tooltip HTML
  * @param {object} data
@@ -28,11 +29,11 @@ function countyStatusTooltipMessage(data, props) {
   let { name, prohibitionStatus } = props;
   let { activities } = data;
   let mode = activities;
+
   let { all, city, county, prohibited, allowed, detailsCTA } =
   getToolTipMessages(data, name, props, "County");
 
   let toggle = "All Layers";
-
   // Choose label
   let label = all;
   if (toggle === "Place layer") {
@@ -42,40 +43,29 @@ function countyStatusTooltipMessage(data, props) {
   }
 
   data.tooltipData = getCountyTooltipData(data, props);
-  label = insertValueIntoSpanTag(label, mode, "data-status");
-  prohibited = insertValueIntoSpanTag(
-    prohibited,
-    data.tooltipData.activityPercentages.prohibited,
-    "data-status"
-  );
+
+  let chartLegendContent = chartLegendCounty(data, props, "tooltip");
   
-  allowed = insertValueIntoSpanTag(
-    allowed,
-    data.tooltipData.activityPercentages.allowed,
-    "data-status"
-  );
 
-  let icon = "";
+  label = insertValueIntoSpanTag(label, mode, "data-status");
 
-  if (prohibitionStatus === "Yes") {
-    icon = prohibitedIcon();
-  } else if (prohibitionStatus === "No") {
-    icon = allowedIcon();
-  }
 
   let output = `<div>
-          <div class="status">
-            <div class="icon">${icon}</div>
-            <div>
-              ${label}<br/>
-              <div>${allowed}</div>
-              <div>${prohibited}</div>
-            </div>
-          </div>
+          
+            ${chartLegendContent}
+          
+
           <div>
-            <p>
-              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}">${detailsCTA}</a>
-            </p>
+           
+              <a 
+                class="loadCounty" 
+                data-county="${data.tooltipData.name}" 
+                data-jurisdiction="County" 
+                href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}"
+              >
+                ${detailsCTA}
+              </a>
+           
           </div>
         </div>`;
 
@@ -193,7 +183,7 @@ function getActivityPercentages(data, props) {
   } else {
     let allowedValues =
       activityCountValues[mode]["Allowed"] +
-      activityCountValues[mode]["Limited"] +
+      activityCountValues[mode]["Allowed"] +
       activityCountValues[mode]["Limited-Medical Only"];
 
     percentageAllowed =

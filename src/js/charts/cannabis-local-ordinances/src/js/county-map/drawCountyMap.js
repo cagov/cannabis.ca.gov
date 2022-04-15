@@ -159,14 +159,13 @@ export default function drawCountyMap({
               return place;
             }
           });
-          console.log("currentPlace", currentPlace);
 
           if (currentPlace !== null && currentPlace.length > 0) {
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
             console.log("pc", placeColor);
             let props = getPlaceTooltipData(data, { name, geoid });
 
-            el.attr("stroke-width", 1)
+            el.attr("stroke-width", 0.2)
               .attr("stroke-opacity", 1)
               .attr(
                 "stroke",
@@ -219,7 +218,8 @@ export default function drawCountyMap({
     // Update the legend
     document.querySelector(legendElement).innerHTML = chartLegendCounty(
       data,
-      {}
+      {},
+      "legend"
     );
   } catch (error) {
     console.error("Error rendering cannabis-local-ordinances:", error);

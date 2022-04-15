@@ -188,7 +188,7 @@ function getActivityPercentages(data, props) {
   } else {
     let allowedValues =
       activityCountValues[mode]["Allowed"] +
-      activityCountValues[mode]["Limited"] +
+      activityCountValues[mode]["Allowed"] +
       activityCountValues[mode]["Limited-Medical Only"];
 
     percentageAllowed =
