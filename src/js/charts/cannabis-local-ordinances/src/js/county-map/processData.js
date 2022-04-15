@@ -23,7 +23,7 @@ function getCountyColor(data, props, jurisdiction = null) {
       return place;
     }
   });
-  
+
   let values = dataPlaces[currentCountyPlaceName];
   let mode = data.activities;
 
@@ -43,7 +43,7 @@ function getCountyColor(data, props, jurisdiction = null) {
         values,
         "County"
       );
-      
+
       if (data.selectedCounty === values["County"]) {
         return activityStatusColors;
       } else {
@@ -95,19 +95,13 @@ function getPlaceColor(data, props, jurisdiction = null) {
 
 /**
  * Get status color for jurisdiction
- * @param {*} data 
- * @param {*} mode 
- * @param {*} values 
+ * @param {*} data
+ * @param {*} mode
+ * @param {*} values
  * @param {*} renderMode
  * @returns {*} string - single Hex value
  */
-function getActivityStatusColor(
-  data,
-  mode,
-  values,
-  renderMode = "County"
-) {
-
+function getActivityStatusColor(data, mode, values, renderMode = "County") {
   switch (mode) {
     case "Any cannabis business":
       return getAllActivities(data, mode, values, renderMode);
@@ -148,10 +142,10 @@ function getActivityStatusColor(
 }
 
 /**
- * 
- * @param {*} data 
- * @param {*} mode 
- * @param {*} values 
+ *
+ * @param {*} data
+ * @param {*} mode
+ * @param {*} values
  * @returns {*} string - Hex value for coloring map county
  */
 function getAllActivities(data, mode, values, renderMode) {
@@ -167,10 +161,10 @@ function getAllActivities(data, mode, values, renderMode) {
 }
 
 /**
- * 
- * @param {*} data 
- * @param {*} mode 
- * @param {*} values 
+ *
+ * @param {*} data
+ * @param {*} mode
+ * @param {*} values
  * @returns {boolean} - If value matches data values (currently Yes No, these could be converted props for rendering CSV to county map automatically (eventually))
  */
 function getRetailAllowed(data, mode, values, renderMode) {
@@ -218,7 +212,6 @@ function getManufacturingAllowed(data, mode, values, renderMode) {
 }
 
 function getCultivationAllowed(data, mode, values, renderMode) {
-  
   let value = values["Cultivation"];
   if (
     value === "Allowed" ||
@@ -306,39 +299,79 @@ function precalculateActivitiesData(data, getID = false) {
 
 function groupAllowedActivities(place, activities, item, getID) {
   try {
+    // only of places
     let placeLabel = place; // item["CA Places Key"];
-    if (getID === true) {
-      placeLabel = item["GEOID"];
+    console.log("item", item);
+    activities.county = {};
+    if (item["Jurisdiction Type"] === "City") {
+      if (getID === true) {
+        placeLabel = item["GEOID"];
+      }
+
+      activities["Are all CCA activites prohibited?"][
+        item["Are all CCA activites prohibited?"]
+      ].push(placeLabel);
+
+      activities["Is all retail prohibited?"][
+        item["Is all retail prohibited?"]
+      ].push(placeLabel);
+
+      if (item["CCA Prohibited by County"] === "Yes") {
+        activities["CCA Prohibited by County"]["Yes"].push(placeLabel);
+        placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
+      } else if (item["CCA Prohibited by County"] === "No") {
+        activities["CCA Prohibited by County"]["Yes"].push(placeLabel);
+        placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
+      }
+
+      activities["Retail: Storefront"][item["Retail: Storefront"]].push(
+        placeLabel
+      );
+      activities["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
+        placeLabel
+      );
+      activities["Distribution"][item["Distribution"]].push(placeLabel);
+      activities["Manufacturing"][item["Manufacturing"]].push(placeLabel);
+      activities["Cultivation"][item["Cultivation"]].push(placeLabel);
+      activities["Testing"][item["Testing"]].push(placeLabel);
+      activities["Datasets for County"] = activities["Datasets for County"] + 1;
+    } else {
+      if (item["Jurisdiction Type"] === "City") {
+        if (getID === true) {
+          placeLabel = item["GEOID"];
+        }
+  
+        activities.county["Are all CCA activites prohibited?"][
+          item["Are all CCA activites prohibited?"]
+        ].push(placeLabel);
+  
+        activities.county["Is all retail prohibited?"][
+          item["Is all retail prohibited?"]
+        ].push(placeLabel);
+  
+        if (item["CCA Prohibited by County"] === "Yes") {
+          activities.county["CCA Prohibited by County"]["Yes"].push(placeLabel);
+          placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
+        } else if (item["CCA Prohibited by County"] === "No") {
+          activities.county["CCA Prohibited by County"]["Yes"].push(placeLabel);
+          placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
+        }
+  
+        activities.county["Retail: Storefront"][item["Retail: Storefront"]].push(
+          placeLabel
+        );
+        activities.county["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
+          placeLabel
+        );
+        activities.county["Distribution"][item["Distribution"]].push(placeLabel);
+        activities.county["Manufacturing"][item["Manufacturing"]].push(placeLabel);
+        activities.county["Cultivation"][item["Cultivation"]].push(placeLabel);
+        activities.county["Testing"][item["Testing"]].push(placeLabel);
+        activities.county["Datasets for County"] = activities["Datasets for County"] + 1;
+      }
     }
 
-    activities["Are all CCA activites prohibited?"][
-      item["Are all CCA activites prohibited?"]
-    ].push(placeLabel);
-
-    activities["Is all retail prohibited?"][
-      item["Is all retail prohibited?"]
-    ].push(placeLabel);
-
-    if (item["CCA Prohibited by County"] === "Yes") {
-      activities["CCA Prohibited by County"]["Yes"].push(placeLabel);
-      placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
-    } else if (item["CCA Prohibited by County"] === "No") {
-      activities["CCA Prohibited by County"]["Yes"].push(placeLabel);
-      placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
-    }
-
-    activities["Retail: Storefront"][item["Retail: Storefront"]].push(
-      placeLabel
-    );
-    activities["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
-      placeLabel
-    );
-    activities["Distribution"][item["Distribution"]].push(placeLabel);
-    activities["Manufacturing"][item["Manufacturing"]].push(placeLabel);
-    activities["Cultivation"][item["Cultivation"]].push(placeLabel);
-    activities["Testing"][item["Testing"]].push(placeLabel);
-
-    activities["Datasets for County"] = activities["Datasets for County"] + 1;
+    
   } catch (error) {
     console.error(error);
   }

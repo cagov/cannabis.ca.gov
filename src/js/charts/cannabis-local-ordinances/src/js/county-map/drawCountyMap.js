@@ -158,8 +158,6 @@ export default function drawCountyMap({
             }
           });
 
-          console.log(currentPlace);
-
           if (currentPlace !== null && currentPlace.length > 0) {
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
             let props = getPlaceTooltipData(data, { name, geoid });
