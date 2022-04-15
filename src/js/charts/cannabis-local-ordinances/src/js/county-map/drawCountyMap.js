@@ -146,7 +146,9 @@ export default function drawCountyMap({
         paths.each(function (p, j) {
           let el = d3.select(this);
           let name = el.attr("data-name");
+          
           let geoid = el.attr("data-geoid");
+          console.log("name", name, geoid);
           let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
             let item = data.dataPlaces[place];
             if (
@@ -157,12 +159,14 @@ export default function drawCountyMap({
               return place;
             }
           });
+          console.log("currentPlace", currentPlace);
 
           if (currentPlace !== null && currentPlace.length > 0) {
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+            console.log("pc", placeColor);
             let props = getPlaceTooltipData(data, { name, geoid });
 
-            el.attr("stroke-width", 0.2)
+            el.attr("stroke-width", 1)
               .attr("stroke-opacity", 1)
               .attr(
                 "stroke",

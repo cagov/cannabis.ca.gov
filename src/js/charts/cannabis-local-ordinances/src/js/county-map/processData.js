@@ -76,7 +76,9 @@ function getPlaceColor(data, props, jurisdiction = null) {
     No: "#2F4C2C",
   };
 
-  let values = data.dataPlaces[name];
+  // To fix it - take the place name, and then get the place label and then look it up again @TODO
+  
+  let values = data.dataPlaces[name]; // Angels vs Angels Camp Place label
 
   let mode = data.activities;
 
@@ -301,7 +303,7 @@ function groupAllowedActivities(place, activities, item, getID) {
   try {
     // only of places
     let placeLabel = place; // item["CA Places Key"];
-    console.log("item", item);
+    // console.log("item", item);
     activities.county = {};
     if (item["Jurisdiction Type"] === "City") {
       if (getID === true) {

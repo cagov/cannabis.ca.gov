@@ -44,6 +44,9 @@
     "allPlacesallCountyAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated parts of the county.",
     "allPlacesAllCountyProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated parts of the county.",
 
+    "allPlacesAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated parts of the county.",
+    "allPlacesProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated parts of the county.",
+
     "allAllowedNoPlaces": "<span data-activity=\"activity\"></span> is allowed.",
     "allProhibitedNoPlaces": "<span data-activity=\"activity\"></span> is prohibited.",
     
@@ -51,12 +54,12 @@
     "unincorporatedProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated parts of the county."
   },
   "LegendPlace": {
-    "allowed": "<strong>At least one</strong> cannabis business type is allowed.",
-    "prohibited": "<strong>All</strong> cannabis business types are prohibited."
+    "allowed": "At least one cannabis business type is allowed.",
+    "prohibited": "All cannabis business types are prohibited."
   },  
   "LegendPlaceActivity": {
-    "allowed": "<strong><span data-status=\"activity\"></span></strong> is allowed.",
-    "prohibited": "<strong><span data-status=\"activity\"></span></strong> is prohibited."
+    "allowed": "<span data-status=\"activity\"></span> is allowed.",
+    "prohibited": "<span data-status=\"activity\"></span> is prohibited."
   },
   "TooltipStatewideAllActivities": {
     "all": "Cities and unincorporated parts of the county that allow at least 1 type of cannabis business type",

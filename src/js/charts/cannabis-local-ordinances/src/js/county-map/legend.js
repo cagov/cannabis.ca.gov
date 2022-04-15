@@ -83,6 +83,7 @@ function chartLegendCounty(data, props) {
 
   if (data.activities !== "Any cannabis business") {
     messages = data.messages.LegendCountyActivity;
+    console.log("messages", messages);
   }
 
   let countyData = getActivityPercentagesCounty(data, props);
@@ -105,27 +106,27 @@ function chartLegendCounty(data, props) {
   console.log(countyData);
 
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
-    console.log("a 1");
-    allowed = allowed;
-    prohibited = prohibited;
+    console.log("a 1", allowed);
+    // allowed = allowed;
+    // prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 1 && countyData.prohibited > 1) {
     console.log("a 1");
     allowed = singleAllowed;
-    prohibited = prohibited;
+    // prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 1) {
     console.log("a 1");
-    allowed = allowed;
+    // allowed = allowed;
     prohibited = singleProhibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited > 1) {
     console.log("c 4");
     allowed = "";
-    prohibited = prohibited;
+    // prohibited = prohibited;
     showAllowed = false;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
@@ -148,7 +149,7 @@ function chartLegendCounty(data, props) {
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
     console.log("a 2");
-    allowed = allowed;
+    // allowed = allowed;
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
