@@ -43,45 +43,31 @@ function chartLegendStatewide(data, props) {
   );
 
   let content = `<div class="cagov-map-legend legend-container">
-          <div class="legend-label">${labelAllowedProcessed}</div>
+          
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
             <div class="status-label">
               <div>${allowedLabel}</div>
             </div> 
           </div>
-          <div class="legend-label">${labelProhibitedProcessed}</div>
+
+          <div class="legend-label">${labelAllowedProcessed}</div>
+          
           <div class="status">
-          <div class="icon">${prohibitedIcon()}</div>
-          <div class="status-label">
-            <div>${prohibitedLabel}</div>
-          </div> 
-        </div>
+            <div class="icon">${prohibitedIcon()}</div>
+            <div class="status-label">
+              <div>${prohibitedLabel}</div>
+            </div>     
+          </div>
+          
+          <div class="legend-label">${labelProhibitedProcessed}</div>
+
       </div>`;
   return content;
 }
 
 function chartLegendCounty(data, props) {
-  let countyData = getActivityPercentagesCounty(data, props);
-  let isAllowed = null;
-  console.log("cd", countyData);
-  if (countyData.allowed > 1) {
-    isAllowed = true;
-  } else {
-    isAllowed = false;
-  }
-
-  let percentages = getActivityPercentagesCounty(data, props);
-  // @TODO tomorrow
-  // Get if county is
-  // Get numbers of cities (new function)
-
   let messages = data.messages.LegendCounty;
-
-  if (data.activities !== "Any cannabis business") {
-    messages = data.messages.LegendCountyActivity;
-  }
-
   let {
     labelAllowed,
     labelProhibited,
@@ -90,14 +76,49 @@ function chartLegendCounty(data, props) {
     unincorporatedAllowed,
     unincorporatedProhibited,
     allowedNoResults,
-    prohibitedNoResults
+    prohibitedNoResults,
+    allowedSingleResults,
+    prohibitedSingleResults,
   } = messages;
-  
+
+  if (data.activities !== "Any cannabis business") {
+    messages = data.messages.LegendCountyActivity;
+  }
+
+  let countyData = getActivityPercentagesCounty(data, props);
+
+  let isAllowed = null;
+
+  if (countyData.allowed > 1) {
+    isAllowed = true;
+  } else {
+    isAllowed = false;
+  }
+
+  let unincorporatedLabel = "";
+  console.log("countyData", countyData);
+
+  let showAllowed = true;
+  let showProhibited = true;
+  if (countyData.allowed > 0 && countyData.prohibited === 0) {
+    allowed = allowedSingleResults;
+    showAllowed = true;
+    showProhibited = false;
+  } else if (countyData.allowed === 0 && countyData.prohibited > 0) {
+    prohibited = prohibitedSingleResults;
+    showAllowed = false;
+    showProhibited = true;
+  } else if (countyData.allowed === 0 && countyData.prohibited === 0) {
+    allowed = allowedNoResults;
+    prohibited = prohibitedNoResults;
+  }
+
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     countyData.allowed,
     "data-status"
   );
+
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     countyData.prohibited,
@@ -107,59 +128,71 @@ function chartLegendCounty(data, props) {
   allowedLabel = insertValueIntoSpanTag(
     allowedLabel,
     data.activities.toLowerCase(),
-      "data-activity"
-    );
+    "data-activity"
+  );
+
   prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
     data.activities.toLowerCase(),
-      "data-activity"
+    "data-activity"
   );
 
-  let countyLabel = "";
-  let unincorporatedLabel = "";
   if (isAllowed) {
-    countyLabel = insertValueIntoSpanTag(
-      labelAllowed,
-      data.activities,
-      "data-activity"
-    );
+    // legendLabel = insertValueIntoSpanTag(
+    //   labelAllowed,
+    //   data.activities,
+    //   "data-activity"
+    // );
+
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedAllowed,
       data.activities,
       "data-activity"
     );
+
+    unincorporatedLabel = `<div class="status">
+    <div class="icon">${allowedIcon()}</div>
+    <div class="status-label">
+      <div>${unincorporatedLabel}</div>
+    </div>`;
   } else {
-    countyLabel = insertValueIntoSpanTag(
-      labelProhibited,
-      data.activities,
-      "data-activity"
-    );
+    // legendLabel = insertValueIntoSpanTag(
+    //   labelProhibited,
+    //   data.activities,
+    //   "data-activity"
+    // );
 
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedProhibited,
       data.activities,
       "data-activity"
     );
-    
-    
+
+    unincorporatedLabel = `<div class="status">
+    <div class="icon">${prohibitedIcon()}</div>
+    <div class="status-label">
+      <div>${unincorporatedLabel}</div>
+    </div>`;
   }
 
+  let statusMessageAllowed = `<div class="status">
+    <div class="icon">${allowedIcon()}</div>
+    <div class="status-label">
+    <div>${allowedLabel}</div>
+    </div> 
+    </div>`;
+
+  let statusMessageProhibited = `<div class="status">
+    <div class="icon">${prohibitedIcon()}</div>
+    <div class="status-label">
+      <div>${prohibitedLabel}</div>
+    </div>`;
+
   let content = `<div class="cagov-map-legend legend-container">
-          <div class="legend-label">${countyLabel}</div>
-          <div class="status">
-            <div class="icon">${allowedIcon()}</div>
-            <div class="status-label">
-              <div>${allowedLabel}</div>
-            </div> 
-          </div>
-          <div class="status">
-          <div class="icon">${prohibitedIcon()}</div>
-          <div class="status-label">
-            <div>${prohibitedLabel}</div>
-          </div> 
-          
+          ${showAllowed ? statusMessageAllowed : ""}
+          ${showProhibited ? statusMessageProhibited : ""}
         </div>
-        <div>${unincorporatedLabel}</div>
+        ${unincorporatedLabel}
       </div>`;
   return content;
 }
@@ -173,9 +206,6 @@ function chartLegendPlace(data, props) {
     allowed = data.messages.LegendPlaceActivity.allowed;
     prohibited = data.messages.LegendPlaceActivity.prohibited;
   }
-
-  // let message = countyStatusTooltipMessage(data, props);
-  let message = "State";
 
   let allowedLabel = insertValueIntoSpanTag(
     allowed,

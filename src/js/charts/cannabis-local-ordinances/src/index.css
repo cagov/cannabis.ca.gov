@@ -98,7 +98,8 @@ cagov-map-table .map-legend .status .icon {
 }
 
 cagov-map-table .map-legend .legend-label {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  line-height: 32px;
 }
 
 cagov-map-table .map-legend .status {
@@ -109,20 +110,19 @@ cagov-map-table .map-legend .status {
   margin-bottom: 8px;
 }
 cagov-map-table .map-legend .status-label {
+  margin-top: 4px;
   line-height: 24px;
 }
 
 cagov-map-table .map-legend .status .icon {
   width: 30px;
   margin-right: 8px;
-}
-cagov-map-table .map-legend .status p {
-  margin: 0;
+  height: 32px;
 }
 
-cagov-map-table .map-legend strong {
+/* cagov-map-table .map-legend strong {
   line-height: 24px;
-}
+} */
 
 cagov-map-table .map-header {
   background: #f9f9fa;
