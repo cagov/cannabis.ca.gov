@@ -32,13 +32,13 @@ function chartLegendStatewide(data, props) {
 
   let labelAllowedProcessed = insertValueIntoSpanTag(
     labelAllowed,
-    data.activities,
+    data.activities.toLowerCase(),
     "data-activity"
   );
 
   let labelProhibitedProcessed = insertValueIntoSpanTag(
     labelProhibited,
-    data.activities,
+    data.activities.toLowerCase(),
     "data-activity"
   );
 
@@ -75,10 +75,10 @@ function chartLegendCounty(data, props) {
     singleProhibited,
     unincorporatedAllowed,
     unincorporatedProhibited,
-    allowedNoResults,
-    prohibitedNoResults,
-    allAllowed,
-    allProhibited,
+    allAllowedNoPlaces,
+    allProhibitedNoPlaces,
+    allPlacesallCountyAllowed,
+    allPlacesAllCountyProhibited,
   } = messages;
 
   if (data.activities !== "Any cannabis business") {
@@ -87,9 +87,9 @@ function chartLegendCounty(data, props) {
 
   let countyData = getActivityPercentagesCounty(data, props);
   let countyLabel = data.countyList[data.selectedCounty].label;
-  
+
   let currentCounty = data.dataPlaces[countyLabel];
-  
+
   let isAllowed = null;
 
   if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
@@ -101,64 +101,87 @@ function chartLegendCounty(data, props) {
   let unincorporatedLabel = "";
   let showAllowed = true;
   let showProhibited = true;
-  let showUnincorporated = isAllowed ? true : false;
+  let showUnincorporated = true;
   console.log(countyData);
+
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
-    console.log("a 1"); 
+    console.log("a 1");
     allowed = allowed;
     prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
-
   } else if (countyData.allowed === 1 && countyData.prohibited > 1) {
-    console.log("a 1"); 
+    console.log("a 1");
     allowed = singleAllowed;
     prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
-
-  } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
-    console.log("a 2"); 
+  } else if (countyData.allowed > 1 && countyData.prohibited === 1) {
+    console.log("a 1");
     allowed = allowed;
-    prohibited = "";
+    prohibited = singleProhibited;
     showAllowed = true;
-    showProhibited = false;
-
-  } else if (countyData.allowed === 1 && countyData.prohibited === 0) {
-    console.log("c 3"); 
-    allowed = singleAllowed;
-    prohibited = "";
-    showAllowed = true;
-    showProhibited = false;
-    
+    showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited > 1) {
-    console.log("c 4"); 
+    console.log("c 4");
     allowed = "";
-    prohibited = allProhibited;
+    prohibited = prohibited;
     showAllowed = false;
     showProhibited = true;
-
   } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
-    console.log("c 5"); 
-    console.log(countyData);
+    console.log("c 10");
     allowed = "";
     prohibited = singleProhibited;
     showAllowed = false;
     showProhibited = true;
-    
-  } else if (countyData.allowed === 0 && countyData.prohibited === 0) {
-    console.log("c 6"); 
+  } else if (countyData.allowed === 1 && countyData.prohibited === 0) {
+    console.log("c 11");
+    allowed = singleAllowed;
+    prohibited = "";
+    showAllowed = true;
+    showProhibited = false;
+  } else if (countyData.allowed === 1 && countyData.prohibited === 1) {
+    console.log("c 12");
+    allowed = singleAllowed;
+    prohibited = singleProhibited;
+    showAllowed = true;
+    showProhibited = true;
+  } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
+    console.log("a 2");
+    allowed = allowed;
+    prohibited = "";
+    showAllowed = true;
+    showProhibited = false;
+  }
+  // else if (countyData.allowed === 1 && countyData.prohibited === 0) {
+  //   console.log("c 3");
+  //   allowed = singleAllowed;
+  //   prohibited = "";
+  //   showAllowed = true;
+  //   showProhibited = false;
+
+  // } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
+  //   console.log("c 5");
+  //   console.log(countyData);
+  //   allowed = "";
+  //   prohibited = singleProhibited;
+  //   showAllowed = false;
+  //   showProhibited = true;
+  else if (countyData.allowed === 0 && countyData.prohibited === 0) {
+    console.log("c 6");
     if (isAllowed) {
-      console.log("c 7"); 
-      allowed = allowedNoResults;
+      console.log("c 7");
+      allowed = allAllowedNoPlaces;
       prohibited = "";
+      showUnincorporated = false;
     } else {
-      console.log("c 8"); 
-      allowed = "";
-      prohibited = prohibitedNoResults;
+      console.log("c 8");
+      allowed = ""; // @TODO remove check
+      prohibited = allProhibitedNoPlaces;
+      showUnincorporated = false;
     }
   } else {
-    console.log("c 9"); 
+    console.log("c 9");
   }
 
   let allowedLabel = insertValueIntoSpanTag(
@@ -356,8 +379,11 @@ function getActivityPercentagesCounty(data) {
   let countyLabel = data.countyList[data.selectedPlaceValue].label;
   let countyData = data.dataPlaces[countyLabel];
   console.log("cd", countyData, item);
-  
-  let isCity = placeData !== undefined && placeData["Jurisdiction Type"] === "City" ? true : false;
+
+  let isCity =
+    placeData !== undefined && placeData["Jurisdiction Type"] === "City"
+      ? true
+      : false;
   let mode = data.activities;
 
   // @TODO Discount the uninc place from these counts.
