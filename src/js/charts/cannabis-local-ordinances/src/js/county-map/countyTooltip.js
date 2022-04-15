@@ -176,20 +176,20 @@ function getActivityPercentages(data, props) {
     percentageAllowed =
       parseFloat(
         activityCountValues["Are all CCA activites prohibited?"]["No"]
-      ) / parseFloat(data.countyList[name].activities["Cities in County"]);
+      ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
       parseFloat(
         activityCountValues["Are all CCA activites prohibited?"]["Yes"]
-      ) / parseFloat(data.countyList[name].activities["Cities in County"]);
+      ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
   } else if (mode === "Retail") {
     percentageAllowed =
       parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
-      parseFloat(data.countyList[name].activities["Cities in County"]);
+      parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
       parseFloat(activityCountValues["Is all retail prohibited?"]["Yes"]) /
-      parseFloat(data.countyList[name].activities["Cities in County"]);
+      parseFloat(data.countyList[name].activities["Datasets for County"]);
   } else {
     let allowedValues =
       activityCountValues[mode]["Allowed"] +
@@ -198,11 +198,11 @@ function getActivityPercentages(data, props) {
 
     percentageAllowed =
       parseFloat(allowedValues) /
-      parseFloat(data.countyList[name].activities["Cities in County"]);
+      parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
       parseFloat(activityCountValues[mode]["Prohibited"]) /
-      parseFloat(data.countyList[name].activities["Cities in County"]);
+      parseFloat(data.countyList[name].activities["Datasets for County"]);
   }
 
   return {

@@ -113,12 +113,16 @@ class CAGovTableData extends window.HTMLElement {
             } else if (row[rowValue] === "Allowed") {
               rowValueKey = "3";
             }
-
             if (rowValueKey !== "") {
+              if (rowValueKey === "2") {
+                let cell =  `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel} LABEL <span class="limited-label">test${mapMessages["TableLabelLimited-Medical Only"]}</span></td>`;
+                // console.log(cell);
+                return cell;
+              }
+
               return `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel}</td>`;
             }
             if (rowValue === "1" && row[5] === "City") {
-              // console.log(row);
               rowValueLabel = row[0];
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             } else if (rowValue === "1" && row[5] === "County") {
@@ -126,10 +130,9 @@ class CAGovTableData extends window.HTMLElement {
               
               // Alter data to get current county and wrap with show / hide logic
               let rowValueLabel = "<span class=\"county-label\">" + countyLabel + "</span><span class=\"unincorporated-label\">" + " " + countyLabel + " " + mapMessages.TableLabelCountyWide + "</span>";
-              
+
               return `<td d="${rowValue}">${rowValueLabel}</td>`;
             }
-
             return `<td d="${rowValue}">${rowValueLabel}</td>`;
           }
         });

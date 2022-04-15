@@ -1,5 +1,6 @@
 {
   "MapTableCaption": "",
+  "TableLabelLimited-Medical Only": "Medical",
   "CountyColumnLabel": "Cities and Counties",
   "TableLabelCountyWide": "(unincorporated)",
   "LegendStatewide": {
@@ -14,15 +15,19 @@
     "prohibited": "<strong>Prohibit: </strong><span data-status=\"percentage-prohibited\"></span>"
   },
   "LegendCounty": {
-    "labelAllowed": "At least one cannabis business type is allowed",
-    "labelProhibited": "All cannabis business types are prohibited",
-    "allowed": "<span data-status=\"number-cities\"></span> cities allow at least one business type.",
+    "allowed": "<span data-status=\"number-cities\"></span> cities allow at least one cannabis business type.",
     "prohibited": "<span data-status=\"number-cities\"></span> cities prohibit all cannabis business types.",
+
+    "singleAllowed": "<span data-status=\"number-cities\"></span> city allows at least one cannabis business type.",
+    "prohibitedSinglePlace": "<span data-status=\"number-cities\"></span> city prohibits all cannabis business types.",
+
+    "allAllowed": "At least one cannabis business type is allowed in unincorporated areas of this county.",
+    "allProhibited": "All cannabis business types prohibited in the county.",
+
     "allowedNoResults": "All cannabis business types are allowed",
     "prohibitedNoResults": "All cannabis business types are prohibited",
-    "allowedSingleResults": "At least one cannabis business type is allowed in unincorporated areas of this county.",
-    "prohibitedSingleResults": "All cities prohibit all cannabis business types",
-    "unincorporatedAllowed": "At least one cannabis business type is allowed in unincorporated areas of this county.",
+    
+    "unincorporatedAllowed": "At least one cannabis business type is allowed in unincorporated parts of the county.",
     "unincorporatedProhibited": "All cannabis business types are prohibited in unincorporated areas of this county."
   },
   "LegendCountyActivity": {
@@ -30,10 +35,15 @@
     "labelProhibited": "<strong><span data-activity=\"activity\"></span></strong> is prohibited",
     "allowed": "<span data-status=\"number-cities\"></span> cities allow <span data-activity=\"activity\"></span>",
     "prohibited": "<span data-status=\"number-cities\"></span> cities prohibit <span data-activity=\"activity\"></span>",
+    
+    "allAllowed": "<span data-status=\"number-cities\"></span> cities allow <span data-activity=\"activity\"></span>",
+    "allProhibited": "<span data-status=\"number-cities\"></span> cities prohibit <span data-activity=\"activity\"></span>",
+
+    "singleAllowed": "<span data-status=\"number-cities\"></span> city allows at least one cannabis business type.",
+    "prohibitedSinglePlace": "<span data-status=\"number-cities\"></span> city prohibits all cannabis business types.",
+
     "allowedNoResults": "All cities allow <span data-activity=\"activity\"></span>",
     "prohibitedNoResults": "All cities prohibit <span data-activity=\"activity\"></span>",
-    "allowedSingleResults": "<span data-status=\"number-cities\"></span> cities allow <span data-activity=\"activity\"></span>",
-    "prohibitedSingleResults": "<span data-status=\"number-cities\"></span> cities prohibit <span data-activity=\"activity\"></span>",
     "unincorporatedAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated areas of this county.",
     "unincorporatedProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated areas of this county."
   },

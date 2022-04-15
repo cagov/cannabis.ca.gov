@@ -561,7 +561,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   getCurrentPlaceByGeoid(data, geoid) {
     let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
       let item = data.dataPlaces[place];
-      if (parseInt(geoid) === item["GEOID"] && place !== "default") {
+      if (geoid === item["GEOID"] && place !== "default") {
         return place;
       }
     });

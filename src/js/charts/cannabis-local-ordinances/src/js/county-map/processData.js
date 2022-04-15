@@ -234,7 +234,6 @@ function getCultivationAllowed(data, mode, values, renderMode) {
 }
 
 function getTestingAllowed(data, mode, values, renderMode) {
-  
   let value = values["Testing"];
   if (
     value === "Allowed" ||
@@ -253,13 +252,14 @@ function precalculateActivitiesData(data, getID = false) {
   let { dataPlaces, countyList } = data;
 
   if (getID === false) {
+    // Use list of counties to pull all places and the unincorporated county information set.
     Object.keys(countyList).map((county) => {
       let allPlacesInCounty = Object.keys(dataPlaces).map((place) => {
         if (place !== "default" && dataPlaces[place]["County"] === county) {
           if (countyList[county].activities === undefined) {
             countyList[county].activities = Object.assign(
               {},
-              precalculateActivitiesDataDataSchema()
+              precalculateActivitiesDataSchema()
             );
           }
           if (county !== "default") {
@@ -280,7 +280,7 @@ function precalculateActivitiesData(data, getID = false) {
           if (countyList[county].activitiesByGEOID === undefined) {
             countyList[county].activitiesByGEOID = Object.assign(
               {},
-              precalculateActivitiesDataDataSchema()
+              precalculateActivitiesDataSchema()
             );
           }
           if (county !== "default") {
@@ -338,7 +338,7 @@ function groupAllowedActivities(place, activities, item, getID) {
     activities["Cultivation"][item["Cultivation"]].push(placeLabel);
     activities["Testing"][item["Testing"]].push(placeLabel);
 
-    activities["Cities in County"] = activities["Cities in County"] + 1;
+    activities["Datasets for County"] = activities["Datasets for County"] + 1;
   } catch (error) {
     console.error(error);
   }
@@ -400,7 +400,7 @@ function rollupAllowedActivities(countyList, county) {
   }
 }
 
-function precalculateActivitiesDataDataSchema() {
+function precalculateActivitiesDataSchema() {
   return {
     "Retail: Storefront": {
       Allowed: [],
@@ -450,7 +450,7 @@ function precalculateActivitiesDataDataSchema() {
       Yes: [],
       No: [],
     },
-    "Cities in County": 0,
+    "Datasets for County": 0,
   };
 }
 
@@ -479,7 +479,7 @@ export {
   getCountyColor,
   getCountyColorPlaceLevel,
   precalculateActivitiesData,
-  precalculateActivitiesDataDataSchema,
+  precalculateActivitiesDataSchema,
   getPlaceColor,
   getPlaceColorPlaceLevel,
 };

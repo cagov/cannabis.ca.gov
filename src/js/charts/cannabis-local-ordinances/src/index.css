@@ -1,7 +1,9 @@
-
-cagov-map-table .map-wrapper {
+main {
   max-width: 785px;
 
+}
+
+cagov-map-table .map-wrapper {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
@@ -234,6 +236,9 @@ cannabis-local-ordinances .map-container .map-detail svg {
     width: 100%;
     height: auto;
   }
+}
+cagov-map-table .filter.map-display {
+  min-width: fit-content;
 }
 
 cagov-map-table[data-jurisdiction="County"] .filter.map-display,

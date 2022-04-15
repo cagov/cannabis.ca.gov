@@ -94,8 +94,8 @@ export default function drawCountyMap({
         let name = el.attr("data-county_nam"); // California County Boundaries (2019)
         let island = el.attr("data-island"); // Island values from California county boundaries
 
-        // let geoid = el.attr("data-geoid");
-        // console.log("island", island, geoid);
+        let geoid = el.attr("data-geoid");
+       
         if (name === data.selectedCounty) {
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {
@@ -150,13 +150,15 @@ export default function drawCountyMap({
           let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
             let item = data.dataPlaces[place];
             if (
-              parseInt(geoid) === item["GEOID"] &&
+              geoid === item["GEOID"] &&
               item.County === data.selectedCounty &&
               place !== "default"
             ) {
               return place;
             }
           });
+
+          console.log(currentPlace);
 
           if (currentPlace !== null && currentPlace.length > 0) {
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });

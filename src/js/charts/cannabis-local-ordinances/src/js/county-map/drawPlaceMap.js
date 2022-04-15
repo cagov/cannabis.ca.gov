@@ -149,7 +149,7 @@ export default function drawPlaceMap({
           let item = data.dataPlaces[place];
 
           if (
-            parseInt(geoid) === item["GEOID"] &&
+            geoid === item["GEOID"] &&
             item.County === data.selectedCounty &&
             place !== "default"
           ) {
