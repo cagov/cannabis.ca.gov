@@ -45,20 +45,33 @@ function placeStatusTooltipMessage(data, props, options) {
   let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
     getToolTipMessages(data, name, props, "City");
 
-  // Choose label based on toggle
-  let label = all;
-  data.tooltipData = getPlaceTooltipData(data, props);
+  //   let isAllowed = null;
 
+  // if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
+  //   isAllowed = false;
+  // } else {
+  //   isAllowed = true;
+  // }
+
+
+  // Choose label based on toggle
+  // let label = all;
+
+  data.tooltipData = getPlaceTooltipData(data, props);
+  let label = "";
   label = insertValueIntoSpanTag(label, mode, "data-status");
+ 
+
+  console.log("lbl", label);
 
   let icon = "";
 
   if (prohibitionStatus === "Yes") {
     icon = prohibitedIcon();
-    label = prohibited;
+    label = insertValueIntoSpanTag(prohibited, mode, "data-status");
   } else if (prohibitionStatus === "No") {
     icon = allowedIcon();
-    label = allowed;
+    label = insertValueIntoSpanTag(allowed, mode, "data-status");
   }
 
   let output = `<div>
@@ -70,7 +83,13 @@ function placeStatusTooltipMessage(data, props, options) {
           </div>
           <div>
             <p>
-              <a class="loadPlace" data-jurisdiction="Place" data-geoid="${geoid}" href="#city-view?geoid=${geoid}">${detailsCTA}</a>
+              <a 
+              class="loadPlace" 
+              data-jurisdiction="Place" 
+              data-geoid="${geoid}" 
+              href="#city-view?geoid=${geoid}">
+                ${detailsCTA}
+              </a>
             </p>
           </div>
         </div>`;
@@ -139,17 +158,19 @@ function getPlaceTooltipData(data, props) {
 
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
-
+  console.log("jur", jurisdiction);
   let mode = activities;
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    return messages["TooltipStatewideAllActivities"];
-  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
+    console.log("county");
     return messages["TooltipCountyAllActivities"];
+  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
+    console.log("city");
+    return messages["TooltipPlaceAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      return messages["TooltipStatewideActivity"];
-    } else if (jurisdiction === "City") {
       return messages["TooltipCountyActivity"];
+    } else if (jurisdiction === "City") {
+      return messages["TooltipPlaceActivity"];
     }
   }
   return null;

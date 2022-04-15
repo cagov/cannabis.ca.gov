@@ -94,7 +94,7 @@ function chartLegendCounty(data, props, renderMode) {
     currentCounty = data.dataPlaces[countyLabel];
   } else {
     countyLabel = data.countyList[props.name].label;
-    currentCounty = data.dataPlaces[props["County label"]];
+    currentCounty = data.dataPlaces[countyLabel];
   }
   
 

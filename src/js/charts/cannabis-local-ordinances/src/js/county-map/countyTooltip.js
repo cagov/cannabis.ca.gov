@@ -137,14 +137,14 @@ function getToolTipMessages(data, name, props, jurisdiction) {
   let mode = activities;
   // @TODO CONNECT TO CONFIG
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    return messages["TooltipStatewideAllActivities"];
-  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
     return messages["TooltipCountyAllActivities"];
+  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
+    return messages["TooltipPlaceAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      return messages["TooltipStatewideActivity"];
-    } else if (jurisdiction === "City") {
       return messages["TooltipCountyActivity"];
+    } else if (jurisdiction === "City") {
+      return messages["TooltipPlaceActivity"];
     }
   }
   return null;
