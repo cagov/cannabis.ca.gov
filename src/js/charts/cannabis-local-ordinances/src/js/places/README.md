@@ -1,7 +1,9 @@
-Todo
+Notes:
 
 - update src/js/charts/cannabis-local-ordinances/adr/03-autocomplete.md
 - credit w3.com
+
+Operate:
 
 ```diff
 # src/js/charts/cannabis-local-ordinances/src/index.js
@@ -15,3 +17,6 @@ Todo
 
 
 ```
+
+- Delete src/templates/wordpress/posts for a faster build.
+- Delete src/js/charts/cannabis-local-ordinances
