@@ -1,0 +1,101 @@
+cagov-places {
+  /* https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css */
+  .annotate {
+    font-style: italic;
+    color: #366ed4;
+  }
+
+  .combobox-list {
+    position: relative;
+  }
+
+  .combobox-inline label,
+  .combobox-list label {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .combobox-list .group input,
+  .combobox-list .group button {
+    display: inline;
+    background-color: #eee;
+  }
+
+  .combobox-list .group input.focus {
+    background-color: #d6e8f5;
+    outline-color: #348ccb;
+  }
+
+  .combobox-list .group button {
+    margin: 0;
+    padding: 0 0.125em 0 0.125em;
+    position: relative;
+    top: 1px;
+    left: -2px;
+    font-size: 85%;
+    background-color: #eee;
+  }
+
+  ul[role="listbox"] {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 3em;
+    list-style: none;
+    background-color: #eee;
+    display: none;
+    border: 2px #333 solid;
+    height: 12em;
+    width: 10em;
+    overflow: scroll;
+  }
+
+  /*  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css */
+  ul[role="listbox"] li[role="option"] {
+    margin: 0;
+    padding: 0;
+    padding-left: 0.125em;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+
+  [role="listbox"].focus {
+    border-color: #348ccb;
+  }
+
+  [role="listbox"] [role="option"] {
+    display: block;
+    margin: 0.25em;
+    padding: 0;
+    background-color: #eee;
+    font-size: 100%;
+  }
+
+  /* focus and hover styling */
+
+  button:focus,
+  button:hover,
+  input:focus,
+  input:hover {
+    outline: 2px solid black;
+  }
+
+  input:focus,
+  input:hover {
+    background-color: #eee;
+  }
+
+  [role="listbox"] [role="option"][aria-selected="true"] {
+    background-color: #ccc;
+  }
+
+  [role="listbox"].focus [role="option"][aria-selected="true"] {
+    background-color: #aed2ea;
+    border-color: #348ccb;
+  }
+
+  [role="listbox"] li[role="option"]:hover {
+    background-color: #c2ddef;
+  }
+}
