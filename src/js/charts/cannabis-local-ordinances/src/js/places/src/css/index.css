@@ -1,0 +1,88 @@
+cagov-places {
+  /* https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css */
+  /*  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css */
+  /* focus and hover styling */
+}
+cagov-places .annotate {
+  font-style: italic;
+  color: #366ed4;
+}
+cagov-places .combobox-list {
+  position: relative;
+}
+cagov-places .combobox-inline label,
+cagov-places .combobox-list label {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+cagov-places .combobox-list .group input,
+cagov-places .combobox-list .group button {
+  display: inline;
+  background-color: #eee;
+}
+cagov-places .combobox-list .group input.focus {
+  background-color: #d6e8f5;
+  outline-color: #348ccb;
+}
+cagov-places .combobox-list .group button {
+  margin: 0;
+  padding: 0 0.125em 0 0.125em;
+  position: relative;
+  top: 1px;
+  left: -2px;
+  font-size: 85%;
+  background-color: #eee;
+}
+cagov-places ul[role=listbox] {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 3em;
+  list-style: none;
+  background-color: #eee;
+  display: none;
+  border: 2px #333 solid;
+  height: 12em;
+  width: 10em;
+  overflow: scroll;
+}
+cagov-places ul[role=listbox] li[role=option] {
+  margin: 0;
+  padding: 0;
+  padding-left: 0.125em;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+cagov-places [role=listbox].focus {
+  border-color: #348ccb;
+}
+cagov-places [role=listbox] [role=option] {
+  display: block;
+  margin: 0.25em;
+  padding: 0;
+  background-color: #eee;
+  font-size: 100%;
+}
+cagov-places button:focus,
+cagov-places button:hover,
+cagov-places input:focus,
+cagov-places input:hover {
+  outline: 2px solid black;
+}
+cagov-places input:focus,
+cagov-places input:hover {
+  background-color: #eee;
+}
+cagov-places [role=listbox] [role=option][aria-selected=true] {
+  background-color: #ccc;
+}
+cagov-places [role=listbox].focus [role=option][aria-selected=true] {
+  background-color: #aed2ea;
+  border-color: #348ccb;
+}
+cagov-places [role=listbox] li[role=option]:hover {
+  background-color: #c2ddef;
+}
+
+/*# sourceMappingURL=index.css.map */
