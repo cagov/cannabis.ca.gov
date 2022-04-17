@@ -516,6 +516,7 @@ cagov-map-table .download .button svg {
   flex-direction: column;
   flex-flow: row;
   line-height: 32px;
+  
 }
 .cagov-map-tooltip.tooltip-container .status .icon {
   width: 30px;
@@ -523,6 +524,10 @@ cagov-map-table .download .button svg {
 }
 .cagov-map-tooltip.tooltip-container .status p {
   margin: 0;
+}
+
+.cagov-map-tooltip.tooltip-container .status-label {
+  max-width: 83%;
 }
 
 .cagov-map-tooltip.tooltip-container .county-tooltip .tooltip-label strong {

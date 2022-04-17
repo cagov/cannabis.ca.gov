@@ -66,7 +66,7 @@ const scaleCounty = (
     dy = bbox.height - bbox.y,
     x = (bbox.x + (bbox.x + bbox.width)) / 2,
     y = (bbox.y + (bbox.y + bbox.height)) / 2,
-    scale = Math.min(300 / maxBBox.width, 300 / maxBBox.height) ,
+    scale = Math.min(260 / maxBBox.width, 260 / maxBBox.height) ,
     translate = [rawWidth / 2 - scale * x - 150, rawHeight / 2 - scale * y];
 
   let aspectRatio = maxBBox.height / maxBBox.width;
