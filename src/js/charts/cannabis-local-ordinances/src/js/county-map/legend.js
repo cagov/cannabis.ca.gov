@@ -83,7 +83,6 @@ function chartLegendCounty(data, props, renderMode) {
 
   if (data.activities !== "Any cannabis business") {
     messages = data.messages.LegendCountyActivity;
-    console.log("messages", messages);
   } 
 
   let countyData = getBusinessTypeStatsCounty(data, props, renderMode);
@@ -110,8 +109,6 @@ function chartLegendCounty(data, props, renderMode) {
   let showAllowed = true;
   let showProhibited = true;
   let showUnincorporated = true;
-
-  console.log(countyData);
 
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
     console.log("a 1", allowed);
@@ -396,12 +393,12 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
     prohibitedPercentage: 0,
   };
 
-  console.log(data, props, renderMode);
+  // console.log(data, props, renderMode);
   let item, placeData, countyLabel, countyData;
   let mode = data.activities;
 
   if (renderMode === "tooltip") {
-    console.log( data.countyList, props);
+    // console.log( data.countyList, props);
     item = data.countyList[props.name].activities;
     placeData = data.dataPlaces[props["County label"]];
     countyData = data.dataPlaces[props["County label"]];

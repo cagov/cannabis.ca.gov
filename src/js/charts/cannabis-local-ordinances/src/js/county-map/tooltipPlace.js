@@ -64,9 +64,6 @@ function placeStatusTooltipMessage(data, props, options) {
   data.tooltipData = getPlaceTooltipData(data, props);
   let label = "";
   label = insertValueIntoSpanTag(label, mode, "data-status");
- 
-
-  console.log("lbl", label);
 
   let icon = "";
 
@@ -162,13 +159,13 @@ function getPlaceTooltipData(data, props) {
 
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
-  console.log("jur", jurisdiction);
+  // console.log("jur", jurisdiction);
   let mode = activities;
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    console.log("county");
+    // console.log("county");
     return messages["TooltipCountyAllActivities"];
   } else if (mode === "Any cannabis business" && jurisdiction === "City") {
-    console.log("city");
+    // console.log("city");
     return messages["TooltipPlaceAllActivities"];
   } else {
     if (jurisdiction === "County") {

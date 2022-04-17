@@ -151,7 +151,6 @@ export default function drawCountyMap({
         paths.each(function (p, j) {
           let el = d3.select(this);
           let name = el.attr("data-name");
-          
           let geoid = el.attr("data-geoid");
           let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
             let item = data.dataPlaces[place];
@@ -195,7 +194,6 @@ export default function drawCountyMap({
                 );
                 tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
 
-                  console.log("click");
                 let tooltipContainer = document.querySelector(".tooltip-container");
                 tooltipContainer.setAttribute("style", "visibility:visible");
                 let closeButton = document.querySelector(".tooltip-container .close-button");
@@ -204,8 +202,7 @@ export default function drawCountyMap({
                     tooltipContainer.setAttribute("style", "visibility:hidden");
                   });
                 }
-              
-                
+
                 data.setUpTooltipUIListeners(data);
                 return tooltip
                   .transition()
@@ -213,13 +210,6 @@ export default function drawCountyMap({
                   .style("left", tooltipPosition.x + "px")
                   .style("top", tooltipPosition.y + "px")
                   .style("visibility", "visible");
-              })
-              .on("dblclick", function (event, d) {
-                d3.select(this).attr("fill-opacity", "1");
-                return tooltip
-                  .transition()
-                  .delay(0)
-                  .style("visibility", "hidden");
               });
           } else {
             el.remove();

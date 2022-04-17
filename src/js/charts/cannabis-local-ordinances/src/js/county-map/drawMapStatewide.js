@@ -159,7 +159,7 @@ export default function drawStatewideMap({
                 .attr("fill", "#fcfcfc")
                 .attr("fill-opacity", "0.2");
                 tooltip.html(chartTooltipCounty(data, props));
-                console.log("lick");
+
                 let tooltipContainer = document.querySelector(".tooltip-container");
                 tooltipContainer.setAttribute("style", "visibility:visible");
                 let closeButton = document.querySelector(".tooltip-container .close-button");
@@ -193,13 +193,6 @@ export default function drawStatewideMap({
               //     .delay(200)
               //     .style("visibility", "hidden");
               // }
-            })
-            .on("dblclick", function (d) {
-              d3.select(this).attr("fill", "transparent");
-              return tooltip
-                .transition()
-                .delay(200)
-                .style("visibility", "hidden");
             });
         });
       })
@@ -229,6 +222,8 @@ export default function drawStatewideMap({
               placeColor !== "transparent" ? "#FFF" : "transparent"
             );
 
+
+            
           el.attr("fill", () => {
             let placeColor = getPlaceColor(data, { name, geoid });
             return placeColor;

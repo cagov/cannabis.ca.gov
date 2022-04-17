@@ -76,9 +76,18 @@ function getPlaceColor(data, props, jurisdiction = null) {
     No: "#2F4C2C",
   };
 
-  // To fix it - take the place name, and then get the place label and then look it up again @TODO
-  
-  let values = data.dataPlaces[name]; // Angels vs Angels Camp Place label
+  let currentPlace = Object.keys(dataPlaces).filter((place) => {
+    let item = dataPlaces[place];
+    if (
+      geoid === item.GEOID &&
+      item["Jurisdiction Type"] === "City" &&
+      place !== "default"
+    ) {
+      return place;
+    }
+  });
+
+  let values = data.dataPlaces[currentPlace]; // Angels vs Angels Camp Place label
 
   let mode = data.activities;
 
