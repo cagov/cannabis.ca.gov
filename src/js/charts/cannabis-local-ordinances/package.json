@@ -1,6 +1,6 @@
 {
   "name": "cannabis-local-ordinances",
-  "version": "0.0.1",
+  "version": "1.0.14",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
@@ -46,10 +46,7 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-middleware": "^5.3.1",
     "webpack-dev-server": "^4.7.4",
-    "webpack-hot-middleware": "^2.25.1",
-    
-    "object-assign": "^4.1.1",
-    "receptor": "^2.2.1"
+    "webpack-hot-middleware": "^2.25.1"
   },
   "dependencies": {
     "d3": "^7.3.0",

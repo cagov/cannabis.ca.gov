@@ -101,7 +101,7 @@ cagov-map-table .map-legend .status .icon {
 
 cagov-map-table .map-legend .legend-label {
   margin-bottom: 16px;
-  line-height: 32px;
+  line-height: 24px;
 }
 
 cagov-map-table .map-legend .status {
@@ -238,7 +238,15 @@ cannabis-local-ordinances .map-container .map-detail svg {
   }
 }
 cagov-map-table .filter.map-display {
-  min-width: fit-content;
+  min-width: 132px;
+  width: fit-content;
+}
+
+cagov-map-table .filter.map-display .toggle {
+  margin-bottom: 8px;
+}
+cagov-map-table .filter.map-display .toggle span {
+  line-height: 24px;
 }
 
 cagov-map-table[data-jurisdiction="County"] .filter.map-display,

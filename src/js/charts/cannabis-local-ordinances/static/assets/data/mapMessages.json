@@ -2,6 +2,7 @@
   "MapTableCaption": "",
   "TableLabelLimited-Medical Only": "Medical",
   "CountyColumnLabel": "Cities and Counties",
+  "TableCountiesDefaultLabel": "Counties",
   "TableLabelCountyWide": "(unincorporated)",
   "LegendStatewide": {
     "labelAllowed": "Cities and counties allow at least one cannabis business type.",
