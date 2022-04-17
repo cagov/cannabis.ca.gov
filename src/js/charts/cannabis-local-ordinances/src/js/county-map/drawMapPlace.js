@@ -26,6 +26,10 @@ export default function drawPlaceMap({
   svgFiles = null,
 }) {
   try {
+    let tooltipContainer = document.querySelector(".tooltip-container");
+    if (tooltipContainer !== null) {
+      tooltipContainer.setAttribute("style", "visibility:hidden");
+    }
     //   /* Data processing */
     var { dataPlaces, messages, selectedPlace, selectedCounty } = data;
     var rawWidth = 800;
@@ -173,11 +177,9 @@ export default function drawPlaceMap({
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
             return placeColor;
           })
-            .attr("tabindex", "0")
+            // .attr("tabindex", "0")
             .attr("aria-label", (d, i) => {
-              // console.log(currentPlace);
-              // @TODO @DEBUG
-              return "Label";
+              return `${props.name} ${props["County label"]}`;
             })
             .attr("fill-opacity", (d) => {
               if (

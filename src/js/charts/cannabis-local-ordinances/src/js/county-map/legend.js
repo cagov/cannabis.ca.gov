@@ -158,48 +158,23 @@ function chartLegendCounty(data, props, renderMode) {
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
-  }
-  // else if (countyData.allowed === 1 && countyData.prohibited === 0) {
-  //   console.log("c 3");
-  //   allowed = singleAllowed;
-  //   prohibited = "";
-  //   showAllowed = true;
-  //   showProhibited = false;
-
-  // } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
-  //   console.log("c 5");
-  //   console.log(countyData);
-  //   allowed = "";
-  //   prohibited = singleProhibited;
-  //   showAllowed = false;
-  //   showProhibited = true;
-  else if (countyData.allowed === 0 && countyData.prohibited === 0) {
+  } else if (countyData.allowed === 0 && countyData.prohibited === 0) {
     console.log("c 6");
     if (isAllowed) {
       console.log("c 7");
       allowed = allAllowedNoPlaces;
       prohibited = "";
+      showProhibited = false;
       showUnincorporated = false;
     } else {
       console.log("c 8");
       allowed = ""; // @TODO remove check
       prohibited = allProhibitedNoPlaces;
       showUnincorporated = false;
+      showAllowed = false;
     }
-  } else {
-    console.log("c 9");
   }
 
-  // let {
-  //   labelAllowed,
-  //   labelProhibited,
-  //   allowed,
-  //   prohibited,
-  //   unincorporatedAllowed,
-  //   unincorporatedProhibited,
-  //   allowedNoResults,
-  //   prohibitedNoResults
-  // } = messages;
   
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
