@@ -7,9 +7,15 @@
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Allowed",
+<<<<<<< HEAD
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+=======
       "Distribution": "Limited",
       "Testing": "Allowed",
       "Manufacturing": "Limited",
+>>>>>>> staging
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
@@ -95,7 +101,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "No",
@@ -108,11 +118,19 @@
       "County label": "Contra Costa County",
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
@@ -193,7 +211,11 @@
       "County label": "Humboldt County",
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -483,7 +505,11 @@
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Prohibited",
       "Retail: Non-Storefront": "Prohibited",
+<<<<<<< HEAD
+      "Distribution": "Allowed",
+=======
       "Distribution": "Limited",
+>>>>>>> staging
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Limited-Medical Only",
@@ -554,7 +580,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
@@ -588,7 +618,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "No",
@@ -673,7 +707,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
@@ -690,7 +728,11 @@
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "No",
@@ -737,7 +779,11 @@
       "County label": "Santa Cruz County",
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Allowed",
       "Testing": "Prohibited",
       "Manufacturing": "Allowed",
@@ -942,10 +988,17 @@
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Prohibited",
       "Retail: Non-Storefront": "Prohibited",
+<<<<<<< HEAD
+      "Distribution": "Allowed",
+      "Testing": "Prohibited",
+      "Manufacturing": "Prohibited",
+      "Cultivation": "Allowed",
+=======
       "Distribution": "Limited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "No",
@@ -996,7 +1049,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -1025,8 +1082,13 @@
       "County": "Alameda",
       "County label": "Alameda County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -1217,7 +1279,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -1777,8 +1843,13 @@
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
+<<<<<<< HEAD
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Manufacturing": "Limited",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -1893,11 +1964,19 @@
       "County label": "Fresno County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -2097,7 +2176,11 @@
       "County label": "Glenn County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
@@ -2254,7 +2337,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -2317,7 +2404,11 @@
       "County": "Imperial",
       "County label": "Imperial County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
+>>>>>>> staging
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
@@ -2351,8 +2442,13 @@
       "County": "Inyo",
       "County label": "Inyo County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
@@ -2373,7 +2469,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -2402,7 +2502,11 @@
       "County": "Kern",
       "County label": "Kern County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
+>>>>>>> staging
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
@@ -2594,7 +2698,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -2645,7 +2753,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -2781,7 +2893,11 @@
       "Distribution": "Allowed",
       "Testing": "Prohibited",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -2917,7 +3033,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -2968,7 +3088,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -3036,7 +3160,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -3104,7 +3232,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -3253,7 +3385,11 @@
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Limited-Medical Only",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Allowed",
@@ -3423,7 +3559,11 @@
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -3512,7 +3652,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -3558,12 +3702,21 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Limited",
       "Testing": "Limited",
       "Manufacturing": "Limited",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -3733,7 +3886,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4294,7 +4451,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4344,7 +4505,11 @@
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
+<<<<<<< HEAD
+      "Manufacturing": "Allowed",
+=======
       "Manufacturing": "Limited",
+>>>>>>> staging
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
@@ -4396,7 +4561,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4464,7 +4633,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4498,7 +4671,11 @@
       "Distribution": "Allowed",
       "Testing": "Prohibited",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4515,7 +4692,11 @@
       "Distribution": "Prohibited",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -4549,7 +4730,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4582,8 +4767,13 @@
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
+<<<<<<< HEAD
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Manufacturing": "Limited",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4617,7 +4807,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4651,7 +4845,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4668,7 +4866,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4736,7 +4938,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4804,7 +5010,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4884,12 +5094,21 @@
       "County": "Nevada",
       "County label": "Nevada County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Limited",
       "Testing": "Limited",
       "Manufacturing": "Limited",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -4906,7 +5125,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5071,12 +5294,21 @@
       "County": "Orange",
       "County label": "Orange County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Limited",
       "Testing": "Allowed",
       "Manufacturing": "Limited",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5433,7 +5665,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5535,7 +5771,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5637,7 +5877,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5666,10 +5910,17 @@
       "County": "Riverside",
       "County label": "Riverside County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Prohibited",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Limited",
+>>>>>>> staging
       "Manufacturing": "Allowed",
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
@@ -5739,7 +5990,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5751,7 +6006,11 @@
       "County": "Riverside",
       "County label": "Riverside County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
+>>>>>>> staging
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
@@ -5807,7 +6066,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5858,7 +6121,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -5892,7 +6159,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6011,7 +6282,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6181,7 +6456,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6215,7 +6494,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6228,11 +6511,19 @@
       "County label": "San Benito County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Limited-Medical Only",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6261,8 +6552,13 @@
       "County": "San Bernardino",
       "County label": "San Bernardino County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -6300,7 +6596,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6368,7 +6668,11 @@
       "Distribution": "Prohibited",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -6572,7 +6876,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -6686,12 +6994,20 @@
       "County": "San Diego",
       "County label": "San Diego County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
+>>>>>>> staging
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7009,7 +7325,11 @@
       "County": "San Joaquin",
       "County label": "San Joaquin County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
+>>>>>>> staging
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
@@ -7082,7 +7402,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7099,7 +7423,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7218,7 +7546,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7371,7 +7703,11 @@
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -7435,7 +7771,11 @@
       "County label": "San Mateo County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -7456,7 +7796,11 @@
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -7473,7 +7817,11 @@
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7541,7 +7889,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7609,7 +7961,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7626,7 +7982,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7643,7 +8003,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7660,7 +8024,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -7893,12 +8261,21 @@
       "County": "Santa Clara",
       "County label": "Santa Clara County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8051,7 +8428,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8068,7 +8449,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8119,7 +8504,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8221,7 +8610,11 @@
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8250,12 +8643,20 @@
       "County": "Solano",
       "County label": "Solano County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
+>>>>>>> staging
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8272,7 +8673,11 @@
       "Distribution": "Prohibited",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8306,7 +8711,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8323,7 +8732,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8459,7 +8872,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8476,7 +8893,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8492,7 +8913,11 @@
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
+<<<<<<< HEAD
+      "Manufacturing": "Allowed",
+=======
       "Manufacturing": "Limited",
+>>>>>>> staging
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
@@ -8527,7 +8952,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8612,7 +9041,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8629,7 +9062,11 @@
       "Distribution": "Prohibited",
       "Testing": "Allowed",
       "Manufacturing": "Prohibited",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8642,11 +9079,19 @@
       "County label": "Stanislaus County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8799,7 +9244,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8812,11 +9261,19 @@
       "County label": "Tulare County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8829,7 +9286,11 @@
       "County label": "Tulare County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
+<<<<<<< HEAD
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
@@ -8884,7 +9345,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -8896,8 +9361,13 @@
       "County": "Tuolumne",
       "County label": "Tuolumne County",
       "Jurisdiction Type": "City",
+<<<<<<< HEAD
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+=======
       "Retail: Storefront": "Limited",
       "Retail: Non-Storefront": "Limited",
+>>>>>>> staging
       "Distribution": "Prohibited",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -9003,7 +9473,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
@@ -9105,7 +9579,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
@@ -9156,7 +9634,11 @@
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
+<<<<<<< HEAD
+      "Cultivation": "Allowed",
+=======
       "Cultivation": "Limited",
+>>>>>>> staging
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
