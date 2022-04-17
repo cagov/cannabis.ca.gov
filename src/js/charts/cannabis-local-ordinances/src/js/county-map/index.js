@@ -522,10 +522,12 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         countyLink.setAttribute("href", "#county-view?county=" + county);
         countyLink.setAttribute("data-county", county);
         countyLink.setAttribute("data-jurisdiction", "County");
+        countyEl.setAttribute("data-active", "false");
         countyEl.classList.remove("hidden");
         placeEl.classList.add("hidden");
       } else if (jurisdiction === "Place") {
         stateEl.setAttribute("data-active", "true");
+        countyEl.setAttribute("data-active", "true");
         if (geoid !== undefined && geoid !== null) {
           let placeData = this.getCurrentPlaceByGeoid(data, geoid);
           try {

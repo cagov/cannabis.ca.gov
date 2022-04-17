@@ -161,14 +161,14 @@ cagov-map-table
 cagov-map-table
   .map-header
   .map-breadcrumb
-  .map-breadcrumb-item[data-active="false"] {
+  .map-breadcrumb-item.hidden[data-active="false"] {
   display: none;
 }
 
 cagov-map-table
   .map-header
   .map-breadcrumb
-  .map-breadcrumb-item[data-jurisdiction="Statewide"][data-active="false"]
+  .map-breadcrumb-item[data-active="false"]
   a {
   text-decoration: none;
   pointer-events: none;
@@ -177,7 +177,7 @@ cagov-map-table
 cagov-map-table
   .map-header
   .map-breadcrumb
-  .map-breadcrumb-item[data-jurisdiction="Statewide"][data-active="false"] {
+  .map-breadcrumb-item[data-active="false"] {
   display: inline;
 }
 

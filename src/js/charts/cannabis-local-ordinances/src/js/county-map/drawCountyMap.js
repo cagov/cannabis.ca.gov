@@ -148,7 +148,7 @@ export default function drawCountyMap({
           let name = el.attr("data-name");
           
           let geoid = el.attr("data-geoid");
-          console.log("name", name, geoid);
+          // console.log("name", name, geoid);
           let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
             let item = data.dataPlaces[place];
             if (
@@ -162,7 +162,7 @@ export default function drawCountyMap({
 
           if (currentPlace !== null && currentPlace.length > 0) {
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-            console.log("pc", placeColor);
+            // console.log("pc", placeColor);
             let props = getPlaceTooltipData(data, { name, geoid });
 
             el.attr("stroke-width", 0.2)

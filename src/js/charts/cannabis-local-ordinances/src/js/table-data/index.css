@@ -12,6 +12,10 @@
   margin-top: 32px;
 }
 
+.table-data table.hidden {
+  display: none;
+}
+
 /* Data table */
 .table-data table {
   overflow-x: scroll;
@@ -184,6 +188,7 @@ cagov-table-data table.Place td[d="1"] span.unincorporated-label {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.738 1.6748C6.62899 1.6748 1.67599 6.6278 1.67599 12.7368C1.67599 18.8458 6.62899 23.7988 12.738 23.7988C18.847 23.7988 23.8 18.8458 23.8 12.7368C23.8 6.6278 18.847 1.6748 12.738 1.6748ZM18.637 13.4748H6.83699C6.42999 13.4748 6.09899 13.1448 6.09899 12.7368C6.09899 12.3288 6.42899 11.9988 6.83699 11.9988H18.637C19.044 11.9988 19.375 12.3288 19.375 12.7368C19.375 13.1448 19.045 13.4748 18.637 13.4748Z' fill='%232F4C2C'/%3E%3C/svg%3E%0A");
+  /* margin-bottom: 16px */
 }
 
 .table-data td[l="2"] span.row-label {
@@ -192,10 +197,14 @@ cagov-table-data table.Place td[d="1"] span.unincorporated-label {
 .table-data td[l="2"] span.limited-label {
   white-space: nowrap;
   text-align: center;
-  margin-top: 50px;
-  display: inline-block;
+  margin-bottom: 0;
+  display: block;
   padding-left: 36px;
   font-size: 14px;
+  height: 54px;
+  position: relative;
+  top: 32px;
+  left: -16px;
 }
 
 .table-data table tr.hidden {
