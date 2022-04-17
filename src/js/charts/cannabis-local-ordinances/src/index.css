@@ -574,6 +574,7 @@ cagov-map-table[data-jurisdiction="Statewide"]
   svg
   path:focus {
   outline: 1px dashed black;
+  z-index: 2001;
 }
 
 cagov-map-table[data-jurisdiction="County"]
