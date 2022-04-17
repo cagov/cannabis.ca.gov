@@ -22,7 +22,6 @@ const getMapDimensions = (options) => {
       .replace("px", "")
   );
 
-  //   // console.log("m wh", mapWidth, mapHeight);
   let mapTop = parseInt(
     d3
       .select("svg[data-layer-name=interactive-map-container]")

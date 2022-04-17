@@ -4,7 +4,7 @@ import {
   getCountyColorPlaceLevel,
   getPlaceColorPlaceLevel,
 } from "./processData.js";
-import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
+import { chartTooltipPlace, getPlaceTooltipData } from "./tooltipPlace.js";
 import "./../../index.css";
 import { chartLegendPlace } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";

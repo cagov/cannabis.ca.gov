@@ -1,16 +1,32 @@
-import { chartLegendCounty } from "./legend.js";
 /**
- * Build County tooltip HTML
+ * Build Place tooltip HTML
  * @param {object} data
  * @param {object} props
  * @param {string} tooltipElement
  * @returns {string} - HTML markup
  */
-function chartTooltipCounty(data, props) {
-  let message = countyStatusTooltipMessage(data, props);
+function chartTooltipPlace(data, props, options) {
+  let { name, geoid } = options;
+  let message = placeStatusTooltipMessage(data, props, options);
+  let currentPlaceData = data.dataPlaces[options.name];
+  let currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
+    let item = data.dataPlaces[place];
+    if (
+      geoid === item["GEOID"]  &&
+      item["Jurisdiction Type"] === "City" &&
+      place !== "default"
+    ) {
+      return place;
+    }
+  });
+  // console.log("DP", name, geoid, currentPlaceName, data.dataPlaces,currentPlaceData);
   let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
+          <div class="close-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.43201 17.568C6.74401 17.88 7.25201 17.88 7.56501 17.568L12 13.133L16.435 17.568C16.747 17.88 17.255 17.88 17.568 17.568C17.881 17.256 17.88 16.748 17.568 16.435L13.133 12L17.568 7.565C17.88 7.253 17.88 6.745 17.568 6.432C17.256 6.119 16.748 6.12 16.435 6.432L12 10.867L7.56501 6.432C7.25301 6.12 6.74501 6.12 6.43201 6.432C6.11901 6.744 6.12001 7.252 6.43201 7.565L10.867 12L6.43201 16.435C6.12001 16.747 6.12001 17.255 6.43201 17.568Z" fill="black"/>
+          </svg>
+          </div>
           <div class="county-tooltip">
-            <h3>${props["County label"]}</h3>
+            <h3>${currentPlaceName}</h3>
               <div class="tooltip-label">
                 ${message}
               </div>
@@ -25,47 +41,60 @@ function chartTooltipCounty(data, props) {
  * @param {object} props
  * @returns {string} - HTML markup for tooltip content.
  */
-function countyStatusTooltipMessage(data, props) {
-  let { name, prohibitionStatus } = props;
-  let { activities } = data;
+function placeStatusTooltipMessage(data, props, options) {
+  let { prohibitionStatus } = props;
+  let { name, geoid } = options;
+  let { activities, showPlaces, showCounties } = data;
   let mode = activities;
+  let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
+    getToolTipMessages(data, name, props, "City");
 
-  let { all, city, county, prohibited, allowed, detailsCTA } =
-  getToolTipMessages(data, name, props, "County");
+  //   let isAllowed = null;
 
-  let toggle = "All Layers";
-  // Choose label
-  let label = all;
-  if (toggle === "Place layer") {
-    label = city;
-  } else if (toggle === "County layer") {
-    label = county;
+  // if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
+  //   isAllowed = false;
+  // } else {
+  //   isAllowed = true;
+  // }
+
+
+  // Choose label based on toggle
+  // let label = all;
+
+  data.tooltipData = getPlaceTooltipData(data, props);
+  let label = "";
+  label = insertValueIntoSpanTag(label, mode, "data-status");
+ 
+
+  console.log("lbl", label);
+
+  let icon = "";
+
+  if (prohibitionStatus === "Yes") {
+    icon = prohibitedIcon();
+    label = insertValueIntoSpanTag(prohibited, mode, "data-status");
+  } else if (prohibitionStatus === "No") {
+    icon = allowedIcon();
+    label = insertValueIntoSpanTag(allowed, mode, "data-status");
   }
 
-  data.tooltipData = getCountyTooltipData(data, props);
-
-  let chartLegendContent = chartLegendCounty(data, props, "tooltip");
-  
-
-  label = insertValueIntoSpanTag(label, mode, "data-status");
-
-
   let output = `<div>
-          
-            ${chartLegendContent}
-          
-
+          <div class="status">
+            <div class="icon">${icon}</div>
+            <div>
+              ${label}
+            </div> 
+          </div>
           <div>
-           
+            <p>
               <a 
-                class="loadCounty" 
-                data-county="${data.tooltipData.name}" 
-                data-jurisdiction="County" 
-                href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}"
-              >
+              class="loadPlace" 
+              data-jurisdiction="Place" 
+              data-geoid="${geoid}" 
+              href="#city-view?geoid=${geoid}">
                 ${detailsCTA}
               </a>
-           
+            </p>
           </div>
         </div>`;
 
@@ -89,56 +118,57 @@ function insertValueIntoSpanTag(string, value, prop) {
  * @param {*} props
  * @returns {object} - object with various data attributes to be used in tooltip template.
  */
-function getCountyTooltipData(data, props) {
-  let { dataPlaces } = data;
+function getPlaceTooltipData(data, props) {
+  let { dataPlaces, selectedCounty } = data;
   let { name } = props;
 
   data.mapStatusColors = {
-    Yes: "#CF5028", // Orange, Yes, prohibited // @TODO CONFIG
-    No: "#2F4C2C", // Green// @TODO CONFIG
+    Yes: "#CF5028", // Orange
+    No: "#2F4C2C", // Green
   };
-
+  // console.log("NS", name, selectedCounty, dataPlaces[name]["County"]);
   // Get couny data object from dataTables.
-  let currentCountyPlaceName = Object.keys(dataPlaces).filter((place) => {
+  let currentPlaceName = Object.keys(dataPlaces).filter((place) => {
     let item = dataPlaces[place];
+
     if (
-      name === item.County &&
-      item["Jurisdiction Type"] === "County" &&
+      name === item["CA Places Key"] &&
+      item["Jurisdiction Type"] === "City" &&
       place !== "default"
+      // &&
+      // item["County"] === selectedCounty
     ) {
       return place;
     }
   });
 
-  let placeData = dataPlaces[currentCountyPlaceName];
-  let prohibitionStatus = placeData["CCA Prohibited by County"];
+  // console.log("currentPlaceName", currentPlaceName);
+  let placeData = dataPlaces[currentPlaceName];
+  try {
+    let prohibitionStatus = placeData["Are all CCA activites prohibited?"];
 
-  let activityPercentages = getActivityPercentages(data, props);
+    // let activityPercentages = getActivityPercentages(data, props);
 
-  return {
-    name: name,
-    "County label": placeData["County label"],
-    prohibitionStatus: prohibitionStatus,
-    activityPercentages,
-  };
+    return {
+      name: name,
+      "County label": placeData["County label"],
+      prohibitionStatus: prohibitionStatus,
+      // activityPercentages,
+    };
+  } catch (error) {
+    console.error(error);
+  }
 }
 
-/**
- * Build tooltip messages 
- * @param {*} data 
- * @param {*} name 
- * @param {*} props 
- * @param {*} jurisdiction 
- * @returns 
- */
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
-
+  console.log("jur", jurisdiction);
   let mode = activities;
-  // @TODO CONNECT TO CONFIG
   if (mode === "Any cannabis business" && jurisdiction === "County") {
+    console.log("county");
     return messages["TooltipCountyAllActivities"];
   } else if (mode === "Any cannabis business" && jurisdiction === "City") {
+    console.log("city");
     return messages["TooltipPlaceAllActivities"];
   } else {
     if (jurisdiction === "County") {
@@ -225,4 +255,4 @@ function prohibitedIcon() {
     `;
 }
 
-export { chartTooltipCounty, getCountyTooltipData };
+export { chartTooltipPlace, getPlaceTooltipData };

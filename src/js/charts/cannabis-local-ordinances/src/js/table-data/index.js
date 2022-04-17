@@ -82,6 +82,7 @@ class CAGovTableData extends window.HTMLElement {
         tableElements = document.querySelectorAll(query);
 
         Object.keys(countyElements).map((index) => {
+          console.log("index", index);
           countyElements[index].classList.remove("hidden");
           if (index === "0" && countyElements[index] !== null) {
             countyElements[index].classList.add("county-row");

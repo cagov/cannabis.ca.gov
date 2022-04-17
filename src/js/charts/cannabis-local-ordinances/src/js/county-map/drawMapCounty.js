@@ -4,7 +4,7 @@ import {
   getCountyColorPlaceLevel,
   getPlaceColorPlaceLevel,
 } from "./processData.js";
-import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
+import { chartTooltipPlace, getPlaceTooltipData } from "./tooltipPlace.js";
 import "./../../index.css";
 import { chartLegendCounty } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";
@@ -26,6 +26,11 @@ export default function drawCountyMap({
   svgFiles = null,
 }) {
   try {
+    let tooltipContainer = document.querySelector(".tooltip-container");
+    if (tooltipContainer !== null) {
+      tooltipContainer.setAttribute("style", "visibility:hidden");
+    }
+
     /* Data processing */
     var { dataPlaces, messages, selectedCounty } = data;
     var rawWidth = 800;
@@ -148,7 +153,6 @@ export default function drawCountyMap({
           let name = el.attr("data-name");
           
           let geoid = el.attr("data-geoid");
-          // console.log("name", name, geoid);
           let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
             let item = data.dataPlaces[place];
             if (
@@ -162,7 +166,6 @@ export default function drawCountyMap({
 
           if (currentPlace !== null && currentPlace.length > 0) {
             let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-            // console.log("pc", placeColor);
             let props = getPlaceTooltipData(data, { name, geoid });
 
             el.attr("stroke-width", 0.2)
@@ -178,8 +181,6 @@ export default function drawCountyMap({
             })
               .attr("tabindex", "0")
               .attr("aria-label", (d, i) => {
-                // console.log(currentPlace);
-                // @TODO @DEBUG
                 return "Label";
               })
               .on("click", function (event, d) {
@@ -193,6 +194,18 @@ export default function drawCountyMap({
                   el
                 );
                 tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
+
+                  console.log("click");
+                let tooltipContainer = document.querySelector(".tooltip-container");
+                tooltipContainer.setAttribute("style", "visibility:visible");
+                let closeButton = document.querySelector(".tooltip-container .close-button");
+                if (closeButton !== null) {
+                  closeButton.addEventListener("click", (e) => {
+                    tooltipContainer.setAttribute("style", "visibility:hidden");
+                  });
+                }
+              
+                
                 data.setUpTooltipUIListeners(data);
                 return tooltip
                   .transition()

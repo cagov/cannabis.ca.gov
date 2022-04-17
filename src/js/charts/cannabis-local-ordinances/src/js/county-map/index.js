@@ -3,9 +3,9 @@ import dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinan
 import mapMessages from "../../../static/assets/data/mapMessages.json";
 import config from "../../../static/assets/data/cannabisLocalOrdinances.json";
 import template from "./template.js";
-import drawStatewideMap from "./drawStatewideMap.js";
-import drawCountyMap from "./drawCountyMap.js";
-import drawPlaceMap from "./drawPlaceMap.js";
+import drawStatewideMap from "./drawMapStatewide.js";
+import drawCountyMap from "./drawMapCounty.js";
+import drawPlaceMap from "./drawMapPlace.js";
 import { precalculateActivitiesData } from "./processData.js";
 import {
   updateHistory,
@@ -466,6 +466,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
     let tooltipContainer = document.querySelector(this.tooltipElement);
     tooltipContainer.setAttribute("style", "visibility:hidden");
+
     this.redraw();
   }
 

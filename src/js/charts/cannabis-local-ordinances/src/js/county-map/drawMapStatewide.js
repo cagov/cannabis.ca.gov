@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 import { svg } from "d3-fetch";
 import { getCountyColor, getPlaceColor } from "./processData.js";
-import { chartTooltipCounty, getCountyTooltipData } from "./countyTooltip.js";
+import { chartTooltipCounty, getCountyTooltipData } from "./tooltipCounty.js";
 import "./../../index.css";
 import { chartLegendStatewide } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";
@@ -20,8 +20,11 @@ export default function drawStatewideMap({
   screenDisplayType = null,
   svgFiles = null
 }) {
-  // console.log("Statewide map", jurisdiction, jurisdiction);
   try {
+    let tooltipContainer = document.querySelector(".tooltip-container");
+    if (tooltipContainer !== null) {
+      tooltipContainer.setAttribute("style", "visibility:hidden");
+    }
     /* Data processing */
     var { dataPlaces, messages } = data;
 
@@ -156,8 +159,16 @@ export default function drawStatewideMap({
                 .attr("fill", "#fcfcfc")
                 .attr("fill-opacity", "0.2");
                 tooltip.html(chartTooltipCounty(data, props));
+                console.log("lick");
+                let tooltipContainer = document.querySelector(".tooltip-container");
+                tooltipContainer.setAttribute("style", "visibility:visible");
+                let closeButton = document.querySelector(".tooltip-container .close-button");
+                if (closeButton !== null) {
+                  closeButton.addEventListener("click", (e) => {
+                    tooltipContainer.setAttribute("style", "visibility:hidden");
+                  });
+                }
                 
-
                 let shapes = data.countyList[name].shapes;
                 let tooltipPosition = tooltipPlacement(
                   {
