@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "created_date": "2022-04-17T07:55:12",
+    "updated_date": "2022-04-17T08:00:09",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10498",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10498,
+    "date": "2022-04-17T00:55:12",
+    "date_gmt": "2022-04-17T07:55:12",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv",
+    "modified": "2022-04-17T01:00:09",
+    "modified_gmt": "2022-04-17T08:00:09",
+    "slug": "cannabis-local-ordinances-2022-02",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/cannabis-local-ordinances-2022-02/",
+    "title": "cannabis-local-ordinances.2022-02",
+    "author": "Chach",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv'>cannabis-local-ordinances.2022-02</a></p>\n",
+    "caption": "<p>cannabis-local-ordinances.2022-02</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "text/csv",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv",
+    "path": "2022/04/cannabis-local-ordinances.2022-02.csv"
+  }
+}
