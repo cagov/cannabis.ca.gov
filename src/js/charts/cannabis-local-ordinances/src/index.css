@@ -464,6 +464,7 @@ cagov-map-table .download .button svg {
   }
 }
 
+
 .tooltip-container {
   display: flex;
   flex-direction: column;
@@ -480,9 +481,10 @@ cagov-map-table .download .button svg {
   margin: 0px 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 720px) {
   .tooltip-container {
-    width: 240px;
+    width: calc(100% - 64px);
   }
 }
 

@@ -204,6 +204,15 @@ export default function drawCountyMap({
                 }
 
                 data.setUpTooltipUIListeners(data);
+                if (window.innerWidth < 720) {
+                  return tooltip
+                  .transition()
+                  .duration(0)
+                  .style("position", "absolute")
+                  .style("left", tooltipPosition.x + "px")
+                  .style("top", tooltipPosition.y + "px")
+                  .style("visibility", "visible");
+                }
                 return tooltip
                   .transition()
                   .duration(0)
