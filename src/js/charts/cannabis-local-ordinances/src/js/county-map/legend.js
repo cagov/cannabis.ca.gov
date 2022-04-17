@@ -193,16 +193,16 @@ function chartLegendCounty(data, props, renderMode) {
     console.log("c 9");
   }
 
-  let {
-    labelAllowed,
-    labelProhibited,
-    allowed,
-    prohibited,
-    unincorporatedAllowed,
-    unincorporatedProhibited,
-    allowedNoResults,
-    prohibitedNoResults
-  } = messages;
+  // let {
+  //   labelAllowed,
+  //   labelProhibited,
+  //   allowed,
+  //   prohibited,
+  //   unincorporatedAllowed,
+  //   unincorporatedProhibited,
+  //   allowedNoResults,
+  //   prohibitedNoResults
+  // } = messages;
   
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
