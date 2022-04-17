@@ -256,15 +256,15 @@ function chartLegendCounty(data, props, renderMode) {
 }
 
 function chartLegendPlace(data, props) {
-  let allowed = data.messages.LegendPlace.allowed;
-  let prohibited = data.messages.LegendPlace.prohibited;
+  let messages = data.messages.LegendPlace;
+  if (data.activities !== "Any cannabis business") {
+    messages = data.messages.LegendPlaceActivity;
+  } 
+
+  let allowed = messages.allowed;
+  let prohibited = messages.prohibited;
   
   let isAllowed = getActivityPercentagesPlace(data, props);
-
-  if (data.activities !== "Any cannabis business") {
-    allowed = data.messages.LegendPlaceActivity.allowed;
-    prohibited = data.messages.LegendPlaceActivity.prohibited;
-  }
 
   let allowedLabel = insertValueIntoSpanTag(
     allowed,

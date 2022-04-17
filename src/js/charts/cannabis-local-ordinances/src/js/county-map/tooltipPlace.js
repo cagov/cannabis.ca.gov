@@ -46,13 +46,12 @@ function placeStatusTooltipMessage(data, props, options) {
   let { name, geoid } = options;
   let { activities, showPlaces, showCounties } = data;
   let mode = activities;
-  let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
+  console.log("tooltip");
+  let { prohibited, allowed, detailsCTA } =
     getToolTipMessages(data, name, props, "City");
 
-
-
-
   data.tooltipData = getPlaceTooltipData(data, props);
+
   let label = "";
 
   label = insertValueIntoSpanTag(label, mode, "data-status");
@@ -161,10 +160,11 @@ function getToolTipMessages(data, name, props, jurisdiction) {
     console.log("city");
     return messages["TooltipPlaceAllActivities"];
   } else {
+    console.log("else");
     if (jurisdiction === "County") {
       return messages["TooltipCountyActivity"];
     } else if (jurisdiction === "City") {
-      return messages["TooltipPlaceActivity"];
+      return messages["LegendPlaceActivity"];
     }
   }
   return null;
