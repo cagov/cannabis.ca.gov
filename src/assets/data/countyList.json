@@ -11,6 +11,9 @@
     "Butte": {
        "label": "Butte County"
     },
+    "Calaveras": {
+      "label": "Calaveras County"
+    },
     "Colusa": {
        "label": "Colusa County"
     },
@@ -18,7 +21,7 @@
        "label": "Contra Costa County"
     },
     "Del Norte": {
-       "label": "County of Del Norte"
+       "label": "Del Norte County"
     },
     "El Dorado": {
        "label": "El Dorado County"
@@ -37,6 +40,9 @@
     },
     "Inyo": {
        "label": "Inyo County"
+    },
+    "Kern": {
+      "label": "Kern County"
     },
     "Kings": {
        "label": "Kings County"
@@ -111,7 +117,7 @@
        "label": "San Joaquin County"
     },
     "San Luis Obispo": {
-       "label": "County of San Luis Obispo"
+       "label": "San Luis Obispo County"
     },
     "San Mateo": {
        "label": "San Mateo County"
@@ -166,11 +172,5 @@
     },
     "Yuba": {
        "label": "Yuba County"
-    },
-    "Kern": {
-       "label": "Kern County"
-    },
-    "Calaveras": {
-       "label": "Calaveras County"
     }
  }
