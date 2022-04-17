@@ -49,7 +49,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
           "https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg",
         places:
           this.dataset.places ||
-          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg",
+          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place_minimal.svg",
       };
 
       this.tableContainer = this.dataset.tableContainer;

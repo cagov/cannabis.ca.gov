@@ -16,7 +16,6 @@ class CAGovTableData extends window.HTMLElement {
   connectedCallback() {
     this.mapContainer = this.dataset.mapContainer;
     let mapContainer = document.querySelector(this.mapContainer);
-
     // If need to rebuild data, reenable - this adds a bit of possible unnecessary processing
     let dataPlaces = mapContainer.localData.dataPlaces;
     let tableData = this.buildTable(dataPlaces);

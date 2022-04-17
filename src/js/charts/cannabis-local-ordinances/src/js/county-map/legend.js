@@ -193,12 +193,22 @@ function chartLegendCounty(data, props, renderMode) {
     console.log("c 9");
   }
 
+  let {
+    labelAllowed,
+    labelProhibited,
+    allowed,
+    prohibited,
+    unincorporatedAllowed,
+    unincorporatedProhibited,
+    allowedNoResults,
+    prohibitedNoResults
+  } = messages;
+  
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     countyData.allowed,
     "data-status"
   );
-
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     countyData.prohibited,
@@ -404,7 +414,6 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
 
   // @TODO Discount the uninc place from these counts.
   try {
-    // Count the number of allowed and prohibited places.
     if (mode === "Any cannabis business") {
       countValues.prohibited = item["Are all CCA activites prohibited?"]["Yes"].length;
       countValues.allowed = item["Are all CCA activites prohibited?"]["No"].length;
@@ -414,13 +423,6 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
         countValues.countyProhibited = 1;
       }
     } else if (mode === "Retail") {
-      countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
-      countValues.allowed = item["Is all retail prohibited?"]["No"].length;
-      if (countyData["Is all retail prohibited?"] === "No" ) {
-        countValues.countyAllowed = 1;
-      } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
-        countValues.countyProhibited = 1;
-      }
     } else {
       if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;

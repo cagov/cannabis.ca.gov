@@ -19,6 +19,7 @@
     "git:merge:test-into-main": "./src/sh/git-merge-test-into-main.sh",
     "git:merge:test-into-test-staging": "./src/sh/git-merge-test-into-test-staging.sh",
     "git:merge:main-into-staging": "./src/sh/git-merge-main-into-staging.sh",
+    "git:merge:staging-into-main": "./src/sh/git-merge-staging-into-main.sh",
     "start": "npm run watch",
     "test:headed": "npx playwright test --headed",
     "test:playwright:headed": "npm-run-all test:server:background test:headed",
@@ -32,8 +33,7 @@
     "watch": "eleventy --serve",
     "wordpress-bundle:accordion": "rollup --config src/js/wordpress/rollup.accordion.config.js",
     "wordpress-bundle:all": "rollup --config src/js/wordpress/rollup.config.js",
-    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all",
-    "cannabis-local-ordinances:bundle": "cp src/js/charts/cannabis-local-ordinances/build/bundle.js src/assets/bundle.1.0.0.js"
+    "wordpress-bundle": "npm run wordpress-bundle:accordion && npm run wordpress-bundle:all"
   },
   "keywords": [
     "@cagov",

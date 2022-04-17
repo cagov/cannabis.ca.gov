@@ -9,3 +9,10 @@
 //   grid-template-columns: repeat(auto-fit, minmax(min(276px, 100%), 1fr));
 // }
 
+// Override right margin on small screens. 
+// Should be fixed in a future release of ds-base-css.
+.with-sidebar.page-container-ds.has-sidebar-left main {
+    @include phone {
+        margin-right: 0;
+    } 
+}
