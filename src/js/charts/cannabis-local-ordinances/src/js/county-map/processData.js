@@ -76,7 +76,18 @@ function getPlaceColor(data, props, jurisdiction = null) {
     No: "#2F4C2C",
   };
 
-  let values = data.dataPlaces[name];
+  let currentPlace = Object.keys(dataPlaces).filter((place) => {
+    let item = dataPlaces[place];
+    if (
+      geoid === item.GEOID &&
+      item["Jurisdiction Type"] === "City" &&
+      place !== "default"
+    ) {
+      return place;
+    }
+  });
+
+  let values = data.dataPlaces[currentPlace]; // Angels vs Angels Camp Place label
 
   let mode = data.activities;
 
@@ -185,7 +196,7 @@ function getDistributionAllowed(data, mode, values, renderMode) {
   let value = values["Distribution"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -200,7 +211,7 @@ function getManufacturingAllowed(data, mode, values, renderMode) {
   let value = values["Manufacturing"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -215,7 +226,7 @@ function getCultivationAllowed(data, mode, values, renderMode) {
   let value = values["Cultivation"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -230,7 +241,7 @@ function getTestingAllowed(data, mode, values, renderMode) {
   let value = values["Testing"];
   if (
     value === "Allowed" ||
-    value === "Limited" ||
+    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -301,7 +312,7 @@ function groupAllowedActivities(place, activities, item, getID) {
   try {
     // only of places
     let placeLabel = place; // item["CA Places Key"];
-    console.log("item", item);
+    // console.log("item", item);
     activities.county = {};
     if (item["Jurisdiction Type"] === "City") {
       if (getID === true) {

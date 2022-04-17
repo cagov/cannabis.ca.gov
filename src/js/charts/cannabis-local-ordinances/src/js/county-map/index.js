@@ -3,9 +3,9 @@ import dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinan
 import mapMessages from "../../../static/assets/data/mapMessages.json";
 import config from "../../../static/assets/data/cannabisLocalOrdinances.json";
 import template from "./template.js";
-import drawStatewideMap from "./drawStatewideMap.js";
-import drawCountyMap from "./drawCountyMap.js";
-import drawPlaceMap from "./drawPlaceMap.js";
+import drawStatewideMap from "./drawMapStatewide.js";
+import drawCountyMap from "./drawMapCounty.js";
+import drawPlaceMap from "./drawMapPlace.js";
 import { precalculateActivitiesData } from "./processData.js";
 import {
   updateHistory,
@@ -49,7 +49,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
           "https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg",
         places:
           this.dataset.places ||
-          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg",
+          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place_minimal.svg",
       };
 
       this.tableContainer = this.dataset.tableContainer;
@@ -466,6 +466,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
     let tooltipContainer = document.querySelector(this.tooltipElement);
     tooltipContainer.setAttribute("style", "visibility:hidden");
+
     this.redraw();
   }
 
@@ -522,10 +523,12 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         countyLink.setAttribute("href", "#county-view?county=" + county);
         countyLink.setAttribute("data-county", county);
         countyLink.setAttribute("data-jurisdiction", "County");
+        countyEl.setAttribute("data-active", "false");
         countyEl.classList.remove("hidden");
         placeEl.classList.add("hidden");
       } else if (jurisdiction === "Place") {
         stateEl.setAttribute("data-active", "true");
+        countyEl.setAttribute("data-active", "true");
         if (geoid !== undefined && geoid !== null) {
           let placeData = this.getCurrentPlaceByGeoid(data, geoid);
           try {

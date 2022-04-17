@@ -421,7 +421,7 @@ Arroyo Grande,Arroyo Grande,0602868,San Luis Obispo,San Luis Obispo County,City,
 Atascadero,Atascadero,0603064,San Luis Obispo,San Luis Obispo County,City,Prohibited,Allowed,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
 Grover Beach,Grover Beach,0631393,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Morro Bay,Morro Bay,0649362,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
-Paso Robles (El Paso de Robles),El Paso de Robles (Paso Robles),0622300,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Paso Robles,El Paso de Robles (Paso Robles),0622300,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Pismo Beach,Pismo Beach,0657414,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 San Luis Obispo,San Luis Obispo,0668154,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Atherton,Atherton,0603092,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
@@ -532,7 +532,7 @@ Port Hueneme,Port Hueneme,0658296,Ventura,Ventura County,City,Allowed,Allowed,Al
 Santa Paula,Santa Paula,0670042,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
 Simi Valley,Simi Valley,0672016,Ventura,Ventura County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Thousand Oaks,Thousand Oaks,0678582,Ventura,Ventura County,City,Limited-Medical Only,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
-Ventura (San Buenaventura),San Buenaventura (Ventura),0665042,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
+Ventura,San Buenaventura (Ventura),0665042,Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
 Davis,Davis,0618100,Yolo,Yolo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Prohibited,No,No,,2022-01-22
 West Sacramento,West Sacramento,0684816,Yolo,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,,2022-01-22
 Winters,Winters,0686034,Yolo,Yolo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22

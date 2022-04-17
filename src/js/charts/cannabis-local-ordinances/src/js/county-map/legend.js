@@ -32,13 +32,13 @@ function chartLegendStatewide(data, props) {
 
   let labelAllowedProcessed = insertValueIntoSpanTag(
     labelAllowed,
-    data.activities,
+    data.activities.toLowerCase(),
     "data-activity"
   );
 
   let labelProhibitedProcessed = insertValueIntoSpanTag(
     labelProhibited,
-    data.activities,
+    data.activities.toLowerCase(),
     "data-activity"
   );
 
@@ -66,8 +66,12 @@ function chartLegendStatewide(data, props) {
   return content;
 }
 
-function chartLegendCounty(data, props) {
+function chartLegendCounty(data, props, renderMode) {
   let messages = data.messages.LegendCounty;
+  if (data.activities !== "Any cannabis business") {
+    messages = data.messages.LegendCountyActivity;
+  } 
+
   let {
     allowed,
     prohibited,
@@ -75,20 +79,23 @@ function chartLegendCounty(data, props) {
     singleProhibited,
     unincorporatedAllowed,
     unincorporatedProhibited,
-    allowedNoResults,
-    prohibitedNoResults,
-    allAllowed,
-    allProhibited,
+    allAllowedNoPlaces,
+    allProhibitedNoPlaces,
+    allPlacesAllCountyAllowed,
+    allPlacesAllCountyProhibited,
   } = messages;
 
-  if (data.activities !== "Any cannabis business") {
-    messages = data.messages.LegendCountyActivity;
-  }
-
-  let countyData = getActivityPercentagesCounty(data, props);
-  let countyLabel = data.countyList[data.selectedCounty].label;
+  let countyData = getBusinessTypeStatsCounty(data, props, renderMode);
   
-  let currentCounty = data.dataPlaces[countyLabel];
+  let countyLabel, currentCounty;
+
+  if (renderMode === "legend") {
+    countyLabel = data.countyList[data.selectedCounty].label;
+    currentCounty = data.dataPlaces[countyLabel];
+  } else {
+    countyLabel = data.countyList[props.name].label;
+    currentCounty = data.dataPlaces[countyLabel];
+  }
   
   let isAllowed = null;
 
@@ -101,66 +108,68 @@ function chartLegendCounty(data, props) {
   let unincorporatedLabel = "";
   let showAllowed = true;
   let showProhibited = true;
-  let showUnincorporated = isAllowed ? true : false;
-  console.log(countyData);
+  let showUnincorporated = true;
+
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
-    console.log("a 1"); 
-    allowed = allowed;
-    prohibited = prohibited;
+    console.log("a 1", allowed);
     showAllowed = true;
     showProhibited = true;
-
   } else if (countyData.allowed === 1 && countyData.prohibited > 1) {
-    console.log("a 1"); 
+    console.log("a 1");
     allowed = singleAllowed;
-    prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
-
-  } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
-    console.log("a 2"); 
-    allowed = allowed;
-    prohibited = "";
+  } else if (countyData.allowed > 1 && countyData.prohibited === 1) {
+    console.log("a 1");
+    prohibited = singleProhibited;
     showAllowed = true;
-    showProhibited = false;
-
-  } else if (countyData.allowed === 1 && countyData.prohibited === 0) {
-    console.log("c 3"); 
-    allowed = singleAllowed;
-    prohibited = "";
-    showAllowed = true;
-    showProhibited = false;
-    
+    showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited > 1) {
-    console.log("c 4"); 
+    console.log("c 4");
     allowed = "";
-    prohibited = allProhibited;
     showAllowed = false;
     showProhibited = true;
-
   } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
-    console.log("c 5"); 
-    console.log(countyData);
+    console.log("c 10");
     allowed = "";
     prohibited = singleProhibited;
     showAllowed = false;
     showProhibited = true;
-    
+  } else if (countyData.allowed === 1 && countyData.prohibited === 0) {
+    console.log("c 11");
+    allowed = singleAllowed;
+    prohibited = "";
+    showAllowed = true;
+    showProhibited = false;
+  } else if (countyData.allowed === 1 && countyData.prohibited === 1) {
+    console.log("c 12");
+    allowed = singleAllowed;
+    prohibited = singleProhibited;
+    showAllowed = true;
+    showProhibited = true;
+  } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
+    console.log("a 2");
+    prohibited = "";
+    showAllowed = true;
+    showProhibited = false;
   } else if (countyData.allowed === 0 && countyData.prohibited === 0) {
-    console.log("c 6"); 
+    console.log("c 6");
     if (isAllowed) {
-      console.log("c 7"); 
-      allowed = allowedNoResults;
+      console.log("c 7");
+      allowed = allAllowedNoPlaces;
       prohibited = "";
+      showProhibited = false;
+      showUnincorporated = false;
     } else {
-      console.log("c 8"); 
+      console.log("c 8");
       allowed = "";
-      prohibited = prohibitedNoResults;
+      prohibited = allProhibitedNoPlaces;
+      showUnincorporated = false;
+      showAllowed = false;
     }
-  } else {
-    console.log("c 9"); 
   }
 
+  
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     countyData.allowed,
@@ -175,14 +184,26 @@ function chartLegendCounty(data, props) {
 
   allowedLabel = insertValueIntoSpanTag(
     allowedLabel,
-    data.activities.toLowerCase(),
+    data.activities,
     "data-activity"
   );
 
   prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
-    data.activities.toLowerCase(),
+    data.activities,
     "data-activity"
+  );
+
+  allowedLabel = insertValueIntoSpanTag(
+    allowedLabel,
+    data.activities.toLowerCase(),
+    "data-activity-lc"
+  );
+
+  prohibitedLabel = insertValueIntoSpanTag(
+    prohibitedLabel,
+    data.activities.toLowerCase(),
+    "data-activity-lc"
   );
 
   if (isAllowed) {
@@ -197,6 +218,7 @@ function chartLegendCounty(data, props) {
     <div class="status-label">
       <div>${unincorporatedLabel}</div>
     </div>`;
+
   } else {
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedProhibited,
@@ -234,14 +256,15 @@ function chartLegendCounty(data, props) {
 }
 
 function chartLegendPlace(data, props) {
-  let allowed = data.messages.LegendPlace.allowed;
-  let prohibited = data.messages.LegendPlace.prohibited;
-  let isAllowed = getActivityPercentagesPlace(data, props);
-
+  let messages = data.messages.LegendPlace;
   if (data.activities !== "Any cannabis business") {
-    allowed = data.messages.LegendPlaceActivity.allowed;
-    prohibited = data.messages.LegendPlaceActivity.prohibited;
-  }
+    messages = data.messages.LegendPlaceActivity;
+  } 
+
+  let allowed = messages.allowed;
+  let prohibited = messages.prohibited;
+  
+  let isAllowed = getActivityPercentagesPlace(data, props);
 
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
@@ -342,50 +365,78 @@ function getActivityPercentagesStatewide(data) {
  * @param {*} data - data object
  * @returns {object} Percentage allowed 0 - 100
  */
-function getActivityPercentagesCounty(data) {
+function getBusinessTypeStatsCounty(data, props, renderMode) {
+
   let countValues = {
     allowed: 0,
     prohibited: 0,
+    countyAllowed: 0,
+    countyProhibited: 0,
     count: 0,
     allowedPercentage: 0,
     prohibitedPercentage: 0,
   };
 
-  let item = data.countyList[data.selectedPlaceValue].activities;
-  let placeData = data.dataPlaces[data.selectedPlaceValue];
-  let countyLabel = data.countyList[data.selectedPlaceValue].label;
-  let countyData = data.dataPlaces[countyLabel];
-  console.log("cd", countyData, item);
-  
-  let isCity = placeData !== undefined && placeData["Jurisdiction Type"] === "City" ? true : false;
+  // console.log(data, props, renderMode);
+  let item, placeData, countyLabel, countyData;
   let mode = data.activities;
+
+  if (renderMode === "tooltip") {
+    // console.log( data.countyList, props);
+    item = data.countyList[props.name].activities;
+    placeData = data.dataPlaces[props["County label"]];
+    countyData = data.dataPlaces[props["County label"]];
+  } else {
+    item = data.countyList[data.selectedPlaceValue].activities;
+    placeData = data.dataPlaces[data.selectedPlaceValue];
+    countyLabel = data.countyList[data.selectedPlaceValue].label;
+    countyData = data.dataPlaces[countyLabel];
+  }
 
   // @TODO Discount the uninc place from these counts.
   try {
-    // Count the number of allowed and prohibited places.
     if (mode === "Any cannabis business") {
-      countValues.prohibited =
-        item["Are all CCA activites prohibited?"]["Yes"].length;
-      countValues.allowed =
-        item["Are all CCA activites prohibited?"]["No"].length;
+      countValues.prohibited = item["Are all CCA activites prohibited?"]["Yes"].length;
+      countValues.allowed = item["Are all CCA activites prohibited?"]["No"].length;
+      if (countyData["Are all CCA activites prohibited?"] === "No" ) {
+        countValues.countyAllowed = 1;
+      } else if (countyData["Are all CCA activites prohibited?"] === "Yes" ) {
+        countValues.countyProhibited = 1;
+      }
     } else if (mode === "Retail") {
+
       countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
       countValues.allowed = item["Is all retail prohibited?"]["No"].length;
+      if (countyData["Is all retail prohibited?"] === "No" ) {
+        countValues.countyAllowed = 1;
+      } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
+        countValues.countyProhibited = 1;
+      }
+
     } else {
       if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;
       } else if (item[mode] !== "Prohibited") {
         countValues.allowed =
-          item[mode]["Allowed"].length +
-          item[mode]["Limited"].length +
-          item[mode]["Limited-Medical Only"].length;
+          item[mode]["Allowed"].length + item[mode]["Limited-Medical Only"].length;
+      }
+      if (countyData[mode] !== "Prohibited") {
+        countValues.countyAllowed = 1;
+      } else {
+        countValues.countyProhibited = 1;
       }
     }
 
     countValues.count = countValues.prohibited + countValues.allowed;
+
+    if (countyData) {
+
+    }
+
     countValues.allowedPercentage = formatPercent(
       countValues.allowed / countValues.count
     );
+
     countValues.prohibitedPercentage = formatPercent(
       countValues.prohibited / countValues.count
     );

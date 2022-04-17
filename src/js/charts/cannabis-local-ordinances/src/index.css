@@ -1,5 +1,5 @@
 main {
-  /* max-width: 785px; */
+  max-width: 785px;
 }
 
 cagov-map-table .map-wrapper {
@@ -100,7 +100,7 @@ cagov-map-table .map-legend .status .icon {
 
 cagov-map-table .map-legend .legend-label {
   margin-bottom: 16px;
-  line-height: 32px;
+  line-height: 24px;
 }
 
 cagov-map-table .map-legend .status {
@@ -160,14 +160,14 @@ cagov-map-table
 cagov-map-table
   .map-header
   .map-breadcrumb
-  .map-breadcrumb-item[data-active="false"] {
+  .map-breadcrumb-item.hidden[data-active="false"] {
   display: none;
 }
 
 cagov-map-table
   .map-header
   .map-breadcrumb
-  .map-breadcrumb-item[data-jurisdiction="Statewide"][data-active="false"]
+  .map-breadcrumb-item[data-active="false"]
   a {
   text-decoration: none;
   pointer-events: none;
@@ -176,7 +176,7 @@ cagov-map-table
 cagov-map-table
   .map-header
   .map-breadcrumb
-  .map-breadcrumb-item[data-jurisdiction="Statewide"][data-active="false"] {
+  .map-breadcrumb-item[data-active="false"] {
   display: inline;
 }
 
@@ -237,7 +237,20 @@ cannabis-local-ordinances .map-container .map-detail svg {
   }
 }
 cagov-map-table .filter.map-display {
-  min-width: fit-content;
+  min-width: 132px;
+  width: fit-content;
+}
+
+cagov-map-table .filter.map-display .toggle {
+  margin-bottom: 8px;
+}
+cagov-map-table .filter.map-display .toggle span {
+  line-height: 24px;
+}
+
+cagov-map-table[data-jurisdiction="County"] .filter.map-display,
+cagov-map-table[data-jurisdiction="Place"] .filter.map-display {
+  display: none;
 }
 
 cagov-map-table[data-jurisdiction="County"] .filter.map-display,
@@ -451,6 +464,7 @@ cagov-map-table .download .button svg {
   }
 }
 
+
 .tooltip-container {
   display: flex;
   flex-direction: column;
@@ -467,9 +481,14 @@ cagov-map-table .download .button svg {
   margin: 0px 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-@media only screen and (max-width: 900px) {
+
+cagov-map-table[data-jurisdiction="County"] .tooltip-container {
+  width: 260px;
+}
+
+@media only screen and (max-width: 720px) {
   .tooltip-container {
-    width: 240px;
+    width: calc(100% - 64px);
   }
 }
 
@@ -503,6 +522,7 @@ cagov-map-table .download .button svg {
   flex-direction: column;
   flex-flow: row;
   line-height: 32px;
+  
 }
 .cagov-map-tooltip.tooltip-container .status .icon {
   width: 30px;
@@ -510,6 +530,10 @@ cagov-map-table .download .button svg {
 }
 .cagov-map-tooltip.tooltip-container .status p {
   margin: 0;
+}
+
+.cagov-map-tooltip.tooltip-container .status-label {
+  max-width: 83%;
 }
 
 .cagov-map-tooltip.tooltip-container .county-tooltip .tooltip-label strong {
@@ -561,6 +585,7 @@ cagov-map-table[data-jurisdiction="Statewide"]
   svg
   path:focus {
   outline: 1px dashed black;
+  z-index: 2001;
 }
 
 cagov-map-table[data-jurisdiction="County"]
@@ -577,8 +602,16 @@ cagov-map-table[data-jurisdiction="Place"]
   .map-detail
   svg
   .selected {
-  outline: 0.1px dashed black;
+  outline: 1px dashed black;
   z-index: 2000;
+}
+
+.tooltip-container .close-button {
+  cursor: pointer;
+  position: absolute;
+  margin-left: calc(100% - 68px);
+  padding: 8px;
+  top: 12px;
 }
 
 @import "./js/combo-box/combo-box.css";

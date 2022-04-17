@@ -20,7 +20,7 @@
   border: 1px solid #e1e0e3;
   box-sizing: border-box;
   border-radius: 4px;
-
+  -webkit-print-color-adjust: exact;
   flex: none;
   order: 1;
   align-self: stretch;
