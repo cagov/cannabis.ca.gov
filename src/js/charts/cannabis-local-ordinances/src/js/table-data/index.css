@@ -1,7 +1,7 @@
 /* Unset CAWeb settings */
 .entry-content cagov-table-data tr td {
   border-top: none;
-  padding: 0px 10px;
+  padding: 16px 10px;
 }
 
 .entry-content cagov-table-data {
@@ -201,10 +201,11 @@ cagov-table-data table.Place td[d="1"] span.unincorporated-label {
   display: block;
   padding-left: 36px;
   font-size: 14px;
-  height: 54px;
   position: relative;
-  top: 32px;
+  top: 10px;
   left: -16px;
+  height: 38px;
+  padding-top: 11px;
 }
 
 .table-data table tr.hidden {

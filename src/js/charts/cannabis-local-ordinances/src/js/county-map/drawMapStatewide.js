@@ -146,7 +146,7 @@ export default function drawStatewideMap({
                 return "Label";
               })
               .on("click", function (event, d) {
-                console.log("click");
+
                 countyPaths.each(function (p, j) {
                   d3.select(this)
                     .attr("fill", "#fcfcfc")
@@ -220,12 +220,17 @@ export default function drawStatewideMap({
             let name = el.attr("data-name");
             let geoid = el.attr("data-geoid");
             let placeColor = getPlaceColor(data, { name, geoid });
+
+            if (placeColor !== "transparent") {
             el.attr("stroke-width", 0.2)
               .attr("stroke-opacity", 0.4)
               .attr(
                 "stroke",
                 placeColor !== "transparent" ? "#FFF" : "transparent"
               );
+            } else {
+              el.remove();
+            }
 
             el.attr("fill", () => {
               let placeColor = getPlaceColor(data, { name, geoid });

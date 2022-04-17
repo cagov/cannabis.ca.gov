@@ -23,7 +23,7 @@
     "singleAllowed": "<span data-status=\"number-cities\"></span> city allows at least one cannabis business type.",
     "singleProhibited": "<span data-status=\"number-cities\"></span> city prohibits all cannabis business types.",
 
-    "allPlacesallCountyAllowed": "At least one cannabis business type is allowed in unincorporated parts of the county.",
+    "allPlacesAllCountyAllowed": "At least one cannabis business type is allowed in unincorporated parts of the county.",
     "allPlacesAllCountyProhibited": "All cannabis business types are prohibited in unincorporated parts of the county.",
 
     "allPlacesAllowed": "At least one cannabis business type is allowed in unincorporated parts of the county.",
@@ -36,13 +36,13 @@
     "unincorporatedProhibited": "All cannabis business types are prohibited in unincorporated parts of the county."
   },
   "LegendCountyActivity": {
-    "allowed": "<span data-status=\"number-cities\"></span> cities allow <span data-activity=\"activity\"></span>.",
-    "prohibited": "<span data-status=\"number-cities\"></span> cities prohibit <span data-activity=\"activity\"></span>.",
+    "allowed": "<span data-status=\"number-cities\"></span> cities allow <span data-activity-lc=\"activity\"></span>.",
+    "prohibited": "<span data-status=\"number-cities\"></span> cities prohibit <span data-activity-lc=\"activity\"></span>.",
 
-    "singleAllowed": "<span data-status=\"number-cities\"></span> city allows <span data-activity=\"activity\"></span>.",
-    "singleProhibited": "<span data-status=\"number-cities\"></span> city prohibits <span data-activity=\"activity\"></span>.",
+    "singleAllowed": "<span data-status=\"number-cities\"></span> city allows <span data-activity-lc=\"activity\"></span>.",
+    "singleProhibited": "<span data-status=\"number-cities\"></span> city prohibits <span data-activity-lc=\"activity\"></span>.",
 
-    "allPlacesallCountyAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated parts of the county.",
+    "allPlacesAllCountyAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated parts of the county.",
     "allPlacesAllCountyProhibited": "<span data-activity=\"activity\"></span> is prohibited in unincorporated parts of the county.",
 
     "allPlacesAllowed": "<span data-activity=\"activity\"></span> is allowed in unincorporated parts of the county.",
@@ -63,24 +63,10 @@
     "prohibited": "<span data-status=\"activity\"></span> is prohibited."
   },
   "TooltipCountyAllActivities": {
-    "allowed": "Allow: <span data-status=\"percentage-allowed\"></span>",
-    "prohibited": "Prohibit: <span data-status=\"percentage-prohibited\"></span>",
-    
-    "detailsCTA": "<button>View County</button>",
-
-    "all": "Cities and unincorporated parts of the county that allow at least 1 type of cannabis business.",
-    "county": "Counties that allow at least one type of cannabis business activity.",
-    "city": "Cities that allow at least one type of cannabis business activity."
+    "detailsCTA": "<button>View County</button>"
   },
   "TooltipCountyActivity": {
-    "allowed": "Allow: <span data-status=\"percentage-allowed\"></span>.",
-    "prohibited": "Prohibit: <span data-status=\"percentage-prohibited\"></span>.",
-    
-    "detailsCTA": "<button>View County</button>",
-
-    "all": "Cities and unincorporated parts of the county that allow <span data-status=\"activity\"></span>.",
-    "county": "Counties that allow <span data-status=\"activity\"></span>.",
-    "city": "Cities that allow <span data-status=\"activity\"></span>."
+    "detailsCTA": "<button>View County</button>"
   },
   "TooltipPlaceAllActivities": {
     "allowed": "At least one cannabis business type is allowed.",
@@ -90,8 +76,7 @@
     "all": "County and cities that allow at least one type of cannabis business activity",
     "city": "Cities that allow <strong><span data-status=\"activity\"></span></strong>",
     "prohibitedLegend": "Prohibit: <span data-status=\"percentage-prohibited\"></span>",
-    "allowedLegend": "Allow: <span data-status=\"percentage-allowed\"></span>"
-    
+    "allowedLegend": "Allow: <span data-status=\"percentage-allowed\"></span>" 
   },
   "TooltipPlaceActivity": {
     "allowed": "At least one cannabis business type is allowed.",

@@ -68,6 +68,10 @@ function chartLegendStatewide(data, props) {
 
 function chartLegendCounty(data, props, renderMode) {
   let messages = data.messages.LegendCounty;
+  if (data.activities !== "Any cannabis business") {
+    messages = data.messages.LegendCountyActivity;
+  } 
+
   let {
     allowed,
     prohibited,
@@ -77,17 +81,14 @@ function chartLegendCounty(data, props, renderMode) {
     unincorporatedProhibited,
     allAllowedNoPlaces,
     allProhibitedNoPlaces,
-    // allPlacesallCountyAllowed,
-    // allPlacesAllCountyProhibited,
+    allPlacesAllCountyAllowed,
+    allPlacesAllCountyProhibited,
   } = messages;
 
-  if (data.activities !== "Any cannabis business") {
-    messages = data.messages.LegendCountyActivity;
-  } 
-
   let countyData = getBusinessTypeStatsCounty(data, props, renderMode);
-
+  
   let countyLabel, currentCounty;
+
   if (renderMode === "legend") {
     countyLabel = data.countyList[data.selectedCounty].label;
     currentCounty = data.dataPlaces[countyLabel];
@@ -96,7 +97,6 @@ function chartLegendCounty(data, props, renderMode) {
     currentCounty = data.dataPlaces[countyLabel];
   }
   
-
   let isAllowed = null;
 
   if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
@@ -112,26 +112,21 @@ function chartLegendCounty(data, props, renderMode) {
 
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
     console.log("a 1", allowed);
-    // allowed = allowed;
-    // prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 1 && countyData.prohibited > 1) {
     console.log("a 1");
     allowed = singleAllowed;
-    // prohibited = prohibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 1) {
     console.log("a 1");
-    // allowed = allowed;
     prohibited = singleProhibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited > 1) {
     console.log("c 4");
     allowed = "";
-    // prohibited = prohibited;
     showAllowed = false;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
@@ -154,7 +149,6 @@ function chartLegendCounty(data, props, renderMode) {
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
     console.log("a 2");
-    // allowed = allowed;
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
@@ -168,7 +162,7 @@ function chartLegendCounty(data, props, renderMode) {
       showUnincorporated = false;
     } else {
       console.log("c 8");
-      allowed = ""; // @TODO remove check
+      allowed = "";
       prohibited = allProhibitedNoPlaces;
       showUnincorporated = false;
       showAllowed = false;
@@ -181,6 +175,7 @@ function chartLegendCounty(data, props, renderMode) {
     countyData.allowed,
     "data-status"
   );
+
   let prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     countyData.prohibited,
@@ -189,14 +184,26 @@ function chartLegendCounty(data, props, renderMode) {
 
   allowedLabel = insertValueIntoSpanTag(
     allowedLabel,
-    data.activities.toLowerCase(),
+    data.activities,
     "data-activity"
   );
 
   prohibitedLabel = insertValueIntoSpanTag(
     prohibitedLabel,
-    data.activities.toLowerCase(),
+    data.activities,
     "data-activity"
+  );
+
+  allowedLabel = insertValueIntoSpanTag(
+    allowedLabel,
+    data.activities.toLowerCase(),
+    "data-activity-lc"
+  );
+
+  prohibitedLabel = insertValueIntoSpanTag(
+    prohibitedLabel,
+    data.activities.toLowerCase(),
+    "data-activity-lc"
   );
 
   if (isAllowed) {
@@ -211,6 +218,7 @@ function chartLegendCounty(data, props, renderMode) {
     <div class="status-label">
       <div>${unincorporatedLabel}</div>
     </div>`;
+
   } else {
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedProhibited,
@@ -250,6 +258,7 @@ function chartLegendCounty(data, props, renderMode) {
 function chartLegendPlace(data, props) {
   let allowed = data.messages.LegendPlace.allowed;
   let prohibited = data.messages.LegendPlace.prohibited;
+  
   let isAllowed = getActivityPercentagesPlace(data, props);
 
   if (data.activities !== "Any cannabis business") {
@@ -395,6 +404,15 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
         countValues.countyProhibited = 1;
       }
     } else if (mode === "Retail") {
+
+      countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
+      countValues.allowed = item["Is all retail prohibited?"]["No"].length;
+      if (countyData["Is all retail prohibited?"] === "No" ) {
+        countValues.countyAllowed = 1;
+      } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
+        countValues.countyProhibited = 1;
+      }
+
     } else {
       if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;
