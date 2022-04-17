@@ -1,4 +1,4 @@
-﻿Place,County label,Jurisdiction Type,Retail (Storefront),Retail (Delivery),Distribution,Manufacturing,Cultivation,Testing,Are all CCA activites prohibited?,Is all retail prohibited?,CCA Prohibited by County,Updated
+﻿Counties and Cities,County,Jurisdiction Type,Retail (Storefront),Retail (Delivery),Distribution,Manufacturing,Cultivation,Testing,Are all CCA activites prohibited?,Is all retail prohibited?,CCA Prohibited by County,Updated
 Alameda County,Alameda County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
 Alpine County,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Amador County,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
