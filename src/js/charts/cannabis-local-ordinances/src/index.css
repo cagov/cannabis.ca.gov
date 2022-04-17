@@ -591,7 +591,7 @@ cagov-map-table[data-jurisdiction="Place"]
   .map-detail
   svg
   .selected {
-  outline: 0.1px dashed black;
+  outline: 1px dashed black;
   z-index: 2000;
 }
 

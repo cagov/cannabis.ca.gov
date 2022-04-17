@@ -25,6 +25,13 @@ export default function drawCountyMap({
   screenDisplayType = null,
   svgFiles = null,
 }) {
+
+  d3.selection.prototype.moveToFront = function() {  
+    return this.each(function(){
+      this.parentNode.appendChild(this);
+    });
+  };
+
   try {
     let tooltipContainer = document.querySelector(".tooltip-container");
     if (tooltipContainer !== null) {
@@ -183,7 +190,29 @@ export default function drawCountyMap({
                 return "Label";
               })
               .on("click", function (event, d) {
-                d3.select(this).attr("fill-opacity", "0.8");
+
+                const countiesGroup = d3.select(
+                  mapElement + ' [data-name="county-boundaries"]'
+                );
+                let countyPaths = countiesGroup.selectAll("g path");
+                countyPaths.each(function (p, j) {
+                  let el = d3.select(this);
+                  el.attr("fill-opacity", 0.25);
+                });
+
+
+                paths.each(function (p, j) {
+                  d3.select(this)
+                  .attr("fill-opacity", 0.25)
+                  .attr("stroke-width", "0.2");
+                });
+
+                d3.select(this)
+                .attr("fill-opacity", 1)
+                .attr("stroke-width", "0.35");
+                
+                d3.select(this).moveToFront();
+              
                 let shapes = [el];
                 let tooltipPosition = tooltipPlacement(
                   {
@@ -200,6 +229,19 @@ export default function drawCountyMap({
                 if (closeButton !== null) {
                   closeButton.addEventListener("click", (e) => {
                     tooltipContainer.setAttribute("style", "visibility:hidden");
+                    paths.each(function (p, j) {
+                      d3.select(this)
+                      .attr("fill-opacity", "1")
+                      .attr("stroke-width", "0.2");
+                    });
+                    const countiesGroup = d3.select(
+                      mapElement + ' [data-name="county-boundaries"]'
+                    );
+                    let countyPaths = countiesGroup.selectAll("g path");
+                    countyPaths.each(function (p, j) {
+                      let el = d3.select(this);
+                      el.attr("fill-opacity", 1);
+                    });
                   });
                 }
 

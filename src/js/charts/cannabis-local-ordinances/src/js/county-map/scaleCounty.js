@@ -60,12 +60,13 @@ const scaleCounty = (
     maxBBox.left = left > maxBBox.left ? left : maxBBox.left;
   });
 
+  console.log(maxBBox);
   // Figure out what scale this shape is at and where it's located.
   var dx = bbox.width - bbox.x,
     dy = bbox.height - bbox.y,
     x = (bbox.x + (bbox.x + bbox.width)) / 2,
     y = (bbox.y + (bbox.y + bbox.height)) / 2,
-    scale = Math.max(100 / maxBBox.width, 100 / maxBBox.height) ,
+    scale = Math.min(300 / maxBBox.width, 300 / maxBBox.height) ,
     translate = [rawWidth / 2 - scale * x - 150, rawHeight / 2 - scale * y];
 
   let aspectRatio = maxBBox.height / maxBBox.width;
