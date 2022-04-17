@@ -183,15 +183,16 @@ export default function drawStatewideMap({
                 );
                 tooltip.attr("data-toggle", "false");
                 data.setUpTooltipUIListeners(data);
-                // if (window.innerWidth < 720) {
-                //   return tooltip
-                //   .transition()
-                //   .duration(0)
-                //   .style("position", "absolute")
-                //   .style("left", tooltipPosition.x + "px")
-                //   .style("top", tooltipPosition.y + "px")
-                //   .style("visibility", "visible");
-                // } 
+                console.log(window.innerWidth );
+                if (window.innerWidth < 900) {
+                  return tooltip
+                  .transition()
+                  .duration(0)
+                  .style("position", "absolute")
+                  .style("left", tooltipPosition.x + "px")
+                  .style("top", tooltipPosition.y + "px")
+                  .style("visibility", "visible");
+                } 
                 return tooltip
                   .transition()
                   .duration(0)

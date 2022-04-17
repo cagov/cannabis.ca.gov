@@ -2,42 +2,39 @@ import * as d3 from "d3";
 
 const tooltipPlacement = (options, shapes) => {
 
-  let legendStatewide = document.querySelector("cagov-map-table[data-jurisdiction=\"Statewide\"] .map-legend");
-  let legendCounty = document.querySelector("cagov-map-table[data-jurisdiction=\"County\"] .map-legend");
-  // if (legendStatewide !== null) {
-  //   let legendBBox = legend.getBoundingClientRect();
-  //   // {x: 429, y: 314.328125, width: 355, height: 200, top: 314.328125, …}
-  //   if (window.innerWidth < 720) {
+  let legendStatewide = document.querySelector("cagov-map-table[data-jurisdiction=Statewide] .map-legend");
+  let legendCounty = document.querySelector("cagov-map-table[data-jurisdiction=County] .map-legend");
+  if (legendStatewide !== null) {
+    let legendBBox = legendStatewide.getBoundingClientRect();
+    if (window.innerWidth < 720) {
    
-  //     let mapDimensions = getMapDimensions(options);
-  //     let shapeDimensions = getShapeDimensions(options, shapes);
+      let mapDimensions = getMapDimensions(options);
+      let shapeDimensions = getShapeDimensions(options, shapes);
     
-  //     let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
-  //     return calculatePositionOverShape(mapDimensions, shapeDimensions, quadrant);
-  //   } else {
-  //     return {
-  //       x: legendBBox.left + window.scrollX - 32,
-  //       y: legendBBox.top + window.scrollY,
-  //     };
-  //   }
-  // }
-  //  else if (legendCounty !== null) {
-  //   let legendBBox = legend.getBoundingClientRect();
-  //   // {x: 429, y: 314.328125, width: 355, height: 200, top: 314.328125, …}
-  //   if (window.innerWidth < 900) {
+      let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
+      return calculatePositionOverShape(mapDimensions, shapeDimensions, quadrant);
+    } else {
+      return {
+        x: legendBBox.left + window.scrollX - 32,
+        y: legendBBox.top + window.scrollY,
+      };
+    }
+  } else if (legendCounty !== null) {
+    let legendBBox = legendCounty.getBoundingClientRect();
+    if (window.innerWidth < 720) {
    
-  //     let mapDimensions = getMapDimensions(options);
-  //     let shapeDimensions = getShapeDimensions(options, shapes);
+      let mapDimensions = getMapDimensions(options);
+      let shapeDimensions = getShapeDimensions(options, shapes);
     
-  //     let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
-  //     return calculatePositionOverShape(mapDimensions, shapeDimensions, quadrant);
-  //   } else {
-  //     return {
-  //       x: legendBBox.left + window.scrollX - 90,
-  //       y: legendBBox.top + window.scrollY,
-  //     };
-  //   }
-  // }
+      let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
+      return calculatePositionOverShape(mapDimensions, shapeDimensions, quadrant);
+    } else {
+      return {
+        x: legendBBox.left + window.scrollX - 90,
+        y: legendBBox.top + window.scrollY,
+      };
+    }
+  }
 
   
 
