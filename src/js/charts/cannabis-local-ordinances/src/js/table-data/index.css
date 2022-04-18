@@ -17,7 +17,7 @@
 }
 
 /* Data table */
-.table-data table {
+.data-table .table-data table {
   overflow-x: scroll;
   margin: 0 0 16px 0;
   border: none;
@@ -26,6 +26,7 @@
   table-layout: fixed;
   border-left: 1px solid #e1e0e3;
   border-right: 1px solid #e1e0e3;
+  width: auto;
 }
 
 .table-data thead {
