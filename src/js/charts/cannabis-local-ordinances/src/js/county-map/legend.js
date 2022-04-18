@@ -416,12 +416,12 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
       }
 
     } else {
-      console.log(item[mode]);
-      if (item[mode] === "Prohibited") {
+      
+      // if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;
-      } else if (item[mode] !== "Prohibited") {
+      // } else if (item[mode] !== "Prohibited") {
         countValues.allowed = item[mode]["Allowed"].length + item[mode]["Limited"].length + item[mode]["Limited-Medical Only"].length;
-      }
+      // }
 
       if (countyData[mode] !== "Prohibited") {
         countValues.countyAllowed = 1;
