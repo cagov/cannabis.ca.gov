@@ -4,6 +4,8 @@ Notes:
 - credit w3.com
 - dynamically generate place list
 - wire selects to map/table actions
+- be mindful of tooltips losing acess to data on select change.
+  - src/js/charts/cannabis-local-ordinances/src/js/county-map/index.js#L68
 
 Operate:
 
@@ -17,4 +19,4 @@ Operate:
 ```
 
 - Delete src/templates/wordpress/posts for a faster build.
-- Delete src/js/charts/cannabis-local-ordinances
+- Delete src/js/charts/cannabis-local-ordinances/src/js/combo-box
