@@ -102,8 +102,8 @@ const htmlTable = (fields, records) => {
             rowValueKey = "1";
           } else if (row[rowValue] === "Limited-Medical Only") {
             rowValueKey = "2";
-          } else if (row[rowValue] === "Allowed") {
-            rowValueKey = "3";
+          } else if (row[rowValue] === "Limited") {
+            rowValueKey = "3"; // @TODO Confirm
           } 
           
           // if (rowValue === "1" && row["5"] === "County") {
@@ -112,11 +112,8 @@ const htmlTable = (fields, records) => {
           // }
 
           if (rowValueKey !== "") {
-           
               return `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel}</td>`;
-            
           }
-
 
           return `<td d="${rowValue}">${rowValueLabel}</td>`;
         }

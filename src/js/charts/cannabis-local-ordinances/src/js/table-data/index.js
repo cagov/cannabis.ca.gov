@@ -221,7 +221,6 @@ class CAGovTableData extends window.HTMLElement {
                 "</span>";
             }
 
-
             // Set html data values for setting icons
             if (row[rowValue] === "Prohibited") {
               rowValueKey = "0";

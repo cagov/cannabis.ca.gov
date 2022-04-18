@@ -110,6 +110,7 @@ function chartLegendCounty(data, props, renderMode) {
   let showProhibited = true;
   let showUnincorporated = true;
 
+  console.log(countyData);
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
     console.log("a 1", allowed);
     showAllowed = true;
@@ -404,6 +405,7 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
         countValues.countyProhibited = 1;
       }
     } else if (mode === "Retail") {
+      console.log("retail");
 
       countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
       countValues.allowed = item["Is all retail prohibited?"]["No"].length;
@@ -414,12 +416,13 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
       }
 
     } else {
+      console.log(item[mode]);
       if (item[mode] === "Prohibited") {
         countValues.prohibited = item[mode]["Prohibited"].length;
       } else if (item[mode] !== "Prohibited") {
-        countValues.allowed =
-          item[mode]["Allowed"].length + item[mode]["Limited-Medical Only"].length;
+        countValues.allowed = item[mode]["Allowed"].length + item[mode]["Limited"].length + item[mode]["Limited-Medical Only"].length;
       }
+
       if (countyData[mode] !== "Prohibited") {
         countValues.countyAllowed = 1;
       } else {
