@@ -41,13 +41,15 @@
   font-size: 14px;
   line-height: 26px;
   min-width: 120px;
-  padding: 8px 8px;
-  color: #000;
+  padding: 8px;
   white-space: nowrap;
 }
 
 .table-data table thead tr th {
+  color: #000;
+  font-weight: 400;
   position: sticky;
+  padding: 8px;
   top: 0;
   z-index: 1000;
   background-color: #ededef;
@@ -64,7 +66,6 @@
 }
 
 .table-data .county-row td {
-  /* font-weight: 700; */
   border-bottom: 1px solid #6c6b77;
   line-height: 32px;
 }
