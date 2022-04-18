@@ -486,9 +486,21 @@ cagov-map-table[data-jurisdiction="County"] .tooltip-container {
   width: 260px;
 }
 
+.tooltip-container .close-button {
+  cursor: pointer;
+  position: absolute;
+  margin-left: calc(100% - 68px);
+  padding: 8px;
+  top: 12px;
+}
+
 @media only screen and (max-width: 720px) {
   .tooltip-container {
     width: calc(100% - 64px);
+  }
+
+  .tooltip-container .close-button {
+    margin-left: calc(100% - 72px);
   }
 }
 
@@ -604,14 +616,6 @@ cagov-map-table[data-jurisdiction="Place"]
   .selected {
   outline: 1px dashed black;
   z-index: 2000;
-}
-
-.tooltip-container .close-button {
-  cursor: pointer;
-  position: absolute;
-  margin-left: calc(100% - 68px);
-  padding: 8px;
-  top: 12px;
 }
 
 @import "./js/combo-box/combo-box.css";
