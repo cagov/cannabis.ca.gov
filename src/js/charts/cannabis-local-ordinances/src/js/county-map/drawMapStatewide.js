@@ -183,7 +183,6 @@ export default function drawStatewideMap({
                 );
                 tooltip.attr("data-toggle", "false");
                 data.setUpTooltipUIListeners(data);
-                console.log(window.innerWidth );
                 if (window.innerWidth < 900) {
                   return tooltip
                   .transition()

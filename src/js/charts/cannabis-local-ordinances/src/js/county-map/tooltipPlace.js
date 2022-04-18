@@ -46,7 +46,6 @@ function placeStatusTooltipMessage(data, props, options) {
   let { name, geoid } = options;
   let { activities, showPlaces, showCounties } = data;
   let mode = activities;
-  console.log("tooltip");
   let { prohibited, allowed, detailsCTA } =
     getToolTipMessages(data, name, props, "City");
 
@@ -150,17 +149,13 @@ function getPlaceTooltipData(data, props) {
 
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;
-  console.log("jur", jurisdiction);
   let mode = activities;
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    console.log("county");
     return messages["TooltipCountyAllActivities"];
     
   } else if (mode === "Any cannabis business" && jurisdiction === "City") {
-    console.log("city");
     return messages["TooltipPlaceAllActivities"];
   } else {
-    console.log("else");
     if (jurisdiction === "County") {
       return messages["TooltipCountyActivity"];
     } else if (jurisdiction === "City") {
