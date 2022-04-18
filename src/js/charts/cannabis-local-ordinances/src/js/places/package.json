@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build:js": "rollup --config rollup.config.js",
-    "build": "sass src/index.scss src/css/index.css && npm run build:js"
+    "build": "sass src/index.scss src/css/index.css && npm run build:js",
+    "watch:js": "rollup --config rollup.config.js -w"
   },
   "author": "ca.gov",
   "license": "ISC",
