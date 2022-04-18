@@ -342,6 +342,7 @@ function getActivityPercentagesStatewide(data) {
         countValues.allowed = countValues.allowed + 1;
       }
     } else {
+      console.log("SW", item[mode]);
       if (item[mode] === "Prohibited") {
         countValues.prohibited = countValues.prohibited + 1;
       } else if (item[mode] !== "Prohibited") {
@@ -414,12 +415,12 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
       }
 
     } else {
-      if (item[mode] === "Prohibited") {
-        countValues.prohibited = item[mode]["Prohibited"].length;
-      } else if (item[mode] !== "Prohibited") {
-        countValues.allowed =
+      // if (item[mode] === "Prohibited") {
+      countValues.prohibited = item[mode]["Prohibited"].length;
+      // } else if (item[mode] !== "Prohibited") {
+      countValues.allowed =
           item[mode]["Allowed"].length + item[mode]["Limited-Medical Only"].length;
-      }
+      // }
       if (countyData[mode] !== "Prohibited") {
         countValues.countyAllowed = 1;
       } else {
