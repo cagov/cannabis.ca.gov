@@ -8,7 +8,7 @@
     "start": "npm run build && http-server ./build --port 3000",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
-    "build:bundle": "cp build/bundle.js static/assets/bundle.1.1.14.js",
+    "build:bundle": "cp build/bundle.js static/assets/bundle.1.1.16.js",
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "start:dev": "webpack-dev-server --mode development --hot"
