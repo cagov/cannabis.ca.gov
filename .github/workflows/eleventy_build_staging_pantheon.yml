@@ -1,19 +1,22 @@
-name: Eleventy build staging Pantheon WP 5.8.1
+name: Eleventy build staging Pantheon WP 5.9.x
 # site:  staging.cannabis.ca.gov
 # editor: https://api.cannabis.ca.gov
-# s3 bucket: staging.cannabis.ca.gov
+# s3 bucket: https://staging.cannabis.ca.gov
 on:
   push:
     branches:
       - staging
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   build_deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: n1hility/cancel-previous-runs@v2
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Use Node.js 14.17.0
         uses: actions/setup-node@v1
         with:
@@ -31,36 +34,46 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_staging
+    
+     # Push built site files to S3 production bucket    
+     - name: Deploy to S3
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://staging.cannabis.ca.gov
 
-          # Push built site files to S3 production bucket    
-      - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --acl public-read --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: 'staging.cannabis.ca.gov'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
-          SOURCE_DIR: ./docs # only move built directory
+      - name: Reset cache-control on static fonts
+        run: aws s3 sync --cache-control max-age=15552000 ./docs/fonts s3://staging.cannabis.ca.gov/fonts
+
+      - name: invalidate Cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E1FCC4093TP0Q2 --paths "/*"
+
+      # Deprecating: Push built site files to S3 production bucket    
+      # - name: Deploy to S3
+      #   uses: jakejarvis/s3-sync-action@v0.5.1
+      #   with:
+      #     args: --acl public-read --follow-symlinks --delete
+      #   env:
+      #     AWS_S3_BUCKET: 'staging.cannabis.ca.gov'
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
+      #     SOURCE_DIR: ./docs # only move built directory
 
       # Reset the cache-control headers on static assets on S3 bucket
-      - name: Reset cache-control on static files
-        uses: prewk/s3-cp-action@v2
-        with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/fonts'
-          dest: 's3://staging.cannabis.ca.gov/fonts'
-          flags: --recursive --cache-control max-age=15552000
+      # - name: Reset cache-control on static files
+      #   uses: prewk/s3-cp-action@v2
+      #   with:
+      #     aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     aws_region: 'us-west-1'   # optional: defaults to us-east-1
+      #     source: './docs/fonts'
+      #     dest: 's3://staging.cannabis.ca.gov/fonts'
+      #     flags: --recursive --cache-control max-age=15552000
 
       # Invalidate Cloudfront production distribution
-      - name: invalidate
-        uses: chetan/invalidate-cloudfront-action@v1.3
-        env:
-          DISTRIBUTION: 'E1FCC4093TP0Q2'
-          PATHS: '/*'
-          AWS_REGION: 'us-west-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
+      # - name: invalidate
+      #   uses: chetan/invalidate-cloudfront-action@v1.3
+      #   env:
+      #     DISTRIBUTION: 'E1FCC4093TP0Q2'
+      #     PATHS: '/*'
+      #     AWS_REGION: 'us-west-1'
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
