@@ -46,24 +46,29 @@ jobs:
       - name: Deploy to S3
         run: aws s3 sync --follow-symlinks --delete ./docs s3://staging.cannabis.ca.gov
 
+      - name: Reset cache-control on static fonts
+        run: aws s3 sync --cache-control max-age=15552000 ./docs/fonts s3://staging.cannabis.ca.gov/fonts
+
+      - name: invalidate Cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E1FCC4093TP0Q2 --paths "/*"
 
       # Reset the cache-control headers on static assets on S3 bucket
-      - name: Reset cache-control on static files
-        uses: prewk/s3-cp-action@v2
-        with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/fonts'
-          dest: 's3://staging.cannabis.ca.gov/fonts'
-          flags: --recursive --cache-control max-age=15552000
+      # - name: Reset cache-control on static files
+      #   uses: prewk/s3-cp-action@v2
+      #   with:
+      #     aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     aws_region: 'us-west-1'   # optional: defaults to us-east-1
+      #     source: './docs/fonts'
+      #     dest: 's3://staging.cannabis.ca.gov/fonts'
+      #     flags: --recursive --cache-control max-age=15552000
 
-      # Invalidate Cloudfront production distribution
-      - name: invalidate
-        uses: chetan/invalidate-cloudfront-action@v1.3
-        env:
-          DISTRIBUTION: 'E1FCC4093TP0Q2'
-          PATHS: '/*'
-          AWS_REGION: 'us-west-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
+      # # Invalidate Cloudfront production distribution
+      # - name: invalidate
+      #   uses: chetan/invalidate-cloudfront-action@v1.3
+      #   env:
+      #     DISTRIBUTION: 'E1FCC4093TP0Q2'
+      #     PATHS: '/*'
+      #     AWS_REGION: 'us-west-1'
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
