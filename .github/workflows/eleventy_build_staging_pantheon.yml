@@ -43,8 +43,26 @@ jobs:
       #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       #     AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
       #     SOURCE_DIR: ./docs # only move built directory
-      - name: Deploy to S3
-        run: aws s3 sync --follow-symlinks --delete ./docs s3://staging.cannabis.ca.gov
+
+      # Alt
+      # - name: Deploy to S3
+      #   run: aws s3 sync --follow-symlinks --delete ./docs s3://staging.cannabis.ca.gov
+
+
+        - name: Deploy to S3
+        - uses: actions/checkout@master
+        - uses: jakejarvis/s3-sync-action@master
+          with:
+            args: --acl public-read --follow-symlinks --delete
+          env:
+            AWS_S3_BUCKET: 'staging.cannabis.ca.gov'
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
+            SOURCE_DIR: ./docs # only move built directory
+
+
+
 
       - name: Reset cache-control on static fonts
         run: aws s3 sync --cache-control max-age=15552000 ./docs/fonts s3://staging.cannabis.ca.gov/fonts
