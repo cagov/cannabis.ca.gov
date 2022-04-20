@@ -1,7 +1,7 @@
-name: Eleventy build staging Pantheon WP 5.8.1
+name: Eleventy build staging Pantheon WP 5.9.x
 # site:  staging.cannabis.ca.gov
 # editor: https://api.cannabis.ca.gov
-# s3 bucket: staging.cannabis.ca.gov
+# s3 bucket: https://staging.cannabis.ca.gov
 on:
   push:
     branches:
@@ -13,7 +13,7 @@ jobs:
       - uses: n1hility/cancel-previous-runs@v2
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Use Node.js 14.17.0
         uses: actions/setup-node@v1
         with:
