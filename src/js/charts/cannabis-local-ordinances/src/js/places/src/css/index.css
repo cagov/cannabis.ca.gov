@@ -1,31 +1,31 @@
-cagov-places {
+.cagov-places {
   /* https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css */
   /*  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css */
   /* focus and hover styling */
 }
-cagov-places .annotate {
+.cagov-places .annotate {
   font-style: italic;
   color: #366ed4;
 }
-cagov-places .combobox-list {
+.cagov-places .combobox-list {
   position: relative;
 }
-cagov-places .combobox-inline label,
-cagov-places .combobox-list label {
+.cagov-places .combobox-inline label,
+.cagov-places .combobox-list label {
   margin: 0;
   padding: 0;
   display: block;
 }
-cagov-places .combobox-list .group input,
-cagov-places .combobox-list .group button {
+.cagov-places .combobox-list .group input,
+.cagov-places .combobox-list .group button {
   display: inline;
   background-color: #eee;
 }
-cagov-places .combobox-list .group input.focus {
+.cagov-places .combobox-list .group input.focus {
   background-color: #d6e8f5;
   outline-color: #348ccb;
 }
-cagov-places .combobox-list .group button {
+.cagov-places .combobox-list .group button {
   margin: 0;
   padding: 0 0.125em 0 0.125em;
   position: relative;
@@ -34,7 +34,7 @@ cagov-places .combobox-list .group button {
   font-size: 85%;
   background-color: #eee;
 }
-cagov-places ul[role=listbox] {
+.cagov-places ul[role=listbox] {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -47,41 +47,41 @@ cagov-places ul[role=listbox] {
   width: 10em;
   overflow: scroll;
 }
-cagov-places ul[role=listbox] li[role=option] {
+.cagov-places ul[role=listbox] li[role=option] {
   margin: 0;
   padding: 0;
   padding-left: 0.125em;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
-cagov-places [role=listbox].focus {
+.cagov-places [role=listbox].focus {
   border-color: #348ccb;
 }
-cagov-places [role=listbox] [role=option] {
+.cagov-places [role=listbox] [role=option] {
   display: block;
   margin: 0.25em;
   padding: 0;
   background-color: #eee;
   font-size: 100%;
 }
-cagov-places button:focus,
-cagov-places button:hover,
-cagov-places input:focus,
-cagov-places input:hover {
+.cagov-places button:focus,
+.cagov-places button:hover,
+.cagov-places input:focus,
+.cagov-places input:hover {
   outline: 2px solid black;
 }
-cagov-places input:focus,
-cagov-places input:hover {
+.cagov-places input:focus,
+.cagov-places input:hover {
   background-color: #eee;
 }
-cagov-places [role=listbox] [role=option][aria-selected=true] {
+.cagov-places [role=listbox] [role=option][aria-selected=true] {
   background-color: #ccc;
 }
-cagov-places [role=listbox].focus [role=option][aria-selected=true] {
+.cagov-places [role=listbox].focus [role=option][aria-selected=true] {
   background-color: #aed2ea;
   border-color: #348ccb;
 }
-cagov-places [role=listbox] li[role=option]:hover {
+.cagov-places [role=listbox] li[role=option]:hover {
   background-color: #c2ddef;
 }
 
