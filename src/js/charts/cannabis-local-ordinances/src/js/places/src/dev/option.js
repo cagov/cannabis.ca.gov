@@ -8,6 +8,6 @@ export class Option {
   }
 
   html() {
-    return `<li ${this.valAttr} ${this.jurisAttr} ${this.geoAttr}>${this.place.name}</li>`;
+    return `<li role="option" ${this.valAttr} ${this.jurisAttr} ${this.geoAttr}>${this.place.name}</li>\n`;
   }
 }
