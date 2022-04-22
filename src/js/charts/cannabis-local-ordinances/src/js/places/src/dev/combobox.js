@@ -37,13 +37,28 @@ export class ComboBox {
       }
 
       const places = JSON.parse(data);
-      this.templateHMTL += `<ul>`;
+      this.templateHMTL += `<div class="combobox-list">
+      <label for="cb1-input">Enter a city or county</label>
+      <div class="group">
+        <input
+          id="cb1-input"
+          class="cb_edit"
+          type="text"
+          role="combobox"
+          aria-autocomplete="both"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-owns="lb1"
+        />
+        <button id="cb1-button" aria-label="Open" tabindex="-1">▽</button>
+      </div>
+      <ul id="lb1" role="listbox" aria-label="States">`;
 
       for (const [id, value] of Object.entries(places)) {
         const option = new Option(value);
         this.templateHMTL += option.html();
       }
-      this.templateHMTL += `</ul>`;
+      this.templateHMTL += `</ul></div>`;
 
       this.makeTemplate(this.templateHMTL);
     });
