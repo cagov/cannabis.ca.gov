@@ -37,7 +37,7 @@ export class ComboBox {
       }
 
       const places = JSON.parse(data);
-      this.templateHMTL += `<div class="combobox-list">
+      this.templateHMTL += `<div class="cagov-places"><div class="combobox-list">
       <label for="cb1-input">Enter a city or county</label>
       <div class="group">
         <input
@@ -58,7 +58,7 @@ export class ComboBox {
         const option = new Option(value);
         this.templateHMTL += option.html();
       }
-      this.templateHMTL += `</ul></div>`;
+      this.templateHMTL += `</ul></div></div>`;
 
       this.makeTemplate(this.templateHMTL);
     });
