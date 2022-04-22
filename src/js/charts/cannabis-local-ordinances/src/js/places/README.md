@@ -6,7 +6,7 @@ Notes:
 - wire selects to map/table actions
 - be mindful of tooltips losing acess to data on select change.
   - src/js/charts/cannabis-local-ordinances/src/js/county-map/index.js#L68
-
+- Code pen to parse places from html.
 Operate:
 
 ```diff
