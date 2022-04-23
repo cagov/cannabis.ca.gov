@@ -1,3 +1,4 @@
+import updatePlacesListFilter from './updatePlacesListFilter.js';
 /**
  * Set path for interaction state.
  * @param {*} props
@@ -78,7 +79,9 @@ const setDataFromHash = (paramKeys, data) => {
 /** Set filters after interaction */
 const updateDisplaysFromInteraction = (data) => {
   updateActivityFilter(data);
-  updatePlacesFilter(data);
+  updatePlacesListFilter(data)
+  // @todo Deprecate updatePlacesFilter() once previous function is testedand verified.
+  // updatePlacesFilter(data);
 };
 
 const updateActivityFilter = (data) => {
