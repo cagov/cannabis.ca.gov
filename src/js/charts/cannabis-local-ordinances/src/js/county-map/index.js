@@ -177,7 +177,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   /**
    * Function passed to tooltip as callback
-   * @param {*} data 
+   * @param {*} data
    */
   setUpTooltipUIListeners(data) {
     try {
@@ -245,7 +245,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         data.activities !== null &&
         data.activities !== "Any cannabis business";
 
-
       this.setData(entry, this.localData);
       this.setDisplays(this.localData);
       updateDisplaysFromInteraction(this.localData);
@@ -253,16 +252,36 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   setMapState(e, data) {
-    let entry = e.target.value;
-    let selectedIndex = e.target.selectedIndex;
-    let selectedEl = e.target.options[selectedIndex];
-    let geoid = selectedEl.getAttribute("data-geoid") || null;
-    let jurisdiction = selectedEl.getAttribute("data-jurisdiction") || "Statewide";
-    this.localData.jurisdiction = jurisdiction;
-    this.localData.geoid = geoid;
-    this.updateMapState(entry, data);
+    // @todo CAGOV-COMBOX
+    // Currently the event is tracking input box.
+    // In the interest of minimal disruption,
+    // adding an observer here to check if the ul only has one item.
+    const observer = new MutationObserver((mutations) => {
+      let entry = e.target.value;
+
+      mutations.forEach((mutation) => {
+        // Only one li and ul is display none
+        if (
+          mutation.target.attributes.style.nodeValue == "display: none;" &&
+          mutation.target.children.length === 1
+        ) {
+          // Get geoid and juristiction info from li.
+          const geoid = mutation.target.firstChild.dataset.index;
+          const jurisdiction =
+            mutation.target.firstChild.dataset.jurisdiction || "Statewide";
+          this.localData.jurisdiction = jurisdiction;
+          this.localData.geoid = geoid;
+          this.updateMapState(entry, data);
+        }
+      });
+    });
+
+    // @todo CAGOV-COMBOX - Move lb1 id to constructor.
+    const ul = document.getElementById("lb1");
+    observer.observe(ul, { attributes: true, attributeFilter: ["style"] });
   }
 
+  // @todo CAGOV-COMBOX - Fix tool tips!
   setMapStateFromTooltip(e, data) {
     let selectedEl = e.target;
     let county = selectedEl.getAttribute("data-county") || null;
