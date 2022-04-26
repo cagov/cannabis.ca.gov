@@ -1,5 +1,6 @@
 export class Option {
-  constructor(place) {
+  constructor(id, place) {
+    this.id = id;
     this.place = place;
     this.geoAttr =
       this.place.geoid != null ? `place-geoid="${this.place.geoid}"` : "";
@@ -8,6 +9,6 @@ export class Option {
   }
 
   html() {
-    return `<li role="option" ${this.valAttr} ${this.jurisAttr} ${this.geoAttr}>${this.place.name}</li>\n`;
+    return `<li data-index=${this.id} role="option" ${this.valAttr} ${this.jurisAttr} ${this.geoAttr}>${this.place.name}</li>\n`;
   }
 }

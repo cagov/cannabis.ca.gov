@@ -55,7 +55,7 @@ export class ComboBox {
       <ul id="lb1" role="listbox" aria-label="States">`;
 
       for (const [id, value] of Object.entries(places)) {
-        const option = new Option(value);
+        const option = new Option(id, value);
         this.templateHMTL += option.html();
       }
       this.templateHMTL += `</ul></div></div>`;
