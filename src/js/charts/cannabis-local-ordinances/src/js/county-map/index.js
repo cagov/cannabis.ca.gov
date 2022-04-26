@@ -8,7 +8,6 @@ import drawCountyMap from "./drawMapCounty.js";
 import drawPlaceMap from "./drawMapPlace.js";
 import { precalculateActivitiesData } from "./processData.js";
 import {
-  updateHistory,
   updateMapJurisdictionDisplayFromHash,
   updateDisplaysFromInteraction,
 } from "./updateHistory.js";
@@ -236,30 +235,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   setActivity(e, data) {
     let entry = e.target.value;
     data.activities = entry;
-    // if (data.jurisdiction === "County") {
-    //   updateHistory({
-    //     "data-jurisdiction": "County",
-    //     "data-geoid": data.geoid,
-    //     "data-county": data.selectedCounty,
-    //     title: "County view",
-    //     anchor: "#county-view",
-    //     paramString: `?county=${data.selectedCounty}&activity=${entry}`,
-    //   });
-    // } else if (data.jurisdiction === "Place") {
-    //   let currentPlace = this.getCurrentPlaceByGeoid(data, data.geoid);
-    //   updateHistory({
-    //     title: "Place view",
-    //     anchor: "#city-view",
-    //     paramString: `?city=${currentPlace["CA Places Key"]}&geoid=${data.geoid}&activity=${entry}`,
-    //   });
-    // } else if (data.jurisdiction === "Statewide") {
-    //   updateHistory({
-    //     title: "Statewide view",
-    //     "data-activity": entry,
-    //     anchor: "",
-    //     paramString: `?activity=${entry}`,
-    //   });
-    // }
     this.redraw();
   }
 
@@ -270,36 +245,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         data.activities !== null &&
         data.activities !== "Any cannabis business";
 
-      // let {jurisdiction, geoid} = data;
-      // if (jurisdiction === "County") {
-      //   updateHistory({
-      //     "data-jurisdiction": "County",
-      //     "data-geoid": geoid,
-      //     "data-county": entry,
-      //     title: "County view",
-      //     anchor: "#county-view",
-      //     paramString: hasActivities
-      //       ? `?county=${entry}&activity=${data.activities}`
-      //       : `?county=${entry}`,
-      //   });
-      // } else if (jurisdiction === "Place") {
-      //   let currentPlace = this.getCurrentPlaceByGeoid(data, geoid);
-      //   updateHistory({
-      //     title: "Place view",
-      //     anchor: "#city-view",
-      //     paramString: hasActivities
-      //       ? `?city=${currentPlace["CA Places Key"]}&geoid=${geoid}&activity=${data.activities}`
-      //       : `?city=${currentPlace["CA Places Key"]}&geoid=${geoid}`,
-      //   });
-      // } else {
-      //   console.log("else", data.activities, hasActivities);
-      //   updateHistory({
-      //     title: "Statewide view",
-      //     "data-activity": data.activities,
-      //     anchor: "",
-      //     paramString: hasActivities ? `?activity=${data.activities}` : "",
-      //   });
-      // }
 
       this.setData(entry, this.localData);
       this.setDisplays(this.localData);
