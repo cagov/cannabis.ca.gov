@@ -135,11 +135,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     // Places
     var setPlace = document.querySelector('.filter[data-filter-type="places"]');
     setPlace.addEventListener("change", (e) => {
-      // if (e.detail && e.detail.hash === true){
-      //   this.setMapStateFromHash(e, this.localData);
-      // } else {
       this.setMapState(e, this.localData);
-      // }
     });
   }
 
@@ -183,12 +179,9 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     try {
       var tooltipLinkCounty = document.querySelector("a.loadCounty");
       tooltipLinkCounty.addEventListener("click", (e) => {
-        // console.log(e);
         data.setMapStateFromTooltip(e, data);
       });
-    } catch (error) {
-      // console.log(error);
-    }
+    } catch (error) {}
     try {
       var tooltipLinkPlace = document.querySelector("a.loadPlace");
       tooltipLinkPlace.addEventListener("click", (e) => {
@@ -257,6 +250,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     // In the interest of minimal disruption,
     // adding an observer here to check if the ul only has one item.
     // It would be better to create 1 difinitive event and event listenter.
+
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
         // Only one li and ul is display none
@@ -290,14 +284,24 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     data.jurisdiction = jurisdiction;
     data.selectedCounty = county;
     data.geoid = geoid;
-    let placesOptions = document.querySelectorAll(`.filter[data-filter-type="places"] select option`);
+    let placesOptions = document.querySelectorAll(
+      `.filter[data-filter-type="places"] select option`
+    );
     placesOptions.selected = false;
     if (jurisdiction === "County") {
-      let countyOption = document.querySelectorAll(`.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`);
-      if (countyOption !== null) { countyOption.selected = true; }
+      let countyOption = document.querySelectorAll(
+        `.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`
+      );
+      if (countyOption !== null) {
+        countyOption.selected = true;
+      }
     } else if (jurisdiction === "Place") {
-      let placeOption = document.querySelector(`.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`);
-      if (placeOption !== null) {  placeOption.selected = true; }
+      let placeOption = document.querySelector(
+        `.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`
+      );
+      if (placeOption !== null) {
+        placeOption.selected = true;
+      }
     }
     if (jurisdiction === "County") {
       data.self.updateMapState(county, data);

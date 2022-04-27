@@ -4,24 +4,31 @@ const updatePlacesListFilter = (data) => {
   // Update places filter settings
 
   const vars = {
-    setPlaceFilterEl: document.querySelector('.filter[data-filter-type="places"]'),
-    setPlaceFilterOptionsEl: document.querySelector('.filter[data-filter-type="places"] select option'),
-    thisUpdateOptionCountyEl: document.querySelector( `.filter[data-filter-type="places"] select option[value="${data.selectedCounty}"]`),
-    updateOptionStatewideEl: document.querySelector(`.filter[data-filter-type="places"] select option[value=""]`),
-    updateOptionPlaceEl: document.querySelector( `.filter[data-filter-type="places"] select option[data-geoid="${data.geoid}"]`),
-    updateOptionStatewideEl:document.querySelector( `.filter[data-filter-type="places"] select option[value=""]`),
-  }
+    setPlaceFilterEl: document.querySelector("#lb1 li"),
+    setPlaceFilterOptionsEl: document.querySelector(
+      '.filter[data-filter-type="places"] li'
+    ),
+    thisUpdateOptionCountyEl: document.querySelector(
+      `.filter[data-filter-type="places"] li[value="${data.selectedCounty}"]`
+    ),
+    updateOptionStatewideEl: document.querySelector(
+      `.filter[data-filter-type="places"] li[value=""]`
+    ),
+    updateOptionPlaceEl: document.querySelector(
+      `.filter[data-filter-type="places"] li[data-geoid="${data.geoid}"]`
+    ),
+  };
 
   // Clear existing options
   if (vars.setPlaceFilterOptionsEl !== null) {
-    let value = vars.setPlaceFilterEl.value;
+    let value = vars.setPlaceFilterEl.dataset.value;
 
     if (data.jurisdiction === "County") {
-      if (updateOptionCountyEl !== null) {
-        var updateOptionCountyEl = vars.thisUpdateOptionCountyEl;
+      if (vars.updateOptionCountyEl !== null) {
+        vars.updateOptionCountyEl = vars.thisUpdateOptionCountyEl;
 
         let jurisdiction =
-          updateOptionCountyEl.getAttribute("data-jurisdiction");
+          vars.updateOptionCountyEl.getAttribute("data-jurisdiction");
         if (jurisdiction === "County" && value !== data.selectedCounty) {
           if (updateOptionCountyEl !== null) {
             vars.setPlaceFilterOptionsEl.selected = false; // Unset anything selected.
