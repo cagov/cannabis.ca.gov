@@ -132,11 +132,20 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   }
 
   setUpPlacesFilterListeners() {
-    // Places
-    var setPlace = document.querySelector('.filter[data-filter-type="places"]');
-    setPlace.addEventListener("change", (e) => {
-      this.setMapState(e, this.localData);
+    // @todo CAGOV-COMBOX
+    // Is fragile to use a style mutation for a listener.
+    // would be better to get an event from the combox widget.
+
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        // Only one li and ul is display none
+        this.updateMapStateFromPlacesFilter(mutation);
+      });
     });
+
+    // @todo CAGOV-COMBOX - Move lb1 id to constructor.
+    const ul = document.getElementById("lb1");
+    observer.observe(ul, { attributes: true, attributeFilter: ["style"] });
   }
 
   setUpBreadcrumbListeners() {
@@ -244,35 +253,23 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     }
   }
 
-  setMapState(e, data) {
+  updateMapStateFromPlacesFilter(mutation) {
     // @todo CAGOV-COMBOX
-    // Currently the event is tracking input box.
-    // In the interest of minimal disruption,
-    // adding an observer here to check if the ul only has one item.
-    // It would be better to create 1 difinitive event and event listenter.
+    // See: setUpPlacesFilterListeners()
 
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        // Only one li and ul is display none
-        if (
-          mutation.target.attributes.style.nodeValue == "display: none;" &&
-          mutation.target.children.length === 1
-        ) {
-          // Get data values from li.
-          const entry = mutation.target.firstChild.dataset.value;
-          const geoid = mutation.target.firstChild.dataset.geoid || null;
-          const jurisdiction =
-            mutation.target.firstChild.dataset.jurisdiction || "Statewide";
-          this.localData.jurisdiction = jurisdiction;
-          this.localData.geoid = geoid;
-          this.updateMapState(entry, data);
-        }
-      });
-    });
-
-    // @todo CAGOV-COMBOX - Move lb1 id to constructor.
-    const ul = document.getElementById("lb1");
-    observer.observe(ul, { attributes: true, attributeFilter: ["style"] });
+    if (
+      mutation.target.attributes.style.nodeValue == "display: none;" &&
+      mutation.target.children.length === 1
+    ) {
+      // Get data values from li.
+      const entry = mutation.target.firstChild.dataset.value;
+      const geoid = mutation.target.firstChild.dataset.geoid || null;
+      const jurisdiction =
+        mutation.target.firstChild.dataset.jurisdiction || "Statewide";
+      this.localData.jurisdiction = jurisdiction;
+      this.localData.geoid = geoid;
+      this.updateMapState(entry, this.localData);
+    }
   }
 
   // @todo CAGOV-COMBOX - Fix tool tips!
