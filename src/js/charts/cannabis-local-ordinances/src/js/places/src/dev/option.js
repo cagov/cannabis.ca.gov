@@ -3,7 +3,7 @@ export class Option {
     this.id = id;
     this.place = place;
     this.geoAttr =
-      this.place.geoid != null ? `place-geoid="${this.place.geoid}"` : "";
+      this.place.geoid != null ? `data-geoid="${this.place.geoid}"` : "";
     this.jurisAttr = 'data-jurisdiction="' + this.place.dataJurisdiction + '"';
     this.valAttr = 'data-value="' + this.place.value + '"';
   }
