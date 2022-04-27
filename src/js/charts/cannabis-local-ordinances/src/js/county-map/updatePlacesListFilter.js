@@ -1,6 +1,6 @@
 // Lets change everything to cagov-combobox-places.
 
-const updatePlacesListHistory = (data) => {
+const updatePlacesListFilter = (data) => {
   // Update places filter settings
 
   const vars = {
@@ -15,10 +15,10 @@ const updatePlacesListHistory = (data) => {
   // Clear existing options
   if (vars.setPlaceFilterOptionsEl !== null) {
     let value = vars.setPlaceFilterEl.value;
+
     if (data.jurisdiction === "County") {
       if (updateOptionCountyEl !== null) {
-
-        var updateOptionCountyEl = vars.thisUpdateOptionCountyEl
+        var updateOptionCountyEl = vars.thisUpdateOptionCountyEl;
 
         let jurisdiction =
           updateOptionCountyEl.getAttribute("data-jurisdiction");
@@ -30,8 +30,6 @@ const updatePlacesListHistory = (data) => {
         }
       }
     } else if (data.jurisdiction === "Place") {
-  
-
       if (vars.updateOptionPlaceEl !== null) {
         let jurisdiction =
           vars.updateOptionPlaceEl.getAttribute("data-jurisdiction");
@@ -47,8 +45,6 @@ const updatePlacesListHistory = (data) => {
         }
       }
     } else if (data.jurisdiction === "Statewide") {
-  
-
       if (vars.updateOptionStatewideEl !== null) {
         vars.setPlaceFilterEl.selected = false;
         updateOptionStatewideEl.selected = true;
@@ -57,4 +53,4 @@ const updatePlacesListHistory = (data) => {
   }
 };
 
-export default updatePlacesListHistory ;
+export default updatePlacesListFilter;
