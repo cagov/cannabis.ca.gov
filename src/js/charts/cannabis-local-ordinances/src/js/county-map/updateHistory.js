@@ -1,4 +1,4 @@
-import updatePlacesListFilter from './updatePlacesListFilter.js';
+import updatePlacesListFilter from "./updatePlacesListFilter.js";
 /**
  * Set path for interaction state.
  * @param {*} props
@@ -79,7 +79,7 @@ const setDataFromHash = (paramKeys, data) => {
 /** Set filters after interaction */
 const updateDisplaysFromInteraction = (data) => {
   updateActivityFilter(data);
-  updatePlacesListFilter(data)
+  updatePlacesListFilter(data);
   // @todo Deprecate updatePlacesFilter() once previous function is testedand verified.
   // updatePlacesFilter(data);
 };
@@ -164,4 +164,8 @@ const updatePlacesFilter = (data) => {
   }
 };
 
-export { updateHistory, updateMapJurisdictionDisplayFromHash, updateDisplaysFromInteraction };
+export {
+  updateHistory,
+  updateMapJurisdictionDisplayFromHash,
+  updateDisplaysFromInteraction,
+};
