@@ -256,16 +256,16 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     // Currently the event is tracking input box.
     // In the interest of minimal disruption,
     // adding an observer here to check if the ul only has one item.
+    // It would be better to create 1 difinitive event and event listenter.
     const observer = new MutationObserver((mutations) => {
-      let entry = e.target.value;
-
       mutations.forEach((mutation) => {
         // Only one li and ul is display none
         if (
           mutation.target.attributes.style.nodeValue == "display: none;" &&
           mutation.target.children.length === 1
         ) {
-          // Get geoid and juristiction info from li.
+          // Get data values from li.
+          const entry = mutation.target.firstChild.dataset.value;
           const geoid = mutation.target.firstChild.dataset.index;
           const jurisdiction =
             mutation.target.firstChild.dataset.jurisdiction || "Statewide";
