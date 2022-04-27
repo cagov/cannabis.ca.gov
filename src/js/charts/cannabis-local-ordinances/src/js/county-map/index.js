@@ -260,7 +260,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         ) {
           // Get data values from li.
           const entry = mutation.target.firstChild.dataset.value;
-          const geoid = mutation.target.firstChild.dataset.index;
+          const geoid = mutation.target.firstChild.dataset.geoid || null;
           const jurisdiction =
             mutation.target.firstChild.dataset.jurisdiction || "Statewide";
           this.localData.jurisdiction = jurisdiction;
