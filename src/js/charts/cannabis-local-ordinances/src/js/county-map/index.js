@@ -281,25 +281,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     data.jurisdiction = jurisdiction;
     data.selectedCounty = county;
     data.geoid = geoid;
-    let placesOptions = document.querySelectorAll(
-      `.filter[data-filter-type="places"] select option`
-    );
-    placesOptions.selected = false;
-    if (jurisdiction === "County") {
-      let countyOption = document.querySelectorAll(
-        `.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`
-      );
-      if (countyOption !== null) {
-        countyOption.selected = true;
-      }
-    } else if (jurisdiction === "Place") {
-      let placeOption = document.querySelector(
-        `.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`
-      );
-      if (placeOption !== null) {
-        placeOption.selected = true;
-      }
-    }
     if (jurisdiction === "County") {
       data.self.updateMapState(county, data);
     } else if (jurisdiction === "Place") {
