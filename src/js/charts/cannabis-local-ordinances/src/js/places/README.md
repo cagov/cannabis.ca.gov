@@ -1,22 +1,24 @@
-Notes:
+To Dos:
 
 - update src/js/charts/cannabis-local-ordinances/adr/03-autocomplete.md
 - credit w3.com
-- dynamically generate place list
-- wire selects to map/table actions
-- be mindful of tooltips losing acess to data on select change.
-  - src/js/charts/cannabis-local-ordinances/src/js/county-map/index.js#L68
-- Code pen to parse places from html.
-Operate:
+- dynamically generate place list?
+- Review CAGOV-COMBOX
+- name change everything to cagov-places-combobox
+- Deprecate src/js/charts/cannabis-local-ordinances/src/js/combo-box?
+- Restore commented out code that I deleted.
+- instructions for using this mini component
+- What is the fallback/progressive enhancement version?
 
-```diff
+Dev:
 
-# src/templates/wordpress/pages/where-cannabis-business-is-legal-in-california.html
+- insert template.html code in
 
-+ <cagov-places></cagov-places>
-
-
-```
+  - cannabis.ca.gov/src/templates/wordpress/pages/where-cannabis-business-is-legal-in-california.html -
+  - cannabis.ca.gov/src/js/charts/cannabis-local-ordinances/index.html
 
 - Delete src/templates/wordpress/posts for a faster build.
-- Delete src/js/charts/cannabis-local-ordinances/src/js/combo-box
+
+Other notes:
+
+- Code pen to parse places from html https://codepen.io/zakiyadrupal/pen/popYmBa.
