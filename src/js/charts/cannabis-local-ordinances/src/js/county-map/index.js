@@ -135,10 +135,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     // @todo CAGOV-COMBOX
     // Is fragile to use a style mutation for a listener.
     // would be better to get an event from the combox widget.
-
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
-        // Only one li and ul is display none
         this.updateMapStateFromPlacesFilter(mutation);
       });
     });
@@ -256,8 +254,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   updateMapStateFromPlacesFilter(mutation) {
     // @todo CAGOV-COMBOX
     // See: setUpPlacesFilterListeners()
-
     if (
+      // Only one li is display: none;.
       mutation.target.attributes.style.nodeValue == "display: none;" &&
       mutation.target.children.length === 1
     ) {
@@ -272,7 +270,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     }
   }
 
-  // @todo CAGOV-COMBOX - Fix tool tips!
   setMapStateFromTooltip(e, data) {
     let selectedEl = e.target;
     let county = selectedEl.getAttribute("data-county") || null;
