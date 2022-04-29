@@ -38,7 +38,7 @@ export class ComboBox {
 
       const places = JSON.parse(data);
       this.templateHMTL += `<div class="cagov-places"><div class="combobox-list">
-      <label for="cb1-input">Enter a city or county</label>
+      <label class="filter-label" for="cb1-input">Enter a city or county</label>
       <div class="group">
         <input
           id="cb1-input"
@@ -49,8 +49,9 @@ export class ComboBox {
           aria-expanded="false"
           aria-haspopup="true"
           aria-owns="lb1"
+          placeholder="Enter a city or county"
         />
-        <button id="cb1-button" aria-label="Open" tabindex="-1">▽</button>
+        <!-- <button id="cb1-button" aria-label="Open" tabindex="-1">▽</button> -->
       </div>
       <ul id="lb1" role="listbox" aria-label="States">`;
 
