@@ -9,6 +9,7 @@ To Dos:
 - Restore commented out code that I deleted.
 - instructions for using this mini component
 - What is the fallback/progressive enhancement version?
+- Deliver bundle with PR.
 
 Dev:
 
