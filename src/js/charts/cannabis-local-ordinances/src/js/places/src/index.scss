@@ -1,74 +1,87 @@
+$primary-hover: #043747;
+$primary-hover-var: var(--primary-hover-color, $primary-hover);
+
+$primary-light: #518394;
+$primary-light-var: var(--primary-light-color, $primary-light);
+
+$primary-lightest: #b4cad1;
+$primary-var: var(--primary-lightest-color, $primary-lightest);
+
+$secondary-lightest: #c1c9c0;
+$secondary-lightest-var: var(--secondary-lightest-color, $secondary-lightest);
+
+$white: #fff;
+$white-var: var(--white, $white);
+
 .cagov-places {
-  /* https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css */
-  .annotate {
-    font-style: italic;
-    color: #366ed4;
-  }
+  /* Original from https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css */
 
   .combobox-list {
     position: relative;
   }
 
-  .combobox-inline label,
-  .combobox-list label {
+  .filter-label {
+    display: block;
+  }
+
+  .combobox-inline label {
     margin: 0;
     padding: 0;
     display: block;
   }
 
-  .combobox-list .group input,
+  .combobox-list {
+    .group input {
+      background: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='11' height='7' class='expanded-menu-section-header-arrow-svg' viewBox='0 0 11 7' fill='%23000000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z'%3E%3C/path%3E%3C/svg%3E")
+        no-repeat;
+      background-position: right 8px top 50%;
+      display: inline;
+    }
+  }
+
   .combobox-list .group button {
     display: inline;
-    background-color: #eee;
-  }
-
-  .combobox-list .group input.focus {
-    background-color: #d6e8f5;
-    outline-color: #348ccb;
-  }
-
-  .combobox-list .group button {
     margin: 0;
     padding: 0 0.125em 0 0.125em;
     position: relative;
     top: 1px;
     left: -2px;
     font-size: 85%;
-    background-color: #eee;
+    background-color: $primary-var;
   }
 
   ul[role="listbox"] {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 3em;
+    top: 77px;
     list-style: none;
-    background-color: #eee;
+    background-color: $white-var;
     display: none;
-    border: 2px #333 solid;
-    height: 12em;
-    width: 10em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 24em;
+    width: 260px;
     overflow: scroll;
+    padding: 16px 0;
+    border-radius: 5px;
+    z-index: 200;
   }
 
   /*  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css */
   ul[role="listbox"] li[role="option"] {
     margin: 0;
-    padding: 0;
-    padding-left: 0.125em;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
+    padding: 8px;
+    font-size: 18px;
   }
 
   [role="listbox"].focus {
-    border-color: #348ccb;
+    border: 1px solid $secondary-lightest-var;
   }
 
   [role="listbox"] [role="option"] {
     display: block;
     margin: 0.25em;
     padding: 0;
-    background-color: #eee;
     font-size: 100%;
   }
 
@@ -78,24 +91,25 @@
   button:hover,
   input:focus,
   input:hover {
-    outline: 2px solid black;
+    outline: 1px solid;
+    outline-color: $primary-hover-var;
   }
 
   input:focus,
   input:hover {
-    background-color: #eee;
+    background-color: $secondary-lightest-var;
   }
 
   [role="listbox"] [role="option"][aria-selected="true"] {
-    background-color: #ccc;
+    background-color: $secondary-lightest-var;
   }
 
   [role="listbox"].focus [role="option"][aria-selected="true"] {
-    background-color: #aed2ea;
-    border-color: #348ccb;
+    background-color: $secondary-lightest-var;
+    border-color: $primary-light;
   }
 
   [role="listbox"] li[role="option"]:hover {
-    background-color: #c2ddef;
+    background-color: $secondary-lightest-var;
   }
 }
