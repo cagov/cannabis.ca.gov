@@ -139,7 +139,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     );
 
     selectActivities.addEventListener("cagov-combox-updated", (e) => {
-      this.setMapStateFromPlacesFilterTow(e, this.localData);
+      this.setMapStateFromPlacesFilter(e, this.localData);
     });
   }
 
