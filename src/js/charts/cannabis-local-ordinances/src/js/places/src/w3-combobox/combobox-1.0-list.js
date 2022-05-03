@@ -40,6 +40,7 @@ ComboboxList.prototype.init = function () {
 
   var autocomplete = this.domNode.getAttribute("aria-autocomplete");
 
+  // cagov-places-combox has "both" hardcoded.
   if (typeof autocomplete === "string") {
     autocomplete = autocomplete.toLowerCase();
     this.isNone = autocomplete === "none";
@@ -226,7 +227,7 @@ ComboboxList.prototype.handleKeyup = function (event) {
     char = event.key;
 
   function isPrintableCharacter(str) {
-    return str.length === 1 && str.match(/\S/);
+    return str.length === 1;
   }
 
   if (isPrintableCharacter(char)) {
