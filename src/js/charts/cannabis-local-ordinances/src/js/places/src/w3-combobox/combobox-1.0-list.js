@@ -1,7 +1,6 @@
 /**
  * ComboboxList;
  */
-
 /*
  *   This content is licensed according to the W3C Software License at
  *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
@@ -33,6 +32,7 @@ var ComboboxList = function (domNode) {
     RIGHT: 39,
     DOWN: 40,
   });
+  this.updatedEvent = new Event("cagov-combox-updated");
 };
 
 ComboboxList.prototype.init = function () {
@@ -83,8 +83,27 @@ ComboboxList.prototype.setActiveDescendant = function (option) {
   }
 };
 
-ComboboxList.prototype.setValue = function (value) {
-  this.filter = value;
+ComboboxList.prototype.setValue = function (option, value) {
+  // @todo CAGOV-COMBOX
+  // Spit this is two functions and reduce to 1 paramenter.
+  // When aren't getting the value from the option, we just
+  // set it to whatever it was before.
+  if (option === null) {
+    this.filter = value;
+    return;
+  } else {
+    // @todo CAGOV-COMBOX
+    // Now we get the values from the option element.
+    // Abstract these values so we don't need to hard code them.
+    this.filter = option.domNode.dataset.value;
+    this.domNode.setAttribute("data-geoid", option.domNode.dataset.geoid);
+    this.domNode.setAttribute("data-value", option.domNode.dataset.value);
+    this.domNode.setAttribute(
+      "data-jurisdiction",
+      option.domNode.dataset.jurisdiction
+    );
+    this.domNode.dispatchEvent(this.updatedEvent);
+  }
   this.domNode.value = this.filter;
   this.domNode.setSelectionRange(this.filter.length, this.filter.length);
   if (this.isList || this.isBoth) {
@@ -157,7 +176,7 @@ ComboboxList.prototype.handleKeydown = function (event) {
   switch (event.keyCode) {
     case this.keyCode.RETURN:
       if ((this.listbox.hasFocus || this.isBoth) && this.option) {
-        this.setValue(this.option.textContent);
+        this.setValue(this.option);
       }
       this.listbox.close(true);
       flag = true;
@@ -205,7 +224,7 @@ ComboboxList.prototype.handleKeydown = function (event) {
       this.listbox.close(true);
       if (this.listbox.hasFocus) {
         if (this.option) {
-          this.setValue(this.option.textContent);
+          this.setValue(this.option);
         }
       }
       break;
@@ -246,7 +265,7 @@ ComboboxList.prototype.handleKeyup = function (event) {
 
   switch (event.keyCode) {
     case this.keyCode.BACKSPACE:
-      this.setValue(this.domNode.value);
+      this.setValue(null, this.domNode.value);
       this.setVisualFocusTextbox();
       this.listbox.setCurrentOptionStyle(false);
       this.option = false;
@@ -355,7 +374,7 @@ ComboboxList.prototype.handleButtonClick = function (event) {
 
 window.addEventListener("load", function () {
   var comboboxes = document.querySelectorAll(
-    '.combobox-list [role="combobox"]'
+    '.combobox-list input[role="combobox"]'
   );
 
   for (var i = 0; i < comboboxes.length; i++) {
@@ -514,7 +533,7 @@ Listbox.prototype.setCurrentOptionStyle = function (option) {
 Listbox.prototype.setOption = function (option) {
   if (option) {
     this.combobox.setOption(option);
-    this.combobox.setValue(option.textContent);
+    this.combobox.setValue(option);
   }
 };
 

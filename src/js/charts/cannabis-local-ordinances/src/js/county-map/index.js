@@ -133,17 +133,14 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   setUpPlacesFilterListeners() {
     // @todo CAGOV-COMBOX
-    // Is fragile to use a style mutation for a listener.
-    // would be better to get an event from the combox widget.
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        this.updateMapStateFromPlacesFilter(mutation);
-      });
-    });
+    // Move selector to constructor.
+    const selectActivities = document.querySelector(
+      `[data-filter-type="places"] input`
+    );
 
-    // @todo CAGOV-COMBOX - Move lb1 id to constructor.
-    const ul = document.getElementById("lb1");
-    observer.observe(ul, { attributes: true, attributeFilter: ["style"] });
+    selectActivities.addEventListener("cagov-combox-updated", (e) => {
+      this.setMapStateFromPlacesFilterTow(e, this.localData);
+    });
   }
 
   setUpBreadcrumbListeners() {
@@ -251,23 +248,14 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     }
   }
 
-  updateMapStateFromPlacesFilter(mutation) {
-    // @todo CAGOV-COMBOX
-    // See: setUpPlacesFilterListeners()
-    if (
-      // Only one li is display: none;.
-      mutation.target.attributes.style.nodeValue == "display: none;" &&
-      mutation.target.children.length === 1
-    ) {
-      // Get data values from li.
-      const entry = mutation.target.firstChild.dataset.value;
-      const geoid = mutation.target.firstChild.dataset.geoid || null;
-      const jurisdiction =
-        mutation.target.firstChild.dataset.jurisdiction || "Statewide";
-      this.localData.jurisdiction = jurisdiction;
-      this.localData.geoid = geoid;
-      this.updateMapState(entry, this.localData);
-    }
+  setMapStateFromPlacesFilter(event) {
+    // Get value from input attributes and send them to the map.
+    const entry = event.target.dataset.value;
+    const geoid = event.target.dataset.geoid || null;
+    const jurisdiction = event.target.dataset.jurisdiction || "Statewide";
+    this.localData.jurisdiction = jurisdiction;
+    this.localData.geoid = geoid;
+    this.updateMapState(entry, this.localData);
   }
 
   setMapStateFromTooltip(e, data) {
