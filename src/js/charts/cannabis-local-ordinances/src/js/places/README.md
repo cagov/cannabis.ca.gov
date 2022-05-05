@@ -10,6 +10,9 @@ To Dos:
 - instructions for using this mini component
 - What is the fallback/progressive enhancement version?
 - Deliver bundle with PR.
+- verify with screen reader including clear button.
+- responsive check
+- clear button refreshes page.
 
 Dev:
 
