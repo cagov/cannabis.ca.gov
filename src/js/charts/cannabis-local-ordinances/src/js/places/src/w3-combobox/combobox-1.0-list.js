@@ -65,14 +65,6 @@ ComboboxList.prototype.init = function () {
     this.listbox = new Listbox(listbox, this);
     this.listbox.init();
   }
-
-  // Open Button
-
-  var button = this.domNode.nextElementSibling;
-
-  if (button && button.tagName === "BUTTON") {
-    button.addEventListener("click", this.handleButtonClick.bind(this));
-  }
 };
 
 ComboboxList.prototype.setActiveDescendant = function (option) {
@@ -358,16 +350,6 @@ ComboboxList.prototype.handleBlur = function (event) {
   this.listbox.setCurrentOptionStyle(null);
   this.removeVisualFocusAll();
   setTimeout(this.listbox.close.bind(this.listbox, false), 300);
-};
-
-ComboboxList.prototype.handleButtonClick = function (event) {
-  if (this.listbox.isOpen()) {
-    this.listbox.close(true);
-  } else {
-    this.listbox.open();
-  }
-  this.domNode.focus();
-  this.setVisualFocusTextbox();
 };
 
 // Initialize comboboxes

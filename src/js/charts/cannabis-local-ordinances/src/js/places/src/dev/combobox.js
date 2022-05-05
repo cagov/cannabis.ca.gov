@@ -37,7 +37,8 @@ export class ComboBox {
       }
 
       const places = JSON.parse(data);
-      this.templateHMTL += `<div class="cagov-places"><div class="combobox-list">
+      this.templateHMTL += `<!-- Start cagov-places -->
+      <div class="cagov-places"><div class="combobox-list">
       <label class="filter-label" for="cb1-input">Enter a city or county</label>
       <div class="group">
         <input
@@ -51,7 +52,7 @@ export class ComboBox {
           aria-owns="lb1"
           placeholder="Enter a city or county"
         />
-        <!-- <button id="cb1-button" aria-label="Open" tabindex="-1">▽</button> -->
+        <button class="combobox-places--button" aria-label="Clear" tabindex="-1">x</button>
       </div>
       <ul id="lb1" role="listbox" aria-label="States">`;
 
@@ -59,7 +60,7 @@ export class ComboBox {
         const option = new Option(id, value);
         this.templateHMTL += option.html();
       }
-      this.templateHMTL += `</ul></div></div>`;
+      this.templateHMTL += `</ul></div></div><!-- End cagov-places -->`;
 
       this.makeTemplate(this.templateHMTL);
     });

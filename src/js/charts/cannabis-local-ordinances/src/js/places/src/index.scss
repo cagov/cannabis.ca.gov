@@ -39,17 +39,6 @@ $white-var: var(--white, $white);
     }
   }
 
-  .combobox-list .group button {
-    display: inline;
-    margin: 0;
-    padding: 0 0.125em 0 0.125em;
-    position: relative;
-    top: 1px;
-    left: -2px;
-    font-size: 85%;
-    background-color: $primary-var;
-  }
-
   ul[role="listbox"] {
     margin: 0;
     padding: 0;
@@ -86,9 +75,6 @@ $white-var: var(--white, $white);
   }
 
   /* focus and hover styling */
-
-  button:focus,
-  button:hover,
   input:focus,
   input:hover {
     outline: 1px solid;
@@ -111,5 +97,23 @@ $white-var: var(--white, $white);
 
   [role="listbox"] li[role="option"]:hover {
     background-color: $secondary-lightest-var;
+  }
+
+  // Clear button.
+  .combobox-places--button {
+    border: 1px solid $primary-light-var;
+    color: $primary-light-var;
+    border-radius: 50%;
+    position: absolute;
+    right: 35px;
+    top: 47px;
+    padding: 3px 6px 5px;
+    font-size: 13px;
+    line-height: 1;
+
+    &:hover {
+      border-color: $primary-hover-var;
+      color: $primary-hover-var;
+    }
   }
 }
