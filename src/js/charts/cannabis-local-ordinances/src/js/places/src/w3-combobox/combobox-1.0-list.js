@@ -352,19 +352,6 @@ ComboboxList.prototype.handleBlur = function (event) {
   setTimeout(this.listbox.close.bind(this.listbox, false), 300);
 };
 
-// Initialize comboboxes
-
-window.addEventListener("load", function () {
-  var comboboxes = document.querySelectorAll(
-    '.combobox-list input[role="combobox"]'
-  );
-
-  for (var i = 0; i < comboboxes.length; i++) {
-    var combobox = new ComboboxList(comboboxes[i]);
-    combobox.init();
-  }
-});
-
 /**
  * Listbox
  */
@@ -636,3 +623,23 @@ Option.prototype.handleMouseout = function (event) {
   this.listbox.hasHover = false;
   setTimeout(this.listbox.close.bind(this.listbox, false), 300);
 };
+
+// Initialize comboboxes
+window.addEventListener("load", function () {
+  var comboboxes = document.querySelectorAll(
+    '.combobox-list input[role="combobox"]'
+  );
+
+  for (var i = 0; i < comboboxes.length; i++) {
+    var combobox = new ComboboxList(comboboxes[i]);
+    combobox.init();
+  }
+
+  // Add listener for the clear button.
+  const button = document.querySelector(".combobox-places--button");
+  const input = document.querySelector(".cb_edit");
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+    input.value = "";
+  });
+});
