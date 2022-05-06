@@ -107,7 +107,8 @@ ComboboxList.prototype.setValue = function (option, value) {
     // @todo CAGOV-COMBOX
     // Now we get the values from the option element.
     // Abstract these values so we don't need to hard code them.
-    this.filter = option.domNode.dataset.value;
+    this.filter = option.domNode.textContent;
+    this.domNode.value = option.domNode.textContent;
     this.domNode.setAttribute("data-geoid", option.domNode.dataset.geoid);
     this.domNode.setAttribute("data-value", option.domNode.dataset.value);
     this.domNode.setAttribute(
