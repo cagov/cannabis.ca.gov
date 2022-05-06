@@ -1,3 +1,7 @@
+// ComboboxList: .combobox-list input
+// Listbox: .combobox-list ul
+// Option: .combobox-list li
+
 /**
  * ComboboxList;
  */
@@ -9,6 +13,7 @@ var ComboboxList = function (domNode) {
   this.domNode = domNode;
   this.listbox = false;
   this.option = false;
+  this.clearButton = false;
 
   this.hasFocus = false;
   this.hasHover = false;
@@ -57,6 +62,10 @@ ComboboxList.prototype.init = function () {
   this.domNode.addEventListener("focus", this.handleFocus.bind(this));
   this.domNode.addEventListener("blur", this.handleBlur.bind(this));
 
+  // clearButton.
+  this.clearButton = document.querySelector(".combobox-places--button");
+  this.clearButton.addEventListener("click", this.handleClear.bind(this));
+
   // initialize pop up menus
 
   var listbox = document.getElementById(this.domNode.getAttribute("aria-owns"));
@@ -77,11 +86,22 @@ ComboboxList.prototype.setActiveDescendant = function (option) {
 
 ComboboxList.prototype.setValue = function (option, value) {
   // @todo CAGOV-COMBOX
-  // Spit this is two functions and reduce to 1 paramenter.
+  // Spit this is three functions and reduce to 1 paramenter.
   // When aren't getting the value from the option, we just
   // set it to whatever it was before.
-  if (option === null) {
+  if (option === null && value !== null) {
+    // Backspacing so no change.
     this.filter = value;
+    return;
+  } else if (option === null && value === null) {
+    // Selection cleared. Remove all attributes and values.
+    this.filter = value;
+    this.domNode.value = "";
+    this.domNode.removeAttribute("data-geoid");
+    this.domNode.removeAttribute("data-value");
+    this.domNode.removeAttribute("data-jurisdiction");
+    // Let the map know this happened.
+    this.domNode.dispatchEvent(this.updatedEvent);
     return;
   } else {
     // @todo CAGOV-COMBOX
@@ -350,6 +370,11 @@ ComboboxList.prototype.handleBlur = function (event) {
   this.listbox.setCurrentOptionStyle(null);
   this.removeVisualFocusAll();
   setTimeout(this.listbox.close.bind(this.listbox, false), 300);
+};
+
+ComboboxList.prototype.handleClear = function (event) {
+  event.preventDefault();
+  this.setValue(null, null);
 };
 
 /**
@@ -634,12 +659,4 @@ window.addEventListener("load", function () {
     var combobox = new ComboboxList(comboboxes[i]);
     combobox.init();
   }
-
-  // Add listener for the clear button.
-  const button = document.querySelector(".combobox-places--button");
-  const input = document.querySelector(".cb_edit");
-  button.addEventListener("click", (e) => {
-    e.preventDefault();
-    input.value = "";
-  });
 });
