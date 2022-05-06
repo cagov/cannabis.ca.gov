@@ -1,11 +1,14 @@
+$gray-300: #e1e0e3;
+$gray-300-var: var(--gray-300, $gray-300);
+
+$gray-700: #a09fa7;
+$gray-700-var: var(--gray-700, $gray-700);
+
 $primary-hover: #043747;
 $primary-hover-var: var(--primary-hover-color, $primary-hover);
 
 $primary-light: #518394;
 $primary-light-var: var(--primary-light-color, $primary-light);
-
-$primary-lightest: #b4cad1;
-$primary-var: var(--primary-lightest-color, $primary-lightest);
 
 $secondary-lightest: #c1c9c0;
 $secondary-lightest-var: var(--secondary-lightest-color, $secondary-lightest);
@@ -30,12 +33,18 @@ $white-var: var(--white, $white);
     display: block;
   }
 
-  .combobox-list {
-    .group input {
+  .combobox-places--input-group {
+    position: relative;
+    input {
       background: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='11' height='7' class='expanded-menu-section-header-arrow-svg' viewBox='0 0 11 7' fill='%23000000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z'%3E%3C/path%3E%3C/svg%3E")
         no-repeat;
       background-position: right 8px top 50%;
       display: inline;
+    }
+
+    &:hover input {
+      outline: 1px solid;
+      outline-color: $primary-hover-var;
     }
   }
 
@@ -74,46 +83,40 @@ $white-var: var(--white, $white);
     font-size: 100%;
   }
 
-  /* focus and hover styling */
-  input:focus,
-  input:hover {
-    outline: 1px solid;
-    outline-color: $primary-hover-var;
-  }
-
-  input:focus,
-  input:hover {
-    background-color: $secondary-lightest-var;
-  }
-
   [role="listbox"] [role="option"][aria-selected="true"] {
     background-color: $secondary-lightest-var;
   }
 
   [role="listbox"].focus [role="option"][aria-selected="true"] {
     background-color: $secondary-lightest-var;
-    border-color: $primary-light;
+    border-color: $primary-light-var;
   }
 
   [role="listbox"] li[role="option"]:hover {
     background-color: $secondary-lightest-var;
   }
 
-  // Clear button.
+  //Clear button.
   .combobox-places--button {
-    border: 1px solid $primary-light-var;
-    color: $primary-light-var;
-    border-radius: 50%;
+    border: 0;
+    background: none;
     position: absolute;
-    right: 35px;
-    top: 47px;
-    padding: 3px 6px 5px;
-    font-size: 13px;
-    line-height: 1;
+    right: 20px;
+    top: 8px;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+
+    svg {
+      height: 16px;
+      width: 16px;
+      fill: $gray-700-var;
+    }
 
     &:hover {
-      border-color: $primary-hover-var;
-      color: $primary-hover-var;
+      svg {
+        fill: $gray-300-var;
+      }
     }
   }
 }
