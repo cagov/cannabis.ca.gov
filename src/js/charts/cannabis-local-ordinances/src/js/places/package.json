@@ -8,7 +8,7 @@
     "build:all": "run-s build:sass build:js template",
     "build:sass": "sass src/index.scss src/css/index.css",
     "build:js": "rollup --config rollup.config.js",
-    "template": "node src/dev/writeTemplate.js",
+    "template": "node markup/writeTemplate.js",
     "watch:scss": "sass src/index.scss src/css/index.css --watch",
     "watch:js": "rollup --config rollup.config.js -w "
   },
