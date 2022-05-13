@@ -1,7 +1,6 @@
 To Dos:
 
 - update src/js/charts/cannabis-local-ordinances/adr/03-autocomplete.md
-- credit w3.com
 - dynamically generate place list?
 - Review CAGOV-COMBOX
 - name change everything to cagov-places-combobox
