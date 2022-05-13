@@ -1,13 +1,15 @@
+/*
+ * This document includes material derived from  Combobox With Both List and Inline.
+ * https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/combobox-autocomplete-both.html
+ * Copyright ©2015 W3C® (MIT, ERCIM, Keio, Beihang)."
+ */
+
 // ComboboxList: .combobox-list input
 // Listbox: .combobox-list ul
 // Option: .combobox-list li
 
 /**
  * ComboboxList;
- */
-/*
- *   This content is licensed according to the W3C Software License at
- *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
  */
 var ComboboxList = function (domNode) {
   this.domNode = domNode;
@@ -381,11 +383,6 @@ ComboboxList.prototype.handleClear = function (event) {
 /**
  * Listbox
  */
-
-/*
- *   This content is licensed according to the W3C Software License at
- *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
- */
 var Listbox = function (domNode, comboboxObj) {
   var elementChildren,
     msgPrefix = "Listbox constructor argument domNode ";
@@ -611,11 +608,6 @@ Listbox.prototype.close = function (force) {
 /**
  * Option;
  */
-
-/*
- *   This content is licensed according to the W3C Software License at
- *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
- */
 var Option = function (domNode, listboxObj) {
   this.domNode = domNode;
   this.listbox = listboxObj;
@@ -634,7 +626,6 @@ Option.prototype.init = function () {
 };
 
 /* EVENT HANDLERS */
-
 Option.prototype.handleClick = function (event) {
   this.listbox.setOption(this);
   this.listbox.close(true);
