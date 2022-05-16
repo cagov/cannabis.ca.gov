@@ -1,8 +1,5 @@
 To Dos:
 
-- update src/js/charts/cannabis-local-ordinances/adr/03-autocomplete.md
-- dynamically generate place list?
-- Review CAGOV-COMBOX
 - name change everything to cagov-places-combobox
 - Deprecate src/js/charts/cannabis-local-ordinances/src/js/combo-box?
 - Restore commented out code that I deleted.
@@ -12,6 +9,7 @@ To Dos:
 - verify with screen reader including clear button.
 - responsive check
 - clear button refreshes page.
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/combobox_role
 
 Dev:
 
