@@ -20,9 +20,6 @@ var ComboboxList = function (domNode) {
   this.hasFocus = false;
   this.hasHover = false;
   this.filter = "";
-  this.isNone = false;
-  this.isList = false;
-  this.isBoth = false;
 
   this.keyCode = Object.freeze({
     BACKSPACE: 8,
@@ -39,15 +36,24 @@ var ComboboxList = function (domNode) {
     RIGHT: 39,
     DOWN: 40,
   });
+
+  // @todo "both" is hardcoded.
+  // We could simplify the code by removing these options
+  // and subsequent references.
+  this.isNone = false;
+  this.isList = false;
+  this.isBoth = false;
+
+  // Custom event.
   this.updatedEvent = new Event("cagov-combox-updated");
 };
 
 ComboboxList.prototype.init = function () {
   this.domNode.setAttribute("aria-haspopup", "true");
 
+  // See @todo in ComboboxList.
   var autocomplete = this.domNode.getAttribute("aria-autocomplete");
 
-  // cagov-places-combox has "both" hardcoded.
   if (typeof autocomplete === "string") {
     autocomplete = autocomplete.toLowerCase();
     this.isNone = autocomplete === "none";
