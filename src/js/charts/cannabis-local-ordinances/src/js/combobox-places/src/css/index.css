@@ -1,6 +1,10 @@
 /**
  * Code derived from https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css.
  */
+button:focus {
+  outline: solid 2px var(--highlight-color, #fbad23) !important;
+}
+
 .cagov-combobox-places {
   position: relative;
   /*  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css */
@@ -67,9 +71,9 @@
   border: 0;
   background: none;
   position: absolute;
-  right: 20px;
-  top: 8px;
-  height: 36px;
+  right: 23px;
+  top: 5px;
+  height: 38px;
   width: 36px;
   padding: 0;
 }

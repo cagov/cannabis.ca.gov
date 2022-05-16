@@ -101,13 +101,14 @@ ComboboxList.prototype.setActiveDescendant = function (option) {
  */
 ComboboxList.prototype.resetValue = function () {
   // Selection cleared.
-  this.filter = null;
+  this.filter = "";
   this.domNode.value = "";
   this.domNode.removeAttribute("data-geoid");
   this.domNode.removeAttribute("data-value");
   this.domNode.removeAttribute("data-jurisdiction");
   // Let the map know this happened.
   this.domNode.dispatchEvent(this.updatedEvent);
+  this.listbox.filterOptions(this.filter, this.option);
   return;
 };
 
@@ -546,7 +547,6 @@ Listbox.prototype.setOption = function (option) {
 };
 
 /* EVENT HANDLERS */
-
 Listbox.prototype.handleMouseover = function (event) {
   this.hasHover = true;
 };
@@ -557,7 +557,6 @@ Listbox.prototype.handleMouseout = function (event) {
 };
 
 /* FOCUS MANAGEMENT METHODS */
-
 Listbox.prototype.getFirstItem = function () {
   return this.firstOption;
 };
@@ -587,7 +586,6 @@ Listbox.prototype.getNextItem = function (currentOption) {
 };
 
 /* MENU DISPLAY METHODS */
-
 Listbox.prototype.isOpen = function () {
   return this.domNode.style.display === "block";
 };
