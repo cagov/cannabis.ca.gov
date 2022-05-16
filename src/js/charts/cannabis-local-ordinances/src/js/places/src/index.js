@@ -86,39 +86,46 @@ ComboboxList.prototype.setActiveDescendant = function (option) {
   }
 };
 
-ComboboxList.prototype.setValue = function (option, value) {
-  // @todo CAGOV-COMBOX
-  // Spit this is three functions and reduce to 1 paramenter.
-  // When aren't getting the value from the option, we just
-  // set it to whatever it was before.
-  if (option === null && value !== null) {
-    // Backspacing so no change.
-    this.filter = value;
-    return;
-  } else if (option === null && value === null) {
-    // Selection cleared. Remove all attributes and values.
-    this.filter = value;
-    this.domNode.value = "";
-    this.domNode.removeAttribute("data-geoid");
-    this.domNode.removeAttribute("data-value");
-    this.domNode.removeAttribute("data-jurisdiction");
-    // Let the map know this happened.
-    this.domNode.dispatchEvent(this.updatedEvent);
-    return;
-  } else {
-    // @todo CAGOV-COMBOX
-    // Now we get the values from the option element.
-    // Abstract these values so we don't need to hard code them.
-    this.filter = option.domNode.textContent;
-    this.domNode.value = option.domNode.textContent;
-    this.domNode.setAttribute("data-geoid", option.domNode.dataset.geoid);
-    this.domNode.setAttribute("data-value", option.domNode.dataset.value);
-    this.domNode.setAttribute(
-      "data-jurisdiction",
-      option.domNode.dataset.jurisdiction
-    );
-    this.domNode.dispatchEvent(this.updatedEvent);
-  }
+/**
+ * Remove all attributes and values.
+ */
+ComboboxList.prototype.resetValue = function () {
+  // Selection cleared.
+  this.filter = null;
+  this.domNode.value = "";
+  this.domNode.removeAttribute("data-geoid");
+  this.domNode.removeAttribute("data-value");
+  this.domNode.removeAttribute("data-jurisdiction");
+  // Let the map know this happened.
+  this.domNode.dispatchEvent(this.updatedEvent);
+  return;
+};
+
+/**
+ * Adjust filter, but don't change value.
+ *
+ * @param   {string}  value  The entered text.
+ */
+ComboboxList.prototype.passThroughValue = function (value) {
+  // Backspacing so no change.
+  this.filter = value;
+  return;
+};
+
+/**
+ * Set value from option.
+ *
+ * @param  {Option}  option  The selected li.
+ */
+ComboboxList.prototype.setValue = function (option) {
+  this.filter = option.domNode.textContent;
+  this.domNode.setAttribute("data-geoid", option.domNode.dataset.geoid);
+  this.domNode.setAttribute("data-value", option.domNode.dataset.value);
+  this.domNode.setAttribute(
+    "data-jurisdiction",
+    option.domNode.dataset.jurisdiction
+  );
+  this.domNode.dispatchEvent(this.updatedEvent);
   this.domNode.value = this.filter;
   this.domNode.setSelectionRange(this.filter.length, this.filter.length);
   if (this.isList || this.isBoth) {
@@ -179,7 +186,6 @@ ComboboxList.prototype.removeVisualFocusAll = function () {
 };
 
 /* Event Handlers */
-
 ComboboxList.prototype.handleKeydown = function (event) {
   var tgt = event.currentTarget,
     flag = false,
@@ -280,7 +286,7 @@ ComboboxList.prototype.handleKeyup = function (event) {
 
   switch (event.keyCode) {
     case this.keyCode.BACKSPACE:
-      this.setValue(null, this.domNode.value);
+      this.passThroughValue(this.domNode.value);
       this.setVisualFocusTextbox();
       this.listbox.setCurrentOptionStyle(false);
       this.option = false;
@@ -377,7 +383,7 @@ ComboboxList.prototype.handleBlur = function (event) {
 
 ComboboxList.prototype.handleClear = function (event) {
   event.preventDefault();
-  this.setValue(null, null);
+  this.resetValue();
 };
 
 /**
