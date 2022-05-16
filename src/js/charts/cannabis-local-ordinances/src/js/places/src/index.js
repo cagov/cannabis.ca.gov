@@ -8,6 +8,11 @@
 // Listbox: .combobox-list ul
 // Option: .combobox-list li
 
+const comboboxes = document.querySelectorAll(
+  ".cagov-combobox-places .combobox-places--combobox"
+);
+const clearButton = document.querySelector(".combobox-places--button");
+
 /**
  * ComboboxList;
  */
@@ -71,11 +76,10 @@ ComboboxList.prototype.init = function () {
   this.domNode.addEventListener("blur", this.handleBlur.bind(this));
 
   // clearButton.
-  this.clearButton = document.querySelector(".combobox-places--button");
+  this.clearButton = clearButton;
   this.clearButton.addEventListener("click", this.handleClear.bind(this));
 
-  // initialize pop up menus
-
+  // Initialize Listbox;
   var listbox = document.getElementById(this.domNode.getAttribute("aria-owns"));
 
   if (listbox) {
@@ -655,10 +659,6 @@ Option.prototype.handleMouseout = function (event) {
 
 // Initialize comboboxes
 window.addEventListener("load", function () {
-  var comboboxes = document.querySelectorAll(
-    '.combobox-list input[role="combobox"]'
-  );
-
   for (var i = 0; i < comboboxes.length; i++) {
     var combobox = new ComboboxList(comboboxes[i]);
     combobox.init();
