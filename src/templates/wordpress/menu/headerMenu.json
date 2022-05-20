@@ -633,7 +633,7 @@
           "object": "page",
           "type": "post_type",
           "type_label": "Page",
-          "url": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-business-is-legal-in-california/",
+          "url": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-businesses-are-allowed/",
           "title": "Where cannabis businesses are allowed",
           "target": "",
           "attr_title": "",
@@ -642,7 +642,7 @@
             ""
           ],
           "xfn": "",
-          "slug": "where-cannabis-business-is-legal-in-california"
+          "slug": "where-cannabis-businesses-are-allowed"
         },
         {
           "ID": 10432,
