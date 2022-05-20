@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-20T21:10:09",
-    "updated_date": "2022-05-20T21:10:50",
+    "updated_date": "2022-05-20T21:16:28",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-05-20T14:10:09",
     "date_gmt": "2022-05-20T21:10:09",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis.jpeg",
-    "modified": "2022-05-20T14:10:50",
-    "modified_gmt": "2022-05-20T21:10:50",
+    "modified": "2022-05-20T14:16:28",
+    "modified_gmt": "2022-05-20T21:16:28",
     "slug": "this-is-ca-cannabis",
     "status": "inherit",
     "type": "attachment",
@@ -31,7 +31,6 @@
     "template": "",
     "meta": [],
     "categories": [
-      2,
       768
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis.jpeg'><img width=\"576\" height=\"344\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-576x344.jpeg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-576x344.jpeg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-768x459.jpeg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis.jpeg 803w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
