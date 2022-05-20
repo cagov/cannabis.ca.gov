@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "created_date": "2022-05-20T20:44:44",
+    "updated_date": "2022-05-20T20:44:44",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9753",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9753,
+    "date": "2022-05-20T13:44:44",
+    "date_gmt": "2022-05-20T20:44:44",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+    "modified": "2022-05-20T13:44:44",
+    "modified_gmt": "2022-05-20T20:44:44",
+    "slug": "dcc_farmertoolkit_post03_spanish_hmong",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc_farmertoolkit_post03_spanish_hmong/",
+    "title": "DCC_FarmerToolkit_Post03_Spanish_Hmong",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      2
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg'><img width=\"576\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg 376w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg 2000w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2000,
+      "height": 2000,
+      "file": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+      "sizes": {
+        "medium": {
+          "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg",
+          "width": 576,
+          "height": 576,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg"
+        },
+        "large": {
+          "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg",
+          "width": 1024,
+          "height": 1024,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg"
+        },
+        "thumbnail": {
+          "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg"
+        },
+        "medium_large": {
+          "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg"
+        },
+        "1536x1536": {
+          "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg",
+          "width": 1536,
+          "height": 1536,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg"
+        },
+        "full": {
+          "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+          "width": 2000,
+          "height": 2000,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+        "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg",
+        "width": 2000,
+        "height": 2000,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg",
+        "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg",
+        "width": 1536,
+        "height": 1536,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1536x1536.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg",
+        "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg",
+        "width": 1024,
+        "height": 1024,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-1024x1024.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg",
+        "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg",
+        "width": 768,
+        "height": 768,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-768x768.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg",
+        "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg",
+        "width": 576,
+        "height": 576,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-576x576.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg",
+        "file": "DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong-376x376.jpg"
+      }
+    ],
+    "path": "2022/05/DCC_FarmerToolkit_Post03_Spanish_Hmong.jpg"
+  }
+}
