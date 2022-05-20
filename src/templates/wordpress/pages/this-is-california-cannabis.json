@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "created_date": "2022-05-20T18:58:48",
+    "updated_date": "2022-05-20T18:58:48",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/10520",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10520,
+    "date": "2022-05-20T11:58:48",
+    "date_gmt": "2022-05-20T18:58:48",
+    "guid": "https://api.cannabis.ca.gov/?page_id=10520",
+    "modified": "2022-05-20T11:58:48",
+    "modified_gmt": "2022-05-20T18:58:48",
+    "slug": "this-is-california-cannabis",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+    "title": "This is California Cannabis",
+    "excerpt": "",
+    "author": "Chach",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+      "page_title": "This is California Cannabis",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "This is California Cannabis",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+      "open_graph_title": "This is California Cannabis",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "This is California Cannabis",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+    "media": [
+      {
+        "id": 13,
+        "type": "thumbnail",
+        "path": "2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
+        "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
