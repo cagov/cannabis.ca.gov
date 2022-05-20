@@ -479,30 +479,36 @@ Listbox.prototype.init = function () {
 
   this.filterOptions("");
 };
-
+/**
+ * Build the list of options in the dropdown.
+ *
+ * @param   {String}  filter         ComboboxList.filter
+ * @param   {String}  currentOption  ComboboxList.option
+ *
+ * @return  {String}                 option
+ */
 Listbox.prototype.filterOptions = function (filter, currentOption) {
   if (typeof filter !== "string") {
     filter = "";
   }
 
-  var firstMatch = false,
-    i,
-    option,
-    textContent,
-    numItems;
+  var i, option, textContent, numItems;
 
+  // Character(s) typed.
   filter = filter.toLowerCase();
 
   this.options = [];
-  this.firstChars = [];
   this.domNode.innerHTML = "";
 
+  // Loop through every option.
   for (i = 0; i < this.allOptions.length; i++) {
     option = this.allOptions[i];
-    if (filter.length === 0 || option.textComparison.indexOf(filter) === 0) {
+
+    if (option.textComparison.indexOf(filter) !== -1 || filter.length === 0) {
+      // Entered characters match this option, or no charaters have been entered,
+      // So push this option to the list.
       this.options.push(option);
       textContent = option.textContent.trim();
-      this.firstChars.push(textContent.substring(0, 1).toLowerCase());
       this.domNode.appendChild(option.domNode);
     }
   }
