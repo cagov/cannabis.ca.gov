@@ -462,6 +462,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       tooltipElement.style.height = 0;
     } else {
       // Statewide
+      data.showCounties = true;
+      data.showPlaces = true;
       this.setBreadcrumb(data, "Statewide");
       containerElement.setAttribute("data-jurisdiction", "Statewide");
       tableContainerElement.updateTable(data, "Statewide");
