@@ -25,7 +25,7 @@
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/12/cannabis-advisory-committee-meeting/",
     "title": "Cannabis Advisory Committee",
-    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">December 13, 2021</div>\n<p></p>\n<div class=\"event-time\">10:00 AM PST</div>\n<p></p>\n<div class=\"event-location\">Virtual (WebEx Events)</div>\n</div>\n",
+    "excerpt": "<p>Cannabis Advisory Committee Meeting The Department of Cannabis Control (DCC) will host a meeting of the Cannabis Advisory Committee on December 13, 2021. The meeting will be held virtually via WebEx Events. Meeting Notice and Agenda&nbsp;– Includes a link and instructions for joining the virtual meeting. Meeting Materials: Meeting Minutes: May 25, 2021 Draft 2021 [&hellip;]</p>\n",
     "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
@@ -40,25 +40,6 @@
     "tags": [],
     "design_system_fields": {
       "template": "event"
-    },
-    "event": {
-      "startDateTimeUTC": "2021-12-13T18:00:00",
-      "endDateTimeUTC": "2021-12-13T18:00:00",
-      "startDate": "December 13, 2021",
-      "endDate": "December 13, 2021",
-      "startTime": "10:00 AM",
-      "endTime": "10:00 AM",
-      "localTimezone": "America/Los_Angeles",
-      "localTimezoneLabel": "PST",
-      "location": "Virtual (WebEx Events)",
-      "cost": "Free"
-    },
-    "custom_post_date": "",
-    "meta_": {
-      "0": "",
-      "custom_post_link": "",
-      "custom_post_date": "",
-      "custom_post_location": ""
     },
     "og_meta": {
       "editor": {
@@ -107,6 +88,25 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": {
+      "startDateTimeUTC": "2021-12-13T18:00:00",
+      "endDateTimeUTC": "2021-12-13T18:00:00",
+      "startDate": "December 13, 2021",
+      "endDate": "December 13, 2021",
+      "startTime": "10:00 AM",
+      "endTime": "10:00 AM",
+      "localTimezone": "America/Los_Angeles",
+      "localTimezoneLabel": "PST",
+      "location": "Virtual (WebEx Events)",
+      "cost": "Free"
+    },
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://api.cannabis.ca.gov/2021/12/cannabis-advisory-committee-meeting/"
   }
 }
