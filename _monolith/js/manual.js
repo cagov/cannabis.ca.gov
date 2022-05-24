@@ -65,11 +65,3 @@ newScript_pixel.src = "https://tag.simpli.fi/sifitag/0ea36ba0-8601-013a-c608-06a
 newScript_pixel.async = "true";
 document.querySelector('head').appendChild(newScript_pixel);
 
-// Include source code for Cannabis Local Ordinances
-// Source code located at https://github.com/cagov/cannabis.ca.gov/tree/main/src/js/charts/cannabis-local-ordinances
-// View README.md for more infomation
-// This source code is compiled and some of the external assets are also hosted here and consumed by this UI.
-let cannabis_local_ordinances = document.createElement("script");
-cannabis_local_ordinances.src = "https://headless.cannabis.ca.gov/assets/bundle.1.0.0.js?2022-04-11";
-cannabis_local_ordinances.async = "true";
-document.querySelector('head').appendChild(cannabis_local_ordinances);

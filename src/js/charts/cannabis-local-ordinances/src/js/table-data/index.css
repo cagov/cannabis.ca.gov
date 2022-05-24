@@ -17,7 +17,7 @@
 }
 
 /* Data table */
-.data-table .table-data table {
+.table-data table {
   overflow-x: scroll;
   margin: 0 0 16px 0;
   border: none;
@@ -26,7 +26,6 @@
   table-layout: fixed;
   border-left: 1px solid #e1e0e3;
   border-right: 1px solid #e1e0e3;
-  width: auto;
 }
 
 .table-data thead {
@@ -42,15 +41,13 @@
   font-size: 14px;
   line-height: 26px;
   min-width: 120px;
-  padding: 8px;
+  padding: 8px 8px;
+  color: #000;
   white-space: nowrap;
 }
 
 .table-data table thead tr th {
-  color: #000;
-  font-weight: 400;
   position: sticky;
-  padding: 8px;
   top: 0;
   z-index: 1000;
   background-color: #ededef;
@@ -67,6 +64,7 @@
 }
 
 .table-data .county-row td {
+  /* font-weight: 700; */
   border-bottom: 1px solid #6c6b77;
   line-height: 32px;
 }
