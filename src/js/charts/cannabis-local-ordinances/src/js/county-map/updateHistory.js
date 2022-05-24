@@ -12,7 +12,15 @@ const updateHistory = (props) => {
   // window.location.hash = path; // TEMPORARILY DISABLED, Future feature.
 };
 
-const updateMapJurisdictionDisplayFromHash = (hash, data) => {};
+const updateMapJurisdictionDisplayFromHash = (hash, data) => {
+  // console.log("update hash", hash, data);
+  // if (hash !== undefined && hash.length > 0) {
+  //   let paramKeys = getParamKeys(hash, data);
+  //   console.log("paramKeys", paramKeys);
+  //   setDataFromHash(paramKeys, data);
+  //   updateDisplaysFromInteraction(data);
+  // }
+};
 
 const getParamKeys = (hash, data) => {
   let paramKeys = {};
@@ -30,6 +38,7 @@ const getParamKeys = (hash, data) => {
       });
     }
   }
+  // console.log("paramKeys", paramKeys);
   return paramKeys;
 };
 
@@ -69,6 +78,7 @@ const setDataFromHash = (paramKeys, data) => {
 /** Set filters after interaction */
 const updateDisplaysFromInteraction = (data) => {
   updateActivityFilter(data);
+  updatePlacesFilter(data);
 };
 
 const updateActivityFilter = (data) => {
@@ -87,8 +97,68 @@ const updateActivityFilter = (data) => {
   }
 };
 
-export {
-  updateHistory,
-  updateMapJurisdictionDisplayFromHash,
-  updateDisplaysFromInteraction,
+const updatePlacesFilter = (data) => {
+  // Update places filter settings
+  // Clear existing options
+  var setPlaceFilterEl = document.querySelector(
+    '.filter[data-filter-type="places"]'
+  );
+  var setPlaceFilterOptionsEl = document.querySelector(
+    '.filter[data-filter-type="places"] select option'
+  );
+
+  if (setPlaceFilterOptionsEl !== null) {
+    let value = setPlaceFilterEl.value;
+    if (data.jurisdiction === "County") {
+      if (updateOptionCountyEl !== null) {
+        var updateOptionCountyEl = document.querySelector(
+          `.filter[data-filter-type="places"] select option[value="${data.selectedCounty}"]`
+        );
+        let jurisdiction =
+          updateOptionCountyEl.getAttribute("data-jurisdiction");
+        if (jurisdiction === "County" && value !== data.selectedCounty) {
+          if (updateOptionCountyEl !== null) {
+            setPlaceFilterOptionsEl.selected = false; // Unset anything selected.
+            updateOptionCountyEl.selected = true;
+            // const e = new CustomEvent("change", {
+            //   detail: { el: updateOptionCountyEl, hash: true },
+            // });
+
+            // setPlaceFilterEl.dispatchEvent(e);
+          }
+        }
+      }
+    } else if (data.jurisdiction === "Place") {
+      var updateOptionPlaceEl = document.querySelector(
+        `.filter[data-filter-type="places"] select option[data-geoid="${data.geoid}"]`
+      );
+
+      if (updateOptionPlaceEl !== null) {
+        let jurisdiction =
+          updateOptionPlaceEl.getAttribute("data-jurisdiction");
+        let optionGeoid = updateOptionPlaceEl.getAttribute("data-geoid");
+
+        if (
+          updateOptionPlaceEl !== null &&
+          data.geoid !== null &&
+          optionGeoid !== data.geoid
+        ) {
+          setPlaceFilterEl.selected = false; // Unset anything selected.
+          updateOptionPlaceEl.selected = true;
+        }
+      }
+    } else if (data.jurisdiction === "Statewide") {
+      // @TODO confirm
+      var updateOptionStatewideEl = document.querySelector(
+        `.filter[data-filter-type="places"] select option[value=""]`
+      );
+
+      if (updateOptionStatewideEl !== null) {
+        setPlaceFilterEl.selected = false;
+        updateOptionStatewideEl.selected = true;
+      }
+    }
+  }
 };
+
+export { updateHistory, updateMapJurisdictionDisplayFromHash, updateDisplaysFromInteraction };
