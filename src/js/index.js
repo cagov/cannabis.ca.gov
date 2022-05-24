@@ -17,11 +17,7 @@ import './google-analytics.js';
 import setupAnalytics from './setup-analytics.js';
 
 // Custom components
-// Data viz: where-cannabis-business-is-legal-in-california
-// import './charts/cannabis-local-ordinances/src/index.js'; // Can we do this instead?
 import './charts/cannabis-local-ordinances/build/bundle.js';
-
-
 
 window.onload = (event) => {
   setupAnalytics();
