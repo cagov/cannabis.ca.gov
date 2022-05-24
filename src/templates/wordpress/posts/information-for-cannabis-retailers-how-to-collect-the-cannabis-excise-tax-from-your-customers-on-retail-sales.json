@@ -50,14 +50,6 @@
     "design_system_fields": {
       "template": "post"
     },
-    "event": null,
-    "custom_post_date": "",
-    "meta_": {
-      "0": "",
-      "custom_post_link": "",
-      "custom_post_date": "",
-      "custom_post_location": ""
-    },
     "og_meta": {
       "editor": {
         "platform": "WordPress",
@@ -194,6 +186,14 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://api.cannabis.ca.gov/2018/03/information-for-cannabis-retailers-how-to-collect-the-cannabis-excise-tax-from-your-customers-on-retail-sales/"
   }
 }

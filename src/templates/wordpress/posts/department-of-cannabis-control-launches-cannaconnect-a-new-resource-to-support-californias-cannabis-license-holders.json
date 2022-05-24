@@ -41,14 +41,6 @@
     "design_system_fields": {
       "template": "template-single-press-release"
     },
-    "event": null,
-    "custom_post_date": "",
-    "meta_": {
-      "0": "",
-      "custom_post_link": "",
-      "custom_post_date": "",
-      "custom_post_location": ""
-    },
     "og_meta": {
       "editor": {
         "platform": "WordPress",
@@ -96,6 +88,14 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders/",
     "media": [
       {

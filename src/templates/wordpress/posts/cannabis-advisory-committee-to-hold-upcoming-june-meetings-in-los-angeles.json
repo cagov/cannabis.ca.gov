@@ -57,14 +57,6 @@
     "design_system_fields": {
       "template": "press-release"
     },
-    "event": null,
-    "custom_post_date": "",
-    "meta_": {
-      "0": "",
-      "custom_post_link": "",
-      "custom_post_date": "",
-      "custom_post_location": ""
-    },
     "og_meta": {
       "editor": {
         "platform": "WordPress",
@@ -278,6 +270,14 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://api.cannabis.ca.gov/2019/06/cannabis-advisory-committee-to-hold-upcoming-june-meetings-in-los-angeles/"
   }
 }

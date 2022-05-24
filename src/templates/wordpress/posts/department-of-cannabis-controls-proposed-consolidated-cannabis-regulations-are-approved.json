@@ -48,14 +48,6 @@
     "design_system_fields": {
       "template": "post"
     },
-    "event": null,
-    "custom_post_date": "2021-09-29",
-    "meta_": {
-      "0": "2021-09-29",
-      "custom_post_link": "",
-      "custom_post_date": "2021-09-29",
-      "custom_post_location": ""
-    },
     "og_meta": {
       "editor": {
         "platform": "WordPress",
@@ -170,6 +162,14 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
+    "custom_post_date": "2021-09-29",
+    "meta_": {
+      "0": "2021-09-29",
+      "custom_post_link": "",
+      "custom_post_date": "2021-09-29",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/"
   }
 }
