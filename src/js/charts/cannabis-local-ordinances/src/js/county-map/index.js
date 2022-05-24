@@ -8,7 +8,6 @@ import drawCountyMap from "./drawMapCounty.js";
 import drawPlaceMap from "./drawMapPlace.js";
 import { precalculateActivitiesData } from "./processData.js";
 import {
-  updateHistory,
   updateMapJurisdictionDisplayFromHash,
   updateDisplaysFromInteraction,
 } from "./updateHistory.js";
@@ -32,6 +31,9 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     );
     this.togglePlacesEl = document.querySelector(
       '.toggle-button [data-target="toggle-cities"]'
+    );
+    this.comboboxPlacesEl = document.querySelector(
+      `[data-filter-type="places"] input`
     );
   }
 
@@ -132,15 +134,13 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     });
   }
 
+  /**
+   * Listen for "cavov-combox-updatede" event on the
+   * Places (Enter a city or county) filter.
+   */
   setUpPlacesFilterListeners() {
-    // Places
-    var setPlace = document.querySelector('.filter[data-filter-type="places"]');
-    setPlace.addEventListener("change", (e) => {
-      // if (e.detail && e.detail.hash === true){
-      //   this.setMapStateFromHash(e, this.localData);
-      // } else {
-      this.setMapState(e, this.localData);
-      // }
+    this.comboboxPlacesEl.addEventListener("cagov-combox-updated", (e) => {
+      this.setMapStateFromPlacesFilter(e, this.localData);
     });
   }
 
@@ -178,18 +178,15 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   /**
    * Function passed to tooltip as callback
-   * @param {*} data 
+   * @param {*} data
    */
   setUpTooltipUIListeners(data) {
     try {
       var tooltipLinkCounty = document.querySelector("a.loadCounty");
       tooltipLinkCounty.addEventListener("click", (e) => {
-        // console.log(e);
         data.setMapStateFromTooltip(e, data);
       });
-    } catch (error) {
-      // console.log(error);
-    }
+    } catch (error) {}
     try {
       var tooltipLinkPlace = document.querySelector("a.loadPlace");
       tooltipLinkPlace.addEventListener("click", (e) => {
@@ -236,30 +233,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
   setActivity(e, data) {
     let entry = e.target.value;
     data.activities = entry;
-    // if (data.jurisdiction === "County") {
-    //   updateHistory({
-    //     "data-jurisdiction": "County",
-    //     "data-geoid": data.geoid,
-    //     "data-county": data.selectedCounty,
-    //     title: "County view",
-    //     anchor: "#county-view",
-    //     paramString: `?county=${data.selectedCounty}&activity=${entry}`,
-    //   });
-    // } else if (data.jurisdiction === "Place") {
-    //   let currentPlace = this.getCurrentPlaceByGeoid(data, data.geoid);
-    //   updateHistory({
-    //     title: "Place view",
-    //     anchor: "#city-view",
-    //     paramString: `?city=${currentPlace["CA Places Key"]}&geoid=${data.geoid}&activity=${entry}`,
-    //   });
-    // } else if (data.jurisdiction === "Statewide") {
-    //   updateHistory({
-    //     title: "Statewide view",
-    //     "data-activity": entry,
-    //     anchor: "",
-    //     paramString: `?activity=${entry}`,
-    //   });
-    // }
     this.redraw();
   }
 
@@ -270,52 +243,23 @@ class CannabisLocalOrdinances extends window.HTMLElement {
         data.activities !== null &&
         data.activities !== "Any cannabis business";
 
-      // let {jurisdiction, geoid} = data;
-      // if (jurisdiction === "County") {
-      //   updateHistory({
-      //     "data-jurisdiction": "County",
-      //     "data-geoid": geoid,
-      //     "data-county": entry,
-      //     title: "County view",
-      //     anchor: "#county-view",
-      //     paramString: hasActivities
-      //       ? `?county=${entry}&activity=${data.activities}`
-      //       : `?county=${entry}`,
-      //   });
-      // } else if (jurisdiction === "Place") {
-      //   let currentPlace = this.getCurrentPlaceByGeoid(data, geoid);
-      //   updateHistory({
-      //     title: "Place view",
-      //     anchor: "#city-view",
-      //     paramString: hasActivities
-      //       ? `?city=${currentPlace["CA Places Key"]}&geoid=${geoid}&activity=${data.activities}`
-      //       : `?city=${currentPlace["CA Places Key"]}&geoid=${geoid}`,
-      //   });
-      // } else {
-      //   console.log("else", data.activities, hasActivities);
-      //   updateHistory({
-      //     title: "Statewide view",
-      //     "data-activity": data.activities,
-      //     anchor: "",
-      //     paramString: hasActivities ? `?activity=${data.activities}` : "",
-      //   });
-      // }
-
       this.setData(entry, this.localData);
       this.setDisplays(this.localData);
       updateDisplaysFromInteraction(this.localData);
     }
   }
 
-  setMapState(e, data) {
-    let entry = e.target.value;
-    let selectedIndex = e.target.selectedIndex;
-    let selectedEl = e.target.options[selectedIndex];
-    let geoid = selectedEl.getAttribute("data-geoid") || null;
-    let jurisdiction = selectedEl.getAttribute("data-jurisdiction") || "Statewide";
+  /**
+   * Get values from input element's attributes and send them to the map.
+   * @param {Event}  event  Combox has been updated.
+   */
+  setMapStateFromPlacesFilter(event) {
+    const entry = event.target.dataset.value;
+    const geoid = event.target.dataset.geoid || null;
+    const jurisdiction = event.target.dataset.jurisdiction || "Statewide";
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
-    this.updateMapState(entry, data);
+    this.updateMapState(entry, this.localData);
   }
 
   setMapStateFromTooltip(e, data) {
@@ -326,15 +270,6 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     data.jurisdiction = jurisdiction;
     data.selectedCounty = county;
     data.geoid = geoid;
-    let placesOptions = document.querySelectorAll(`.filter[data-filter-type="places"] select option`);
-    placesOptions.selected = false;
-    if (jurisdiction === "County") {
-      let countyOption = document.querySelectorAll(`.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`);
-      if (countyOption !== null) { countyOption.selected = true; }
-    } else if (jurisdiction === "Place") {
-      let placeOption = document.querySelector(`.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`);
-      if (placeOption !== null) {  placeOption.selected = true; }
-    }
     if (jurisdiction === "County") {
       data.self.updateMapState(county, data);
     } else if (jurisdiction === "Place") {

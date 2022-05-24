@@ -1,15 +1,17 @@
-# 1. Web component charts
+# 3. Autocomplete/combobox
 
-Date: 4/6/2022
+Date: 5/16/2022
 
 ## Status
-Starting 
+
+Starting
 
 ## Context
-Adding 
+
+Adding
 
 ## Decision
-Try establishing USWDS combo-box as base interaction code for the select box.
+
+Using [W3.org Combobox With Both List and Inline Autocomplete Example](https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/combobox-autocomplete-both.html) as a basis for the places select.
 
 ## Consequences
-
