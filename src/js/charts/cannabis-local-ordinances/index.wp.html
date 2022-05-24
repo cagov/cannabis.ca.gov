@@ -1,5 +1,5 @@
 <!-- wp:paragraph -->
-<p>Cannabis is legal in California. But cities and counties can prohibit cannabis businesses. This creates a patchwork of areas where it is and is not legal to establish a cannabis business. As a result, many people cannot get safe, tested cannabis products where they live. And the illegal market continues to thrive.</p>
+<p>Cannabis use is legal in California. But cities and counties can prohibit cannabis businesses, like retail. As a result, the state is a patchwork of areas where it is and is not legal to establish a cannabis business.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -15,35 +15,35 @@
         </div>
         <div class="tracker-box-wrapper">
           <div class="tracker-box">
-            <div class="value">38%</div>
+            <div class="value">56%</div>
             <div class="description">
-              of cities and counties allow retail cannabis business
+              of cities and counties do not allow any type of cannabis business
             </div>
-            <div class="total">(205 out of 539)</div>
+            <div class="total">(303 out of 539)</div>
           </div>
         </div>
         <div class="tracker-box-wrapper">
           <div class="tracker-box">
-            <div class="value">55%</div>
+            <div class="value">62%</div>
             <div class="description">
-              of Californians live where retail is allowed
+              of cities and counties do not allow any retail cannabis business
             </div>
-            <div class="total">(21,588,814 total)</div>
+            <div class="total">(334 out of 539)</div>
           </div>
         </div>
       </div>
 <!-- /wp:html -->
 
 <!-- wp:heading -->
-<h2>Find where cannabis businesses are legal</h2>
+<h2>Find what cannabis businesses are allowed where</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>This map shows which cities and counties allow cannabis businesses. To see which ones allow a specific type of business, use the “filter by type” dropdown. Select a specific county to view a detailed county map.</p>
+<p>This map shows which cities and counties license cannabis businesses. To see which ones license a specific type of business, use the “filter by business type” dropdown. Select a specific county to view a detailed county map.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-    <cagov-map-table id="cagov-map-table" data-jurisdiction="Statewide">
+<cagov-map-table id="cagov-map-table" data-jurisdiction="Statewide">
       <div class="map-header">
         <div class="map-breadcrumb">
           <span class="map-breadcrumb-item" data-active="false" data-jurisdiction="Statewide">
@@ -63,8 +63,8 @@
       <button class="filters-section-toggler">
         <span>Filters</span>
         <svg width="16" height="100%" viewBox="0 0 60 60" aria-hidden="true">
-          <line x1="5" y1="30" x2="55" y2="30" class="horizontal" />
-          <line x1="30" y1="5" x2="30" y2="55" class="vertical" />
+          <line x1="5" y1="30" x2="55" y2="30" class="horizontal"></line>
+          <line x1="30" y1="5" x2="30" y2="55" class="vertical"></line>
         </svg>
       </button>
       <div class="filters">
@@ -75,16 +75,14 @@
               <div class="toggle-button">
                 <label class="toggle" for="toggle-counties">
                   <span>Show counties</span>
-                  <input class="toggle__input" name="toggle-counties" type="checkbox" data-target="toggle-counties"
-                    checked="" id="toggle-counties" />
+                  <input class="toggle__input" name="toggle-counties" type="checkbox" data-target="toggle-counties" checked="" id="toggle-counties">
                   <div class="toggle__fill"></div>
                 </label>
               </div>
               <div class="toggle-button">
                 <label class="toggle" for="toggle-cities">
                   <span>Show cities</span>
-                  <input class="toggle__input" name="toggle-cities" type="checkbox" data-target="toggle-cities"
-                    checked="" id="toggle-cities" />
+                  <input class="toggle__input" name="toggle-cities" type="checkbox" data-target="toggle-cities" checked="" id="toggle-cities">
                   <div class="toggle__fill"></div>
                 </label>
               </div>
@@ -94,7 +92,7 @@
             <div class="filter-label">Filter by business type</div>
             <select>
               <!-- <option value="" selected disabled>Select activity type</option> -->
-              <option value="Any cannabis business" selected>Any cannabis business</option>
+              <option value="Any cannabis business" selected="">Any cannabis business</option>
               <option value="Retail">Retail</option>
               <option value="Distribution">Distribution</option>
               <option value="Manufacturing">Manufacturing</option>
@@ -104,14 +102,11 @@
           </div>
           <div class="filter" data-filter-type="places">
             <div class="filter-label">City or county</div>
-            <cagov-autocomplete data-field-selector="input[name=city-county-selector]"
-              data-field-label="label[for=city-county-selector]"
-              data-data-source="select[name=city-county-select-field]" data-select-callback="setPlace"
-              data-parent-container="cagov-map-table#cagov-map-table">
+            <cagov-autocomplete data-field-selector="input[name=city-county-selector]" data-field-label="label[for=city-county-selector]" data-data-source="select[name=city-county-select-field]" data-select-callback="setPlace" data-parent-container="cagov-map-table#cagov-map-table">
               <label class="hidden" for="city-county-selector">Enter a city or county</label>
               <div class="cagov-combo-box">
                 <select class="cagov-select" name="city-county-select-field">
-                  <option value="" data-jurisdiction="Statewide" selected>Enter a city or county</option>
+                  <option value="" data-jurisdiction="Statewide" selected="">Enter a city or county</option>
                   <option data-jurisdiction="County" value="Alameda">
                     Alameda County
                   </option>
@@ -802,11 +797,7 @@
           <div class="map-wrapper">
             <div class="map-legend"></div>
             <div class="map-component">
-              <cannabis-local-ordinances id="cannabis-local-ordinances-map"
-                data-county="https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg"
-                data-county-outlines="https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg"
-                data-places="https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg"
-                data-table-container="cagov-table-data[id=cannabis-local-ordinances-table]">
+              <cannabis-local-ordinances id="cannabis-local-ordinances-map" data-county="https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg" data-county-outlines="https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg" data-places="https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place.svg" data-table-container="cagov-table-data[id=cannabis-local-ordinances-table]">
               </cannabis-local-ordinances>
             </div>
           </div>
@@ -814,8 +805,7 @@
           <div class="data-table">
             <div class="table-data">
               <div role="region" aria-labelledby="caption" tabindex="0">
-                <cagov-table-data id="cannabis-local-ordinances-table"
-                  data-map-container="cannabis-local-ordinances[id=cannabis-local-ordinances-map]">
+                <cagov-table-data id="cannabis-local-ordinances-table" data-map-container="cannabis-local-ordinances[id=cannabis-local-ordinances-map]">
                 </cagov-table-data>
               </div>
             </div>
@@ -823,14 +813,10 @@
         </div>
         <div class="download">
           <div class="button">
-            <a href="https://headless.cannabis.ca.gov/assets/data/cannabis-legal-ordinancies.2022-02.csv" download>
+             <a href="https://headless.cannabis.ca.gov/assets/data/cannabis-local-ordinances.2022-02.csv" download="">
               <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M23.0829 8.80796C22.4749 8.04996 21.6409 7.36596 20.6579 7.06596C20.6579 6.84096 20.7329 6.60796 20.7329 6.30796C20.8079 5.47496 20.5079 4.25796 19.2159 3.34996C17.9239 2.44196 16.7159 2.44196 15.8829 2.66696C15.5829 2.74196 15.2749 2.89196 15.0499 2.96696C14.7499 2.66696 14.3669 2.20896 13.9169 1.83396C12.5499 0.700959 10.9589 0.316959 9.21694 0.541959C7.39994 0.766959 5.88394 1.59996 4.89194 2.89196C4.13394 3.87496 3.83394 5.01696 3.90894 6.14996C3.45094 6.37496 2.92594 6.68296 2.31694 7.13296C0.949943 8.19096 0.191943 9.63296 0.116943 11.3C0.116943 12.433 0.574943 13.5 1.40894 14.408C2.39194 15.466 3.83394 16.075 5.27594 16.075H6.33394C6.70894 16.075 7.01694 15.775 7.01694 15.392C7.01694 15.017 6.71694 14.709 6.33394 14.709H5.26694C4.20894 14.709 3.14194 14.251 2.38394 13.492C1.92594 13.034 1.47594 12.359 1.47594 11.367C1.47594 10.15 2.08394 9.09196 3.06794 8.40896C3.97594 7.72596 4.80994 7.42596 4.80994 7.42596L4.95994 7.35096C5.33494 7.27596 5.41794 7.12596 5.33494 6.74296V6.66796C5.18494 5.60996 5.40994 4.69296 6.01794 3.85996C6.70094 2.87696 7.90994 2.19296 9.35094 2.04296C10.6429 1.89296 11.8509 2.19296 12.9179 3.02596C13.7509 3.70896 14.1349 4.39296 14.1349 4.39296C14.1349 4.39296 14.2099 4.61796 14.2849 4.69296C14.3599 4.76796 14.6599 4.91796 14.8929 4.76796C15.1179 4.61796 15.1929 4.54296 15.1929 4.54296C15.1929 4.54296 16.7099 3.40996 18.3009 4.54296C18.9089 5.00096 19.2089 5.52596 19.2089 6.20996C19.2089 6.74296 18.9839 7.19296 18.9839 7.19296C18.9839 7.19296 18.9089 7.26796 18.8339 7.49296C18.7589 7.71796 18.7589 8.10096 19.2089 8.17596C19.2839 8.17596 19.5089 8.25096 19.5089 8.25096C20.4169 8.40096 21.2509 8.93396 21.7839 9.69296C22.3169 10.376 22.4669 11.21 22.3169 12.118C22.1669 13.026 21.6339 13.785 20.7249 14.243C19.9669 14.618 19.1329 14.776 18.5999 14.776H17.3829C17.0079 14.776 16.6999 15.076 16.6999 15.459C16.6999 15.834 16.9999 16.142 17.3829 16.142H18.5999C18.9749 16.142 20.1919 16.067 21.5579 15.384C22.8499 14.701 23.6079 13.642 23.8329 12.276C24.0749 11.009 23.8409 9.79296 23.0829 8.80896V8.80796Z"
-                  fill="#064E66"></path>
-                <path
-                  d="M15.025 16.3576C14.875 16.2076 14.567 16.1326 14.342 16.4326L12.825 18.0246C12.825 18.0246 12.825 17.4916 12.825 16.7326C12.825 16.5246 12.825 11.3576 12.825 9.20762C12.825 8.90762 12.65 8.80762 12.475 8.80762C12.3 8.80762 11.858 8.80762 11.692 8.80762C11.526 8.80762 11.309 8.89062 11.309 9.18262C11.309 10.5906 11.309 18.0246 11.309 18.0246L9.79199 16.4326C9.56699 16.2076 9.33399 16.2076 9.10899 16.3576L8.65099 16.8156C8.42599 17.0406 8.50099 17.3486 8.72599 17.4986L11.301 20.2316C11.451 20.3816 11.676 20.6066 12.059 20.6066C12.434 20.6066 12.667 20.3816 12.817 20.2316L15.392 17.4986C15.542 17.3486 15.617 16.9656 15.467 16.8156L15.025 16.3576Z"
-                  fill="#064E66"></path>
+                <path d="M23.0829 8.80796C22.4749 8.04996 21.6409 7.36596 20.6579 7.06596C20.6579 6.84096 20.7329 6.60796 20.7329 6.30796C20.8079 5.47496 20.5079 4.25796 19.2159 3.34996C17.9239 2.44196 16.7159 2.44196 15.8829 2.66696C15.5829 2.74196 15.2749 2.89196 15.0499 2.96696C14.7499 2.66696 14.3669 2.20896 13.9169 1.83396C12.5499 0.700959 10.9589 0.316959 9.21694 0.541959C7.39994 0.766959 5.88394 1.59996 4.89194 2.89196C4.13394 3.87496 3.83394 5.01696 3.90894 6.14996C3.45094 6.37496 2.92594 6.68296 2.31694 7.13296C0.949943 8.19096 0.191943 9.63296 0.116943 11.3C0.116943 12.433 0.574943 13.5 1.40894 14.408C2.39194 15.466 3.83394 16.075 5.27594 16.075H6.33394C6.70894 16.075 7.01694 15.775 7.01694 15.392C7.01694 15.017 6.71694 14.709 6.33394 14.709H5.26694C4.20894 14.709 3.14194 14.251 2.38394 13.492C1.92594 13.034 1.47594 12.359 1.47594 11.367C1.47594 10.15 2.08394 9.09196 3.06794 8.40896C3.97594 7.72596 4.80994 7.42596 4.80994 7.42596L4.95994 7.35096C5.33494 7.27596 5.41794 7.12596 5.33494 6.74296V6.66796C5.18494 5.60996 5.40994 4.69296 6.01794 3.85996C6.70094 2.87696 7.90994 2.19296 9.35094 2.04296C10.6429 1.89296 11.8509 2.19296 12.9179 3.02596C13.7509 3.70896 14.1349 4.39296 14.1349 4.39296C14.1349 4.39296 14.2099 4.61796 14.2849 4.69296C14.3599 4.76796 14.6599 4.91796 14.8929 4.76796C15.1179 4.61796 15.1929 4.54296 15.1929 4.54296C15.1929 4.54296 16.7099 3.40996 18.3009 4.54296C18.9089 5.00096 19.2089 5.52596 19.2089 6.20996C19.2089 6.74296 18.9839 7.19296 18.9839 7.19296C18.9839 7.19296 18.9089 7.26796 18.8339 7.49296C18.7589 7.71796 18.7589 8.10096 19.2089 8.17596C19.2839 8.17596 19.5089 8.25096 19.5089 8.25096C20.4169 8.40096 21.2509 8.93396 21.7839 9.69296C22.3169 10.376 22.4669 11.21 22.3169 12.118C22.1669 13.026 21.6339 13.785 20.7249 14.243C19.9669 14.618 19.1329 14.776 18.5999 14.776H17.3829C17.0079 14.776 16.6999 15.076 16.6999 15.459C16.6999 15.834 16.9999 16.142 17.3829 16.142H18.5999C18.9749 16.142 20.1919 16.067 21.5579 15.384C22.8499 14.701 23.6079 13.642 23.8329 12.276C24.0749 11.009 23.8409 9.79296 23.0829 8.80896V8.80796Z" fill="#064E66"></path>
+                <path d="M15.025 16.3576C14.875 16.2076 14.567 16.1326 14.342 16.4326L12.825 18.0246C12.825 18.0246 12.825 17.4916 12.825 16.7326C12.825 16.5246 12.825 11.3576 12.825 9.20762C12.825 8.90762 12.65 8.80762 12.475 8.80762C12.3 8.80762 11.858 8.80762 11.692 8.80762C11.526 8.80762 11.309 8.89062 11.309 9.18262C11.309 10.5906 11.309 18.0246 11.309 18.0246L9.79199 16.4326C9.56699 16.2076 9.33399 16.2076 9.10899 16.3576L8.65099 16.8156C8.42599 17.0406 8.50099 17.3486 8.72599 17.4986L11.301 20.2316C11.451 20.3816 11.676 20.6066 12.059 20.6066C12.434 20.6066 12.667 20.3816 12.817 20.2316L15.392 17.4986C15.542 17.3486 15.617 16.9656 15.467 16.8156L15.025 16.3576Z" fill="#064E66"></path>
               </svg>
               Download data
             </a>
@@ -841,93 +827,69 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>The Department of Cannabis Control (DCC) compiled this data in February 2022. The DCC reviewed city and county rules and websites to compile this data.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>If you’re a city or county official and think your data is not correct, email <a href="locals@cannabis.ca.gov">locals@cannabis.ca.gov</a>.</p>
+<p>The Department of Cannabis Control (DCC) compiled the data on this page in February 2022. The DCC reviewed city and county laws and websites. The DCC also contacted some cities and counties for this information. If you’re a city or county official and think your data is not correct, email <a href="locals@cannabis.ca.gov">locals@cannabis.ca.gov</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Why cannabis businesses are not legal everywhere</h2>
+<h2>Cannabis business rules are set locally</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The state allows these types of cannabis businesses to operate:</p>
+<p>Cannabis businesses are regulated in two ways:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Cultivation</li><li>Manufacturing</li><li>Testing laboratories</li><li>Distribution</li><li>Retail</li></ul>
+<ul><li>By the state, and</li><li>By their city or county.</li></ul>
 <!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>But each city or county can decide whether to allow these business types in their area. They can:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Allow all cannabis businesses</li><li>Allow some types and prohibit others</li><li>Prohibit all cannabis businesses</li></ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>In fact, 56% of cities and counties prohibit all cannabis businesses. And 62% prohibit cannabis retailers. Many cities and counties made these prohibitions after cannabis use became legal.</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Why cities may have different rules than their county</h3>
+<h3>State licensing</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Counties can decide which types of cannabis businesses they allow or prohibit. But county rules only apply to the unincorporated parts of the county. They do not apply to incorporated cities that are within the county.&nbsp;</p>
+<p>The state issues licenses based on the type of activity that a business performs. <a href="https://cannabis.ca.gov/applicants/license-types/">State cannabis license types</a> include:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Incorporated cities can decide which types they allow or prohibit within their city. Their rules do not need to align with the rules of the county that they are in.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Some cities and counties have not made their own rules about cannabis businesses. These cities and counties follow state rules.</p>
-<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul><li>Cultivation</li><li>Manufacturing</li><li>Testing laboratories</li><li>Distribution</li><li>Retail</li><li>Microbusinesses</li></ul>
+<!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
-<h3>More limits on cannabis businesses</h3>
+<h3>City and county rules</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Some cities and counties allow a type of cannabis business, but also put restrictions on it. For example, they may limit the number of businesses that can get a license.&nbsp;</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Due to these limits, there are less than 4 retail licenses per 100K people in California. By comparison, there are:</p>
+<p>Each city or county can decide whether to license cannabis businesses in their area. They can:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>18 licensed retailers per 100K people in both Oregon and Colorado</li><li>20 licensed retailers per 100K people in Alaska</li></ul>
+<ul><li>License all cannabis businesses</li><li>License some types and prohibit others</li><li>Prohibit all cannabis businesses</li></ul>
 <!-- /wp:list -->
 
-<!-- wp:paragraph -->
-<p>The DCC compiled these figures in March 2022 using data available online. </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2>How restrictions on cannabis businesses affect Californians</h2>
+<!-- wp:heading {"level":4} -->
+<h4>A city may have different rules than its county</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Two-thirds of cities and counties prohibit all cannabis retail. These communities miss out on economic development and job creation.&nbsp;</p>
+<p>Counties can decide which types of cannabis businesses they license or prohibit. But county rules only apply to the unincorporated parts of the county. They do not apply to incorporated cities that are within the county.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Almost half of Californians cannot buy cannabis products that:</p>
+<p>Incorporated cities can decide which types they license or prohibit within their city. Their rules do not need to align with the rules of the county where they're located.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4>More limits on cannabis businesses</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Some cities and counties license a type of cannabis business, but also put restrictions on it. For example, they may limit the number of businesses that can get a license. Due to these limits, there are less than 4.3 retail licenses per 100K people in California.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you're interested in starting a cannabis business, you can:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Are sold by a local licensed retailer</li><li>Meet strict requirements for safety</li><li>Have passed testing for harmful contaminants</li><li>Are marketed or sold in ways that do not put children at risk</li></ul>
+<ul><li>Contact your city or county to learn about their rules</li><li>Find out <a href="https://cannabis.ca.gov/applicants/how-to-apply-renew/#how-to-apply-for-a-license">how to apply for a state license</a></li><li>Review the <a href="https://cannabis.ca.gov/applicants/application-resources/">resources to help you apply for a state license</a></li></ul>
 <!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>And people who need it for a medical condition cannot get it from a local licensed business.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>When people cannot buy it from a licensed business, they may turn to the illegal market to meet their needs. As a result, the illegal market continues to thrive. And licensed businesses struggle to stay afloat amid competition from the illegal market.</p>
-<!-- /wp:paragraph -->
