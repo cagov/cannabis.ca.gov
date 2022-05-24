@@ -442,11 +442,15 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     );
     let tooltipElement = document.querySelector(this.tooltipElement);
     if (jurisdiction === "County") {
+      data.showCounties = true;
+      data.showPlaces = true;
       this.setBreadcrumb(data, "County", selectedCounty);
       containerElement.setAttribute("data-jurisdiction", "County");
       tableContainerElement.updateTable(data, "County", selectedCounty);
       tooltipElement.style.height = 0;
     } else if (jurisdiction === "Place") {
+      data.showCounties = true;
+      data.showPlaces = true;
       this.setBreadcrumb(data, "Place", selectedPlaceValue, geoid);
       containerElement.setAttribute("data-jurisdiction", "Place");
       tableContainerElement.updateTable(
