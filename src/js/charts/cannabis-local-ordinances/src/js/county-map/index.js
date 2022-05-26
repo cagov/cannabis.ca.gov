@@ -43,13 +43,13 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       this.svgFiles = {
         county:
           this.dataset.county ||
-          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/cnty19_1.svg",
+          "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/cnty19_1.svg",
         countyOutlines:
           this.dataset.countyOutlines ||
-          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/ca_counties_tiger2016.svg",
+          "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/ca_counties_tiger2016.svg",
         places:
           this.dataset.places ||
-          "https://headless.cannabis.ca.gov/wp-uploads/2022/04/tl_2016_06_place_minimal.svg",
+          "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/tl_2016_06_place_minimal.svg",
       };
 
       this.tableContainer = this.dataset.tableContainer;
@@ -436,6 +436,11 @@ class CannabisLocalOrdinances extends window.HTMLElement {
       selectedCounty,
       selectedPlaceValue,
     } = data;
+    data.showCounties = true;
+    data.showPlaces = true;
+    this.togglePlacesEl.checked = true;
+    this.toggleCountiesEl.checked = true;
+
     let containerElement = document.querySelector(this.containerElement);
     let tableContainerElement = document.querySelector(
       data.self.tableContainer

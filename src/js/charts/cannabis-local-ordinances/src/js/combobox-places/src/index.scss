@@ -1,0 +1,120 @@
+/**
+ * Code derived from https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/combobox-1.0.css.
+ * and  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css 
+ */
+
+$gray-300: #e1e0e3;
+$gray-300-var: var(--gray-300, $gray-300);
+
+$gray-700: #a09fa7;
+$gray-700-var: var(--gray-700, $gray-700);
+
+$primary-hover: #043747;
+$primary-hover-var: var(--primary-hover-color, $primary-hover);
+
+$primary-light: #518394;
+$primary-light-var: var(--primary-light-color, $primary-light);
+
+$secondary-lightest: #c1c9c0;
+$secondary-lightest-var: var(--secondary-lightest-color, $secondary-lightest);
+
+$white: #fff;
+$white-var: var(--white, $white);
+
+.cagov-combobox-places {
+  position: relative;
+
+  .combobox-places--label {
+    display: block;
+  }
+
+  .combobox-places--group {
+    position: relative;
+    width: 260px;
+
+    input {
+      background: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='11' height='7' class='expanded-menu-section-header-arrow-svg' viewBox='0 0 11 7' fill='%23000000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15596 0.204797L5.49336 5.06317L9.8545 0.204797C10.4293 -0.452129 11.4124 0.625368 10.813 1.28143L5.90083 6.82273C5.68519 7.05909 5.32606 7.05909 5.1342 6.82273L0.174341 1.28143C-0.400433 0.6245 0.581838 -0.452151 1.15661 0.204797H1.15596Z'%3E%3C/path%3E%3C/svg%3E")
+        no-repeat;
+      background-position: right 8px top 50%;
+      display: inline;
+      height: 48px;
+      width: 100%;
+    }
+
+    &:hover input {
+      outline: 1px solid;
+      outline-color: $primary-hover-var;
+    }
+  }
+
+  ul[role="listbox"] {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 77px;
+    list-style: none;
+    background-color: $white-var;
+    display: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 24em;
+    width: 260px;
+    overflow: scroll;
+    padding: 16px 0;
+    border-radius: 5px;
+    z-index: 200;
+  }
+
+  ul[role="listbox"] li[role="option"] {
+    margin: 0;
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  [role="listbox"].focus {
+    border: 1px solid $secondary-lightest-var;
+  }
+
+  [role="listbox"] [role="option"] {
+    display: block;
+    margin: 0.25em;
+    padding: 0;
+    font-size: 100%;
+  }
+
+  [role="listbox"] [role="option"][aria-selected="true"] {
+    background-color: $secondary-lightest-var;
+  }
+
+  [role="listbox"].focus [role="option"][aria-selected="true"] {
+    background-color: $secondary-lightest-var;
+    border-color: $primary-light-var;
+  }
+
+  [role="listbox"] li[role="option"]:hover {
+    background-color: $secondary-lightest-var;
+  }
+
+  // Clear button.
+  .combobox-places--button {
+    border: 0;
+    background: none;
+    position: absolute;
+    right: 23px;
+    top: 5px;
+    height: 38px;
+    width: 36px;
+    padding: 0;
+
+    svg {
+      height: 16px;
+      width: 16px;
+      fill: $gray-700-var;
+    }
+
+    &:hover {
+      svg {
+        fill: $gray-300-var;
+      }
+    }
+  }
+}
