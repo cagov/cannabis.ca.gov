@@ -1,5 +1,5 @@
 import countyList from "../../../static/assets/data/countyList.json";
-import dataPlaces from "../../../static/assets/data/draft-cannabis-local-ordinances-interactive.2022-01-22.json";
+import dataPlaces from "../../../static/assets/data/cannabis-local-ordinances-interactive.2022-01-22.json";
 import mapMessages from "../../../static/assets/data/mapMessages.json";
 import config from "../../../static/assets/data/cannabisLocalOrdinances.json";
 import template from "./template.js";
