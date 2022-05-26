@@ -111,57 +111,57 @@ function chartLegendCounty(data, props, renderMode) {
   let showUnincorporated = true;
 
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
-    console.log("a 1", allowed);
+    // console.log("a 1", allowed);
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 1 && countyData.prohibited > 1) {
-    console.log("a 1");
+    // console.log("a 1");
     allowed = singleAllowed;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 1) {
-    console.log("a 1");
+    // console.log("a 1");
     prohibited = singleProhibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited > 1) {
-    console.log("c 4");
+    // console.log("c 4");
     allowed = "";
     showAllowed = false;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
-    console.log("c 10");
+    // console.log("c 10");
     allowed = "";
     prohibited = singleProhibited;
     showAllowed = false;
     showProhibited = true;
   } else if (countyData.allowed === 1 && countyData.prohibited === 0) {
-    console.log("c 11");
+    // console.log("c 11");
     allowed = singleAllowed;
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
   } else if (countyData.allowed === 1 && countyData.prohibited === 1) {
-    console.log("c 12");
+    // console.log("c 12");
     allowed = singleAllowed;
     prohibited = singleProhibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
-    console.log("a 2");
+    // console.log("a 2");
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
   } else if (countyData.allowed === 0 && countyData.prohibited === 0) {
-    console.log("c 6");
+    // console.log("c 6");
     if (isAllowed) {
-      console.log("c 7");
+      // console.log("c 7");
       allowed = allAllowedNoPlaces;
       prohibited = "";
       showProhibited = false;
       showUnincorporated = false;
     } else {
-      console.log("c 8");
+      // console.log("c 8");
       allowed = "";
       prohibited = allProhibitedNoPlaces;
       showUnincorporated = false;
@@ -342,7 +342,7 @@ function getActivityPercentagesStatewide(data) {
         countValues.allowed = countValues.allowed + 1;
       }
     } else {
-      console.log("SW", item[mode]);
+      // console.log("SW", item[mode]);
       if (item[mode] === "Prohibited") {
         countValues.prohibited = countValues.prohibited + 1;
       } else if (item[mode] !== "Prohibited") {
