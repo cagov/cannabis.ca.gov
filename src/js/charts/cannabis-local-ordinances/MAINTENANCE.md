@@ -9,7 +9,7 @@ Assets uploaded to WordPress include:
     - Tracker box CSS
     - IE overrides
 - A named and numbered JavaScript bundle of all of the interactive and supporting web components. 
-    - Number should match settings in package.json.
+    - Number should match settings in `package.json`.
 - SVG and CSV files uploaded through WordPress media interface. 
     * The ca-design-system-gutenberg-blocks plugin includes [code](https://github.com/cagov/ca-design-system-gutenberg-blocks/blob/main/includes/publishing/headless_mime_types.php) that allows editors authorized to upload files to upload SVG, CSV and JSON files.
     - If Excel (.xls) files are needed this support will need to be enabled and updated in the plugin with a hotfix.

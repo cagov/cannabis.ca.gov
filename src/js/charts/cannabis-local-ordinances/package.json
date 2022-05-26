@@ -8,7 +8,7 @@
     "start": "npm run build && http-server ./build --port 3000",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
-    "build:bundle": "npm run build && cp build/bundle.js static/assets/cannabis-local-ordinances-data-tool-bundle.1.0.1.js",
+    "build:bundle": "npm run build && cp build/bundle.js static/assets/cannabis-local-ordinances-data-tool-bundle.1.0.1.js && npm run build",
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "start:dev": "webpack-dev-server --mode development --hot"
