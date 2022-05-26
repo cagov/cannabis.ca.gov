@@ -177,7 +177,7 @@ const calculatePositionOverShape = (m, s, quadrant) => {
   let tooltipX = s.shapeX;
   let tooltipY = s.shapeY;
 
-  console.log("CPS");
+  // console.log("CPS");
   return {
     x: m.parentBBox.left + window.scrollX,
     y: m.parentBBox.top + window.scrollY,

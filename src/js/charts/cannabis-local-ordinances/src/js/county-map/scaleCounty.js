@@ -60,7 +60,7 @@ const scaleCounty = (
     maxBBox.left = left > maxBBox.left ? left : maxBBox.left;
   });
 
-  console.log(maxBBox);
+  // console.log(maxBBox);
   // Figure out what scale this shape is at and where it's located.
   var dx = bbox.width - bbox.x,
     dy = bbox.height - bbox.y,
