@@ -36,14 +36,7 @@ Assets uploaded to WordPress include:
 - **Manually test** the changes in the WordPress staging environment on Pantheon
     - Log in to: api.cannabis.ca.gov
         - Request access from [Office of Digital Innovation](https://digital.ca.gob) Engineering team.
-    - Upload files in theme settings at [https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options](https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options) under JS and CSS (as needed).
-    
-    ![Screen Shot 2022-05-26 at 6.02.45 AM.png](Maintenance%20e5106c631ccb41b8a97cd98c19a488b1/Screen_Shot_2022-05-26_at_6.02.45_AM.png)
-    
-    ![Screen Shot 2022-05-26 at 6.03.51 AM.png](Maintenance%20e5106c631ccb41b8a97cd98c19a488b1/Screen_Shot_2022-05-26_at_6.03.51_AM.png)
-    
-    ![Screen Shot 2022-05-26 at 6.04.16 AM.png](Maintenance%20e5106c631ccb41b8a97cd98c19a488b1/Screen_Shot_2022-05-26_at_6.04.16_AM.png)
-    
+    - Upload files in theme settings at [https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options](https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options) under JS and CSS (as needed).    
     - Ensure that the theme version enabled matches production (currently CAWeb 1.6.2, [cannabis.ca.gov](http://cannabis.ca.gov) website. Contact CAWeb publishing if you have any questions.
     - Note that the Divi dependency was patched and disconnected for [Pantheon staging environment](https://github.com/cagov/pantheon-mirror-cannabis-ca-gov/pull/new/caweb_publishing_clone). 
         - Files in this clone need to be publishing to `master` branch and pushed into Pantheon git environment in order to actually deploy code to server. 
