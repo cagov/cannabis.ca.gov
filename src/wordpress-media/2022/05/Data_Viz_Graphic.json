@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "created_date": "2022-05-26T12:17:31",
+    "updated_date": "2022-05-26T12:19:59",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10544",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10544,
+    "date": "2022-05-26T05:17:31",
+    "date_gmt": "2022-05-26T12:17:31",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg",
+    "modified": "2022-05-26T05:19:59",
+    "modified_gmt": "2022-05-26T12:19:59",
+    "slug": "data_viz_graphic",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/data_viz_graphic/",
+    "title": "Data_Viz_Graphic",
+    "author": "Chach",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      804
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg'><img width=\"576\" height=\"384\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-576x384.jpeg\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis Control California. Map of California with different regions colored in orange and green.\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-576x384.jpeg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-768x512.jpeg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg 1024w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Department of Cannabis Control California. Map of California with different regions colored in orange and green.",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1024,
+      "height": 683,
+      "file": "2022/05/Data_Viz_Graphic.jpeg",
+      "sizes": {
+        "medium": {
+          "file": "Data_Viz_Graphic-576x384.jpeg",
+          "width": 576,
+          "height": 384,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-576x384.jpeg"
+        },
+        "thumbnail": {
+          "file": "Data_Viz_Graphic-376x376.jpeg",
+          "width": 376,
+          "height": 376,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-376x376.jpeg"
+        },
+        "medium_large": {
+          "file": "Data_Viz_Graphic-768x512.jpeg",
+          "width": 768,
+          "height": 512,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-768x512.jpeg"
+        },
+        "full": {
+          "file": "Data_Viz_Graphic.jpeg",
+          "width": 1024,
+          "height": 683,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/05/Data_Viz_Graphic.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg",
+        "file": "Data_Viz_Graphic.jpeg",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/05/Data_Viz_Graphic-768x512.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-768x512.jpeg",
+        "file": "Data_Viz_Graphic-768x512.jpeg",
+        "width": 768,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-768x512.jpeg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/05/Data_Viz_Graphic-576x384.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-576x384.jpeg",
+        "file": "Data_Viz_Graphic-576x384.jpeg",
+        "width": 576,
+        "height": 384,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-576x384.jpeg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/05/Data_Viz_Graphic-376x376.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-376x376.jpeg",
+        "file": "Data_Viz_Graphic-376x376.jpeg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic-376x376.jpeg"
+      }
+    ],
+    "path": "2022/05/Data_Viz_Graphic.jpeg"
+  }
+}
