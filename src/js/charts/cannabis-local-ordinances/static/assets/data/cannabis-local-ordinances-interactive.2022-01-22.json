@@ -92,14 +92,14 @@
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Prohibited",
       "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Allowed",
-      "Testing": "Allowed",
-      "Manufacturing": "Allowed",
-      "Cultivation": "Allowed",
-      "Are all CCA activites prohibited?": "No",
+      "Distribution": "Prohibited",
+      "Testing": "Prohibited",
+      "Manufacturing": "Prohibited",
+      "Cultivation": "Prohibited",
+      "Are all CCA activites prohibited?": "Yes",
       "Is all retail prohibited?": "Yes",
-      "CCA Prohibited by County": "No",
-      "Updated": "2022-01-22"
+      "CCA Prohibited by County": "Yes",
+      "Updated": "2022-05-31"
    },
    "Contra Costa County": {
       "CA Places Key": "",
