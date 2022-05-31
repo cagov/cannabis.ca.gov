@@ -116,13 +116,20 @@ function getActivityStatusColor(data, mode, values, renderMode = "County") {
   switch (mode) {
     case "Any cannabis business":
       return getAllActivities(data, mode, values, renderMode);
-    case "Retail":
+    case "Retail (Storefront)":
       // True === Yes it's prohibited
       if (getRetailAllowed(data, mode, values, renderMode)) {
         return data.mapStatusColors["No"]; // Allowed
       } else {
         return data.mapStatusColors["Yes"]; // Prohibited
       }
+    case "Retail (Delivery)":
+        // True === Yes it's prohibited
+        if (getRetailAllowed(data, mode, values, renderMode)) {
+          return data.mapStatusColors["No"]; // Allowed
+        } else {
+          return data.mapStatusColors["Yes"]; // Prohibited
+        } 
     case "Distribution":
       if (getDistributionAllowed(data, mode, values, renderMode)) {
         return data.mapStatusColors["No"]; // Allowed
@@ -196,7 +203,6 @@ function getDistributionAllowed(data, mode, values, renderMode) {
   let value = values["Distribution"];
   if (
     value === "Allowed" ||
-    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -210,7 +216,6 @@ function getDistributionAllowed(data, mode, values, renderMode) {
 function getManufacturingAllowed(data, mode, values, renderMode) {
   let value = values["Manufacturing"];
   if (
-    value === "Allowed" ||
     value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
@@ -226,7 +231,6 @@ function getCultivationAllowed(data, mode, values, renderMode) {
   let value = values["Cultivation"];
   if (
     value === "Allowed" ||
-    value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -240,7 +244,6 @@ function getCultivationAllowed(data, mode, values, renderMode) {
 function getTestingAllowed(data, mode, values, renderMode) {
   let value = values["Testing"];
   if (
-    value === "Allowed" ||
     value === "Allowed" ||
     value === "Limited-Medical Only"
   ) {
@@ -335,10 +338,10 @@ function groupAllowedActivities(place, activities, item, getID) {
         placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
       }
 
-      activities["Retail: Storefront"][item["Retail: Storefront"]].push(
+      activities["Retail (Storefront)"][item["Retail (Storefront)"]].push(
         placeLabel
       );
-      activities["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
+      activities["Retail: (Delivery)"][item["Retail: (Delivery)"]].push(
         placeLabel
       );
       activities["Distribution"][item["Distribution"]].push(placeLabel);
@@ -368,10 +371,10 @@ function groupAllowedActivities(place, activities, item, getID) {
           placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
         }
   
-        activities.county["Retail: Storefront"][item["Retail: Storefront"]].push(
+        activities.county["Retail (Storefront)"][item["Retail (Storefront)"]].push(
           placeLabel
         );
-        activities.county["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
+        activities.county["Retail: (Delivery)"][item["Retail: (Delivery)"]].push(
           placeLabel
         );
         activities.county["Distribution"][item["Distribution"]].push(placeLabel);
@@ -394,10 +397,10 @@ function rollupAllowedActivities(countyList, county) {
     let data = activities;
 
     let counts = {
-      "Retail: Storefront": Object.assign({}, activities["Retail: Storefront"]),
-      "Retail: Non-Storefront": Object.assign(
+      "Retail (Storefront)": Object.assign({}, activities["Retail (Storefront)"]),
+      "Retail: (Delivery)": Object.assign(
         {},
-        activities["Retail: Non-Storefront"]
+        activities["Retail: (Delivery)"]
       ),
       Distribution: Object.assign({}, activities["Distribution"]),
       Manufacturing: Object.assign({}, activities["Manufacturing"]),
@@ -446,13 +449,13 @@ function rollupAllowedActivities(countyList, county) {
 
 function precalculateActivitiesDataSchema() {
   return {
-    "Retail: Storefront": {
+    "Retail (Storefront)": {
       Allowed: [],
       Limited: [],
       "Limited-Medical Only": [],
       Prohibited: [],
     },
-    "Retail: Non-Storefront": {
+    "Retail: (Delivery)": {
       Allowed: [],
       Limited: [],
       "Limited-Medical Only": [],

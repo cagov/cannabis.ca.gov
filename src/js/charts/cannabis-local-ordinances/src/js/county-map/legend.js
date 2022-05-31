@@ -335,13 +335,15 @@ function getActivityPercentagesStatewide(data) {
       } else if (item["Are all CCA activites prohibited?"] === "No") {
         countValues.allowed = countValues.allowed + 1;
       }
-    } else if (mode === "Retail") {
-      if (item["Is all retail prohibited?"] === "Yes") {
-        countValues.prohibited = countValues.prohibited + 1;
-      } else if (item["Is all retail prohibited?"] === "No") {
-        countValues.allowed = countValues.allowed + 1;
-      }
-    } else {
+    } 
+    // else if (mode === "Retail") {
+    //   if (item["Is all retail prohibited?"] === "Yes") {
+    //     countValues.prohibited = countValues.prohibited + 1;
+    //   } else if (item["Is all retail prohibited?"] === "No") {
+    //     countValues.allowed = countValues.allowed + 1;
+    //   }
+    // } 
+    else {
       // console.log("SW", item[mode]);
       if (item[mode] === "Prohibited") {
         countValues.prohibited = countValues.prohibited + 1;
@@ -404,17 +406,19 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
       } else if (countyData["Are all CCA activites prohibited?"] === "Yes" ) {
         countValues.countyProhibited = 1;
       }
-    } else if (mode === "Retail") {
+    } 
+    // else if (mode === "Retail") {
 
-      countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
-      countValues.allowed = item["Is all retail prohibited?"]["No"].length;
-      if (countyData["Is all retail prohibited?"] === "No" ) {
-        countValues.countyAllowed = 1;
-      } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
-        countValues.countyProhibited = 1;
-      }
+    //   countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
+    //   countValues.allowed = item["Is all retail prohibited?"]["No"].length;
+    //   if (countyData["Is all retail prohibited?"] === "No" ) {
+    //     countValues.countyAllowed = 1;
+    //   } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
+    //     countValues.countyProhibited = 1;
+    //   }
 
-    } else {
+    // } 
+    else {
       // if (item[mode] === "Prohibited") {
       countValues.prohibited = item[mode]["Prohibited"].length;
       // } else if (item[mode] !== "Prohibited") {
@@ -469,13 +473,15 @@ function getActivityPercentagesPlace(data) {
       } else if (item["Are all CCA activites prohibited?"] === "No") {
         return true;
       }
-    } else if (mode === "Retail") {
-      if (item["Is all retail prohibited?"] === "Yes") {
-        return false;
-      } else if (item["Is all retail prohibited?"] === "No") {
-        return true;
-      }
-    } else {
+    } 
+    // else if (mode === "Retail") {
+    //   if (item["Is all retail prohibited?"] === "Yes") {
+    //     return false;
+    //   } else if (item["Is all retail prohibited?"] === "No") {
+    //     return true;
+    //   }
+    // } 
+    else {
       if (item[mode] === "Prohibited") {
         // console.log("f", mode);
         return false;

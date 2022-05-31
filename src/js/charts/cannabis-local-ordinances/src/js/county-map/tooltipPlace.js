@@ -192,15 +192,17 @@ function getActivityPercentages(data, props) {
       parseFloat(
         activityCountValues["Are all CCA activites prohibited?"]["Yes"]
       ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
-  } else if (mode === "Retail") {
-    percentageAllowed =
-      parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
-      parseFloat(data.countyList[name].activities["Datasets for County"]);
+  } 
+  // else if (mode === "Retail") {
+  //   percentageAllowed =
+  //     parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
+  //     parseFloat(data.countyList[name].activities["Datasets for County"]);
 
-    percentageProhibited =
-      parseFloat(activityCountValues["Is all retail prohibited?"]["Yes"]) /
-      parseFloat(data.countyList[name].activities["Datasets for County"]);
-  } else {
+  //   percentageProhibited =
+  //     parseFloat(activityCountValues["Is all retail prohibited?"]["Yes"]) /
+  //     parseFloat(data.countyList[name].activities["Datasets for County"]);
+  // } 
+  else {
     let allowedValues =
       activityCountValues[mode]["Allowed"] +
       activityCountValues[mode]["Allowed"] +

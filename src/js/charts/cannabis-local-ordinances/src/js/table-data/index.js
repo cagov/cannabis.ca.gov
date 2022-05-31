@@ -112,8 +112,8 @@ class CAGovTableData extends window.HTMLElement {
       "County",
       "County label",
       "Jurisdiction Type",
-      "Retail: Storefront",
-      "Retail: Non-Storefront",
+      "Retail (Storefront)",
+      "Retail: (Delivery)",
       "Distribution",
       "Testing",
       "Manufacturing",
@@ -169,9 +169,9 @@ class CAGovTableData extends window.HTMLElement {
           let fieldLabel = fields[key];
           if (fields[key] === "Distribution") {
             fieldLabel = "Distribution";
-          } else if (fields[key] === "Retail: Storefront") {
+          } else if (fields[key] === "Retail (Storefront)") {
             fieldLabel = "Retail (storefront)";
-          } else if (fields[key] === "Retail: Non-Storefront") {
+          } else if (fields[key] === "Retail: (Delivery)") {
             fieldLabel = "Retail (delivery)";
           } else if (fields[key] === "Manufacturing") {
             fieldLabel = "Manufacturing";

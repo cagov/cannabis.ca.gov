@@ -72,9 +72,9 @@ const htmlTable = (fields, records) => {
         let fieldLabel = fields[key];
         if (fields[key] === "Distribution") {
           fieldLabel = "Distribution";
-        } else if (fields[key] === "Retail: Storefront") {
+        } else if (fields[key] === "Retail (Storefront)") {
           fieldLabel = "Retail (storefront)";
-        } else if (fields[key] === "Retail: Non-Storefront") {
+        } else if (fields[key] === "Retail: (Delivery)") {
           fieldLabel = "Retail (delivery)";
         } else if (fields[key] === "Manufacturing") {
           fieldLabel = "Manufacturing";
@@ -166,8 +166,8 @@ let fields = [
   "County",
   "County label",
   "Jurisdiction Type",
-  "Retail: Storefront",
-  "Retail: Non-Storefront",
+  "Retail (Storefront)",
+  "Retail: (Delivery)",
   "Distribution",
   "Testing",
   "Manufacturing",
