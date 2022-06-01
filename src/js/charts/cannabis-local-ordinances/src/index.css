@@ -616,7 +616,6 @@ cagov-map-table[data-jurisdiction="Place"]
   z-index: 2000;
 }
 
-
 @import "./js/tracker-boxes/index.css";
 @import "./js/table-data/index.css";
-/* @import "./js/combobox-places/src/css/index.css"; */
+@import "./js/combobox-places/src/css/index.css";
