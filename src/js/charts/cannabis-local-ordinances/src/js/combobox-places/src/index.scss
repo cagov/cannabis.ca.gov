@@ -12,7 +12,6 @@ $vars: (
   primary-light-color: #518394,
   secondary-lightest-color: #c1c9c0,
   white: #fff,
-  font-weight-5: 500,
 );
 
 @function cagov-vars($name) {
@@ -66,7 +65,6 @@ $vars: (
     margin: 0;
     padding: 8px;
     font-size: 18px;
-    font-weight: cagov-vars(font-weight-5);
   }
 
   [role="listbox"].focus {

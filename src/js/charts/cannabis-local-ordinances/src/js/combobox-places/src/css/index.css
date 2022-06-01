@@ -43,7 +43,6 @@
   margin: 0;
   padding: 8px;
   font-size: 18px;
-  font-weight: var(--font-weight-5, 500);
 }
 .cagov-combobox-places [role=listbox].focus {
   border: 1px solid var(--secondary-lightest-color, #c1c9c0);
