@@ -5,7 +5,7 @@
  * @param {string} tooltipElement
  * @returns {string} - HTML markup
  */
-function chartTooltipPlace(data, props, options) {
+ function chartTooltipPlace(data, props, options) {
   let { name, geoid } = options;
   let message = placeStatusTooltipMessage(data, props, options);
   let currentPlaceData = data.dataPlaces[options.name];
@@ -205,7 +205,7 @@ function getActivityPercentages(data, props) {
   else {
     let allowedValues =
       activityCountValues[mode]["Allowed"] +
-      activityCountValues[mode]["Allowed"] +
+      activityCountValues[mode]["Limited"] +
       activityCountValues[mode]["Limited-Medical Only"];
 
     percentageAllowed =

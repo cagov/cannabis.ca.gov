@@ -336,7 +336,7 @@ function getActivityPercentagesStatewide(data) {
         countValues.allowed = countValues.allowed + 1;
       }
     } 
-    // else if (mode === "Retail") {
+    // else if (mode === "Retail (Storefront)" || mode === "Retail (Delivery)") {
     //   if (item["Is all retail prohibited?"] === "Yes") {
     //     countValues.prohibited = countValues.prohibited + 1;
     //   } else if (item["Is all retail prohibited?"] === "No") {
@@ -344,7 +344,6 @@ function getActivityPercentagesStatewide(data) {
     //   }
     // } 
     else {
-      // console.log("SW", item[mode]);
       if (item[mode] === "Prohibited") {
         countValues.prohibited = countValues.prohibited + 1;
       } else if (item[mode] !== "Prohibited") {
@@ -359,7 +358,6 @@ function getActivityPercentagesStatewide(data) {
   countValues.prohibitedPercentage = formatPercent(
     countValues.prohibited / countValues.count
   );
-
   return countValues;
 }
 

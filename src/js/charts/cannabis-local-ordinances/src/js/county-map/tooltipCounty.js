@@ -1,4 +1,3 @@
-import { chartLegendCounty } from "./legend.js";
 /**
  * Build County tooltip HTML
  * @param {object} data
@@ -6,13 +5,9 @@ import { chartLegendCounty } from "./legend.js";
  * @param {string} tooltipElement
  * @returns {string} - HTML markup
  */
-function chartTooltipCounty(data, props) {
+ function chartTooltipCounty(data, props) {
   let message = countyStatusTooltipMessage(data, props);
   let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
-          <div class="close-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6.43201 17.568C6.74401 17.88 7.25201 17.88 7.56501 17.568L12 13.133L16.435 17.568C16.747 17.88 17.255 17.88 17.568 17.568C17.881 17.256 17.88 16.748 17.568 16.435L13.133 12L17.568 7.565C17.88 7.253 17.88 6.745 17.568 6.432C17.256 6.119 16.748 6.12 16.435 6.432L12 10.867L7.56501 6.432C7.25301 6.12 6.74501 6.12 6.43201 6.432C6.11901 6.744 6.12001 7.252 6.43201 7.565L10.867 12L6.43201 16.435C6.12001 16.747 6.12001 17.255 6.43201 17.568Z" fill="black"/>
-          </svg>
-          </div>
           <div class="county-tooltip">
             <h3>${props["County label"]}</h3>
               <div class="tooltip-label">
@@ -33,11 +28,11 @@ function countyStatusTooltipMessage(data, props) {
   let { name, prohibitionStatus } = props;
   let { activities } = data;
   let mode = activities;
-
   let { all, city, county, prohibited, allowed, detailsCTA } =
   getToolTipMessages(data, name, props, "County");
 
   let toggle = "All Layers";
+
   // Choose label
   let label = all;
   if (toggle === "Place layer") {
@@ -47,29 +42,40 @@ function countyStatusTooltipMessage(data, props) {
   }
 
   data.tooltipData = getCountyTooltipData(data, props);
-
-  let chartLegendContent = chartLegendCounty(data, props, "tooltip");
-  
-
   label = insertValueIntoSpanTag(label, mode, "data-status");
+  prohibited = insertValueIntoSpanTag(
+    prohibited,
+    data.tooltipData.activityPercentages.prohibited,
+    "data-status"
+  );
+  
+  allowed = insertValueIntoSpanTag(
+    allowed,
+    data.tooltipData.activityPercentages.allowed,
+    "data-status"
+  );
 
+  let icon = "";
+
+  if (prohibitionStatus === "Yes") {
+    icon = prohibitedIcon();
+  } else if (prohibitionStatus === "No") {
+    icon = allowedIcon();
+  }
 
   let output = `<div>
-          
-            ${chartLegendContent}
-          
-
+          <div class="status">
+            <div class="icon">${icon}</div>
+            <div>
+              ${label}<br/>
+              <div>${allowed}</div>
+              <div>${prohibited}</div>
+            </div>
+          </div>
           <div>
-           
-              <a 
-                class="loadCounty" 
-                data-county="${data.tooltipData.name}" 
-                data-jurisdiction="County" 
-                href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}"
-              >
-                ${detailsCTA}
-              </a>
-           
+            <p>
+              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}">${detailsCTA}</a>
+            </p>
           </div>
         </div>`;
 
@@ -141,14 +147,14 @@ function getToolTipMessages(data, name, props, jurisdiction) {
   let mode = activities;
   // @TODO CONNECT TO CONFIG
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    return messages["TooltipCountyAllActivities"];
+    return messages["TooltipStatewideAllActivities"];
   } else if (mode === "Any cannabis business" && jurisdiction === "City") {
-    return messages["TooltipPlaceAllActivities"];
+    return messages["TooltipCountyAllActivities"];
   } else {
     if (jurisdiction === "County") {
-      return messages["TooltipCountyActivity"];
+      return messages["TooltipStatewideActivity"];
     } else if (jurisdiction === "City") {
-      return messages["TooltipPlaceActivity"];
+      return messages["TooltipCountyActivity"];
     }
   }
   return null;
@@ -177,7 +183,7 @@ function getActivityPercentages(data, props) {
         activityCountValues["Are all CCA activites prohibited?"]["Yes"]
       ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
   } 
-  // else if (mode === "Retail") {
+  // else if (mode === "Retail (Storefront)" || mode === "Retail (Delivery)") {
   //   percentageAllowed =
   //     parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
   //     parseFloat(data.countyList[name].activities["Datasets for County"]);
@@ -189,7 +195,7 @@ function getActivityPercentages(data, props) {
   else {
     let allowedValues =
       activityCountValues[mode]["Allowed"] +
-      activityCountValues[mode]["Allowed"] +
+      activityCountValues[mode]["Limited"] +
       activityCountValues[mode]["Limited-Medical Only"];
 
     percentageAllowed =

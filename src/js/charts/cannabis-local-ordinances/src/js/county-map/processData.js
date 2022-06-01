@@ -1,6 +1,7 @@
 function getCountyColorPlaceLevel(data, props) {
   return getCountyColor(data, props, "County");
 }
+
 function getCountyColor(data, props, jurisdiction = null) {
   // Shared data object
   let { dataPlaces } = data;
@@ -118,18 +119,19 @@ function getActivityStatusColor(data, mode, values, renderMode = "County") {
       return getAllActivities(data, mode, values, renderMode);
     case "Retail (Storefront)":
       // True === Yes it's prohibited
-      if (getRetailAllowed(data, mode, values, renderMode)) {
+      if (getRetailStorefrontAllowed(data, mode, values, renderMode)) {
         return data.mapStatusColors["No"]; // Allowed
       } else {
         return data.mapStatusColors["Yes"]; // Prohibited
       }
+
     case "Retail (Delivery)":
-        // True === Yes it's prohibited
-        if (getRetailAllowed(data, mode, values, renderMode)) {
-          return data.mapStatusColors["No"]; // Allowed
-        } else {
-          return data.mapStatusColors["Yes"]; // Prohibited
-        } 
+      // True === Yes it's prohibited
+      if (getRetailDeliveryAllowed(data, mode, values, renderMode)) {
+        return data.mapStatusColors["No"]; // Allowed
+      } else {
+        return data.mapStatusColors["Yes"]; // Prohibited
+      }
     case "Distribution":
       if (getDistributionAllowed(data, mode, values, renderMode)) {
         return data.mapStatusColors["No"]; // Allowed
@@ -185,7 +187,21 @@ function getAllActivities(data, mode, values, renderMode) {
  * @param {*} values
  * @returns {boolean} - If value matches data values (currently Yes No, these could be converted props for rendering CSV to county map automatically (eventually))
  */
-function getRetailAllowed(data, mode, values, renderMode) {
+function getRetailStorefrontAllowed(data, mode, values, renderMode) {
+  let value = values["Is all retail prohibited?"];
+  // Alt use both retail fields, but data at this prop should be correct.
+  if (
+    value === "No" // No, it's allowed
+  ) {
+    return true;
+  } else if (value === "Yes") {
+    return false;
+  } else {
+    return null;
+  }
+}
+
+function getRetailDeliveryAllowed(data, mode, values, renderMode) {
   let value = values["Is all retail prohibited?"];
   // Alt use both retail fields, but data at this prop should be correct.
   if (
@@ -203,6 +219,7 @@ function getDistributionAllowed(data, mode, values, renderMode) {
   let value = values["Distribution"];
   if (
     value === "Allowed" ||
+    value === "Limited" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -217,6 +234,7 @@ function getManufacturingAllowed(data, mode, values, renderMode) {
   let value = values["Manufacturing"];
   if (
     value === "Allowed" ||
+    value === "Limited" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -231,6 +249,7 @@ function getCultivationAllowed(data, mode, values, renderMode) {
   let value = values["Cultivation"];
   if (
     value === "Allowed" ||
+    value === "Limited" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -245,6 +264,7 @@ function getTestingAllowed(data, mode, values, renderMode) {
   let value = values["Testing"];
   if (
     value === "Allowed" ||
+    value === "Limited" ||
     value === "Limited-Medical Only"
   ) {
     return true;
@@ -341,7 +361,7 @@ function groupAllowedActivities(place, activities, item, getID) {
       activities["Retail (Storefront)"][item["Retail (Storefront)"]].push(
         placeLabel
       );
-      activities["Retail: (Delivery)"][item["Retail: (Delivery)"]].push(
+      activities["Retail (Delivery)"][item["Retail (Delivery)"]].push(
         placeLabel
       );
       activities["Distribution"][item["Distribution"]].push(placeLabel);
@@ -354,15 +374,15 @@ function groupAllowedActivities(place, activities, item, getID) {
         if (getID === true) {
           placeLabel = item["GEOID"];
         }
-  
+
         activities.county["Are all CCA activites prohibited?"][
           item["Are all CCA activites prohibited?"]
         ].push(placeLabel);
-  
+
         activities.county["Is all retail prohibited?"][
           item["Is all retail prohibited?"]
         ].push(placeLabel);
-  
+
         if (item["CCA Prohibited by County"] === "Yes") {
           activities.county["CCA Prohibited by County"]["Yes"].push(placeLabel);
           placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
@@ -370,22 +390,25 @@ function groupAllowedActivities(place, activities, item, getID) {
           activities.county["CCA Prohibited by County"]["Yes"].push(placeLabel);
           placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
         }
-  
-        activities.county["Retail (Storefront)"][item["Retail (Storefront)"]].push(
+
+        activities.county["Retail (Storefront)"][
+          item["Retail (Storefront)"]
+        ].push(placeLabel);
+        activities.county["Retail (Delivery)"][
+          item["Retail (Delivery)"]
+        ].push(placeLabel);
+        activities.county["Distribution"][item["Distribution"]].push(
           placeLabel
         );
-        activities.county["Retail: (Delivery)"][item["Retail: (Delivery)"]].push(
+        activities.county["Manufacturing"][item["Manufacturing"]].push(
           placeLabel
         );
-        activities.county["Distribution"][item["Distribution"]].push(placeLabel);
-        activities.county["Manufacturing"][item["Manufacturing"]].push(placeLabel);
         activities.county["Cultivation"][item["Cultivation"]].push(placeLabel);
         activities.county["Testing"][item["Testing"]].push(placeLabel);
-        activities.county["Datasets for County"] = activities["Datasets for County"] + 1;
+        activities.county["Datasets for County"] =
+          activities["Datasets for County"] + 1;
       }
     }
-
-    
   } catch (error) {
     console.error(error);
   }
@@ -398,9 +421,9 @@ function rollupAllowedActivities(countyList, county) {
 
     let counts = {
       "Retail (Storefront)": Object.assign({}, activities["Retail (Storefront)"]),
-      "Retail: (Delivery)": Object.assign(
+      "Retail (Delivery)": Object.assign(
         {},
-        activities["Retail: (Delivery)"]
+        activities["Retail (Delivery)"]
       ),
       Distribution: Object.assign({}, activities["Distribution"]),
       Manufacturing: Object.assign({}, activities["Manufacturing"]),
@@ -455,7 +478,7 @@ function precalculateActivitiesDataSchema() {
       "Limited-Medical Only": [],
       Prohibited: [],
     },
-    "Retail: (Delivery)": {
+    "Retail (Delivery)": {
       Allowed: [],
       Limited: [],
       "Limited-Medical Only": [],
