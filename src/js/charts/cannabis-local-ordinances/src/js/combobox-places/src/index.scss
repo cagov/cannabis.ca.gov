@@ -3,26 +3,21 @@
  * and  https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/css/listbox.css 
  */
 
-$gray-300: #e1e0e3;
-$gray-300-var: var(--gray-300, $gray-300);
+@use "sass:map";
 
-$gray-700: #a09fa7;
-$gray-700-var: var(--gray-700, $gray-700);
+$vars: (
+  gray-300: #e1e0e3,
+  gray-700: #a09fa7,
+  primary-hover-color: #043747,
+  primary-light-color: #518394,
+  secondary-lightest-color: #c1c9c0,
+  white: #fff,
+  font-weight-5: 500,
+);
 
-$primary-hover: #043747;
-$primary-hover-var: var(--primary-hover-color, $primary-hover);
-
-$primary-light: #518394;
-$primary-light-var: var(--primary-light-color, $primary-light);
-
-$secondary-lightest: #c1c9c0;
-$secondary-lightest-var: var(--secondary-lightest-color, $secondary-lightest);
-
-$white: #fff;
-$white-var: var(--white, $white);
-
-$font-weight-5: 500;
-$font-weight-5-var: var(--font-weight-5, $font-weight-5);
+@function cagov-vars($name) {
+  @return var(--#{$name}, map.get($vars, $name));
+}
 
 .cagov-combobox-places {
   position: relative;
@@ -46,7 +41,7 @@ $font-weight-5-var: var(--font-weight-5, $font-weight-5);
 
     &:hover input {
       outline: 1px solid;
-      outline-color: $primary-hover-var;
+      outline-color: cagov-vars(primary-hover-color);
     }
   }
 
@@ -56,7 +51,7 @@ $font-weight-5-var: var(--font-weight-5, $font-weight-5);
     position: absolute;
     top: 77px;
     list-style: none;
-    background-color: $white-var;
+    background-color: cagov-vars(white);
     display: none;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     height: 24em;
@@ -71,11 +66,11 @@ $font-weight-5-var: var(--font-weight-5, $font-weight-5);
     margin: 0;
     padding: 8px;
     font-size: 18px;
-    font-weight: $font-weight-5-var;
+    font-weight: cagov-vars(font-weight-5);
   }
 
   [role="listbox"].focus {
-    border: 1px solid $secondary-lightest-var;
+    border: 1px solid cagov-vars(secondary-lightest-color);
   }
 
   [role="listbox"] [role="option"] {
@@ -86,16 +81,16 @@ $font-weight-5-var: var(--font-weight-5, $font-weight-5);
   }
 
   [role="listbox"] [role="option"][aria-selected="true"] {
-    background-color: $secondary-lightest-var;
+    background-color: cagov-vars(secondary-lightest-color);
   }
 
   [role="listbox"].focus [role="option"][aria-selected="true"] {
-    background-color: $secondary-lightest-var;
-    border-color: $primary-light-var;
+    background-color: cagov-vars(secondary-lightest-color);
+    border-color: cagov-vars(primary-light-color);
   }
 
   [role="listbox"] li[role="option"]:hover {
-    background-color: $secondary-lightest-var;
+    background-color: cagov-vars(secondary-lightest-color);
   }
 
   // Clear button.
@@ -112,12 +107,12 @@ $font-weight-5-var: var(--font-weight-5, $font-weight-5);
     svg {
       height: 16px;
       width: 16px;
-      fill: $gray-700-var;
+      fill: cagov-vars(gray-700);
     }
 
     &:hover {
       svg {
-        fill: $gray-300-var;
+        fill: cagov-vars(gray-300);
       }
     }
   }
