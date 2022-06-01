@@ -509,6 +509,7 @@ Listbox.prototype.filterOptions = function (filter, currentOption) {
       // So push this option to the list.
       this.options.push(option);
       textContent = option.textContent.trim();
+      this.boldSearchCharacters(filter, option);
       this.domNode.appendChild(option.domNode);
     }
   }
@@ -589,6 +590,20 @@ Listbox.prototype.getNextItem = function (currentOption) {
     return this.options[index + 1];
   }
   return this.firstOption;
+};
+
+/**
+ * Get the matched characters from input and bold them in the options list.
+ *
+ * @param   {String}  filter  ComboboxList.filter
+ * @param   {String}  option  ComboboxList.option
+ *
+ */
+Listbox.prototype.boldSearchCharacters = (filter, option) => {
+  option.domNode.innerHTML = option.textContent.replace(
+    RegExp(filter, "gi"),
+    (matchedSubstring) => `<b>${matchedSubstring}</b>`
+  );
 };
 
 /* MENU DISPLAY METHODS */
