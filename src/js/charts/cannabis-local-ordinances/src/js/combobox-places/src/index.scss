@@ -21,6 +21,9 @@ $secondary-lightest-var: var(--secondary-lightest-color, $secondary-lightest);
 $white: #fff;
 $white-var: var(--white, $white);
 
+$font-weight-5: 500;
+$font-weight-5-var: var(--font-weight-5, $font-weight-5);
+
 .cagov-combobox-places {
   position: relative;
 
@@ -68,6 +71,7 @@ $white-var: var(--white, $white);
     margin: 0;
     padding: 8px;
     font-size: 18px;
+    font-weight: $font-weight-5-var;
   }
 
   [role="listbox"].focus {
