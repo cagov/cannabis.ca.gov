@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-20T18:57:00",
-    "updated_date": "2022-06-03T19:22:57",
+    "updated_date": "2022-06-03T19:56:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-05-20T11:57:00",
     "date_gmt": "2022-05-20T18:57:00",
     "guid": "https://api.cannabis.ca.gov/?page_id=10518",
-    "modified": "2022-06-03T12:22:57",
-    "modified_gmt": "2022-06-03T19:22:57",
+    "modified": "2022-06-03T12:56:36",
+    "modified_gmt": "2022-06-03T19:56:36",
     "slug": "public-awareness-campaigns-review",
     "status": "publish",
     "type": "page",
@@ -72,15 +72,15 @@
     "wordpress_url": "https://api.cannabis.ca.gov/about-us/public-awareness-campaigns-review/",
     "media": [
       {
-        "id": 10526,
+        "id": 9767,
         "type": "medium",
-        "path": "2022/05/This-is-CA-Cannabis-576x344.jpeg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-576x344.jpeg",
-        "file": "This-is-CA-Cannabis-576x344.jpeg",
+        "path": "2022/05/2021_DCC_Webpage-576x289.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/2021_DCC_Webpage-576x289.jpg",
+        "file": "2021_DCC_Webpage-576x289.jpg",
         "width": 576,
-        "height": 344,
+        "height": 289,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-576x344.jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/2021_DCC_Webpage-576x289.jpg",
         "source_url_match": true,
         "featured": false
       }
