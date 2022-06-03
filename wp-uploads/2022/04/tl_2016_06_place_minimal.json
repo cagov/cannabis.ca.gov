@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-14T01:43:53",
-    "updated_date": "2022-04-14T01:43:53",
+    "updated_date": "2022-05-26T19:23:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-04-13T18:43:53",
     "date_gmt": "2022-04-14T01:43:53",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place_minimal.svg",
-    "modified": "2022-04-13T18:43:53",
-    "modified_gmt": "2022-04-14T01:43:53",
+    "modified": "2022-05-26T12:23:31",
+    "modified_gmt": "2022-05-26T19:23:31",
     "slug": "tl_2016_06_place_minimal",
     "status": "inherit",
     "type": "attachment",
@@ -31,7 +31,7 @@
     "template": "",
     "meta": [],
     "categories": [
-      2
+      804
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place_minimal.svg'><img width=\"1\" height=\"1\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place_minimal.svg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
