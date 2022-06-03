@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-20T18:58:48",
-    "updated_date": "2022-05-20T18:58:48",
+    "updated_date": "2022-06-03T19:06:59",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,23 +18,25 @@
     "date": "2022-05-20T11:58:48",
     "date_gmt": "2022-05-20T18:58:48",
     "guid": "https://api.cannabis.ca.gov/?page_id=10520",
-    "modified": "2022-05-20T11:58:48",
-    "modified_gmt": "2022-05-20T18:58:48",
+    "modified": "2022-06-03T12:06:59",
+    "modified_gmt": "2022-06-03T19:06:59",
     "slug": "this-is-california-cannabis",
     "status": "publish",
     "type": "page",
-    "link": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+    "link": "https://api.cannabis.ca.gov/about-us/this-is-california-cannabis/",
     "title": "This is California Cannabis",
     "excerpt": "",
     "author": "Chach",
     "featured_media": 0,
-    "parent": 0,
+    "parent": 856,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
+    "categories": [
+      "Campaigns"
+    ],
     "tags": [],
     "design_system_fields": {
       "template": "page"
@@ -50,7 +52,7 @@
       "site_name": "Department of Cannabis Control",
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
-      "canonical_url": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+      "canonical_url": "https://api.cannabis.ca.gov/about-us/this-is-california-cannabis/",
       "page_title": "This is California Cannabis",
       "page_description": "Learn about California cannabis laws and licenses",
       "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
@@ -59,17 +61,34 @@
       "page_social_image_alt": "",
       "meta_title": "This is California Cannabis",
       "meta_description": "Learn about California cannabis laws and licenses",
-      "meta_canonical_url": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/about-us/this-is-california-cannabis/",
       "open_graph_title": "This is California Cannabis",
       "open_graph_description": "Learn about California cannabis laws and licenses",
       "twitter_title": "This is California Cannabis",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
-    "headless_categories": [],
+    "headless_categories": [
+      {
+        "term_id": 768,
+        "name": "Campaigns",
+        "slug": "campaigns",
+        "term_group": 0,
+        "term_taxonomy_id": 768,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 766,
+        "filter": "raw",
+        "cat_ID": 768,
+        "category_description": "",
+        "cat_name": "Campaigns",
+        "category_nicename": "campaigns",
+        "category_parent": 766
+      }
+    ],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/this-is-california-cannabis/",
+    "wordpress_url": "https://api.cannabis.ca.gov/about-us/this-is-california-cannabis/",
     "media": [
       {
         "id": 13,
