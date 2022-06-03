@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-20T18:58:48",
-    "updated_date": "2022-06-03T19:06:59",
+    "updated_date": "2022-06-03T20:04:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,28 +18,28 @@
     "date": "2022-05-20T11:58:48",
     "date_gmt": "2022-05-20T18:58:48",
     "guid": "https://api.cannabis.ca.gov/?page_id=10520",
-    "modified": "2022-06-03T12:06:59",
-    "modified_gmt": "2022-06-03T19:06:59",
+    "modified": "2022-06-03T13:04:58",
+    "modified_gmt": "2022-06-03T20:04:58",
     "slug": "this-is-california-cannabis",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/about-us/this-is-california-cannabis/",
     "title": "This is California Cannabis",
-    "excerpt": "",
+    "excerpt": "<p>This is California Cannabis &#8220;This is California Cannabis&#8221; is designed to promote the state&#8217;s legal cannabis cultivation market and raise awareness of the support and guidance offered to licensed cannabis growers by CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture.</p>\n",
     "author": "Chach",
     "featured_media": 0,
     "parent": 856,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
     "meta": [],
     "categories": [
       "Campaigns"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "landing"
     },
     "og_meta": {
       "editor": {
@@ -91,15 +91,93 @@
     "wordpress_url": "https://api.cannabis.ca.gov/about-us/this-is-california-cannabis/",
     "media": [
       {
-        "id": 13,
+        "id": 9761,
         "type": "thumbnail",
-        "path": "2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
-        "file": "hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
+        "path": "2022/05/hackett-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/hackett-376x376.jpg",
+        "file": "hackett-376x376.jpg",
         "width": 376,
         "height": 376,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/hand-holding-marijuana-leaf-1280x853-503076890-e1493738288674-1-376x376.jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/hackett-376x376.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9762,
+        "type": "thumbnail",
+        "path": "2022/05/ingram-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/ingram-376x376.jpg",
+        "file": "ingram-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/ingram-376x376.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9764,
+        "type": "thumbnail",
+        "path": "2022/05/matulich-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/matulich-376x376.jpg",
+        "file": "matulich-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/matulich-376x376.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 9765,
+        "type": "thumbnail",
+        "path": "2022/05/Moises_Abarca-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Moises_Abarca-376x376.png",
+        "file": "Moises_Abarca-376x376.png",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Moises_Abarca-376x376.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10526,
+        "type": "full",
+        "path": "2022/05/This-is-CA-Cannabis.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis.jpeg",
+        "file": "This-is-CA-Cannabis.jpeg",
+        "width": 803,
+        "height": 480,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis.jpeg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10526,
+        "type": "medium_large",
+        "path": "2022/05/This-is-CA-Cannabis-768x459.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-768x459.jpeg",
+        "file": "This-is-CA-Cannabis-768x459.jpeg",
+        "width": 768,
+        "height": 459,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-768x459.jpeg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10526,
+        "type": "medium",
+        "path": "2022/05/This-is-CA-Cannabis-576x344.jpeg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-576x344.jpeg",
+        "file": "This-is-CA-Cannabis-576x344.jpeg",
+        "width": 576,
+        "height": 344,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/This-is-CA-Cannabis-576x344.jpeg",
         "source_url_match": true,
         "featured": false
       }
