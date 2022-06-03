@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-05T01:05:19",
-    "updated_date": "2022-04-14T01:46:24",
+    "updated_date": "2022-05-26T19:24:10",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-04-04T18:05:19",
     "date_gmt": "2022-04-05T01:05:19",
     "guid": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/ca_counties_tiger2016.svg",
-    "modified": "2022-04-13T18:46:24",
-    "modified_gmt": "2022-04-14T01:46:24",
+    "modified": "2022-05-26T12:24:10",
+    "modified_gmt": "2022-05-26T19:24:10",
     "slug": "ca_counties_tiger2016",
     "status": "inherit",
     "type": "attachment",
@@ -31,7 +31,7 @@
     "template": "",
     "meta": [],
     "categories": [
-      2
+      804
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/ca_counties_tiger2016.svg'><img width=\"1\" height=\"1\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/ca_counties_tiger2016.svg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
