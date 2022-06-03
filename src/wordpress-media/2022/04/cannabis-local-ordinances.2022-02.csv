@@ -4,7 +4,7 @@ Alpine County,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,P
 Amador County,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Butte County,Butte County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Calaveras County,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Prohibited,No,No,No,2022-01-22
-Colusa County,Colusa County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,No,Yes,No,2022-01-22
+Colusa County,Colusa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-05-31
 Contra Costa County,Contra Costa County,County,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,No,2022-01-22
 Del Norte County,Del Norte County,County,Allowed,Prohibited,Prohibited,Allowed,Allowed,Prohibited,No,No,No,2022-01-22
 El Dorado County,El Dorado County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
@@ -297,7 +297,7 @@ Costa Mesa,Orange County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed
 Cypress,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Dana Point,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Fountain Valley,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Fullerton,Orange County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
+Fullerton,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-05-26
 Garden Grove,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Huntington Beach,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Irvine,Orange County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,No,Yes,,2022-01-22
