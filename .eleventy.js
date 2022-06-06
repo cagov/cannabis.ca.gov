@@ -8,19 +8,38 @@ const { renderEventLists } = require("./src/components/event-list/render");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
-    sass: {
-      watch: ["src/css/**/*", "src/components/**/*.scss"],
-      output: "dist/index.css",
-      options: {
-        file: "src/css/sass/index.scss",
-        includePaths: ["./src/css/sass"],
+    processors: {
+      sass: {
+        watch: [
+          'src/css/**/*',
+          'src/components/**/*.scss'
+        ],
+        output: 'dist/index.css',
+        options: {
+          file: 'src/css/sass/index.scss',
+          includePaths: ['./src/css/sass']
+        }
       },
-    },
-    rollup: {
-      watch: ["src/js/**/*", "src/components/**/*.js"],
-      file: "src/js/rollup.config.js",
-    },
+      esbuild: {
+        watch: [
+          'src/js/**/*',
+          'src/components/**/*'
+        ],
+        options: {
+          entryPoints: ['src/js/index.js'],
+          bundle: true,
+          minify: true,
+          format: 'esm',
+          outfile: 'dist/built.js',
+          loader: { 
+            '.css': 'text',
+            '.html': 'text'
+          }
+        }
+      }
+    }
   });
+
 
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
