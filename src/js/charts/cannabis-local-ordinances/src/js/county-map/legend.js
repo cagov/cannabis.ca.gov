@@ -90,6 +90,7 @@ function chartLegendCounty(data, props, renderMode) {
   let countyLabel, currentCounty;
 
   if (renderMode === "legend") {
+    console.log("legend", countyData);
     countyLabel = data.countyList[data.selectedCounty].label;
     currentCounty = data.dataPlaces[countyLabel];
   } else {
@@ -110,65 +111,65 @@ function chartLegendCounty(data, props, renderMode) {
   let showProhibited = true;
   let showUnincorporated = true;
 
+  // Control behavior of display of how many cities allow and prohibit retail.
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
-    // console.log("a 1", allowed);
+    console.log("a 1", allowed);
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 1 && countyData.prohibited > 1) {
-    // console.log("a 1");
+    console.log("a 1");
     allowed = singleAllowed;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 1) {
-    // console.log("a 1");
+    console.log("a 2");
     prohibited = singleProhibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited > 1) {
-    // console.log("c 4");
+    console.log("a 3");
     allowed = "";
     showAllowed = false;
     showProhibited = true;
   } else if (countyData.allowed === 0 && countyData.prohibited === 1) {
-    // console.log("c 10");
+    console.log("a 4");
     allowed = "";
     prohibited = singleProhibited;
     showAllowed = false;
     showProhibited = true;
   } else if (countyData.allowed === 1 && countyData.prohibited === 0) {
-    // console.log("c 11");
+    console.log("a 5");
     allowed = singleAllowed;
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
   } else if (countyData.allowed === 1 && countyData.prohibited === 1) {
-    // console.log("c 12");
+    console.log("a 6");
     allowed = singleAllowed;
     prohibited = singleProhibited;
     showAllowed = true;
     showProhibited = true;
   } else if (countyData.allowed > 1 && countyData.prohibited === 0) {
-    // console.log("a 2");
+    console.log("a 7");
     prohibited = "";
     showAllowed = true;
     showProhibited = false;
   } else if (countyData.allowed === 0 && countyData.prohibited === 0) {
-    // console.log("c 6");
+    console.log("a 8");
     if (isAllowed) {
-      // console.log("c 7");
+      console.log("a 9");
       allowed = allAllowedNoPlaces;
       prohibited = "";
       showProhibited = false;
       showUnincorporated = false;
     } else {
-      // console.log("c 8");
+      console.log("a 10");
       allowed = "";
       prohibited = allProhibitedNoPlaces;
       showUnincorporated = false;
       showAllowed = false;
     }
   }
-
   
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
@@ -206,7 +207,8 @@ function chartLegendCounty(data, props, renderMode) {
     "data-activity-lc"
   );
 
-  if (isAllowed) {
+  // Logic for setting unincorporated place
+  if (countyData.countyAllowed === 1) {
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedAllowed,
       data.activities,
@@ -405,7 +407,7 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
         countValues.countyProhibited = 1;
       }
     } else if (mode === "Retail") {
-
+      console.log("item", item);
       countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
       countValues.allowed = item["Is all retail prohibited?"]["No"].length;
       if (countyData["Is all retail prohibited?"] === "No" ) {
@@ -413,7 +415,6 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
       } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
         countValues.countyProhibited = 1;
       }
-
     } else {
       // if (item[mode] === "Prohibited") {
       countValues.prohibited = item[mode]["Prohibited"].length;
