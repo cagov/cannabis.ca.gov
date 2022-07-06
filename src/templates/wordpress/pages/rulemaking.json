@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2021-06-19T15:07:40",
+    "updated_date": "2022-07-06T19:27:15",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/resources/rulemaking/",
-    "modified": "2021-06-19T15:07:40",
-    "modified_gmt": "2021-06-19T15:07:40",
+    "modified": "2022-07-06T12:27:15",
+    "modified_gmt": "2022-07-06T19:27:15",
     "slug": "rulemaking",
     "status": "publish",
     "type": "page",
@@ -32,12 +32,12 @@
     "menu_order": 0,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "template": "",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "template-page"
+      "template": "page"
     },
     "og_meta": {
       "editor": {
