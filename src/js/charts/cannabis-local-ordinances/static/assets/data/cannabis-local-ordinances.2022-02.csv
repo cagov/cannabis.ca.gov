@@ -3,7 +3,7 @@ Alameda County,Alameda County,County,Allowed,Allowed,Allowed,Allowed,Allowed,All
 Alpine County,Alpine County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Amador County,Amador County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Butte County,Butte County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
-Calaveras County,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Prohibited,No,No,No,2022-01-22
+Calaveras County,Calaveras County,County,Allowed,Prohibited,Allowed,Prohibited,Allowed,Allowed,No,No,No,2022-07-14
 Colusa County,Colusa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-05-31
 Contra Costa County,Contra Costa County,County,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,No,2022-01-22
 Del Norte County,Del Norte County,County,Allowed,Prohibited,Prohibited,Allowed,Allowed,Prohibited,No,No,No,2022-01-22
@@ -18,7 +18,7 @@ Kings County,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Pro
 Lake County,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,No,2021-12-13
 Lassen County,Lassen County,County,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,No,No,No,2022-01-22
 Los Angeles County,Los Angeles County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
-Madera County,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
+Madera County,Madera County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,Yes,2022-07-14
 Marin County,Marin County,County,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,No,2022-01-22
 Mariposa County,Mariposa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Mendocino County,Mendocino County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
@@ -128,7 +128,7 @@ Blue Lake,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohi
 Eureka,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Ferndale,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Fortuna,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Rio Dell,Humboldt County,City,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
+Rio Dell,Humboldt County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-07-14
 Trinidad,Humboldt County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Brawley,Imperial County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Calexico,Imperial County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
@@ -268,7 +268,7 @@ Livingston,Merced County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,A
 Los Banos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
 Alturas,Modoc County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Mammoth Lakes,Mono County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
+Mammoth Lakes,Mono County,City,Allowed,Allowed,Allowed,Limited,Limited,Allowed,No,No,,2022-07-14
 Carmel-by-the-Sea,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Del Rey Oaks,Monterey County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
 Gonzales,Monterey County,City,Prohibited,Prohibited,Prohibited,Limited-Medical Only,Limited-Medical Only,Prohibited,No,Yes,,2022-01-22
