@@ -18,7 +18,7 @@ Kings County,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Pro
 Lake County,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,No,2021-12-13
 Lassen County,Lassen County,County,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Allowed,No,No,No,2022-01-22
 Los Angeles County,Los Angeles County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
-Madera County,Madera County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,Yes,2022-07-14
+Madera County,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Marin County,Marin County,County,Prohibited,Limited-Medical Only,Prohibited,Prohibited,Prohibited,Prohibited,No,No,No,2022-01-22
 Mariposa County,Mariposa County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Mendocino County,Mendocino County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
@@ -245,7 +245,7 @@ West Hollywood,Los Angeles County,City,Allowed,Allowed,Prohibited,Prohibited,Pro
 Westlake Village,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Whittier,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Chowchilla,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Madera,Madera County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Madera,Madera County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-07-14
 Belvedere,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Corte Madera,Marin County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Fairfax,Marin County,City,Limited-Medical Only,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
@@ -266,7 +266,7 @@ Dos Palos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibi
 Gustine,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Prohibited,No,No,,2022-01-22
 Livingston,Merced County,City,Prohibited,Prohibited,Prohibited,Allowed,Limited,Allowed,No,Yes,,2022-01-22
 Los Banos,Merced County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Merced,Merced County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
+Merced,Merced County,City,Limited,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-07-14
 Alturas,Modoc County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Mammoth Lakes,Mono County,City,Allowed,Allowed,Allowed,Limited,Limited,Allowed,No,No,,2022-07-14
 Carmel-by-the-Sea,Monterey County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
@@ -472,7 +472,7 @@ Santa Cruz,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowe
 Scotts Valley,Santa Cruz County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Watsonville,Santa Cruz County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Anderson,Shasta County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Redding,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
+Redding,Shasta County,City,Limited,Limited,Allowed,Allowed,Limited,Allowed,No,No,,2022-07-14
 Shasta Lake,Shasta County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
 Loyalton,Sierra County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Dorris,Siskiyou County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
