@@ -76,13 +76,13 @@
       "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
-      "Testing": "Prohibited",
+      "Testing": "Allowed",
       "Manufacturing": "Prohibited",
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-14"
    },
    "Colusa County": {
       "CA Places Key": "",
@@ -2199,7 +2199,7 @@
       "County label": "Humboldt County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -2207,7 +2207,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-14"
    },
    "Trinidad": {
       "CA Places Key": "Trinidad",
@@ -4187,16 +4187,16 @@
       "County": "Madera",
       "County label": "Madera County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
-      "Testing": "Prohibited",
-      "Manufacturing": "Prohibited",
-      "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-14"
    },
    "Belvedere": {
       "CA Places Key": "Belvedere",
@@ -4553,7 +4553,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-14"
    },
    "Alturas": {
       "CA Places Key": "Alturas",
@@ -4579,7 +4579,7 @@
       "County label": "Mono County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -4587,7 +4587,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-14"
    },
    "Carmel-by-the-Sea": {
       "CA Places Key": "Carmel-by-the-Sea",
@@ -8055,7 +8055,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-14"
    },
    "Shasta Lake": {
       "CA Places Key": "Shasta Lake",
