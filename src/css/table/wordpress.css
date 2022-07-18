@@ -1,0 +1,24 @@
+/* Fix a conflict with CAWeb Oceanside - need to test on servers */
+html {
+  overflow-y: inherit;
+}
+
+body {
+  overflow-x: inherit;
+}
+
+.ds-table.wp-block-table table {
+  max-width: 1178px;
+}
+
+figure.ds-table {
+  background-color: transparent;
+  margin: 0 2rem 1rem;
+  border: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .ds-table.wp-block-table table {
+    max-width: inherit;
+  }
+}

@@ -1,0 +1,116 @@
+/* Basic table styling */
+.ds-table table.hidden {
+  display: none;
+}
+
+.ds-table table {
+  overflow-y: inherit;
+  margin: 0 0 16px 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  border-left: 1px solid #e1e0e3;
+  border-right: 1px solid #e1e0e3;
+}
+
+.ds-table table thead {
+  margin: 16px 10px;
+  padding: 8px 0px 8px 8px;
+  background: #ededef;
+}
+
+.ds-table table tbody {
+  padding: 8px 0px 8px 8px;
+  margin: 16px 10px;
+}
+
+.ds-table table th {
+  background-color: #ededef;
+  color: #000;
+  padding: 8px;
+  vertical-align: top;
+  text-align: start;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 26px;
+  min-width: 120px;
+  padding: 8px;
+  font-weight: 700;
+}
+
+.ds-table table td {
+  -webkit-print-color-adjust: exact;
+  vertical-align: top;
+  text-align: start;
+  border-top: none;
+  padding: 16px 10px;
+  border-bottom: 1px solid #e1e0e3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  min-width: 240px;
+  word-wrap: break-word;
+  padding: 0 10px;
+  color: #000;
+  padding: 8px;
+}
+
+.ds-table table thead th:first-child,
+.ds-table table thead td:first-child {
+  border-right: 3px solid #e1e0e3;
+  max-width: 300px;
+  word-wrap: break-word;
+  min-width: 120px;
+}
+
+.ds-table table thead th:first-child {
+  border-right: 3px solid #e1e0e3;
+  text-align: start;
+}
+
+.ds-table table tbody td:first-child {
+  font-style: normal;
+  font-weight: 700;
+  border-right: 3px solid #e1e0e3;
+  background-color: #fff;
+  text-align: start;
+}
+
+/* data viz header style */
+.ds-table table th.centered.secondary {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.ds-table [role="region"][aria-labelledby][tabindex]:focus {
+  outline: 0;
+}
+
+/* Fix a conflict with CAWeb Oceanside - need to test on servers */
+html {
+  overflow-y: inherit;
+}
+
+body {
+  overflow-x: inherit;
+}
+
+.ds-table.wp-block-table table {
+  max-width: 1178px;
+}
+
+figure.ds-table {
+  background-color: transparent;
+  margin: 0 2rem 1rem;
+  border: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .ds-table.wp-block-table table {
+    max-width: inherit;
+  }
+}

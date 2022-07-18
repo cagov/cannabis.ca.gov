@@ -1,0 +1,93 @@
+.ds-table.wp-block-table table {
+  max-width: 1178px;
+}
+
+.ds-table table td {
+  -webkit-print-color-adjust: exact;
+  vertical-align: top;
+  text-align: left;
+  padding: 16px 10px;
+}
+
+.ds-table table {
+  margin: 0 0 16px 0;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-left: 1px solid #e1e0e3;
+  border-right: 1px solid #e1e0e3;
+}
+
+.ds-table table thead {
+  margin: 16px 10px;
+  padding: 8px 0px 8px 8px;
+  background: #ededef;
+}
+
+.ds-table table th {
+  vertical-align: top;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 26px;
+  min-width: 120px;
+  padding: 8px;
+  font-weight: 700;
+}
+
+.ds-table table tbody {
+  padding: 8px 0px 8px 8px;
+  margin: 16px 10px;
+}
+
+.ds-table table thead th:first-child,
+.ds-table table thead td:first-child {
+  border-right: 3px solid #e1e0e3;
+  max-width: 300px;
+}
+
+.ds-table table tbody td:first-child {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ds-table table th:first-child,
+.ds-table table td:first-child {
+  word-wrap: break-word;
+  width: 180px;
+}
+
+.ds-table table thead tr th {
+  color: #000;
+  /* font-weight: 400; */
+  /* position: sticky; */
+  padding: 8px;
+  /* top: 0; */
+  /* z-index: 1000; */
+  background-color: #ededef;
+}
+
+@media only screen and (max-width: 900px) {
+  .ds-table table th,
+  .ds-table table td {
+    font-size: 14px;
+    min-width: 200px;
+  }
+
+  .ds-table table {
+    table-layout: fixed;
+    width: auto;
+  }
+  .ds-table table thead tr th {
+    color: #000;
+    position: sticky;
+    padding: 8px;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .ds-table.wp-block-table table {
+    max-width: inherit;
+  }
+}

@@ -1,0 +1,44 @@
+/* Sticky table header behaviors */
+
+
+.ds-table.sticky-table {
+    /* overflow-x: scroll; */
+  }
+  
+  .ds-table.sticky-table table {
+    position: relative;
+    overflow-x: scroll;
+    table-layout: fixed;
+    table-layout: fixed;
+    width: auto;
+  }
+  
+  .ds-table.sticky-table table tr th {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .ds-table.sticky-table table thead th:first-child {
+    left: 0;
+    z-index: 1001;
+  }
+  
+  
+  .ds-table.sticky-table table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .ds-table table tbody td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .ds-table.sticky-table [role="region"][aria-labelledby][tabindex] {
+    width: 100%;
+    max-height: 98vh;
+    overflow: auto;
+  }
