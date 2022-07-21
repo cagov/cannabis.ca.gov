@@ -1,4 +1,4 @@
-These are files that are used on the Flywheel cannabis.ca.gov production site.
+These are files that are used on the Flywheel "monolith" cannabis.ca.gov production site.
 
 ## Files used on production
 
