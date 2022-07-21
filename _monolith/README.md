@@ -14,11 +14,13 @@ The other files here are archival in case we need to pull Aaron or Konstantin ba
 ## Update process
 
 Go to: https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options
-Custom JS
-Custom CSS
 
-You can replace the relevant files to test your change fully integrated:
-Here is what the CSS looks like.
+**Tabs**
+> Custom JS
+> Custom CSS
+
+You can replace the relevant files
+
 
 Click the red X to remove just the file you don't want
 Upload a new file
