@@ -16,11 +16,11 @@ The other files here are archival in case we need to pull Aaron or Konstantin ba
 Go to: https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options
 
 **Tabs**
-> Custom JS
-> Custom CSS
+Go to:
+* Custom JS
+* Custom CSS
 
-You can replace the relevant files
-
+**Replace the files**
 
 Click the red X to remove just the file you don't want
 Upload a new file
