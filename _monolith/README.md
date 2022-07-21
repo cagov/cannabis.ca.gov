@@ -26,6 +26,8 @@ Click the red X to remove just the file you don't want
 Upload a new file
 Save changes
 At this point the file should update.
+
+**Debugging note**
 Every once it a while the cache may get stuck, in which case, you can add another point version to increment the file.
 
 
