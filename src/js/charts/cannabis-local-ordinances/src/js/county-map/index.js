@@ -33,6 +33,9 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     this.togglePlacesEl = document.querySelector(
       '.toggle-button [data-target="toggle-cities"]'
     );
+    this.comboboxPlacesEl = document.querySelector(
+      `[data-filter-type="places"] input`
+    );
   }
 
   /**
@@ -132,15 +135,13 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     });
   }
 
+  /**
+   * Listen for "cavov-combox-updated" event on the
+   * Places (Enter a city or county) filter.
+   */
   setUpPlacesFilterListeners() {
-    // Places
-    var setPlace = document.querySelector('.filter[data-filter-type="places"]');
-    setPlace.addEventListener("change", (e) => {
-      // if (e.detail && e.detail.hash === true){
-      //   this.setMapStateFromHash(e, this.localData);
-      // } else {
-      this.setMapState(e, this.localData);
-      // }
+    this.comboboxPlacesEl.addEventListener("cagov-combox-updated", (e) => {
+      this.setMapStateFromPlacesFilter(e, this.localData);
     });
   }
 
@@ -316,6 +317,19 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
     this.updateMapState(entry, data);
+  }
+
+  /**
+   * Get values from input element's attributes and send them to the map.
+   * @param {Event}  event  Combox has been updated.
+   */
+  setMapStateFromPlacesFilter(event) {
+    const entry = event.target.dataset.value;
+    const geoid = event.target.dataset.geoid || null;
+    const jurisdiction = event.target.dataset.jurisdiction || "Statewide";
+    this.localData.jurisdiction = jurisdiction;
+    this.localData.geoid = geoid;
+    this.updateMapState(entry, this.localData);
   }
 
   setMapStateFromTooltip(e, data) {

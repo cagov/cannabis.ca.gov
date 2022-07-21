@@ -1,7 +1,7 @@
 {
   "name": "cagov-combobox-places",
   "version": "0.0.1",
-  "description": "Places autocomple/combox filter",
+  "description": "Places autocomple/combobox filter",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
