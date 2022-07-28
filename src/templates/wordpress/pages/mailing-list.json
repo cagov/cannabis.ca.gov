@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:12:14",
-    "updated_date": "2021-06-19T15:12:14",
+    "updated_date": "2022-07-19T21:56:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,29 @@
     "date": "2021-06-19T15:12:14",
     "date_gmt": "2021-06-19T15:12:14",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/mailing-list/",
-    "modified": "2021-06-19T15:12:14",
-    "modified_gmt": "2021-06-19T15:12:14",
+    "modified": "2022-07-19T14:56:49",
+    "modified_gmt": "2022-07-19T21:56:49",
     "slug": "mailing-list",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/mailing-list/",
     "title": "Sign up for email list",
     "excerpt": "",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "",
-    "meta": [],
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
@@ -53,7 +56,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/mailing-list/",
       "page_title": "Sign up for email list",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

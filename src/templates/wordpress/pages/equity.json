@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "created_date": "2021-06-19T15:12:14",
+    "updated_date": "2022-07-19T21:56:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/7797",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 7797,
+    "date": "2021-06-19T15:12:14",
+    "date_gmt": "2021-06-19T15:12:14",
+    "guid": "https://dev-cagov-dcc.pantheonsite.io/equity/",
+    "modified": "2022-07-19T14:56:50",
+    "modified_gmt": "2022-07-19T21:56:50",
+    "slug": "equity",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/resources/equity/",
+    "title": "Cannabis equity",
+    "excerpt": "<p>California’s cannabis equity efforts support people and communities harmed by cannabis criminalization. These efforts lower barriers to the cannabis industry for those hit hardest by the War on Drugs.&nbsp; Listen to our Deputy Director of Equity and Inclusion talk to two Black female entrepreneurs&nbsp;in this video&nbsp;about the investments DCC has made toward creating equity in [&hellip;]</p>\n",
+    "author": "Test Suite",
+    "featured_media": 0,
+    "parent": 759,
+    "menu_order": 2,
+    "comment_status": "open",
+    "ping_status": "open",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/resources/equity/",
+      "page_title": "Cannabis equity",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Cannabis equity",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/resources/equity/",
+      "open_graph_title": "Cannabis equity",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Cannabis equity",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/resources/equity/"
+  }
+}

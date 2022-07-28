@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-04-09T18:56:28",
-    "updated_date": "2022-07-18T23:46:47",
+    "created_date": "2022-05-26T14:01:48",
+    "updated_date": "2022-07-19T21:56:48",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/10364",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/9654",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,29 +14,30 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 10364,
-    "date": "2022-04-09T11:56:28",
-    "date_gmt": "2022-04-09T18:56:28",
-    "guid": "https://api.cannabis.ca.gov/?page_id=10364",
-    "modified": "2022-07-18T16:46:47",
-    "modified_gmt": "2022-07-18T23:46:47",
+    "id": 9654,
+    "date": "2022-05-26T07:01:48",
+    "date_gmt": "2022-05-26T14:01:48",
+    "guid": "https://cannabis.ca.gov/?page_id=9654",
+    "modified": "2022-07-19T14:56:48",
+    "modified_gmt": "2022-07-19T21:56:48",
     "slug": "where-cannabis-businesses-are-allowed",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-businesses-are-allowed/",
     "title": "Where cannabis businesses are allowed",
-    "excerpt": "<p>Cannabis use is legal in California. But cities and counties can prohibit cannabis businesses, like retail. As a result, the state is a patchwork of areas where it is and is not legal to establish a cannabis business. 44% of cities and counties allow at least one type of cannabis business (235 out of 539) [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "excerpt": "<p>Find what types of cannabis businesses are allowed in your city or county.</p>\n",
+    "author": "Test Suite",
     "featured_media": 0,
     "parent": 9438,
-    "menu_order": 0,
+    "menu_order": 2,
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
-    "meta": [],
-    "categories": [
-      "Data Visualizations"
-    ],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [],
     "tags": [],
     "design_system_fields": {
       "template": "template-page"
@@ -54,8 +55,8 @@
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/cannabis-laws/where-cannabis-businesses-are-allowed/",
       "page_title": "Where cannabis businesses are allowed",
-      "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/Data_Viz_Graphic.jpeg",
+      "page_description": "Find what types of cannabis businesses are allowed in your city or county.",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/05/Data_Viz_Graphic-2.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -67,24 +68,7 @@
       "twitter_title": "Where cannabis businesses are allowed",
       "twitter_description": "Find what types of cannabis businesses are allowed in your city or county."
     },
-    "headless_categories": [
-      {
-        "term_id": 804,
-        "name": "Data Visualizations",
-        "slug": "data-visualizations",
-        "term_group": 0,
-        "term_taxonomy_id": 804,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "filter": "raw",
-        "cat_ID": 804,
-        "category_description": "",
-        "cat_name": "Data Visualizations",
-        "category_nicename": "data-visualizations",
-        "category_parent": 0
-      }
-    ],
+    "headless_categories": [],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],

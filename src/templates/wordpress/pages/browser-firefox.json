@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-30T18:36:56",
-    "updated_date": "2022-04-09T18:45:58",
+    "updated_date": "2022-07-19T21:58:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,29 @@
     "date": "2021-06-30T11:36:56",
     "date_gmt": "2021-06-30T18:36:56",
     "guid": "https://staginginye.prod3.sites.ca.gov/?page_id=8336",
-    "modified": "2022-04-09T11:45:58",
-    "modified_gmt": "2022-04-09T18:45:58",
+    "modified": "2022-07-19T14:58:39",
+    "modified_gmt": "2022-07-19T21:58:39",
     "slug": "browser-firefox",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/browser-firefox/",
     "title": "Keyboard Shortcuts for Firefox",
     "excerpt": "<p>Keyboard Shortcuts for Firefox Windows Navigation To do this Press this Back Alt + ← BackspaceAlt + ← Ctrl + [ Forward Alt + → Shift + BackspaceAlt + → Ctrl + ] Home Alt + Home Open File Ctrl + O Reload F5 Ctrl + R Reload (override cache) Ctrl + F5 Ctrl + [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
-    "meta": [],
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "template-page-single-column"
     },
     "og_meta": {
       "editor": {
@@ -53,7 +56,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/browser-firefox/",
       "page_title": "Keyboard Shortcuts for Firefox",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

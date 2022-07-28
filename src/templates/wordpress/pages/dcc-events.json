@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:12:14",
-    "updated_date": "2021-06-19T15:12:14",
+    "updated_date": "2022-07-19T21:56:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,29 @@
     "date": "2021-06-19T15:12:14",
     "date_gmt": "2021-06-19T15:12:14",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/about-us/dcc-events/",
-    "modified": "2021-06-19T15:12:14",
-    "modified_gmt": "2021-06-19T15:12:14",
+    "modified": "2022-07-19T14:56:50",
+    "modified_gmt": "2022-07-19T21:56:50",
     "slug": "dcc-events",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/about-us/dcc-events/",
     "title": "Department of Cannabis Control events",
     "excerpt": "<p>Find out about upcoming Department of Cannabis Control events.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "parent": 856,
     "menu_order": 4,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
-    "meta": [],
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-event"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
@@ -53,7 +56,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/about-us/dcc-events/",
       "page_title": "Department of Cannabis Control events",
       "page_description": "Find out about upcoming Department of Cannabis Control events.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

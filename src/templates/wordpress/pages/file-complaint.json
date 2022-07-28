@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2022-04-09T18:48:44",
+    "updated_date": "2022-07-19T21:56:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,29 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/resources/file-complaint/",
-    "modified": "2022-04-09T11:48:44",
-    "modified_gmt": "2022-04-09T18:48:44",
+    "modified": "2022-07-19T14:56:50",
+    "modified_gmt": "2022-07-19T21:56:50",
     "slug": "file-complaint",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/resources/file-complaint/",
     "title": "File a complaint",
     "excerpt": "<p>File an anonymous complaints against licensed or unlicensed cannabis businesses.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "parent": 759,
     "menu_order": 4,
     "comment_status": "open",
     "ping_status": "open",
-    "template": "single-column",
-    "meta": [],
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
@@ -53,7 +56,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/resources/file-complaint/",
       "page_title": "File a complaint",
       "page_description": "File an anonymous complaints against licensed or unlicensed cannabis businesses.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

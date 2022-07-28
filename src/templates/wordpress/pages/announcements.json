@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-15T21:40:52",
-    "updated_date": "2022-04-09T18:48:51",
+    "updated_date": "2022-07-19T21:56:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,26 +18,29 @@
     "date": "2021-06-15T21:40:52",
     "date_gmt": "2021-06-15T21:40:52",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=7429",
-    "modified": "2022-04-09T11:48:51",
-    "modified_gmt": "2022-04-09T18:48:51",
+    "modified": "2022-07-19T14:56:50",
+    "modified_gmt": "2022-07-19T21:56:50",
     "slug": "announcements",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/about-us/announcements/",
     "title": "Announcements",
-    "excerpt": "<p>Sign up to receive emails&nbsp;from the Department of Cannabis Control&nbsp;when&nbsp;we share news and information.&nbsp;&nbsp;</p>\n",
-    "author": "Department of Cannabis Control",
+    "excerpt": "",
+    "author": "Test Suite",
     "featured_media": 0,
     "parent": 856,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
-    "meta": [],
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "template-page"
     },
     "og_meta": {
       "editor": {
@@ -53,7 +56,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/about-us/announcements/",
       "page_title": "Announcements",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
