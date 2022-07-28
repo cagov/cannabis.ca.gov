@@ -11,20 +11,10 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "name": "Department of Cannabis Control",
-    "description": "Learn about California cannabis laws and licenses",
-    "url": "https://api.cannabis.ca.gov",
-    "home": "https://api.cannabis.ca.gov",
-    "gmt_offset": -7,
-    "timezone_string": "America/Los_Angeles",
-    "namespaces": [
-      "oembed/1.0",
-      "redirection/v1",
-      "menus/v1",
-      "notification/v1",
-      "wp/v2",
-      "wp-site-health/v1",
-      "wp-block-editor/v1"
-    ]
+    "code": "rest_cannot_access",
+    "message": "DRA: Only authenticated users can access the REST API.",
+    "data": {
+      "status": 401
+    }
   }
 }
