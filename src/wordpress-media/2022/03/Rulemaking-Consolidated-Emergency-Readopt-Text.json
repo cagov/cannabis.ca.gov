@@ -17,7 +17,7 @@
     "id": 9515,
     "date": "2022-03-10T12:53:02",
     "date_gmt": "2022-03-10T20:53:02",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/Rulemaking-Consolidated-Emergency-Readopt-Text.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/Rulemaking-Consolidated-Emergency-Readopt-Text.pdf",
     "modified": "2022-03-10T12:53:02",
     "modified_gmt": "2022-03-10T20:53:02",
     "slug": "rulemaking-consolidated-emergency-readopt-text",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/rulemaking-consolidated-emergency-readopt-text/",
     "title": "Rulemaking-Consolidated Emergency Readopt-Text",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/03/Rulemaking-Consolidated-Emergency-Readopt-Text.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/Rulemaking-Consolidated-Emergency-Readopt-Text-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

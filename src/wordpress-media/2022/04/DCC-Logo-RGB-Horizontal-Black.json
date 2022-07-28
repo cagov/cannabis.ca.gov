@@ -17,7 +17,7 @@
     "id": 9613,
     "date": "2022-04-01T10:46:04",
     "date_gmt": "2022-04-01T17:46:04",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg",
     "modified": "2022-04-01T10:46:04",
     "modified_gmt": "2022-04-01T17:46:04",
     "slug": "dcc-logo-rgb-horizontal-black",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/dcc-logo-rgb-horizontal-black/",
     "title": "DCC Logo RGB Horizontal (Black)",
-    "author": "Christina Dempsey",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg'><img width=\"576\" height=\"192\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-576x192.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1024x341.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-768x256.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black-1536x512.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/DCC-Logo-RGB-Horizontal-Black.jpg 1920w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",

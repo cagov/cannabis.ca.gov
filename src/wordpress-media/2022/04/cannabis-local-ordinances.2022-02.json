@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-04-17T07:55:12",
-    "updated_date": "2022-07-18T17:53:35",
+    "created_date": "2022-04-21T23:51:33",
+    "updated_date": "2022-06-13T21:16:48",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10498",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9697",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,24 +14,27 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 10498,
-    "date": "2022-04-17T00:55:12",
-    "date_gmt": "2022-04-17T07:55:12",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv",
-    "modified": "2022-07-18T10:53:35",
-    "modified_gmt": "2022-07-18T17:53:35",
+    "id": 9697,
+    "date": "2022-04-21T16:51:33",
+    "date_gmt": "2022-04-21T23:51:33",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/cannabis-local-ordinances.2022-02.csv",
+    "modified": "2022-06-13T14:16:48",
+    "modified_gmt": "2022-06-13T21:16:48",
     "slug": "cannabis-local-ordinances-2022-02",
     "status": "inherit",
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/cannabis-local-ordinances-2022-02/",
     "title": "cannabis-local-ordinances.2022-02",
-    "author": "Chach",
+    "author": "Test Suite",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      804
+      794
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv'>cannabis-local-ordinances.2022-02</a></p>\n",
     "caption": "<p>cannabis-local-ordinances.2022-02</p>\n",

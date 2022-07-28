@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-20T18:39:08",
-    "updated_date": "2021-06-20T18:39:08",
+    "updated_date": "2021-07-13T13:51:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,21 +17,24 @@
     "id": 8108,
     "date": "2021-06-20T11:39:08",
     "date_gmt": "2021-06-20T18:39:08",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/06/logo_square.png",
-    "modified": "2021-06-20T11:39:08",
-    "modified_gmt": "2021-06-20T18:39:08",
+    "guid": "http://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/06/logo_square.png",
+    "modified": "2021-07-13T06:51:58",
+    "modified_gmt": "2021-07-13T13:51:58",
     "slug": "logo_square",
     "status": "inherit",
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/logo_square/",
     "title": "logo_square",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/06/logo_square.png'><img width=\"90\" height=\"90\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/06/logo_square.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

@@ -17,7 +17,7 @@
     "id": 8781,
     "date": "2021-09-14T16:48:31",
     "date_gmt": "2021-09-14T23:48:31",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Local-Grant_Attachment-2-DRAFT.xlsx",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Local-Grant_Attachment-2-DRAFT.xlsx",
     "modified": "2021-09-14T16:48:31",
     "modified_gmt": "2021-09-14T23:48:31",
     "slug": "local-grant_attachment-2-draft",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/local-grant_attachment-2-draft/",
     "title": "Local Grant_Attachment 2 &#8211; DRAFT",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Local-Grant_Attachment-2-DRAFT.xlsx'>Local Grant_Attachment 2 - DRAFT</a></p>\n",
     "caption": "<p>Local Grant_Attachment 2 &#8211; DRAFT</p>\n",

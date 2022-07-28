@@ -17,7 +17,7 @@
     "id": 9030,
     "date": "2021-12-03T09:24:01",
     "date_gmt": "2021-12-03T17:24:01",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/CAC-Meeting-211213-Notice-and-Agenda.pdf",
     "modified": "2021-12-03T09:24:01",
     "modified_gmt": "2021-12-03T17:24:01",
     "slug": "cac-meeting-211213-notice-and-agenda",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/cac-meeting-211213-notice-and-agenda/",
     "title": "CAC Meeting 211213 Notice and Agenda",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
@@ -62,11 +65,11 @@
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-791x1024.jpg"
         },
         "thumbnail": {
-          "file": "CAC-Meeting-211213-Notice-and-Agenda-pdf-291x376.jpg",
-          "width": 291,
-          "height": 376,
+          "file": "CAC-Meeting-211213-Notice-and-Agenda-pdf-116x150.jpg",
+          "width": 116,
+          "height": 150,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-291x376.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-116x150.jpg"
         }
       }
     },
@@ -106,13 +109,13 @@
       },
       {
         "type": "thumbnail",
-        "path": "2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-291x376.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-291x376.jpg",
-        "file": "CAC-Meeting-211213-Notice-and-Agenda-pdf-291x376.jpg",
-        "width": 291,
-        "height": 376,
+        "path": "2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-116x150.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-116x150.jpg",
+        "file": "CAC-Meeting-211213-Notice-and-Agenda-pdf-116x150.jpg",
+        "width": 116,
+        "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-291x376.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/CAC-Meeting-211213-Notice-and-Agenda-pdf-116x150.jpg"
       }
     ],
     "path": "2021/12/CAC-Meeting-211213-Notice-and-Agenda.pdf"

@@ -17,7 +17,7 @@
     "id": 9612,
     "date": "2022-04-01T10:45:15",
     "date_gmt": "2022-04-01T17:45:15",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Data-Visualization-Project_CD.docx",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/Data-Visualization-Project_CD.docx",
     "modified": "2022-04-01T10:45:15",
     "modified_gmt": "2022-04-01T17:45:15",
     "slug": "data-visualization-project_cd",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/data-visualization-project_cd/",
     "title": "Data Visualization Project_CD",
-    "author": "Christina Dempsey",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Data-Visualization-Project_CD.docx'>Data Visualization Project_CD</a></p>\n",
     "caption": "<p>Data Visualization Project_CD</p>\n",

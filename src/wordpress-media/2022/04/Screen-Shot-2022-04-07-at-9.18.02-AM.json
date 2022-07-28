@@ -17,21 +17,24 @@
     "id": 9649,
     "date": "2022-04-07T17:43:16",
     "date_gmt": "2022-04-08T00:43:16",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM.png",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM.png",
     "modified": "2022-04-07T17:43:16",
     "modified_gmt": "2022-04-08T00:43:16",
     "slug": "screen-shot-2022-04-07-at-9-18-02-am",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/screen-shot-2022-04-07-at-9-18-02-am/",
+    "link": "https://api.cannabis.ca.gov/2022/04/california-state-senate-confirms-nicole-elliott-as-director-of-the-department-of-cannabis-control/screen-shot-2022-04-07-at-9-18-02-am/",
     "title": "Screen-Shot-2022-04-07-at-9.18.02-AM",
-    "author": "Christina Dempsey",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM.png'><img width=\"576\" height=\"322\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM-576x322.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM-576x322.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM-1024x572.png 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM-768x429.png 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM-1536x858.png 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM-2048x1144.png 2048w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",
@@ -108,7 +111,7 @@
         "keywords": []
       }
     },
-    "post": null,
+    "post": 9646,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM.png",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Screen-Shot-2022-04-07-at-9.18.02-AM.png",
     "sizes": [

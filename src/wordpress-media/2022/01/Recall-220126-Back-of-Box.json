@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-26T16:31:06",
-    "updated_date": "2022-01-26T16:31:06",
+    "updated_date": "2022-01-26T16:35:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,19 +17,22 @@
     "id": 9353,
     "date": "2022-01-26T08:31:06",
     "date_gmt": "2022-01-26T16:31:06",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Back-of-Box.jpg",
-    "modified": "2022-01-26T08:31:06",
-    "modified_gmt": "2022-01-26T16:31:06",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/01/Recall-220126-Back-of-Box.jpg",
+    "modified": "2022-01-26T08:35:25",
+    "modified_gmt": "2022-01-26T16:35:25",
     "slug": "recall-220126-back-of-box",
     "status": "inherit",
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/recall-220126-back-of-box/",
     "title": "Recall 220126 Back of Box",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       766
     ],

@@ -17,7 +17,7 @@
     "id": 9417,
     "date": "2022-02-28T23:00:21",
     "date_gmt": "2022-03-01T07:00:21",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/02/AB-1525-Cert-of-Compliance-FSOR-and-Updated-Digest.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/02/AB-1525-Cert-of-Compliance-FSOR-and-Updated-Digest.pdf",
     "modified": "2022-02-28T23:00:21",
     "modified_gmt": "2022-03-01T07:00:21",
     "slug": "ab-1525-cert-of-compliance-fsor-and-updated-digest",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/ab-1525-cert-of-compliance-fsor-and-updated-digest/",
     "title": "AB 1525 Cert of Compliance FSOR and Updated Digest",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/02/AB-1525-Cert-of-Compliance-FSOR-and-Updated-Digest.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/02/AB-1525-Cert-of-Compliance-FSOR-and-Updated-Digest-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

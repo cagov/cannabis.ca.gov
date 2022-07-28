@@ -1,11 +1,11 @@
 {
   "meta": {
     "created_date": "2021-12-12T16:59:34",
-    "updated_date": "2021-12-12T16:59:34",
+    "updated_date": "2021-12-14T04:47:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9874",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9163",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,24 +14,27 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 9874,
+    "id": 9163,
     "date": "2021-12-12T08:59:34",
     "date_gmt": "2021-12-12T16:59:34",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-1102_CAC-Application.pdf",
-    "modified": "2021-12-12T08:59:34",
-    "modified_gmt": "2021-12-12T16:59:34",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/DCC-1102_CAC-Application.pdf",
+    "modified": "2021-12-13T20:47:57",
+    "modified_gmt": "2021-12-14T04:47:57",
     "slug": "dcc-1102_cac-application",
     "status": "inherit",
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/dcc-1102_cac-application/",
     "title": "DCC-1102_CAC Application",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-1102_CAC-Application.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-1102_CAC-Application-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

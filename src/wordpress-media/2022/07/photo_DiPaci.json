@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "created_date": "2022-07-27T01:01:55",
+    "updated_date": "2022-07-27T01:04:07",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10686",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10686,
+    "date": "2022-07-26T18:01:55",
+    "date_gmt": "2022-07-27T01:01:55",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg",
+    "modified": "2022-07-26T18:04:07",
+    "modified_gmt": "2022-07-27T01:04:07",
+    "slug": "photo_dipaci",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/about-us/public-awareness-campaigns/this-is-california-cannabis/photo_dipaci/",
+    "title": "photo_DiPaci",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg'><img width=\"576\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-576x576.jpg\" class=\"attachment-medium size-medium\" alt=\"Photo of Christina DiPaci\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-576x576.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-1024x1024.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-376x376.jpg 376w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-768x768.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg 1080w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Photo of Christina DiPaci",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1080,
+      "height": 1080,
+      "file": "2022/07/photo_DiPaci.jpg",
+      "filesize": 393998,
+      "sizes": {
+        "medium": {
+          "file": "photo_DiPaci-576x576.jpg",
+          "width": 576,
+          "height": 576,
+          "filesize": 84020,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-576x576.jpg"
+        },
+        "large": {
+          "file": "photo_DiPaci-1024x1024.jpg",
+          "width": 1024,
+          "height": 1024,
+          "filesize": 212463,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-1024x1024.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_DiPaci-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "filesize": 40523,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-376x376.jpg"
+        },
+        "medium_large": {
+          "file": "photo_DiPaci-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "filesize": 134806,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-768x768.jpg"
+        },
+        "full": {
+          "file": "photo_DiPaci.jpg",
+          "width": 1080,
+          "height": 1080,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 10045,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/07/photo_DiPaci.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg",
+        "file": "photo_DiPaci.jpg",
+        "width": 1080,
+        "height": 1080,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/07/photo_DiPaci-1024x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-1024x1024.jpg",
+        "file": "photo_DiPaci-1024x1024.jpg",
+        "width": 1024,
+        "height": 1024,
+        "filesize": 212463,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-1024x1024.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/07/photo_DiPaci-768x768.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-768x768.jpg",
+        "file": "photo_DiPaci-768x768.jpg",
+        "width": 768,
+        "height": 768,
+        "filesize": 134806,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-768x768.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/07/photo_DiPaci-576x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-576x576.jpg",
+        "file": "photo_DiPaci-576x576.jpg",
+        "width": 576,
+        "height": 576,
+        "filesize": 84020,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-576x576.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/07/photo_DiPaci-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-376x376.jpg",
+        "file": "photo_DiPaci-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "filesize": 40523,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_DiPaci-376x376.jpg"
+      }
+    ],
+    "path": "2022/07/photo_DiPaci.jpg"
+  }
+}

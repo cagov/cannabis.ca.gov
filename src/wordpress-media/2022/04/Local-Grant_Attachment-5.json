@@ -17,20 +17,23 @@
     "id": 9640,
     "date": "2022-04-06T11:47:42",
     "date_gmt": "2022-04-06T18:47:42",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Local-Grant_Attachment-5.xlsx",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/Local-Grant_Attachment-5.xlsx",
     "modified": "2022-04-06T11:47:42",
     "modified_gmt": "2022-04-06T18:47:42",
-    "slug": "local-grant_attachment-5-2-2",
+    "slug": "local-grant_attachment-5-2",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/local-grant_attachment-5-2-2/",
+    "link": "https://api.cannabis.ca.gov/local-grant_attachment-5-2/",
     "title": "Local-Grant_Attachment-5",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Local-Grant_Attachment-5.xlsx'>Local-Grant_Attachment-5</a></p>\n",
     "caption": "<p>Local-Grant_Attachment-5</p>\n",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-10T00:19:57",
-    "updated_date": "2022-03-10T00:19:57",
+    "updated_date": "2022-03-14T18:46:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,19 +17,22 @@
     "id": 9504,
     "date": "2022-03-09T16:19:57",
     "date_gmt": "2022-03-10T00:19:57",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-    "modified": "2022-03-09T16:19:57",
-    "modified_gmt": "2022-03-10T00:19:57",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
+    "modified": "2022-03-14T11:46:09",
+    "modified_gmt": "2022-03-14T18:46:09",
     "slug": "fha211119_california_cannabis_m-cmyk-2",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/fha211119_california_cannabis_m-cmyk-2/",
+    "link": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/fha211119_california_cannabis_m-cmyk-2/",
     "title": "FHA211119_California_Cannabis_M-CMYK",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       766
     ],
@@ -94,7 +97,7 @@
         "keywords": []
       }
     },
-    "post": null,
+    "post": 9492,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
     "sizes": [
