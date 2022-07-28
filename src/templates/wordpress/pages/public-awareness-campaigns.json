@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2022-07-19T21:56:51",
+    "updated_date": "2022-07-28T20:39:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/public-outreach-campaigns/",
-    "modified": "2022-07-19T14:56:51",
-    "modified_gmt": "2022-07-19T21:56:51",
+    "modified": "2022-07-28T13:39:47",
+    "modified_gmt": "2022-07-28T20:39:47",
     "slug": "public-awareness-campaigns",
     "status": "publish",
     "type": "page",
@@ -72,6 +72,78 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/about-us/public-awareness-campaigns/"
+    "wordpress_url": "https://api.cannabis.ca.gov/about-us/public-awareness-campaigns/",
+    "media": [
+      {
+        "id": 10763,
+        "type": "2048x2048",
+        "path": "2022/07/D_B5Fmpo-2048x1075.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-2048x1075.png",
+        "file": "D_B5Fmpo-2048x1075.png",
+        "width": 2048,
+        "height": 1075,
+        "filesize": 1856567,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-2048x1075.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10763,
+        "type": "1536x1536",
+        "path": "2022/07/D_B5Fmpo-1536x806.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-1536x806.png",
+        "file": "D_B5Fmpo-1536x806.png",
+        "width": 1536,
+        "height": 806,
+        "filesize": 1188398,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-1536x806.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10763,
+        "type": "large",
+        "path": "2022/07/D_B5Fmpo-1024x538.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-1024x538.png",
+        "file": "D_B5Fmpo-1024x538.png",
+        "width": 1024,
+        "height": 538,
+        "filesize": 614393,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-1024x538.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10763,
+        "type": "medium_large",
+        "path": "2022/07/D_B5Fmpo-768x403.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-768x403.png",
+        "file": "D_B5Fmpo-768x403.png",
+        "width": 768,
+        "height": 403,
+        "filesize": 376515,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-768x403.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10763,
+        "type": "medium",
+        "path": "2022/07/D_B5Fmpo-576x302.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-576x302.png",
+        "file": "D_B5Fmpo-576x302.png",
+        "width": 576,
+        "height": 302,
+        "filesize": 226400,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/D_B5Fmpo-576x302.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
