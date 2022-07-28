@@ -34,7 +34,7 @@
       },
       {
         "Destination": "src/templates/_data/socialMediaLinksMenu.json",
-        "Source": "/wp-json/menus/v1/menus/social-media-links",
+        "Source": "/wp-json/menus/v1/menus/social-media-links-menu",
         "ExcludeProperties": []
       }
     ]
