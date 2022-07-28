@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-24T17:14:00",
-    "updated_date": "2022-03-29T05:26:10",
+    "updated_date": "2021-12-02T21:23:17",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2017-04-24T17:14:00",
     "date_gmt": "2017-04-24T17:14:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks/",
-    "modified": "2022-03-28T22:26:10",
-    "modified_gmt": "2022-03-29T05:26:10",
+    "modified": "2021-12-02T13:23:17",
+    "modified_gmt": "2021-12-02T21:23:17",
     "slug": "this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/04/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks/",
     "title": "This Landmark Cannabis Bill Is Great News for Marijuana Stocks",
     "excerpt": "<p>Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -44,7 +47,7 @@
       "Stocks"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -60,7 +63,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/04/this-landmark-cannabis-bill-is-great-news-for-marijuana-stocks/",
       "page_title": "This Landmark Cannabis Bill Is Great News for Marijuana Stocks",
       "page_description": "Investors would probably struggle to find an industry that&#8217;s growing at a faster and more consistent pace than legal marijuana.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -74,16 +77,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -92,44 +95,44 @@
     ],
     "headless_tags": [
       {
-        "term_id": 17,
+        "term_id": 92,
         "name": "Business",
         "slug": "business",
         "term_group": 0,
-        "term_taxonomy_id": 17,
+        "term_taxonomy_id": 92,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 18,
+        "term_id": 406,
         "name": "Legislation",
         "slug": "legislation",
         "term_group": 0,
-        "term_taxonomy_id": 18,
+        "term_taxonomy_id": 406,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 19,
+        "term_id": 654,
         "name": "Stocks",
         "slug": "stocks",
         "term_group": 0,
-        "term_taxonomy_id": 19,
+        "term_taxonomy_id": 654,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

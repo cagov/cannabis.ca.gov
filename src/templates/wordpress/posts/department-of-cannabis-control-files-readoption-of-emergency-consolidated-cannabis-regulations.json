@@ -1,11 +1,11 @@
 {
   "meta": {
     "created_date": "2022-03-17T21:13:02",
-    "updated_date": "2022-03-17T21:13:02",
+    "updated_date": "2022-03-17T21:13:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10335",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/9557",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,26 +14,29 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 10335,
+    "id": 9557,
     "date": "2022-03-17T14:13:02",
     "date_gmt": "2022-03-17T21:13:02",
     "guid": "https://cannabis.ca.gov/?p=9557",
-    "modified": "2022-03-17T14:13:02",
-    "modified_gmt": "2022-03-17T21:13:02",
+    "modified": "2022-03-17T14:13:29",
+    "modified_gmt": "2022-03-17T21:13:29",
     "slug": "department-of-cannabis-control-files-readoption-of-emergency-consolidated-cannabis-regulations",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-files-readoption-of-emergency-consolidated-cannabis-regulations/",
     "title": "DCC files readoption of emergency consolidated cannabis regulations",
     "excerpt": "<p>The Department of Cannabis Control (DCC) has filed an action with the Office of Administrative Law (OAL) to readopt emergency regulations that consolidate the commercial cannabis regulations. This readoption would allow emergency regulations to remain in place while DCC completes the regular rulemaking process, which began on Friday, March 4. DCC’s filing marks the start [&hellip;]</p>\n",
-    "author": "Christina Dempsey",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -55,7 +58,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-files-readoption-of-emergency-consolidated-cannabis-regulations/",
       "page_title": "DCC files readoption of emergency consolidated cannabis regulations",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -69,16 +72,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",

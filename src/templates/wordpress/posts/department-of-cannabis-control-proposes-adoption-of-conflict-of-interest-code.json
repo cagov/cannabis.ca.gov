@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-28T19:52:35",
-    "updated_date": "2022-04-09T18:37:24",
+    "updated_date": "2022-03-01T19:20:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2022-01-28T11:52:35",
     "date_gmt": "2022-01-28T19:52:35",
     "guid": "https://cannabis.ca.gov/?p=9391",
-    "modified": "2022-04-09T11:37:24",
-    "modified_gmt": "2022-04-09T18:37:24",
+    "modified": "2022-03-01T11:20:41",
+    "modified_gmt": "2022-03-01T19:20:41",
     "slug": "department-of-cannabis-control-proposes-adoption-of-conflict-of-interest-code",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/01/department-of-cannabis-control-proposes-adoption-of-conflict-of-interest-code/",
     "title": "Department of Cannabis Control proposes adoption of Conflict of Interest Code",
     "excerpt": "<p>The Department of Cannabis Control (DCC) is providing notice of its intention to adopt its proposed Conflict of Interest Code as required by the Political Reform Act. Notice of Intention to Adopt Conflict of Interest Code DCC is providing notice to the public of its intention to adopt the proposed Conflict of Interest Code. The [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -47,7 +50,7 @@
       "Statement of economic interest"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +66,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2022/01/department-of-cannabis-control-proposes-adoption-of-conflict-of-interest-code/",
       "page_title": "Department of Cannabis Control proposes adoption of Conflict of Interest Code",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -77,16 +80,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -95,77 +98,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 789,
+        "term_id": 785,
         "name": "coi code",
         "slug": "coi-code",
         "term_group": 0,
-        "term_taxonomy_id": 789,
+        "term_taxonomy_id": 785,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 790,
+        "term_id": 784,
         "name": "conflict of interest",
         "slug": "conflict-of-interest",
         "term_group": 0,
-        "term_taxonomy_id": 790,
+        "term_taxonomy_id": 784,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 791,
+        "term_id": 787,
         "name": "Fair Political Practices Commission",
         "slug": "fair-political-practices-commission",
         "term_group": 0,
-        "term_taxonomy_id": 791,
+        "term_taxonomy_id": 787,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 792,
+        "term_id": 788,
         "name": "Form 700",
         "slug": "form-700",
         "term_group": 0,
-        "term_taxonomy_id": 792,
+        "term_taxonomy_id": 788,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 796,
+        "term_id": 786,
         "name": "Political reform act",
         "slug": "political-reform-act",
         "term_group": 0,
-        "term_taxonomy_id": 796,
+        "term_taxonomy_id": 786,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 6,
+        "term_id": 564,
         "name": "Regulations",
         "slug": "regulations",
         "term_group": 0,
-        "term_taxonomy_id": 6,
+        "term_taxonomy_id": 564,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 798,
+        "term_id": 789,
         "name": "Statement of economic interest",
         "slug": "statement-of-economic-interest",
         "term_group": 0,
-        "term_taxonomy_id": 798,
+        "term_taxonomy_id": 789,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

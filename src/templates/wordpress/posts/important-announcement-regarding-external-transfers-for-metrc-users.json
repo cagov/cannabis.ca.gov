@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-12-30T20:23:00",
-    "updated_date": "2022-03-29T05:25:31",
+    "updated_date": "2021-12-02T21:19:26",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2019-12-30T20:23:00",
     "date_gmt": "2019-12-30T20:23:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/important-announcement-regarding-external-transfers-for-metrc-users/",
-    "modified": "2022-03-28T22:25:31",
-    "modified_gmt": "2022-03-29T05:25:31",
+    "modified": "2021-12-02T13:19:26",
+    "modified_gmt": "2021-12-02T21:19:26",
     "slug": "important-announcement-regarding-external-transfers-for-metrc-users",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
     "title": "Important Announcement Regarding External Transfers for Metrc Users",
     "excerpt": "<p>To All Interested Parties,<br />\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -49,7 +52,7 @@
       "Transfer"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -65,7 +68,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
       "page_title": "Important Announcement Regarding External Transfers for Metrc Users",
       "page_description": "To All Interested Parties,\nMetrc has recently published an industry bulletin to all Metrc user accounts regarding the retirement of external transfers.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -79,16 +82,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -97,88 +100,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 328,
+        "term_id": 44,
         "name": "Announcement",
         "slug": "announcement",
         "term_group": 0,
-        "term_taxonomy_id": 328,
+        "term_taxonomy_id": 44,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 465,
+        "term_id": 108,
         "name": "California Cannabis Track-and-Trace",
         "slug": "california-cannabis-track-and-trace",
         "term_group": 0,
-        "term_taxonomy_id": 465,
+        "term_taxonomy_id": 108,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 656,
+        "term_id": 159,
         "name": "Cannabis product",
         "slug": "cannabis-product",
         "term_group": 0,
-        "term_taxonomy_id": 656,
+        "term_taxonomy_id": 159,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 690,
+        "term_id": 303,
         "name": "External",
         "slug": "external",
         "term_group": 0,
-        "term_taxonomy_id": 690,
+        "term_taxonomy_id": 303,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 691,
+        "term_id": 304,
         "name": "External transfers",
         "slug": "external-transfers",
         "term_group": 0,
-        "term_taxonomy_id": 691,
+        "term_taxonomy_id": 304,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 625,
+        "term_id": 461,
         "name": "METRC",
         "slug": "metrc",
         "term_group": 0,
-        "term_taxonomy_id": 625,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 90,
-        "name": "Track-and-trace",
-        "slug": "track-and-trace",
-        "term_group": 0,
-        "term_taxonomy_id": 90,
+        "term_taxonomy_id": 461,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -186,10 +178,21 @@
       },
       {
         "term_id": 692,
+        "name": "Track-and-trace",
+        "slug": "track-and-trace",
+        "term_group": 0,
+        "term_taxonomy_id": 692,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 697,
         "name": "Transfer",
         "slug": "transfer",
         "term_group": 0,
-        "term_taxonomy_id": 692,
+        "term_taxonomy_id": 697,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

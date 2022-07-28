@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-05-31T21:36:00",
-    "updated_date": "2022-03-29T05:25:39",
+    "updated_date": "2021-12-02T21:21:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2018-05-31T21:36:00",
     "date_gmt": "2018-05-31T21:36:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-senate-passes-bill-to-create-banks-for-pot-businesses/",
-    "modified": "2022-03-28T22:25:39",
-    "modified_gmt": "2022-03-29T05:25:39",
+    "modified": "2021-12-02T13:21:45",
+    "modified_gmt": "2021-12-02T21:21:45",
     "slug": "california-senate-passes-bill-to-create-banks-for-pot-businesses",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/05/california-senate-passes-bill-to-create-banks-for-pot-businesses/",
     "title": "California Senate passes bill to create banks for pot businesses",
     "excerpt": "<p>The state Senate passed a bill this week to create a state charter for banks to serve California cannabis businesses, which would allow licensed merchants to write checks to pay taxes, fees and vendors — rather than use large amounts of cash, as they currently do.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -48,7 +51,7 @@
       "State-chartered"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/05/california-senate-passes-bill-to-create-banks-for-pot-businesses/",
       "page_title": "California Senate passes bill to create banks for pot businesses",
       "page_description": "The state Senate passed a bill this week to create a state charter for banks to serve California cannabis businesses, which would allow licensed merchants to write checks to pay taxes, fees and vendors — rather than use large amounts of cash, as they currently do.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -78,16 +81,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -96,88 +99,88 @@
     ],
     "headless_tags": [
       {
-        "term_id": 218,
+        "term_id": 70,
         "name": "Assembly",
         "slug": "assembly",
         "term_group": 0,
-        "term_taxonomy_id": 218,
+        "term_taxonomy_id": 70,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 219,
+        "term_id": 78,
         "name": "Banks",
         "slug": "banks",
         "term_group": 0,
-        "term_taxonomy_id": 219,
+        "term_taxonomy_id": 78,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 23,
+        "term_id": 104,
         "name": "California",
         "slug": "california",
         "term_group": 0,
-        "term_taxonomy_id": 23,
+        "term_taxonomy_id": 104,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 220,
+        "term_id": 231,
         "name": "Credit union",
         "slug": "credit-union",
         "term_group": 0,
-        "term_taxonomy_id": 220,
+        "term_taxonomy_id": 231,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 221,
+        "term_id": 605,
         "name": "SB-930",
         "slug": "sb-930",
         "term_group": 0,
-        "term_taxonomy_id": 221,
+        "term_taxonomy_id": 605,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 222,
+        "term_id": 619,
         "name": "Senate",
         "slug": "senate",
         "term_group": 0,
-        "term_taxonomy_id": 222,
+        "term_taxonomy_id": 619,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 223,
+        "term_id": 651,
         "name": "State-chartered",
         "slug": "state-chartered",
         "term_group": 0,
-        "term_taxonomy_id": 223,
+        "term_taxonomy_id": 651,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

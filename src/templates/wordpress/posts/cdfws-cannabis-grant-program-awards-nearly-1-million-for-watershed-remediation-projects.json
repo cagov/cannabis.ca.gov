@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-11-09T00:28:00",
-    "updated_date": "2022-04-09T18:37:24",
+    "updated_date": "2021-12-07T00:34:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2021-11-08T16:28:00",
     "date_gmt": "2021-11-09T00:28:00",
     "guid": "https://cannabis.ca.gov/?p=9084",
-    "modified": "2022-04-09T11:37:24",
-    "modified_gmt": "2022-04-09T18:37:24",
+    "modified": "2021-12-06T16:34:39",
+    "modified_gmt": "2021-12-07T00:34:39",
     "slug": "cdfws-cannabis-grant-program-awards-nearly-1-million-for-watershed-remediation-projects",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/11/cdfws-cannabis-grant-program-awards-nearly-1-million-for-watershed-remediation-projects/",
     "title": "CDFW’s Cannabis Grant Program Awards Nearly $1 Million For Watershed Remediation Projects",
     "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) issued this press release. Contact CDFW if you have any questions: Janice Mackey, janice.mackey@wildlife.ca.gov, CDFW Communications. CDFW today announced the selection of four projects to receive funding for watershed remediation and enhancement projects. The awards, totaling $966,649, were made under CDFW’s Cannabis Restoration Grant Program (CRGP) through [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -46,7 +49,7 @@
       "Grants"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -62,7 +65,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/11/cdfws-cannabis-grant-program-awards-nearly-1-million-for-watershed-remediation-projects/",
       "page_title": "CDFW’s Cannabis Grant Program Awards Nearly $1 Million For Watershed Remediation Projects",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -76,16 +79,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -94,66 +97,66 @@
     ],
     "headless_tags": [
       {
-        "term_id": 295,
+        "term_id": 111,
         "name": "California department of fish and wildlife",
         "slug": "california-department-of-fish-and-wildlife",
         "term_group": 0,
-        "term_taxonomy_id": 295,
+        "term_taxonomy_id": 111,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 372,
+        "term_id": 183,
         "name": "CDFW",
         "slug": "cdfw",
         "term_group": 0,
-        "term_taxonomy_id": 372,
+        "term_taxonomy_id": 183,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 421,
+        "term_id": 338,
         "name": "Grant",
         "slug": "grant",
         "term_group": 0,
-        "term_taxonomy_id": 421,
+        "term_taxonomy_id": 338,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 423,
+        "term_id": 341,
         "name": "Grant funding",
         "slug": "grant-funding",
         "term_group": 0,
-        "term_taxonomy_id": 423,
+        "term_taxonomy_id": 341,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 396,
+        "term_id": 344,
         "name": "Grants",
         "slug": "grants",
         "term_group": 0,
-        "term_taxonomy_id": 396,
+        "term_taxonomy_id": 344,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

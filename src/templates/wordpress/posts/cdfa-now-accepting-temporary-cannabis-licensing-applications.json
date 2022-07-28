@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-12-18T20:17:00",
-    "updated_date": "2022-03-29T05:26:06",
+    "updated_date": "2021-12-02T21:22:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2017-12-18T20:17:00",
     "date_gmt": "2017-12-18T20:17:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
-    "modified": "2022-03-28T22:26:06",
-    "modified_gmt": "2022-03-29T05:26:06",
+    "modified": "2021-12-02T13:22:08",
+    "modified_gmt": "2021-12-02T21:22:08",
     "slug": "cdfa-now-accepting-temporary-cannabis-licensing-applications",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/12/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
     "title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
     "excerpt": "<p>The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -47,7 +50,7 @@
       "Temporary"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +66,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/12/cdfa-now-accepting-temporary-cannabis-licensing-applications/",
       "page_title": "CDFA Now Accepting Temporary Cannabis Licensing Applications",
       "page_description": "The California Department of Food and Agriculture’s CalCannabis program has officially launched its online licensing system and is now accepting applications for temporary commercial cannabis licenses for cultivators, nurseries and processors.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -77,16 +80,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -95,77 +98,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 105,
+        "term_id": 60,
         "name": "Application",
         "slug": "application",
         "term_group": 0,
-        "term_taxonomy_id": 105,
+        "term_taxonomy_id": 60,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 78,
+        "term_id": 96,
         "name": "CalCannabis",
         "slug": "calcannabis",
         "term_group": 0,
-        "term_taxonomy_id": 78,
+        "term_taxonomy_id": 96,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 12,
+        "term_id": 232,
         "name": "Cultivation",
         "slug": "cultivation",
         "term_group": 0,
-        "term_taxonomy_id": 12,
+        "term_taxonomy_id": 232,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 33,
+        "term_id": 416,
         "name": "Licensing",
         "slug": "licensing",
         "term_group": 0,
-        "term_taxonomy_id": 33,
+        "term_taxonomy_id": 416,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 107,
+        "term_id": 488,
         "name": "Online",
         "slug": "online",
         "term_group": 0,
-        "term_taxonomy_id": 107,
+        "term_taxonomy_id": 488,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 108,
+        "term_id": 664,
         "name": "System",
         "slug": "system",
         "term_group": 0,
-        "term_taxonomy_id": 108,
+        "term_taxonomy_id": 664,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 115,
+        "term_id": 675,
         "name": "Temporary",
         "slug": "temporary",
         "term_group": 0,
-        "term_taxonomy_id": 115,
+        "term_taxonomy_id": 675,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-10-31T15:25:00",
-    "updated_date": "2022-03-29T05:26:07",
+    "updated_date": "2021-12-02T21:23:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2017-10-31T15:25:00",
     "date_gmt": "2017-10-31T15:25:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
-    "modified": "2022-03-28T22:26:07",
-    "modified_gmt": "2022-03-29T05:26:07",
+    "modified": "2021-12-02T13:23:06",
+    "modified_gmt": "2021-12-02T21:23:06",
     "slug": "media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/10/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
     "title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
     "excerpt": "<p>UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -45,7 +48,7 @@
       "Recreational"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -61,7 +64,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/10/media-uc-san-diego-developing-public-awareness-campaign-on-pots-effect-on-drivers/",
       "page_title": "Media: UC San Diego developing public awareness campaign on pot&#8217;s effect on drivers",
       "page_description": "UC San Diego has begun looking for effective ways to talk to the public about how marijuana can impair a person’s driving abilities, a move prompted by the legalization of recreational marijuana in California.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -75,16 +78,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -93,22 +96,11 @@
     ],
     "headless_tags": [
       {
-        "term_id": 121,
+        "term_id": 41,
         "name": "Alcohol",
         "slug": "alcohol",
         "term_group": 0,
-        "term_taxonomy_id": 121,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 3,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 41,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -116,8 +108,8 @@
       },
       {
         "term_id": 122,
-        "name": "Drivers",
-        "slug": "drivers",
+        "name": "Cannabis",
+        "slug": "cannabis",
         "term_group": 0,
         "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
@@ -126,22 +118,33 @@
         "filter": "raw"
       },
       {
-        "term_id": 123,
-        "name": "Public awareness",
-        "slug": "public-awareness",
+        "term_id": 269,
+        "name": "Drivers",
+        "slug": "drivers",
         "term_group": 0,
-        "term_taxonomy_id": 123,
+        "term_taxonomy_id": 269,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 73,
+        "term_id": 536,
+        "name": "Public awareness",
+        "slug": "public-awareness",
+        "term_group": 0,
+        "term_taxonomy_id": 536,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 556,
         "name": "Recreational",
         "slug": "recreational",
         "term_group": 0,
-        "term_taxonomy_id": 73,
+        "term_taxonomy_id": 556,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

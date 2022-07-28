@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-06T20:18:47",
-    "updated_date": "2022-04-09T18:37:24",
+    "updated_date": "2021-12-13T15:33:34",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,28 +18,31 @@
     "date": "2021-12-06T12:18:47",
     "date_gmt": "2021-12-06T20:18:47",
     "guid": "https://cannabis.ca.gov/?p=9070",
-    "modified": "2022-04-09T11:37:24",
-    "modified_gmt": "2022-04-09T18:37:24",
+    "modified": "2021-12-13T07:33:34",
+    "modified_gmt": "2021-12-13T15:33:34",
     "slug": "cannabis-advisory-committee-meeting",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/12/cannabis-advisory-committee-meeting/",
     "title": "Cannabis Advisory Committee",
-    "excerpt": "<p>Cannabis Advisory Committee Meeting The Department of Cannabis Control (DCC) will host a meeting of the Cannabis Advisory Committee on December 13, 2021. The meeting will be held virtually via WebEx Events. Meeting Notice and Agenda&nbsp;– Includes a link and instructions for joining the virtual meeting. Meeting Materials: Meeting Minutes: May 25, 2021 Draft 2021 [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "excerpt": "<div class=\"event-details\">\n<div class=\"event-date\">December 13, 2021</div>\n<p></p>\n<div class=\"event-time\">10:00 AM PST</div>\n<p></p>\n<div class=\"event-location\">Virtual (WebEx Events)</div>\n</div>\n",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "event",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-event.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Events"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "event"
+      "template": "template-single-event"
     },
     "og_meta": {
       "editor": {
@@ -55,7 +58,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/12/cannabis-advisory-committee-meeting/",
       "page_title": "Cannabis Advisory Committee",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -69,20 +72,20 @@
     },
     "headless_categories": [
       {
-        "term_id": 729,
+        "term_id": 4,
         "name": "Events",
         "slug": "events",
         "term_group": 0,
-        "term_taxonomy_id": 729,
+        "term_taxonomy_id": 4,
         "taxonomy": "category",
         "description": "",
-        "parent": 550,
+        "parent": 2,
         "filter": "raw",
-        "cat_ID": 729,
+        "cat_ID": 4,
         "category_description": "",
         "cat_name": "Events",
         "category_nicename": "events",
-        "category_parent": 550
+        "category_parent": 2
       }
     ],
     "headless_tags": [],

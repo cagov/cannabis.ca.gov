@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-02-08T16:50:00",
-    "updated_date": "2022-03-29T05:24:56",
+    "updated_date": "2021-12-02T21:25:05",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2019-02-08T16:50:00",
     "date_gmt": "2019-02-08T16:50:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-announces-enforcement-action-on-illegal-cannabis-businesses/",
-    "modified": "2022-03-28T22:24:56",
-    "modified_gmt": "2022-03-29T05:24:56",
+    "modified": "2021-12-02T13:25:05",
+    "modified_gmt": "2021-12-02T21:25:05",
     "slug": "bureau-of-cannabis-control-announces-enforcement-action-on-illegal-cannabis-businesses",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2019/02/bureau-of-cannabis-control-announces-enforcement-action-on-illegal-cannabis-businesses/",
     "title": "Bureau of Cannabis Control Announces Enforcement Action on Illegal Cannabis Businesses",
     "excerpt": "<p>The Bureau of Cannabis Control  and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis businesses operating in Sacramento County and Los Angeles.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -48,7 +51,7 @@
       "Unlicensed cannabis operator"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2019/02/bureau-of-cannabis-control-announces-enforcement-action-on-illegal-cannabis-businesses/",
       "page_title": "Bureau of Cannabis Control Announces Enforcement Action on Illegal Cannabis Businesses",
       "page_description": "The Bureau of Cannabis Control  and the Department of Consumer Affairs’ Division of Investigation-Cannabis Enforcement Unit today announced enforcement action on two unlicensed cannabis businesses operating in Sacramento County and Los Angeles.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -78,16 +81,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -96,88 +99,88 @@
     ],
     "headless_tags": [
       {
-        "term_id": 410,
+        "term_id": 105,
         "name": "California cannabis",
         "slug": "california-cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 410,
+        "term_taxonomy_id": 105,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 143,
+        "term_id": 285,
         "name": "Enforcement",
         "slug": "enforcement",
         "term_group": 0,
-        "term_taxonomy_id": 143,
+        "term_taxonomy_id": 285,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 432,
+        "term_id": 359,
         "name": "Illegal",
         "slug": "illegal",
         "term_group": 0,
-        "term_taxonomy_id": 432,
+        "term_taxonomy_id": 359,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 433,
+        "term_id": 494,
         "name": "Operation",
         "slug": "operation",
         "term_group": 0,
-        "term_taxonomy_id": 433,
+        "term_taxonomy_id": 494,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 355,
+        "term_id": 711,
         "name": "Unlicensed",
         "slug": "unlicensed",
         "term_group": 0,
-        "term_taxonomy_id": 355,
+        "term_taxonomy_id": 711,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 260,
+        "term_id": 712,
         "name": "Unlicensed cannabis activity",
         "slug": "unlicensed-cannabis-activity",
         "term_group": 0,
-        "term_taxonomy_id": 260,
+        "term_taxonomy_id": 712,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 265,
+        "term_id": 713,
         "name": "Unlicensed cannabis operator",
         "slug": "unlicensed-cannabis-operator",
         "term_group": 0,
-        "term_taxonomy_id": 265,
+        "term_taxonomy_id": 713,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

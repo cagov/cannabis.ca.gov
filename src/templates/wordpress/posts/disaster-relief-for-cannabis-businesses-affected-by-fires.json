@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-03T20:34:31",
-    "updated_date": "2022-04-09T18:37:25",
+    "updated_date": "2021-12-02T21:18:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2021-09-03T13:34:31",
     "date_gmt": "2021-09-03T20:34:31",
     "guid": "https://cannabis.ca.gov/?p=8713",
-    "modified": "2022-04-09T11:37:25",
-    "modified_gmt": "2022-04-09T18:37:25",
+    "modified": "2021-12-02T13:18:45",
+    "modified_gmt": "2021-12-02T21:18:45",
     "slug": "disaster-relief-for-cannabis-businesses-affected-by-fires",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/09/disaster-relief-for-cannabis-businesses-affected-by-fires/",
     "title": "Disaster Relief for Cannabis Businesses Affected by Fires",
     "excerpt": "<p>California is in the thick of fire season. This year, wildfires have burned more than 1.9 million acres in California. More than 15,300 firefighters are on the frontlines of 16 major and five extended attack wildfires across California. The Caldor Fire is the 15th largest fire in California history and the Monument fire is the [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -45,7 +48,7 @@
       "wildfire"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -61,7 +64,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/09/disaster-relief-for-cannabis-businesses-affected-by-fires/",
       "page_title": "Disaster Relief for Cannabis Businesses Affected by Fires",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -75,16 +78,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -93,55 +96,55 @@
     ],
     "headless_tags": [
       {
-        "term_id": 720,
+        "term_id": 757,
         "name": "disaster relief",
         "slug": "disaster-relief",
         "term_group": 0,
-        "term_taxonomy_id": 720,
+        "term_taxonomy_id": 757,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 555,
+        "term_id": 320,
         "name": "Fire",
         "slug": "fire",
         "term_group": 0,
-        "term_taxonomy_id": 555,
+        "term_taxonomy_id": 320,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 721,
+        "term_id": 759,
         "name": "form 8101",
         "slug": "form-8101",
         "term_group": 0,
-        "term_taxonomy_id": 721,
+        "term_taxonomy_id": 759,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 722,
+        "term_id": 758,
         "name": "form dcc-8101",
         "slug": "form-dcc-8101",
         "term_group": 0,
-        "term_taxonomy_id": 722,
+        "term_taxonomy_id": 758,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 723,
+        "term_id": 756,
         "name": "wildfire",
         "slug": "wildfire",
         "term_group": 0,
-        "term_taxonomy_id": 723,
+        "term_taxonomy_id": 756,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

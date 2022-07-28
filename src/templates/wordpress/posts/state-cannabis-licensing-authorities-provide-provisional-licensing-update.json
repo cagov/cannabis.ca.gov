@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-03-29T19:08:00",
-    "updated_date": "2022-03-29T05:25:34",
+    "updated_date": "2021-12-02T21:20:13",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2019-03-29T19:08:00",
     "date_gmt": "2019-03-29T19:08:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/state-cannabis-licensing-authorities-provide-provisional-licensing-update/",
-    "modified": "2022-03-28T22:25:34",
-    "modified_gmt": "2022-03-29T05:25:34",
+    "modified": "2021-12-02T13:20:13",
+    "modified_gmt": "2021-12-02T21:20:13",
     "slug": "state-cannabis-licensing-authorities-provide-provisional-licensing-update",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2019/03/state-cannabis-licensing-authorities-provide-provisional-licensing-update/",
     "title": "State Cannabis Licensing Authorities Provide Provisional Licensing Update",
     "excerpt": "<p>The Bureau of Cannabis Control, California Department of Public Health, and California Department of Food and Agriculture are taking steps to prevent gaps in licensure when active temporary commercial cannabis licenses expire.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -52,7 +55,7 @@
       "Provisional"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -68,7 +71,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2019/03/state-cannabis-licensing-authorities-provide-provisional-licensing-update/",
       "page_title": "State Cannabis Licensing Authorities Provide Provisional Licensing Update",
       "page_description": "The Bureau of Cannabis Control, California Department of Public Health, and California Department of Food and Agriculture are taking steps to prevent gaps in licensure when active temporary commercial cannabis licenses expire.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -82,16 +85,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -100,75 +103,9 @@
     ],
     "headless_tags": [
       {
-        "term_id": 208,
+        "term_id": 79,
         "name": "BCC",
         "slug": "bcc",
-        "term_group": 0,
-        "term_taxonomy_id": 208,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 69,
-        "name": "Bureau",
-        "slug": "bureau",
-        "term_group": 0,
-        "term_taxonomy_id": 69,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 32,
-        "name": "Bureau of Cannabis Control",
-        "slug": "bureau-of-cannabis-control",
-        "term_group": 0,
-        "term_taxonomy_id": 32,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 78,
-        "name": "CalCannabis",
-        "slug": "calcannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 78,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 23,
-        "name": "California",
-        "slug": "california",
-        "term_group": 0,
-        "term_taxonomy_id": 23,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 159,
-        "name": "California Department of Food and Agriculture",
-        "slug": "california-department-of-food-and-agriculture",
-        "term_group": 0,
-        "term_taxonomy_id": 159,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 79,
-        "name": "California Department of Public Health",
-        "slug": "california-department-of-public-health",
         "term_group": 0,
         "term_taxonomy_id": 79,
         "taxonomy": "post_tag",
@@ -177,55 +114,121 @@
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 88,
+        "name": "Bureau",
+        "slug": "bureau",
+        "term_group": 0,
+        "term_taxonomy_id": 88,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 96,
+        "name": "CalCannabis",
+        "slug": "calcannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 96,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 104,
+        "name": "California",
+        "slug": "california",
+        "term_group": 0,
+        "term_taxonomy_id": 104,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 112,
+        "name": "California Department of Food and Agriculture",
+        "slug": "california-department-of-food-and-agriculture",
+        "term_group": 0,
+        "term_taxonomy_id": 112,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 114,
+        "name": "California Department of Public Health",
+        "slug": "california-department-of-public-health",
+        "term_group": 0,
+        "term_taxonomy_id": 114,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 171,
+        "term_id": 409,
         "name": "License",
         "slug": "license",
         "term_group": 0,
-        "term_taxonomy_id": 171,
+        "term_taxonomy_id": 409,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 33,
+        "term_id": 416,
         "name": "Licensing",
         "slug": "licensing",
         "term_group": 0,
-        "term_taxonomy_id": 33,
+        "term_taxonomy_id": 416,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 548,
+        "term_id": 451,
         "name": "MCSB",
         "slug": "mcsb",
         "term_group": 0,
-        "term_taxonomy_id": 548,
+        "term_taxonomy_id": 451,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 549,
+        "term_id": 532,
         "name": "Provisional",
         "slug": "provisional",
         "term_group": 0,
-        "term_taxonomy_id": 549,
+        "term_taxonomy_id": 532,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

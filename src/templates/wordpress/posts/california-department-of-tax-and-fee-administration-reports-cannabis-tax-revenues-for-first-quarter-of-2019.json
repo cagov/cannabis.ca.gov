@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-05-23T18:29:00",
-    "updated_date": "2022-03-29T05:24:55",
+    "updated_date": "2021-12-02T21:25:02",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2019-05-23T18:29:00",
     "date_gmt": "2019-05-23T18:29:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
-    "modified": "2022-03-28T22:24:55",
-    "modified_gmt": "2022-03-29T05:24:55",
+    "modified": "2021-12-02T13:25:02",
+    "modified_gmt": "2021-12-02T21:25:02",
     "slug": "california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2019/05/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
     "title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
     "excerpt": "<p>Sacramento</strong>&nbsp;–The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 1st quarter of 2019. As of May 15, 2019, California&#8217;s cannabis excise tax generated $61.4 million in revenue reported on the 1st quarter 2019 returns due by April 30, 2019 and the cultivation tax generated $16.8 million.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -50,7 +53,7 @@
       "Taxes"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -66,7 +69,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2019/05/california-department-of-tax-and-fee-administration-reports-cannabis-tax-revenues-for-first-quarter-of-2019/",
       "page_title": "CDTFA Reports Cannabis Tax Revenues for First Quarter of 2019",
       "page_description": "Sacramento</strong>&nbsp;–The California Department of Tax and Fee Administration (CDTFA) reported revenue numbers today for cannabis sales for the 1st quarter of 2019. As of May 15, 2019, California&#8217;s cannabis excise tax generated $61.4 million in revenue reported on the 1st quarter 2019 returns due by April 30, 2019 and the cultivation tax generated $16.8 million.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -80,16 +83,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -98,33 +101,66 @@
     ],
     "headless_tags": [
       {
-        "term_id": 487,
+        "term_id": 25,
         "name": "2019",
         "slug": "2019",
         "term_group": 0,
-        "term_taxonomy_id": 487,
+        "term_taxonomy_id": 25,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 272,
+        "term_id": 146,
         "name": "Cannabis industry",
         "slug": "cannabis-industry",
         "term_group": 0,
-        "term_taxonomy_id": 272,
+        "term_taxonomy_id": 146,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 167,
+        "name": "Cannabis tax",
+        "slug": "cannabis-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 167,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 185,
+        "name": "CDTFA",
+        "slug": "cdtfa",
+        "term_group": 0,
+        "term_taxonomy_id": 185,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 298,
+        "name": "Excise tax",
+        "slug": "excise-tax",
+        "term_group": 0,
+        "term_taxonomy_id": 298,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -132,8 +168,8 @@
       },
       {
         "term_id": 321,
-        "name": "Cannabis tax",
-        "slug": "cannabis-tax",
+        "name": "First quarter",
+        "slug": "first-quarter",
         "term_group": 0,
         "term_taxonomy_id": 321,
         "taxonomy": "post_tag",
@@ -142,66 +178,33 @@
         "filter": "raw"
       },
       {
-        "term_id": 139,
-        "name": "CDTFA",
-        "slug": "cdtfa",
-        "term_group": 0,
-        "term_taxonomy_id": 139,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 178,
-        "name": "Excise tax",
-        "slug": "excise-tax",
-        "term_group": 0,
-        "term_taxonomy_id": 178,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 488,
-        "name": "First quarter",
-        "slug": "first-quarter",
-        "term_group": 0,
-        "term_taxonomy_id": 488,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 489,
+        "term_id": 584,
         "name": "Revenue",
         "slug": "revenue",
         "term_group": 0,
-        "term_taxonomy_id": 489,
+        "term_taxonomy_id": 584,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 200,
+        "term_id": 668,
         "name": "Tax revenue",
         "slug": "tax-revenue",
         "term_group": 0,
-        "term_taxonomy_id": 200,
+        "term_taxonomy_id": 668,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 180,
+        "term_id": 670,
         "name": "Taxes",
         "slug": "taxes",
         "term_group": 0,
-        "term_taxonomy_id": 180,
+        "term_taxonomy_id": 670,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

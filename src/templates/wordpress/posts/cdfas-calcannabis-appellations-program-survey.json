@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-07-30T16:26:00",
-    "updated_date": "2022-03-29T05:25:38",
+    "updated_date": "2021-12-02T21:21:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2018-07-30T16:26:00",
     "date_gmt": "2018-07-30T16:26:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdfas-calcannabis-appellations-program-survey/",
-    "modified": "2022-03-28T22:25:38",
-    "modified_gmt": "2022-03-29T05:25:38",
+    "modified": "2021-12-02T13:21:36",
+    "modified_gmt": "2021-12-02T21:21:36",
     "slug": "cdfas-calcannabis-appellations-program-survey",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/07/cdfas-calcannabis-appellations-program-survey/",
     "title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
     "excerpt": "<p>CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is preparing to host public workshops this September to provide information and gather feedback from workshop participants on the development of the new CalCannabis Appellations Program.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -48,7 +51,7 @@
       "Workshops"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/07/cdfas-calcannabis-appellations-program-survey/",
       "page_title": "CDFA&#8217;s CalCannabis Appellations Program Survey",
       "page_description": "CalCannabis Cultivation Licensing, a division of the California Department of Food and Agriculture (CDFA), is preparing to host public workshops this September to provide information and gather feedback from workshop participants on the development of the new CalCannabis Appellations Program.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -78,16 +81,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -96,88 +99,88 @@
     ],
     "headless_tags": [
       {
-        "term_id": 278,
+        "term_id": 76,
         "name": "August",
         "slug": "august",
         "term_group": 0,
-        "term_taxonomy_id": 278,
+        "term_taxonomy_id": 76,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 78,
+        "term_id": 96,
         "name": "CalCannabis",
         "slug": "calcannabis",
         "term_group": 0,
-        "term_taxonomy_id": 78,
+        "term_taxonomy_id": 96,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 11,
+        "term_id": 182,
         "name": "CDFA",
         "slug": "cdfa",
         "term_group": 0,
-        "term_taxonomy_id": 11,
+        "term_taxonomy_id": 182,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 300,
+        "term_id": 521,
         "name": "Program survey",
         "slug": "program-survey",
         "term_group": 0,
-        "term_taxonomy_id": 300,
+        "term_taxonomy_id": 521,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 301,
+        "term_id": 543,
         "name": "Public workshops",
         "slug": "public-workshops",
         "term_group": 0,
-        "term_taxonomy_id": 301,
+        "term_taxonomy_id": 543,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 302,
+        "term_id": 624,
         "name": "September",
         "slug": "september",
         "term_group": 0,
-        "term_taxonomy_id": 302,
+        "term_taxonomy_id": 624,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 114,
+        "term_id": 745,
         "name": "Workshops",
         "slug": "workshops",
         "term_group": 0,
-        "term_taxonomy_id": 114,
+        "term_taxonomy_id": 745,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

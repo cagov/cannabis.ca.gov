@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-08-09T19:04:00",
-    "updated_date": "2022-03-29T05:26:09",
+    "updated_date": "2021-12-02T21:23:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2017-08-09T19:04:00",
     "date_gmt": "2017-08-09T19:04:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles/",
-    "modified": "2022-03-28T22:26:09",
-    "modified_gmt": "2022-03-29T05:26:09",
+    "modified": "2021-12-02T13:23:12",
+    "modified_gmt": "2021-12-02T21:23:12",
     "slug": "media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/08/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles/",
     "title": "Media: ‘Start Low and Go Slow’ – 3 Steps to Safely Consume Marijuana Edibles",
     "excerpt": "<p>As California continues to emerge from marijuana prohibition, consumers will have a glut of new options beyond traditional flower to achieve the optimal high.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -44,7 +47,7 @@
       "Safety"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -60,7 +63,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/08/media-start-low-and-go-slow-3-steps-to-safely-consume-marijuana-edibles/",
       "page_title": "Media: ‘Start Low and Go Slow’ – 3 Steps to Safely Consume Marijuana Edibles",
       "page_description": "As California continues to emerge from marijuana prohibition, consumers will have a glut of new options beyond traditional flower to achieve the optimal high.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -74,16 +77,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -92,44 +95,44 @@
     ],
     "headless_tags": [
       {
-        "term_id": 13,
+        "term_id": 184,
         "name": "CDPH",
         "slug": "cdph",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 184,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 86,
+        "term_id": 271,
         "name": "Edibles",
         "slug": "edibles",
         "term_group": 0,
-        "term_taxonomy_id": 86,
+        "term_taxonomy_id": 271,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 14,
+        "term_id": 442,
         "name": "Manufacturing",
         "slug": "manufacturing",
         "term_group": 0,
-        "term_taxonomy_id": 14,
+        "term_taxonomy_id": 442,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 87,
+        "term_id": 595,
         "name": "Safety",
         "slug": "safety",
         "term_group": 0,
-        "term_taxonomy_id": 87,
+        "term_taxonomy_id": 595,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

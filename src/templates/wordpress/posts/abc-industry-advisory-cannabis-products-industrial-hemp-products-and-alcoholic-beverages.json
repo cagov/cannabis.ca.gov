@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-11-02T00:00:09",
-    "updated_date": "2022-04-09T18:37:25",
+    "updated_date": "2021-12-02T21:31:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2021-11-01T17:00:09",
     "date_gmt": "2021-11-02T00:00:09",
     "guid": "https://cannabis.ca.gov/?p=8942",
-    "modified": "2022-04-09T11:37:25",
-    "modified_gmt": "2022-04-09T18:37:25",
+    "modified": "2021-12-02T13:31:30",
+    "modified_gmt": "2021-12-02T21:31:30",
     "slug": "abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/11/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
     "title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
     "excerpt": "<p>The California Department of Alcoholic Beverage Control (ABC) issued the following industry advisory to provide guidance about which activities are allowed on or in premises licensed by ABC. Contact ABC if you have any questions about this advisory:&nbsp;headquarters@abc.ca.gov, (916) 419-2500 With the legalization of commercial recreational use of cannabis products commencing in 2018, along with [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -43,7 +46,7 @@
       "industry advisory"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -59,7 +62,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/11/abc-industry-advisory-cannabis-products-industrial-hemp-products-and-alcoholic-beverages/",
       "page_title": "ABC Industry Advisory: Cannabis Products, Industrial Hemp Products, and Alcoholic Beverages",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -73,16 +76,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -91,22 +94,22 @@
     ],
     "headless_tags": [
       {
-        "term_id": 67,
+        "term_id": 29,
         "name": "ABC",
         "slug": "abc",
         "term_group": 0,
-        "term_taxonomy_id": 67,
+        "term_taxonomy_id": 29,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 303,
+        "term_id": 42,
         "name": "Alcoholic Beverage Control",
         "slug": "alcoholic-beverage-control",
         "term_group": 0,
-        "term_taxonomy_id": 303,
+        "term_taxonomy_id": 42,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-09-24T21:58:00",
-    "updated_date": "2022-03-29T05:24:50",
+    "updated_date": "2021-12-02T21:24:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2020-09-24T21:58:00",
     "date_gmt": "2020-09-24T21:58:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
-    "modified": "2022-03-28T22:24:50",
-    "modified_gmt": "2022-03-29T05:24:50",
+    "modified": "2021-12-02T13:24:51",
+    "modified_gmt": "2021-12-02T21:24:51",
     "slug": "cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2020/09/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
     "title": "Cannabis Licensing Authorities File Civil Action Against Vertical Bliss (Kushy Punch) For Unlicensed Activity",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -47,7 +50,7 @@
       "Vertical bliss"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +66,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2020/09/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
       "page_title": "Cannabis Licensing Authorities File Civil Action Against Vertical Bliss (Kushy Punch) For Unlicensed Activity",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -77,16 +80,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -95,77 +98,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 208,
+        "term_id": 79,
         "name": "BCC",
         "slug": "bcc",
         "term_group": 0,
-        "term_taxonomy_id": 208,
+        "term_taxonomy_id": 79,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 32,
+        "term_id": 89,
         "name": "Bureau of Cannabis Control",
         "slug": "bureau-of-cannabis-control",
         "term_group": 0,
-        "term_taxonomy_id": 32,
+        "term_taxonomy_id": 89,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 23,
+        "term_id": 104,
         "name": "California",
         "slug": "california",
         "term_group": 0,
-        "term_taxonomy_id": 23,
+        "term_taxonomy_id": 104,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 418,
+        "term_id": 362,
         "name": "Illegal unlicensed cannabis activity",
         "slug": "illegal-unlicensed-cannabis-activity",
         "term_group": 0,
-        "term_taxonomy_id": 418,
+        "term_taxonomy_id": 362,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 712,
+        "term_id": 392,
         "name": "Kushy Punch",
         "slug": "kushy-punch",
         "term_group": 0,
-        "term_taxonomy_id": 712,
+        "term_taxonomy_id": 392,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 34,
+        "term_id": 593,
         "name": "Sacramento",
         "slug": "sacramento",
         "term_group": 0,
-        "term_taxonomy_id": 34,
+        "term_taxonomy_id": 593,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 713,
+        "term_id": 725,
         "name": "Vertical bliss",
         "slug": "vertical-bliss",
         "term_group": 0,
-        "term_taxonomy_id": 713,
+        "term_taxonomy_id": 725,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

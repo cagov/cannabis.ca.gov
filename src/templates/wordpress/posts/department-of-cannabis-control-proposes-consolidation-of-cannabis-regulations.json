@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-08T18:51:33",
-    "updated_date": "2022-04-09T18:37:25",
+    "updated_date": "2021-12-02T21:24:46",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2021-09-08T11:51:33",
     "date_gmt": "2021-09-08T18:51:33",
     "guid": "https://cannabis.ca.gov/?p=8765",
-    "modified": "2022-04-09T11:37:25",
-    "modified_gmt": "2022-04-09T18:37:25",
+    "modified": "2021-12-02T13:24:46",
+    "modified_gmt": "2021-12-02T21:24:46",
     "slug": "department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
     "title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
     "excerpt": "<p>Emergency rulemaking action would create a single set of regulations for commercial cannabis activity in California SACRAMENTO, CA – The Department of Cannabis Control (DCC) today published proposed emergency regulations. This action follows those taken in July by DCC to move all cannabis regulations into Title 4 of the California Code of Regulations. This is [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -48,7 +51,7 @@
       "rulemaking action"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
       "page_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -78,16 +81,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -96,88 +99,88 @@
     ],
     "headless_tags": [
       {
-        "term_id": 26,
+        "term_id": 761,
         "name": "consolidated regulations",
         "slug": "consolidated-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 26,
+        "term_taxonomy_id": 761,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 724,
+        "term_id": 765,
         "name": "consolidation",
         "slug": "consolidation",
         "term_group": 0,
-        "term_taxonomy_id": 724,
+        "term_taxonomy_id": 765,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 88,
+        "term_id": 278,
         "name": "Emergency regs",
         "slug": "emergency-regs",
         "term_group": 0,
-        "term_taxonomy_id": 88,
+        "term_taxonomy_id": 278,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 27,
+        "term_id": 280,
         "name": "Emergency regulations",
         "slug": "emergency-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 27,
+        "term_taxonomy_id": 280,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 725,
+        "term_id": 763,
         "name": "emergency rulemaking",
         "slug": "emergency-rulemaking",
         "term_group": 0,
-        "term_taxonomy_id": 725,
+        "term_taxonomy_id": 763,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 6,
+        "term_id": 564,
         "name": "Regulations",
         "slug": "regulations",
         "term_group": 0,
-        "term_taxonomy_id": 6,
+        "term_taxonomy_id": 564,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 291,
+        "term_id": 592,
         "name": "Rulemaking",
         "slug": "rulemaking",
         "term_group": 0,
-        "term_taxonomy_id": 291,
+        "term_taxonomy_id": 592,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 726,
+        "term_id": 764,
         "name": "rulemaking action",
         "slug": "rulemaking-action",
         "term_group": 0,
-        "term_taxonomy_id": 726,
+        "term_taxonomy_id": 764,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

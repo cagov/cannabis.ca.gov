@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-09-16T18:16:00",
-    "updated_date": "2022-03-29T05:24:51",
+    "updated_date": "2021-12-02T21:24:52",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2020-09-16T18:16:00",
     "date_gmt": "2020-09-16T18:16:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-licensing-authorities-unveil-new-unified-license-search-tool/",
-    "modified": "2022-03-28T22:24:51",
-    "modified_gmt": "2022-03-29T05:24:51",
+    "modified": "2021-12-02T13:24:52",
+    "modified_gmt": "2021-12-02T21:24:52",
     "slug": "cannabis-licensing-authorities-unveil-new-unified-license-search-tool",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2020/09/cannabis-licensing-authorities-unveil-new-unified-license-search-tool/",
     "title": "Cannabis Licensing Authorities Unveil New Unified License Search Tool",
     "excerpt": "<p>SACRAMENTO – California’s three cannabis licensing authorities – BCC, CDFA and CDPH announced today the launch of a unified licensing search platform, the culmination of a collaboration between the California Department of Technology, the California Health and Human Services Agency Office of Innovation, the Governor’s Office of Business and Economic Development (GO-Biz), and the licensing authorities.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -44,7 +47,7 @@
       "Sacramento"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -60,7 +63,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2020/09/cannabis-licensing-authorities-unveil-new-unified-license-search-tool/",
       "page_title": "Cannabis Licensing Authorities Unveil New Unified License Search Tool",
       "page_description": "SACRAMENTO – California’s three cannabis licensing authorities – BCC, CDFA and CDPH announced today the launch of a unified licensing search platform, the culmination of a collaboration between the California Department of Technology, the California Health and Human Services Agency Office of Innovation, the Governor’s Office of Business and Economic Development (GO-Biz), and the licensing authorities.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -74,16 +77,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -92,44 +95,44 @@
     ],
     "headless_tags": [
       {
-        "term_id": 32,
+        "term_id": 89,
         "name": "Bureau of Cannabis Control",
         "slug": "bureau-of-cannabis-control",
         "term_group": 0,
-        "term_taxonomy_id": 32,
+        "term_taxonomy_id": 89,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 11,
+        "term_id": 182,
         "name": "CDFA",
         "slug": "cdfa",
         "term_group": 0,
-        "term_taxonomy_id": 11,
+        "term_taxonomy_id": 182,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 13,
+        "term_id": 184,
         "name": "CDPH",
         "slug": "cdph",
         "term_group": 0,
-        "term_taxonomy_id": 13,
+        "term_taxonomy_id": 184,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 34,
+        "term_id": 593,
         "name": "Sacramento",
         "slug": "sacramento",
         "term_group": 0,
-        "term_taxonomy_id": 34,
+        "term_taxonomy_id": 593,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

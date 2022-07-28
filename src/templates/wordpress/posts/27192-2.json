@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-08-25T22:52:00",
-    "updated_date": "2022-03-29T05:27:18",
+    "updated_date": "2021-12-02T21:25:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2017-08-25T22:52:00",
     "date_gmt": "2017-08-25T22:52:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/27192/",
-    "modified": "2022-03-28T22:27:18",
-    "modified_gmt": "2022-03-29T05:27:18",
+    "modified": "2021-12-02T13:25:43",
+    "modified_gmt": "2021-12-02T21:25:43",
     "slug": "27192-2",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/08/27192-2/",
     "title": "Governor Brown Announces Appointments",
     "excerpt": "<p>SACRAMENTO – Governor Edmund G.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -51,7 +54,7 @@
       "Ricardo V. DeLaCruz"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -67,7 +70,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/08/27192-2/",
       "page_title": "Governor Brown Announces Appointments",
       "page_description": "SACRAMENTO – Governor Edmund G.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -81,16 +84,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -99,99 +102,11 @@
     ],
     "headless_tags": [
       {
-        "term_id": 58,
+        "term_id": 43,
         "name": "Andre Jones",
         "slug": "andre-jones",
         "term_group": 0,
-        "term_taxonomy_id": 58,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 59,
-        "name": "Appointment",
-        "slug": "appointment",
-        "term_group": 0,
-        "term_taxonomy_id": 59,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 60,
-        "name": "Assistant",
-        "slug": "assistant",
-        "term_group": 0,
-        "term_taxonomy_id": 60,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 32,
-        "name": "Bureau of Cannabis Control",
-        "slug": "bureau-of-cannabis-control",
-        "term_group": 0,
-        "term_taxonomy_id": 32,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 3,
-        "name": "Cannabis",
-        "slug": "cannabis",
-        "term_group": 0,
-        "term_taxonomy_id": 3,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 61,
-        "name": "Chief",
-        "slug": "chief",
-        "term_group": 0,
-        "term_taxonomy_id": 61,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 62,
-        "name": "Deputy",
-        "slug": "deputy",
-        "term_group": 0,
-        "term_taxonomy_id": 62,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 63,
-        "name": "Governor",
-        "slug": "governor",
-        "term_group": 0,
-        "term_taxonomy_id": 63,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 64,
-        "name": "Jerry Brown",
-        "slug": "jerry-brown",
-        "term_group": 0,
-        "term_taxonomy_id": 64,
+        "term_taxonomy_id": 43,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
@@ -199,8 +114,8 @@
       },
       {
         "term_id": 65,
-        "name": "Melanie V. Ramil",
-        "slug": "melanie-v-ramil",
+        "name": "Appointment",
+        "slug": "appointment",
         "term_group": 0,
         "term_taxonomy_id": 65,
         "taxonomy": "post_tag",
@@ -209,11 +124,99 @@
         "filter": "raw"
       },
       {
-        "term_id": 66,
+        "term_id": 75,
+        "name": "Assistant",
+        "slug": "assistant",
+        "term_group": 0,
+        "term_taxonomy_id": 75,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 89,
+        "name": "Bureau of Cannabis Control",
+        "slug": "bureau-of-cannabis-control",
+        "term_group": 0,
+        "term_taxonomy_id": 89,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 122,
+        "name": "Cannabis",
+        "slug": "cannabis",
+        "term_group": 0,
+        "term_taxonomy_id": 122,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 190,
+        "name": "Chief",
+        "slug": "chief",
+        "term_group": 0,
+        "term_taxonomy_id": 190,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 255,
+        "name": "Deputy",
+        "slug": "deputy",
+        "term_group": 0,
+        "term_taxonomy_id": 255,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 334,
+        "name": "Governor",
+        "slug": "governor",
+        "term_group": 0,
+        "term_taxonomy_id": 334,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 384,
+        "name": "Jerry Brown",
+        "slug": "jerry-brown",
+        "term_group": 0,
+        "term_taxonomy_id": 384,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 460,
+        "name": "Melanie V. Ramil",
+        "slug": "melanie-v-ramil",
+        "term_group": 0,
+        "term_taxonomy_id": 460,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 589,
         "name": "Ricardo V. DeLaCruz",
         "slug": "ricardo-v-delacruz",
         "term_group": 0,
-        "term_taxonomy_id": 66,
+        "term_taxonomy_id": 589,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

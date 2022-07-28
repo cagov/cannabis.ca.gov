@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-04-16T21:08:00",
-    "updated_date": "2022-03-29T05:25:40",
+    "updated_date": "2021-12-02T21:21:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2018-04-16T21:08:00",
     "date_gmt": "2018-04-16T21:08:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
-    "modified": "2022-03-28T22:25:40",
-    "modified_gmt": "2022-03-29T05:25:40",
+    "modified": "2021-12-02T13:21:51",
+    "modified_gmt": "2021-12-02T21:21:51",
     "slug": "bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/04/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
     "title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
     "excerpt": "<p>One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Announcements"
     ],
@@ -48,7 +51,7 @@
       "Surety"
     ],
     "design_system_fields": {
-      "template": "post"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/04/bureau-of-cannabis-control-commercial-cannabis-licensee-bond-form/",
       "page_title": "Bureau of Cannabis Control &#8211; Commercial Cannabis Licensee Bond Form",
       "page_description": "One of the requirements for the Bureau of Cannabis Control’s annual license application is to provide proof of having obtained a surety bond of at least $5,000, payable to the State of California.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -78,16 +81,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 2,
+        "term_id": 14,
         "name": "Announcements",
         "slug": "announcements",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 14,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 2,
+        "cat_ID": 14,
         "category_description": "",
         "cat_name": "Announcements",
         "category_nicename": "announcements",
@@ -96,88 +99,88 @@
     ],
     "headless_tags": [
       {
-        "term_id": 239,
+        "term_id": 54,
         "name": "Annual state license application",
         "slug": "annual-state-license-application",
         "term_group": 0,
-        "term_taxonomy_id": 239,
+        "term_taxonomy_id": 54,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 240,
+        "term_id": 84,
         "name": "Bond",
         "slug": "bond",
         "term_group": 0,
-        "term_taxonomy_id": 240,
+        "term_taxonomy_id": 84,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 32,
+        "term_id": 89,
         "name": "Bureau of Cannabis Control",
         "slug": "bureau-of-cannabis-control",
         "term_group": 0,
-        "term_taxonomy_id": 32,
+        "term_taxonomy_id": 89,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 23,
+        "term_id": 104,
         "name": "California",
         "slug": "california",
         "term_group": 0,
-        "term_taxonomy_id": 23,
+        "term_taxonomy_id": 104,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 241,
+        "term_id": 200,
         "name": "Commercial cannabis",
         "slug": "commercial-cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 241,
+        "term_taxonomy_id": 200,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 242,
+        "term_id": 413,
         "name": "Licensee bond form",
         "slug": "licensee-bond-form",
         "term_group": 0,
-        "term_taxonomy_id": 242,
+        "term_taxonomy_id": 413,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 243,
+        "term_id": 661,
         "name": "Surety",
         "slug": "surety",
         "term_group": 0,
-        "term_taxonomy_id": 243,
+        "term_taxonomy_id": 661,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

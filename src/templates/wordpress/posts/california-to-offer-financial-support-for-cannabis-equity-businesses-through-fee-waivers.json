@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-21T00:39:37",
-    "updated_date": "2022-04-09T18:37:24",
+    "updated_date": "2021-12-21T00:47:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2021-12-20T16:39:37",
     "date_gmt": "2021-12-21T00:39:37",
     "guid": "https://cannabis.ca.gov/?p=9184",
-    "modified": "2022-04-09T11:37:24",
-    "modified_gmt": "2022-04-09T18:37:24",
+    "modified": "2021-12-20T16:47:03",
+    "modified_gmt": "2021-12-21T00:47:03",
     "slug": "california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2021/12/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/",
     "title": "California to offer financial support for cannabis equity businesses through fee waivers",
     "excerpt": "<p>Emergency regulations for the equity license fee waiver program were approved today CALIFORNIA – Cannabis entrepreneurs affected by the War on Drugs can have their license or renewal fee waived, following the approval of emergency regulations issued by the Department of Cannabis Control (DCC). These regulations implement Senate Bill (SB) 166, signed into law on [&hellip;]</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -46,7 +49,7 @@
       "Regulations"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -62,7 +65,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/12/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/",
       "page_title": "California to offer financial support for cannabis equity businesses through fee waivers",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -76,16 +79,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -94,66 +97,66 @@
     ],
     "headless_tags": [
       {
-        "term_id": 27,
+        "term_id": 280,
         "name": "Emergency regulations",
         "slug": "emergency-regulations",
         "term_group": 0,
-        "term_taxonomy_id": 27,
+        "term_taxonomy_id": 280,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 725,
+        "term_id": 763,
         "name": "emergency rulemaking",
         "slug": "emergency-rulemaking",
         "term_group": 0,
-        "term_taxonomy_id": 725,
+        "term_taxonomy_id": 763,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 144,
+        "term_id": 290,
         "name": "Equity",
         "slug": "equity",
         "term_group": 0,
-        "term_taxonomy_id": 144,
+        "term_taxonomy_id": 290,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 770,
+        "term_id": 773,
         "name": "fee waiver",
         "slug": "fee-waiver",
         "term_group": 0,
-        "term_taxonomy_id": 770,
+        "term_taxonomy_id": 773,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 572,
+        "term_id": 428,
         "name": "Local equity",
         "slug": "local-equity",
         "term_group": 0,
-        "term_taxonomy_id": 572,
+        "term_taxonomy_id": 428,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 6,
+        "term_id": 564,
         "name": "Regulations",
         "slug": "regulations",
         "term_group": 0,
-        "term_taxonomy_id": 6,
+        "term_taxonomy_id": 564,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,

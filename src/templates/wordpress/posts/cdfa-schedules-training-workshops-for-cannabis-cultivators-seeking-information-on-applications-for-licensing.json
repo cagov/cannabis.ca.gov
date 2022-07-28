@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-11-18T00:34:00",
-    "updated_date": "2022-03-29T05:27:17",
+    "updated_date": "2021-12-02T21:25:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,22 +18,25 @@
     "date": "2017-11-18T00:34:00",
     "date_gmt": "2017-11-18T00:34:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
-    "modified": "2022-03-28T22:27:17",
-    "modified_gmt": "2022-03-29T05:27:17",
+    "modified": "2021-12-02T13:25:41",
+    "modified_gmt": "2021-12-02T21:25:41",
     "slug": "cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/11/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
     "title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
     "excerpt": "<p>IMPORTANT NOTE: All of the training workshops are now full.</p>\n",
-    "author": "Department of Cannabis Control",
+    "author": "Test Suite",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "press-release",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Press Releases"
     ],
@@ -47,7 +50,7 @@
       "Workshop"
     ],
     "design_system_fields": {
-      "template": "press-release"
+      "template": "template-single-press-release"
     },
     "og_meta": {
       "editor": {
@@ -63,7 +66,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/11/cdfa-schedules-training-workshops-for-cannabis-cultivators-seeking-information-on-applications-for-licensing/",
       "page_title": "CDFA Schedules Training Workshops for Cannabis Cultivators Seeking Information on Applications for Licensing",
       "page_description": "IMPORTANT NOTE: All of the training workshops are now full.",
-      "page_social_image_url": "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -77,16 +80,16 @@
     },
     "headless_categories": [
       {
-        "term_id": 46,
+        "term_id": 16,
         "name": "Press Releases",
         "slug": "press-releases",
         "term_group": 0,
-        "term_taxonomy_id": 46,
+        "term_taxonomy_id": 16,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 46,
+        "cat_ID": 16,
         "category_description": "",
         "cat_name": "Press Releases",
         "category_nicename": "press-releases",
@@ -95,77 +98,77 @@
     ],
     "headless_tags": [
       {
-        "term_id": 105,
+        "term_id": 60,
         "name": "Application",
         "slug": "application",
         "term_group": 0,
-        "term_taxonomy_id": 105,
+        "term_taxonomy_id": 60,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 3,
+        "term_id": 122,
         "name": "Cannabis",
         "slug": "cannabis",
         "term_group": 0,
-        "term_taxonomy_id": 3,
+        "term_taxonomy_id": 122,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 12,
+        "term_id": 232,
         "name": "Cultivation",
         "slug": "cultivation",
         "term_group": 0,
-        "term_taxonomy_id": 12,
+        "term_taxonomy_id": 232,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 33,
+        "term_id": 416,
         "name": "Licensing",
         "slug": "licensing",
         "term_group": 0,
-        "term_taxonomy_id": 33,
+        "term_taxonomy_id": 416,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 111,
+        "term_id": 626,
         "name": "Session",
         "slug": "session",
         "term_group": 0,
-        "term_taxonomy_id": 111,
+        "term_taxonomy_id": 626,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 112,
+        "term_id": 695,
         "name": "Training",
         "slug": "training",
         "term_group": 0,
-        "term_taxonomy_id": 112,
+        "term_taxonomy_id": 695,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
         "filter": "raw"
       },
       {
-        "term_id": 35,
+        "term_id": 744,
         "name": "Workshop",
         "slug": "workshop",
         "term_group": 0,
-        "term_taxonomy_id": 35,
+        "term_taxonomy_id": 744,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
