@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-07-19T20:31:29",
+    "updated_date": "2022-07-19T20:31:29",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10068",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10068,
+    "date": "2022-07-19T13:31:29",
+    "date_gmt": "2022-07-19T20:31:29",
+    "guid": "http://cannabis-ca-gov.lndo.site/wp-content/uploads/2022/07/Rulemaking_2022-0712_Summary_of_Proposed_Changes.pdf",
+    "modified": "2022-07-19T13:31:29",
+    "modified_gmt": "2022-07-19T20:31:29",
+    "slug": "rulemaking_2022-0712_summary_of_proposed_changes",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/rulemaking_2022-0712_summary_of_proposed_changes/",
+    "title": "Rulemaking_2022-0712_Summary_of_Proposed_Changes",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Rulemaking_2022-0712_Summary_of_Proposed_Changes.pdf'>Rulemaking_2022-0712_Summary_of_Proposed_Changes</a></p>\n",
+    "caption": "<p>Rulemaking_2022-0712_Summary_of_Proposed_Changes</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 497239,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Rulemaking_2022-0712_Summary_of_Proposed_Changes.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Rulemaking_2022-0712_Summary_of_Proposed_Changes.pdf",
+    "path": "2022/07/Rulemaking_2022-0712_Summary_of_Proposed_Changes.pdf"
+  }
+}

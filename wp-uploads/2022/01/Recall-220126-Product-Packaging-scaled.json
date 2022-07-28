@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "created_date": "2022-01-26T16:26:14",
+    "updated_date": "2022-01-26T16:36:38",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9350",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9350,
+    "date": "2022-01-26T08:26:14",
+    "date_gmt": "2022-01-26T16:26:14",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/01/Recall-220126-Product-Packaging.jpg",
+    "modified": "2022-01-26T08:36:38",
+    "modified_gmt": "2022-01-26T16:36:38",
+    "slug": "recall-220126-product-packaging",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/recall-220126-product-packaging/",
+    "title": "Recall 220126 Product Packaging",
+    "author": "Liz Nobriga",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      766
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled.jpg'><img width=\"576\" height=\"375\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-576x375.jpg\" class=\"attachment-medium size-medium\" alt=\"Image of Claybourne Co. product packaging\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-576x375.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1024x667.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-768x500.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1536x1000.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2048x1333.jpg 2048w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x703.jpg 1080w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1280x833.jpg 1280w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-980x638.jpg 980w, https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-480x312.jpg 480w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n<p>Image of Claybourne Co. product packaging that is affected by Aspergillus contamination</p>\n",
+    "caption": "<p>Image of Claybourne Co. product packaging</p>\n",
+    "alt_text": "Image of Claybourne Co. product packaging",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2560,
+      "height": 1666,
+      "file": "2022/01/Recall-220126-Product-Packaging-scaled.jpg",
+      "sizes": {
+        "medium": {
+          "file": "Recall-220126-Product-Packaging-576x375.jpg",
+          "width": 576,
+          "height": 375,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-576x375.jpg"
+        },
+        "large": {
+          "file": "Recall-220126-Product-Packaging-1024x667.jpg",
+          "width": 1024,
+          "height": 667,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1024x667.jpg"
+        },
+        "thumbnail": {
+          "file": "Recall-220126-Product-Packaging-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-376x376.jpg"
+        },
+        "medium_large": {
+          "file": "Recall-220126-Product-Packaging-768x500.jpg",
+          "width": 768,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-768x500.jpg"
+        },
+        "1536x1536": {
+          "file": "Recall-220126-Product-Packaging-1536x1000.jpg",
+          "width": 1536,
+          "height": 1000,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1536x1000.jpg"
+        },
+        "2048x2048": {
+          "file": "Recall-220126-Product-Packaging-2048x1333.jpg",
+          "width": 2048,
+          "height": 1333,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2048x1333.jpg"
+        },
+        "et-pb-post-main-image": {
+          "file": "Recall-220126-Product-Packaging-400x250.jpg",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x250.jpg"
+        },
+        "et-pb-post-main-image-fullwidth": {
+          "file": "Recall-220126-Product-Packaging-1080x675.jpg",
+          "width": 1080,
+          "height": 675,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x675.jpg"
+        },
+        "et-pb-portfolio-image": {
+          "file": "Recall-220126-Product-Packaging-400x284.jpg",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x284.jpg"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "Recall-220126-Product-Packaging-510x382.jpg",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-510x382.jpg"
+        },
+        "et-pb-portfolio-image-single": {
+          "file": "Recall-220126-Product-Packaging-1080x703.jpg",
+          "width": 1080,
+          "height": 703,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x703.jpg"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "Recall-220126-Product-Packaging-400x516.jpg",
+          "width": 400,
+          "height": 516,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x516.jpg"
+        },
+        "et-pb-post-main-image-fullwidth-large": {
+          "file": "Recall-220126-Product-Packaging-2880x1800.jpg",
+          "width": 2880,
+          "height": 1800,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2880x1800.jpg"
+        },
+        "et-pb-image--responsive--desktop": {
+          "file": "Recall-220126-Product-Packaging-1280x833.jpg",
+          "width": 1280,
+          "height": 833,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1280x833.jpg"
+        },
+        "et-pb-image--responsive--tablet": {
+          "file": "Recall-220126-Product-Packaging-980x638.jpg",
+          "width": 980,
+          "height": 638,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-980x638.jpg"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "Recall-220126-Product-Packaging-480x312.jpg",
+          "width": 480,
+          "height": 312,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-480x312.jpg"
+        },
+        "full": {
+          "file": "Recall-220126-Product-Packaging-scaled.jpg",
+          "width": 2560,
+          "height": 1666,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "1.6",
+        "credit": "",
+        "camera": "iPhone 12 Pro Max",
+        "caption": "",
+        "created_timestamp": "1643108247",
+        "copyright": "",
+        "focal_length": "5.1",
+        "iso": "80",
+        "shutter_speed": "0.0083333333333333",
+        "title": "",
+        "orientation": "1",
+        "keywords": []
+      },
+      "original_image": "Recall-220126-Product-Packaging.jpg"
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled.jpg",
+    "sizes": [
+      {
+        "type": "et-pb-post-main-image-fullwidth-large",
+        "path": "2022/01/Recall-220126-Product-Packaging-2880x1800.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2880x1800.jpg",
+        "file": "Recall-220126-Product-Packaging-2880x1800.jpg",
+        "width": 2880,
+        "height": 1800,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2880x1800.jpg"
+      },
+      {
+        "type": "full",
+        "path": "2022/01/Recall-220126-Product-Packaging-scaled.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled.jpg",
+        "file": "Recall-220126-Product-Packaging-scaled.jpg",
+        "width": 2560,
+        "height": 1666,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-scaled.jpg"
+      },
+      {
+        "type": "2048x2048",
+        "path": "2022/01/Recall-220126-Product-Packaging-2048x1333.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2048x1333.jpg",
+        "file": "Recall-220126-Product-Packaging-2048x1333.jpg",
+        "width": 2048,
+        "height": 1333,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-2048x1333.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2022/01/Recall-220126-Product-Packaging-1536x1000.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1536x1000.jpg",
+        "file": "Recall-220126-Product-Packaging-1536x1000.jpg",
+        "width": 1536,
+        "height": 1000,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1536x1000.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--desktop",
+        "path": "2022/01/Recall-220126-Product-Packaging-1280x833.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1280x833.jpg",
+        "file": "Recall-220126-Product-Packaging-1280x833.jpg",
+        "width": 1280,
+        "height": 833,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1280x833.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image-fullwidth",
+        "path": "2022/01/Recall-220126-Product-Packaging-1080x675.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x675.jpg",
+        "file": "Recall-220126-Product-Packaging-1080x675.jpg",
+        "width": 1080,
+        "height": 675,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x675.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image-single",
+        "path": "2022/01/Recall-220126-Product-Packaging-1080x703.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x703.jpg",
+        "file": "Recall-220126-Product-Packaging-1080x703.jpg",
+        "width": 1080,
+        "height": 703,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1080x703.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/01/Recall-220126-Product-Packaging-1024x667.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1024x667.jpg",
+        "file": "Recall-220126-Product-Packaging-1024x667.jpg",
+        "width": 1024,
+        "height": 667,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-1024x667.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--tablet",
+        "path": "2022/01/Recall-220126-Product-Packaging-980x638.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-980x638.jpg",
+        "file": "Recall-220126-Product-Packaging-980x638.jpg",
+        "width": 980,
+        "height": 638,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-980x638.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/01/Recall-220126-Product-Packaging-768x500.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-768x500.jpg",
+        "file": "Recall-220126-Product-Packaging-768x500.jpg",
+        "width": 768,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-768x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/01/Recall-220126-Product-Packaging-576x375.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-576x375.jpg",
+        "file": "Recall-220126-Product-Packaging-576x375.jpg",
+        "width": 576,
+        "height": 375,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-576x375.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "2022/01/Recall-220126-Product-Packaging-510x382.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-510x382.jpg",
+        "file": "Recall-220126-Product-Packaging-510x382.jpg",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-510x382.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "2022/01/Recall-220126-Product-Packaging-480x312.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-480x312.jpg",
+        "file": "Recall-220126-Product-Packaging-480x312.jpg",
+        "width": 480,
+        "height": 312,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-480x312.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "2022/01/Recall-220126-Product-Packaging-400x250.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x250.jpg",
+        "file": "Recall-220126-Product-Packaging-400x250.jpg",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x250.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "2022/01/Recall-220126-Product-Packaging-400x284.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x284.jpg",
+        "file": "Recall-220126-Product-Packaging-400x284.jpg",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x284.jpg"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "2022/01/Recall-220126-Product-Packaging-400x516.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x516.jpg",
+        "file": "Recall-220126-Product-Packaging-400x516.jpg",
+        "width": 400,
+        "height": 516,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-400x516.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/01/Recall-220126-Product-Packaging-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-376x376.jpg",
+        "file": "Recall-220126-Product-Packaging-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging-376x376.jpg"
+      }
+    ],
+    "path": "2022/01/Recall-220126-Product-Packaging-scaled.jpg"
+  }
+}
