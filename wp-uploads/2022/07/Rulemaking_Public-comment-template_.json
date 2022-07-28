@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "created_date": "2022-07-07T19:06:27",
+    "updated_date": "2022-07-07T19:06:27",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10015",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10015,
+    "date": "2022-07-07T12:06:27",
+    "date_gmt": "2022-07-07T19:06:27",
+    "guid": "http://cannabis-ca-gov.lndo.site/wp-content/uploads/2022/07/Rulemaking_Public-comment-template_.docx",
+    "modified": "2022-07-07T12:06:27",
+    "modified_gmt": "2022-07-07T19:06:27",
+    "slug": "rulemaking_public-comment-template_",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/rulemaking_public-comment-template_/",
+    "title": "Rulemaking_Public-comment-template_",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Rulemaking_Public-comment-template_.docx'>Rulemaking_Public-comment-template_</a></p>\n",
+    "caption": "<p>Rulemaking_Public-comment-template_</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Rulemaking_Public-comment-template_.docx",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Rulemaking_Public-comment-template_.docx",
+    "path": "2022/07/Rulemaking_Public-comment-template_.docx"
+  }
+}
