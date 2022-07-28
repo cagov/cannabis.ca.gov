@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "created_date": "2022-07-28T20:50:07",
+    "updated_date": "2022-07-28T20:50:59",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10772",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10772,
+    "date": "2022-07-28T13:50:07",
+    "date_gmt": "2022-07-28T20:50:07",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg",
+    "modified": "2022-07-28T13:50:59",
+    "modified_gmt": "2022-07-28T20:50:59",
+    "slug": "weedwise_billboard",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/about-us/public-awareness-campaigns/weedwise_billboard/",
+    "title": "weedwise_billboard",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg'><img width=\"576\" height=\"284\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-576x284.jpg\" class=\"attachment-medium size-medium\" alt=\"Support the legal marketplace. The difference is clear. Get #weedwise\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-576x284.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1024x504.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-768x378.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1536x756.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-2048x1008.jpg 2048w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Support the legal marketplace. The difference is clear. Get #weedwise",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2500,
+      "height": 1231,
+      "file": "2022/07/weedwise_billboard.jpg",
+      "filesize": 201797,
+      "sizes": {
+        "medium": {
+          "file": "weedwise_billboard-576x284.jpg",
+          "width": 576,
+          "height": 284,
+          "filesize": 27345,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-576x284.jpg"
+        },
+        "large": {
+          "file": "weedwise_billboard-1024x504.jpg",
+          "width": 1024,
+          "height": 504,
+          "filesize": 66179,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1024x504.jpg"
+        },
+        "thumbnail": {
+          "file": "weedwise_billboard-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "filesize": 24024,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-376x376.jpg"
+        },
+        "medium_large": {
+          "file": "weedwise_billboard-768x378.jpg",
+          "width": 768,
+          "height": 378,
+          "filesize": 42991,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-768x378.jpg"
+        },
+        "1536x1536": {
+          "file": "weedwise_billboard-1536x756.jpg",
+          "width": 1536,
+          "height": 756,
+          "filesize": 125690,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1536x756.jpg"
+        },
+        "2048x2048": {
+          "file": "weedwise_billboard-2048x1008.jpg",
+          "width": 2048,
+          "height": 1008,
+          "filesize": 192094,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-2048x1008.jpg"
+        },
+        "full": {
+          "file": "weedwise_billboard.jpg",
+          "width": 2500,
+          "height": 1231,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 700,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/07/weedwise_billboard.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg",
+        "file": "weedwise_billboard.jpg",
+        "width": 2500,
+        "height": 1231,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard.jpg"
+      },
+      {
+        "type": "2048x2048",
+        "path": "2022/07/weedwise_billboard-2048x1008.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-2048x1008.jpg",
+        "file": "weedwise_billboard-2048x1008.jpg",
+        "width": 2048,
+        "height": 1008,
+        "filesize": 192094,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-2048x1008.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2022/07/weedwise_billboard-1536x756.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1536x756.jpg",
+        "file": "weedwise_billboard-1536x756.jpg",
+        "width": 1536,
+        "height": 756,
+        "filesize": 125690,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1536x756.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/07/weedwise_billboard-1024x504.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1024x504.jpg",
+        "file": "weedwise_billboard-1024x504.jpg",
+        "width": 1024,
+        "height": 504,
+        "filesize": 66179,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-1024x504.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/07/weedwise_billboard-768x378.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-768x378.jpg",
+        "file": "weedwise_billboard-768x378.jpg",
+        "width": 768,
+        "height": 378,
+        "filesize": 42991,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-768x378.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/07/weedwise_billboard-576x284.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-576x284.jpg",
+        "file": "weedwise_billboard-576x284.jpg",
+        "width": 576,
+        "height": 284,
+        "filesize": 27345,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-576x284.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/07/weedwise_billboard-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-376x376.jpg",
+        "file": "weedwise_billboard-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "filesize": 24024,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/weedwise_billboard-376x376.jpg"
+      }
+    ],
+    "path": "2022/07/weedwise_billboard.jpg"
+  }
+}
