@@ -17,7 +17,7 @@
     "id": 9463,
     "date": "2022-03-04T02:07:31",
     "date_gmt": "2022-03-04T10:07:31",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/Regulation-Rollout-2022-0302-Webinar-Slides.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/Regulation-Rollout-2022-0302-Webinar-Slides.pdf",
     "modified": "2022-03-04T02:07:31",
     "modified_gmt": "2022-03-04T10:07:31",
     "slug": "regulation-rollout-2022-0302-webinar-slides",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/regulation-rollout-2022-0302-webinar-slides/",
     "title": "Regulation Rollout 2022-0302 Webinar Slides",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/03/Regulation-Rollout-2022-0302-Webinar-Slides.pdf'><img width=\"576\" height=\"324\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/Regulation-Rollout-2022-0302-Webinar-Slides-pdf-576x324.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

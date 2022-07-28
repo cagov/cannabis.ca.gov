@@ -17,7 +17,7 @@
     "id": 8742,
     "date": "2021-09-07T22:45:20",
     "date_gmt": "2021-09-08T05:45:20",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018.pdf",
     "modified": "2021-09-07T22:45:20",
     "modified_gmt": "2021-09-08T05:45:20",
     "slug": "rulemaking-210908-consolidation-er-dcc-lic-018",
@@ -25,15 +25,18 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/rulemaking-210908-consolidation-er-dcc-lic-018/",
     "title": "Rulemaking 210908 Consolidation ER DCC-LIC-018",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018.pdf'><img width=\"232\" height=\"300\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "file",
@@ -41,32 +44,32 @@
     "media_details": {
       "sizes": {
         "full": {
-          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1.jpg",
+          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf.jpg",
           "width": 1088,
           "height": 1408,
           "mime_type": "application/pdf",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf.jpg"
         },
         "medium": {
-          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg",
-          "width": 445,
-          "height": 576,
+          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg",
+          "width": 232,
+          "height": 300,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg"
         },
         "large": {
-          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-791x1024.jpg",
+          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-791x1024.jpg",
           "width": 791,
           "height": 1024,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-791x1024.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-791x1024.jpg"
         },
         "thumbnail": {
-          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-291x376.jpg",
-          "width": 291,
-          "height": 376,
+          "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-116x150.jpg",
+          "width": 116,
+          "height": 150,
           "mime_type": "image/jpeg",
-          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-291x376.jpg"
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-116x150.jpg"
         }
       }
     },
@@ -76,43 +79,43 @@
     "sizes": [
       {
         "type": "full",
-        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1.jpg",
-        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1.jpg",
+        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf.jpg",
+        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf.jpg",
         "width": 1088,
         "height": 1408,
         "mime_type": "application/pdf",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf.jpg"
       },
       {
         "type": "large",
-        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-791x1024.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-791x1024.jpg",
-        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-791x1024.jpg",
+        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-791x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-791x1024.jpg",
+        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-791x1024.jpg",
         "width": 791,
         "height": 1024,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-791x1024.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-791x1024.jpg"
       },
       {
         "type": "medium",
-        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg",
-        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg",
-        "width": 445,
-        "height": 576,
+        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg",
+        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg",
+        "width": 232,
+        "height": 300,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-445x576.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-232x300.jpg"
       },
       {
         "type": "thumbnail",
-        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-291x376.jpg",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-291x376.jpg",
-        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-291x376.jpg",
-        "width": 291,
-        "height": 376,
+        "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-116x150.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-116x150.jpg",
+        "file": "Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-116x150.jpg",
+        "width": 116,
+        "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-1-291x376.jpg"
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018-pdf-116x150.jpg"
       }
     ],
     "path": "2021/09/Rulemaking-210908-Consolidation-ER-DCC-LIC-018.pdf"

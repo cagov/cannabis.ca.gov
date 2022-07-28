@@ -17,7 +17,7 @@
     "id": 9304,
     "date": "2021-12-31T17:44:48",
     "date_gmt": "2022-01-01T01:44:48",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/Otto-Farms-Order-and-Stip-CCL20-0000351-LC20-0-and-CCL20-0000395-LC20-0_NE-sig.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/Otto-Farms-Order-and-Stip-CCL20-0000351-LC20-0-and-CCL20-0000395-LC20-0_NE-sig.pdf",
     "modified": "2021-12-31T17:44:48",
     "modified_gmt": "2022-01-01T01:44:48",
     "slug": "otto-farms-order-and-stip-ccl20-0000351-lc20-0-and-ccl20-0000395-lc20-0_ne-sig",
@@ -25,13 +25,16 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/otto-farms-order-and-stip-ccl20-0000351-lc20-0-and-ccl20-0000395-lc20-0_ne-sig/",
     "title": "Otto Farms Order and Stip (CCL20-0000351-LC20-0 and CCL20-0000395-LC20-0)_NE sig",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/12/Otto-Farms-Order-and-Stip-CCL20-0000351-LC20-0-and-CCL20-0000395-LC20-0_NE-sig.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/12/Otto-Farms-Order-and-Stip-CCL20-0000351-LC20-0-and-CCL20-0000395-LC20-0_NE-sig-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

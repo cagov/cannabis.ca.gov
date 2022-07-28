@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-01T00:08:21",
-    "updated_date": "2022-04-01T00:08:21",
+    "updated_date": "2022-04-01T02:09:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,21 +17,24 @@
     "id": 9592,
     "date": "2022-03-31T17:08:21",
     "date_gmt": "2022-04-01T00:08:21",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/DCC-LIC-006-Retailer-Application.pdf",
-    "modified": "2022-03-31T17:08:21",
-    "modified_gmt": "2022-04-01T00:08:21",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/DCC-LIC-006-Retailer-Application.pdf",
+    "modified": "2022-03-31T19:09:31",
+    "modified_gmt": "2022-04-01T02:09:31",
     "slug": "dcc-lic-006-retailer-application",
     "status": "inherit",
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/dcc-lic-006-retailer-application/",
     "title": "DCC-LIC-006 Retailer Application",
-    "author": "Christina Dempsey",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/03/DCC-LIC-006-Retailer-Application.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/DCC-LIC-006-Retailer-Application-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

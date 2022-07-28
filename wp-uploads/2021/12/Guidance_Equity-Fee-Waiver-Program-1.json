@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "created_date": "2022-01-01T01:07:11",
+    "updated_date": "2022-01-01T01:07:11",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9285",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9285,
+    "date": "2021-12-31T17:07:11",
+    "date_gmt": "2022-01-01T01:07:11",
+    "guid": "http://cannabis-ca-gov.lndo.site/wp-content/uploads/2021/12/Guidance_Equity-Fee-Waiver-Program-1.pdf",
+    "modified": "2021-12-31T17:07:11",
+    "modified_gmt": "2022-01-01T01:07:11",
+    "slug": "guidance_equity-fee-waiver-program-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/guidance_equity-fee-waiver-program-2/",
+    "title": "Guidance_Equity Fee Waiver Program",
+    "author": "Chach",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/12/Guidance_Equity-Fee-Waiver-Program-1.pdf'>Guidance_Equity Fee Waiver Program</a></p>\n",
+    "caption": "<p>Guidance_Equity Fee Waiver Program</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/Guidance_Equity-Fee-Waiver-Program-1.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/Guidance_Equity-Fee-Waiver-Program-1.pdf",
+    "path": "2021/12/Guidance_Equity-Fee-Waiver-Program-1.pdf"
+  }
+}

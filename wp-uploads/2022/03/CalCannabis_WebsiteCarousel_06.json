@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-05T01:37:34",
-    "updated_date": "2022-03-05T01:37:34",
+    "updated_date": "2022-03-05T01:38:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,21 +17,24 @@
     "id": 9489,
     "date": "2022-03-04T17:37:34",
     "date_gmt": "2022-03-05T01:37:34",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg",
-    "modified": "2022-03-04T17:37:34",
-    "modified_gmt": "2022-03-05T01:37:34",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/CalCannabis_WebsiteCarousel_06.jpg",
+    "modified": "2022-03-04T17:38:01",
+    "modified_gmt": "2022-03-05T01:38:01",
     "slug": "calcannabis_websitecarousel_06",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/calcannabis_websitecarousel_06/",
+    "link": "https://api.cannabis.ca.gov/homepage/calcannabis_websitecarousel_06/",
     "title": "CalCannabis_WebsiteCarousel_06",
-    "author": "Chach",
+    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg'><img width=\"576\" height=\"344\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg\" class=\"attachment-medium size-medium\" alt=\"Hands holding cannabis flower\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-768x459.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg 803w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n<p>Hands holding cannabis flower</p>\n",
     "caption": "<p>Hands holding cannabis flower</p>\n",
@@ -87,7 +90,7 @@
         "keywords": []
       }
     },
-    "post": null,
+    "post": 7424,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg",
     "sizes": [

@@ -17,7 +17,7 @@
     "id": 9757,
     "date": "2022-05-20T13:45:35",
     "date_gmt": "2022-05-20T20:45:35",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong.jpg",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong.jpg",
     "modified": "2022-05-20T13:45:35",
     "modified_gmt": "2022-05-20T20:45:35",
     "slug": "dcc_stakeholdertoolkit_post03_spanish_hmong",
@@ -28,9 +28,12 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
-      2
+      14
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong.jpg'><img width=\"576\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong-576x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong-576x576.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong-1024x1024.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong-376x376.jpg 376w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong-768x768.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong-1536x1536.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/05/DCC_StakeholderToolkit_Post03_Spanish_Hmong.jpg 2000w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",

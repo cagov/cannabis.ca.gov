@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "created_date": "2022-06-29T17:15:47",
+    "updated_date": "2022-06-29T17:15:47",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9943",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9943,
+    "date": "2022-06-29T10:15:47",
+    "date_gmt": "2022-06-29T17:15:47",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/06/06.29.2022_Licensing-Information-Report.xlsx",
+    "modified": "2022-06-29T10:15:47",
+    "modified_gmt": "2022-06-29T17:15:47",
+    "slug": "06-29-2022_licensing-information-report",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/06-29-2022_licensing-information-report/",
+    "title": "06.29.2022_Licensing-Information-Report",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/06/06.29.2022_Licensing-Information-Report.xlsx'>06.29.2022_Licensing-Information-Report</a></p>\n",
+    "caption": "<p>06.29.2022_Licensing-Information-Report</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/06/06.29.2022_Licensing-Information-Report.xlsx",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/06/06.29.2022_Licensing-Information-Report.xlsx",
+    "path": "2022/06/06.29.2022_Licensing-Information-Report.xlsx"
+  }
+}

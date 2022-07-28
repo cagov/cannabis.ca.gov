@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-07-14T21:28:09",
+    "updated_date": "2022-07-14T21:28:09",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10575",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10575,
+    "date": "2022-07-14T14:28:09",
+    "date_gmt": "2022-07-14T21:28:09",
+    "guid": "http://cannabis-ca-gov.lndo.site/wp-content/uploads/2022/07/Large-Cultivation-Licenses_Correction-to-Notice-7.11.2022-Final.pdf",
+    "modified": "2022-07-14T14:28:09",
+    "modified_gmt": "2022-07-14T21:28:09",
+    "slug": "large-cultivation-licenses_correction-to-notice-7-11-2022-final",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/large-cultivation-licenses_correction-to-notice-7-11-2022-final/",
+    "title": "Large Cultivation Licenses_Correction to Notice 7.11.2022 Final",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Large-Cultivation-Licenses_Correction-to-Notice-7.11.2022-Final.pdf'>Large Cultivation Licenses_Correction to Notice 7.11.2022 Final</a></p>\n",
+    "caption": "<p>Large Cultivation Licenses_Correction to Notice 7.11.2022 Final</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 75540,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Large-Cultivation-Licenses_Correction-to-Notice-7.11.2022-Final.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Large-Cultivation-Licenses_Correction-to-Notice-7.11.2022-Final.pdf",
+    "path": "2022/07/Large-Cultivation-Licenses_Correction-to-Notice-7.11.2022-Final.pdf"
+  }
+}
