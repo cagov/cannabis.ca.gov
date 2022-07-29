@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-29T16:20:10",
-    "updated_date": "2022-07-29T16:24:12",
+    "updated_date": "2022-07-29T17:09:59",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-29T09:20:10",
     "date_gmt": "2022-07-29T16:20:10",
     "guid": "https://api.cannabis.ca.gov/?page_id=10826",
-    "modified": "2022-07-29T09:24:12",
-    "modified_gmt": "2022-07-29T16:24:12",
+    "modified": "2022-07-29T10:09:59",
+    "modified_gmt": "2022-07-29T17:09:59",
     "slug": "licensee-profile-lutz",
     "status": "publish",
     "type": "page",

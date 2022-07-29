@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-29T16:23:18",
-    "updated_date": "2022-07-29T16:23:50",
+    "updated_date": "2022-07-29T17:09:52",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-29T09:23:18",
     "date_gmt": "2022-07-29T16:23:18",
     "guid": "https://api.cannabis.ca.gov/?page_id=10829",
-    "modified": "2022-07-29T09:23:50",
-    "modified_gmt": "2022-07-29T16:23:50",
+    "modified": "2022-07-29T10:09:52",
+    "modified_gmt": "2022-07-29T17:09:52",
     "slug": "licensee-profile-mitchell",
     "status": "publish",
     "type": "page",

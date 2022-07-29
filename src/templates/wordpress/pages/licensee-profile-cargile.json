@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-29T16:38:33",
-    "updated_date": "2022-07-29T16:38:40",
+    "updated_date": "2022-07-29T17:09:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-29T09:38:33",
     "date_gmt": "2022-07-29T16:38:33",
     "guid": "https://api.cannabis.ca.gov/?page_id=10838",
-    "modified": "2022-07-29T09:38:40",
-    "modified_gmt": "2022-07-29T16:38:40",
+    "modified": "2022-07-29T10:09:56",
+    "modified_gmt": "2022-07-29T17:09:56",
     "slug": "licensee-profile-cargile",
     "status": "publish",
     "type": "page",
