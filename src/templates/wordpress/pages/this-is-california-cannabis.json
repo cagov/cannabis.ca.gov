@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-08T21:33:20",
-    "updated_date": "2022-07-29T02:26:44",
+    "updated_date": "2022-07-29T16:43:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-08T14:33:20",
     "date_gmt": "2022-07-08T21:33:20",
     "guid": "http://cannabis-ca-gov.lndo.site/?page_id=10045",
-    "modified": "2022-07-28T19:26:44",
-    "modified_gmt": "2022-07-29T02:26:44",
+    "modified": "2022-07-29T09:43:31",
+    "modified_gmt": "2022-07-29T16:43:31",
     "slug": "this-is-california-cannabis",
     "status": "publish",
     "type": "page",
@@ -113,6 +113,20 @@
         "filesize": 38239,
         "mime_type": "image/jpeg",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/20.01_CalCannabis_Huckleberry_Photo_0776-376x376.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10822,
+        "type": "thumbnail",
+        "path": "2022/07/betty_mitchell-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/betty_mitchell-376x376.png",
+        "file": "betty_mitchell-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 165759,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/betty_mitchell-376x376.png",
         "source_url_match": true,
         "featured": false
       },
@@ -334,6 +348,20 @@
         "height": 376,
         "mime_type": "image/jpeg",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/05/ingram-376x376.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10837,
+        "type": "thumbnail",
+        "path": "2022/07/kimberly_cargile-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-376x376.png",
+        "file": "kimberly_cargile-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 187351,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-376x376.png",
         "source_url_match": true,
         "featured": false
       },
