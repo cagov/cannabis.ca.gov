@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Redirections",
-      "redirects": 35,
+      "redirects": 36,
       "module_id": 1,
       "moduleName": "WordPress",
       "enabled": true
@@ -874,6 +874,32 @@
       "group_id": 1,
       "position": 35,
       "last_access": "November 15, 2021",
+      "enabled": true
+    },
+    {
+      "id": 208,
+      "url": "/2022/07/licensee-profile/",
+      "match_url": "/2022/07/licensee-profile",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": false,
+          "flag_trailing": false,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/2022/07/licensee-profile-swami/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 35,
+      "last_access": "-",
       "enabled": true
     },
     {
