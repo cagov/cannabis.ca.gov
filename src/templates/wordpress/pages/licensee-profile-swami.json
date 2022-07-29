@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "created_date": "2022-07-29T17:36:00",
+    "updated_date": "2022-07-29T17:36:01",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/10853",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10853,
+    "date": "2022-07-29T10:36:00",
+    "date_gmt": "2022-07-29T17:36:00",
+    "guid": "https://api.cannabis.ca.gov/?page_id=10853",
+    "modified": "2022-07-29T10:36:01",
+    "modified_gmt": "2022-07-29T17:36:01",
+    "slug": "licensee-profile-swami",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/licensee-profile-swami/",
+    "title": "Licensee profile",
+    "excerpt": "<p>Swami Chaitanya and Nikki Lastreto Swami SelectThe Emerald Triangle – Mendocino CountyWebsite:&nbsp;https://swamiselect.com/Social Media:&nbsp;https://www.instagram.com/swamiselect/ About the Farm&nbsp; Swami Chaitanya and Nikki Lastreto are&nbsp;founders&nbsp;of Swami Select, a cannabis brand grown at their farm Ganja Ma Gardens, in the heart of California’s Emerald Triangle. Swami Select cannabis is sun-grown, cultivated in living soil using regenerative, organic methods for [&hellip;]</p>\n",
+    "author": "Wes Breazell",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/licensee-profile-swami/",
+      "page_title": "Licensee profile",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Licensee profile",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/licensee-profile-swami/",
+      "open_graph_title": "Licensee profile",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Licensee profile",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/licensee-profile-swami/",
+    "media": [
+      {
+        "id": 10854,
+        "type": "full",
+        "path": "2022/07/swami_banner.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner.png",
+        "file": "swami_banner.png",
+        "width": 2048,
+        "height": 1024,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10854,
+        "type": "1536x1536",
+        "path": "2022/07/swami_banner-1536x768.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-1536x768.png",
+        "file": "swami_banner-1536x768.png",
+        "width": 1536,
+        "height": 768,
+        "filesize": 1507580,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-1536x768.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10854,
+        "type": "large",
+        "path": "2022/07/swami_banner-1024x512.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-1024x512.png",
+        "file": "swami_banner-1024x512.png",
+        "width": 1024,
+        "height": 512,
+        "filesize": 771968,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-1024x512.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10854,
+        "type": "medium_large",
+        "path": "2022/07/swami_banner-768x384.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-768x384.png",
+        "file": "swami_banner-768x384.png",
+        "width": 768,
+        "height": 384,
+        "filesize": 470036,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-768x384.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10854,
+        "type": "medium",
+        "path": "2022/07/swami_banner-576x288.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-576x288.png",
+        "file": "swami_banner-576x288.png",
+        "width": 576,
+        "height": 288,
+        "filesize": 279516,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_banner-576x288.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
