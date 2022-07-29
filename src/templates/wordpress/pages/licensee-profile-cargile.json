@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "created_date": "2022-07-29T16:38:33",
+    "updated_date": "2022-07-29T16:38:40",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/pages/10838",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10838,
+    "date": "2022-07-29T09:38:33",
+    "date_gmt": "2022-07-29T16:38:33",
+    "guid": "https://api.cannabis.ca.gov/?page_id=10838",
+    "modified": "2022-07-29T09:38:40",
+    "modified_gmt": "2022-07-29T16:38:40",
+    "slug": "licensee-profile-cargile",
+    "status": "publish",
+    "type": "page",
+    "link": "https://api.cannabis.ca.gov/licensee-profile-cargile/",
+    "title": "Licensee profile",
+    "excerpt": "<p>Kimberly Cargile A Therapeutic Alternative Sacramento  About A Therapeutic Alternative&nbsp; Founded in 2009, A Therapeutic Alternative (ATA) seeks to provide high-quality products and services to their customers. Cargile shared that ATA was founded with four core values, which continue to drive her and her team – health, happiness, education, and industry leadership. In addition to working [&hellip;]</p>\n",
+    "author": "Wes Breazell",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/licensee-profile-cargile/",
+      "page_title": "Licensee profile",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Licensee profile",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/licensee-profile-cargile/",
+      "open_graph_title": "Licensee profile",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Licensee profile",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://api.cannabis.ca.gov/licensee-profile-cargile/",
+    "media": [
+      {
+        "id": 10837,
+        "type": "full",
+        "path": "2022/07/kimberly_cargile.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile.png",
+        "file": "kimberly_cargile.png",
+        "width": 1080,
+        "height": 1080,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10837,
+        "type": "large",
+        "path": "2022/07/kimberly_cargile-1024x1024.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-1024x1024.png",
+        "file": "kimberly_cargile-1024x1024.png",
+        "width": 1024,
+        "height": 1024,
+        "filesize": 1030679,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-1024x1024.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10837,
+        "type": "medium_large",
+        "path": "2022/07/kimberly_cargile-768x768.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-768x768.png",
+        "file": "kimberly_cargile-768x768.png",
+        "width": 768,
+        "height": 768,
+        "filesize": 641994,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-768x768.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10837,
+        "type": "medium",
+        "path": "2022/07/kimberly_cargile-576x576.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-576x576.png",
+        "file": "kimberly_cargile-576x576.png",
+        "width": 576,
+        "height": 576,
+        "filesize": 394175,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-576x576.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10837,
+        "type": "thumbnail",
+        "path": "2022/07/kimberly_cargile-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-376x376.png",
+        "file": "kimberly_cargile-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 187351,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/kimberly_cargile-376x376.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
