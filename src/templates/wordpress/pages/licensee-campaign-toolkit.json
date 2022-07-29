@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-27T20:10:16",
-    "updated_date": "2022-07-29T01:04:20",
+    "updated_date": "2022-07-29T01:06:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-27T13:10:16",
     "date_gmt": "2022-07-27T20:10:16",
     "guid": "https://api.cannabis.ca.gov/?page_id=10700",
-    "modified": "2022-07-28T18:04:20",
-    "modified_gmt": "2022-07-29T01:04:20",
+    "modified": "2022-07-28T18:06:25",
+    "modified_gmt": "2022-07-29T01:06:25",
     "slug": "licensee-campaign-toolkit",
     "status": "publish",
     "type": "page",

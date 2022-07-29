@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-27T21:41:11",
-    "updated_date": "2022-07-29T01:02:07",
+    "updated_date": "2022-07-29T01:06:20",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-27T14:41:11",
     "date_gmt": "2022-07-27T21:41:11",
     "guid": "https://api.cannabis.ca.gov/?page_id=10735",
-    "modified": "2022-07-28T18:02:07",
-    "modified_gmt": "2022-07-29T01:02:07",
+    "modified": "2022-07-28T18:06:20",
+    "modified_gmt": "2022-07-29T01:06:20",
     "slug": "stakeholder-campaign-toolkit",
     "status": "publish",
     "type": "page",
