@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "created_date": "2022-07-29T16:33:55",
+    "updated_date": "2022-07-29T16:34:25",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10835",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10835,
+    "date": "2022-07-29T09:33:55",
+    "date_gmt": "2022-07-29T16:33:55",
+    "guid": "https://api.cannabis.ca.gov/?p=10835",
+    "modified": "2022-07-29T09:34:25",
+    "modified_gmt": "2022-07-29T16:34:25",
+    "slug": "licensee-profile-swami",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2022/07/licensee-profile-swami/",
+    "title": "Licensee profile",
+    "excerpt": "<p>Swami Chaitanya and Nikki Lastreto Swami SelectThe Emerald Triangle – Mendocino CountyWebsite: https://swamiselect.com/Social Media: https://www.instagram.com/swamiselect/ About the Farm&nbsp; Swami Chaitanya and Nikki Lastreto are founders of Swami Select, a cannabis brand grown at their farm Ganja Ma Gardens, in the heart of California’s Emerald Triangle. Swami Select cannabis is sun-grown, cultivated in living soil using regenerative, organic methods for [&hellip;]</p>\n",
+    "author": "Wes Breazell",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/07/licensee-profile-swami/",
+      "page_title": "Licensee profile",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Licensee profile",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/07/licensee-profile-swami/",
+      "open_graph_title": "Licensee profile",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "Licensee profile",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/07/licensee-profile-swami/",
+    "media": [
+      {
+        "id": 10834,
+        "type": "full",
+        "path": "2022/07/swami_nikki.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki.png",
+        "file": "swami_nikki.png",
+        "width": 1080,
+        "height": 1080,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10834,
+        "type": "large",
+        "path": "2022/07/swami_nikki-1024x1024.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-1024x1024.png",
+        "file": "swami_nikki-1024x1024.png",
+        "width": 1024,
+        "height": 1024,
+        "filesize": 1400699,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-1024x1024.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10834,
+        "type": "medium_large",
+        "path": "2022/07/swami_nikki-768x768.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-768x768.png",
+        "file": "swami_nikki-768x768.png",
+        "width": 768,
+        "height": 768,
+        "filesize": 869517,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-768x768.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10834,
+        "type": "medium",
+        "path": "2022/07/swami_nikki-576x576.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-576x576.png",
+        "file": "swami_nikki-576x576.png",
+        "width": 576,
+        "height": 576,
+        "filesize": 528327,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-576x576.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10834,
+        "type": "thumbnail",
+        "path": "2022/07/swami_nikki-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-376x376.png",
+        "file": "swami_nikki-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 244437,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-376x376.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}
