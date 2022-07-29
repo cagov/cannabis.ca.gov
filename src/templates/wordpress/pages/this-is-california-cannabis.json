@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-08T21:33:20",
-    "updated_date": "2022-07-29T16:47:37",
+    "updated_date": "2022-07-29T16:59:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-07-08T14:33:20",
     "date_gmt": "2022-07-08T21:33:20",
     "guid": "http://cannabis-ca-gov.lndo.site/?page_id=10045",
-    "modified": "2022-07-29T09:47:37",
-    "modified_gmt": "2022-07-29T16:47:37",
+    "modified": "2022-07-29T09:59:38",
+    "modified_gmt": "2022-07-29T16:59:38",
     "slug": "this-is-california-cannabis",
     "status": "publish",
     "type": "page",
@@ -117,6 +117,20 @@
         "featured": false
       },
       {
+        "id": 10821,
+        "type": "thumbnail",
+        "path": "2022/07/barron_lutz-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/barron_lutz-376x376.png",
+        "file": "barron_lutz-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 204068,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/barron_lutz-376x376.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
         "id": 10822,
         "type": "thumbnail",
         "path": "2022/07/betty_mitchell-376x376.png",
@@ -127,6 +141,20 @@
         "filesize": 165759,
         "mime_type": "image/png",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/betty_mitchell-376x376.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10818,
+        "type": "thumbnail",
+        "path": "2022/07/big_kika-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/big_kika-376x376.png",
+        "file": "big_kika-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 193725,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/big_kika-376x376.png",
         "source_url_match": true,
         "featured": false
       },
@@ -459,6 +487,20 @@
         "filesize": 34917,
         "mime_type": "image/jpeg",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/photo_Glasse-376x376.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 10834,
+        "type": "thumbnail",
+        "path": "2022/07/swami_nikki-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-376x376.png",
+        "file": "swami_nikki-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 244437,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/swami_nikki-376x376.png",
         "source_url_match": true,
         "featured": false
       },
