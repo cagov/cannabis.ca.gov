@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "created_date": "2022-07-29T16:05:22",
+    "updated_date": "2022-07-29T16:07:31",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/10820",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10820,
+    "date": "2022-07-29T09:05:22",
+    "date_gmt": "2022-07-29T16:05:22",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png",
+    "modified": "2022-07-29T09:07:31",
+    "modified_gmt": "2022-07-29T16:07:31",
+    "slug": "cindy_stiizy",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/cindy_stiizy/",
+    "title": "cindy_stiizy",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png'><img width=\"576\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-576x576.png\" class=\"attachment-medium size-medium\" alt=\"Photo of Cindy\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-576x576.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-1024x1024.png 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-376x376.png 376w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-768x768.png 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png 1080w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Photo of Cindy",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1080,
+      "height": 1080,
+      "file": "2022/07/cindy_stiizy.png",
+      "filesize": 919167,
+      "sizes": {
+        "medium": {
+          "file": "cindy_stiizy-576x576.png",
+          "width": 576,
+          "height": 576,
+          "filesize": 295926,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-576x576.png"
+        },
+        "large": {
+          "file": "cindy_stiizy-1024x1024.png",
+          "width": 1024,
+          "height": 1024,
+          "filesize": 786036,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-1024x1024.png"
+        },
+        "thumbnail": {
+          "file": "cindy_stiizy-376x376.png",
+          "width": 376,
+          "height": 376,
+          "filesize": 140223,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-376x376.png"
+        },
+        "medium_large": {
+          "file": "cindy_stiizy-768x768.png",
+          "width": 768,
+          "height": 768,
+          "filesize": 484898,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-768x768.png"
+        },
+        "full": {
+          "file": "cindy_stiizy.png",
+          "width": 1080,
+          "height": 1080,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/07/cindy_stiizy.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png",
+        "file": "cindy_stiizy.png",
+        "width": 1080,
+        "height": 1080,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy.png"
+      },
+      {
+        "type": "large",
+        "path": "2022/07/cindy_stiizy-1024x1024.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-1024x1024.png",
+        "file": "cindy_stiizy-1024x1024.png",
+        "width": 1024,
+        "height": 1024,
+        "filesize": 786036,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-1024x1024.png"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/07/cindy_stiizy-768x768.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-768x768.png",
+        "file": "cindy_stiizy-768x768.png",
+        "width": 768,
+        "height": 768,
+        "filesize": 484898,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-768x768.png"
+      },
+      {
+        "type": "medium",
+        "path": "2022/07/cindy_stiizy-576x576.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-576x576.png",
+        "file": "cindy_stiizy-576x576.png",
+        "width": 576,
+        "height": 576,
+        "filesize": 295926,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-576x576.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/07/cindy_stiizy-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-376x376.png",
+        "file": "cindy_stiizy-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 140223,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/cindy_stiizy-376x376.png"
+      }
+    ],
+    "path": "2022/07/cindy_stiizy.png"
+  }
+}
