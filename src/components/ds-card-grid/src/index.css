@@ -1,0 +1,19 @@
+.cagov-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 16px 32px;
+  align-items: start;
+}
+.cagov-image-grid .card {
+  margin-bottom: 32px;
+  text-align: left;
+}
+.cagov-image-grid img {
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=index.css.map */

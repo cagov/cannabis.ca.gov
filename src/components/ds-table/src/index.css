@@ -1,3 +1,34 @@
+.cagov-table table {
+  border: 1px solid var(--gray-700, #a09fa7);
+  border-collapse: collapse;
+  margin: 0 0 15px;
+  text-align: left;
+}
+.cagov-table table + figcaption {
+  margin-bottom: 15px;
+}
+.cagov-table.aligncenter table {
+  margin: 0 auto 15px;
+}
+.cagov-table.aligncenter table + figcaption {
+  margin: 0 auto 15px;
+  text-align: center;
+}
+.cagov-table.alignright table {
+  margin: 0 0 15px auto;
+}
+.cagov-table.alignright table + figcaption {
+  text-align: right;
+}
+.cagov-table th {
+  font-weight: bold;
+}
+.cagov-table td,
+.cagov-table th {
+  border: 1px solid var(--gray-700, #a09fa7);
+  padding: 16px;
+}
+
 /* Basic table styling */
 .ds-table table.hidden {
   display: none;
@@ -86,13 +117,11 @@
   white-space: nowrap;
 }
 
-.ds-table [role="region"][aria-labelledby][tabindex]:focus {
+.ds-table [role=region][aria-labelledby][tabindex]:focus {
   outline: 0;
 }
 
 /* Sticky table header behaviors */
-
-
 .ds-table.sticky-table {
   /* overflow-x: scroll; */
 }
@@ -106,6 +135,7 @@
 }
 
 .ds-table.sticky-table table tr th {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -116,21 +146,67 @@
   z-index: 1001;
 }
 
-
 .ds-table.sticky-table table tbody td:first-child {
+  position: -webkit-sticky;
   position: sticky;
   left: 0;
   z-index: 999;
 }
 
 .ds-table table tbody td:first-child {
+  position: -webkit-sticky;
   position: sticky;
   left: 0;
   z-index: 999;
 }
 
-.ds-table.sticky-table [role="region"][aria-labelledby][tabindex] {
+.ds-table.sticky-table [role=region][aria-labelledby][tabindex] {
   width: 100%;
   max-height: 98vh;
   overflow: auto;
 }
+
+/* Sticky table header behaviors */
+.ds-table.sticky-table {
+  /* overflow-x: scroll; */
+}
+
+.ds-table.sticky-table table {
+  position: relative;
+  overflow-x: scroll;
+  table-layout: fixed;
+  table-layout: fixed;
+  width: auto;
+}
+
+.ds-table.sticky-table table tr th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.ds-table.sticky-table table thead th:first-child {
+  left: 0;
+  z-index: 1001;
+}
+
+.ds-table.sticky-table table tbody td:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 999;
+}
+
+.ds-table table tbody td:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 999;
+}
+
+.ds-table.sticky-table [role=region][aria-labelledby][tabindex] {
+  width: 100%;
+  max-height: 98vh;
+  overflow: auto;
+}/*# sourceMappingURL=index.css.map */
