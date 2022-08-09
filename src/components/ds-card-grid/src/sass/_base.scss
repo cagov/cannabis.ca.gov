@@ -3,17 +3,21 @@
   grid-template-columns: repeat(3, 200px);
   gap: 16px 32px;
   align-items: start;
-  
+
+  &.single-column {
+    grid-template-columns: repeat(1, 100%);
+  }
+
   .card {
-    margin-bottom: 32px;  
+    margin-bottom: 32px;
     text-align: start;
 
-  img {
-    object-position: top;
-    object-fit: contain;
-    max-width: 200px;
-    max-height: 600px;
-    height: auto;
-    margin-bottom: 16px;
+    img {
+      object-position: top;
+      object-fit: contain;
+      height: auto;
+      max-width: 100%;
+      margin-bottom: 16px;
+    }
   }
 }
