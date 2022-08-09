@@ -7,11 +7,13 @@
   &.single-column {
     grid-template-columns: repeat(1, 100%);
   }
-
-  .card {
+  li {
+    list-style: none;
+  }
+  .card, li {
     margin-bottom: 32px;
     text-align: start;
-
+    border: none;
     img {
       object-position: top;
       object-fit: contain;
@@ -19,5 +21,11 @@
       max-width: 100%;
       margin-bottom: 16px;
     }
+  }
+}
+
+@media screen and (max-width: 782px) {
+  #{$class} {
+    grid-template-columns: repeat(1, 100%);
   }
 }
