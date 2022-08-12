@@ -5,7 +5,6 @@
  */
 class CAGovEventPostList extends window.HTMLElement {
   connectedCallback() {
-
     let siteUrl = window.location.origin;
     this.endpoint = this.dataset.endpoint || `${siteUrl}/wp-json/wp/v2`;
     this.order = this.dataset.order || "asc";
@@ -47,9 +46,9 @@ class CAGovEventPostList extends window.HTMLElement {
               return this.renderNoPosts();
             }
             let itemCount = 0;
-            data.map(item => {
+            data.map((item) => {
               itemCount += item.count;
-            })
+            });
 
             let categoryIds = data.map((item) => {
               this.categoryMap[item.id] = item;
@@ -68,7 +67,7 @@ class CAGovEventPostList extends window.HTMLElement {
               postsEndpoint += `&order=${this.order}`;
               postsEndpoint += `&orderBy=event.startDateTimeUTC`;
             }
-            if(this.currentPage) {
+            if (this.currentPage) {
               postsEndpoint += `&page=${this.currentPage}`;
             }
 
@@ -80,12 +79,11 @@ class CAGovEventPostList extends window.HTMLElement {
               let today = new Date();
               today.setMonth(today.getMonth() - 2);
               postsEndpoint += `&after=${today.toISOString()}`;
-              
             } else if (this.filter === "before-yesterday") {
               // Get current date
               // Add and register metabox data & expose it to endpoint
               // Filter by this value if it's found/set compared to today.
-              // 
+              //
             }
             window
               .fetch(postsEndpoint)
@@ -94,21 +92,50 @@ class CAGovEventPostList extends window.HTMLElement {
                 function (posts) {
                   if (posts !== undefined) {
                     // Set posts content.
-                    if(!this.querySelector('.event-post-list-results')) {
+                    // Set posts content.
+                    if (!this.querySelector(".event-post-list-results")) {
                       this.innerHTML = `<div class="event-post-list-results"></div>`;
                       if (this.showPagination === true) {
-                        // console.log("Trying to show pagination");
-                        this.innerHTML = `<div class="event-post-list-results"></div><cagov-pagination data-current-page="${this.currentPage}" data-total-pages="${parseInt(itemCount/this.count)}"></cagov-pagination>`
+                        this.innerHTML = `<div class="event-post-list-results"></div><cagov-pagination data-current-page="${
+                          this.currentPage
+                        }" data-total-pages="${parseInt(
+                          itemCount / this.count
+                        )}"></cagov-pagination>`;
                       }
+                      // write the received content into the page along with parent HTML elements and the pagination under the pageable items, also apply the listener to pagination events. This version of content writing only happens on the first page load
+                      this.querySelector(".event-post-list-results").innerHTML =
+                        this.template(posts, "wordpress", itemCount);
+                      if (this.showPagination === true) {
+                        // this is set the first time pagination element is written
+                        this.querySelector("cagov-pagination").addEventListener(
+                          "paginationClick",
+                          function (event) {
+                            if (event.detail) {
+                              this.currentPage = event.detail;
+                              this.getWordpressPosts();
+                            }
+                          }.bind(this),
+                          false
+                        );
+                      }
+                    } else {
+                      // write the received content into the page, this happens when a visitor clicks to retrieve a subsequent paged set of items
+                      this.querySelector(".event-post-list-results").innerHTML =
+                        this.template(posts, "wordpress", itemCount);
                     }
-                    this.querySelector('.event-post-list-results').innerHTML = this.template(posts, "wordpress", itemCount);
-                    if (this.querySelector('cagov-pagination') !== null) {
-                      this.querySelector('cagov-pagination').addEventListener('paginationClick', function (event) {
-                        if(event.detail) {
-                          this.currentPage = event.detail;
-                          this.getWordpressPosts();
-                        }
-                      }.bind(this), false);
+                    is.querySelector(".event-post-list-results").innerHTML =
+                      this.template(posts, "wordpress", itemCount);
+                    if (this.querySelector("cagov-pagination") !== null) {
+                      this.querySelector("cagov-pagination").addEventListener(
+                        "paginationClick",
+                        function (event) {
+                          if (event.detail) {
+                            this.currentPage = event.detail;
+                            this.getWordpressPosts();
+                          }
+                        }.bind(this),
+                        false
+                      );
                     }
                   }
                 }.bind(this)
@@ -130,10 +157,11 @@ class CAGovEventPostList extends window.HTMLElement {
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
         let renderedPosts = posts.map((post) => {
-          return this.renderWordpressPostTitleDate(post)
-          }
-        );
-        return `<div class="event-post-list-items">${renderedPosts.join("")}</div>${this.readMore}`;
+          return this.renderWordpressPostTitleDate(post);
+        });
+        return `<div class="event-post-list-items">${renderedPosts.join(
+          ""
+        )}</div>${this.readMore}`;
       }
     } else {
       return `<div class="no-results">${this.noResults}</div>`;
@@ -160,23 +188,32 @@ class CAGovEventPostList extends window.HTMLElement {
     // featured_media = null, // 0
     categories = null,
   }) {
-
     let dateFormatted;
     if (date !== null && window.moment !== undefined) {
       dateFormatted = moment(date).format("MMMM DD, YYYY");
     }
 
-    let getExcerpt = this.showExcerpt === "true" ? `<div class="excerpt"><p>${excerpt.rendered}</p></div>` : ``;
-    let getDate = this.showPublishedDate === "true" ? `<div class="date">${dateFormatted}</div>` : ``;
+    let getExcerpt =
+      this.showExcerpt === "true"
+        ? `<div class="excerpt"><p>${excerpt.rendered}</p></div>`
+        : ``;
+    let getDate =
+      this.showPublishedDate === "true"
+        ? `<div class="date">${dateFormatted}</div>`
+        : ``;
 
     let category_type = "";
     let showCategoryType = false;
     // Disabled but can enable when we have a default style.
-    if (showCategoryType && categories !== null && Object.keys(this.categoryMap).length > 1) {
-        let categoryItem = this.categoryMap[[categories[0]]]; // Use first category. There should only be one set.
-        if (categoryItem.name !== undefined && categoryItem.name !== null) {
-          category_type = `<div class="category-type">${categoryItem.name}</div>`;
-        }
+    if (
+      showCategoryType &&
+      categories !== null &&
+      Object.keys(this.categoryMap).length > 1
+    ) {
+      let categoryItem = this.categoryMap[[categories[0]]]; // Use first category. There should only be one set.
+      if (categoryItem.name !== undefined && categoryItem.name !== null) {
+        category_type = `<div class="category-type">${categoryItem.name}</div>`;
+      }
     }
     return `<div class="event-post-list-item">
                 ${category_type}
