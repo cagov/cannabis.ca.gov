@@ -1,0 +1,32 @@
+.cagov-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 16px 32px;
+  align-items: start;
+}
+.cagov-image-grid.single-column {
+  grid-template-columns: repeat(1, 100%);
+}
+.cagov-image-grid li {
+  list-style: none;
+}
+.cagov-image-grid .card, .cagov-image-grid li {
+  margin-bottom: 32px;
+  text-align: start;
+  border: none;
+}
+.cagov-image-grid .card img, .cagov-image-grid li img {
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 782px) {
+  .cagov-image-grid {
+    grid-template-columns: repeat(1, 100%);
+  }
+}/*# sourceMappingURL=index.css.map */
