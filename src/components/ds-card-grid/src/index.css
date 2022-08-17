@@ -7,6 +7,14 @@
 .cagov-image-grid.single-column {
   grid-template-columns: repeat(1, 100%);
 }
+.cagov-image-grid.cagov-card-grid {
+  grid-template-columns: repeat(2, 393px);
+}
+.cagov-image-grid.cagov-card-grid li {
+  border: 1px solid #efefef;
+  padding: 16px;
+  overflow-wrap: break-word;
+}
 .cagov-image-grid li {
   list-style: none;
 }
@@ -29,4 +37,8 @@
   .cagov-image-grid {
     grid-template-columns: repeat(1, 100%);
   }
+}
+/* WordPress overrides, do not import into Design System, split out into wordpress file. */
+.entry-content ul.cagov-card-grid {
+  padding: 0px;
 }/*# sourceMappingURL=index.css.map */
