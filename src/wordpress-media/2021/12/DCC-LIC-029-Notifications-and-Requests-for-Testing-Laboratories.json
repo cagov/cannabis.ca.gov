@@ -17,7 +17,7 @@
     "id": 9107,
     "date": "2021-12-07T06:43:45",
     "date_gmt": "2021-12-07T14:43:45",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/DCC-LIC-029-Notifications-and-Requests-for-Testing-Laboratories.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/DCC-LIC-029-Notifications-and-Requests-for-Testing-Laboratories.pdf",
     "modified": "2021-12-07T06:43:45",
     "modified_gmt": "2021-12-07T14:43:45",
     "slug": "dcc-lic-029-notifications-and-requests-for-testing-laboratories",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

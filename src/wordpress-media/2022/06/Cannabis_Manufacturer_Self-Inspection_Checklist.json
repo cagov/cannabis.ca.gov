@@ -17,7 +17,7 @@
     "id": 9839,
     "date": "2022-06-07T10:40:10",
     "date_gmt": "2022-06-07T17:40:10",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/06/Cannabis_Manufacturer_Self-Inspection_Checklist.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/06/Cannabis_Manufacturer_Self-Inspection_Checklist.pdf",
     "modified": "2022-06-07T10:40:10",
     "modified_gmt": "2022-06-07T17:40:10",
     "slug": "cannabis_manufacturer_self-inspection_checklist",
@@ -30,7 +30,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

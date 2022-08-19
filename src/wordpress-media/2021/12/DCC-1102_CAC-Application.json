@@ -17,7 +17,7 @@
     "id": 9163,
     "date": "2021-12-12T08:59:34",
     "date_gmt": "2021-12-12T16:59:34",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/DCC-1102_CAC-Application.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/DCC-1102_CAC-Application.pdf",
     "modified": "2021-12-13T20:47:57",
     "modified_gmt": "2021-12-14T04:47:57",
     "slug": "dcc-1102_cac-application",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

@@ -17,7 +17,7 @@
     "id": 9489,
     "date": "2022-03-04T17:37:34",
     "date_gmt": "2022-03-05T01:37:34",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/CalCannabis_WebsiteCarousel_06.jpg",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg",
     "modified": "2022-03-04T17:38:01",
     "modified_gmt": "2022-03-05T01:38:01",
     "slug": "calcannabis_websitecarousel_06",
@@ -31,12 +31,15 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg'><img width=\"576\" height=\"344\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg\" class=\"attachment-medium size-medium\" alt=\"Hands holding cannabis flower\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-768x459.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg 803w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n<p>Hands holding cannabis flower</p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06.jpg'><img width=\"576\" height=\"344\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg\" class=\"attachment-medium size-medium\" alt=\"Hands holding cannabis flower\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-480x287.jpg 480w\" sizes=\"(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 576px, 100vw\" /></a></p>\n<p>Hands holding cannabis flower</p>\n",
     "caption": "<p>Hands holding cannabis flower</p>\n",
     "alt_text": "Hands holding cannabis flower",
     "media_type": "image",
@@ -66,6 +69,41 @@
           "height": 459,
           "mime_type": "image/jpeg",
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-768x459.jpg"
+        },
+        "et-pb-post-main-image": {
+          "file": "CalCannabis_WebsiteCarousel_06-400x250.jpg",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x250.jpg"
+        },
+        "et-pb-portfolio-image": {
+          "file": "CalCannabis_WebsiteCarousel_06-400x284.jpg",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x284.jpg"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "CalCannabis_WebsiteCarousel_06-510x382.jpg",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-510x382.jpg"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "CalCannabis_WebsiteCarousel_06-400x480.jpg",
+          "width": 400,
+          "height": 480,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x480.jpg"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "CalCannabis_WebsiteCarousel_06-480x287.jpg",
+          "width": 480,
+          "height": 287,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-480x287.jpg"
         },
         "full": {
           "file": "CalCannabis_WebsiteCarousel_06.jpg",
@@ -123,6 +161,56 @@
         "height": 344,
         "mime_type": "image/jpeg",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-576x344.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "2022/03/CalCannabis_WebsiteCarousel_06-510x382.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-510x382.jpg",
+        "file": "CalCannabis_WebsiteCarousel_06-510x382.jpg",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-510x382.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "2022/03/CalCannabis_WebsiteCarousel_06-480x287.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-480x287.jpg",
+        "file": "CalCannabis_WebsiteCarousel_06-480x287.jpg",
+        "width": 480,
+        "height": 287,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-480x287.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "2022/03/CalCannabis_WebsiteCarousel_06-400x250.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x250.jpg",
+        "file": "CalCannabis_WebsiteCarousel_06-400x250.jpg",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x250.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "2022/03/CalCannabis_WebsiteCarousel_06-400x284.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x284.jpg",
+        "file": "CalCannabis_WebsiteCarousel_06-400x284.jpg",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x284.jpg"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "2022/03/CalCannabis_WebsiteCarousel_06-400x480.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x480.jpg",
+        "file": "CalCannabis_WebsiteCarousel_06-400x480.jpg",
+        "width": 400,
+        "height": 480,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/CalCannabis_WebsiteCarousel_06-400x480.jpg"
       },
       {
         "type": "thumbnail",

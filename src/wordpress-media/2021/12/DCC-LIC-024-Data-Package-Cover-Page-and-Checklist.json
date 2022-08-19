@@ -17,7 +17,7 @@
     "id": 9104,
     "date": "2021-12-07T06:43:39",
     "date_gmt": "2021-12-07T14:43:39",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/DCC-LIC-024-Data-Package-Cover-Page-and-Checklist.pdf",
     "modified": "2021-12-07T06:43:39",
     "modified_gmt": "2021-12-07T14:43:39",
     "slug": "dcc-lic-024-data-package-cover-page-and-checklist",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

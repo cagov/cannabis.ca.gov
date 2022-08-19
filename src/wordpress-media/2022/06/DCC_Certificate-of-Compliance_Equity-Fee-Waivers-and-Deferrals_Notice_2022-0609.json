@@ -17,7 +17,7 @@
     "id": 9893,
     "date": "2022-06-17T08:22:16",
     "date_gmt": "2022-06-17T15:22:16",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/06/DCC_Certificate-of-Compliance_Equity-Fee-Waivers-and-Deferrals_Notice_2022-0609.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/06/DCC_Certificate-of-Compliance_Equity-Fee-Waivers-and-Deferrals_Notice_2022-0609.pdf",
     "modified": "2022-06-17T08:22:16",
     "modified_gmt": "2022-06-17T15:22:16",
     "slug": "dcc_certificate-of-compliance_equity-fee-waivers-and-deferrals_notice_2022-0609",
@@ -30,7 +30,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

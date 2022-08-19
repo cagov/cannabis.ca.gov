@@ -17,7 +17,7 @@
     "id": 9111,
     "date": "2021-12-07T07:09:25",
     "date_gmt": "2021-12-07T15:09:25",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/Labor-Peace-Agreement-Notarized-Statement_211103.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/Labor-Peace-Agreement-Notarized-Statement_211103.pdf",
     "modified": "2021-12-07T07:09:25",
     "modified_gmt": "2021-12-07T15:09:25",
     "slug": "labor-peace-agreement-notarized-statement_211103",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

@@ -17,7 +17,7 @@
     "id": 9619,
     "date": "2022-04-03T21:56:02",
     "date_gmt": "2022-04-04T04:56:02",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/Rulemaking_220324_Readopt-Package.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/04/Rulemaking_220324_Readopt-Package.pdf",
     "modified": "2022-04-03T21:56:02",
     "modified_gmt": "2022-04-04T04:56:02",
     "slug": "rulemaking_220324_readopt-package",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

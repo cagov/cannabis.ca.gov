@@ -17,7 +17,7 @@
     "id": 9898,
     "date": "2022-06-17T08:28:00",
     "date_gmt": "2022-06-17T15:28:00",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/06/DCC_Large-Cultivation-Licenses-and-Conversions_ISOR.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/06/DCC_Large-Cultivation-Licenses-and-Conversions_ISOR.pdf",
     "modified": "2022-06-17T08:28:00",
     "modified_gmt": "2022-06-17T15:28:00",
     "slug": "dcc_large-cultivation-licenses-and-conversions_isor",
@@ -30,7 +30,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

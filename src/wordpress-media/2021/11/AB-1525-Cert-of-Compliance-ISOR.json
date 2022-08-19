@@ -17,7 +17,7 @@
     "id": 8971,
     "date": "2021-11-19T10:35:14",
     "date_gmt": "2021-11-19T18:35:14",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/11/AB-1525-Cert-of-Compliance-ISOR.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/11/AB-1525-Cert-of-Compliance-ISOR.pdf",
     "modified": "2021-11-19T10:35:14",
     "modified_gmt": "2021-11-19T18:35:14",
     "slug": "ab-1525-cert-of-compliance-isor",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

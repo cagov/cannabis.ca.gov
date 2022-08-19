@@ -17,7 +17,7 @@
     "id": 9106,
     "date": "2021-12-07T06:43:43",
     "date_gmt": "2021-12-07T14:43:43",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/DCC-LIC-028-Notifications-and-Requests-Regarding-Regulatory-Compliance.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/DCC-LIC-028-Notifications-and-Requests-Regarding-Regulatory-Compliance.pdf",
     "modified": "2021-12-07T06:43:43",
     "modified_gmt": "2021-12-07T14:43:43",
     "slug": "dcc-lic-028-notifications-and-requests-regarding-regulatory-compliance-2",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

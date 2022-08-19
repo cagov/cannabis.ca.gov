@@ -17,7 +17,7 @@
     "id": 9092,
     "date": "2021-12-07T06:42:38",
     "date_gmt": "2021-12-07T14:42:38",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/Licensee-Authorization-Form-for-Information-Release_211022.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/Licensee-Authorization-Form-for-Information-Release_211022.pdf",
     "modified": "2021-12-07T06:42:38",
     "modified_gmt": "2021-12-07T14:42:38",
     "slug": "licensee-authorization-form-for-information-release_211022",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14
