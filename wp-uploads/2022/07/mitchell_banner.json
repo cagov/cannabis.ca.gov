@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-29T17:38:08",
-    "updated_date": "2022-07-29T17:38:59",
+    "updated_date": "2022-07-29T17:38:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -17,24 +17,26 @@
     "id": 10856,
     "date": "2022-07-29T10:38:08",
     "date_gmt": "2022-07-29T17:38:08",
-    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner.png",
-    "modified": "2022-07-29T10:38:59",
-    "modified_gmt": "2022-07-29T17:38:59",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner.png",
+    "modified": "2022-07-29T10:38:08",
+    "modified_gmt": "2022-07-29T17:38:08",
     "slug": "mitchell_banner",
     "status": "inherit",
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/mitchell_banner/",
     "title": "mitchell_banner",
-    "author": "Wes Breazell",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
-      14
+      767
     ],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner.png'><img width=\"576\" height=\"288\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-576x288.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis Control, This is California Cannabis growwithCA.com\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-576x288.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1024x512.png 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-768x384.png 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1536x768.png 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner.png 2048w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",
@@ -45,13 +47,11 @@
       "width": 2048,
       "height": 1024,
       "file": "2022/07/mitchell_banner.png",
-      "filesize": 1531787,
       "sizes": {
         "medium": {
           "file": "mitchell_banner-576x288.png",
           "width": 576,
           "height": 288,
-          "filesize": 222618,
           "mime_type": "image/png",
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-576x288.png"
         },
@@ -59,7 +59,6 @@
           "file": "mitchell_banner-1024x512.png",
           "width": 1024,
           "height": 512,
-          "filesize": 591508,
           "mime_type": "image/png",
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1024x512.png"
         },
@@ -67,7 +66,6 @@
           "file": "mitchell_banner-376x376.png",
           "width": 376,
           "height": 376,
-          "filesize": 190575,
           "mime_type": "image/png",
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-376x376.png"
         },
@@ -75,7 +73,6 @@
           "file": "mitchell_banner-768x384.png",
           "width": 768,
           "height": 384,
-          "filesize": 367770,
           "mime_type": "image/png",
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-768x384.png"
         },
@@ -83,9 +80,36 @@
           "file": "mitchell_banner-1536x768.png",
           "width": 1536,
           "height": 768,
-          "filesize": 1132501,
           "mime_type": "image/png",
           "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1536x768.png"
+        },
+        "et-pb-post-main-image": {
+          "file": "mitchell_banner-400x250.png",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-400x250.png"
+        },
+        "et-pb-post-main-image-fullwidth": {
+          "file": "mitchell_banner-1080x675.png",
+          "width": 1080,
+          "height": 675,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1080x675.png"
+        },
+        "et-pb-portfolio-image": {
+          "file": "mitchell_banner-400x284.png",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-400x284.png"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "mitchell_banner-510x382.png",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-510x382.png"
         },
         "full": {
           "file": "mitchell_banner.png",
@@ -131,9 +155,18 @@
         "file": "mitchell_banner-1536x768.png",
         "width": 1536,
         "height": 768,
-        "filesize": 1132501,
         "mime_type": "image/png",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1536x768.png"
+      },
+      {
+        "type": "et-pb-post-main-image-fullwidth",
+        "path": "2022/07/mitchell_banner-1080x675.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1080x675.png",
+        "file": "mitchell_banner-1080x675.png",
+        "width": 1080,
+        "height": 675,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1080x675.png"
       },
       {
         "type": "large",
@@ -142,7 +175,6 @@
         "file": "mitchell_banner-1024x512.png",
         "width": 1024,
         "height": 512,
-        "filesize": 591508,
         "mime_type": "image/png",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-1024x512.png"
       },
@@ -153,7 +185,6 @@
         "file": "mitchell_banner-768x384.png",
         "width": 768,
         "height": 384,
-        "filesize": 367770,
         "mime_type": "image/png",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-768x384.png"
       },
@@ -164,9 +195,38 @@
         "file": "mitchell_banner-576x288.png",
         "width": 576,
         "height": 288,
-        "filesize": 222618,
         "mime_type": "image/png",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-576x288.png"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "2022/07/mitchell_banner-510x382.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-510x382.png",
+        "file": "mitchell_banner-510x382.png",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-510x382.png"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "2022/07/mitchell_banner-400x250.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-400x250.png",
+        "file": "mitchell_banner-400x250.png",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-400x250.png"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "2022/07/mitchell_banner-400x284.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-400x284.png",
+        "file": "mitchell_banner-400x284.png",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-400x284.png"
       },
       {
         "type": "thumbnail",
@@ -175,7 +235,6 @@
         "file": "mitchell_banner-376x376.png",
         "width": 376,
         "height": 376,
-        "filesize": 190575,
         "mime_type": "image/png",
         "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/mitchell_banner-376x376.png"
       }

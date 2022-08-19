@@ -17,7 +17,7 @@
     "id": 9181,
     "date": "2021-12-20T15:01:40",
     "date_gmt": "2021-12-20T23:01:40",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/Equity-Fee-Waiver-Emergency-Regulation-Text-Amended-Final-12.20.2021.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/Equity-Fee-Waiver-Emergency-Regulation-Text-Amended-Final-12.20.2021.pdf",
     "modified": "2021-12-20T15:01:40",
     "modified_gmt": "2021-12-20T23:01:40",
     "slug": "equity-fee-waiver-emergency-regulation-text-amended-final-12-20-2021",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

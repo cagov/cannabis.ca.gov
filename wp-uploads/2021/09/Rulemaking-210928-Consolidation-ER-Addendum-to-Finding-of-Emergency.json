@@ -17,7 +17,7 @@
     "id": 8821,
     "date": "2021-09-29T01:15:41",
     "date_gmt": "2021-09-29T08:15:41",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Rulemaking-210928-Consolidation-ER-Addendum-to-Finding-of-Emergency.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/09/Rulemaking-210928-Consolidation-ER-Addendum-to-Finding-of-Emergency.pdf",
     "modified": "2021-09-29T01:15:41",
     "modified_gmt": "2021-09-29T08:15:41",
     "slug": "rulemaking-210928-consolidation-er-addendum-to-finding-of-emergency",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

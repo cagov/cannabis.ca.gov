@@ -17,7 +17,7 @@
     "id": 9030,
     "date": "2021-12-03T09:24:01",
     "date_gmt": "2021-12-03T17:24:01",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/CAC-Meeting-211213-Notice-and-Agenda.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/CAC-Meeting-211213-Notice-and-Agenda.pdf",
     "modified": "2021-12-03T09:24:01",
     "modified_gmt": "2021-12-03T17:24:01",
     "slug": "cac-meeting-211213-notice-and-agenda",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

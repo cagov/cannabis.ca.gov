@@ -17,7 +17,7 @@
     "id": 8891,
     "date": "2021-10-13T00:09:44",
     "date_gmt": "2021-10-13T07:09:44",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/10/QR-Code-Cert-of-Compliance-FSOR-and-Updated-Digest-9.28.2021.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/10/QR-Code-Cert-of-Compliance-FSOR-and-Updated-Digest-9.28.2021.pdf",
     "modified": "2021-10-13T00:09:44",
     "modified_gmt": "2021-10-13T07:09:44",
     "slug": "qr-code-cert-of-compliance-fsor-and-updated-digest-9-28-2021",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

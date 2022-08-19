@@ -17,7 +17,7 @@
     "id": 8428,
     "date": "2021-07-01T07:30:22",
     "date_gmt": "2021-07-01T14:30:22",
-    "guid": "http://staginginye.prod3.sites.ca.gov/wp-content/uploads/sites/2/2021/07/Cannabis_horizontal_social.png",
+    "guid": "http://staginginye.api.cannabis.ca.gov/wp-content/uploads2021/07/Cannabis_horizontal_social.png",
     "modified": "2021-07-13T06:51:58",
     "modified_gmt": "2021-07-13T13:51:58",
     "slug": "cannabis_horizontal_social",
@@ -25,18 +25,19 @@
     "type": "attachment",
     "link": "https://api.cannabis.ca.gov/cannabis_horizontal_social/",
     "title": "Department of Cannabis Control",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
-    "categories": [
-      14
-    ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social.png'><img width=\"300\" height=\"169\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-300x169.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis Control Logo\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-300x169.png 300w, https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1024x576.png 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-768x432.png 768w, https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-1080x608.png 1080w, https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-980x551.png 980w, https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-480x270.png 480w, https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social.png 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "categories": [],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social.png'><img width=\"300\" height=\"169\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Cannabis_horizontal_social-300x169.png\" class=\"attachment-medium size-medium\" alt=\"Department of Cannabis Control Logo\" loading=\"lazy\" /></a></p>\n",
     "caption": "<p>Department of Cannabis Control</p>\n",
     "alt_text": "Department of Cannabis Control Logo",
     "media_type": "image",

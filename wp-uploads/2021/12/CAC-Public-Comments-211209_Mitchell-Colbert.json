@@ -17,7 +17,7 @@
     "id": 9133,
     "date": "2021-12-10T10:07:03",
     "date_gmt": "2021-12-10T18:07:03",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/CAC-Public-Comments-211209_Mitchell-Colbert.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/CAC-Public-Comments-211209_Mitchell-Colbert.pdf",
     "modified": "2021-12-10T10:07:03",
     "modified_gmt": "2021-12-10T18:07:03",
     "slug": "cac-public-comments-211209_mitchell-colbert",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

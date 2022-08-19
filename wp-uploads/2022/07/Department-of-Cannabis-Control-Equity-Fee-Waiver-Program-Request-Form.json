@@ -17,7 +17,7 @@
     "id": 9969,
     "date": "2022-07-06T14:37:47",
     "date_gmt": "2022-07-06T21:37:47",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/07/Department-of-Cannabis-Control-Equity-Fee-Waiver-Program-Request-Form.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/07/Department-of-Cannabis-Control-Equity-Fee-Waiver-Program-Request-Form.pdf",
     "modified": "2022-07-06T14:37:47",
     "modified_gmt": "2022-07-06T21:37:47",
     "slug": "department-of-cannabis-control-equity-fee-waiver-program-request-form",
@@ -30,7 +30,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

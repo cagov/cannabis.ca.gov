@@ -17,7 +17,7 @@
     "id": 9255,
     "date": "2021-12-30T15:57:53",
     "date_gmt": "2021-12-30T23:57:53",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/12/CAC-Annual-Report-2021.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/CAC-Annual-Report-2021.pdf",
     "modified": "2021-12-30T15:57:53",
     "modified_gmt": "2021-12-30T23:57:53",
     "slug": "cac-annual-report-2021",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

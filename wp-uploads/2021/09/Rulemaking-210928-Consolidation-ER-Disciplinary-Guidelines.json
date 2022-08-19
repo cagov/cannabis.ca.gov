@@ -17,7 +17,7 @@
     "id": 8816,
     "date": "2021-09-29T01:14:52",
     "date_gmt": "2021-09-29T08:14:52",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Rulemaking-210928-Consolidation-ER-Disciplinary-Guidelines.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/09/Rulemaking-210928-Consolidation-ER-Disciplinary-Guidelines.pdf",
     "modified": "2021-09-29T01:14:52",
     "modified_gmt": "2021-09-29T08:14:52",
     "slug": "rulemaking-210928-consolidation-er-disciplinary-guidelines",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

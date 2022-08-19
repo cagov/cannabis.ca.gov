@@ -17,7 +17,7 @@
     "id": 9350,
     "date": "2022-01-26T08:26:14",
     "date_gmt": "2022-01-26T16:26:14",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/01/Recall-220126-Product-Packaging.jpg",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/01/Recall-220126-Product-Packaging.jpg",
     "modified": "2022-01-26T08:36:38",
     "modified_gmt": "2022-01-26T16:36:38",
     "slug": "recall-220126-product-packaging",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       766

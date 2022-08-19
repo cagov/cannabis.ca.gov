@@ -17,7 +17,7 @@
     "id": 9515,
     "date": "2022-03-10T12:53:02",
     "date_gmt": "2022-03-10T20:53:02",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/Rulemaking-Consolidated-Emergency-Readopt-Text.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/03/Rulemaking-Consolidated-Emergency-Readopt-Text.pdf",
     "modified": "2022-03-10T12:53:02",
     "modified_gmt": "2022-03-10T20:53:02",
     "slug": "rulemaking-consolidated-emergency-readopt-text",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

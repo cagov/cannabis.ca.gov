@@ -17,7 +17,7 @@
     "id": 9009,
     "date": "2021-11-29T19:19:36",
     "date_gmt": "2021-11-30T03:19:36",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/11/QR-Code-Cert-of-Compliance-Regulation_Approved-Text-11.15.2021.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/11/QR-Code-Cert-of-Compliance-Regulation_Approved-Text-11.15.2021.pdf",
     "modified": "2021-11-29T19:19:36",
     "modified_gmt": "2021-11-30T03:19:36",
     "slug": "qr-code-cert-of-compliance-regulation_approved-text-11-15-2021",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

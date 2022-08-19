@@ -17,7 +17,7 @@
     "id": 9463,
     "date": "2022-03-04T02:07:31",
     "date_gmt": "2022-03-04T10:07:31",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/Regulation-Rollout-2022-0302-Webinar-Slides.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/03/Regulation-Rollout-2022-0302-Webinar-Slides.pdf",
     "modified": "2022-03-04T02:07:31",
     "modified_gmt": "2022-03-04T10:07:31",
     "slug": "regulation-rollout-2022-0302-webinar-slides",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

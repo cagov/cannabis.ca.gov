@@ -17,7 +17,7 @@
     "id": 9623,
     "date": "2022-04-04T07:04:08",
     "date_gmt": "2022-04-04T14:04:08",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/04/Rulemaking_AB-1525-220307_FSOR-and-Updated-Digest.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/04/Rulemaking_AB-1525-220307_FSOR-and-Updated-Digest.pdf",
     "modified": "2022-04-04T07:04:08",
     "modified_gmt": "2022-04-04T14:04:08",
     "slug": "rulemaking_ab-1525-220307_fsor-and-updated-digest",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

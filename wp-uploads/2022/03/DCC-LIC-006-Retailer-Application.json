@@ -17,7 +17,7 @@
     "id": 9592,
     "date": "2022-03-31T17:08:21",
     "date_gmt": "2022-04-01T00:08:21",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2022/03/DCC-LIC-006-Retailer-Application.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/03/DCC-LIC-006-Retailer-Application.pdf",
     "modified": "2022-03-31T19:09:31",
     "modified_gmt": "2022-04-01T02:09:31",
     "slug": "dcc-lic-006-retailer-application",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14

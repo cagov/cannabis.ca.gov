@@ -17,7 +17,7 @@
     "id": 8551,
     "date": "2021-07-16T00:57:51",
     "date_gmt": "2021-07-16T07:57:51",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/Regulations_Section100_BCCExplanation.pdf",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/07/Regulations_Section100_BCCExplanation.pdf",
     "modified": "2021-07-16T00:57:51",
     "modified_gmt": "2021-07-16T07:57:51",
     "slug": "regulations_section100_bccexplanation",
@@ -31,11 +31,12 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
-    "categories": [
-      14
-    ],
+    "categories": [],
     "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_BCCExplanation.pdf'><img width=\"232\" height=\"300\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Regulations_Section100_BCCExplanation-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",

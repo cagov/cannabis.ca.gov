@@ -17,7 +17,7 @@
     "id": 8781,
     "date": "2021-09-14T16:48:31",
     "date_gmt": "2021-09-14T23:48:31",
-    "guid": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/09/Local-Grant_Attachment-2-DRAFT.xlsx",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/09/Local-Grant_Attachment-2-DRAFT.xlsx",
     "modified": "2021-09-14T16:48:31",
     "modified_gmt": "2021-09-14T23:48:31",
     "slug": "local-grant_attachment-2-draft",
@@ -31,7 +31,10 @@
     "template": "",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       14
