@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Redirections",
-      "redirects": 36,
+      "redirects": 35,
       "module_id": 1,
       "moduleName": "WordPress",
       "enabled": true
@@ -874,30 +874,6 @@
       "group_id": 1,
       "position": 35,
       "last_access": "November 15, 2021",
-      "enabled": true
-    },
-    {
-      "id": 208,
-      "url": "/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.7/cagov-design-system/blocks/accordion/css/index.css",
-      "match_url": "/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.7/cagov-design-system/blocks/accordion/css/index.css",
-      "match_data": {
-        "source": {
-          "flag_query": "exact",
-          "flag_case": false,
-          "flag_trailing": false,
-          "flag_regex": false
-        }
-      },
-      "action_code": 0,
-      "action_type": "nothing",
-      "action_data": null,
-      "match_type": "url",
-      "title": "",
-      "hits": 0,
-      "regex": false,
-      "group_id": 1,
-      "position": 35,
-      "last_access": "-",
       "enabled": true
     },
     {
