@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:31",
-    "updated_date": "2022-08-16T17:51:05",
+    "updated_date": "2022-08-19T20:47:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-06-19T15:07:31",
     "date_gmt": "2021-06-19T15:07:31",
     "guid": "https://dev-cagov-dcc.pantheonsite.io/?page_id=2",
-    "modified": "2022-08-16T10:51:05",
-    "modified_gmt": "2022-08-16T17:51:05",
+    "modified": "2022-08-19T13:47:09",
+    "modified_gmt": "2022-08-19T20:47:09",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
