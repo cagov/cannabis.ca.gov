@@ -583,16 +583,16 @@
       "County": "San Benito",
       "County label": "San Benito County",
       "Jurisdiction Type": "County",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
-      "Updated": "2022-01-22"
+      "Updated": "2022-08-17"
    },
    "San Bernardino County": {
       "CA Places Key": "",
@@ -1416,16 +1416,16 @@
       "County": "Colusa",
       "County label": "Colusa County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
-      "Testing": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
       "Manufacturing": "Allowed",
-      "Cultivation": "Prohibited",
+      "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-08-17"
    },
    "Williams": {
       "CA Places Key": "Williams",
@@ -1994,16 +1994,16 @@
       "County": "Fresno",
       "County label": "Fresno County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-08-17"
    },
    "Reedley": {
       "CA Places Key": "Reedley",
@@ -8795,7 +8795,7 @@
       "County label": "Tulare County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -8803,7 +8803,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-08-17"
    },
    "Lindsay": {
       "CA Places Key": "Lindsay",
@@ -9134,16 +9134,16 @@
       "County": "Yolo",
       "County label": "Yolo County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-08-17"
    },
    "Marysville": {
       "CA Places Key": "Marysville",

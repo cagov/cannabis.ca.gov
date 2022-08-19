@@ -33,7 +33,7 @@ Placer County,Placer County,County,Prohibited,Prohibited,Prohibited,Prohibited,P
 Plumas County,Plumas County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Riverside County,Riverside County,County,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,No,2022-01-22
 Sacramento County,Sacramento County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
-San Benito County,San Benito County,County,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,No,Yes,No,2022-01-22
+San Benito County,San Benito County,County,Limited,Allowed,Allowed,Allowed,Limited,Allowed,No,No,No,2022-08-17
 San Bernardino County,San Bernardino County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 San Diego County,San Diego County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Prohibited,No,No,No,2022-01-22
 San Francisco County,City and County of San Francisco,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-03-17
@@ -82,7 +82,7 @@ Gridley,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited
 Oroville,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Paradise,Butte County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Angels Camp,Calaveras County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Colusa,Colusa County,City,Prohibited,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,Yes,,2022-01-22
+Colusa,Colusa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-08-17
 Williams,Colusa County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,,2022-01-22
 Antioch,Contra Costa County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Brentwood,Contra Costa County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
@@ -116,7 +116,7 @@ Kerman,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited
 Kingsburg,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Mendota,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Orange Cove,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Parlier,Fresno County,City,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,,2022-01-22
+Parlier,Fresno County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-08-17
 Reedley,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 San Joaquin,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Sanger,Fresno County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
@@ -516,7 +516,7 @@ Red Bluff,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibi
 Tehama,Tehama County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Dinuba,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 Exeter,Tulare County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Farmersville,Tulare County,City,Allowed,Prohibited,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
+Farmersville,Tulare County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-08-17
 Lindsay,Tulare County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
 Porterville,Tulare County,City,Allowed,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
 Tulare,Tulare County,City,Allowed,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
@@ -536,6 +536,6 @@ Ventura,Ventura County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,N
 Davis,Yolo County,City,Allowed,Allowed,Allowed,Allowed,Prohibited,Allowed,No,No,,2022-01-22
 West Sacramento,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Limited,Allowed,No,Yes,,2022-01-22
 Winters,Yolo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
-Woodland,Yolo County,City,Prohibited,Prohibited,Allowed,Allowed,Prohibited,Allowed,No,Yes,,2022-01-22
+Woodland,Yolo County,City,Allowed,Prohibited,Allowed,Allowed,Prohibited,Allowed,No,No,,2022-08-17
 Marysville,Yuba County,City,Allowed,Allowed,Allowed,Allowed,Limited,Allowed,No,No,,2022-01-22
 Wheatland,Yuba County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
