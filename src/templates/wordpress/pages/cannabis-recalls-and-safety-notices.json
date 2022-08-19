@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-26T16:54:19",
-    "updated_date": "2022-07-19T21:58:39",
+    "updated_date": "2022-08-16T16:56:18",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-01-26T08:54:19",
     "date_gmt": "2022-01-26T16:54:19",
     "guid": "https://cannabis.ca.gov/?page_id=9345",
-    "modified": "2022-07-19T14:58:39",
-    "modified_gmt": "2022-07-19T21:58:39",
+    "modified": "2022-08-16T09:56:18",
+    "modified_gmt": "2022-08-16T16:56:18",
     "slug": "cannabis-recalls-and-safety-notices",
     "status": "publish",
     "type": "page",
@@ -35,7 +35,10 @@
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [],
     "tags": [],
@@ -56,7 +59,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/resources/cannabis-recalls-and-safety-notices/",
       "page_title": "Cannabis recalls and safety notices",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

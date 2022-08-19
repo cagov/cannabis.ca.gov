@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-19T15:07:40",
-    "updated_date": "2022-07-19T21:56:51",
+    "updated_date": "2022-08-16T16:52:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2021-06-19T15:07:40",
     "date_gmt": "2021-06-19T15:07:40",
     "guid": "http://wordpress.test:8888/scientific-research/",
-    "modified": "2022-07-19T14:56:51",
-    "modified_gmt": "2022-07-19T21:56:51",
+    "modified": "2022-08-16T09:52:49",
+    "modified_gmt": "2022-08-16T16:52:49",
     "slug": "scientific-research",
     "status": "publish",
     "type": "page",
     "link": "https://api.cannabis.ca.gov/about-us/scientific-research/",
     "title": "Scientific research",
     "excerpt": "<p>Some of the revenue collected from cannabis taxes funds grants. This will help expand our knowledge about cannabis.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "parent": 856,
     "menu_order": 6,
@@ -35,7 +35,10 @@
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [],
     "tags": [],
@@ -56,7 +59,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/about-us/scientific-research/",
       "page_title": "Scientific research",
       "page_description": "Some of the revenue collected from cannabis taxes funds grants. This will help expand our knowledge about cannabis.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

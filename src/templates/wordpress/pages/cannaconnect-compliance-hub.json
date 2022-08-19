@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-08T21:00:21",
-    "updated_date": "2022-07-19T21:56:50",
+    "updated_date": "2022-08-16T16:52:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-03-08T13:00:21",
     "date_gmt": "2022-03-08T21:00:21",
     "guid": "https://cannabis.ca.gov/?page_id=9492",
-    "modified": "2022-07-19T14:56:50",
-    "modified_gmt": "2022-07-19T21:56:50",
+    "modified": "2022-08-16T09:52:47",
+    "modified_gmt": "2022-08-16T16:52:47",
     "slug": "cannaconnect-compliance-hub",
     "status": "publish",
     "type": "page",
@@ -35,7 +35,10 @@
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [],
     "tags": [],
@@ -56,7 +59,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/",
       "page_title": "CannaConnect Compliance Hub",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -72,60 +75,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/",
-    "media": [
-      {
-        "id": 9504,
-        "type": "full",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK.png",
-        "width": 1200,
-        "height": 777,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9504,
-        "type": "large",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "width": 1024,
-        "height": 663,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9504,
-        "type": "medium_large",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "width": 768,
-        "height": 497,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9504,
-        "type": "medium",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "width": 576,
-        "height": 373,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-01T05:36:57",
-    "updated_date": "2022-07-19T21:56:51",
+    "updated_date": "2022-08-16T16:52:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-09-30T22:36:57",
     "date_gmt": "2021-10-01T05:36:57",
     "guid": "https://cannabis.ca.gov/?page_id=8843",
-    "modified": "2022-07-19T14:56:51",
-    "modified_gmt": "2022-07-19T21:56:51",
+    "modified": "2022-08-16T09:52:49",
+    "modified_gmt": "2022-08-16T16:52:49",
     "slug": "local-jurisdiction-assistance-grant-program",
     "status": "publish",
     "type": "page",
@@ -35,7 +35,10 @@
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [],
     "tags": [],
@@ -56,7 +59,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/about-us/grant-funding/local-jurisdiction-assistance-grant-program/",
       "page_title": "Local Jurisdiction Assistance Grant Program",
       "page_description": "Information about the local jurisdiction assistance grant program, which helps transition provisional licensees into annual licensure",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
