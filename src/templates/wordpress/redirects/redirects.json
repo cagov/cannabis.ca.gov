@@ -826,8 +826,8 @@
     },
     {
       "id": 207,
-      "url": "/this-is-california-cannabis/",
-      "match_url": "/this-is-california-cannabis",
+      "url": "/about-us/public-awareness-campaigns/",
+      "match_url": "/about-us/public-awareness-campaigns",
       "match_data": {
         "source": {
           "flag_query": "exact",
@@ -839,7 +839,7 @@
       "action_code": 301,
       "action_type": "url",
       "action_data": {
-        "url": "/about-us/public-awareness-campaigns/this-is-california-cannabis/"
+        "url": "/about-us/public-awareness-campaigns-2/"
       },
       "match_type": "url",
       "title": "",
@@ -878,8 +878,8 @@
     },
     {
       "id": 208,
-      "url": "/2022/07/licensee-profile/",
-      "match_url": "/2022/07/licensee-profile",
+      "url": "/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.7/cagov-design-system/blocks/accordion/css/index.css",
+      "match_url": "/wp-content/plugins/ca-design-system-gutenberg-blocks-1.1.7/cagov-design-system/blocks/accordion/css/index.css",
       "match_data": {
         "source": {
           "flag_query": "exact",
@@ -888,11 +888,9 @@
           "flag_regex": false
         }
       },
-      "action_code": 301,
-      "action_type": "url",
-      "action_data": {
-        "url": "/2022/07/licensee-profile-swami/"
-      },
+      "action_code": 0,
+      "action_type": "nothing",
+      "action_data": null,
       "match_type": "url",
       "title": "",
       "hits": 0,
