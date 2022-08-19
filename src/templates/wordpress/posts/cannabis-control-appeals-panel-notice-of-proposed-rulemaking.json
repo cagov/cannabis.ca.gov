@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-08-31T19:39:00",
-    "updated_date": "2021-12-02T21:21:30",
+    "updated_date": "2022-08-16T16:57:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2018-08-31T19:39:00",
     "date_gmt": "2018-08-31T19:39:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
-    "modified": "2021-12-02T13:21:30",
-    "modified_gmt": "2021-12-02T21:21:30",
+    "modified": "2022-08-16T09:57:07",
+    "modified_gmt": "2022-08-16T16:57:07",
     "slug": "cannabis-control-appeals-panel-notice-of-proposed-rulemaking",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/08/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
     "title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
     "excerpt": "<p>The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -68,7 +71,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/08/cannabis-control-appeals-panel-notice-of-proposed-rulemaking/",
       "page_title": "Cannabis Control Appeals Panel Notice of Proposed Rulemaking",
       "page_description": "The Cannabis Control Appeals Panel (Panel) proposes to adopt the proposed regulations described below after considering all comments, objections, and recommendations regarding the proposed action.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

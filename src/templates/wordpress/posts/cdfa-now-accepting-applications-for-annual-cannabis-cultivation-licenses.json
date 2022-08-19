@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-02T23:25:00",
-    "updated_date": "2021-12-02T21:25:17",
+    "updated_date": "2022-08-16T16:58:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2018-01-02T23:25:00",
     "date_gmt": "2018-01-02T23:25:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
-    "modified": "2021-12-02T13:25:17",
-    "modified_gmt": "2021-12-02T21:25:17",
+    "modified": "2022-08-16T09:58:38",
+    "modified_gmt": "2022-08-16T16:58:38",
     "slug": "cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/01/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
     "title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
     "excerpt": "<p>SACRAMENTO&nbsp;– The California Department of Food and Agriculture&#8217;s CalCannabis program has begun accepting applications for annual commercial licenses for cultivators, nurseries, and processors.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -70,7 +73,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/01/cdfa-now-accepting-applications-for-annual-cannabis-cultivation-licenses/",
       "page_title": "CDFA Now Accepting Applications for Annual Cannabis Cultivation Licenses",
       "page_description": "SACRAMENTO&nbsp;– The California Department of Food and Agriculture&#8217;s CalCannabis program has begun accepting applications for annual commercial licenses for cultivators, nurseries, and processors.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

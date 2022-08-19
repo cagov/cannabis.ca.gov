@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-31T00:14:00",
-    "updated_date": "2021-12-02T21:22:01",
+    "updated_date": "2022-08-16T16:57:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2018-01-31T00:14:00",
     "date_gmt": "2018-01-31T00:14:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/",
-    "modified": "2021-12-02T13:22:01",
-    "modified_gmt": "2021-12-02T21:22:01",
+    "modified": "2022-08-16T09:57:40",
+    "modified_gmt": "2022-08-16T16:57:40",
     "slug": "public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/01/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/",
     "title": "PUBLIC LICENSING WORKSHOP UPDATE: Bureau of Cannabis Control Postpones Workshop in Ukiah",
     "excerpt": "<p>The Bureau of Cannabis Control (Bureau) today announced that its public licensing workshop previously scheduled for Tuesday, February 6 in Ukiah has been postponed.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -67,7 +70,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/01/public-licensing-workshop-update-bureau-of-cannabis-control-postpones-workshop-in-ukiah/",
       "page_title": "PUBLIC LICENSING WORKSHOP UPDATE: Bureau of Cannabis Control Postpones Workshop in Ukiah",
       "page_description": "The Bureau of Cannabis Control (Bureau) today announced that its public licensing workshop previously scheduled for Tuesday, February 6 in Ukiah has been postponed.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

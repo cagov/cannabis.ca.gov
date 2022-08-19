@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-03T09:07:45",
-    "updated_date": "2022-03-04T03:17:51",
+    "updated_date": "2022-08-16T16:56:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-03-03T01:07:45",
     "date_gmt": "2022-03-03T09:07:45",
     "guid": "https://cannabis.ca.gov/?p=9427",
-    "modified": "2022-03-03T19:17:51",
-    "modified_gmt": "2022-03-04T03:17:51",
+    "modified": "2022-08-16T09:56:57",
+    "modified_gmt": "2022-08-16T16:56:57",
     "slug": "dcc-to-hold-briefing-about-upcoming-rulemaking",
     "status": "publish",
     "type": "post",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -66,7 +69,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2022/03/dcc-to-hold-briefing-about-upcoming-rulemaking/",
       "page_title": "DCC to hold briefing about upcoming rulemaking",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

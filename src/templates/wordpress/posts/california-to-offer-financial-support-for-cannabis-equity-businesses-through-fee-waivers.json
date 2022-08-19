@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-12-21T00:39:37",
-    "updated_date": "2021-12-21T00:47:03",
+    "updated_date": "2022-08-16T16:58:23",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-12-20T16:39:37",
     "date_gmt": "2021-12-21T00:39:37",
     "guid": "https://cannabis.ca.gov/?p=9184",
-    "modified": "2021-12-20T16:47:03",
-    "modified_gmt": "2021-12-21T00:47:03",
+    "modified": "2022-08-16T09:58:23",
+    "modified_gmt": "2022-08-16T16:58:23",
     "slug": "california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers",
     "status": "publish",
     "type": "post",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -65,7 +68,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/12/california-to-offer-financial-support-for-cannabis-equity-businesses-through-fee-waivers/",
       "page_title": "California to offer financial support for cannabis equity businesses through fee waivers",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

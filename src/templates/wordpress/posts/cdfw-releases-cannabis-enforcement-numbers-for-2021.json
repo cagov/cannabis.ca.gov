@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-02-03T18:52:00",
-    "updated_date": "2022-02-14T18:57:08",
+    "updated_date": "2022-08-16T16:56:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2022-02-03T10:52:00",
     "date_gmt": "2022-02-03T18:52:00",
     "guid": "https://cannabis.ca.gov/?p=9401",
-    "modified": "2022-02-14T10:57:08",
-    "modified_gmt": "2022-02-14T18:57:08",
+    "modified": "2022-08-16T09:56:57",
+    "modified_gmt": "2022-08-16T16:56:57",
     "slug": "cdfw-releases-cannabis-enforcement-numbers-for-2021",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/02/cdfw-releases-cannabis-enforcement-numbers-for-2021/",
-    "title": "CDFW Releases Cannabis Enforcement Numbers For 2021",
-    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) issued this press release. Contact CDFW if you have any questions: Janice Mackey, janice.mackey@wildlife.ca.gov, CDFW Communications. The California Department of Fish and Wildlife’s (CDFW) cannabis enforcement program has released year-end numbers for the 2021 calendar year. CDFW investigates illegal cannabis cultivation operations to uncover and curtail operations that result [&hellip;]</p>\n",
+    "title": "CDFW releases cannabis enforcement numbers for 2021",
+    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) issued this&nbsp;press release. Contact CDFW if you have any questions: Janice Mackey,&nbsp;janice.mackey@wildlife.ca.gov, CDFW Communications. The California Department of Fish and Wildlife’s (CDFW) cannabis enforcement program has released year-end numbers for the 2021 calendar year. CDFW investigates illegal cannabis cultivation operations to uncover and curtail operations that result [&hellip;]</p>\n",
     "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -62,18 +65,18 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/2022/02/cdfw-releases-cannabis-enforcement-numbers-for-2021/",
-      "page_title": "CDFW Releases Cannabis Enforcement Numbers For 2021",
+      "page_title": "CDFW releases cannabis enforcement numbers for 2021",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "CDFW Releases Cannabis Enforcement Numbers For 2021",
+      "meta_title": "CDFW releases cannabis enforcement numbers for 2021",
       "meta_description": "Learn about California cannabis laws and licenses",
       "meta_canonical_url": "https://api.cannabis.ca.gov/2022/02/cdfw-releases-cannabis-enforcement-numbers-for-2021/",
-      "open_graph_title": "CDFW Releases Cannabis Enforcement Numbers For 2021",
+      "open_graph_title": "CDFW releases cannabis enforcement numbers for 2021",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "CDFW Releases Cannabis Enforcement Numbers For 2021",
+      "twitter_title": "CDFW releases cannabis enforcement numbers for 2021",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [

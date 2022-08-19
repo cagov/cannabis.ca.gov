@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-09-24T21:58:00",
-    "updated_date": "2021-12-02T21:24:51",
+    "updated_date": "2022-08-16T16:58:26",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2020-09-24T21:58:00",
     "date_gmt": "2020-09-24T21:58:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
-    "modified": "2021-12-02T13:24:51",
-    "modified_gmt": "2021-12-02T21:24:51",
+    "modified": "2022-08-16T09:58:26",
+    "modified_gmt": "2022-08-16T16:58:26",
     "slug": "cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2020/09/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
     "title": "Cannabis Licensing Authorities File Civil Action Against Vertical Bliss (Kushy Punch) For Unlicensed Activity",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -66,7 +69,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2020/09/cannabis-licensing-authorities-file-civil-action-against-vertical-bliss-kushy-punch-for-unlicensed-activity/",
       "page_title": "Cannabis Licensing Authorities File Civil Action Against Vertical Bliss (Kushy Punch) For Unlicensed Activity",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and California Department of Public Health (CDPH) announced today the filing of a complaint seeking civil penalties from Vertical Bliss, Inc.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

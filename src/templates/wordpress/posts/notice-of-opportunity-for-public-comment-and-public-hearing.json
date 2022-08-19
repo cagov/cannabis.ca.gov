@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-02-04T20:02:00",
-    "updated_date": "2021-12-02T21:21:06",
+    "updated_date": "2022-08-16T16:57:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2019-02-04T20:02:00",
     "date_gmt": "2019-02-04T20:02:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/notice-of-opportunity-for-public-comment-and-public-hearing/",
-    "modified": "2021-12-02T13:21:06",
-    "modified_gmt": "2021-12-02T21:21:06",
+    "modified": "2022-08-16T09:57:04",
+    "modified_gmt": "2022-08-16T16:57:04",
     "slug": "notice-of-opportunity-for-public-comment-and-public-hearing",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2019/02/notice-of-opportunity-for-public-comment-and-public-hearing/",
     "title": "State Water Board: Public Hearing, Responses to Comments, and Final Draft of Proposed Updates to Cannabis Policy",
     "excerpt": "<p>The State Water Resources Control Board (State Water Board) is holding a Board Meeting on February 5, 2019. </p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2019/02/notice-of-opportunity-for-public-comment-and-public-hearing/",
       "page_title": "State Water Board: Public Hearing, Responses to Comments, and Final Draft of Proposed Updates to Cannabis Policy",
       "page_description": "The State Water Resources Control Board (State Water Board) is holding a Board Meeting on February 5, 2019. ",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "created_date": "2022-08-01T18:40:55",
+    "updated_date": "2022-08-16T16:56:55",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10109",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/cannabis.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 10109,
+    "date": "2022-08-01T11:40:55",
+    "date_gmt": "2022-08-01T18:40:55",
+    "guid": "https://cannabis.ca.gov/?p=10109",
+    "modified": "2022-08-16T09:56:55",
+    "modified_gmt": "2022-08-16T16:56:55",
+    "slug": "california-department-of-cannabis-control-announces-appointments-to-cannabis-advisory-committee",
+    "status": "publish",
+    "type": "post",
+    "link": "https://api.cannabis.ca.gov/2022/08/california-department-of-cannabis-control-announces-appointments-to-cannabis-advisory-committee/",
+    "title": "California Department of Cannabis Control announces appointments to Cannabis Advisory Committee",
+    "excerpt": "<p>CALIFORNIA – The California Department of Cannabis Control (DCC) is pleased to announce the following appointments to the California Cannabis Advisory Committee:&nbsp;&nbsp; Ali Jamalian – CEO, Kiffen LLC Amber Baur – Executive Director, United Food and Commercial Workers Western States Council Antonio Frazier – President, Sonoma Lab Works  Beverly Yu – Government Affairs Director, United [&hellip;]</p>\n",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
+    "format": "standard",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
+    },
+    "categories": [
+      "Announcements"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "template-single"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://api.cannabis.ca.gov"
+      },
+      "site_name": "Department of Cannabis Control",
+      "site_description": "Learn about California cannabis laws and licenses",
+      "site_url": "https://api.cannabis.ca.gov",
+      "canonical_url": "https://api.cannabis.ca.gov/2022/08/california-department-of-cannabis-control-announces-appointments-to-cannabis-advisory-committee/",
+      "page_title": "California Department of Cannabis Control announces appointments to Cannabis Advisory Committee",
+      "page_description": "Learn about California cannabis laws and licenses",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California Department of Cannabis Control announces appointments to Cannabis Advisory Committee",
+      "meta_description": "Learn about California cannabis laws and licenses",
+      "meta_canonical_url": "https://api.cannabis.ca.gov/2022/08/california-department-of-cannabis-control-announces-appointments-to-cannabis-advisory-committee/",
+      "open_graph_title": "California Department of Cannabis Control announces appointments to Cannabis Advisory Committee",
+      "open_graph_description": "Learn about California cannabis laws and licenses",
+      "twitter_title": "California Department of Cannabis Control announces appointments to Cannabis Advisory Committee",
+      "twitter_description": "Learn about California cannabis laws and licenses"
+    },
+    "headless_categories": [
+      {
+        "term_id": 14,
+        "name": "Announcements",
+        "slug": "announcements",
+        "term_group": 0,
+        "term_taxonomy_id": 14,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 14,
+        "category_description": "",
+        "cat_name": "Announcements",
+        "category_nicename": "announcements",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "",
+    "meta_": {
+      "0": "",
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/08/california-department-of-cannabis-control-announces-appointments-to-cannabis-advisory-committee/"
+  }
+}

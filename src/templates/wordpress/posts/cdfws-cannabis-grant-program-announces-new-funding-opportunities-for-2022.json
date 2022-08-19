@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-14T23:24:35",
-    "updated_date": "2022-04-14T23:58:48",
+    "updated_date": "2022-08-16T16:56:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,13 +18,13 @@
     "date": "2022-04-14T16:24:35",
     "date_gmt": "2022-04-14T23:24:35",
     "guid": "https://cannabis.ca.gov/?p=9670",
-    "modified": "2022-04-14T16:58:48",
-    "modified_gmt": "2022-04-14T23:58:48",
+    "modified": "2022-08-16T09:56:56",
+    "modified_gmt": "2022-08-16T16:56:56",
     "slug": "cdfws-cannabis-grant-program-announces-new-funding-opportunities-for-2022",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/04/cdfws-cannabis-grant-program-announces-new-funding-opportunities-for-2022/",
-    "title": "CDFW’s Cannabis Grant Program Announces New Funding Opportunities For 2022",
+    "title": "CDFW’s Cannabis Grant Program announces new funding opportunities for 2022",
     "excerpt": "<p>$10 million funding opportunities through Cannabis Restoration Grant Program (CRGP) to remediate impacts of illegal cannabis and enhance watersheds. </p>\n",
     "featured_media": 0,
     "comment_status": "closed",
@@ -34,7 +34,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -60,18 +63,18 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/2022/04/cdfws-cannabis-grant-program-announces-new-funding-opportunities-for-2022/",
-      "page_title": "CDFW’s Cannabis Grant Program Announces New Funding Opportunities For 2022",
+      "page_title": "CDFW’s Cannabis Grant Program announces new funding opportunities for 2022",
       "page_description": "$10 million funding opportunities through Cannabis Restoration Grant Program (CRGP) to remediate impacts of illegal cannabis and enhance watersheds. ",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "CDFW’s Cannabis Grant Program Announces New Funding Opportunities For 2022",
+      "meta_title": "CDFW’s Cannabis Grant Program announces new funding opportunities for 2022",
       "meta_description": "$10 million funding opportunities through Cannabis Restoration Grant Program (CRGP) to remediate impacts of illegal cannabis and enhance watersheds. ",
       "meta_canonical_url": "https://api.cannabis.ca.gov/2022/04/cdfws-cannabis-grant-program-announces-new-funding-opportunities-for-2022/",
-      "open_graph_title": "CDFW’s Cannabis Grant Program Announces New Funding Opportunities For 2022",
+      "open_graph_title": "CDFW’s Cannabis Grant Program announces new funding opportunities for 2022",
       "open_graph_description": "$10 million funding opportunities through Cannabis Restoration Grant Program (CRGP) to remediate impacts of illegal cannabis and enhance watersheds. ",
-      "twitter_title": "CDFW’s Cannabis Grant Program Announces New Funding Opportunities For 2022",
+      "twitter_title": "CDFW’s Cannabis Grant Program announces new funding opportunities for 2022",
       "twitter_description": "$10 million funding opportunities through Cannabis Restoration Grant Program (CRGP) to remediate impacts of illegal cannabis and enhance watersheds. "
     },
     "headless_categories": [
@@ -148,73 +151,6 @@
       "custom_post_date": "2022-04-14",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2022/04/cdfws-cannabis-grant-program-announces-new-funding-opportunities-for-2022/",
-    "media": [
-      {
-        "id": 9673,
-        "type": "full",
-        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
-        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
-        "width": 1000,
-        "height": 600,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9673,
-        "type": "et-pb-image--responsive--tablet",
-        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
-        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
-        "width": 980,
-        "height": 588,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9673,
-        "type": "medium_large",
-        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
-        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
-        "width": 768,
-        "height": 461,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9673,
-        "type": "medium",
-        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
-        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
-        "width": 576,
-        "height": 346,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9673,
-        "type": "et-pb-image--responsive--phone",
-        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
-        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
-        "width": 480,
-        "height": 288,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/04/cdfws-cannabis-grant-program-announces-new-funding-opportunities-for-2022/"
   }
 }

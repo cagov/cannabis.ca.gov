@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-14T18:47:37",
-    "updated_date": "2022-03-14T18:47:57",
+    "updated_date": "2022-08-16T16:56:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,31 +18,34 @@
     "date": "2022-03-14T11:47:37",
     "date_gmt": "2022-03-14T18:47:37",
     "guid": "https://cannabis.ca.gov/?p=9542",
-    "modified": "2022-03-14T11:47:57",
-    "modified_gmt": "2022-03-14T18:47:57",
+    "modified": "2022-08-16T09:56:56",
+    "modified_gmt": "2022-08-16T16:56:56",
     "slug": "department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders/",
-    "title": "Department of Cannabis Control Launches CannaConnect, a New Resource to Support California’s Cannabis License Holders",
+    "title": "Department of Cannabis Control launches CannaConnect, a new resource to support California’s cannabis license holders",
     "excerpt": "<p>CannaConnect serves as California’s cannabis compliance hub, helping licensees maintain compliance with the regulations that protect the legal market SACRAMENTO, CA—The Department of Cannabis Control (DCC) today announced a new resource to connect California’s cannabis license holders to the people and tools they need to thrive in the state’s legal cannabis market. The resource – [&hellip;]</p>\n",
     "author": "Liz Nobriga",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -56,18 +59,18 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders/",
-      "page_title": "Department of Cannabis Control Launches CannaConnect, a New Resource to Support California’s Cannabis License Holders",
+      "page_title": "Department of Cannabis Control launches CannaConnect, a new resource to support California’s cannabis license holders",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Department of Cannabis Control Launches CannaConnect, a New Resource to Support California’s Cannabis License Holders",
+      "meta_title": "Department of Cannabis Control launches CannaConnect, a new resource to support California’s cannabis license holders",
       "meta_description": "Learn about California cannabis laws and licenses",
       "meta_canonical_url": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders/",
-      "open_graph_title": "Department of Cannabis Control Launches CannaConnect, a New Resource to Support California’s Cannabis License Holders",
+      "open_graph_title": "Department of Cannabis Control launches CannaConnect, a new resource to support California’s cannabis license holders",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Department of Cannabis Control Launches CannaConnect, a New Resource to Support California’s Cannabis License Holders",
+      "twitter_title": "Department of Cannabis Control launches CannaConnect, a new resource to support California’s cannabis license holders",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [
@@ -99,60 +102,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders/",
-    "media": [
-      {
-        "id": 9504,
-        "type": "full",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK.png",
-        "width": 1200,
-        "height": 777,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9504,
-        "type": "large",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "width": 1024,
-        "height": 663,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-1024x663.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9504,
-        "type": "medium_large",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "width": 768,
-        "height": 497,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-768x497.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 9504,
-        "type": "medium",
-        "path": "2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "file": "FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "width": 576,
-        "height": 373,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK-576x373.png",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://api.cannabis.ca.gov/2022/03/department-of-cannabis-control-launches-cannaconnect-a-new-resource-to-support-californias-cannabis-license-holders/"
   }
 }

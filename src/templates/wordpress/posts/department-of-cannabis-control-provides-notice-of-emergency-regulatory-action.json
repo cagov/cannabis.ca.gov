@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-18T19:33:39",
-    "updated_date": "2022-05-18T20:33:32",
+    "updated_date": "2022-08-16T16:56:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,13 +18,13 @@
     "date": "2022-05-18T12:33:39",
     "date_gmt": "2022-05-18T19:33:39",
     "guid": "https://cannabis.ca.gov/?p=9740",
-    "modified": "2022-05-18T13:33:32",
-    "modified_gmt": "2022-05-18T20:33:32",
+    "modified": "2022-08-16T09:56:56",
+    "modified_gmt": "2022-08-16T16:56:56",
     "slug": "department-of-cannabis-control-provides-notice-of-emergency-regulatory-action",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/05/department-of-cannabis-control-provides-notice-of-emergency-regulatory-action/",
-    "title": "Department of Cannabis Control Provides Notice of Emergency Regulatory Action",
+    "title": "Department of Cannabis Control provides notice of emergency regulatory action",
     "excerpt": "<p>Notice of proposed rulemaking to readopt emergency regulations for cannabis license fee waivers The Department of Cannabis Control (DCC) is providing notice to the public of its intent to readopt its emergency regulations implementing Senate Bill 166 which requires DCC to develop and implement a program to provide waivers for cannabis licensing fees, with at [&hellip;]</p>\n",
     "featured_media": 0,
     "comment_status": "closed",
@@ -34,7 +34,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -55,18 +58,18 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/2022/05/department-of-cannabis-control-provides-notice-of-emergency-regulatory-action/",
-      "page_title": "Department of Cannabis Control Provides Notice of Emergency Regulatory Action",
+      "page_title": "Department of Cannabis Control provides notice of emergency regulatory action",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Department of Cannabis Control Provides Notice of Emergency Regulatory Action",
+      "meta_title": "Department of Cannabis Control provides notice of emergency regulatory action",
       "meta_description": "Learn about California cannabis laws and licenses",
       "meta_canonical_url": "https://api.cannabis.ca.gov/2022/05/department-of-cannabis-control-provides-notice-of-emergency-regulatory-action/",
-      "open_graph_title": "Department of Cannabis Control Provides Notice of Emergency Regulatory Action",
+      "open_graph_title": "Department of Cannabis Control provides notice of emergency regulatory action",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "Department of Cannabis Control Provides Notice of Emergency Regulatory Action",
+      "twitter_title": "Department of Cannabis Control provides notice of emergency regulatory action",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [

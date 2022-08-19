@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-28T19:52:35",
-    "updated_date": "2022-03-01T19:20:41",
+    "updated_date": "2022-08-16T16:56:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-01-28T11:52:35",
     "date_gmt": "2022-01-28T19:52:35",
     "guid": "https://cannabis.ca.gov/?p=9391",
-    "modified": "2022-03-01T11:20:41",
-    "modified_gmt": "2022-03-01T19:20:41",
+    "modified": "2022-08-16T09:56:57",
+    "modified_gmt": "2022-08-16T16:56:57",
     "slug": "department-of-cannabis-control-proposes-adoption-of-conflict-of-interest-code",
     "status": "publish",
     "type": "post",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -66,7 +69,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2022/01/department-of-cannabis-control-proposes-adoption-of-conflict-of-interest-code/",
       "page_title": "Department of Cannabis Control proposes adoption of Conflict of Interest Code",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

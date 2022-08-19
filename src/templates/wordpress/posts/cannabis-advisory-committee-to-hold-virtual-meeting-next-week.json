@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2020-08-13T23:23:00",
-    "updated_date": "2021-12-02T21:24:52",
+    "updated_date": "2022-08-16T16:58:27",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2020-08-13T23:23:00",
     "date_gmt": "2020-08-13T23:23:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/cannabis-advisory-committee-to-hold-virtual-meeting-next-week/",
-    "modified": "2021-12-02T13:24:52",
-    "modified_gmt": "2021-12-02T21:24:52",
+    "modified": "2022-08-16T09:58:27",
+    "modified_gmt": "2022-08-16T16:58:27",
     "slug": "cannabis-advisory-committee-to-hold-virtual-meeting-next-week",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2020/08/cannabis-advisory-committee-to-hold-virtual-meeting-next-week/",
     "title": "Cannabis Advisory Committee To Hold Virtual Meeting Next Week",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, August 20 and Friday, August 21, 2020.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -66,7 +69,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2020/08/cannabis-advisory-committee-to-hold-virtual-meeting-next-week/",
       "page_title": "Cannabis Advisory Committee To Hold Virtual Meeting Next Week",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) announced today that the Cannabis Advisory Committee will hold a two-day virtual meeting on Thursday, August 20 and Friday, August 21, 2020.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

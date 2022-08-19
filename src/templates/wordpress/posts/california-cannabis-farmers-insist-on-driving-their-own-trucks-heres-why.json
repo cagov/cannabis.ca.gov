@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T23:04:00",
-    "updated_date": "2021-12-02T21:23:18",
+    "updated_date": "2022-08-16T16:57:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2017-04-20T23:04:00",
     "date_gmt": "2017-04-20T23:04:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why/",
-    "modified": "2021-12-02T13:23:18",
-    "modified_gmt": "2021-12-02T21:23:18",
+    "modified": "2022-08-16T09:57:45",
+    "modified_gmt": "2022-08-16T16:57:45",
     "slug": "california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/04/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why/",
     "title": "California Cannabis Farmers Insist on Driving Their Own Trucks; Here’s Why",
     "excerpt": "<p>The California craft beer industry is worth upwards of $7 billion, and with approximately 750 breweries, the state is home to more brew operations than any other in the country.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -64,7 +67,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/04/california-cannabis-farmers-insist-on-driving-their-own-trucks-heres-why/",
       "page_title": "California Cannabis Farmers Insist on Driving Their Own Trucks; Here’s Why",
       "page_description": "The California craft beer industry is worth upwards of $7 billion, and with approximately 750 breweries, the state is home to more brew operations than any other in the country.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

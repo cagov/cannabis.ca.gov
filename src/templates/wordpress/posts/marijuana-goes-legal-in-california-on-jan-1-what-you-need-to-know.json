@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-12-01T20:06:00",
-    "updated_date": "2021-12-02T21:23:05",
+    "updated_date": "2022-08-16T16:57:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2017-12-01T20:06:00",
     "date_gmt": "2017-12-01T20:06:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
-    "modified": "2021-12-02T13:23:05",
-    "modified_gmt": "2021-12-02T21:23:05",
+    "modified": "2022-08-16T09:57:40",
+    "modified_gmt": "2022-08-16T16:57:40",
     "slug": "marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/12/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
     "title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
     "excerpt": "<p>Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -65,7 +68,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/12/marijuana-goes-legal-in-california-on-jan-1-what-you-need-to-know/",
       "page_title": "Marijuana goes legal in California on Jan. 1 &#8212; what you need to know",
       "page_description": "Move over, 4/20. California has a new pot holiday: Jan.&nbsp;1, 2018.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

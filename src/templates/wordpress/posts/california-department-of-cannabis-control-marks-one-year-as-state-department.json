@@ -1,11 +1,11 @@
 {
   "meta": {
     "created_date": "2022-07-12T17:58:47",
-    "updated_date": "2022-07-12T17:58:47",
+    "updated_date": "2022-08-16T16:56:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10581",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10023",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,35 +14,37 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 10581,
+    "id": 10023,
     "date": "2022-07-12T10:58:47",
     "date_gmt": "2022-07-12T17:58:47",
     "guid": "https://cannabis.ca.gov/?p=10023",
-    "modified": "2022-07-12T10:58:47",
-    "modified_gmt": "2022-07-12T17:58:47",
+    "modified": "2022-08-16T09:56:55",
+    "modified_gmt": "2022-08-16T16:56:55",
     "slug": "california-department-of-cannabis-control-marks-one-year-as-state-department",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/07/california-department-of-cannabis-control-marks-one-year-as-state-department/",
-    "title": "California Department of Cannabis Control Marks One Year as State Department",
+    "title": "California Department of Cannabis Control marks one year as state department",
     "excerpt": "<p>Highlighting critical achievements in licensing, enforcement, and equity, DCC celebrates its impact&nbsp; CALIFORNIA – In its first year as a new state department, the California Department of Cannabis Control (DCC) is celebrating critical achievements that foster a safe, sustainable, and equitable cannabis market.&nbsp;&nbsp; The Department took steps this year to deliver on the promise of [&hellip;]</p>\n",
-    "author": "Wes Breazell",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -56,18 +58,18 @@
       "site_description": "Learn about California cannabis laws and licenses",
       "site_url": "https://api.cannabis.ca.gov",
       "canonical_url": "https://api.cannabis.ca.gov/2022/07/california-department-of-cannabis-control-marks-one-year-as-state-department/",
-      "page_title": "California Department of Cannabis Control Marks One Year as State Department",
+      "page_title": "California Department of Cannabis Control marks one year as state department",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "California Department of Cannabis Control Marks One Year as State Department",
+      "meta_title": "California Department of Cannabis Control marks one year as state department",
       "meta_description": "Learn about California cannabis laws and licenses",
       "meta_canonical_url": "https://api.cannabis.ca.gov/2022/07/california-department-of-cannabis-control-marks-one-year-as-state-department/",
-      "open_graph_title": "California Department of Cannabis Control Marks One Year as State Department",
+      "open_graph_title": "California Department of Cannabis Control marks one year as state department",
       "open_graph_description": "Learn about California cannabis laws and licenses",
-      "twitter_title": "California Department of Cannabis Control Marks One Year as State Department",
+      "twitter_title": "California Department of Cannabis Control marks one year as state department",
       "twitter_description": "Learn about California cannabis laws and licenses"
     },
     "headless_categories": [

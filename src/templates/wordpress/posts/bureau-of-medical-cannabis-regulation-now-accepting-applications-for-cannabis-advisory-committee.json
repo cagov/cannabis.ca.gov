@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-27T21:13:00",
-    "updated_date": "2021-12-02T21:23:16",
+    "updated_date": "2022-08-16T16:57:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2017-04-27T21:13:00",
     "date_gmt": "2017-04-27T21:13:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee/",
-    "modified": "2021-12-02T13:23:16",
-    "modified_gmt": "2021-12-02T21:23:16",
+    "modified": "2022-08-16T09:57:44",
+    "modified_gmt": "2022-08-16T16:57:44",
     "slug": "bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/04/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee/",
     "title": "Bureau of Medical Cannabis Regulation Now Accepting Applications for Cannabis Advisory Committee",
     "excerpt": "<p>The Bureau of Medical Cannabis Regulation (BMCR) today announced that it is now accepting applications for the Cannabis Advisory Committee to advise the bureau on matters relating to both medical and adult recreational use of cannabis.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -61,7 +64,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/04/bureau-of-medical-cannabis-regulation-now-accepting-applications-for-cannabis-advisory-committee/",
       "page_title": "Bureau of Medical Cannabis Regulation Now Accepting Applications for Cannabis Advisory Committee",
       "page_description": "The Bureau of Medical Cannabis Regulation (BMCR) today announced that it is now accepting applications for the Cannabis Advisory Committee to advise the bureau on matters relating to both medical and adult recreational use of cannabis.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

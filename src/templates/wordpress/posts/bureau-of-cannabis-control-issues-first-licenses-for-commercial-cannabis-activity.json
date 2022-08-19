@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-12-14T23:04:00",
-    "updated_date": "2021-12-02T21:25:19",
+    "updated_date": "2022-08-16T16:58:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2017-12-14T23:04:00",
     "date_gmt": "2017-12-14T23:04:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity/",
-    "modified": "2021-12-02T13:25:19",
-    "modified_gmt": "2021-12-02T21:25:19",
+    "modified": "2022-08-16T09:58:58",
+    "modified_gmt": "2022-08-16T16:58:58",
     "slug": "bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/12/bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity/",
     "title": "Bureau of Cannabis Control Issues First Licenses For Commercial Cannabis Activity",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) today issued the first group of commercial cannabis temporary licenses for retailers, distributors, microbusinesses and testing laboratories via its online licensing system.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -68,7 +71,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/12/bureau-of-cannabis-control-issues-first-licenses-for-commercial-cannabis-activity/",
       "page_title": "Bureau of Cannabis Control Issues First Licenses For Commercial Cannabis Activity",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) today issued the first group of commercial cannabis temporary licenses for retailers, distributors, microbusinesses and testing laboratories via its online licensing system.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

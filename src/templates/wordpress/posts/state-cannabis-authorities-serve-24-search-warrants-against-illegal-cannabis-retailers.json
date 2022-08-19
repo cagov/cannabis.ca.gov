@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2019-12-13T20:28:00",
-    "updated_date": "2021-12-02T21:24:56",
+    "updated_date": "2022-08-16T16:58:28",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2019-12-13T20:28:00",
     "date_gmt": "2019-12-13T20:28:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
-    "modified": "2021-12-02T13:24:56",
-    "modified_gmt": "2021-12-02T21:24:56",
+    "modified": "2022-08-16T09:58:28",
+    "modified_gmt": "2022-08-16T16:58:28",
     "slug": "state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2019/12/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
     "title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
     "excerpt": "<p>SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -73,7 +76,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2019/12/state-cannabis-authorities-serve-24-search-warrants-against-illegal-cannabis-retailers/",
       "page_title": "State Cannabis Authorities Serve 24 Search Warrants Against Illegal Cannabis Retailers",
       "page_description": "SACRAMENTO – The Bureau of Cannabis Control (Bureau) and the Department of Consumer Affairs’ Cannabis Enforcement Unit (DOI-CEU) today announced a series of enforcement actions against illegal cannabis retailers operating in Los Angeles.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

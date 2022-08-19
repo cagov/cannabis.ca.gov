@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-14T01:13:00",
-    "updated_date": "2022-07-01T22:26:59",
+    "updated_date": "2022-08-16T16:56:59",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-07-13T18:13:00",
     "date_gmt": "2021-07-14T01:13:00",
     "guid": "https://cannabis.ca.gov/?p=8593",
-    "modified": "2022-07-01T15:26:59",
-    "modified_gmt": "2022-07-01T22:26:59",
+    "modified": "2022-08-16T09:56:59",
+    "modified_gmt": "2022-08-16T16:56:59",
     "slug": "department-of-cannabis-control-established",
     "status": "publish",
     "type": "post",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -66,7 +69,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-established/",
       "page_title": "The Department of Cannabis Control is established",
       "page_description": "The Department of Cannabis Control (DCC) was established yesterday, following the signing of Assembly Bill 141. DCC consolidates the three state cannabis programs into a single, new state department.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -185,138 +188,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-established/",
-    "media": [
-      {
-        "id": 8595,
-        "type": "full",
-        "path": "2021/07/cannabis.ca_.gov-website.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website.png",
-        "file": "cannabis.ca_.gov-website.png",
-        "width": 1071,
-        "height": 769,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8595,
-        "type": "large",
-        "path": "2021/07/cannabis.ca_.gov-website-1024x735.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-1024x735.png",
-        "file": "cannabis.ca_.gov-website-1024x735.png",
-        "width": 1024,
-        "height": 735,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-1024x735.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8595,
-        "type": "et-pb-image--responsive--tablet",
-        "path": "2021/07/cannabis.ca_.gov-website-980x704.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-980x704.png",
-        "file": "cannabis.ca_.gov-website-980x704.png",
-        "width": 980,
-        "height": 704,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-980x704.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8595,
-        "type": "medium_large",
-        "path": "2021/07/cannabis.ca_.gov-website-768x551.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-768x551.png",
-        "file": "cannabis.ca_.gov-website-768x551.png",
-        "width": 768,
-        "height": 551,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-768x551.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8595,
-        "type": "et-pb-image--responsive--phone",
-        "path": "2021/07/cannabis.ca_.gov-website-480x345.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-480x345.png",
-        "file": "cannabis.ca_.gov-website-480x345.png",
-        "width": 480,
-        "height": 345,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-480x345.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8595,
-        "type": "medium",
-        "path": "2021/07/cannabis.ca_.gov-website-300x215.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-300x215.png",
-        "file": "cannabis.ca_.gov-website-300x215.png",
-        "width": 300,
-        "height": 215,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website-300x215.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8594,
-        "type": "full",
-        "path": "2021/07/Consolidation-Timeline.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline.png",
-        "file": "Consolidation-Timeline.png",
-        "width": 931,
-        "height": 420,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8594,
-        "type": "medium_large",
-        "path": "2021/07/Consolidation-Timeline-768x346.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline-768x346.png",
-        "file": "Consolidation-Timeline-768x346.png",
-        "width": 768,
-        "height": 346,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline-768x346.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8594,
-        "type": "et-pb-image--responsive--phone",
-        "path": "2021/07/Consolidation-Timeline-480x217.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline-480x217.png",
-        "file": "Consolidation-Timeline-480x217.png",
-        "width": 480,
-        "height": 217,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline-480x217.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 8594,
-        "type": "medium",
-        "path": "2021/07/Consolidation-Timeline-300x135.png",
-        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline-300x135.png",
-        "file": "Consolidation-Timeline-300x135.png",
-        "width": 300,
-        "height": 135,
-        "mime_type": "image/png",
-        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline-300x135.png",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-established/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-25T19:03:48",
-    "updated_date": "2022-04-25T19:03:50",
+    "updated_date": "2022-08-16T16:56:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-04-25T12:03:48",
     "date_gmt": "2022-04-25T19:03:48",
     "guid": "https://cannabis.ca.gov/?p=9709",
-    "modified": "2022-04-25T12:03:50",
-    "modified_gmt": "2022-04-25T19:03:50",
+    "modified": "2022-08-16T09:56:56",
+    "modified_gmt": "2022-08-16T16:56:56",
     "slug": "department-of-cannabis-control-requests-stakeholder-input-on-equity-fee-waiver-and-deferral-regulations",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -57,7 +60,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2022/04/department-of-cannabis-control-requests-stakeholder-input-on-equity-fee-waiver-and-deferral-regulations/",
       "page_title": "Department of Cannabis Control requests stakeholder input on equity fee waiver and deferral regulations",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

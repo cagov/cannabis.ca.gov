@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-04-20T22:46:00",
-    "updated_date": "2021-12-02T21:23:18",
+    "updated_date": "2022-08-16T16:57:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2017-04-20T22:46:00",
     "date_gmt": "2017-04-20T22:46:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
-    "modified": "2021-12-02T13:23:18",
-    "modified_gmt": "2021-12-02T21:23:18",
+    "modified": "2022-08-16T09:57:45",
+    "modified_gmt": "2022-08-16T16:57:45",
     "slug": "just-say-no-to-investing-in-pot-committee-advises-california-judges",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/04/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
     "title": "Just say no to investing in pot, committee advises California judges",
     "excerpt": "<p>A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -58,7 +61,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/04/just-say-no-to-investing-in-pot-committee-advises-california-judges/",
       "page_title": "Just say no to investing in pot, committee advises California judges",
       "page_description": "A California Supreme Court committee advised judges in the state Wednesday to stay away from pot — as in, investing in pot businesses.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

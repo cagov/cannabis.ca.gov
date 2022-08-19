@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-29T17:16:28",
-    "updated_date": "2021-12-02T21:30:52",
+    "updated_date": "2022-08-16T16:56:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-09-29T10:16:28",
     "date_gmt": "2021-09-29T17:16:28",
     "guid": "https://cannabis.ca.gov/?p=8825",
-    "modified": "2021-12-02T13:30:52",
-    "modified_gmt": "2021-12-02T21:30:52",
+    "modified": "2022-08-16T09:56:58",
+    "modified_gmt": "2022-08-16T16:56:58",
     "slug": "department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved",
     "status": "publish",
     "type": "post",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
@@ -65,7 +68,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-controls-proposed-consolidated-cannabis-regulations-are-approved/",
       "page_title": "Department of Cannabis Control's Proposed Consolidated Cannabis Regulations Are Approved",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

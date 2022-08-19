@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2018-01-01T20:31:00",
-    "updated_date": "2021-12-02T21:25:18",
+    "updated_date": "2022-08-16T16:58:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2018-01-01T20:31:00",
     "date_gmt": "2018-01-01T20:31:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity/",
-    "modified": "2021-12-02T13:25:18",
-    "modified_gmt": "2021-12-02T21:25:18",
+    "modified": "2022-08-16T09:58:38",
+    "modified_gmt": "2022-08-16T16:58:38",
     "slug": "more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2018/01/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity/",
     "title": "More Than 400 State-Licensed Cannabis Businesses Operating On California&#8217;s First Day of Legal Commercial Cannabis Activity",
     "excerpt": "<p>SACRAMENTO – Temporary licenses issued by the Bureau of Cannabis Control for retailers, distributors, microbusinesses, testing laboratories, and event organizers are now in effect and businesses can begin operating in California’s newly-legal commercial cannabis market.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -71,7 +74,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2018/01/more-than-400-state-licensed-cannabis-businesses-operating-on-californias-first-day-of-legal-commercial-cannabis-activity/",
       "page_title": "More Than 400 State-Licensed Cannabis Businesses Operating On California&#8217;s First Day of Legal Commercial Cannabis Activity",
       "page_description": "SACRAMENTO – Temporary licenses issued by the Bureau of Cannabis Control for retailers, distributors, microbusinesses, testing laboratories, and event organizers are now in effect and businesses can begin operating in California’s newly-legal commercial cannabis market.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

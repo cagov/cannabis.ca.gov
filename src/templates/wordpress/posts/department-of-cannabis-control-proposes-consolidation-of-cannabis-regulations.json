@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-08T18:51:33",
-    "updated_date": "2021-12-02T21:24:46",
+    "updated_date": "2022-08-16T16:58:24",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-09-08T11:51:33",
     "date_gmt": "2021-09-08T18:51:33",
     "guid": "https://cannabis.ca.gov/?p=8765",
-    "modified": "2021-12-02T13:24:46",
-    "modified_gmt": "2021-12-02T21:24:46",
+    "modified": "2022-08-16T09:58:24",
+    "modified_gmt": "2022-08-16T16:58:24",
     "slug": "department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations",
     "status": "publish",
     "type": "post",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -67,7 +70,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2021/09/department-of-cannabis-control-proposes-consolidation-of-cannabis-regulations/",
       "page_title": "Department of Cannabis Control Proposes Consolidation of Cannabis Regulations",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

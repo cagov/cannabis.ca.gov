@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2017-08-21T19:03:00",
-    "updated_date": "2021-12-02T21:25:44",
+    "updated_date": "2022-08-16T16:59:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,15 +18,15 @@
     "date": "2017-08-21T19:03:00",
     "date_gmt": "2017-08-21T19:03:00",
     "guid": "http://wordpress.test:8888/content-types/announcement/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
-    "modified": "2021-12-02T13:25:44",
-    "modified_gmt": "2021-12-02T21:25:44",
+    "modified": "2022-08-16T09:59:00",
+    "modified_gmt": "2022-08-16T16:59:00",
     "slug": "media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2017/08/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
     "title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
     "excerpt": "<p>HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.</p>\n",
-    "author": "Test Suite",
+    "author": "Department of Cannabis Control",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -35,7 +35,10 @@
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Press Releases"
@@ -71,7 +74,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2017/08/media-legal-cannabis-to-create-regulatory-jobs-on-state-local-levels/",
       "page_title": "Media: Legal Cannabis to Create Regulatory Jobs on State, Local Levels",
       "page_description": "HANFORD, Calif. (KFSN) &#8212; Three state organizations are now in charge of regulating marijuana in California.",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",

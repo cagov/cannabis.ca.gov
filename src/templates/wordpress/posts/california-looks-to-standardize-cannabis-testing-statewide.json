@@ -1,11 +1,11 @@
 {
   "meta": {
     "created_date": "2022-07-08T16:52:46",
-    "updated_date": "2022-07-08T16:52:46",
+    "updated_date": "2022-08-16T16:56:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10580",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/posts/10018",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,35 +14,37 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 10580,
+    "id": 10018,
     "date": "2022-07-08T09:52:46",
     "date_gmt": "2022-07-08T16:52:46",
     "guid": "https://cannabis.ca.gov/?p=10018",
-    "modified": "2022-07-08T09:52:46",
-    "modified_gmt": "2022-07-08T16:52:46",
+    "modified": "2022-08-16T09:56:55",
+    "modified_gmt": "2022-08-16T16:56:55",
     "slug": "california-looks-to-standardize-cannabis-testing-statewide",
     "status": "publish",
     "type": "post",
     "link": "https://api.cannabis.ca.gov/2022/07/california-looks-to-standardize-cannabis-testing-statewide/",
     "title": "California looks to standardize cannabis testing statewide",
     "excerpt": "<p>New regulations will protect public health and ensure consumer confidence CALIFORNIA – Delivering on calls to strengthen uniformity in cannabis laboratory testing procedures, the Department of Cannabis Control (DCC) is proposing standards to lab testing methods across the state and is accepting public comments until August 2, 2022. The regulatory package comes on the heels [&hellip;]</p>\n",
-    "author": "Wes Breazell",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/www/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single.php",
     "format": "standard",
     "meta": {
       "_stopmodifiedupdate": false,
-      "_modified_date": ""
+      "_modified_date": "",
+      "_et_pb_use_builder": "off",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": ""
     },
     "categories": [
       "Announcements"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "template-single"
     },
     "og_meta": {
       "editor": {
@@ -58,7 +60,7 @@
       "canonical_url": "https://api.cannabis.ca.gov/2022/07/california-looks-to-standardize-cannabis-testing-statewide/",
       "page_title": "California looks to standardize cannabis testing statewide",
       "page_description": "Learn about California cannabis laws and licenses",
-      "page_social_image_url": "https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+      "page_social_image_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cropped-Cannabis_horizontal_social.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
