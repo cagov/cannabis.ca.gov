@@ -1,4 +1,4 @@
-const config = require("./config/index.js.js");
+const config = require("./config");
 
 const getUrlPath = (url) => {
   try {
@@ -44,12 +44,12 @@ module.exports = {
     title: article => article.data.title,
     category: article => article.data?.categories[0],
     site_name: config.data.name,
-    gov_name: "CA.GOV",
-    gov_url: "https:\/\/ca.gov",
+    gov_name: "CA.GOV", // @TODO abstract
+    gov_url: "https:\/\/ca.gov", // @TODO abstract
     // Below, mimic the structure of Wordpress article data files (pages/posts).
     // Use the value in the article data JSON if available, otherwise set default.
     data: {
-      ascii: config.build.ascii || "",
+      // ascii: config.build.ascii || "",
       og_meta: {
         site_url: config.og_meta.site_url,
         canonical_url: article => 

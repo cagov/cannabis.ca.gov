@@ -1,8 +1,10 @@
 const fs = require('fs')
 const AWS = require('aws-sdk')
 const s3 = new AWS.S3();
+const config = require("../../../config");
 
-const redirectFile = JSON.parse(fs.readFileSync('./src/templates/wordpress/redirects/redirects.json'))
+
+const redirectFile = JSON.parse(fs.readFileSync(`${config.staticContentPaths.redirects/}redirects.json`))
 redirectFile.redirects.forEach((redirect) => {
   console.log('Uploading ', redirect)
   s3.putObject({
