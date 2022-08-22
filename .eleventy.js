@@ -1,7 +1,7 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require("@cagov/11ty-build-system");
-const config = require("./config/config.js");
+const config = require("./config/index.js");
 
 const { renderPostLists, renderWordpressPostTitleDate } = require("./src/components/post-list/render");
 const { renderEventLists } = require("./src/components/event-list/render");
@@ -51,13 +51,12 @@ module.exports = function (eleventyConfig) {
   });
 
   // Change the domain on a URL.
-  // Good candidate for 11ty-build-system.
+  // Note Good candidate for 11ty-build-system.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
     try {
-      
-      let host = config.build.canonical_url.split("//"); // TEMP Cheat to get https
+      let host = config.build.canonical_url.split("//"); // Cheat to get https
       let changedUrl = url;
-      // There are multiple strings that we may need to replace because of how we merge and work with data. Use them.
+      // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
       config.build.replace_urls.map((item) => {
         changedUrl = changedUrl.replace(item, host[0] + "//" + domain);
       });
@@ -103,10 +102,10 @@ module.exports = function (eleventyConfig) {
     return html;
   });
 
-  eleventyConfig.addPassthroughCopy({ "src/wordpress-media": "/wp-uploads" });
+  eleventyConfig.addPassthroughCopy({ "content/media": "/wp-uploads" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
-  eleventyConfig.addPassthroughCopy({ "src/css/svg": "css/svg" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "fonts" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/svg": "assets/svg" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
 
   return {

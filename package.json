@@ -15,12 +15,6 @@
     "build": "eleventy",
     "dev": "npm run watch:dev",
     "start": "npm run watch",
-    "git:merge:dev-into-test": "./sh/git-merge-development-into-test.sh",
-    "git:merge:feature-into-dev": "./sh/git-merge-feature-into-development.sh",
-    "git:merge:test-into-main": "./sh/git-merge-test-into-main.sh",
-    "git:merge:staging-into-main": "./sh/git-merge-staging-into-main.sh",
-    "git:merge:test-into-test-staging": "./sh/git-merge-test-into-test-staging.sh",
-    "git:merge:main-into-staging": "./sh/git-merge-main-into-staging.sh",
     "watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --serve --incremental",
     "watch:production": "cross-env NODE_ENV=development SITE_ENV=production eleventy --serve --incremental",
     "watch": "eleventy --serve"

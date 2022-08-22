@@ -15,29 +15,6 @@
     "page_social_image_width": 1200,
     "page_social_image_height": 630
   },
-  "build": {
-    "input": "pages",
-    "output": "docs",
-    "static_site_media": "/media/",
-    "media": "pages/wordpress/media",
-    "pages": "src/templates/wordpress/posts",
-    "posts": "src/templates/wordpress/posts",
-    "index_layout": "layouts/index",
-    "upload_folder": "wp-content/uploads/",
-    "replace_urls": [
-      "http://cannabis.ca.gov/",
-      "https://cannabis.ca.gov/",
-      "https://live-cannabis-ca-gov.pantheonsite.io",
-      "https://test-cannabis-ca-gov.pantheonsite.io",
-      "https://dev-cannabis-ca-gov.pantheonsite.io",
-      "https://api.cannabis.ca.gov",
-      "https://dev-cagov-dcc.pantheonsite.io"
-    ],
-    "editor_url": "https://api.cannabis.ca.gov",
-    "static_site_url": "https://headless.cannabis.ca.gov",
-    "canonical_url": "https://headless.cannabis.ca.gov",
-    "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/"
-  },
   "endpoints": {
     "page-feedback": {
       "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
