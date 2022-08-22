@@ -5,7 +5,7 @@ import '@cagov/ds-back-to-top';
 import '@cagov/ds-page-navigation';
 import '@cagov/ds-dropdown-menu';
 import '@cagov/ds-page-feedback/dist/index.js';
-import '../components/ds-page-feedback/dist/index.js';
+import '../components/ds-page-feedback/dist/index.js'; // For drafting microcopy update.
 import '@cagov/ds-google-translate';
 import '@cagov/ds-link-icon/src/index.js';
 import '@cagov/ds-page-alert';
@@ -25,4 +25,5 @@ import '../components/charts/cannabis-local-ordinances/build/bundle.js';
 window.onload = (event) => {
   setupAnalytics();
 };
-controlPages();
+
+controlPages(); // Update pagination behavior

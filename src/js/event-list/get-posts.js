@@ -1,4 +1,5 @@
 const fs = require("fs");
+const config = require("../../../config");
 
 /**
  * Checks for a match between two sets of categories.
@@ -28,10 +29,10 @@ const getEventsByCategory = (categoryString, count = 5) => {
     .map((c) => c.toLowerCase());
 
   let wordPressArray = [];
-  let files = fs.readdirSync("src/templates/wordpress/posts/");
+  let files = fs.readdirSync(config.staticContentPaths.posts);
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = "src/templates/wordpress/posts/" + file;
+      let loc = config.staticContentPaths.posts + file;
       let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&
