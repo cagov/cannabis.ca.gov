@@ -1,22 +1,12 @@
-const production = require('./odi-publishing.json'); // Default settings. Default settings.
-// const test = require('./odi-publishing.test.json'); // Temporarily disabling these
-// const staging = require('./odi-publishing.staging.json');
-// const development = require('./odi-publishing.development.json');
+const siteSettings = require('./site-settings.json'); // Site config (renders in markup)
+const buildSettings = require('./build-settings.json'); // Build settings (connects to files)
+const translationSettings = require('./translations.json'); // Custom UI strings, by language (currently just "en")
 
 const getConfig = () => {
-    let config = production;
+    let config = Object.assign({}, siteSettings, buildSettings, translationSettings);
 
     // if (process.env.SITE_ENV === "development") {
     //     config = development;
-    // }
-    // if (process.env.SITE_ENV === "staging") {
-    //     config = staging;
-    // }
-    // if (process.env.SITE_ENV === "test") {
-    //     config = test;
-    // }
-    // if (process.env.SITE_ENV === "production") {
-    //     config = production;
     // }
 
     if (process.env.SITE_ENV === "localhost") {
