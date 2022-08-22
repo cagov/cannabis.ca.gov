@@ -47,7 +47,7 @@
     "@cagov/ds-button-grid": "^2.0.2",
     "@cagov/ds-dropdown-menu": "^2.0.1",
     "@cagov/ds-feature-card": "^2.0.0",
-    "@cagov/ds-feedback": "^1.1.13",
+    "@cagov/ds-page-feedback": "^1.1.13",
     "@cagov/ds-google-translate": "^1.0.2",
     "@cagov/ds-icons": "0.0.1",
     "@cagov/ds-link-grid": "^3.0.0",
