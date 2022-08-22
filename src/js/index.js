@@ -4,9 +4,9 @@ import '@cagov/ds-accordion';
 import '@cagov/ds-back-to-top';
 import '@cagov/ds-page-navigation'; // Doesn't display
 import '@cagov/ds-dropdown-menu';
-import '@cagov/ds-feedback/dist/index.js';
+import '@cagov/ds-page-feedback/dist/index.js';
 import '@cagov/ds-google-translate';
-import '../components/ds-link-icon/src/index.js'; // New version is broken
+import '@cagov/ds-link-icon/src/index.js'; // New version is broken
 import '@cagov/ds-page-alert';
 import '@cagov/ds-statewide-header/src/index.js';
 
