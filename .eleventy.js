@@ -1,7 +1,7 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require("@cagov/11ty-build-system");
-const config = require("./odi-publishing/config.js");
+const config = require("./config/config.js");
 
 const { renderPostLists, renderWordpressPostTitleDate } = require("./src/components/post-list/render");
 const { renderEventLists } = require("./src/components/event-list/render");

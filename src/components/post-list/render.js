@@ -1,6 +1,6 @@
 const cheerio = require("cheerio");
 const { getPostsByCategory } = require("./get-posts");
-const config = require('./../../../odi-publishing/config.js');
+const config = require('../../../config/config.js');
 
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
