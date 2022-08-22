@@ -12,7 +12,7 @@ import '@cagov/ds-page-alert';
 import '@cagov/ds-statewide-header/src/index.js';
 
 // Site modifications
-import { controlPages } from '../js/pagination/control.js';
+import { controlPages } from '../js/pagination.js';
 
 
 import './google-analytics.js';

@@ -1,5 +1,5 @@
 const fs = require("fs");
-
+const config = require("../../../config");
 /**
  * Checks for a match between two sets of categories.
  * @param {string[]} componentCategories An array of categories requested by the cagov-post-list component.
@@ -28,10 +28,10 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
     .map((c) => c.toLowerCase());
 
   let wordPressArray = [];
-  let files = fs.readdirSync("src/templates/wordpress/posts/");
+  let files = fs.readdirSync(config.staticContentPaths.posts);
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = "src/templates/wordpress/posts/" + file;
+      let loc = config.staticContentPaths.posts + file;
       let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&
