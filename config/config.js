@@ -1,22 +1,23 @@
 const production = require('./odi-publishing.json'); // Default settings. Default settings.
-const test = require('./odi-publishing.test.json');
-const staging = require('./odi-publishing.staging.json');
-const development = require('./odi-publishing.development.json');
+// const test = require('./odi-publishing.test.json'); // Temporarily disabling these
+// const staging = require('./odi-publishing.staging.json');
+// const development = require('./odi-publishing.development.json');
 
 const getConfig = () => {
     let config = production;
-    if (process.env.SITE_ENV === "development") {
-        config = development;
-    }
-    if (process.env.SITE_ENV === "staging") {
-        config = staging;
-    }
-    if (process.env.SITE_ENV === "test") {
-        config = test;
-    }
-    if (process.env.SITE_ENV === "production") {
-        config = production;
-    }
+
+    // if (process.env.SITE_ENV === "development") {
+    //     config = development;
+    // }
+    // if (process.env.SITE_ENV === "staging") {
+    //     config = staging;
+    // }
+    // if (process.env.SITE_ENV === "test") {
+    //     config = test;
+    // }
+    // if (process.env.SITE_ENV === "production") {
+    //     config = production;
+    // }
 
     if (process.env.SITE_ENV === "localhost") {
         config.og_meta.site_url = 'http://localhost:8080';
