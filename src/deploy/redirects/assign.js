@@ -4,12 +4,13 @@ const s3 = new AWS.S3();
 const config = require("../../../config");
 
 
-const redirectFile = JSON.parse(fs.readFileSync(`${config.staticContentPaths.redirects/}redirects.json`))
+const redirectFile = JSON.parse(fs.readFileSync(`${config.staticContentPaths.redirects}/redirects.json`));
+
 redirectFile.redirects.forEach((redirect) => {
-  console.log('Uploading ', redirect)
+  console.log('Uploading ', redirect);
   s3.putObject({
     Body: '',
-    Bucket: 'headless.cannabis.ca.gov',
+    Bucket: config.build.s3_bucket_name,
     Key: (redirect.url.indexOf('/') === 0) ? redirect.url.substring(1) : redirect.url,
     WebsiteRedirectLocation: redirect.action_data.url
   }, (err, data) => {

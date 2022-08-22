@@ -10,15 +10,25 @@ const {
 const { renderEventLists } = require("./src/js/event-list/render");
 
 module.exports = function (eleventyConfig) {
-  // Copy posts from static bundle to gitignored folder in 11ty directory
+  // Copy posts from static bundle to gitignored folder in 11ty directory for local processing
   copyFolderRecursiveSync(
     config.staticContentPaths.posts,
     config.build.eleventy_content
   );
 
-  // Copy pages from static bundle to gitignored folder in 11ty directory
+  // Copy pages from static bundle to gitignored folder in 11ty directory for local processing
   copyFolderRecursiveSync(
     config.staticContentPaths.pages,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.menu,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.redirects,
     config.build.eleventy_content
   );
 
@@ -62,7 +72,7 @@ module.exports = function (eleventyConfig) {
   // Note Good candidate for 11ty-build-system.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
     try {
-      let host = config.build.canonical_url.split("//"); // Cheat to get https
+      let host = config.build.canonical_url.split("//"); // Cheat to get https (can host be a setting?)
       let changedUrl = url;
       // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
       config.build.replace_urls.map((item) => {
@@ -76,14 +86,15 @@ module.exports = function (eleventyConfig) {
 
   // Replace Wordpress Media paths.
   // Use this explicitly when a full URL is needed, such as within meta tags.
-  // Doing so will ensure the domain doesn't get nuked by the HTML transformation below.
+  // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
   eleventyConfig.addFilter("changeWpMediaPath", function (path) {
     return path.replace(
       new RegExp(`/${config.build.upload_folder}`, "g"),
-      "/media/"
+      config.build.eleventy_media
     );
   });
 
+  // @DOCS - What's this & why? - CS
   eleventyConfig.addFilter("displayPostInfo", function (item) {
     return renderWordpressPostTitleDate(item.data, {
       showExcerpt: true,
@@ -92,18 +103,19 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
-    //outputPath === false means serverless templates
+    //outputPath === false means serverless templates (@DOCS ? - CS)
     if (!outputPath || outputPath.endsWith(".html")) {
-      // Render post-lists
+      // Render post-list components
       if (html.includes("cagov-post-list")) {
         html = renderPostLists(html);
       }
 
+      // Render posts with event web component
       if (html.includes("cagov-event-post-list")) {
         html = renderEventLists(html);
       }
 
-      // Minify HTML.
+      // Minify HTML
       html = htmlmin.minify(html, {
         useShortDoctype: true,
         removeComments: true,
@@ -113,9 +125,10 @@ module.exports = function (eleventyConfig) {
     return html;
   });
 
+  // Copy media assets folder from static site to built site
   eleventyConfig.addPassthroughCopy({
-    [config.staticContentPaths.media]:
-      config.staticContentPaths.static_site_media,
+  [config.staticContentPaths.media]:
+      config.build.docs_media,
   });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });

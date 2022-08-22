@@ -1,16 +1,20 @@
 const fs = require("fs");
 const config = require("./../../../config");
 
+/**
+ * Build file ids  (@DOCS - why? - CS)
+ * @returns 
+ */
 module.exports = function () {
   return new Promise((resolve, reject) => {
     let idObject = {};
-    // CHECK: This probably won't work - may need to hard code these values because readdir usually doesn't like variables. (But trying it anyways.)
-    fs.readdir(config.staticContentPaths.pages, (err, files) => {
+    // Process pages
+    fs.readdir(config.build.eleventy_pages, (err, files) => {
       files.forEach((file) => {
         if (file.indexOf(".json") > -1) {
           let fileData = JSON.parse(
             fs.readFileSync(
-              config.staticContentPaths.pages + "/" + file,
+              config.build.eleventy_pages + "/" + file,
               "utf8"
             )
           );
@@ -18,12 +22,13 @@ module.exports = function () {
         }
       });
 
-      fs.readdir(config.staticContentPaths.posts, (err, files) => {
+      // Process posts
+      fs.readdir(config.build.eleventy_posts, (err, files) => {
         files.forEach((file) => {
           if (file.indexOf(".json") > -1) {
             let fileData = JSON.parse(
               fs.readFileSync(
-                config.staticContentPaths.posts + "/" + file,
+                config.build.eleventy_posts + "/" + file,
                 "utf8"
               )
             );

@@ -6,7 +6,9 @@
         "eleventy_content": "src/templates/_content",
         "eleventy_pages": "src/templates/_content/pages",
         "eleventy_posts": "src/templates/_content/posts",
-        "static_site_media": "wp_uploads",
+        "eleventy_menu": "src/templates/_content/menu",
+        "eleventy_redirects": "src/templates/_content/redirects",
+        "docs_media": "wp_uploads",
         "index_layout": "layouts/index",
         "upload_folder": "wp-content/uploads/",
         "replace_urls": [
@@ -33,6 +35,7 @@
           "production": "",
           "staging": ""
         },
+        "s3_bucket_name": "headless.cannabis.ca.gov",
         "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
         "s3_bucket_urls": {
           "production": "",

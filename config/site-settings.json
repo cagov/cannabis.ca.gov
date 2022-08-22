@@ -20,9 +20,6 @@
   "endpoints": {
     "page-feedback": {
       "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
-    },
-    "redirects": {
-      "config": "./src/templates/wordpress/redirects/redirects"
     }
   },
   "analytics": {

@@ -1,6 +1,8 @@
 var fs = require("fs");
 var path = require('path');
 
+// Thx for this snippet: ____ @DOCS - CS
+
 var copyFileSync = function (source, target) {
   var targetFile = target;
 
