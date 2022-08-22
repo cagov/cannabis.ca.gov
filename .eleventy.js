@@ -2,9 +2,8 @@ const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require("@cagov/11ty-build-system");
 const config = require("./config/index.js");
-
-const { renderPostLists, renderWordpressPostTitleDate } = require("./src/components/post-list/render");
-const { renderEventLists } = require("./src/components/event-list/render");
+const { renderPostLists, renderWordpressPostTitleDate } = require("./src/js/post-list/render");
+const { renderEventLists } = require("./src/js/event-list/render");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
@@ -102,10 +101,10 @@ module.exports = function (eleventyConfig) {
     return html;
   });
 
-  eleventyConfig.addPassthroughCopy({ "content/media": "/wp-uploads" });
+  console.log("BBBBB", config.staticContentPaths.media);
+
+  eleventyConfig.addPassthroughCopy({ [config.staticContentPaths.media] : "/wp-uploads" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "fonts" });
-  eleventyConfig.addPassthroughCopy({ "src/assets/svg": "assets/svg" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
 
   return {
@@ -113,7 +112,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "md",
     templateFormats: ["html", "njk", "11ty.js", "md"],
     dir: {
-      input: "src/templates",
+      input: `${config.staticContentPaths.root}`,
       output: "docs",
       layouts: "_includes/layouts",
     },

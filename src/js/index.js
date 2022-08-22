@@ -12,8 +12,9 @@ import '@cagov/ds-page-alert';
 import '@cagov/ds-statewide-header/src/index.js';
 
 // Site modifications
-import { controlPages } from '../components/pagination/control.js';
-// import { controlPages } from '@cagov/ds-pagination'; // Not included in current version of component
+import { controlPages } from '../js/pagination/control.js';
+
+
 import './google-analytics.js';
 import setupAnalytics from './setup-analytics.js';
 

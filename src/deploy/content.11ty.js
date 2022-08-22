@@ -1,4 +1,4 @@
-const config = require("./config/index.js");
+const config = require("./config/index.js.js");
 
 const getUrlPath = (url) => {
   try {
