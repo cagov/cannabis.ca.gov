@@ -19,7 +19,7 @@ import setupAnalytics from './setup-analytics.js';
 
 // Custom components
 // Cannabis local ordinances: where-cannabis-business-is-legal-in-california
-import './charts/cannabis-local-ordinances/build/bundle.js';
+import '../components/charts/cannabis-local-ordinances/build/bundle.js';
 
 window.onload = (event) => {
   setupAnalytics();

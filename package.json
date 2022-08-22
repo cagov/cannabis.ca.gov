@@ -32,7 +32,7 @@
   ],
   "repository": "https://github.com/cannabis.ca.gov",
   "author": "Office of Data and Innovation",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "aws-sdk": "^2.1189.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
