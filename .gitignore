@@ -1,5 +1,6 @@
-# TEMP 
-preview-mode-auto-generated
+# ignore build filesgst
+src/wordpress-media
+src/templates/_content
 
 # DS_Store
 .DS_Store

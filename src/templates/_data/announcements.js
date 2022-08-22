@@ -1,4 +1,4 @@
-const { getPostsByCategory } = require("../../components/post-list/get-posts");
+const { getPostsByCategory } = require("./../../js/post-list/get-posts");
 
 module.exports = () => {
 

@@ -32,7 +32,7 @@ const getEventsByCategory = (categoryString, count = 5) => {
   let files = fs.readdirSync(config.staticContentPaths.posts);
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = config.staticContentPaths.posts + file;
+      let loc = config.staticContentPaths.posts + "/" + file;
       let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&

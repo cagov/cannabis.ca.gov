@@ -1,3 +1,3 @@
-const config = require('../../../odi-publishing/config.js');
+const config = require('../../../config');
 
 module.exports = process.env.config || config;

@@ -1,11 +1,12 @@
 {
     "build": {
-        "input": "pages",
-        "output": "docs",
-        "static_site_media": "/media/",
-        "media": "pages/wordpress/media",
-        "pages": "src/templates/wordpress/posts",
-        "posts": "src/templates/wordpress/posts",
+        "eleventy_input": "src/templates",
+        "eleventy_output": "docs",
+        "eleventy_layouts": "_includes/layouts",
+        "eleventy_content": "src/templates/_content",
+        "eleventy_pages": "src/templates/_content/pages",
+        "eleventy_posts": "src/templates/_content/posts",
+        "static_site_media": "wp_uploads",
         "index_layout": "layouts/index",
         "upload_folder": "wp-content/uploads/",
         "replace_urls": [
@@ -18,8 +19,24 @@
           "https://dev-cagov-dcc.pantheonsite.io"
         ],
         "editor_url": "https://api.cannabis.ca.gov",
+        "editor_urls": {
+          "production": "",
+          "staging": ""
+        },
         "static_site_url": "https://headless.cannabis.ca.gov",
+        "static_site_urls": {
+          "production": "",
+          "staging": ""
+        },
         "canonical_url": "https://headless.cannabis.ca.gov",
-        "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/"
+        "canonical_urls": {
+          "production": "",
+          "staging": ""
+        },
+        "s3_bucket_url": "http://headless-cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/",
+        "s3_bucket_urls": {
+          "production": "",
+          "staging": ""
+        }
       }
 }

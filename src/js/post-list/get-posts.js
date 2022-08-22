@@ -28,10 +28,10 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
     .map((c) => c.toLowerCase());
 
   let wordPressArray = [];
-  let files = fs.readdirSync(config.staticContentPaths.posts);
+  let files = fs.readdirSync(config.build.eleventy_posts);
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = config.staticContentPaths.posts + file;
+      let loc = config.build.eleventy_posts + "/" + file;
       let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&

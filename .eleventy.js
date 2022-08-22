@@ -1,44 +1,53 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require("@cagov/11ty-build-system");
-const config = require("./config/index.js");
-const { renderPostLists, renderWordpressPostTitleDate } = require("./src/js/post-list/render");
+const config = require("./config");
+const { copyFolderRecursiveSync } = require("./src/js/sync-static-content");
+const {
+  renderPostLists,
+  renderWordpressPostTitleDate,
+} = require("./src/js/post-list/render");
 const { renderEventLists } = require("./src/js/event-list/render");
 
 module.exports = function (eleventyConfig) {
+  // Copy posts from static bundle to gitignored folder in 11ty directory
+  copyFolderRecursiveSync(
+    config.staticContentPaths.posts,
+    config.build.eleventy_content
+  );
+
+  // Copy pages from static bundle to gitignored folder in 11ty directory
+  copyFolderRecursiveSync(
+    config.staticContentPaths.pages,
+    config.build.eleventy_content
+  );
+
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
       sass: {
-        watch: [
-          'src/css/**/*',
-          'src/components/**/*.scss'
-        ],
-        output: 'dist/index.css',
+        watch: ["src/css/**/*", "src/components/**/*.scss"],
+        output: "dist/index.css",
         options: {
-          file: 'src/css/sass/index.scss',
-          includePaths: ['./src/css/sass']
-        }
+          file: "src/css/sass/index.scss",
+          includePaths: ["./src/css/sass"],
+        },
       },
       esbuild: {
-        watch: [
-          'src/js/**/*',
-          'src/components/**/*'
-        ],
+        watch: ["src/js/**/*", "src/components/**/*"],
         options: {
-          entryPoints: ['src/js/index.js'],
+          entryPoints: ["src/js/index.js"],
           bundle: true,
           minify: true,
-          format: 'esm',
-          outfile: 'dist/built.js',
-          loader: { 
-            '.css': 'text',
-            '.html': 'text'
-          }
-        }
-      }
-    }
+          format: "esm",
+          outfile: "dist/built.js",
+          loader: {
+            ".css": "text",
+            ".html": "text",
+          },
+        },
+      },
+    },
   });
-
 
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
@@ -75,9 +84,12 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  eleventyConfig.addFilter('displayPostInfo', function(item) {
-    return renderWordpressPostTitleDate(item.data, { 'showExcerpt': true, 'showPublishDate': true});
-  })
+  eleventyConfig.addFilter("displayPostInfo", function (item) {
+    return renderWordpressPostTitleDate(item.data, {
+      showExcerpt: true,
+      showPublishDate: true,
+    });
+  });
 
   eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
     //outputPath === false means serverless templates
@@ -90,7 +102,7 @@ module.exports = function (eleventyConfig) {
       if (html.includes("cagov-event-post-list")) {
         html = renderEventLists(html);
       }
-      
+
       // Minify HTML.
       html = htmlmin.minify(html, {
         useShortDoctype: true,
@@ -101,9 +113,10 @@ module.exports = function (eleventyConfig) {
     return html;
   });
 
-  console.log("BBBBB", config.staticContentPaths.media);
-
-  eleventyConfig.addPassthroughCopy({ [config.staticContentPaths.media] : "/wp-uploads" });
+  eleventyConfig.addPassthroughCopy({
+    [config.staticContentPaths.media]:
+      config.staticContentPaths.static_site_media,
+  });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
 
@@ -112,9 +125,9 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "md",
     templateFormats: ["html", "njk", "11ty.js", "md"],
     dir: {
-      input: `${config.staticContentPaths.root}`,
-      output: "docs",
-      layouts: "_includes/layouts",
+      input: config.build.eleventy_input,
+      output: config.build.eleventy_output,
+      layouts: config.build.eleventy_layouts,
     },
   };
 };

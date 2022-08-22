@@ -1,4 +1,4 @@
-const config = require("./config");
+const config = require("../../config");
 
 const getUrlPath = (url) => {
   try {
@@ -9,6 +9,7 @@ const getUrlPath = (url) => {
 };
 
 const getTemplate = (article) => {
+  console.log("article", article);
   let template = "page";
 
   template = article.data?.type; // page or post from WP
@@ -39,13 +40,13 @@ const getTemplate = (article) => {
 module.exports = {
   eleventyComputed: {
     permalink: article => getUrlPath(article.data?.wordpress_url),
-    layout: article => getTemplate(article),
+    layout: article => "page", // getTemplate(article) || 
     parentid: article => article.data.parent,
     title: article => article.data.title,
     category: article => article.data?.categories[0],
-    site_name: config.data.name,
-    gov_name: "CA.GOV", // @TODO abstract
-    gov_url: "https:\/\/ca.gov", // @TODO abstract
+    site_name: config.og_meta.site_name,
+    gov_name: config.gov_name,
+    gov_url: config.gov_url,
     // Below, mimic the structure of Wordpress article data files (pages/posts).
     // Use the value in the article data JSON if available, otherwise set default.
     data: {

@@ -5,6 +5,8 @@
   "contact": {
     "maintainer": "Office of Data and Innovation"
   },
+  "gov_name": "CA.GOV",
+  "gov_url": "https:\/\/ca.gov",
   "og_meta": {
     "site_name": "Department of Cannabis Control",
     "site_description": "Learn about California cannabis laws and licenses",
