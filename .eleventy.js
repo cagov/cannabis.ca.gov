@@ -69,10 +69,11 @@ module.exports = function (eleventyConfig) {
   });
 
   // Change the domain on a URL.
-  // Note Good candidate for 11ty-build-system.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
+    console.log(url, domain);
     try {
-      let host = config.build.canonical_url.split("//"); // Cheat to get https (can host be a setting?)
+      let host = config.build.canonical_url.split("//"); 
+      console.log("host", host);
       let changedUrl = url;
       // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
       config.build.replace_urls.map((item) => {
