@@ -28,9 +28,9 @@
   "author": "Office of Data and Innovation",
   "license": "MIT",
   "devDependencies": {
-    "aws-sdk": "^2.1189.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "cheerio": "^1.0.0-rc.10",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "aws-sdk": "^2.1200.0",
+    "cheerio": "^1.0.0-rc.12",
     "clean-css": "^5.3.1",
     "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
