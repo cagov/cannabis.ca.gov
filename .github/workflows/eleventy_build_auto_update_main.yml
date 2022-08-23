@@ -9,7 +9,6 @@ name: Auto-update 11ty build on new content package update
 
 on:
   schedule:
-      # Run every five minutes
     - cron:  '5 * * * *'
     - branches: main
 
@@ -19,6 +18,7 @@ jobs:
     steps:
       - uses: n1hility/cancel-previous-runs@v2
         with: 
+          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
       - name: Use Node.js 16.13.1
