@@ -4,11 +4,10 @@
 # editor: https://api.cannabis.ca.gov
 # s3 bucket http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 
-name: Update 11ty build on new content package update
+name: Auto-update 11ty build on new content package update
+# https://github.com/marketplace/actions/dependencies-autoupdate
 
 on:
-  # can be used to run workflow manually
-  workflow_dispatch:
   schedule:
       # Run every five minutes
     - cron:  '5 * * * *'
