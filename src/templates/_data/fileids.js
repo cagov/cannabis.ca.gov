@@ -2,7 +2,8 @@ const fs = require("fs");
 const config = require("./../../../config");
 
 /**
- * Build file ids  (@DOCS - why? - CS)
+ * Build file ids
+ * Used in breadcrumbs
  * @returns 
  */
 module.exports = function () {

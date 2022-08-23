@@ -1,6 +1,10 @@
 # ignore build filesgst
 src/wordpress-media
-src/templates/_content
+src/templates/_content/pages
+src/templates/_content/posts
+src/templates/_content/media
+src/templates/_content/menu
+src/templates/_content/redirects
 
 # DS_Store
 .DS_Store
