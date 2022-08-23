@@ -4,8 +4,8 @@ import '@cagov/ds-accordion';
 import '@cagov/ds-back-to-top';
 import '@cagov/ds-page-navigation';
 import '@cagov/ds-dropdown-menu';
-import '@cagov/ds-page-feedback/dist/index.js';
-import '../components/ds-page-feedback/dist/index.js'; // For drafting microcopy update.
+import '@cagov/ds-page-feedback/src/index.js';
+import '../components/ds-page-feedback/src/index.js'; // For drafting microcopy update.
 import '@cagov/ds-google-translate';
 import '@cagov/ds-link-icon/src/index.js';
 import '@cagov/ds-page-alert';

@@ -15,6 +15,5 @@ redirectFile.redirects.forEach((redirect) => {
     WebsiteRedirectLocation: redirect.action_data.url
   }, (err, data) => {
     if (err) return console.log(err)
-    console.log(data)
   })
 })

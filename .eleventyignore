@@ -1,0 +1,16 @@
+node_modules
+src/js
+src/assets
+src/components
+src/deploy
+src/rootcopy
+src/templates/_includes
+src/templates/_data
+_monolith
+.github
+README.md
+package.json
+package-lock.json
+LICENSE
+CHANGELOG.md
+.gitignore

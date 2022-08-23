@@ -10,13 +10,13 @@ const {
 const { renderEventLists } = require("./src/js/event-list/render");
 
 module.exports = function (eleventyConfig) {
-  // Copy posts from static bundle to gitignored folder in 11ty directory for local processing
+  eleventyConfig.setUseGitIgnore(false);
+  // Copy content from static bundle to gitignored folder in 11ty directory for local processing
   copyFolderRecursiveSync(
     config.staticContentPaths.posts,
     config.build.eleventy_content
   );
 
-  // Copy pages from static bundle to gitignored folder in 11ty directory for local processing
   copyFolderRecursiveSync(
     config.staticContentPaths.pages,
     config.build.eleventy_content
@@ -70,7 +70,6 @@ module.exports = function (eleventyConfig) {
 
   // Change the domain on a URL.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
-    console.log(url, domain);
     try {
       let host = config.build.canonical_url.split("//"); 
       console.log("host", host);

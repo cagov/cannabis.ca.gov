@@ -9,8 +9,6 @@ const getUrlPath = (url) => {
 };
 
 const getTemplate = (article) => {
-
-  console.log("article", article);
   let template = "page";
 
   template = article.data?.type; // page or post from WP
@@ -45,7 +43,7 @@ module.exports = {
     parentid: article => article.data.parent,
     title: article => article.data.title,
     category: article => article.data?.categories[0],
-    site_name: config.data.name,
+    site_name: config.og_meta.site_name,
     gov_name: config.gov_name,
     gov_url: config.gov_url,
     // Below, mimic the structure of Wordpress article data files (pages/posts).
