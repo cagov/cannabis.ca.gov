@@ -2,8 +2,8 @@ name: Update static content
 
 on:
   repository_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
+  # schedule:
+  #   # - cron: '35 * * * *'
   
 
 jobs:
