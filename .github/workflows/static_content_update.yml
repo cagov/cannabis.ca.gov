@@ -29,6 +29,7 @@ jobs:
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"  
       - name: Auto approve static content update changes
         uses: hmarr/auto-approve-action@v2
-          if: github.actor == ${{ secrets.PR_AUTO_APPROVE_USER }}
           with:
+            github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
+            review-message: "Auto approved automated PR: Static content update"
             pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
