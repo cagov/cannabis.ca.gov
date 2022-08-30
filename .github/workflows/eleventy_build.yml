@@ -16,8 +16,8 @@ jobs:
   build_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Cancel previous runs
-      - uses: n1hility/cancel-previous-runs@v2
+      - name: Cancel previous build
+        uses: n1hility/cancel-previous-runs@v2
         if: github.event.schedule != '*/5 * * * *'
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
