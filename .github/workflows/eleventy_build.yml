@@ -9,8 +9,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '35 * * * *'
 
 jobs:
   build_deploy:
@@ -18,7 +16,6 @@ jobs:
     steps:
       - name: Cancel previous build
         uses: n1hility/cancel-previous-runs@v2
-        if: github.event.schedule != '35 * * * *'
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master

@@ -1,0 +1,28 @@
+name: Update static content
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js 16.13.1
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.13.1
+      - name: Check for static content updates
+        run: |
+          mkdir dist
+          npm install
+          npm update static-content-cannabis
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
