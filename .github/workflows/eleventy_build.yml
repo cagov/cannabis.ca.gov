@@ -11,6 +11,8 @@ on:
       - main
   schedule:
     - cron: '*/5 * * * *'
+    branches:
+      - main
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
