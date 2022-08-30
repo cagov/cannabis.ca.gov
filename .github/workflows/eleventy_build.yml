@@ -10,7 +10,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '30 * * * *'
 
 jobs:
   build_deploy:
@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Cancel previous build
         uses: n1hility/cancel-previous-runs@v2
-        if: github.event.schedule != '*/5 * * * *'
+        if: github.event.schedule != '30 * * * *'
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
@@ -68,7 +68,7 @@ jobs:
           AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       # Invalidate Cloudfront production distribution
-      - name: invalidate
+      - name: Invalidate Cloudfront cache
         uses: chetan/invalidate-cloudfront-action@v1.3
         env:
           DISTRIBUTION: 'E1HY53GZXHPHRV'
