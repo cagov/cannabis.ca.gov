@@ -1,8 +1,0 @@
-{
-  "name": "cannabis.ca.gov",
-  "version": "2.0.0",
-  "description": "Static site updater for https://headless.cannabis.ca.gov",
-  "dependencies": {
-     "static-content-cannabis": "git@github.com:cagov/static-content-cannabis.git"
-   }
-}
