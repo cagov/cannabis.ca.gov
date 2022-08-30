@@ -64,7 +64,7 @@ jobs:
         uses: mshick/add-pr-comment@v1
         with:
           message: |
-            Preview site available at [${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov](https://${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov/).  Or try: [${{ env.URLSAFE_BRANCH_NAME }}.d11yq541roz3eo.cloudfront.net](https://${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov/)
+            Preview site available at [${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov](https://${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov/).
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false
