@@ -13,12 +13,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.13.1
-      - name: Check for static content updates # npm-check-updates would be nice to use but not working with plain github repos.
+      - name: Check for static content updates # update static content repo.
         run: |
           mkdir dist
           npm install
-          npm uninstall static-content-cannabis
-          npm install static-content-cannabis --save
+          npm update static-content-cannabis
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
         uses: peter-evans/create-pull-request@v4

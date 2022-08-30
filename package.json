@@ -34,8 +34,7 @@
     "clean-css": "^5.3.1",
     "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "static-content-cannabis": "git@github.com:cagov/static-content-cannabis.git"
+    "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
@@ -64,10 +63,11 @@
     "@cagov/ds-statewide-footer": "^2.0.0",
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
-    "@cagov/ds-table": "^1.0.1"
+    "@cagov/ds-table": "^1.0.1",
+    "static-content-cannabis": "github:cagov/static-content-cannabis"
   },
-  "engines" : { 
-    "npm" : ">=6.14.9",
-    "node" : ">=14.15.3"
+  "engines": {
+    "npm": ">=6.14.9",
+    "node": ">=14.15.3"
   }
 }
