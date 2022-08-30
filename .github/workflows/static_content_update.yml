@@ -17,7 +17,7 @@ jobs:
         run: |
           mkdir dist
           npm install
-          npm uninstall
+          npm uninstall static-content-cannabis
           npm install static-content-cannabis --save
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
