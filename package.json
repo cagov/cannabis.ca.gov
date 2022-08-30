@@ -4,7 +4,7 @@
   "description": "Static site generator for https://headless.cannabis.ca.gov",
   "main": "index.html",
   "scripts": {
-    "deploy:redirects": "node src/js/redirects/assign.js",
+    "deploy:redirects": "node src/deploay/redirects/assign.js",
     "build:dev": "cross-env NODE_ENV=development eleventy",
     "build:development": "cross-env SITE_ENV=development eleventy",
     "build:local": "cross-env SITE_ENV=localhost eleventy",
