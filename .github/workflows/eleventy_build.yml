@@ -26,7 +26,7 @@ jobs:
           mkdir dist
           npm install
           npm run build
-          npm run test:setup
+          # npm run test:setup
 
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
       - name: Deploy to github pages branch
