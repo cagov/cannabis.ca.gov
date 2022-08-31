@@ -56,5 +56,5 @@ jobs:
       - name: Dispatch build workflow [staging] # merge by bot not triggering push, dispatching workflow instead
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: eleventy_build_update_staging
+          workflow: eleventy_build_staging
           token: ${{ secrets.GITHUB_TOKEN }}

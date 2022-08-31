@@ -7,7 +7,7 @@ name: 11ty build production (Pantheon WP 5.8.1)
 # editor: https://api.cannabis.ca.gov
 on:
   repository_dispatch:
-    types: [eleventy_build_update_main]
+    types: [eleventy_build_main]
   push:
     branches:
       - main
