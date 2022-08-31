@@ -1,4 +1,4 @@
-name: 11ty build staging (Pantheon WP 5.8.1)
+name: 11ty build [staging]
 # site:  staging.cannabis.ca.gov
 # editor: https://api.cannabis.ca.gov
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
