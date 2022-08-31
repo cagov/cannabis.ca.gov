@@ -18,13 +18,13 @@ jobs:
       - name: Check for static content updates # update static content repo. Only install production so build goes faster.
         run: |
           mkdir dist
-          npm install --production
+          # npm install --production
           npm update static-content-cannabis
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
         uses: peter-evans/create-pull-request@v4
         with:
-          token: ${{ secrets.ODI_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           committer: ${{ secrets.ODI_GITHUB_USER }} <noreply@github.com> 
           base: main
           title: "Static content update to main branch from WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis"
@@ -45,11 +45,11 @@ jobs:
       - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
         uses: hmarr/auto-approve-action@v2
         with:
-          github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
       - id: automerge
         name: Auto merge static content update
         uses: "pascalgn/automerge-action@v0.15.3"
         env:
-          GITHUB_TOKEN: "${{ secrets.ODI_GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
