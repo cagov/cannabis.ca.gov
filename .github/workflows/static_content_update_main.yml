@@ -29,7 +29,7 @@ jobs:
           base: main
           title: "Static content update to main branch"
           body: |
-           Source - WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis
+           Source: api.cannabis.ca.gov (WordPress REST API, Pantheon) > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis (Static content repo, main branch)
           labels: |
             content-update
             automerge
@@ -50,4 +50,4 @@ jobs:
         name: Auto merge static content update
         uses: "pascalgn/automerge-action@v0.15.3"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.ODI_GITHUB_TOKEN }}"

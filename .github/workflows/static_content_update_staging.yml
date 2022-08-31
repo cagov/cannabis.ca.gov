@@ -29,7 +29,7 @@ jobs:
           base: staging
           title: "Static content update to staging branch"
           body: |
-           Source - WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis
+           Source: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis (Static content repo, staging branch)
           labels: |
             content-update
             automerge
