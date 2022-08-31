@@ -4,7 +4,6 @@ name: 11ty build [staging]
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 on:
   workflow_dispatch:
-    types: [eleventy_build_staging]
   push:
     branches:
       - staging
