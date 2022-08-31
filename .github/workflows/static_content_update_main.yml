@@ -1,0 +1,54 @@
+name: Update static content [main]
+
+on:
+  repository_dispatch:
+    types: [static_content_update_main]
+  schedule:
+    - cron: '35 * * * *'
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 16.13.1
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.13.1
+      - name: Check for static content updates # update static content repo.
+        run: |
+          mkdir dist
+          npm install
+          npm update static-content-cannabis
+      - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.ODI_GITHUB_TOKEN }}
+          committer: ${{ secrets.ODI_GITHUB_USER }}
+          base: main
+          title: "Static content update to main branch from WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis"
+          body: |
+           Update report
+          labels: |
+            content-update
+            automerge
+          review-message: "Auto approved automated PR: Static content update"
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          team-reviewers: |
+            ${{ secrets.PR_REVIEWERS}}
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"  
+      - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
+        uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
+      - name: Auto merge static content update
+        id: automerge
+        name: automerge
+        uses: "pascalgn/automerge-action@v0.15.3"
+        env:
+          GITHUB_TOKEN: "${{ secrets.ODI_GITHUB_TOKEN }}"
