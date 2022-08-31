@@ -43,7 +43,7 @@ jobs:
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"  
       - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
-         if: ${{ steps.cpr.outputs.pull-request-number }}
+        if: ${{ steps.cpr.outputs.pull-request-number }}
         uses: hmarr/auto-approve-action@v2
         with:
           github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
