@@ -4,7 +4,7 @@ name: 11ty build staging (Pantheon WP 5.8.1)
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 on:
   repository_dispatch:
-    types: [11ty_build_update_staging]
+    types: [eleventy_build_update_staging]
   push:
     branches:
       - staging
