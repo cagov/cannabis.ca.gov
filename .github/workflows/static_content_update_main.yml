@@ -35,7 +35,6 @@ jobs:
             automerge
           # valid inputs are ['token', 'path', 'add-paths', 'commit-message', 'committer', 'author', 'signoff', 'branch', 'delete-branch', 'branch-suffix', 'base', 'push-to-fork', 'title', 'body', 'labels', 'assignees', 'reviewers', 'team-reviewers', 'milestone', 'draft']
           commit-message: "Automated PR: Static content update"
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           team-reviewers: |
             ${{ secrets.PR_REVIEWERS }}
       - name: Check outputs
@@ -47,6 +46,7 @@ jobs:
         uses: hmarr/auto-approve-action@v2
         with:
           github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
       - id: automerge
         name: Auto merge static content update
         uses: "pascalgn/automerge-action@v0.15.3"
