@@ -6,7 +6,7 @@ name: 11ty build [production]
 # site:  cannabis.ca.gov
 # editor: https://api.cannabis.ca.gov
 on:
-  repository_dispatch:
+  workflow_dispatch:
     types: [eleventy_build_main]
   push:
     branches:
