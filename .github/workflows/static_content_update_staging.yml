@@ -15,18 +15,17 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.13.1
-      - name: Check for static content updates # update static content repo.
+      - name: Check for static content updates # update static content repo. Only install production so build goes faster.
         run: |
           mkdir dist
-          npm install
+          npm install --production
           npm update static-content-cannabis
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.ODI_GITHUB_TOKEN }}
-          committer: ${{ secrets.ODI_GITHUB_EMAIL }}
-          author: ${{ secrets.ODI_GITHUB_USER }}
+          committer: ${{ secrets.ODI_GITHUB_USER }} <noreply@github.com> 
           base: staging
           title: "Static content update to staging branch from WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis"
           body: |
