@@ -52,3 +52,9 @@ jobs:
         uses: "pascalgn/automerge-action@v0.15.3"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Dispatch build workflow [staging] # merge by bot not triggering push, dispatching workflow instead
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: eleventy_build_update_staging
+          token: ${{ secrets.GITHUB_TOKEN }}
