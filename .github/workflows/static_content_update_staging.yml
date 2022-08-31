@@ -1,6 +1,7 @@
 name: Update static content [staging]
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [static_content_update_staging]
   schedule:
