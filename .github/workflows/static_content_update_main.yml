@@ -25,7 +25,8 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.ODI_GITHUB_TOKEN }}
-          committer: ${{ secrets.ODI_GITHUB_USER }}
+          committer: ${{ secrets.ODI_GITHUB_EMAIL }}
+          author: ${{ secrets.ODI_GITHUB_USER }}
           base: main
           title: "Static content update to main branch from WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis"
           body: |
