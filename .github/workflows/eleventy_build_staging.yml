@@ -1,9 +1,13 @@
-name: 11ty build [staging]
-# site:  staging.cannabis.ca.gov
-# editor: https://api.cannabis.ca.gov
+name: 11ty build Staging Site
+# site:  https://staging.cannabis.ca.gov
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
+# editor: https://api.cannabis.ca.gov
 on:
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Update static content [staging]"]
+    types: ['completed']
+    branches:
+      - staging
   push:
     branches:
       - staging
@@ -24,7 +28,7 @@ jobs:
       - name: Build 11ty
         run: |
           mkdir dist
-          npm install
+          npm install --production
           npm run build
           # npm run test:setup
 

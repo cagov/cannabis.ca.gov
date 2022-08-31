@@ -27,13 +27,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           committer: ${{ secrets.ODI_GITHUB_USER }} <noreply@github.com> 
           base: staging
-          title: "Static content update to staging branch from WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis"
+          title: "Static content update to staging branch"
           body: |
-           Update report
+           Source - WordPress API > AWS Lambda cagov/cannabis-lambda-sync-github > cagov/static-content-cannabis
           labels: |
             content-update
             automerge
-          # valid inputs are ['token', 'path', 'add-paths', 'commit-message', 'committer', 'author', 'signoff', 'branch', 'delete-branch', 'branch-suffix', 'base', 'push-to-fork', 'title', 'body', 'labels', 'assignees', 'reviewers', 'team-reviewers', 'milestone', 'draft']
           commit-message: "Automated PR: Static content update [STAGING]"
           team-reviewers: |
             ${{ secrets.PR_REVIEWERS }}
@@ -42,19 +41,13 @@ jobs:
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"  
-      # - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
-      #   uses: hmarr/auto-approve-action@v2
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+      - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
+        uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
       - id: automerge
         name: Auto merge static content update
         uses: "pascalgn/automerge-action@v0.15.3"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-
-      - name: Dispatch build workflow [staging] # merge by bot not triggering push, dispatching workflow instead
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: 11ty build [staging]
-          token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: "${{ secrets.ODI_GITHUB_TOKEN }}"
