@@ -91,3 +91,22 @@ h2 {
   }
   
 }
+
+.external-link-icon {
+  width: 20px;
+}
+
+.pdf-link-icon {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 400;
+  display: inline-block;
+  outline: 1px solid;
+  outline-offset: -2px;
+  padding: 1px 4px 0px 4px;
+  position: relative;
+  left: 1px;
+  top: -3px;
+  line-height: .9rem;
+  margin-left: 4px;
+}
