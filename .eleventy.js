@@ -18,30 +18,8 @@ const {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.htmlTemplateEngine = "njk";
-
-  eleventyConfig.setUseGitIgnore(false);
-
-  // Copy content from static bundle to gitignored folder in 11ty directory for local processing
-  copyFolderRecursiveSync(
-    config.staticContentPaths.posts,
-    config.build.eleventy_content
-  );
-
-  copyFolderRecursiveSync(
-    config.staticContentPaths.pages,
-    config.build.eleventy_content
-  );
-
-  copyFolderRecursiveSync(
-    config.staticContentPaths.menu,
-    config.build.eleventy_content
-  );
-
-  copyFolderRecursiveSync(
-    config.staticContentPaths.redirects,
-    config.build.eleventy_content
-  );
-
+  
+  // Register ca.gov 11ty build system.
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
       sass: {
@@ -98,6 +76,28 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  // Copy content from static bundle to gitignored folder in 11ty directory for local processing
+  eleventyConfig.setUseGitIgnore(false);
+  copyFolderRecursiveSync(
+    config.staticContentPaths.posts,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.pages,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.menu,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.redirects,
+    config.build.eleventy_content
+  );
+
   // Replace Wordpress Media paths.
   // Use this explicitly when a full URL is needed, such as within meta tags.
   // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
@@ -116,29 +116,29 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Not sure we are still using this - CS
-  // eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
-  //   //outputPath === false means serverless templates (@DOCS ? - CS)
-  //   if (!outputPath || outputPath.endsWith(".html")) {
-  //     // Render post-list components
-  //     if (html.includes("cagov-post-list")) {
-  //       html = renderPostLists(html);
-  //     }
+  
+  eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
+    //outputPath === false means serverless templates (@DOCS ? - CS)
+    if (!outputPath || outputPath.endsWith(".html")) {
+      // Render post-list components
+      if (html.includes("cagov-post-list")) {
+        html = renderPostLists(html);
+      }
 
-  //     // Render posts with event web component
-  //     if (html.includes("cagov-event-post-list")) {
-  //       html = renderEventLists(html);
-  //     }
+      // Render posts with event web component
+      if (html.includes("cagov-event-post-list")) {
+        html = renderEventLists(html);
+      }
 
-  //     // Minify HTML
-  //     html = htmlmin.minify(html, {
-  //       useShortDoctype: true,
-  //       removeComments: true,
-  //       collapseWhitespace: true,
-  //     });
-  //   }
-  //   return html;
-  // });
+      // Minify HTML
+      html = htmlmin.minify(html, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+    }
+    return html;
+  });
 
   // Copy media assets folder from static site to built site
   // 11ty copy assets

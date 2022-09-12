@@ -11,3 +11,12 @@
 @import 'svg-icons';
 
 
+
+.mobile-only {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .mobile-only {
+    display: inline;
+  }
+}

@@ -42,8 +42,6 @@ const getEventsByCategory = (categoryString, count = 5) => {
       }
     }
   });
-
-  console.log("wordPressArray", wordPressArray);
   
   let postsToReturn = wordPressArray
     .sort((a, b) => {
