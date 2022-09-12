@@ -72,8 +72,6 @@ module.exports = {
     location: "Header",
   },
 
-
-
   "Skip to content": {
     en: "Skip to content"
   },

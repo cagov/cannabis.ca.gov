@@ -1,4 +1,4 @@
-const translations = require("./../../../src/templates/_data/i18n");
+const translations = require("./../../../pages/_data/i18n");
 
 /**
  * Template functions

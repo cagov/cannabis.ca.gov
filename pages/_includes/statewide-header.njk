@@ -36,11 +36,5 @@
         <span class="mobile-only">{{ 'State of California' | i18n(locale) }}</span>
       </p>
     </div>
-    <div class="cagov-language-switcher">
-      <ul>
-        <li><a href="{{ page | pagePath('/') }}" rel="alternate" lang="en" hreflang="en" data-active="{{ page | langPathActive('en', locale) }}">English</a></li>
-        <li><a href="/es{{ page | pagePath('/es/') }}" rel="alternate" lang="es" hreflang="es" data-active="{{ page | langPathActive('es', locale) }}">Español</a></li>
-      </ul>
-    </div>
   </div>
 </div>

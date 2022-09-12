@@ -48,7 +48,7 @@ cd cannabis.ca.gov
 npm run build && npm run dev
 
 # Manually copy code from src/js/combobox-places/template.html
-# to cannabis.ca.gov/src/templates/wordpress/pages/where-cannabis-business-is-legal-in-california.html
+# to cannabis.ca.gov/pages/wordpress/pages/where-cannabis-business-is-legal-in-california.html
 
 # urlpath cannabis-laws/where-cannabis-business-is-legal-in-california/
 ```

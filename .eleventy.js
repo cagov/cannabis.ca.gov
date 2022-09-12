@@ -1,14 +1,15 @@
 const cagovBuildSystem = require("@cagov/11ty-build-system");
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const config = require("./config");
-const { copyFolderRecursiveSync } = require("./src/js/sync-static-content");
+const { copyFolderRecursiveSync } = require("./src/js/eleventy/sync-static-content");
 const {
   renderPostLists,
   renderWordpressPostTitleDate,
-} = require("./src/js/post-list/render");
-const { renderEventLists } = require("./src/js/event-list/render");
-const { EleventyI18nPlugin } = require("@11ty/eleventy");
+} = require("./src/js/eleventy/post-list/render");
+const { renderEventLists } = require("./src/js/eleventy/event-list/render");
+
 const {
   pagePath,
   relativePath,

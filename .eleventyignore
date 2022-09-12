@@ -2,10 +2,11 @@ node_modules
 src/js
 src/assets
 src/components
+src/css
 src/deploy
 src/rootcopy
-src/templates/_includes
-src/templates/_data
+pages/_includes
+pages/_data
 _monolith
 .github
 README.md

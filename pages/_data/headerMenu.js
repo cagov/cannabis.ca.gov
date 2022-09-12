@@ -1,6 +1,6 @@
 const fs = require("fs");
-const config = require('../../../config');
-const data = require("./../_content/menu/headerMenu.json");
+const config = require('../../config');
+const data = require("../_content/menu/headerMenu.json");
 
 /**
  * Read menu object and build dataset for header menu component.

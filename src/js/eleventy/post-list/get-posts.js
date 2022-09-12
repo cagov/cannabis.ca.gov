@@ -1,5 +1,5 @@
 const fs = require("fs");
-const config = require("../../../config");
+const config = require("./../../../../config");
 /**
  * Checks for a match between two sets of categories.
  * @param {string[]} componentCategories An array of categories requested by the cagov-post-list component.
