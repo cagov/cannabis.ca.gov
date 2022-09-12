@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.15",
+    "@11ty/eleventy-server-browsersync": "^1.0.2",
     "@cagov/11ty-build-system": "^1.0.0-beta.2",
     "@cagov/ds-accordion": "^2.0.3",
     "@cagov/ds-agency-footer": "^1.0.2",

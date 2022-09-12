@@ -4,7 +4,6 @@ _monolith
 config
 dist
 node_modules
-src
 .eleventy.js
 .gitignore
 CHANGELOG.md

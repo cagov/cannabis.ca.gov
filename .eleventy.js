@@ -1,17 +1,11 @@
-const cagovBuildSystem = require("@cagov/11ty-build-system");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const cagovBuildSystem = require("@cagov/11ty-build-system");
 const config = require("./config");
-const {
-  copyFolderRecursiveSync,
-} = require("./src/js/eleventy/sync-static-content");
-const {
-  renderPostLists,
-  renderWordpressPostTitleDate,
-} = require("./src/js/eleventy/post-list/render");
+const { copyFolderRecursiveSync } = require("./src/js/eleventy/sync-static-content");
+const { renderPostLists, renderWordpressPostTitleDate } = require("./src/js/eleventy/post-list/render");
 const { renderEventLists } = require("./src/js/eleventy/event-list/render");
-
 const { pagePath, relativePath, i18n } = require("./src/js/eleventy/filters");
 
 module.exports = function (eleventyConfig) {
@@ -39,85 +33,6 @@ module.exports = function (eleventyConfig) {
     config.build.eleventy_content
   );
 
-  // Register ca.gov 11ty build system.
-  eleventyConfig.addPlugin(cagovBuildSystem, {
-    processors: {
-      sass: {
-        watch: ["src/css/*", "src/css/**/*"],
-        output: "dist/index.css",
-        options: {
-          file: "src/css/index.scss",
-          includePaths: ["./src/css"],
-        },
-      },
-      esbuild: {
-        watch: ["src/js/**", "src/js/**/*"],
-        options: {
-          entryPoints: ["src/js/index.js"],
-          bundle: true,
-          minify: true,
-          outfile: "dist/site.js",
-        },
-      },
-    },
-  });
-
-  eleventyConfig.setBrowserSyncConfig({
-    watch: true,
-    notify: true,
-  });
-
-  // https://www.11ty.dev/docs/plugins/i18n/ canary version docs
-  eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    // any valid BCP 47-compatible language tag is supported
-    defaultLanguage: "en",
-  });
-
-  // 11ty filters:
-  eleventyConfig.addFilter("cssmin", function (code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
-  eleventyConfig.addFilter("i18n", i18n);
-  eleventyConfig.addFilter("pagePath", pagePath);
-  eleventyConfig.addFilter("relativePath", relativePath);
-
-  // Change the domain on a URL.
-  // Process all the URLs elsewhere 
-  // eleventyConfig.addFilter("changeDomain", function (url, domain) {
-  //   try {
-  //     let changedUrl = url;
-  //     let host = config.build.canonical_url.split("//");
-  //     console.log("host.length", host.length);
-  //     if (host.length > 0) {
-  //       // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
-  //       // config.build.replace_urls.map((item) => {
-  //       //   changedUrl = changedUrl.replace(item, host[0] + "//" + domain);
-  //       // });
-  //     }
-  //     return changedUrl;
-  //   } catch {
-  //     return url;
-  //   }
-  // });
-
-  // Replace Wordpress Media paths.
-  // Use this explicitly when a full URL is needed, such as within meta tags.
-  // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
-  eleventyConfig.addFilter("changeWpMediaPath", function (path) {
-    return path.replace(
-      new RegExp(`/${config.build.upload_folder}`, "g"),
-      config.build.eleventy_media
-    );
-  });
-
-  // Used in announcements.njk
-  eleventyConfig.addFilter("displayPostInfo", function (item) {
-    return renderWordpressPostTitleDate(item.data, {
-      showExcerpt: true,
-      showPublishDate: true,
-    });
-  });
-
   eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
     //outputPath === false means serverless templates (@DOCS ? - CS)
     if (!outputPath || outputPath.endsWith(".html")) {
@@ -139,6 +54,70 @@ module.exports = function (eleventyConfig) {
       });
     }
     return html;
+  });
+
+  // Register ca.gov 11ty build system.
+  eleventyConfig.addPlugin(cagovBuildSystem, {
+    processors: {
+      sass: {
+        watch: ["src/css/**"],
+        output: "dist/index.css",
+        options: {
+          file: "src/css/index.scss",
+          includePaths: ["./src/css"],
+        },
+      },
+      esbuild: {
+        watch: ["src/js/**", "src/js/**/*"],
+        options: {
+          entryPoints: ["src/js/index.js"],
+          bundle: true,
+          minify: true,
+          outfile: "dist/site.js",
+        },
+      },
+    },
+  });
+
+
+  eleventyConfig.setBrowserSyncConfig({
+    notify: true,
+    watch: true
+  });
+
+  // eleventyConfig.addWatchTarget("./src/css/**");
+  // eleventyConfig.setWatchThrottleWaitTime(100); // in milliseconds
+
+  // https://www.11ty.dev/docs/plugins/i18n/ canary version docs
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    // any valid BCP 47-compatible language tag is supported
+    defaultLanguage: "en",
+  });
+
+  // 11ty filters:
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+  eleventyConfig.addFilter("i18n", i18n);
+  eleventyConfig.addFilter("pagePath", pagePath);
+  eleventyConfig.addFilter("relativePath", relativePath);
+
+  // Replace Wordpress Media paths.
+  // Use this explicitly when a full URL is needed, such as within meta tags.
+  // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
+  eleventyConfig.addFilter("changeWpMediaPath", function (path) {
+    return path.replace(
+      new RegExp(`/${config.build.upload_folder}`, "g"),
+      config.build.eleventy_media
+    );
+  });
+
+  // Used in announcements.njk
+  eleventyConfig.addFilter("displayPostInfo", function (item) {
+    return renderWordpressPostTitleDate(item.data, {
+      showExcerpt: true,
+      showPublishDate: true,
+    });
   });
 
   // Copy media assets folder from static site to built site
