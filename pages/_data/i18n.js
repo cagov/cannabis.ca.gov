@@ -92,4 +92,8 @@ module.exports = {
 
     location: "Header",
   },
+
+  "Search Results": {
+    en: "Search results for"
+  }
 };
