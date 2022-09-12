@@ -34,9 +34,8 @@
                     </span>
                   </button>
                 {% else %}
-                  <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url | changeDomain(domain) }}">
+                  <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url }}">
                     {{ menu.title | safe }}
-                    {{ menu.url | changeDomain(domain)  }}
                   </a>
                 {% endif %}
               </strong>
@@ -44,7 +43,7 @@
               {% if menu['child_items'] | length %}
                 <div class="expanded-menu-dropdown">
                   {% for sublink in menu['child_items'] %}
-                    <a class="expanded-menu-dropdown-link js-event-hm-menu" href="{{ sublink.url | changeDomain(domain)  }}" tabindex="-1">{{ sublink.title | safe }}</a>
+                    <a class="expanded-menu-dropdown-link js-event-hm-menu" href="{{ sublink.url  }}" tabindex="-1">{{ sublink.title | safe }}</a>
                   {% endfor %}
                 </div>
               {% endif %}

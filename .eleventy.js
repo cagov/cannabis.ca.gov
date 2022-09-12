@@ -3,22 +3,42 @@ const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const config = require("./config");
-const { copyFolderRecursiveSync } = require("./src/js/eleventy/sync-static-content");
+const {
+  copyFolderRecursiveSync,
+} = require("./src/js/eleventy/sync-static-content");
 const {
   renderPostLists,
   renderWordpressPostTitleDate,
 } = require("./src/js/eleventy/post-list/render");
 const { renderEventLists } = require("./src/js/eleventy/event-list/render");
 
-const {
-  pagePath,
-  relativePath,
-  i18n,
-} = require("./src/js/eleventy/filters");
+const { pagePath, relativePath, i18n } = require("./src/js/eleventy/filters");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.htmlTemplateEngine = "njk";
-  
+
+  // Copy content from static bundle to gitignored folder in 11ty directory for local processing
+  eleventyConfig.setUseGitIgnore(false);
+  copyFolderRecursiveSync(
+    config.staticContentPaths.posts,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.pages,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.menu,
+    config.build.eleventy_content
+  );
+
+  copyFolderRecursiveSync(
+    config.staticContentPaths.redirects,
+    config.build.eleventy_content
+  );
+
   // Register ca.gov 11ty build system.
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
@@ -53,7 +73,7 @@ module.exports = function (eleventyConfig) {
     defaultLanguage: "en",
   });
 
-  // 11ty filters: 
+  // 11ty filters:
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
@@ -62,41 +82,23 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("relativePath", relativePath);
 
   // Change the domain on a URL.
-  eleventyConfig.addFilter("changeDomain", function (url, domain) {
-    try {
-      let host = config.build.canonical_url.split("//");
-      let changedUrl = url;
-      // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
-      config.build.replace_urls.map((item) => {
-        changedUrl = changedUrl.replace(item, host[0] + "//" + domain);
-      });
-      return changedUrl;
-    } catch {
-      return url;
-    }
-  });
-
-  // Copy content from static bundle to gitignored folder in 11ty directory for local processing
-  eleventyConfig.setUseGitIgnore(false);
-  copyFolderRecursiveSync(
-    config.staticContentPaths.posts,
-    config.build.eleventy_content
-  );
-
-  copyFolderRecursiveSync(
-    config.staticContentPaths.pages,
-    config.build.eleventy_content
-  );
-
-  copyFolderRecursiveSync(
-    config.staticContentPaths.menu,
-    config.build.eleventy_content
-  );
-
-  copyFolderRecursiveSync(
-    config.staticContentPaths.redirects,
-    config.build.eleventy_content
-  );
+  // Process all the URLs elsewhere 
+  // eleventyConfig.addFilter("changeDomain", function (url, domain) {
+  //   try {
+  //     let changedUrl = url;
+  //     let host = config.build.canonical_url.split("//");
+  //     console.log("host.length", host.length);
+  //     if (host.length > 0) {
+  //       // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
+  //       // config.build.replace_urls.map((item) => {
+  //       //   changedUrl = changedUrl.replace(item, host[0] + "//" + domain);
+  //       // });
+  //     }
+  //     return changedUrl;
+  //   } catch {
+  //     return url;
+  //   }
+  // });
 
   // Replace Wordpress Media paths.
   // Use this explicitly when a full URL is needed, such as within meta tags.
@@ -116,7 +118,6 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  
   eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
     //outputPath === false means serverless templates (@DOCS ? - CS)
     if (!outputPath || outputPath.endsWith(".html")) {

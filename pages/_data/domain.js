@@ -1,6 +1,5 @@
 const config = require('../../config');
-const defaultDomain = new URL(config.build.static_site_url).host;
-
+const defaultDomain = config.build.static_site_url;
 /**
  * Make a DOMAIN variable available to templates.
  */

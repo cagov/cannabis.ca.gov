@@ -4,7 +4,6 @@ _monolith
 config
 dist
 node_modules
-pages
 src
 .eleventy.js
 .gitignore
