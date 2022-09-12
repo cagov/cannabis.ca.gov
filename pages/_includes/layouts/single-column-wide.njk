@@ -1,18 +1,35 @@
 {% extends "./../base-layout.njk" %}
 
 {% block content %}
-  <div id="page-container" class="page-container-ds">
-    <main id="body-content">
-      <div class="single-column">
-        <article id="post-{{ page.fileSlug }}">
-          <h1>{{ title | safe }}</h1>
-          <div class="category-label">{{ category | safe }}</div>
-          <div class="entry-content">
-            {{ content | safe }}
-          </div>
-        </article>
-        <span class="return-top hidden-print"></span>
-      </div>
-    </main>
-  </div>
+    <div id="page-container" class="page-container-ds">
+        <div id="main-content" class="main-content-ds single-column">
+            <div class="breadcrumb" aria-label="Breadcrumb" role="region">
+                <a class="crumb" href="https:\/\/ca.gov" title="CA.GOV">CA.GOV</a>
+                <span class="crumb separator">/</span>
+                <a class="crumb" href="/" title="Department of Cannabis Control">Department of Cannabis Control</a>
+                <span class="crumb separator">/</span>
+                <span class="crumb">{{ fileids[parentid] | safe }}</span>
+                <span class="crumb separator">/</span>
+                <span class="crumb current">{{ title | safe }}</span>
+            </div>
+
+            {# The #body-content div is the skip-to-content target. #}
+            <div id="body-content" class="narrow-page-title">
+                <h1 class="page-title">{{ title | safe }}</h1>
+            </div>
+            <div class="ds-content-layout">
+                <main class="main-primary">
+                    <div>
+                        <article id="post-{{id}}">
+                            <!-- Page Title-->
+                            <h1 class="page-title wide-page-title">{{ title | safe }}</h1>
+                            <div class="entry-content">
+                                {{ content | safe }}
+                            </div>
+                        </article>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
 {% endblock %}
