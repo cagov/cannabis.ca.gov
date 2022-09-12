@@ -42,10 +42,13 @@ const getEventsByCategory = (categoryString, count = 5) => {
       }
     }
   });
+
+  console.log("wordPressArray", wordPressArray);
   
   let postsToReturn = wordPressArray
     .sort((a, b) => {
       try {
+        // @TODO TEST EVENTS - 
         let aDate = a.data.event.startDate;
         let bDate = b.data.event.startDate;
         return new Date(aDate) - new Date(bDate);

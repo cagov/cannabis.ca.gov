@@ -3,7 +3,6 @@ const AWS = require('aws-sdk')
 const s3 = new AWS.S3();
 const config = require("../../../config");
 
-
 const redirectFile = JSON.parse(fs.readFileSync(`${config.staticContentPaths.redirects}/redirects.json`));
 
 redirectFile.redirects.forEach((redirect) => {

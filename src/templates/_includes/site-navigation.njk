@@ -1,0 +1,23 @@
+{% set locale_dir = ["/"] | join %}
+
+{% if locale != "en" %}
+  {% set locale_dir = ["/", locale, "/"] | join %}
+{% endif %}
+
+<cagov-site-navigation>
+  <div class="container">
+    <nav class="expanded-menu" role="navigation" aria-label="{{ 'Site Navigation' | i18n(locale) }}" aria-hidden="false" id="main-menu">
+      <div class="expanded-menu-grid">
+
+        <div class="expanded-menu-col js-cagov-navoverlay-expandable">
+          <div class="expanded-menu-section">
+            <strong class="expanded-menu-section-header">
+              <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ locale_dir }}">{{ 'Home' | i18n(locale) }}</a>
+            </strong>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</cagov-site-navigation>

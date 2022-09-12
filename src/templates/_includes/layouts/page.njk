@@ -1,41 +1,5 @@
-{% extends "layouts/index.njk" %}
+{% extends "./../base-layout.njk" %}
 
 {% block content %}
-  <div id="page-container" class="with-sidebar has-sidebar-left page-container-ds">
-    <div id="main-content" class="main-content-ds single-column">
-      <div class="breadcrumb" aria-label="Breadcrumb" role="region">
-        <a class="crumb" href="https:\/\/ca.gov" title="CA.GOV">CA.GOV</a>
-        <span class="crumb separator">/</span>
-        <a class="crumb" href="/" title="Department of Cannabis Control">Department of Cannabis Control</a>
-        <span class="crumb separator">/</span>
-        <span class="crumb">{{ fileids[parentid] | safe }}</span>
-        <span class="crumb separator">/</span>
-        <span class="crumb current">{{ title | safe }}</span>
-      </div>
-      <div class="ds-content-layout">
-        <aside>
-          <div class="sidebar-container everylayout" style="z-index: 1;">
-            <sidebar space="0" side="left">
-              <cagov-page-navigation data-selector="main" data-type="wordpress" data-label="On this page"></cagov-page-navigation>
-            </sidebar>
-          </div>
-        </aside>
-        <div class="everylayout">
-          {# The #body-content div is the skip-to-content target. #}
-          <main id="body-content" class="main-primary">
-            <article id="post-{{ id }}">
-              <h1 class="page-title">{{ title | safe }}</h1>
-              <!-- Page Title-->
-              <h1 class="wide-page-title page-title">
-                {{ title | safe }}
-              </h1>
-              <div class="entry-content">
-                {{ content | safe }}
-              </div>
-            </article>
-          </main>
-        </div>
-      </div>
-    </div>
-  </div>
+   {{ content | safe }}
 {% endblock %}

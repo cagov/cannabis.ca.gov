@@ -1,0 +1,173 @@
+/* GLOBAL */
+// Site Colors
+@import "theme-tokens"; /* theme colors @TODO update with DCC colors 2022 */
+
+/* sitewide styles */
+@import "../../node_modules/@cagov/ds-base-css/src/core";
+
+/* COMPONENTS/BLOCKS */
+@import "../../node_modules/@cagov/ds-site-header/src/index.scss";
+@import "../../node_modules/@cagov/ds-link-grid/src/index.scss"; /* copied from blocks */
+@import "../../node_modules/@cagov/ds-feature-card/src/index.scss"; /* copied from block */
+@import "../../node_modules/@cagov/ds-skip-to-content/src/index.scss";
+@import "../../node_modules/@cagov/ds-table/src/index.scss";
+@import "step-list-patch";
+
+/* NAVIGATION ELEMENTS */
+@import "../../node_modules/@cagov/ds-statewide-header/src/index.scss";
+@import "../../node_modules/@cagov/ds-site-footer/src/index.scss";
+@import "../../node_modules/@cagov/ds-statewide-footer/src/index.scss";
+@import "../../node_modules/@cagov/ds-site-navigation/src/index.scss";
+
+@import "./_fonts"; /* website global fonts */
+
+@import "theme-overrides"; /* theme colors */
+
+@import "layout";
+
+@import 'svg-icons';
+
+/* need this globally, not sure why it was missing */
+a {
+  text-underline-position: under;
+}
+cagov-site-navigation .expanded-menu-section-header-link {
+  color: #005186;
+}
+cagov-site-navigation .expanded-menu-section-header-link:hover {
+  color: #002e4d;
+}
+
+/* fixes bug with this is getting in the way, taking up 1px at top */
+#skip-to-content {
+  margin-top: -1px;
+}
+
+.logo-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1rem;
+  align-items: center;
+}
+/* add padding on content pages */
+.main-content-ds {
+  padding-top: 3rem;
+}
+
+/* remove padding on homepage */
+.main-content-ds.single-column.landing {
+  padding-top: 0;
+}
+
+/* site specific breadcrumb overrides */
+.breadcrumb {
+  font-size: calc(0.875rem + var(--ratio));
+  background: #fff;
+  padding: 0.625rem;
+}
+
+.shorter {
+  width: 70% !important;
+  max-width: 1222px;
+}
+/* this looks like it should be part of breadcrumb, not having it is a bug */
+@media only screen and (max-width: 992px) {
+  .breadcrumb {
+    display: none;
+  }
+}
+
+/* this is a minor bug in page feedback, it shouldn't have widths inside it */
+.footer-container cagov-page-feedback .feedback-form {
+  max-width: none;
+  margin: 0 var(--s-2, 1rem);
+}
+.footer-container section[aria-label="feedback"] {
+  max-width: var(--w-lg, 1176px);
+  margin: 0 auto;
+}
+
+/* this is a bug in feature card, should expand when in column mode */
+@media only screen and (max-width: 767px) {
+  main.landing-page {
+    .cagov-featured-sidebar {
+      max-width: none;
+    }
+  }
+}
+
+.main-primary.landing-page .entry-content {
+  margin-left: 1rem;
+}
+
+/* beginnings of highlight box */
+.cagov-emphasized {
+  font-size: var(--s-3, 1.5rem);
+}
+
+/* temp hack until we enable tabs on our work page again */
+@media only screen and (min-width: 767px) {
+  .page-title.p-l-2 {
+    padding-left: 0 !important;
+  }
+}
+
+/* bug in page feedback, this shouldn't be an h2 */
+cagov-page-feedback h2 {
+  font-size: 1.15rem;
+  font-family: var(--site-font, "Public Sans", sans-serif);
+  font-weight: normal;
+}
+
+/* bug in site header */
+cagov-site-navigation .expanded-menu-section-header-arrow-svg {
+  fill: var(--primary-color, #064e66);
+}
+
+/* possible bugs in feature card which were making our wide rectangular image get cutoff */
+.cagov-featured-image {
+  min-height: 0;
+  max-height: 500rem;
+  height: auto;
+}
+
+/* missing utility class */
+.cagov-mt-3 {
+  margin-top: var(--s-5, 3rem);
+}
+
+.cagov-language-switcher ul {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 0;
+
+  li {
+    list-style: none;
+  }
+  li a[data-active="true"] {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-right: 16px;
+  }
+  li a[data-active="false"] {
+    display: none;
+  }
+  li a,
+  li a:hover {
+    color: #fff;
+  }
+}
+
+.mobile-only {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .mobile-only {
+    display: inline;
+  }
+}

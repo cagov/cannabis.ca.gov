@@ -1,6 +1,6 @@
+const cagovBuildSystem = require("@cagov/11ty-build-system");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
-const cagovBuildSystem = require("@cagov/11ty-build-system");
 const config = require("./config");
 const { copyFolderRecursiveSync } = require("./src/js/sync-static-content");
 const {
@@ -8,9 +8,19 @@ const {
   renderWordpressPostTitleDate,
 } = require("./src/js/post-list/render");
 const { renderEventLists } = require("./src/js/event-list/render");
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
+const {
+  pagePath,
+  relativePath,
+  langPathActive,
+  i18n,
+} = require("./src/js/eleventy/filters");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.htmlTemplateEngine = "njk";
+
   eleventyConfig.setUseGitIgnore(false);
+
   // Copy content from static bundle to gitignored folder in 11ty directory for local processing
   copyFolderRecursiveSync(
     config.staticContentPaths.posts,
@@ -35,25 +45,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
       sass: {
-        watch: ["src/css/**/*", "src/components/**/*.scss"],
+        watch: ["src/css/**/*"],
         output: "dist/index.css",
         options: {
-          file: "src/css/sass/index.scss",
+          file: "src/css/index.scss",
           includePaths: ["./src/css/sass"],
         },
       },
       esbuild: {
-        watch: ["src/js/**/*", "src/components/**/*"],
+        watch: ["src/js/**/*"],
         options: {
           entryPoints: ["src/js/index.js"],
           bundle: true,
           minify: true,
-          format: "esm",
           outfile: "dist/built.js",
-          loader: {
-            ".css": "text",
-            ".html": "text",
-          },
         },
       },
     },
@@ -64,15 +69,29 @@ module.exports = function (eleventyConfig) {
     notify: true,
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/assets/": "assets" });
+  eleventyConfig.addPassthroughCopy({ rootcopy: "rootcopy" });
+  eleventyConfig.addPassthroughCopy({ "src/css/fonts/": "fonts" }); // Required location by cagov code
+
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // https://www.11ty.dev/docs/plugins/i18n/ canary version docs
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    // any valid BCP 47-compatible language tag is supported
+    defaultLanguage: "en",
+  });
+
+  eleventyConfig.addFilter("i18n", i18n);
+  eleventyConfig.addFilter("pagePath", pagePath);
+  eleventyConfig.addFilter("relativePath", relativePath);
+  eleventyConfig.addFilter("langPathActive", langPathActive);
+
   // Change the domain on a URL.
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
     try {
-      let host = config.build.canonical_url.split("//"); 
-      console.log("host", host);
+      let host = config.build.canonical_url.split("//");
       let changedUrl = url;
       // There are multiple strings that we may need to replace because of how we merge and work with data. Use them all.
       config.build.replace_urls.map((item) => {
@@ -127,10 +146,9 @@ module.exports = function (eleventyConfig) {
 
   // Copy media assets folder from static site to built site
   eleventyConfig.addPassthroughCopy({
-  [config.staticContentPaths.media]:
-      config.build.docs_media,
+    [config.staticContentPaths.media]: config.build.docs_media,
   });
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
 
   return {

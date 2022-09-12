@@ -1,0 +1,94 @@
+{% set locale = "en" %}
+<!doctype html>
+<html lang="{{ locale }}" xml:lang="{{ locale }}" dir="{{ dir }}">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="en" http-equiv="Content-Language">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="{{ 'Office of Data and Innovation - State of California' | i18n(locale) }}" name="author">
+    <meta content="#000000" name="theme-color">
+    <title>
+      {% if title %}{{ page_metadata.page_title | safe }}
+      {% else %}{{ 'California abortion access' | i18n(locale) }}
+      {% endif %}
+    </title>
+
+    <link rel="canonical" href="{{ page | relativePath(locale) | changeDomain(domain) }}" />
+    <meta property="og:url" content="{{ page | relativePath(locale) | changeDomain(domain) }}" />
+    
+    <meta name="keywords" content="{{ page_metadata.keywords | safe }}" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="{{ page_metadata.site_name | safe }}" />
+    <meta property="og:title" content="{{ page_metadata.open_graph_title | safe }}" />
+    <meta name="description" content="{{ page_metadata.open_graph_description | striptags | safe }}"/>    
+    <meta property="og:description" content="{{ page_metadata.open_graph_description | striptags }}" />
+    <meta property="og:image" content="{{ page_metadata.open_graph_image_url | changeDomain(domain) }}" />
+    <meta property="og:image:width" content="{{ page_metadata.open_graph_image_width | safe }}" />
+    <meta property="og:image:height" content="{{ page_metadata.open_graph_image_height | safe }}" />
+    <meta property="og:image:alt" content="{{ page_metadata.open_graph_image_alt | safe }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ page_metadata.twitter_title | safe }}" />
+    <meta name="twitter:image" content="{{ page_metadata.open_graph_image_url | changeDomain(domain) }}" />
+    <meta name="twitter:image:width" content="{{ page_metadata.open_graph_image_width | safe }}" />
+    <meta name="twitter:image:height" content="{{ page_metadata.open_graph_image_height | safe }}" />
+
+    <link rel="icon" href="/assets/img/favicon.png">
+
+    <!-- CSS -->
+    {% block css %}
+      {% set css %}
+      {% include "../../dist/index.css" %}
+      {% endset %}
+      <style>
+        {{css | safe}}
+      </style>
+    {% endblock %}
+
+    {% block js %}
+      {% set js %}
+      {% include "../../dist/site.js" %}
+      {% endset %}
+      <script type="module">
+        {{ js | safe }}
+      </script>
+    {% endblock %}
+  </head>
+  <body>
+    <div id="skip-to-content">
+      <a href="#body-content">{{ 'Skip to content' | i18n(locale) }}</a>
+    </div>
+
+    <header class="header-container">
+      {% block statewideHeader %}
+        {% include "statewide-header.njk" %}
+      {% endblock %}
+
+      {% block siteHeader %}
+        {% include "site-header.njk" %}
+      {% endblock %}
+
+      {% block siteNavigation %}
+        {% include "site-navigation.njk" %}
+      {% endblock %}
+    </header>
+
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
+
+    <div class="footer-container">
+      {% block agencyFooter %}
+        {% include "site-footer.njk" %}
+      {% endblock %}
+      {% block statewideFooter %}
+        {% include "statewide-footer.njk" %}
+      {% endblock %}
+    </div>
+    {% block analytics %}
+      {% include "analytics.njk" %}
+    {% endblock %}
+  </body>
+</html>

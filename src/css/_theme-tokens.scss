@@ -1,0 +1,34 @@
+/* Cagov color scheme root variables */
+
+:root {
+  /* Theme colors */
+  --primary-color: #064e66;
+  --primary-hover-color: #043747;
+  --standout-color: #2f4c2c;
+  --standout-hover-color: #21351f;
+  --secondary-color: #2f4c2c;
+  --highlight-color: #fdb81e;
+
+  // @TODO These are the colors we need to re-assign.
+  --primary-700: #0473bd;
+  --primary-dark-color: #00315f;
+  --primary-light-color: #3f73a4;
+  --primary-lightest-color: #7fa1c2;
+
+  --secondary-color: #704315;
+  --secondary-dark-color: #472a06;
+  --secondary-light-color: #a26016;
+  --secondary-lightest-color: #e4881e;
+  --secondary-hover-color: #472a06;
+
+  --highlight-color: #c24629;
+  --highlight-dark-color: #512317;
+  --highlight-light-color: #c24629;
+  --highlight-lightest-color: #e0866d;
+  --highlight-hover-color: #512317;
+
+  /* sitewide gradient */
+  --top-gradient: linear-gradient(#fbefe0, #fff 600px);
+
+  --org-name-dept-font-size: 2.25rem;
+}

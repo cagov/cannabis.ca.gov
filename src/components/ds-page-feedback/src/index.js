@@ -146,5 +146,6 @@ export class CAGovPageFeedback extends window.HTMLElement {
     });
   }
 }
-
-window.customElements.define('cagov-page-feedback', CAGovPageFeedback);
+if (!customElements.get('cagov-page-feedback')) {
+  window.customElements.define('cagov-page-feedback', CAGovPageFeedback);
+}
