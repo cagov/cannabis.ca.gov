@@ -1,19 +1,20 @@
 /* Cagov color scheme root variables */
-
+// WIP: https://www.figma.com/file/b1UMYEmd7PBEMHqux75NDf/Untitled?node-id=6%3A69
 :root {
   /* Theme colors */
   --primary-color: #064e66;
   --primary-hover-color: #043747;
+
   --standout-color: #2f4c2c;
   --standout-hover-color: #21351f;
   --secondary-color: #2f4c2c;
   --highlight-color: #fdb81e;
 
   // @TODO These are the colors we need to re-assign.
-  --primary-700: #0473bd;
-  --primary-dark-color: #00315f;
-  --primary-light-color: #3f73a4;
-  --primary-lightest-color: #7fa1c2;
+  --primary-700: #064e66;
+  --primary-dark-color: #033242;
+  --primary-light-color: #B4CAD1;
+  --primary-lightest-color: #E6EDF0;
 
   --secondary-color: #704315;
   --secondary-dark-color: #472a06;

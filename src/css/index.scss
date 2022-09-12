@@ -1,30 +1,13 @@
 /* GLOBAL */
-// Site Colors
-@import "theme-tokens"; /* theme colors @TODO update with DCC colors 2022 */
+@import "theme-tokens"; /* theme colors */
 
 /* sitewide styles */
 @import "../../node_modules/@cagov/ds-base-css/src/core";
 
-/* COMPONENTS/BLOCKS */
-@import "../../node_modules/@cagov/ds-site-header/src/index.scss";
-@import "../../node_modules/@cagov/ds-link-grid/src/index.scss"; /* copied from blocks */
-@import "../../node_modules/@cagov/ds-feature-card/src/index.scss"; /* copied from block */
-@import "../../node_modules/@cagov/ds-skip-to-content/src/index.scss";
-@import "../../node_modules/@cagov/ds-table/src/index.scss";
-@import "step-list-patch";
-
-/* NAVIGATION ELEMENTS */
-@import "../../node_modules/@cagov/ds-statewide-header/src/index.scss";
-@import "../../node_modules/@cagov/ds-site-footer/src/index.scss";
-@import "../../node_modules/@cagov/ds-statewide-footer/src/index.scss";
-@import "../../node_modules/@cagov/ds-site-navigation/src/index.scss";
-
 @import "./_fonts"; /* website global fonts */
-
-@import "theme-overrides"; /* theme colors */
-
+@import "theme-overrides";
+@import "theme-tokens"; /* theme colors */
 @import "layout";
-
 @import 'svg-icons';
 
 
