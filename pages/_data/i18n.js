@@ -95,5 +95,9 @@ module.exports = {
 
   "Search Results": {
     en: "Search results for"
+  },
+
+  "Share via" : {
+    en: "Share via"
   }
 };

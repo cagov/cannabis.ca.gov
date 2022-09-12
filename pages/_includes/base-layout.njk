@@ -80,6 +80,9 @@
     {% endblock %}
 
     <div class="footer-container">
+      {% block pageFeedback %}
+        {% include "page-feedback.njk" %}
+      {% endblock %}
       {% block agencyFooter %}
         {% include "site-footer.njk" %}
       {% endblock %}

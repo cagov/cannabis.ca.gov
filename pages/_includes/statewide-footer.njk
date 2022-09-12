@@ -41,8 +41,11 @@
       </a>
 
       <div class="footer-secondary-links">
-
+        {% for menu in stateWideFooterMenu %}
+          <a href="{{ menu.url | safe }}" rel="noopener noreferrer" target="_blank">{{ menu.title | safe }}</a>
+        {% endfor %}
       </div>
+
       <p class="copyright">{{ 'Copyright' | i18n(locale) }} &copy;&nbsp;
         <span class="js-cagov-current-year"></span>
         <script>

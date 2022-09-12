@@ -1,8 +1,3 @@
-<!-- not having the feedback component in v1
-{% if page.url !== "/error.html" %}
-  <cagov-page-feedback class="cagov-mb-2 d-block" data-endpoint-url="https://fa-go-feedback-001.azurewebsites.net/sendfeedback"></cagov-page-feedback>
-{% endif %}-->
-
 {% set locale_dir = ["/"] | join %}
 
 {% if locale != "en" %}
@@ -15,7 +10,22 @@
 
   </div>
   <div class="footer-secondary-links">
-
+      {% for menu in contentMenu %}
+        <a href="{{ menu.url | safe }}">{{ menu.title | safe }}</a>
+      {% endfor %}
   </div>
+
+  <!-- social media links  --> 
+  <div class="footer-social-links">
+    {% for menu in socialMediaLinksMenu %}
+      <a href="{{ menu.url | safe }}" title="{{ 'Share via' | i18n(locale) }} {{ menu.title | safe }}" rel="noopener noreferrer" target="_blank">
+        {% set path = "/assets/icons/" + menu.post_name + ".svg" %}
+        <img src="{{path}}" />
+
+        <span class="sr-only">{{ menu.title | safe }}</span>
+      </a>
+    {% endfor %}
+  </div>
+
 </div>
 </section>
