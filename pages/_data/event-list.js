@@ -35,7 +35,7 @@ module.exports = function (
 ) {
   return `<cagov-event-post-list class="event-list cagov-stack" data-category="${category}" data-count="${5}" data-order="${order}" data-endpoint="${endpoint}" data-show-excerpt="${showExcerpt}" data-show-published-date="${showPublishedDate}" data-no-results="${noResults}" data-show-pagination="${showPagination}" data-read-more="${readMore}" data-filter="${filter}">
       <div class="event-list-results">
-@TODO
+
       </div>
       
       ${readMore}

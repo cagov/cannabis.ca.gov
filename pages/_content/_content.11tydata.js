@@ -40,7 +40,7 @@ module.exports = {
   eleventyComputed: {
     permalink: article => getUrlPath(article.data?.wordpress_url),
     layout: article => getTemplate(article),
-    parentid: article => article.data.parent,
+    parentId: article => article.data.parent,
     title: article => article.data.title,
     category: article => article.data?.categories[0],
     site_name: config.og_meta.site_name,
