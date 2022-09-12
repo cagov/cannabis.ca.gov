@@ -9,7 +9,6 @@
         "eleventy_menu": "pages/_content/menu",
         "eleventy_redirects": "pages/_content/redirects",
         "docs_media": "wp_uploads",
-        "index_layout": "layouts/index",
         "upload_folder": "wp-content/uploads/",
         "replace_urls": [
           "http://cannabis.ca.gov/",

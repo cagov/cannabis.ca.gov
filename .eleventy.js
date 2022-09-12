@@ -59,7 +59,7 @@ module.exports = function (eleventyConfig) {
           entryPoints: ["src/js/index.js"],
           bundle: true,
           minify: true,
-          outfile: "dist/built.js",
+          outfile: "dist/site.js",
         },
       },
     },
