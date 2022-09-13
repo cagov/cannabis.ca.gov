@@ -35,9 +35,8 @@ jobs:
         run: |
           echo 'User-agent: *' > docs/robots.txt
           echo 'Allow: /' >> docs/robots.txt
-          echo 'Sitemap: https://drought.ca.gov/sitemap.xml' >> docs/robots.txt
-      # deploy built files to separate branch that contains only built files that github pages uses to serve site
-      - name: Deploy to github pages branch
+          echo 'Sitemap: https://staging.cannabis.ca.gov/sitemap.xml' >> docs/robots.txt
+      - name: Deploy to github pages branch # deploy built files to separate branch that contains only built files that github pages uses to serve site
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
