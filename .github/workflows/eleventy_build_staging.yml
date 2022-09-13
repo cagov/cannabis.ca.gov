@@ -31,6 +31,10 @@ jobs:
           npm install
           npm run build
           # npm run test:setup
+      - name: Write robots.txt
+        run: |
+          echo 'User-agent: *' > docs/robots.txt
+          echo 'Disallow: /' >> docs/robots.txt
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
       - name: Deploy to github pages branch
         uses: peaceiris/actions-gh-pages@v3
