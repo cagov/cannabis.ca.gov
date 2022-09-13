@@ -30,6 +30,7 @@ jobs:
           mkdir dist
           npm install --production
           npm run build
+          cp docs/rootcopy/robots.txt docs/
           # npm run test:setup
 
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
