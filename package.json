@@ -23,7 +23,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.3.0",
     "aws-sdk": "^2.1200.0",
-    "cheerio": "^1.0.0-rc.12",
+    
     "clean-css": "^5.3.1",
     "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
@@ -58,6 +58,7 @@
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
+    "cheerio": "^1.0.0-rc.12",
     "static-content-cannabis": "github:cagov/static-content-cannabis"
   },
   "engines": {
