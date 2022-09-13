@@ -123,7 +123,6 @@ module.exports = function (eleventyConfig) {
   // Copy media assets folder from static site to built site
   // 11ty copy assets
   eleventyConfig.addPassthroughCopy({ "src/assets/": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/rootcopy": "rootcopy" });
   eleventyConfig.addPassthroughCopy({ "src/css/fonts/": "fonts" }); // Required location by cagov code
   eleventyConfig.addPassthroughCopy({
     [config.staticContentPaths.media]: config.build.docs_media,
