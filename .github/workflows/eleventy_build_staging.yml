@@ -61,8 +61,8 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/assets/fonts'
-          dest: 's3://staging.cannabis.ca.gov/assets/fonts'
+          source: './docs/fonts'
+          dest: 's3://staging.cannabis.ca.go/fonts'
           flags: --recursive --cache-control max-age=15552000
 
       - name: Deploy redirects
