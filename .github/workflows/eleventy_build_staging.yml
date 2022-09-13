@@ -3,11 +3,11 @@ name: 11ty build Staging Site
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 # editor: https://api.cannabis.ca.gov
 on:
-  # workflow_run:
-  #   workflows: ["Update static content [staging]"]
-  #   types: ['completed']
-  #   branches:
-  #     - staging
+  workflow_run:
+    workflows: ["Update static content [staging]"]
+    types: ['completed']
+    branches:
+      - staging
   push:
     branches:
       - staging
@@ -31,11 +31,6 @@ jobs:
           npm install
           npm run build
           # npm run test:setup
-     - name: Write robots.txt
-        run: |
-          echo 'User-agent: *' > docs/robots.txt
-          echo 'Allow: /' >> docs/robots.txt
-          echo 'Sitemap: https://staging.cannabis.ca.gov/sitemap.xml' >> docs/robots.txt
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
       - name: Deploy to github pages branch
         uses: peaceiris/actions-gh-pages@v3
