@@ -28,10 +28,13 @@ jobs:
       - name: Build 11ty
         run: |
           mkdir dist
-          npm install --production
+          npm install
           npm run build
           # npm run test:setup
-
+      - name: Write robots.txt
+        run: |
+          echo 'User-agent: *' > docs/robots.txt
+          echo 'Disallow: /' >> docs/robots.txt
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
       - name: Deploy to github pages branch
         uses: peaceiris/actions-gh-pages@v3
@@ -39,7 +42,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_staging
-      # Push built site files to S3 staging bucket    
+      # Push built site files to S3 bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
@@ -51,22 +54,22 @@ jobs:
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
           SOURCE_DIR: ./docs # only move built directory
 
-      # Reset the cache-control headers on static assets on staging S3 bucket
+      # Reset the cache-control headers on static assets on S3 bucket
       - name: Reset cache-control on static files
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/assets/fonts'
-          dest: 's3://headless.cannabis.ca.gov/assets/fonts'
+          source: './docs/fonts'
+          dest: 's3://staging.cannabis.ca.gov/fonts'
           flags: --recursive --cache-control max-age=15552000
 
       - name: Deploy redirects
         run: |
           AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
-      # Invalidate Cloudfront staging distribution
+      # Invalidate Cloudfront production distribution
       - name: Invalidate Cloudfront cache
         uses: chetan/invalidate-cloudfront-action@v1.3
         env:
@@ -74,6 +77,4 @@ jobs:
           PATHS: '/*'
           AWS_REGION: 'us-west-1'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
-
-
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  
