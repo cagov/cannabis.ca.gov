@@ -1,5 +1,5 @@
 const fs = require("fs");
-const config = require("./../../../../config");
+const config = require("../../../../config/index.js");
 /**
  * Checks for a match between two sets of categories.
  * @param {string[]} componentCategories An array of categories requested by the cagov-post-list component.
@@ -7,10 +7,10 @@ const config = require("./../../../../config");
  * @returns {boolean} True if a category match is found, otherwise false.
  */
 const categoryMatchBetween = (componentCategories, postCategories) => {
-  let unsluggedCategories = componentCategories.map((category) =>
+  const unsluggedCategories = componentCategories.map((category) =>
     category.replace("-", " ")
   );
-  let intersection = postCategories.filter((category) =>
+  const intersection = postCategories.filter((category) =>
     unsluggedCategories.includes(category.toLowerCase())
   );
   return intersection.length > 0;
@@ -22,17 +22,21 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
  * @param {number} count The number of posts to return.
  * @returns {Object[]} A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
  */
-const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date") => {
-  let componentCategories = categoryString
+const getPostsByCategory = (
+  categoryString,
+  count = 5,
+  field = "custom_post_date"
+) => {
+  const componentCategories = categoryString
     .split(",")
     .map((c) => c.toLowerCase());
 
-  let wordPressArray = [];
-  let files = fs.readdirSync(config.build.eleventy_posts);
+  const wordPressArray = [];
+  const files = fs.readdirSync(config.build.eleventy_posts);
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = config.build.eleventy_posts + "/" + file;
-      let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
+      const loc = `${config.build.eleventy_posts}/${file}`;
+      const parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&
         categoryMatchBetween(componentCategories, parsedInfo.data.categories)
@@ -41,18 +45,18 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
       }
     }
   });
-  
-  let postsToReturn = wordPressArray
+
+  const postsToReturn = wordPressArray
     .sort((a, b) => {
-      let aDate = a.data[field] ? a.data[field] : a.data.date;
-      let bDate = b.data[field] ? b.data[field] : b.data.date;
+      const aDate = a.data[field] ? a.data[field] : a.data.date;
+      const bDate = b.data[field] ? b.data[field] : b.data.date;
       return new Date(aDate) - new Date(bDate);
     })
     .slice(-count)
     .reverse();
 
-  //console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
-  return { 'total': wordPressArray.length, 'posts': postsToReturn };
+  // console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
+  return { total: wordPressArray.length, posts: postsToReturn };
 };
 
 module.exports = { getPostsByCategory };

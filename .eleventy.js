@@ -8,8 +8,8 @@ const { renderPostLists, renderWordpressPostTitleDate } = require("./src/js/elev
 const { renderEventLists } = require("./src/js/eleventy/event-list/render.js");
 const { pagePath, relativePath, i18n } = require("./src/js/eleventy/filters.js");
 
-module.exports = function eleventyBuild(eleventyConfig) {
-  // eleventyConfig.htmlTemplateEngine = "njk";
+module.exports = function (eleventyConfig) {
+  eleventyConfig.htmlTemplateEngine = "njk";
 
   // Copy content from static bundle to gitignored folder in 11ty directory for local processing
   eleventyConfig.setUseGitIgnore(false);
@@ -33,28 +33,27 @@ module.exports = function eleventyBuild(eleventyConfig) {
     config.build.eleventy_content
   );
 
-  eleventyConfig.addTransform("_htmls", (html, outputPath) => {
-    let _html = {...html};
+  eleventyConfig.addTransform("htmlTransforms", (html, outputPath) => {
     // outputPath === false means serverless templates (@DOCS ? - CS)
     if (!outputPath || outputPath.endsWith(".html")) {
       // Render post-list components
-      if (_html.includes("cagov-post-list")) {
-        _html = renderPostLists(_html);
+      if (html.includes("cagov-post-list")) {
+        html = renderPostLists(html);
       }
 
       // Render posts with event web component
-      if (_html.includes("cagov-event-post-list")) {
-        _html = renderEventLists(_html);
+      if (html.includes("cagov-event-post-list")) {
+        html = renderEventLists(html);
       }
 
       // Minify HTML
-      _html = htmlmin.minify(_html, {
+      html = htmlmin.minify(html, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
       });
     }
-    return _html;
+    return html;
   });
 
   // Register ca.gov 11ty build system.

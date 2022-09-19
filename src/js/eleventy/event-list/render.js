@@ -1,6 +1,6 @@
 const cheerio = require("cheerio");
 const { getEventsByCategory } = require("./get-posts");
-const config = require('./../../../../config/index.js');
+const config = require("../../../../config/index.js");
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
  * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied
@@ -8,7 +8,7 @@ const config = require('./../../../../config/index.js');
  * @returns {Object} The same attributes object, now hydrated with defaults for any missing values.
  */
 const setDefaultAttributes = (attributes) => {
-  let defaults = {
+  const defaults = {
     order: "desc",
     count: "3",
     category: "events",
@@ -80,13 +80,13 @@ const renderWordpressPostTitleDate = ({
   categories = null,
   event = null,
 }) => {
-  let getExcerpt =
+  const getExcerpt =
     showExcerpt === "true"
       ? `<div class="excerpt"><p>${excerpt}</p></div>`
       : ``;
 
   let category_type = "";
-  let showCategoryType = false;
+  const showCategoryType = false;
   // Disabled but can enable when we have a default style.
   if (showCategoryType && categories && categories[0]) {
     category_type = `<div class="category-type">${category[0]}</div>`;
@@ -94,7 +94,10 @@ const renderWordpressPostTitleDate = ({
 
   return `<div class="event-post-list-item">
             ${category_type}
-            <div class="link-title"><a href="${link.replace(config.build.editor_url, "")}">
+            <div class="link-title"><a href="${link.replace(
+              config.build.editor_url,
+              ""
+            )}">
                 ${title}
             </a></div>
             ${getExcerpt}
@@ -115,16 +118,16 @@ const renderEventLists = (html) => {
   let result = html;
 
   for (postList of postLists) {
-    let { 0: originalMarkup, index } = postList;
+    const { 0: originalMarkup, index } = postList;
     /*
     @DOCS: https://www.npmjs.com/package/cheerio - "Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure. It does not interpret the result as a web browser does. Specifically, it does not produce a visual rendering, apply CSS, load external resources, or execute JavaScript. This makes Cheerio much, much faster than other solutions. If your use case requires any of this functionality, you should consider projects like Puppeteer or JSDom." @ISSUE
     */
-    let $ = cheerio.load(originalMarkup, null, false);
-    let postListElement = $("cagov-event-post-list").get(0);
+    const $ = cheerio.load(originalMarkup, null, false);
+    const postListElement = $("cagov-event-post-list").get(0);
     // @NOTE this is a good local utility candidate
-    let postListAttributes = Object.keys(postListElement.attribs).reduce(
+    const postListAttributes = Object.keys(postListElement.attribs).reduce(
       (obj, attr) => {
-        let camelCasedKey = attr
+        const camelCasedKey = attr
           .replace("data-", "")
           .replace(/-([a-z])/g, (g) => g[1].toUpperCase());
 
@@ -134,14 +137,17 @@ const renderEventLists = (html) => {
       {}
     );
 
-    let processedAttributes = setDefaultAttributes(postListAttributes);
+    const processedAttributes = setDefaultAttributes(postListAttributes);
 
-    let recentEvents = getEventsByCategory(
+    const recentEvents = getEventsByCategory(
       postListAttributes.category,
       parseInt(postListAttributes.count)
     );
 
-    let modifiedMarkup = applyEventsTemplate(recentEvents, processedAttributes);
+    const modifiedMarkup = applyEventsTemplate(
+      recentEvents,
+      processedAttributes
+    );
 
     $("cagov-event-post-list")
       .append(modifiedMarkup)

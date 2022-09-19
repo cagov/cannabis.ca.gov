@@ -2,7 +2,7 @@
  * Page Alert web component
  * Supported endpoints: Wordpress v2
  */
- class CAGovPageAlert extends window.HTMLElement {
+class CAGovPageAlert extends window.HTMLElement {
   connectedCallback() {
     this.type = "wordpress";
     this.message = this.dataset.message || "";
@@ -11,11 +11,12 @@
     if (this.type === "wordpress") {
       document.addEventListener("DOMContentLoaded", () => {
         this.template({ message: this.message, icon: this.icon }, "wordpress");
-        document.querySelector('cagov-page-alert .close-button').addEventListener('click', (e) => {
-          document.querySelector('cagov-page-alert').style.display = "none";
-        })
-      }
-      );
+        document
+          .querySelector("cagov-page-alert .close-button")
+          .addEventListener("click", (e) => {
+            document.querySelector("cagov-page-alert").style.display = "none";
+          });
+      });
     }
   }
 
