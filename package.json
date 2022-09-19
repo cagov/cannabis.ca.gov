@@ -14,9 +14,8 @@
     "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
     "test:serve": "npm run build && npx http-server docs/",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
-    "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
-    "format": "npm run format:eslint && npm run format:prettier --ignore-path"
+    "code:format": "npm run format:prettier --ignore-path"
   },
   "keywords": [
     "@cagov",

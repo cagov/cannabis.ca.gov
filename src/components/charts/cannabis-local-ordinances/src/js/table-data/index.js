@@ -15,10 +15,10 @@ class CAGovTableData extends window.HTMLElement {
    */
   connectedCallback() {
     this.mapContainer = this.dataset.mapContainer;
-    let mapContainer = document.querySelector(this.mapContainer);
+    const mapContainer = document.querySelector(this.mapContainer);
     // If need to rebuild data, reenable - this adds a bit of possible unnecessary processing
-    let dataPlaces = mapContainer.localData.dataPlaces;
-    let tableData = this.buildTable(dataPlaces);
+    const {dataPlaces} = mapContainer.localData;
+    const tableData = this.buildTable(dataPlaces);
     this.innerHTML = tableData;
 
     this.updateTable(mapContainer.localData);
@@ -30,12 +30,12 @@ class CAGovTableData extends window.HTMLElement {
    * @returns
    */
   updateTable(data) {
-    let jurisdiction = data.jurisdiction;
-    let geoid = data.geoid;
+    const {jurisdiction} = data;
+    const {geoid} = data;
 
-    let tableSelector = "cagov-table-data table";
+    const tableSelector = "cagov-table-data table";
 
-    let tableElement = document.querySelector(tableSelector);
+    const tableElement = document.querySelector(tableSelector);
     let tableElements = document.querySelectorAll(`${tableSelector} tbody tr`);
 
     Object.keys(tableElements).map((index) => {
@@ -59,7 +59,7 @@ class CAGovTableData extends window.HTMLElement {
     } else if (jurisdiction === "County") {
       // console.log("County", data.selectedPlaceValue);
       tableElement.classList.remove("hidden");
-      let query = `${tableSelector} tr[c="${data.selectedPlaceValue}"]`; // Everything in the county.
+      const query = `${tableSelector} tr[c="${data.selectedPlaceValue}"]`; // Everything in the county.
       tableElements = document.querySelectorAll(query);
       Object.keys(tableElements).map((index) => {
         tableElements[index].classList.remove("hidden");
@@ -74,10 +74,10 @@ class CAGovTableData extends window.HTMLElement {
     } else if (jurisdiction === "Place") {
       if (geoid !== null) {
         tableElement.classList.remove("hidden");
-        let countyQuery = `${tableSelector} tr[c="${data.selectedCounty}"][data-geoid="null"]`;
-        let countyElements = document.querySelectorAll(countyQuery);
+        const countyQuery = `${tableSelector} tr[c="${data.selectedCounty}"][data-geoid="null"]`;
+        const countyElements = document.querySelectorAll(countyQuery);
 
-        let query = `${tableSelector} tr[data-geoid="${geoid}"]`;
+        const query = `${tableSelector} tr[data-geoid="${geoid}"]`;
         tableElements = document.querySelectorAll(query);
 
         Object.keys(countyElements).map((index) => {
@@ -104,7 +104,7 @@ class CAGovTableData extends window.HTMLElement {
 
   /** Create HTML for table */
   buildTable(data) {
-    let fields = [
+    const fields = [
       "CA Places Key",
       "Place",
       "GEOID",
@@ -138,21 +138,21 @@ class CAGovTableData extends window.HTMLElement {
       fields.length > 0 &&
       Object.keys(data).length > 0
     ) {
-      let tableData = [];
+      const tableData = [];
       Object.keys(data).map((dataKey) => {
-        let rowData = {};
+        const rowData = {};
 
         Object.keys(fields).map((fieldKey) => {
           rowData[fields[fieldKey]] = data[dataKey][fields[fieldKey]];
         });
-        rowData["Place"] = dataKey; // Label for place
+        rowData.Place = dataKey; // Label for place
 
         tableData.push(rowData);
       });
 
       // Get the data for the table header rows.
-      let tableRows = tableData.slice(0, tableData.length);
-      let thValues = Object.keys(fields).map((key) => {
+      const tableRows = tableData.slice(0, tableData.length);
+      const thValues = Object.keys(fields).map((key) => {
         // console.log(fields[key]);
         // Revise column names
         if (
@@ -175,15 +175,15 @@ class CAGovTableData extends window.HTMLElement {
           } else if (fields[key] === "Manufacturing") {
             fieldLabel = "Manufacturing";
           } else if (fields[key] === "Place") {
-            fieldLabel = mapMessages["CountyColumnLabel"];
+            fieldLabel = mapMessages.CountyColumnLabel;
           }
           return `<th d="${key}">${fieldLabel}</th>`;
         }
       });
 
       // Build table data rows
-      let rows = tableRows.map((row) => {
-        let tdValues = Object.keys(row).map((rowValue) => {
+      const rows = tableRows.map((row) => {
+        const tdValues = Object.keys(row).map((rowValue) => {
           // Add custom HTML markup for data fields
           // Exclude some fields
 
@@ -198,7 +198,7 @@ class CAGovTableData extends window.HTMLElement {
             rowValue !== "CCA Prohibited by County"
           ) {
             let rowValueKey = "";
-            let rowValueLabel = row[rowValue];
+            const rowValueLabel = row[rowValue];
             // console.log("rowValue", rowValue);
 
             // if (rowValue === "Place" && row["Jurisdiction Type"] === "City") {
@@ -207,17 +207,17 @@ class CAGovTableData extends window.HTMLElement {
             // }
 
             if (rowValue === "Place" && row["Jurisdiction Type"] === "County") {
-              let countyLabel = row["County label"];
+              const countyLabel = row["County label"];
               // Alter data to get current county and wrap with show / hide logic
-              let rowValueLabel =
-                '<span class="county-label">' +
-                countyLabel +
-                '</span><span class="unincorporated-label">' +
-                " " +
-                countyLabel +
-                " " +
-                mapMessages.TableLabelCountyWide +
-                "</span>";
+              const rowValueLabel =
+                `<span class="county-label">${ 
+                countyLabel 
+                }</span><span class="unincorporated-label">` +
+                ` ${ 
+                countyLabel 
+                } ${ 
+                mapMessages.TableLabelCountyWide 
+                }</span>`;
             }
 
             // Set html data values for setting icons
@@ -232,7 +232,7 @@ class CAGovTableData extends window.HTMLElement {
             // Return cell data for Limited-Medical Only
             if (rowValueKey !== "") {
               if (rowValueKey === "2") {
-                let cell = `<td d="${rowValue}" l="${rowValueKey}"><span class="row-label">${rowValueLabel}</span><span class="limited-label">${mapMessages["TableLabelLimited-Medical Only"]}</span></td>`;
+                const cell = `<td d="${rowValue}" l="${rowValueKey}"><span class="row-label">${rowValueLabel}</span><span class="limited-label">${mapMessages["TableLabelLimited-Medical Only"]}</span></td>`;
                 return cell;
               }
 
@@ -245,13 +245,13 @@ class CAGovTableData extends window.HTMLElement {
         });
 
         return `<tr 
-        data-geoid="${row["GEOID"]}" 
-        k="${row["Place"]}" 
+        data-geoid="${row.GEOID}" 
+        k="${row.Place}" 
         j="${row["Jurisdiction Type"]}" 
-        c="${row["County"]}">${tdValues.join("")}</tr>`;
+        c="${row.County}">${tdValues.join("")}</tr>`;
       });
 
-      let tableMarkup = `
+      const tableMarkup = `
         <table>
            <thead>
               ${thValues.join("")}

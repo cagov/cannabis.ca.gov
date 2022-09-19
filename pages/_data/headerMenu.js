@@ -9,17 +9,11 @@ const data = require("../_content/menu/headerMenu.json");
  * @param {*} title
  * @returns
  */
-module.exports = () => {
-  return data.items.map((item) => {
-    return {
+module.exports = () => data.items.map((item) => ({
       title: item.title,
       url: item.url.replace(config.build.editor_url, ""),
-      child_items: item.child_items.map((childItem) => {
-        return {
+      child_items: item.child_items.map((childItem) => ({
           title: childItem.title,
           url: childItem.url.replace(config.build.editor_url, ""),
-        };
-      }),
-    };
-  });
-};
+        })),
+    }));

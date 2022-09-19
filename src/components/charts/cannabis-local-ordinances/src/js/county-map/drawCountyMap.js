@@ -5,7 +5,7 @@ import {
   getPlaceColorPlaceLevel,
 } from "./processData.js";
 import { chartTooltipPlace, getPlaceTooltipData } from "./placeTooltip.js";
-import "./../../index.css";
+import "../../index.css";
 import { chartLegendCounty } from "./legend.js";
 import tooltipPlacement from "./tooltipPlacement.js";
 // import { updateHistory } from "./updateHistory.js";
@@ -27,16 +27,16 @@ export default function drawCountyMap({
 }) {
   try {
     /* Data processing */
-    var { dataPlaces, messages, selectedCounty } = data;
-    var rawWidth = 800;
-    var rawHeight = 923;
+    const { dataPlaces, messages, selectedCounty } = data;
+    const rawWidth = 800;
+    const rawHeight = 923;
 
     // Clean up existing SVGs
     d3.select(mapElement).select("svg").remove();
 
     if (
       document.querySelector(
-        mapElement + ' svg[data-layer-name="map-layer-container"]'
+        `${mapElement  } svg[data-layer-name="map-layer-container"]`
       ) === null
     ) {
       const svg = d3
@@ -53,12 +53,12 @@ export default function drawCountyMap({
       svg.append("g").attr("data-name", "county-boundaries");
       svg.append("g").attr("data-name", "places-boundaries");
     } else {
-      d3.select(mapElement + " [data-name] g").remove();
+      d3.select(`${mapElement  } [data-name] g`).remove();
     }
     let tooltip = d3.select(tooltipElement);
 
     /* Tooltip container */
-    if (d3.select(tooltipElement + " div") === null) {
+    if (d3.select(`${tooltipElement  } div`) === null) {
       tooltip = d3
         .select(tooltipElement)
         .append("div")
@@ -71,39 +71,37 @@ export default function drawCountyMap({
 
     xml(svgFiles.county).then((counties) => {
       const countiesGroup = d3.select(
-        mapElement + ' [data-name="county-boundaries"]'
+        `${mapElement  } [data-name="county-boundaries"]`
       );
       countiesGroup.node().append(counties.documentElement);
-      let countyPaths = countiesGroup.selectAll("g path");
-      let islandPaths = countiesGroup.selectAll("g path[data-island]");
+      const countyPaths = countiesGroup.selectAll("g path");
+      const islandPaths = countiesGroup.selectAll("g path[data-island]");
 
       data.selectedCountyIslands = [];
       islandPaths.each(function (p, j) {
-        let el = d3.select(this);
-        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
-        let island = el.attr("data-island"); // Island values from California county boundaries
+        const el = d3.select(this);
+        const name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        const island = el.attr("data-island"); // Island values from California county boundaries
         if (name === data.selectedCounty) {
           data.selectedCountyIslands.push(el);
         }
       });
 
       countyPaths.each(function (p, j) {
-        let el = d3.select(this);
+        const el = d3.select(this);
 
         // let name = el.attr("data-name"); // TIGER2016
-        let name = el.attr("data-county_nam"); // California County Boundaries (2019)
-        let island = el.attr("data-island"); // Island values from California county boundaries
+        const name = el.attr("data-county_nam"); // California County Boundaries (2019)
+        const island = el.attr("data-island"); // Island values from California county boundaries
 
-        let geoid = el.attr("data-geoid");
+        const geoid = el.attr("data-geoid");
 
         if (name === data.selectedCounty) {
-          el.attr("fill", () => {
-            return getCountyColorPlaceLevel(data, {
+          el.attr("fill", () => getCountyColorPlaceLevel(data, {
               name,
               island,
               selectedCounty,
-            });
-          })
+            }))
             .attr("stroke-width", 0.2)
             .attr("stroke-opacity", 1)
             .attr("stroke", "#FFFFFF");
@@ -138,19 +136,19 @@ export default function drawCountyMap({
       /* PLACES */
       xml(svgFiles.places).then((places) => {
         const group = d3.select(
-          mapElement + ' [data-name="places-boundaries"]'
+          `${mapElement  } [data-name="places-boundaries"]`
         );
         group.node().append(places.documentElement);
-        let paths = group.selectAll("g path");
+        const paths = group.selectAll("g path");
 
         paths.each(function (p, j) {
-          let el = d3.select(this);
-          let name = el.attr("data-name");
-          let geoid = el.attr("data-geoid");
-          let currentPlace = Object.keys(data.dataPlaces).filter((place) => {
-            let item = data.dataPlaces[place];
+          const el = d3.select(this);
+          const name = el.attr("data-name");
+          const geoid = el.attr("data-geoid");
+          const currentPlace = Object.keys(data.dataPlaces).filter((place) => {
+            const item = data.dataPlaces[place];
             if (
-              geoid === item["GEOID"] &&
+              geoid === item.GEOID &&
               item.County === data.selectedCounty &&
               place !== "default"
             ) {
@@ -159,8 +157,8 @@ export default function drawCountyMap({
           });
 
           if (currentPlace !== null && currentPlace.length > 0) {
-            let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
-            let props = getPlaceTooltipData(data, { name, geoid });
+            const placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+            const props = getPlaceTooltipData(data, { name, geoid });
 
             el.attr("stroke-width", 0.2)
               .attr("stroke-opacity", 1)
@@ -170,19 +168,19 @@ export default function drawCountyMap({
               );
 
             el.attr("fill", () => {
-              let placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
+              const placeColor = getPlaceColorPlaceLevel(data, { name, geoid });
               return placeColor;
             })
               .attr("tabindex", "0")
-              .attr("aria-label", (d, i) => {
+              .attr("aria-label", (d, i) => 
                 // console.log(currentPlace);
                 // @TODO @DEBUG
-                return "Label";
-              })
+                 "Label"
+              )
               .on("click", function (event, d) {
                 d3.select(this).attr("fill-opacity", "0.8");
-                let shapes = [el];
-                let tooltipPosition = tooltipPlacement(
+                const shapes = [el];
+                const tooltipPosition = tooltipPlacement(
                   {
                     rawWidth,
                     rawHeight,
@@ -194,8 +192,8 @@ export default function drawCountyMap({
                 return tooltip
                   .transition()
                   .duration(0)
-                  .style("left", tooltipPosition.x + "px")
-                  .style("top", tooltipPosition.y + "px")
+                  .style("left", `${tooltipPosition.x  }px`)
+                  .style("top", `${tooltipPosition.y  }px`)
                   .style("visibility", "visible");
               })
               .on("dblclick", function (event, d) {

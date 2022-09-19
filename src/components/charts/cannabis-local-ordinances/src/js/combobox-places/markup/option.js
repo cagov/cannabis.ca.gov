@@ -4,8 +4,8 @@ export class Option {
     this.place = place;
     this.geoAttr =
       this.place.geoid != null ? `data-geoid="${this.place.geoid}"` : "";
-    this.jurisAttr = 'data-jurisdiction="' + this.place.dataJurisdiction + '"';
-    this.valAttr = 'data-value="' + this.place.value + '"';
+    this.jurisAttr = `data-jurisdiction="${  this.place.dataJurisdiction  }"`;
+    this.valAttr = `data-value="${  this.place.value  }"`;
   }
 
   html() {

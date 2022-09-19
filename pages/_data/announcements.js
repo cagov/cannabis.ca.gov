@@ -1,6 +1,6 @@
 const {
   getPostsByCategory,
-} = require("./../../src/js/eleventy/post-list/get-posts");
+} = require("../../src/js/eleventy/post-list/get-posts");
 
 /**
  * Get all posts based on categories

@@ -9,9 +9,7 @@ const data = require("../_content/menu/socialMediaLinksMenu.json");
  * @param {*} title
  * @returns
  */
-module.exports = () => {
-  return data.items.map((item) => {
-    return {
+module.exports = () => data.items.map((item) => ({
       title: item.title,
       url: item.url.replace(config.build.editor_url, ""),
       post_name: item.post_name,
@@ -21,6 +19,4 @@ module.exports = () => {
       //         url: childItem.url.replace(config.build.editor_url, "")
       //     };
       // })
-    };
-  });
-};
+    }));

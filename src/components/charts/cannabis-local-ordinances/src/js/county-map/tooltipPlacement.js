@@ -1,90 +1,90 @@
 import * as d3 from "d3";
 
 const tooltipPlacement = (options, shapes) => {
-  let legendStatewide = document.querySelector(
+  const legendStatewide = document.querySelector(
     "cagov-map-table[data-jurisdiction=Statewide] .map-legend"
   );
-  let legendCounty = document.querySelector(
+  const legendCounty = document.querySelector(
     "cagov-map-table[data-jurisdiction=County] .map-legend"
   );
   if (legendStatewide !== null) {
-    let legendBBox = legendStatewide.getBoundingClientRect();
+    const legendBBox = legendStatewide.getBoundingClientRect();
     if (window.innerWidth < 720) {
-      let mapDimensions = getMapDimensions(options);
-      let shapeDimensions = getShapeDimensions(options, shapes);
+      const mapDimensions = getMapDimensions(options);
+      const shapeDimensions = getShapeDimensions(options, shapes);
 
-      let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
+      const quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
       return calculatePositionOverShape(
         mapDimensions,
         shapeDimensions,
         quadrant
       );
-    } else {
+    } 
       return {
         x: legendBBox.left + window.scrollX - 32,
         y: legendBBox.top + window.scrollY,
       };
-    }
-  } else if (legendCounty !== null) {
-    let legendBBox = legendCounty.getBoundingClientRect();
+    
+  } if (legendCounty !== null) {
+    const legendBBox = legendCounty.getBoundingClientRect();
     if (window.innerWidth < 720) {
-      let mapDimensions = getMapDimensions(options);
-      let shapeDimensions = getShapeDimensions(options, shapes);
+      const mapDimensions = getMapDimensions(options);
+      const shapeDimensions = getShapeDimensions(options, shapes);
 
-      let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
+      const quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
       return calculatePositionOverShape(
         mapDimensions,
         shapeDimensions,
         quadrant
       );
-    } else {
+    } 
       return {
         x: legendBBox.left + window.scrollX - 90,
         y: legendBBox.top + window.scrollY,
       };
-    }
+    
   }
 
-  let mapDimensions = getMapDimensions(options);
-  let shapeDimensions = getShapeDimensions(options, shapes);
+  const mapDimensions = getMapDimensions(options);
+  const shapeDimensions = getShapeDimensions(options, shapes);
 
   // let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
   // return calculateQuadrantPositions(mapDimensions, shapeDimensions, quadrant);
 };
 
 const getMapDimensions = (options) => {
-  let mapWidth = parseInt(
+  const mapWidth = parseInt(
     d3
       .select("[data-layer-name=interactive-map-container]")
       .style("width")
       .replace("px", "")
   );
-  let mapHeight = parseInt(
+  const mapHeight = parseInt(
     d3
       .select("[data-layer-name=interactive-map-container]")
       .style("height")
       .replace("px", "")
   );
 
-  let mapTop = parseInt(
+  const mapTop = parseInt(
     d3
       .select("svg[data-layer-name=interactive-map-container]")
       .node()
       .getBoundingClientRect().top
   );
-  let mapBottom = parseInt(
+  const mapBottom = parseInt(
     d3
       .select("svg[data-layer-name=interactive-map-container]")
       .node()
       .getBoundingClientRect().bottom
   );
-  let parentBBox = document
+  const parentBBox = document
     .querySelector("cagov-map-table .interactive-map-container")
     .getBoundingClientRect();
 
-  let mapScale = mapHeight / options.rawHeight;
-  let mapCenterWidth = mapWidth / 2;
-  let mapCenterHeight = mapHeight / 2;
+  const mapScale = mapHeight / options.rawHeight;
+  const mapCenterWidth = mapWidth / 2;
+  const mapCenterHeight = mapHeight / 2;
   return {
     mapScale,
     mapTop,
@@ -96,14 +96,14 @@ const getMapDimensions = (options) => {
 };
 
 const getShapeDimensions = (options, shapes) => {
-  let bboxes = [];
+  const bboxes = [];
   shapes.each(function (p, j) {
-    let el = d3.select(this);
-    let bbox = el.node().getBBox();
+    const el = d3.select(this);
+    const bbox = el.node().getBBox();
     bboxes.push(bbox);
   });
 
-  let item = bboxes[0];
+  const item = bboxes[0];
   return {
     shapeX: item.x,
     shapeY: item.y,
@@ -145,7 +145,7 @@ const calculateQuadrantPositions = (m, s, quadrant) => {
   let tooltipX = s.shapeX;
   let tooltipY = s.shapeY;
 
-  let bufferX = 60;
+  const bufferX = 60;
   let bufferY = 180;
 
   if (quadrant === 0) {
@@ -167,7 +167,7 @@ const calculateQuadrantPositions = (m, s, quadrant) => {
     tooltipY = s.shapeY - s.shapeHeight - bufferY;
   }
 
-  var narrowBreakpoint = 720;
+  const narrowBreakpoint = 720;
   // If in narrow screens, always be located in the same place.
   if (window.innerWidth < narrowBreakpoint) {
     tooltipX = 32;
@@ -181,8 +181,8 @@ const calculateQuadrantPositions = (m, s, quadrant) => {
 };
 
 const calculatePositionOverShape = (m, s, quadrant) => {
-  let tooltipX = s.shapeX;
-  let tooltipY = s.shapeY;
+  const tooltipX = s.shapeX;
+  const tooltipY = s.shapeY;
 
   // console.log("CPS");
   return {

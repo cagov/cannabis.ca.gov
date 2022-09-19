@@ -26,15 +26,15 @@ const scaleCounty = (
   viewBox = "0,250,500,500"
 ) => {
   // Get county scale of the current element
-  var bbox = el.node().getBBox();
-  var viewportElement = document.documentElement;
-  var box = el.node().getBoundingClientRect();
-  var scrollLeft = viewportElement.scrollLeft;
-  var scrollTop = viewportElement.scrollTop;
+  const bbox = el.node().getBBox();
+  const viewportElement = document.documentElement;
+  const box = el.node().getBoundingClientRect();
+  const {scrollLeft} = viewportElement;
+  const {scrollTop} = viewportElement;
   var x = box.left + scrollLeft;
   var y = box.top + scrollTop;
 
-  let maxBBox = {
+  const maxBBox = {
     x: bbox.x,
     y: bbox.y,
     width: bbox.width,
@@ -45,10 +45,10 @@ const scaleCounty = (
 
   // Calculate max bounds for any shape in list of related shapes.
   data[shapes].forEach((keyEl) => {
-    var bbox = keyEl.node().getBBox();
-    var box = keyEl.node().getBoundingClientRect(); // Wait was this a box for?
-    var left = box.left + scrollLeft;
-    var top = box.top + scrollTop;
+    const bbox = keyEl.node().getBBox();
+    const box = keyEl.node().getBoundingClientRect(); // Wait was this a box for?
+    const left = box.left + scrollLeft;
+    const top = box.top + scrollTop;
     bbox.left = left;
     bbox.top = top;
     maxBBox.x = bbox.x > maxBBox.x ? bbox.x : maxBBox.x;
@@ -62,14 +62,14 @@ const scaleCounty = (
 
   // console.log(maxBBox);
   // Figure out what scale this shape is at and where it's located.
-  var dx = bbox.width - bbox.x,
-    dy = bbox.height - bbox.y,
-    x = (bbox.x + (bbox.x + bbox.width)) / 2,
-    y = (bbox.y + (bbox.y + bbox.height)) / 2,
-    scale = Math.min(260 / maxBBox.width, 260 / maxBBox.height),
-    translate = [rawWidth / 2 - scale * x - 150, rawHeight / 2 - scale * y];
+  const dx = bbox.width - bbox.x;
+    const dy = bbox.height - bbox.y;
+    var x = (bbox.x + (bbox.x + bbox.width)) / 2;
+    var y = (bbox.y + (bbox.y + bbox.height)) / 2;
+    const scale = Math.min(260 / maxBBox.width, 260 / maxBBox.height);
+    const translate = [rawWidth / 2 - scale * x - 150, rawHeight / 2 - scale * y];
 
-  let aspectRatio = maxBBox.height / maxBBox.width;
+  const aspectRatio = maxBBox.height / maxBBox.width;
 
   data.selectedShapeData = {
     bbox,
@@ -101,15 +101,15 @@ const updateSVGContainer = (data) => {
   );
   // Scale the container
   const containerEl = d3.select(
-    data.selectedShapeData.mapElement + " " + data.selectedShapeData.scaleLayer
+    `${data.selectedShapeData.mapElement  } ${  data.selectedShapeData.scaleLayer}`
   );
   containerEl.attr(
     "transform",
-    "translate(" +
-      data.selectedShapeData.translate +
-      ")scale(" +
-      data.selectedShapeData.scale +
-      ")"
+    `translate(${ 
+      data.selectedShapeData.translate 
+      })scale(${ 
+      data.selectedShapeData.scale 
+      })`
   );
 };
 
