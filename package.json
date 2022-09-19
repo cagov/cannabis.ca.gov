@@ -58,10 +58,7 @@
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
-    "static-content-cannabis": "github:cagov/static-content-cannabis"
-  },
-  "engines": {
-    "npm": ">=8.5.0",
-    "node": ">=16.13.0"
+    "static-content-cannabis": "github:cagov/static-content-cannabis#main",
+    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
   }
 }

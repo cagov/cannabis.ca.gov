@@ -4,23 +4,20 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [static_content_update_staging]
-  schedule:
-    - cron: '35 * * * *'
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js 16.13.1
         uses: actions/setup-node@v1
         with:
           node-version: 16.13.1
-      - name: Check for static content updates # update static content repo. Only install production so build goes faster.
+      - name: Check for static content updates # update static content repo. 
         run: |
           mkdir dist
-          npm install --production
-          npm update static-content-cannabis
+          npm update static-content-cannabis-staging
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -30,7 +27,7 @@ jobs:
           base: staging
           title: "Static content update to staging branch"
           body: |
-           Source: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis (Static content repo, staging branch)
+           Method: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis-staging (Static content repo, staging branch)
           labels: |
             content-update
             automerge
