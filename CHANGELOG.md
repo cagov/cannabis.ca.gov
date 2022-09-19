@@ -1,7 +1,8 @@
 # CHANGELOG for cannabis.ca.gov
 
 # 2.0.0 - _-__-____
-* Move off of hybrid production release, back to static site only.
+* Move off of hybrid production release.
+* Add streamlined content package changes.
 
 # 1.1.3 - 3-29-2022
 * Updated Design system components
