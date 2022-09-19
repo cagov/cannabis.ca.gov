@@ -161,4 +161,8 @@ const updatePlacesFilter = (data) => {
   }
 };
 
-export { updateHistory, updateMapJurisdictionDisplayFromHash, updateDisplaysFromInteraction };
+export {
+  updateHistory,
+  updateMapJurisdictionDisplayFromHash,
+  updateDisplaysFromInteraction,
+};

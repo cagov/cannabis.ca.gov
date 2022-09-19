@@ -25,9 +25,8 @@ export default function drawCountyMap({
   screenDisplayType = null,
   svgFiles = null,
 }) {
-
-  d3.selection.prototype.moveToFront = function() {  
-    return this.each(function(){
+  d3.selection.prototype.moveToFront = function () {
+    return this.each(function () {
       this.parentNode.appendChild(this);
     });
   };
@@ -107,7 +106,7 @@ export default function drawCountyMap({
         let island = el.attr("data-island"); // Island values from California county boundaries
 
         let geoid = el.attr("data-geoid");
-       
+
         if (name === data.selectedCounty) {
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {
@@ -190,7 +189,6 @@ export default function drawCountyMap({
                 return "Label";
               })
               .on("click", function (event, d) {
-
                 const countiesGroup = d3.select(
                   mapElement + ' [data-name="county-boundaries"]'
                 );
@@ -200,19 +198,18 @@ export default function drawCountyMap({
                   el.attr("fill-opacity", 0.25);
                 });
 
-
                 paths.each(function (p, j) {
                   d3.select(this)
-                  .attr("fill-opacity", 0.25)
-                  .attr("stroke-width", "0.2");
+                    .attr("fill-opacity", 0.25)
+                    .attr("stroke-width", "0.2");
                 });
 
                 d3.select(this)
-                .attr("fill-opacity", 1)
-                .attr("stroke-width", "0.35");
-                
+                  .attr("fill-opacity", 1)
+                  .attr("stroke-width", "0.35");
+
                 d3.select(this).moveToFront();
-              
+
                 let shapes = [el];
                 let tooltipPosition = tooltipPlacement(
                   {
@@ -223,16 +220,19 @@ export default function drawCountyMap({
                 );
                 tooltip.html(chartTooltipPlace(data, props, { name, geoid }));
 
-                let tooltipContainer = document.querySelector(".tooltip-container");
+                let tooltipContainer =
+                  document.querySelector(".tooltip-container");
                 tooltipContainer.setAttribute("style", "visibility:visible");
-                let closeButton = document.querySelector(".tooltip-container .close-button");
+                let closeButton = document.querySelector(
+                  ".tooltip-container .close-button"
+                );
                 if (closeButton !== null) {
                   closeButton.addEventListener("click", (e) => {
                     tooltipContainer.setAttribute("style", "visibility:hidden");
                     paths.each(function (p, j) {
                       d3.select(this)
-                      .attr("fill-opacity", "1")
-                      .attr("stroke-width", "0.2");
+                        .attr("fill-opacity", "1")
+                        .attr("stroke-width", "0.2");
                     });
                     const countiesGroup = d3.select(
                       mapElement + ' [data-name="county-boundaries"]'
@@ -248,12 +248,12 @@ export default function drawCountyMap({
                 data.setUpTooltipUIListeners(data);
                 if (window.innerWidth < 720) {
                   return tooltip
-                  .transition()
-                  .duration(0)
-                  .style("position", "absolute")
-                  .style("left", tooltipPosition.x + "px")
-                  .style("top", tooltipPosition.y + "px")
-                  .style("visibility", "visible");
+                    .transition()
+                    .duration(0)
+                    .style("position", "absolute")
+                    .style("left", tooltipPosition.x + "px")
+                    .style("top", tooltipPosition.y + "px")
+                    .style("visibility", "visible");
                 }
                 return tooltip
                   .transition()

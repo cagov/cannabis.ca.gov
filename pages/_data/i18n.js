@@ -70,7 +70,7 @@ module.exports = {
     en: "Sitemap",
     location: "Site Footer",
   },
-  
+
   "Site Navigation": {
     en: "Site Navigation",
   },

@@ -35,7 +35,7 @@ function countyStatusTooltipMessage(data, props) {
   let mode = activities;
 
   let { all, city, county, prohibited, allowed, detailsCTA } =
-  getToolTipMessages(data, name, props, "County");
+    getToolTipMessages(data, name, props, "County");
 
   let toggle = "All Layers";
   // Choose label
@@ -49,10 +49,8 @@ function countyStatusTooltipMessage(data, props) {
   data.tooltipData = getCountyTooltipData(data, props);
 
   let chartLegendContent = chartLegendCounty(data, props, "tooltip");
-  
 
   label = insertValueIntoSpanTag(label, mode, "data-status");
-
 
   let output = `<div>
           
@@ -65,7 +63,9 @@ function countyStatusTooltipMessage(data, props) {
                 class="loadCounty" 
                 data-county="${data.tooltipData.name}" 
                 data-jurisdiction="County" 
-                href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}"
+                href="#county-view?county=${
+                  data.tooltipData.name !== null ? data.tooltipData.name : ""
+                }&activity=${data.activities !== null ? data.activities : ""}"
               >
                 ${detailsCTA}
               </a>
@@ -128,12 +128,12 @@ function getCountyTooltipData(data, props) {
 }
 
 /**
- * Build tooltip messages 
- * @param {*} data 
- * @param {*} name 
- * @param {*} props 
- * @param {*} jurisdiction 
- * @returns 
+ * Build tooltip messages
+ * @param {*} data
+ * @param {*} name
+ * @param {*} props
+ * @param {*} jurisdiction
+ * @returns
  */
 function getToolTipMessages(data, name, props, jurisdiction) {
   let { messages, activities } = data;

@@ -4,7 +4,7 @@ const config = require("../../config");
 /**
  * Build file ids
  * Used in breadcrumbs
- * @returns 
+ * @returns
  */
 module.exports = function () {
   return new Promise((resolve, reject) => {
@@ -14,10 +14,7 @@ module.exports = function () {
       files.forEach((file) => {
         if (file.indexOf(".json") > -1) {
           let fileData = JSON.parse(
-            fs.readFileSync(
-              config.build.eleventy_pages + "/" + file,
-              "utf8"
-            )
+            fs.readFileSync(config.build.eleventy_pages + "/" + file, "utf8")
           );
           idObject[fileData.data.id] = fileData.data.title;
         }
@@ -28,10 +25,7 @@ module.exports = function () {
         files.forEach((file) => {
           if (file.indexOf(".json") > -1) {
             let fileData = JSON.parse(
-              fs.readFileSync(
-                config.build.eleventy_posts + "/" + file,
-                "utf8"
-              )
+              fs.readFileSync(config.build.eleventy_posts + "/" + file, "utf8")
             );
             idObject[fileData.data.id] = fileData.data.title;
           }

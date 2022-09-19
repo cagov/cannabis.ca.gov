@@ -95,7 +95,7 @@ export default function drawCountyMap({
         let island = el.attr("data-island"); // Island values from California county boundaries
 
         let geoid = el.attr("data-geoid");
-       
+
         if (name === data.selectedCounty) {
           el.attr("fill", () => {
             return getCountyColorPlaceLevel(data, {

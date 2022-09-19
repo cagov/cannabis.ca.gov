@@ -1,4 +1,4 @@
-const config = require('../../config');
+const config = require("../../config");
 
 /**
  * Make config value available to templating system

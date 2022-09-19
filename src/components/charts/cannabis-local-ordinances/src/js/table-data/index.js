@@ -24,13 +24,12 @@ class CAGovTableData extends window.HTMLElement {
     this.updateTable(mapContainer.localData);
   }
 
-
   /**
    * Change which UI elements are displayed
    * @param {*} data
    * @returns
    */
-   updateTable(data) {
+  updateTable(data) {
     let jurisdiction = data.jurisdiction;
     let geoid = data.geoid;
 
@@ -187,7 +186,7 @@ class CAGovTableData extends window.HTMLElement {
         let tdValues = Object.keys(row).map((rowValue) => {
           // Add custom HTML markup for data fields
           // Exclude some fields
-       
+
           if (
             rowValue !== "CA Places Key" &&
             rowValue !== "GEOID" &&
@@ -205,7 +204,7 @@ class CAGovTableData extends window.HTMLElement {
             // if (rowValue === "Place" && row["Jurisdiction Type"] === "City") {
             //   rowValueLabel = row["Place"];
             //   return `<td d="${rowValue}">${rowValueLabel}</td>`;
-            // } 
+            // }
 
             if (rowValue === "Place" && row["Jurisdiction Type"] === "County") {
               let countyLabel = row["County label"];
@@ -220,7 +219,6 @@ class CAGovTableData extends window.HTMLElement {
                 mapMessages.TableLabelCountyWide +
                 "</span>";
             }
-
 
             // Set html data values for setting icons
             if (row[rowValue] === "Prohibited") {
@@ -240,7 +238,7 @@ class CAGovTableData extends window.HTMLElement {
 
               return `<td d="${rowValue}" l="${rowValueKey}"><span class="row-label">${rowValueLabel}</span></td>`;
             }
-            
+
             // Return a normal cell
             return `<td d="${rowValue}">${rowValueLabel}</td>`;
           }

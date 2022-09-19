@@ -80,7 +80,7 @@ const htmlTable = (fields, records) => {
           fieldLabel = "Manufacturing";
         } else if (fields[key] === "Place") {
           fieldLabel = "Counties";
-        } 
+        }
         return `<th d="${key}">${fieldLabel}</th>`;
       }
     });
@@ -104,19 +104,16 @@ const htmlTable = (fields, records) => {
             rowValueKey = "2";
           } else if (row[rowValue] === "Allowed") {
             rowValueKey = "3";
-          } 
-          
+          }
+
           // if (rowValue === "1" && row["5"] === "County") {
           //   // console.log(row["5"]);
           //   rowValueLabel = "County-wide";
           // }
 
           if (rowValueKey !== "") {
-           
-              return `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel}</td>`;
-            
+            return `<td d="${rowValue}" l="${rowValueKey}">${rowValueLabel}</td>`;
           }
-
 
           return `<td d="${rowValue}">${rowValueLabel}</td>`;
         }

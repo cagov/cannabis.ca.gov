@@ -178,7 +178,7 @@ class CannabisLocalOrdinances extends window.HTMLElement {
 
   /**
    * Function passed to tooltip as callback
-   * @param {*} data 
+   * @param {*} data
    */
   setUpTooltipUIListeners(data) {
     try {
@@ -312,7 +312,8 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     let selectedIndex = e.target.selectedIndex;
     let selectedEl = e.target.options[selectedIndex];
     let geoid = selectedEl.getAttribute("data-geoid") || null;
-    let jurisdiction = selectedEl.getAttribute("data-jurisdiction") || "Statewide";
+    let jurisdiction =
+      selectedEl.getAttribute("data-jurisdiction") || "Statewide";
     this.localData.jurisdiction = jurisdiction;
     this.localData.geoid = geoid;
     this.updateMapState(entry, data);
@@ -326,14 +327,24 @@ class CannabisLocalOrdinances extends window.HTMLElement {
     data.jurisdiction = jurisdiction;
     data.selectedCounty = county;
     data.geoid = geoid;
-    let placesOptions = document.querySelectorAll(`.filter[data-filter-type="places"] select option`);
+    let placesOptions = document.querySelectorAll(
+      `.filter[data-filter-type="places"] select option`
+    );
     placesOptions.selected = false;
     if (jurisdiction === "County") {
-      let countyOption = document.querySelectorAll(`.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`);
-      if (countyOption !== null) { countyOption.selected = true; }
+      let countyOption = document.querySelectorAll(
+        `.filter[data-filter-type="places"] select option[data-jurisdiction="County"][value="${county}"]`
+      );
+      if (countyOption !== null) {
+        countyOption.selected = true;
+      }
     } else if (jurisdiction === "Place") {
-      let placeOption = document.querySelector(`.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`);
-      if (placeOption !== null) {  placeOption.selected = true; }
+      let placeOption = document.querySelector(
+        `.filter[data-filter-type="places"] select option[data-geoid="${geoid}"]`
+      );
+      if (placeOption !== null) {
+        placeOption.selected = true;
+      }
     }
     if (jurisdiction === "County") {
       data.self.updateMapState(county, data);

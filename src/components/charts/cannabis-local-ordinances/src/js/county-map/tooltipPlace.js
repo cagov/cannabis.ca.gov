@@ -12,7 +12,7 @@ function chartTooltipPlace(data, props, options) {
   let currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
     let item = data.dataPlaces[place];
     if (
-      geoid === item["GEOID"]  &&
+      geoid === item["GEOID"] &&
       item["Jurisdiction Type"] === "City" &&
       place !== "default"
     ) {
@@ -47,8 +47,12 @@ function placeStatusTooltipMessage(data, props, options) {
   let { activities, showPlaces, showCounties } = data;
   let mode = activities;
   // console.log("tooltip");
-  let { prohibited, allowed, detailsCTA } =
-    getToolTipMessages(data, name, props, "City");
+  let { prohibited, allowed, detailsCTA } = getToolTipMessages(
+    data,
+    name,
+    props,
+    "City"
+  );
 
   data.tooltipData = getPlaceTooltipData(data, props);
 
@@ -155,7 +159,6 @@ function getToolTipMessages(data, name, props, jurisdiction) {
   if (mode === "Any cannabis business" && jurisdiction === "County") {
     // console.log("county");
     return messages["TooltipCountyAllActivities"];
-    
   } else if (mode === "Any cannabis business" && jurisdiction === "City") {
     // console.log("city");
     return messages["TooltipPlaceAllActivities"];

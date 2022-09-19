@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -23,8 +23,8 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        loader: 'svg-inline-loader'
-      }
+        loader: "svg-inline-loader",
+      },
     ],
   },
   plugins: [
@@ -32,9 +32,7 @@ module.exports = {
       template: "./index.html",
     }),
     new CopyWebpackPlugin({
-      patterns: [
-          { from: 'static' }
-      ]
-    })
+      patterns: [{ from: "static" }],
+    }),
   ],
 };

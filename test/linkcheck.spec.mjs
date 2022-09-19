@@ -1,11 +1,13 @@
-import { expect, test } from "@playwright/test";
+import { test, expect } from '@playwright/test';
 
 const slugs = [
   "",
+  "applicants/how-to-apply-renew/",
+  "applicants/license-types/",
+  "applicants/application-license-fees/",
+  "applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/",
   "404"
 ];
-
-const translations = [];
 
 class Link {
   constructor(url, slug, list) {
@@ -47,6 +49,7 @@ class List {
 }
 
 test.describe.serial("linkCheck", () => {
+  console.log("running link check");
   const list = new List();
 
   slugs.forEach((slug) => {

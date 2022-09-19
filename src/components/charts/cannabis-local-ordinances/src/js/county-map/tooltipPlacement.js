@@ -1,18 +1,24 @@
 import * as d3 from "d3";
 
 const tooltipPlacement = (options, shapes) => {
-
-  let legendStatewide = document.querySelector("cagov-map-table[data-jurisdiction=Statewide] .map-legend");
-  let legendCounty = document.querySelector("cagov-map-table[data-jurisdiction=County] .map-legend");
+  let legendStatewide = document.querySelector(
+    "cagov-map-table[data-jurisdiction=Statewide] .map-legend"
+  );
+  let legendCounty = document.querySelector(
+    "cagov-map-table[data-jurisdiction=County] .map-legend"
+  );
   if (legendStatewide !== null) {
     let legendBBox = legendStatewide.getBoundingClientRect();
     if (window.innerWidth < 720) {
-   
       let mapDimensions = getMapDimensions(options);
       let shapeDimensions = getShapeDimensions(options, shapes);
-    
+
       let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
-      return calculatePositionOverShape(mapDimensions, shapeDimensions, quadrant);
+      return calculatePositionOverShape(
+        mapDimensions,
+        shapeDimensions,
+        quadrant
+      );
     } else {
       return {
         x: legendBBox.left + window.scrollX - 32,
@@ -22,12 +28,15 @@ const tooltipPlacement = (options, shapes) => {
   } else if (legendCounty !== null) {
     let legendBBox = legendCounty.getBoundingClientRect();
     if (window.innerWidth < 720) {
-   
       let mapDimensions = getMapDimensions(options);
       let shapeDimensions = getShapeDimensions(options, shapes);
-    
+
       let quadrant = getPositionQuadrant(mapDimensions, shapeDimensions);
-      return calculatePositionOverShape(mapDimensions, shapeDimensions, quadrant);
+      return calculatePositionOverShape(
+        mapDimensions,
+        shapeDimensions,
+        quadrant
+      );
     } else {
       return {
         x: legendBBox.left + window.scrollX - 90,
@@ -35,8 +44,6 @@ const tooltipPlacement = (options, shapes) => {
       };
     }
   }
-
-  
 
   let mapDimensions = getMapDimensions(options);
   let shapeDimensions = getShapeDimensions(options, shapes);
@@ -73,7 +80,7 @@ const getMapDimensions = (options) => {
   );
   let parentBBox = document
     .querySelector("cagov-map-table .interactive-map-container")
-    .getBoundingClientRect(); 
+    .getBoundingClientRect();
 
   let mapScale = mapHeight / options.rawHeight;
   let mapCenterWidth = mapWidth / 2;
@@ -107,9 +114,9 @@ const getShapeDimensions = (options, shapes) => {
 
 /**
  * Figure out where in the map the shape is located, reposition tooltip based on upper and lower left and right quadrants.
- * @param {*} m 
- * @param {*} s 
- * @returns 
+ * @param {*} m
+ * @param {*} s
+ * @returns
  */
 const getPositionQuadrant = (m, s) => {
   // Get quadrant
@@ -129,10 +136,10 @@ const getPositionQuadrant = (m, s) => {
 
 /**
  * Decide how to position the tooltip based on which quadrant we are in.
- * @param {*} m 
- * @param {*} s 
- * @param {*} quadrant 
- * @returns 
+ * @param {*} m
+ * @param {*} s
+ * @param {*} quadrant
+ * @returns
  */
 const calculateQuadrantPositions = (m, s, quadrant) => {
   let tooltipX = s.shapeX;

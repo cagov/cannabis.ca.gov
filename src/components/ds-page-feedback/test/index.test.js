@@ -1,13 +1,13 @@
-import { expect, fixture } from '@open-wc/testing';
+import { expect, fixture } from "@open-wc/testing";
 /* this test file can be run on command line with npm run test
    or with visual debug via npm run test:visual */
 
-import '../dist/index.js';
+import "../dist/index.js";
 
-describe('CAGOV Page feedback', function unitTest() {
+describe("CAGOV Page feedback", function unitTest() {
   this.timeout(5000);
-  it('works', async () => {
-    const response = await fetch('../template.html');
+  it("works", async () => {
+    const response = await fetch("../template.html");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -16,14 +16,14 @@ describe('CAGOV Page feedback', function unitTest() {
     const el = await fixture(startHTML);
 
     // verify textarea is not display block
-    expect(el.querySelector('.feedback-form-add').style.display).to.equal('');
+    expect(el.querySelector(".feedback-form-add").style.display).to.equal("");
 
     // click on yes
-    el.querySelector('.js-feedback-yes').click();
+    el.querySelector(".js-feedback-yes").click();
 
     // verify now textarea is now visible with display block
-    expect(el.querySelector('.feedback-form-add').style.display).to.equal(
-      'block',
+    expect(el.querySelector(".feedback-form-add").style.display).to.equal(
+      "block"
     );
 
     await expect(el).to.be.accessible();

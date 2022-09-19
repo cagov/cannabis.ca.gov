@@ -351,15 +351,15 @@ function groupAllowedActivities(place, activities, item, getID) {
         if (getID === true) {
           placeLabel = item["GEOID"];
         }
-  
+
         activities.county["Are all CCA activites prohibited?"][
           item["Are all CCA activites prohibited?"]
         ].push(placeLabel);
-  
+
         activities.county["Is all retail prohibited?"][
           item["Is all retail prohibited?"]
         ].push(placeLabel);
-  
+
         if (item["CCA Prohibited by County"] === "Yes") {
           activities.county["CCA Prohibited by County"]["Yes"].push(placeLabel);
           placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
@@ -367,22 +367,25 @@ function groupAllowedActivities(place, activities, item, getID) {
           activities.county["CCA Prohibited by County"]["Yes"].push(placeLabel);
           placeLabel = "Unincorporated " + item["County label"]; // @TODO add to translation strings
         }
-  
-        activities.county["Retail: Storefront"][item["Retail: Storefront"]].push(
+
+        activities.county["Retail: Storefront"][
+          item["Retail: Storefront"]
+        ].push(placeLabel);
+        activities.county["Retail: Non-Storefront"][
+          item["Retail: Non-Storefront"]
+        ].push(placeLabel);
+        activities.county["Distribution"][item["Distribution"]].push(
           placeLabel
         );
-        activities.county["Retail: Non-Storefront"][item["Retail: Non-Storefront"]].push(
+        activities.county["Manufacturing"][item["Manufacturing"]].push(
           placeLabel
         );
-        activities.county["Distribution"][item["Distribution"]].push(placeLabel);
-        activities.county["Manufacturing"][item["Manufacturing"]].push(placeLabel);
         activities.county["Cultivation"][item["Cultivation"]].push(placeLabel);
         activities.county["Testing"][item["Testing"]].push(placeLabel);
-        activities.county["Datasets for County"] = activities["Datasets for County"] + 1;
+        activities.county["Datasets for County"] =
+          activities["Datasets for County"] + 1;
       }
     }
-
-    
   } catch (error) {
     console.error(error);
   }

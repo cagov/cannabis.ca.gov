@@ -146,7 +146,6 @@ export default function drawStatewideMap({
                 return "Label";
               })
               .on("click", function (event, d) {
-
                 countyPaths.each(function (p, j) {
                   d3.select(this)
                     .attr("fill", "#fcfcfc")
@@ -159,7 +158,8 @@ export default function drawStatewideMap({
 
                 tooltip.html(chartTooltipCounty(data, props));
 
-                let tooltipContainer = document.querySelector(".tooltip-container");
+                let tooltipContainer =
+                  document.querySelector(".tooltip-container");
                 if (tooltipContainer !== null) {
                   tooltipContainer.setAttribute("style", "visibility:visible");
                 }
@@ -186,13 +186,13 @@ export default function drawStatewideMap({
                 // console.log(window.innerWidth );
                 if (window.innerWidth < 900) {
                   return tooltip
-                  .transition()
-                  .duration(0)
-                  .style("position", "absolute")
-                  .style("left", tooltipPosition.x + "px")
-                  .style("top", tooltipPosition.y + "px")
-                  .style("visibility", "visible");
-                } 
+                    .transition()
+                    .duration(0)
+                    .style("position", "absolute")
+                    .style("left", tooltipPosition.x + "px")
+                    .style("top", tooltipPosition.y + "px")
+                    .style("visibility", "visible");
+                }
                 return tooltip
                   .transition()
                   .duration(0)
@@ -223,12 +223,12 @@ export default function drawStatewideMap({
             let placeColor = getPlaceColor(data, { name, geoid });
 
             if (placeColor !== "transparent") {
-            el.attr("stroke-width", 0.2)
-              .attr("stroke-opacity", 0.4)
-              .attr(
-                "stroke",
-                placeColor !== "transparent" ? "#FFF" : "transparent"
-              );
+              el.attr("stroke-width", 0.2)
+                .attr("stroke-opacity", 0.4)
+                .attr(
+                  "stroke",
+                  placeColor !== "transparent" ? "#FFF" : "transparent"
+                );
             } else {
               el.remove();
             }

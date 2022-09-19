@@ -12,7 +12,7 @@ const staticContentPaths = {
     posts: `${staticContentPath}/posts`,
     redirects: `${staticContentPath}/redirects`,
     menu: `${staticContentPath}/menu`,
-    data: `${staticContentPath}/data`
+    data: `${staticContentPath}/data`,
   },
 };
 

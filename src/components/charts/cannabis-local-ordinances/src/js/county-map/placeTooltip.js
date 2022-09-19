@@ -12,7 +12,7 @@ function chartTooltipPlace(data, props, options) {
   let currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
     let item = data.dataPlaces[place];
     if (
-      geoid === item["GEOID"]  &&
+      geoid === item["GEOID"] &&
       item["Jurisdiction Type"] === "City" &&
       place !== "default"
     ) {
@@ -42,8 +42,16 @@ function placeStatusTooltipMessage(data, props, options) {
   let { name, geoid } = options;
   let { activities, showPlaces, showCounties } = data;
   let mode = activities;
-  let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
-    getToolTipMessages(data, name, props, "City");
+  let {
+    all,
+    city,
+    county,
+    prohibited,
+    allowed,
+    prohibitedLegend,
+    allowedLegend,
+    detailsCTA,
+  } = getToolTipMessages(data, name, props, "City");
 
   // Choose label based on toggle
   let label = all;
