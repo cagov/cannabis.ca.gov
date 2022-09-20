@@ -4,7 +4,7 @@
 .cagov-promotional-card-grid.cagov-grid {
   display: grid;
   grid-gap: 1.5rem;
-  grid-row-gap: 64px;
+  /* grid-row-gap: 64px; */
 }
 
 @supports (width: min(250px, 100%)) {
