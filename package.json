@@ -18,7 +18,7 @@
     "linkcheck:gh": "npx playwright  test  test/linkcheck.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
     "code:format": "npm run format:prettier --ignore-path",
-    "clean:content": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects"
+    "clean:content": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects && npm run build"
   },
   "keywords": [
     "@cagov",
