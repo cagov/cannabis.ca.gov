@@ -9,6 +9,10 @@ import "@cagov/ds-accordion";
 import "@cagov/ds-back-to-top";
 
 import "../components/ds-page-feedback/src/index.js"; // For drafting microcopy update.
+
+
+import "../components/scrollable-card/src/js/behavior.js"; // For drafting microcopy update.
+
 // import '@cagov/ds-link-icon/src/index.js';
 import "@cagov/ds-page-alert";
 // import '@cagov/ds-dropdown-menu';

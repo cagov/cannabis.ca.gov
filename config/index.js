@@ -2,6 +2,7 @@ const siteSettings = require("./config.json"); // Site config (renders in markup
 
 // let staticContentPath = "./node_modules/static-content-cannabis";
 let staticContentPath = "./node_modules/static-content-cannabis-staging";
+// let staticContentPath = "./node_modules/static-content-cannabis-debugging";
 
 
 const staticContentPaths = {
