@@ -1,4 +1,5 @@
 // @ts-check
+
 const { devices } = require("@playwright/test");
 
 /**
@@ -7,10 +8,7 @@ const { devices } = require("@playwright/test");
  */
 // require('dotenv').config();
 
-/**
- * @see https://playwright.dev/docs/test-configuration
- * @type {import('@playwright/test').PlaywrightTestConfig}
- */
+/** @type {import('@playwright/test').PlaywrightTestConfig} */
 const config = {
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
