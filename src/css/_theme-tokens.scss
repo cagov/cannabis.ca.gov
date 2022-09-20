@@ -1,33 +1,37 @@
+
+
 /* Cagov color scheme root variables */
+
+// Will override cagov.css...
+// src: node_modules/@cagov/ds-base-css/src
+
 // WIP: https://www.figma.com/file/b1UMYEmd7PBEMHqux75NDf/Untitled?node-id=6%3A69
+
 :root {
-  /* Theme colors */
-  --primary-color: #064e66;
-  --primary-900: #064e66;
-  --primary-hover-color: #043747;
 
-  --standout-color: #2f4c2c;
-  --standout-hover-color: #21351f;
-  --secondary-color: #2f4c2c;
-  --highlight-color: #fdb81e;
+  --primary-100: #E8EFF1;
+  --primary-300: #61909C;
+  --primary-500: #61909C;
+  --primary-700: #246778;
+  --primary-900: #004151;
 
-  // @TODO These are the colors we need to re-assign.
-  --primary-700: #064e66;
-  --primary-dark-color: #033242;
-  --primary-light-color: #B4CAD1;
-  --primary-lightest-color: #E6EDF0;
+  --accent1-100: #FBEBDC;
+  --accent1-300: #EFAF73;
+  --accent1-500: #C5752B;
+  --accent1-700: #89511E;
+  --accent1-900: #563312;
 
-  --secondary-color: #704315;
-  --secondary-dark-color: #472a06;
-  --secondary-light-color: #a26016;
-  --secondary-lightest-color: #e4881e;
-  --secondary-hover-color: #472a06;
+  --accent2-100: #FFECC4;
+  --accent2-300: #ECB32D;
+  --accent2-500: #AC8227;
+  --accent2-700: #775A20;
+  --accent2-900: #4A3918;
 
-  --highlight-color: #c24629;
-  --highlight-dark-color: #512317;
-  --highlight-light-color: #c24629;
-  --highlight-lightest-color: #e0866d;
-  --highlight-hover-color: #512317;
+  --accent3-100: #EBEEEB;
+  --accent3-300: #B4BFB2;
+  --accent3-500: #7B8E78;
+  --accent3-700: #4C6549;
+  --accent3-900: #294126;
 
   /* sitewide gradient */
   --top-gradient: linear-gradient(#fbefe0, #fff 600px);

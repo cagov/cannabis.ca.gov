@@ -1,6 +1,4 @@
-const siteSettings = require("./site-settings.json"); // Site config (renders in markup)
-const buildSettings = require("./build-settings.json"); // Build settings (connects to files)
-const translationSettings = require("./translations.json"); // Custom UI strings, by language (currently just "en")
+const siteSettings = require("./config.json"); // Site config (renders in markup)
 
 // let staticContentPath = "./node_modules/static-content-cannabis";
 let staticContentPath = "./node_modules/static-content-cannabis-debugging";
@@ -26,10 +24,6 @@ const getConfig = () => {
     translationSettings,
     staticContentPaths
   );
-
-  // if (process.env.SITE_ENV === "development") {
-  //     config = development;
-  // }
 
   if (process.env.SITE_ENV === "localhost") {
     config.og_meta.site_url = "http://localhost:8080";
