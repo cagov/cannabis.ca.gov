@@ -8,32 +8,6 @@ const config = require("../../../config/index.js");
  */
 module.exports = {
   /**
-   * Return a non-language specific url.
-   *
-   * Usage example: {{ page | pagePath('/es') }}
-   *
-   * @param {*} page
-   * @returns string - unlocalized path string '/support/health-and-wellness/index.html' (content page) or /index.html (root)
-   */
-  pagePath: (page) => {
-    let currentPath = `${page.filePathStem}/index.html`; // Relative to base dir, localized path, with folder + /index.html.
-
-    const languages = ["/es/"]; // Localized folder paths, '/es/', '/vi', etc.
-
-    languages.map((language) => {
-      currentPath = currentPath.replace(language, "/");
-      return false; // Remove existing localized paths to get root.
-    });
-
-    // Remove /home/ path slug from filePathStem variable
-    if (page.fileSlug === "home") {
-      currentPath = "/index.html";
-    }
-
-    // Return a path with no localization and index.html
-    return currentPath;
-  },
-  /**
    * Return a language specific url.
    *
    * Usage example: {{ page | relativePath }}
@@ -54,7 +28,7 @@ module.exports = {
     // Return a path with localization and index.html
     return currentPath;
   },
-  
+
   /**
    * Determine if the current page locale matches the selected language
    *

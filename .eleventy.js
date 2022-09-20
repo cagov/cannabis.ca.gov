@@ -12,7 +12,6 @@ const {
 } = require("./src/js/eleventy/post-list/render.js");
 const { renderEventLists } = require("./src/js/eleventy/event-list/render.js");
 const {
-  pagePath,
   relativePath,
   i18n
 } = require("./src/js/eleventy/filters.js");
@@ -108,7 +107,6 @@ module.exports = function (eleventyConfig) {
     (code) => new CleanCSS({}).minify(code).styles
   );
   eleventyConfig.addFilter("i18n", i18n);
-  eleventyConfig.addFilter("pagePath", pagePath);
   eleventyConfig.addFilter("relativePath", relativePath);
 
   // Replace Wordpress Media paths.
