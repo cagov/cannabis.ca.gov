@@ -4,6 +4,7 @@ _monolith
 config
 dist
 node_modules
+**/node_modules/**
 .eleventy.js
 .gitignore
 CHANGELOG.md
@@ -11,3 +12,4 @@ LICENSE
 package-lock.json
 package.json
 README.md
+test
