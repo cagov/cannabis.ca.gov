@@ -28,7 +28,7 @@ const config = require("../../config/index.js");
         url = url.replace(domain, "");
         return false;
       });
-      return new URL(url).pathname;
+      return url;
   } catch {
     return url;
   }
