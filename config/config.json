@@ -17,13 +17,14 @@
             "gov_name": "CA.GOV",
             "gov_url": "https:\/\/ca.gov",
             "favicon": "/assets/cagov_favicon.ico",
-            "keywords": "cannabis"
+            "page_icon": "/assets/img/cannabis_favicon_16x16.png",
+            "keywords": "California, government"
         }
     },
-    "languages": {
+    "locales": {
         "en": "English"
     },
-    "endpoints": {
+    "extensions": {
         "page-feedback": {
             "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
         }

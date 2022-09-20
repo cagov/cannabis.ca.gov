@@ -1,14 +1,14 @@
 
 
-/* Cagov color scheme root variables */
+/* CaGov color scheme root variables */
 
-// Will override cagov.css...
-// src: node_modules/@cagov/ds-base-css/src
+// Will override cagov.css (right?)
+// src: node_modules/@cagov/ds-base-css/src (BASE CSS IS PROBABLY DEPRECATED)
 
 // WIP: https://www.figma.com/file/b1UMYEmd7PBEMHqux75NDf/Untitled?node-id=6%3A69
 
 :root {
-
+  // Accessible colors
   --primary-color: #064e66;
   --primary-hover-color: #043747;
   --primary-dark-color: #033242;

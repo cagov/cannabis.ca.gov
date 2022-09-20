@@ -26,7 +26,7 @@
     "Department of Cannabis Control"
   ],
   "repository": "https://github.com/cannabis.ca.gov",
-  "author": "Office of Data and Innovation",
+  "author": "Office of Data and Innovation & Department of Cannabis Control",
   "license": "MIT",
   "devDependencies": {
     "@open-wc/eslint-config": "^4.3.0",

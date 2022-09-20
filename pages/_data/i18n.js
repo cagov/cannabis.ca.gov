@@ -53,8 +53,8 @@ module.exports = {
     location: "Site Header",
   },
 
-  "Office of Data and Innovation - State of California": {
-    en: "Office of Data and Innovation - State of California",
+  "Department of Cannabis Control - State of California": {
+    en: "Department of Cannabis Control - State of California",
   },
 
   "Official website of the State of California": {

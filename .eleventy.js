@@ -14,7 +14,7 @@ const { renderEventLists } = require("./src/js/eleventy/event-list/render.js");
 const {
   pagePath,
   relativePath,
-  i18n,
+  i18n
 } = require("./src/js/eleventy/filters.js");
 
 module.exports = function (eleventyConfig) {

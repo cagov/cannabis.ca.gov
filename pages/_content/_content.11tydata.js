@@ -48,14 +48,51 @@ const getPageTitle = (article) => {
   }
 };
 
-const getUrlPath = (url) => {
-  try {
-    return new URL(url).pathname;
+/**
+ * This is used to build a relative path for the 11ty folder system
+ * @param {*} url
+ * @returns
+ */
+ const getRelativePath = (url) => {
+  try {    
+      config.build.replace_urls.forEach((domain) => {
+        url = url.replace(domain, "");
+        return false;
+      });
+      return new URL(url).pathname;
   } catch {
     return url;
   }
 };
 
+/**
+ * This is used to build a relative path for the 11ty folder system
+ * @param {*} url
+ * @returns
+ */
+const getAbsolutePath = (url) => {
+  try {
+      config.build.replace_urls.forEach((domain) => {
+        url = url.replace(domain, "");
+        return false;
+      });
+
+      if (url.indexOf("/") === "0") {
+        url = `${config.build.static_site_url}/${url}`;
+        return url;
+      } 
+      
+      return new URL(url).pathname;
+  } catch {
+    return url;
+  }
+};
+
+/**
+ *
+ * @param {*} article
+ * @returns
+ */
 const getTemplate = (article) => {
   let template = "page";
 
@@ -88,102 +125,110 @@ const getTemplate = (article) => {
 
 module.exports = {
   eleventyComputed: {
-    permalink: (article) => getUrlPath(article.data?.wordpress_url),
+    permalink: (article) =>  getRelativePath(article.data?.wordpress_url),
     layout: (article) => getTemplate(article),
     parentId: (article) => article.data.parent,
     title: (article) => article.data.title,
     category: (article) => article.data?.categories[0],
     site_name: (article) => config.page_metadata[article.locale]?.site_name,
     gov_name: config.gov_name,
+
     gov_url: config.gov_url,
 
-    page_metadata: {
-      // Page permalink value.
-      permalink: (article) => article.permalink,
+    // page_metadata: {
+    //   // Page permalink value.
+    //   permalink: (article) => getAbsolutePath(article.permalink),
 
-      // Open graph, canonical url, used by search engines.
-      canonical_url: (article) => article.permalink,
+    //   // Open graph, canonical url, used by search engines.
+    //   canonical_url: (article) => getAbsolutePath(article.permalink),
 
-      // Site url, used in social media posts.
-      site_url: config.page_metadata.site_url,
+    //   // Site url, used in social media posts.
+    //   site_url:  getAbsolutePath(config.page_metadata.site_url),
 
-      // Title for <title> HTML tag
-      page_title: (article) => getPageTitle(article),
+    //   fav_icon: (article) => config.page_metadata[article.locale]?.favicon,
 
-      // Currently in njk formatting.
-      // - In njk would be {{ page_metadata.page_title }}
+    //   page_icon: (article) => config.page_metadata[article.locale]?.page_icon,
 
-      // Page title for og tags
-      open_graph_title: (article) =>
-        article.metadata?.open_graph_title ||
-        article.title ||
-        config.page_metadata[article.locale]?.site_name ||
-        config.page_metadata.en.site_name,
+    //   // Title for <title> HTML tag
+    //   page_title: (article) => getPageTitle(article),
 
-      // Required tag for Twitter. Is same as open_graph_title.
-      twitter_title: (article) =>
-        article.metadata?.open_graph_title ||
-        article.title ||
-        config.page_metadata[article.locale]?.site_name ||
-        config.page_metadata.en.site_name,
+    //   // Currently in njk formatting.
+    //   // - In njk would be {{ page_metadata.page_title }}
 
-      // General site name, used by social media SEO renderers.
-      site_name: (article) =>
-        config.page_metadata[article.locale]?.site_name ||
-        config.page_metadata.en.site_name,
+    //   // Page title for og tags
+    //   open_graph_title: (article) =>
+    //     article.metadata?.open_graph_title ||
+    //     article.title ||
+    //     config.page_metadata[article.locale]?.site_name ||
+    //     config.page_metadata.en.site_name,
 
-      // General description for the whole site.
-      site_description: (article) =>
-        config.page_metadata[article.locale]?.site_description ||
-        config.page_metadata.en.site_description,
+    //   // Required tag for Twitter. Is same as open_graph_title.
+    //   twitter_title: (article) =>
+    //     article.metadata?.open_graph_title ||
+    //     article.title ||
+    //     config.page_metadata[article.locale]?.site_name ||
+    //     config.page_metadata.en.site_name,
 
-      // Description for page - uses frontmatter description or site configuration description
-      open_graph_description: (article) =>
-        article.description || config.page_metadata.en.site_default_description,
+    //   // General site name, used by social media SEO renderers.
+    //   site_name: (article) =>
+    //     config.page_metadata[article.locale]?.site_name ||
+    //     config.page_metadata.en.site_name,
 
-      // Social media description for open graph (og) tags. Uses front matter metadata, if different from page description.
-      // - Defaults to site description when no other data is available.
-      open_graph_description: (article) =>
-        article.metadata?.open_graph_description ||
-        article.description ||
-        config.page_metadata[article.locale]?.site_default_description ||
-        config.page_metadata.en.site_default_description,
+    //   // General description for the whole site.
+    //   site_description: (article) =>
+    //     config.page_metadata[article.locale]?.site_description ||
+    //     config.page_metadata.en.site_description,
 
-      // Value for twitter specific og tag. Is same as open_graph_description
-      twitter_description: (article) =>
-        article.metadata?.open_graph_description ||
-        article.description ||
-        config.page_metadata.en.site_default_description,
+    //   // Description for page - uses frontmatter description or site configuration description
+    //   page_description: (article) =>
+    //     article.description || config.page_metadata.en.site_default_description,
 
-      // Site keywords. Uses front matter data. If none are set, defaults to global keywords.
-      keywords: (article) =>
-        article.keywords || config.page_metadata.en.keywords,
+    //   // Social media description for open graph (og) tags. Uses front matter metadata, if different from page description.
+    //   // - Defaults to site description when no other data is available.
+    //   open_graph_description: (article) =>
+    //     article.metadata?.open_graph_description ||
+    //     article.description ||
+    //     config.page_metadata[article.locale]?.site_default_description ||
+    //     config.page_metadata.en.site_default_description,
 
-      // Alt text for social media image. Uses front matter metadata settings, localized default image alt text, or default image alt text.
-      open_graph_image_alt: (article) =>
-        article.metadata?.open_graph_image_alt_text ||
-        config.page_metadata[article.locale]
-          ?.page_default_open_graph_image_alt ||
-        config.page_metadata.en.page_default_open_graph_image_alt,
+    //   // Value for twitter specific og tag. Is same as open_graph_description
+    //   twitter_description: (article) =>
+    //     article.metadata?.open_graph_description ||
+    //     article.description ||
+    //     config.page_metadata.en.site_default_description,
 
-      // Social media asset. Can be relative or absolute url. Uses frontmatter metadata settings, or localized default image, or default image.
-      open_graph_image_url: (article) =>
-        article.metadata?.open_graph_image_path ||
-        config.page_metadata[article.locale]
-          ?.page_default_open_graph_image_url ||
-        config.page_metadata.en.page_default_open_graph_image_url,
+    //   // Site keywords. Uses front matter data. If none are set, defaults to global keywords.
+    //   keywords: (article) =>
+    //     article.keywords || config.page_metadata.en.keywords,
 
-      open_graph_image_width: (article) =>
-        article.metadata?.open_graph_image_width ||
-        config.page_metadata[article.locale]
-          ?.page_default_open_graph_image_width ||
-        config.page_metadata.en.page_default_open_graph_image_width,
+    //   // Alt text for social media image. Uses front matter metadata settings, localized default image alt text, or default image alt text.
+    //   open_graph_image_alt: (article) =>
+    //     article.metadata?.open_graph_image_alt_text ||
+    //     config.page_metadata[article.locale]
+    //       ?.page_default_open_graph_image_alt ||
+    //     config.page_metadata.en.page_default_open_graph_image_alt,
 
-      open_graph_image_height: (article) =>
-        article.metadata?.open_graph_image_height ||
-        config.page_metadata[article.locale]
-          ?.page_default_open_graph_image_height ||
-        config.page_metadata.en.page_default_open_graph_image_height,
-    },
+    //   // Social media asset. Can be relative or absolute url. Uses frontmatter metadata settings, or localized default image, or default image.
+    //   open_graph_image_url: (article) => {
+    //     let url =
+    //       article.metadata?.open_graph_image_path ||
+    //       config.page_metadata[article.locale]
+    //         ?.page_default_open_graph_image_url ||
+    //       config.page_metadata.en.page_default_open_graph_image_url;
+    //     return getAbsolutePath(url);
+    //   },
+
+    //   open_graph_image_width: (article) =>
+    //     article.metadata?.open_graph_image_width ||
+    //     config.page_metadata[article.locale]
+    //       ?.page_default_open_graph_image_width ||
+    //     config.page_metadata.en.page_default_open_graph_image_width,
+
+    //   open_graph_image_height: (article) =>
+    //     article.metadata?.open_graph_image_height ||
+    //     config.page_metadata[article.locale]
+    //       ?.page_default_open_graph_image_height ||
+    //     config.page_metadata.en.page_default_open_graph_image_height,
+    // },
   },
 };

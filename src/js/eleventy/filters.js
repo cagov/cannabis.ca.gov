@@ -1,4 +1,5 @@
 const translations = require("../../../pages/_data/i18n.js");
+const config = require("../../../config/index.js");
 
 /**
  * Template functions
@@ -40,19 +41,20 @@ module.exports = {
    * @returns
    */
   relativePath: (page, locale) => {
-    let currentPath = `${page.filePathStem}/index.html`; // Relative to base dir, localized path, with folder + /index.html.
+    let currentPath = `${page.url}`; // Relative to base dir, localized path, with folder + /index.html.
 
     // Remove /home/ path slug from filePathStem variable
     if (page.fileSlug === "home") {
-      currentPath = "/index.html";
+      currentPath = "/";
       if (locale !== "en") {
-        currentPath = `/${locale}/index.html`;
+        currentPath = `/${locale}/`;
       }
     }
 
     // Return a path with localization and index.html
     return currentPath;
   },
+  
   /**
    * Determine if the current page locale matches the selected language
    *
