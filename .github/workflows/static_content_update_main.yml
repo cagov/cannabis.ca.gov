@@ -4,22 +4,19 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [static_content_update_main]
-  schedule:
-    - cron: '35 * * * *'
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js 16.13.1
         uses: actions/setup-node@v1
         with:
           node-version: 16.13.1
-      - name: Check for static content updates # update static content repo. Only install production so build goes faster.
+      - name: Check for static content updates # update static content repo.
         run: |
           mkdir dist
-          # npm install --production
           npm update static-content-cannabis
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
@@ -30,7 +27,7 @@ jobs:
           base: main
           title: "Static content update to main branch"
           body: |
-           Source: api.cannabis.ca.gov (WordPress REST API, Pantheon) > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis (Static content repo, main branch)
+           Method: api.cannabis.ca.gov (WordPress REST API, Pantheon) > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis (Static content repo, main branch)
           labels: |
             content-update
             automerge
