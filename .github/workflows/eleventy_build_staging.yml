@@ -3,11 +3,11 @@ name: 11ty build Staging Site
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 # editor: https://api.cannabis.ca.gov
 on:
-  # workflow_run:
-  #   workflows: ["Update static content [staging]"]
-  #   types: ['completed']
-  #   branches:
-  #     - staging
+  workflow_run:
+    workflows: ["Update static content [staging]"]
+    types: ['completed']
+    branches:
+      - staging
   push:
     branches:
       - staging
