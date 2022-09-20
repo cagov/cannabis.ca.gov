@@ -87,7 +87,7 @@ const config = {
   webServer: {
     command: "npm run test:serve",
     port: 8080,
-    timeout: 120 * 1000,
+    timeout: 12 * 1000,
     reuseExistingServer: false,
   },
 };
