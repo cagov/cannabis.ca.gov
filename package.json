@@ -17,7 +17,8 @@
     "linkcheck:dev": "npx playwright  test  test/linkcheck.spec.mjs --debug --config=test/playwright-dev.config.js",
     "linkcheck:gh": "npx playwright  test  test/linkcheck.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
-    "code:format": "npm run format:prettier --ignore-path"
+    "code:format": "npm run format:prettier --ignore-path",
+    "clean:content": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects"
   },
   "keywords": [
     "@cagov",
@@ -41,7 +42,9 @@
     "eslint-config-prettier": "^8.3.0",
     "html-minifier": "^4.0.0",
     "prettier": "^2.4.1",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging",
+    "static-content-cannabis-debugging": "github:cagov/static-content-cannabis#main-reduced-content"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.15",
@@ -72,7 +75,6 @@
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
-    "static-content-cannabis": "github:cagov/static-content-cannabis#main",
-    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
+    "static-content-cannabis": "github:cagov/static-content-cannabis#main"
   }
 }

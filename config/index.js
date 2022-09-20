@@ -2,7 +2,9 @@ const siteSettings = require("./site-settings.json"); // Site config (renders in
 const buildSettings = require("./build-settings.json"); // Build settings (connects to files)
 const translationSettings = require("./translations.json"); // Custom UI strings, by language (currently just "en")
 
-const staticContentPath = "./node_modules/static-content-cannabis";
+// let staticContentPath = "./node_modules/static-content-cannabis";
+let staticContentPath = "./node_modules/static-content-cannabis-debugging";
+
 
 const staticContentPaths = {
   staticContentPaths: {
