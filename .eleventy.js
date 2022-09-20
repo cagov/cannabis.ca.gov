@@ -17,7 +17,7 @@ const {
   i18n,
 } = require("./src/js/eleventy/filters.js");
 
-module.exports = function (eleventyConfig) {
+module.exports = function eleventyBuild(eleventyConfig) {
   eleventyConfig.htmlTemplateEngine = "njk";
 
   // Copy content from static bundle to gitignored folder in 11ty directory for local processing
@@ -41,29 +41,6 @@ module.exports = function (eleventyConfig) {
     config.staticContentPaths.redirects,
     config.build.eleventy_content
   );
-
-  eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
-    //outputPath === false means serverless templates (@DOCS ? - CS)
-    if (!outputPath || outputPath.endsWith(".html")) {
-      // Render post-list components
-      if (html.includes("cagov-post-list")) {
-        html = renderPostLists(html);
-      }
-
-      // Render posts with event web component
-      if (html.includes("cagov-event-post-list")) {
-        html = renderEventLists(html);
-      }
-
-      // Minify HTML
-      html = htmlmin.minify(html, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-    }
-    return html;
-  });
 
   // Register ca.gov 11ty build system.
   eleventyConfig.addPlugin(cagovBuildSystem, {
@@ -103,9 +80,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // 11ty filters:
-  eleventyConfig.addFilter("cssmin", function (code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
+  eleventyConfig.addFilter("cssmin", (code) => new CleanCSS({}).minify(code).styles);
   eleventyConfig.addFilter("i18n", i18n);
   eleventyConfig.addFilter("pagePath", pagePath);
   eleventyConfig.addFilter("relativePath", relativePath);
@@ -113,6 +88,7 @@ module.exports = function (eleventyConfig) {
   // Replace Wordpress Media paths.
   // Use this explicitly when a full URL is needed, such as within meta tags.
   // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
+  // DEPRECATING
   // eleventyConfig.addFilter("changeWpMediaPath", function (path) {
   //   return path.replace(
   //     new RegExp(`/${config.build.upload_folder}`, "g"),
@@ -121,11 +97,31 @@ module.exports = function (eleventyConfig) {
   // });
 
   // Used in announcements.njk
-  eleventyConfig.addFilter("displayPostInfo", function (item) {
-    return renderWordpressPostTitleDate(item.data, {
+  eleventyConfig.addFilter("displayPostInfo", (item) => renderWordpressPostTitleDate(item.data, {
       showExcerpt: true,
       showPublishDate: true,
-    });
+    }));
+
+  eleventyConfig.addTransform("htmlTransforms", (html, outputPath) => {
+    if (!outputPath || outputPath.endsWith(".html")) {
+      // Render post-list components
+      if (html.includes("cagov-post-list")) {
+        html = renderPostLists(html);
+      }
+
+      // Render posts with event web component
+      if (html.includes("cagov-event-post-list")) {
+        html = renderEventLists(html);
+      }
+
+      // Minify HTML
+      html = htmlmin.minify(html, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+    }
+    return html;
   });
 
   // Copy media assets folder from static site to built site

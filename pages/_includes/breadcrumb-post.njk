@@ -1,0 +1,9 @@
+<div class="breadcrumb" aria-label="Breadcrumb" role="region">
+    <a class="crumb" href="{{ page_metadata.gov_url }}" title="{{ page_metadata.gov_name }}">{{ page_metadata.gov_name }}</a>
+    <span class="crumb separator">/</span>
+    <a class="crumb" href="/" title="{{ page_metadata.site_name }}">{{ page_metadata.site_name }} </a>
+    <span class="crumb separator">/</span>
+    <span class="crumb">{{ fileIds[parentId] | safe }}</span>
+    <span class="crumb separator">/</span>
+    <span class="crumb">{{ category | safe }}</span>
+</div>
