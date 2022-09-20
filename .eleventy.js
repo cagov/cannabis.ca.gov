@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
       sass: {
-        watch: ["src/css/**"],
+        watch: ["src/css/**", "src/components/**"],
         output: "dist/index.css",
         options: {
           file: "src/css/index.scss",

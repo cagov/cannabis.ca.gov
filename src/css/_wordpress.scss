@@ -1,0 +1,25 @@
+.wp-block-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+
+figure.wp-block-post-featured-image {
+    max-width: 100%;
+    height: auto;
+    img {
+        object-fit: contain;
+        max-width: 100%;
+    }       
+}
+
+
+
+
+
+
+
+
+
+
+
