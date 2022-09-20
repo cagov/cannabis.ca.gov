@@ -7,6 +7,7 @@
     "build": "eleventy",
     "dev": "npm run site:watch:dev",
     "site:build:dev": "cross-env NODE_ENV=development SITE_ENV=development eleventy",
+    "site:build:staging": "cross-env NODE_ENV=development SITE_ENV=staging eleventy",
     "site:watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --serve --incremental",
     "site:watch": "eleventy --serve",
     "start": "npm run site:watch",
