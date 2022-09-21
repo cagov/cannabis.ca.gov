@@ -8,14 +8,15 @@
     "dev": "npm run site:watch:dev",
     "site:build:dev": "cross-env NODE_ENV=development SITE_ENV=staging eleventy",
     "site:build:staging": "cross-env SITE_ENV=staging eleventy",
-    "site:watch:dev": "cross-env NODE_ENV=development SITE_ENV=staging eleventy --watch --serve --incremental",
+    "site:watch:dev": "cross-env NODE_ENV=development eleventy --watch --serve --incremental",
+    "site:watch:staging": "cross-env NODE_ENV=development SITE_ENV=staging eleventy --watch --serve --incremental",
     "site:watch": "eleventy --serve",
     "start": "npm run site:watch",
     "deploy:redirects": "node src/deploy/redirects/assign.js",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
-    "test:serve": "npx http-server docs/",
+    "test:serve": "npx http-server --port 8080 docs/",
     "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
-    "linkcheck:dev": "npx playwright test test/linkcheck.spec.mjs --debug --config=test/playwright-dev.config.js",
+    "linkcheck:dev": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:gh": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
     "code:format": "npm run format:prettier --ignore-path",
@@ -33,6 +34,7 @@
   "license": "MIT",
   "devDependencies": {
     "@open-wc/eslint-config": "^4.3.0",
+    "@open-wc/testing": "^3.1.6",
     "@playwright/test": "^1.25.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@web/dev-server": "^0.1.17",
@@ -46,8 +48,8 @@
     "html-minifier": "^4.0.0",
     "prettier": "^2.4.1",
     "rollup-plugin-terser": "^7.0.2",
-    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging",
-    "static-content-cannabis-debugging": "github:cagov/static-content-cannabis#main-reduced-content"
+    "static-content-cannabis-debugging": "github:cagov/static-content-cannabis#main-reduced-content",
+    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.15",
