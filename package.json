@@ -13,7 +13,7 @@
     "start": "npm run site:watch",
     "deploy:redirects": "node src/deploy/redirects/assign.js",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
-    "test:serve": "npm run build && npx http-server docs/",
+    "test:serve": "npx http-server docs/",
     "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
     "linkcheck:dev": "npx playwright  test  test/linkcheck.spec.mjs --debug --config=playwright-dev.config.js",
     "linkcheck:gh": "npx playwright  test  test/linkcheck.spec.mjs --config=test/playwright.config.js",
