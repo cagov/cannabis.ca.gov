@@ -1,9 +1,10 @@
-import { test, expect } from '@playwright/test';
+
+import { test, expect } from "@playwright/test";
 
 test("/", async ({ page }) => {
   await page.goto("/");
   // console.log();
-  return true;
+  // return true;
 });
 
 // test.describe.serial("linkCheck", () => {
