@@ -41,7 +41,7 @@ jobs:
           # mkdir _site_dist (?)
           npm install --legacy-peer-deps
           npm ci --production
-          DOMAIN=${URLSAFE_BRANCH_NAME}.pr.cannabis.ca.gov npm run build:production
+          DOMAIN=${URLSAFE_BRANCH_NAME}.pr.cannabis.ca.gov npm run build
       - name: Write robots.txt
         run: |
           echo 'User-agent: *' > docs/robots.txt
