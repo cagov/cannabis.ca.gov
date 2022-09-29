@@ -38,8 +38,6 @@ jobs:
       - name: Build 11ty
         run: |
           mkdir dist
-          # mkdir _site_dist (?)
-          npm install --legacy-peer-deps
           npm ci --production
           DOMAIN=${URLSAFE_BRANCH_NAME}.pr.cannabis.ca.gov npm run build
       - name: Write robots.txt
