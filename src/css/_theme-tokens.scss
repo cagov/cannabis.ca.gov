@@ -3,60 +3,40 @@
 /* CaGov color scheme root variables */
 
 // Will override cagov.css (right?)
-// src: node_modules/@cagov/ds-base-css/src (BASE CSS IS PROBABLY DEPRECATED)
+// src: node_modules/@cagov/ds-base-css/src (DEPRECATING)
 
 // WIP: https://www.figma.com/file/b1UMYEmd7PBEMHqux75NDf/Untitled?node-id=6%3A69
+// https://accessiblepalette.com/?lightness=98.2,93.9,85,76.2,67.4,57,48,40.2,31.8,24.9&e88a32=1,0&2f4c2c=1,-10&016652=1,0&064E66=1,0&6f3b73=1,0
 
 :root {
-  // Accessible colors
-  --primary-color: #064e66;
-  --primary-hover-color: #043747;
-  --primary-dark-color: #033242;
-  --primary-light-color: #B4CAD1;
-  --primary-lightest-color: #E6EDF0;
-
-  --standout-color: #2f4c2c;
-  --standout-hover-color: #21351f;
-
-  --secondary-color: #2f4c2c;
-  --secondary-color: #704315;
-  --secondary-dark-color: #472a06;
-  --secondary-light-color: #a26016;
-  --secondary-lightest-color: #e4881e;
-  --secondary-hover-color: #472a06;
-
-  --highlight-color: #fdb81e;
-  --highlight-color: #c24629;
-  --highlight-dark-color: #512317;
-  --highlight-light-color: #c24629;
-  --highlight-lightest-color: #e0866d;
-  --highlight-hover-color: #512317;
+  --accent-100: #ECEEEB;
+  --accent-300: #B5BFB1;
+  --accent-500: #7E8D76;
+  --accent-700: #516445;
+  --accent-900: #2F4023;
   
-  --primary-100: #E8EFF1;
-  --primary-300: #61909C;
-  --primary-500: #61909C;
-  --primary-700: #246778;
-  --primary-900: #004151;
+  --accent2-100: #FFEADC;
+  --accent2-300: #F1AE7B;
+  --accent2-500: #C8742A;
+  --accent2-700: #895121;
+  --accent2-900: #553319;
 
-  --accent1-100: #FBEBDC;
-  --accent1-300: #EFAF73;
-  --accent1-500: #C5752B;
-  --accent1-700: #89511E;
-  --accent1-900: #563312;
+  --primary-100: #EBEEF0;
+  --primary-300: #B3BDC7;
+  --primary-500: #788B9C;
+  --primary-700: #456278;
+  --primary-900: #193F56;
 
-  --accent2-100: #FFECC4;
-  --accent2-300: #ECB32D;
-  --accent2-500: #AC8227;
-  --accent2-700: #775A20;
-  --accent2-900: #4A3918;
+  /* DS Not yet converted */
+  --primary-color: #193F56;
 
-  --accent3-100: #EBEEEB;
-  --accent3-300: #B4BFB2;
-  --accent3-500: #7B8E78;
-  --accent3-700: #4C6549;
-  --accent3-900: #294126;
+  --accent3-100: #E9EFEC;
+  --accent3-300: #AAC1BB;
+  --accent3-500: #699181;
+  --accent3-700: #2E6955;
+  --accent3-900: #174334;
 
-  /* sitewide gradient */
+  /* Sitewide gradient */
   --top-gradient: linear-gradient(#fbefe0, #fff 600px);
 
   --org-name-dept-font-size: 2.25rem;

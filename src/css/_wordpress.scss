@@ -1,10 +1,17 @@
 .wp-block-columns {
   display: flex;
   flex-direction: row;
+  gap: 16px;
+}
+
+@media only screen and (max-width: var( --w-sm, 720px)) {
+  .wp-block-columns {
+    flex-direction: column;
+  }
 }
 
 .wp-block-button__link {
-  background-color: var(--primary-color, #064e66);
+  background-color: var(--primary-700, #064e66);
   border-radius: 5px;
   font-weight: 700;
   padding: 0.5rem 1rem;
@@ -24,4 +31,22 @@ figure.wp-block-post-featured-image {
     max-width: 100%;
     height: auto;
   }
+}
+
+.wp-block-table {
+  margin-bottom: 16px;
+  table,
+  table th,
+  table td {
+    border: 1px solid #ededef;
+  }
+  table {
+    border-collapse: collapse; 
+  }
+  td, th {
+    padding: 0.5em;
+    border: 1px solid;
+    word-break: normal;
+  }
+  
 }

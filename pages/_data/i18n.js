@@ -38,6 +38,17 @@ module.exports = {
     en: "Department of Cannabis Control",
     location: "Site Header",
   },
+
+  "Department of Cannabis Control Logo": {
+    en: "Department of Cannabis Control Logo",
+    location: "Site Header"
+  },
+
+  "Department of Cannabis Control home": {
+    en: "Department of Cannabis Control home",
+    location: "Site Header"
+  },
+
   Home: {
     en: "Home",
     location: "Site Navigation",

@@ -10,13 +10,13 @@ $gray-700: #a09fa7;
 $gray-700-var: var(--gray-700, $gray-700);
 
 $primary-hover: #043747;
-$primary-hover-var: var(--primary-hover-color, $primary-hover);
+$primary-hover-var: var(--primary-900, $primary-hover);
 
 $primary-light: #518394;
-$primary-light-var: var(--primary-light-color, $primary-light);
+$primary-light-var: var(--primary-300, $primary-light);
 
 $secondary-lightest: #c1c9c0;
-$secondary-lightest-var: var(--secondary-lightest-color, $secondary-lightest);
+$secondary-lightest-var: var(--accent-100, $secondary-lightest);
 
 $white: #fff;
 $white-var: var(--white, $white);
