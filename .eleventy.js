@@ -114,6 +114,14 @@ module.exports = function eleventyBuild(eleventyConfig) {
         html = renderEventLists(html);
       }
 
+         // Remove WP auto-lazy images for the homepage banner.
+      if (html.includes("<img loading=\"lazy\" class=\"cagov-featured-image\"")) {
+        html = html.replace(
+          "<img loading=\"lazy\" class=\"cagov-featured-image\"",
+          "<img class=\"cagov-featured-image\"" 
+        );
+      }
+
       // Minify HTML
       html = htmlmin.minify(html, {
         useShortDoctype: true,
