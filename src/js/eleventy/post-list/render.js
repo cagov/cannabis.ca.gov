@@ -213,7 +213,7 @@ const renderPostLists = function (html) {
   for (postList of postLists) {
     const { 0: originalMarkup, index } = postList;
     /*
-    @DOCS: https://www.npmjs.com/package/cheerio - "Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure. It does not interpret the result as a web browser does. Specifically, it does not produce a visual rendering, apply CSS, load external resources, or execute JavaScript. This makes Cheerio much, much faster than other solutions. If your use case requires any of this functionality, you should consider projects like Puppeteer or JSDom." @ISSUE
+    @DOCS: https://www.npmjs.com/package/cheerio - "Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure. It does not interpret the result as a web browser does. Specifically, it does not produce a visual rendering, apply CSS, load external resources, or execute JavaScript. This makes Cheerio much, much faster than other solutions. If your use case requires any of this functionality, you should consider projects like Puppeteer or JSDom."
     */
     const $ = cheerio.load(originalMarkup, null, false);
     const postListElement = $("cagov-post-list").get(0);
