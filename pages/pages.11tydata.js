@@ -97,11 +97,13 @@ const getTemplate = (article) => {
   return template;
 };
 
-const getOpenGraphImage = (article) => {
+const getOpenGraphImage = (article, metadata) => {
+  console.log(metadata?.open_graph_image_url);
   const url =
-    article.metadata?.open_graph_image_path ||
+    metadata?.open_graph_image_url ||
     config.page_metadata[article.locale]?.page_default_open_graph_image_url ||
     config.page_metadata.en.page_default_open_graph_image_url;
+
   return getAbsolutePath(url, "og url");
 };
 
@@ -109,9 +111,36 @@ const mapWordPressToPageMeta = (article) => {
   return article;
 };
 
+const mapApiToMetaSchema = (article) => {
+  if (article.data) {
+    const data = {
+      title: article.data.og_meta?.page_title,
+      twitter_title:
+        article.data.og_meta?.twitter_title ||
+        article.data.og_meta?.open_graph_title,
+      open_graph_title: article.data.og_meta?.open_graph_title,
+      page_description:
+        article.data.og_meta?.page_description || article.data?.excerpt,
+      open_graph_description:
+        article.data.og_meta?.open_graph_description || article.data?.excerpt,
+      twitter_description:
+        article.data.og_meta?.twitter_description || article.data?.excerpt,
+      open_graph_image_url: article.data.og_meta?.page_social_image_url,
+      open_graph_image_width: article.data.og_meta?.page_social_image_width,
+      open_graph_image_height: article.data.og_meta?.page_social_image_height,
+      open_graph_image_alt: article.data.og_meta?.page_social_image_alt,
+    };
+    return data;
+  }
+  return article.metadata;
+};
+
 const getPageMetadata = (articleRaw) => {
   let article = mapWordPressToPageMeta(articleRaw);
+
   article.locale = "en";
+
+  const metadata = mapApiToMetaSchema(article);
 
   const pageMetadata = {
     gov_name: config.page_metadata[article.locale]?.gov_name,
@@ -136,14 +165,15 @@ const getPageMetadata = (articleRaw) => {
 
     // Page title for og tags
     open_graph_title:
-      article.metadata?.open_graph_title ||
+      metadata?.open_graph_title ||
       article.title ||
       config.page_metadata[article.locale]?.site_name ||
       config.page_metadata.en.site_name,
 
     // Required tag for Twitter. Is same as open_graph_title.
     twitter_title:
-      article.metadata?.open_graph_title ||
+      metadata?.twitter_title ||
+      metadata?.open_graph_title ||
       article.title ||
       config.page_metadata[article.locale]?.site_name ||
       config.page_metadata.en.site_name,
@@ -160,13 +190,14 @@ const getPageMetadata = (articleRaw) => {
 
     // Description for page - uses frontmatter description or site configuration description
     page_description:
-      article.description || config.page_metadata.en.site_default_description,
+      article.metadata?.description ||
+      config.page_metadata.en.site_default_description,
 
     // Social media description for open graph (og) tags. Uses front matter metadata, if different from page description.
     // - Defaults to site description when no other data is available.
     open_graph_description:
-      article.metadata?.open_graph_description ||
-      article.description ||
+      metadata?.open_graph_description ||
+      metadata?.description ||
       config.page_metadata[article.locale]?.site_default_description ||
       config.page_metadata.en.site_default_description,
 
@@ -186,21 +217,20 @@ const getPageMetadata = (articleRaw) => {
       config.page_metadata.en.page_default_open_graph_image_alt,
 
     // Social media asset. Can be relative or absolute url. Uses frontmatter metadata settings, or localized default image, or default image.
-    open_graph_image_url: getOpenGraphImage(article),
+    open_graph_image_url: getOpenGraphImage(article, metadata),
 
     open_graph_image_width:
-      article.metadata?.open_graph_image_width ||
+      metadata?.open_graph_image_width ||
       config.page_metadata[article.locale]
         ?.page_default_open_graph_image_width ||
       config.page_metadata.en.page_default_open_graph_image_width,
 
     open_graph_image_height:
-      article.metadata?.open_graph_image_height ||
+      metadata?.open_graph_image_height ||
       config.page_metadata[article.locale]
         ?.page_default_open_graph_image_height ||
       config.page_metadata.en.page_default_open_graph_image_height,
   };
-
   return pageMetadata;
 };
 

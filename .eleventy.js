@@ -69,10 +69,7 @@ module.exports = function eleventyBuild(eleventyConfig) {
     notify: true,
     watch: true,
   });
-
-  // eleventyConfig.addWatchTarget("./src/css/**");
-  // eleventyConfig.setWatchThrottleWaitTime(100); // in milliseconds
-
+  
   // https://www.11ty.dev/docs/plugins/i18n/ canary version docs
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     // any valid BCP 47-compatible language tag is supported
@@ -88,17 +85,6 @@ module.exports = function eleventyBuild(eleventyConfig) {
   eleventyConfig.addFilter("pagePath", pagePath);
   eleventyConfig.addFilter("relativePath", relativePath);
 
-  // Replace Wordpress Media paths.
-  // Use this explicitly when a full URL is needed, such as within meta tags.
-  // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
-  // DEPRECATING
-  // eleventyConfig.addFilter("changeWpMediaPath", (path) => {
-  //   return path.replace(
-  //     new RegExp(`/${config.build.upload_folder}`, "g"),
-  //     config.build.docs_media
-  //   );
-  // });
-
   // Used in announcements.njk
   eleventyConfig.addFilter("displayPostInfo", (item) =>
     renderWordpressPostTitleDate(item.data, {
@@ -108,7 +94,8 @@ module.exports = function eleventyBuild(eleventyConfig) {
   );
 
   eleventyConfig.addTransform("htmlTransforms", (html, outputPath) => {
-    if (!outputPath || outputPath.endsWith(".html")) {
+    // !outputPath || // Do we really need this??
+    if (outputPath.endsWith(".html")) {
       // Render post-list components
       if (html.includes("cagov-post-list")) {
         html = renderPostLists(html);
@@ -127,14 +114,14 @@ module.exports = function eleventyBuild(eleventyConfig) {
         );
       }
 
-      if (html.includes("https://cannabis.ca.gov")) {
+      if (html !== undefined && html.includes("https://cannabis.ca.gov")) {
         html = html.replace(
           new RegExp(`https://cannabis.ca.gov`, "g"),
               `${config.build.static_site_url}`
             );
       }
 
-      if (html.includes(config.build.upload_folder_flywheel)) {
+      if (html !== undefined && html.includes(config.build.upload_folder_flywheel)) {
         html = html.replace(
           new RegExp(config.build.upload_folder_flywheel, "g"),
               `${config.build.docs_media}/`
