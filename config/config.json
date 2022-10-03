@@ -41,6 +41,7 @@
         "docs_media": "wp_uploads",
         "s3_bucket_name": "headless.cannabis.ca.gov",
         "upload_folder": "wp-content/uploads/",
+        "upload_folder_flywheel": "wp-content/uploads/sites/2/",
         "replace_urls": [
             "http://cannabis.ca.gov/",
             "https://cannabis.ca.gov/",

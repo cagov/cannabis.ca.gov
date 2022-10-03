@@ -80,7 +80,10 @@ module.exports = function eleventyBuild(eleventyConfig) {
   });
 
   // 11ty filters:
-  eleventyConfig.addFilter("cssmin", (code) => new CleanCSS({}).minify(code).styles);
+  eleventyConfig.addFilter(
+    "cssmin",
+    (code) => new CleanCSS({}).minify(code).styles
+  );
   eleventyConfig.addFilter("i18n", i18n);
   eleventyConfig.addFilter("pagePath", pagePath);
   eleventyConfig.addFilter("relativePath", relativePath);
@@ -89,18 +92,20 @@ module.exports = function eleventyBuild(eleventyConfig) {
   // Use this explicitly when a full URL is needed, such as within meta tags.
   // Doing so will ensure the domain doesn't get nuked by the HTML transformations below.
   // DEPRECATING
-  // eleventyConfig.addFilter("changeWpMediaPath", function (path) {
+  // eleventyConfig.addFilter("changeWpMediaPath", (path) => {
   //   return path.replace(
   //     new RegExp(`/${config.build.upload_folder}`, "g"),
-  //     config.build.eleventy_media
+  //     config.build.docs_media
   //   );
   // });
 
   // Used in announcements.njk
-  eleventyConfig.addFilter("displayPostInfo", (item) => renderWordpressPostTitleDate(item.data, {
+  eleventyConfig.addFilter("displayPostInfo", (item) =>
+    renderWordpressPostTitleDate(item.data, {
       showExcerpt: true,
       showPublishDate: true,
-    }));
+    })
+  );
 
   eleventyConfig.addTransform("htmlTransforms", (html, outputPath) => {
     if (!outputPath || outputPath.endsWith(".html")) {
@@ -114,12 +119,26 @@ module.exports = function eleventyBuild(eleventyConfig) {
         html = renderEventLists(html);
       }
 
-         // Remove WP auto-lazy images for the homepage banner.
-      if (html.includes("<img loading=\"lazy\" class=\"cagov-featured-image\"")) {
+      // Remove WP auto-lazy images for the homepage banner.
+      if (html.includes('<img loading="lazy" class="cagov-featured-image"')) {
         html = html.replace(
-          "<img loading=\"lazy\" class=\"cagov-featured-image\"",
-          "<img class=\"cagov-featured-image\"" 
+          '<img loading="lazy" class="cagov-featured-image"',
+          '<img class="cagov-featured-image"'
         );
+      }
+
+      if (html.includes("https://cannabis.ca.gov")) {
+        html = html.replace(
+          new RegExp(`https://cannabis.ca.gov`, "g"),
+              `${config.build.static_site_url}`
+            );
+      }
+
+      if (html.includes(config.build.upload_folder_flywheel)) {
+        html = html.replace(
+          new RegExp(config.build.upload_folder_flywheel, "g"),
+              `${config.build.docs_media}/`
+            );
       }
 
       // Minify HTML
