@@ -19,8 +19,8 @@
   <div class="footer-social-links">
     {% for menu in socialMediaLinksMenu %}
       <a href="{{ menu.url | safe }}" title="{{ 'Share via' | i18n(locale) }} {{ menu.title | safe }}" rel="noopener noreferrer" target="_blank">
-        {% set path = "/assets/icons/" + menu.post_name + ".svg" %}
-        <img src="{{path}}" width="24" height="24" alt="{{ menu.title | safe }} logo" />
+        
+        <img src="/assets/icons/{{ menu.title | lower | safe }}.svg" width="24" height="24" alt="{{ menu.title | safe }} logo" />
 
         <span class="sr-only">{{ menu.title | safe }}</span>
       </a>
