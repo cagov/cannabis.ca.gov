@@ -91,3 +91,5 @@ Public board: Would move to the GitHub board relative to this GitHub repository.
 Project maintainer & Lead Engineer: Chach Sikes (she/her) @chachasikes
 Engineering Management Lead: Zakiya Khabir @zakiyarules
 Slack channels: #odi-cannabis (ODI internal), #cagov-cannabis (Multi-partner channel)
+
+Content guide: Is in Coda
