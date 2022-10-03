@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "created_date": "2022-09-08T00:17:30",
+    "updated_date": "2022-09-08T00:17:30",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11483",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11483,
+    "date": "2022-09-07T17:17:30",
+    "date_gmt": "2022-09-08T00:17:30",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions.pdf",
+    "modified": "2022-09-07T17:17:30",
+    "modified_gmt": "2022-09-08T00:17:30",
+    "slug": "public-comment-2-prevention-coalitions",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/public-comment-2-prevention-coalitions/",
+    "title": "Public Comment 2&#8211;Prevention Coalitions",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "sizes": {
+        "full": {
+          "file": "Public-Comment-2-Prevention-Coalitions-pdf.jpg",
+          "width": 1088,
+          "height": 1408,
+          "mime_type": "application/pdf",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf.jpg"
+        },
+        "medium": {
+          "file": "Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg",
+          "width": 445,
+          "height": 576,
+          "filesize": 40871,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg"
+        },
+        "large": {
+          "file": "Public-Comment-2-Prevention-Coalitions-pdf-791x1024.jpg",
+          "width": 791,
+          "height": 1024,
+          "filesize": 109652,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-791x1024.jpg"
+        },
+        "thumbnail": {
+          "file": "Public-Comment-2-Prevention-Coalitions-pdf-291x376.jpg",
+          "width": 291,
+          "height": 376,
+          "filesize": 19076,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-291x376.jpg"
+        }
+      },
+      "filesize": 12824995
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions.pdf",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/09/Public-Comment-2-Prevention-Coalitions-pdf.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf.jpg",
+        "file": "Public-Comment-2-Prevention-Coalitions-pdf.jpg",
+        "width": 1088,
+        "height": 1408,
+        "mime_type": "application/pdf",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/09/Public-Comment-2-Prevention-Coalitions-pdf-791x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-791x1024.jpg",
+        "file": "Public-Comment-2-Prevention-Coalitions-pdf-791x1024.jpg",
+        "width": 791,
+        "height": 1024,
+        "filesize": 109652,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-791x1024.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/09/Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg",
+        "file": "Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg",
+        "width": 445,
+        "height": 576,
+        "filesize": 40871,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-445x576.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/09/Public-Comment-2-Prevention-Coalitions-pdf-291x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-291x376.jpg",
+        "file": "Public-Comment-2-Prevention-Coalitions-pdf-291x376.jpg",
+        "width": 291,
+        "height": 376,
+        "filesize": 19076,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-2-Prevention-Coalitions-pdf-291x376.jpg"
+      }
+    ],
+    "path": "2022/09/Public-Comment-2-Prevention-Coalitions.pdf"
+  }
+}

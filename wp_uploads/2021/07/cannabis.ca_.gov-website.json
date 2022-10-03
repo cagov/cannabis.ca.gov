@@ -23,9 +23,8 @@
     "slug": "cannabis-ca_-gov-website",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-established/cannabis-ca_-gov-website/",
+    "link": "https://api.cannabis.ca.gov/cannabis-ca_-gov-website/",
     "title": "cannabis.ca_.gov-website",
-    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
@@ -144,7 +143,7 @@
         "keywords": []
       }
     },
-    "post": 8593,
+    "post": null,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website.png",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/cannabis.ca_.gov-website.png",
     "sizes": [

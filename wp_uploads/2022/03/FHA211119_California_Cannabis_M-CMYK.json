@@ -23,9 +23,8 @@
     "slug": "fha211119_california_cannabis_m-cmyk-2",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/licensees/cannaconnect-compliance-hub/fha211119_california_cannabis_m-cmyk-2/",
+    "link": "https://api.cannabis.ca.gov/fha211119_california_cannabis_m-cmyk-2/",
     "title": "FHA211119_California_Cannabis_M-CMYK",
-    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
@@ -153,7 +152,7 @@
         "keywords": []
       }
     },
-    "post": 9492,
+    "post": null,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/03/FHA211119_California_Cannabis_M-CMYK.png",
     "sizes": [

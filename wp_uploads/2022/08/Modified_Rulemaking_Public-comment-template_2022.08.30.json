@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-08-30T16:33:10",
+    "updated_date": "2022-08-30T16:33:10",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11477",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11477,
+    "date": "2022-08-30T09:33:10",
+    "date_gmt": "2022-08-30T16:33:10",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/Modified_Rulemaking_Public-comment-template_2022.08.30.docx",
+    "modified": "2022-08-30T09:33:10",
+    "modified_gmt": "2022-08-30T16:33:10",
+    "slug": "modified_rulemaking_public-comment-template_2022-08-30",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/modified_rulemaking_public-comment-template_2022-08-30/",
+    "title": "Modified_Rulemaking_Public-comment-template_2022.08.30",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/08/Modified_Rulemaking_Public-comment-template_2022.08.30.docx'>Modified_Rulemaking_Public-comment-template_2022.08.30</a></p>\n",
+    "caption": "<p>Modified_Rulemaking_Public-comment-template_2022.08.30</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "media_details": {
+      "filesize": 167410,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/Modified_Rulemaking_Public-comment-template_2022.08.30.docx",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/Modified_Rulemaking_Public-comment-template_2022.08.30.docx",
+    "path": "2022/08/Modified_Rulemaking_Public-comment-template_2022.08.30.docx"
+  }
+}

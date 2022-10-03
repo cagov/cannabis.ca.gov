@@ -23,7 +23,7 @@
     "slug": "test-social-media-graphic",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/test-open-graph-content/test-social-media-graphic/",
+    "link": "https://api.cannabis.ca.gov/test-social-media-graphic/",
     "title": "About DCC",
     "author": "Chach Sikes",
     "comment_status": "closed",
@@ -100,7 +100,7 @@
         "keywords": []
       }
     },
-    "post": 11459,
+    "post": null,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/test-social-media-graphic.png",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/test-social-media-graphic.png",
     "sizes": [

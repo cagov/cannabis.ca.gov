@@ -23,9 +23,8 @@
     "slug": "consolidation-timeline",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/2021/07/department-of-cannabis-control-established/consolidation-timeline/",
+    "link": "https://api.cannabis.ca.gov/consolidation-timeline/",
     "title": "Consolidation-Timeline",
-    "author": "Liz Nobriga",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
@@ -123,7 +122,7 @@
         "keywords": []
       }
     },
-    "post": 8593,
+    "post": null,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline.png",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/07/Consolidation-Timeline.png",
     "sizes": [

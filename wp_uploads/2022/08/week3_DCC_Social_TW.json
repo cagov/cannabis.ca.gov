@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "created_date": "2022-08-17T22:14:13",
+    "updated_date": "2022-08-17T22:14:13",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11466",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11466,
+    "date": "2022-08-17T15:14:13",
+    "date_gmt": "2022-08-17T22:14:13",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png",
+    "modified": "2022-08-17T15:14:13",
+    "modified_gmt": "2022-08-17T22:14:13",
+    "slug": "week3_dcc_social_tw",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/week3_dcc_social_tw/",
+    "title": "week3_DCC_Social_TW",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png'><img width=\"576\" height=\"288\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-576x288.png\" class=\"attachment-medium size-medium\" alt=\"Photo of Stephanie Hua\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-576x288.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1024x512.png 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-768x384.png 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1536x768.png 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png 2048w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Photo of Stephanie Hua",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 2048,
+      "height": 1024,
+      "file": "2022/08/week3_DCC_Social_TW.png",
+      "filesize": 1209412,
+      "sizes": {
+        "medium": {
+          "file": "week3_DCC_Social_TW-576x288.png",
+          "width": 576,
+          "height": 288,
+          "filesize": 220437,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-576x288.png"
+        },
+        "large": {
+          "file": "week3_DCC_Social_TW-1024x512.png",
+          "width": 1024,
+          "height": 512,
+          "filesize": 569038,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1024x512.png"
+        },
+        "thumbnail": {
+          "file": "week3_DCC_Social_TW-376x376.png",
+          "width": 376,
+          "height": 376,
+          "filesize": 175655,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-376x376.png"
+        },
+        "medium_large": {
+          "file": "week3_DCC_Social_TW-768x384.png",
+          "width": 768,
+          "height": 384,
+          "filesize": 360385,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-768x384.png"
+        },
+        "1536x1536": {
+          "file": "week3_DCC_Social_TW-1536x768.png",
+          "width": 1536,
+          "height": 768,
+          "filesize": 1026445,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1536x768.png"
+        },
+        "full": {
+          "file": "week3_DCC_Social_TW.png",
+          "width": 2048,
+          "height": 1024,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/08/week3_DCC_Social_TW.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png",
+        "file": "week3_DCC_Social_TW.png",
+        "width": 2048,
+        "height": 1024,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW.png"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2022/08/week3_DCC_Social_TW-1536x768.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1536x768.png",
+        "file": "week3_DCC_Social_TW-1536x768.png",
+        "width": 1536,
+        "height": 768,
+        "filesize": 1026445,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1536x768.png"
+      },
+      {
+        "type": "large",
+        "path": "2022/08/week3_DCC_Social_TW-1024x512.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1024x512.png",
+        "file": "week3_DCC_Social_TW-1024x512.png",
+        "width": 1024,
+        "height": 512,
+        "filesize": 569038,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-1024x512.png"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/08/week3_DCC_Social_TW-768x384.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-768x384.png",
+        "file": "week3_DCC_Social_TW-768x384.png",
+        "width": 768,
+        "height": 384,
+        "filesize": 360385,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-768x384.png"
+      },
+      {
+        "type": "medium",
+        "path": "2022/08/week3_DCC_Social_TW-576x288.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-576x288.png",
+        "file": "week3_DCC_Social_TW-576x288.png",
+        "width": 576,
+        "height": 288,
+        "filesize": 220437,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-576x288.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/08/week3_DCC_Social_TW-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-376x376.png",
+        "file": "week3_DCC_Social_TW-376x376.png",
+        "width": 376,
+        "height": 376,
+        "filesize": 175655,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/08/week3_DCC_Social_TW-376x376.png"
+      }
+    ],
+    "path": "2022/08/week3_DCC_Social_TW.png"
+  }
+}
