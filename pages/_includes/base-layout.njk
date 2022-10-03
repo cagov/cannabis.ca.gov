@@ -6,16 +6,16 @@
     <meta content="en" http-equiv="Content-Language">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width,initial-scale=1" name="viewport">
-    <meta content="{{ 'Office of Data and Innovation - State of California' | i18n(locale) }}" name="author">
+    <meta content="{{ 'Department of Cannabis Control - State of California' | i18n(locale) }}" name="author">
     <meta content="#000000" name="theme-color">
     <title>
       {% if title %}{{ page_metadata.page_title | safe }}
-      {% else %}{{ 'California abortion access' | i18n(locale) }}
+      {% else %}{{ 'Department of Cannabis Control' | i18n(locale) }}
       {% endif %}
     </title>
 
-    <link rel="canonical" href="{{ page | relativePath(locale)  }}" />
-    <meta property="og:url" content="{{ page | relativePath(locale) }}" />
+    <link rel="canonical" href="{{ page_metadata.permalink | safe }}" />
+    <meta property="og:url" content="{{ page_metadata.permalink | safe }}" />
     
     <meta name="keywords" content="{{ page_metadata.keywords | safe }}" />
 
@@ -25,17 +25,17 @@
     <meta property="og:title" content="{{ page_metadata.open_graph_title | safe }}" />
     <meta name="description" content="{{ page_metadata.open_graph_description | striptags | safe }}"/>    
     <meta property="og:description" content="{{ page_metadata.open_graph_description | striptags }}" />
-    <meta property="og:image" content="{{ page_metadata.open_graph_image_url }}" />
+    <meta property="og:image" content="{{ page_metadata.open_graph_image_url | safe }}" />
     <meta property="og:image:width" content="{{ page_metadata.open_graph_image_width | safe }}" />
     <meta property="og:image:height" content="{{ page_metadata.open_graph_image_height | safe }}" />
     <meta property="og:image:alt" content="{{ page_metadata.open_graph_image_alt | safe }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ page_metadata.twitter_title | safe }}" />
-    <meta name="twitter:image" content="{{ page_metadata.open_graph_image_url }}" />
+    <meta name="twitter:image" content="{{ page_metadata.open_graph_image_url | safe }}" />
     <meta name="twitter:image:width" content="{{ page_metadata.open_graph_image_width | safe }}" />
     <meta name="twitter:image:height" content="{{ page_metadata.open_graph_image_height | safe }}" />
 
-    <link rel="icon" href="/assets/img/favicon.png">
+    <link rel="icon" href="{{ page_metadata.favicon }}">
 
     <!-- CSS -->
     {% block css %}

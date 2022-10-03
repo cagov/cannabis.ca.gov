@@ -1,14 +1,14 @@
-import { Option } from "./option.js";
 
 // path
 import path from "path";
 import { fileURLToPath } from "url";
 
-// __dirname
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
 // fs.
 import { createRequire } from "module";
+import { Option } from "./option.js";
+
+// __dirname
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
 const fs = require("fs");
 // end fs.

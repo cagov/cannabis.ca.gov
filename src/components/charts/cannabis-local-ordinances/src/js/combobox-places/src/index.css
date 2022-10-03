@@ -21,7 +21,7 @@
 }
 .cagov-combobox-places .combobox-places--group:hover input {
   outline: 1px solid;
-  outline-color: var(--primary-hover-color, #043747);
+  outline-color: var(--primary-900, #043747);
 }
 .cagov-combobox-places ul[role=listbox] {
   margin: 0;
@@ -45,7 +45,7 @@
   font-size: 18px;
 }
 .cagov-combobox-places [role=listbox].focus {
-  border: 1px solid var(--secondary-lightest-color, #c1c9c0);
+  border: 1px solid var(--accent-100, #c1c9c0);
 }
 .cagov-combobox-places [role=listbox] [role=option] {
   display: block;
@@ -54,14 +54,14 @@
   font-size: 100%;
 }
 .cagov-combobox-places [role=listbox] [role=option][aria-selected=true] {
-  background-color: var(--secondary-lightest-color, #c1c9c0);
+  background-color: var(--accent-100, #c1c9c0);
 }
 .cagov-combobox-places [role=listbox].focus [role=option][aria-selected=true] {
-  background-color: var(--secondary-lightest-color, #c1c9c0);
-  border-color: var(--primary-light-color, #518394);
+  background-color: var(--accent-100, #c1c9c0);
+  border-color: var(--primary-300, #518394);
 }
 .cagov-combobox-places [role=listbox] li[role=option]:hover {
-  background-color: var(--secondary-lightest-color, #c1c9c0);
+  background-color: var(--accent-100, #c1c9c0);
 }
 .cagov-combobox-places .combobox-places--button {
   border: 0;

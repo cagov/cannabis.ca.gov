@@ -6,13 +6,13 @@
  * @returns {string} - HTML markup
  */
 function chartTooltipPlace(data, props, options) {
-  let { name, geoid } = options;
-  let message = placeStatusTooltipMessage(data, props, options);
-  let currentPlaceData = data.dataPlaces[options.name];
-  let currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
-    let item = data.dataPlaces[place];
+  const { name, geoid } = options;
+  const message = placeStatusTooltipMessage(data, props, options);
+  const currentPlaceData = data.dataPlaces[options.name];
+  const currentPlaceName = Object.keys(data.dataPlaces).filter((place) => {
+    const item = data.dataPlaces[place];
     if (
-      geoid === item["GEOID"]  &&
+      geoid === item.GEOID &&
       item["Jurisdiction Type"] === "City" &&
       place !== "default"
     ) {
@@ -20,7 +20,7 @@ function chartTooltipPlace(data, props, options) {
     }
   });
   // console.log("DP", name, geoid, currentPlaceName, data.dataPlaces,currentPlaceData);
-  let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
+  const tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
           <div class="county-tooltip">
             <h3>${currentPlaceName}</h3>
               <div class="tooltip-label">
@@ -38,12 +38,20 @@ function chartTooltipPlace(data, props, options) {
  * @returns {string} - HTML markup for tooltip content.
  */
 function placeStatusTooltipMessage(data, props, options) {
-  let { prohibitionStatus } = props;
-  let { name, geoid } = options;
-  let { activities, showPlaces, showCounties } = data;
-  let mode = activities;
-  let { all, city, county, prohibited, allowed, prohibitedLegend, allowedLegend, detailsCTA } =
-    getToolTipMessages(data, name, props, "City");
+  const { prohibitionStatus } = props;
+  const { name, geoid } = options;
+  const { activities, showPlaces, showCounties } = data;
+  const mode = activities;
+  const {
+    all,
+    city,
+    county,
+    prohibited,
+    allowed,
+    prohibitedLegend,
+    allowedLegend,
+    detailsCTA,
+  } = getToolTipMessages(data, name, props, "City");
 
   // Choose label based on toggle
   let label = all;
@@ -61,7 +69,7 @@ function placeStatusTooltipMessage(data, props, options) {
     label = allowed;
   }
 
-  let output = `<div>
+  const output = `<div>
           <div class="status">
             <div class="icon">${icon}</div>
             <div>
@@ -79,9 +87,9 @@ function placeStatusTooltipMessage(data, props, options) {
 }
 
 function insertValueIntoSpanTag(string, value, prop) {
-  var parser = new DOMParser();
-  var el = parser.parseFromString(string, "text/html");
-  let span = el.querySelector("span[" + prop + "]");
+  const parser = new DOMParser();
+  const el = parser.parseFromString(string, "text/html");
+  const span = el.querySelector(`span[${  prop  }]`);
   if (span !== null) {
     span.innerHTML = value;
     return el.querySelector("body").innerHTML;
@@ -96,8 +104,8 @@ function insertValueIntoSpanTag(string, value, prop) {
  * @returns {object} - object with various data attributes to be used in tooltip template.
  */
 function getPlaceTooltipData(data, props) {
-  let { dataPlaces, selectedCounty } = data;
-  let { name } = props;
+  const { dataPlaces, selectedCounty } = data;
+  const { name } = props;
 
   data.mapStatusColors = {
     Yes: "#CF5028", // Orange
@@ -105,8 +113,8 @@ function getPlaceTooltipData(data, props) {
   };
   // console.log("NS", name, selectedCounty, dataPlaces[name]["County"]);
   // Get couny data object from dataTables.
-  let currentPlaceName = Object.keys(dataPlaces).filter((place) => {
-    let item = dataPlaces[place];
+  const currentPlaceName = Object.keys(dataPlaces).filter((place) => {
+    const item = dataPlaces[place];
 
     if (
       name === item["CA Places Key"] &&
@@ -120,16 +128,16 @@ function getPlaceTooltipData(data, props) {
   });
 
   // console.log("currentPlaceName", currentPlaceName);
-  let placeData = dataPlaces[currentPlaceName];
+  const placeData = dataPlaces[currentPlaceName];
   try {
-    let prohibitionStatus = placeData["Are all CCA activites prohibited?"];
+    const prohibitionStatus = placeData["Are all CCA activites prohibited?"];
 
     // let activityPercentages = getActivityPercentages(data, props);
 
     return {
-      name: name,
+      name,
       "County label": placeData["County label"],
-      prohibitionStatus: prohibitionStatus,
+      prohibitionStatus,
       // activityPercentages,
     };
   } catch (error) {
@@ -138,20 +146,20 @@ function getPlaceTooltipData(data, props) {
 }
 
 function getToolTipMessages(data, name, props, jurisdiction) {
-  let { messages, activities } = data;
+  const { messages, activities } = data;
 
-  let mode = activities;
+  const mode = activities;
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    return messages["TooltipStatewideAllActivities"];
-  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
-    return messages["TooltipCountyAllActivities"];
-  } else {
+    return messages.TooltipStatewideAllActivities;
+  } if (mode === "Any cannabis business" && jurisdiction === "City") {
+    return messages.TooltipCountyAllActivities;
+  } 
     if (jurisdiction === "County") {
-      return messages["TooltipStatewideActivity"];
-    } else if (jurisdiction === "City") {
-      return messages["TooltipCountyActivity"];
+      return messages.TooltipStatewideActivity;
+    } if (jurisdiction === "City") {
+      return messages.TooltipCountyActivity;
     }
-  }
+  
   return null;
 }
 
@@ -162,33 +170,33 @@ function getToolTipMessages(data, name, props, jurisdiction) {
  * @returns {integer} Percentage allowed 0 - 100
  */
 function getActivityPercentages(data, props) {
-  let { name, geoid } = props;
-  let activityCountValues = data.countyList[name].countsValues;
-  let mode = data.activities;
+  const { name, geoid } = props;
+  const activityCountValues = data.countyList[name].countsValues;
+  const mode = data.activities;
 
-  let percentageAllowed, percentageProhibited;
+  let percentageAllowed; let percentageProhibited;
   if (mode === "Any cannabis business") {
     percentageAllowed =
       parseFloat(
-        activityCountValues["Are all CCA activites prohibited?"]["No"]
+        activityCountValues["Are all CCA activites prohibited?"].No
       ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
       parseFloat(
-        activityCountValues["Are all CCA activites prohibited?"]["Yes"]
+        activityCountValues["Are all CCA activites prohibited?"].Yes
       ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
   } else if (mode === "Retail") {
     percentageAllowed =
-      parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
+      parseFloat(activityCountValues["Is all retail prohibited?"].No) /
       parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
-      parseFloat(activityCountValues["Is all retail prohibited?"]["Yes"]) /
+      parseFloat(activityCountValues["Is all retail prohibited?"].Yes) /
       parseFloat(data.countyList[name].activities["Datasets for County"]);
   } else {
-    let allowedValues =
-      activityCountValues[mode]["Allowed"] +
-      activityCountValues[mode]["Limited"] +
+    const allowedValues =
+      activityCountValues[mode].Allowed +
+      activityCountValues[mode].Limited +
       activityCountValues[mode]["Limited-Medical Only"];
 
     percentageAllowed =
@@ -196,7 +204,7 @@ function getActivityPercentages(data, props) {
       parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
-      parseFloat(activityCountValues[mode]["Prohibited"]) /
+      parseFloat(activityCountValues[mode].Prohibited) /
       parseFloat(data.countyList[name].activities["Datasets for County"]);
   }
 
@@ -212,7 +220,7 @@ function getActivityPercentages(data, props) {
  */
 function formatPercent(value) {
   // @TODO Check if is a number
-  value = (value * 100).toFixed(0) + "%";
+  value = `${(value * 100).toFixed(0)  }%`;
   return value;
 }
 

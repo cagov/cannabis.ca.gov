@@ -1,10 +1,10 @@
-var fs = require("fs");
-var path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 // Thx for this snippet: ____ @DOCS - CS
 
-var copyFileSync = function (source, target) {
-  var targetFile = target;
+const copyFileSync = function (source, target) {
+  let targetFile = target;
 
   // If target is a directory, a new file with the same name will be created
   if (fs.existsSync(target)) {
@@ -16,11 +16,11 @@ var copyFileSync = function (source, target) {
   fs.writeFileSync(targetFile, fs.readFileSync(source));
 };
 
-var copyFolderRecursiveSync = function (source, target) {
-  var files = [];
+const copyFolderRecursiveSync = function (source, target) {
+  let files = [];
 
   // Check if folder needs to be created or integrated
-  var targetFolder = path.join(target, path.basename(source));
+  const targetFolder = path.join(target, path.basename(source));
   if (!fs.existsSync(targetFolder)) {
     fs.mkdirSync(targetFolder);
   }
@@ -28,8 +28,8 @@ var copyFolderRecursiveSync = function (source, target) {
   // Copy
   if (fs.lstatSync(source).isDirectory()) {
     files = fs.readdirSync(source);
-    files.forEach(function (file) {
-      var curSource = path.join(source, file);
+    files.forEach((file) => {
+      const curSource = path.join(source, file);
       if (fs.lstatSync(curSource).isDirectory()) {
         copyFolderRecursiveSync(curSource, targetFolder);
       } else {

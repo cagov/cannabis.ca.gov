@@ -3,7 +3,7 @@
  * @param {*} // @TODO JSDocs & hash signatures don't play nice, look up best way to document the variables here.
  */
 export default function template(options) {
-  return /*html*/ `<div>
+  return /* html */ `<div>
         <div class="map-container">
             <div class="map-detail">
             </div>

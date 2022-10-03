@@ -1,103 +1,44 @@
-const config = require("./../../config");
+const config = require("../../config/index.js");
 
-const getUrlPath = (url) => {
-  try {
-    return new URL(url).pathname;
+/**
+ * A "Data Directory File" - https://www.11ty.dev/docs/data-computed/
+ * 
+ * Values will be available to the templates {{ value }}
+ * 
+ * This file must be named {foldername}.11tydata.js
+ * This file must be located in the content rendering folder, at the top level
+ * It is automatically loaded in the 11th data cascade
+ * 
+ * Localization notes:
+ * * Markdown pages with frontmatter loaded will load the .md file first for that language.
+ * * The site settings are organized by language
+ * * If a language site configuration is not set, the default is English.
+ * * Social media images sometimes contain text, and can also be localized.
+
+ */
+
+/**
+ * This is used to build a relative path for the 11ty folder system
+ * @param {*} url
+ * @returns
+ */
+ const getRelativePath = (url) => {
+  try {    
+      config.build.replace_urls.forEach((domain) => {
+        url = url.replace(domain, "");
+        return false;
+      });
+      return url;
   } catch {
     return url;
   }
 };
 
-const getTemplate = (article) => {
-  let template = "page";
-
-  template = article.data?.type; // page or post from WP
-
-  if (article.data?.design_system_fields?.template) {
-    template = article.data?.design_system_fields?.template.replace("template-", "").replace("page-", ""); // Remove extra template- prefix that comes from some instances of WP. (The desired template values will be without the prefix.)
-
-    if (template === "single-press-release") {
-      return "press-release";
-    }
-    
-    if (template === "single-event") {
-      return "event";
-    }
-
-    if (template === "searchpage") {
-      return "search";
-    }
-
-    if (template === "single") {
-      return "single-column";
-    }
-  }
-
-  return template;
-}
-
 module.exports = {
   eleventyComputed: {
-    permalink: article => getUrlPath(article.data?.wordpress_url),
-    layout: article => getTemplate(article),
-    parentId: article => article.data.parent,
-    title: article => article.data.title,
-    category: article => article.data?.categories[0],
-    site_name: config.og_meta.site_name,
-    gov_name: config.gov_name,
-    gov_url: config.gov_url,
-    // Below, mimic the structure of Wordpress article data files (pages/posts).
-    // Use the value in the article data JSON if available, otherwise set default.
-    data: {
-      og_meta: {
-        site_url: config.og_meta.site_url,
-        canonical_url: article => 
-          article.data?.wordpress_url,
-        page_title: article => 
-          article.data.og_meta?.page_title 
-          || config.og_meta.site_name,
-        twitter_title: article => 
-          article.data.og_meta?.twitter_title 
-          || config.og_meta.site_name,
-        open_graph_title: article => 
-          article.data.og_meta?.open_graph_title 
-          || config.og_meta.site_name,
-        site_title: article => 
-          article.data.og_meta?.site_name 
-          || config.og_meta.site_name,
-        site_description: article => 
-          article.data?.excerpt 
-          || article.data.og_meta?.site_description 
-          || config.og_meta.site_description,
-        page_description: article => 
-          article.data?.excerpt 
-          || article.data.og_meta?.page_description 
-          || config.og_meta.site_description,
-        open_graph_description: article => 
-          article.data?.excerpt 
-          || article.data.og_meta?.open_graph_description 
-          || config.og_meta.site_description,
-        twitter_description: article => 
-          article.data?.excerpt 
-          || article.data.og_meta?.twitter_description 
-          || config.og_meta.site_description,
-        page_social_image_url: article =>
-          article.data.og_meta?.page_social_image_url 
-          || config.og_meta.page_social_image_url,
-        page_social_image_width: article => 
-          article.data.og_meta?.page_social_image_width 
-          || config.og_meta.page_social_image_width,
-        page_social_image_height: article => 
-          article.data.og_meta?.page_social_image_height 
-          || config.og_meta.page_social_image_height,
-        page_social_image_alt: article => 
-          article.data.og_meta?.page_social_image_alt 
-          || config.og_meta.page_social_image_alt,
-        keywords: config.keywords || ""
-      },
-      build: {
-        favicon: config.favicon,
-      }
-    }
-  }
+    permalink: (article) =>  getRelativePath(article.data?.wordpress_url),
+    parentId: (article) => article.data.parent,
+    title: (article) => article.data.title,
+    category: (article) => article.data?.categories[0],
+  },
 };

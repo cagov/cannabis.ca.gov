@@ -1,5 +1,5 @@
 const fs = require("fs");
-const config = require("./../../../../config");
+const config = require("../../../../config");
 
 /**
  * Checks for a match between two sets of categories.
@@ -8,10 +8,10 @@ const config = require("./../../../../config");
  * @returns {boolean} True if a category match is found, otherwise false.
  */
 const categoryMatchBetween = (componentCategories, postCategories) => {
-  let unsluggedCategories = componentCategories.map((category) =>
+  const unsluggedCategories = componentCategories.map((category) =>
     category.replace("-", " ")
   );
-  let intersection = postCategories.filter((category) =>
+  const intersection = postCategories.filter((category) =>
     unsluggedCategories.includes(category.toLowerCase())
   );
   return intersection.length > 0;
@@ -24,16 +24,16 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
  * @returns {Object[]} A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
  */
 const getEventsByCategory = (categoryString, count = 5) => {
-  let componentCategories = categoryString
+  const componentCategories = categoryString
     .split(",")
     .map((c) => c.toLowerCase());
 
-  let wordPressArray = [];
-  let files = fs.readdirSync(config.staticContentPaths.posts);
+  const wordPressArray = [];
+  const files = fs.readdirSync(config.staticContentPaths.posts);
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = config.staticContentPaths.posts + "/" + file;
-      let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
+      const loc = `${config.staticContentPaths.posts}/${file}`;
+      const parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&
         categoryMatchBetween(componentCategories, parsedInfo.data.categories)
@@ -42,13 +42,13 @@ const getEventsByCategory = (categoryString, count = 5) => {
       }
     }
   });
-  
-  let postsToReturn = wordPressArray
+
+  const postsToReturn = wordPressArray
     .sort((a, b) => {
       try {
-        // @TODO TEST EVENTS - 
-        let aDate = a.data.event.startDate;
-        let bDate = b.data.event.startDate;
+        // @TODO TEST EVENTS -
+        const aDate = a.data.event.startDate;
+        const bDate = b.data.event.startDate;
         return new Date(aDate) - new Date(bDate);
       } catch (error) {
         console.error("missing date value");
@@ -58,7 +58,7 @@ const getEventsByCategory = (categoryString, count = 5) => {
     .slice(-count)
     .reverse();
 
-  //console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
+  // console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
   return postsToReturn;
 };
 

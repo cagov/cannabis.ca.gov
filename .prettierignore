@@ -1,0 +1,6 @@
+_monolith
+src/components/charts/cannabis-local-ordinances/build
+src/components/charts/cannabis-local-ordinances/static/assets
+src/components/charts/cannabis-local-ordinances/src/js/combobox-places
+node_modules
+**/node_modules

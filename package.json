@@ -6,11 +6,23 @@
   "scripts": {
     "build": "eleventy",
     "dev": "npm run site:watch:dev",
-    "site:build:dev": "cross-env NODE_ENV=development SITE_ENV=development eleventy",
-    "site:watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --serve --incremental",
+    "site:build:dev": "npm run content:update && cross-env NODE_ENV=development SITE_ENV=staging eleventy",
+    "site:build:staging": "npm run content:update:staging && cross-env SITE_ENV=staging eleventy",
+    "site:watch:dev": "cross-env NODE_ENV=development eleventy --watch --serve --incremental",
+    "site:watch:staging": "cross-env NODE_ENV=development SITE_ENV=staging eleventy --watch --serve --incremental",
     "site:watch": "eleventy --serve",
     "start": "npm run site:watch",
-    "deploy:redirects": "node src/deploy/redirects/assign.js"
+    "deploy:redirects": "node src/deploy/redirects/assign.js",
+    "test:setup": "npx playwright install-deps chromium && npx playwright install",
+    "test:serve": "npx http-server --port 8080 docs/",
+    "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
+    "linkcheck:dev": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright-dev.config.js",
+    "linkcheck:gh": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright.config.js",
+    "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
+    "code:format": "npm run format:prettier --ignore-path",
+    "content:clean": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects && npm run build",
+    "content:update": "npm update static-content-cannabis",
+    "content:update:staging": "npm update static-content-cannabis-staging"
   },
   "keywords": [
     "@cagov",
@@ -18,16 +30,26 @@
     "Department of Cannabis Control"
   ],
   "repository": "https://github.com/cannabis.ca.gov",
-  "author": "Office of Data and Innovation",
+  "author": "Office of Data and Innovation & Department of Cannabis Control",
   "license": "MIT",
   "devDependencies": {
+    "@open-wc/eslint-config": "^4.3.0",
+    "@open-wc/testing": "^3.1.6",
+    "@playwright/test": "^1.25.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
+    "@web/dev-server": "^0.1.17",
     "aws-sdk": "^2.1200.0",
+    "axe-playwright": "^1.1.11",
     "cheerio": "^1.0.0-rc.12",
     "clean-css": "^5.3.1",
     "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "html-minifier": "^4.0.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "prettier": "^2.4.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "static-content-cannabis-debugging": "github:cagov/static-content-cannabis#main-reduced-content",
+    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.15",
@@ -58,7 +80,6 @@
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
-    "static-content-cannabis": "github:cagov/static-content-cannabis#main",
-    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
+    "static-content-cannabis": "github:cagov/static-content-cannabis#main"
   }
 }

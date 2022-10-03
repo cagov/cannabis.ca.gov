@@ -5,7 +5,7 @@
  */
 class CAGovEventPostList extends window.HTMLElement {
   connectedCallback() {
-    let siteUrl = window.location.origin;
+    const siteUrl = window.location.origin;
     this.endpoint = this.dataset.endpoint || `${siteUrl}/wp-json/wp/v2`;
     this.order = this.dataset.order || "asc";
     this.count = this.dataset.count || "3";
@@ -13,7 +13,7 @@ class CAGovEventPostList extends window.HTMLElement {
     this.showExcerpt = this.dataset.showExcerpt || true;
     this.noResults = this.dataset.noResults || "No results found";
     this.showPublishedDate = this.dataset.showPublishedDate || true;
-    this.showPagination = this.dataset.showPagination === "true" ? true : false;
+    this.showPagination = this.dataset.showPagination === "true";
     this.filter = this.dataset.filter ? this.dataset.filter : "none"; // Accepts types of filtering
     this.readMore = this.dataset.readMore || "";
     this.type = this.dataset.type || "wordpress";
@@ -32,7 +32,7 @@ class CAGovEventPostList extends window.HTMLElement {
         this.category = [this.category];
       }
 
-      let categoryEndpoint = `${this.endpoint}/categories?slug=${this.category}`;
+      const categoryEndpoint = `${this.endpoint}/categories?slug=${this.category}`;
       // console.log("category endpoint", categoryEndpoint, this.dataset);
 
       // Get data
@@ -40,7 +40,7 @@ class CAGovEventPostList extends window.HTMLElement {
         .fetch(categoryEndpoint)
         .then((response) => response.json())
         .then(
-          function (data) {
+          (data) => {
             // Category has no data.
             if (data.length === 0) {
               return this.renderNoPosts();
@@ -50,7 +50,7 @@ class CAGovEventPostList extends window.HTMLElement {
               itemCount += item.count;
             });
 
-            let categoryIds = data.map((item) => {
+            const categoryIds = data.map((item) => {
               this.categoryMap[item.id] = item;
               return item.id;
             });
@@ -76,7 +76,7 @@ class CAGovEventPostList extends window.HTMLElement {
               // Get current date
               // Add and register metabox data & expose it to endpoint
               // Filter by this value if it's found/set compared to today.
-              let today = new Date();
+              const today = new Date();
               today.setMonth(today.getMonth() - 2);
               postsEndpoint += `&after=${today.toISOString()}`;
             } else if (this.filter === "before-yesterday") {
@@ -89,7 +89,7 @@ class CAGovEventPostList extends window.HTMLElement {
               .fetch(postsEndpoint)
               .then((response) => response.json())
               .then(
-                function (posts) {
+                (posts) => {
                   if (posts !== undefined) {
                     // Set posts content.
                     // Set posts content.
@@ -109,12 +109,12 @@ class CAGovEventPostList extends window.HTMLElement {
                         // this is set the first time pagination element is written
                         this.querySelector("cagov-pagination").addEventListener(
                           "paginationClick",
-                          function (event) {
+                          (event) => {
                             if (event.detail) {
                               this.currentPage = event.detail;
                               this.getWordpressPosts();
                             }
-                          }.bind(this),
+                          },
                           false
                         );
                       }
@@ -128,23 +128,23 @@ class CAGovEventPostList extends window.HTMLElement {
                     if (this.querySelector("cagov-pagination") !== null) {
                       this.querySelector("cagov-pagination").addEventListener(
                         "paginationClick",
-                        function (event) {
+                        (event) => {
                           if (event.detail) {
                             this.currentPage = event.detail;
                             this.getWordpressPosts();
                           }
-                        }.bind(this),
+                        },
                         false
                       );
                     }
                   }
-                }.bind(this)
+                }
               )
               .catch((error) => {
                 console.error(error);
                 this.renderNoPosts();
               });
-          }.bind(this)
+          }
         )
         .catch((error) => {
           console.error(error);
@@ -156,9 +156,7 @@ class CAGovEventPostList extends window.HTMLElement {
   template(posts, type) {
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
-        let renderedPosts = posts.map((post) => {
-          return this.renderWordpressPostTitleDate(post);
-        });
+        const renderedPosts = posts.map((post) => this.renderWordpressPostTitleDate(post));
         return `<div class="event-post-list-items">${renderedPosts.join(
           ""
         )}</div>${this.readMore}`;
@@ -193,24 +191,24 @@ class CAGovEventPostList extends window.HTMLElement {
       dateFormatted = moment(date).format("MMMM DD, YYYY");
     }
 
-    let getExcerpt =
+    const getExcerpt =
       this.showExcerpt === "true"
         ? `<div class="excerpt"><p>${excerpt.rendered}</p></div>`
         : ``;
-    let getDate =
+    const getDate =
       this.showPublishedDate === "true"
         ? `<div class="date">${dateFormatted}</div>`
         : ``;
 
     let category_type = "";
-    let showCategoryType = false;
+    const showCategoryType = false;
     // Disabled but can enable when we have a default style.
     if (
       showCategoryType &&
       categories !== null &&
       Object.keys(this.categoryMap).length > 1
     ) {
-      let categoryItem = this.categoryMap[[categories[0]]]; // Use first category. There should only be one set.
+      const categoryItem = this.categoryMap[[categories[0]]]; // Use first category. There should only be one set.
       if (categoryItem.name !== undefined && categoryItem.name !== null) {
         category_type = `<div class="category-type">${categoryItem.name}</div>`;
       }

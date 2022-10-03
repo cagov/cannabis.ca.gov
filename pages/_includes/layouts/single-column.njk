@@ -3,15 +3,7 @@
 {% block content %}
     <div id="page-container" class="page-container-ds">
           <div id="main-content" class="main-content-ds single-column single-column-wide">
-            <div class="breadcrumb" aria-label="Breadcrumb" role="region">
-                <a class="crumb" href="https:\/\/ca.gov" title="CA.GOV">CA.GOV</a>
-                <span class="crumb separator">/</span>
-                <a class="crumb" href="/" title="Department of Cannabis Control">Department of Cannabis Control</a>
-                <span class="crumb separator">/</span>
-                <span class="crumb">{{ fileIds[parentId] | safe }}</span>
-                <span class="crumb separator">/</span>
-                <span class="crumb current">{{ title | safe }}</span>
-            </div>
+            {% include "./../breadcrumb.njk" %}
 
             <div class="narrow-page-title">
                 <h1 class="page-title">{{ title | safe }}</h1>

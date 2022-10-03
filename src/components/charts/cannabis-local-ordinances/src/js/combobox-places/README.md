@@ -33,16 +33,16 @@ The following [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/U
 - `--gray-300`
 - `--gray-700`
 - `--gray-700`
-- `--primary-hover-color`
-- `--primary-light-color`
-- `--secondary-lightest-color`
+- `--primary-900`
+- `--primary-300`
+- `--accent-100`
 - `--white`
 
-All CSS variables define their own fallback value so you do not have to use additional CSS unless you want to change them. You may define your own value for the variable by adding your own style rules. Here is an example defining the global hex value for a CSS variable named “—primary-color”:
+All CSS variables define their own fallback value so you do not have to use additional CSS unless you want to change them. You may define your own value for the variable by adding your own style rules. Here is an example defining the global hex value for a CSS variable named “—primary-700”:
 
 ```css
 :root {
-  --primary-color: #064e66;
+  --primary-700: #064e66;
 }
 ```
 

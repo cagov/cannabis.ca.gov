@@ -16,7 +16,7 @@ const clearButton = document.querySelector(".combobox-places--button");
 /**
  * ComboboxList;
  */
-var ComboboxList = function (domNode) {
+const ComboboxList = function (domNode) {
   this.domNode = domNode;
   this.listbox = false;
   this.option = false;
@@ -57,7 +57,7 @@ ComboboxList.prototype.init = function () {
   this.domNode.setAttribute("aria-haspopup", "true");
 
   // See @todo in ComboboxList.
-  var autocomplete = this.domNode.getAttribute("aria-autocomplete");
+  let autocomplete = this.domNode.getAttribute("aria-autocomplete");
 
   if (typeof autocomplete === "string") {
     autocomplete = autocomplete.toLowerCase();
@@ -80,7 +80,7 @@ ComboboxList.prototype.init = function () {
   this.clearButton.addEventListener("click", this.handleClear.bind(this));
 
   // Initialize Listbox;
-  var listbox = document.getElementById(this.domNode.getAttribute("aria-owns"));
+  const listbox = document.getElementById(this.domNode.getAttribute("aria-owns"));
 
   if (listbox) {
     this.listbox = new Listbox(listbox, this);
@@ -109,7 +109,7 @@ ComboboxList.prototype.resetValue = function () {
   // Let the map know this happened.
   this.domNode.dispatchEvent(this.updatedEvent);
   this.listbox.filterOptions(this.filter, this.option);
-  return;
+  
 };
 
 /**
@@ -120,7 +120,7 @@ ComboboxList.prototype.resetValue = function () {
 ComboboxList.prototype.passThroughValue = function (value) {
   // Backspacing so no change.
   this.filter = value;
-  return;
+  
 };
 
 /**
@@ -198,12 +198,12 @@ ComboboxList.prototype.removeVisualFocusAll = function () {
 
 /* Event Handlers */
 ComboboxList.prototype.handleKeydown = function (event) {
-  var tgt = event.currentTarget,
-    flag = false,
-    char = event.key,
-    shiftKey = event.shiftKey,
-    ctrlKey = event.ctrlKey,
-    altKey = event.altKey;
+  const tgt = event.currentTarget;
+    let flag = false;
+    const char = event.key;
+    const {shiftKey} = event;
+    const {ctrlKey} = event;
+    const {altKey} = event;
 
   switch (event.keyCode) {
     case this.keyCode.RETURN:
@@ -272,10 +272,10 @@ ComboboxList.prototype.handleKeydown = function (event) {
 };
 
 ComboboxList.prototype.handleKeyup = function (event) {
-  var tgt = event.currentTarget,
-    flag = false,
-    option = false,
-    char = event.key;
+  const tgt = event.currentTarget;
+    let flag = false;
+    let option = false;
+    const char = event.key;
 
   function isPrintableCharacter(str) {
     return str.length === 1;
@@ -358,11 +358,9 @@ ComboboxList.prototype.handleKeyup = function (event) {
         this.option = false;
         this.setActiveDescendant(false);
       }
-    } else {
-      if (this.domNode.value.length) {
+    } else if (this.domNode.value.length) {
         this.listbox.open();
       }
-    }
   }
 
   if (flag) {
@@ -401,23 +399,23 @@ ComboboxList.prototype.handleClear = function (event) {
  * Listbox
  */
 var Listbox = function (domNode, comboboxObj) {
-  var elementChildren,
-    msgPrefix = "Listbox constructor argument domNode ";
+  let elementChildren;
+    const msgPrefix = "Listbox constructor argument domNode ";
 
   // Check whether domNode is a DOM element
   if (!domNode instanceof Element) {
-    throw new TypeError(msgPrefix + "is not a DOM Element.");
+    throw new TypeError(`${msgPrefix  }is not a DOM Element.`);
   }
 
   // Check whether domNode has child elements
   if (domNode.childElementCount === 0) {
-    throw new Error(msgPrefix + "has no element children.");
+    throw new Error(`${msgPrefix  }has no element children.`);
   }
 
   // Check whether domNode child elements are A elements
-  var childElement = domNode.firstElementChild;
+  let childElement = domNode.firstElementChild;
   while (childElement) {
-    var option = childElement.firstElementChild;
+    const option = childElement.firstElementChild;
     childElement = childElement.nextElementSibling;
   }
 
@@ -444,13 +442,13 @@ var Listbox = function (domNode, comboboxObj) {
  *       array. Initialize firstOption and lastOption properties.
  */
 Listbox.prototype.init = function () {
-  var childElement,
-    optionElement,
-    optionElements,
-    firstChildElement,
-    option,
-    textContent,
-    numItems;
+  let childElement;
+    let optionElement;
+    let optionElements;
+    let firstChildElement;
+    let option;
+    let textContent;
+    let numItems;
 
   // Configure the domNode itself
   this.domNode.tabIndex = -1;
@@ -464,7 +462,7 @@ Listbox.prototype.init = function () {
   // option role behavior and store reference in.options array.
   optionElements = this.domNode.getElementsByTagName("LI");
 
-  for (var i = 0; i < optionElements.length; i++) {
+  for (let i = 0; i < optionElements.length; i++) {
     optionElement = optionElements[i];
 
     if (
@@ -485,11 +483,11 @@ Listbox.prototype.filterOptions = function (filter, currentOption) {
     filter = "";
   }
 
-  var firstMatch = false,
-    i,
-    option,
-    textContent,
-    numItems;
+  const firstMatch = false;
+    let i;
+    let option;
+    let textContent;
+    let numItems;
 
   filter = filter.toLowerCase();
 
@@ -528,8 +526,8 @@ Listbox.prototype.filterOptions = function (filter, currentOption) {
 };
 
 Listbox.prototype.setCurrentOptionStyle = function (option) {
-  for (var i = 0; i < this.options.length; i++) {
-    var opt = this.options[i];
+  for (let i = 0; i < this.options.length; i++) {
+    const opt = this.options[i];
     if (opt === option) {
       opt.domNode.setAttribute("aria-selected", "true");
       this.domNode.scrollTop = opt.domNode.offsetTop;
@@ -566,7 +564,7 @@ Listbox.prototype.getLastItem = function () {
 };
 
 Listbox.prototype.getPreviousItem = function (currentOption) {
-  var index;
+  let index;
 
   if (currentOption !== this.firstOption) {
     index = this.options.indexOf(currentOption);
@@ -576,7 +574,7 @@ Listbox.prototype.getPreviousItem = function (currentOption) {
 };
 
 Listbox.prototype.getNextItem = function (currentOption) {
-  var index;
+  let index;
 
   if (currentOption !== this.lastOption) {
     index = this.options.indexOf(currentOption);
@@ -656,9 +654,9 @@ Option.prototype.handleMouseout = function (event) {
 };
 
 // Initialize comboboxes
-window.addEventListener("load", function () {
-  for (var i = 0; i < comboboxes.length; i++) {
-    var combobox = new ComboboxList(comboboxes[i]);
+window.addEventListener("load", () => {
+  for (let i = 0; i < comboboxes.length; i++) {
+    const combobox = new ComboboxList(comboboxes[i]);
     combobox.init();
   }
 });

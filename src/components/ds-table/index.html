@@ -35,7 +35,7 @@
             border: 1px solid #ededef;
             padding: 1rem;
             border-bottom: 0.3rem solid #33705B;
-            border-bottom: 0.3rem solid var(--primary-color, #33705B);
+            border-bottom: 0.3rem solid var(--primary-700, #33705B);
             border-radius: 0.3rem;
             min-width: 250px;
             min-height: 50px;
@@ -47,7 +47,7 @@
         .cagov-card .card-text {
             color: #33705B;
             /* defined here for when css vars are not supported */
-            color: var(--primary-color, #33705B) !important;
+            color: var(--primary-700, #33705B) !important;
             /* variable used with fallback in case it is not defined */
             /* color: #33705B !important; */
             font-size: 1.75rem;
@@ -58,7 +58,7 @@
 
         .cagov-card svg {
             fill: #33705B;
-            fill: var(--primary-color, #33705B);
+            fill: var(--primary-700, #33705B);
             width: 1rem;
             margin-top: .2rem;
             margin-left: 1rem;
@@ -198,7 +198,7 @@
         /* styles applied to elements WordPress is adding to the markup */
         .cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
             /* defined here for when css vars are not supported */
-            background-color: var(--primary-color, #33705b);
+            background-color: var(--primary-700, #33705b);
             /* variable used with fallback in case it is not defined */
             color: var(--white, #ffffff);
             padding: 0.5rem 1rem;
@@ -211,7 +211,7 @@
 
         .cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
             /* defined here for when css vars are not supported */
-            background-color: var(--primary-hover-color, #33705b);
+            background-color: var(--primary-900, #33705b);
             /* variable used with fallback in case it is not defined */
             color: var(--white, #ffffff);
             padding: 0.5rem 1rem;
@@ -488,7 +488,7 @@
         ol.steps li,
         .cagov-step-list li {
             list-style: none;
-            border-left: 5px solid var(--secondary-color, #fec02f);
+            border-left: 5px solid var(--accent-700, #fec02f);
             font-size: 1.75rem;
             font-weight: 700;
             position: relative;
@@ -503,7 +503,7 @@
             font-size: 1.75rem;
             font-weight: 700;
             padding: 0 13px 0 13px;
-            border: 5px solid var(--secondary-color, #fec02f);
+            border: 5px solid var(--accent-700, #fec02f);
             background-color: #fff;
             border-radius: 50px;
             text-align: center;

@@ -6,8 +6,8 @@
  * @returns {string} - HTML markup
  */
 function chartTooltipCounty(data, props) {
-  let message = countyStatusTooltipMessage(data, props);
-  let tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
+  const message = countyStatusTooltipMessage(data, props);
+  const tooltipContent = `<div class="cagov-map-tooltip tooltip-container">
           <div class="county-tooltip">
             <h3>${props["County label"]}</h3>
               <div class="tooltip-label">
@@ -25,13 +25,13 @@ function chartTooltipCounty(data, props) {
  * @returns {string} - HTML markup for tooltip content.
  */
 function countyStatusTooltipMessage(data, props) {
-  let { name, prohibitionStatus } = props;
-  let { activities } = data;
-  let mode = activities;
+  const { name, prohibitionStatus } = props;
+  const { activities } = data;
+  const mode = activities;
   let { all, city, county, prohibited, allowed, detailsCTA } =
-  getToolTipMessages(data, name, props, "County");
+    getToolTipMessages(data, name, props, "County");
 
-  let toggle = "All Layers";
+  const toggle = "All Layers";
 
   // Choose label
   let label = all;
@@ -48,7 +48,7 @@ function countyStatusTooltipMessage(data, props) {
     data.tooltipData.activityPercentages.prohibited,
     "data-status"
   );
-  
+
   allowed = insertValueIntoSpanTag(
     allowed,
     data.tooltipData.activityPercentages.allowed,
@@ -63,7 +63,7 @@ function countyStatusTooltipMessage(data, props) {
     icon = allowedIcon();
   }
 
-  let output = `<div>
+  const output = `<div>
           <div class="status">
             <div class="icon">${icon}</div>
             <div>
@@ -74,7 +74,13 @@ function countyStatusTooltipMessage(data, props) {
           </div>
           <div>
             <p>
-              <a class="loadCounty" data-county="${data.tooltipData.name}" data-jurisdiction="County" href="#county-view?county=${data.tooltipData.name !== null ? data.tooltipData.name : ""}&activity=${data.activities !== null ? data.activities : ""}">${detailsCTA}</a>
+              <a class="loadCounty" data-county="${
+                data.tooltipData.name
+              }" data-jurisdiction="County" href="#county-view?county=${
+    data.tooltipData.name !== null ? data.tooltipData.name : ""
+  }&activity=${
+    data.activities !== null ? data.activities : ""
+  }">${detailsCTA}</a>
             </p>
           </div>
         </div>`;
@@ -83,9 +89,9 @@ function countyStatusTooltipMessage(data, props) {
 }
 
 function insertValueIntoSpanTag(string, value, prop) {
-  var parser = new DOMParser();
-  var el = parser.parseFromString(string, "text/html");
-  let span = el.querySelector("span[" + prop + "]");
+  const parser = new DOMParser();
+  const el = parser.parseFromString(string, "text/html");
+  const span = el.querySelector(`span[${  prop  }]`);
   if (span !== null) {
     span.innerHTML = value;
     return el.querySelector("body").innerHTML;
@@ -100,8 +106,8 @@ function insertValueIntoSpanTag(string, value, prop) {
  * @returns {object} - object with various data attributes to be used in tooltip template.
  */
 function getCountyTooltipData(data, props) {
-  let { dataPlaces } = data;
-  let { name } = props;
+  const { dataPlaces } = data;
+  const { name } = props;
 
   data.mapStatusColors = {
     Yes: "#CF5028", // Orange, Yes, prohibited // @TODO CONFIG
@@ -109,8 +115,8 @@ function getCountyTooltipData(data, props) {
   };
 
   // Get couny data object from dataTables.
-  let currentCountyPlaceName = Object.keys(dataPlaces).filter((place) => {
-    let item = dataPlaces[place];
+  const currentCountyPlaceName = Object.keys(dataPlaces).filter((place) => {
+    const item = dataPlaces[place];
     if (
       name === item.County &&
       item["Jurisdiction Type"] === "County" &&
@@ -120,43 +126,43 @@ function getCountyTooltipData(data, props) {
     }
   });
 
-  let placeData = dataPlaces[currentCountyPlaceName];
-  let prohibitionStatus = placeData["CCA Prohibited by County"];
+  const placeData = dataPlaces[currentCountyPlaceName];
+  const prohibitionStatus = placeData["CCA Prohibited by County"];
 
-  let activityPercentages = getActivityPercentages(data, props);
+  const activityPercentages = getActivityPercentages(data, props);
 
   return {
-    name: name,
+    name,
     "County label": placeData["County label"],
-    prohibitionStatus: prohibitionStatus,
+    prohibitionStatus,
     activityPercentages,
   };
 }
 
 /**
- * Build tooltip messages 
- * @param {*} data 
- * @param {*} name 
- * @param {*} props 
- * @param {*} jurisdiction 
- * @returns 
+ * Build tooltip messages
+ * @param {*} data
+ * @param {*} name
+ * @param {*} props
+ * @param {*} jurisdiction
+ * @returns
  */
 function getToolTipMessages(data, name, props, jurisdiction) {
-  let { messages, activities } = data;
+  const { messages, activities } = data;
 
-  let mode = activities;
+  const mode = activities;
   // @TODO CONNECT TO CONFIG
   if (mode === "Any cannabis business" && jurisdiction === "County") {
-    return messages["TooltipStatewideAllActivities"];
-  } else if (mode === "Any cannabis business" && jurisdiction === "City") {
-    return messages["TooltipCountyAllActivities"];
-  } else {
+    return messages.TooltipStatewideAllActivities;
+  } if (mode === "Any cannabis business" && jurisdiction === "City") {
+    return messages.TooltipCountyAllActivities;
+  } 
     if (jurisdiction === "County") {
-      return messages["TooltipStatewideActivity"];
-    } else if (jurisdiction === "City") {
-      return messages["TooltipCountyActivity"];
+      return messages.TooltipStatewideActivity;
+    } if (jurisdiction === "City") {
+      return messages.TooltipCountyActivity;
     }
-  }
+  
   return null;
 }
 
@@ -167,33 +173,33 @@ function getToolTipMessages(data, name, props, jurisdiction) {
  * @returns {integer} Percentage allowed 0 - 100
  */
 function getActivityPercentages(data, props) {
-  let { name, geoid } = props;
-  let activityCountValues = data.countyList[name].countsValues;
-  let mode = data.activities;
+  const { name, geoid } = props;
+  const activityCountValues = data.countyList[name].countsValues;
+  const mode = data.activities;
 
-  let percentageAllowed, percentageProhibited;
+  let percentageAllowed; let percentageProhibited;
   if (mode === "Any cannabis business") {
     percentageAllowed =
       parseFloat(
-        activityCountValues["Are all CCA activites prohibited?"]["No"]
+        activityCountValues["Are all CCA activites prohibited?"].No
       ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
       parseFloat(
-        activityCountValues["Are all CCA activites prohibited?"]["Yes"]
+        activityCountValues["Are all CCA activites prohibited?"].Yes
       ) / parseFloat(data.countyList[name].activities["Datasets for County"]);
   } else if (mode === "Retail") {
     percentageAllowed =
-      parseFloat(activityCountValues["Is all retail prohibited?"]["No"]) /
+      parseFloat(activityCountValues["Is all retail prohibited?"].No) /
       parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
-      parseFloat(activityCountValues["Is all retail prohibited?"]["Yes"]) /
+      parseFloat(activityCountValues["Is all retail prohibited?"].Yes) /
       parseFloat(data.countyList[name].activities["Datasets for County"]);
   } else {
-    let allowedValues =
-      activityCountValues[mode]["Allowed"] +
-      activityCountValues[mode]["Limited"] +
+    const allowedValues =
+      activityCountValues[mode].Allowed +
+      activityCountValues[mode].Limited +
       activityCountValues[mode]["Limited-Medical Only"];
 
     percentageAllowed =
@@ -201,7 +207,7 @@ function getActivityPercentages(data, props) {
       parseFloat(data.countyList[name].activities["Datasets for County"]);
 
     percentageProhibited =
-      parseFloat(activityCountValues[mode]["Prohibited"]) /
+      parseFloat(activityCountValues[mode].Prohibited) /
       parseFloat(data.countyList[name].activities["Datasets for County"]);
   }
 
@@ -217,7 +223,7 @@ function getActivityPercentages(data, props) {
  */
 function formatPercent(value) {
   // @TODO Check if is a number
-  value = (value * 100).toFixed(0) + "%";
+  value = `${(value * 100).toFixed(0)  }%`;
   return value;
 }
 

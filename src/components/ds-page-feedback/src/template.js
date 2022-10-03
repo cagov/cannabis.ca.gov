@@ -5,7 +5,7 @@ function ratingsTemplate(
   commentPrompt,
   thanksFeedback,
   thanksComments,
-  submit,
+  submit
 ) {
   return `
   <section aria-label="feedback">

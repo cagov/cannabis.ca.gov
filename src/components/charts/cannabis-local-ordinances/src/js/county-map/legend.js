@@ -6,10 +6,10 @@
  * @returns {string} - HTML markup
  */
 function chartLegendStatewide(data, props) {
-  let allowed = data.messages.LegendStatewide.allowed;
-  let prohibited = data.messages.LegendStatewide.prohibited;
-  let labelAllowed = data.messages.LegendStatewide.labelAllowed;
-  let labelProhibited = data.messages.LegendStatewide.labelProhibited;
+  let {allowed} = data.messages.LegendStatewide;
+  let {prohibited} = data.messages.LegendStatewide;
+  let {labelAllowed} = data.messages.LegendStatewide;
+  let {labelProhibited} = data.messages.LegendStatewide;
   if (data.activities !== "Any cannabis business") {
     allowed = data.messages.LegendStatewideActivity.allowed;
     prohibited = data.messages.LegendStatewideActivity.prohibited;
@@ -17,32 +17,32 @@ function chartLegendStatewide(data, props) {
     labelProhibited = data.messages.LegendStatewideActivity.labelProhibited;
   }
 
-  let percentages = getActivityPercentagesStatewide(data, props);
+  const percentages = getActivityPercentagesStatewide(data, props);
 
-  let allowedLabel = insertValueIntoSpanTag(
+  const allowedLabel = insertValueIntoSpanTag(
     allowed,
     percentages.allowedPercentage,
     "data-status"
   );
-  let prohibitedLabel = insertValueIntoSpanTag(
+  const prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     percentages.prohibitedPercentage,
     "data-status"
   );
 
-  let labelAllowedProcessed = insertValueIntoSpanTag(
+  const labelAllowedProcessed = insertValueIntoSpanTag(
     labelAllowed,
     data.activities.toLowerCase(),
     "data-activity"
   );
 
-  let labelProhibitedProcessed = insertValueIntoSpanTag(
+  const labelProhibitedProcessed = insertValueIntoSpanTag(
     labelProhibited,
     data.activities.toLowerCase(),
     "data-activity"
   );
 
-  let content = `<div class="cagov-map-legend legend-container">
+  const content = `<div class="cagov-map-legend legend-container">
           
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
@@ -70,7 +70,7 @@ function chartLegendCounty(data, props, renderMode) {
   let messages = data.messages.LegendCounty;
   if (data.activities !== "Any cannabis business") {
     messages = data.messages.LegendCountyActivity;
-  } 
+  }
 
   let {
     allowed,
@@ -85,9 +85,9 @@ function chartLegendCounty(data, props, renderMode) {
     allPlacesAllCountyProhibited,
   } = messages;
 
-  let countyData = getBusinessTypeStatsCounty(data, props, renderMode);
-  
-  let countyLabel, currentCounty;
+  const countyData = getBusinessTypeStatsCounty(data, props, renderMode);
+
+  let countyLabel; let currentCounty;
 
   if (renderMode === "legend") {
     countyLabel = data.countyList[data.selectedCounty].label;
@@ -96,7 +96,7 @@ function chartLegendCounty(data, props, renderMode) {
     countyLabel = data.countyList[props.name].label;
     currentCounty = data.dataPlaces[countyLabel];
   }
-  
+
   let isAllowed = null;
 
   if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
@@ -169,7 +169,6 @@ function chartLegendCounty(data, props, renderMode) {
     }
   }
 
-  
   let allowedLabel = insertValueIntoSpanTag(
     allowed,
     countyData.allowed,
@@ -218,7 +217,6 @@ function chartLegendCounty(data, props, renderMode) {
     <div class="status-label">
       <div>${unincorporatedLabel}</div>
     </div>`;
-
   } else {
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedProhibited,
@@ -233,20 +231,20 @@ function chartLegendCounty(data, props, renderMode) {
     </div>`;
   }
 
-  let statusMessageAllowed = `<div class="status">
+  const statusMessageAllowed = `<div class="status">
     <div class="icon">${allowedIcon()}</div>
     <div class="status-label">
     <div>${allowedLabel}</div>
     </div> 
     </div>`;
 
-  let statusMessageProhibited = `<div class="status">
+  const statusMessageProhibited = `<div class="status">
     <div class="icon">${prohibitedIcon()}</div>
     <div class="status-label">
       <div>${prohibitedLabel}</div>
     </div>`;
 
-  let content = `<div class="cagov-map-legend legend-container">
+  const content = `<div class="cagov-map-legend legend-container">
           ${showAllowed ? statusMessageAllowed : ""}
           ${showProhibited ? statusMessageProhibited : ""}
         </div>
@@ -259,26 +257,26 @@ function chartLegendPlace(data, props) {
   let messages = data.messages.LegendPlace;
   if (data.activities !== "Any cannabis business") {
     messages = data.messages.LegendPlaceActivity;
-  } 
+  }
 
-  let allowed = messages.allowed;
-  let prohibited = messages.prohibited;
-  
-  let isAllowed = getActivityPercentagesPlace(data, props);
+  const {allowed} = messages;
+  const {prohibited} = messages;
 
-  let allowedLabel = insertValueIntoSpanTag(
+  const isAllowed = getActivityPercentagesPlace(data, props);
+
+  const allowedLabel = insertValueIntoSpanTag(
     allowed,
     data.activities,
     "data-status"
   );
 
-  let prohibitedLabel = insertValueIntoSpanTag(
+  const prohibitedLabel = insertValueIntoSpanTag(
     prohibited,
     data.activities,
     "data-status"
   );
 
-  let contentAllowed = `<div class="cagov-map-legend legend-container">
+  const contentAllowed = `<div class="cagov-map-legend legend-container">
           <div class="status">
             <div class="icon">${allowedIcon()}</div>
             <div>
@@ -286,7 +284,7 @@ function chartLegendPlace(data, props) {
             </div> 
           </div>
       </div>`;
-  let contentProhibited = `<div class="cagov-map-legend legend-container">
+  const contentProhibited = `<div class="cagov-map-legend legend-container">
       <div class="status">
           <div class="icon">${prohibitedIcon()}</div>
           <div>
@@ -306,9 +304,9 @@ function chartLegendPlace(data, props) {
 }
 
 function insertValueIntoSpanTag(string, value, prop) {
-  var parser = new DOMParser();
-  var el = parser.parseFromString(string, "text/html");
-  let span = el.querySelector("span[" + prop + "]");
+  const parser = new DOMParser();
+  const el = parser.parseFromString(string, "text/html");
+  const span = el.querySelector(`span[${  prop  }]`);
   if (span !== null) {
     span.innerHTML = value;
     return el.querySelector("body").innerHTML;
@@ -322,31 +320,31 @@ function insertValueIntoSpanTag(string, value, prop) {
  * @returns {object} Percentage allowed 0 - 100
  */
 function getActivityPercentagesStatewide(data) {
-  let countValues = {
+  const countValues = {
     allowed: 0,
     prohibited: 0,
   };
-  let currentCountyPlaceName = Object.keys(data.dataPlaces).filter((place) => {
-    let item = data.dataPlaces[place];
-    let mode = data.activities;
+  const currentCountyPlaceName = Object.keys(data.dataPlaces).filter((place) => {
+    const item = data.dataPlaces[place];
+    const mode = data.activities;
     if (mode === "Any cannabis business") {
       if (item["Are all CCA activites prohibited?"] === "Yes") {
-        countValues.prohibited = countValues.prohibited + 1;
+        countValues.prohibited += 1;
       } else if (item["Are all CCA activites prohibited?"] === "No") {
-        countValues.allowed = countValues.allowed + 1;
+        countValues.allowed += 1;
       }
     } else if (mode === "Retail") {
       if (item["Is all retail prohibited?"] === "Yes") {
-        countValues.prohibited = countValues.prohibited + 1;
+        countValues.prohibited += 1;
       } else if (item["Is all retail prohibited?"] === "No") {
-        countValues.allowed = countValues.allowed + 1;
+        countValues.allowed += 1;
       }
     } else {
       // console.log("SW", item[mode]);
       if (item[mode] === "Prohibited") {
-        countValues.prohibited = countValues.prohibited + 1;
+        countValues.prohibited += 1;
       } else if (item[mode] !== "Prohibited") {
-        countValues.allowed = countValues.allowed + 1;
+        countValues.allowed += 1;
       }
     }
   });
@@ -367,8 +365,7 @@ function getActivityPercentagesStatewide(data) {
  * @returns {object} Percentage allowed 0 - 100
  */
 function getBusinessTypeStatsCounty(data, props, renderMode) {
-
-  let countValues = {
+  const countValues = {
     allowed: 0,
     prohibited: 0,
     countyAllowed: 0,
@@ -379,8 +376,8 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
   };
 
   // console.log(data, props, renderMode);
-  let item, placeData, countyLabel, countyData;
-  let mode = data.activities;
+  let item; let placeData; let countyLabel; let countyData;
+  const mode = data.activities;
 
   if (renderMode === "tooltip") {
     // console.log( data.countyList, props);
@@ -397,29 +394,30 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
   // @TODO Discount the uninc place from these counts.
   try {
     if (mode === "Any cannabis business") {
-      countValues.prohibited = item["Are all CCA activites prohibited?"]["Yes"].length;
-      countValues.allowed = item["Are all CCA activites prohibited?"]["No"].length;
-      if (countyData["Are all CCA activites prohibited?"] === "No" ) {
+      countValues.prohibited =
+        item["Are all CCA activites prohibited?"].Yes.length;
+      countValues.allowed =
+        item["Are all CCA activites prohibited?"].No.length;
+      if (countyData["Are all CCA activites prohibited?"] === "No") {
         countValues.countyAllowed = 1;
-      } else if (countyData["Are all CCA activites prohibited?"] === "Yes" ) {
+      } else if (countyData["Are all CCA activites prohibited?"] === "Yes") {
         countValues.countyProhibited = 1;
       }
     } else if (mode === "Retail") {
-
-      countValues.prohibited = item["Is all retail prohibited?"]["Yes"].length;
-      countValues.allowed = item["Is all retail prohibited?"]["No"].length;
-      if (countyData["Is all retail prohibited?"] === "No" ) {
+      countValues.prohibited = item["Is all retail prohibited?"].Yes.length;
+      countValues.allowed = item["Is all retail prohibited?"].No.length;
+      if (countyData["Is all retail prohibited?"] === "No") {
         countValues.countyAllowed = 1;
-      } else if (countyData["Is all retail prohibited?"] === "Yes" ) {
+      } else if (countyData["Is all retail prohibited?"] === "Yes") {
         countValues.countyProhibited = 1;
       }
-
     } else {
       // if (item[mode] === "Prohibited") {
-      countValues.prohibited = item[mode]["Prohibited"].length;
+      countValues.prohibited = item[mode].Prohibited.length;
       // } else if (item[mode] !== "Prohibited") {
       countValues.allowed =
-          item[mode]["Allowed"].length + item[mode]["Limited-Medical Only"].length;
+        item[mode].Allowed.length +
+        item[mode]["Limited-Medical Only"].length;
       // }
       if (countyData[mode] !== "Prohibited") {
         countValues.countyAllowed = 1;
@@ -431,7 +429,6 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
     countValues.count = countValues.prohibited + countValues.allowed;
 
     if (countyData) {
-
     }
 
     countValues.allowedPercentage = formatPercent(
@@ -455,31 +452,31 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
  * @returns {object} Percentage allowed 0 - 100
  */
 function getActivityPercentagesPlace(data) {
-  let countValues = {
+  const countValues = {
     allowed: 0,
     prohibited: 0,
   };
-  let item = data.selectedPlace; //data.dataPlaces[data.selectedPlace];
-  let mode = data.activities;
+  const item = data.selectedPlace; // data.dataPlaces[data.selectedPlace];
+  const mode = data.activities;
   // console.log(mode, item);
   if (item !== undefined) {
     if (mode === "Any cannabis business") {
       if (item["Are all CCA activites prohibited?"] === "Yes") {
         return false;
-      } else if (item["Are all CCA activites prohibited?"] === "No") {
+      } if (item["Are all CCA activites prohibited?"] === "No") {
         return true;
       }
     } else if (mode === "Retail") {
       if (item["Is all retail prohibited?"] === "Yes") {
         return false;
-      } else if (item["Is all retail prohibited?"] === "No") {
+      } if (item["Is all retail prohibited?"] === "No") {
         return true;
       }
     } else {
       if (item[mode] === "Prohibited") {
         // console.log("f", mode);
         return false;
-      } else if (item[mode] !== "Prohibited") {
+      } if (item[mode] !== "Prohibited") {
         //  console.log("t", mode);
         return true;
       }
@@ -499,7 +496,7 @@ function formatPercent(value) {
   if (isNaN(value)) {
     return "0";
   }
-  value = (value * 100).toFixed(0) + "%";
+  value = `${(value * 100).toFixed(0)  }%`;
   return value;
 }
 
