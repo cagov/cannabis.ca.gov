@@ -5542,10 +5542,16 @@ figure figcaption {
   flex-direction: row;
   gap: 16px;
 }
+.wp-block-columns .wp-block-column {
+  width: 50%;
+}
 
 @media only screen and (max-width: var(--w-sm, 720px)) {
   .wp-block-columns {
     flex-direction: column;
+  }
+  .wp-block-column {
+    width: 100%;
   }
 }
 .wp-block-button__link {
@@ -7577,10 +7583,16 @@ h2 {
   flex-direction: row;
   gap: 16px;
 }
+.wp-block-columns .wp-block-column {
+  width: 50%;
+}
 
 @media only screen and (max-width: var(--w-sm, 720px)) {
   .wp-block-columns {
     flex-direction: column;
+  }
+  .wp-block-column {
+    width: 100%;
   }
 }
 .wp-block-button__link {
