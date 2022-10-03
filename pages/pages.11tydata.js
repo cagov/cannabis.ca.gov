@@ -45,7 +45,7 @@ const getAbsolutePath = (url) => {
   try {
     if (url !== undefined) {
       config.build.replace_urls.forEach((domain) => {
-        url = url.replace(domain, "");
+        url = url.replace(domain, "/");
         return false;
       });
 
@@ -53,6 +53,7 @@ const getAbsolutePath = (url) => {
         url = `${config.build.static_site_url}${url}`;
         return url;
       }
+      return url;
     }
     // return new URL(url).pathname;
   } catch (error) {
@@ -98,12 +99,10 @@ const getTemplate = (article) => {
 };
 
 const getOpenGraphImage = (article, metadata) => {
-  console.log(metadata?.open_graph_image_url);
   const url =
     metadata?.open_graph_image_url ||
     config.page_metadata[article.locale]?.page_default_open_graph_image_url ||
     config.page_metadata.en.page_default_open_graph_image_url;
-
   return getAbsolutePath(url, "og url");
 };
 
