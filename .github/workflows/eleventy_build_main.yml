@@ -1,19 +1,23 @@
-name: Eleventy build production Pantheon WP 5.8.1
-# site:  headless.cannabis.ca.gov
-# editor: https://api.cannabis.ca.gov
+name: 11ty build Production Site
+# site:  https://headless.cannabis.ca.gov
 # s3 bucket http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
-# Will become
-# site:  cannabis.ca.gov
 # editor: https://api.cannabis.ca.gov
 on:
+  workflow_run:
+    workflows: ["Update static content [main]"]
+    types: ['completed']
+    branches:
+      - main
   push:
     branches:
-      - main_original
+      - main
+
 jobs:
   build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
-      - uses: n1hility/cancel-previous-runs@v2
+      - name: Cancel previous build
+        uses: n1hility/cancel-previous-runs@v2
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
@@ -26,8 +30,11 @@ jobs:
           mkdir dist
           npm install
           npm run build
-          npm run test:setup
-
+          # npm run test:setup
+      - name: Write robots.txt
+        run: |
+          echo 'User-agent: *' > docs/robots.txt
+          echo 'Disallow: /' >> docs/robots.txt
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
       - name: Deploy to github pages branch
         uses: peaceiris/actions-gh-pages@v3
@@ -63,7 +70,7 @@ jobs:
           AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       # Invalidate Cloudfront production distribution
-      - name: invalidate
+      - name: Invalidate Cloudfront cache
         uses: chetan/invalidate-cloudfront-action@v1.3
         env:
           DISTRIBUTION: 'E1HY53GZXHPHRV'
