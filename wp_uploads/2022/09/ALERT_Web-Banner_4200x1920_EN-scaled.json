@@ -23,7 +23,7 @@
     "slug": "alert_web-banner_4200x1920_en",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://api.cannabis.ca.gov/homepage/alert_web-banner_4200x1920_en/",
+    "link": "https://api.cannabis.ca.gov/alert_web-banner_4200x1920_en/",
     "title": "ALERT_Web Banner_4200x1920_EN",
     "author": "Chach Sikes",
     "comment_status": "closed",
@@ -119,7 +119,7 @@
       },
       "original_image": "ALERT_Web-Banner_4200x1920_EN.jpg"
     },
-    "post": 7424,
+    "post": null,
     "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/ALERT_Web-Banner_4200x1920_EN-scaled.jpg",
     "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/ALERT_Web-Banner_4200x1920_EN-scaled.jpg",
     "sizes": [
