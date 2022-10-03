@@ -42,41 +42,30 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_production
-      # Push built site files to S3 production bucket    
-      - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
+      
+      # Set up AWS CLI
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          args: --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: 'headless.cannabis.ca.gov'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
-          SOURCE_DIR: ./docs # only move built directory
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
 
-      # Reset the cache-control headers on static assets on production S3 bucket
-      - name: Reset cache-control on static files
-        uses: prewk/s3-cp-action@v2
-        with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/fonts'
-          dest: 's3://headless.cannabis.ca.gov/fonts'
-          flags: --recursive --cache-control max-age=15552000
+      # Deploy to headless.cannabis.ca.gov
+      - name: Deploy to S3 (headless.cannabis.ca.gov)
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://headless.cannabis.ca.gov
+      - name: Invalidate Cloudfront (headless.cannabis.ca.gov)
+        run: aws cloudfront create-invalidation --distribution-id E1HY53GZXHPHRV --paths "/*"
+
+      # Deploy to cannabis.ca.gov
+      - name: Deploy to S3 (cannabis.ca.gov)
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov
+      - name: Invalidate Cloudfront (cannabis.ca.gov)
+        run: aws cloudfront create-invalidation --distribution-id E2RLC9PDB1JLNI --paths "/*"
 
       - name: Deploy redirects
         run: |
           AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
-      # Invalidate Cloudfront production distribution
-      - name: Invalidate Cloudfront cache
-        uses: chetan/invalidate-cloudfront-action@v1.3
-        env:
-          DISTRIBUTION: 'E1HY53GZXHPHRV'
-          PATHS: '/*'
-          AWS_REGION: 'us-west-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}    
-
+      
 
