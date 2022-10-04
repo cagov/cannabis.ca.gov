@@ -1,0 +1,55 @@
+{
+  "_from": "@cagov/ds-page-feedback@^1.1.3",
+  "_id": "@cagov/ds-page-feedback@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-80IGiod35PY03LbUWC84MQQ3hhL6pVn3bYhUhOELmZVrWOBVpGmP+e8waFYX+NOI8N7h+bToFDW9/CKfVtD+hA==",
+  "_location": "/@cagov/ds-page-feedback",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@cagov/ds-page-feedback@^1.1.3",
+    "name": "@cagov/ds-page-feedback",
+    "escapedName": "@cagov%2fds-page-feedback",
+    "scope": "@cagov",
+    "rawSpec": "^1.1.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cagov/ds-page-feedback/-/ds-page-feedback-1.1.3.tgz",
+  "_shasum": "26762927f616f571d754960583d73dafe05e25d0",
+  "_spec": "@cagov/ds-page-feedback@^1.1.3",
+  "_where": "/Users/chachsikes/Documents/ca.gov/cannabis.ca.gov",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The page feedback component lets people react to specific pages on your website. It puts the question, \"Did you find this page useful?\" above the department footer on every page. It has buttons to reply **Yes** or **No**, followed by a comment field.",
+  "devDependencies": {
+    "@open-wc/testing": "^3.0.1",
+    "@web/test-runner-puppeteer": "^0.10.2",
+    "rollup": "^2.52.2",
+    "rollup-plugin-import-css": "^2.0.1",
+    "sass": "^1.34.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "@cagov/ds-page-feedback",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cagov/design-system/tree/main/components/feedback"
+  },
+  "scripts": {
+    "build": "sass src/css/index.scss src/css/index.css && npm run build:js",
+    "build:js": "rollup --config rollup.config.js",
+    "cdn:publish": "node ../../docs/src/publish/cdn-deploy.js",
+    "html:preview": "node ../../docs/src/publish/dynamic-html.js",
+    "prepublishOnly": "npm run html:preview && npm run build && npm test && npm run cdn:publish",
+    "test": "web-test-runner \"test/**/*.js\" --node-resolve"
+  },
+  "type": "module",
+  "version": "1.1.3"
+}

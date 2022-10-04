@@ -1,0 +1,30 @@
+{% extends "./../base-layout.njk" %}
+
+{% block content %}
+    <div id="page-container" class="page-container-ds">
+        <div id="main-content" class="main-content-ds single-column">
+            {% include "./../breadcrumb-post.njk" %}
+
+            <div class="ds-content-layout">
+                <main class="main-primary">
+                    {# The #body-content div is the skip-to-content target. #}
+                    <div id="body-content">
+                        <article id="post-{{id}}">
+                            <div class="category-label">{{ category | safe }}</div>
+                            <!-- Page Title-->
+                            <h1 class="page-title">{{ title | safe }}</h1>
+                            <p class="page-date published">
+                                <time datetime="">
+                                    <!-- date field -->
+                                </time>
+                            </p>
+                            <div class="entry-content">
+                                {{ content | safe }}
+                            </div>
+                        </article>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+{% endblock %}

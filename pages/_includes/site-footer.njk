@@ -1,0 +1,31 @@
+{% set locale_dir = ["/"] | join %}
+
+{% if locale != "en" %}
+  {% set locale_dir = ["/", locale, "/"] | join %}
+{% endif %}
+
+<section aria-label="Site footer" class="site-footer">
+<div class="container">
+  <div class="footer-logo">
+
+  </div>
+  <div class="footer-secondary-links">
+      {% for menu in contentMenu %}
+        <a href="{{ menu.url | safe }}">{{ menu.title | safe }}</a>
+      {% endfor %}
+  </div>
+
+  <!-- social media links  --> 
+  <div class="footer-social-links">
+    {% for menu in socialMediaLinksMenu %}
+      <a href="{{ menu.url | safe }}" title="{{ 'Share via' | i18n(locale) }} {{ menu.title | safe }}" rel="noopener noreferrer" target="_blank">
+        
+        <img src="/assets/icons/{{ menu.title | lower | safe }}.svg" width="24" height="24" alt="{{ menu.title | safe }} logo" />
+
+        <span class="sr-only">{{ menu.title | safe }}</span>
+      </a>
+    {% endfor %}
+  </div>
+
+</div>
+</section>

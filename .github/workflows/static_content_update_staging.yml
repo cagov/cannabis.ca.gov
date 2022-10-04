@@ -1,0 +1,53 @@
+name: Update static content [staging]
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [static_content_update_staging]
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 16.13.1
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.13.1
+      - name: Check for static content updates # update static content repo. 
+        run: |
+          mkdir dist
+          npm update static-content-cannabis-staging
+      - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          committer: ${{ secrets.ODI_GITHUB_USER }} <noreply@github.com> 
+          base: staging
+          title: "Static content update to staging branch"
+          body: |
+           Method: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis-staging (Static content repo, staging branch)
+          labels: |
+            content-update
+            automerge
+          commit-message: "Automated PR: Static content update [STAGING]"
+          team-reviewers: |
+            ${{ secrets.PR_REVIEWERS }}
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"  
+      - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: ${{ secrets.ODI_GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+      - id: automerge
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        name: Auto merge static content update
+        uses: "pascalgn/automerge-action@v0.15.3"
+        env:
+          GITHUB_TOKEN: "${{ secrets.ODI_GITHUB_TOKEN }}"

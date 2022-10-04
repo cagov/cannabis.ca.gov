@@ -1,0 +1,92 @@
+
+/* PATCH CA Design System */
+.mobile-only {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .mobile-only {
+      display: inline;
+    }
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cagov-block {
+    margin-bottom: 64px;
+  }
+  
+  @supports (width: min(250px, 100%)) {
+    .cagov-card-grid.cagov-grid,
+    .cagov-card-grid.cagov-grid .block-editor-block-list__layout {
+      grid-template-columns: repeat(auto-fit, minmax(min(286px, 100%), 1fr));
+    }
+  }
+  
+  .cagov-card-grid.cagov-grid,
+  .cagov-grid .block-editor-block-list__layout {
+    display: grid;
+    grid-gap: 1.5rem;
+  }
+  
+  .cagov-featured-sidebar {
+    h2 {
+      font-size: 2.135rem;
+    }
+  
+    .cagov-feature-card-body-content p {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: #000;
+    }
+  
+    .wp-block-button__link {
+      background-color: #064e66;
+      border-radius: 5px;
+      font-weight: 700;
+      padding: 0.5rem 1rem;
+      color: #fff;
+  
+      box-shadow: none;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.125em;
+  
+      text-align: center;
+      text-decoration: none;
+      overflow-wrap: break-word;
+      box-sizing: border-box;
+    }
+  }
+  
+  .external-link-icon {
+    width: 20px;
+  }
+  
+  .pdf-link-icon {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    display: inline-block;
+    outline: 1px solid;
+    outline-offset: -2px;
+    padding: 1px 4px 0px 4px;
+    position: relative;
+    left: 1px;
+    top: -3px;
+    line-height: .9rem;
+    margin-left: 4px;
+  }
+  
+  .page-feedback-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: var(--w-lg, 1176px);
+    margin: 0 auto;
+    padding: 16px;
+  }

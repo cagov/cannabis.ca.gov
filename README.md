@@ -2,33 +2,53 @@
 
 *This repo is under active development as we create a headless version of the cannabis WordPress site.*
 
-### Project description
-(Soon to be) production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. Built to deliver plain-language, performant, accessible information.
+## Project description
+(Soon to be) production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
+* Built to deliver plain-language, performant, accessible information.
 
-### Technical overview of domains and services
-* STATIC SITE: This git repo uses 11ty site page builder to render content. This is being synced with the 11ty-starter-kit project.
-* DATA: WordPress content is delivered into `src/templates/wordpress` by a microservice, wordpress-to-github. 
-    * This service currently runs on Azure's Function as a Service FaaS) in the [@cagov/services-wordpress-to-github-cannabis-ca-gov](https://github.com/@cagov/services-wordpress-to-github-cannabis-ca-gov) repo.
-* UI: California design system components in `src/js` match the components in the WordPress editor.
-* EDITOR (CMS): Wordpress editor lives at [https://api.cannabis.ca.gov](https://api.cannabis.ca.gov) which is a custom domain, that points to [https://live-cannabis-ca-gov.pantheonsite.io](https://live-cannabis-ca-gov.pantheonsite.io). This site provides the editor UI using the [California Design System Gutenberg blocks](https://github.com/cagov/ca-design-system-gutenberg-blocks) library and a custom theme. This is migrating from CAWeb publishing Flywheel system to Pantheon, and is an intermediary home for the editor.
-    * A mirror of the code editor lives at [https://github.com/cagov/pantheon-mirror-cagov](https://github.com/cagov/pantheon-mirror-cagov).
-* BUILDS: Are in `.github/workflows`. These are run by github actions to coordinate how the static site is pushed to Amazon S3 buckets.
-* DOMAIN - Managed by Department of Consumer Affairs (DCA), the control agency for the Department of Cannabis Control.
-* CONFIG - `odi-publishing` contains configuration files for site settings. We are avoiding hard coding content in the UI because we are making a reusable site template for agencies adopting the design system.
-* PAGE FEEDBACK - @DOCS
-* Dynamic [ODI PUBLISHING DIAGRAM](https://www.figma.com/file/oxejuAbLaxVW4itp00uv32/ODI-Publishing?node-id=0%3A1) in FigmaJam
-* Server architecture
-<img src="./ca.gov-web-application-architecture.png" />
+## Technical overview of domains and services
 
-## Development notes
+## System diagram
+<img src="./system-diagram.png" width="100%" alt="Diagram of how the content publishing pipeline connects" />
+
+### 1. Edit
+* Content is created and edited in WordPress at api.cannabis.ca.gov
+
+### 2. Sync WordPress REST API to GitHub
+* After posts are edited, a syncing service pulls data from WordPress into a static content package, which is loaded into this static site builder.
+
+### 3. Update static site
+* Local builds: `npm run dev`
+* Production builds: will run GitHub actions workflows, when content is updated, and on pull requests and pushes. 
+
+The `./src/.eleventy.js` script generates a static build of the site which is
+All Eleventy configuration settings are located at `./config`. We use multiple branches and production, stating, and other branches, and this configuration file is the source of truth for all settings.
+
+* The content is copied from `node_modules/static-content-cannabis` into `./pages/_content` and used at runtime. 
+* The `./pages/_content.11tydata.js` file is where any domains from the edit are replaces and made relative to the static/headless instance.
+* CA Design System components are located at `./src/components`, and managed via `package.json`. Any custom components are also located in this folder.
+
+### 4. Publish
+The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 bucket, clear the AWS CloudFront cache and update the deployment.
+* [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml), [PR Previews](./.github/workflows/eleventy_build_pr.yml)
+
+## Developer notes
 * Check out the git repo.
-* Make sure `npm` and `node` are installed locally.
-* `npm install` - install the packages in `package.json`.
+* Make sure `npm` and `node` are installed locally. Current version: Node 16.13.1, npm 8.5.0.
+* `npm install` - install the packages in `package.json` and development dependencies.
 * `npm run dev` for local builds.
-* `npm test` - run playwright tests.
-* Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md), and [_maintenance](_maintenance) folder for additional information.
-* [BUILD](BUILD.md) - How the build configuration on this project works.
-* [Wiki](https://github.com/cagov/cannabis.ca.gov/wiki) - Slightly out of date old docs.
+* `npm build` to generate static repo at `./docs` - you can run `http-server` or `serve` to view this site in a local web server.
+* `npm run content:clean` and `npm run content:update` will get the latest content changes and reset content.
+* You can work locally with the markup generated from https://api.cannabis.ca.gov editor. Please refer to https://github.com/cagov/static-content-cannabis for publishing system notes if something is wrong.
+* [NOT YET RE-RELEASED]: `npm test` - run playwright tests.
+* Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md] for additional information.
+
+
+
+### Updates
+* Submit a pull request to the latest release branch: `release/2.x.x` etc.
+
+
 
 ## Design system components
 
@@ -54,8 +74,22 @@ Components included are listed as production dependencies in this project's pack
 - @cagov/ds-step-list
 - @cagov/ds-table
 
-## Project contacts
-* Office of Digital Innovation is working with the Department of Cannabis Control and CDT to bring you this site.
-* Submit an issue to the github repo or on the page feedback form on the cannabis site if you are experiencing an issue.
-* *Slack*: Office of Digital Innovation (ODI) Slack:  `#cagov-cannabis-qa` `#cagov-cannabis-dev`, `#cagov-cannabis`
 
+### Design Tokens
+Design tokens can be found in `./src/css`. 
+
+---
+
+## Team maintenance notes
+Office of Digital Innovation (ODI), is working with the Department of Cannabis Control (DCC), Department of Consumer Affairs (DCA), and the California Department of Technology (CDT) to bring content strategy, user-centered design and performant web publishing on an open-source stack.
+
+Project docs: Coda and Google Drive
+Report an issue: https://github.com/cagov/cannabis.ca.gov
+Project board: Internal board is in Coda
+Public board: Would move to the GitHub board relative to this GitHub repository.
+    * (DEPRECATED): https://github.com/orgs/cagov/projects/6. 
+Project maintainer & Lead Engineer: Chach Sikes (she/her) @chachasikes
+Engineering Management Lead: Zakiya Khabir @zakiyarules
+Slack channels: #odi-cannabis (ODI internal), #cagov-cannabis (Multi-partner channel)
+
+Content guide: Is in Coda

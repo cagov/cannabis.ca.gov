@@ -1,5 +1,10 @@
-# TEMP 
-preview-mode-auto-generated
+# ignore build filesgst
+src/wordpress-media
+pages/_content/pages
+pages/_content/posts
+pages/_content/media
+pages/_content/menu
+pages/_content/redirects
 
 # DS_Store
 .DS_Store
@@ -111,3 +116,6 @@ dist
 
 # TernJS port file
 .tern-port
+/test-results/
+/playwright-report/
+/playwright/.cache/

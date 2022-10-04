@@ -1,0 +1,19 @@
+{% extends "base-layout.njk" %}
+
+{% block content %}
+  <main id="body-content" class="cagov-main page-container-ds">
+    <article id="post-{{ page.fileSlug }}" class="cagov-article with-sidebar with-page-nav">
+      <h1 class="page-title title-cell">
+        {{ title | safe }}
+      </h1>
+      <aside class="sidebar-container everylayout sidebar-cell" style="z-index: 1;">
+        <sidebar space="0" side="left">
+          <cagov-page-navigation data-selector="main" data-type="wordpress" data-label="{{ 'On this page' | i18n(locale) }}"></cagov-page-navigation>
+        </sidebar>
+      </aside>
+      <div class="cagov-content content-cell">
+        {{ content | safe }}
+      </div>
+    </article>
+  </main>
+{% endblock %}

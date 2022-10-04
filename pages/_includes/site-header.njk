@@ -1,0 +1,29 @@
+<!--site-header with logo-->
+<div class="site-header full-bleed">
+  <div class="container with-logo">
+
+    <a href="/" class="grid-logo" aria-label="{{ 'Department of Cannabis Control home' | i18n(locale) }}">
+			<img alt="{{ 'Department of Cannabis Control Logo' | i18n(locale) }}" src="/assets/logo_horizontal.png" width="240" height="68" />
+		</a>
+
+    <div class="cagov-nav mobile-icons grid-mobile-icons">
+      <div class="cagov-nav mobile-search"></div>
+      <button class="menu-trigger cagov-nav open-menu" aria-label="{{ 'Navigation menu' | i18n(locale) }}" aria-haspopup="true" aria-expanded="false"
+        aria-owns="mainMenu" aria-controls="mainMenu">
+        <div class="cagov-nav hamburger">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+        <div class="cagov-nav menu-trigger-label menu-label" data-openlabel="{{ 'Menu' | i18n(locale) }}" data-closelabel="{{ 'Close' | i18n(locale) }}">{{ 'Menu' | i18n(locale) }}</div>
+      </button>
+    </div>
+
+    <div class="search-container grid-search">
+
+      {% include "./site-search.njk" %}
+
+    </div>
+  </div>
+</div>
+<!--end site-header-->

@@ -1,28 +1,32 @@
 # CHANGELOG for cannabis.ca.gov
 
+# 2.0.0 - _-__-____
+* Move off of hybrid production release.
+* Add streamlined content package changes.
+
 # 1.1.3 - 3-29-2022
-* [ ] Updated Design system components
-* [ ] Re-sync all content with upstream production content
-* [ ] Cannabis legal access data visualization
-* [ ] Clean up
+* Updated Design system components
+* Re-sync all content with upstream production content
+* Cannabis legal access data visualization
+* Clean up
 
 # 1.1.2 - 12-22-2021
-- [ ] Connect to api.cannabis.ca.gov
-- [ ] Components synced up with design system
-- [ ] Cypress removed (we are using playwright now, old docs moved to `_maintenance`
+* Connect to api.cannabis.ca.gov
+* Components synced up with design system
+* Cypress removed (we are using playwright now, old docs moved to `_maintenance`
 
 # 1.0.1+ - 10-11-2021
-* - [ ] Set up clean repo structure
-* - [ ] Deep cleanup refactor. Add @DOCS, @TODO, @ISSUE tags
-* - [ ] Check moved sitemap
-* - [ ] Add unit test for content functions using Playwright + Mocha unit tests (should works with CI)
-* - [ ] Fix post events (launch on drought.ca.gov first)
-* - [ ] Fix page events (launch on drought.ca.gov first)
-* - [ ] Set up events (launch on drought.ca.gov first)
-* - [ ] User and check GA config settings in config file.
-* - [ ] Schedule README writing sessions.
-* - [ ] All the components currently in `src/components` need to be refined and promoted back to the cagov/design-system repo. Then we can delete these folders from this repository. The npm packages can then be installed to provide the features.
-* - [ ] The build system dependencies should also be externalized so 11ty and all its dependencies can be accessed via npx locally and in github action steps for builds in our pipelines. Planning to port this clean up to a boilerplate site that this repo can refer to for system changes.
+* Set up clean repo structure
+* Deep cleanup refactor. Add @DOCS, @TODO, @ISSUE tags
+* Check moved sitemap
+* Add unit test for content functions using Playwright + Mocha unit tests (should works with CI)
+* Fix post events (launch on drought.ca.gov first)
+* Fix page events (launch on drought.ca.gov first)
+* Set up events (launch on drought.ca.gov first)
+* User and check GA config settings in config file.
+* Schedule README writing sessions.
+* All the components currently in `src/components` need to be refined and promoted back to the cagov/design-system repo. Then we can delete these folders from this repository. The npm packages can then be installed to provide the features.
+* The build system dependencies should also be externalized so 11ty and all its dependencies can be accessed via npx locally and in github action steps for builds in our pipelines. Planning to port this clean up to a boilerplate site that this repo can refer to for system changes.
 
 ## 1.0.1
 1.0.0 is a feature identical release, but big code updates across multiple platforms.

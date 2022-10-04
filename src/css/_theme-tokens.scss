@@ -1,0 +1,43 @@
+
+
+/* CaGov color scheme root variables */
+
+// Will override cagov.css (right?)
+// src: node_modules/@cagov/ds-base-css/src (DEPRECATING)
+
+// WIP: https://www.figma.com/file/b1UMYEmd7PBEMHqux75NDf/Untitled?node-id=6%3A69
+// https://accessiblepalette.com/?lightness=98.2,93.9,85,76.2,67.4,57,48,40.2,31.8,24.9&e88a32=1,0&2f4c2c=1,-10&016652=1,0&064E66=1,0&6f3b73=1,0
+
+:root {
+  --accent-100: #ECEEEB;
+  --accent-300: #B5BFB1;
+  --accent-500: #7E8D76;
+  --accent-700: #516445;
+  --accent-900: #2F4023;
+  
+  --accent2-100: #FFEADC;
+  --accent2-300: #F1AE7B;
+  --accent2-500: #C8742A;
+  --accent2-700: #895121;
+  --accent2-900: #553319;
+
+  --primary-100: #EBEEF0;
+  --primary-300: #B3BDC7;
+  --primary-500: #788B9C;
+  --primary-700: #456278;
+  --primary-900: #193F56;
+
+  /* DS Not yet converted */
+  --primary-color: #193F56;
+
+  --accent3-100: #E9EFEC;
+  --accent3-300: #AAC1BB;
+  --accent3-500: #699181;
+  --accent3-700: #2E6955;
+  --accent3-900: #174334;
+
+  /* Sitewide gradient */
+  --top-gradient: linear-gradient(#fbefe0, #fff 600px);
+
+  --org-name-dept-font-size: 2.25rem;
+}

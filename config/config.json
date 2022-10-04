@@ -1,0 +1,70 @@
+{
+    "version": "2.0.0",
+    "name": "cannabis.ca.gov - Department of Cannabis Control",
+    "gitrepo": "@cagov/cannabis.ca.gov",
+    "contact": {
+        "maintainer": "Office of Data and Innovation"
+    },
+    "page_metadata": {
+        "en": {
+            "site_url": "https://cannabis.ca.gov",
+            "site_name": "Department of Cannabis Control",
+            "site_default_description": "Learn about California cannabis laws and licenses",
+            "page_default_open_graph_image_url": "/wp-content/uploads/sites/2/2021/07/cropped-Cannabis_horizontal_social-1.png",
+            "page_default_open_graph_image_alt": "Department of Cannabis Control",
+            "page_default_open_graph_image_width": 1200,
+            "page_default_open_graph_image_height": 630,
+            "gov_name": "CA.GOV",
+            "gov_url": "https:\/\/ca.gov",
+            "favicon": "/assets/cagov_favicon.ico",
+            "page_icon": "/assets/img/cannabis_favicon_16x16.png",
+            "keywords": "California, government"
+        }
+    },
+    "locales": {
+        "en": "English"
+    },
+    "extensions": {
+        "page-feedback": {
+            "endpoint": "https://fa-go-feedback-001.azurewebsites.net/sendfeedback"
+        }
+    },
+    "build": {
+        "eleventy_input": "pages",
+        "eleventy_output": "docs",
+        "eleventy_layouts": "_includes/layouts",
+        "eleventy_content": "pages/_content",
+        "eleventy_pages": "pages/_content/pages",
+        "eleventy_posts": "pages/_content/posts",
+        "eleventy_menu": "pages/_content/menu",
+        "eleventy_redirects": "pages/_content/redirects",
+        "docs_media": "wp_uploads",
+        "s3_bucket_name": "headless.cannabis.ca.gov",
+        "upload_folder": "wp-content/uploads/",
+        "upload_folder_flywheel": "wp-content/uploads/sites/2/",
+        "replace_urls": [
+            "http://cannabis.ca.gov/",
+            "https://cannabis.ca.gov/",
+            "https://live-cannabis-ca-gov.pantheonsite.io",
+            "https://test-cannabis-ca-gov.pantheonsite.io",
+            "https://dev-cannabis-ca-gov.pantheonsite.io",
+            "https://api.cannabis.ca.gov",
+            "https://dev-cagov-dcc.pantheonsite.io"
+        ],
+        "editor_url": "https://api.cannabis.ca.gov",
+        "editor_urls": {
+            "production": "",
+            "staging": ""
+        },
+        "static_site_url": "https://headless.cannabis.ca.gov",
+        "static_site_urls": {
+            "production": "",
+            "staging": ""
+        },
+        "canonical_url": "https://headless.cannabis.ca.gov",
+        "canonical_urls": {
+            "production": "",
+            "staging": ""
+        }
+    }
+}

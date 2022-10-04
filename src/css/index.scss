@@ -1,0 +1,12 @@
+/* GLOBAL */
+/* sitewide styles */
+@import "../../node_modules/@cagov/ds-base-css/src/core";
+@import "fonts"; /* Website global fonts */
+@import "theme-components"; /* CA Design System component CSS imports */
+@import "theme-overrides"; /* Site customizations */
+@import "theme-tokens"; /* Reset all theme tokens (colors, etc) */
+@import "wordpress"; /* Restyle content markup coming from WordPress API */
+@import "post-lists"; /* Announcements, Events and other styles */
+@import "svg-icons"; 
+
+/* STYLE FIXES AND PATCHES */
