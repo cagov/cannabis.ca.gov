@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-10-03T20:48:04",
+    "updated_date": "2022-10-03T20:48:04",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11589",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11589,
+    "date": "2022-10-03T13:48:04",
+    "date_gmt": "2022-10-03T20:48:04",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2617_cover-sheet.pdf",
+    "modified": "2022-10-03T13:48:04",
+    "modified_gmt": "2022-10-03T20:48:04",
+    "slug": "research-grant_dcc-2617_cover-sheet",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/research-grant_dcc-2617_cover-sheet/",
+    "title": "research-grant_dcc-2617_cover-sheet",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2617_cover-sheet.pdf'>research-grant_dcc-2617_cover-sheet</a></p>\n",
+    "caption": "<p>research-grant_dcc-2617_cover-sheet</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 185912,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2617_cover-sheet.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2617_cover-sheet.pdf",
+    "path": "2022/10/research-grant_dcc-2617_cover-sheet.pdf"
+  }
+}
