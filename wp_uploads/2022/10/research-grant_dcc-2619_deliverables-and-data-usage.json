@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-10-03T20:48:07",
+    "updated_date": "2022-10-03T20:48:07",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11591",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11591,
+    "date": "2022-10-03T13:48:07",
+    "date_gmt": "2022-10-03T20:48:07",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2619_deliverables-and-data-usage.pdf",
+    "modified": "2022-10-03T13:48:07",
+    "modified_gmt": "2022-10-03T20:48:07",
+    "slug": "research-grant_dcc-2619_deliverables-and-data-usage",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/research-grant_dcc-2619_deliverables-and-data-usage/",
+    "title": "research-grant_dcc-2619_deliverables-and-data-usage",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2619_deliverables-and-data-usage.pdf'>research-grant_dcc-2619_deliverables-and-data-usage</a></p>\n",
+    "caption": "<p>research-grant_dcc-2619_deliverables-and-data-usage</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 146258,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2619_deliverables-and-data-usage.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/10/research-grant_dcc-2619_deliverables-and-data-usage.pdf",
+    "path": "2022/10/research-grant_dcc-2619_deliverables-and-data-usage.pdf"
+  }
+}
