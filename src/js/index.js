@@ -6,12 +6,12 @@ import "@cagov/ds-back-to-top";
 import "@cagov/ds-link-grid";
 import "@cagov/ds-page-alert";
 // import '@cagov/ds-page-feedback/src/index.js';
-import '@cagov/ds-link-icon/dist/index.js';
+import "@cagov/ds-link-icon/dist/index.js";
+import "@cagov/ds-site-navigation";
 import "@cagov/ds-page-navigation";
 import "@cagov/ds-pagination";
 
 // Custom components
-import "../components/site-navigation/src/index.js"; // Version of the ds-site-navigation component.
 import "../components/ds-page-feedback/src/index.js"; // For drafting microcopy update.
 import "../components/scrollable-card/src/js/behavior.js"; // For drafting microcopy update.
 
