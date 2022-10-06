@@ -5585,6 +5585,7 @@ figure.wp-block-post-featured-image img {
 
 .wp-block-table {
   margin-bottom: 16px;
+  overflow-x: auto;
 }
 .wp-block-table table,
 .wp-block-table table th,
@@ -7633,6 +7634,7 @@ figure.wp-block-post-featured-image img {
 
 .wp-block-table {
   margin-bottom: 16px;
+  overflow-x: auto;
 }
 .wp-block-table table,
 .wp-block-table table th,
