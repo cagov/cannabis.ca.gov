@@ -107,7 +107,6 @@ class CAGovSiteNavigation extends window.HTMLElement {
         .setAttribute("aria-hidden", "true");
       // reset navigation on resize
       this.closeAllMenus();
-      this.closeMainMenu();
     });
 
     this.expansionListeners();

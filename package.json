@@ -74,7 +74,7 @@
     "@cagov/ds-regulatory-outline": "^1.0.1",
     "@cagov/ds-site-footer": "^2.0.0",
     "@cagov/ds-site-header": "^2.0.0",
-    "@cagov/ds-site-navigation": "^3.0.0",
+    "@cagov/ds-site-navigation": "3.0.0-canary",
     "@cagov/ds-skip-to-content": "^2.0.0",
     "@cagov/ds-statewide-footer": "^2.0.0",
     "@cagov/ds-statewide-header": "^2.0.0",
