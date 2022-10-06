@@ -9,9 +9,8 @@
     <meta content="{{ 'Department of Cannabis Control - State of California' | i18n(locale) }}" name="author">
     <meta content="#000000" name="theme-color">
     <title>
-      {% if title %}{{ page_metadata.page_title | safe }}
-      {% else %}{{ 'Department of Cannabis Control' | i18n(locale) }}
-      {% endif %}
+      {% if title != "Home page" %}{{ page_metadata.page_title | safe }} - {% endif %}
+      {{ 'Department of Cannabis Control' | i18n(locale) }}
     </title>
 
     <link rel="canonical" href="{{ page_metadata.permalink | safe }}" />
