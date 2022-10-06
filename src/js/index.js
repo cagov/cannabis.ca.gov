@@ -9,9 +9,9 @@ import "@cagov/ds-page-alert";
 import '@cagov/ds-link-icon/dist/index.js';
 import "@cagov/ds-page-navigation";
 import "@cagov/ds-pagination";
-import "@cagov/ds-site-navigation";
 
 // Custom components
+import "../components/site-navigation/src/index.js"; // Version of the ds-site-navigation component.
 import "../components/ds-page-feedback/src/index.js"; // For drafting microcopy update.
 import "../components/scrollable-card/src/js/behavior.js"; // For drafting microcopy update.
 
@@ -21,7 +21,7 @@ import { controlPages } from "./pagination.js";
 import "./analytics/google-analytics.js";
 import setupAnalytics from "./analytics/setup-analytics.js";
 
-window.onload = (event) => {
+window.onload = () => {
   setupAnalytics();
 };
 
