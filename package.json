@@ -81,5 +81,8 @@
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
     "static-content-cannabis": "github:cagov/static-content-cannabis#main"
+  },
+  "volta": {
+    "node": "16.13.1"
   }
 }
