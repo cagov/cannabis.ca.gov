@@ -9,6 +9,7 @@ const {
 const {
   renderPostLists,
   renderWordpressPostTitleDate,
+  setDefaultAttributes,
 } = require("./src/js/eleventy/post-list/render.js");
 const { renderEventLists } = require("./src/js/eleventy/event-list/render.js");
 const {
@@ -86,11 +87,8 @@ module.exports = function eleventyBuild(eleventyConfig) {
   eleventyConfig.addFilter("relativePath", relativePath);
 
   // Used in announcements.njk
-  eleventyConfig.addFilter("displayPostInfo", (item) =>
-    renderWordpressPostTitleDate(item.data, {
-      showExcerpt: true,
-      showPublishDate: true,
-    })
+  eleventyConfig.addFilter("displayPostInfo", (item) => 
+    renderWordpressPostTitleDate(item.data, setDefaultAttributes())
   );
 
   eleventyConfig.addTransform("htmlTransforms", (html, outputPath) => {
