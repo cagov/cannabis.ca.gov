@@ -7725,4 +7725,20 @@ cagov-announcement-list .post-list-item {
   max-width: 100px;
 }
 
+.post-list-items.expanded-listings .post-list-item {
+  margin-bottom: 32px;
+}
+.post-list-items.expanded-listings .post-list-item .link-title {
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.post-list-items.expanded-listings .post-list-item .link-title a {
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.post-list-items.expanded-listings .post-list-item .date {
+  font-size: 18px;
+}
+
 /* STYLE FIXES AND PATCHES */
