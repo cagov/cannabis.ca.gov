@@ -6,7 +6,7 @@ pagination:
 permalink: "about-us/announcements/{{pagination.pageNumber}}/"
 ---
 
-<div class="post-list-items">
+<div class="post-list-items expanded-listings">
 {%- for item in pagination.items %}
   {{ item | displayPostInfo | safe }}
 {% endfor -%}

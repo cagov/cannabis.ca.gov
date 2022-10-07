@@ -8,5 +8,6 @@
 @import "wordpress"; /* Restyle content markup coming from WordPress API */
 @import "post-lists"; /* Announcements, Events and other styles */
 @import "svg-icons"; 
+@import "../components/post-list/paginated";
 
 /* STYLE FIXES AND PATCHES */
