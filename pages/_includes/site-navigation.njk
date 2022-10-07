@@ -7,11 +7,13 @@
 <!-- https://designsystem.webstandards.ca.gov/components/site-navigation/readme/ -->
 <cagov-site-navigation>
   <div class="container">
-    <div class="search-container search-container--small hidden-search" id="mobile-search-container" aria-hidden="true">
-      <form class="site-search" action="/search/">
-        <span class="sr-only" id="SearchInput2">{{ 'Custom Google Search' | i18n(locale) }}</span>
-      </form>
-    </div>
+    {# <div class="search-container search-container--small hidden-search" id="mobile-search-container" aria-hidden="true"> #}
+    {# form #}
+    <form class="site-search" action="/search/">
+      <span class="sr-only" id="SearchInput2">{{ 'Custom Google Search' | i18n(locale) }}</span>
+    </form>
+    {# end form #}
+    {# </div> #}
     <nav class="expanded-menu" role="navigation" aria-label="{{ 'Site Navigation' | i18n(locale) }}" aria-hidden="false" id="main-menu">
       <div class="expanded-menu-grid">
         {% for menu in headerMenu %}
