@@ -34,11 +34,22 @@ const config = require("../../config/index.js");
   }
 };
 
+const formatDate = (date) => {
+  const dateObj = new Date(date);
+  
+  return dateObj.toLocaleDateString("en-us", {
+    month: "short",
+    year: "numeric",
+    day: "numeric",
+  });
+};
+
 module.exports = {
   eleventyComputed: {
     permalink: (article) =>  getRelativePath(article.data?.wordpress_url),
     parentId: (article) => article.data.parent,
     title: (article) => article.data.title,
     category: (article) => article.data?.categories[0],
+    date: (article) => article.data.date ? formatDate(article.data.date) : ""
   },
 };
