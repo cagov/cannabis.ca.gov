@@ -2,7 +2,7 @@
 const { devices } = require("@playwright/test");
 const config = {
   retries: 0,
-  timeout: 30000,
+  timeout: 60000,
   use: {
     headless: true,
     ignoreHTTPSErrors: false,

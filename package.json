@@ -16,6 +16,7 @@
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "test:serve": "npx http-server --port 8080 docs/",
     "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
+    "pdfcheck:dev": "npx playwright test test/pdfcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:dev": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:gh": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
