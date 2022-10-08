@@ -54,6 +54,24 @@
             "https://dev-cagov-dcc.pantheonsite.io",
             "http://wordpress.test:8888"
         ],
+        "media_replace_urls": [
+            "http://cannabis.ca.gov/wp-content/uploads/",
+            "https://cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://cannabis.ca.gov/wp-content/uploads/",
+            "https://api.cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://api.cannabis.ca.gov/wp-content/uploads/",
+            "https://headless.cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://headless.cannabis.ca.gov/wp-content/uploads/",
+            "https://staging.cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://staging.cannabis.ca.gov/wp-content/uploads/",
+            "http://localhost:8080/wp-content/uploads/sites/2/",
+            "http://localhost:8080/wp-content/uploads/",
+            "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
+            "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
+            "https://dev-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
+            "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/",
+            "http://wordpress.test:8888/wp-content/uploads/"
+        ],
         "editor_url": "https://api.cannabis.ca.gov",
         "canonical_site_url": "https://headless.cannabis.ca.gov"
     }
