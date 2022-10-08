@@ -6,8 +6,9 @@ if (process.env.SITE_ENV === "staging") {
   staticContentPath = "./node_modules/static-content-cannabis-staging";
 }
 
-// let staticContentPathDebugging = "./node_modules/static-content-cannabis-debugging";
-
+// if (process.env.SITE_ENV === "localhost") {
+  // staticContentPath = "./node_modules/static-content-cannabis-staging-debugging";
+// }
 
 const staticContentPaths = {
   staticContentPaths: {
