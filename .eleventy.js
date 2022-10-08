@@ -112,13 +112,6 @@ module.exports = function eleventyBuild(eleventyConfig) {
         );
       }
 
-      // if (html !== undefined && html.includes("https://cannabis.ca.gov")) {
-      //   html = html.replace(
-      //     new RegExp(`https://cannabis.ca.gov`, "g"),
-      //         `${config.build.canonical_site_url}`
-      //       );
-      // }
-
       config.build.replace_urls.forEach((rootPath) => {
         if (html !== undefined && html.includes(rootPath)) {
           html = html.replace(
