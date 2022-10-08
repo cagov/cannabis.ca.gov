@@ -29,41 +29,13 @@ const getConfig = () => {
   );
 
   if (process.env.SITE_ENV === "staging") {
-    config.site_url = "https://staging.cannabis.ca.gov";
-    
-    config.build.replace_urls = [
-      "http://cannabis.ca.gov/",
-      "https://cannabis.ca.gov/",
-      "https://staging.cannabis.ca.gov/",
-      "https://live-cannabis-ca-gov.pantheonsite.io/",
-      "https://test-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://api.cannabis.ca.gov/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cagov-dcc.pantheonsite.io/"
-    ];
-    config.build.static_site_url = "https://staging.cannabis.ca.gov";
-    config.build.canonical_url = "https://staging.cannabis.ca.gov";
-    config.build.s3_bucket_url = "https://staging.cannabis.ca.gov";
+    config.build.canonical_site_url = "https://staging.cannabis.ca.gov";
+    config.build.host_name = "https://staging.cannabis.ca.gov";
   }
 
   if (process.env.SITE_ENV === "localhost") {
-    config.site_url = "http://localhost:8080";
-    
-    config.build.replace_urls = [
-      "http://cannabis.ca.gov/",
-      "https://cannabis.ca.gov/",
-      "https://staging.cannabis.ca.gov/",
-      "https://live-cannabis-ca-gov.pantheonsite.io/",
-      "https://test-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://api.cannabis.ca.gov/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cagov-dcc.pantheonsite.io/"
-    ];
-    config.build.static_site_url = "http://localhost:8080";
-    config.build.canonical_url = "http://localhost:8080";
-    config.build.s3_bucket_url = "http://localhost:8080";
+    config.build.canonical_site_url = "http://localhost:8080";
+    config.build.host_name = "http://localhost:8080";
   }
 
   return config;

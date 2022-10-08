@@ -50,7 +50,7 @@ const getAbsolutePath = (url) => {
       });
 
       if (url.indexOf("/") === 0) {
-        url = `${config.build.static_site_url}${url}`;
+        url = `${config.build.canonical_site_url}${url}`;
         return url;
       }
       return url;

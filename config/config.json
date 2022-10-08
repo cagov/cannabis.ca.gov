@@ -56,8 +56,8 @@
             "production": "",
             "staging": ""
         },
-        "static_site_url": "https://headless.cannabis.ca.gov",
-        "static_site_urls": {
+        "canonical_site_url": "https://headless.cannabis.ca.gov",
+        "canonical_site_urls": {
             "production": "",
             "staging": ""
         },
