@@ -112,16 +112,34 @@ module.exports = function eleventyBuild(eleventyConfig) {
         );
       }
 
-      if (html !== undefined && html.includes("https://cannabis.ca.gov")) {
-        html = html.replace(
-          new RegExp(`https://cannabis.ca.gov`, "g"),
-              `${config.build.canonical_site_url}`
-            );
-      }
+      // if (html !== undefined && html.includes("https://cannabis.ca.gov")) {
+      //   html = html.replace(
+      //     new RegExp(`https://cannabis.ca.gov`, "g"),
+      //         `${config.build.canonical_site_url}`
+      //       );
+      // }
+
+      config.build.replace_urls.forEach((rootPath) => {
+        if (html !== undefined && html.includes(rootPath)) {
+          html = html.replace(
+            new RegExp(rootPath, "g"),
+            config.build.canonical_site_url
+          );
+        }
+        return false;
+      });
+
 
       if (html !== undefined && html.includes(config.build.upload_folder_flywheel)) {
         html = html.replace(
           new RegExp(config.build.upload_folder_flywheel, "g"),
+              `${config.build.docs_media}/`
+            );
+      }
+
+      if (html !== undefined && html.includes(config.build.upload_folder)) {
+        html = html.replace(
+          new RegExp(config.build.upload_folder, "g"),
               `${config.build.docs_media}/`
             );
       }

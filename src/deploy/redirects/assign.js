@@ -13,7 +13,7 @@ const redirectFile = JSON.parse(
 //   s3.putObject(
 //     {
 //       Body: "",
-//       Bucket: config.build.s3_bucket_name,
+//       Bucket: config.build.host_name,
 //       Key:
 //         redirect.url.indexOf("/") === 0
 //           ? redirect.url.substring(1)

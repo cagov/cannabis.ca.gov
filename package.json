@@ -6,9 +6,9 @@
   "scripts": {
     "build": "eleventy",
     "dev": "npm run site:watch:dev",
-    "site:build:dev": "npm run content:update && cross-env NODE_ENV=development SITE_ENV=staging eleventy",
+    "site:build:dev": "npm run content:update && cross-env NODE_ENV=development SITE_ENV=localhost eleventy",
     "site:build:staging": "npm run content:update:staging && cross-env SITE_ENV=staging eleventy",
-    "site:watch:dev": "cross-env NODE_ENV=development eleventy --watch --serve --incremental",
+    "site:watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --watch --serve --incremental",
     "site:watch:staging": "cross-env NODE_ENV=development SITE_ENV=staging eleventy --watch --serve --incremental",
     "site:watch": "eleventy --serve",
     "start": "npm run site:watch",
