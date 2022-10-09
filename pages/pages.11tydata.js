@@ -80,18 +80,18 @@ const getTemplate = (article) => {
 
     if (template === "single-press-release") {
       return "press-release";
-    }
-
+    } 
+    if (template === "single-column-wide") {
+      return "single-column-wide";
+    } 
     if (template === "single-event") {
       return "event";
-    }
-
+    } 
     if (template === "searchpage") {
       return "search";
-    }
-
+    } 
     if (template === "single") {
-      return "single-column";
+      return "post";
     }
   }
 
