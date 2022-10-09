@@ -41,14 +41,10 @@ The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 buc
 * `npm run content:clean` and `npm run content:update` will get the latest content changes and reset content.
 * You can work locally with the markup generated from https://api.cannabis.ca.gov editor. Please refer to https://github.com/cagov/static-content-cannabis for publishing system notes if something is wrong.
 * [NOT YET RE-RELEASED]: `npm test` - run playwright tests.
-* Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md] for additional information.
-
-
+* Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md) for additional information.
 
 ### Updates
 * Submit a pull request to the latest release branch: `release/2.x.x` etc.
-
-
 
 ## Design system components
 
@@ -81,15 +77,15 @@ Design tokens can be found in `./src/css`.
 ---
 
 ## Team maintenance notes
-Office of Digital Innovation (ODI), is working with the Department of Cannabis Control (DCC), Department of Consumer Affairs (DCA), and the California Department of Technology (CDT) to bring content strategy, user-centered design and performant web publishing on an open-source stack.
+Office of Digital Innovation (ODI), is working with the Department of Cannabis Control (DCC), Department of Consumer Affairs (DCA), and the California Department of Technology (CDT) to bring content strategy, user-centered design and performant web publishing on an open-source stack for DCC.
 
-Project docs: Coda and Google Drive
-Report an issue: https://github.com/cagov/cannabis.ca.gov
-Project board: Internal board is in Coda
-Public board: Would move to the GitHub board relative to this GitHub repository.
-    * (DEPRECATED): https://github.com/orgs/cagov/projects/6. 
-Project maintainer & Lead Engineer: Chach Sikes (she/her) @chachasikes
-Engineering Management Lead: Zakiya Khabir @zakiyarules
-Slack channels: #odi-cannabis (ODI internal), #cagov-cannabis (Multi-partner channel)
+* Project docs: Coda and Google Drive
+* Report an issue: https://github.com/cagov/cannabis.ca.gov
+* Project board: Internal board is in Coda
+* Public board: Would move to the GitHub board relative to this GitHub repository.
+* Project maintainer & Lead Engineer: Chach Sikes (she/her) @chachasikes
+* Engineering Management Lead: Zakiya Khabir @zakiyarules
+* Slack channels: #odi-cannabis (ODI internal team channel), #cagov-cannabis (Multi-partner channel)
+* Content guide: In Coda workspace
 
-Content guide: Is in Coda
+* (DEPRECATED): https://github.com/orgs/cagov/projects/6. 
