@@ -38,7 +38,7 @@ const getEventsByCategory = (categoryString, count = 5) => {
         parsedInfo.data.type === "post" &&
         categoryMatchBetween(componentCategories, parsedInfo.data.categories)
       ) {
-        wordPressArray.push(parsedInfo);
+          wordPressArray.push(parsedInfo);
       }
     }
   });
@@ -58,8 +58,21 @@ const getEventsByCategory = (categoryString, count = 5) => {
     .slice(-count)
     .reverse();
 
-  // console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
-  return postsToReturn;
+    let today = new Date();
+    const postsToReturnRecent = wordPressArray
+    .filter((a) => {
+      try {
+        const aDate = new Date(a.data.event.startDate);
+        if (aDate > today) {
+          return a;
+        }
+      } catch (error) {
+        console.error("missing date value");
+        return a;
+      }
+    });
+
+  return postsToReturnRecent;
 };
 
 module.exports = { getEventsByCategory };
