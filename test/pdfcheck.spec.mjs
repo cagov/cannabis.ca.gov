@@ -4,7 +4,7 @@ const slugs_check = [
   "applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/"
 ];
 
-const slugs = [
+const slugs_batch_1 = [
   "",
   "search/",
   "about-us/about-dcc/",
@@ -37,8 +37,9 @@ const slugs = [
   "applicants/equity-fee-waivers/",
   "resources/equity/",
   "licensees/events/",
-  "resources/file-complaint/"];
-  const page_slugs_batch_2 = [
+  "resources/file-complaint/"
+  ];
+  const batch_2 = [
   "about-us/grant-funding/",
   "cannabis-laws/how-regulations-are-made/",
   "applicants/how-to-apply-renew/",
@@ -87,7 +88,7 @@ const slugs = [
   "about-us/page-not-found/",
   "about-us/public-awareness-campaigns-review/"
   ];
-  const slugs_posts = [
+  const slugs_posts_batch_1 = [
   "2017/04/26449-2/",
   "2017/05/27023-2/",
   "2017/08/27192-2/",
@@ -301,6 +302,8 @@ const slugs = [
   "2022/07/good-news-for-cannabis-in-governors-budget/",
   "2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
   "2019/10/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
+  ];
+  const slugs = [
   "2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/",
   "2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
   "2019/03/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability/",
