@@ -132,21 +132,6 @@ module.exports = function eleventyBuild(eleventyConfig) {
         return false;
       });
 
-      // Make local media files relative
-      // if (html !== undefined && html.includes(`${config.build.canonical_site_url}/${config.build.upload_folder}/`)) {
-      //   html = html.replace(
-      //     new RegExp(`${config.build.canonical_site_url}/${config.build.upload_folder}/`, "g"),
-      //         `/${config.build.docs_media}/`
-      //       );
-      // }
-
-      // if (html !== undefined && html.includes(`${config.build.canonical_site_url}/${config.build.upload_folder_flywheel}/`)) {
-      //   html = html.replace(
-      //     new RegExp(`${config.build.canonical_site_url}/${config.build.upload_folder_flywheel}/`, "g"),
-      //         `/${config.build.docs_media}/`
-      //       );
-      // }
-
       // Minify HTML
       html = htmlmin.minify(html, {
         useShortDoctype: true,
