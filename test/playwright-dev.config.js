@@ -1,14 +1,14 @@
 const config = {
   fullyParallel: true,
   retries: 0,
-  timeout: 30000,
+  timeout: 60000,
   use: {
     headless: true,
     viewport: { width: 1280, height: 720 },
     ignoreHTTPSErrors: true,
     trace: "on",
     video: "on",
-    baseURL: "http://127.0.0.1:8080/",
+    baseURL: "http://localhost:8080/",
     reporter: "line"
   },
   webServer: {

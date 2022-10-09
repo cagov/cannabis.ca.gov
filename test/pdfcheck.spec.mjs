@@ -1,15 +1,15 @@
 import { test, expect } from "@playwright/test";
 
-const slugs_some = [
+const slugs_check = [
   "applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/"
 ];
 
-const slugs = [
+const slugs_batch_1 = [
   "",
   "search/",
   "about-us/about-dcc/",
   "applicants/access-license-portals/",
-  // "about-us/announcements/",
+  "about-us/announcements/",
   "applicants/application-license-fees/",
   "applicants/application-resources/",
   "applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/",
@@ -37,7 +37,9 @@ const slugs = [
   "applicants/equity-fee-waivers/",
   "resources/equity/",
   "licensees/events/",
-  "resources/file-complaint/",
+  "resources/file-complaint/"
+  ];
+  const batch_2 = [
   "about-us/grant-funding/",
   "cannabis-laws/how-regulations-are-made/",
   "applicants/how-to-apply-renew/",
@@ -84,7 +86,9 @@ const slugs = [
   "about-us/work-for-dcc/",
   "page-not-found/",
   "about-us/page-not-found/",
-  "about-us/public-awareness-campaigns-review/",
+  "about-us/public-awareness-campaigns-review/"
+  ];
+  const slugs_posts_batch_1 = [
   "2017/04/26449-2/",
   "2017/05/27023-2/",
   "2017/08/27192-2/",
@@ -298,6 +302,8 @@ const slugs = [
   "2022/07/good-news-for-cannabis-in-governors-budget/",
   "2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
   "2019/10/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
+  ];
+  const slugs = [
   "2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/",
   "2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
   "2019/03/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability/",
@@ -375,30 +381,29 @@ const slugs = [
   "2017/07/why-some-pot-businesses-hide-their-cash-and-others-truck-it-straight-to-a-federal-vault/"
 ];
 
-class Link {
+class PdfLink {
   constructor(url, slug, list) {
     this.url = url;
     this.slug = slug;
-    this.status = "";
+    this.checkLink = false;
     this.list = list;
   }
   validateURL = () => {
     const url = this.url;
     const list = this.list.items;
-
     if (
-      url.includes("#") ||
-      url.includes("ca.gov") ||
-      url.includes("tel:") ||
-      url.includes("http") ||
-      list.includes(url)
+      url !== null && 
+      url.includes(".pdf")
     ) {
-      this.status = null;
-    } else {
       list.push(url);
-      this.status = "check it";
+      this.checkLink = true;
+
+      // @GOALS - case checking, language, metadata, accessibility, etc.
+    } else {
+      this.checkLink = false;
+      
     }
-    return this.status;
+    return this.checkLink;
   };
 }
 
@@ -414,15 +419,17 @@ class List {
   }
 }
 
-test.describe.serial("linkCheck", () => {
-  // console.log("running link check");
+test.describe.serial("PdfCheck", () => {
+  console.log("---- Running PDF check");
   const list = new List();
+
+  // @GOAL add batch support so this doesn't time out so intensively.
 
   slugs.forEach((slug) => {
     const entry = new Entry(slug);
 
     test(slug, async ({ page }) => {
-      // console.log(page);
+
       await page.goto(slug);
 
       const onPageLinks = page.locator("a >> visible=true");
@@ -432,20 +439,18 @@ test.describe.serial("linkCheck", () => {
 
         const url = await onPageLinks.nth(i).getAttribute("href");
 
-        const linkToTry = new Link(url, slug, list);
-        // console.log("linkToTry", linkToTry);
-
-        if (linkToTry.validateURL() == "check it") {
+        const linkToTry = new PdfLink(url, slug, list);
+      
+        if (linkToTry.validateURL() === true) {
           const response = await page.request.get(url);
 
           if (!response.ok()) {
-            console.log("----" + slug);
-            console.log("----------------------------------");
-
-            const message = `${response.status()} - ${response.statusText()} - ${url}`;
             const color = response.ok()
               ? "\x1b[36m%s\x1b[0m"
               : "\x1b[35m%s\x1b[0m";
+            console.log(color, "PDF not found on page: ", slug.toString());
+            console.log(url.toString());
+            const message = `${response.status()} - ${response.statusText()} - ${url}`;
             console.log(color, message.toString());
           }
         }

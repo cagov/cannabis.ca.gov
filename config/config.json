@@ -38,33 +38,41 @@
         "eleventy_posts": "pages/_content/posts",
         "eleventy_menu": "pages/_content/menu",
         "eleventy_redirects": "pages/_content/redirects",
-        "docs_media": "wp_uploads",
-        "s3_bucket_name": "headless.cannabis.ca.gov",
+        "docs_media": "media",
+        "host_name": "headless.cannabis.ca.gov",
         "upload_folder": "wp-content/uploads/",
         "upload_folder_flywheel": "wp-content/uploads/sites/2/",
         "replace_urls": [
-            "http://cannabis.ca.gov/",
-            "https://cannabis.ca.gov/",
+            "http://cannabis.ca.gov",
+            "https://headless.cannabis.ca.gov",
+            "https://staging.cannabis.ca.gov",
+            "https://cannabis.ca.gov",
             "https://live-cannabis-ca-gov.pantheonsite.io",
             "https://test-cannabis-ca-gov.pantheonsite.io",
             "https://dev-cannabis-ca-gov.pantheonsite.io",
             "https://api.cannabis.ca.gov",
-            "https://dev-cagov-dcc.pantheonsite.io"
+            "https://dev-cagov-dcc.pantheonsite.io",
+            "http://wordpress.test:8888"
+        ],
+        "media_replace_urls": [
+            "http://cannabis.ca.gov/wp-content/uploads/",
+            "https://cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://cannabis.ca.gov/wp-content/uploads/",
+            "https://api.cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://api.cannabis.ca.gov/wp-content/uploads/",
+            "https://headless.cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://headless.cannabis.ca.gov/wp-content/uploads/",
+            "https://staging.cannabis.ca.gov/wp-content/uploads/sites/2/",
+            "https://staging.cannabis.ca.gov/wp-content/uploads/",
+            "http://localhost:8080/wp-content/uploads/sites/2/",
+            "http://localhost:8080/wp-content/uploads/",
+            "https://live-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
+            "https://test-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
+            "https://dev-cannabis-ca-gov.pantheonsite.io/wp-content/uploads/",
+            "https://dev-cagov-dcc.pantheonsite.io/wp-content/uploads/",
+            "http://wordpress.test:8888/wp-content/uploads/"
         ],
         "editor_url": "https://api.cannabis.ca.gov",
-        "editor_urls": {
-            "production": "",
-            "staging": ""
-        },
-        "static_site_url": "https://headless.cannabis.ca.gov",
-        "static_site_urls": {
-            "production": "",
-            "staging": ""
-        },
-        "canonical_url": "https://headless.cannabis.ca.gov",
-        "canonical_urls": {
-            "production": "",
-            "staging": ""
-        }
+        "canonical_site_url": "https://headless.cannabis.ca.gov"
     }
 }
