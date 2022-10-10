@@ -132,6 +132,14 @@ module.exports = function eleventyBuild(eleventyConfig) {
         return false;
       });
 
+      // Temp patch for weird issue with absolute url permalinks for og meta
+      if (html !== undefined && html.includes("//wp-content/uploads/")) {
+        html = html.replace(
+          new RegExp("//wp-content/uploads/", "g"),
+          `/${config.build.docs_media}/`
+        );
+      }
+      
       // Minify HTML
       html = htmlmin.minify(html, {
         useShortDoctype: true,

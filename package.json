@@ -6,8 +6,10 @@
   "scripts": {
     "build": "eleventy",
     "dev": "npm run site:watch:dev",
-    "site:build:dev": "npm run content:update && cross-env NODE_ENV=development SITE_ENV=localhost eleventy",
-    "site:build:staging": "npm run content:update:staging && cross-env SITE_ENV=staging eleventy",
+    "site:build:dev": "cross-env NODE_ENV=development SITE_ENV=localhost DOMAIN=localhost eleventy",
+    "site:build:staging": "cross-env SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov eleventy",
+    "site:build:headless": "cross-env NODE_ENV=production SITE_ENV=headless DOMAIN=headless.cannabis.ca.gov eleventy",
+    "site:build:production": "cross-env NODE_ENV=production SITE_ENV=production DOMAIN=cannabis.ca.gov eleventy",
     "site:watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --watch --serve --incremental",
     "site:watch:staging": "cross-env NODE_ENV=development SITE_ENV=staging eleventy --watch --serve --incremental",
     "site:watch": "eleventy --serve",

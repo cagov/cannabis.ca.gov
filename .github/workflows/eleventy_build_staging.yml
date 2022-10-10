@@ -16,7 +16,7 @@ jobs:
   build_deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: Cancel previous build
+      - name: Cancel previous site:build:staging
         uses: n1hility/cancel-previous-runs@v2
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir dist
           npm install
-          npm run site:build:staging
+          SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov npm run build
           # npm run test:setup
       - name: Write robots.txt
         run: |
