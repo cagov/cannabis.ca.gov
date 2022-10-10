@@ -35,7 +35,7 @@
     "categories": [
       14
     ],
-    "description": "<div style=\"width: 1280px;\" class=\"wp-video\"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->\n<video class=\"wp-video-shortcode\" id=\"video-10086-1\" width=\"1280\" height=\"720\" preload=\"metadata\" controls=\"controls\"><source type=\"video/mp4\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4?_=1\" /><a href=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4\">https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4</a></video></div>\n",
+    "description": "<div style=\"width: 1280px;\" class=\"wp-video\"><video class=\"wp-video-shortcode\" id=\"video-10086-3\" width=\"1280\" height=\"720\" preload=\"metadata\" controls=\"controls\"><source type=\"video/mp4\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4?_=3\" /><a href=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4\">https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4</a></video></div>\n",
     "caption": "<p>https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Wildlife-Friendly_Netting.mp4</p>\n",
     "alt_text": "",
     "media_type": "file",
