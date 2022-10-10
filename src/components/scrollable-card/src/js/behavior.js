@@ -5,8 +5,8 @@ import "./glider.js";
     window.addEventListener('load', function(){
         window.addEventListener('resize', () => {
             // @TODO & not already created
-            console.log("resized");
-                createGlider();
+            // console.log("resized");
+            createGlider();
         })
 
         var createGlider = () => {
