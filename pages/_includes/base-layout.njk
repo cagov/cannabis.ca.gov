@@ -53,7 +53,9 @@
       <script type="module">
         {{ js | safe }}
 
-        {% if 'where-cannabis-businesses-are-allowed' in page.url %} {% include "../../src/components/charts/cannabis-local-ordinances/build/bundle.js" %} {% endif %}
+        {% if 'where-cannabis-businesses-are-allowed' in page_metadata.permalink %}
+          {% include "../../src/components/charts/cannabis-local-ordinances/build/bundle.js" %}
+        {% endif %}
         
       </script>
     {% endblock %}
