@@ -112,6 +112,8 @@ module.exports = function eleventyBuild(eleventyConfig) {
         );
       }
 
+      // Replace any domain from replace list with the canonical url for the current build.
+      // For this cannabis.ca.gov instance, there are multiple URL sources coming from different backend systems
       config.build.replace_urls.forEach((rootPath) => {
         if (html !== undefined && html.includes(rootPath)) {
           html = html.replace(
@@ -122,6 +124,9 @@ module.exports = function eleventyBuild(eleventyConfig) {
         return false;
       });
 
+      // Read a list of full media paths for any links that should be relative to this instance.
+      // Replace with the local media folder.
+      // Note: do not change the media folder without a corresponding update to the redirects (using Redirection plugin in editor).
       config.build.media_replace_urls.forEach((mediaPath) => {
         if (html !== undefined && html.includes(mediaPath)) {
           html = html.replace(
@@ -132,7 +137,7 @@ module.exports = function eleventyBuild(eleventyConfig) {
         return false;
       });
 
-      // Temp patch for weird issue with absolute url permalinks for og meta
+      // Patch for glitch/issue with absolute url permalinks for og meta - likely resulting from custom eleventy absolutePath filter
       if (html !== undefined && html.includes("//wp-content/uploads/")) {
         html = html.replace(
           new RegExp("//wp-content/uploads/", "g"),
