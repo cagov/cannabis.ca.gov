@@ -155,7 +155,7 @@ const getPageMetadata = (articleRaw) => {
     // Site url, used in social media posts.
     site_url: getAbsolutePath(config.page_metadata.site_url),
 
-    fav_icon: config.page_metadata[article.locale]?.favicon,
+    favicon: config.page_metadata[article.locale]?.favicon,
 
     page_icon: config.page_metadata[article.locale]?.page_icon,
 
