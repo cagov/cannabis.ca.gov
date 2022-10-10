@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir dist
           npm install
-          SITE_ENV=production DOMAIN=cannabis.ca.gov npm run build
+          SITE_ENV=production DOMAIN=headless.cannabis.ca.gov npm run build
           # npm run test:setup
       - name: Write robots.txt
         run: |
@@ -41,7 +41,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          publish_branch: deploy_production
+          publish_branch: deploy_headless
       
       # Set up AWS CLI
       - name: Configure AWS Credentials
@@ -51,11 +51,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-1
 
-      # Deploy to cannabis.ca.gov
-      - name: Deploy to S3 (cannabis.ca.gov)
-        run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov
-      - name: Invalidate Cloudfront (cannabis.ca.gov)
-        run: aws cloudfront create-invalidation --distribution-id E2RLC9PDB1JLNI --paths "/*"
+      # Deploy to headless.cannabis.ca.gov
+      - name: Deploy to S3 (headless.cannabis.ca.gov)
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://headless.cannabis.ca.gov
+      - name: Invalidate Cloudfront (headless.cannabis.ca.gov)
+        run: aws cloudfront create-invalidation --distribution-id E1HY53GZXHPHRV --paths "/*"
 
       - name: Deploy redirects
         run: |
