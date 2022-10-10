@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "created_date": "2022-04-14T23:07:54",
+    "updated_date": "2022-04-14T23:10:12",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9673",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9673,
+    "date": "2022-04-14T16:07:54",
+    "date_gmt": "2022-04-14T23:07:54",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+    "modified": "2022-04-14T16:10:12",
+    "modified_gmt": "2022-04-14T23:10:12",
+    "slug": "cannabis-grant-restoration-program-funding-opportunities-pr-jm-small",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/cannabis-grant-restoration-program-funding-opportunities-pr-jm-small/",
+    "title": "Cannabis Grant Restoration Program Funding Opportunities PR JM small",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png'><img width=\"576\" height=\"346\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png\" class=\"attachment-medium size-medium\" alt=\"Cannabis Grant Restoration Program 2022 Funding Opportunities\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png 980w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png 480w, https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png 1000w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Cannabis Grant Restoration Program 2022 Funding Opportunities",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1000,
+      "height": 600,
+      "file": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+      "sizes": {
+        "medium": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
+          "width": 576,
+          "height": 346,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png"
+        },
+        "thumbnail": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-376x376.png",
+          "width": 376,
+          "height": 376,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-376x376.png"
+        },
+        "medium_large": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
+          "width": 768,
+          "height": 461,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png"
+        },
+        "et-pb-post-main-image": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x250.png",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x250.png"
+        },
+        "et-pb-portfolio-image": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x284.png",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x284.png"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-510x382.png",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-510x382.png"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x516.png",
+          "width": 400,
+          "height": 516,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x516.png"
+        },
+        "et-pb-image--responsive--tablet": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
+          "width": 980,
+          "height": 588,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
+          "width": 480,
+          "height": 288,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png"
+        },
+        "full": {
+          "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+          "width": 1000,
+          "height": 600,
+          "mime_type": "image/png",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png",
+        "width": 1000,
+        "height": 600,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png"
+      },
+      {
+        "type": "et-pb-image--responsive--tablet",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png",
+        "width": 980,
+        "height": 588,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-980x588.png"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png",
+        "width": 768,
+        "height": 461,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-768x461.png"
+      },
+      {
+        "type": "medium",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png",
+        "width": 576,
+        "height": 346,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-576x346.png"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-510x382.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-510x382.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-510x382.png",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-510x382.png"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png",
+        "width": 480,
+        "height": 288,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-480x288.png"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x250.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x250.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x250.png",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x250.png"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x284.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x284.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x284.png",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x284.png"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x516.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x516.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x516.png",
+        "width": 400,
+        "height": 516,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-400x516.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-376x376.png",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-376x376.png",
+        "file": "Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-376x376.png",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/png",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small-376x376.png"
+      }
+    ],
+    "path": "2022/04/Cannabis-Grant-Restoration-Program-Funding-Opportunities-PR-JM-small.png"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "created_date": "2021-12-07T14:43:34",
+    "updated_date": "2021-12-07T14:43:34",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/9100",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9100,
+    "date": "2021-12-07T06:43:34",
+    "date_gmt": "2021-12-07T14:43:34",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads2021/12/DCC-LIC-020-Delivery-Procedures.pdf",
+    "modified": "2021-12-07T06:43:34",
+    "modified_gmt": "2021-12-07T14:43:34",
+    "slug": "dcc-lic-020-delivery-procedures",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc-lic-020-delivery-procedures/",
+    "title": "DCC-LIC-020 Delivery Procedures",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "sizes": {
+        "full": {
+          "file": "DCC-LIC-020-Delivery-Procedures-pdf.jpg",
+          "width": 1088,
+          "height": 1408,
+          "mime_type": "application/pdf",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf.jpg"
+        },
+        "medium": {
+          "file": "DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg",
+          "width": 445,
+          "height": 576,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg"
+        },
+        "large": {
+          "file": "DCC-LIC-020-Delivery-Procedures-pdf-791x1024.jpg",
+          "width": 791,
+          "height": 1024,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-791x1024.jpg"
+        },
+        "thumbnail": {
+          "file": "DCC-LIC-020-Delivery-Procedures-pdf-116x150.jpg",
+          "width": 116,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-116x150.jpg"
+        }
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures.pdf",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/12/DCC-LIC-020-Delivery-Procedures-pdf.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf.jpg",
+        "file": "DCC-LIC-020-Delivery-Procedures-pdf.jpg",
+        "width": 1088,
+        "height": 1408,
+        "mime_type": "application/pdf",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2021/12/DCC-LIC-020-Delivery-Procedures-pdf-791x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-791x1024.jpg",
+        "file": "DCC-LIC-020-Delivery-Procedures-pdf-791x1024.jpg",
+        "width": 791,
+        "height": 1024,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-791x1024.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2021/12/DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg",
+        "file": "DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg",
+        "width": 445,
+        "height": 576,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-445x576.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/12/DCC-LIC-020-Delivery-Procedures-pdf-116x150.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-116x150.jpg",
+        "file": "DCC-LIC-020-Delivery-Procedures-pdf-116x150.jpg",
+        "width": 116,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2021/12/DCC-LIC-020-Delivery-Procedures-pdf-116x150.jpg"
+      }
+    ],
+    "path": "2021/12/DCC-LIC-020-Delivery-Procedures.pdf"
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "created_date": "2022-08-11T00:39:08",
+    "updated_date": "2022-08-11T00:39:08",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11137",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11137,
+    "date": "2022-08-10T17:39:08",
+    "date_gmt": "2022-08-11T00:39:08",
+    "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg",
+    "modified": "2022-08-10T17:39:08",
+    "modified_gmt": "2022-08-11T00:39:08",
+    "slug": "2021_dcc_webpage-1",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/2021_dcc_webpage-1/",
+    "title": "2021_DCC_Webpage-1",
+    "author": "Department of Cannabis Control",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      767
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg'><img width=\"576\" height=\"289\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-576x289.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-576x289.jpg 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1024x513.jpg 1024w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-768x385.jpg 768w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1536x770.jpg 1536w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x541.jpg 1080w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1280x641.jpg 1280w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-980x491.jpg 980w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-480x241.jpg 480w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg 1920w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1920,
+      "height": 962,
+      "file": "2022/07/2021_DCC_Webpage-1.jpg",
+      "sizes": {
+        "medium": {
+          "file": "2021_DCC_Webpage-1-576x289.jpg",
+          "width": 576,
+          "height": 289,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-576x289.jpg"
+        },
+        "large": {
+          "file": "2021_DCC_Webpage-1-1024x513.jpg",
+          "width": 1024,
+          "height": 513,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1024x513.jpg"
+        },
+        "thumbnail": {
+          "file": "2021_DCC_Webpage-1-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-376x376.jpg"
+        },
+        "medium_large": {
+          "file": "2021_DCC_Webpage-1-768x385.jpg",
+          "width": 768,
+          "height": 385,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-768x385.jpg"
+        },
+        "1536x1536": {
+          "file": "2021_DCC_Webpage-1-1536x770.jpg",
+          "width": 1536,
+          "height": 770,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1536x770.jpg"
+        },
+        "et-pb-post-main-image": {
+          "file": "2021_DCC_Webpage-1-400x250.jpg",
+          "width": 400,
+          "height": 250,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x250.jpg"
+        },
+        "et-pb-post-main-image-fullwidth": {
+          "file": "2021_DCC_Webpage-1-1080x675.jpg",
+          "width": 1080,
+          "height": 675,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x675.jpg"
+        },
+        "et-pb-portfolio-image": {
+          "file": "2021_DCC_Webpage-1-400x284.jpg",
+          "width": 400,
+          "height": 284,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x284.jpg"
+        },
+        "et-pb-portfolio-module-image": {
+          "file": "2021_DCC_Webpage-1-510x382.jpg",
+          "width": 510,
+          "height": 382,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-510x382.jpg"
+        },
+        "et-pb-portfolio-image-single": {
+          "file": "2021_DCC_Webpage-1-1080x541.jpg",
+          "width": 1080,
+          "height": 541,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x541.jpg"
+        },
+        "et-pb-gallery-module-image-portrait": {
+          "file": "2021_DCC_Webpage-1-400x516.jpg",
+          "width": 400,
+          "height": 516,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x516.jpg"
+        },
+        "et-pb-image--responsive--desktop": {
+          "file": "2021_DCC_Webpage-1-1280x641.jpg",
+          "width": 1280,
+          "height": 641,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1280x641.jpg"
+        },
+        "et-pb-image--responsive--tablet": {
+          "file": "2021_DCC_Webpage-1-980x491.jpg",
+          "width": 980,
+          "height": 491,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-980x491.jpg"
+        },
+        "et-pb-image--responsive--phone": {
+          "file": "2021_DCC_Webpage-1-480x241.jpg",
+          "width": 480,
+          "height": 241,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-480x241.jpg"
+        },
+        "full": {
+          "file": "2021_DCC_Webpage-1.jpg",
+          "width": 1920,
+          "height": 962,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/07/2021_DCC_Webpage-1.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg",
+        "file": "2021_DCC_Webpage-1.jpg",
+        "width": 1920,
+        "height": 962,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2022/07/2021_DCC_Webpage-1-1536x770.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1536x770.jpg",
+        "file": "2021_DCC_Webpage-1-1536x770.jpg",
+        "width": 1536,
+        "height": 770,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1536x770.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--desktop",
+        "path": "2022/07/2021_DCC_Webpage-1-1280x641.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1280x641.jpg",
+        "file": "2021_DCC_Webpage-1-1280x641.jpg",
+        "width": 1280,
+        "height": 641,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1280x641.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image-fullwidth",
+        "path": "2022/07/2021_DCC_Webpage-1-1080x675.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x675.jpg",
+        "file": "2021_DCC_Webpage-1-1080x675.jpg",
+        "width": 1080,
+        "height": 675,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x675.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image-single",
+        "path": "2022/07/2021_DCC_Webpage-1-1080x541.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x541.jpg",
+        "file": "2021_DCC_Webpage-1-1080x541.jpg",
+        "width": 1080,
+        "height": 541,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1080x541.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/07/2021_DCC_Webpage-1-1024x513.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1024x513.jpg",
+        "file": "2021_DCC_Webpage-1-1024x513.jpg",
+        "width": 1024,
+        "height": 513,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-1024x513.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--tablet",
+        "path": "2022/07/2021_DCC_Webpage-1-980x491.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-980x491.jpg",
+        "file": "2021_DCC_Webpage-1-980x491.jpg",
+        "width": 980,
+        "height": 491,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-980x491.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/07/2021_DCC_Webpage-1-768x385.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-768x385.jpg",
+        "file": "2021_DCC_Webpage-1-768x385.jpg",
+        "width": 768,
+        "height": 385,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-768x385.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/07/2021_DCC_Webpage-1-576x289.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-576x289.jpg",
+        "file": "2021_DCC_Webpage-1-576x289.jpg",
+        "width": 576,
+        "height": 289,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-576x289.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-module-image",
+        "path": "2022/07/2021_DCC_Webpage-1-510x382.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-510x382.jpg",
+        "file": "2021_DCC_Webpage-1-510x382.jpg",
+        "width": 510,
+        "height": 382,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-510x382.jpg"
+      },
+      {
+        "type": "et-pb-image--responsive--phone",
+        "path": "2022/07/2021_DCC_Webpage-1-480x241.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-480x241.jpg",
+        "file": "2021_DCC_Webpage-1-480x241.jpg",
+        "width": 480,
+        "height": 241,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-480x241.jpg"
+      },
+      {
+        "type": "et-pb-post-main-image",
+        "path": "2022/07/2021_DCC_Webpage-1-400x250.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x250.jpg",
+        "file": "2021_DCC_Webpage-1-400x250.jpg",
+        "width": 400,
+        "height": 250,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x250.jpg"
+      },
+      {
+        "type": "et-pb-portfolio-image",
+        "path": "2022/07/2021_DCC_Webpage-1-400x284.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x284.jpg",
+        "file": "2021_DCC_Webpage-1-400x284.jpg",
+        "width": 400,
+        "height": 284,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x284.jpg"
+      },
+      {
+        "type": "et-pb-gallery-module-image-portrait",
+        "path": "2022/07/2021_DCC_Webpage-1-400x516.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x516.jpg",
+        "file": "2021_DCC_Webpage-1-400x516.jpg",
+        "width": 400,
+        "height": 516,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-400x516.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/07/2021_DCC_Webpage-1-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-376x376.jpg",
+        "file": "2021_DCC_Webpage-1-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/07/2021_DCC_Webpage-1-376x376.jpg"
+      }
+    ],
+    "path": "2022/07/2021_DCC_Webpage-1.jpg"
+  }
+}

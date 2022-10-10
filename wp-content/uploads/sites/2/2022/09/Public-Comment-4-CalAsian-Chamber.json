@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "created_date": "2022-09-08T00:17:42",
+    "updated_date": "2022-09-08T00:17:42",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/11485",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 11485,
+    "date": "2022-09-07T17:17:42",
+    "date_gmt": "2022-09-08T00:17:42",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber.pdf",
+    "modified": "2022-09-07T17:17:42",
+    "modified_gmt": "2022-09-08T00:17:42",
+    "slug": "public-comment-4-calasian-chamber",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/public-comment-4-calasian-chamber/",
+    "title": "Public Comment 4&#8211;CalAsian Chamber",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber.pdf'><img width=\"445\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "sizes": {
+        "full": {
+          "file": "Public-Comment-4-CalAsian-Chamber-pdf.jpg",
+          "width": 1088,
+          "height": 1408,
+          "mime_type": "application/pdf",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf.jpg"
+        },
+        "medium": {
+          "file": "Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg",
+          "width": 445,
+          "height": 576,
+          "filesize": 13300,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg"
+        },
+        "large": {
+          "file": "Public-Comment-4-CalAsian-Chamber-pdf-791x1024.jpg",
+          "width": 791,
+          "height": 1024,
+          "filesize": 25901,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-791x1024.jpg"
+        },
+        "thumbnail": {
+          "file": "Public-Comment-4-CalAsian-Chamber-pdf-291x376.jpg",
+          "width": 291,
+          "height": 376,
+          "filesize": 9385,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-291x376.jpg"
+        }
+      },
+      "filesize": 130237
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber.pdf",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/09/Public-Comment-4-CalAsian-Chamber-pdf.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf.jpg",
+        "file": "Public-Comment-4-CalAsian-Chamber-pdf.jpg",
+        "width": 1088,
+        "height": 1408,
+        "mime_type": "application/pdf",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/09/Public-Comment-4-CalAsian-Chamber-pdf-791x1024.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-791x1024.jpg",
+        "file": "Public-Comment-4-CalAsian-Chamber-pdf-791x1024.jpg",
+        "width": 791,
+        "height": 1024,
+        "filesize": 25901,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-791x1024.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/09/Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg",
+        "file": "Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg",
+        "width": 445,
+        "height": 576,
+        "filesize": 13300,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-445x576.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/09/Public-Comment-4-CalAsian-Chamber-pdf-291x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-291x376.jpg",
+        "file": "Public-Comment-4-CalAsian-Chamber-pdf-291x376.jpg",
+        "width": 291,
+        "height": 376,
+        "filesize": 9385,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/09/Public-Comment-4-CalAsian-Chamber-pdf-291x376.jpg"
+      }
+    ],
+    "path": "2022/09/Public-Comment-4-CalAsian-Chamber.pdf"
+  }
+}
