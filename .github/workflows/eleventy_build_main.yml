@@ -54,6 +54,36 @@ jobs:
       # Deploy to cannabis.ca.gov
       - name: Deploy to S3 (cannabis.ca.gov)
         run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov
+      # Reset the cache-control headers on static assets on production S3 bucket
+      - name: Reset cache-control on fonts
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/fonts'
+          dest: 's3://cannabis.ca.gov/fonts'
+          flags: --recursive --cache-control max-age=15552000
+      - name: Reset cache-control on assets
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/assets'
+          dest: 's3://cannabis.ca.gov/assets'
+          flags: --recursive --cache-control max-age=15552000
+      - name: Reset cache-control on media
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/wp-content/uploads/sites/2'
+          dest: 's3://cannabis.ca.gov/wp-content/uploads/sites/2'
+          flags: --recursive --cache-control max-age=15552000
+
+
       - name: Invalidate Cloudfront (cannabis.ca.gov)
         run: aws cloudfront create-invalidation --distribution-id E2RLC9PDB1JLNI --paths "/*"
 
