@@ -3,14 +3,9 @@ name: 11ty build Production Site
 # s3 bucket http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 # editor: https://api.cannabis.ca.gov
 on:
-  workflow_run:
-    workflows: ["Update static content [main]"]
-    types: ['completed']
-    branches:
-      - main
   push:
     branches:
-      - main
+      - headless
 
 jobs:
   build_deploy:

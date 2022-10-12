@@ -39,7 +39,7 @@ const slugs_batch_1 = [
   "licensees/events/",
   "resources/file-complaint/"
   ];
-  const batch_2 = [
+  const slugs = [
   "about-us/grant-funding/",
   "cannabis-laws/how-regulations-are-made/",
   "applicants/how-to-apply-renew/",
@@ -303,7 +303,7 @@ const slugs_batch_1 = [
   "2019/09/governor-gavin-newsom-signs-executive-order-to-confront-youth-vaping-epidemic/",
   "2019/10/governor-newsom-launches-resource-website-for-californians-impacted-by-wildfires-and-power-shutoffs/",
   ];
-  const slugs = [
+  const slugs_posts_batch_2 = [
   "2021/07/governor-newsom-signs-cannabis-trailer-bill-creating-the-department-of-cannabis-control/",
   "2019/12/important-announcement-regarding-external-transfers-for-metrc-users/",
   "2019/03/important-announcement-regarding-local-equity-grant-program-notice-of-funding-availability/",
