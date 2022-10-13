@@ -1,9 +1,8 @@
 # cannabis.ca.gov
 
-*This repo is under active development as we create a headless version of the cannabis WordPress site.*
-
 ## Project description
-(Soon to be) production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
+Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
+* Static site generator using 11ty, the CA Design System and a WordPress backend.
 * Built to deliver plain-language, performant, accessible information.
 
 ## Technical overview of domains and services
@@ -15,9 +14,11 @@
 * Content is created and edited in WordPress at api.cannabis.ca.gov
 
 ### 2. Sync WordPress REST API to GitHub
-* After posts are edited, a syncing service pulls data from WordPress into a static content package, which is loaded into this static site builder.
+* After posts are edited, a syncing service managed by the [Office of Data and Innovation](https://innovation.ca.gov) pulls data from WordPress into a static content package.
 
 ### 3. Update static site
+This static site generator uses those pages to build flat-files for deployment to AWS, with a CloudFront CDN cache.
+
 * Local builds: `npm run dev`
 * Production builds: will run GitHub actions workflows, when content is updated, and on pull requests and pushes. 
 
