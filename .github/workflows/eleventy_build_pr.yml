@@ -17,10 +17,10 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
-      - name: Use Node.js 16.13.1
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: 16.13.1
+          node-version: 16
       - name: Get branch name (merge)
         if: github.event_name != 'pull_request'
         shell: bash
@@ -39,7 +39,7 @@ jobs:
         run: |
           mkdir dist
           npm ci --legacy-peer-deps  
-          DOMAIN=${URLSAFE_BRANCH_NAME}.pr.cannabis.ca.gov npm run build
+          SITE_ENV=production DOMAIN=${URLSAFE_BRANCH_NAME}.pr.cannabis.ca.gov npm run build
       - name: Write robots.txt
         run: |
           echo 'User-agent: *' > docs/robots.txt

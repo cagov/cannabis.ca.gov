@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js 16.13.1
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: 16.13.1
+          node-version: 16
       - name: Check for static content updates # update static content repo.
         run: |
           mkdir dist
