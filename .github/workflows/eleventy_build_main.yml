@@ -21,7 +21,7 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
-      - name: Use Node.js 16.13.1
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
           node-version: 16

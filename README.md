@@ -34,7 +34,7 @@ The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 buc
 
 ## Developer notes
 * Check out the git repo.
-* Make sure `npm` and `node` are installed locally. Current version: Node 16.13.1, npm 8.5.0.
+* Make sure `npm` and `node` are installed locally. Current version: Node 16.x, npm 8.5.0.
 * `npm install` - install the packages in `package.json` and development dependencies.
 * `npm run dev` for local builds.
 * `npm build` to generate static repo at `./docs` - you can run `http-server` or `serve` to view this site in a local web server.
