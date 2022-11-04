@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-11-04T16:10:36",
+    "updated_date": "2022-11-04T16:10:36",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12309",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12309,
+    "date": "2022-11-04T09:10:36",
+    "date_gmt": "2022-11-04T16:10:36",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_equity-fee-relief-fsor_final_2022-1006.pdf",
+    "modified": "2022-11-04T09:10:36",
+    "modified_gmt": "2022-11-04T16:10:36",
+    "slug": "dcc_equity-fee-relief-fsor_final_2022-1006",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc_equity-fee-relief-fsor_final_2022-1006/",
+    "title": "dcc_equity-fee-relief-fsor_final_2022-1006",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_equity-fee-relief-fsor_final_2022-1006.pdf'>dcc_equity-fee-relief-fsor_final_2022-1006</a></p>\n",
+    "caption": "<p>dcc_equity-fee-relief-fsor_final_2022-1006</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 229195,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_equity-fee-relief-fsor_final_2022-1006.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_equity-fee-relief-fsor_final_2022-1006.pdf",
+    "path": "2022/11/dcc_equity-fee-relief-fsor_final_2022-1006.pdf"
+  }
+}
