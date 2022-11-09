@@ -1,18 +1,18 @@
-import { expect, fixture } from "@open-wc/testing";
+import { expect, fixture } from '@open-wc/testing';
 /* this test file can be run on command line with npm run test
    or with visual debug via npm run test:visual */
 
-describe("CAGOVRegulatoryOutline", () => {
-  it("works", async () => {
-    const csslink = document.createElement("link");
-    csslink.rel = "stylesheet";
-    csslink.type = "text/css";
-    csslink.href = "../dist/index.css";
-    csslink.media = "all";
-    document.getElementsByTagName("head")[0].appendChild(csslink);
+describe('CAGOVRegulatoryOutline', () => {
+  it('works', async () => {
+    const csslink = document.createElement('link');
+    csslink.rel = 'stylesheet';
+    csslink.type = 'text/css';
+    csslink.href = '../dist/index.css';
+    csslink.media = 'all';
+    document.getElementsByTagName('head')[0].appendChild(csslink);
 
     // import our element starting HTML from the component's template file
-    const response = await fetch("../template.html");
+    const response = await fetch('../template.html');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
