@@ -39,7 +39,7 @@ Do not link to PDFs in the site navigation.
       <div class="container">
         <div class="cagov-nav mobile-icons">
           <button class="menu-trigger cagov-nav open-menu" aria-label="Navigation menu" aria-haspopup="true" aria-expanded="false"
-            aria-owns="mainMenu" aria-controls="mainMenu">
+            aria-owns="main-menu" aria-controls="main-menu">
             <div class="cagov-nav hamburger">
               <div class="hamburger-box">
                 <div class="hamburger-inner"></div>

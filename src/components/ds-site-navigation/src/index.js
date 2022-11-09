@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 /**
  * Dropdown menu web component
  *
@@ -17,23 +18,32 @@ class CAGovSiteNavigation extends window.HTMLElement {
       .addEventListener("click", this.toggleMainMenu.bind(this));
 
     this.setupUI(this);
-
+    this.expansionListeners();
     // reset mobile search on resize
     window.addEventListener("resize", () => {
       this.setupUI(this);
-
       // reset navigation on resize
       this.closeAllMenus();
       this.closeMainMenu();
+      this.expansionListeners();
     });
 
-    this.expansionListeners();
+    const mobileSearchBtn = document.querySelector(
+      ".cagov-nav.mobile-search .search-btn"
+    );
+
+
+    if (this.mobileView() && mobileSearchBtn) {
+      mobileSearchBtn.addEventListener("click", (e) => this.showMobileSearch);
+    }
+
     document.addEventListener("keydown", this.escapeMainMenu.bind(this));
     document.body.addEventListener("click", this.bodyClick.bind(this));
     this.highlightCurrentPage();
   }
 
   setupUI() {
+    console.log("Setup ui");
     // Mobile search events
     const mobileSearchBtn = document.querySelector(
       ".cagov-nav.mobile-search .search-btn"
@@ -41,6 +51,8 @@ class CAGovSiteNavigation extends window.HTMLElement {
 
     if (mobileSearchBtn) {
       mobileSearchBtn.setAttribute("aria-expanded", "false");
+
+      mobileSearchBtn.removeEventListener("click", this.showMobileSearch);
 
       document
         .querySelector(".search-container--small .site-search input")
@@ -56,46 +68,59 @@ class CAGovSiteNavigation extends window.HTMLElement {
         .querySelector(".search-container--small")
         .setAttribute("aria-hidden", "true");
 
+      console.log("MV", this.mobileView());
+
       if (this.mobileView()) {
-        mobileSearchBtn.addEventListener("click", () => {
-          document
-            .querySelector(".search-container--small")
-            .classList.toggle("hidden-search");
-          const searchactive = document
-            .querySelector(".search-container--small")
-            .classList.contains("hidden-search");
-          if (searchactive) {
-            mobileSearchBtn.setAttribute("aria-expanded", "false");
-            document
-              .querySelector(".search-container--small .site-search input")
-              .setAttribute("tabindex", "-1");
-            document
-              .querySelector(
-                ".search-container--small .site-search button.search-submit"
-              )
-              .setAttribute("tabindex", "-1");
-            document
-              .querySelector(".search-container--small")
-              .setAttribute("aria-hidden", "true");
-          } else {
-            mobileSearchBtn.setAttribute("aria-expanded", "true");
-            document
-              .querySelector(".search-container--small .site-search input")
-              .focus();
-            document
-              .querySelector(".search-container--small .site-search input")
-              .removeAttribute("tabindex");
-            document
-              .querySelector(
-                ".search-container--small .site-search button.search-submit"
-              )
-              .removeAttribute("tabindex");
-            document
-              .querySelector(".search-container--small")
-              .setAttribute("aria-hidden", "false");
-          }
-        });
+
+        console.log("Adding click event listener");
+
+        mobileSearchBtn.addEventListener("click", this.showMobileSearch);
       }
+    }
+  }
+
+  showMobileSearch() {
+    console.log("show mobile search");
+    const mobileSearchBtn = window.document.querySelector(
+      ".cagov-nav.mobile-search .search-btn"
+    );
+
+    console.log("clickeD");
+    document
+      .querySelector(".search-container--small")
+      .classList.toggle("hidden-search");
+    const searchactive = document
+      .querySelector(".search-container--small")
+      .classList.contains("hidden-search");
+    if (searchactive) {
+      mobileSearchBtn.setAttribute("aria-expanded", "false");
+      document
+        .querySelector(".search-container--small .site-search input")
+        .setAttribute("tabindex", "-1");
+      document
+        .querySelector(
+          ".search-container--small .site-search button.search-submit"
+        )
+        .setAttribute("tabindex", "-1");
+      document
+        .querySelector(".search-container--small")
+        .setAttribute("aria-hidden", "true");
+    } else {
+      mobileSearchBtn.setAttribute("aria-expanded", "true");
+      document
+        .querySelector(".search-container--small .site-search input")
+        .focus();
+      document
+        .querySelector(".search-container--small .site-search input")
+        .removeAttribute("tabindex");
+      document
+        .querySelector(
+          ".search-container--small .site-search button.search-submit"
+        )
+        .removeAttribute("tabindex");
+      document
+        .querySelector(".search-container--small")
+        .setAttribute("aria-hidden", "false");
     }
   }
 
