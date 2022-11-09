@@ -64,7 +64,6 @@
     "@cagov/ds-base-css": "^2.0.0-beta.1",
     "@cagov/ds-branding": "^1.0.8",
     "@cagov/ds-button-grid": "^2.0.2",
-    "@cagov/ds-dropdown-menu": "^2.0.1",
     "@cagov/ds-feature-card": "^2.0.0",
     "@cagov/ds-google-translate": "^1.0.2",
     "@cagov/ds-icons": "0.0.1",

@@ -5,11 +5,10 @@ import "@cagov/ds-accordion";
 import "@cagov/ds-back-to-top";
 import "@cagov/ds-link-grid";
 import "@cagov/ds-page-alert";
-// import '@cagov/ds-page-feedback/src/index.js';
 import '@cagov/ds-link-icon/dist/index.js';
 import "@cagov/ds-page-navigation";
 import "@cagov/ds-pagination";
-import "@cagov/ds-site-navigation";
+import "../components/ds-site-navigation/src/index.js";
 
 // Custom components
 import "../components/ds-page-feedback/src/index.js"; // For drafting microcopy update.
