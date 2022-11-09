@@ -18,7 +18,7 @@
           {# The #body-content div is the skip-to-content target. #}
           <main id="body-content" class="main-primary">
             <article id="post-{{ id }}">
-              <h1 class="page-title">{{ title | safe }}</h1>
+              <h1 class="page-title" aria-hidden="true">{{ title | safe }}</h1>
               <!-- Page Title-->
               <h1 class="wide-page-title page-title">
                 {{ title | safe }}

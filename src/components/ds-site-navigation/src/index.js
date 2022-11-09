@@ -43,7 +43,6 @@ class CAGovSiteNavigation extends window.HTMLElement {
   }
 
   setupUI() {
-    console.log("Setup ui");
     // Mobile search events
     const mobileSearchBtn = document.querySelector(
       ".cagov-nav.mobile-search .search-btn"
@@ -68,24 +67,17 @@ class CAGovSiteNavigation extends window.HTMLElement {
         .querySelector(".search-container--small")
         .setAttribute("aria-hidden", "true");
 
-      console.log("MV", this.mobileView());
-
       if (this.mobileView()) {
-
-        console.log("Adding click event listener");
-
         mobileSearchBtn.addEventListener("click", this.showMobileSearch);
       }
     }
   }
 
   showMobileSearch() {
-    console.log("show mobile search");
     const mobileSearchBtn = window.document.querySelector(
       ".cagov-nav.mobile-search .search-btn"
     );
 
-    console.log("clickeD");
     document
       .querySelector(".search-container--small")
       .classList.toggle("hidden-search");
