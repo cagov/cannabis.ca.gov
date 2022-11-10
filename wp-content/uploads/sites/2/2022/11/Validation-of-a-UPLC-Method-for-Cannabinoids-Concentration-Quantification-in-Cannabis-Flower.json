@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-11-07T19:03:45",
-    "updated_date": "2022-11-07T19:03:45",
+    "created_date": "2022-11-10T17:23:50",
+    "updated_date": "2022-11-10T17:25:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12322",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12360",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,12 +14,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 12322,
-    "date": "2022-11-07T11:03:45",
-    "date_gmt": "2022-11-07T19:03:45",
+    "id": 12360,
+    "date": "2022-11-10T09:23:50",
+    "date_gmt": "2022-11-10T17:23:50",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/Validation-of-a-UPLC-Method-for-Cannabinoids-Concentration-Quantification-in-Cannabis-Flower.pdf",
-    "modified": "2022-11-07T11:03:45",
-    "modified_gmt": "2022-11-07T19:03:45",
+    "modified": "2022-11-10T09:25:04",
+    "modified_gmt": "2022-11-10T17:25:04",
     "slug": "validation-of-a-uplc-method-for-cannabinoids-concentration-quantification-in-cannabis-flower",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 58111209,
+      "filesize": 27881916,
       "sizes": {}
     },
     "post": null,
