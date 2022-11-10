@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-11-10T16:49:02",
+    "updated_date": "2022-11-10T16:49:02",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12358",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12358,
+    "date": "2022-11-10T08:49:02",
+    "date_gmt": "2022-11-10T16:49:02",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_current-full-text_2022-1107.pdf",
+    "modified": "2022-11-10T08:49:02",
+    "modified_gmt": "2022-11-10T16:49:02",
+    "slug": "dcc_current-full-text_2022-1107",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc_current-full-text_2022-1107/",
+    "title": "dcc_current-full-text_2022-1107",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_current-full-text_2022-1107.pdf'>dcc_current-full-text_2022-1107</a></p>\n",
+    "caption": "<p>dcc_current-full-text_2022-1107</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 1297758,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_current-full-text_2022-1107.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_current-full-text_2022-1107.pdf",
+    "path": "2022/11/dcc_current-full-text_2022-1107.pdf"
+  }
+}
