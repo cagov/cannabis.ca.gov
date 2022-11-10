@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-11-10T19:18:44",
+    "updated_date": "2022-11-10T19:18:44",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12361",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12361,
+    "date": "2022-11-10T11:18:44",
+    "date_gmt": "2022-11-10T19:18:44",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_consolidation-cert-fsor_final_2022-0923.pdf",
+    "modified": "2022-11-10T11:18:44",
+    "modified_gmt": "2022-11-10T19:18:44",
+    "slug": "dcc_consolidation-cert-fsor_final_2022-0923",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc_consolidation-cert-fsor_final_2022-0923/",
+    "title": "dcc_consolidation-cert-fsor_final_2022-0923",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_consolidation-cert-fsor_final_2022-0923.pdf'>dcc_consolidation-cert-fsor_final_2022-0923</a></p>\n",
+    "caption": "<p>dcc_consolidation-cert-fsor_final_2022-0923</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 2043697,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_consolidation-cert-fsor_final_2022-0923.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_consolidation-cert-fsor_final_2022-0923.pdf",
+    "path": "2022/11/dcc_consolidation-cert-fsor_final_2022-0923.pdf"
+  }
+}
