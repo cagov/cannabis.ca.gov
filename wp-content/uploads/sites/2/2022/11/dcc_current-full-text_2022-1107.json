@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-11-10T16:49:02",
-    "updated_date": "2022-11-10T16:49:02",
+    "created_date": "2022-11-15T00:08:24",
+    "updated_date": "2022-11-15T00:08:24",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12358",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12385",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,12 +14,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 12358,
-    "date": "2022-11-10T08:49:02",
-    "date_gmt": "2022-11-10T16:49:02",
+    "id": 12385,
+    "date": "2022-11-14T16:08:24",
+    "date_gmt": "2022-11-15T00:08:24",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/dcc_current-full-text_2022-1107.pdf",
-    "modified": "2022-11-10T08:49:02",
-    "modified_gmt": "2022-11-10T16:49:02",
+    "modified": "2022-11-14T16:08:24",
+    "modified_gmt": "2022-11-15T00:08:24",
     "slug": "dcc_current-full-text_2022-1107",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 1297758,
+      "filesize": 1252764,
       "sizes": {}
     },
     "post": null,
