@@ -277,7 +277,7 @@
       "County": "Lake",
       "County label": "Lake County",
       "Jurisdiction Type": "County",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
@@ -286,7 +286,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "No",
-      "Updated": "2021-12-13"
+      "Updated": "2022-11-18"
    },
    "Lassen County": {
       "CA Places Key": "",
