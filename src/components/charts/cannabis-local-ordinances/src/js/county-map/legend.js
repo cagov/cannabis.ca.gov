@@ -98,17 +98,39 @@ function chartLegendCounty(data, props, renderMode) {
   }
 
   let isAllowed = null;
-
-  if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
-    isAllowed = false;
-  } else {
-    isAllowed = true;
-  }
-
+  let isAllowedActivityCountyLevel = null;
   let unincorporatedLabel = "";
   let showAllowed = true;
   let showProhibited = true;
   let showUnincorporated = true;
+
+  console.log(currentCounty, data.activities);
+
+  if (currentCounty["Are all CCA activites prohibited?"] === "Yes") {
+    isAllowed = false;
+    isAllowedActivityCountyLevel = false;
+    console.log("false");
+  } else {
+    isAllowed = true;
+    isAllowedActivityCountyLevel = true;
+    console.log("true else");
+  }
+
+  if (data.activities !== "Any cannabis business" && data.activities !== "Retail") {
+    console.log("other activity");
+    if (currentCounty[data.activities] === "Prohibited") {
+      isAllowedActivityCountyLevel = false;
+    } else  {
+      isAllowedActivityCountyLevel = true;
+    }
+  } else if (data.activities === "Retail") {
+    console.log("retail");
+    if (currentCounty["Retail: Storefront"] === "Allowed" || currentCounty["Retail: Non-Storefront"] === "Allowed") {
+      isAllowedActivityCountyLevel = true;
+    } else  {
+      isAllowedActivityCountyLevel = false;
+    }
+  }
 
   if (countyData.allowed > 1 && countyData.prohibited > 1) {
     // console.log("a 1", allowed);
@@ -205,7 +227,8 @@ function chartLegendCounty(data, props, renderMode) {
     "data-activity-lc"
   );
 
-  if (isAllowed) {
+  console.log("isAllowedActivityCountyLevel", isAllowedActivityCountyLevel);
+  if (isAllowedActivityCountyLevel === true) {
     unincorporatedLabel = insertValueIntoSpanTag(
       unincorporatedAllowed,
       data.activities,
@@ -427,9 +450,6 @@ function getBusinessTypeStatsCounty(data, props, renderMode) {
     }
 
     countValues.count = countValues.prohibited + countValues.allowed;
-
-    if (countyData) {
-    }
 
     countValues.allowedPercentage = formatPercent(
       countValues.allowed / countValues.count
