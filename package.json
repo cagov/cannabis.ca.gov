@@ -21,6 +21,7 @@
     "pdfcheck:dev": "npx playwright test test/pdfcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:dev": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:gh": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright.config.js",
+    "test:redirect": "npx playwright test test/redirects.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
     "code:format": "npm run format:prettier --ignore-path",
     "content:clean": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects",
