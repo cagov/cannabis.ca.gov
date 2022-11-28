@@ -22,6 +22,8 @@
 
 7. Update new js bundle through [WordPress UI > caweb settings](https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options)
 
+8. Replace csv in the [WordPress Media Library](https://api.cannabis.ca.gov/wp-admin/post.php?post=9697&action=edit)
+
 ---
 
 Interactive production environment: 
