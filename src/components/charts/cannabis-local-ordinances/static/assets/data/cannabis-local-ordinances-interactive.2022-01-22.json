@@ -7180,15 +7180,15 @@
       "County label": "San Luis Obispo County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Non-Storefront": "Limited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-11-28"
    },
    "Pismo Beach": {
       "CA Places Key": "Pismo Beach",
