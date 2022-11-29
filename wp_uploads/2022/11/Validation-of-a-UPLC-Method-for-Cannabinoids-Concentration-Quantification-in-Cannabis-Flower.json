@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-11-10T17:23:50",
+    "updated_date": "2022-11-10T17:25:04",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12360",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12360,
+    "date": "2022-11-10T09:23:50",
+    "date_gmt": "2022-11-10T17:23:50",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/Validation-of-a-UPLC-Method-for-Cannabinoids-Concentration-Quantification-in-Cannabis-Flower.pdf",
+    "modified": "2022-11-10T09:25:04",
+    "modified_gmt": "2022-11-10T17:25:04",
+    "slug": "validation-of-a-uplc-method-for-cannabinoids-concentration-quantification-in-cannabis-flower",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/validation-of-a-uplc-method-for-cannabinoids-concentration-quantification-in-cannabis-flower/",
+    "title": "Validation of a UPLC Method for Cannabinoids Concentration Quantification in Cannabis Flower",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/11/Validation-of-a-UPLC-Method-for-Cannabinoids-Concentration-Quantification-in-Cannabis-Flower.pdf'>Validation of a UPLC Method for Cannabinoids Concentration Quantification in Cannabis Flower</a></p>\n",
+    "caption": "<p>Validation of a UPLC Method for Cannabinoids Concentration Quantification in Cannabis Flower</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 27881916,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/Validation-of-a-UPLC-Method-for-Cannabinoids-Concentration-Quantification-in-Cannabis-Flower.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/11/Validation-of-a-UPLC-Method-for-Cannabinoids-Concentration-Quantification-in-Cannabis-Flower.pdf",
+    "path": "2022/11/Validation-of-a-UPLC-Method-for-Cannabinoids-Concentration-Quantification-in-Cannabis-Flower.pdf"
+  }
+}
