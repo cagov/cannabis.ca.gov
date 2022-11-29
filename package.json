@@ -4,6 +4,7 @@
   "description": "Static site generator for https://headless.cannabis.ca.gov",
   "main": "index.html",
   "scripts": {
+    "setup": "npm run content:update:production",
     "build": "eleventy",
     "dev": "npm run site:watch:dev",
     "site:build:dev": "cross-env NODE_ENV=development SITE_ENV=localhost DOMAIN=localhost eleventy",
@@ -23,9 +24,9 @@
     "linkcheck:gh": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
     "code:format": "npm run format:prettier --ignore-path",
-    "content:clean": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects",
-    "content:update": "npm update static-content-cannabis",
-    "content:update:staging": "npm update static-content-cannabis-staging"
+    "content:update:staging": "wget https://github.com/cagov/static-content-cannabis/archive/staging.tar.gz  && tar zxvf staging.tar.gz",
+    "content:update:production": "wget https://github.com/cagov/static-content-cannabis/archive/main.tar.gz && tar zxvf main.tar.gz",
+    "content:clean": "rm -rf *.tar.gz && rm -rf static-content-cannabis-* && rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects"
   },
   "keywords": [
     "@cagov",
@@ -50,9 +51,7 @@
     "eslint-config-prettier": "^8.3.0",
     "html-minifier": "^4.0.0",
     "prettier": "^2.4.1",
-    "rollup-plugin-terser": "^7.0.2",
-    "static-content-cannabis-debugging": "github:cagov/static-content-cannabis#main-reduced-content",
-    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
+    "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.15",
@@ -82,7 +81,6 @@
     "@cagov/ds-statewide-footer": "^2.0.0",
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
-    "@cagov/ds-table": "^1.0.1",
-    "static-content-cannabis": "github:cagov/static-content-cannabis#main"
+    "@cagov/ds-table": "^1.0.1"
   }
 }

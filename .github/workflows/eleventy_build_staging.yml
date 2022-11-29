@@ -29,6 +29,7 @@ jobs:
         run: |
           mkdir dist
           npm install
+          npm run content:update:staging
           SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov npm run build
           # npm run test:setup
       - name: Write robots.txt
