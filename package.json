@@ -14,7 +14,7 @@
     "site:watch": "eleventy --serve",
     "start": "npm run site:watch",
     "deploy:redirects:staging": "cross-env SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov node src/deploy/redirects/assign.staging.js",
-    "deploy:redirects:production": "cross-env NODE_ENV=production SITE_ENV=production DOMAIN=cannabis.ca.gov node src/deploy/redirects/assign.js",
+    "deploy:redirects:production": "cross-env NODE_ENV=production SITE_ENV=production DOMAIN=cannabis.ca.gov node src/deploy/redirects/assign.production.js",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "test:serve": "npx http-server --port 8080 docs/",
     "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
