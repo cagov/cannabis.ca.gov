@@ -1,7 +1,7 @@
 name: 11ty build Staging Site
 # site:  https://staging.cannabis.ca.gov
 # s3 bucket http://staging.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
-# editor: https://api.cannabis.ca.gov
+# editor: https://api.cannabis.ca.gov [only includes content with tag "staging"]
 on:
   workflow_run:
     workflows: ["Update static content [staging]"]
@@ -37,12 +37,12 @@ jobs:
           echo 'User-agent: *' > docs/robots.txt
           echo 'Disallow: /' >> docs/robots.txt
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
-      - name: Deploy to github pages branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: deploy_staging
+      # - name: Deploy to github pages branch
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./docs
+      #     publish_branch: deploy_staging
       # Push built site files to S3 bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
@@ -67,8 +67,12 @@ jobs:
           flags: --recursive --cache-control max-age=15552000
 
       - name: Deploy redirects
-       run: |
+        run: |
          AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects:staging
+
+      - name: Run redirects tests
+        run: |
+         npm run 
 
       # Invalidate Cloudfront production distribution
       - name: Invalidate Cloudfront cache
