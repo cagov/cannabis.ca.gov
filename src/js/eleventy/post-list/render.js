@@ -118,6 +118,19 @@ const renderWordpressPostTitleDate = (
     `;
   }
 
+  if (attributes.showPagination && attributes.showPagination !== "false") {
+    return `
+      <div class="post-list-item">
+        ${categoryType}
+        <div class="link-title">
+          ${formattedTitle}
+        </div>
+        ${getExcerpt}
+        ${getDate}
+      </div>
+    `;
+  }
+
   return `
     <div class="post-list-item">
       ${categoryType}
@@ -136,7 +149,7 @@ const renderWordpressPostTitleDate = (
  *                            from the cagov-post-list component elements's 'data-' attributes, or dataset.
  * @returns {Object} The same attributes object, now hydrated with defaults for any missing values.
  */
-const setDefaultAttributes = (attributes) => {
+const setDefaultAttributes = (attributes = {}) => {
   const defaults = {
     order: "desc",
     count: "10",
@@ -163,6 +176,10 @@ const setDefaultAttributes = (attributes) => {
  * @returns {string} A string of rendered HTML.
  */
 const applyPostsTemplate = (posts, totalPosts, attributes) => {
+  const itemsClass = 
+    (attributes.showPagination && attributes.showPagination !== "false") 
+    ? "post-list-items expanded-listings" 
+    : "post-list-items";
   let innerContent;
   let renderedPosts;
   if (posts !== undefined && posts !== null && posts.length > 0) {
@@ -171,7 +188,7 @@ const applyPostsTemplate = (posts, totalPosts, attributes) => {
         renderWordpressPostTitleDate(post.data, attributes)
       );
       innerContent = `
-        <div class="post-list-items">
+        <div class="${itemsClass}">
           ${renderedPosts.join("")}
         </div>
         ${attributes.readMore}
@@ -252,4 +269,8 @@ const renderPostLists = function (html) {
   return result;
 };
 
-module.exports = { renderPostLists, renderWordpressPostTitleDate };
+module.exports = { 
+  renderPostLists, 
+  renderWordpressPostTitleDate, 
+  setDefaultAttributes 
+};

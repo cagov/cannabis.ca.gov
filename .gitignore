@@ -5,6 +5,10 @@ pages/_content/posts
 pages/_content/media
 pages/_content/menu
 pages/_content/redirects
+main.tar.gz
+staging.tar.gz
+static-content-cannabis-main
+static-content-cannabis-staging
 
 # DS_Store
 .DS_Store

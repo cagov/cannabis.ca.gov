@@ -4,25 +4,29 @@
   "description": "Static site generator for https://headless.cannabis.ca.gov",
   "main": "index.html",
   "scripts": {
+    "setup": "npm run content:update:production",
     "build": "eleventy",
     "dev": "npm run site:watch:dev",
-    "site:build:dev": "npm run content:update && cross-env NODE_ENV=development SITE_ENV=staging eleventy",
-    "site:build:staging": "npm run content:update:staging && cross-env SITE_ENV=staging eleventy",
-    "site:watch:dev": "cross-env NODE_ENV=development eleventy --watch --serve --incremental",
+    "site:build:dev": "cross-env NODE_ENV=development SITE_ENV=localhost DOMAIN=localhost eleventy",
+    "site:build:staging": "cross-env SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov eleventy",
+    "site:build:production": "cross-env NODE_ENV=production SITE_ENV=production DOMAIN=cannabis.ca.gov eleventy",
+    "site:watch:dev": "cross-env NODE_ENV=development SITE_ENV=localhost eleventy --watch --serve --incremental",
     "site:watch:staging": "cross-env NODE_ENV=development SITE_ENV=staging eleventy --watch --serve --incremental",
     "site:watch": "eleventy --serve",
     "start": "npm run site:watch",
-    "deploy:redirects": "node src/deploy/redirects/assign.js",
+    "deploy:redirects:staging": "cross-env SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov node src/deploy/redirects/assign.staging.js",
+    "deploy:redirects:production": "cross-env NODE_ENV=production SITE_ENV=production DOMAIN=cannabis.ca.gov node src/deploy/redirects/assign.production.js",
     "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "test:serve": "npx http-server --port 8080 docs/",
     "test": "npx playwright test test/e2e.spec.mjs --project=chromium --config test/playwright.e2e.config.js",
+    "pdfcheck:dev": "npx playwright test test/pdfcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:dev": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright-dev.config.js",
     "linkcheck:gh": "npx playwright test test/linkcheck.spec.mjs --config=test/playwright.config.js",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
     "code:format": "npm run format:prettier --ignore-path",
-    "content:clean": "rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects && npm run build",
-    "content:update": "npm update static-content-cannabis",
-    "content:update:staging": "npm update static-content-cannabis-staging"
+    "content:update:staging": "wget https://github.com/cagov/static-content-cannabis/archive/staging.tar.gz  && tar zxvf staging.tar.gz",
+    "content:update:production": "wget https://github.com/cagov/static-content-cannabis/archive/main.tar.gz && tar zxvf main.tar.gz",
+    "content:clean": "rm -rf *.tar.gz && rm -rf static-content-cannabis-* && rm -rf docs && rm -rf pages/_content/menu && rm -rf pages/_content/pages && rm -rf pages/_content/posts && rm -rf pages/_content/redirects"
   },
   "keywords": [
     "@cagov",
@@ -47,9 +51,7 @@
     "eslint-config-prettier": "^8.3.0",
     "html-minifier": "^4.0.0",
     "prettier": "^2.4.1",
-    "rollup-plugin-terser": "^7.0.2",
-    "static-content-cannabis-debugging": "github:cagov/static-content-cannabis#main-reduced-content",
-    "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
+    "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.15",
@@ -79,7 +81,6 @@
     "@cagov/ds-statewide-footer": "^2.0.0",
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
-    "@cagov/ds-table": "^1.0.1",
-    "static-content-cannabis": "github:cagov/static-content-cannabis#main"
+    "@cagov/ds-table": "^1.0.1"
   }
 }

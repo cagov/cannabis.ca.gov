@@ -14,9 +14,9 @@
                             <!-- Page Title-->
                             <h1 class="page-title">{{ title | safe }}</h1>
                             <p class="page-date published">
-                                <time datetime="">
-                                    <!-- date field -->
-                                </time>
+                                 {% if date %}
+                                    <div class="post-date">{{ date | safe }}</div>
+                                {% endif %}
                             </p>
                             <div class="entry-content">
                                 {{ content | safe }}

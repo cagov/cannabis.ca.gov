@@ -1,0 +1,20 @@
+.post-list-items.expanded-listings {
+  .post-list-item {
+    margin-bottom: 32px;
+
+    .link-title {
+      line-height: 1.75;
+      margin-bottom: 12px;
+
+      a {
+        font-size: 28px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+
+    .date {
+      font-size: 18px;
+    }
+  }
+}

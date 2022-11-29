@@ -9,6 +9,7 @@ const {
 const {
   renderPostLists,
   renderWordpressPostTitleDate,
+  setDefaultAttributes,
 } = require("./src/js/eleventy/post-list/render.js");
 const { renderEventLists } = require("./src/js/eleventy/event-list/render.js");
 const {
@@ -86,11 +87,8 @@ module.exports = function eleventyBuild(eleventyConfig) {
   eleventyConfig.addFilter("relativePath", relativePath);
 
   // Used in announcements.njk
-  eleventyConfig.addFilter("displayPostInfo", (item) =>
-    renderWordpressPostTitleDate(item.data, {
-      showExcerpt: true,
-      showPublishDate: true,
-    })
+  eleventyConfig.addFilter("displayPostInfo", (item) => 
+    renderWordpressPostTitleDate(item.data, setDefaultAttributes())
   );
 
   eleventyConfig.addTransform("htmlTransforms", (html, outputPath) => {
@@ -114,20 +112,39 @@ module.exports = function eleventyBuild(eleventyConfig) {
         );
       }
 
-      if (html !== undefined && html.includes("https://cannabis.ca.gov")) {
-        html = html.replace(
-          new RegExp(`https://cannabis.ca.gov`, "g"),
-              `${config.build.static_site_url}`
-            );
-      }
+      // Replace any domain from replace list with the canonical url for the current build.
+      // For this cannabis.ca.gov instance, there are multiple URL sources coming from different backend systems
+      config.build.replace_urls.forEach((rootPath) => {
+        if (html !== undefined && html.includes(rootPath)) {
+          html = html.replace(
+            new RegExp(rootPath, "g"),
+            config.build.canonical_site_url
+          );
+        }
+        return false;
+      });
 
-      if (html !== undefined && html.includes(config.build.upload_folder_flywheel)) {
-        html = html.replace(
-          new RegExp(config.build.upload_folder_flywheel, "g"),
-              `${config.build.docs_media}/`
-            );
-      }
+      // Read a list of full media paths for any links that should be relative to this instance.
+      // Replace with the local media folder.
+      // Note: do not change the media folder without a corresponding update to the redirects (using Redirection plugin in editor).
+      config.build.media_replace_urls.forEach((mediaPath) => {
+        if (html !== undefined && html.includes(mediaPath)) {
+          html = html.replace(
+            new RegExp(mediaPath, "g"),
+            `/${config.build.docs_media}/`
+          );
+        }
+        return false;
+      });
 
+      // Patch for glitch/issue with absolute url permalinks for og meta - likely resulting from custom eleventy absolutePath filter
+      if (html !== undefined && html.includes("//wp-content/uploads/")) {
+        html = html.replace(
+          new RegExp("//wp-content/uploads/", "g"),
+          `/${config.build.docs_media}/`
+        );
+      }
+      
       // Minify HTML
       html = htmlmin.minify(html, {
         useShortDoctype: true,

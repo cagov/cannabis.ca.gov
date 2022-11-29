@@ -1,13 +1,14 @@
 const siteSettings = require("./config.json"); // Site config (renders in markup)
 
-let staticContentPath = "./node_modules/static-content-cannabis";
+let staticContentPath = "./static-content-cannabis-main";
 
 if (process.env.SITE_ENV === "staging") {
-  staticContentPath = "./node_modules/static-content-cannabis-staging";
+  staticContentPath = "./static-content-cannabis-staging";
 }
 
-// let staticContentPathDebugging = "./node_modules/static-content-cannabis-debugging";
-
+// if (process.env.SITE_ENV === "localhost") {
+  // staticContentPath = "./node_modules/static-content-cannabis-staging-debugging";
+// }
 
 const staticContentPaths = {
   staticContentPaths: {
@@ -28,42 +29,24 @@ const getConfig = () => {
     staticContentPaths
   );
 
+  const defaultDomain = config.build.host_name;
+  const DOMAIN = process.env.DOMAIN || defaultDomain;
+  config.build.host_name = DOMAIN; //"cannabis.ca.gov";
+
+  if (process.env.SITE_ENV === "production") {
+    config.build.canonical_site_url = "https://cannabis.ca.gov";
+  }
+
+  if (process.env.SITE_ENV === "headless") {
+    config.build.canonical_site_url = "https://headless.cannabis.ca.gov";
+  }
+
   if (process.env.SITE_ENV === "staging") {
-    config.site_url = "https://staging.cannabis.ca.gov";
-    
-    config.build.replace_urls = [
-      "http://cannabis.ca.gov/",
-      "https://cannabis.ca.gov/",
-      "https://staging.cannabis.ca.gov/",
-      "https://live-cannabis-ca-gov.pantheonsite.io/",
-      "https://test-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://api.cannabis.ca.gov/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cagov-dcc.pantheonsite.io/"
-    ];
-    config.build.static_site_url = "https://staging.cannabis.ca.gov";
-    config.build.canonical_url = "https://staging.cannabis.ca.gov";
-    config.build.s3_bucket_url = "https://staging.cannabis.ca.gov";
+    config.build.canonical_site_url = "https://staging.cannabis.ca.gov";
   }
 
   if (process.env.SITE_ENV === "localhost") {
-    config.site_url = "http://localhost:8080";
-    
-    config.build.replace_urls = [
-      "http://cannabis.ca.gov/",
-      "https://cannabis.ca.gov/",
-      "https://staging.cannabis.ca.gov/",
-      "https://live-cannabis-ca-gov.pantheonsite.io/",
-      "https://test-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://api.cannabis.ca.gov/",
-      "https://dev-cannabis-ca-gov.pantheonsite.io/",
-      "https://dev-cagov-dcc.pantheonsite.io/"
-    ];
-    config.build.static_site_url = "http://localhost:8080";
-    config.build.canonical_url = "http://localhost:8080";
-    config.build.s3_bucket_url = "http://localhost:8080";
+    config.build.canonical_site_url = "http://localhost:8080";
   }
 
   return config;

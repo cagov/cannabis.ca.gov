@@ -1,5 +1,36 @@
 # Maintenance
 
+--
+
+## Data viz data-only update
+
+1. Navigate to this folder
+
+     `cd src/components/charts/cannabis-local-ordinances/`
+
+2. Manually update **static**/assets/data/cannabis-local-ordinances-interactive.2022-01-22.json
+
+3. Manually update **static**/assets/data/cannabis-local-ordinances-interactive.2022-01-22.csv
+
+4. Bump versions in package.json 
+ 
+    - `"version"`
+    - `"scripts": {"build:bundle"}`
+
+5. Run script
+
+      `npm run build:bundle`
+
+6. Commit changes
+
+7. Update new js bundle through [WordPress UI > caweb settings](https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options)
+
+8. Replace csv in the [WordPress Media Library](https://api.cannabis.ca.gov/wp-admin/post.php?post=9697&action=edit)
+
+9. Update tracker boxes [WordPress UI - Where cannabis businesses are allowed](https://api.cannabis.ca.gov/wp-admin/post.php?post=9654&action=edit)
+
+---
+
 Interactive production environment: 
 * CDT’s CAWeb Publishing Flywheel hosting environment, the interactive is uploaded through CAWeb theme (current version 1.6.2, WP 5.9). 
 

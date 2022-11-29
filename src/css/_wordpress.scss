@@ -16,12 +16,18 @@
   }
 }
 
+.wp-block-button {
+  margin-bottom: 0.5em;
+}
+
 .wp-block-button__link {
   background-color: var(--primary-700, #064e66);
   border-radius: 5px;
   font-weight: 700;
   padding: 0.5rem 1rem;
   color: #fff;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .wp-block-button__link:hover {
@@ -41,18 +47,19 @@ figure.wp-block-post-featured-image {
 
 .wp-block-table {
   margin-bottom: 16px;
+  overflow-x: auto;
   table,
   table th,
   table td {
     border: 1px solid #ededef;
   }
   table {
-    border-collapse: collapse; 
+    border-collapse: collapse;
   }
-  td, th {
+  td,
+  th {
     padding: 0.5em;
     border: 1px solid;
     word-break: normal;
   }
-  
 }

@@ -5,6 +5,10 @@
           <div id="main-content" class="main-content-ds single-column single-column-wide">
             {% include "./../breadcrumb.njk" %}
 
+            {% if category %}
+                <div class="post-category">{{ category }}</div>
+            {% endif %}
+
             <div class="narrow-page-title">
                 <h1 class="page-title">{{ title | safe }}</h1>
             </div>
@@ -15,6 +19,11 @@
                         <article id="post-{{id}}">
                             <!-- Page Title-->
                             <h1 class="page-title wide-page-title">{{ title | safe }}</h1>
+
+                            {% if date %}
+                                <div class="post-date">{{ date }}</div>
+                            {% endif %}
+
                             <div class="entry-content">
                                 {{ content | safe }}
                             </div>

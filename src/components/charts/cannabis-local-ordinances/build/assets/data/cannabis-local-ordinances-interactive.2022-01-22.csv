@@ -15,7 +15,7 @@ Imperial County,,,Imperial,Imperial County,County,Allowed,Allowed,Allowed,Allowe
 Inyo County,,,Inyo,Inyo County,County,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-01-22
 Kern County,,,Kern,Kern County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Kings County,,,Kings,Kings County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
-Lake County,,,Lake,Lake County,County,Prohibited,Prohibited,Allowed,Allowed,Allowed,Allowed,No,Yes,No,2021-12-13
+Lake County,,,Lake,Lake County,County,Allowed,Prohibited,Allowed,Allowed,Allowed,Allowed,No,No,No,2022-11-18
 Lassen County,,,Lassen,Lassen County,County,Allowed,Prohibited,Prohibited,Allowed,Prohibited,Prohibited,No,No,No,2022-01-22
 Los Angeles County,,,Los Angeles,Los Angeles County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
 Madera County,,,Madera,Madera County,County,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,Yes,2022-01-22
@@ -421,7 +421,7 @@ Arroyo Grande,Arroyo Grande,0602868,San Luis Obispo,San Luis Obispo County,City,
 Atascadero,Atascadero,0603064,San Luis Obispo,San Luis Obispo County,City,Prohibited,Allowed,Prohibited,Allowed,Prohibited,Prohibited,No,No,,2022-01-22
 Grover Beach,Grover Beach,0631393,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Morro Bay,Morro Bay,0649362,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Prohibited,Prohibited,Prohibited,No,No,,2022-01-22
-Paso Robles,El Paso de Robles (Paso Robles),0622300,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
+Paso Robles,El Paso de Robles (Paso Robles),0622300,San Luis Obispo,San Luis Obispo County,City,Prohibited,Limited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,No,,2022-11-28
 Pismo Beach,Pismo Beach,0657414,San Luis Obispo,San Luis Obispo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22
 San Luis Obispo,San Luis Obispo,0668154,San Luis Obispo,San Luis Obispo County,City,Allowed,Allowed,Allowed,Allowed,Allowed,Allowed,No,No,,2022-01-22
 Atherton,Atherton,0603092,San Mateo,San Mateo County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-22

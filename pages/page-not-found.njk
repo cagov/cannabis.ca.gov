@@ -1,0 +1,18 @@
+{% extends "./_includes/base-layout.njk" %}
+
+{% block content %}
+  <div id="page-container" class="page-container-ds">
+    <div id="main-content" class="main-content-ds single-column" tabindex="-1">
+      {# The #body-content div is the skip-to-content target. #}
+      <div id="body-content"></div>
+      <div class="ds-content-layout">
+        <main class="main-primary">
+          <div>
+            <h1 class="page-title">Page not found</h1>
+            <p>The page you requested was not found.</p>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+{% endblock %}

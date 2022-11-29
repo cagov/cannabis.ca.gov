@@ -50,7 +50,7 @@ const getAbsolutePath = (url) => {
       });
 
       if (url.indexOf("/") === 0) {
-        url = `${config.build.static_site_url}${url}`;
+        url = `${config.build.canonical_site_url}${url}`;
         return url;
       }
       return url;
@@ -80,18 +80,18 @@ const getTemplate = (article) => {
 
     if (template === "single-press-release") {
       return "press-release";
-    }
-
+    } 
+    if (template === "single-column-wide") {
+      return "single-column-wide";
+    } 
     if (template === "single-event") {
       return "event";
-    }
-
+    } 
     if (template === "searchpage") {
       return "search";
-    }
-
+    } 
     if (template === "single") {
-      return "single-column";
+      return "post";
     }
   }
 
@@ -155,7 +155,7 @@ const getPageMetadata = (articleRaw) => {
     // Site url, used in social media posts.
     site_url: getAbsolutePath(config.page_metadata.site_url),
 
-    fav_icon: config.page_metadata[article.locale]?.favicon,
+    favicon: config.page_metadata[article.locale]?.favicon,
 
     page_icon: config.page_metadata[article.locale]?.page_icon,
 

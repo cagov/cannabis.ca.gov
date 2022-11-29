@@ -29,6 +29,7 @@ jobs:
         run: |
           mkdir dist
           npm install
+          npm run content:update:staging
           SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov npm run build
           # npm run test:setup
       - name: Write robots.txt
@@ -66,8 +67,8 @@ jobs:
           flags: --recursive --cache-control max-age=15552000
 
       - name: Deploy redirects
-        run: |
-          AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
+       run: |
+         AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects:staging
 
       # Invalidate Cloudfront production distribution
       - name: Invalidate Cloudfront cache
