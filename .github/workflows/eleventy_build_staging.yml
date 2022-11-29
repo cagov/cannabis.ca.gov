@@ -31,19 +31,19 @@ jobs:
           npm install
           npm run content:update:staging
           SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov npm run build
-          # npm run test:setup
+          npm run test:setup
       - name: Write robots.txt
         run: |
           echo 'User-agent: *' > docs/robots.txt
           echo 'Disallow: /' >> docs/robots.txt
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
       # Turning off for staging 
-      # - name: Deploy to github pages branch
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./docs
-      #     publish_branch: deploy_staging
+      - name: Deploy to github pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: deploy_staging
       # Push built site files to S3 bucket    
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
