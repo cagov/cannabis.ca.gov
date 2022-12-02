@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-12-02T19:59:36",
+    "updated_date": "2022-12-02T19:59:36",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12458",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12458,
+    "date": "2022-12-02T11:59:36",
+    "date_gmt": "2022-12-02T19:59:36",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Agenda_2022-1208_DRAFT.pdf",
+    "modified": "2022-12-02T11:59:36",
+    "modified_gmt": "2022-12-02T19:59:36",
+    "slug": "cac_agenda_2022-1208_draft",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/cac_agenda_2022-1208_draft/",
+    "title": "CAC_Agenda_2022-1208_DRAFT",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Agenda_2022-1208_DRAFT.pdf'>CAC_Agenda_2022-1208_DRAFT</a></p>\n",
+    "caption": "<p>CAC_Agenda_2022-1208_DRAFT</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 204698,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Agenda_2022-1208_DRAFT.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Agenda_2022-1208_DRAFT.pdf",
+    "path": "2022/12/CAC_Agenda_2022-1208_DRAFT.pdf"
+  }
+}
