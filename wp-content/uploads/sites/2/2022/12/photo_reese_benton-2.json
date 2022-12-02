@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "created_date": "2022-12-02T17:01:37",
+    "updated_date": "2022-12-02T17:01:37",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12432",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12432,
+    "date": "2022-12-02T09:01:37",
+    "date_gmt": "2022-12-02T17:01:37",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg",
+    "modified": "2022-12-02T09:01:37",
+    "modified_gmt": "2022-12-02T17:01:37",
+    "slug": "photo_reese_benton-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/photo_reese_benton-2/",
+    "title": "photo_reese_benton-2",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg'><img width=\"358\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-358x576.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-358x576.jpg 358w, https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg 395w\" sizes=\"(max-width: 358px) 100vw, 358px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 395,
+      "height": 636,
+      "file": "2022/12/photo_reese_benton-2.jpg",
+      "filesize": 45180,
+      "sizes": {
+        "medium": {
+          "file": "photo_reese_benton-2-358x576.jpg",
+          "width": 358,
+          "height": 576,
+          "filesize": 35861,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-358x576.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_reese_benton-2-376x376.jpg",
+          "width": 376,
+          "height": 376,
+          "filesize": 27378,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-376x376.jpg"
+        },
+        "full": {
+          "file": "photo_reese_benton-2.jpg",
+          "width": 395,
+          "height": 636,
+          "mime_type": "image/jpeg",
+          "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/12/photo_reese_benton-2.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg",
+        "file": "photo_reese_benton-2.jpg",
+        "width": 395,
+        "height": 636,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/12/photo_reese_benton-2-376x376.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-376x376.jpg",
+        "file": "photo_reese_benton-2-376x376.jpg",
+        "width": 376,
+        "height": 376,
+        "filesize": 27378,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-376x376.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/12/photo_reese_benton-2-358x576.jpg",
+        "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-358x576.jpg",
+        "file": "photo_reese_benton-2-358x576.jpg",
+        "width": 358,
+        "height": 576,
+        "filesize": 35861,
+        "mime_type": "image/jpeg",
+        "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/photo_reese_benton-2-358x576.jpg"
+      }
+    ],
+    "path": "2022/12/photo_reese_benton-2.jpg"
+  }
+}
