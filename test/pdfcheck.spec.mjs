@@ -1,9 +1,5 @@
 import { test, expect } from "@playwright/test";
 
-const slugs_check = [
-  "applicants/equity-fee-waivers/apply-for-an-equity-fee-waiver/"
-];
-
 const slugs_batch_1 = [
   "",
   "search/",

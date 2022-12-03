@@ -1,9 +1,9 @@
 const siteSettings = require("./config.json"); // Site config (renders in markup)
 
-let staticContentPath = "./node_modules/static-content-cannabis";
+let staticContentPath = "./static-content-cannabis-main";
 
 if (process.env.SITE_ENV === "staging") {
-  staticContentPath = "./node_modules/static-content-cannabis-staging";
+  staticContentPath = "./static-content-cannabis-staging";
 }
 
 // if (process.env.SITE_ENV === "localhost") {
