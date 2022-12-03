@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-21T23:51:33",
-    "updated_date": "2022-11-28T22:37:08",
+    "updated_date": "2022-10-08T23:48:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-04-21T16:51:33",
     "date_gmt": "2022-04-21T23:51:33",
     "guid": "https://cannabis.ca.gov/wp-content/uploads/2022/04/cannabis-local-ordinances.2022-02.csv",
-    "modified": "2022-11-28T14:37:08",
-    "modified_gmt": "2022-11-28T22:37:08",
+    "modified": "2022-10-08T16:48:00",
+    "modified_gmt": "2022-10-08T23:48:00",
     "slug": "cannabis-local-ordinances-2022-02",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "text/csv",
     "media_details": {
-      "filesize": 61121,
+      "filesize": 61129,
       "sizes": {}
     },
     "post": null,
