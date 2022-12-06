@@ -47,11 +47,12 @@
                                       }
                                     },{
                                       // screens greater than >= 1024px
-                                      breakpoint: 1024,
+                                      breakpoint: 1080,
                                       settings: {
-                                        slidesToShow: 2,
-                                        slidesToScroll: 1,
-                                        itemWidth: 376,
+                                        
+                                        slidesToShow: 'auto',
+                                        slidesToScroll: 'auto',
+                                        itemWidth: 392,
                                         duration: 0.25
                                       }
                                     }
