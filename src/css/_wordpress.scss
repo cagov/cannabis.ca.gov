@@ -137,6 +137,18 @@ figure.wp-block-post-featured-image {
   line-height: 1.6;
 }
 
+/* WordPress Image */
+figure {
+  border-color: transparent;
+  background-color: #eeefe8;
+  display: block;
+  border-color: transparent;
+}
+
+figure img {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
@@ -156,4 +168,40 @@ figure.wp-block-post-featured-image {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
   }
+}
+
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  border-radius: inherit;
+}
+
+.wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+img {
+  border-style: none;
+}
+
+.everylayout figure.wp-block-image {
+  width: fit-content;
+}
+
+.everylayout figure.wp-block-image img {
+  width: auto;
+}
+
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  border-radius: inherit;
+}
+.wp-block-image {
+  margin: 0 0 1em;
+}
+.wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
 }
