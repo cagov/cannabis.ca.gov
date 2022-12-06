@@ -5675,6 +5675,18 @@ figure.wp-block-post-featured-image img {
   line-height: 1.6;
 }
 
+/* WordPress Image */
+figure {
+  border-color: transparent;
+  background-color: #eeefe8;
+  display: block;
+  border-color: transparent;
+}
+
+figure img {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
@@ -5695,6 +5707,44 @@ figure.wp-block-post-featured-image img {
     grid-template-columns: 100% !important;
   }
 }
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  border-radius: inherit;
+}
+
+.wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+img {
+  border-style: none;
+}
+
+.everylayout figure.wp-block-image {
+  width: fit-content;
+}
+
+.everylayout figure.wp-block-image img {
+  width: auto;
+}
+
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  border-radius: inherit;
+}
+
+.wp-block-image {
+  margin: 0 0 1em;
+}
+
+.wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
 /* Grid styles, layout */
 .cagov-promotional-card-grid.cagov-grid {
   display: grid;
@@ -7659,11 +7709,6 @@ blockquote {
   border-left: 5px solid #d6d6d6;
 }
 
-figure {
-  border-color: transparent;
-  background-color: #eeefe8;
-}
-
 /* Site customizations */
 /* CaGov color scheme root variables */
 :root {
@@ -7833,6 +7878,18 @@ figure.wp-block-post-featured-image img {
   line-height: 1.6;
 }
 
+/* WordPress Image */
+figure {
+  border-color: transparent;
+  background-color: #eeefe8;
+  display: block;
+  border-color: transparent;
+}
+
+figure img {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
@@ -7853,6 +7910,44 @@ figure.wp-block-post-featured-image img {
     grid-template-columns: 100% !important;
   }
 }
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  border-radius: inherit;
+}
+
+.wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+img {
+  border-style: none;
+}
+
+.everylayout figure.wp-block-image {
+  width: fit-content;
+}
+
+.everylayout figure.wp-block-image img {
+  width: auto;
+}
+
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  border-radius: inherit;
+}
+
+.wp-block-image {
+  margin: 0 0 1em;
+}
+
+.wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
 /* Restyle content markup coming from WordPress API */
 cagov-post-list .post-list-item {
   font-style: normal;
