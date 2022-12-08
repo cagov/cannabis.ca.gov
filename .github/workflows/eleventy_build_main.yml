@@ -14,7 +14,6 @@ on:
 
 jobs:
   concurrency: sync_deployments
-    group: ${{ github.ref }}
     cancel-in-progress: true
   build_deploy:
     runs-on: ubuntu-20.04
