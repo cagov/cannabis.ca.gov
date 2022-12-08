@@ -14,7 +14,6 @@ on:
 
 concurrency: 
   group: sync_deployments
-  cancel-in-progress: true
 
 jobs:
   build_deploy:
