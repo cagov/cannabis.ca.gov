@@ -12,9 +12,11 @@ on:
     branches:
       - main
 
+concurrency: 
+  group: sync_deployments
+  cancel-in-progress: true
+
 jobs:
-  concurrency: sync_deployments
-    cancel-in-progress: true
   build_deploy:
     runs-on: ubuntu-20.04
     steps:
