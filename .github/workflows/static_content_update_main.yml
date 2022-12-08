@@ -6,6 +6,7 @@ on:
     types: [static_content_update_main]
 
 concurrency: sync_static_content_update_main
+  cancel-in-progress: true
 
 jobs:
   build_deploy:
@@ -16,10 +17,6 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
-      - name: Cancel previous build
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
       - run: npm ci --production
       - name: Check for static content updates # update static content repo.
         run: |

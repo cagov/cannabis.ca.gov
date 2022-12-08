@@ -13,6 +13,7 @@ on:
       - main
 
 concurrency: sync_deployments
+  cancel-in-progress: true
 
 jobs:
   build_deploy:
@@ -23,14 +24,10 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
-      - name: Cancel previous build
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install packages
         run: |
           mkdir dist
-          npm ci --production --verbose
+          npm ci --production
       - name: Build 11ty
         run: |
           SITE_ENV=production DOMAIN=cannabis.ca.gov npm run build
