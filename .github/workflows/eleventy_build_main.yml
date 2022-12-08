@@ -23,6 +23,10 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
+      - name: Cancel previous build
+        uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install packages
         run: |
           mkdir dist
