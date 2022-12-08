@@ -54,9 +54,6 @@
     "@11ty/eleventy-server-browsersync": "^1.0.2"
   },
   "dependencies": {
-    "aws-sdk": "^2.1200.0",
-    "cross-env": "^7.0.3",
-    "cheerio": "^1.0.0-rc.12",
     "@11ty/eleventy": "^2.0.0-canary.15",
     "@cagov/11ty-build-system": "^1.0.0-beta.2",
     "@cagov/ds-accordion": "^2.0.3",
@@ -80,6 +77,9 @@
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
+    "aws-sdk": "^2.1200.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cross-env": "^7.0.3",
     "static-content-cannabis": "github:cagov/static-content-cannabis#main"
   }
 }
