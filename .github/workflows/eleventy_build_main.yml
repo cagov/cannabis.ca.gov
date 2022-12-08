@@ -26,7 +26,7 @@ jobs:
       - name: Install packages
         run: |
           mkdir dist
-          npm ci --production --verbose    
+          npm ci --production --verbose
       - name: Build 11ty
         run: |
           SITE_ENV=production DOMAIN=cannabis.ca.gov npm run build
