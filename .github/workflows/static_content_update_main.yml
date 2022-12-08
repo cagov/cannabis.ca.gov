@@ -5,9 +5,11 @@ on:
   repository_dispatch:
     types: [static_content_update_main]
 
+concurrency: 
+  group: sync_static_content_update_main
+  cancel-in-progress: true
+
 jobs:
-  concurrency: sync_static_content_update_main
-    cancel-in-progress: true
   build_deploy:
     runs-on: ubuntu-20.04
     steps:
