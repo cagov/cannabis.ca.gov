@@ -6,6 +6,7 @@ on:
     types: [static_content_update_main]
 
 concurrency: sync_static_content_update_main
+  cancel-in-progress: true
 
 jobs:
   build_deploy:

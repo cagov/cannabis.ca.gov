@@ -13,6 +13,7 @@ on:
       - main
 
 concurrency: sync_deployments
+  cancel-in-progress: true
 
 jobs:
   build_deploy:
@@ -26,7 +27,7 @@ jobs:
       - name: Install packages
         run: |
           mkdir dist
-          npm ci --production --verbose
+          npm ci --production
       - name: Build 11ty
         run: |
           SITE_ENV=production DOMAIN=cannabis.ca.gov npm run build
