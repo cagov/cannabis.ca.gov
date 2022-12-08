@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
+      - name: Cancel previous build
+        uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
       - run: npm ci --production
       - name: Check for static content updates # update static content repo.
         run: |
