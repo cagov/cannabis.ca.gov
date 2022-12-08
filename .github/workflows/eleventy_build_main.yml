@@ -12,25 +12,25 @@ on:
     branches:
       - main
 
+concurrency: sync_deployments
+
 jobs:
   build_deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: Cancel previous build
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
           node-version: 16
-      - name: Build 11ty
+          cache: 'npm'
+      - name: Install packages
         run: |
           mkdir dist
-          npm install
+          npm ci --production --verbose    
+      - name: Build 11ty
+        run: |
           SITE_ENV=production DOMAIN=cannabis.ca.gov npm run build
-          # npm run test:setup
       - name: Write robots.txt
         run: |
           echo 'User-agent: *' > docs/robots.txt
