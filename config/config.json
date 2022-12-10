@@ -16,8 +16,8 @@
             "page_default_open_graph_image_height": 630,
             "gov_name": "CA.GOV",
             "gov_url": "https:\/\/ca.gov",
-            "favicon": "/assets/cagov_favicon.ico",
-            "page_icon": "/assets/img/cannabis_favicon_16x16.png",
+            "favicon": "/assets/cannabis_favicon_16x16.png",
+            "page_icon": "/assets/img/UNUSED.png",
             "keywords": "California, government"
         }
     },

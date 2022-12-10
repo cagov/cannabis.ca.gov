@@ -157,7 +157,8 @@ const getPageMetadata = (articleRaw) => {
 
     favicon: config.page_metadata[article.locale]?.favicon,
 
-    page_icon: config.page_metadata[article.locale]?.page_icon,
+    // UNUSED
+    // page_icon: config.page_metadata[article.locale]?.page_icon,
 
     // Title for <title> HTML tag
     page_title: getPageTitle(article),
