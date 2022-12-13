@@ -13,10 +13,11 @@
                         <div class="category-label">{{ category | safe }}</div>
                         <!-- Page Title-->
                         <h1 class="page-title">{{ title | safe }}</h1>
-                        <p class="page-date published">
-                            <time datetime="">
+                        <p class="published press-release-date">
+                            {{ date | safe }}
+                            {# <time datetime="Dray 14, 2022">
                                 <!-- date field -->
-                            </time>
+                            </time> #}
                         </p>
                         <div class="entry-content">
                             {{ content | safe }}
