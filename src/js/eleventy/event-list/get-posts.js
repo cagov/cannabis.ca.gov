@@ -58,12 +58,14 @@ const getEventsByCategory = (categoryString, count = 5) => {
     .slice(-count)
     .reverse();
 
-    let today = new Date();
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() - 3);
     const postsToReturnRecent = wordPressArray
     .filter((a) => {
       try {
         const aDate = new Date(a.data.event.startDate);
-        if (aDate > today) {
+        if (aDate > tomorrow) {
           return a;
         }
       } catch (error) {
