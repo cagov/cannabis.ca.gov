@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2022-12-14T22:40:51",
-    "updated_date": "2022-12-14T22:40:51",
+    "created_date": "2022-12-14T23:36:39",
+    "updated_date": "2022-12-14T23:36:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12657",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12661",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,12 +14,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 12657,
-    "date": "2022-12-14T14:40:51",
-    "date_gmt": "2022-12-14T22:40:51",
+    "id": 12661,
+    "date": "2022-12-14T15:36:39",
+    "date_gmt": "2022-12-14T23:36:39",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/Rulemaking_Public-comment-template_2022-1214.docx",
-    "modified": "2022-12-14T14:40:51",
-    "modified_gmt": "2022-12-14T22:40:51",
+    "modified": "2022-12-14T15:36:39",
+    "modified_gmt": "2022-12-14T23:36:39",
     "slug": "rulemaking_public-comment-template_2022-1214",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     "media_details": {
-      "filesize": 168021,
+      "filesize": 168017,
       "sizes": {}
     },
     "post": null,
