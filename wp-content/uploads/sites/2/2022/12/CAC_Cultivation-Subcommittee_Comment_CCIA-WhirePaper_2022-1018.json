@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-12-14T18:25:57",
+    "updated_date": "2022-12-14T18:25:57",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12649",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12649,
+    "date": "2022-12-14T10:25:57",
+    "date_gmt": "2022-12-14T18:25:57",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018.pdf",
+    "modified": "2022-12-14T10:25:57",
+    "modified_gmt": "2022-12-14T18:25:57",
+    "slug": "cac_cultivation-subcommittee_comment_ccia-whirepaper_2022-1018",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/cac_cultivation-subcommittee_comment_ccia-whirepaper_2022-1018/",
+    "title": "CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018.pdf'>CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018</a></p>\n",
+    "caption": "<p>CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 1320777,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018.pdf",
+    "path": "2022/12/CAC_Cultivation-Subcommittee_Comment_CCIA-WhirePaper_2022-1018.pdf"
+  }
+}
