@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-12-16T18:56:02",
+    "updated_date": "2022-12-16T18:56:02",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12677",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12677,
+    "date": "2022-12-16T10:56:02",
+    "date_gmt": "2022-12-16T18:56:02",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/dcc-lic-029_testing-labs-notification-request_2022-02.pdf",
+    "modified": "2022-12-16T10:56:02",
+    "modified_gmt": "2022-12-16T18:56:02",
+    "slug": "dcc-lic-029_testing-labs-notification-request_2022-02",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc-lic-029_testing-labs-notification-request_2022-02/",
+    "title": "dcc-lic-029_testing-labs-notification-request_2022-02",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/12/dcc-lic-029_testing-labs-notification-request_2022-02.pdf'>dcc-lic-029_testing-labs-notification-request_2022-02</a></p>\n",
+    "caption": "<p>dcc-lic-029_testing-labs-notification-request_2022-02</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 146499,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/dcc-lic-029_testing-labs-notification-request_2022-02.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/dcc-lic-029_testing-labs-notification-request_2022-02.pdf",
+    "path": "2022/12/dcc-lic-029_testing-labs-notification-request_2022-02.pdf"
+  }
+}
