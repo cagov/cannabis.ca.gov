@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2022-12-28T18:06:50",
+    "updated_date": "2022-12-28T18:06:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12723",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12723,
+    "date": "2022-12-28T10:06:50",
+    "date_gmt": "2022-12-28T18:06:50",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC-Annual-Report_2022.pdf",
+    "modified": "2022-12-28T10:06:50",
+    "modified_gmt": "2022-12-28T18:06:50",
+    "slug": "cac-annual-report_2022",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/cac-annual-report_2022/",
+    "title": "CAC Annual Report_2022",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC-Annual-Report_2022.pdf'>CAC Annual Report_2022</a></p>\n",
+    "caption": "<p>CAC Annual Report_2022</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 217737,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC-Annual-Report_2022.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/CAC-Annual-Report_2022.pdf",
+    "path": "2022/12/CAC-Annual-Report_2022.pdf"
+  }
+}
