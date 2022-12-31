@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-12-31T00:35:58",
-    "updated_date": "2022-12-31T20:05:47",
+    "updated_date": "2022-12-31T22:16:13",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-12-30T16:35:58",
     "date_gmt": "2022-12-31T00:35:58",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/Form-_DCC-1602_Equity_Fee_Relief-Additional_Equity_Owners.pdf",
-    "modified": "2022-12-31T12:05:47",
-    "modified_gmt": "2022-12-31T20:05:47",
+    "modified": "2022-12-31T14:16:13",
+    "modified_gmt": "2022-12-31T22:16:13",
     "slug": "form-_dcc-1602_equity_fee_relief-additional_equity_owners",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 917825,
+      "filesize": 924329,
       "sizes": {}
     },
     "post": null,

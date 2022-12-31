@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-12-31T00:36:04",
-    "updated_date": "2022-12-31T20:05:22",
+    "updated_date": "2022-12-31T22:15:52",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-12-30T16:36:04",
     "date_gmt": "2022-12-31T00:36:04",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/Form_DCC-1601_Equity_Fee_Relief.pdf",
-    "modified": "2022-12-31T12:05:22",
-    "modified_gmt": "2022-12-31T20:05:22",
+    "modified": "2022-12-31T14:15:52",
+    "modified_gmt": "2022-12-31T22:15:52",
     "slug": "form_dcc-1601_equity_fee_relief",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 1151695,
+      "filesize": 1028873,
       "sizes": {}
     },
     "post": null,
