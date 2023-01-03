@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-12-30T22:53:43",
-    "updated_date": "2022-12-30T22:53:43",
+    "updated_date": "2023-01-03T20:22:37",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-12-30T14:53:43",
     "date_gmt": "2022-12-30T22:53:43",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2022/12/rulemaking_dcc_large-cultivation-licenses-and-conversion_final_text_2022-1229.pdf",
-    "modified": "2022-12-30T14:53:43",
-    "modified_gmt": "2022-12-30T22:53:43",
+    "modified": "2023-01-03T12:22:37",
+    "modified_gmt": "2023-01-03T20:22:37",
     "slug": "rulemaking_dcc_large-cultivation-licenses-and-conversion_final_text_2022-1229",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 218038,
+      "filesize": 230022,
       "sizes": {}
     },
     "post": null,
