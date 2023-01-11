@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2023-01-10T19:56:43",
-    "updated_date": "2023-01-10T19:56:43",
+    "updated_date": "2023-01-11T19:11:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2023-01-10T11:56:43",
     "date_gmt": "2023-01-10T19:56:43",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/cultivation-subcommittee-agenda_2023-0119.pdf",
-    "modified": "2023-01-10T11:56:43",
-    "modified_gmt": "2023-01-10T19:56:43",
+    "modified": "2023-01-11T11:11:44",
+    "modified_gmt": "2023-01-11T19:11:44",
     "slug": "cultivation-subcommittee-agenda_2023-0119",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 191547,
+      "filesize": 191718,
       "sizes": {}
     },
     "post": null,
