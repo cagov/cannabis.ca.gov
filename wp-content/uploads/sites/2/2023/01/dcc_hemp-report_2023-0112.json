@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2023-01-13T20:52:34",
+    "updated_date": "2023-01-13T20:52:34",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12934",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12934,
+    "date": "2023-01-13T12:52:34",
+    "date_gmt": "2023-01-13T20:52:34",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/dcc_hemp-report_2023-0112.pdf",
+    "modified": "2023-01-13T12:52:34",
+    "modified_gmt": "2023-01-13T20:52:34",
+    "slug": "dcc_hemp-report_2023-0112",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/dcc_hemp-report_2023-0112/",
+    "title": "dcc_hemp-report_2023-0112",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2023/01/dcc_hemp-report_2023-0112.pdf'>dcc_hemp-report_2023-0112</a></p>\n",
+    "caption": "<p>dcc_hemp-report_2023-0112</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "filesize": 255688,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/dcc_hemp-report_2023-0112.pdf",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/dcc_hemp-report_2023-0112.pdf",
+    "path": "2023/01/dcc_hemp-report_2023-0112.pdf"
+  }
+}
