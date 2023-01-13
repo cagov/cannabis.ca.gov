@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created_date": "2023-01-13T20:52:34",
-    "updated_date": "2023-01-13T20:52:34",
+    "created_date": "2023-01-13T21:53:11",
+    "updated_date": "2023-01-13T21:53:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
-    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12934",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12935",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://api.cannabis.ca.gov",
@@ -14,12 +14,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 12934,
-    "date": "2023-01-13T12:52:34",
-    "date_gmt": "2023-01-13T20:52:34",
+    "id": 12935,
+    "date": "2023-01-13T13:53:11",
+    "date_gmt": "2023-01-13T21:53:11",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/dcc_hemp-report_2023-0112.pdf",
-    "modified": "2023-01-13T12:52:34",
-    "modified_gmt": "2023-01-13T20:52:34",
+    "modified": "2023-01-13T13:53:11",
+    "modified_gmt": "2023-01-13T21:53:11",
     "slug": "dcc_hemp-report_2023-0112",
     "status": "inherit",
     "type": "attachment",
