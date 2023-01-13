@@ -1,4 +1,4 @@
-name: 11ty build Production Site
+name: 11ty build Production Site headless
 # site:  https://headless.cannabis.ca.gov
 # s3 bucket http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 # editor: https://api.cannabis.ca.gov
