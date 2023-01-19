@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2023-01-05T19:41:38",
-    "updated_date": "2023-01-05T19:41:38",
+    "updated_date": "2023-01-19T20:20:53",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2023-01-05T11:41:38",
     "date_gmt": "2023-01-05T19:41:38",
     "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/Guidance_How-to-Request-License-Conversion.pdf",
-    "modified": "2023-01-05T11:41:38",
-    "modified_gmt": "2023-01-05T19:41:38",
+    "modified": "2023-01-19T12:20:53",
+    "modified_gmt": "2023-01-19T20:20:53",
     "slug": "guidance_how-to-request-license-conversion",
     "status": "inherit",
     "type": "attachment",
@@ -42,7 +42,7 @@
     "media_type": "file",
     "mime_type": "application/pdf",
     "media_details": {
-      "filesize": 3246391,
+      "filesize": 3000951,
       "sizes": {}
     },
     "post": null,
