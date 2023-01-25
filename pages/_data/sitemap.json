@@ -6,6 +6,25 @@
       "/mailing-list/": { "exclude": true },
       "/licensees/": { "exclude": true },
       "/consumers/": { "exclude": true },
-      "/applicants/": { "exclude": true }  
+      "/applicants/": { "exclude": true },
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-abarca/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-ball/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-cargile/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-dipaci/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-donaldson/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-farrar/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-glasse/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-hua/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-ingram/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-keith/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-lutz/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-matulich/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-mitchell/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-moussalli/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-swami/": { "exclude": true},
+      "/about-us/public-awareness-campaigns/this-is-california-cannabis/social-media-materials/": { "exclude": true}
     }
-  }
+}
+
+
