@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_date": "2023-01-25T23:06:09",
+    "updated_date": "2023-01-25T23:07:31",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/",
+    "object_url": "https://api.cannabis.ca.gov/wp-json/wp/v2/media/12997",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://api.cannabis.ca.gov",
+      "deployment_target": "https://github.com/cagov/static-content-cannabis/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 12997,
+    "date": "2023-01-25T15:06:09",
+    "date_gmt": "2023-01-25T23:06:09",
+    "guid": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/values_icon.svg",
+    "modified": "2023-01-25T15:07:31",
+    "modified_gmt": "2023-01-25T23:07:31",
+    "slug": "values_icon-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://api.cannabis.ca.gov/values_icon-2/",
+    "title": "values_icon",
+    "author": "Wes Breazell",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
+    "categories": [
+      14
+    ],
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2023/01/values_icon.svg'><img width=\"1\" height=\"1\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2023/01/values_icon.svg\" class=\"attachment-medium size-medium\" alt=\"Values\" decoding=\"async\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "Values",
+    "media_type": "image",
+    "mime_type": "image/svg+xml",
+    "media_details": {
+      "filesize": 2455,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/values_icon.svg",
+    "wordpress_url": "https://api.cannabis.ca.gov/wp-content/uploads/2023/01/values_icon.svg",
+    "path": "2023/01/values_icon.svg"
+  }
+}
