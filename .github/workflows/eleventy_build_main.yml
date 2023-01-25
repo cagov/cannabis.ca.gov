@@ -54,9 +54,8 @@ jobs:
           aws-region: us-west-1
 
       # Deploy to cannabis.ca.gov
-      # jbum added exclude
       - name: Deploy to S3 (cannabis.ca.gov)
-        run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov --exclude 'wp-content/uploads/*'
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov
       # Reset the cache-control headers on static assets on production S3 bucket
       - name: Reset cache-control on fonts
         uses: prewk/s3-cp-action@v2
