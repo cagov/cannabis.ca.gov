@@ -5,7 +5,9 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in collections.all %}
-    {% if not sitemap.urls[page.url | url ].exclude %}
+    {% if "-MORGUE" not in page.url and 
+          "-DRAFT" not in page.url and 
+          not sitemap.urls[page.url | url ].exclude %}
       <url>
         <loc>https://cannabis.ca.gov{{ page.url | url }}</loc>
         <lastmod>{{ page.date.toISOString() }}</lastmod>
