@@ -36,7 +36,7 @@
     "categories": [
       794
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place.svg'><img width=\"1\" height=\"1\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place.svg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place.svg'><img width=\"1\" height=\"1\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/04/tl_2016_06_place.svg\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" loading=\"lazy\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",

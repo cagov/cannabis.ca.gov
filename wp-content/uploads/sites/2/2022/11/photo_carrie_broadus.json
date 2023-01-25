@@ -36,7 +36,7 @@
     "categories": [
       14
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus.jpg'><img width=\"358\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus-358x576.jpg\" class=\"attachment-medium size-medium\" alt=\"Photo of Carrie Broadus\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus-358x576.jpg 358w, https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus.jpg 395w\" sizes=\"(max-width: 358px) 100vw, 358px\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus.jpg'><img width=\"358\" height=\"576\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus-358x576.jpg\" class=\"attachment-medium size-medium\" alt=\"Photo of Carrie Broadus\" decoding=\"async\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus-358x576.jpg 358w, https://api.cannabis.ca.gov/wp-content/uploads/2022/11/photo_carrie_broadus.jpg 395w\" sizes=\"(max-width: 358px) 100vw, 358px\" /></a></p>\n",
     "caption": "",
     "alt_text": "Photo of Carrie Broadus",
     "media_type": "image",

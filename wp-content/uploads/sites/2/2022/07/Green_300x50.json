@@ -36,7 +36,7 @@
     "categories": [
       767
     ],
-    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50.png'><img width=\"576\" height=\"97\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50-576x97.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50-576x97.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50-480x81.png 480w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50.png 601w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50.png'><img width=\"576\" height=\"97\" src=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50-576x97.png\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50-576x97.png 576w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50-480x81.png 480w, https://api.cannabis.ca.gov/wp-content/uploads/2022/07/Green_300x50.png 601w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",
