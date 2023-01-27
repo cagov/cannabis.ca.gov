@@ -76,15 +76,15 @@ jobs:
           source: './docs/assets'
           dest: 's3://cannabis.ca.gov/assets'
           flags: --recursive --cache-control max-age=15552000
-      - name: Reset cache-control on media
-        uses: prewk/s3-cp-action@v2
-        with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/wp-content/uploads/sites/2'
-          dest: 's3://cannabis.ca.gov/wp-content/uploads/sites/2'
-          flags: --recursive --cache-control max-age=15552000
+      # - name: Reset cache-control on media
+      #   uses: prewk/s3-cp-action@v2
+      #   with:
+      #     aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     aws_region: 'us-west-1'   # optional: defaults to us-east-1
+      #     source: './docs/wp-content/uploads/sites/2'
+      #     dest: 's3://cannabis.ca.gov/wp-content/uploads/sites/2'
+      #     flags: --recursive --cache-control max-age=15552000
 
 
       - name: Invalidate Cloudfront (cannabis.ca.gov)
