@@ -124,26 +124,28 @@ module.exports = function eleventyBuild(eleventyConfig) {
         return false;
       });
 
-      // Read a list of full media paths for any links that should be relative to this instance.
-      // Replace with the local media folder.
-      // Note: do not change the media folder without a corresponding update to the redirects (using Redirection plugin in editor).
-      config.build.media_replace_urls.forEach((mediaPath) => {
-        if (html !== undefined && html.includes(mediaPath)) {
-          html = html.replace(
-            new RegExp(mediaPath, "g"),
-            `/${config.build.docs_media}/`
-          );
-        }
-        return false;
-      });
+      // // jbum - not needed for offload
+      // // Read a list of full media paths for any links that should be relative to this instance.
+      // // Replace with the local media folder.
+      // // Note: do not change the media folder without a corresponding update to the redirects (using Redirection plugin in editor).
+      // config.build.media_replace_urls.forEach((mediaPath) => {
+      //   if (html !== undefined && html.includes(mediaPath)) {
+      //     html = html.replace(
+      //       new RegExp(mediaPath, "g"),
+      //       `/${config.build.docs_media}/`
+      //     );
+      //   }
+      //   return false;
+      // });
 
-      // Patch for glitch/issue with absolute url permalinks for og meta - likely resulting from custom eleventy absolutePath filter
-      if (html !== undefined && html.includes("//wp-content/uploads/")) {
-        html = html.replace(
-          new RegExp("//wp-content/uploads/", "g"),
-          `/${config.build.docs_media}/`
-        );
-      }
+      // // jbum - not needed for offload
+      // // Patch for glitch/issue with absolute url permalinks for og meta - likely resulting from custom eleventy absolutePath filter
+      // if (html !== undefined && html.includes("//wp-content/uploads/")) {
+      //   html = html.replace(
+      //     new RegExp("//wp-content/uploads/", "g"),
+      //     `/${config.build.docs_media}/`
+      //   );
+      // }
       
       // Minify HTML
       html = htmlmin.minify(html, {
@@ -159,9 +161,10 @@ module.exports = function eleventyBuild(eleventyConfig) {
   // 11ty copy assets
   eleventyConfig.addPassthroughCopy({ "src/assets/": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/css/fonts/": "fonts" }); // Required location by cagov code
-  eleventyConfig.addPassthroughCopy({
-    [config.staticContentPaths.media]: config.build.docs_media,
-  });
+  // // jbum - not needed for offload
+  // eleventyConfig.addPassthroughCopy({
+  //   [config.staticContentPaths.media]: config.build.docs_media,
+  // });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
 
   return {
