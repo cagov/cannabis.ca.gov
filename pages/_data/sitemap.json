@@ -7,6 +7,7 @@
       "/licensees/": { "exclude": true },
       "/consumers/": { "exclude": true },
       "/applicants/": { "exclude": true },
+      "/testing-page/": { "exclude": true },
       "/about-us/public-awareness-campaigns/this-is-california-cannabis/": { "exclude": true},
       "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-abarca/": { "exclude": true},
       "/about-us/public-awareness-campaigns/this-is-california-cannabis/licensee-profile-ball/": { "exclude": true},
