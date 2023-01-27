@@ -124,6 +124,7 @@ module.exports = function eleventyBuild(eleventyConfig) {
         return false;
       });
 
+      // jbum test jan-26-2023 10:13pm
       // // jbum - not needed for offload
       // // Read a list of full media paths for any links that should be relative to this instance.
       // // Replace with the local media folder.
