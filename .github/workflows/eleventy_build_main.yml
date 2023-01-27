@@ -57,6 +57,8 @@ jobs:
       # jbum added exclude
       - name: Deploy to S3 (cannabis.ca.gov)
         run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov --exclude 'wp-content/uploads/*'
+      - name: Backup S3 Media (just the media, no deletions)
+        run: aws s3 sync s3://cannabis.ca.gov/wp-content/ s3://cannabis.ca.gov-backup/wp-content/
       # Reset the cache-control headers on static assets on production S3 bucket
       - name: Reset cache-control on fonts
         uses: prewk/s3-cp-action@v2
