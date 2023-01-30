@@ -33,10 +33,6 @@ const getConfig = () => {
     config.build.canonical_site_url = "https://cannabis.ca.gov";
   }
 
-  if (process.env.SITE_ENV === "headless") {
-    config.build.canonical_site_url = "https://headless.cannabis.ca.gov";
-  }
-
   if (process.env.SITE_ENV === "staging") {
     config.build.canonical_site_url = "https://staging.cannabis.ca.gov";
   }
