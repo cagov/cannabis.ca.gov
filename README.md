@@ -1,17 +1,17 @@
 # cannabis.ca.gov
 
 ## Project description
-Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
+Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control (DCC). 
 * Built to deliver plain-language, performant, accessible information.
 
 ## How our static publishing system works
 ### 1. Edit content
-* Content is created and edited by DCC staff in WordPress at api.cannabis.ca.gov.
-* All media are uploaded to a static bucket.
+* Content is created and edited by DCC staff in a WordPress instance hosted by Pantheon at api.cannabis.ca.gov.
+* All media are uploaded to a static S3 bucket on AWS.
 
 ### 2. Sync content to static content repo
-* After posts are edited, a notification is fired off, and an AWS Lambda [syncing service](https://github.com/cagov/cannabis-ca-gov-lambda-sync-github) pulls data from WordPress through the WordPress REST API.
-* The data is processed and loaded into a [static content package](https://github.com/cagov/static-content-cannabis). 
+* After posts are edited, a notification is fired off, and an AWS Lambda [syncing service](https://github.com/cagov/cannabis-ca-gov-lambda-sync-github) pulls data from WordPress through the WordPress REST API.  Notifications are produced using the Wordpress plugin 'Notifications' from [BracketSpace](https://bracketspace.com/).
+* The data (with the exception of the uploaded media) is processed and loaded into a [static content package](https://github.com/cagov/static-content-cannabis). 
 
 ### 3. Update static site
 This repo uses [11ty](https://11ty.dev) as a static site builder.
@@ -21,7 +21,7 @@ This repo uses [11ty](https://11ty.dev) as a static site builder.
 ### 4. Publish
 We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage publishing and site builds.
 * Our `.yml` scripts manage how the site is published.
-* The general process is to build the site, update the site's AWS S3 bucket, then clear the AWS CloudFront cache.
+* The general process is to build the site, sync the site to the AWS S3 bucket, then invalidate the AWS CloudFront cache.
 * Workflow files are found at: [`main`](./.github/workflows/eleventy_build_main.yml), [~`staging`~](./.github/workflows/eleventy_build_staging.yml) 
 * When submitting a pull request (PR), a separate instance of the site is available through a link in the PR. [PR Previews](./.github/workflows/eleventy_build_pr.yml)
 
