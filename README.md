@@ -1,9 +1,7 @@
 # cannabis.ca.gov
 
-*This repo is under active development as we create a headless version of the cannabis WordPress site.*
-
 ## Project description
-(Soon to be) production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
+Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
 * Built to deliver plain-language, performant, accessible information.
 
 ## Technical overview of domains and services
