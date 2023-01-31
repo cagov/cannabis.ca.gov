@@ -38,7 +38,6 @@ We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage 
 * `npm run content:clean` and `npm run content:update` will get the latest content changes and reset content.
 * You can work locally with the markup generated from https://api.cannabis.ca.gov editor. 
 * [NOT YET RE-RELEASED]: `npm test` - run playwright tests.
-* [NOT INCLUDED]: Linting
 * Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md) for additional information.
 
 ### Tips
@@ -95,7 +94,7 @@ Office of Digital Innovation (ODI), is working with the Department of Cannabis C
 * Report an issue: https://github.com/cagov/cannabis.ca.gov
 * Project board: Internal board is in Coda
 * Public board: Would move to the GitHub board relative to this GitHub repository.
-* Project maintainer & Lead Engineer: Chach Sikes (she/her) @chachasikes
+* Project maintainer & Lead Engineer: Jim Bumgardner @jbum; Alum: Chach Sikes (she/her) @chachasikes
 * Engineering Management Lead: Zakiya Khabir @zakiyarules
 * Slack channels: #odi-cannabis (ODI internal team channel), #cagov-cannabis (Multi-partner channel)
 * Content guide: In Coda workspace
