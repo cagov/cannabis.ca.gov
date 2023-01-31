@@ -9,28 +9,26 @@ Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Depart
 ## System diagram
 <img src="./system-diagram.png" width="100%" alt="Diagram of how the content publishing pipeline connects" />
 
+## How our static publishing system works
 ### 1. Edit
-* Content is created and edited in WordPress at api.cannabis.ca.gov
+* Content is created and edited by DCC staff in WordPress at api.cannabis.ca.gov.
 
-### 2. Sync WordPress REST API to GitHub
-* After posts are edited, a syncing service pulls data from WordPress into a static content package, which is loaded into this static site builder.
+### 2. Sync 
+* After posts are edited, an AWS Lambda syncing service pulls data from WordPress through the WordPress REST API.
+* The data is processed and loaded into a [static content package](https://github.com/cagov/static-content-cannabis). 
+* When this repo is installed, `npm` will get the site content and make it usable in the 11ty build.
 
 ### 3. Update static site
-* Local builds: `npm run dev`
-* Production builds: will run GitHub actions workflows, when content is updated, and on pull requests and pushes. 
-
-The `./src/.eleventy.js` script generates a static build of the site which is
-All Eleventy configuration settings are located at `./config`. We use multiple branches and production, stating, and other branches, and this configuration file is the source of truth for all settings.
-
-* The content is copied from `node_modules/static-content-cannabis` into `./pages/_content` and used at runtime. 
-* The `./pages/_content.11tydata.js` file is where any domains from the edit are replaces and made relative to the static/headless instance.
-* CA Design System components are located at `./src/components`, and managed via `package.json`. Any custom components are also located in this folder.
+This repo uses [11ty](https://11ty.dev) as a static site builder.
+* The `./src/.eleventy.js` script generates a static build of the site.
 
 ### 4. Publish
 The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 bucket, clear the AWS CloudFront cache and update the deployment.
 * [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml), [PR Previews](./.github/workflows/eleventy_build_pr.yml)
 
 ## Developer notes
+* Local builds: `npm run dev`
+
 * Check out the git repo.
 * Make sure `npm` and `node` are installed locally. Current version: Node 16.x, npm 8.5.0.
 * `npm install` - install the packages in `package.json` and development dependencies.
@@ -40,6 +38,12 @@ The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 buc
 * You can work locally with the markup generated from https://api.cannabis.ca.gov editor. Please refer to https://github.com/cagov/static-content-cannabis for publishing system notes if something is wrong.
 * [NOT YET RE-RELEASED]: `npm test` - run playwright tests.
 * Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md) for additional information.
+* Production builds: will run GitHub actions workflows, when content is updated, and on pull requests and pushes. 
+* All Eleventy configuration settings are located at `./config`. We use multiple branches and production, stating, and other branches, and this configuration file is the source of truth for all settings.
+* The content is copied from `node_modules/static-content-cannabis` into `./pages/_content` and used at runtime. 
+* The `./pages/_content.11tydata.js` file is where any domains from the edit are replaces and made relative to the static/headless instance.
+* CA Design System components are located at `./src/components`, and managed via `package.json`. Any custom components are also located in this folder.
+
 
 ### Updates
 * Submit a pull request to the latest release branch: `release/2.x.x` etc.
