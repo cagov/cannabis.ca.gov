@@ -20,9 +20,9 @@ This repo uses [11ty](https://11ty.dev) as a static site builder.
 
 ### 4. Publish
 We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage publishing and site builds.
-* Our `.yml` script manage how the site is published.
+* Our `.yml` scripts manage how the site is published.
 * The general process is to build the site, update the site's AWS S3 bucket, then clear the AWS CloudFront cache.
-* Workflow files are found at: [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml)
+* Workflow files are found at: [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml)] (*currently disabled*)
 * When submitting a pull request (PR), a separate instance of the site is available through a link in the PR. [PR Previews](./.github/workflows/eleventy_build_pr.yml)
 
 ### System diagram
@@ -84,7 +84,7 @@ Components included are listed as production dependencies in this project's pack
 Design tokens can be found in `./src/css`. 
 
 
-### Cannabis Local Ordinances map
+### Cannabis local ordinances map
 * See [README](./src/components/charts/cannabis-local-ordinances/README.md)
 
 ---
