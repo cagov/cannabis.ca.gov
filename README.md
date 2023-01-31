@@ -4,8 +4,6 @@
 Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Department of Cannabis Control. 
 * Built to deliver plain-language, performant, accessible information.
 
-## Technical overview of domains and services
-
 ## How our static publishing system works
 ### 1. Edit
 * Content is created and edited by DCC staff in WordPress at api.cannabis.ca.gov.
@@ -27,7 +25,7 @@ We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage 
 * Workflow files are found at: [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml)
 * When submitting a pull request (PR), a separate instance of the site is available through a link in the PR. [PR Previews](./.github/workflows/eleventy_build_pr.yml)
 
-## System diagram
+### System diagram
 <img src="./system-diagram.png" width="100%" alt="Diagram of how the content publishing pipeline connects" />
 
 ## Developer notes
