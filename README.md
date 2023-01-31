@@ -12,9 +12,10 @@ Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Depart
 ## How our static publishing system works
 ### 1. Edit
 * Content is created and edited by DCC staff in WordPress at api.cannabis.ca.gov.
+* All media are uploaded to a static bucket.
 
 ### 2. Sync 
-* After posts are edited, an AWS Lambda syncing service pulls data from WordPress through the WordPress REST API.
+* After posts are edited, a notification is fired off, and an AWS Lambda [syncing service](https://github.com/cagov/cannabis-ca-gov-lambda-sync-github) pulls data from WordPress through the WordPress REST API.
 * The data is processed and loaded into a [static content package](https://github.com/cagov/static-content-cannabis). 
 * When this repo is installed, `npm` will get the site content and make it usable in the 11ty build.
 
