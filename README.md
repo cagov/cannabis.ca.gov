@@ -38,12 +38,18 @@ We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage 
 * `npm run content:clean` and `npm run content:update` will get the latest content changes and reset content.
 * You can work locally with the markup generated from https://api.cannabis.ca.gov editor. 
 * [NOT YET RE-RELEASED]: `npm test` - run playwright tests.
+* [NOT INCLUDED]: Linting
 * Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md) for additional information.
-* Production builds: will run GitHub actions workflows, when content is updated, and on pull requests and pushes. 
+
+### Tips
 * All Eleventy configuration settings are located at `./config`. We use multiple branches and production, stating, and other branches, and this configuration file is the source of truth for all settings.
 * The content is copied from `node_modules/static-content-cannabis` into `./pages/_content` and used at runtime. 
 * The `./pages/_content.11tydata.js` file is where any domains from the edit are replaces and made relative to the static/headless instance.
 * CA Design System components are located at `./src/components`, and managed via `package.json`. Any custom components are also located in this folder.
+* Design tokens can be found in `./src/css`. 
+
+### Cannabis local ordinances map
+* See [README](./src/components/charts/cannabis-local-ordinances/README.md)
 
 ### Project management and updates
 * Submit a pull request to the latest release branch: `release/2.x.x` etc.
@@ -61,6 +67,7 @@ This project leverages several components that are part of the <a href="https://
 
 Components included are listed as production dependencies in this project's package.json and are all identifiable because they are published under the @cagov/ organization's prefix:
 
+Examples:
 - @cagov/ds-accordion
 - @cagov/ds-agency-footer
 - @cagov/ds-back-to-top
@@ -78,14 +85,6 @@ Components included are listed as production dependencies in this project's pack
 - @cagov/ds-statewide-header
 - @cagov/ds-step-list
 - @cagov/ds-table
-
-
-### Design Tokens
-Design tokens can be found in `./src/css`. 
-
-
-### Cannabis local ordinances map
-* See [README](./src/components/charts/cannabis-local-ordinances/README.md)
 
 ---
 
