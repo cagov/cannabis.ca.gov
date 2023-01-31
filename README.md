@@ -62,9 +62,9 @@ We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage 
 * Please refer to https://github.com/cagov/static-content-cannabis for more detailed technical notes on how the publishing system is built.
 
 ## Design system components
-This project leverages several components that are part of the <a href="https://designsystem.webstandards.ca.gov/">California design system</a>. These components are maintained in the <a href="https://github.com/cagov/design-system">design system repository</a>, published to `npm`, installed into this project and integrated in to the templates, css and javascript build steps as directed in those project readmes.
+This project leverages several components that are part of the <a href="https://designsystem.webstandards.ca.gov/">California Design System</a>. These components are maintained in the <a href="https://github.com/cagov/design-system">design system repository</a>, published to `npm`, installed into this project and integrated in to the templates, css and javascript build steps as directed in those project READMEs.
 
-Components included are listed as production dependencies in this project's package.json and are all identifiable because they are published under the @cagov/ organization's prefix:
+Components included are listed as production dependencies in this project's package.json and are all identifiable because they are published on npm under the @cagov/ organization's prefix. These components are periodically created and updated by the Design System team. Be aware if the update has impact on the markup, as the companion code may need to be updated in the WordPress editor through the Gutenberg Blocks plugin, and or some legacy markup will need to be updated manually. 
 
 Examples:
 - @cagov/ds-accordion
@@ -84,8 +84,6 @@ Examples:
 - @cagov/ds-statewide-header
 - @cagov/ds-step-list
 - @cagov/ds-table
-
----
 
 ## Team maintenance notes
 Office of Digital Innovation (ODI), is working with the Department of Cannabis Control (DCC), Department of Consumer Affairs (DCA), and the California Department of Technology (CDT) to bring content strategy, user-centered design and performant web publishing on an open-source stack for DCC.
