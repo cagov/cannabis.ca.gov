@@ -24,19 +24,21 @@ This repo uses [11ty](https://11ty.dev) as a static site builder.
 * The `./src/.eleventy.js` script generates a static build of the site.
 
 ### 4. Publish
-The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 bucket, clear the AWS CloudFront cache and update the deployment.
-* [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml), [PR Previews](./.github/workflows/eleventy_build_pr.yml)
+We use [GitHub Actions](https://docs.github.com/en/actions) workflows to manage publishing and site builds.
+* Our `.yml` script manage how the site is published.
+* The general process is to build the site, update the site's AWS S3 bucket, then clear the AWS CloudFront cache.
+* Workflow files are found at: [`main`](./.github/workflows/eleventy_build_main.yml), [`staging`](./.github/workflows/eleventy_build_staging.yml)
+* When submitting a pull request (PR), a separate instance of the site is available through a link in the PR. [PR Previews](./.github/workflows/eleventy_build_pr.yml)
 
 ## Developer notes
-* Local builds: `npm run dev`
 
-* Check out the git repo.
+### Installation
 * Make sure `npm` and `node` are installed locally. Current version: Node 16.x, npm 8.5.0.
 * `npm install` - install the packages in `package.json` and development dependencies.
 * `npm run dev` for local builds.
-* `npm build` to generate static repo at `./docs` - you can run `http-server` or `serve` to view this site in a local web server.
+* `npm build` to generate static repo at `./docs`. You can also run `http-server` or `serve` to view this site in a local web server.
 * `npm run content:clean` and `npm run content:update` will get the latest content changes and reset content.
-* You can work locally with the markup generated from https://api.cannabis.ca.gov editor. Please refer to https://github.com/cagov/static-content-cannabis for publishing system notes if something is wrong.
+* You can work locally with the markup generated from https://api.cannabis.ca.gov editor. 
 * [NOT YET RE-RELEASED]: `npm test` - run playwright tests.
 * Check the [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md) for additional information.
 * Production builds: will run GitHub actions workflows, when content is updated, and on pull requests and pushes. 
@@ -45,13 +47,19 @@ The GitHub Actions workflows in @cagov/cannabis.ca.gov will update an AWS S3 buc
 * The `./pages/_content.11tydata.js` file is where any domains from the edit are replaces and made relative to the static/headless instance.
 * CA Design System components are located at `./src/components`, and managed via `package.json`. Any custom components are also located in this folder.
 
-
-### Updates
+### Project management and updates
 * Submit a pull request to the latest release branch: `release/2.x.x` etc.
+* We use a task board in Coda to manage our support issues and past development. 
+* For future development, use the desired project management tool.
+* If a public issue trail is desired, we recommend creating tickets for concrete code tasks that pertain to the code, and linking the issue in any all team internal tracking tools.
+
+### Troubleshooting
+* Check the status of [GitHub Actions](https://github.com/cagov/cannabis.ca.gov/actions) to see if the site built.
+* Check status of [AWS](https://health.aws.amazon.com/health/status), [Github](https://www.githubstatus.com/)
+* Please refer to https://github.com/cagov/static-content-cannabis for more detailed technical notes on how the publishing system is built.
 
 ## Design system components
-
-This project leverages several components that are part of the <a href="https://designsystem.webstandards.ca.gov/">California design system</a>. These components are maintained in the <a href="https://github.com/cagov/design-system">design system repository</a>, published to npm, installed into this project and integrated in to the templates, css and javascript build steps as directed in those project readmes.
+This project leverages several components that are part of the <a href="https://designsystem.webstandards.ca.gov/">California design system</a>. These components are maintained in the <a href="https://github.com/cagov/design-system">design system repository</a>, published to `npm`, installed into this project and integrated in to the templates, css and javascript build steps as directed in those project readmes.
 
 Components included are listed as production dependencies in this project's package.json and are all identifiable because they are published under the @cagov/ organization's prefix:
 
@@ -77,6 +85,10 @@ Components included are listed as production dependencies in this project's pack
 ### Design Tokens
 Design tokens can be found in `./src/css`. 
 
+
+### Cannabis Local Ordinances map
+* See [README](./src/components/charts/cannabis-local-ordinances/README.md)
+
 ---
 
 ## Team maintenance notes
@@ -91,4 +103,4 @@ Office of Digital Innovation (ODI), is working with the Department of Cannabis C
 * Slack channels: #odi-cannabis (ODI internal team channel), #cagov-cannabis (Multi-partner channel)
 * Content guide: In Coda workspace
 
-* (DEPRECATED): https://github.com/orgs/cagov/projects/6. 
+* (DEPRECATED) Project board: https://github.com/orgs/cagov/projects/6. 
