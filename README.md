@@ -6,8 +6,8 @@ Production instance of [cannabis.ca.gov](https://cannabis.ca.gov) for the Depart
 
 ## How our static publishing system works
 ### 1. Edit content
-* Content is created and edited by DCC staff in a WordPress instance hosted by Pantheon at api.cannabis.ca.gov.
-* All media are uploaded to a static S3 bucket on AWS.
+* Content is created and edited by DCC staff in a WordPress instance hosted by Pantheon at [api.cannabis.ca.gov](https://api.cannabis.ca.gov/).
+* All media are uploaded to the /wp-content/uploads/ directory of a static S3 bucket on AWS, and read via the Cloudfront CDN from the domain [cannabis.ca.gov](https://cannabis.ca.gov). This same bucket and cloudfront distribution are used for delivering the static website, which is updated as part of the publishing process, described below.
 
 ### 2. Sync content to static content repo
 * After posts are edited, a notification is fired off, and an AWS Lambda [syncing service](https://github.com/cagov/cannabis-ca-gov-lambda-sync-github) pulls data from WordPress through the WordPress REST API.  Notifications are produced using the Wordpress plugin 'Notifications' from [BracketSpace](https://bracketspace.com/).
