@@ -2726,7 +2726,7 @@
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
@@ -2734,7 +2734,7 @@
       "Are all CCA activites prohibited?": "Yes",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-02-06"
    },
    "Avalon (Catalina Island)": {
       "CA Places Key": "Avalon",
