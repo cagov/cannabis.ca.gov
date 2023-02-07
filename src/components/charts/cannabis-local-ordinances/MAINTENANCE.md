@@ -12,12 +12,20 @@
 
 3. Manually update **static**/assets/data/cannabis-local-ordinances-interactive.2022-01-22.csv
 
+   ```diff
+
+    - Artesia,Los Angeles County,City,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Prohibited,Yes,Yes,,2022-01-06
+
+    + Artesia,Los Angeles County,City,Prohibited,*Allowed*,Prohibited,Prohibited,Prohibited,Prohibited,Yes,*No*,,*2023-02-06*
+
+   ```
+
 4. Bump versions in package.json
 
    - `"version"`
    - `"scripts": {"build:bundle"}`
 
-5. Run script
+5. Run script twice
 
    `npm run build:bundle`
 
@@ -25,7 +33,7 @@
 
 7. Replace previous js bundle (ei 1.0.8) with and new js bundle (ei 1.0.9) through [WordPress UI > CAWeb Options > Custom JS](https://api.cannabis.ca.gov/wp-admin/admin.php?page=caweb_options)
 
-8. Replace csv in the [WordPress Media Library](https://api.cannabis.ca.gov/wp-admin/post.php?post=9697&action=edit)
+8. Replace csv in the [WordPress Media Library](https://api.cannabis.ca.gov/wp-admin/post.php?post=9697&action=edit) In order to cache bust, upload a file with a new name.
 
 9. Update tracker boxes [WordPress UI - Where cannabis businesses are allowed](https://api.cannabis.ca.gov/wp-admin/post.php?post=9654&action=edit)
 
