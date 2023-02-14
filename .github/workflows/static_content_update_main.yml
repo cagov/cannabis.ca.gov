@@ -36,8 +36,8 @@ jobs:
             content-update
             automerge
           commit-message: "Automated PR: Static content update"
-          team-reviewers: |
-            ${{ secrets.PR_REVIEWERS }}
+          # team-reviewers: |
+          #  ${{ secrets.PR_REVIEWERS }}
       - name: Check outputs
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
