@@ -86,13 +86,13 @@ jobs:
       #     dest: 's3://cannabis.ca.gov/wp-content/uploads/sites/2'
       #     flags: --recursive --cache-control max-age=15552000
 
+      - name: Deploy redirects
+        run: |
+          AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       - name: Invalidate Cloudfront (cannabis.ca.gov)
         run: aws cloudfront create-invalidation --distribution-id E2RLC9PDB1JLNI --paths "/*"
 
-      - name: Deploy redirects
-        run: |
-          AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       
 

@@ -12,25 +12,26 @@ on:
     branches:
       - staging
 
+concurrency: 
+  group: sync_staging_deployments
+  cancel-in-progress: true
+
 jobs:
   build_deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: Cancel previous site:build:staging
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@master
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Build 11ty
+          cache: 'npm'
+      - name: Install packages
         run: |
           mkdir dist
-          npm install
+          npm ci --production
+      - name: Build 11ty
+        run: |
           SITE_ENV=staging DOMAIN=staging.cannabis.ca.gov npm run build
-          # npm run test:setup
       - name: Write robots.txt
         run: |
           echo 'User-agent: *' > docs/robots.txt
@@ -42,17 +43,17 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_staging
-      # Push built site files to S3 bucket    
-      - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
+
+      # Set up AWS CLI
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          args: --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: 'staging.cannabis.ca.gov'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
-          SOURCE_DIR: ./docs # only move built directory
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
+
+      - name: Deploy to S3 (staging.cannabis.ca.gov)
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://staging.cannabis.ca.gov --exclude 'wp-content/uploads/*'
 
       # Reset the cache-control headers on static assets on S3 bucket
       - name: Reset cache-control on static files
@@ -64,17 +65,21 @@ jobs:
           source: './docs/fonts'
           dest: 's3://staging.cannabis.ca.gov/fonts'
           flags: --recursive --cache-control max-age=15552000
+      - name: Reset cache-control on assets
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/assets'
+          dest: 's3://staging.cannabis.ca.gov/assets'
+          flags: --recursive --cache-control max-age=15552000
+
 
       # - name: Deploy redirects
       #  run: |
       #    AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       # Invalidate Cloudfront production distribution
-      - name: Invalidate Cloudfront cache
-        uses: chetan/invalidate-cloudfront-action@v1.3
-        env:
-          DISTRIBUTION: 'EQTK6QDHAMA8Z'
-          PATHS: '/*'
-          AWS_REGION: 'us-west-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  
+      - name: Invalidate Cloudfront (cannabis.ca.gov)
+        run: aws cloudfront create-invalidation --distribution-id EQTK6QDHAMA8Z --paths "/*"
