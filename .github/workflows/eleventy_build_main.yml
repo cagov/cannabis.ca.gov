@@ -91,6 +91,9 @@ jobs:
           AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       - name: Invalidate Cloudfront (cannabis.ca.gov)
+        env:
+           AWS_RETRY_MODE: standard
+           AWS_MAX_ATTEMPTS: 6
         run: aws cloudfront create-invalidation --distribution-id E2RLC9PDB1JLNI --paths "/*"
 
 
