@@ -14,5 +14,5 @@ window.gtag = function () {
 };
 gtag("js", new Date());
 gtag("config", "G-69TD0KNT0F"); // Statewide GA4 measurement ID
-gtag("config", "G-75V2BNQ3DR"); // DCC (Cannabis) GA4 measurement ID
+gtag("config", "G-PJDVH1C2JS"); // DCC (Cannabis) GA4 measurement ID
 
