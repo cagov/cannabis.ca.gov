@@ -3,7 +3,7 @@
 (function () {
   const ga = document.createElement("script");
   ga.async = true;
-  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-75V2BNQ3DR";
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-PJDVH1C2JS";
   const s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(ga, s);
 })();
