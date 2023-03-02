@@ -8343,3 +8343,12 @@ ol.steps li:nth-child(24):before {
 ol.steps li:last-child {
   border-left: none;
 }
+
+/* centered tds */
+th {
+  text-align: -webkit-match-parent;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
