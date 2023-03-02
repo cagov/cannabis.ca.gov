@@ -146,3 +146,10 @@ ol.steps {
     border-left: none;
   }
   
+  /* centered tds */
+  th {
+      text-align: -webkit-match-parent;
+  }
+  .has-text-align-center {
+      text-align: center;
+  }
