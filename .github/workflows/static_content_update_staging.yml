@@ -5,18 +5,22 @@ on:
   repository_dispatch:
     types: [static_content_update_staging]
 
+concurrency: 
+  group: sync_static_content_update_staging
+  cancel-in-progress: true
+
 jobs:
   build_deploy:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
+      - run: npm ci --production
       - name: Check for static content updates # update static content repo. 
         run: |
-          mkdir dist
           npm update static-content-cannabis-staging
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
         id: cpr
