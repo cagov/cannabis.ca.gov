@@ -33,7 +33,7 @@ jobs:
           body: |
            Method: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis-staging (Static content repo, staging branch)
           labels: |
-            content-update
+            content-update-staging
             automerge
           commit-message: "Automated PR: Static content update [STAGING]"
           # team-reviewers: |
