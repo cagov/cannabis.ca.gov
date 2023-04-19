@@ -8,6 +8,11 @@ on:
     types: ['completed']
     branches:
       - staging
+  workflow_dispatch:
+  repository_dispatch:
+    types: [static_content_update_staging]
+    branches:
+      - staging
   push:
     branches:
       - staging
