@@ -11,7 +11,7 @@ function ratingsTemplate(
   <section aria-label="feedback">
   <div class="feedback-form cagov-stack">
     <div class="js-feedback-form feedback-form-question">
-      <h2 class="feedback-form-label" id="feedback-rating">HELLO ${question}</h2>
+      <h2 class="feedback-form-label" id="feedback-rating">GOODBYE ${question}</h2>
       <button class="btn-light m-r-2 js-feedback-yes feedback-yes" id="feedback-yes">${yes}</button>
       <button class="btn-light js-feedback-no" id="feedback-no">${no}</button>
     </div>
