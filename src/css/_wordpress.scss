@@ -168,6 +168,9 @@ figure img {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
   }
+  .printbtncls {
+    display:none;
+  }
 }
 
 .wp-block-image:not(.is-style-rounded) > a,

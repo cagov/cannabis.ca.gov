@@ -153,3 +153,40 @@ ol.steps {
   .has-text-align-center {
       text-align: center;
   }
+  /* mukhtar css start */
+.printbtncls{
+  float:right;
+}
+.printbtn{
+  cursor:pointer;
+}
+/* override styles when printing */
+@media print {
+  // @page {
+  //   margin-top: 3cm;
+  //   margin-bottom: 3cm;
+  // }
+  // @page :first {
+  //   margin-top: 0;
+
+  // }
+  cagov-site-navigation{
+    display:none;
+  }
+  aside {
+    display: none;
+  }
+  .printbtncls{
+    display:none;
+  }
+
+  .search-container{
+    display:none;
+  }
+  .footer-container{
+    display:none;
+  }
+  .site-header .mobile-icons {
+    display:none;
+  }
+}
