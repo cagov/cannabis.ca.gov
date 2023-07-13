@@ -5706,6 +5706,9 @@ figure img {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
   }
+  .printbtncls {
+    display: none;
+  }
 }
 .wp-block-image:not(.is-style-rounded) > a,
 .wp-block-image:not(.is-style-rounded) img {
@@ -7909,6 +7912,9 @@ figure img {
   .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100% !important;
   }
+  .printbtncls {
+    display: none;
+  }
 }
 .wp-block-image:not(.is-style-rounded) > a,
 .wp-block-image:not(.is-style-rounded) img {
@@ -8351,4 +8357,35 @@ th {
 
 .has-text-align-center {
   text-align: center;
+}
+
+/* mukhtar css start */
+.printbtncls {
+  float: right;
+}
+
+.printbtn {
+  cursor: pointer;
+}
+
+/* override styles when printing */
+@media print {
+  cagov-site-navigation {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  .printbtncls {
+    display: none;
+  }
+  .search-container {
+    display: none;
+  }
+  .footer-container {
+    display: none;
+  }
+  .site-header .mobile-icons {
+    display: none;
+  }
 }
