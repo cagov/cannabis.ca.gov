@@ -111,8 +111,15 @@ function insertValueIntoSpanTag(string, value, prop) {
  * @returns {object} - object with various data attributes to be used in tooltip template.
  */
 function getPlaceTooltipData(data, props) {
-  const { dataPlaces, selectedCounty } = data;
+  const { activities, dataPlaces, selectedCounty } = data;
   const { name } = props;
+
+  // this routine is ignoring activities, and should not
+  console.log("Called getPlaceTooltipData");
+  console.log("  activities",activities);
+  console.log("  selectedCounty",selectedCounty);
+  console.log("  props",props);
+  console.log("  dataPlaces",dataPlaces);
 
   data.mapStatusColors = {
     Yes: "#CF5028", // Orange
@@ -136,9 +143,27 @@ function getPlaceTooltipData(data, props) {
 
   // console.log("currentPlaceName", currentPlaceName);
   const placeData = dataPlaces[currentPlaceName];
+  console.log("  placeData",placeData);
   try {
-    const prohibitionStatus = placeData["Are all CCA activites prohibited?"];
-
+    var prohibitionStatus = placeData["Are all CCA activites prohibited?"];
+    switch (activities) {
+      case "Retail":
+        prohibitionStatus = placeData["Is all retail prohibited?"];
+        break;
+      case "Cultivation":
+        prohibitionStatus = placeData["Cultivation"] === "Prohibited" ? "Yes" : "No";
+        break;
+      case "Manufacturing":
+        prohibitionStatus = placeData["Manufacturing"] === "Prohibited" ? "Yes" : "No";
+        break;
+      case "Distribution":
+        prohibitionStatus = placeData["Distribution"] === "Prohibited" ? "Yes" : "No";
+        break;
+      case "Testing":
+        prohibitionStatus = placeData["Testing"] === "Prohibited" ? "Yes" : "No";
+        break;
+    }
+    
     // let activityPercentages = getActivityPercentages(data, props);
 
     return {
