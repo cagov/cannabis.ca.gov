@@ -115,12 +115,53 @@ module.exports = function eleventyBuild(eleventyConfig) {
       // Replace any domain from replace list with the canonical url for the current build.
       // For this cannabis.ca.gov instance, there are multiple URL sources coming from different backend systems
       config.build.replace_urls.forEach((rootPath) => {
-        if (html !== undefined && html.includes(rootPath) && !html.includes('wp-content/uploads')) {
+        /* the old code below was replacing the rootPath in the entire html, 
+           and skipping pages that contained mixed media and non-media URLs */
+        /* if (html !== undefined && html.includes(rootPath)  && !html.includes('wp-content/uploads') ) {
+          console.log("Replacing rootPath: " + rootPath + " with: " + config.build.canonical_site_url);
           html = html.replace(
             new RegExp(rootPath, "g"),
             config.build.canonical_site_url
           );
+        } */
+
+        /* I've modified the code to examine the URLs individually */
+        if (html !== undefined && html.includes(rootPath) /* && !html.includes('wp-content/uploads') */) {
+          // Split the HTML by anchor tags (<a>...</a>)
+          const anchorTags = html.split(/(<a.*?<\/a>)/);
+          // Loop through each anchor tag and replace links one at a time
+          for (let i = 0; i < anchorTags.length; i++) {
+            const anchorTag = anchorTags[i];
+      
+            // Check if the current element is an anchor tag
+            if (anchorTag.includes('<a')) {
+              // Extract the href attribute value from the anchor tag
+              const hrefMatch = anchorTag.match(/href="([^"]*)"/);
+              if (hrefMatch && hrefMatch[1]) {
+                const hrefValue = hrefMatch[1];
+      
+                // Skip if the rootPath is not in the URL or if it is a media URL, which should not be transformed
+                if (!hrefValue.includes(rootPath) || hrefValue.includes('wp-content/uploads')) {
+                  continue;
+                }
+                // Replace the rootPath with the new URL from config.build.canonical_site_url
+                const newHrefValue = hrefValue.replace(new RegExp(rootPath, "g"), config.build.canonical_site_url);
+      
+                // Replace the old href attribute value with the new one
+                const updatedAnchorTag = anchorTag.replace(hrefValue, newHrefValue);
+                // debugging
+                console.log("Replacing: " + hrefValue + " with: " + newHrefValue);
+      
+                // Replace the original anchor tag in the anchorTags array with the updated one
+                anchorTags[i] = updatedAnchorTag;
+              }
+            }
+          }
+      
+          // Join the updated anchor tags back into a single string
+          html = anchorTags.join('');
         }
+
         return false;
       });
 
