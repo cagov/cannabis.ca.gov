@@ -160,6 +160,20 @@ ol.steps {
 .printbtn{
   cursor:pointer;
 }
+/* query block css */
+
+.wp-block-query ul{
+  list-style-type:none;
+}
+
+.wp-block-query ul li{
+  margin-left:0;
+}
+
+.wp-block-query ul li h3{
+  margin-bottom:0;
+}
+
 /* override styles when printing */
 @media print {
   // @page {
