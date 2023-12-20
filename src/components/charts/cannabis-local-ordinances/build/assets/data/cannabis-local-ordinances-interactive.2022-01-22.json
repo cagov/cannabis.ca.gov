@@ -448,7 +448,7 @@
       "County label": "Monterey County",
       "Jurisdiction Type": "County",
       "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Allowed",
+      "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -456,7 +456,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-08"
    },
    "Napa County": {
       "CA Places Key": "",
@@ -1757,7 +1757,7 @@
       "County label": "Contra Costa County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
@@ -5244,13 +5244,13 @@
       "Retail: Storefront": "Prohibited",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
-      "Testing": "Allowed",
+      "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "No",
+      "Are all CCA activites prohibited?": "Yes",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-14"
    },
    "Los Alamitos": {
       "CA Places Key": "Los Alamitos",
@@ -5836,16 +5836,16 @@
       "County": "Riverside",
       "County label": "Riverside County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-15"
    },
    "Jurupa Valley": {
       "CA Places Key": "Jurupa Valley",
@@ -6227,7 +6227,7 @@
       "County": "San Benito",
       "County label": "San Benito County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
@@ -6236,7 +6236,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-08"
    },
    "San Juan Bautista": {
       "CA Places Key": "San Juan Bautista",
@@ -6959,7 +6959,7 @@
       "County label": "San Diego County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Allowed",
+      "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -6967,7 +6967,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-08"
    },
    "San Francisco": {
       "CA Places Key": "San Francisco",
@@ -8403,16 +8403,16 @@
       "County": "Sonoma",
       "County label": "Sonoma County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
-      "Testing": "Prohibited",
-      "Manufacturing": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "Yes",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-08"
    },
    "Petaluma": {
       "CA Places Key": "Petaluma",
@@ -8726,16 +8726,16 @@
       "County": "Tehama",
       "County label": "Tehama County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
-      "Testing": "Prohibited",
-      "Manufacturing": "Prohibited",
-      "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2023-12-14"
    },
    "Tehama": {
       "CA Places Key": "Tehama",
