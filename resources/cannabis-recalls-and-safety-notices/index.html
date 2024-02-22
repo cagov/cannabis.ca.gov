@@ -8930,7 +8930,7 @@ cagov-pagination .cagov-pagination__link-inactive {
         });
         const newColumnOrder = [0, 1, 2, 3, 4, 5]
         vol_table.colReorder.order(newColumnOrder).draw();
-if (vol_table.page.info().recordsTotal <= 20) {
+if (vol_table.page.info().recordsTotal <= 10) {
   $('.dataTables_paginate').hide();
   $('.dataTables_info').hide();
   $('.dataTables_length').hide();
