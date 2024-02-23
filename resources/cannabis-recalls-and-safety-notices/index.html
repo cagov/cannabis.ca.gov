@@ -8959,4 +8959,51 @@ display:none;
           L32.2,21.4z M32.2,22.9c-0.8,0-1.4,0.3-2,0.8c-0.5,0.5-0.8,1.2-0.8,2.1c0,0.9,0.3,1.7,1,2.2c0.5,0.4,1.1,0.6,1.8,0.6
           c0.8,0,1.4-0.3,1.9-0.8c0.5-0.6,0.8-1.2,0.8-2c0-0.8-0.3-1.5-0.8-2C33.6,23.2,33,22.9,32.2,22.9L32.2,22.9z"/><polygon class="gov" points="36.3,21.6 38,21.6 40.1,27.6 42.2,21.6 43.9,21.6 40.8,30 39.3,30 36.3,21.6 	"/></g></svg></a><div class="footer-secondary-links"><a href="https://ca.gov" rel="noopener noreferrer" target="_blank"><span class="sr-only">ca.gov</span></a> <a href="https://www.ca.gov/use/" rel="noopener noreferrer" target="_blank">Conditions of Use</a> <a href="/dcc-privacy-policy/" rel="noopener noreferrer" target="_blank">Privacy Policy</a> <a href="https://www.ca.gov/accessibility/" rel="noopener noreferrer" target="_blank">Accessibility</a></div><p class="copyright">Copyright &copy;&nbsp; <span class="js-cagov-current-year"></span><script>document
             .querySelector('.js-cagov-current-year')
-            .innerHTML = new Date().getFullYear();</script>&nbsp;State of California</p></div></div><cagov-back-to-top data-hide-after="7000" data-label="Back to top"></cagov-back-to-top></footer></div></body></html>
+            .innerHTML = new Date().getFullYear();
+            // Get the current pathname
+
+var currentPathname = window.location.pathname;
+
+ 
+
+// Find the div element with the class 'wp-block-query'
+
+var queryDiv = document.querySelector('.wp-block-query');
+
+ 
+
+if (queryDiv) {
+
+  // Find all the 'li' elements within the 'div'
+
+  var listItems = queryDiv.querySelectorAll('li');
+
+ 
+
+  // Loop through the 'li' elements
+
+  listItems.forEach(function (li) {
+
+    var link = li.querySelector('a'); // Assuming 'a' elements contain the href
+
+    if (link) {
+
+      var href = link.getAttribute('href');
+
+     
+
+      // Check if the href matches the current pathname
+
+      if (href.includes(currentPathname)) {
+
+        // Remove the 'li' element if the href matches
+
+        li.parentNode.removeChild(li);
+
+      }
+
+    }
+
+  });
+
+}</script>&nbsp;State of California</p></div></div><cagov-back-to-top data-hide-after="7000" data-label="Back to top"></cagov-back-to-top></footer></div></body></html>
