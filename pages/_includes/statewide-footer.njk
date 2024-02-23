@@ -52,6 +52,55 @@
           document
             .querySelector('.js-cagov-current-year')
             .innerHTML = new Date().getFullYear();
+            //Start Circular Links Removal - by Mukhtar
+            // Get the current pathname
+
+var currentPathname = window.location.pathname;
+
+ 
+
+// Find the div element with the class 'wp-block-query'
+
+var queryDiv = document.querySelector('.wp-block-query');
+
+ 
+
+if (queryDiv) {
+
+  // Find all the 'li' elements within the 'div'
+
+  var listItems = queryDiv.querySelectorAll('li');
+
+ 
+
+  // Loop through the 'li' elements
+
+  listItems.forEach(function (li) {
+
+    var link = li.querySelector('a'); // Assuming 'a' elements contain the href
+
+    if (link) {
+
+      var href = link.getAttribute('href');
+
+     
+
+      // Check if the href matches the current pathname
+
+      if (href.includes(currentPathname)) {
+
+        // Remove the 'li' element if the href matches
+
+        li.parentNode.removeChild(li);
+
+      }
+
+    }
+
+  });
+
+}
+            //End Circular Links Removal
         </script>&nbsp;{{ 'State of California' | i18n(locale) }}
       </p>
     </div>
