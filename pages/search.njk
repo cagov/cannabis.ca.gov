@@ -40,7 +40,7 @@
 						<!-- Page Title-->
 						<h1 class="page-title">{{ 'Search Results' | i18n(locale) }} "<span class="query-display"></span>"</h1>
 						<div class="entry-content">
-							<div class="gcse-searchresults-only">
+							<div class="gcse-searchresults-only" data-webSearchSafesearch="active">
 						</div>
 					</article>
 				</div>
@@ -51,6 +51,44 @@
 {# https://cse.google.com/cse.js?cx=001779225245372747843:o_16poin-0q #}
 
 <script>
+	function myWebResultsReadyCallback() {
+		console.log("WEB RESULTS READY");
+	}
+	function myWebResultsRenderedCallback(gname, query, promoElts, resultElts) {
+		console.log("WEB RESULTS RENDERED");
+		// const colors = ['Gainsboro', 'FloralWhite'];
+		// let colorSelector = 0;
+		for (const result of resultElts) {
+			// result.style.backgroundColor = colors[colorSelector];
+			// colorSelector = (colorSelector + 1) % colors.length;
+			var titles = result.getElementsByClassName('gs-title');
+			console.log("elements found",titles.length);
+			var gotOne = false;
+			for (title of titles) {
+				// get data-cturl contents if present
+				if ('cturl' in title.dataset) {
+					var cturl = title.dataset.cturl;
+					if (cturl.includes('/search')) {
+						console.log("SEARCH FOUND");
+						result.style.display = 'none';
+						gotOne = true;
+					}
+				}
+			}
+			// catches the occasional listing which does not have a cturl link
+			if (gotOne == false && result.innerHTML.includes('/search')) {
+				result.style.backgroundColor = 'red';
+				result.style.display = 'none';
+				gotOne = true;
+			}
+		}
+
+		// var searchresults= document.getElementsByClassName("gsc-webResult");
+		// console.log("Search results length: " + searchResults.length);
+		// inside look for a.gs-title that contains data-cturl that contains "/search/"
+		// if found, hide the parent.
+	}
+
 	function sanitize(string) {
    	   console.log("sanitize");
 		const map = {
@@ -69,6 +107,27 @@
 	gcse.type = 'text/javascript';
 	gcse.async = true;
 	gcse.src = 'https://cse.google.com/cse.js?language=en-US&cx=' + cx;
+
+	// add resultsreadycallback - jbum
+	// gcse.searchCallbacks.web.ready = myWebResultsReadyCallback;
+	window.__gcse = {
+		// parsetags: 'explicit', // Defaults to 'onload'
+		// initializationCallback: myInitializationCallback,
+		searchCallbacks: {
+		// image: {
+		//	starting: myImageSearchStartingCallback,
+		//	ready: myImageResultsReadyCallback,
+		//	rendered: myImageResultsRenderedCallback,
+		// },
+		web: {
+			// starting: myWebSearchStartingCallback,
+			ready: myWebResultsReadyCallback,
+			rendered: myWebResultsRenderedCallback,
+		},
+		},
+	};
+
+
 	const s = document.getElementsByTagName('script');
 	s[s.length - 1]
 		.parentNode
@@ -105,6 +164,10 @@
 		history.pushState(null, null, `${currentHost}${window.location.pathname}?q=${query}`);
 	}
 	myWebSearchStartingCallback(query)
+
+
+
+
 </script>
 
 {% endblock %}
