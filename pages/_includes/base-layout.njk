@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="{{ locale }}" xml:lang="{{ locale }}" dir="{{ dir }}">
   <head>
+    {% if noindex %}<meta name="robots" content="noindex">{% endif %}
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta content="en" http-equiv="Content-Language">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
