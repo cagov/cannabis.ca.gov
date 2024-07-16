@@ -68,15 +68,15 @@
     "@cagov/ds-regulatory-outline": "^1.0.1",
     "@cagov/ds-site-footer": "^2.0.0",
     "@cagov/ds-site-header": "^2.0.0",
-    "@cagov/ds-site-navigation": "^3.0.0",
+    "@cagov/ds-site-navigation": "^3.0.2",
     "@cagov/ds-skip-to-content": "^2.0.0",
     "@cagov/ds-statewide-footer": "^2.0.0",
     "@cagov/ds-statewide-header": "^2.0.0",
     "@cagov/ds-step-list": "^3.0.0",
     "@cagov/ds-table": "^1.0.1",
+    "aws-sdk": "^2.1270.0",
     "cheerio": "^1.0.0-rc.12",
     "cross-env": "^7.0.3",
-    "aws-sdk": "^2.1270.0",
     "static-content-cannabis": "github:cagov/static-content-cannabis#main",
     "static-content-cannabis-staging": "github:cagov/static-content-cannabis#staging"
   }
