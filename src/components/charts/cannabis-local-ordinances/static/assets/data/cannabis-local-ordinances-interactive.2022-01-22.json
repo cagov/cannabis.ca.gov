@@ -592,7 +592,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "No",
-      "Updated": "2022-08-17"
+      "Updated": "2024-07-16"
    },
    "San Bernardino County": {
       "CA Places Key": "",
@@ -1519,15 +1519,15 @@
       "County label": "Contra Costa County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "El Cerrito": {
       "CA Places Key": "El Cerrito",
@@ -2113,8 +2113,8 @@
       "County": "Humboldt",
       "County label": "Humboldt County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Allowed",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -2122,7 +2122,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-16"
    },
    "Blue Lake": {
       "CA Places Key": "Blue Lake",
@@ -2572,16 +2572,16 @@
       "County": "Kings",
       "County label": "Kings County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Prohibited",
-      "Testing": "Prohibited",
+      "Testing": "Limited-Medical Only",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Hanford": {
       "CA Places Key": "Hanford",
@@ -2776,7 +2776,7 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Prohibited",
@@ -2785,7 +2785,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2022-07-16"
    },
    "Bell": {
       "CA Places Key": "Bell",
@@ -2810,7 +2810,7 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
@@ -2819,7 +2819,7 @@
       "Are all CCA activites prohibited?": "Yes",
       "Is all retail prohibited?": "Yes",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Bellflower": {
       "CA Places Key": "Bellflower",
@@ -2997,16 +2997,16 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Prohibited",
-      "Testing": "Prohibited",
+      "Testing": "Limited-Medical Only",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Cudahy": {
       "CA Places Key": "Cudahy",
@@ -3201,16 +3201,16 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
-      "Testing": "Prohibited",
-      "Manufacturing": "Prohibited",
-      "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited-Medical Only",
+      "Distribution": "Allowed",
+      "Testing": "Allowed",
+      "Manufacturing": "Allowed",
+      "Cultivation": "Allowed",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Hermosa Beach": {
       "CA Places Key": "Hermosa Beach",
@@ -3762,16 +3762,16 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Rolling Hills": {
       "CA Places Key": "Rolling Hills",
@@ -3936,12 +3936,12 @@
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
-      "Manufacturing": "Limited-Medical Only",
+      "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Sierra Madre": {
       "CA Places Key": "Sierra Madre",
@@ -3983,16 +3983,16 @@
       "County": "Los Angeles",
       "County label": "Los Angeles County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "South Gate": {
       "CA Places Key": "South Gate",
@@ -4391,16 +4391,16 @@
       "County": "Mendocino",
       "County label": "Mendocino County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Allowed",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Allowed",
-      "Distribution": "Allowed",
-      "Testing": "Allowed",
-      "Manufacturing": "Allowed",
+      "Distribution": "Limited-Medical Only",
+      "Testing": "Limited-Medical Only",
+      "Manufacturing": "Limited-Medical Only",
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Point Arena": {
       "CA Places Key": "Point Arena",
@@ -4697,16 +4697,16 @@
       "County": "Monterey",
       "County label": "Monterey County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited",
       "Distribution": "Prohibited",
       "Testing": "Allowed",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Pacific Grove": {
       "CA Places Key": "Pacific Grove",
@@ -4837,12 +4837,12 @@
       "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
-      "Manufacturing": "Allowed",
+      "Manufacturing": "Limited-Medical Only",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "St. Helena": {
       "CA Places Key": "St. Helena",
@@ -5224,16 +5224,16 @@
       "County": "Orange",
       "County label": "Orange County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Lake Forest": {
       "CA Places Key": "Lake Forest",
@@ -5734,7 +5734,7 @@
       "County": "Riverside",
       "County label": "Riverside County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Allowed",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
@@ -5743,7 +5743,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Corona": {
       "CA Places Key": "Corona",
@@ -5836,16 +5836,16 @@
       "County": "Riverside",
       "County label": "Riverside County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Jurupa Valley": {
       "CA Places Key": "Jurupa Valley",
@@ -6040,16 +6040,16 @@
       "County": "Riverside",
       "County label": "Riverside County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
+      "Distribution": "Allowed",
       "Testing": "Allowed",
-      "Manufacturing": "Prohibited",
+      "Manufacturing": "Allowed",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "San Jacinto": {
       "CA Places Key": "San Jacinto",
@@ -6380,16 +6380,16 @@
       "County": "San Bernardino",
       "County label": "San Bernardino County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Grand Terrace": {
       "CA Places Key": "Grand Terrace",
@@ -6857,7 +6857,7 @@
       "County label": "San Diego County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Allowed",
+      "Retail: Non-Storefront": "Limited-Medical Only",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
@@ -6865,7 +6865,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Poway": {
       "CA Places Key": "Poway",
@@ -6924,16 +6924,16 @@
       "County": "San Diego",
       "County label": "San Diego County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Prohibited",
-      "Testing": "Prohibited",
-      "Manufacturing": "Prohibited",
-      "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Retail: Storefront": "Limited-Medical Only",
+      "Retail: Non-Storefront": "Limited-Medical Only",
+      "Distribution": "Limited-Medical Only",
+      "Testing": "Limited-Medical Only",
+      "Manufacturing": "Limited-Medical Only",
+      "Cultivation": "Limited-Medical Only",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Solana Beach": {
       "CA Places Key": "Solana Beach",
@@ -7043,16 +7043,16 @@
       "County": "San Joaquin",
       "County label": "San Joaquin County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Prohibited",
       "Testing": "Prohibited",
       "Manufacturing": "Prohibited",
       "Cultivation": "Prohibited",
-      "Are all CCA activites prohibited?": "Yes",
-      "Is all retail prohibited?": "Yes",
+      "Are all CCA activites prohibited?": "No",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Ripon": {
       "CA Places Key": "Ripon",
@@ -8641,7 +8641,7 @@
       "County": "Stanislaus",
       "County label": "Stanislaus County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Allowed",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
@@ -8650,7 +8650,7 @@
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Waterford": {
       "CA Places Key": "Waterford",
@@ -8982,15 +8982,15 @@
       "County label": "Ventura County",
       "Jurisdiction Type": "City",
       "Retail: Storefront": "Allowed",
-      "Retail: Non-Storefront": "Allowed",
+      "Retail: Non-Storefront": "Prohibited",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
-      "Cultivation": "Prohibited",
+      "Cultivation": "Limited-Medical Only",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Port Hueneme": {
       "CA Places Key": "Port Hueneme",
@@ -9100,16 +9100,16 @@
       "County": "Yolo",
       "County label": "Yolo County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Prohibited",
-      "Retail: Non-Storefront": "Prohibited",
+      "Retail: Storefront": "Allowed",
+      "Retail: Non-Storefront": "Allowed",
       "Distribution": "Allowed",
       "Testing": "Allowed",
       "Manufacturing": "Allowed",
       "Cultivation": "Allowed",
       "Are all CCA activites prohibited?": "No",
-      "Is all retail prohibited?": "Yes",
+      "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-01-22"
+      "Updated": "2024-07-16"
    },
    "Winters": {
       "CA Places Key": "Winters",
@@ -9134,16 +9134,16 @@
       "County": "Yolo",
       "County label": "Yolo County",
       "Jurisdiction Type": "City",
-      "Retail: Storefront": "Allowed",
+      "Retail: Storefront": "Limited-Medical Only",
       "Retail: Non-Storefront": "Prohibited",
-      "Distribution": "Allowed",
-      "Testing": "Allowed",
-      "Manufacturing": "Allowed",
+      "Distribution": "Limited-Medical Only",
+      "Testing": "Limited-Medical Only",
+      "Manufacturing": "Limited-Medical Only",
       "Cultivation": "Prohibited",
       "Are all CCA activites prohibited?": "No",
       "Is all retail prohibited?": "No",
       "CCA Prohibited by County": "",
-      "Updated": "2022-08-17"
+      "Updated": "2024-07-16"
    },
    "Marysville": {
       "CA Places Key": "Marysville",
