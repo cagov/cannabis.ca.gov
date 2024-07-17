@@ -11,7 +11,7 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
     category.replace("-", " ")
   );
   const intersection = postCategories.filter((category) =>
-    unsluggedCategories.includes(category.toLowerCase())
+    (category != null && unsluggedCategories.includes(category.toLowerCase()))
   );
   return intersection.length > 0;
 };
