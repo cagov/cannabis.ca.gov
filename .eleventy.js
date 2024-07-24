@@ -1,4 +1,4 @@
-const { EleventyI18nPlugin } = require("@11ty/eleventy");
+const { EleventyI18nPlugin } = require("@11ty/eleventy"); 
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require("@cagov/11ty-build-system");

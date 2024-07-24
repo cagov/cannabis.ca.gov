@@ -52,6 +52,7 @@
           document
             .querySelector('.js-cagov-current-year')
             .innerHTML = new Date().getFullYear();
+            //Start Circular Links Removal - by Mukhtar
             // Get the current pathname
 
 var currentPathname = window.location.pathname;
@@ -99,6 +100,7 @@ if (queryDiv) {
   });
 
 }
+            //End Circular Links Removal test build
         </script>&nbsp;{{ 'State of California' | i18n(locale) }}
       </p>
     </div>

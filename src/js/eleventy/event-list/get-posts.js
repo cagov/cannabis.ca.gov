@@ -1,5 +1,5 @@
 const fs = require("fs");
-const config = require("../../../../config");
+const config = require("../../../../config/index.js");
 
 /**
  * Checks for a match between two sets of categories.
@@ -12,7 +12,7 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
     category.replace("-", " ")
   );
   const intersection = postCategories.filter((category) =>
-    unsluggedCategories.includes(category.toLowerCase())
+    (category != null && unsluggedCategories.includes(category.toLowerCase()))
   );
   return intersection.length > 0;
 };
@@ -43,20 +43,21 @@ const getEventsByCategory = (categoryString, count = 5) => {
     }
   });
 
-  const postsToReturn = wordPressArray
-    .sort((a, b) => {
-      try {
-        // @TODO TEST EVENTS -
-        const aDate = a.data.event.startDate;
-        const bDate = b.data.event.startDate;
-        return new Date(aDate) - new Date(bDate);
-      } catch (error) {
-        console.error("missing date value");
-        return 0; // Trying no difference to skip sort values.
-      }
-    })
-    .slice(-count)
-    .reverse();
+  // this was unused
+  // const postsToReturn = wordPressArray
+  //   .sort((a, b) => {
+  //     try {
+  //       // @TODO TEST EVENTS -
+  //       const aDate = a.data.event.startDate;
+  //       const bDate = b.data.event.startDate;
+  //       return new Date(aDate) - new Date(bDate);
+  //     } catch (error) {
+  //       console.error("missing date value");
+  //       return 0; // Trying no difference to skip sort values.
+  //     }
+  //   })
+  //   .slice(-count)
+  //   .reverse();
 
     const today = new Date();
     const tomorrow = new Date(today);
@@ -72,6 +73,7 @@ const getEventsByCategory = (categoryString, count = 5) => {
         console.error("missing date value");
         return a;
       }
+      return a;
     });
 
   return postsToReturnRecent;
