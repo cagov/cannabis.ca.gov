@@ -1,6 +1,6 @@
 name: 11ty build Production Site
 # site:  https://headless.cannabis.ca.gov
-# s3 bucket http://cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com 
+# s3 bucket http://headless.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
 # editor: https://api.cannabis.ca.gov
 on:
   workflow_run:
@@ -49,38 +49,38 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@master
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-1
 
       # Deploy to cannabis.ca.gov
       # jbum added exclude
-      - name: Deploy to S3 (cannabis.ca.gov.live)
-        run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov.live --exclude 'wp-content/uploads/*'
+      - name: Deploy to S3 (cannabis.ca.gov)
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://cannabis.ca.gov --exclude 'wp-content/uploads/*'
       # Reset the cache-control headers on static assets on production S3 bucket
       - name: Reset cache-control on fonts
         uses: prewk/s3-cp-action@v2
         with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-west-1'   # optional: defaults to us-east-1
           source: './docs/fonts'
-          dest: 's3://cannabis.ca.gov.live/fonts'
+          dest: 's3://cannabis.ca.gov/fonts'
           flags: --recursive --cache-control max-age=15552000
       - name: Reset cache-control on assets
         uses: prewk/s3-cp-action@v2
         with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-west-1'   # optional: defaults to us-east-1
           source: './docs/assets'
-          dest: 's3://cannabis.ca.gov.live/assets'
+          dest: 's3://cannabis.ca.gov/assets'
           flags: --recursive --cache-control max-age=15552000
       # - name: Reset cache-control on media
       #   uses: prewk/s3-cp-action@v2
       #   with:
-      #     aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
-      #     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
+      #     aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       #     aws_region: 'us-west-1'   # optional: defaults to us-east-1
       #     source: './docs/wp-content/uploads/sites/2'
       #     dest: 's3://cannabis.ca.gov/wp-content/uploads/sites/2'
@@ -88,10 +88,10 @@ jobs:
 
       - name: Deploy redirects
         run: |
-          AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }} npm run deploy:redirects
+          AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy:redirects
 
       - name: Invalidate Cloudfront (cannabis.ca.gov)
         env:
            AWS_RETRY_MODE: standard
            AWS_MAX_ATTEMPTS: 6
-        run: aws cloudfront create-invalidation --distribution-id E314Q1K8WYSBBI --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id E2RLC9PDB1JLNI --paths "/*"
