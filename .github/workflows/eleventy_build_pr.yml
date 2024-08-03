@@ -1,6 +1,6 @@
 name: Deploy PR Preview cannabis.ca.gov
 # site:  https://[branch-name].pr.cannabis.ca.gov
-# s3 bucket http://pr.cannabis.ca.gov.s3-website-us-west-1.amazonaws.com/
+# s3 bucket http://pr.cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com 
 # editor: https://api.cannabis.ca.gov
 on:
   pull_request:
@@ -47,14 +47,14 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@master
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
           aws-region: us-west-1
       # jbum added exclude
       - name: Deploy to S3
-        run: aws s3 sync --follow-symlinks --delete ./docs s3://pr.cannabis.ca.gov/pr/${URLSAFE_BRANCH_NAME} --exclude 'wp-content/uploads/*'
+        run: aws s3 sync --follow-symlinks --delete ./docs s3://pr.cannabis.ca.gov.live/pr/${URLSAFE_BRANCH_NAME} --exclude 'wp-content/uploads/*'
       - name: Invalidate CloudFront cache
-        run: aws cloudfront create-invalidation --distribution-id ELR9BZ6ZDNOSW --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id E36Q5U59Q91THE --paths "/*"
       - name: Post URL to PR
         uses: mshick/add-pr-comment@v1
         with:
