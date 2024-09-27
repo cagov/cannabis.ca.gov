@@ -8966,11 +8966,13 @@ if (queryDiv) {
 
       var href = link.getAttribute('href');
 
-     
+     // Extract pathname from href
+
+      var hrefPathname = new URL(href).pathname;
 
       // Check if the href matches the current pathname
 
-      if (href === currentPathname) {
+      if (hrefPathname === currentPathname) {
 
         // Remove the 'li' element if the href matches
 
