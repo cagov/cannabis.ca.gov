@@ -11,7 +11,7 @@ on:
       - reopened
 jobs:
   build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: n1hility/cancel-previous-runs@v2
         with: 
