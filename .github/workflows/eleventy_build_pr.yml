@@ -1,6 +1,6 @@
 name: Deploy PR Preview cannabis.ca.gov
 # site:  https://[branch-name].pr.cannabis.ca.gov
-# s3 bucket http://pr.cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com
+# s3 bucket http://pr.cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com 
 # editor: https://api.cannabis.ca.gov
 on:
   pull_request:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: n1hility/cancel-previous-runs@v2
-        with:
+        with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
       - name: Use Node.js 18.x
@@ -61,5 +61,5 @@ jobs:
           message: |
             Preview site available at [${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov](https://${{ env.URLSAFE_BRANCH_NAME }}.pr.cannabis.ca.gov/).
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: "github-actions[bot]"
+          repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false

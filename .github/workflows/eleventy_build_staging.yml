@@ -1,18 +1,18 @@
 name: 11ty build Staging Site
 # site:  https://staging.cannabis.ca.gov
-# s3 bucket http://staging.cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com
+# s3 bucket http://staging.cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com 
 # editor: https://api.cannabis.ca.gov
 on:
   workflow_run:
     workflows: ["Update static content [staging]"]
-    types: ["completed"]
+    types: ['completed']
     branches:
       - staging
   push:
     branches:
       - staging
 
-concurrency:
+concurrency: 
   group: sync_staging_deployments
   cancel-in-progress: true
 
@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 18.16.0
-          cache: "npm"
+          cache: 'npm'
       - name: Install packages
         run: |
           mkdir dist
@@ -61,19 +61,20 @@ jobs:
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
-          aws_region: "us-west-1" # optional: defaults to us-east-1
-          source: "./docs/fonts"
-          dest: "s3://staging.cannabis.ca.gov.live/fonts"
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/fonts'
+          dest: 's3://staging.cannabis.ca.gov.live/fonts'
           flags: --recursive --cache-control max-age=15552000
       - name: Reset cache-control on assets
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
-          aws_region: "us-west-1" # optional: defaults to us-east-1
-          source: "./docs/assets"
-          dest: "s3://staging.cannabis.ca.gov.live/assets"
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/assets'
+          dest: 's3://staging.cannabis.ca.gov.live/assets'
           flags: --recursive --cache-control max-age=15552000
+
 
       # - name: Deploy redirects
       #  run: |
