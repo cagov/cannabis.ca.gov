@@ -1,30 +1,30 @@
 name: 11ty build Production Site
 # site:  https://headless.cannabis.ca.gov
-# s3 bucket http://cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com 
+# s3 bucket http://cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com
 # editor: https://api.cannabis.ca.gov
 on:
   workflow_run:
     workflows: ["Update static content [main]"]
-    types: ['completed']
+    types: ["completed"]
     branches:
       - main
   push:
     branches:
       - main
 
-concurrency: 
+concurrency:
   group: sync_deployments
   cancel-in-progress: true
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
           node-version: 18.16.0
-          cache: 'npm'
+          cache: "npm"
       - name: Install packages
         run: |
           mkdir dist
@@ -44,7 +44,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_production
-      
+
       # Set up AWS CLI
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@master
@@ -63,18 +63,18 @@ jobs:
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
-          aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/fonts'
-          dest: 's3://cannabis.ca.gov.live/fonts'
+          aws_region: "us-west-1" # optional: defaults to us-east-1
+          source: "./docs/fonts"
+          dest: "s3://cannabis.ca.gov.live/fonts"
           flags: --recursive --cache-control max-age=15552000
       - name: Reset cache-control on assets
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_MUKHTAR }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_MUKHTAR }}
-          aws_region: 'us-west-1'   # optional: defaults to us-east-1
-          source: './docs/assets'
-          dest: 's3://cannabis.ca.gov.live/assets'
+          aws_region: "us-west-1" # optional: defaults to us-east-1
+          source: "./docs/assets"
+          dest: "s3://cannabis.ca.gov.live/assets"
           flags: --recursive --cache-control max-age=15552000
       # - name: Reset cache-control on media
       #   uses: prewk/s3-cp-action@v2
@@ -92,6 +92,6 @@ jobs:
 
       - name: Invalidate Cloudfront (cannabis.ca.gov)
         env:
-           AWS_RETRY_MODE: standard
-           AWS_MAX_ATTEMPTS: 6
+          AWS_RETRY_MODE: standard
+          AWS_MAX_ATTEMPTS: 6
         run: aws cloudfront create-invalidation --distribution-id E314Q1K8WYSBBI --paths "/*"

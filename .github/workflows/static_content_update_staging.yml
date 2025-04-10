@@ -5,22 +5,22 @@ on:
   repository_dispatch:
     types: [static_content_update_staging]
 
-concurrency: 
+concurrency:
   group: sync_static_content_update_staging
   cancel-in-progress: true
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 18.16.0
-          cache: 'npm'
+          cache: "npm"
       - run: git pull origin # jbum added
       - run: npm ci --production
-      - name: Check for static content updates # update static content repo. 
+      - name: Check for static content updates # update static content repo.
         run: |
           npm update static-content-cannabis-staging
       - name: Create Pull Request # https://github.com/marketplace/actions/create-pull-request
@@ -28,11 +28,11 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          committer: ${{ secrets.ODI_GITHUB_USER }} <noreply@github.com> 
+          committer: ${{ secrets.ODI_GITHUB_USER }} <noreply@github.com>
           base: staging
           title: "Static content update to staging branch"
           body: |
-           Method: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis-staging (Static content repo, staging branch)
+            Method: api.cannabis.ca.gov (WordPress REST API, Pantheon), content tagged "staging" > @cagov/cannabis-lambda-sync-github (AWS CloudFormation, arc.codes) > @cagov/static-content-cannabis-staging (Static content repo, staging branch)
           labels: |
             content-update-staging
             automerge
@@ -43,7 +43,7 @@ jobs:
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"  
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
       - name: Auto approve static content update changes # https://github.com/hmarr/auto-approve-action
         if: ${{ steps.cpr.outputs.pull-request-number }}
         uses: hmarr/auto-approve-action@v2
