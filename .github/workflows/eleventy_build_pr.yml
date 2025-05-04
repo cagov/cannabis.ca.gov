@@ -1,7 +1,7 @@
 name: Deploy PR Preview cannabis.ca.gov
 # site:  https://[branch-name].pr.cannabis.ca.gov
 # s3 bucket http://pr.cannabis.ca.gov.live.s3-website-us-west-1.amazonaws.com 
-# editor: https://api.cannabis.ca.gov
+# editor: https://api.cannabis.ca.gov 
 on:
   pull_request:
     types:
