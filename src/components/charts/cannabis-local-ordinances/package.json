@@ -30,7 +30,7 @@
     "chokidar": "^3.5.3",
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.1",
-    "eslint": "^7.32.0",
+    "eslint": "^10.5.0",
     "eslint-config-prettier": "^8.3.0",
     "gulp": "^4.0.2",
     "html-webpack-plugin": "^5.5.0",
