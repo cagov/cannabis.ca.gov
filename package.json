@@ -51,8 +51,8 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.15",
-    "@cagov/11ty-build-system": "^1.0.0-beta.2",
+    "@11ty/eleventy": "^2.0.1",
+    "@cagov/11ty-build-system": "^1.1.0",
     "@cagov/ds-accordion": "^2.0.3",
     "@cagov/ds-back-to-top": "^2.0.2",
     "@cagov/ds-base-css": "^2.0.0-beta.1",
